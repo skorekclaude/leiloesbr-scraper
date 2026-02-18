@@ -119,103 +119,102 @@ const STATIC_MODE = true;
     # Wstaw przed </head>
     html_output = html_template.replace("</head>", inject_script + "</head>")
 
-    # Nadpisz funkcje API na lokalne
-    api_override = """
-// === STATIC MODE: Override API functions ===
-if (typeof STATIC_MODE !== 'undefined' && STATIC_MODE) {
-    // Override api() - no server needed
-    async function api(endpoint, options) {
-        // Stats
-        if (endpoint === 'stats') {
-            return STATIC_DATA.stats;
-        }
-        // Collection list
-        if (endpoint.startsWith('collection') && !endpoint.includes('/')) {
-            const url = new URL('http://x/' + endpoint);
-            const params = url.searchParams;
-            let items = [...STATIC_DATA.objects];
-
-            // Filters
-            const cat = params.get('category');
-            if (cat) items = items.filter(i => i.category === cat);
-
-            const search = params.get('search');
-            if (search) {
-                const s = search.toLowerCase();
-                items = items.filter(i =>
-                    (i.title || '').toLowerCase().includes(s) ||
-                    (i.description || '').toLowerCase().includes(s) ||
-                    (i.artist_name_display || '').toLowerCase().includes(s) ||
-                    (i.inventory_number || '').toLowerCase().includes(s) ||
-                    (i.notes || '').toLowerCase().includes(s) ||
-                    (i.title_pl || '').toLowerCase().includes(s) ||
-                    (i.title_en || '').toLowerCase().includes(s) ||
-                    (i.description_pl || '').toLowerCase().includes(s) ||
-                    (i.description_en || '').toLowerCase().includes(s)
-                );
-            }
-
-            const hasPhoto = params.get('has_photo');
-            if (hasPhoto === 'yes') items = items.filter(i => i.photos && i.photos.length > 0);
-            if (hasPhoto === 'no') items = items.filter(i => !i.photos || i.photos.length === 0);
-
-            // Sort
-            const sort = params.get('sort') || 'title';
-            const sortFns = {
-                'title': (a,b) => (a.title||'').localeCompare(b.title||''),
-                'artist': (a,b) => (a.artist_name_display||'').localeCompare(b.artist_name_display||''),
-                'date': (a,b) => (b.acquisition_date||'').localeCompare(a.acquisition_date||''),
-                'price_desc': (a,b) => (b.acquisition_price||0) - (a.acquisition_price||0),
-                'price_asc': (a,b) => (a.acquisition_price||0) - (b.acquisition_price||0),
-                'category': (a,b) => (a.category||'').localeCompare(b.category||''),
-                'newest': (a,b) => (b.created_at||'').localeCompare(a.created_at||''),
-            };
-            if (sortFns[sort]) items.sort(sortFns[sort]);
-
-            // Pagination
-            const page = parseInt(params.get('page') || '1');
-            const perPage = parseInt(params.get('per_page') || '48');
-            const total = items.length;
-            const start = (page - 1) * perPage;
-            const pageItems = items.slice(start, start + perPage);
-
-            // Add photo info
-            for (const item of pageItems) {
-                item.photo_count = item.photos ? item.photos.length : 0;
-            }
-
-            return {
-                items: pageItems,
-                total: total,
-                page: page,
-                per_page: perPage,
-                pages: Math.max(1, Math.ceil(total / perPage)),
-            };
-        }
-        // Collection detail
-        const detailMatch = endpoint.match(/^collection\\/(\\d+)$/);
-        if (detailMatch) {
-            const id = parseInt(detailMatch[1]);
-            const obj = STATIC_DATA.objects.find(o => o.id === id);
-            if (!obj) return { error: 'Not found' };
-            const result = { ...obj };
-            result.photos = (obj.photos || []).map(p => ({
-                ...p,
-                url: 'images/' + p.filename,
-            }));
-            result.valuations = [];
-            return result;
-        }
-        // Stats
-        if (endpoint === 'stats') return STATIC_DATA.stats;
-        // Default
-        return { error: 'Not found in static mode' };
+    # Replace the original api() function with static version
+    # The original api() does fetch('/api/...') which fails on static hosting.
+    # We replace it directly so there's no scoping/hoisting issues.
+    static_api = """async function api(endpoint, options) {
+    // === STATIC MODE: Read from embedded STATIC_DATA ===
+    // Stats
+    if (endpoint === 'stats') {
+        return STATIC_DATA.stats;
     }
-}
-"""
+    // Collection list
+    if (endpoint.startsWith('collection') && !endpoint.includes('/')) {
+        const url = new URL('http://x/' + endpoint);
+        const params = url.searchParams;
+        let items = [...STATIC_DATA.objects];
 
-    # Wstaw override po <script> tagiem (po "// === STATE ===")
-    html_output = html_output.replace("// === STATE ===", api_override + "\n// === STATE ===")
+        // Filters
+        const cat = params.get('category');
+        if (cat) items = items.filter(i => i.category === cat);
+
+        const search = params.get('search');
+        if (search) {
+            const s = search.toLowerCase();
+            items = items.filter(i =>
+                (i.title || '').toLowerCase().includes(s) ||
+                (i.description || '').toLowerCase().includes(s) ||
+                (i.artist_name_display || '').toLowerCase().includes(s) ||
+                (i.inventory_number || '').toLowerCase().includes(s) ||
+                (i.notes || '').toLowerCase().includes(s) ||
+                (i.title_pl || '').toLowerCase().includes(s) ||
+                (i.title_en || '').toLowerCase().includes(s) ||
+                (i.description_pl || '').toLowerCase().includes(s) ||
+                (i.description_en || '').toLowerCase().includes(s)
+            );
+        }
+
+        const hasPhoto = params.get('has_photo');
+        if (hasPhoto === 'yes') items = items.filter(i => i.photos && i.photos.length > 0);
+        if (hasPhoto === 'no') items = items.filter(i => !i.photos || i.photos.length === 0);
+
+        // Sort
+        const sort = params.get('sort') || 'title';
+        const sortFns = {
+            'title': (a,b) => (a.title||'').localeCompare(b.title||''),
+            'artist': (a,b) => (a.artist_name_display||'').localeCompare(b.artist_name_display||''),
+            'date': (a,b) => (b.acquisition_date||'').localeCompare(a.acquisition_date||''),
+            'price_desc': (a,b) => (b.acquisition_price||0) - (a.acquisition_price||0),
+            'price_asc': (a,b) => (a.acquisition_price||0) - (b.acquisition_price||0),
+            'category': (a,b) => (a.category||'').localeCompare(b.category||''),
+            'newest': (a,b) => (b.created_at||'').localeCompare(a.created_at||''),
+        };
+        if (sortFns[sort]) items.sort(sortFns[sort]);
+
+        // Pagination
+        const page = parseInt(params.get('page') || '1');
+        const perPage = parseInt(params.get('per_page') || '48');
+        const total = items.length;
+        const start = (page - 1) * perPage;
+        const pageItems = items.slice(start, start + perPage);
+
+        // Add photo info
+        for (const item of pageItems) {
+            item.photo_count = item.photos ? item.photos.length : 0;
+        }
+
+        return {
+            items: pageItems,
+            total: total,
+            page: page,
+            per_page: perPage,
+            pages: Math.max(1, Math.ceil(total / perPage)),
+        };
+    }
+    // Collection detail
+    const detailMatch = endpoint.match(/^collection\\/(\\d+)$/);
+    if (detailMatch) {
+        const id = parseInt(detailMatch[1]);
+        const obj = STATIC_DATA.objects.find(o => o.id === id);
+        if (!obj) return { error: 'Not found' };
+        const result = { ...obj };
+        result.photos = (obj.photos || []).map(p => ({
+            ...p,
+            url: 'images/' + p.filename,
+        }));
+        result.valuations = [];
+        return result;
+    }
+    // Default
+    return { error: 'Not found in static mode' };
+}"""
+
+    # Replace the original api() definition directly
+    original_api = """async function api(endpoint, options) {
+    const resp = await fetch('/api/' + endpoint, options);
+    return resp.json();
+}"""
+    html_output = html_output.replace(original_api, static_api)
 
     # Ukryj scraper/aukcje tabs w trybie statycznym (bo nie ma tych danych)
     static_css = """
