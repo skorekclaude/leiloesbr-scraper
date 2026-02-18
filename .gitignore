@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Database — too large, local only
+artcollection.db
+data/*.db
+
+# Images — too large for git
+images/auction/
+images/collection/
+
+# Scraper state & logs
+data/scraper_state.json
+data/scraper_log.txt
+
+# Reports — generated locally
+reports/daily/
+reports/exports/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+nul
+*.swp
+.vscode/
+.idea/
+
+# Claude Code
+.claude/
+
+# Misc junk
+C:*
+python

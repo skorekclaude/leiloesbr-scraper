@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Art Collection — Katalog Muzealny</title>
+<style>
+/* === RESET & BASE === */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f1117; color: #e0e0e0; min-height: 100vh; }
+a { color: #6ea8fe; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* === LAYOUT === */
+.header { background: #1a1d27; border-bottom: 1px solid #2a2d37; padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+.header h1 { font-size: 20px; color: #fff; font-weight: 600; }
+.header h1 span { color: #f0b429; }
+.header .last-run { font-size: 13px; color: #888; }
+
+/* === LANGUAGE TOGGLE === */
+.lang-toggle { display: flex; gap: 2px; background: #1e2130; border-radius: 8px; padding: 2px; }
+.lang-btn { background: transparent; border: none; color: #888; padding: 5px 10px; border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: 500; transition: all 0.15s; white-space: nowrap; }
+.lang-btn:hover { color: #e0e0e0; background: #282b3a; }
+.lang-btn.active { background: #f0b429; color: #000; font-weight: 700; }
+
+.main { display: flex; min-height: calc(100vh - 57px); }
+
+.sidebar { width: 280px; background: #161820; border-right: 1px solid #2a2d37; padding: 16px; overflow-y: auto; flex-shrink: 0; }
+.content { flex: 1; padding: 24px; overflow-y: auto; }
+
+/* === STATS CARDS === */
+.stats-row { display: flex; gap: 16px; margin-bottom: 24px; flex-wrap: wrap; }
+.stat-card { background: #1a1d27; border: 1px solid #2a2d37; border-radius: 10px; padding: 20px; flex: 1; min-width: 150px; }
+.stat-card .number { font-size: 32px; font-weight: 700; color: #f0b429; }
+.stat-card .label { font-size: 13px; color: #888; margin-top: 4px; }
+
+/* === SIDEBAR === */
+.sidebar h3 { font-size: 12px; text-transform: uppercase; color: #666; letter-spacing: 1px; margin-bottom: 8px; margin-top: 20px; }
+.sidebar h3:first-child { margin-top: 0; }
+
+.nav-tabs { display: flex; gap: 4px; margin-bottom: 16px; flex-wrap: wrap; }
+.nav-tab { padding: 8px 14px; border-radius: 6px; background: #1e2130; color: #aaa; cursor: pointer; font-size: 13px; border: none; transition: all 0.15s; }
+.nav-tab:hover { background: #282b3a; color: #fff; }
+.nav-tab.active { background: #f0b429; color: #000; font-weight: 600; }
+
+.filter-group { margin-bottom: 12px; }
+.filter-group label { display: block; font-size: 12px; color: #888; margin-bottom: 4px; }
+.filter-group select, .filter-group input { width: 100%; padding: 8px 10px; background: #1e2130; border: 1px solid #2a2d37; border-radius: 6px; color: #e0e0e0; font-size: 13px; outline: none; }
+.filter-group select:focus, .filter-group input:focus { border-color: #f0b429; }
+.filter-group input::placeholder { color: #555; }
+
+.search-box { position: relative; margin-bottom: 16px; }
+.search-box input { width: 100%; padding: 10px 12px 10px 36px; background: #1e2130; border: 1px solid #2a2d37; border-radius: 8px; color: #e0e0e0; font-size: 14px; outline: none; }
+.search-box input:focus { border-color: #f0b429; }
+.search-box::before { content: "🔍"; position: absolute; left: 10px; top: 50%; transform: translateY(-50%); font-size: 14px; }
+
+.artist-list { max-height: 400px; overflow-y: auto; }
+.artist-item { padding: 6px 10px; border-radius: 5px; cursor: pointer; font-size: 13px; display: flex; justify-content: space-between; transition: background 0.1s; }
+.artist-item:hover { background: #1e2130; }
+.artist-item.active { background: #2a2d37; color: #f0b429; }
+.artist-item .count { background: #2a2d37; color: #888; padding: 1px 7px; border-radius: 10px; font-size: 11px; }
+.artist-item.active .count { background: #f0b429; color: #000; }
+
+/* === ITEMS GRID === */
+.results-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+.results-header h2 { font-size: 18px; color: #fff; }
+.results-header .count { color: #888; font-size: 14px; }
+
+.items-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+
+.item-card { background: #1a1d27; border: 1px solid #2a2d37; border-radius: 10px; overflow: hidden; transition: border-color 0.15s, transform 0.15s; cursor: pointer; }
+.item-card:hover { border-color: #f0b429; transform: translateY(-2px); }
+
+.item-card .thumb { width: 100%; height: 200px; background: #111318; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.item-card .thumb img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.item-card .thumb .no-img { color: #333; font-size: 48px; }
+
+.item-card .info { padding: 14px; }
+.item-card .title { font-size: 14px; font-weight: 600; color: #fff; margin-bottom: 6px; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.item-card .meta { font-size: 12px; color: #888; margin-bottom: 4px; }
+.item-card .price { font-size: 16px; font-weight: 700; color: #4ade80; margin-top: 8px; }
+.item-card .price.no-price { color: #555; font-weight: 400; font-size: 13px; }
+.item-card .tags { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
+.item-card .tag { padding: 2px 8px; border-radius: 4px; font-size: 11px; }
+.tag.high { background: #1a3a1a; color: #4ade80; }
+.tag.medium { background: #3a3a1a; color: #f0b429; }
+.tag.low { background: #3a1a1a; color: #f87171; }
+.tag.category { background: #1a2a3a; color: #6ea8fe; }
+
+/* === PAGINATION === */
+.pagination { display: flex; justify-content: center; gap: 8px; margin-top: 24px; }
+.pagination button { padding: 8px 14px; background: #1e2130; border: 1px solid #2a2d37; border-radius: 6px; color: #e0e0e0; cursor: pointer; font-size: 13px; }
+.pagination button:hover { border-color: #f0b429; }
+.pagination button.active { background: #f0b429; color: #000; border-color: #f0b429; }
+.pagination button:disabled { opacity: 0.3; cursor: not-allowed; }
+
+/* === SCRAPER RUNS === */
+.runs-table { width: 100%; border-collapse: collapse; margin-top: 16px; }
+.runs-table th { text-align: left; padding: 8px 12px; background: #1a1d27; color: #888; font-size: 12px; }
+.runs-table td { padding: 8px 12px; font-size: 13px; border-bottom: 1px solid #1e2130; }
+.status-badge { padding: 2px 8px; border-radius: 4px; font-size: 11px; }
+.status-badge.completed { background: #1a3a1a; color: #4ade80; }
+.status-badge.running { background: #1a2a3a; color: #6ea8fe; }
+.status-badge.interrupted { background: #3a3a1a; color: #f0b429; }
+
+/* === LOADING === */
+.loading { text-align: center; padding: 40px; color: #555; }
+.spinner { display: inline-block; width: 24px; height: 24px; border: 3px solid #2a2d37; border-top-color: #f0b429; border-radius: 50%; animation: spin 0.8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* === EMPTY STATE === */
+.empty-state { text-align: center; padding: 60px 20px; color: #555; }
+.empty-state .icon { font-size: 48px; margin-bottom: 16px; }
+.empty-state h3 { color: #888; margin-bottom: 8px; }
+
+/* === MODAL === */
+.modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 1000; align-items: center; justify-content: center; }
+.modal-overlay.open { display: flex; }
+.modal { background: #1a1d27; border: 1px solid #2a2d37; border-radius: 12px; max-width: 700px; width: 95%; max-height: 90vh; overflow-y: auto; padding: 24px; }
+.modal h2 { font-size: 18px; color: #fff; margin-bottom: 20px; }
+.modal .form-row { display: flex; gap: 12px; margin-bottom: 12px; }
+.modal .form-row > * { flex: 1; }
+.modal .form-group { margin-bottom: 12px; }
+.modal .form-group label { display: block; font-size: 12px; color: #888; margin-bottom: 4px; }
+.modal .form-group input, .modal .form-group select, .modal .form-group textarea {
+    width: 100%; padding: 8px 10px; background: #1e2130; border: 1px solid #2a2d37;
+    border-radius: 6px; color: #e0e0e0; font-size: 13px; outline: none; font-family: inherit;
+}
+.modal .form-group input:focus, .modal .form-group select:focus, .modal .form-group textarea:focus { border-color: #f0b429; }
+.modal .form-group textarea { min-height: 60px; resize: vertical; }
+.modal .form-section { font-size: 13px; color: #f0b429; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin: 20px 0 10px; padding-bottom: 6px; border-bottom: 1px solid #2a2d37; }
+.modal-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 20px; padding-top: 16px; border-top: 1px solid #2a2d37; }
+
+/* === BUTTONS === */
+.btn { padding: 8px 16px; border-radius: 6px; font-size: 13px; cursor: pointer; border: 1px solid #2a2d37; transition: all 0.15s; }
+.btn-primary { background: #f0b429; color: #000; font-weight: 600; border-color: #f0b429; }
+.btn-primary:hover { background: #e0a420; }
+.btn-secondary { background: #1e2130; color: #e0e0e0; }
+.btn-secondary:hover { background: #282b3a; }
+.btn-danger { background: #3a1a1a; color: #f87171; border-color: #5a2a2a; }
+.btn-danger:hover { background: #4a2020; }
+.btn-sm { padding: 4px 10px; font-size: 11px; }
+
+/* === DETAIL VIEW === */
+.detail-back { display: inline-flex; align-items: center; gap: 6px; color: #888; font-size: 13px; cursor: pointer; margin-bottom: 16px; }
+.detail-back:hover { color: #f0b429; }
+.detail-header { display: flex; gap: 24px; margin-bottom: 24px; }
+.detail-gallery { flex: 0 0 400px; }
+.detail-gallery .main-img { width: 100%; height: 300px; background: #111318; border-radius: 10px; display: flex; align-items: center; justify-content: center; overflow: hidden; margin-bottom: 8px; }
+.detail-gallery .main-img img { max-width: 100%; max-height: 100%; object-fit: contain; cursor: pointer; }
+.detail-gallery .thumbs { display: flex; gap: 6px; flex-wrap: wrap; }
+.detail-gallery .thumb-sm { width: 60px; height: 60px; background: #111318; border: 2px solid #2a2d37; border-radius: 6px; overflow: hidden; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+.detail-gallery .thumb-sm.active { border-color: #f0b429; }
+.detail-gallery .thumb-sm img { max-width: 100%; max-height: 100%; object-fit: cover; }
+.detail-info { flex: 1; }
+.detail-info h2 { font-size: 22px; color: #fff; margin-bottom: 4px; }
+.detail-info .artist { font-size: 16px; color: #f0b429; margin-bottom: 16px; }
+.detail-meta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 20px; }
+.detail-meta-grid .dm-label { font-size: 11px; color: #666; text-transform: uppercase; }
+.detail-meta-grid .dm-value { font-size: 13px; color: #e0e0e0; margin-bottom: 8px; }
+
+/* === PHOTO UPLOAD === */
+.photo-upload-area { border: 2px dashed #2a2d37; border-radius: 8px; padding: 24px; text-align: center; color: #555; cursor: pointer; transition: border-color 0.2s; margin-top: 12px; }
+.photo-upload-area:hover { border-color: #f0b429; }
+.photo-upload-area.dragover { border-color: #f0b429; background: rgba(240,180,41,0.05); }
+
+/* === LIGHTBOX === */
+.lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.9); z-index: 2000; align-items: center; justify-content: center; cursor: pointer; }
+.lightbox.open { display: flex; }
+.lightbox img { max-width: 90%; max-height: 90%; object-fit: contain; }
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+    .main { flex-direction: column; }
+    .sidebar { width: 100%; max-height: 300px; border-right: none; border-bottom: 1px solid #2a2d37; }
+    .items-grid { grid-template-columns: 1fr; }
+    .stats-row { flex-direction: column; }
+    .detail-header { flex-direction: column; }
+    .detail-gallery { flex: none; }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #2a2d37; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #3a3d47; }
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>🎨 <span>Art</span> Collection</h1>
+    <div style="display:flex;align-items:center;gap:16px;">
+        <div class="lang-toggle" id="langToggle">
+            <button class="lang-btn active" data-lang="original" onclick="setLang('original', this)" title="Oryginał (PT)">🇧🇷 PT</button>
+            <button class="lang-btn" data-lang="pl" onclick="setLang('pl', this)" title="Polski">🇵🇱 PL</button>
+            <button class="lang-btn" data-lang="en" onclick="setLang('en', this)" title="English">🇬🇧 EN</button>
+        </div>
+        <div class="last-run" id="lastRun"></div>
+    </div>
+</div>
+
+<div class="main">
+    <div class="sidebar">
+        <!-- NAWIGACJA -->
+        <div class="nav-tabs" id="navTabs">
+            <button class="nav-tab" data-view="collection" onclick="switchView('collection', this)">Kolekcja</button>
+            <button class="nav-tab active" data-view="items" onclick="switchView('items', this)">Aukcje</button>
+            <button class="nav-tab" data-view="runs" onclick="switchView('runs', this)">Scraper</button>
+        </div>
+
+        <!-- SIDEBAR CONTENT (zmienia sie per view) -->
+        <div id="sidebarContent">
+        </div>
+    </div>
+
+    <div class="content" id="mainContent">
+        <div class="loading"><div class="spinner"></div></div>
+    </div>
+</div>
+
+<!-- MODAL: Dodaj/Edytuj obiekt -->
+<div class="modal-overlay" id="objectModal">
+    <div class="modal">
+        <h2 id="modalTitle">Nowy obiekt</h2>
+        <form id="objectForm" onsubmit="saveObject(event)">
+            <input type="hidden" id="formObjectId" value="">
+
+            <div class="form-section">Identyfikacja</div>
+            <div class="form-group">
+                <label>Tytuł *</label>
+                <input type="text" id="formTitle" required placeholder="np. Mangue">
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Artysta</label>
+                    <input type="text" id="formArtist" placeholder="np. Lasar Segall">
+                </div>
+                <div class="form-group">
+                    <label>Data powstania</label>
+                    <input type="text" id="formDateCreated" placeholder="np. 1943">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Numer inwentarzowy</label>
+                    <input type="text" id="formInvNumber" placeholder="np. KOL-001">
+                </div>
+                <div class="form-group">
+                    <label>Kategoria *</label>
+                    <select id="formCategory">
+                        <option value="malarstwo">Malarstwo</option>
+                        <option value="grafika">Grafika</option>
+                        <option value="rysunek">Rysunek</option>
+                        <option value="rzeźba">Rzeźba</option>
+                        <option value="fotografia">Fotografia</option>
+                        <option value="rzemiosło">Rzemiosło artystyczne</option>
+                        <option value="meble">Meble</option>
+                        <option value="inne">Inne</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-section">Cechy fizyczne</div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Technika / medium</label>
+                    <input type="text" id="formMedium" placeholder="np. olej na płótnie">
+                </div>
+                <div class="form-group">
+                    <label>Podłoże</label>
+                    <input type="text" id="formSupport" placeholder="np. płótno, papier">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Wys. (cm)</label>
+                    <input type="number" step="0.1" id="formHeight" placeholder="0">
+                </div>
+                <div class="form-group">
+                    <label>Szer. (cm)</label>
+                    <input type="number" step="0.1" id="formWidth" placeholder="0">
+                </div>
+                <div class="form-group">
+                    <label>Gł. (cm)</label>
+                    <input type="number" step="0.1" id="formDepth" placeholder="0">
+                </div>
+            </div>
+
+            <div class="form-section">Nabycie</div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Data nabycia</label>
+                    <input type="date" id="formAcqDate">
+                </div>
+                <div class="form-group">
+                    <label>Źródło</label>
+                    <input type="text" id="formAcqSource" placeholder="np. Liber Rarus Aukcje">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Cena nabycia</label>
+                    <input type="number" step="0.01" id="formAcqPrice" placeholder="0.00">
+                </div>
+                <div class="form-group">
+                    <label>Waluta</label>
+                    <select id="formAcqCurrency">
+                        <option value="BRL">BRL (Real)</option>
+                        <option value="PLN">PLN (Złoty)</option>
+                        <option value="USD">USD (Dolar)</option>
+                        <option value="EUR">EUR (Euro)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-section">Stan i wartość</div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Stan zachowania (1-5)</label>
+                    <select id="formCondition">
+                        <option value="">— nie oceniono —</option>
+                        <option value="5">5 — Doskonały</option>
+                        <option value="4">4 — Bardzo dobry</option>
+                        <option value="3">3 — Dobry</option>
+                        <option value="2">2 — Dostateczny</option>
+                        <option value="1">1 — Wymaga konserwacji</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Szacowana wartość</label>
+                    <input type="number" step="0.01" id="formEstValue" placeholder="0.00">
+                </div>
+            </div>
+
+            <div class="form-section">Dodatkowe informacje</div>
+            <div class="form-group">
+                <label>Proweniencja</label>
+                <textarea id="formProvenance" placeholder="Historia własności obiektu..."></textarea>
+            </div>
+            <div class="form-group">
+                <label>Opis</label>
+                <textarea id="formDescription" placeholder="Opis obiektu..."></textarea>
+            </div>
+            <div class="form-group">
+                <label>Notatki</label>
+                <textarea id="formNotes" placeholder="Prywatne notatki..."></textarea>
+            </div>
+
+            <div class="modal-actions">
+                <button type="button" class="btn btn-secondary" onclick="closeModal()">Anuluj</button>
+                <button type="submit" class="btn btn-primary">Zapisz</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <img id="lightboxImg" src="" alt="">
+</div>
+
+<script>
+// === STATE ===
+let currentView = 'items';
+let currentPage = 1;
+let collectionPage = 1;
+let currentArtistId = null;
+let searchTimeout = null;
+let statsData = null;
+let currentLang = 'original';  // 'original' | 'pl' | 'en'
+let currentDetailId = null;    // ID obiektu w widoku szczegolowym
+
+// === LANGUAGE ===
+function setLang(lang, btn) {
+    currentLang = lang;
+    document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+    if (btn) btn.classList.add('active');
+    // Reload current view to reflect language change
+    if (currentView === 'collection') {
+        if (currentDetailId) {
+            showObjectDetail(currentDetailId);
+        } else {
+            loadCollection();
+        }
+    }
+}
+
+function tr(item, field) {
+    // Get translated field based on currentLang
+    // field = 'title' or 'description'
+    if (currentLang === 'original' || !item) return item[field] || '';
+    const langField = field + '_' + currentLang;  // e.g. 'title_pl', 'description_en'
+    return item[langField] || item[field] || '';
+}
+
+// === INIT ===
+async function init() {
+    await loadStats();
+    switchView('collection', document.querySelector('[data-view="collection"]'));
+}
+
+// === API ===
+async function api(endpoint, options) {
+    const resp = await fetch('/api/' + endpoint, options);
+    return resp.json();
+}
+
+// === STATS ===
+async function loadStats() {
+    statsData = await api('stats');
+    const lr = statsData.last_run;
+    if (lr && lr.finished_at) {
+        const d = new Date(lr.finished_at);
+        document.getElementById('lastRun').textContent =
+            `Ostatni skan: ${d.toLocaleDateString('pl')} ${d.toLocaleTimeString('pl', {hour:'2-digit', minute:'2-digit'})} — ${lr.new_items || 0} nowych`;
+    }
+}
+
+// ================================================================
+// VIEW SWITCHING
+// ================================================================
+function switchView(view, btn) {
+    currentView = view;
+    document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+    if (btn) btn.classList.add('active');
+
+    const sidebar = document.getElementById('sidebarContent');
+
+    if (view === 'collection') {
+        sidebar.innerHTML = buildCollectionSidebar();
+        loadCollection();
+    } else if (view === 'items') {
+        sidebar.innerHTML = buildAuctionSidebar();
+        loadArtists();
+        loadItems();
+    } else if (view === 'runs') {
+        sidebar.innerHTML = '<div style="padding:20px;text-align:center;color:#555;">Historia uruchomień scrapera</div>';
+        loadRuns();
+    }
+}
+
+function buildCollectionSidebar() {
+    // Build category options dynamically from stats
+    let catOptions = '<option value="">Wszystkie</option>';
+    if (statsData && statsData.categories_breakdown) {
+        const cats = statsData.categories_breakdown;
+        for (const [cat, count] of Object.entries(cats)) {
+            catOptions += `<option value="${escHtml(cat)}">${escHtml(cat)} (${count})</option>`;
+        }
+    }
+
+    return `
+        <div class="search-box">
+            <input type="text" id="collSearchInput" placeholder="Szukaj w kolekcji..." oninput="debounceCollSearch()">
+        </div>
+        <div class="filter-group">
+            <label>Kategoria</label>
+            <select id="collFilterCategory" onchange="collectionPage=1; loadCollection()">
+                ${catOptions}
+            </select>
+        </div>
+        <div class="filter-group">
+            <label>Sortowanie</label>
+            <select id="collFilterSort" onchange="collectionPage=1; loadCollection()">
+                <option value="title">Tytuł A-Z</option>
+                <option value="artist">Artysta A-Z</option>
+                <option value="price_desc">Cena ↓</option>
+                <option value="price_asc">Cena ↑</option>
+                <option value="date">Data nabycia ↓</option>
+                <option value="newest">Najnowsze</option>
+                <option value="category">Kategoria</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label>Zdjęcia</label>
+            <select id="collFilterPhoto" onchange="collectionPage=1; loadCollection()">
+                <option value="">Wszystkie</option>
+                <option value="yes">Ze zdjęciem</option>
+                <option value="no">Bez zdjęcia</option>
+            </select>
+        </div>
+        <div style="margin-top:16px;">
+            <button class="btn btn-primary" style="width:100%" onclick="openAddModal()">+ Dodaj obiekt</button>
+        </div>
+        ${statsData ? `
+        <h3 style="margin-top:20px">Kolekcja</h3>
+        <div style="font-size:13px;color:#888;">
+            <div style="margin-bottom:4px;">Obiektów: <strong style="color:#f0b429">${statsData.collection_count || 0}</strong></div>
+            <div>Wartość: <strong style="color:#4ade80">R$ ${Number(statsData.collection_total_value || 0).toLocaleString('pt-BR', {minimumFractionDigits: 2})}</strong></div>
+        </div>
+        ` : ''}
+    `;
+}
+
+function buildAuctionSidebar() {
+    return `
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Szukaj w tytulach..." oninput="debounceSearch()">
+        </div>
+        <h3>Filtry</h3>
+        <div class="filter-group">
+            <label>Confidence</label>
+            <select id="filterConfidence" onchange="loadItems()">
+                <option value="">Wszystkie</option>
+                <option value="high">🎯 High</option>
+                <option value="medium">🟡 Medium</option>
+                <option value="low">🔴 Low</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label>Sortowanie</label>
+            <select id="filterSort" onchange="loadItems()">
+                <option value="newest">Najnowsze</option>
+                <option value="oldest">Najstarsze</option>
+                <option value="price_high">Cena: najdroższe</option>
+                <option value="price_low">Cena: najtańsze</option>
+                <option value="title">Tytuł A-Z</option>
+            </select>
+        </div>
+        <h3>Artyści</h3>
+        <div class="artist-list" id="artistList">
+            <div class="loading"><div class="spinner"></div></div>
+        </div>
+    `;
+}
+
+// ================================================================
+// COLLECTION VIEW
+// ================================================================
+async function loadCollection() {
+    currentDetailId = null;
+    if (currentView !== 'collection') return;
+    const content = document.getElementById('mainContent');
+    content.innerHTML = '<div class="loading"><div class="spinner"></div></div>';
+
+    const params = new URLSearchParams();
+    params.set('page', collectionPage);
+    params.set('per_page', 48);
+
+    const searchEl = document.getElementById('collSearchInput');
+    const search = searchEl ? searchEl.value.trim() : '';
+    if (search) params.set('search', search);
+
+    const catEl = document.getElementById('collFilterCategory');
+    const category = catEl ? catEl.value : '';
+    if (category) params.set('category', category);
+
+    const sortEl = document.getElementById('collFilterSort');
+    const sort = sortEl ? sortEl.value : 'title';
+    params.set('sort', sort);
+
+    const photoEl = document.getElementById('collFilterPhoto');
+    const hasPhoto = photoEl ? photoEl.value : '';
+    if (hasPhoto) params.set('has_photo', hasPhoto);
+
+    const data = await api('collection?' + params.toString());
+
+    let html = '';
+
+    // Stats row
+    if (collectionPage === 1 && !search && !category && !hasPhoto && statsData) {
+        const numCats = statsData.categories_breakdown ? Object.keys(statsData.categories_breakdown).length : 0;
+        html += `<div class="stats-row">
+            <div class="stat-card"><div class="number">${statsData.collection_count || 0}</div><div class="label">Obiektów w kolekcji</div></div>
+            <div class="stat-card"><div class="number">R$ ${Number(statsData.collection_total_value || 0).toLocaleString('pt-BR', {minimumFractionDigits: 0})}</div><div class="label">Łączna wartość</div></div>
+            <div class="stat-card"><div class="number">${numCats}</div><div class="label">Kategorii</div></div>
+            <div class="stat-card"><div class="number">${data.total}</div><div class="label">Znalezionych</div></div>
+        </div>`;
+    }
+
+    html += `<div class="results-header">
+        <h2>${search ? 'Szukaj: "' + escHtml(search) + '"' : 'Moja kolekcja'}</h2>
+        <span class="count">${data.total} obiektów</span>
+    </div>`;
+
+    if (data.items.length === 0) {
+        html += `<div class="empty-state">
+            <div class="icon">🏛️</div>
+            <h3>Kolekcja jest pusta</h3>
+            <p>Dodaj pierwszy obiekt klikając przycisk "Dodaj obiekt" w panelu bocznym.</p>
+        </div>`;
+    } else {
+        html += '<div class="items-grid">';
+        for (const item of data.items) {
+            const price = item.acquisition_price
+                ? `${item.acquisition_currency || 'BRL'} ${Number(item.acquisition_price).toLocaleString('pt-BR', {minimumFractionDigits: 2})}`
+                : null;
+            const estVal = item.current_estimated_value
+                ? `${item.valuation_currency || 'BRL'} ${Number(item.current_estimated_value).toLocaleString('pt-BR', {minimumFractionDigits: 2})}`
+                : null;
+
+            const imgSrc = item.primary_photo || '';
+            const artist = item.artist_name_display || '';
+            const cat = item.category || '';
+            const dims = [item.height_cm, item.width_cm].filter(Boolean).join(' × ');
+
+            html += `<div class="item-card" onclick="showObjectDetail(${item.id})">
+                <div class="thumb">
+                    ${imgSrc ? `<img src="${escHtml(imgSrc)}" alt="" loading="lazy" onerror="this.parentElement.innerHTML='<div class=no-img>🖼</div>'">` : '<div class="no-img">🖼</div>'}
+                </div>
+                <div class="info">
+                    <div class="title">${escHtml(tr(item, 'title'))}</div>
+                    ${artist ? `<div class="meta" style="color:#f0b429">${escHtml(artist)}</div>` : ''}
+                    ${item.date_created ? `<div class="meta">${escHtml(item.date_created)}</div>` : ''}
+                    ${item.medium ? `<div class="meta">${escHtml(item.medium)}${dims ? ' — ' + dims + ' cm' : ''}</div>` : ''}
+                    ${price ? `<div class="meta">Nabycie: <strong>${price}</strong></div>` : ''}
+                    ${estVal ? `<div class="price">${estVal}</div>` : ''}
+                    <div class="tags">
+                        <span class="tag category">${escHtml(cat)}</span>
+                        ${item.photo_count > 0 ? `<span class="tag high">📷 ${item.photo_count}</span>` : ''}
+                    </div>
+                </div>
+            </div>`;
+        }
+        html += '</div>';
+    }
+
+    // Pagination
+    if (data.pages > 1) {
+        html += '<div class="pagination">';
+        html += `<button ${collectionPage <= 1 ? 'disabled' : ''} onclick="collectionPage--; loadCollection()">← Wstecz</button>`;
+        for (let p = Math.max(1, collectionPage-3); p <= Math.min(data.pages, collectionPage+3); p++) {
+            html += `<button class="${p === collectionPage ? 'active' : ''}" onclick="collectionPage=${p}; loadCollection()">${p}</button>`;
+        }
+        html += `<button ${collectionPage >= data.pages ? 'disabled' : ''} onclick="collectionPage++; loadCollection()">Dalej →</button>`;
+        html += '</div>';
+    }
+
+    content.innerHTML = html;
+}
+
+// ================================================================
+// OBJECT DETAIL VIEW
+// ================================================================
+async function showObjectDetail(id) {
+    currentDetailId = id;
+    const content = document.getElementById('mainContent');
+    content.innerHTML = '<div class="loading"><div class="spinner"></div></div>';
+
+    const obj = await api('collection/' + id);
+    if (obj.error) {
+        content.innerHTML = `<div class="empty-state"><h3>Nie znaleziono obiektu</h3></div>`;
+        return;
+    }
+
+    const photos = obj.photos || [];
+    const valuations = obj.valuations || [];
+    const mainPhoto = photos.length > 0 ? photos.find(p => p.is_primary) || photos[0] : null;
+
+    let html = `
+    <div class="detail-back" onclick="currentDetailId=null; loadCollection()">← Powrót do kolekcji</div>
+    <div class="detail-header">
+        <div class="detail-gallery">
+            <div class="main-img" id="detailMainImg">
+                ${mainPhoto
+                    ? `<img src="${escHtml(mainPhoto.url)}" alt="" onclick="openLightbox('${escHtml(mainPhoto.url)}')">`
+                    : '<div class="no-img" style="font-size:64px">🖼</div>'}
+            </div>
+            <div class="thumbs">
+                ${photos.map((p, i) => `
+                    <div class="thumb-sm ${p.is_primary ? 'active' : ''}" onclick="switchPhoto('${escHtml(p.url)}', this)">
+                        <img src="${escHtml(p.url)}" alt="">
+                    </div>
+                `).join('')}
+            </div>
+
+            <!-- Photo upload -->
+            <div class="photo-upload-area" id="photoUploadArea"
+                 onclick="document.getElementById('photoFileInput').click()"
+                 ondragover="event.preventDefault(); this.classList.add('dragover')"
+                 ondragleave="this.classList.remove('dragover')"
+                 ondrop="handlePhotoDrop(event, ${obj.id})">
+                📷 Przeciągnij zdjęcie lub kliknij aby dodać
+                <input type="file" id="photoFileInput" accept="image/*" style="display:none"
+                       onchange="uploadPhoto(this.files[0], ${obj.id})">
+            </div>
+        </div>
+        <div class="detail-info">
+            <h2>${escHtml(tr(obj, 'title'))}</h2>
+            ${currentLang !== 'original' && obj.title !== tr(obj, 'title') ? `<div style="font-size:12px;color:#666;margin-top:2px;font-style:italic">${escHtml(obj.title)}</div>` : ''}
+            <div class="artist">${escHtml(obj.artist_name_display || 'Artysta nieznany')}</div>
+
+            <div style="display:flex;gap:8px;margin-bottom:16px;">
+                <button class="btn btn-secondary btn-sm" onclick="openEditModal(${obj.id})">✏️ Edytuj</button>
+                <button class="btn btn-danger btn-sm" onclick="deleteObject(${obj.id})">🗑️ Usuń</button>
+            </div>
+
+            <div class="detail-meta-grid">
+                ${detailField('Kategoria', obj.category)}
+                ${detailField('Data powstania', obj.date_created)}
+                ${detailField('Technika', obj.medium)}
+                ${detailField('Podłoże', obj.support)}
+                ${detailField('Wymiary', formatDimensions(obj))}
+                ${detailField('Nr inwentarzowy', obj.inventory_number)}
+                ${detailField('Stan', obj.condition_grade ? obj.condition_grade + '/5' : null)}
+                ${detailField('Autentyczność', obj.authentication_status)}
+                ${detailField('Data nabycia', obj.acquisition_date)}
+                ${detailField('Źródło nabycia', obj.acquisition_source)}
+                ${detailField('Cena nabycia', obj.acquisition_price ? (obj.acquisition_currency||'BRL') + ' ' + Number(obj.acquisition_price).toLocaleString('pt-BR', {minimumFractionDigits:2}) : null)}
+                ${detailField('Wartość szacowana', obj.current_estimated_value ? (obj.valuation_currency||'BRL') + ' ' + Number(obj.current_estimated_value).toLocaleString('pt-BR', {minimumFractionDigits:2}) : null)}
+                ${detailField('Lokalizacja', obj.current_location)}
+            </div>
+
+            ${obj.provenance ? `<div style="margin-top:16px"><div class="dm-label" style="font-size:11px;color:#666;text-transform:uppercase">Proweniencja</div><div style="font-size:13px;color:#e0e0e0;margin-top:4px">${escHtml(obj.provenance)}</div></div>` : ''}
+            ${obj.description ? `<div style="margin-top:12px"><div class="dm-label" style="font-size:11px;color:#666;text-transform:uppercase">${currentLang === 'original' ? 'Opis (oryginał)' : currentLang === 'pl' ? 'Opis (PL)' : 'Description (EN)'}</div><div style="font-size:13px;color:#e0e0e0;margin-top:4px">${escHtml(tr(obj, 'description'))}</div>${currentLang !== 'original' && obj.description !== tr(obj, 'description') ? `<div style="margin-top:8px;font-size:11px;color:#666;cursor:pointer" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none'; this.textContent=this.nextElementSibling.style.display==='none'?'▸ Pokaż oryginał':'▾ Ukryj oryginał'">▸ Pokaż oryginał</div><div style="display:none;font-size:12px;color:#888;margin-top:4px;padding:8px;background:#1a1d27;border-radius:6px;font-style:italic">${escHtml(obj.description)}</div>` : ''}</div>` : ''}
+            ${obj.notes ? `<div style="margin-top:12px"><div class="dm-label" style="font-size:11px;color:#666;text-transform:uppercase">Notatki</div><div style="font-size:13px;color:#aaa;margin-top:4px;font-style:italic">${escHtml(obj.notes)}</div></div>` : ''}
+        </div>
+    </div>`;
+
+    // Valuations history
+    if (valuations.length > 0) {
+        html += `<h3 style="color:#fff;margin:24px 0 12px">Historia wycen</h3>
+        <table class="runs-table">
+            <thead><tr><th>Data</th><th>Wartość</th><th>Metoda</th><th>Rzeczoznawca</th><th>Uwagi</th></tr></thead>
+            <tbody>`;
+        for (const v of valuations) {
+            html += `<tr>
+                <td>${escHtml(v.valuation_date)}</td>
+                <td><strong>${v.currency || 'BRL'} ${Number(v.estimated_value).toLocaleString('pt-BR', {minimumFractionDigits:2})}</strong></td>
+                <td>${escHtml(v.method || '—')}</td>
+                <td>${escHtml(v.appraiser || '—')}</td>
+                <td>${escHtml(v.notes || '—')}</td>
+            </tr>`;
+        }
+        html += '</tbody></table>';
+    }
+
+    content.innerHTML = html;
+}
+
+function detailField(label, value) {
+    if (!value) return '';
+    return `<div><div class="dm-label">${label}</div><div class="dm-value">${escHtml(String(value))}</div></div>`;
+}
+
+function formatDimensions(obj) {
+    const parts = [];
+    if (obj.height_cm) parts.push(obj.height_cm + ' wys.');
+    if (obj.width_cm) parts.push(obj.width_cm + ' szer.');
+    if (obj.depth_cm) parts.push(obj.depth_cm + ' gł.');
+    return parts.length > 0 ? parts.join(' × ') + ' cm' : null;
+}
+
+function switchPhoto(url, thumbEl) {
+    document.getElementById('detailMainImg').innerHTML = `<img src="${url}" alt="" onclick="openLightbox('${url}')">`;
+    document.querySelectorAll('.thumb-sm').forEach(t => t.classList.remove('active'));
+    thumbEl.classList.add('active');
+}
+
+// ================================================================
+// PHOTO UPLOAD
+// ================================================================
+async function uploadPhoto(file, objectId) {
+    if (!file) return;
+    const formData = new FormData();
+    formData.append('file', file);
+    formData.append('caption', '');
+    formData.append('is_primary', '0');
+
+    const area = document.getElementById('photoUploadArea');
+    area.textContent = 'Wysyłanie...';
+
+    try {
+        const resp = await fetch(`/api/collection/${objectId}/photos`, { method: 'POST', body: formData });
+        const result = await resp.json();
+        if (result.error) {
+            alert('Błąd: ' + result.error);
+        } else {
+            await loadStats();
+            showObjectDetail(objectId);
+        }
+    } catch (e) {
+        alert('Błąd uploadu: ' + e.message);
+    }
+}
+
+function handlePhotoDrop(e, objectId) {
+    e.preventDefault();
+    e.target.classList.remove('dragover');
+    const file = e.dataTransfer.files[0];
+    if (file && file.type.startsWith('image/')) {
+        uploadPhoto(file, objectId);
+    }
+}
+
+// ================================================================
+// MODAL: ADD / EDIT OBJECT
+// ================================================================
+function openAddModal() {
+    document.getElementById('formObjectId').value = '';
+    document.getElementById('objectForm').reset();
+    document.getElementById('modalTitle').textContent = 'Nowy obiekt';
+    document.getElementById('objectModal').classList.add('open');
+}
+
+async function openEditModal(id) {
+    const obj = await api('collection/' + id);
+    if (obj.error) return;
+
+    document.getElementById('formObjectId').value = id;
+    document.getElementById('modalTitle').textContent = 'Edytuj: ' + obj.title;
+
+    document.getElementById('formTitle').value = obj.title || '';
+    document.getElementById('formArtist').value = obj.artist_name_display || '';
+    document.getElementById('formDateCreated').value = obj.date_created || '';
+    document.getElementById('formInvNumber').value = obj.inventory_number || '';
+    document.getElementById('formCategory').value = obj.category || 'inne';
+    document.getElementById('formMedium').value = obj.medium || '';
+    document.getElementById('formSupport').value = obj.support || '';
+    document.getElementById('formHeight').value = obj.height_cm || '';
+    document.getElementById('formWidth').value = obj.width_cm || '';
+    document.getElementById('formDepth').value = obj.depth_cm || '';
+    document.getElementById('formAcqDate').value = obj.acquisition_date || '';
+    document.getElementById('formAcqSource').value = obj.acquisition_source || '';
+    document.getElementById('formAcqPrice').value = obj.acquisition_price || '';
+    document.getElementById('formAcqCurrency').value = obj.acquisition_currency || 'BRL';
+    document.getElementById('formCondition').value = obj.condition_grade || '';
+    document.getElementById('formEstValue').value = obj.current_estimated_value || '';
+    document.getElementById('formProvenance').value = obj.provenance || '';
+    document.getElementById('formDescription').value = obj.description || '';
+    document.getElementById('formNotes').value = obj.notes || '';
+
+    document.getElementById('objectModal').classList.add('open');
+}
+
+function closeModal() {
+    document.getElementById('objectModal').classList.remove('open');
+}
+
+async function saveObject(e) {
+    e.preventDefault();
+    const id = document.getElementById('formObjectId').value;
+    const body = {
+        title: document.getElementById('formTitle').value,
+        artist_name_display: document.getElementById('formArtist').value || null,
+        date_created: document.getElementById('formDateCreated').value || null,
+        inventory_number: document.getElementById('formInvNumber').value || null,
+        category: document.getElementById('formCategory').value,
+        medium: document.getElementById('formMedium').value || null,
+        support: document.getElementById('formSupport').value || null,
+        height_cm: parseFloat(document.getElementById('formHeight').value) || null,
+        width_cm: parseFloat(document.getElementById('formWidth').value) || null,
+        depth_cm: parseFloat(document.getElementById('formDepth').value) || null,
+        acquisition_date: document.getElementById('formAcqDate').value || null,
+        acquisition_source: document.getElementById('formAcqSource').value || null,
+        acquisition_price: parseFloat(document.getElementById('formAcqPrice').value) || null,
+        acquisition_currency: document.getElementById('formAcqCurrency').value,
+        condition_grade: document.getElementById('formCondition').value || null,
+        current_estimated_value: parseFloat(document.getElementById('formEstValue').value) || null,
+        provenance: document.getElementById('formProvenance').value || null,
+        description: document.getElementById('formDescription').value || null,
+        notes: document.getElementById('formNotes').value || null,
+    };
+
+    const url = id ? `collection/${id}` : 'collection';
+    const method = id ? 'PUT' : 'POST';
+
+    const result = await api(url, {
+        method,
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(body),
+    });
+
+    if (result.error) {
+        alert('Błąd: ' + result.error);
+        return;
+    }
+
+    closeModal();
+    await loadStats();
+
+    if (id) {
+        showObjectDetail(parseInt(id));
+    } else {
+        // Refresh sidebar stats
+        const sidebar = document.getElementById('sidebarContent');
+        sidebar.innerHTML = buildCollectionSidebar();
+        loadCollection();
+    }
+}
+
+async function deleteObject(id) {
+    if (!confirm('Na pewno usunąć ten obiekt? Zostaną usunięte też wszystkie zdjęcia.')) return;
+    const result = await api('collection/' + id, { method: 'DELETE' });
+    if (result.error) {
+        alert('Błąd: ' + result.error);
+        return;
+    }
+    await loadStats();
+    const sidebar = document.getElementById('sidebarContent');
+    sidebar.innerHTML = buildCollectionSidebar();
+    loadCollection();
+}
+
+// ================================================================
+// LIGHTBOX
+// ================================================================
+function openLightbox(url) {
+    document.getElementById('lightboxImg').src = url;
+    document.getElementById('lightbox').classList.add('open');
+}
+function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+}
+
+// ================================================================
+// AUCTION ITEMS VIEW (original)
+// ================================================================
+async function loadArtists() {
+    const list = document.getElementById('artistList');
+    if (!list) return;
+    const data = await api('artists');
+
+    const withResults = data.artists.filter(a => a.auction_count > 0);
+    const total = withResults.reduce((s, a) => s + a.auction_count, 0);
+
+    let html = `<div class="artist-item ${!currentArtistId ? 'active' : ''}" onclick="filterArtist(null, this)">
+        <span>Wszyscy</span><span class="count">${total}</span></div>`;
+
+    for (const a of withResults) {
+        html += `<div class="artist-item ${currentArtistId == a.id ? 'active' : ''}"
+                      onclick="filterArtist(${a.id}, this)">
+            <span>${escHtml(a.canonical_name)}</span>
+            <span class="count">${a.auction_count}</span>
+        </div>`;
+    }
+
+    if (withResults.length === 0) {
+        html = '<div style="padding:20px;text-align:center;color:#555;">Brak wyników.<br>Uruchom scraper!</div>';
+    }
+
+    list.innerHTML = html;
+}
+
+async function loadItems() {
+    if (currentView !== 'items') return;
+
+    const content = document.getElementById('mainContent');
+    content.innerHTML = '<div class="loading"><div class="spinner"></div></div>';
+
+    const params = new URLSearchParams();
+    params.set('page', currentPage);
+    params.set('per_page', 48);
+
+    const searchEl = document.getElementById('searchInput');
+    const search = searchEl ? searchEl.value.trim() : '';
+    if (search) params.set('search', search);
+
+    const confEl = document.getElementById('filterConfidence');
+    const confidence = confEl ? confEl.value : '';
+    if (confidence) params.set('confidence', confidence);
+
+    const sortEl = document.getElementById('filterSort');
+    const sort = sortEl ? sortEl.value : 'newest';
+    if (sort) params.set('sort', sort);
+
+    if (currentArtistId) params.set('artist_id', currentArtistId);
+
+    const data = await api('auction-items?' + params.toString());
+
+    let html = '';
+
+    if (currentPage === 1 && !currentArtistId && !search && statsData) {
+        html += `<div class="stats-row">
+            <div class="stat-card"><div class="number">${statsData.total_auction_items}</div><div class="label">Znalezisk aukcyjnych</div></div>
+            <div class="stat-card"><div class="number">${statsData.total_artists}</div><div class="label">Artystów w bazie</div></div>
+            <div class="stat-card"><div class="number">${statsData.new_today}</div><div class="label">Nowych dziś</div></div>
+            <div class="stat-card"><div class="number">${statsData.collection_count || 0}</div><div class="label">W kolekcji</div></div>
+        </div>`;
+    }
+
+    html += `<div class="results-header">
+        <h2>${search ? 'Wyniki: "' + escHtml(search) + '"' : 'Znaleziska aukcyjne'}</h2>
+        <span class="count">${data.total} wyników, strona ${data.page}/${data.pages || 1}</span>
+    </div>`;
+
+    if (data.items.length === 0) {
+        html += `<div class="empty-state">
+            <div class="icon">🔍</div>
+            <h3>Brak wyników</h3>
+            <p>Zmień filtry lub uruchom scraper żeby zebrać dane.</p>
+        </div>`;
+    } else {
+        html += '<div class="items-grid">';
+        for (const item of data.items) {
+            const price = item.price_brl
+                ? `R$ ${Number(item.price_brl).toLocaleString('pt-BR', {minimumFractionDigits: 0})}`
+                : null;
+
+            const conf = item.match_confidence || 'high';
+            const confEmoji = {high: '🎯', medium: '🟡', low: '🔴'}[conf] || '';
+
+            const imgSrc = item.image_url || '';
+
+            html += `<div class="item-card">
+                <div class="thumb">
+                    ${imgSrc ? `<img src="${escHtml(imgSrc)}" alt="" loading="lazy" onerror="this.parentElement.innerHTML='<div class=no-img>🖼</div>'">` : '<div class="no-img">🖼</div>'}
+                </div>
+                <div class="info">
+                    <div class="title">${escHtml(item.title)}</div>
+                    <div class="meta">${escHtml(item.auction_house || '')}${item.auction_state ? ' — ' + escHtml(item.auction_state) : ''}</div>
+                    <div class="meta">${escHtml(item.auction_date || '')}${item.auction_time ? ' ' + escHtml(item.auction_time) : ''}</div>
+                    ${item.artist_name ? `<div class="meta">Artysta: <strong>${escHtml(item.artist_name)}</strong></div>` : ''}
+                    ${price ? `<div class="price">${price}</div>` : '<div class="price no-price">Cena nieznana</div>'}
+                    <div class="tags">
+                        <span class="tag ${conf}">${confEmoji} ${conf}</span>
+                        ${item.catalog_url ? `<a href="${escHtml(item.catalog_url)}" target="_blank" class="tag category">Katalog →</a>` : ''}
+                    </div>
+                </div>
+            </div>`;
+        }
+        html += '</div>';
+    }
+
+    if (data.pages > 1) {
+        html += '<div class="pagination">';
+        html += `<button ${currentPage <= 1 ? 'disabled' : ''} onclick="goPage(${currentPage - 1})">← Wstecz</button>`;
+        for (let p = Math.max(1, currentPage-3); p <= Math.min(data.pages, currentPage+3); p++) {
+            html += `<button class="${p === currentPage ? 'active' : ''}" onclick="goPage(${p})">${p}</button>`;
+        }
+        html += `<button ${currentPage >= data.pages ? 'disabled' : ''} onclick="goPage(${currentPage + 1})">Dalej →</button>`;
+        html += '</div>';
+    }
+
+    content.innerHTML = html;
+}
+
+// === SCRAPER RUNS ===
+async function loadRuns() {
+    const content = document.getElementById('mainContent');
+    content.innerHTML = '<div class="loading"><div class="spinner"></div></div>';
+
+    const data = await api('scraper-runs');
+    let html = '<div class="results-header"><h2>Historia skanowań</h2></div>';
+
+    if (data.runs.length === 0) {
+        html += `<div class="empty-state"><div class="icon">🤖</div><h3>Brak uruchomień</h3><p>Scraper nie był jeszcze uruchamiany.</p></div>`;
+    } else {
+        html += `<table class="runs-table">
+            <thead><tr><th>Data</th><th>Status</th><th>Terminy</th><th>Strony</th><th>Znalezione</th><th>Nowe</th><th>Błędy</th><th>Czas</th></tr></thead><tbody>`;
+        for (const r of data.runs) {
+            const start = r.started_at ? new Date(r.started_at) : null;
+            const end = r.finished_at ? new Date(r.finished_at) : null;
+            const duration = start && end ? Math.round((end - start) / 60000) : '—';
+            html += `<tr>
+                <td>${start ? start.toLocaleDateString('pl') + ' ' + start.toLocaleTimeString('pl', {hour:'2-digit', minute:'2-digit'}) : '—'}</td>
+                <td><span class="status-badge ${r.status || ''}">${r.status || '—'}</span></td>
+                <td>${r.terms_searched || 0}</td><td>${r.pages_scraped || 0}</td>
+                <td>${r.items_found || 0}</td><td><strong>${r.new_items || 0}</strong></td>
+                <td>${r.errors || 0}</td><td>${duration} min</td>
+            </tr>`;
+        }
+        html += '</tbody></table>';
+    }
+    content.innerHTML = html;
+}
+
+// ================================================================
+// HELPERS
+// ================================================================
+function filterArtist(id, el) {
+    currentArtistId = id;
+    currentPage = 1;
+    document.querySelectorAll('.artist-item').forEach(e => e.classList.remove('active'));
+    if (el) el.classList.add('active');
+    loadItems();
+}
+
+function goPage(p) {
+    currentPage = p;
+    loadItems();
+    window.scrollTo(0, 0);
+}
+
+function debounceSearch() {
+    clearTimeout(searchTimeout);
+    searchTimeout = setTimeout(() => { currentPage = 1; loadItems(); }, 300);
+}
+
+function debounceCollSearch() {
+    clearTimeout(searchTimeout);
+    searchTimeout = setTimeout(() => { collectionPage = 1; loadCollection(); }, 300);
+}
+
+function escHtml(str) {
+    if (!str) return '';
+    return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// Close modal on overlay click
+document.getElementById('objectModal').addEventListener('click', function(e) {
+    if (e.target === this) closeModal();
+});
+
+// Close lightbox on Escape
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        closeLightbox();
+        closeModal();
+    }
+});
+
+// === START ===
+init();
+</script>
+</body>
+</html>
