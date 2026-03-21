@@ -5883,14 +5883,18 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
 /* LIGHTBOX */
 .lightbox {{ display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,.97); z-index:1000; justify-content:center; align-items:center; flex-direction:column; }}
 .lightbox.active {{ display:flex; }}
-.lightbox img {{ max-width:92vw; max-height:86vh; object-fit:contain; }}
+.lightbox img {{ max-width:92vw; max-height:86vh; object-fit:contain; cursor:grab; user-select:none; -webkit-user-select:none; }}
+.lightbox img.dragging {{ cursor:grabbing; }}
 .lightbox .lb-title {{ color:var(--gold); font-family:'Playfair Display',serif; margin-top:16px; font-size:1.1em; text-align:center; padding:0 20px; }}
 .lightbox .lb-close {{ position:absolute; top:20px; right:30px; color:var(--text-dim); font-size:2em; cursor:pointer; z-index:1002; }}
 .lightbox .lb-close:hover {{ color:var(--gold); }}
 .lightbox img {{ transition:transform .3s ease; }}
+.lightbox img.notransition {{ transition:none; }}
 .lb-controls {{ position:absolute; bottom:60px; left:50%; transform:translateX(-50%); display:flex; gap:12px; z-index:1002; }}
-.lb-rotate {{ background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.2); color:var(--text-dim); font-size:1.5em; width:44px; height:44px; border-radius:50%; cursor:pointer; display:flex; align-items:center; justify-content:center; transition:all .2s; }}
-.lb-rotate:hover {{ background:rgba(201,169,110,.2); border-color:var(--gold); color:var(--gold); }}
+.lb-btn {{ background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.2); color:var(--text-dim); font-size:1.5em; width:44px; height:44px; border-radius:50%; cursor:pointer; display:flex; align-items:center; justify-content:center; transition:all .2s; }}
+.lb-btn:hover {{ background:rgba(201,169,110,.2); border-color:var(--gold); color:var(--gold); }}
+.lb-zoom-info {{ position:absolute; top:20px; left:50%; transform:translateX(-50%); color:var(--text-dim); font-size:.85em; opacity:0; transition:opacity .4s; z-index:1002; pointer-events:none; background:rgba(0,0,0,.6); padding:4px 14px; border-radius:12px; }}
+.lb-zoom-info.visible {{ opacity:1; }}
 
 /* FINDING AID */
 .finding-aid {{ max-width:1000px; margin:0 auto; padding:50px 20px; }}
@@ -6653,9 +6657,13 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
 
 <div class="lightbox" id="lightbox" onclick="handleLightboxClick(event)">
   <span class="lb-close" onclick="closeLightbox()">&times;</span>
+  <div class="lb-zoom-info" id="lb-zoom-info"></div>
   <div class="lb-controls">
-    <button class="lb-rotate" onclick="rotateCCW(event)" title="Obrot w lewo (Q)">&#x21BA;</button>
-    <button class="lb-rotate" onclick="rotateCW(event)" title="Obrot w prawo (E)">&#x21BB;</button>
+    <button class="lb-btn" onclick="zoomOut(event)" title="Pomniejsz (-)">&#x2212;</button>
+    <button class="lb-btn" onclick="rotateCCW(event)" title="Obrot w lewo (Q)">&#x21BA;</button>
+    <button class="lb-btn" onclick="rotateCW(event)" title="Obrot w prawo (E)">&#x21BB;</button>
+    <button class="lb-btn" onclick="zoomIn(event)" title="Powieksz (+)">&#x2b;</button>
+    <button class="lb-btn" onclick="zoomReset(event)" title="Resetuj (0)" style="font-size:1em;">1:1</button>
   </div>
   <img id="lb-img" src="" alt="">
   <div class="lb-title" id="lb-title"></div>
@@ -6663,12 +6671,31 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
 
 <script>
 let currentRotation = 0;
+let currentZoom = 1;
+let panX = 0, panY = 0;
+let isDragging = false, dragStartX = 0, dragStartY = 0, dragStartPanX = 0, dragStartPanY = 0;
+let zoomInfoTimeout = null;
+let pinchStartDist = 0, pinchStartZoom = 1;
+
+function applyTransform() {{
+  const img = document.getElementById('lb-img');
+  img.style.transform = 'translate(' + panX + 'px,' + panY + 'px) rotate(' + currentRotation + 'deg) scale(' + currentZoom + ')';
+}}
+
+function showZoomInfo() {{
+  const el = document.getElementById('lb-zoom-info');
+  el.textContent = Math.round(currentZoom * 100) + '%';
+  el.classList.add('visible');
+  clearTimeout(zoomInfoTimeout);
+  zoomInfoTimeout = setTimeout(() => el.classList.remove('visible'), 1200);
+}}
 
 function openLightbox(src, title) {{
-  currentRotation = 0;
+  currentRotation = 0; currentZoom = 1; panX = 0; panY = 0;
   const img = document.getElementById('lb-img');
   img.src = src;
-  img.style.transform = 'rotate(0deg)';
+  img.className = '';
+  applyTransform();
   document.getElementById('lb-title').textContent = title;
   document.getElementById('lightbox').classList.add('active');
   document.body.style.overflow = 'hidden';
@@ -6680,20 +6707,109 @@ function closeLightbox() {{
 function rotateCW(e) {{
   e && e.stopPropagation();
   currentRotation = (currentRotation + 90) % 360;
-  document.getElementById('lb-img').style.transform = 'rotate(' + currentRotation + 'deg)';
+  applyTransform();
 }}
 function rotateCCW(e) {{
   e && e.stopPropagation();
   currentRotation = (currentRotation - 90 + 360) % 360;
-  document.getElementById('lb-img').style.transform = 'rotate(' + currentRotation + 'deg)';
+  applyTransform();
 }}
+function setZoom(z, e) {{
+  e && e.stopPropagation();
+  currentZoom = Math.max(0.25, Math.min(10, z));
+  if (Math.abs(currentZoom - 1) < 0.05) {{ currentZoom = 1; panX = 0; panY = 0; }}
+  applyTransform();
+  showZoomInfo();
+}}
+function zoomIn(e) {{ setZoom(currentZoom * 1.4, e); }}
+function zoomOut(e) {{ setZoom(currentZoom / 1.4, e); }}
+function zoomReset(e) {{ e && e.stopPropagation(); currentZoom = 1; panX = 0; panY = 0; applyTransform(); showZoomInfo(); }}
+
 function handleLightboxClick(e) {{
-  if (e.target.id === 'lightbox') closeLightbox();
+  if (e.target.id === 'lightbox' && !isDragging) closeLightbox();
 }}
+
+/* Mouse drag to pan */
+const lbImg = document.getElementById('lb-img');
+lbImg.addEventListener('mousedown', e => {{
+  if (currentZoom <= 1) return;
+  e.preventDefault();
+  isDragging = true;
+  dragStartX = e.clientX; dragStartY = e.clientY;
+  dragStartPanX = panX; dragStartPanY = panY;
+  lbImg.classList.add('dragging', 'notransition');
+}});
+document.addEventListener('mousemove', e => {{
+  if (!isDragging) return;
+  panX = dragStartPanX + (e.clientX - dragStartX);
+  panY = dragStartPanY + (e.clientY - dragStartY);
+  applyTransform();
+}});
+document.addEventListener('mouseup', () => {{
+  if (isDragging) {{
+    isDragging = false;
+    lbImg.classList.remove('dragging', 'notransition');
+  }}
+}});
+
+/* Scroll wheel zoom */
+document.getElementById('lightbox').addEventListener('wheel', e => {{
+  e.preventDefault();
+  const factor = e.deltaY < 0 ? 1.15 : 1/1.15;
+  setZoom(currentZoom * factor);
+}}, {{ passive: false }});
+
+/* Double-click toggle fit / 100% */
+lbImg.addEventListener('dblclick', e => {{
+  e.stopPropagation();
+  if (currentZoom > 1.05) {{ currentZoom = 1; panX = 0; panY = 0; }}
+  else {{ currentZoom = 3; }}
+  applyTransform(); showZoomInfo();
+}});
+
+/* Touch: pinch-to-zoom + drag */
+let lastTouchDist = 0;
+document.getElementById('lightbox').addEventListener('touchstart', e => {{
+  if (e.touches.length === 2) {{
+    const dx = e.touches[0].clientX - e.touches[1].clientX;
+    const dy = e.touches[0].clientY - e.touches[1].clientY;
+    pinchStartDist = Math.hypot(dx, dy);
+    pinchStartZoom = currentZoom;
+  }} else if (e.touches.length === 1 && currentZoom > 1) {{
+    isDragging = true;
+    dragStartX = e.touches[0].clientX; dragStartY = e.touches[0].clientY;
+    dragStartPanX = panX; dragStartPanY = panY;
+    lbImg.classList.add('notransition');
+  }}
+}}, {{ passive: true }});
+document.getElementById('lightbox').addEventListener('touchmove', e => {{
+  if (e.touches.length === 2) {{
+    e.preventDefault();
+    const dx = e.touches[0].clientX - e.touches[1].clientX;
+    const dy = e.touches[0].clientY - e.touches[1].clientY;
+    const dist = Math.hypot(dx, dy);
+    setZoom(pinchStartZoom * (dist / pinchStartDist));
+  }} else if (isDragging && e.touches.length === 1) {{
+    panX = dragStartPanX + (e.touches[0].clientX - dragStartX);
+    panY = dragStartPanY + (e.touches[0].clientY - dragStartY);
+    applyTransform();
+  }}
+}}, {{ passive: false }});
+document.getElementById('lightbox').addEventListener('touchend', () => {{
+  isDragging = false;
+  lbImg.classList.remove('notransition');
+}});
+
+/* Keyboard */
 document.addEventListener('keydown', e => {{
+  const lb = document.getElementById('lightbox');
+  if (!lb.classList.contains('active')) return;
   if(e.key==='Escape') closeLightbox();
   if(e.key==='e' || e.key==='E' || e.key==='ArrowRight') rotateCW();
   if(e.key==='q' || e.key==='Q' || e.key==='ArrowLeft') rotateCCW();
+  if(e.key==='+' || e.key==='=') zoomIn();
+  if(e.key==='-' || e.key==='_') zoomOut();
+  if(e.key==='0') zoomReset();
 }});
 </script>
 
