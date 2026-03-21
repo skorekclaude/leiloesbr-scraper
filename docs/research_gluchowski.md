@@ -94,14 +94,157 @@ Gen. Władysław Bortnowski, **Gen. Janusz Głuchowski**, Ludwik Piskor, Wacław
 
 ---
 
-## 3. KRZYSZTOF GŁUCHOWSKI (syn)
+## 3. RODZINA STEFANA GŁUCHOWSKIEGO — WSZYSCY W POWSTANIU WARSZAWSKIM!
 
-- **Ur.:** 1926 (oficjalnie podawał się za młodszego — praktyka konspiracyjna AK/PSZ)
-- **Zm.:** 2020, Rio de Janeiro
-- **Służba:** PSZ, 3 Dywizja Strzelców Karpackich (Szkoła Karpacka)
-- **Matura:** Szkoła Karpacka we Włoszech (jedna z 309 matur!)
-- **Ścieżka emigracyjna:** Włochy → PKPR (UK) → Brazylia (Rio de Janeiro)
-- **Życie w Brazylii:** Członek Polonii carioca
+**Źródło:** Muzeum Powstania Warszawskiego (1944.pl) — zweryfikowane biogramy
+
+### 3a. Stanisław Stefan Głuchowski ps. "Stefan"
+- **Ur.:** 1 maja 1893, majątek Bukowa, powiat Piotrków Trybunalski
+- **Zm.:** 17 października 1962, Warszawa (pochowany: Powązki)
+- **Rodzice:** Marian i Maria z Ziółkowskich
+- **Stopień:** podporucznik rezerwy kawalerii
+- **Legitymacja AK:** nr 2856
+- **Żona:** Wanda Bronisława z d. Zembrzuskich
+- **Syn:** Krzysztof ps. "Juraś"
+- **Brat:** rtm. Lech ps. "Jeżycki" (ZGINĄŁ w Powstaniu!)
+- **Wuj generał:** Janusz Julian Głuchowski
+
+**Chronologia:**
+- Po maturze w Łodzi — PPS, POW (Polska Organizacja Wojskowa)
+- 1917: studia prawnicze na Uniwersytecie Warszawskim
+- 1918: wstąpienie do 7 Pułku Ułanów Lubelskich
+- 1919: oddelegowany do Kancelarii Naczelnika Państwa (Piłsudskiego!)
+- 1920: uczestnik wojny polsko-bolszewickiej
+- Szkoła Podchorążych Rezerwy Kawalerii, 1 Pułk Szwoleżerów
+- 1923-1939: Kancelaria Cywilna Prezydenta RP (awans do Kierownika Referatu)
+- IX.1939: przy Prezydencie Mościckim do granicy rumuńskiej, wrócił do Warszawy
+- III.1940: ZWZ/AK + organizacja piłsudczyków "Konwent"
+- IX.1943: WSOP w II Obwodzie (Żoliborz), zastępca dowódcy kompanii
+- **18.V.1944: ARESZTOWANY PRZEZ GESTAPO! Pawiak + przesłuchania Al. Szucha**
+- **29.VII.1944: ZWOLNIONY (2 dni przed Powstaniem!)**
+- Powstanie: Kwatermistrzostwo I Obwodu "Radwan", Śródmieście
+- Niewola: Stalag XI-B Fallingbostel → Bergen → Oflag II D Gross-Born → Stalag X-B Sandbostel → Oflag X-C Lübeck (nr jeniecki 1245)
+- 1947: powrót do Polski
+
+### 3b. Wanda Bronisława Głuchowska (z d. Zembrzuskich) ps. "Justyna"/"Krysta"
+- **Ur.:** 13 marca 1901, Łódź
+- **Zm.:** 15 grudnia 1976, Warszawa (pochowana: Powązki, kw. 99-IV-19)
+- **Rodzice:** Bronisław i Jadwiga z Zembrzuskich
+- **Brat:** ppor. Włodzimierz ps. "Tomaszewski" (farmaceuta)
+- **Stopień:** starszy sierżant podchorąży (27.IX.1944)
+
+**BOHATERKA WOJENNA:**
+- VI.1916: Polska Organizacja Wojskowa (miała 15 lat!)
+- 1920: ochotniczka w Wojsku Polskim, szpital w Łodzi
+- Studia: Uniwersytet Jana Kazimierza we Lwowie, magistra farmacji (1924)
+- 1924: ślub ze Stanisławem Stefanem Głuchowskim
+- 1926: urodziła Krzysztofa
+- 1939: apteka rodzinna w Łodzi, potem Warszawa, Krucza 28
+- XII.1939: komórka wywiadu ZWZ jako łączniczka
+- 1942: oddział dywersyjny "Dysk" (Dywersja i Sabotaż Kobiet!), podchorążówka, sekcyjna
+- **18.XI.1942: wysadzenie toru kolejowego pod Jedlnią!**
+- **26.IX.1943: akcja "Wilanów" — CIĘŻKO RANNA! 30% inwalidztwa**
+- 11.XI.1943: Krzyż Walecznych (za Wilanów)
+- Powstanie: nie zmobilizowana (inwalidztwo), ale prowadziła aptekę przy Kruczej 28 zaopatrując AK i cywilów
+- Po kapitulacji: Pruszków → Częstochowa
+- **Łączniczka gen. Leopolda Okulickiego "Niedźwiadka"** (ostatni dowódca AK!)
+- **Aresztowana przez UB, przesłuchiwana, wysłana do obozu UB/NKWD w Rembertowie!**
+- Po zwolnieniu: odbudowała aptekę przy Hożej 27, pracowała do emerytury
+
+**Odznaczenia:** Krzyż Walecznych (1943), Krzyż AK (nr 3719)
+
+### 3c. Krzysztof Głuchowski ps. "Juraś" — CHŁOPIEC-POWSTANIEC
+- **Ur.:** 29 listopada 1926, WARSZAWA (NIE Brzeżany!)
+- **Zm.:** połowa maja 2020, Brazylia (Rio de Janeiro)
+- **Rodzice:** Stanisław i Wanda
+- **Stopień:** starszy ułan (awans VIII.1944)
+- **Nr jeniecki:** 141009 (Stalag XI-B Fallingbostel)
+
+**SZLAK BOJOWY (17-LETNI CHŁOPIEC!):**
+- VI.1939: ukończył Szkołę Rodziny Wojskowej, zdał do Korpusu Kadetów nr 1 we Lwowie
+- Okupacja: szkoły zawodowe + tajne Gimnazjum im. Górskiego (IV klasa)
+- **VIII.1941: żołnierz ZWZ/AK — miał 14 lat!**
+- Kompania Kadecka, potem (od IX.1943) pluton 1112 przy 7 Pułku Ułanów Lubelskich AK, dywizjon "Jeleń"
+- 26-27.IX.1943: uczestnik akcji "Wilanów" (razem z matką!)
+- **POWSTANIE WARSZAWSKIE:** Wola → Stare Miasto → Śródmieście
+  - Obrona fabryki Kamlera (siedziba Komendy Głównej AK!)
+  - **WARTOWNIK GEN. BORA-KOMOROWSKIEGO!**
+  - Pałac Krasińskich na Starym Mieście
+  - Strażnik Kwatery Głównej Okręgu w kinie "Palladium"
+- **Niewola:** Stalag XI-B Fallingbostel (ten sam obóz co ojciec!), nr 141009
+- Arbeitskommando München-Gladbach
+
+**PO WOJNIE:**
+- 2 Korpus Andersa we Włoszech
+- Gimnazjum i liceum przy 3 DSK
+- Dyplom Chartered Engineer
+- Praca: CAV-Lucas (Anglia, Hiszpania od 1970, Brazylia od 1974)
+- Od 1988: emerytura w Rio de Janeiro
+- Kierownik Harcerstwa, Koło 7 Pułku Ułanów Lubelskich, POSK, SPK, ACIE
+- Wydawca bibliofilski, publicysta, autor wspomnień
+- **2006-2007: wystawy o Powstaniu 1944 w Rio de Janeiro (z Konsulatem RP)**
+- **Relacja w Archiwum Historii Mówionej Muzeum Powstania Warszawskiego**
+
+**Odznaczenia:** Krzyż Walecznych, Krzyż AK (nr 3316), Medal Wojska, War Medal, Krzyż Kawalerski Orderu Odrodzenia Polski (2011!)
+
+### 3d. RTM Lech Jerzy Głuchowski ps. "Jeżycki" — BOHATER, KTÓRY ODDAŁ ŻYCIE
+- **Ur.:** 2 czerwca 1902, Raków pod Częstochową
+- **Zm.:** 15 września 1944, Warszawa (pochowany: Powązki, kw. 99-I-27)
+- **Rodzice:** Marian i Maria z Ziółkowskich (= BRAT STEFANA!)
+- **Stopień:** rotmistrz (1944)
+
+**To jest TEN SAM "UCIECH" z biogramu stefan_020 napisanego przez Krzysztofa!**
+
+**SZLAK:**
+- POW, rozbrajanie Niemców 1918
+- 1920: 7 Pułk Ułanów Lubelskich (4 szwadron)
+- Akademia Rolnicza Bydgoszcz, Szkoła Podchorążych Rezerwy Kawalerii
+- Administrator dóbr ordynacji Branickich w Rosi
+- IX.1939: ochotnik 7 Pułku, bitwa pod Suchowolą, przedarcie do Warszawy
+- Konspiracja: odtworzenie 7 Pułku pod kryptonimem "Jeleń", zastępca dowódcy
+- 17.VII.1944: obejmuje dowództwo pułku i I dywizjonu warszawskiego
+- **1.VIII.1944: dowodzi natarciem na Aleję Szucha!**
+- Mokotów, 21.VIII: dowódca rejonu Sadyby
+- **15.IX.1944: ciężko ranny na ul. Dolnej — ODEBRAŁ SOBIE ŻYCIE, żeby nie narażać żołnierzy na jego ewakuację pod ogniem!**
+
+**Odznaczenia:** Virtuti Militari V klasy, Krzyż Walecznych, Złoty Krzyż Zasługi z Mieczami, Krzyż AK
+
+### 3e. ppor. Włodzimierz Głuchowski ps. "Tomaszewski" — BRAT WANDY
+- **Ur.:** 7 lipca 1904, Łódź
+- **Zm.:** 1977, Łódź
+- Magister farmacji (Uniwersytet Stefana Batorego, Wilno)
+- Pracował w aptece siostry Wandy na Kruczej 28
+- Powstanie: punkt sanitarny nr 104, szpital w Forcie Sokolnickiego (Żoliborz)
+- Po wojnie: apteka rodzinna w Łodzi (do nacjonalizacji), inspektor farmaceutyczny, numizmatyk (autor katalogu monet getta łódzkiego!)
+- **Krzyż AK (nr 3722)**
+
+### DRZEWO GENEALOGICZNE (ZWERYFIKOWANE):
+
+```
+MARIAN Głuchowski + MARIA z Ziółkowskich (Bukowa/Raków)
+    |
+    ├── gen. dyw. JANUSZ Julian (1888-1964) — Siódemka Beliny, Londyn
+    |
+    ├── STANISŁAW STEFAN ps."Stefan" (1893-1962) — AK, Kancelaria Prezydenta
+    |       + WANDA Bronisława z Zembrzuskich ps."Justyna"/"Krysta" (1901-1976) — Kedyw!
+    |       |
+    |       └── KRZYSZTOF ps."Juraś" (1926-2020) — chłopiec-powstaniec → Brazylia
+    |
+    └── LECH Jerzy ps."Jeżycki" (1902-1944) — POLEGŁ w Powstaniu ⚔
+
+BRONISŁAW Zembrzuski + JADWIGA
+    |
+    ├── WANDA (= żona Stefana, patrz wyżej)
+    └── WŁODZIMIERZ ps."Tomaszewski" (1904-1977) — aptekarz, Żoliborz
+```
+
+### Źródła Muzeum Powstania Warszawskiego:
+- [Krzysztof Głuchowski — biogram](https://www.1944.pl/powstancze-biogramy/krzysztof-gluchowski,14205.html)
+- [Stanisław Głuchowski — biogram](https://www.1944.pl/powstancze-biogramy/stanislaw-gluchowski,14209.html)
+- [Wanda Głuchowska — biogram](https://www.1944.pl/powstancze-biogramy/wanda-gluchowska,14197.html)
+- [Lech Głuchowski — biogram](https://www.1944.pl/powstancze-biogramy/lech-gluchowski,14206.html)
+- [Włodzimierz Głuchowski — biogram](https://www.1944.pl/powstancze-biogramy/wlodzimierz-gluchowski,14213.html)
+- [Krzysztof Głuchowski — Archiwum Historii Mówionej](https://www.1944.pl/archiwum-historii-mowionej/krzysztof-gluchowski,1889.html)
 - **Relacja z ojcem:** Janusz miał 38 lat gdy urodził się Krzysztof — typowe dla oficerów
 
 ### 3 DSK — Struktura (ZWERYFIKOWANA):
