@@ -2009,7 +2009,7 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Liceum Ogólnokształcące przy 3 DSK",
         "jezyk": "polski",
-        "kontekst": "Verso świadectwa licealnego z VI.1946. Polskie licea i gimnazja działały przy 2. Korpusie PSZ we Włoszech od 1944 — program nauczania MEN II RP, matura uznawana przez rząd londyński. 'Homeracle' — prawdopodobnie zniekształcona nazwa włoska (Homerville? Camerale?). Szkoły polskie we Włoszech: Porto San Giorgio, Barletta, Matino (prow. Lecce), Recanati, Fermo. 3 DSK stacjonowała w okolicach Ancony i Marche. Gen. Anders priorytetowo traktował edukację — ok. 4 000 żołnierzy zdało maturę przy 2. Korpusie. Krzysztof (ur. 1926) kończył przerwane wojną gimnazjum — Powstanie wypadło w środku jego nauki.",
+        "kontekst": "Verso świadectwa licealnego z VI.1946 — I POLSKIE LICEUM IM. 3 DYWIZJI STRZELCÓW KARPACKICH. Szkoły polskie 2. Korpusu PSZ we Włoszech działały w prow. Lecce (Puglia): Santa Maria al Bagno, Santa Maria di Leuca, Matino, Casarano. 'Homeracle' — prawdopodobnie zniekształcona nazwa miejscowości z Lecce/Puglia. Program: PEŁNY kurs gimnazjalny/licealny wg MEN II RP (j.polski, matematyka, łacina, historia, nauki przyrodnicze), matura uznawana przez rząd londyński. Ok. 4 000 żołnierzy zdało maturę przy 2. Korpusie. Szkoły podlegały Wydziałowi Oświaty 2. Korpusu (ppłk dr Kazimierz Grudziński). Po demobilizacji (1946–1947) szkoły przeniesione do Anglii. Krzysztof zdał maturę w mundurze — 20-letni weteran Powstania Warszawskiego i obozów jenieckich kończył edukację przerwaną w 1944.",
         "powiazania": ["ARG/V/71", "ARG/V/72", "ARG/V/62"],
         "stan": "Dobry"
     },
