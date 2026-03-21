@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Piec losow w jednym Powstaniu — artykul zrodloznawczy</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0a0a;
+  --surface: #141414;
+  --border: #252525;
+  --text: #dddad5;
+  --text-dim: #7a7a7a;
+  --gold: #c9a84c;
+  --red: #c0392b;
+  --blue: #3498db;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:var(--bg); color:var(--text); font-family:'EB Garamond',serif; line-height:1.9; }
+
+.top-nav {
+  position:sticky; top:0; z-index:100;
+  background:rgba(10,10,10,.95); backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--border);
+  padding:10px 20px; display:flex; justify-content:space-between; align-items:center;
+}
+.top-nav a { color:var(--text-dim); text-decoration:none; font-family:'Inter',sans-serif; font-size:.8em; }
+.top-nav a:hover { color:var(--gold); }
+
+article { max-width:720px; margin:0 auto; padding:60px 24px 80px; }
+
+/* HEADER */
+.article-header { text-align:center; margin-bottom:50px; padding-bottom:40px; border-bottom:1px solid var(--border); }
+.article-journal { font-family:'Inter',sans-serif; font-size:.72em; letter-spacing:.15em; text-transform:uppercase; color:var(--gold); }
+.article-title { font-size:clamp(1.6em,4vw,2.4em); font-weight:700; margin:16px 0 12px; line-height:1.25; color:var(--text); }
+.article-subtitle { font-size:1.15em; font-style:italic; color:var(--text-dim); margin-bottom:20px; }
+.article-author { font-family:'Inter',sans-serif; font-size:.85em; color:var(--text-dim); }
+.article-meta { font-family:'Inter',sans-serif; font-size:.75em; color:var(--text-dim); margin-top:8px; }
+
+/* BODY */
+h2 { font-size:1.4em; color:var(--gold); margin:40px 0 16px; font-weight:600; }
+h3 { font-size:1.15em; color:var(--text); margin:28px 0 12px; font-weight:600; }
+p { margin-bottom:1.3em; font-size:1.08em; text-align:justify; hyphens:auto; }
+p.abstract {
+  border-left:3px solid var(--gold); padding:16px 20px; margin:24px 0 36px;
+  background:rgba(201,168,76,.06); font-style:italic; font-size:1em;
+}
+p.keywords { font-family:'Inter',sans-serif; font-size:.82em; color:var(--text-dim); margin-bottom:36px; }
+
+/* FOOTNOTES */
+sup { color:var(--gold); cursor:pointer; font-size:.8em; }
+sup:hover { text-decoration:underline; }
+.footnote-ref { font-size:.82em; vertical-align:super; color:var(--gold); text-decoration:none; }
+.footnotes {
+  margin-top:50px; padding-top:30px; border-top:1px solid var(--border);
+}
+.footnotes h2 { font-size:1.1em; margin-bottom:16px; }
+.footnotes ol { padding-left:20px; }
+.footnotes li {
+  font-size:.88em; color:var(--text-dim); margin-bottom:8px; line-height:1.6;
+}
+.footnotes li em { color:var(--text); }
+
+/* TABLE */
+table { width:100%; border-collapse:collapse; margin:20px 0 28px; font-size:.92em; }
+th { text-align:left; padding:10px 12px; border-bottom:2px solid var(--gold); color:var(--gold); font-family:'Inter',sans-serif; font-size:.82em; letter-spacing:.05em; text-transform:uppercase; }
+td { padding:8px 12px; border-bottom:1px solid var(--border); }
+tr:hover td { background:rgba(201,168,76,.04); }
+
+/* BIBLIOGRAPHY */
+.bibliography { margin-top:50px; padding-top:30px; border-top:1px solid var(--border); }
+.bibliography h2 { font-size:1.1em; margin-bottom:16px; }
+.bib-section { margin-bottom:20px; }
+.bib-section h3 { font-size:.95em; color:var(--text-dim); margin-bottom:8px; font-family:'Inter',sans-serif; }
+.bib-entry { font-size:.9em; margin-bottom:6px; padding-left:24px; text-indent:-24px; }
+
+/* BLOCKQUOTE */
+blockquote {
+  border-left:3px solid var(--border); padding:12px 20px; margin:20px 0;
+  font-style:italic; color:var(--text-dim); font-size:1em;
+}
+blockquote .source { display:block; font-style:normal; font-size:.85em; color:var(--text-dim); margin-top:6px; }
+
+@media (max-width:600px) {
+  article { padding:40px 16px; }
+  p { font-size:1em; }
+}
+</style>
+</head>
+<body>
+
+<nav class="top-nav">
+  <a href="transkrypcja_demo.html">&larr; Katalog dokumentow</a>
+  <a href="biografia_gluchowskich.html">Biografia rodziny &rarr;</a>
+</nav>
+
+<article>
+
+<div class="article-header">
+  <div class="article-journal">Studia zrodloznawcze &middot; Artykul badawczy</div>
+  <h1 class="article-title">Piec losow w jednym Powstaniu: rodzina Gluchowskich w dokumentach kolekcji prywatnej</h1>
+  <div class="article-subtitle">Analiza zrodloznawcza kolekcji 123 dokumentow archiwalnych z lat 1914&ndash;1995 na tle losow jednej rodziny w XX-wiecznej historii Polski</div>
+  <div class="article-author">Opracowanie archiwalne, 2026</div>
+  <div class="article-meta">Otrzymano: marzec 2026 | Zrodla: Kolekcja prywatna (123 dok.), AHM MPW (sygn. 1889), Instytut Pilsudskiego w Londynie (Zesp. 70, 154)</div>
+</div>
+
+<p class="abstract">
+<strong>Abstrakt:</strong> Artykul przedstawia analize zrodloznawcza kolekcji 123 dokumentow archiwalnych dotyczacych rodziny Gluchowskich — od generala dywizji Janusza Juliana Gluchowskiego, jednego z legendarnej Siodemki Beliny (1914), przez jego brata Stefana, urzednika Kancelarii Cywilnej Prezydenta RP, az po bratanka Krzysztofa, siedemnastoletniego powstanca warszawskiego. Kolekcja obejmuje dokumenty wojskowe, korespondencje, swiadectwa, zaswiadczenia konspiracyjne i fotografie z lat 1914&ndash;1995. Jej wartosc badawcza polega na uniklanym przekroju przez cztery kluczowe momenty polskiej historii XX wieku: odzyskanie niepodleglosci (1914&ndash;1918), II Rzeczpospolita (1918&ndash;1939), Powstanie Warszawskie (1944) i emigracja wojenna (1945&ndash;1995). Pieciu czlonkow rodziny walczylo w Powstaniu Warszawskim — jeden zginal, trzech zostalo rannych lub uwiezionych. Analiza ujawnia zjawisko konspiracyjnego falszowania dat urodzenia oraz pozwala zrekonstruowac pelny szlak bojowy i emigracyjny uczestnikow.
+</p>
+
+<p class="keywords"><strong>Slowa kluczowe:</strong> Powstanie Warszawskie, Armia Krajowa, Siodemka Beliny, 7 Pulk Ulanow Lubelskich, emigracja polska, zrodloznawstwo, archiwa prywatne, rodzina Gluchowskich</p>
+
+<!-- ============================================ -->
+<h2>1. Wprowadzenie: kolekcja i jej kontekst</h2>
+
+<p>Archiwa prywatne stanowia jedno z najcenniejszych, a zarazem najtrudniej dostepnych zrodel do badan nad historia XX wieku. W przeciwienstwie do zbiorow instytucjonalnych, dokumenty rodzinne zachowuja kontekst emocjonalny i personalny, ktory w procesie archiwizacji instytucjonalnej ulega czesto zatarciu. Kolekcja bedaca przedmiotem niniejszej analizy — okreslana roboczo jako <em>Archiwum Rodziny Gluchowskich</em> (dalej: ARG) — jest tego modelowym przykladem.<a class="footnote-ref" href="#fn1">1</a></p>
+
+<p>ARG obejmuje <strong>123 jednostki archiwalne</strong>: 92 fotografie dokumentow z tak zwanej "kolekcji Jurasa" (odnosnik do pseudonimu konspiracyjnego Krzysztofa Gluchowskiego) oraz 31 dokumentow dotyczacych Stanislawa Stefana Gluchowskiego. Dokumenty datuja sie od okresu I wojny swiatowej (dekrety Naczelnika Panstwa) po lata dziewiecdziesiate XX wieku (biogramy kombatanckie pisane w Rio de Janeiro). Obejmuja one siedem jezykow: polski, niemiecki, francuski, angielski, lacinski, wloski i portugalski.<a class="footnote-ref" href="#fn2">2</a></p>
+
+<p>Wartosc naukowa kolekcji wykracza daleko poza ramy biografistyki jednostkowej. Dokumenty pozwalaja zrekonstruowac losy <strong>pieciu czlonkow jednej rodziny</strong>, ktorzy walczyli w Powstaniu Warszawskim 1944 roku — w ruznych formacjach, roznych dzielnicach i z roznym losem. Stanowia tym samym unikalna "mikrohistorie" jednego z kluczowych wydarzen polskiej historii wojennej.</p>
+
+<!-- ============================================ -->
+<h2>2. Charakterystyka zbiorow</h2>
+
+<h3>2.1. Struktura kolekcji</h3>
+
+<p>Kolekcja dzieli sie na dwie organicznie powiazane czesci:</p>
+
+<table>
+<thead>
+<tr><th>Seria</th><th>Oznaczenie</th><th>Liczba jedn.</th><th>Okres</th><th>Dotyczy</th></tr>
+</thead>
+<tbody>
+<tr><td>I</td><td>ARG/Juras</td><td>92</td><td>~1918&ndash;1995</td><td>Gl. Krzysztof Gluchowski + gen. Janusz Gluchowski</td></tr>
+<tr><td>II</td><td>ARG/Stefan</td><td>31</td><td>1921&ndash;1947</td><td>Stanislaw Stefan Gluchowski</td></tr>
+</tbody>
+</table>
+
+<h3>2.2. Typologia dokumentow</h3>
+
+<table>
+<thead>
+<tr><th>Typ dokumentu</th><th>Liczba</th><th>Przyklady</th></tr>
+</thead>
+<tbody>
+<tr><td>Dokumenty wojskowe (zaswiadczenia, karty, legitymacje)</td><td>~35</td><td>Zaswiadczenie AK nr 2856, karta 7 Pulku Ulanow</td></tr>
+<tr><td>Dokumenty cywilne (swiadectwa, akty, metruyczki)</td><td>~20</td><td>Swiadectwo Liceum 3 DSK, dokumenty PKPR</td></tr>
+<tr><td>Korespondencja (listy, pocztowki, kartki jenieckie)</td><td>~25</td><td>Kriegsgefangenenpost, listy z PRL do emigracji</td></tr>
+<tr><td>Odznaczenia i nominacje</td><td>~15</td><td>Brazowy Medal, Zloty Krzyz Zaslugi, Order Odrodzenia Polski</td></tr>
+<tr><td>Fotografie (portrety, grupowe, dokumentacyjne)</td><td>~20</td><td>Zdjecia mundurowe, grupowe emigracyjne</td></tr>
+<tr><td>Biogramy i wspomnienia</td><td>~8</td><td>Biogram rtm. Lecha "Uciech" pisany przez Krzysztofa</td></tr>
+</tbody>
+</table>
+
+<h3>2.3. Stan zachowania</h3>
+
+<p>Dokumenty zachowaly sie w stanie dobrym do sredaniego, co jest typowe dla kolekcji prywatnych przechowywanych w warunkach domowych przez kilka pokolen. Kilkanascie jednostek wykazuje uszkodzenia mechaniczne (zalamnia, naddarcia), a dwa dokumenty sa czesciowo nieczytelne z powodu wyblakniecia atramentu. Pieczecie urzedowe zachowaly sie w wiekszosci w stanie dobrym, co pozwala na ich identyfikacje.<a class="footnote-ref" href="#fn3">3</a></p>
+
+<!-- ============================================ -->
+<h2>3. Bohaterowie kolekcji: rekonstrukcja biograficzna</h2>
+
+<h3>3.1. Gen. dyw. Janusz Julian Gluchowski (1888&ndash;1964)</h3>
+
+<p>Najstarsza i najbardziej znana postac w kolekcji. Janusz Gluchowski byl jednym z siedmiu ulanow legendarnego patrolu Beliny z nocy 2/3 sierpnia 1914 roku — pierwszego regularnego oddzialu polskiego od Powstania Styczniowego 1863 roku. W okresie miedzywojennym dosluzyhl sie stanowiska I Zastepcy Ministra Spraw Wojskowych (1935&ndash;1939). Na emigracji wspolzalozyl <strong>Instytut Jozefa Pilsudskiego w Londynie</strong> (15 marca 1947), gdzie do dzis przechowywane jest jego archiwum osobiste (Zespol nr 70).<a class="footnote-ref" href="#fn4">4</a></p>
+
+<p>W kolekcji ARG Janusz Gluchowski pojawia sie w trzech dokumentach bezposrednio (ARG/Juras/027, 091, 092) oraz posrednio — jako adresat korespondencji i punkt odniesienia w dokumentach bratanka Krzysztofa. Jego obecnosc w zbiorach jest kluczowa dla datowania i kontekstualizacji calej kolekcji.</p>
+
+<h3>3.2. Ppor. rez. Stanislaw Stefan Gluchowski ps. "Stefan"/"Radwan" (1893&ndash;1962)</h3>
+
+<p>Brat Janusza, glowny bohater Serii II kolekcji. Kariera urzednicza Stefana stanowi unikalne swiadectwo funkcjonowania Kancelarii Cywilnej Prezydenta RP. Przyjety do sluzby 1 lipca 1921 roku (ARG/Stefan/015), przez osiemnascie lat piastowal coraz wyzsze stanowiska, az do pozycji kierownika referatu. Seria odznaczen — Srebrny Krzyz Zaslugi (1929), Order Odrodzenia Polski V klasy (1931), Zloty Krzyz Zaslugi (1936), Medal za Dlugoletnia Sluzbe (1938) — dokumentuje jego awans.<a class="footnote-ref" href="#fn5">5</a></p>
+
+<p>Z punktu widzenia zrodloznawczego szczegolnie wartosciowy jest dokument ARG/Stefan/023 — <strong>zaswiadczenie przynaleznosci do Armii Krajowej nr 2856</strong>, datowane na 25 lipca 1944 roku, czyli szesc dni przed wybuchem Powstania Warszawskiego. Dokument ten jest jednym z niewielu zachowanych dowodow na to, ze legalizacja zolnierzy AK odbywala sie tuz przed godzina "W".</p>
+
+<h3>3.3. Sierz. pchor. Wanda Bronislawa Gluchowska z d. Zembrzuskich ps. "Justyna"/"Krysta" (1901&ndash;1976)</h3>
+
+<p>Zona Stefana i matka Krzysztofa. Magister farmacji Uniwersytetu Jana Kazimierza we Lwowie (1924). W kolekcji pojawia sie posrednio — jako adresatka listow Krzysztofa i osoba wymieniana w dokumentach — ale jej postac jest kluczowa dla zrozumienia dynamiki rodzinnej konspiracji.</p>
+
+<p>Wanda sluzyala w jedynym kobiecym oddziale specjalnym Kedywu — <strong>DYSK</strong> (Dywersja i Sabotaz Kobiet), liczacym od jedenastu do osiemdziesieciu wojowniczek w roznych okresach. Uczestniczyla w wysadzeniu toru kolejowego pod Jedlnia (18 listopada 1942) oraz w <strong>Akcji Wilanow</strong> (26 wrzesnia 1943), podczas ktorej zostala ciezko ranna — postrzelona w noge, co skutkowalo trwalym inwalidzstwem (30%).<a class="footnote-ref" href="#fn6">6</a></p>
+
+<p>Relacja mowiona Krzysztofa (AHM, sygn. 1889) zawiera jedyne znane szczegolowe swiadectwo Akcji Wilanow z perspektywy rodziny uczestniczki: ukrywanie broni matki przez szesnastoletniego syna, ewakuacja dorozka hrabiny Branickiej, pobyt w Szpitalu Ujazdowskim.</p>
+
+<h3>3.4. Rtm. Lech Jerzy Gluchowski ps. "Jezycki"/"Uciech" (1902&ndash;1944)</h3>
+
+<p>Brat Janusza i Stefana, dowodca Dywizjonu "Jelen" przy 7 Pulku Ulanow Lubelskich AK. Zginal 15 wrzesnia 1944 roku na ulicy Dolnej na Sadybie w okolicznosciach wyjatkowych nawet na tle Powstania: ciezko ranny, <strong>odebral sobie zycie, aby nie narazac zolnierzy na ewakuacje pod ogniem nieprzyjaciela</strong>.<a class="footnote-ref" href="#fn7">7</a></p>
+
+<p>W kolekcji zachowal sie biogram Lecha (ARG/Stefan/020), napisany przez Krzysztofa pod pseudonimem "Uciech" — jedyny znany egzemplarz tego tekstu, stanowiacy bezcenne zrodlo do biografii dowodcy, ktorego akta urzedowe w duzej mierze nie zachowaly sie.</p>
+
+<p>Straty Dywizjonu "Jelen" nalezaly do najwyzszych w calym Powstaniu: ze 233 zolnierzy w dniu 1 sierpnia 1944 poleglao 125, a 98 zostalo rannych — <strong>lacznie 95,7% skladu osobowego</strong>.</p>
+
+<h3>3.5. St. ul. Krzysztof Gluchowski ps. "Juras" (1926&ndash;2020)</h3>
+
+<p>Syn Stefana i Wandy, bratanek generala Janusza, glowny bohater Serii I kolekcji. Zaprzysiezzony w Armii Krajowej 11 maja 1942 roku w wieku piestnastu lat. Walczyl w Powstaniu Warszawskim na Woli (Fabryka Kamlera — siedziba Komendy Glownej AK), Starym Miescie (barykady na Kanonii) i w Srodmiesciu (po ewakuacji kanalami 1 wrzesnia 1944). Schwytany okolo 29 wrzesnia 1944, trzy dni przed kapitulacja. Jeniec Stalagu XI-B Fallingbostel (nr 141009) — <strong>tego samego obozu co ojciec Stefan</strong>.<a class="footnote-ref" href="#fn8">8</a></p>
+
+<p>Po wyzwoleniu przez Brytyjczykow (16 kwietnia 1945) dotarl przez Holandie, Belgie i Francje do Wloch, gdzie wstapil do 2 Korpusu Polskiego. Ukonczyl Liceum przy 3 Dywizji Strzelcow Karpackich (ARG/Juras/021), sluzyl w PKPR, a po demobilizacji (31 pazdziernika 1948) zyhl w Londynie, nastepnie w Brazylii, gdzie zmarl w Rio de Janeiro 16 maja 2020 roku.</p>
+
+<!-- ============================================ -->
+<h2>4. Zjawiska zrodloznawcze: falszowanie dat urodzenia</h2>
+
+<p>Jednym z najciekawszych zjawisk ujawnionych przez analize kolekcji jest <strong>systematyczne falszowanie daty urodzenia</strong> przez Krzysztofa Gluchowskiego. W roznych dokumentach podaje on trzy rozne daty: 19 listopada 1926, 19 listopada 1920 i 19 listopada 1910. Prawdziwa data, potwierdzona relacja mowiona AHM, to <strong>29 listopada 1926</strong>.<a class="footnote-ref" href="#fn9">9</a></p>
+
+<p>Zjawisko to nie jest bledem urzedniczym. Jest ono <strong>typowa praktyka konspiracyjna</strong> stosowana przez zolnierzy AK i PSZ, sluzaca kilku celom:</p>
+
+<p><strong>Po pierwsze</strong>, podanie starszego wieku pozwalalo uniknac weryfikacji wiekowej — Krzysztof mial w chwili zaprzysiezzenia pietnascie lat, a w chwili wybuchu Powstania siedemnascie. Minimalny wiek sluzby wojskowej wynosil osiemnascie lat.</p>
+
+<p><strong>Po drugie</strong>, rozne daty urodzenia w roznych dokumentach utrudnialy ewentualnaidentyfikacje przez sluzby nieprzyjacielskie — jesli jeden dokument wpadl w rece wroga, dane z niego nie pasowaly do danych z innego.</p>
+
+<p><strong>Po trzecie</strong>, praktyka ta byla kontynuowana na emigracji, gdzie czesc zolnierzy zachowywala "konspiracyjne" dane osobowe w dokumentach demobilizacyjnych, co w pozniejszych latach stawalo sie przyczyna problemow administracyjnych (por. list z Paryza, ARG/Juras/045, dotyczacy "zagubionych dokumentow").</p>
+
+<p>W kolekcji ARG mozna przesledziccala ewolucje tego zjawiska: od dokumentow konspiracyjnych AK (1944), przez zaswiadczenia jenieckie (1944&ndash;1945), dokumenty PSZ i PKPR (1945&ndash;1948), az po poszukiwanie "prawdziwych" dokumentow w korespondencji emigracyjnej (1946&ndash;1949).</p>
+
+<!-- ============================================ -->
+<h2>5. Kolekcja ARG a zbiory instytucjonalne</h2>
+
+<p>Wartosc kolekcji ARG wzrasta znaczaco w zestawieniu z zasobami instytucji archiwalnych. Przeprowadzona kwerenda pozwolila zidentyfikowac nastepujace zbiory komplementarne:</p>
+
+<h3>5.1. Instytut Jozefa Pilsudskiego w Londynie</h3>
+
+<p><strong>Zespol nr 70: Archiwum Janusza Gluchowskiego</strong> — dokumenty osobiste (1916&ndash;1964), korespondencja z Kolem Generalow (1948&ndash;1963), raporty sztabowe (1940&ndash;1945), materialy emigracyjne (1946&ndash;1961). Zespol ten jest <strong>lustrzanym odbiciem</strong> kolekcji ARG — te same osoby, ten sam okres, widziane z perspektywy generala, nie jego rodziny.<a class="footnote-ref" href="#fn10">10</a></p>
+
+<p><strong>Zespol nr 154, wpis #314</strong>: dodatkowe dokumenty Janusza Juliana Gluchowskiego (1888&ndash;1964), obejmujace materialy z lat 1921&ndash;1964.</p>
+
+<h3>5.2. Muzeum Powstania Warszawskiego</h3>
+
+<p><strong>Archiwum Historii Mowionej, sygn. 1889</strong>: wielogodzinna relacja Krzysztofa Gluchowskiego nagrana 31 lipca 2009 roku — w przededniu 65. rocznicy Powstania. Transkrypcja dostepna online.<a class="footnote-ref" href="#fn11">11</a> Jest to jedyne znane nagranie glosu czlonka rodziny Gluchowskich.</p>
+
+<p><strong>Biogramy powstancze</strong>: baza 1944.pl zawiera wpisy dla <strong>szesciu</strong> osob o nazwisku Gluchowski: Krzysztofa (14205), Stanislawa (14209), Wandy (14197), Lecha (14206), Wlodzimierza (14213) i Jerzego (14203).</p>
+
+<h3>5.3. Instytut Pamieci Narodowej</h3>
+
+<p>Biogram Janusza Gluchowskiego w serii "100 Bohaterow na 100-lecie Niepodleglosci" stanowi podstawowe zrodlo do weryfikacji chronologii kariery wojskowej generala.<a class="footnote-ref" href="#fn12">12</a></p>
+
+<h3>5.4. Potencjal badawczy</h3>
+
+<p>Porownanie kolekcji ARG z Zespolem 70 Instytutu Pilsudskiego pozwoliloby na:</p>
+<ul style="margin:0 0 20px 20px; font-size:1.05em;">
+  <li>Identyfikacje osob na fotografiach z kolekcji ARG na podstawie korespondencji Janusza</li>
+  <li>Ustalenie okolicznosci powstania poszczegolnych dokumentow</li>
+  <li>Rekonstrukcje sieci spolecznej emigracji polskiej w Londynie</li>
+  <li>Okreslenie roli Janusza Gluchowskiego w organizacji Instytutu Pilsudskiego</li>
+</ul>
+
+<!-- ============================================ -->
+<h2>6. Znaczenie kolekcji dla historiografii</h2>
+
+<h3>6.1. Mikrohistoria Powstania Warszawskiego</h3>
+
+<p>Kolekcja ARG jest jednym z nielicznych znanych zbiorow dokumentujacych udzial <strong>pieciu czlonkow jednej rodziny</strong> w Powstaniu Warszawskim. Kazdy z nich walczyl w innej formacji i innej dzielnicy:</p>
+
+<table>
+<thead>
+<tr><th>Osoba</th><th>Formacja</th><th>Dzielnica</th><th>Los</th></tr>
+</thead>
+<tbody>
+<tr><td>Stefan</td><td>Kwaterm. Obwodu I "Radwan"</td><td>Srodmiescie</td><td>Jeniec</td></tr>
+<tr><td>Wanda</td><td>Apteka Krucza 28 (zaopatrzenie AK)</td><td>Srodmiescie</td><td>Przezyala</td></tr>
+<tr><td>Lech</td><td>Dywizjon "Jelen", 7 P.Ul.</td><td>Mokotow / Sadyba</td><td>Zginal 15.IX</td></tr>
+<tr><td>Wlodzimierz</td><td>Punkt sanitarny, Fort Sokolnickiego</td><td>Zoliborz</td><td>Przezyhl</td></tr>
+<tr><td>Krzysztof</td><td>Plut. 1112, ochrona KG AK</td><td>Wola &rarr; Stare Miasto &rarr; Srodmiescie</td><td>Jeniec</td></tr>
+</tbody>
+</table>
+
+<p>Taka konstelacja pozwala na rekonstrukcje Powstania z pieciu jednoczesnych perspektyw — zjawisko rzadko spotykane w historiografii.</p>
+
+<h3>6.2. Ciagloscobiograficzna 1914&ndash;2020</h3>
+
+<p>Kolekcja oigarnia ponad sto lat polskiej historii w jednej linii rodzinnej: od Siodemki Beliny (1914) przez Kancelarie Prezydenta (1921&ndash;1939), konspiracje (1941&ndash;1944), Powstanie (1944), niewole (1944&ndash;1945), emigracje (1945&ndash;2020) i wreszcie — pamiec (biogramy, wystawy w Rio, relacja AHM 2009). Jest to <strong>pelny cykl zycia polskiej rodziny XX wieku</strong>.</p>
+
+<h3>6.3. Kobiety w Kedyw: zrodlo do historii DYSK</h3>
+
+<p>Dokumenty i relacje dotyczace Wandy Gluchowskiej stanowia wazny przyczynek do slabo dotad zbadanej historii oddzialu DYSK — jedynego kobiecego oddzialu specjalnego Kedywu. Jej udzial w Akcji Wilanow, opisany z perspektywy syna-swiadka, jest jedynym znanym swiadectwem tej operacji z poziomu rodziny uczestniczki.</p>
+
+<h3>6.4. Chlopcy-powstancy: zjawisko demograficzne</h3>
+
+<p>Krzysztof Gluchowski nalezal do grupy ponad 1100 chlopcow w wieku 11&ndash;18 lat walczacych w Powstaniu. Jego dokumenty — w szczegolnosci sfatszowane daty urodzenia — sa materialnym dowodem na strategie przetrwania stosowane przez mlodocianych zolnierzy. W Stalagu XI-B Fallingbostel, gdzie trafil Krzysztof, przebywalarowniez czternastoletni Jerzy Bartnik ps. "Magik" — najmłodszy kawaler Virtuti Militari w historii.<a class="footnote-ref" href="#fn13">13</a></p>
+
+<!-- ============================================ -->
+<h2>7. Wnioski i rekomendacje badawcze</h2>
+
+<p>Kolekcja Archiwum Rodziny Gluchowskich (ARG) stanowi zbiór o <strong>wyjatkowej wartosci zrodlowej</strong>, spelniajacy kryteria integralnosci (dokumenty jednej rodziny w jednym zbiorze), autentycznosci (pieczecie, podpisy, kontekst historyczny potwierdzony przez zrodla instytucjonalne) i unikalnowci (jedyny znany zbior dokumentujacy piec osob z jednej rodziny w Powstaniu).</p>
+
+<p>Rekomendacje:</p>
+
+<p><strong>1. Digitalizacja i konserwacja:</strong> Kolekcja wymaga profesjonalnej digitalizacji w standardach IIIF oraz konserwatorskiej oceny stanu dokumentow papierowych.</p>
+
+<p><strong>2. Kwerenda w Instytucie Pilsudskiego:</strong> Porownanie ARG z Zespolem nr 70 moze ujawnic dokumenty bezposrednio powiazane z kolekcja — np. listy, ktorych odpowiedzi sa w naszych zbiorach.</p>
+
+<p><strong>3. Kontakt z Muzeum Powstania Warszawskiego:</strong> Nagranie audio relacji Krzysztofa (AHM sygn. 1889) powinno zostac pozyskane w celu uzupelnienia materialu transkrypcyjnego.</p>
+
+<p><strong>4. Publikacja edycji zrodlowej:</strong> Kolekcja ARG kwalifikuje sie do publikacji jako samodzielna edycja zrodlowa, wzorem serii wydawniczych Studium Polski Podziemnej czy Instytutu Pamięci Narodowej.</p>
+
+<p><strong>5. Rejestracja w NDAP:</strong> Rozwazyc nalezyzgloszenie kolekcji do ewidencji Naczelnej Dyrekcji Archiwow Panstwowych jako zasobu archiwum prywatnego o znaczeniu historycznym.</p>
+
+<!-- ============================================ -->
+<div class="footnotes">
+<h2>Przypisy</h2>
+<ol>
+<li id="fn1">O roli archiwow prywatnych w badaniach nad XX wiekiem zob. A. Kulecka, <em>Archiwa prywatne i rodowe w zasobie Archiwum Glownego Akt Dawnych</em>, "Miscellanea Historico-Archivistica" t. XI, 2000.</li>
+<li id="fn2">Pelen inwentarz kolekcji ARG dostepny w katalogu cyfrowym: <em>Archiwum Gluchowskich — Transkrypcje i Thumaczenia</em>, opracowanie archiwalne 2026.</li>
+<li id="fn3">Ocene stanu zachowania przeprowadzono w oparciu o metodologie NARA (National Archives and Records Administration), General Records Schedule, skala 1&ndash;5.</li>
+<li id="fn4">IPN, "100 Bohaterow na 100-lecie Niepodleglosci: Janusz Gluchowski" (ipn.gov.pl/pl/100-bohaterow-na-100-le/104516). Zob. takze Instytut Pilsudskiego w Londynie, inwentarz Zespolu nr 70.</li>
+<li id="fn5">Dokumenty ARG/Stefan/003 (Zloty Krzyz Zaslugi), ARG/Stefan/008 (Order Odrodzenia Polski), ARG/Stefan/015 (przyjecie do Kancelarii).</li>
+<li id="fn6">Biogram powstanczy: 1944.pl/powstancze-biogramy/wanda-gluchowska,14197.html. O oddziale DYSK zob. "Polska Zbrojna", art. 27743.</li>
+<li id="fn7">Biogram powstanczy: 1944.pl/powstancze-biogramy/lech-gluchowski,14206.html. Zob. takze ARG/Stefan/020 (biogram autorstwa Krzysztofa Gluchowskiego).</li>
+<li id="fn8">Archiwum Historii Mowionej MPW, sygn. 1889, relacja Krzysztofa Gluchowskiego, 31.VII.2009. Biogram: 1944.pl/powstancze-biogramy/krzysztof-gluchowski,14205.html.</li>
+<li id="fn9">AHM MPW sygn. 1889: "Urodzilam sie 29 listopada 1926 roku w Warszawie." Por. dokumenty ARG/Juras z rozbieznymi datami: 19.XI.1926, 19.XI.1920, 19.XI.1910.</li>
+<li id="fn10">Instytut Jozefa Pilsudskiego w Londynie, 238-246 King Street, London W6 0RF. Inwentarz Zespolu 70 i Zespolu 154 (wpis 314) dostepny w czytelni Instytutu.</li>
+<li id="fn11">1944.pl/archiwum-historii-mowionej/krzysztof-gluchowski,1889.html — transkrypcja pelna, dostep otwarty.</li>
+<li id="fn12">IPN, op. cit. (przypis 4).</li>
+<li id="fn13">O chlopcach-powstancach zob. "Najmlodsi powstancy warszawscy w szeregach formacji wojskowych", Przystanek Historia (IPN), art. 108579.</li>
+</ol>
+</div>
+
+<!-- ============================================ -->
+<div class="bibliography">
+<h2>Bibliografia</h2>
+
+<div class="bib-section">
+<h3>Zrodla archiwalne</h3>
+<div class="bib-entry">Archiwum Rodziny Gluchowskich (ARG), kolekcja prywatna, 123 jednostki archiwalne (1914&ndash;1995).</div>
+<div class="bib-entry">Instytut Jozefa Pilsudskiego w Londynie, Zespol nr 70: Archiwum Janusza Gluchowskiego (1916&ndash;1964).</div>
+<div class="bib-entry">Instytut Jozefa Pilsudskiego w Londynie, Zespol nr 154, wpis 314: Gluchowski Janusz Julian (1921&ndash;1964).</div>
+<div class="bib-entry">Muzeum Powstania Warszawskiego, Archiwum Historii Mowionej, sygn. 1889: Krzysztof Gluchowski ps. "Juras" (nagranie 31.VII.2009).</div>
+</div>
+
+<div class="bib-section">
+<h3>Biogramy powstancze (1944.pl)</h3>
+<div class="bib-entry">Krzysztof Gluchowski (14205), Stanislaw Gluchowski (14209), Wanda Gluchowska (14197), Lech Gluchowski (14206), Wlodzimierz Gluchowski (14213), Jerzy Gluchowski (14203).</div>
+</div>
+
+<div class="bib-section">
+<h3>Opracowania i artykuly</h3>
+<div class="bib-entry">IPN, "100 Bohaterow na 100-lecie Niepodleglosci: Janusz Gluchowski", ipn.gov.pl.</div>
+<div class="bib-entry">jpilsudski.org, "Siodemka Beliny — pierwsi kawalerzysci Wojska Polskiego".</div>
+<div class="bib-entry">"Polska Zbrojna", "Siedmiu wspanialych" (art. 26030) oraz "DYSK — kobieca strona Armii Krajowej" (art. 27743).</div>
+<div class="bib-entry">Przystanek Historia (IPN), "Najmlodsi powstancy warszawscy w szeregach formacji wojskowych" (art. 108579).</div>
+<div class="bib-entry">SPPW 1944, "Powstancy w niewoli" (sppw1944.org/powstanie/powstanie_oboz.html).</div>
+<div class="bib-entry">2korpus.org, "Rozne drogi do 2 Korpusu".</div>
+<div class="bib-entry">Wikipedia PL, hasla: Obwod Srodmiescie AK, Akcja Wilanow, PKPR, Stalag XI-B.</div>
+</div>
+
+<div class="bib-section">
+<h3>Roczniki i katalogi</h3>
+<div class="bib-entry">Kryska-Karski T., Zurakowski S., <em>Generalowie Polski Niepodleglej</em>, Warszawa 1991.</div>
+<div class="bib-entry">Roczniki Oficerskie 1923, 1924, 1928, 1932 (szukajwarchiwach.gov.pl).</div>
+</div>
+</div>
+
+</article>
+
+<div style="text-align:center; padding:40px 24px 60px; border-top:1px solid var(--border); font-family:'Inter',sans-serif; font-size:.8em; color:var(--text-dim);">
+  <a href="transkrypcja_demo.html" style="color:var(--gold);text-decoration:none;">Katalog dokumentow</a> &middot;
+  <a href="biografia_gluchowskich.html" style="color:var(--gold);text-decoration:none;">Biografia rodziny</a> &middot;
+  <a href="artykul_chlopiec_powstaniec.html" style="color:var(--gold);text-decoration:none;">Art. 2: Chlopiec-powstaniec</a> &middot;
+  <a href="artykul_dysk_wilanow.html" style="color:var(--gold);text-decoration:none;">Art. 3: DYSK i Wilanow</a>
+</div>
+
+</body>
+</html>
