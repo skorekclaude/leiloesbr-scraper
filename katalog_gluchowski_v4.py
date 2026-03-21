@@ -5177,12 +5177,12 @@ VALUATIONS = {
         "rekomendacja": "DESA Unicum top lot lub depozyt Muzeum Kawalerii Grudziądz / Muzeum Wojska Polskiego."
     },
     "ARG/II/9": {
-        "wartosc_hist": "★★",
-        "opis_wartosci": "Życzenia od Samorządu Żołnierskiego. Ephemera pułkowa: 200-500 PLN.",
-        "cena_min": 200,
-        "cena_max": 500,
+        "wartosc_hist": "★★★",
+        "opis_wartosci": "Życzenia wielkanocne od D-cy Szwadronu Zapasowego 7 P.Uł. z Ciechanowa dla mjr. Janusza Głuchowskiego. Pieczęć 'DOWÓDZTWO Szwadronu Zapasowego 7 pułku Ułanów'. Ephemera pułkowa z pieczęcią i podpisem Rtm.: 300-800 PLN. Wartość podwyższona przez identyfikację nadawcy, lokalizacji (Ciechanów) i okazji (Wielka Noc).",
+        "cena_min": 300,
+        "cena_max": 800,
         "waluta": "PLN",
-        "rekomendacja": "W zestawie."
+        "rekomendacja": "W zestawie z dokumentami 7 P.Uł."
     },
     "ARG/II/10": {
         "wartosc_hist": "★★★",
@@ -5265,12 +5265,12 @@ VALUATIONS = {
         "rekomendacja": "DESA Unicum TOP LOT. Muzeum Wojska Polskiego, IPN."
     },
     "ARG/II/20": {
-        "wartosc_hist": "★★",
-        "opis_wartosci": "Formularz rozkazu wyjazdu MSWojsk. Dokumenty biurokratyczne: 200-500 PLN.",
-        "cena_min": 200,
-        "cena_max": 500,
+        "wartosc_hist": "★★★",
+        "opis_wartosci": "Rozkaz wyjazdu z DOK X Przemyśl dla gen.bryg. Głuchowskiego — trasa Przemyśl→Warszawa, 1935. Formularz 'Świstek IV' z pieczęcią DOK. JEŚLI podróż na pogrzeb Piłsudskiego (V.1935) — wartość znacznie wyższa (1500-4000 PLN). Jako zwykły rozkaz wyjazdu: 300-700 PLN. Wymaga odczytu celu podróży z oryginału.",
+        "cena_min": 300,
+        "cena_max": 700,
         "waluta": "PLN",
-        "rekomendacja": "W zestawie."
+        "rekomendacja": "Wymaga weryfikacji — odczytać cel podróży z oryginału. Jeśli pogrzeb Piłsudskiego, sprzedawać OSOBNO jako raritas."
     },
     "ARG/II/21": {
         "wartosc_hist": "★★",
@@ -5395,12 +5395,12 @@ VALUATIONS = {
         "rekomendacja": "W zestawie z Serią III i V — narracja rodzinna."
     },
     "ARG/III/4": {
-        "wartosc_hist": "★★★★",
-        "opis_wartosci": "Rewers — intymny list ojca do syna. Wspomina adres w Częstochowie. 200-500 PLN.",
-        "cena_min": 200,
-        "cena_max": 500,
+        "wartosc_hist": "★★★★★",
+        "opis_wartosci": "List Stefana do Krzysztofa z obozu jenieckiego (XI.1944) — PEŁNA TRANSKRYPCJA. Konkretne adresy (ul. Hoene-Wrońskiego 12, Częstochowa), imiona krewnych (Halszka, Irka, Stenia, Andrzej, ciocia Ircha), informacja o śmierci babci pochowanej w ogrodzie. Ojciec-jeniec pisze do syna-jeńca w tym samym Stalagu. Listy jenieckie z treścią rodzinną: 500-1500 PLN. Pełna transkrypcja i identyfikacja osób podwyższa wartość.",
+        "cena_min": 500,
+        "cena_max": 1500,
         "waluta": "PLN",
-        "rekomendacja": "W zestawie."
+        "rekomendacja": "Sprzedawać z kopertą ARG/III/3 jako komplet korespondencji jenieckiej Stefana."
     },
     "ARG/III/5": {
         "wartosc_hist": "★★★",
@@ -6072,12 +6072,12 @@ VALUATIONS = {
     "ARG/VI/5": {"wartosc_hist": "★★★", "opis_wartosci": "Strona albumu z 4 zdjęciami. W komplecie albumu.", "cena_min": 0, "cena_max": 0, "waluta": "PLN", "rekomendacja": "Z ARG/VI/4."},
     "ARG/VI/6": {"wartosc_hist": "★★★", "opis_wartosci": "Strona albumu z 4 zdjęciami. W komplecie albumu.", "cena_min": 0, "cena_max": 0, "waluta": "PLN", "rekomendacja": "Z ARG/VI/4."},
     "ARG/VI/7": {
-        "wartosc_hist": "★★★★",
-        "opis_wartosci": "Dwie legitymacje pułkowe — stryj i bratanek. Dwa pokolenia w dwóch pułkach ułanów. Leg. pułkowe: 200-500 PLN za sztukę.",
-        "cena_min": 500,
-        "cena_max": 1200,
+        "wartosc_hist": "★★★★★",
+        "opis_wartosci": "Dwie legitymacje pułkowe — DWA POKOLENIA UŁANÓW: (1) Krzysztof = odznaka 7 P.Uł. Lubelskich nr 34/K, 23.III.1946 z Henstedt, (2) Janusz = Znak pułkowy 20 P.Uł. im. Króla Jana III Sobieskiego, Rzeszów 24.II.1930. Legitymacje odznaczeniowe z pieczęciami pułkowymi: 300-700 PLN za sztukę. JAKO PARA (stryj-generał + bratanek-ułan) = unikalna całość rodzinno-militarna.",
+        "cena_min": 800,
+        "cena_max": 1800,
         "waluta": "PLN",
-        "rekomendacja": "DESA lub SDA."
+        "rekomendacja": "SPRZEDAWAĆ JAKO PARĘ — dwa pokolenia kawalerzystów. DESA Unicum lub Rara Avis — kontekst rodzinny podwyższa wartość."
     },
     "ARG/VI/8": {"wartosc_hist": "★★", "opis_wartosci": "Zaproszenie na mszę rocznicową 7 P.Uł. Ephemera kombatancka: 50-150 PLN.", "cena_min": 50, "cena_max": 150, "waluta": "PLN", "rekomendacja": "W zestawie."},
     "ARG/VI/9": {"wartosc_hist": "★★", "opis_wartosci": "Nekrolog Jana Lorensa, Chicago 1960. Ephemera diasporowa: 50-150 PLN.", "cena_min": 50, "cena_max": 150, "waluta": "PLN", "rekomendacja": "W zestawie."},
