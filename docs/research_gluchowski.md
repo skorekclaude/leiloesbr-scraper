@@ -1,52 +1,88 @@
 # Research: Kolekcja Głuchowskich — Kontekst historyczny i identyfikacja
 
-## 1. SIEDMIU UŁANÓW BELINY — 6 sierpnia 1914
+## 1. SIEDMIU UŁANÓW BELINY — noc 2/3 sierpnia 1914
 
-Pierwszy patrol zbrojny odradzającej się Polski. Siedmiu jeźdźców pod dowództwem Władysława Beliny-Prażmowskiego przekroczyło granicę Galicji i Królestwa Kongresowego pod Michałowicami, wjeżdżając do Miechowa.
+W nocy z 2 na 3 sierpnia 1914, na rozkaz Piłsudskiego, siedmioosobowy konny patrol rozpoznawczy pod dowództwem Władysława Prażmowskiego "Beliny" przekroczył granicę zaboru rosyjskiego — pierwszy regularny oddział polski od Powstania Styczniowego 1863 roku. Sfotografowani ceremonialne we dworze w Goszycach.
 
-### Skład patrolu (kanoniczny):
+### Skład patrolu (ZWERYFIKOWANY wg źródeł IPN i jpilsudski.org):
 
-| # | Imię i nazwisko | Ur. | Zm. | Los |
-|---|----------------|-----|-----|-----|
-| 1 | **Władysław Belina-Prażmowski** (dowódca) | 16.12.1888 Ilkowice | 28.07.1938 Kraków | Gen. brygady, senator, zm. przed wojną |
-| 2 | **Janusz Julian Głuchowski** | 06.08.1888 Bukowa | 11.06.1964 Londyn | Gen. dywizji, I Zastępca Ministra Spraw Wojskowych |
-| 3 | **Stanisław Grzmot-Skotnicki** | 1894 | IX.1939 | Gen. brygady, poległ w kampanii wrześniowej |
-| 4 | **Ludwik de Laveaux** | 1891 | ~1969 | Oficer, artysta-malarz (z rodziny malarza Ludwika de Laveaux) |
-| 5 | **Antoni Jabłoński** | ~1892 | ? | Służył w Legionach, dalsze losy słabo udokumentowane |
-| 6 | **Zdzisław Roguski** | ~1890s | ? | Legiony, słabo udokumentowany |
-| 7 | **Stefan Kulesza** | ~1890s | ? | Legiony, słabo udokumentowany |
+| # | Imię i nazwisko | Ur. | Zm. | Los po 1914 |
+|---|----------------|-----|-----|-------------|
+| 1 | **Władysław Belina-Prażmowski** (dowódca) | 03.05.1888 Ruszkowiec | 13.10.1938 Wenecja | Gen. bryg., prezydent Krakowa (1931-33), wojewoda lwowski (1933-37). Zmarł na atak serca w Wenecji. Pochowany Cmentarz Rakowicki, Kraków |
+| 2 | **Janusz Julian Głuchowski** (zastępca) | 06.08.1888 Bukowa | 11.06.1964 Londyn | Gen. dyw., I Zastępca Min. Spraw Wojskowych (1935-39). Założyciel Instytutu Piłsudskiego w Londynie. Pochowany Brompton Cemetery (#576) |
+| 3 | **Stanisław Grzmot-Skotnicki** | ~1894 | 19/20.09.1939 | Gen. bryg. Dowódca Brygady Kawalerii Pomorskiej. Ranny pod Tułowicami, zmarł następnego dnia. Ekshumowany na Powązki (1952) |
+| 4 | **Zygmunt Bończa-Karwacki** | ? | 04.07.1916 | Przewodnik patrolu. Poległ pod Kostiuchnówką (Styr) — **pierwszy z Siódemki, który zginął**. Grób masowy w Wołczewsku (nie istnieje). Pośmiertny awans na rotmistrza |
+| 5 | **Antoni Jabłoński** ps. "Zdzisław" | ~1896 (Lwów) | 22.10.1920 | Najmłodszy (18 lat!). Rotmistrz. Ranny IV.1919 pod Wilnem i nad Bohem. Dowódca 11 Pułku Ułanów. Zmarł w szpitalu we Lwowie. Pochowany: Modliborczyce |
+| 6 | **Stefan Hanka-Kulesza** | 1892 (Gandawa, Belgia) | 05.06.1964 Londyn | Płk. Dowódca Kresowej Brygady Kawalerii (1939). Jeniec Oflag VIIA Murnau. Po wojnie robotnik w Anglii. **Zmarł 6 dni przed Głuchowskim!** |
+| 7 | **Ludwik Kmicic-Skrzyński** | 26.08.1893 Odessa | 14.02.1972 Manchester | Gen. bryg. Dowódca Podlaskiej Brygady Kawalerii. Walczył pod Kockiem (ostatnia bitwa 1939). Jeniec Oflag II B Arnswalde. Robotnik fabryczny w Anglii. **OSTATNI ŻYJĄCY z Siódemki** |
 
-**UWAGA:** Skład "Siódemki" jest dyskutowany — patrol mógł liczyć więcej jeźdźców. Liczba 7 ma wymiar symboliczny/mitologiczny. Inne źródła podają: Zbigniew Dunin-Wąsowicz (1882-1917), Ludwik Schweizer, Zygmunt Karwacki, Janusz Karkoszka.
+**"Ósmy ułan":** Edward Dzik-Kleszczyński, syn właściciela majątku w Skrzeszowicach, który dołączył do patrolu w drodze.
+
+### Źródła:
+- [IPN: Janusz Głuchowski — 100 Bohaterów](https://ipn.gov.pl/pl/100-bohaterow-na-100-le/104516,Janusz-Gluchowski-ur-6-sierpnia-1888-w-Bukowej-zm-11-czerwca-1964-w-Londynie-gen.html)
+- [jpilsudski.org: Siódemka Beliny](http://www.jpilsudski.org/component/k2/item/1824-siodemka-beliny-pierwsi-kawalerzysci-wojska-polskiego)
+- [Polska Zbrojna: Siedmiu wspaniałych](https://polska-zbrojna.pl/Mobile/ArticleShow/26030)
+- [Nasza Historia: Siódemka Beliny](https://naszahistoria.pl/siodemka-beliny-czyli-przednia-straz-pilsudskiego/ar/13230436)
+- [IPN: Belina-Prażmowski biogram](https://biogramy.ipn.gov.pl/bio/wszystkie-biogramy/110576,Wladyslaw-Belina-Prazmowski.html)
 
 ### Znaczenie dla kolekcji:
 - Zdjęcia grupowe z udziałem kilku z Siódemki mają **wyjątkową wartość historyczną**
+- Zdjęcie we dworze w Goszycach — jedno z najsłynniejszych zdjęć w historii Polski
 - Corocznie 6 sierpnia odbywały się uroczystości — rocznicowe zdjęcia grupowe
-- Odznaka Czynu Legionowego — szukaj na mundurach
+- Hanka-Kulesza i Głuchowski zmarli w odstępie 6 DNI w Londynie (czerwiec 1964) — prawdopodobnie się znali do końca
+- Kmicic-Skrzyński żył w Manchesterze do 1972 — mógł być na późnych zdjęciach emigracyjnych
 
 ---
 
-## 2. GEN. DYW. JANUSZ JULIAN GŁUCHOWSKI
+## 2. GEN. DYW. JANUSZ JULIAN GŁUCHOWSKI — PEŁNA BIOGRAFIA (wg IPN)
 
-### Przebieg kariery:
-- **1914:** Jeden z Siedmiu Ułanów Beliny (6 VIII 1914)
-- **1914-1918:** I Brygada Legionów Polskich pod Piłsudskim
-- **1920:** Wojna polsko-bolszewicka
-- **1918-1939:** Kariera oficerska, awans do generała
-- **~1935-1939:** I Zastępca Ministra Spraw Wojskowych
-- **1939:** Ewakuacja (prawdopodobnie Rumunia/Węgry → Zachód)
-- **1939-1945:** PSZ na Zachodzie (Londyn)
-- **1945-1964:** Emigracja w Londynie
-- **Współzałożyciel Instytutu Józefa Piłsudskiego w Londynie** (zał. 1947)
-- Aktywny w SPK (Stowarzyszenie Polskich Kombatantów)
+**Ur.:** 6 sierpnia 1888, Bukowa (Królestwo Kongresowe)
+**Zm.:** 11 czerwca 1964, Londyn
+**Pochowany:** Brompton Cemetery, Londyn (rejestr #576)
 
-### Odznaczenia (prawdopodobne):
-- **Virtuti Militari** (V klasa lub wyższa) — najwyższe odznaczenie wojskowe
-- **Krzyż Niepodległości** — za służbę w walce o niepodległość
-- **Krzyż Walecznych** (wielokrotnie?)
-- **Order Odrodzenia Polski** (Polonia Restituta) — dla wysokich urzędników
-- **Odznaka za Rany i Kontuzje**
-- **Odznaczenia legionowe** — pamiątkowe
-- Możliwe **odznaczenia brytyjskie** (Honorary CB, CBE?)
+### Przebieg kariery (ZWERYFIKOWANY):
+- **1905:** Członek PPS — Organizacja Bojowa (od 17 roku życia!)
+- **~1907-1909:** Studia na Politechnice w Liège (Belgia)
+- **1909:** Współzałożyciel Związku Walki Czynnej w Belgii (razem z Tadeuszem Piskorem)
+- **1910-1914:** Członek Związku Strzeleckiego
+- **Noc 2/3 VIII 1914:** Siódemka Beliny — zastępca dowódcy patrolu
+- **1914-1918:** I Brygada Legionów — 1 Pułk Ułanów. Dowodził plutonem, szwadronem, dywizjonem. **Ostatni dowódca pułku.** Aresztowany po kryzysie przysięgowym, więziony w twierdzy Werl
+- **1918:** Tworzenie oddziałów kawalerii w Lublinie i Kraśniku (przyszły 3 Pułk Ułanów)
+- **VII 1920:** Dowódca I Brygady Kawalerii (wojna polsko-bolszewicka)
+- **X 1925:** Dowódca 4 Dywizji Kawalerii
+- **1930-1933:** Komendant Centrum Wyższych Studiów Wojskowych
+- **1933-1935:** Dowódca Okręgu Korpusu nr X
+- **1935-1939:** **I Zastępca Ministra Spraw Wojskowych**
+- **Wrzesień 1939:** Wydał rozkazy tworzące Dowództwo Obrony Warszawy (gen. Czuma). Nakazał ewakuację pilotów do Rumunii. **Sam internowany w Rumunii**
+- **X 1940:** Dotarł do Palestyny
+- **II 1941:** Dotarł do Londynu
+- **III 1941:** Generał do dyspozycji Naczelnego Wodza
+- **X 1941:** **Dowódca Brygady Szkolnej w Szkocji**
+- **IX 1943 — IX 1945:** **Dowódca Polskich Jednostek Wojskowych w Wielkiej Brytanii**
+- **15 III 1947:** **Założyciel i prezes Instytutu Józefa Piłsudskiego w Londynie**
+
+### Awanse:
+| Data | Stopień |
+|------|---------|
+| 1914 | Podporucznik |
+| 1916 | Rotmistrz (kapitan kawalerii) |
+| 1918 | Major |
+| 1920 | Pułkownik |
+| 1927 | Generał brygady |
+| **1 VI 1945** | **Generał dywizji** |
+
+### Współzałożyciele Instytutu Piłsudskiego w Londynie:
+Gen. Władysław Bortnowski, **Gen. Janusz Głuchowski**, Ludwik Piskor, Wacław Stachiewicz, Stefan Dąb-Biernacki, Jan Piłsudski, Juliusz Łukasiewicz, Edward Kleszczyński, Aleksandra Piłsudska, Tytus Filipowicz, Kazimierz Iranek-Osmęcki, Tadeusz Münnich, Tadeusz Schaetzel, Konrad Libicki, Jan Starzewski.
+
+**Papiery Głuchowskiego** — jedna z najważniejszych kolekcji w zbiorach Instytutu.
+
+### Odznaczenia (potwierdzone/wysoce prawdopodobne):
+- **Virtuti Militari** (Krzyż Srebrny, V klasa)
+- **Krzyż Niepodległości z Mieczami** — za służbę zbrojną w walce o niepodległość
+- **Krzyż Walecznych** (wielokrotnie)
+- **Order Odrodzenia Polski** (Polonia Restituta) — jako I Zastępca Ministra
+- **Odznaczenia legionowe** — pamiątkowe odznaki Legionów
+- Prawdopodobne **odznaczenia zagraniczne** — brytyjskie, estońskie, czechosłowackie (jak Belina)
 
 ### Identyfikacja na zdjęciach:
 - Kawalerzysta — amarantowe patki kołnierzowe
@@ -60,12 +96,50 @@ Pierwszy patrol zbrojny odradzającej się Polski. Siedmiu jeźdźców pod dowó
 
 ## 3. KRZYSZTOF GŁUCHOWSKI (syn)
 
-- **Ur.:** 1926 (oficjalnie podawał się za młodszego — praktyka konspiracyjna)
+- **Ur.:** 1926 (oficjalnie podawał się za młodszego — praktyka konspiracyjna AK/PSZ)
 - **Zm.:** 2020, Rio de Janeiro
 - **Służba:** PSZ, 3 Dywizja Strzelców Karpackich (Szkoła Karpacka)
-- **Matura:** Szkoła Karpacka we Włoszech
+- **Matura:** Szkoła Karpacka we Włoszech (jedna z 309 matur!)
 - **Ścieżka emigracyjna:** Włochy → PKPR (UK) → Brazylia (Rio de Janeiro)
 - **Życie w Brazylii:** Członek Polonii carioca
+- **Relacja z ojcem:** Janusz miał 38 lat gdy urodził się Krzysztof — typowe dla oficerów
+
+### 3 DSK — Struktura (ZWERYFIKOWANA):
+- **Dowódca:** gen. bryg. Bronisław Duch (od 6 VIII 1943)
+- **Zastępca:** płk Jerzy Jan Jastrzębski
+- 1 Brygada Strzelców Karpackich
+- 2 Brygada Strzelców Karpackich
+- 1, 2, 3 Karpacki Pułk Artylerii Lekkiej
+- 3 Karpacki Pułk Artylerii Przeciwlotniczej
+- 3 Karpacki Pułk Przeciwpancerny
+- **12 Pułk Ułanów Podolskich** (rozpoznanie) — ten sam, którego patrol zatknął flagę na Monte Cassino!
+- 3 Kresowy Batalion CKM, Saperów, Łączności, Żandarmerii
+
+### Szlak bojowy 3 DSK:
+- **Monte Cassino** (V 1944) — szczególnie Wzgórze 593
+- **Pescara** wyzwolona 18 VI 1944
+- **Ankona** (VII 1944)
+- Rzeka Metauro — zniszczenie 278 Dywizji Piechoty; zdobycie Pesaro (31 VIII 1944)
+- Rzeka Senio (XII 1944 i IV 1945) — zniszczenie 4 Dywizji Spadochronowej
+- **Bolonia** (21 IV 1945) — koniec szlaku bojowego
+
+### Junacka Szkoła Kadetów / Szkoła Karpacka:
+- Anders nakazał tworzenie szkół dla nieletnich żołnierzy-ochotników (Junaków)
+- Szkoła Podstawowa: Nazaret
+- Szkoła Średnia: El Quastina i Barbara (Palestyna)
+- **Junacka Szkoła Kadetów:** Bach-Shid, potem Barbara (Palestyna)
+- Ewakuowano z ZSRR: 4618 kadetów
+- Absolwenci: 1276 (szkoła zamknięta 1948)
+- Absolwenci wstępowali do lotnictwa w UK lub II Korpusu we Włoszech (1944-45)
+
+### Polonia brazylijska:
+- Pierwsza fala: po Powstaniu Listopadowym (1830s)
+- Główna imigracja: 1870-1920, szczyt ~1914: 150 000+ przybyłych
+- Koncentracja: Parana, Santa Catarina, Rio Grande do Sul
+- **Kurytyba:** druga co do wielkości diaspora polska na świecie (po Chicago). ~300 000 potomków
+- **São Paulo:** ~500 000 potomków polskich
+- **Rio de Janeiro:** port wejściowy dla imigrantów z zaboru rosyjskiego (od 1889)
+- Łącznie: ~2 miliony osób polskiego pochodzenia w Brazylii (~1% populacji)
 
 ---
 
@@ -325,4 +399,104 @@ Wiele byłych baz RAF i obozów wojskowych przekształcono na ośrodki dla Polak
 
 ---
 
-*Raport wygenerowany na podstawie 5 agentów research (2 z web search wciąż pracują). Uzupełnienie po zakończeniu.*
+## 14. RZĄD RP NA UCHODŹSTWIE — Prezydenci i Premierzy
+
+### Prezydenci:
+1. **Władysław Raczkiewicz** (1939-1947)
+2. **August Zaleski** (1947-1972)
+3. **Stanisław Ostrowski** (1972-1979)
+4. **Edward Raczyński** (1979-1986)
+5. **Kazimierz Sabbat** (1986-1989)
+6. **Ryszard Kaczorowski** (1989-1990) — przekazał insygnia Wałęsie 22.12.1990
+
+### Premierzy (wybrani):
+- **Władysław Sikorski** (30.09.1939 – 4.07.1943, zginął Gibraltar)
+- **Stanisław Mikołajczyk** (14.07.1943 – 24.11.1944)
+- **Tomasz Arciszewski** (29.11.1944 – 2.07.1947)
+- **Tadeusz Bór-Komorowski** (2.07.1947 – 10.02.1949) — dowódca AK!
+
+---
+
+## 15. CAMP LAMMIE — obóz "X" koło Neapolu
+
+- Oficjalna nazwa: **"X" Special Reception Camp**
+- Lokalizacja: okolice Neapolu, Włochy
+- Działalność: ~IX 1945 – IX 1946
+- Wydawał tygodnik: "Lammie Camp 'X' Special Weekly News — Sea, Air, Land"
+- Miał kino (Odeon Cinema) i usługi welfare
+- Kopie biuletynu: IWM (Imperial War Museums), kolekcja 1506008146
+
+---
+
+## 16. PKPR — SKALA I STRUKTURA
+
+- Do X 1946: ok. **120 000 polskich żołnierzy** w **265 obozach** w UK
+- Technicznie: korpus Armii Brytyjskiej
+- Centrum administracyjne: **Witley Camp, Surrey**
+- Członkowie werbowani na 2 lata, rejestrowani w lokalnych biurach pracy
+- **~150 000** Polaków osiedliło się na stałe w Wielkiej Brytanii
+- Korpus rozwiązany 1949
+
+---
+
+## 17. ORGANIZACJE KOMBATANCKIE
+
+### SPK — Stowarzyszenie Polskich Kombatantów:
+- Założone: **23-24 V 1946**, Londyn, hala "Orły Białe"
+- I kongres: 96 delegatów, 11 000 członków w 80 kołach
+- UK: **6 okręgów:** Karpacka, Londyn, Południe, Północ, Syrena, Szkocja
+- Federacja Światowa: 24 organizacje członkowskie
+
+### Studium Polski Podziemnej:
+- Założone Londyn 1947 — archiwa Państwa Podziemnego i AK
+
+### Fundacja Armii Krajowej:
+- Założona 1982 — zabezpieczenie finansowe Studium
+
+### Fundusz Pomocy Krajowi:
+- Założony Londyn 1979/80
+- Zebrał ponad 280 000 funtów (1976-1990) na wsparcie opozycji w PRL
+- Widoczny w dokumencie juras_070 (1984) z kolekcji!
+
+---
+
+## 18. ŹRÓDŁA INTERNETOWE — DO DALSZYCH POSZUKIWAŃ
+
+### Archiwa i bazy danych:
+- [IPN — Katalog Biura Lustracyjnego](https://katalog.bip.ipn.gov.pl/) — szukaj "Głuchowski"
+- [IPN — 100 Bohaterów: Janusz Głuchowski](https://ipn.gov.pl/pl/100-bohaterow-na-100-le/104516)
+- [Szukaj w Archiwach (NAC)](https://szukaj.nac.gov.pl/) — zdjęcia z identyfikacjami
+- [Geneteka](https://geneteka.genealodzy.pl/) — indeksy metrykalne
+- [Metryki](https://metryki.genealodzy.pl/) — akta stanu cywilnego
+- [FamilySearch](https://familysearch.org/) — zdigitalizowane akta parafialne
+
+### Instytucje londyńskie:
+- [Instytut Piłsudskiego w Londynie](https://pilsudski.org.uk/pl/) — **KLUCZOWE** (papiery Głuchowskiego tu są!)
+- [PISM — Polski Instytut i Muzeum Sikorskiego](https://pism.co.uk/) — archives@pism.co.uk
+- [Instytut Piłsudskiego w Nowym Jorku](https://pilsudski.org/)
+
+### Artykuły i biogramy:
+- [Polska Zbrojna: Siedmiu wspaniałych](https://polska-zbrojna.pl/Mobile/ArticleShow/26030)
+- [Nasza Historia: Siódemka Beliny](https://naszahistoria.pl/siodemka-beliny-czyli-przednia-straz-pilsudskiego/ar/13230436)
+- [jpilsudski.org: Siódemka Beliny](http://www.jpilsudski.org/component/k2/item/1824-siodemka-beliny-pierwsi-kawalerzysci-wojska-polskiego)
+- [IPN: Belina-Prażmowski](https://biogramy.ipn.gov.pl/bio/wszystkie-biogramy/110576)
+- [dzieje.pl: Belina-Prażmowski](https://dzieje.pl/aktualnosci/wladyslaw-belina-prazmowski-tworca-kawalerii-odrodzonej-rzeczypospolitej)
+- [IPN: Kmicic-Skrzyński](https://ipn.gov.pl/pl/publikacje/publikacje-edukacyjne-i/189325)
+- [jpilsudski.org: Hanka-Kulesza](https://jpilsudski.org/artykuly-personalia-biogramy/generalicja-oficerowie-zolnierze/item/1807-plk-stefan-hanka-kulesza)
+
+### Inne:
+- [Kresowa Brygada Kawalerii — bohaterowie1939.pl](https://www.bohaterowie1939.pl/_content.php?a=content_listing&idKontent=167)
+- [PKPR/PRC — kresyfamily.com](https://www.kresyfamily.com/9-prc.html)
+- [Obozy PKPR w UK](https://www.polishresettlementcampsintheuk.co.uk/PRC/PRC.htm)
+- [IWM — Camp Lammie biuletyn](https://www.iwm.org.uk/collections/item/object/1506008146)
+- [3 DSK — warhist.pl](https://warhist.pl/artykul/3-dywizja-strzelcow-karpackich-organizacja-i-historia-jednostki/)
+- [SPK w Wielkiej Brytanii](http://www.spk-wb.com/historia-spk/)
+
+### Książki do konsultacji:
+- Tadeusz Kryska-Karski, Stanisław Żurakowski — *Generałowie Polski Niepodległej*
+- Wacław Lipiński — *Legiony Polskie*
+- Roczniki Oficerskie 1923, 1924, 1928, 1932 (na szukajwarchiwach.gov.pl)
+
+---
+
+*Raport wygenerowany 21.03.2026 na podstawie 7 agentów research (wiedza treningowa + web search). Ostatnia aktualizacja po agencie "Polska wojskowość 1910-1950" z 46 źródłami internetowymi.*
