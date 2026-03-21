@@ -44,15 +44,21 @@ body { background:var(--bg); color:var(--text); font-family:'Source Sans 3',sans
 /* LANGUAGE BAR */
 .lang-bar { position:sticky; top:0; z-index:200; background:rgba(12,11,9,.98); backdrop-filter:blur(16px); padding:8px 20px; border-bottom:1px solid var(--border); display:flex; gap:0; justify-content:center; align-items:center; }
 .lang-bar .lang-label { font-size:0.7em; color:var(--text-faint); text-transform:uppercase; letter-spacing:2px; margin-right:12px; font-weight:500; }
-.lang-btn { padding:6px 14px; background:transparent; border:1px solid transparent; cursor:pointer; font-size:0.82em; font-family:'Source Sans 3',sans-serif; color:var(--text-dim); transition:all .2s; border-radius:3px; font-weight:500; }
-.lang-btn:hover { color:var(--gold); border-color:var(--border); }
-.lang-btn.active { color:var(--gold); border-color:var(--gold); background:rgba(201,169,110,.08); font-weight:600; }
-/* data-lang visibility is managed entirely by JS switchLang() with parent-based fallback */
+
+/* Google Translate widget styling */
+#google_translate_element { display:inline-block; }
+#google_translate_element select { background:var(--surface); color:var(--text); border:1px solid var(--border); border-radius:3px; padding:4px 8px; font-size:0.82em; font-family:'Source Sans 3',sans-serif; cursor:pointer; }
+.goog-te-gadget { font-size:0; }
+.goog-te-gadget .goog-te-combo { background:var(--surface) !important; color:var(--text) !important; border:1px solid var(--border) !important; border-radius:3px; padding:6px 12px; font-size:13px !important; font-family:'Source Sans 3',sans-serif !important; }
+/* Hide Google Translate attribution bar */
+.goog-te-banner-frame { display:none !important; }
+body { top:0 !important; }
+.skiptranslate { display:none !important; }
+.lang-bar .skiptranslate { display:inline-block !important; }
+
+/* data-lang: show only Polish originals, hide duplicates in other languages */
 [data-lang] { display:none; }
 [data-lang="pl"] { display:revert; }
-/* Fallback marker: when JS runs, it adds .lang-js to body and takes over */
-body.lang-js [data-lang] { display:none; }
-body.lang-js [data-lang].lang-visible { display:revert; }
 
 /* NAV */
 .nav { position:sticky; top:38px; z-index:100; background:rgba(12,11,9,.95); backdrop-filter:blur(12px); padding:14px 20px; border-bottom:1px solid var(--border); display:flex; flex-wrap:wrap; gap:8px; justify-content:center; }
@@ -403,17 +409,22 @@ body.lang-active .card-lang-badge { display:inline; }
 </head>
 <body>
 
-<!-- LANGUAGE SWITCHER -->
+<!-- LANGUAGE SWITCHER — Google Translate -->
 <div class="lang-bar" id="lang-bar">
   <span class="lang-label">Język / Language</span>
-  <button class="lang-btn active" onclick="switchLang('pl', this)">PL</button>
-  <button class="lang-btn" onclick="switchLang('en', this)">EN</button>
-  <button class="lang-btn" onclick="switchLang('pt', this)">PT</button>
-  <button class="lang-btn" onclick="switchLang('de', this)">DE</button>
-  <button class="lang-btn" onclick="switchLang('nl', this)">NL</button>
-  <button class="lang-btn" onclick="switchLang('fr', this)">FR</button>
-  <button class="lang-btn" onclick="switchLang('yi', this)">YI</button>
+  <div id="google_translate_element"></div>
 </div>
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'pl',
+    includedLanguages: 'pl,en,pt,de,nl,fr,yi,es,it,he,uk,ru,ja,zh-CN',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+    autoDisplay: false
+  }, 'google_translate_element');
+}
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 <div class="header">
   <div class="institution" data-lang="pl">Katalog Muzealny</div>
@@ -434,25 +445,73 @@ body.lang-active .card-lang-badge { display:inline; }
   <div class="dates">1867 — 2020</div>
   <div class="stats" data-lang="pl">314 jednostek inwentarzowych &bull; 5 serii archiwalnych &bull; 5 pokoleń</div>
   <div class="stats" data-lang="en">314 inventory units &bull; 5 archival series &bull; 5 generations</div>
+  <div class="stats" data-lang="pt">314 unidades de inventário &bull; 5 séries arquivísticas &bull; 5 gerações</div>
+  <div class="stats" data-lang="de">314 Inventareinheiten &bull; 5 Archivserien &bull; 5 Generationen</div>
+  <div class="stats" data-lang="nl">314 inventariseenheden &bull; 5 archiefreeksen &bull; 5 generaties</div>
+  <div class="stats" data-lang="fr">314 unités d'inventaire &bull; 5 séries archivistiques &bull; 5 générations</div>
+  <div class="stats" data-lang="yi">314 אינוונטאַר איינהייטן &bull; 5 אַרכיוו סעריעס &bull; 5 דורות</div>
 </div>
 
 <div class="provenance">
   <h3 data-lang="pl">Nota proweniencyjna</h3>
   <h3 data-lang="en">Provenance Note</h3>
+  <h3 data-lang="pt">Nota de Proveniência</h3>
+  <h3 data-lang="de">Provenienznotiz</h3>
+  <h3 data-lang="nl">Herkomstnota</h3>
+  <h3 data-lang="fr">Note de provenance</h3>
+  <h3 data-lang="yi">פּראָווענאַנץ נאָטיץ</h3>
   <p data-lang="pl">Zespół obejmuje dokumenty pięciu pokoleń rodziny Głuchowskich — od działalności niepodległościowej Mariana Głuchowskiego w PON (1914) przez generalską karierę Janusza Głuchowskiego (Siódemka Beliny, I Wiceminister Spraw Wojskowych), jeniecką korespondencję Stanisława Stefana i Krzysztofa Andrzeja (Stalag XI B, VI/3), po maturę w Gimnazjum 3 DSK we Włoszech (1946). Szczególną wartość stanowi korespondencja obozowa między ojcem i synem w różnych Stalagach oraz relacje z Powstania Warszawskiego pisane z pamięci w obozach jenieckich.</p>
   <p data-lang="en">Family archive of the Głuchowski family — five generations of Polish military officers and independence activists. The collection spans 1867&ndash;2020 and documents the family's involvement in the struggle for Polish independence (PON), both World Wars, the Warsaw Uprising, POW camps, and post-war emigration. Acquired in Buenos Aires from the estate of Krzysztof Głuchowski (1926&ndash;2020), the last living member of the family.</p>
+  <p data-lang="pt">Arquivo familiar dos Głuchowski — cinco gerações de oficiais militares e ativistas pela independência polonesa. A coleção abrange 1867&ndash;2020 e documenta o envolvimento da família na luta pela independência da Polônia (PON), ambas as Guerras Mundiais, a Insurreição de Varsóvia, campos de prisioneiros e emigração pós-guerra. Adquirido em Buenos Aires do espólio de Krzysztof Głuchowski (1926&ndash;2020), último membro vivo da família.</p>
+  <p data-lang="de">Familienarchiv der Głuchowskis — fünf Generationen polnischer Militäroffiziere und Unabhängigkeitsaktivisten. Die Sammlung umfasst 1867&ndash;2020 und dokumentiert die Beteiligung der Familie am Kampf für Polens Unabhängigkeit (PON), beide Weltkriege, den Warschauer Aufstand, Kriegsgefangenenlager und die Nachkriegsemigration. Erworben in Buenos Aires aus dem Nachlass von Krzysztof Głuchowski (1926&ndash;2020).</p>
+  <p data-lang="fr">Archives familiales des Głuchowski — cinq générations d'officiers militaires et militants pour l'indépendance polonaise. La collection couvre 1867&ndash;2020 et documente l'implication de la famille dans la lutte pour l'indépendance de la Pologne (PON), les deux Guerres mondiales, l'Insurrection de Varsovie, les camps de prisonniers et l'émigration d'après-guerre. Acquis à Buenos Aires de la succession de Krzysztof Głuchowski (1926&ndash;2020).</p>
+  <p data-lang="nl">Familiearchief van de Głuchowski's — vijf generaties Poolse militaire officieren en onafhankelijkheidsactivisten. De collectie beslaat 1867&ndash;2020 en documenteert de betrokkenheid van de familie bij de strijd voor Polens onafhankelijkheid (PON), beide Wereldoorlogen, de Opstand van Warschau, krijgsgevangenkampen en naoorlogse emigratie. Verworven in Buenos Aires uit de nalatenschap van Krzysztof Głuchowski (1926&ndash;2020).</p>
+  <p data-lang="yi">משפּחה-אַרכיוו פֿון די גלוכאָווסקיס — פֿינף דורות פּוילישע מיליטער-אָפֿיצירן און אומאָפּהענגיקייט-אַקטיוויסטן. די קאָלעקציע באַדעקט 1867&ndash;2020 און דאָקומענטירט דער משפּחהס באַטייליקונג אין קאַמף פֿאַר פּוילנס אומאָפּהענגיקייט, ביידע וועלט-מלחמות, דער וואַרשעווער אויפֿשטאַנד, קריגס-געפֿאַנגענע לאַגערן און נאָכקריג עמיגראַציע.</p>
+
   <div class="prov-label" data-lang="pl">Proweniencja</div>
   <div class="prov-label" data-lang="en">Provenance</div>
+  <div class="prov-label" data-lang="pt">Proveniência</div>
+  <div class="prov-label" data-lang="de">Provenienz</div>
+  <div class="prov-label" data-lang="nl">Herkomst</div>
+  <div class="prov-label" data-lang="fr">Provenance</div>
+  <div class="prov-label" data-lang="yi">פּראָווענאַנץ</div>
   <p data-lang="pl">Dokumenty przechowywane w rodzinie Głuchowskich. Obecny depozytariusz: spadkobierca linii Krzysztofa Andrzeja Głuchowskiego.</p>
   <p data-lang="en">Private family archive, passed down through the male line: Marian &rarr; Janusz/Stefan &rarr; Krzysztof. Preserved in emigration (Argentina) since 1949. Acquired 2024 from private hands in Buenos Aires.</p>
+  <p data-lang="pt">Arquivo familiar privado, transmitido pela linhagem masculina: Marian &rarr; Janusz/Stefan &rarr; Krzysztof. Preservado na emigração (Argentina) desde 1949. Adquirido em 2024 de mãos particulares em Buenos Aires.</p>
+  <p data-lang="de">Privates Familienarchiv, weitergegeben durch die männliche Linie: Marian &rarr; Janusz/Stefan &rarr; Krzysztof. Bewahrt in der Emigration (Argentinien) seit 1949. Erworben 2024 aus Privatbesitz in Buenos Aires.</p>
+  <p data-lang="fr">Archives familiales privées, transmises par la lignée masculine : Marian &rarr; Janusz/Stefan &rarr; Krzysztof. Conservées en émigration (Argentine) depuis 1949. Acquises en 2024 de mains privées à Buenos Aires.</p>
+  <p data-lang="nl">Particulier familiearchief, doorgegeven via de mannelijke lijn: Marian &rarr; Janusz/Stefan &rarr; Krzysztof. Bewaard in emigratie (Argentinië) sinds 1949. Verworven in 2024 uit particulier bezit in Buenos Aires.</p>
+  <p data-lang="yi">פּריוואַט משפּחה-אַרכיוו, איבערגעגעבן דורך דער מענלעכער ליניע: מאַריאַן &rarr; יאַנוש/סטעפֿאַן &rarr; קריסטאָף. באַוואַרנט אין עמיגראַציע (אַרגענטינע) זינט 1949. באַקומען 2024 פֿון פּריוואַטע הענט אין בוענאָס איירעס.</p>
+
   <div class="prov-label" data-lang="pl">Języki dokumentów</div>
   <div class="prov-label" data-lang="en">Document Languages</div>
+  <div class="prov-label" data-lang="pt">Idiomas dos Documentos</div>
+  <div class="prov-label" data-lang="de">Dokumentensprachen</div>
+  <div class="prov-label" data-lang="nl">Documenttalen</div>
+  <div class="prov-label" data-lang="fr">Langues des documents</div>
+  <div class="prov-label" data-lang="yi">דאָקומענט-שפּראַכן</div>
   <p data-lang="pl">polski, niemiecki, francuski, angielski, rosyjski, rumuński</p>
   <p data-lang="en">Polish (dominant), German, French, English, Italian, Romanian, Latin, Spanish. Reflects the family's international military and diplomatic connections.</p>
+  <p data-lang="pt">Polonês (dominante), alemão, francês, inglês, italiano, romeno, latim, espanhol. Reflete as conexões militares e diplomáticas internacionais da família.</p>
+  <p data-lang="de">Polnisch (vorherrschend), Deutsch, Französisch, Englisch, Italienisch, Rumänisch, Latein, Spanisch. Spiegelt die internationalen militärischen und diplomatischen Verbindungen der Familie wider.</p>
+  <p data-lang="fr">Polonais (dominant), allemand, français, anglais, italien, roumain, latin, espagnol. Reflète les connexions militaires et diplomatiques internationales de la famille.</p>
+  <p data-lang="nl">Pools (dominant), Duits, Frans, Engels, Italiaans, Roemeens, Latijn, Spaans. Weerspiegelt de internationale militaire en diplomatieke connecties van de familie.</p>
+  <p data-lang="yi">פּויליש (דאָמינאַנט), דייטש, פֿראַנצויזיש, ענגליש, איטאַליעניש, רומעניש, לאַטיין, שפּאַניש.</p>
+
   <div class="prov-label" data-lang="pl">Stan zachowania</div>
   <div class="prov-label" data-lang="en">Condition</div>
+  <div class="prov-label" data-lang="pt">Estado de Conservação</div>
+  <div class="prov-label" data-lang="de">Erhaltungszustand</div>
+  <div class="prov-label" data-lang="nl">Conditie</div>
+  <div class="prov-label" data-lang="fr">État de conservation</div>
+  <div class="prov-label" data-lang="yi">צושטאַנד</div>
   <p data-lang="pl">Zróżnicowany. Dokumenty obozowe: zniszczone, pożółkłe, ubytki. Dokumenty urzędowe: dobry. Fotografie: średni.</p>
   <p data-lang="en">Varied — from good (official documents, diplomas) to poor (field correspondence, POW cards). Some items show wartime damage, foxing, and fragile paper. Overall: good for a private collection preserved 75+ years in subtropical climate.</p>
+  <p data-lang="pt">Variado — de bom (documentos oficiais, diplomas) a ruim (correspondência de campo, cartões de prisioneiros). Alguns itens apresentam danos de guerra, foxing e papel frágil. No geral: bom para uma coleção particular preservada por mais de 75 anos em clima subtropical.</p>
+  <p data-lang="de">Unterschiedlich — von gut (amtliche Dokumente, Diplome) bis schlecht (Feldkorrespondenz, Kriegsgefangenenkarten). Einige Stücke zeigen Kriegsschäden, Stockflecken und brüchiges Papier. Insgesamt: gut für eine Privatsammlung, 75+ Jahre in subtropischem Klima bewahrt.</p>
+  <p data-lang="fr">Variable — de bon (documents officiels, diplômes) à mauvais (correspondance de campagne, cartes de prisonniers). Certaines pièces montrent des dommages de guerre, des rousseurs et du papier fragile. Globalement : bon pour une collection privée conservée 75+ ans en climat subtropical.</p>
+  <p data-lang="nl">Wisselend — van goed (officiële documenten, diploma's) tot slecht (veldcorrespondentie, krijgsgevangenkaarten). Sommige stukken vertonen oorlogsschade, foxing en broos papier. Over het geheel: goed voor een particuliere collectie, 75+ jaar bewaard in subtropisch klimaat.</p>
+  <p data-lang="yi">פֿאַרשידנאַרטיק — פֿון גוט (אָפֿיציעלע דאָקומענטן, דיפּלאָמען) ביז שלעכט (פֿעלד-קאָרעספּאָנדענץ, קריגס-געפֿאַנגענע קאַרטן). אינסגעזאַמט: גוט פֿאַר אַ פּריוואַטע קאָלעקציע, 75+ יאָר באַוואַרנט אין סובטראָפּיש קלימאַט.</p>
 </div>
 
 <div class="methodology">
@@ -16212,104 +16271,7 @@ function switchTab(tabId, btn) {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-/* ========================================= */
-/* Language switching — parent-based fallback */
-/* ========================================= */
-const FIELD_LABELS = {
-  pl: { opis_fiz:'Opis fizyczny:', tresc:'Treść:', tworca:'Twórca:', jezyk:'Język:', kontekst:'Kontekst:', stan:'Stan:', powiazania:'Powiązania:' },
-  en: { opis_fiz:'Physical description:', tresc:'Content:', tworca:'Creator:', jezyk:'Language:', kontekst:'Context:', stan:'Condition:', powiazania:'Related:' },
-  pt: { opis_fiz:'Descrição física:', tresc:'Conteúdo:', tworca:'Criador:', jezyk:'Idioma:', kontekst:'Contexto:', stan:'Estado:', powiazania:'Relacionados:' },
-  de: { opis_fiz:'Physische Beschreibung:', tresc:'Inhalt:', tworca:'Urheber:', jezyk:'Sprache:', kontekst:'Kontext:', stan:'Zustand:', powiazania:'Verknüpfungen:' },
-  nl: { opis_fiz:'Fysieke beschrijving:', tresc:'Inhoud:', tworca:'Maker:', jezyk:'Taal:', kontekst:'Context:', stan:'Conditie:', powiazania:'Gerelateerd:' },
-  fr: { opis_fiz:'Description physique:', tresc:'Contenu:', tworca:'Créateur:', jezyk:'Langue:', kontekst:'Contexte:', stan:'État:', powiazania:'Liens:' },
-  yi: { opis_fiz:'פֿיזישע באַשרייבונג:', tresc:'אינהאַלט:', tworca:'שעפֿער:', jezyk:'שפּראַך:', kontekst:'קאָנטעקסט:', stan:'צושטאַנד:', powiazania:'פֿאַרבינדונגען:' }
-};
-
-const LANG_NAMES = { pl:'Polski', en:'English', pt:'Português', de:'Deutsch', nl:'Nederlands', fr:'Français', yi:'ייִדיש' };
-/* Card descriptions remain in Polish (original archival language) — only labels translate */
-
-/* Activate JS-based lang control — initialize after functions defined */
-
-function switchLang(lang, btn) {
-  /* 1. Update buttons */
-  document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-
-  /* 2. Group-based fallback for data-lang elements.
-     Elements sharing same parent + same tag + same className form a group.
-     Within each group: pick target → en → pl fallback. */
-  const grouped = new Map();
-  document.querySelectorAll('[data-lang]').forEach(el => {
-    const parent = el.parentElement;
-    if (!parent) return;
-    /* Group key: parent identity + tag + class (minus lang-visible) */
-    const cls = Array.from(el.classList).filter(c => c !== 'lang-visible').sort().join(',');
-    const key = el.tagName + '|' + cls;
-    /* Use parent + key as composite group */
-    if (!grouped.has(parent)) grouped.set(parent, {});
-    const parentGroups = grouped.get(parent);
-    if (!parentGroups[key]) parentGroups[key] = [];
-    parentGroups[key].push(el);
-  });
-
-  grouped.forEach((groups) => {
-    Object.values(groups).forEach(els => {
-      /* Collect available langs for this group */
-      const byLang = {};
-      els.forEach(s => {
-        const l = s.getAttribute('data-lang');
-        if (!byLang[l]) byLang[l] = [];
-        byLang[l].push(s);
-      });
-
-      /* Pick best: target lang → english → polish */
-      const bestLang = byLang[lang] ? lang : (byLang['en'] ? 'en' : 'pl');
-
-      els.forEach(s => {
-        if (s.getAttribute('data-lang') === bestLang) {
-          s.classList.add('lang-visible');
-          s.style.display = '';
-        } else {
-          s.classList.remove('lang-visible');
-          s.style.display = 'none';
-        }
-      });
-    });
-  });
-
-  /* 3. Translate field labels on cards */
-  const labels = FIELD_LABELS[lang] || FIELD_LABELS['pl'];
-  document.querySelectorAll('[data-label]').forEach(el => {
-    const key = el.getAttribute('data-label');
-    if (labels[key]) el.textContent = labels[key];
-  });
-
-  /* 4. Toggle lang-active class for subtle UI hints */
-  if (lang !== 'pl') {
-    document.body.classList.add('lang-active');
-  } else {
-    document.body.classList.remove('lang-active');
-  }
-
-  /* 5. Translate navigation links */
-  const NAV = {
-    pl: { family:'Historia rodziny', persons:'Indeks osób', bio:'Biografia', research:'Badania', oral:'Historia mówiona', conspiracy:'🕵 Nota konspiracyjna', articles:'Artykuły naukowe', valuation:'Wycena' },
-    en: { family:'Family History', persons:'Person Index', bio:'Biography', research:'Research', oral:'Oral History', conspiracy:'🕵 Conspiracy Note', articles:'Academic Articles', valuation:'Valuation' },
-    pt: { family:'História da Família', persons:'Índice de Pessoas', bio:'Biografia', research:'Pesquisa', oral:'História Oral', conspiracy:'🕵 Nota Conspiratória', articles:'Artigos Acadêmicos', valuation:'Avaliação' },
-    de: { family:'Familiengeschichte', persons:'Personenindex', bio:'Biographie', research:'Forschung', oral:'Oral History', conspiracy:'🕵 Konspirationsnotiz', articles:'Wissenschaftliche Artikel', valuation:'Bewertung' },
-    nl: { family:'Familiegeschiedenis', persons:'Personenindex', bio:'Biografie', research:'Onderzoek', oral:'Oral History', conspiracy:'🕵 Samenzweringsnotitie', articles:'Wetenschappelijke Artikelen', valuation:'Waardering' },
-    fr: { family:'Histoire familiale', persons:'Index des personnes', bio:'Biographie', research:'Recherche', oral:'Histoire orale', conspiracy:'🕵 Note conspiratoire', articles:'Articles académiques', valuation:'Évaluation' },
-    yi: { family:'משפּחה געשיכטע', persons:'פּערזאָנען אינדעקס', bio:'ביאָגראַפיע', research:'פֿאָרשונג', oral:'מינדלעכע געשיכטע', conspiracy:'🕵 קאָנספּיראַציע', articles:'אַקאַדעמישע אַרטיקלען', valuation:'אָפּשאַצונג' }
-  };
-  const navLabels = NAV[lang] || NAV['pl'];
-  document.querySelectorAll('[data-nav]').forEach(el => {
-    const key = el.getAttribute('data-nav');
-    if (navLabels[key]) el.textContent = navLabels[key];
-  });
-
-  /* 6. Update html lang */
-  document.documentElement.lang = lang;
-}
+/* Language is now handled by Google Translate — no manual switching needed */
 
 /* Multi-page gallery — scroll to related card */
 function scrollToCard(cardId) {
@@ -16346,13 +16308,7 @@ function filterPhotos() {
   document.getElementById('photo-count').textContent = visible + ' fotografii';
 }
 
-/* Initialize language system — mark PL elements as visible */
-(function initLang() {
-  document.body.classList.add('lang-js');
-  /* Call switchLang with PL to mark all PL elements as lang-visible */
-  const plBtn = document.querySelector('.lang-btn.active');
-  if (plBtn) switchLang('pl', plBtn);
-})();
+/* No manual language init needed — Google Translate handles everything */
 </script>
 
 </body>
