@@ -2414,6 +2414,1614 @@ Henstedt  23. III. 47.""",
     },
 
     # ═══════════════════════════════════════════════════════════════
+    # juras_039 — Soldier's Service Book (Army Book 64) (ARG/V/105)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_039": {
+        "typ": "Książeczka wojskowa — Army Book 64",
+        "data": "1945–1948",
+        "jezyk": "angielski",
+        "nadawca": "British Army / War Office",
+        "adresat": "Głuchowski Krzysztof",
+        "transkrypcja": """Army Book 64 (Part I)
+
+43463/45
+
+Soldier's Service Book.
+
+(Soldier's Pay Book, Army Book 64 (Part II), will be
+issued for active service.)
+
+Entries in this book (other than those connected with the
+marking of a Soldier's Kit and insertion of the names of
+relatives) are to be made under the superintendence of an
+Officer.
+
+Instructions to Soldier.
+
+1. You are held personally responsible for the safe
+   custody of this book.
+2. You will always carry this book on your person.
+3. You must produce this book when called upon
+   to do so by the Civil Police or by a com-petent military
+   authority, viz., Officer, Warrant Officer, N.C.O. or Military
+   Policeman.
+[...]
+
+[Lewa strona — DETAIL OF PERSONAL SIZED GARMENTS:]
+ARTICLE / SIZE No.
+Athletic, Web / Blouse, B.D. / Boots, ankle /
+Cap, Bonnet or Helmet / Drawers / Greatcoat /
+Jersey, pullover / Shirts / Shoes / Socks, worsted /
+Trousers, B.D., S.D. or Shorts, K.D. / Vests, woollen
+
+ALL RANKS
+REMEMBER — Never discuss military, naval or air
+matters, at meals or with strangers [...]
+BE ON YOUR GUARD and report any suspicious individual.""",
+        "pieczecie": [],
+        "podpisy": [],
+        "osoby": ["Krzysztof Głuchowski"],
+        "znaki_szczegolne": [
+            "Nr książeczki: 43463/45",
+            "Army Book 64 Part I — standardowa książeczka brytyjska",
+            "Okładka skórzana, mocno zużyta — noszona przy sobie przez lata",
+            "Lewa strona: tabela rozmiarów umundurowania (pusta)",
+            "Prawa strona: instrukcje dla żołnierza — obowiązek noszenia przy sobie"
+        ],
+        "kontekst": "Standardowa książeczka wojskowa Army Book 64 wydawana żołnierzom służącym pod dowództwem brytyjskim. Nr 43463/45. Zawierała dane osobowe, przebieg służby, odznaczenia i informacje o najbliższej rodzinie. Obowiązkowa do noszenia przy sobie — żołnierz był personalnie odpowiedzialny za jej bezpieczeństwo."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_047_odznaczenia — Notatki o odznaczeniach (ARG/V/113)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_047_odznaczenia": {
+        "typ": "Notatki odręczne — rejestr odznaczeń",
+        "data": "XI.1946",
+        "jezyk": "polski",
+        "nadawca": "Krzysztof Głuchowski (notatki własne)",
+        "adresat": "dokumentacja osobista",
+        "transkrypcja": """[Notatki na kartce z notatnika, pismo odręczne:]
+
+[...] — 13 [...] [...]
+[...] odznaczenie [...] [...]
+W [...] odznaczenie [...] [...]
+[...] przyznane na dnia [...]
+
+MEDAL WOJSKA
+Rozkaz Nr 245    29.10.1946
+Poz.    2 komp.    22.9.1946
+
+ODZNAKA 3DSK
+Rozkaz Dzienny Nr 256    12.11.1946
+3DSK Nr 71/46 G.I.    8.11.1946
+[...]    257/46""",
+        "pieczecie": [],
+        "podpisy": [],
+        "osoby": ["Krzysztof Głuchowski"],
+        "znaki_szczegolne": [
+            "MEDAL WOJSKA — Rozkaz Nr 245, 29.10.1946 (2 kompania, 22.9.1946)",
+            "ODZNAKA 3DSK — Rozkaz Dzienny Nr 256, 12.11.1946",
+            "3DSK Nr 71/46 G.I. — numer ewidencyjny odznaki",
+            "Notatki na kartce z notatnika z dziurkami",
+            "Pismo atramentem, częściowo trudne do odczytu"
+        ],
+        "kontekst": "Notatki Krzysztofa rejestrujące jego odznaczenia: Medal Wojska (Rozkaz Nr 245 z 29.X.1946) i Odznaka 3 Dywizji Strzelców Karpackich (Rozkaz Dzienny Nr 256 z 12.XI.1946). Medal Wojska — polskie odznaczenie za udział w walkach 1939–1945. Odznaka 3DSK — odznaka dywizji, w której służył Krzysztof (Gimnazjum i Liceum 3 DSK)."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_056_odznaka_ak — Odznaka Pamiątkowa AK Nr 404 (ARG/V/122)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_056_odznaka_ak": {
+        "typ": "Legitymacja Odznaki Pamiątkowej AK",
+        "data": "12.VI.1946",
+        "jezyk": "polski",
+        "nadawca": "Komisja Weryfikacyjna AK, Dowództwo 2 Korpusu",
+        "adresat": "Głuchowski Krzysztof",
+        "transkrypcja": """starszy ułan
+(stopień)
+
+GŁUCHOWSKI    KRZYSZTOF
+(nazwisko i imię)
+
+JURAS
+(pseudonim)
+
+Nr 404
+
+Data przyznania 12 czerwca 46
+
+PRZEWODNICZĄCY KAPITUŁY
+[pieczęć]
+[podpis: Leszczyński (?)]
+
+DOWÓDZTWO 2 KORPUSU
+KOMISJA WERYFIKACYJNA A.K.
+[podpis]""",
+        "pieczecie": ["Pieczęć okrągła — Dowództwo 2 Korpusu / Komisja Weryfikacyjna AK"],
+        "podpisy": ["Przewodniczący Kapituły (Leszczyński?)", "Komisja Weryfikacyjna AK"],
+        "osoby": ["Krzysztof Głuchowski (ps. Juras, st. ułan)"],
+        "znaki_szczegolne": [
+            "Odznaka Pamiątkowa AK Nr 404",
+            "Pseudonim: JURAS (wariant zapisu — bez ś)",
+            "Stopień: starszy ułan",
+            "Data przyznania: 12 czerwca 1946",
+            "Pieczęć i dwa podpisy — Przewodniczący Kapituły i Komisja Weryfikacyjna",
+            "Format małej legitymacji / karteczki"
+        ],
+        "kontekst": "Legitymacja Odznaki Pamiątkowej Armii Krajowej Nr 404, wydana przez Komisję Weryfikacyjną AK przy Dowództwie 2 Korpusu Polskiego. Data 12 czerwca 1946 — ta sama co weryfikacja AK (ARG/V/112). Pseudonim 'Juras' bez znaku diakrytycznego (w innych dokumentach: 'Juraś'). Odznaka pamiątkowa AK — odróżniać od Krzyża AK (ARG/V/118), który został nadany w 1968 r."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_046 — WERYFIKACJA AK — notatki weryfikacyjne (ARG/V/112)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_046": {
+        "typ": "Notatki weryfikacyjne AK (dwie kartki)",
+        "data": "12.VI.1946",
+        "jezyk": "polski",
+        "nadawca": "Komisja Weryfikacyjna AK, 7 P.Uł., Kraków",
+        "adresat": "akta weryfikacyjne Głuchowskiego",
+        "transkrypcja": """[Kartka górna:]
+Ukończył Gymnasium
+Nr 65/46  15.3.1946
+Rozkaz Dnia 335 [...]
+Nr 15  5.3.1946. G.I. prt.2
+
+[Kartka dolna:]
+WERYFIKACJA AK    Nr 155
+7 P.Uł. [?] Kraków [?]
+Część I & [?]
+
+Głuchowski Krzysztof — Stanisław
+
+[...] Bat. 1112 [...] 2 Komp.
+w 45/46 [...] AK [...]
+
+1°) Narożański [...] St.[?]...
+     Szeregowiec   1926   Rocznik 1944
+     [...] [...]
+
+     1134/II.AK/46
+     12.VI.1946""",
+        "pieczecie": [],
+        "podpisy": [],
+        "osoby": ["Krzysztof Głuchowski (syn Stanisława)", "Narożański (świadek weryfikacji)"],
+        "znaki_szczegolne": [
+            "Nr weryfikacji 155 — numer w rejestrze Komisji",
+            "Głuchowski Krzysztof — Stanisław = imię ojca (potwierdza: ojciec = Stanisław)",
+            "Bat. 1112, 2 Komp. — przydział AK",
+            "Narożański — świadek weryfikacji, szeregowiec, rocznik 1926",
+            "Numer akt: 1134/II.AK/46 — ten sam co zaświadczenie ARG/V/97",
+            "Dwie kartki z notatnika z dziurkami — notatki robocze komisji",
+            "Wzmianka o ukończeniu Gimnazjum (Nr 65/46)"
+        ],
+        "kontekst": "Notatki robocze Komisji Weryfikacyjnej AK z Krakowa. Potwierdzają: Krzysztof syn Stanisława, Bat. 1112, 2 Kompania. Narożański jako świadek. Numer akt 1134/II.AK/46 identyczny z zaświadczeniem ARG/V/97 (juras_031) — są częścią tego samego procesu weryfikacyjnego."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_052 — Legitymacja Krzyża Armii Krajowej (ARG/V/118)
+    # KLUCZOWY DOKUMENT — pseudonim, przydział, podpis Ziemskiego
+    # ═══════════════════════════════════════════════════════════════
+    "juras_052": {
+        "typ": "Legitymacja odznaczenia — Krzyż Armii Krajowej",
+        "data": "7.III.1968",
+        "jezyk": "polski",
+        "nadawca": "K. Ziemski — «Wachnowski», Z-ca D-cy W-skiego Korpusu A.K.",
+        "adresat": "Głuchowski Krzysztof",
+        "transkrypcja": """Nazwisko: GŁUCHOWSKI
+Imię: KRZYSZTOF
+Pseudonim: «JURAŚ»
+Przydział: Zw.Komp./Plut.III/2.
+7 PUŁK UŁAN.LUBEL. «JELEŃ»
+
+Odznaczony został
+
+KRZYŻEM ARMII KRAJOWEJ
+
+ustanowionym dnia 1 sierpnia 1966 roku
+przez dowódcę A.K. gen. Tadeusza Bora-
+Komorowskiego dla upamiętnienia wysiłku
+żołnierza Polski Podziemnej w latach
+1939 — 1945.
+
+                              Podpis:
+K. Ziemski — «Wachnowski»
+Z-ca D-cy W-skiego Korpusu A.K.
+
+Londyn, dnia
+7.3.68""",
+        "pieczecie": [],
+        "podpisy": ["K. Ziemski — «Wachnowski», Z-ca D-cy Warszawskiego Korpusu AK"],
+        "osoby": ["Krzysztof Głuchowski (ps. Juraś)", "K. Ziemski (ps. Wachnowski)", "gen. Tadeusz Bór-Komorowski"],
+        "znaki_szczegolne": [
+            "PSEUDONIM «JURAŚ» — oficjalnie potwierdzone",
+            "Przydział: Zw.Komp./Plut.III/2 — Związkowa Kompania, Pluton III, sekcja 2",
+            "7 PUŁK UŁAN.LUBEL. «JELEŃ» — pełna nazwa pułku z kryptonimem",
+            "Podpisana przez Ziemskiego-Wachnowskiego — tego samego co zaświadczenie ARG/V/43",
+            "Londyn, 7 marca 1968 — 24 lata po Powstaniu",
+            "Odznaczenie ustanowione 1.VIII.1966 przez Bora-Komorowskiego",
+            "Druk z odręcznymi wpisami atramentem niebieskim"
+        ],
+        "kontekst": "Legitymacja Krzyża Armii Krajowej — odznaczenia ustanowionego 1 sierpnia 1966 r. przez gen. Tadeusza Bora-Komorowskiego dla żołnierzy Polski Podziemnej. Podpisana przez płk. Karola Ziemskiego (ps. Wachnowski) — Zastępcę Dowódcy Warszawskiego Korpusu AK, tego samego oficera, który zaświadczał o służbie Krzysztofa w 1946 (ARG/V/43). Dokument potwierdza: pseudonim JURAŚ, przydział do Plutonu III/sekcja 2 Związkowej Kompanii 7 Pułku Ułanów Lubelskich «Jeleń»."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_057_prc — Certyfikat P.R.C. (ARG/V/123)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_057_prc": {
+        "typ": "Certyfikat służby — Polish Resettlement Corps",
+        "data": "19.II.1948",
+        "jezyk": "angielski",
+        "nadawca": "P.R.C. Record Office, Watley Camp, Godalming, Surrey",
+        "adresat": "Głuchowski Krzysztof",
+        "transkrypcja": """P.R.C. Record Office
+Watley Camp
+nr. Godalming, Surrey
+Tel. Godalming 1520 Ext.101
+Ref.No. 2335/  /48
+
+19 FEB 1948
+
+CERTIFICATE
+
+This is to certify that No. 3004271
+L/CPL GLUCHOWSKI KRZYSZTOF was enlisted into
+P.R.C. 1.11.46, after serving with Polish Forces
+under British Command from 14.7.45 to 1.11.46.
+
+                              Record Officer
+                              [podpis]
+                              Biuro Ew. PKPR""",
+        "pieczecie": [],
+        "podpisy": ["Record Officer, Biuro Ewidencji PKPR"],
+        "osoby": ["Krzysztof Głuchowski (L/CPL, No. 3004271)"],
+        "znaki_szczegolne": [
+            "Numer wojskowy: 3004271",
+            "Stopień: L/CPL (Lance Corporal = starszy ułan)",
+            "Służba w Polish Forces: 14.7.45 — 1.11.46",
+            "Zaciąg do P.R.C.: 1.11.46",
+            "Watley Camp, Godalming, Surrey — siedziba biura PRC",
+            "Ref.No. 2335/  /48",
+            "Dwujęzyczny podpis: Record Officer / Biuro Ew. PKPR"
+        ],
+        "kontekst": "Certyfikat potwierdzający przebieg służby: Polish Forces pod dowództwem brytyjskim od 14 lipca 1945 do 1 listopada 1946, następnie zaciąg do Polish Resettlement Corps (PKPR/PRC) od 1 listopada 1946. Numer 3004271. Watley Camp w Godalming (Surrey) — centralne biuro ewidencji PRC. PKPR = Polski Korpus Przysposobienia i Rozmieszczenia — organizacja pośrednia między demobilizacją a cywilnym osiedleniem w Wielkiej Brytanii."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_031 — Zaświadczenie Komisji Weryfikacyjnej AK (ARG/V/97)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_031": {
+        "typ": "Zaświadczenie Komisji Weryfikacyjnej AK",
+        "data": "24.VI.1946",
+        "jezyk": "polski",
+        "nadawca": "Komisja Weryfikacyjna AK, Kraków",
+        "adresat": "Głuchowski Krzysztof",
+        "transkrypcja": """DOWÓDCA
+7 Pułku Uł. Lubelskich
+
+Kp. dnia 24.VI.1946.
+
+L.dz. 1134/II/IV/46
+
+Na skutek przedstawionych dowodów i to jako Dowódcy z Krakowa
+Komisja weryfikacyjna A.K. stwierdza, że
+
+GŁUCHOWSKI KRZYSZTOF    rocznik 1926
+(imię i nazwisko, rocznik i Nr ewid.)
+
+w stopniu szeregowca
+(stopień boku szeregowca.)
+
+z pozostawieniem dotychczas-
+owego boku szeregowca.
+
+PRZEWODNICZĄCY
+KOMISJI WERYFIKACYJNEJ A.K.
+(urzędnik pieczęć)
+
+Komendant Napędowy Nr 3""",
+        "pieczecie": ["Komisja Weryfikacyjna AK — pieczęć okrągła"],
+        "podpisy": ["Przewodniczący Komisji Weryfikacyjnej AK", "Komendant Napędowy Nr 3"],
+        "osoby": ["Krzysztof Głuchowski"],
+        "znaki_szczegolne": [
+            "L.dz. 1134/II/IV/46 — numer dziennika podawczego",
+            "7 Pułk Ułanów Lubelskich — potwierdzenie przynależności",
+            "Rocznik 1926 — potwierdzony rok urodzenia",
+            "Stopień: szeregowiec (w AK, przed awansem na st. strzelca)",
+            "Kraków, 24 czerwca 1946 — weryfikacja w Polsce"
+        ],
+        "kontekst": "Zaświadczenie Komisji Weryfikacyjnej AK potwierdzające służbę Krzysztofa Głuchowskiego w stopniu szeregowca w 7 Pułku Ułanów Lubelskich AK. Komisje weryfikacyjne działały po wojnie, potwierdzając tożsamość i służbę żołnierzy AK na podstawie zeznań świadków i dokumentów."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_032 — Pismo ppłk. Andersa — Szef Wydziału Rodzin Wojskowych (ARG/V/98)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_032": {
+        "typ": "Pismo urzędowe — Wydział Rodzin Wojskowych",
+        "data": "1.III.1949",
+        "jezyk": "polski",
+        "nadawca": "ppłk ANDERS, Szef Wydziału Rodzin Wojskowych",
+        "adresat": "St.Uł. Głuchowski Krzysztof Andrzej, 25 Belney Airfield, Thetford, Norfolk",
+        "transkrypcja": """Szef Sztabu Opieki nad Żołnierzem
+L.dz. 2083/50/Opieki/IV/3./48
+Londyn, dnia 1 marca 1949 r.
+Żołnierz pozostający na [...]
+
+St.Uł. Głuchowski Krzysztof Andrzej
+25 Belney Airfield Thetford
+Norfolk
+
+W nawiązaniu do [rozmowy?] odpowiadamy na zapytanie [...]
+w sprawie [...] Kolekcji [...] także Pan
+[...] ok. dnia [...] świadczeniu, do
+[Ministerialnego?] [...] w Instrukcji [...] sprawdzeniu rodzin z Kontynentu
+
+[...] likwidację interes[ów]. [...] od dnia
+[...] Ministeriat [...] z wniosków [...] do dnia 15 marca 19[...]
+[...] należeć nadzieję na [...] [...]
+[...] list naprawiony dla [...] opr.
+
+SZEF WYDZIAŁU RODZIN WOJSKOWYCH
+
+ANDERS    ppłk.""",
+        "pieczecie": [],
+        "podpisy": ["ANDERS ppłk., Szef Wydziału Rodzin Wojskowych"],
+        "osoby": ["Krzysztof Głuchowski", "ppłk Anders (Szef Wydziału Rodzin Wojskowych)"],
+        "znaki_szczegolne": [
+            "Podpisany: ANDERS ppłk. — Szef Wydziału Rodzin Wojskowych (NIE gen. Władysław Anders!)",
+            "Adres Krzysztofa: 25 Belney Airfield, Thetford, Norfolk — baza RAF/PRC",
+            "L.dz. 2083/50/Opieki/IV/3./48 — numer korespondencji",
+            "Dotyczy spraw rodzinnych — łączność z rodziną na Kontynencie",
+            "Maszynopis na papierze urzędowym, częściowo nieczytelny (zagniecenia)"
+        ],
+        "kontekst": "Pismo od ppłk. Andersa (Szefa Wydziału Rodzin Wojskowych, NIE gen. Władysława Andersa) do st.uł. Głuchowskiego w sprawie kontaktu z rodziną na Kontynencie. Adres 25 Belney Airfield, Thetford, Norfolk — baza RAF, gdzie stacjonowali polscy żołnierze PRC. Wydział Rodzin Wojskowych pomagał żołnierzom PSZ w utrzymaniu kontaktu z rodzinami w Polsce i na emigracji."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_034 — Zaświadczenie o zakończeniu służby PSZ (ARG/V/100)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_034": {
+        "typ": "Zaświadczenie o zakończeniu służby wojskowej",
+        "data": "24.II.1949",
+        "jezyk": "polski",
+        "nadawca": "Komisja Likwidacyjna Polskich Sił Zbrojnych",
+        "adresat": "Głuchowski Krzysztof",
+        "transkrypcja": """POLSKIE SIŁY ZBROJNE
+
+ZAŚWIADCZENIE
+O ZAKOŃCZENIU SŁUŻBY
+
+Nr 87949
+
+Stwierdzam, że
+
+Krzysztof    Głuchowski
+(imię i imiona)    (nazwisko)
+
+4 [?]    starszy ułan
+R.N.S. [...]    (stopień)
+
+Służył w Polskich Siłach Zbrojnych
+[Począwszy?] [...] pod Dowództwem Brytyjskim do dnia...
+
+Londyn, dnia 24/II/1949
+
+[pieczęć okrągła]
+KOMISJA LIKWIDACYJNA
+POLSKICH SIŁ ZBROJNYCH
+
+[podpis]""",
+        "pieczecie": ["KOMISJA LIKWIDACYJNA POLSKICH SIŁ ZBROJNYCH (pieczęć okrągła)"],
+        "podpisy": ["Przewodniczący Komisji Likwidacyjnej PSZ"],
+        "osoby": ["Krzysztof Głuchowski"],
+        "znaki_szczegolne": [
+            "Nr 87949 — numer zaświadczenia PSZ",
+            "Stopień: starszy ułan — ostateczny stopień w PSZ",
+            "Londyn, 24.II.1949 — oficjalna data zakończenia służby",
+            "Pieczęć Komisji Likwidacyjnej PSZ",
+            "Orzeł polski w nagłówku",
+            "Druk urzędowy z odręcznymi wpisami"
+        ],
+        "kontekst": "Oficjalne zaświadczenie o zakończeniu służby w Polskich Siłach Zbrojnych. Nr 87949. Krzysztof Głuchowski, starszy ułan, zakończył służbę 24 lutego 1949 w Londynie. Komisja Likwidacyjna PSZ — organ powołany do formalnego rozwiązania Polskich Sił Zbrojnych na Zachodzie po II wojnie światowej."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_047 — Fiche de Transport (ARG/V/47, Seria_29z_p25)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_047": {
+        "typ": "Karta transportowa (Fiche de Transport)",
+        "data": "27.VI.1945",
+        "jezyk": "francuski",
+        "nadawca": "Ministère des Prisonniers, Déportés et Réfugiés",
+        "adresat": "Głuchowski Krzysztof",
+        "transkrypcja": """RÉPUBLIQUE FRANÇAISE
+Ministère des Prisonniers, Déportés et Réfugiés
+
+FICHE DE TRANSPORT   1492839
+
+Nom: GLUHOWSKI   Prénom: Cristophe
+Date naissance: 29 XI 1926
+Adresse: Caserne Bessines
+
+AVIS SERVICE SANTÉ: D   R
+
+[stempel] 27/VI/1945""",
+        "pieczecie": ["Stempel datowy 27/VI/1945"],
+        "podpisy": [],
+        "osoby": ["Krzysztof Głuchowski"],
+        "znaki_szczegolne": [
+            "Nr 1492839 — identyczny z Carte de Rapatrié (ARG/V/46)",
+            "Nazwisko w pisowni francuskiej: GLUHOWSKI",
+            "Imię: Cristophe (fonetyczna transkrypcja Krzysztof)",
+            "Data urodzenia: 29 XI 1926 — potwierdza rok 1926",
+            "Caserne Bessines — koszary w St. Ouen pod Paryżem"
+        ],
+        "kontekst": "Karta transportowa repatrianta uprawniająca do darmowego przejazdu kolejowego po Francji. Wydana przez Ministère des Prisonniers, Déportés et Réfugiés. Caserne Bessines w St. Ouen — miejsce kwaterowania polskich repatriantów."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_048 — Skierowanie z Ambasady RP na kurs (ARG/V/48, Seria_29z_p27)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_048": {
+        "typ": "Skierowanie urzędowe",
+        "data": "29.VI.1945",
+        "jezyk": "polski",
+        "nadawca": "A. Drogowski, Naczelny Instruktor Oświatowy, Ambasada RP w Paryżu",
+        "adresat": "Głuchowski K.",
+        "transkrypcja": """AMBASSADE de POLOGNE
+à Paris
+
+Pan Głuchowski K. zostanie skierowany
+przez Naczelny Instruktorat Oświatowy na kurs, który rozpocznie się
+w dniu 15 Lipca b.r. w Villard-de-Lans.
+
+A. Drogowski
+Naczelny Instruktor Oświatowy
+
+Paryż, dnia 29 czerwca 1945r.""",
+        "pieczecie": [],
+        "podpisy": ["A. Drogowski, Naczelny Instruktor Oświatowy"],
+        "osoby": ["Krzysztof Głuchowski", "A. Drogowski"],
+        "znaki_szczegolne": [
+            "Papier firmowy Ambasady RP w Paryżu",
+            "Villard-de-Lans — ośrodek kursów oświatowych w Alpach (Isère)",
+            "Kurs miał zacząć się 15 lipca — Krzysztof NIE pojechał (wstąpił do PSZ 14.VII.1945)"
+        ],
+        "kontekst": "Skierowanie na kurs oświatowy we Francji, którego Krzysztof ostatecznie nie odbył — dzień przed planowanym początkiem kursu (15.VII) wstąpił do Polskich Sił Zbrojnych we Włoszech (14.VII.1945)."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_053 — List Krzysztofa z Paryża (ARG/V/53, Seria_29z_p26)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_053": {
+        "typ": "List prywatny",
+        "data": "ok. VI–VII.1945",
+        "jezyk": "polski",
+        "nadawca": "Krzysztof Andrzej Głuchowski ('Krusio')",
+        "adresat": "Rodzina (bliscy)",
+        "transkrypcja": """Kochani moi Kochany! Przyjeżdżajcie za mną gdy ja
+jadę. Ojciec [...] o babce jest razem z [...].
+[...] Krzysztof [...] być w [...] adresie jest [...]
+Nie [...] My [...] obecnie
+razem z [...] w Paryżu. [...] samochodem
+[...] brak dalej.
+[...] pomocy. [...]
+Kochany nie wiem jak bardzo tu [...]
+ale [...] garażu nie chciałbym się
+[...] starci [...] niż brat. Mój adres obecnie
+
+Caserne Bessines Paryż
+metro Fort de Plaisy St. Ouen
+ppor. Radomyski komp. 8 sala 71
+
+Całuję się mocno i do zobaczenia
+Krusio""",
+        "pieczecie": [],
+        "podpisy": ["Krusio (Krzysztof Głuchowski)"],
+        "osoby": ["Krzysztof Głuchowski", "ppor. Radomyski Janusz", "ojciec (Stanisław Głuchowski)", "babka"],
+        "znaki_szczegolne": [
+            "Podpisany 'Krusio' — familijne zdrobnienie od Krzysztof",
+            "Adres: Caserne Bessines, metro Fort de Plaisy, St. Ouen",
+            "Ppor. Radomyski — towarzysz i późniejszy świadek służby AK",
+            "Atrament niebieski, pismo odręczne",
+            "Wiele fragmentów trudnych do odczytania"
+        ],
+        "kontekst": "List do rodziny z okresu pobytu w Caserne Bessines w Paryżu (VI–VII.1945). Wspomina ojca (Stanisława) i babkę. Ppor. Radomyski Janusz (ur. 1922) — ten sam świadek, który poświadczył służbę AK Krzysztofa (por. ARG/V/41). Poprzednio błędnie datowany na '3.II.1944'."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_054 — Skierowanie na RENTGEN (ARG/V/54, Seria_29z_p29)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_054": {
+        "typ": "Skierowanie medyczne",
+        "data": "21.VII.1945",
+        "jezyk": "polski",
+        "nadawca": "Lekarz Pułku 7 P.Uł.L., ppor. lek. Cisek",
+        "adresat": "7 Szpital Wojenny Polish Gen. Hosp.",
+        "transkrypcja": """RENTGEN
+
+7 PUŁK UŁANÓW LUBELSKICH
+im. Gen. K. Sosnkowskiego
+LEKARZ
+
+M.p., dnia 21/7 1945 r.
+
+Laboratorium: Rtg. 1 bat. Art.
+Przysyłam: H. ułana Głuchowskiego Krzysztofa
+Celem: Rtg klatki piersiowej
+Rozpoznanie: Susp. g. Plc. pulmonum
+
+[pieczęć] 7 SZPITAL WOJENNY POLISH GEN. HOSP.
+27.7.45
+
+Proszę o prześwietlenie płuc.
+
+Lekarz Pułku
+Cisek
+ppor. lek.""",
+        "pieczecie": ["7 PUŁK UŁANÓW LUBELSKICH im. Gen. K. Sosnkowskiego — LEKARZ", "7 SZPITAL WOJENNY POLISH GEN. HOSP."],
+        "podpisy": ["ppor. lek. Cisek, Lekarz Pułku"],
+        "osoby": ["Krzysztof Głuchowski", "ppor. lek. Cisek"],
+        "znaki_szczegolne": [
+            "Nagłówek: 7 Pułk Ułanów Lubelskich im. Gen. K. Sosnkowskiego",
+            "Rozpoznanie: Susp. Plc. pulmonum — podejrzenie zmian w płucach",
+            "Pieczęć szpitalna z datą 27.7.45 — RTG wykonane 6 dni po skierowaniu",
+            "Papier kremowy, pożółkły, pismo odręczne atramentem"
+        ],
+        "kontekst": "Skierowanie na RTG płuc — wskazuje na problemy zdrowotne po pobycie w obozie jenieckim (Stalag IV-B Mühlberg). 7 Pułk Ułanów Lubelskich im. Gen. Kazimierza Sosnkowskiego — pułk, w którym służył Krzysztof po wstąpieniu do PSZ."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_056 — Przepustka z Amandola (ARG/V/56, Seria_29z_p30)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_056": {
+        "typ": "Przepustka wojskowa",
+        "data": "1946",
+        "jezyk": "polski / angielski",
+        "nadawca": "Komendant Gimnazjum i Liceum 3 D.K., kpt. Kapica Józef",
+        "adresat": "Głuchowski Krzysztof",
+        "transkrypcja": """PRZEPUSTKA
+
+Nr ewid. 1846
+Stopień: [...]
+Nazwisko i imię: Głuchowski Krzysztof
+z Gimnazjum i Liceum 3 D.K. / Oddz.
+
+Kwateruje w m. Amandola
+i ma zezwolenie przebywania poza służbą w tejże
+miejscowości codziennie do godz. 2159
+
+and is permitted to be absent from his quarters in that
+town when off duty until 2159 hrs daily.
+
+Komendant
+Kapica Józef, kapitan
+
+UWAGA: Podoficerowie od plutonowego w górę do g. 2359.""",
+        "pieczecie": ["Gimnazjum i Liceum 3 D.K. (pieczęć okrągła)"],
+        "podpisy": ["kpt. Kapica Józef, Komendant"],
+        "osoby": ["Krzysztof Głuchowski", "kpt. Kapica Józef"],
+        "znaki_szczegolne": [
+            "Formularz dwujęzyczny (polsko-angielski)",
+            "Amandola — miasteczko we Włoszech, siedziba Gimnazjum 3 DSK",
+            "Godzina powrotu: 21:59 (podoficerowie do 23:59)"
+        ],
+        "kontekst": "Przepustka z Gimnazjum i Liceum 3. Dywizji Strzelców Karpackich w Amandola (Włochy). Krzysztof uczył się tu w ramach systemu oświaty PSZ, przygotowując się do matury (zdanej 9.II.1946)."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_057_ppj — Przepustka z Punktu Przesyłkowego Joncov (ARG/V/57, Seria_29z_p31)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_057_ppj": {
+        "typ": "Przepustka obozowa",
+        "data": "1946",
+        "jezyk": "polski",
+        "nadawca": "Komendant P.P.J. — ppor. Kucharski",
+        "adresat": "Głuchowski Krzysztof",
+        "transkrypcja": """Punkt Przesyłkowy Joncov 2 Korpusu
+
+M.p. [...] 194[...]
+
+Przepustka
+
+Głuchowski Krzysztof z Obozu P.P.J.
+ma prawo opuścić rejon obozu i udać się do: Pesaro.
+Przepustka ważna na dzień [...] do godz. 13:45.
+
+Komendant P.P.J.
+Kucharski ppor.""",
+        "pieczecie": ["Punkt Przesyłkowy Joncov 2 Korpusu (pieczęć okrągła)"],
+        "podpisy": ["ppor. Kucharski, Komendant P.P.J."],
+        "osoby": ["Krzysztof Głuchowski", "ppor. Kucharski"],
+        "znaki_szczegolne": [
+            "Wypełniona czerwonym atramentem",
+            "Papier pożółkły, częściowo nieczytelny",
+            "Pesaro — miasto na Adriatyku, cel wyjścia z obozu"
+        ],
+        "kontekst": "Przepustka z Punktu Przesyłkowego Joncov 2. Korpusu Polskiego we Włoszech. Pesaro — miasto portowe na Adriatyku, odwiedzane przez żołnierzy w wolnym czasie."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_065_gimn — Świadectwo Ukończenia Gimnazjum (ARG/V/65, Seria_29z_p37)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_065_gimn": {
+        "typ": "Świadectwo szkolne",
+        "data": "7.I.1946",
+        "jezyk": "polski",
+        "nadawca": "MWRiOP / Państwowa Komisja Egzaminacyjna dla Eksternów",
+        "adresat": "Głuchowski Krzysztof Andrzej",
+        "transkrypcja": """MINISTERSTWO WYZNAŃ RELIGIJNYCH I OŚWIECENIA PUBLICZNEGO
+PAŃSTWOWA KOMISJA EGZAMINACYJNA DLA EKSTERNÓW
+
+Nr 43
+
+ŚWIADECTWO UKOŃCZENIA
+GIMNAZJUM OGÓLNOKSZTAŁCĄCEGO
+
+Krzysztof Andrzej Głuchowski
+urodzony dnia 29 listopada [1926]
+w Warszawa, województwo Warszawa
+wyznania rzym.-kat.
+
+złożył nadzwyczajny egzamin [...]
+dnia 9 Lutego 1946 roku
+
+L. Dz. 32/Edn/46, dnia 7 Stycznia 1946""",
+        "pieczecie": ["Orzeł Polski (nagłówek)", "Pieczęć M.P. na zdjęciu"],
+        "podpisy": ["Delegat W.R. i O.P."],
+        "osoby": ["Krzysztof Andrzej Głuchowski"],
+        "znaki_szczegolne": [
+            "Ze zdjęciem legitymacyjnym w mundurze",
+            "Egzamin eksternistyczny — zdawany poza normalnym trybem szkolnym",
+            "Druk urzędowy z herbem Polski",
+            "Pieczęć 'M.P.' na zdjęciu"
+        ],
+        "kontekst": "Świadectwo ukończenia gimnazjum ogólnokształcącego zdane eksternistycznie w ramach systemu oświaty PSZ we Włoszech. Komisja egzaminacyjna działała przy Gimnazjum i Liceum 3 DSK w Amandola. Krzysztof zdał maturę gimnazjalną 9 lutego 1946 — miał wtedy 19 lat."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # wa_aliens_reg — Aliens Registration gen. Janusza Głuchowskiego (ARG/II/65-66)
+    # ═══════════════════════════════════════════════════════════════
+    "wa_aliens_reg": {
+        "typ": "Certyfikat rejestracji cudzoziemca",
+        "data": "1940–1986",
+        "jezyk": "angielski",
+        "nadawca": "Home Office / Metropolitan Police",
+        "adresat": "Gen. Janusz Głuchowski",
+        "transkrypcja": """[OKŁADKA:]
+A 274782
+Aliens Order, 1920.
+CERTIFICATE OF REGISTRATION
+You must produce this certificate if required to do so by any Police
+Officer, Immigration Officer, or member of His Majesty's forces
+acting in the course of his duty.
+
+[STRONA ZE ZDJĘCIEM:]
+Registration Certificate No. [...] 79 [...]
+Name: GŁUCHOWSKI Janusz
+Date: 28/2/[49?]
+[Zdjęcie: starszy mężczyzna, łysy, z wąsem]
+Signature: Janusz Głuchowski [odręcznie]
+
+[DANE OSOBOWE:]
+Nationality: Polish
+Born on: 6.8.88    Bukowina
+Nationality of wife: [?]
+Profession or Occupation: No occupation
+Single or Married: Married
+Name of [...]: Elizabeth [?]
+Address: [...] College [...] F[?]
+[...] in United Kingdom: [...] Palestine [?]
+[...]: Polish Forces, Aug 1940
+[...] PMC 22/6/[?]    discharged 29/6/49
+Passport: Army Form W.M.06.
+[...] P 5993 [...]
+
+[PIECZĄTKI:]
+Police serial No. 87[?]2578
+[Pieczęć:] ALIENS REGISTRATION / METROPOLITAN POLICE
+[Data:] 2 FEB 1951
+[...] Kensington [...]
+15/9/55
+26.9.86
+
+[ZWOLNIENIE:]
+ALIENS ORDER, 1940.
+The holder is
+EXEMPT FROM REGISTRATION
+with the police but should retain
+this certificate.
+[Pieczęć:] CHECKED
+[Pieczęć:] METROPOLITAN POLICE OFFICE""",
+        "pieczecie": [
+            "ALIENS REGISTRATION / METROPOLITAN POLICE",
+            "METROPOLITAN POLICE OFFICE",
+            "CHECKED"
+        ],
+        "podpisy": ["Janusz Głuchowski (odręcznie)"],
+        "osoby": ["Gen. dyw. Janusz Głuchowski", "Elizabeth (żona?)"],
+        "znaki_szczegolne": [
+            "A 274782 — numer rejestracji",
+            "JEDYNE ZNANE ZDJĘCIE gen. Głuchowskiego w kolekcji",
+            "Ur. 6.8.1888 Bukowina — potwierdzenie",
+            "Żona: Elizabeth (nie Maria Bukowska jak w niektórych źródłach?)",
+            "Polish Forces od VIII.1940, discharged 29.VI.1949",
+            "Dokument prowadzony od 1940 do 1986 — 46 LAT!",
+            "Ostatecznie EXEMPT FROM REGISTRATION",
+            "Kensington — dzielnica Londynu, adres Głuchowskiego",
+            "Army Form W.M.06, P 5993 — numer paszportu wojskowego"
+        ],
+        "kontekst": "Certyfikat rejestracji cudzoziemca gen. dyw. Janusza Głuchowskiego — Aliens Order 1920. Nr A 274782. Dokument prowadzony przez Metropolitan Police od 1940 do 1986 (pieczątki z 1951, 1955, 1986). Generał, I Wiceminister Spraw Wojskowych RP, Dowódca JWWB, musiał cyklicznie meldować się na policji jako 'alien'. Ostatecznie zwolniony z obowiązku rejestracji (EXEMPT). Zdjęcie: starszy mężczyzna, łysy, z wąsem. UWAGA: żona zapisana jako 'Elizabeth' — wymaga weryfikacji (Maria Bukowska? Elizabeth to angielskie imię Elżbiety?)."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # wa_biogram_krzysztof — AUTOBIOGRAM Krzysztofa (ARG/VI/14 lub powiązany)
+    # KLUCZOWY DOKUMENT — NAPISANY PRZEZ SAMEGO KRZYSZTOFA W 1995!
+    # ═══════════════════════════════════════════════════════════════
+    "wa_biogram_krzysztof": {
+        "typ": "Biogram / autobiografia",
+        "data": "18.X.1995",
+        "jezyk": "polski",
+        "nadawca": "Krzysztof Głuchowski",
+        "adresat": "publikacja / archiwum",
+        "transkrypcja": """KRZYSZTOF GŁUCHOWSKI PSEUDONIM «JURAŚ»
+
+Syn Stanisława Stefana Głuchowskiego i Wandy z Głuchowskich ur. 29.11.1926 w Warszawie. Uczęszczał do
+6 klasowej Szkoły Rodziny Wojskowej, którą skończył w czerwcu 1939 roku po czym zdał egzamin [...]
+[...] Na I wojnę [...]
+
+W czasie okupacji jest uczniem szkół handlowych / [...] Korporacja [...] III [...]
+[...] Służył [...]
+część powojennych [...] do cywilnego [...]
+
+U kompanii brał udział od sierpień 1941 roku [wstąpieniu] do ZWZ a następnie w Armii Krajowej, początkowo w
+Kompanii Kadeci a od 1943 roku w [...] Pułku Ułanów Lubelskich AK — kryptonim «Jeleń», na przydział w plutonie 1112.
+[...] Okręgu Warszawskiego na terenie [Włoch?].
+
+W Powstaniu [...] płk. dypl. Karol [...] Dowódca [...]
+[...] do rejonu Walk [...] teren [...] stanowisko [...] obronie
+z [...] na Kamczatce [...] do [...]
+[...] dowodzi [...] Wachnowski [...] do obrony [...]
+w budynku [...] Wola [...] Cmentarz [...] Kaplicy Matki [...] Powązki [...]
+Czerniaków. Ok. 41 żołnierzy [...] widzieliśmy [...]
+[...] Dowódcami Okręgu Warszawskiego «Monter» - Chruściel.
+[...] Krzysztof [...] Głuchowski [...] do stopnia starszego strzelca. Po kapitulacji
+wzięty jako jeniec do Niemiec, gdzie przechodzi przez obozy w Fallingbostel [...] Dorsten [...]
+do [...] Mándler [...] [...]
+[...] statkiem [...] do Francji. [...]
+
+[...] Holandii, Belgii i Francji przedostaje się do [...] Korpusu Armii Polskiej gen. Andersa do Włoszech
+[...] 7 Pułku Ułanów Lubelskich, I [...] dywizja [...]
+Dywizji Strzelców Karpackich, zdaje małą, a [...] jest w Anglii matur[ę].
+[...] na rachunkach angielskich dyplom [...] Chartered Engineer. Po [...]
+[...] prywatną firmą V.I.[...] [...] Jest
+kierownikiem [...] Project Engineer, Coordinator for East Europe and Spain. Sales Engineering Manager [...] fili[i]
+[...] w Brazylii [...] São Paulo [...] jako [...] Project Manager. [...]
+aplikacji jest odpowiedzialny [...] za łącznik z filią firmy w Blois i La Rochelle we Francji w związku z
+[...] pomieszczeń [...] CV [...] na samochodach okładowych Perkins France
+[...] Emerytuje w Londynie na Krzyżownickim Krzyż [...] Starostwo [...], członkiem Kuratorium
+[...] Harcerstwa [...] członkiem Naczelnej Rady AHP [...], członkiem Zarządu Zjednoczenia Polskiego w
+[...] Brazylii [...], członkiem [...] Rady Koła Armii Krajowej, [...]
+[...] Polskich [...] długoletnim skarbnikiem Polskiego
+Ośrodka [...] Kulturalnej — POSK w Londynie.
+[...] Brazylia i [...] domu Barbara [...] emigrantów osiedla się w Rio de Janeiro,
+[...] drukarką [...] do pracy [...] 2 Dziennika Polskim w Londynie i
+Nowym Dziennikiem w Nowym Jorku. Jest członkiem Stowarzyszenia Kronikarzy Prasy [...]
+[...] w Brazylii [...] założył [...] Brazylijska Unia Sportu Żeglarz[y]. Jest
+też członkiem Związku Pisarzy Polskich na Obczyźnie.
+
+Odznaczenia: Krzyż Walecznych, Krzyż Armii Krajowej (No 3316), Medal Wojska, British War Medal
+[...] Krzysztof Głuchowski [...] w następujących wydawnictwach i źródłach —
+Powstanie Warszawskie: Adam Borkiewicz, Pax Warszawa 1957
+Wiadomości POSK, London 1964-70
+Dziesięciolecie Powstania 1954 Warszawa 1989
+Ułani Lubelscy: Księga Dziejów 7 P.Uł.Lubelskich, Londyn 1969
+[...] nad Tamizą, Opracował Józef Garliński POSK, Londyn 1989
+[...], Anna Branicka-Wolska Iskry Warszawa 1990, (II wydanie Tenten Warszawa 1993)
+[...] Królewska w Czasach Drugiej Rzeczypospolitej: Warszawa 1993
+Dziennik Polski masowy 2.4.91, 18.4.91, 27.5.91, 25.8.92, 10.9.92. Londyn
+
+Biblioteka Narodowa w Warszawie Zbiór Rękopisów No. 13853
+
+Komplet listów Krzysztofa Głuchowskiego z Włoch, do ojca w Niemczech wraz z odwrotną korespondencją, złożone są w
+dziale 2giej Wojny Światowej w Archiwum Polskiej Akademii Nauk przy Rynku Starego
+Miasta w Warszawie
+
+Przygotował Krzysztof Głuchowski
+Rio de Janeiro, 18 października 1995""",
+        "pieczecie": [],
+        "podpisy": ["Krzysztof Głuchowski, Rio de Janeiro, 18.X.1995"],
+        "osoby": [
+            "Krzysztof Głuchowski (ps. Juraś, autor)",
+            "Stanisław Stefan Głuchowski (ojciec)",
+            "Wanda z Głuchowskich (matka)",
+            "Gen. Władysław Anders",
+            "Płk. dypl. Karol Ziemski (Wachnowski)",
+            "Gen. Antoni Chruściel (Monter)",
+            "Adam Borkiewicz (historyk)",
+            "Józef Garliński",
+            "Anna Branicka-Wolska",
+            "Barbara (żona Krzysztofa)"
+        ],
+        "znaki_szczegolne": [
+            "AUTOBIOGRAM — napisany przez samego Krzysztofa w 1995 roku!",
+            "Rio de Janeiro, 18 października 1995",
+            "PEŁNA CHRONOLOGIA ŻYCIA: szkoła → AK (1941) → Powstanie → obozy → Francja → Włochy → Anglia → Brazylia",
+            "Krzyż AK Nr 3316 — numer potwierdzony",
+            "Chartered Engineer — kwalifikacja inżynierska",
+            "Project Engineer, Coordinator for East Europe and Spain",
+            "Sales Engineering Manager, Project Manager",
+            "Praca z Perkins France (silniki) w Blois i La Rochelle",
+            "Żona: Barbara",
+            "Osiedlił się w Rio de Janeiro",
+            "Członek: POSK (skarbnik!), AHP, Koło AK, Związek Pisarzy Polskich na Obczyźnie",
+            "Założył Brazylijską Unię Sportu Żeglarzy",
+            "Dziennikarz: Dziennik Polski (Londyn), Nowy Dziennik (NY)",
+            "Listy w Bibliotece Narodowej: Zbiór Rękopisów No. 13853",
+            "Listy w Archiwum PAN przy Rynku Starego Miasta"
+        ],
+        "kontekst": "NAJWAŻNIEJSZY DOKUMENT BIOGRAFICZNY — autobiogram napisany przez samego Krzysztofa Głuchowskiego w Rio de Janeiro 18 października 1995 roku. Zawiera pełną chronologię życia: od Szkoły Rodziny Wojskowej (1939), przez ZWZ/AK (od VIII.1941), pluton 1112, 7 P.Uł. «Jeleń», Powstanie Warszawskie (Stare Miasto, Czerniaków), obozy jenieckie (Fallingbostel, Dorsten), repatriację przez Francję, służbę w 2 Korpusie we Włoszech, maturę w Anglii, dyplom Chartered Engineer, karierę inżynierską (Perkins France), emigrację do Brazylii (São Paulo → Rio). Aktywny w organizacjach: POSK (skarbnik), AHP, Koło AK, Związek Pisarzy na Obczyźnie. Żonaty z Barbarą. Listy archiwalne w Bibliotece Narodowej (nr 13853) i Archiwum PAN."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # wa_biogram_stefan — Biogram ppor. Stefana (przygotowany przez Krzysztofa 1995)
+    # ═══════════════════════════════════════════════════════════════
+    "wa_biogram_stefan": {
+        "typ": "Biogram",
+        "data": "18.X.1995",
+        "jezyk": "polski",
+        "nadawca": "Krzysztof Głuchowski (autor biogramu)",
+        "adresat": "publikacja / archiwum",
+        "transkrypcja": """PPOR. STANISŁAW STEFAN GŁUCHOWSKI PSEUDONIM «STEFAN»
+
+syn Mariana Głuchowskiego i Marii z Ziółkowskich. Ur. 1.5.1893 w Mąj Bukowo pow. Piotrków. [...]
+[...] w gimnazjum [...] w Łodzi. Pracą [...] w sierpniu PPS a maturalnie [...]
+[...] studenckim na wydziale [...] do 7 pułku [...] Piłsudskiego [...]
+Warszawskim. W roku 1918 [...] na ochotnika zgłasza się do 7 P.Uł.[...] na front.
+[...] 1919 od[komenderowany] [...] do [...] Podchorążych Piechoty.
+Podchorążych uzyskawszy [...] na [...] oficerów [...] służb [...] I Pułk
+Podchorążych Rezerwy Kawalerii [...] jako [...] rezerwowy przydzielony [...] do II [...]
+[...] — [...] Kompanii [...] do [...] do 1933 [...]
+[...] Piłsudskiego Rzeczpospolitej [...] do stanowiska [...] Kuźmewicza [...]
+Kolekcja. W [...] 1939 [...] przydziały [...] do [...] mobilizowanej [...]
+odrzucone powołania [...]. Warsztat [...] przybrał się do walczących [...] 1940
+oddziałów. Po zakończeniu [...] [...] i powrócił do Warszawy. [...] między [...] 1940
+[...] organizacji [...] Kompanii [...] K. [...] Nowamber 1943 zostaje
+następnikiem w W.S.O.P. Warszawa-Żoliborz jako z-ca d-cy kompanii. 18.5.1944 aresztowany i więziony
+na Pawiaku, przesłuchiwany na Alei Szucha. Zwolniony 29 lipca 1944.
+Powstanie [...] na Śródmieście, [...] przydział [...] i dołącza [...] i [...] pracuje w
+kwatermistrzostwie I Obwodu. Do kapitulacji idzie do niewoli przechodzi przez obozy 2 Fallingbostel,
+Bergen, Gross-Born, Sandbostel i Lübeck. Po wyzwoleniu w Niemczech [...] 1947 [...] następnie
+powraca do kraju. Zmarł 17.10.1962 w Warszawie. Pochowany na cmentarzu cywilnym na Powązkach
+(Kwatera 95-V-19)
+
+Odznaczenia: Krzyż Niepodległości, Order Polonia Restituta, Krzyż Walecznych, Złoty Krzyż Zasługi,
+Srebrny Krzyż Zasługi, Krzyż Armii Krajowej (No. 3720)
+
+Wzmianki o ppor. Stefanie Głuchowskim znajdują się w następujących wydawnictwach i źródłach –
+- Ułani Lubelscy. Zeszyty wydawane od 1947 przez Koło 7 P.Uł.Lubelskich Londyn
+- Komunikat Informacyjny Koła 7 P.Uł.Lubelskich No.38 I Londyn 1962
+- Ułani Lubelscy: Księga Dziejów 7 P.Uł.Lubelskich I, Londyn 1969
+- Listy niezwykłe, Anna Branicka-Wolska Iskry Warszawa 1990, (II wydanie Tenten Warszawa 1993)
+- Zamek Królewski w Czasach Drugiej Rzeczypospolitej: Warszawa 1993
+- Dziennik Polski masowy 2.4.91, 18.4.91, 27.5.91, 25.8.92, 10.9.92 Londyn
+135 Pluton (AK...) Opracował Andrzej Drawkowski Warszawa 1994
+
+Komplet listów ppor. Stefana Głuchowskiego z Niemiec do syna Krzysztofa znajdującego się w 7 P.Uł.Lubl.
+i do [...] gen. Andersa we Włoszech, wraz z odwrotną korespondencją, złożone są w
+dziale 2giej Wojny Światowej w Archiwum Polskiej Akademii Nauk przy Rynku Starego Miasta w
+Warszawie
+Biblioteka Narodowa w Warszawie Zbiór Rękopisów No. 13853
+
+Przygotował Krzysztof Głuchowski
+Rio de Janeiro, 18 października 1995""",
+        "pieczecie": [],
+        "podpisy": ["Krzysztof Głuchowski, Rio de Janeiro, 18.X.1995"],
+        "osoby": [
+            "ppor. Stanisław Stefan Głuchowski (ps. Stefan, ur. 1.V.1893)",
+            "Marian Głuchowski (ojciec Stefana)",
+            "Maria z Ziółkowskich (matka Stefana)",
+            "Krzysztof Głuchowski (syn, autor biogramu)",
+            "Gen. Władysław Anders"
+        ],
+        "znaki_szczegolne": [
+            "Biogram napisany przez SYNA (Krzysztofa) w 1995 roku — źródło pierwszorzędne",
+            "Stefan ur. 1.V.1893 w Mąj Bukowo pow. Piotrków (NIE 1893 Warszawa!)",
+            "Pseudonim «Stefan» — prosty, od imienia",
+            "Gimnazjum w Łodzi, członek PPS",
+            "1918: ochotnik do 7 P.Uł. na front",
+            "W.S.O.P. Warszawa-Żoliborz: z-ca d-cy kompanii (XI.1943)",
+            "18.V.1944: ARESZTOWANY — Pawiak + przesłuchania na Alei Szucha!",
+            "29.VII.1944: ZWOLNIONY — 3 dni przed Powstaniem!",
+            "Powstanie: kwatermistrzostwo I Obwodu Śródmieście",
+            "5 obozów: Fallingbostel, Bergen, Gross-Born, Sandbostel, Lübeck",
+            "1947: powrót do Polski",
+            "Zmarł 17.X.1962 w Warszawie",
+            "Pochowany: Powązki, Kwatera 95-V-19",
+            "Odznaczenia: Krzyż Niepodległości, Order Polonia Restituta, KW, Złoty KZ, Srebrny KZ, Krzyż AK (No. 3720)",
+            "Bibliografia: 8 publikacji + archiwalia w BN i PAN"
+        ],
+        "kontekst": "Biogram ppor. Stefana Głuchowskiego przygotowany przez jego syna Krzysztofa w Rio de Janeiro (18.X.1995). KLUCZOWE NOWE FAKTY: Stefan urodził się w Mąj Bukowo pow. Piotrków (nie Warszawa). Był członkiem PPS. W 1943 został z-ca d-cy kompanii W.S.O.P. Warszawa-Żoliborz. 18.V.1944 aresztowany przez Gestapo — więziony na Pawiaku, przesłuchiwany na Alei Szucha (siedziba Gestapo). Zwolniony 29.VII.1944 — zaledwie 3 DNI przed wybuchem Powstania! W Powstaniu: kwatermistrz I Obwodu (Śródmieście). Po kapitulacji: 5 obozów jenieckich. 1947: powrót do Polski (nie emigracja). Zmarł 17.X.1962, pochowany na Powązkach (Kw. 95-V-19). Odznaczenia obejmują Krzyż Niepodległości i Order Polonia Restituta — najwyższe odznaczenia państwowe."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_033 — Notatki służbowe — rejestr dat i numerów (ARG/V/99)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_033": {
+        "typ": "Notatki służbowe — rejestr odznaczeń i rozkazów",
+        "data": "1946",
+        "jezyk": "polski",
+        "nadawca": "Krzysztof Głuchowski (notatki własne)",
+        "adresat": "dokumentacja osobista",
+        "transkrypcja": """Głuchowski K.
+[...] 14[?].45    149/46
+
+Medal [Wojska?]
+28 X 46    245/46
+
+Odznaka 3DSK
+12 XI 46    256/46
+
+Bryt. [Medal?]    13 X 46    257/46
+[...] 12/46
+[...] 155/46
+
+Medal [...] [?]
+2.X.10.46    [...]/46
+
+[...]
+30 X [?]    [...] 263/[?]
+[Med.] [...] [?]    [...]/46
+
+[...]
+6 [...] [?]
+
+[Na dole:]
+Klopotki [?]
+Pożecznek [?]""",
+        "pieczecie": [],
+        "podpisy": [],
+        "osoby": ["Krzysztof Głuchowski"],
+        "znaki_szczegolne": [
+            "Chronologiczny rejestr rozkazów i numerów akt",
+            "Medal Wojska — 28 X 46, Rozkaz 245/46",
+            "Odznaka 3DSK — 12 XI 46, Rozkaz 256/46",
+            "Brytyjski Medal — 13 X 46, 257/46",
+            "Numer 149/46, 155/46, 263/[?] — numery rozkazów dziennych",
+            "Klopotki, Pożecznek — prawdopodobnie nazwiska świadków lub oficerów",
+            "Pismo ołówkiem, trudno czytelne"
+        ],
+        "kontekst": "Notatki robocze Krzysztofa rejestrujące daty i numery rozkazów dotyczących jego odznaczeń i przebiegu służby. Stanowią uzupełnienie do notatek z ARG/V/113 (juras_047). Potwierdzone odznaczenia: Medal Wojska (28.X.46), Odznaka 3DSK (12.XI.46), medal brytyjski (13.X.46)."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_083 — List Krzysztofa z Myszkowa (ARG/V/149)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_083": {
+        "typ": "List / aerogram",
+        "data": "14.VIII.1945",
+        "jezyk": "polski",
+        "nadawca": "Krzysztof Głuchowski (st.uł.)",
+        "adresat": "nieustalony (rodzina?)",
+        "transkrypcja": """st.Uł. Krzysztof Głuchowski
+Polish Forces CMF 152
+Gimnazjum 3 DSK
+
+Myszków 14 VIII 45r.
+
+[...] kochanej [...] posyłam
+z [...] drodzy [...] Ostatnio [...]
+tęsknię [...] [...]
+
+W obecnej [chwili] pomagam [...] Pana Generała [zbierać?]
+pluton 1112 [...] do [...] [...]
+[...] [przy każdym?] pluton [...]
+[...] do Generała [...] najcenniejszej
+[...] Odnalazły [...] [...]
+[...]
+18 [...] list [...] Powstania [...]
+[...] w wielkim szacunkiem [...]
+
+[Na prawo — stempel:]
+POLISH INSTITUTE AND SIKORSKI MUSEUM
+[adres]
+
+[Nr formularza:] 563""",
+        "pieczecie": ["Stempel POLISH INSTITUTE AND SIKORSKI MUSEUM"],
+        "podpisy": ["Krzysztof Głuchowski"],
+        "osoby": ["Krzysztof Głuchowski", "Pan Generał (Janusz Głuchowski?)"],
+        "znaki_szczegolne": [
+            "Myszków 14.VIII.1945 — pisany z Myszkowa (miasto w woj. śląskim)",
+            "Wspomina 'pluton 1112' — nr batalionu AK",
+            "Wspomina 'Pana Generała' — prawdopodobnie stryj Janusz Głuchowski",
+            "Stempel Instytutu Polskiego i Muzeum Sikorskiego w Londynie",
+            "Aerogram nr 563 — ten sam format co list do Bora (ARG/V/148)",
+            "Tekst trudno czytelny — wyblakły, niski kontrast"
+        ],
+        "kontekst": "List z Myszkowa (14.VIII.1945) — Myszków to miasto w woj. śląskim, przez które mogła przechodzić trasa repatriacyjna. Krzysztof wspomina pomaganie 'Panu Generałowi' (prawdopodobnie stryj Janusz) w zbieraniu informacji o plutonie 1112 z Powstania. Stempel Instytutu Polskiego i Muzeum Sikorskiego sugeruje, że list trafił do archiwum muzealnego."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_086 — Rękopis wspomnień — Piłsudski i 1918 (ARG/V/152)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_086": {
+        "typ": "Rękopis — wspomnienia historyczne",
+        "data": "ok. 1960–1970",
+        "jezyk": "polski",
+        "nadawca": "Krzysztof Głuchowski (?)",
+        "adresat": "notatki własne / wspomnienia",
+        "transkrypcja": """[...] Ojczyzny
+
+Pragnę przedstawić [opis?] [...] Kiedat[?]
+[...] [St.] Marszałka [...] na [...]
+[...] w [...] gdzie [...] Marszałka na [...]
+[...] generał [...] [rajony?] [...]
+moje [...] na [...] co [...]
+
+[...] ze 100
+[...] to [...] [...]
+
+[Dwa?] [...] posiadały [...] [plk?] [...] od [...]
+[...] [...]
+[...] w [...] i w [...]
+[...] [piłka?] [polu?] [...]
+— i Polska kogo — [...] nie jest [...] dnia
+[...] a [...] bo u [...] [...]
+
+[...] bo [...] byli [...] [dalekich] polityków
+
+od Marszałka [...] w [...] [...]
+po tej pierwszej walcze[niu] w 1918 [...] [kupił?] polsk[ie]""",
+        "pieczecie": [],
+        "podpisy": [],
+        "osoby": ["Marszałek (Józef Piłsudski)", "Stefan Głuchowski (?)"],
+        "znaki_szczegolne": [
+            "Wspomnienia o Marszałku Piłsudskim i wydarzeniach z 1918 roku",
+            "Pismo odręczne atramentem na kremowym papierze",
+            "Wiele fragmentów nieczytelnych — wyblakły atrament",
+            "Wspomina 'Pierwszą walkę w 1918' — odzyskanie niepodległości",
+            "Kontekst: rodzina Głuchowskich i Piłsudski — Siódemka Beliny"
+        ],
+        "kontekst": "Fragment wspomnień dotyczących Marszałka Piłsudskiego i wydarzeń z 1918 roku — odzyskania niepodległości. Gen. Janusz Głuchowski był jednym z Siódemki Beliny (1914) i bliskim współpracownikiem Piłsudskiego. Rękopis prawdopodobnie sporządzony przez Krzysztofa na podstawie opowieści rodzinnych lub jako próba spisania historii rodziny."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_069 — Karta pozdrowień z SPP Londyn (ARG/V/135)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_069": {
+        "typ": "Karta pozdrowień / życzenia",
+        "data": "ok. 1960–1970",
+        "jezyk": "polski / angielski",
+        "nadawca": "Pracownicy SPP w Londynie",
+        "adresat": "Krzysztof Głuchowski",
+        "transkrypcja": """Szanowny i Drogi Krzysztofie!
+
+Pozdrowienia z Londynu
+od Pracowników Koleżanek
+i [Kolegów?]
+z SPP
+
+A w zastępstwie nasz
+mamy Biuletyn nr 10
+
+[podpis] Zofija [?]
+Pracownik [?] pozdrowieniami
+[...] SPP [...]
+Elżbieta [?]
+[...] Bogusław [?]
+
+[Na dole, innym pismem:]
+Best wishes
+[?] najlepsze życzenia z Londynu, [...]
+Rozkel z [?] K[?]
+i najlepszych Bracie[m]
+
+Krzysztofie! [?] [?]
+[...] Irene [?]""",
+        "pieczecie": [],
+        "podpisy": ["Zofija", "Elżbieta", "Bogusław", "Irene", "i inni"],
+        "osoby": ["Krzysztof Głuchowski", "Zofija", "Elżbieta", "Bogusław", "Irene"],
+        "znaki_szczegolne": [
+            "SPP — Stowarzyszenie Polskich Kombatantów (?)  lub Skarb Polskich Pracowników",
+            "Biuletyn nr 10 — wspomniany jako zastępstwo za wizytę",
+            "Wiele podpisów — koleżanki i koledzy z SPP",
+            "Dwujęzyczna — 'Best wishes' po angielsku",
+            "Pismo niebieskim atramentem na szarym papierze"
+        ],
+        "kontekst": "Karta pozdrowień od współpracowników z SPP (Stowarzyszenie Polskich Kombatantów?) w Londynie do Krzysztofa, prawdopodobnie w Brazylii. Wspomina Biuletyn nr 10 — periodyk organizacji. Wielokrotne podpisy — Krzysztof utrzymywał kontakty z polską emigracją londyńską."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_078 — Zaświadczenie Ziemskiego o KW — wariant (ARG/V/144)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_078": {
+        "typ": "Zaświadczenie wojskowe — Krzyż Walecznych",
+        "data": "26.X.1946",
+        "jezyk": "polski",
+        "nadawca": "Płk. dypl. Karol Ziemski (ps. Wachnowski)",
+        "adresat": "poświadczenie służby Krzysztofa Głuchowskiego",
+        "transkrypcja": """ZIEMSKI KAROL
+PUŁKOWNIK DYPLOMOWANY
+DOWÓDCA POLSKIEGO OKRĘGU [WOJSKOWEGO]
+[...] SCHLESWIG-HOLSTEIN
+
+Wentorf [pod Hamburgiem]
+[...]
+
+ZAŚWIADCZENIE
+
+Jako b. Dowódca Grupy «PÓŁNOC» w Powstaniu Warszaw-
+skim (Obrona Starego Miasta) [stwierdzam, że] [...]
+Krzysztof, ur. [...] w Warszawie, pseudonim [...]
+walczący w Obronie Starego Miasta [w Plutonie III]
+
+[awansowany do stopnia]
+
+starszego strzelca
+
+oraz odznaczony
+
+KRZYŻEM WALECZNYCH po raz pierwszy
+
+co zostało stwierdzone w moim Rozkazie — Dowódcy Grupy
+«PÓŁNOC» Nr. 24 z dnia 5.9.1944 —
+
+B. DOWÓDCA OBRONY STAREGO MIASTA
+
+[podpis]
+
+ZIEMSKI KAROL
+PUŁKOWNIK DYPLOMOWANY
+
+[pieczęć okrągła na dole]""",
+        "pieczecie": ["Pieczęć okrągła Polskiego Okręgu Wojskowego"],
+        "podpisy": ["Ziemski Karol, Pułkownik Dyplomowany"],
+        "osoby": ["Krzysztof Głuchowski", "Płk. dypl. Karol Ziemski (ps. Wachnowski)"],
+        "znaki_szczegolne": [
+            "Duplikat/wariant zaświadczenia ARG/V/43 (Seria_29z_p36)",
+            "Ten sam tekst i podpis — inna kopia dokumentu",
+            "Pieczęć okrągła na dole — uwierzytelnienie",
+            "Dokument pożółkły, lekko uszkodzony"
+        ],
+        "kontekst": "Wariant/duplikat zaświadczenia płk. Ziemskiego (por. ARG/V/43). Krzysztof posiadał dwie kopie tego kluczowego dokumentu — potwierdzenie udziału w obronie Starego Miasta, pseudonim Juraś, awans na st. strzelca i Krzyż Walecznych."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_082 — Aerogram do gen. Bora-Komorowskiego (ARG/V/148)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_082": {
+        "typ": "Aerogram (Air Letter)",
+        "data": "ok. 1946–1948",
+        "jezyk": "polski",
+        "nadawca": "Krzysztof Głuchowski (?)",
+        "adresat": "Generał de dywizji Tadeusz Bor Komorowski, H.Q. Polish Forces 25, ENGLAND",
+        "transkrypcja": """BY AIR MAIL
+AIR LETTER
+
+563
+
+[Stempele pocztowe — dwa okrągłe]
+
+Generał de dywizji
+Tadeusz Bor Komorowski
+H.Q. Polish Forces 25
+ENGLAND
+
+Written in Polish.
+
+[Odwrotna strona — treść listu nieczytelna na zdjęciu]""",
+        "pieczecie": ["Stempele pocztowe (dwa okrągłe, częściowo czytelne)"],
+        "podpisy": [],
+        "osoby": ["Krzysztof Głuchowski (nadawca?)", "Gen. dyw. Tadeusz Bór-Komorowski (adresat)"],
+        "znaki_szczegolne": [
+            "ADRESAT: Generał de dywizji Tadeusz Bor Komorowski!",
+            "H.Q. Polish Forces 25 — Kwatera Główna Polskich Sił Zbrojnych",
+            "Nr 563 — numer formularza aerogramu",
+            "Dopisek 'Written in Polish' — cenzura pocztowa",
+            "Treść na odwrocie nieczytelna na zdjęciu",
+            "Stempele pocztowe wymagają odrębnej analizy"
+        ],
+        "kontekst": "Aerogram zaadresowany do gen. dyw. Tadeusza Bora-Komorowskiego — Dowódcy Armii Krajowej i Powstania Warszawskiego! Bór-Komorowski po wojnie przebywał w Londynie jako Naczelny Wódz PSZ (1946–1947). H.Q. Polish Forces 25 — kwatera główna. Ten sam Bór-Komorowski, który ustanowił Krzyż AK (1966), którym odznaczono Krzysztofa. Dokument pokazuje bezpośredni kontakt młodego powstańca z najwyższym dowódcą."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_062 — PASS z 7 Pułku Ułanów Lubelskich (ARG/V/128)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_062": {
+        "typ": "Przepustka wojskowa — Army Form B.295",
+        "data": "9.IX.1947",
+        "jezyk": "angielski",
+        "nadawca": "7 Pułk Ułanów Lubelskich / Commanding Officer",
+        "adresat": "Głuchowski Krzysztof",
+        "transkrypcja": """PASS
+Army Form B.295
+
+[Pieczęć okrągła:] 7 PUŁK UŁANÓW LUBELSKICH
+
+Regt. [?] Bower Ward Camp
+No. 3004271    Rank: L/Cpl
+Name: GLUCHOWSKI Krzysztof
+has permission to absent from his unit
+from 9.9.47
+
+[podpis] Commanding [Officer]
+
+1. From London District
+2. To London
+3. Through London
+
+7. Ration Card Issued
+8. For use of C.M.P.
+9. Valid only with A.B.64""",
+        "pieczecie": ["7 PUŁK UŁANÓW LUBELSKICH (pieczęć okrągła niebieska)"],
+        "podpisy": ["Commanding Officer"],
+        "osoby": ["Krzysztof Głuchowski (L/Cpl, No. 3004271)"],
+        "znaki_szczegolne": [
+            "Nr 3004271 — ten sam numer co w certyfikacie PRC",
+            "Stopień: L/Cpl (Lance Corporal = starszy ułan)",
+            "Pieczęć 7 PUŁKU UŁANÓW LUBELSKICH — pułk rodzinny",
+            "Data: 9.9.47 — przepustka do Londynu",
+            "Bower Ward Camp — obóz wojskowy",
+            "Valid only with A.B.64 — ważna tylko z książeczką wojskową"
+        ],
+        "kontekst": "Przepustka z 7 Pułku Ułanów Lubelskich zezwalająca L/Cpl Głuchowskiemu na wyjazd do Londynu z Bower Ward Camp (9.IX.1947). Pieczęć z polską nazwą pułku na brytyjskim formularzu — symbol polskiej tożsamości w ramach struktur brytyjskich."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_064 — ALIEN IDENTITY CERTIFICATE (ARG/V/130)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_064": {
+        "typ": "Certyfikat tożsamości cudzoziemca",
+        "data": "31.X.1947",
+        "jezyk": "angielski",
+        "nadawca": "Polish Resettlement Corps / Ministry of Labour",
+        "adresat": "Głuchowski Krzysztof",
+        "transkrypcja": """ALIEN IDENTITY CERTIFICATE
+Army Form E.D.A. [?]
+
+POLISH RESETTLEMENT CORPS [...]
+MINISTRY OF LABOUR [...]
+
+Surname: GLUCHOWSKI
+[Christian Names: Krzysztof]
+Rank: L.CPL.
+Date of Birth: 29.11.1926
+[...]
+
+SOUTH WEST ESSEX TECHNICAL COLLEGE
+AND SCHOOL OF
+[...] STREET ROAD
+ERITH / PARK ROAD
+
+Occupation: STUDENT
+
+[...] 31.10.[47]
+
+[Pieczęć:] No. 3 RELEGATION
+EASTERN COMMAND
+P.R.C.
+
+[podpisy]""",
+        "pieczecie": ["No. 3 RELEGATION, EASTERN COMMAND, P.R.C."],
+        "podpisy": ["Officer Commanding", "Record Officer"],
+        "osoby": ["Krzysztof Głuchowski (L.CPL, student)"],
+        "znaki_szczegolne": [
+            "STUDENT at South West Essex Technical College",
+            "Adres: Erith / Park Road — w hrabstwie Kent",
+            "Stopień: L.CPL (Lance Corporal)",
+            "Data urodzenia: 29.11.1926 — potwierdzona",
+            "No. 3 Relegation, Eastern Command, P.R.C. — pieczęć jednostki",
+            "Dokument duży, pożółkły, z wieloma wpisami odręcznymi"
+        ],
+        "kontekst": "Certyfikat tożsamości cudzoziemca wydany Głuchowskiemu jako żołnierzowi PRC skierowanemu na studia. South West Essex Technical College w Erith (Kent) — szkoła techniczna, gdzie Krzysztof studiował po demobilizacji. Erith leży na południowo-wschodnim obrzeżu Londynu. Studenci-żołnierze PRC mogli kontynuować naukę w ramach programu resettlement."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_067 — Pełna karta służby (ARG/V/133)
+    # KLUCZOWY DOKUMENT — WSZYSTKIE DANE PERSONALNE
+    # ═══════════════════════════════════════════════════════════════
+    "juras_067": {
+        "typ": "Karta służby — Polish All-British Record Centre",
+        "data": "ok. 1949",
+        "jezyk": "angielski",
+        "nadawca": "All-British Record Centre (Polish), Bayrs Barracks, Middlesex",
+        "adresat": "zapytanie o dane służbowe",
+        "transkrypcja": """THE ALL-BRITISH RECORD CENTRE (POLISH)
+BAYRS BARRACKS
+[...] MIDDLESEX
+
+Ref. No. 34477 (R.O.R.C.)
+
+CONFIDENTIAL
+
+[...] the following are the particulars of the
+above named:
+
+Army No.: 3004271
+Date of Birth: 29th November 1926
+Born in: [Warsaw?]
+Marital Status: Single
+Religion: Roman Catholic
+Parents: Stefan and Wanda
+Civilian Occupation (prior to army service): Student
+
+Service: with the Polish Forces under British Command —
+    From 14th July 1945 (Italy)
+    [...] the Polish (Resettlement) Corps on [1.11.1946?]
+    Discharged: 31.10.[1948]
+
+Polish [Decorations]:
+    Polish Medal [...] 5.11.1947
+    [...]
+
+Medals and Awards:
+    War Medal 1939/45
+
+Conduct: Very Good.
+
+[pieczęć:] POLISH ALL-BRITISH RECORD CENTRE
+[...] MIDDLESEX
+
+[podpis]
+P.O.R.B. 35
+[...] LONDON W.5.""",
+        "pieczecie": ["POLISH ALL-BRITISH RECORD CENTRE, Middlesex"],
+        "podpisy": ["Officer, P.O.R.B. 35"],
+        "osoby": ["Krzysztof Głuchowski", "Stefan Głuchowski (ojciec)", "Wanda Głuchowska (matka)"],
+        "znaki_szczegolne": [
+            "KLUCZOWY DOKUMENT — pełna karta służby z WSZYSTKIMI danymi personalnymi",
+            "Army No.: 3004271",
+            "Ur. 29 listopada 1926",
+            "Stan cywilny: Single (kawaler)",
+            "Wyznanie: Roman Catholic",
+            "Rodzice: STEFAN i WANDA — oficjalne potwierdzenie",
+            "Zawód cywilny: Student",
+            "Służba: od 14 lipca 1945 (Włochy) do 31.10.1948",
+            "Medal: War Medal 1939/45",
+            "Conduct: Very Good",
+            "CONFIDENTIAL — dokument poufny",
+            "Bayrs Barracks, Middlesex — centralne archiwum wojskowe polskie w UK"
+        ],
+        "kontekst": "Pełna karta służby z centralnego archiwum polskiego w Wielkiej Brytanii (All-British Record Centre w Bayrs Barracks, Middlesex). POTWIERDZA DEFINITYWNIE: rodzice Stefan i Wanda, ur. 29.XI.1926, kawaler, rzymski katolik, student, służba od 14.VII.1945 (Włochy) przez PRC do zwolnienia 31.X.1948. War Medal 1939/45. Conduct: Very Good. Dokument poufny (CONFIDENTIAL) — odpowiedź na zapytanie urzędowe o dane służbowe."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_059 — Esej szkolny nr 1: "Moja najciekawsza przygoda" (ARG/V/59, Seria_29z_p32_img01)
+    # RELACJA Z PIERWSZEJ RĘKI Z POWSTANIA WARSZAWSKIEGO
+    # ═══════════════════════════════════════════════════════════════
+    "juras_059": {
+        "typ": "Esej szkolny — relacja osobista z Powstania Warszawskiego",
+        "data": "23.VIII.1945",
+        "jezyk": "polski",
+        "nadawca": "Krzysztof Andrzej Głuchowski (uczeń Gimnazjum 3 DSK)",
+        "adresat": "Nauczyciel języka polskiego, Gimnazjum 3 DSK",
+        "transkrypcja": """Zadanie Klasowe No 1                    23 VIII 45r.
+
+Tematy:
+1) Tragiczne widmo — fenho [Szekspir?/Wyspiański?]
+2) Klawisze (kości z ogniskami)
+3) Moja najciekawsza przygoda.
+
+[Uczeń wybrał temat 3]
+
+Gdy [myślę] o moich przygodach, biorę poważnie [...]. W kształ-
+cie ich bo jedna z moich większych przygód. Było to moim pierw-
+szym [przeżyciem] [dwóch] lat już [...]
+
+Było to dnia 1 sierpnia 1944r. w Warszawie. Armia Kra-
+jowa przygotowywała się do [walki]. Pamiętam [jak] [...] i do-
+bry [...] w moim [oddziale]. Pamiętam najdokładniej.
+
+Moja placówka miał numer 1112. Był [ok.] 16 [ludzi] [...]
+umundurowanych. [...] w [blokach/blankietach] [...]
+na ostatnich chwili moja placówka przeniesiona została do fabryki
+mebli przy ul. [Pięknej?]. O godzinie 15:00.
+
+O[koło] godziny 16:30 po ukonczeniu bram — [...] w [...]
+jako do boju [...]  — obowiązki [...] bram [...]
+[w bloku.] [w] fabryki, oficerzy fabryki [...]
+[...] obudzony. [Spr.?] Jerzy [Konieczn?] [...]
+[...] Podtem [...]
+
+[...] w [...] było możliwości, [...] po warunki AK
+[...] przystali. Składała się z 28 dwóch [żołnierzy] i jednego [...]
+[...] karabinów z 8 szkolny[mi] petardami. [Amunicja?] [...]
+było. Rozkaz [komunikować] [...]  ludzi co [byli] za [...]
+
+Ja nadstawiałem [...] w [...]""",
+        "pieczecie": [],
+        "podpisy": [],
+        "osoby": ["Krzysztof Głuchowski", "Spr. Jerzy Konieczny (?)"],
+        "znaki_szczegolne": [
+            "BEZCENNA RELACJA Z PIERWSZEJ RĘKI — 19-letni powstaniec pisze o 1.VIII.1944",
+            "Zadanie klasowe w Gimnazjum 3 DSK we Włoszech, rok po Powstaniu",
+            "Placówka nr 1112 — ten sam numer batalionu potwierdzony w innych dokumentach",
+            "28 żołnierzy, 8 petard szkolnych — skromne uzbrojenie",
+            "Fabryka mebli przy ul. Pięknej (?) — punkt zborny przed godziną W",
+            "Godzina 15:00 — zbiórka, 16:30 — przygotowania do walki",
+            "Pismo atramentem na papierze liniowanym (EXERCISE BOOK)",
+            "Wiele fragmentów trudnych do odczytania — pismo drobne, gęste"
+        ],
+        "kontekst": "Esej szkolny napisany 23 sierpnia 1945 — dokładnie rok i 23 dni po wybuchu Powstania. Krzysztof, wówczas 19-letni uczeń Gimnazjum 3 DSK we Włoszech, wybrał temat 'Moja najciekawsza przygoda' i opisał swoje przeżycia z 1 sierpnia 1944. Relacja z pierwszej ręki: placówka 1112, 28 żołnierzy, 8 petard szkolnych, zbiórka o 15:00, fabryka mebli jako punkt wyjścia. Dokument o wyjątkowej wartości historycznej — bezpośrednie świadectwo nastolatka-powstańca."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_060_esej — Esej na rocznicę Powstania (ARG/V/60, Seria_29z_p33)
+    # REFLEKSJA W PIERWSZĄ ROCZNICĘ — DOKŁADNIE O GODZ. 15:55
+    # ═══════════════════════════════════════════════════════════════
+    "juras_060_esej": {
+        "typ": "Esej szkolny — refleksja na rocznicę Powstania Warszawskiego",
+        "data": "1.VIII.1945",
+        "jezyk": "polski",
+        "nadawca": "Krzysztof Andrzej Głuchowski",
+        "adresat": "Nauczyciel języka polskiego, Gimnazjum 3 DSK",
+        "transkrypcja": """St. uł. Krzysztof Głuchowski        Mp. [...] VIII 1945r.
+Polish Forces C.M.F. 152             godz. 15.55
+Gimnazjum
+
+Rok temu już od piętnastu minut walczyliśmy
+z [...] jako Żołnierze ale [miasto] [...] z [...]
+[...] do walki [...] starsze i straszniejsze [...]
+
+Powstanie do którego byliśmy osobno wszyscy i moralnie
+przygotowani udało się. Dawno to miało [swój] koniec [...]
+gdy Warszawa [...] zginęło 3.000.000 ludzi.
+
+A jednak ja sobie mówię i mówię, o Powstanie [...]
+Nie [...] to nie tylko Warszawa, do któr[ej] [...]
+Polskie [...] walczyły. [...]
+[...] tego cel: [Wpadnie?] Warszawa, [...]
+[...] walki Niemca [ujęły?] [...]
+
+[...] Czerniaków. Armia [...] wolna.
+Pozostaje tylko [...] [...]
+[...] na Czerniakow. Armia. Niestety [pozostali]: [...]
+[...] Miany [myśleli?] o Bolszewiku
+[...]. [Ale] [...]  dwóch [...]
+[...] Warszawa walczyło 63 [...]. I [dzisiaj] [...]
+[...] walczymy [...] walki [...]
+
+[...] W Powstani[u] [...] w Warszawie...
+Czerwony [...] piękności o bohater[ach] walecznych powstańców
+[...]
+
+Wśród powstańców duch był: ludzie widzieli tylko [walczące] isto-
+ty[?] z olbrzymim powstańczym duchem.
+
+K.""",
+        "pieczecie": [],
+        "podpisy": ["K. (Krzysztof Głuchowski)"],
+        "osoby": ["Krzysztof Głuchowski"],
+        "znaki_szczegolne": [
+            "NAPISANY DOKŁADNIE W ROCZNICĘ — 1.VIII.1945 godz. 15:55",
+            "Godzina 15:55 = minutę przed godziną W (16:00 wg planu, 17:00 faktycznie)",
+            "Wspomina 3.000.000 ofiar — zawyżona liczba, ale oddaje traumę",
+            "Czerniaków, Armia — wspomina kluczowe punkty walk",
+            "Odniesienie do Bolszewików — krytyka braku pomocy sowieckiej",
+            "63 [dni?] walki Warszawy",
+            "Końcowe zdanie o 'olbrzymim powstańczym duchu'",
+            "Nagłówek: Polish Forces C.M.F. 152 (Central Mediterranean Forces)"
+        ],
+        "kontekst": "Esej napisany 1 sierpnia 1945 o godz. 15:55 — dokładnie w pierwszą rocznicę Powstania Warszawskiego, minutę przed godziną W. Krzysztof, 19-letni uczeń Gimnazjum 3 DSK we Włoszech, pisze emocjonalną refleksję o walce, stratach i duchu powstańczym. Wspomina Czerniaków, krytykuje brak pomocy sowieckiej ('Bolszewik'), podaje (zawyżoną) liczbę ofiar. Kończy słowami o 'olbrzymim powstańczym duchu' — zdanie, które definiuje jego pokolenie."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_061 — Esej "Lektura" o artykułach o Powstaniu (ARG/V/61, Seria_29z_p34)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_061": {
+        "typ": "Esej szkolny — analiza artykułów o Powstaniu Warszawskim",
+        "data": "3.VIII.1945",
+        "jezyk": "polski",
+        "nadawca": "Krzysztof Andrzej Głuchowski",
+        "adresat": "Nauczyciel języka polskiego, Gimnazjum 3 DSK",
+        "transkrypcja": """St.uł. Krzysztof Głuchowski         Mp. 3 VIII '45r.
+Polish Forces CMF 152
+Gimnazjum 3DSK
+
+Lektura.
+
+Czytam artykuły różnych ludzi o Powsta-
+niu Warszawskim... Porównuję [je] bo artykuły ludzi, którzy
+nie byli w nim [nie brali?] udziału. [Wejście?] się [w niuanse?] rze-
+czy w Warszawie. Wydaje [się?] [...] o [...] [wszystkim?] [...]
+nie mieli, Warszaw[a] [...] o pracy [...] artystycznego, ale
+nie twórczej i informacji. W Warszawie [...]
+[...] Armia Krajowa posiadała swoją organizaj[cję]
+i dolne społeczne. To nie był[y?] [...] sobie [...]
+[...] [spontanicznie] chcący do [walki] — to był żołnierz,
+który w ciężkich [warunkach] [...] [przygotow-]
+ał się, i [mundur?] [...] prac[ował] do Powstania.
+Warszawskiej Armii [...] tylko [spotykali?] [ludzi?]
+[wiadomy?] był pod każdym względem. Z [każdej strony?] [...]
+
+Czytaj[ąc] jeden z artykuł[ów] p. Nowakowskiego
+[...] — [między?] [...] danymi. Chłodnym [warszaw?]
+przyszli do Powstania [...] nie [walczyli?] o [...]  ale [...] pan
+Nowakowski nie [pisał?] [tak]. [P. Nowakowski?] [uważa?] [...]
+[...] nie [współuczestnik?]; że właśnie [ludzie?] [...]
+[...]  z żołnierzy Armii Krajowej. Pluton[ów] które
+miały nasze [wyznac?][zone?] [zadani?]a w plana[ch] opanowa[nia]
+Warszawy.
+
+W Warszawie, [w] tych chwilach [...] [na] [...]
+[...] szalona [wymiana?] wielka, [...] praca
+organizacyjna i [zakończona?] [...]  — [...] Polacy. —
+
+K.""",
+        "pieczecie": [],
+        "podpisy": ["K. (Krzysztof Głuchowski)"],
+        "osoby": ["Krzysztof Głuchowski", "p. Nowakowski (autor artykułów)"],
+        "znaki_szczegolne": [
+            "Esej krytyczny — powstaniec polemizuje z publicystami, którzy nie walczyli",
+            "Wspomina p. Nowakowskiego — prawdopodobnie Tadeusz Nowakowski (pisarz emigracyjny)",
+            "Podkreśla profesjonalizm AK: 'to nie byli spontanicznie chcący do walki — to był żołnierz'",
+            "Krytykuje autorów piszących o Powstaniu bez osobistego udziału",
+            "Wspomina plany opanowania Warszawy i organizację plutonów AK",
+            "Nagłówek: Polish Forces CMF 152, Gimnazjum 3DSK"
+        ],
+        "kontekst": "Esej analityczny napisany 3 sierpnia 1945. 19-letni Krzysztof czyta artykuły o Powstaniu i polemizuje z autorami, którzy nie brali w nim udziału. Broni profesjonalizmu Armii Krajowej — podkreśla, że żołnierze AK nie byli spontanicznym tłumem, lecz wyszkolonymi żołnierzami z planami i organizacją. Krytykuje p. Nowakowskiego (prawdopodobnie Tadeusza Nowakowskiego, pisarza emigracyjnego) za błędne przedstawienie motywacji powstańców. Fascynujący dokument — głos 19-latka, który SAM walczył, wobec publicystów, którzy PISALI o walce."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # juras_043_ziemski — Zaświadczenie płk. Ziemskiego (ARG/V/43, Seria_29z_p36)
+    # ═══════════════════════════════════════════════════════════════
+    "juras_043_ziemski": {
+        "typ": "Zaświadczenie wojskowe",
+        "data": "26.X.1946",
+        "jezyk": "polski",
+        "nadawca": "Płk. dypl. Karol Ziemski (ps. Wachnowski)",
+        "adresat": "dokument poświadczający służbę Krzysztofa Głuchowskiego",
+        "transkrypcja": """ZIEMSKI KAROL
+PUŁKOWNIK DYPLOMOWANY
+
+DOWÓDCA POLSKIEGO OKRĘGU
+WOJSKOWEGO NA TERENIE
+SCHLESWIG - HOLSTEIN
+
+Wentorf pod Hamburgiem
+Dnia 26.10.1946 R.
+
+ZAŚWIADCZENIE
+
+Jako b. Dowódca Grupy «PÓŁNOC» w Powstaniu Warszaw-
+skim (Obrona Starego Miasta) stwierdzam, że GŁUCHOWSKI
+Krzysztof, ur. w dniu 29.11.1928 r. w Warszawie, pseudonim
+«Juraś», walczący w Obronie Starego Miasta w Plutonie III
+
+Na okazaną waleczność został awansowany do stopnia
+
+starszego strzelca
+
+oraz odznaczony
+
+KRZYŻEM WALECZNYCH po raz pierwszy,
+
+co zostało stwierdzone w moim Rozkazie — Dowódcy Grupy
+«PÓŁNOC» Nr. 24 z dnia 5.9.1944 r.
+
+B. DOWÓDCA OBRONY STAREGO MIASTA
+W POWSTANIU WARSZAWSKIM
+
+[podpis]
+
+ZIEMSKI KAROL
+(WACHNOWSKI)
+PUŁKOWNIK DYPLOMOWANY""",
+        "pieczecie": [],
+        "podpisy": ["Ziemski Karol (Wachnowski), Pułkownik Dyplomowany"],
+        "osoby": ["Krzysztof Głuchowski (ps. Juraś)", "Płk. dypl. Karol Ziemski (ps. Wachnowski)"],
+        "znaki_szczegolne": [
+            "KLUCZOWY DOKUMENT — zaświadczenie od dowódcy obrony Starego Miasta",
+            "Pseudonim «Juraś» — potwierdzone oficjalnie",
+            "Grupa «PÓŁNOC» — oddział obrony Starego Miasta w Powstaniu",
+            "Rozkaz Nr 24 z 5.IX.1944 — nadanie KW i awansu",
+            "Data urodzenia 29.11.1928 — BŁĄD w dokumencie (prawidłowa: 29.XI.1926)",
+            "Papier firmowy Polskiego Okręgu Wojskowego Schleswig-Holstein",
+            "Wentorf pod Hamburgiem — siedziba dowództwa"
+        ],
+        "kontekst": "Zaświadczenie od płk. dypl. Karola Ziemskiego (ps. Wachnowski) — dowódcy Grupy 'Północ' i obrony Starego Miasta w Powstaniu Warszawskim. Potwierdza udział Krzysztofa w Plutonie III obrony Starego Miasta, pseudonim 'Juraś', awans na st. strzelca i odznaczenie Krzyżem Walecznych (Rozkaz Nr 24 z 5.IX.1944). Ziemski po wojnie dowodził Polskim Okręgiem Wojskowym w Schleswig-Holstein."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
     # lbr_II_54 — Dedykacja gen. Andersa na albumie
     # ═══════════════════════════════════════════════════════════════
     "lbr_II_54": {
@@ -2512,6 +4120,324 @@ Cześć Ich pamięci.""",
             "Tekst ułożony pionowo na kartce"
         ],
         "kontekst": "Tablica upamiętniająca atak 7 Pułku Ułanów AK «Jeleń» na gmach Gestapo i Dom Prasy w pierwszych minutach Powstania Warszawskiego, 1 sierpnia 1944 o godz. 17:00 (godzina «W»). Z 187 powstańców poległo 67 — ponad jedna trzecia. To ten sam pułk, w którym służyli Krzysztof («Juras») i Stefan Głuchowscy. Dokument łączy kolekcję z najkrwawszymi chwilami Powstania."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # wa_biogram_lech — Biogram rtm. Lecha Głuchowskiego ps. "Iżycki"
+    # ARG/VI/24 — maszynopis Krzysztofa, Rio de Janeiro 18.X.1995
+    # ═══════════════════════════════════════════════════════════════
+    "wa_biogram_lech": {
+        "typ": "maszynopis/biogram",
+        "data": "18.X.1995",
+        "jezyk": "pl",
+        "nadawca": "Krzysztof Głuchowski (autor biogramu)",
+        "adresat": "archiwum rodzinne / instytucje pamięci",
+        "transkrypcja": """ROTMISTRZ LECH GŁUCHOWSKI PSEUDONIM «IŻYCKI»
+
+[w Rakowcu pod nr...] Marian Głuchowski i Marta z Żółkiewskich.
+Urodzony w [...] roku. P.W. W 1918 roku 16 lat [...] Ciągnionej.
+Szkoły średnie w Radomsku a następnie w [...] roku spółka celulozowa jako [...]
+[...] broni, będąc już [...]
+W [...] roku [...] rozpoczął naukę na Akademii Rolniczej w Bydgoszczy [...] 7 Pułku
+Małych Podlaskich Bożymów Krakowskiich [...] w oficielskim [...] rok pierwszy
+[...] nad Słochem, a następnie w roku 1930 administrację dość obrończą w Branicach w [...]
+
+We wrześniu 1939 zmobilizowany, odbywał kampanię w 7 P.U.L., który to stworzył
+[...] broni pod Sochaczewem, później w ko[szarach?] walk w Warszawy, [...]
+do pułqów [...] Kliczkę na [...] stronę Wisły [...] za [...]
+[...] ewakuowano na południe od Pilicy, gdzie zwalczał [...] oddział [...] został [...]
+[...] do 10[.] Brygady Kawalerii [...] Francji [...]
+
+[...] w 1944 dowodził natarciem Dywizjonu «Jeleń» na Al. Szucha, następnie w grupie powstańczej
+[...] przy życiu ułanów, przenosząc się na Mokotów.
+[...] dowodził rozdziałem Dywizjonu, biorąc miejsca martwych
+ułanów [...] matarcia na szkoły [...] W [...] 21 [...] września obronnie dowódczym [...]
+«Jeleń» ułanów obwody, a w każdej checie mostu prowadził strzały. Przez przerzucenie się na Mokotowie
+15 września 1944 w czasie obrony pozycji nacierających [...] Niemcach [...] zdobywanych w okolicach [...]
+[...] tam gdzie umarłech, po pochwaniu i wieczorze, pochwany jak za życia
+[...] w tymczasowej mogile, po ekshumacji spoczął w grobie rodzinnym na cywilnym cmentarzu
+na Powązkach Dywizyjnych [...]
+
+[...] do stopnia majora i (odznaczony) Krzyżem Virtuti Militari. Inne odznaczenia —
+Krzyż Walecznych, Złoty Krzyż Zasługi z Mieczami, Krzyż Armii Krajowej (No. I specjalna seria
+z 6,67 [...] podpisem gen. [...] Polskiego-Sosnnego(?)
+
+Wzmianki o rtm. I Lechu Głuchowskim następujących w następujących wydawnictwach i rozkazach
+/ Gazeta Ludowa nr 138 20.5.19[46?] i nr 14.8.19[46?]
+/ «Łam i Lubelscy» — wydawane od 1947 przez Koło 7 P.U.Ł. Lubelskich w Londyn
+/ Bellona/Zesz III str 43-44, London 1953 (artykuł płk. dypl. G. I.czworniaczukowa)
+/ Powstanie Warszawskie, Adam Borkiewicz, Pax Warszawa 1957
+/ Tatar: Warszawski w [...] / Bieliński: Stolica 1957
+/ Powstanie Warszawskie, M. Bartnicka etc. Warszawa 1957
+/ «A Przyszło to» Nr 32(177) 7.8.60 Warszawa
+/ i Nr [...] I do nr 15270(1) 15.8.66 Warszawa
+/ Powstanie Warszawskie, t.dzieło M. Bartnicka [...] Warszawa 1967
+/ «Łam i Lubelscy» Księga Dziejów 7 P.U.Ł Lubelskich, Londyn 1969
+/ Żołnierze Mokotowa 1944, t. dzieło M. Bartnicka MON Warszawa 1971
+/ Jałmużny, Praca zbiorowa PIW Warszawa 1989
+/ Dziennik Polski 2.4.91, 29.8.91, 24.6.91, 30.7.92, 23.9.92, London
+/ Żołnierze w cieniu słusznego oponentka 1939-1945 Bożena Niemurzycka-Szczepanik, Warszawa 1992
+/ 135 Pluton AK...; Opracował Andrzej Dławicki/ski Warszawa 1994
+/ Biblioteka Narodowa w Warszawie Zbiór Rękopisów No. 13853
+
+*Później I wice minister Spraw Wojskowych, i dowódca Jednostek Wojska w Wielkiej Brytanii,
+generał dywizji.
+
+Przygotował Krzysztof Głuchowski
+Rio de Janeiro, 18 października 1995""",
+        "pieczecie": [],
+        "podpisy": ["Krzysztof Głuchowski"],
+        "osoby": [
+            "Rtm. Lech Głuchowski ps. «Iżycki» (ok. 1902–15.IX.1944, poległ na Mokotowie)",
+            "Marian Głuchowski (ojciec Lecha)",
+            "Marta z Żółkiewskich Głuchowska (matka Lecha)",
+            "Gen. dyw. Janusz Głuchowski (brat Lecha — przypis o I Wiceministrze)",
+            "Gen. Bór-Komorowski (kontrasygnat Krzyża AK Nr 1)",
+            "Krzysztof Głuchowski (autor biogramu, bratanek Lecha)",
+            "Adam Borkiewicz (autor «Powstania Warszawskiego», cytowany)",
+            "M. Bartnicka (autorka kilku prac o Powstaniu i Mokotowie)"
+        ],
+        "znaki_szczegolne": [
+            "Maszynopis A4, jedna pełna strona — identyczny format jak biogramy Stefana i Krzysztofa",
+            "Sporządzony tego samego dnia (18.X.1995) co pozostałe biogramy — systematyczna praca dokumentacyjna",
+            "Bibliografia 16 pozycji — Lech wzmiankowany w wielu publikacjach o Powstaniu",
+            "Krzyż AK Nr 1 specjalna seria — najwyższe odznaczenie AK",
+            "Pochowany na Powązkach Dywizyjnych po ekshumacji z grobu tymczasowego",
+            "Lech poległ na Mokotowie 15.IX.1944 — ten sam dzień co kapitulacja Mokotowa",
+            "Awansowany pośmiertnie do stopnia majora",
+            "16 lat w 1918 — brał udział w odzyskaniu niepodległości",
+            "Przypis gwiazdkowy o gen. Januszu = potwierdzenie braterstwa Lecha i Janusza"
+        ],
+        "kontekst": "Trzeci z serii biogramów spisanych przez Krzysztofa Głuchowskiego w Rio de Janeiro 18 października 1995 (razem z autobiogramem i biogramem Stefana). Lech Głuchowski — brat Janusza (1888) i Stefana (1893), syn Mariana i Marty z Żółkiewskich. Rotmistrz kawalerii, weteran kampanii wrześniowej 1939 (7 P.U.L.), Francji (10. Brygada Kawalerii Pancernej) i AK. Dowodził natarciem na gmach Gestapo przy Al. Szucha. Poległ 15 września 1944 na Mokotowie — w dniu kapitulacji tej dzielnicy. Odznaczony Krzyżem Virtuti Militari i Krzyżem AK Nr 1. Pochowany na Powązkach. TRZY BRACIA GŁUCHOWSCY w wojnie: Janusz (generał PSZ w Wielkiej Brytanii), Stefan (AK Żoliborz, aresztowany na Pawiaku), Lech (AK Mokotów, poległ). Archiwum w BN Warszawa: Zbiór Rękopisów Nr 13853."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # wa_etykieta_stefan — Etykieta archiwalna: Listy Stefana 1945–1949
+    # ARG/VI/27
+    # ═══════════════════════════════════════════════════════════════
+    "wa_etykieta_stefan": {
+        "typ": "etykieta archiwalna",
+        "data": "ok. 1945-1949",
+        "jezyk": "pl",
+        "nadawca": "archiwista rodzinny (Krzysztof Głuchowski?)",
+        "adresat": "archiwum rodzinne",
+        "transkrypcja": """Listy ppor. Stefana Głuchowskiego
+z obozu w Niemczech z lat 1945-1947
+do gen. Janusza Głuchowskiego w Anglii
+oraz
+Listy Stefana Głuchowskiego z Polski
+do syna Krzysztofa w Anglii z lat
+1947-1949""",
+        "pieczecie": [],
+        "podpisy": [],
+        "osoby": [
+            "Ppor. Stefan Głuchowski (nadawca listów z obozu i Polski)",
+            "Gen. Janusz Głuchowski (adresat listów 1945-1947)",
+            "Krzysztof Głuchowski (adresat listów 1947-1949, syn Stefana)"
+        ],
+        "znaki_szczegolne": [
+            "Etykieta na pomarańczowym papierze, pismo maszynowe",
+            "Opisuje zawartość teczki archiwalnej — dwie serie listów",
+            "Potwierdza korespondencję Stefana z obozu jenieckiego w Niemczech (1945-47) do brata Janusza w Anglii",
+            "Listy z Polski (1947-49) do syna Krzysztofa — po powrocie Stefana do kraju",
+            "Dowód kontaktu rodzinnego ponad granicami żelaznej kurtyny"
+        ],
+        "kontekst": "Etykieta dokumentująca dwie serie listów Stefana Głuchowskiego: (1) z obozu jenieckiego w Niemczech (1945-47) do brata gen. Janusza w Anglii, (2) z Polski (1947-49) do syna Krzysztofa w Anglii. Potwierdza ciągłość kontaktu rodzinnego mimo podziału na dwie strony żelaznej kurtyny. Stefan po powrocie z obozu wrócił do Polski, Krzysztof został w Anglii (potem emigrował do Brazylii). Archiwa listów zdeponowane prawdopodobnie w BN Warszawa, Zbiór Rękopisów Nr 13853."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # wa_dedykacja_lech_stefan — Dedykacja Lecha dla brata Stefana
+    # ARG/VI/28
+    # ═══════════════════════════════════════════════════════════════
+    # ═══════════════════════════════════════════════════════════════
+    # krzyz_legionowy — Dyplom Krzyża Legionowego Nr 145
+    # ARG/II/10 — dla płk. Janusza Głuchowskiego, 11.VII.1925
+    # ═══════════════════════════════════════════════════════════════
+    "krzyz_legionowy": {
+        "typ": "dyplom",
+        "data": "11.VII.1925",
+        "jezyk": "pl",
+        "nadawca": "II Zjazd Legionistów / Komisja Kwalifikacyjna",
+        "adresat": "Płk Janusz Głuchowski",
+        "transkrypcja": """NA PODSTAWIE
+UCHWAŁY
+II ZJAZDU LEGJONISTÓW
+I
+WNIOSKU
+KOMISJI KWALIFIKACYJNEJ
+nadaję
+Pułkownikowi
+Głuchowskiemu Januszowi
+z 1.p.uł.
+KRZYŻ LEGJONOWY
+[podpis]
+Za Komisję
+Kwalifikacyjną
+[podpis]
+Warszawa
+dn. 11.VII. 1925.
+Nr. 145.""",
+        "pieczecie": [],
+        "podpisy": ["Podpis sygnatariusza (Piłsudski?)", "Podpis Za Komisję Kwalifikacyjną"],
+        "osoby": [
+            "Płk Janusz Głuchowski (odznaczony)",
+            "Józef Piłsudski (prawdopodobny sygnatariusz)"
+        ],
+        "znaki_szczegolne": [
+            "Druk ozdobny z wizerunkiem Krzyża Legionowego u góry",
+            "Nr 145 — niski numer nadania",
+            "Stopień: pułkownik (płk) — w 1925 Janusz był już pułkownikiem",
+            "Jednostka: 1 Pułk Ułanów (z 1.p.uł.)",
+            "Data 11.VII.1925 — rocznica wymarszu Siódemki Beliny (1914)"
+        ],
+        "kontekst": "Krzyż Legionowy — odznaczenie pamiątkowe nadawane uczestnikom Legionów Polskich 1914–1918. Janusz Głuchowski był jednym z Siódemki Beliny — pierwszych 7 zwiadowców Legionów (6.VIII.1914). Nr 145 potwierdza wczesne nadanie. W 1925 Janusz w stopniu pułkownika, dowódca 1 Pułku Ułanów."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # list_ambasada_izrael — List do Ambasady Izraela, waluty gettowe
+    # ARG/VI/10 — 13.V.1958, Londyn
+    # ═══════════════════════════════════════════════════════════════
+    "list_ambasada_izrael": {
+        "typ": "list",
+        "data": "13.V.1958",
+        "jezyk": "en",
+        "nadawca": "K. Głuchowski (42, Emperors Gate, London S.W.7)",
+        "adresat": "The Israel Embassy, Public Relations Office, 2 Palace Green, London W.8.",
+        "transkrypcja": """42, Emperors Gate,
+London S.W.7
+
+13th May, 1958.
+
+The Israel Embassy,
+Public Relations Office,
+2, Palace Green,
+London W.8.
+
+Dear Sir,
+
+I am contemplating sale of my complete set of paper currency and coins issued in Lodz ghetto during the german occupation of Poland.
+
+The above set is of great rarity and museal value, and I wonder if some institution in Israel would not be interested in purchase.
+
+Hoping that you will be able to assist me in this matter, I remain, Sir,
+
+yours faithfully,
+
+K. Głuchowski.""",
+        "pieczecie": [],
+        "podpisy": ["K. Głuchowski"],
+        "osoby": [
+            "K. Głuchowski (nadawca — prawdopodobnie gen. Janusz, adres Emperors Gate)",
+            "Ambasada Izraela w Londynie (adresat)"
+        ],
+        "znaki_szczegolne": [
+            "List w języku angielskim",
+            "Adres 42 Emperors Gate, London SW7 = znany adres gen. Janusza",
+            "Kompletny zestaw walut i monet getta łódzkiego",
+            "'great rarity and museal value' — świadomość wartości muzealnej",
+            "Rok 1958 — 10 lat po powstaniu Państwa Izrael"
+        ],
+        "kontekst": "Fascynujący dokument — gen. Janusz (lub Krzysztof?) posiadał kompletny zestaw walut getta łódzkiego (Litzmannstadt Ghetto, 1940-44) i chciał go sprzedać instytucji muzealnej w Izraelu. Waluty gettowe Chaima Rumkowskiego — dziś ekstremalnie rzadkie numizmaty. Adres Emperors Gate potwierdza, że nadawcą jest gen. Janusz."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # nekrolog_lorens — Nekrolog plut. Jana Lorensa, 7 P.Uł.
+    # ARG/VI/9 — zmarł 28.I.1960, Chicago
+    # ═══════════════════════════════════════════════════════════════
+    "nekrolog_lorens": {
+        "typ": "nekrolog",
+        "data": "28.I.1960",
+        "jezyk": "pl",
+        "nadawca": "Koło Żołnierzy 7 Pułku Ułanów Lubelskich im. Gen. K. Sosnkowskiego",
+        "adresat": "ogół kombatantów / prasa polonijna",
+        "transkrypcja": """Ś. † P.
+JAN LORENS
+plutonowy 7 pułku ułanów, prezes sekcji Koła pułkowego;
+czynny członek wielu organizacji niepodległościowych w Chicago,
+odznaczony Krzyżem Walecznych i innymi odznaczeniami polskimi
+i zagranicznymi, zmarł 28 stycznia 1960 w Chicago.
+Cześć Jego pamięci!
+KOŁO ŻOŁNIERZY 7 PUŁKU UŁANÓW LUBELSKICH
+IM. GEN. K. SOSNKOWSKIEGO""",
+        "pieczecie": [],
+        "podpisy": [],
+        "osoby": [
+            "Plut. Jan Lorens (zmarły, 7 P.Uł., odznaczony KW)",
+            "Gen. K. Sosnkowski (patron Koła)"
+        ],
+        "znaki_szczegolne": [
+            "Nekrolog prasowy, numer 8669",
+            "Prezes sekcji Koła pułkowego w Chicago",
+            "Czynny w organizacjach niepodległościowych",
+            "Odznaczony KW i innymi odznaczeniami polskimi i zagranicznymi"
+        ],
+        "kontekst": "Jan Lorens — plutonowy 7 P.Uł. Lubelskich, prezes sekcji Koła pułkowego w Chicago. Zmarł 28.I.1960. Koło im. Gen. Sosnkowskiego — organizacja kombatancka na emigracji. Nekrolog zachowany przez Krzysztofa w Brazylii."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # msza_jelen_1970 — Zaproszenie na mszę za poległych AK «Jeleń»
+    # ARG/VI/8 — Wilanów, 4.X.1970
+    # ═══════════════════════════════════════════════════════════════
+    "msza_jelen_1970": {
+        "typ": "druk okolicznościowy",
+        "data": "4.X.1970",
+        "jezyk": "pl",
+        "nadawca": "Rodziny i Towarzysze Broni żołnierzy AK «Jeleń»",
+        "adresat": "kombatanci i rodziny",
+        "transkrypcja": """Dnia 4-go października 1970 r. /niedziela/ o godz. 10-ej w kościele
+św. [...] w Wilanowie będzie odprawiona doroczna Msza św. za poległych
+w czasie okupacji i Powstania Warszawskiego
+ŻOŁNIERZY PUŁKU AK «JELEŃ»
+Po mszy, zostaną złożone kwiaty na miejscowym cmentarzu — na mogile
+żołnierzy «Jelenia», poległych na Sadybie.
+Rodziny i Towarzysze Broni.
+Po złożeniu kwiatów na cmentarzu — kto będzie chciał — może wziąć udział
+we wspólnym śniadaniu w miejscowej restauracji «Kuźnia».""",
+        "pieczecie": [],
+        "podpisy": [],
+        "osoby": [
+            "Żołnierze AK «Jeleń» polegli na Sadybie",
+            "Rodziny i Towarzysze Broni (organizatorzy)"
+        ],
+        "znaki_szczegolne": [
+            "Doroczna msza — tradycja kontynuowana mimo PRL",
+            "Wilanów — groby na cmentarzu lokalnym",
+            "Sadyba — dzielnica Warszawy, miejsce walk AK",
+            "Restauracja «Kuźnia» — miejsce spotkań kombatanckich",
+            "Druk maszynowy na żółtawym papierze"
+        ],
+        "kontekst": "Doroczna msza za poległych żołnierzy 7 P.Uł. AK «Jeleń» — Wilanów, październik 1970, 26 lat po Powstaniu. W PRL pamięć o AK była marginalizowana i prześladowana — fakt odprawiania mszy świadczy o odwadze kombatantów. Groby na Sadybie. Dokument zachowany w kolekcji Krzysztofa w Brazylii."
+    },
+
+    "wa_dedykacja_lech_stefan": {
+        "typ": "dedykacja",
+        "data": "lata 30. XX w.",
+        "jezyk": "pl",
+        "nadawca": "Lech Głuchowski i koledzy oficerscy",
+        "adresat": "Stefan Głuchowski",
+        "transkrypcja": """Kochanemu Stefankowi, uroczemu
+braciszkowi i dobremu towarzyszowi
+Lech       Lochia(?)
+[podpisy kolegów oficerskich — 8 p.S.K.]
+[...] p.[?]
+[...] Morawski(?) [...]
+[...] Meguriński(?)
+[...] Waszelski(?)""",
+        "pieczecie": [],
+        "podpisy": ["Lech Głuchowski", "Lochia(?)", "5-6 nieczytelnych podpisów oficerskich"],
+        "osoby": [
+            "Lech Głuchowski (autor dedykacji, brat Stefana)",
+            "Stefan Głuchowski (adresat — 'kochany Stefanku')",
+            "Koledzy oficerscy z 8 p.S.K. (podpisy)"
+        ],
+        "znaki_szczegolne": [
+            "Pismo kaligraficzne atramentem (Lech)",
+            "Serdeczny ton: 'kochany Stefanku, uroczy braciszku'",
+            "Wzmianka '8 p.S.K.' — 8 Pułk Strzelców Konnych?",
+            "Grupowa dedykacja — podpisy kolegów oficerskich",
+            "Papier pożółkły, atrament brązowiejący"
+        ],
+        "kontekst": "Unikalna dedykacja Lecha Głuchowskiego do brata Stefana — świadectwo ciepłych relacji braterskich w okresie międzywojennym. Lech (ok. 1902–1944) poległ na Mokotowie w Powstaniu Warszawskim. Wzmianka '8 p.S.K.' może wskazywać na 8 Pułk Strzelców Konnych lub inną formację kawalerii. Dedykacja grupowa z podpisami kolegów oficerskich — portret środowiska wojskowego II RP."
     },
 }
 
