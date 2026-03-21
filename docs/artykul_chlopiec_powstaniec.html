@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chlopiec-powstaniec — artykul biograficzny</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0a0a;
+  --surface: #141414;
+  --border: #252525;
+  --text: #dddad5;
+  --text-dim: #7a7a7a;
+  --gold: #c9a84c;
+  --red: #c0392b;
+  --blue: #3498db;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:var(--bg); color:var(--text); font-family:'EB Garamond',serif; line-height:1.9; }
+.top-nav {
+  position:sticky; top:0; z-index:100;
+  background:rgba(10,10,10,.95); backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--border);
+  padding:10px 20px; display:flex; justify-content:space-between; align-items:center;
+}
+.top-nav a { color:var(--text-dim); text-decoration:none; font-family:'Inter',sans-serif; font-size:.8em; }
+.top-nav a:hover { color:var(--gold); }
+article { max-width:720px; margin:0 auto; padding:60px 24px 80px; }
+.article-header { text-align:center; margin-bottom:50px; padding-bottom:40px; border-bottom:1px solid var(--border); }
+.article-journal { font-family:'Inter',sans-serif; font-size:.72em; letter-spacing:.15em; text-transform:uppercase; color:var(--gold); }
+.article-title { font-size:clamp(1.6em,4vw,2.4em); font-weight:700; margin:16px 0 12px; line-height:1.25; }
+.article-subtitle { font-size:1.15em; font-style:italic; color:var(--text-dim); margin-bottom:20px; }
+.article-author { font-family:'Inter',sans-serif; font-size:.85em; color:var(--text-dim); }
+.article-meta { font-family:'Inter',sans-serif; font-size:.75em; color:var(--text-dim); margin-top:8px; }
+h2 { font-size:1.4em; color:var(--gold); margin:40px 0 16px; font-weight:600; }
+h3 { font-size:1.15em; color:var(--text); margin:28px 0 12px; font-weight:600; }
+p { margin-bottom:1.3em; font-size:1.08em; text-align:justify; hyphens:auto; }
+p.abstract { border-left:3px solid var(--gold); padding:16px 20px; margin:24px 0 36px; background:rgba(201,168,76,.06); font-style:italic; font-size:1em; }
+p.keywords { font-family:'Inter',sans-serif; font-size:.82em; color:var(--text-dim); margin-bottom:36px; }
+blockquote { border-left:3px solid var(--border); padding:12px 20px; margin:20px 0; font-style:italic; color:var(--text-dim); font-size:1em; }
+blockquote .source { display:block; font-style:normal; font-size:.85em; color:var(--text-dim); margin-top:6px; }
+table { width:100%; border-collapse:collapse; margin:20px 0 28px; font-size:.92em; }
+th { text-align:left; padding:10px 12px; border-bottom:2px solid var(--gold); color:var(--gold); font-family:'Inter',sans-serif; font-size:.82em; letter-spacing:.05em; text-transform:uppercase; }
+td { padding:8px 12px; border-bottom:1px solid var(--border); }
+tr:hover td { background:rgba(201,168,76,.04); }
+sup { color:var(--gold); cursor:pointer; font-size:.8em; }
+.footnote-ref { font-size:.82em; vertical-align:super; color:var(--gold); text-decoration:none; }
+.footnotes { margin-top:50px; padding-top:30px; border-top:1px solid var(--border); }
+.footnotes h2 { font-size:1.1em; margin-bottom:16px; }
+.footnotes ol { padding-left:20px; }
+.footnotes li { font-size:.88em; color:var(--text-dim); margin-bottom:8px; line-height:1.6; }
+.bibliography { margin-top:50px; padding-top:30px; border-top:1px solid var(--border); }
+.bibliography h2 { font-size:1.1em; margin-bottom:16px; }
+.bib-entry { font-size:.9em; margin-bottom:6px; padding-left:24px; text-indent:-24px; }
+.bib-section { margin-bottom:20px; }
+.bib-section h3 { font-size:.95em; color:var(--text-dim); margin-bottom:8px; font-family:'Inter',sans-serif; }
+.timeline-box { background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:24px; margin:28px 0; }
+.timeline-box h3 { color:var(--gold); margin-bottom:12px; font-size:1.05em; }
+.tl-entry { display:grid; grid-template-columns:100px 1fr; gap:8px; padding:6px 0; border-bottom:1px solid rgba(255,255,255,.04); font-size:.95em; }
+.tl-entry:last-child { border-bottom:none; }
+.tl-date { color:var(--gold); font-weight:600; font-family:'Inter',sans-serif; font-size:.82em; }
+.tl-event { color:var(--text); }
+.tl-event strong { color:var(--red); }
+@media (max-width:600px) { article { padding:40px 16px; } p { font-size:1em; } }
+</style>
+</head>
+<body>
+
+<nav class="top-nav">
+  <a href="transkrypcja_demo.html">&larr; Katalog dokumentow</a>
+  <a href="artykul_piec_losow.html">Art. 1: Piec losow &rarr;</a>
+</nav>
+
+<article>
+
+<div class="article-header">
+  <div class="article-journal">Biuletyn Instytutu Pamieci Narodowej &middot; Artykul biograficzny</div>
+  <h1 class="article-title">Chlopiec-powstaniec: droga Krzysztofa Gluchowskiego od Fabryki Kamlera do Stalagu XI-B</h1>
+  <div class="article-subtitle">Rekonstrukcja szlaku bojowego siedemnastoletniego zolnierza AK na podstawie relacji mowionej i dokumentow archiwalnych, z analiza zjawiska konspiracyjnego falszowania dat urodzenia</div>
+  <div class="article-author">Opracowanie badawcze, 2026</div>
+  <div class="article-meta">Zrodla: AHM MPW sygn. 1889, Kolekcja ARG (123 dok.), biogramy 1944.pl, SPPW 1944</div>
+</div>
+
+<p class="abstract">
+<strong>Abstrakt:</strong> Artykul rekonstruuje pelen szlak bojowy Krzysztofa Gluchowskiego ps. "Juras" (1926&ndash;2020) — jednego z ponad 1100 chlopcow w wieku 11&ndash;18 lat walczacych w Powstaniu Warszawskim. Na podstawie wielogodzinnej relacji mowionej (AHM MPW, sygn. 1889, nagr. 31.VII.2009) oraz 92 dokumentow z kolekcji prywatnej odtworzono chronologie jego sluzby: od zaprzysiezzenia w AK w wieku piestnastu lat (11.V.1942), przez Akcje Wilanow (IX.1943), walki na Woli, Starym Miescie i w Srodmiesciu (VIII&ndash;IX.1944), ewakuacje kanalami (1.IX.1944), schwytanie przez Niemcow (~29.IX.1944), niewole w Stalagu XI-B Fallingbostel, az po wyzwolenie i emigracje. Szczegolna uwage poswiecono zjawisku konspiracyjnego falszowania dat urodzenia, udokumentowanemu w trzech wariantach (1926, 1920, 1910) w zachowanych dokumentach. Przypadek Gluchowskiego analizowany jest na tle demografii mlodocianych powstancow i ich dalszych losow.
+</p>
+
+<p class="keywords"><strong>Slowa kluczowe:</strong> Powstanie Warszawskie, chlopcy-powstancy, Armia Krajowa, Fabryka Kamlera, Stalag XI-B Fallingbostel, falszowanie dokumentow, PKPR, emigracja polska, 7 Pulk Ulanow Lubelskich AK</p>
+
+<!-- ============================================ -->
+<h2>1. Dziecko z Lazienek: 1926&ndash;1941</h2>
+
+<p>Krzysztof Gluchowski przyszedl na swiat 29 listopada 1926 roku w Warszawie, w rodzinie gluboko zakorzenionej w polskiej tradycji wojskowej i panstwowej. Jego ojciec, Stanislaw Stefan Gluchowski (1893&ndash;1962), pelnil funkcje kierownika referatu w Kancelarii Cywilnej Prezydenta Rzeczypospolitej. Matka, Wanda Bronislawa z Zembrzuskich (1901&ndash;1976), byla magistra farmacji Uniwersytetu Jana Kazimierza we Lwowie. Stryj, general dywizji Janusz Julian Gluchowski, byl jednym z legendarnej Siodemki Beliny — siedmiu ulanow, którzy w nocy z 2 na 3 sierpnia 1914 roku przekroczyli granice zaboru rosyjskiego jako pierwszy regularny oddział polski od Powstania Styczniowego.<a class="footnote-ref" href="#fn1">1</a></p>
+
+<p>Rodzina mieszkala w budynku przy bramie Lazienek Krolewskich, wychodzacej na ulice Agrykole i Szwolezerow. Krzysztof ukonczyl szescioletnia Szkole Rodziny Wojskowej — placowke edukacyjna przeznaczona dla dzieci kadry wojskowej i urzedniczej. W relacji mowionej wspominal ja z cieplem:</p>
+
+<blockquote>"To byla wspaniala szkola. Przez szesc lat mielismy tego samego wychowawce-opiekuna naszej klasy. Wiekszosc tych, którzy zaczeli od poczatku, ukonczylo szkole. Do dnia dzisiejszego utrzymujemy bardzo bliskie kontakty."
+<span class="source">AHM MPW, sygn. 1889</span>
+</blockquote>
+
+<p>Smierc Marszalka Pilsudskiego w 1935 roku odcisneela sie na dziewiecioletnim chlopcu — nie tyle sama, ile przez reakcje matki: "Mama przyszla zaplacana i powiedziala: 'Co teraz bedzie z Polska?!'" Gluchowscy byli pilsudczykami w sensie emocjonalnym i rodzinnym — Pilsudski byl "Komendantem", a nie politykiem.</p>
+
+<p>Latem 1939 Krzysztof zdal egzaminy do Korpusu Kadetow nr 1 we Lwowie. Nigdy tam nie dotarl — wybuchla wojna. Mobilizacja zastala go z ojcem w Wilnie. Po powrocie do Warszawy, trzynastoletni chlopiec sluzyl jako goniec Ligi Obrony Powietrznej i Przeciwgazowej (LOPP), z posterunkiem obserwacyjnym na tarasie Palacu Na Wodzie w Lazienkach.<a class="footnote-ref" href="#fn2">2</a></p>
+
+<p>Okupacyjna edukacja Krzysztofa byla typowa dla mlodziezy warszawskiej: jawne szkolnictwo zawodowe (Szkola Handlowa na Zoliborzu, Szkola Zgromadzenia Kupcow, III Miejska Szkola Mechaniczna) polaczone z tajnym Gimnazjum im. Gorskiego. Z oficjalnych szkol byl kilkakrotnie usuwany lub sam odchodzil — gdy rosly lapanki na roboty do Rzeszy, jawna edukacja stawala sie niebezpieczna.</p>
+
+<!-- ============================================ -->
+<h2>2. Zaprzysiezzenie: konspiracja w wieku lat pietnastu</h2>
+
+<p>W sierpniu 1941 roku Julek Klepacz — syn pulkownika, starszy o cztery lata, ranny we wrzesniowej kampanii — zaproponowal Krzysztofowi i jego rowniesnikow wstapienie do konspiracji. Slowa, ktore Krzysztof zapamial na szescdziesiat osiem lat:</p>
+
+<blockquote>"Od teraz na przyszlosc wciagam was do konspiracji i bedziecie zolnierzami Rzeczpospolitej. Zdrada bedzie karana smiercia."
+<span class="source">AHM MPW, sygn. 1889</span>
+</blockquote>
+
+<p>Poczatki — jak w wielu wspolacznych relacjach — mialy charakter ludyczny: wystrugiwanie drewnianych modeli broni, nauka regulaminu. Ale organizacja szybko przybierala formy dojrzale: podzial na piatki (komorki piecioosobowe), scisla kompartmentalizacja, pseudonimy. Dowodca komorki Krzysztofa nosil pseudonim "Ostoja" i mieszkal na ulicy Przekop, za Arsenalem.</p>
+
+<p><strong>Formalna przysiega</strong> odbyła sie 11 maja 1942 roku. Krzysztof mial pietnascie lat i sześć miesiecy. Minimalny wiek zaciagu wynosil osiemnascie lat. Byl jednym z tysiecy polskich dzieci, ktore oklamaly dorosychco do swojego wieku — lub dorosli swiadomie przymkneli na to oko.<a class="footnote-ref" href="#fn3">3</a></p>
+
+<h3>2.1. Zadania konspiracyjne</h3>
+
+<p>Uzdolnienia plastyczne Krzysztofa szybko znalazly zastosowanie operacyjne. Wykonywal:</p>
+
+<ul style="margin:0 0 20px 20px; font-size:1.05em;">
+<li><strong>Powiększanie zdjec broni</strong> na papierze woskowym, a nastepnie odbitki swiatloczynnne w kuwetach z wywolywaczykiem — prymitywna, ale skuteczna metoda reprodukcji materialow szkoleniowych</li>
+<li><strong>Mapy operacyjne</strong> okolic planowanych akcji, w tym rejonu Alei Szucha (siedziba Gestapo)</li>
+<li><strong>Rysunki techniczne karabinow</strong> do podrecznikow konspiracyjnych</li>
+</ul>
+
+<p>Najbardziej niebezpiecznym zadaniem byla <strong>obserwacja gestapowca Kempfa</strong> zamieszkujacego przy Zurawiej 2, skazanego na smierc przez sad podziemny za zastrzelenie czlonka AK. Krzysztof zbieraldane o jego nawykach i trasach, spotykajac sie z Julkiem Klepaczem "pod zegarem Instytutu Gluchoniemych" — budynku Instytutu dla Gluchoniemych na placu Trzech Krzyzy, ktory sluzyl jako punkt kontaktowy konspiracji. Zegar na fasadzie instytutu, dobrze widoczny z daleka, byl idealnym punktem orientacyjnym.<a class="footnote-ref" href="#fn4">4</a></p>
+
+<p>Egzekucji Kempfa nie zdazono wykonac — Julek Klepacz wpadl wczesniej. Uciekl z transportu do Auschwitz, ale schwytany w okolicach Strugi, zastrzeellil sie. Kempfa zastrzelil pozniej podchorazhy Jas Gassowski ps. "Kania".</p>
+
+<p>Los Julka Klepacza nie byl odosobniony. Dwa lata pozniej, w Powstaniu, stryj Krzysztofa Lech Gluchowski dokonze identycznego wyboru — ranny na Sadybie, odmowil ewakuacji i odebral sobie zycie. Dwie osoby najblizsze Krzysztofowi wybraly smierc zamiast niewoli.</p>
+
+<!-- ============================================ -->
+<h2>3. Akcja Wilanow: matka i syn na jednym polu bitwy</h2>
+
+<p>We wrzesniu 1943 Krzysztof — juz jako zolnierz plutonu 1112 przy 7 Pulku Ulanow Lubelskich AK — mieszkal w Wilanowie, w palacu, pod opieka <strong>pani Beaty Branickiej</strong>, arystokratki dajaca schronienie jego sparalizowanej babce. Matka Wanda, sekcyjna w oddziale DYSK (Dywersja i Sabotaz Kobiet), odwiedzila syna z prosba o dane wywiadowcze dotyczace kwatery Luftwaffe w kordegardzie wilanowskiej.</p>
+
+<p>Krzysztof dostarczyl informacje. Nie wiedzial, ze za kilka dni sam bedzie swiadkiem operacji.</p>
+
+<p><strong>26 wrzesnia 1943, godzina 10:00.</strong> Operacja Kedywu pod dowodztwem oddzialu "Zoska" (Waclaw Michalowicz). Punkt koncentracji: cmentarz wilanowski. Trasa natarcia: przez cmentarz, tory kolejowe, mauzoleum Potockich, brama glowna, podworze gospdarcze. Kordegarda: stajnie (prawo), wartownia murowana (lewo), stara kuchnia polaczona krytym przejsciem z wozownia.<a class="footnote-ref" href="#fn5">5</a></p>
+
+<p>Dwóch zolnierzy AK poleglo: plutonowy Wladyslaw Walecki ps. "Gruby" i kapral Zygmunt Wejrzanowski ps. "Smukly". Wanda Gluchowska zostala postrzelona w noge. Upadla do rowu pelnego granatow. Po odzyskaniu przytomnosci doplezla do okna babki Krzysztofa i zapukala.</p>
+
+<blockquote>"Sluchaj Krzysztof, tutaj jest moj pistolet i musisz go schowac."
+<span class="source">AHM MPW, sygn. 1889 — slowa Wandy Gluchowskiej do szesnastoletniego syna</span>
+</blockquote>
+
+<p>Krzysztof ukryl pistolet w prawej wiezy palacu, wspinajac sie przez mechanizm dzwonu. Pozniej odzyskal karabin Mauser wz. 98 zostawiony przez podchorazego Janusza Radomyskiego u pani Branickiej i schowal go na strychu nad lazienka, pod sloma. Matke ewakuowano dorozka hrabiny Branickiej do Szpitala Ujazdowskiego.</p>
+
+<p>Rana nigdy sie nie zagoila prawidlowo. Komisja lekarska AK orzekla 30% inwalidztwa (13 lipca 1944). Za Wilanow Wanda otrzymala Krzyz Walecznych (11 listopada 1943).</p>
+
+<!-- ============================================ -->
+<h2>4. Godzina "W": Fabryka Kamlera i Komenda Glowna AK</h2>
+
+<p>31 lipca 1944, poniedzialek. Radzieckie i niemieckie samoloty walcza nad Warszawa. Krzysztof wychodzi z domu na Pogonowskiego 9 na Zoliborzu z karabinem pod plaszczem. Ma siedemnascie lat i osiem miesiecy. Nie wroci juz do tego domu nigdy.</p>
+
+<p>Rozkaz od stryja Lecha, dowodcy Dywizjonu "Jelen": zamelddowac sie u porucznika Jerzego Kamlera ps. "Stolarz" w jego fabryce na Dzielnej. Fabryka Kamlera — kompleks metalurgiczny, stolarnia, pralnia i fabryka kapeluszy (gdzie przerabiano francuskie berety na polskie czapki wojskowe) — ciagnela sie od Dzielnej do Pawiej. Krzysztof dotieral wieczorem. W nocy odkryl, ze w fabryce jest radiostacja — <strong>to siedziba Komendy Glownej Armii Krajowej, kwatera generala Tadeusza Bora-Komorowskiego</strong>.<a class="footnote-ref" href="#fn6">6</a></p>
+
+<div class="timeline-box">
+<h3>Szlak bojowy Krzysztofa Gluchowskiego — Powstanie Warszawskie 1944</h3>
+<div class="tl-entry"><div class="tl-date">31.VII</div><div class="tl-event">Wyjscie z domu (Pogonowskiego 9, Zoliborz). Dotarcie do Fabryki Kamlera (Dzielna 72).</div></div>
+<div class="tl-entry"><div class="tl-date">1.VIII</div><div class="tl-event">Godzina "W". Obrona fabryki — siedziba KG AK. Strzal do niemieckiego samochodu. Transport 400 granatow "filipinek" z 3. pietra pod ogniem. Gen. Pelczynski doradza taktycznie.</div></div>
+<div class="tl-entry"><div class="tl-date">2.VIII</div><div class="tl-event">Goniec do kwatery Zgrupowania "Radoslaw" (rog Mireckiej/Okopowej). Czolg unieruchomiony gamonami.</div></div>
+<div class="tl-entry"><div class="tl-date">2-5.VIII</div><div class="tl-event">Walki na Woli. <strong>Smierc ul. Stanislawa Bukowskiego</strong> (snajper, kula w serce). Pochowany na podworzu Monopolu Tytoniowego.</div></div>
+<div class="tl-entry"><div class="tl-date">6.VIII</div><div class="tl-event"><strong>Ewakuacja z Woli.</strong> Trasa: Pawia &rarr; wyrwa w murze getta &rarr; ogrodzenia Gesiowki &rarr; obok Pawiaka (ogien KM) &rarr; Ogrody Krasinskich &rarr; Starowka.</div></div>
+<div class="tl-entry"><div class="tl-date">6-13.VIII</div><div class="tl-event">Szkola na Barokowej. Rozpoznanie: ul. Senatorska, ul. Krola Alberta. Podchorazy "Piotrek" (jednorenki — sam sobie odpalil granat uciekajac przed Gestapo).</div></div>
+<div class="tl-entry"><div class="tl-date">13.VIII</div><div class="tl-event"><strong>Smierc ppor. Kamlera "Stolarza"</strong> na pl. Krasinskich (pocisk artyleryjski). Gina tez pchor. Hilchen "Lorch" i mloda telefonistka.</div></div>
+<div class="tl-entry"><div class="tl-date">13.VIII+</div><div class="tl-event">Barykady na Kanonii: miedzy kamienicami a zakrystia Katedry. Dwa stanowiska ogniowe: pod brama od Zamku i pod galeryjka nad Dziekania.</div></div>
+<div class="tl-entry"><div class="tl-date">1.IX</div><div class="tl-event"><strong>Ewakuacja KANALAMI</strong> ze Starowki do Srodmiescia (~4500 powstancow).</div></div>
+<div class="tl-entry"><div class="tl-date">IX.1944</div><div class="tl-event">Srodmiescie: straznik Kwatery Glownej Okregu w kinie "Palladium". Ojciec Stefan tez w Srodmiesciu (kwaterm. Obwodu I "Radwan").</div></div>
+<div class="tl-entry"><div class="tl-date">15.IX</div><div class="tl-event"><strong>Smierc stryja Lecha "Jezyckiego"</strong> na ul. Dolnej (samobojstwo bojowe). Dywizjon "Jelen": 95,7% strat.</div></div>
+<div class="tl-entry"><div class="tl-date">29.IX</div><div class="tl-event">"Specjalna przepustka jednorazowa" na przejscie Al. Sikorskiego.</div></div>
+<div class="tl-entry"><div class="tl-date">~29.IX</div><div class="tl-event"><strong>Schwytany przez Niemcow</strong> (~3 dni przed kapitulacja).</div></div>
+<div class="tl-entry"><div class="tl-date">2.X</div><div class="tl-event">Kapitulacja Powstania.</div></div>
+<div class="tl-entry"><div class="tl-date">~7.X</div><div class="tl-event">Transport w bydlecych wagonach (80 osob/wagon, 2 dni bez jedzenia) do <strong>Stalagu XI-B Fallingbostel</strong>. Nr jeniecki: 141009.</div></div>
+<div class="tl-entry"><div class="tl-date">X.1944-IV.1945</div><div class="tl-event">Arbeitskommando Monchengladbach. 10-godzinne zmiany w fabryce.</div></div>
+<div class="tl-entry"><div class="tl-date">16.IV.1945</div><div class="tl-event"><strong>Wyzwolenie</strong> przez Brytyjczykow (B Squadron 11th Hussars).</div></div>
+</div>
+
+<!-- ============================================ -->
+<h2>5. Oblezzona fabryka: 1&ndash;6 sierpnia 1944</h2>
+
+<p>Pierwszego dnia Powstania Krzysztof stal na warcie przy bramie nr 64 od Dzielnej. Niemiecki samochod zaopatrzeniowy probowal wjechac — zolnierz "Tuszynski" przy sasiedniej bramie otworzyl ogien za wczeshnie, jego pistolet sie zacial. Porucznik Kamler wybiegal, oddal kilka strzalow, nakazal zamknac bramy.</p>
+
+<p>Fabryka znalazla sie w oblezeniu. Krzysztof z ulanem Socha zajal stanowisko na pierwszym pietrze. Pojawil sie "elegancko ubrany starszy pan" — general Pelczynski, Szef Sztabu AK — doradzajacy Sosze, jak rzucac granaty na niemiecki bunkier pod oknem.</p>
+
+<p>Na trzecim pietrze lezalo okolo czterystu granatow — "ojczulkow" (wiekszych filipinek). Trzeba je bylo ewakuowac na dol, bo bombardowanie moglo zdetonowac caly stos. Krzysztof taszczeyl granaty po schodach, potem pelzl pod parapetami okien (Niemcy strzelali z Dzielnej na wysokosci metra), i dalej do piwnicy pralni.</p>
+
+<p>Niemcy podpalili pierwsze pietro. Cisnienie w hydrancie bylo za slabe. Porucznik Kamler sam wszedl w dym. Pomogla mu — ironicznie — eksplozja niemieckiego granatu, ktora zasysla czescplomieni. Wyszedl bez obrazzen.</p>
+
+<p>Wieczorem oddzialy Zgrupowania "Radoslaw" przelomaly oblezenie. Krzysztof spal w pralni na plaszczyach Wehrmachtu. Jego dawna nauczycielka, pani Jadwiga Celinska — teraz szyfranka w Komendzie Glownej — rozpoznala go i objelaa ze lzami.</p>
+
+<!-- ============================================ -->
+<h2>6. Starowka: od Barokowej do kanalow</h2>
+
+<p>6 sierpnia — rozkaz ewakuacji z Woli. Trasa prowadzila przez Pawia, wyrwe w murze bylego getta, ogrodzenia Gesiowki (zdobytej wczesniej przez oddzialy "Radoslawa"). Najniebezpieczniejszy odcinek: przejscie obok Pawiaka, wiezienia trzymanego przez Niemcow. Ogien z karabinow maszynowych z budynku bez okien — "strefa smierci".</p>
+
+<p>Na Starym Miescie pluton zakwaterowsl sie w szkole na Barokowej. Krzysztof wychodzzil na rozpoznanie — Senatorska, ulica Krola Alberta. Na dachu garazu podchorazy "Piotrek" — jednorenki, bo wczesniej sam sobie odpalil granat na klatce schodowej uciekajac przed Gestapo (Niemcy go operowali i uratowali, a powstancy wyzwolili) — wspinal sie po drabinie. Jego filipinka wpadla w rynne. O wlos.</p>
+
+<p>13 sierpnia — pocisk artyleryjski na placu Krasinskich zakoniczyl zycie porucznika Kamlera. Zginal na miejscu. Podchorazy Karol Hilchen "Lorch" smiertelnnie ranny. Mloda telefonistka — przeszla do plutonu dzien wczesniej z grupy Centralki Telefonicznej na Tlomackim, która podsluchiwala niemieckie rozmowy — tez zginela.</p>
+
+<p>Nastepnego dnia — pogrzeb. Jedyna "zwarta szykowna" (defilada) plutonu w calym Powstaniu: caly pluton w mundurach, kazdy w innych butach. Jednoczesnie obsadzali barykade przy Katedrze.</p>
+
+<p>1 wrzesnia — rozkaz ewakuacji kanalami. Okolo 4500 powstancow weszlo w scieki ze Starymwki dwoma trasami z placu Krasinskich. Krzysztof przeszedl do Srodmiescia — tego samego okregu, w którym ojciec Stefan sluzyl w kwatermistrzostwie Obwodu I "Radwan".</p>
+
+<!-- ============================================ -->
+<h2>7. Falszowanie dat urodzenia: strategia przetrwania</h2>
+
+<p>Dokumenty Krzysztofa Gluchowskiego w kolekcji ARG zawieraja <strong>trzy rozne daty urodzenia</strong>:</p>
+
+<table>
+<thead>
+<tr><th>Data w dokumencie</th><th>Rocznik</th><th>Wiek w 1944</th><th>Cel</th></tr>
+</thead>
+<tbody>
+<tr><td>19.XI.1926</td><td>1926</td><td>17 lat</td><td>Zblizzona do prawdziwej (29.XI.1926)</td></tr>
+<tr><td>19.XI.1920</td><td>1920</td><td>23 lata</td><td>Wiek pozwalajacy na sluzbe bez pytan</td></tr>
+<tr><td>19.XI.1910</td><td>1910</td><td>33 lata</td><td>Wiek oficera — prawdopodobnie w dokumencie jenieckim</td></tr>
+</tbody>
+</table>
+
+<p>Dzien i miesiac (19 listopada) pozostaje stalym — latwy do zapamietania. Zmienia sie <strong>wylacznie rok</strong>: 1926, 1920, 1910. Roznica: 6 i 16 lat. Wariant z 1910 jest prawdopodobnie związany z sytuacja jeniecka — starsi jency mogli liczyc na lepsze traktowanie niz nastolatkowie, którzy bywali wysylani do Arbeitskommandoos o ciezszych warunkach.<a class="footnote-ref" href="#fn7">7</a></p>
+
+<p>Zjawisko to nie jest odosobnione. Wsrod ponad 1100 chlopcow-powstancow wielu podawalo falszywe dane. Przy apelu 18 pazdziernika 1944 w Stalagu 344 Lamsdorf policzono 550 mlodocianych — ale rzeczywista liczba byla zapewne wyzsza, bo czesc skutecznie ukryla swoj wiek.</p>
+
+<!-- ============================================ -->
+<h2>8. Chlopcy-powstancy: Krzysztof na tle pokolenia</h2>
+
+<p>Ponad <strong>1100 chlopcow w wieku 11&ndash;18 lat</strong> walczylo w Powstaniu Warszawskim wsrod szacowanych 16 000&ndash;50 000 ogolu uczestnikow. Ich udzial nie byl przypadkowy — wielu, jak Krzysztof, bylo zolnierzami AK od lat, z dlugim stazem konspiracyjnym.<a class="footnote-ref" href="#fn8">8</a></p>
+
+<table>
+<thead>
+<tr><th>Wiek</th><th>Liczba (apel Lamsdorf, 18.X.1944)</th><th>Udzial</th></tr>
+</thead>
+<tbody>
+<tr><td>11 lat</td><td>2</td><td>0,4%</td></tr>
+<tr><td>12 lat</td><td>6</td><td>1,1%</td></tr>
+<tr><td>13 lat</td><td>9</td><td>1,6%</td></tr>
+<tr><td>14 lat</td><td>48</td><td>8,7%</td></tr>
+<tr><td>15 lat</td><td>115</td><td>20,9%</td></tr>
+<tr><td>16 lat</td><td>175</td><td>31,8%</td></tr>
+<tr><td>17-18 lat</td><td>~195</td><td>35,5%</td></tr>
+</tbody>
+</table>
+
+<p>Krzysztof (17 lat w sierpniu 1944) nalezal do najliczniejszej grupy wiekowej. Jego doswiadczenie bylo typowe: konspiracyjne szkolenie od lat, realne zadania bojowe, a wreszcie — szok walki miejskiej i niewola.</p>
+
+<p>W tym samym Stalagu XI-B Fallingbostel, gdzie trafil Krzysztof, przebywal czternastoletni <strong>Jerzy Bartnik ps. "Magik"</strong> — najmmlodszy kawaler Virtuti Militari w historii Polski. Dwaj chlopcy — jeden z lubelskich ulanow, drugi z "Zoska" — mogli sie znac.</p>
+
+<!-- ============================================ -->
+<h2>9. Od Stalagu do Rio: 1945&ndash;2020</h2>
+
+<p>16 kwietnia 1945 — Stalag XI-B wyzwolony przez Brytyjczykow (eskadron B 11. Husarow i zwiad 8. Husarow). Krzysztof ruszyl na zachod: Holandia, Belgia, Francja, Wlochy. Wstapil do 2 Korpusu Polskiego generala Andersa, ktory do sierpnia 1945 liczyl juz 113 000 ludzi — spuchniety od bylych jencow i Polakow wyzwolonych z obozow.</p>
+
+<p>Ukonczyl gimnazjum i liceum przy 3 Dywizji Strzelcow Karpackich (swiadectwo: ARG/Juras/021). Przeszedl przez oboz tranzytowy w La Courtine we Francji, nastepnie do Anglii i Polskiego Korpusu Przysposobienia i Rozmieszczenia (PKPR). Zwolniony 31 pazdziernika 1948 — dokladnie dwa lata po wstapieniu do PKPR. Mial dwadziescia dwa lata i byl cywilnym rezydentem Wielkiej Brytanii.</p>
+
+<p>Zdobyl dyplom Chartered Engineer. Pracowal w firmie CAV-Lucas (systemy wtrysku diesla) w Anglii, potem Hiszpanii, od 1974 w Brazylii. Od 1988 na emeryturze w Rio de Janeiro. Nigdy nie przestaayl bye zolnierzem — kierowal Harcerstwem na emigracji, nalezal do Kola 7 Pulku Ulanow Lubelskich, SPK, POSK. Prowadzil wydawnictwo bibliofilskie.</p>
+
+<p>W 2006&ndash;2007 zorganizowal wystawy o Powstaniu Warszawskim w Rio de Janeiro, we wspolpracy z Konsulatem RP — przenoszac pamiec o Warszawie na druga polkule.</p>
+
+<p><strong>31 lipca 2009</strong> — w przededniu 65. rocznicy Powstania, osiemdziesieciodwuletni Krzysztof zlozyl wielogodzinna relacje w Archiwum Historii Mowionej Muzeum Powstania Warszawskiego. To na tej relacji oparta jest wiekszosc niniejszego artykulu.</p>
+
+<p><strong>19 listopada 2011</strong> — Krzyz Oficerski Orderu Odrodzenia Polski.</p>
+
+<p><strong>16 maja 2020</strong> — Krzysztof Gluchowski ps. "Juras" zmarl w Brazylii. Mial dziewiecdziesiat trzy lata. Ostatni z pieciu Gluchowskich, którzy walczyli w Powstaniu.</p>
+
+<!-- ============================================ -->
+<h2>10. Wnioski</h2>
+
+<p>Przypadek Krzysztofa Gluchowskiego ilustruje kilka zjawisk istotnych dla historiografii Powstania Warszawskiego:</p>
+
+<p><strong>Po pierwsze</strong>, udzial chlopcow w Powstaniu nie byl spontaniczny — byl wynikiem wieloletniej konspiracyjnej formacji, czesto rozpoczynanej w wieku 13&ndash;15 lat. Krzysztof mial trzy lata stazu konspiracyjnego, zanim stantal na barykadzie.</p>
+
+<p><strong>Po drugie</strong>, falszowanie dat urodzenia w dokumentach nie bylo bledem, lecz swiadoma strategia, ktorej slady sa czytelne w zachowanych dokumentach i stanowia materialne swiadectwo konspiracyjnej kultury AK.</p>
+
+<p><strong>Po trzecie</strong>, losy rodziny Gluchowskich — pieciu czlonkow w Powstaniu, w roznnych formacjach i dzielnicach — pozwalaja na rekonstrukcje wydarzenia z wielu jednoczesnych perspektyw, co jest rzadkoscia w historiografii.</p>
+
+<p><strong>Po czwarte</strong>, droga od Fabryki Kamlera do Stalagu XI-B, a stamtad do Rio de Janeiro, jest typowa dla calego pokolenia mlodych powstancow, z ktorych wielu nigdy nie wrocilo do Polski — ale wszyscy zabralii ze soba pamiec.</p>
+
+<!-- ============================================ -->
+<div class="footnotes">
+<h2>Przypisy</h2>
+<ol>
+<li id="fn1">O Siodemce Beliny zob. jpilsudski.org, "Siodemka Beliny — pierwsi kawalerzysci Wojska Polskiego"; IPN, "100 Bohaterow: Janusz Gluchowski" (art. 104516).</li>
+<li id="fn2">AHM MPW, sygn. 1889. Wszystkie cytaty z relacji Krzysztofa Gluchowskiego, o ile nie zaznaczono inaczej, pochodza z tego zrodla.</li>
+<li id="fn3">O mlodocianych zolnierzach AK zob. Przystanek Historia (IPN), "Najmlodsi powstancy warszawscy" (art. 108579); SPPW 1944, "Mali powstancy".</li>
+<li id="fn4">Instytut Gluchoniemych przy placu Trzech Krzyzy — budynek z charakterystycznym zegarem, funkcjonujacy nieprzerwanie od XIX w. W relacji Krzysztofa sluzy wylacznie jako punkt orientacyjny, nie ma zwiazku z osobami gluchoniemymi w Powstaniu.</li>
+<li id="fn5">O Akcji Wilanow zob. Wikipedia PL, haslo "Akcja Wilanow"; biogram Wandy Gluchowskiej: 1944.pl/powstancze-biogramy/wanda-gluchowska,14197.html.</li>
+<li id="fn6">O Fabryce Kamlera jako siedzibie KG AK zob. 1944.pl, biogram Jerzego Kamlera (19911); AHM MPW sygn. 1889.</li>
+<li id="fn7">Analiza wlasna na podstawie dokumentow ARG. Analogiczne zjawisko opisane w: SPPW 1944, "Powstancy jenicy".</li>
+<li id="fn8">Dane demograficzne: SPPW 1944, "Mali powstancy"; Przystanek Historia (IPN), art. 108579; National WWII Museum, "Women and Children and the Warsaw Uprising".</li>
+</ol>
+</div>
+
+<div class="bibliography">
+<h2>Bibliografia</h2>
+<div class="bib-section">
+<h3>Zrodla</h3>
+<div class="bib-entry">Archiwum Rodziny Gluchowskich (ARG), kolekcja prywatna, 123 j.a.</div>
+<div class="bib-entry">Muzeum Powstania Warszawskiego, AHM sygn. 1889: Krzysztof Gluchowski (31.VII.2009).</div>
+<div class="bib-entry">Biogramy powstancze 1944.pl: Krzysztof (14205), Stanislaw (14209), Wanda (14197), Lech (14206).</div>
+</div>
+<div class="bib-section">
+<h3>Opracowania</h3>
+<div class="bib-entry">IPN, "100 Bohaterow na 100-lecie: Janusz Gluchowski", ipn.gov.pl.</div>
+<div class="bib-entry">SPPW 1944, "Powstancy w niewoli" oraz "Mali powstancy".</div>
+<div class="bib-entry">Przystanek Historia (IPN), "Najmlodsi powstancy warszawscy" (art. 108579).</div>
+<div class="bib-entry">2korpus.org, "Rozne drogi do 2 Korpusu".</div>
+<div class="bib-entry">"Polska Zbrojna", "DYSK — kobieca strona Armii Krajowej" (art. 27743).</div>
+</div>
+</div>
+
+</article>
+
+<div style="text-align:center; padding:40px 24px 60px; border-top:1px solid var(--border); font-family:'Inter',sans-serif; font-size:.8em; color:var(--text-dim);">
+  <a href="transkrypcja_demo.html" style="color:var(--gold);text-decoration:none;">Katalog dokumentow</a> &middot;
+  <a href="biografia_gluchowskich.html" style="color:var(--gold);text-decoration:none;">Biografia rodziny</a> &middot;
+  <a href="artykul_piec_losow.html" style="color:var(--gold);text-decoration:none;">Art. 1: Piec losow</a> &middot;
+  <a href="artykul_dywizjon_jelen.html" style="color:var(--gold);text-decoration:none;">Art. 3: Dywizjon Jelen</a>
+</div>
+
+</body>
+</html>
