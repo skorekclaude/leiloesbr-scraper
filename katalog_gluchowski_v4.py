@@ -18,6 +18,7 @@
 """
 
 import os, html as html_mod
+from transcriptions import TRANSCRIPTIONS
 
 IMG_DIR = "gluchowski_img"
 
@@ -5111,6 +5112,47 @@ NAVIGATION_THEMES = [
 def escape(s):
     return html_mod.escape(str(s))
 
+
+def get_transcription(sygn):
+    """Map a sygnatura (e.g. ARG/V/1, ARG/III/3) to a TRANSCRIPTIONS entry."""
+    parts = sygn.split("/")
+    if len(parts) != 3:
+        return None
+    seria = parts[1]
+    try:
+        num = int(parts[2])
+    except ValueError:
+        return None
+    key = None
+    if seria == "V":
+        key = f"juras_{num:03d}"
+    elif seria == "III":
+        key = f"stefan_{num:03d}"
+    if key and key in TRANSCRIPTIONS:
+        return TRANSCRIPTIONS[key]
+    return None
+
+
+def generate_trans_details(trans):
+    """Generate HTML for pieczecie, podpisy, osoby, znaki_szczegolne, kontekst."""
+    parts = []
+    if trans.get("pieczecie"):
+        items = "".join(f"<li>{escape(p)}</li>" for p in trans["pieczecie"])
+        parts.append(f'<div class="trans-details"><strong>Pieczecie:</strong><ul class="trans-detail-list">{items}</ul></div>')
+    if trans.get("podpisy"):
+        items = "".join(f"<li>{escape(p)}</li>" for p in trans["podpisy"])
+        parts.append(f'<div class="trans-details"><strong>Podpisy:</strong><ul class="trans-detail-list">{items}</ul></div>')
+    if trans.get("osoby"):
+        items = "".join(f"<li>{escape(p)}</li>" for p in trans["osoby"])
+        parts.append(f'<div class="trans-details"><strong>Osoby:</strong><ul class="trans-detail-list">{items}</ul></div>')
+    if trans.get("znaki_szczegolne"):
+        items = "".join(f"<li>{escape(z)}</li>" for z in trans["znaki_szczegolne"])
+        parts.append(f'<div class="trans-details"><strong>Znaki szczegolne:</strong><ul class="trans-detail-list">{items}</ul></div>')
+    if trans.get("kontekst"):
+        parts.append(f'<div class="trans-details"><strong>Kontekst:</strong> {escape(trans["kontekst"])}</div>')
+    return "\n".join(parts)
+
+
 def generate_html():
     total = len(OBJECTS)
 
@@ -5147,8 +5189,28 @@ def generate_html():
                 links = ", ".join(obj["powiazania"])
                 powiazania_html = f'<div class="card-field"><span class="field-label">Powiązania:</span> {escape(links)}</div>'
 
-            series_html += f'''    <div class="card" onclick="openLightbox('{IMG_DIR}/{obj["photo"]}', '{escape(obj["tytul"])}')" >
-      <div class="card-img-wrap">
+            trans = get_transcription(obj["sygn"])
+            trans_html = ""
+            if trans:
+                trans_html = f'''<div class="card-transcription">
+      <div class="trans-toggle" onclick="event.stopPropagation(); this.parentElement.classList.toggle('open')">
+        &#9654; Transkrypcja
+      </div>
+      <div class="trans-content">
+        <div class="trans-meta">
+          <span class="trans-badge">{escape(trans.get("typ", ""))}</span>
+          <span class="trans-badge">{escape(trans.get("data", ""))}</span>
+          <span class="trans-badge">{escape(trans.get("jezyk", ""))}</span>
+        </div>
+        {f'<div class="trans-field"><strong>Nadawca:</strong> {escape(trans["nadawca"])}</div>' if trans.get("nadawca") else ""}
+        {f'<div class="trans-field"><strong>Adresat:</strong> {escape(trans["adresat"])}</div>' if trans.get("adresat") else ""}
+        <div class="trans-text">{escape(trans.get("transkrypcja", ""))}</div>
+        {generate_trans_details(trans)}
+      </div>
+    </div>'''
+
+            series_html += f'''    <div class="card">
+      <div class="card-img-wrap" onclick="openLightbox('{IMG_DIR}/{obj["photo"]}', '{escape(obj["tytul"])}')">
         <img src="{IMG_DIR}/{obj["photo"]}" alt="{escape(obj["tytul"])}" loading="lazy">
       </div>
       <div class="card-body">
@@ -5165,6 +5227,7 @@ def generate_html():
         <div class="card-field card-context"><span class="field-label">Kontekst:</span> {escape(obj["kontekst"])}</div>
         {powiazania_html}
         <div class="card-condition"><span class="field-label">Stan:</span> {escape(obj["stan"])}</div>
+        {trans_html}
       </div>
     </div>\n'''
 
@@ -5774,6 +5837,49 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
 .card-context {{ color:var(--accent); font-style:italic; }}
 .card-condition {{ font-size:0.75em; color:var(--text-faint); margin-top:8px; padding-top:6px; border-top:1px solid var(--border); }}
 
+/* TRANSCRIPTION PANELS */
+.card-transcription {{ border-top:1px solid var(--border); margin-top:10px; padding-top:8px; }}
+.trans-toggle {{ cursor:pointer; font-size:0.82em; color:var(--gold); font-weight:500; padding:4px 0; user-select:none; }}
+.trans-toggle:hover {{ color:var(--accent); }}
+.trans-content {{ display:none; padding:10px 0 4px; }}
+.card-transcription.open .trans-toggle {{ color:var(--accent); }}
+.card-transcription.open .trans-content {{ display:block; }}
+.trans-meta {{ display:flex; gap:6px; flex-wrap:wrap; margin-bottom:8px; }}
+.trans-badge {{ font-size:0.72em; background:var(--surface2); border:1px solid var(--border); color:var(--text-dim); padding:2px 8px; border-radius:2px; }}
+.trans-field {{ font-size:0.8em; color:var(--text-dim); margin-bottom:4px; line-height:1.5; }}
+.trans-field strong {{ color:var(--text-faint); }}
+.trans-text {{ font-family:'JetBrains Mono',monospace; font-size:0.78em; color:var(--text); background:var(--surface2); padding:12px; border-radius:4px; margin:8px 0; white-space:pre-wrap; line-height:1.6; max-height:300px; overflow-y:auto; }}
+.trans-details {{ font-size:0.78em; color:var(--text-dim); margin-top:6px; }}
+.trans-details strong {{ color:var(--text-faint); }}
+.trans-detail-list {{ list-style:none; padding:0; margin:4px 0 8px; }}
+.trans-detail-list li {{ padding:2px 0; border-bottom:1px solid rgba(255,255,255,.03); }}
+.trans-detail-list li::before {{ content:'· '; color:var(--gold); }}
+
+/* BIOGRAPHY / RESEARCH / ORAL HISTORY SECTIONS */
+.bio-section {{ max-width:900px; margin:0 auto; padding:50px 20px; }}
+.bio-main-title {{ font-family:'Playfair Display',serif; font-size:2em; color:var(--gold); text-align:center; margin-bottom:6px; }}
+.bio-subtitle {{ text-align:center; color:var(--text-dim); font-size:0.95em; font-weight:300; margin-bottom:40px; }}
+.bio-chapter {{ margin-bottom:40px; padding:20px; background:var(--surface); border:1px solid var(--border); border-radius:4px; }}
+.bio-chapter-title {{ font-family:'Playfair Display',serif; font-size:1.2em; color:var(--gold); cursor:pointer; user-select:none; padding:8px 0; }}
+.bio-chapter-title:hover {{ color:var(--accent); }}
+.bio-chapter-date {{ font-size:0.8em; color:var(--text-faint); margin-bottom:8px; }}
+.bio-chapter-body {{ display:none; font-size:0.9em; color:var(--text-dim); line-height:1.7; padding-top:12px; border-top:1px solid var(--border); }}
+.bio-chapter.open .bio-chapter-body {{ display:block; }}
+.bio-chapter-body p {{ margin-bottom:12px; }}
+.bio-quote {{ border-left:3px solid var(--gold); padding:8px 16px; margin:16px 0; font-style:italic; color:var(--text); background:rgba(201,169,110,.04); }}
+.bio-quote .source {{ display:block; font-style:normal; font-size:0.85em; color:var(--text-faint); margin-top:4px; }}
+.research-article {{ margin-bottom:20px; padding:20px; background:var(--surface); border:1px solid var(--border); border-radius:4px; }}
+.research-article-title {{ font-family:'Playfair Display',serif; font-size:1.05em; color:var(--gold); cursor:pointer; user-select:none; }}
+.research-article-title:hover {{ color:var(--accent); }}
+.research-article-meta {{ font-size:0.78em; color:var(--text-faint); margin:4px 0 0; }}
+.research-article-body {{ display:none; font-size:0.88em; color:var(--text-dim); line-height:1.7; padding-top:12px; border-top:1px solid var(--border); margin-top:8px; }}
+.research-article.open .research-article-body {{ display:block; }}
+.oral-history-card {{ max-width:900px; margin:0 auto; padding:30px; background:var(--surface); border:1px solid var(--gold); border-radius:6px; }}
+.oral-history-card h3 {{ font-family:'Playfair Display',serif; color:var(--gold); font-size:1.1em; margin-bottom:8px; }}
+.oral-history-card p {{ font-size:0.9em; color:var(--text-dim); line-height:1.6; margin-bottom:6px; }}
+.oral-history-card a {{ color:var(--gold); text-decoration:none; }}
+.oral-history-card a:hover {{ text-decoration:underline; }}
+
 /* LIGHTBOX */
 .lightbox {{ display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,.97); z-index:1000; justify-content:center; align-items:center; flex-direction:column; }}
 .lightbox.active {{ display:flex; }}
@@ -6363,8 +6469,172 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
 
 </div>
 
+<!-- ============================================================ -->
+<!-- BIOGRAFIA                                                      -->
+<!-- ============================================================ -->
+<div class="bio-section" id="biografia">
+  <h2 class="bio-main-title">Biografia rodziny Gluchowskich</h2>
+  <p class="bio-subtitle">Piec losow w jednym Powstaniu &mdash; saga oparta na dokumentach z kolekcji prywatnej i relacji Archiwum Historii Mowionej</p>
+
+  <div class="bio-chapter" onclick="this.classList.toggle('open')">
+    <div class="bio-chapter-title">&#9654; Prolog: Patriarcha z Bukowej</div>
+    <div class="bio-chapter-date">1862 &mdash; 1924</div>
+    <div class="bio-chapter-body">
+      <p>Wszystko zaczyna sie w majatku Bukowa pod Piotrkowem Trybunalskim, gdzie Marian Nepomucen Gluchowski herbu Prus II wychowuje synow na Polakow &mdash; w kraju, ktorego na mapie nie ma.</p>
+      <p>Marian Gluchowski urodzil sie w 1862 roku w Sycanowie, w regionie sieradzkim. Byl aktywista PPS, pracownikiem samorzadowym, naczelnikiem wydzialu. Z zona Maria z Ziolkowskich mial trzech synow: Janusza, Stefana i Lecha. Wszyscy trzej pojda do wojska. Dwoch przezyje. Jeden odbierze sobie zycie na barykadzie, zeby nie narazac swoich zolnierzy.</p>
+      <p>Marian zmarl 20 czerwca 1924 roku w Warszawie. Pochowan na Powazkach.</p>
+      <p><strong>Pieciu czlonkow rodziny walczylo w Powstaniu Warszawskim:</strong> gen. dyw. Janusz Julian Gluchowski (1888-1964), ppor. Stanislaw Stefan Gluchowski (1893-1962), sierz. pchor. Wanda Bronislawa Gluchowska &bdquo;Justyna&rdquo; (1901-1976), rtm. Lech Jerzy Gluchowski &bdquo;Jezycki&rdquo; (1902-1944), st.ul. Krzysztof Gluchowski &bdquo;Juras&rdquo; (1926-2020).</p>
+    </div>
+  </div>
+
+  <div class="bio-chapter" onclick="this.classList.toggle('open')">
+    <div class="bio-chapter-title">&#9654; I. Chlopiec z Lazienek</div>
+    <div class="bio-chapter-date">1926 &mdash; 1939</div>
+    <div class="bio-chapter-body">
+      <p>Krzysztof Gluchowski przychodzi na swiat 29 listopada 1926 roku w Warszawie. Jego ojciec Stefan jest kierownikiem referatu w Kancelarii Cywilnej Prezydenta Rzeczypospolitej. Matka Wanda &mdash; magistra farmacji z Uniwersytetu Jana Kazimierza we Lwowie.</p>
+      <p>Mieszkaja w budynku przy bramie Lazienek Krolewskich, tej wychodzacej na Agrykole i ulice Szwolezerow. Krzysztof dorasta w cieniu Palacu Na Wodzie.</p>
+      <div class="bio-quote">&bdquo;To byla wspaniala szkola. Przez szesc lat mielismy tego samego wychowawce-opiekuna naszej klasy. Wiekszosc tych, ktorzy zaczeli od poczatku, ukonczylo szkole.&rdquo;<span class="source">&mdash; Krzysztof Gluchowski, relacja AHM, 31.VII.2009</span></div>
+      <p>W 1935 roku umiera Marszalek Pilsudski. Krzysztof ma dziewiec lat.</p>
+      <div class="bio-quote">&bdquo;Mama przyszla zaplacana i powiedziala: 'Co teraz bedzie z Polska?!'&rdquo;<span class="source">&mdash; Krzysztof Gluchowski, relacja AHM</span></div>
+      <p>Latem 1939 mobilizacja zastaje go z ojcem w Wilnie. 1 wrzesnia 1939 &mdash; wojna. Pierwszy nalot trzynastoletni Krzysztof ogladaz tarasu Palacu Na Wodzie. Sluzy jako goniec LOPP.</p>
+    </div>
+  </div>
+
+  <div class="bio-chapter" onclick="this.classList.toggle('open')">
+    <div class="bio-chapter-title">&#9654; II. Czternastoletni zolnierz</div>
+    <div class="bio-chapter-date">1941 &mdash; 1943</div>
+    <div class="bio-chapter-body">
+      <p>W sierpniu 1941 roku Julek Klepacz &mdash; starszy o cztery lata kolega, kadet &mdash; przychodzi do Krzysztofa z propozycja wciagniecia do konspiracji.</p>
+      <div class="bio-quote">&bdquo;Od teraz na przyszlosc wciagam was do konspiracji i bedziecie zolnierzami Rzeczpospolitej. Zdrada bedzie karana smiercia.&rdquo;<span class="source">&mdash; Julek Klepacz, sierpien 1941</span></div>
+      <p>Formalna przysiega AK &mdash; <strong>11 maja 1942 roku</strong>. Krzysztof ma pietnascie lat. Wykonuje mapy operacyjne, rysunki techniczne broni, zbiera informacje wywiadowcze o gestapowcu Kempfie.</p>
+      <p>We wrzesniu 1943 przechodzi do <strong>plutonu 1112</strong> przy 7 Pulku Ulanow Lubelskich AK, dywizjon &bdquo;Jelen&rdquo;. Dowodca dywizjonu &mdash; jego wuj, rotmistrz Lech Gluchowski ps. &bdquo;Jezycki&rdquo;.</p>
+    </div>
+  </div>
+
+  <div class="bio-chapter" onclick="this.classList.toggle('open')">
+    <div class="bio-chapter-title">&#9654; III. Akcja Wilanow &mdash; matka i syn</div>
+    <div class="bio-chapter-date">26 wrzesnia 1943</div>
+    <div class="bio-chapter-body">
+      <p>Wanda Gluchowska jest sekcyjna w oddziale DYSK &mdash; Dywersja i Sabotaz Kobiet, jedynym kobiecym oddziale specjalnym Kedywu. Operacja 26 wrzesnia 1943 pod Wilanowem.</p>
+      <p>Wanda zostaje postrzelona w noge. Wpada do rowu z granatami. Po odzyskaniu przytomnosci pelznie do okna babki Krzysztofa.</p>
+      <div class="bio-quote">&bdquo;Sluchaj Krzysztof, tutaj jest moj pistolet i musisz go schowac.&rdquo;<span class="source">&mdash; Wanda Gluchowska do syna, po akcji Wilanow</span></div>
+      <p>Krzysztof ukrywa pistolet matki w prawej wiezy palacu wilanowskiego. Za akcje Wilanow Wanda otrzyma Krzyz Walecznych &mdash; 11 listopada 1943.</p>
+    </div>
+  </div>
+
+  <div class="bio-chapter" onclick="this.classList.toggle('open')">
+    <div class="bio-chapter-title">&#9654; IV. Fabryka Kamlera &mdash; serce Powstania</div>
+    <div class="bio-chapter-date">31 lipca &mdash; 6 sierpnia 1944</div>
+    <div class="bio-chapter-body">
+      <p>Poniedzialek, 31 lipca &mdash; Krzysztof wychodzi z domu na Pogonowskiego 9 na Zoliborzu z karabinem pod plaszczem. Nie wroci juz nigdy. Maszeruje do Fabryki Kamlera na Dzielnej 72 &mdash; siedziby Komendy Glownej AK.</p>
+      <p><strong>1 sierpnia 1944, godzina &bdquo;W&rdquo;.</strong> Krzysztof stoi na warcie przy bramie nr 64 od Dzielnej. Wymiana strzalow. General Pelczynski, Szef Sztabu AK, doradza jak rzucac granaty.</p>
+      <p>6 sierpnia &mdash; rozkaz ewakuacji. Trasa przez bylego getto, obok Pawiaka. Na Starowke.</p>
+    </div>
+  </div>
+
+  <div class="bio-chapter" onclick="this.classList.toggle('open')">
+    <div class="bio-chapter-title">&#9654; V. Starowka &mdash; barykady i kanaly</div>
+    <div class="bio-chapter-date">6 sierpnia &mdash; 1 wrzesnia 1944</div>
+    <div class="bio-chapter-body">
+      <p>Szkola na Barokowej staje sie domem plutonu. 13 sierpnia &mdash; pocisk artyleryjski na placu Krasinskich. Porucznik Jerzy Kamler &bdquo;Stolarz&rdquo; ginie na miejscu.</p>
+      <p>Pluton obsadza barykade przy Katedrze. Dwie barykady na Kanonii.</p>
+      <p><strong>1 wrzesnia 1944</strong> &mdash; rozkaz ewakuacji kanalami. Okolo 4500 powstancow wchodzi w scieki ze Starowki.</p>
+      <p><strong>15 wrzesnia</strong> &mdash; wuj Lech, dowodca dywizjonu &bdquo;Jelen&rdquo;, zostaje ciezko ranny na ulicy Dolnej na Sadybie. Odmawia ewakuacji &mdash; odbiera sobie zycie. Z 233 zolnierzy: 125 zabitych, 98 rannych. Straty: 95,7%.</p>
+      <p><strong>2 pazdziernika 1944</strong> &mdash; kapitulacja Powstania.</p>
+    </div>
+  </div>
+
+  <div class="bio-chapter" onclick="this.classList.toggle('open')">
+    <div class="bio-chapter-title">&#9654; VI. Stalag XI-B</div>
+    <div class="bio-chapter-date">pazdziernik 1944 &mdash; kwiecien 1945</div>
+    <div class="bio-chapter-body">
+      <p>7 pazdziernika 1944 &mdash; transport: 80 osob w bydlecym wagonie, dwa dni bez jedzenia i wody. Cel: Stalag XI-B Fallingbostel. Numer jeniecki Krzysztofa: 141009. Trafia do tego samego obozu co ojciec Stefan.</p>
+      <p>Ponad 1100 chlopcow w wieku 11-18 lat walczylo w Powstaniu. 600 niepelnoletnich trafia do obozow.</p>
+      <p><strong>16 kwietnia 1945</strong> &mdash; Stalag XI-B wyzwolony przez Brytyjczykow.</p>
+    </div>
+  </div>
+
+  <div class="bio-chapter" onclick="this.classList.toggle('open')">
+    <div class="bio-chapter-title">&#9654; VII. Od La Courtine do Rio</div>
+    <div class="bio-chapter-date">1945 &mdash; 2020</div>
+    <div class="bio-chapter-body">
+      <p>Krzysztof konczy gimnazjum i liceum przy 3 Dywizji Strzelcow Karpackich. Potem La Courtine, Anglia i PKPR. Zdobywa dyplom Chartered Engineer. Pracuje w firmie CAV-Lucas &mdash; Anglia, Hiszpania, od 1974 Brazylia. Od 1988 na emeryturze w Rio de Janeiro.</p>
+      <p>W 2006-2007 organizuje wystawy o Powstaniu Warszawskim w Rio de Janeiro. 31 lipca 2009 &mdash; sklada relacje w Archiwum Historii Mowionej MPW. 19 listopada 2011 &mdash; Krzyz Oficerski Orderu Odrodzenia Polski.</p>
+      <p>Krzysztof Gluchowski ps. &bdquo;Juras&rdquo; zmarl <strong>16 maja 2020</strong> w Brazylii. Mial dziewiecdziesiat trzy lata. Ostatni z pieciu Gluchowskich, ktorzy walczyli w Powstaniu.</p>
+    </div>
+  </div>
+
+  <div class="bio-chapter" onclick="this.classList.toggle('open')">
+    <div class="bio-chapter-title">&#9654; Epilog: Drzewo, ktore nie padlo</div>
+    <div class="bio-chapter-body">
+      <p>Piec czlonkow jednej rodziny w Powstaniu Warszawskim. General, urzednik prezydenta, farmaceutka-dywersantka, rotmistrz i chlopiec-wartownik. Trzy pokolenia. Jeden herb: Prus II.</p>
+      <p>Lech zginal na Sadybie, wrzesien 1944. Stefan wrocil z niewoli do PRL-u, 1947 &mdash; zmarl w Warszawie, 1962. Wanda prowadzilaapteke do emerytury mimo 30% inwalidztwa &mdash; zmarlw 1976. Janusz zalozyl Instytut Pilsudskiego w Londynie i zmarl w 1964. Krzysztof dotarl najdalej &mdash; do Rio de Janeiro &mdash; i zyl najdluzej.</p>
+      <p>W Instytucie Pilsudskiego w Londynie lezy <strong>Zespol nr 70: Archiwum Janusza Gluchowskiego</strong> &mdash; lustrzane odbicie tej kolekcji.</p>
+      <p>A na Powazkach, w kwaterze 99, leza obok siebie: Lech (I-27), Wanda (IV-19) i Stefan. Rodzina znow razem.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- OPRACOWANIA BADAWCZE                                           -->
+<!-- ============================================================ -->
+<div class="bio-section" id="research">
+  <h2 class="bio-main-title">Opracowania badawcze</h2>
+  <p class="bio-subtitle">Trzy artykuly naukowe oparte na dokumentach z Archiwum Rodziny Gluchowskich</p>
+
+  <div class="research-article" onclick="this.classList.toggle('open')">
+    <div class="research-article-title">&#9654; Piec losow w jednym Powstaniu: rodzina Gluchowskich w dokumentach kolekcji prywatnej</div>
+    <div class="research-article-meta">Studia zrodloznawcze &bull; Artykul badawczy &bull; 2026 &bull; Zrodla: ARG (123 dok.), AHM MPW sygn. 1889, Instytut Pilsudskiego (Zesp. 70, 154)</div>
+    <div class="research-article-body">
+      <p>Analiza zrodloznawcza kolekcji 123 dokumentow archiwalnych dotyczacych rodziny Gluchowskich &mdash; od generala dywizji Janusza Juliana Gluchowskiego, jednego z legendarnej Siodemki Beliny (1914), przez jego brata Stefana, urzednika Kancelarii Cywilnej Prezydenta RP, az po bratanka Krzysztofa, siedemnastoletniego powstanca warszawskiego.</p>
+      <p>Kolekcja obejmuje dokumenty wojskowe, korespondencje, swiadectwa, zaswiadczenia konspiracyjne i fotografie z lat 1914&ndash;1995 w siedmiu jezykach. Jej wartosc badawcza polega na unikalnym przekroju przez cztery kluczowe momenty polskiej historii XX wieku: odzyskanie niepodleglosci (1914&ndash;1918), II Rzeczpospolita (1918&ndash;1939), Powstanie Warszawskie (1944) i emigracja wojenna (1945&ndash;1995).</p>
+      <p>Artykul analizuje strukture zbiorow, identyfikuje osoby i instytucje, rekonstruuje sieci korespondencji miedzy obozami jenieckimi oraz dokumentuje zjawisko konspiracyjnego falszowania dat urodzenia.</p>
+    </div>
+  </div>
+
+  <div class="research-article" onclick="this.classList.toggle('open')">
+    <div class="research-article-title">&#9654; Dywizjon &bdquo;Jelen&rdquo;: regularne wojsko polskie w Powstaniu Warszawskim</div>
+    <div class="research-article-meta">Przeglad Historyczno-Wojskowy &bull; Artykul badawczy &bull; 2026 &bull; Zrodla: ARG (123 dok.), 1944.pl, AHM MPW sygn. 1889</div>
+    <div class="research-article-body">
+      <p>7 Pulk Ulanow Lubelskich AK (kryptonim &bdquo;Jelen&rdquo;) &mdash; jednostka ze stuletnia tradycja, dowodzona przez zawodowych oficerow-weteranow z 1920 roku. Pulk zostal stworzony w 1918 roku przez rotmistrza Janusza Gluchowskiego; w 1944 dowodzil nim rotmistrz Lech Gluchowski (brat Janusza); walczyl w nim siedemnastoletni Krzysztof Gluchowski (syn trzeciego brata, Stefana).</p>
+      <p>Z 233 zolnierzy Dywizjonu poleglo 125, a 98 zostalo rannych &mdash; straty wyniosly <strong>95,7%</strong>. Dowodca, rotmistrz Lech Gluchowski, odebral sobie zycie na Sadybie, gdy zostal ciezko ranny i odmowil narazania zolnierzy na ewakuacje pod ogniem.</p>
+      <p>Artykul dekonstruuje mit o &bdquo;powstaniu cywilnym&rdquo; i analizuje zjawisko podziemnej odbudowy przedwojennych pulkow w Armii Krajowej. Trzy pokolenia jednej rodziny w jednym pulku: dziadek tworca, wuj dowodca, bratanek zolnierz.</p>
+    </div>
+  </div>
+
+  <div class="research-article" onclick="this.classList.toggle('open')">
+    <div class="research-article-title">&#9654; Chlopiec-powstaniec: droga Krzysztofa Gluchowskiego od Fabryki Kamlera do Stalagu XI-B</div>
+    <div class="research-article-meta">Biuletyn IPN &bull; Artykul biograficzny &bull; 2026 &bull; Zrodla: AHM MPW sygn. 1889, ARG (123 dok.), biogramy 1944.pl</div>
+    <div class="research-article-body">
+      <p>Rekonstrukcja pelnego szlaku bojowego Krzysztofa Gluchowskiego ps. &bdquo;Juras&rdquo; (1926&ndash;2020) &mdash; jednego z ponad 1100 chlopcow w wieku 11&ndash;18 lat walczacych w Powstaniu Warszawskim.</p>
+      <p>Na podstawie wielogodzinnej relacji mowionej (AHM MPW, sygn. 1889, 31.VII.2009) oraz 92 dokumentow z kolekcji prywatnej odtworzono chronologie sluzby: od zaprzysiezzenia w AK w wieku pietnastu lat (11.V.1942), przez Akcje Wilanow (IX.1943), walki na Woli, Starym Miescie i w Srodmiesciu (VIII&ndash;IX.1944), ewakuacje kanalami (1.IX.1944), schwytanie przez Niemcow (~29.IX.1944), niewole w Stalagu XI-B Fallingbostel, az po wyzwolenie i emigracje.</p>
+      <p>Szczegolna uwage poswiecono zjawisku konspiracyjnego falszowania dat urodzenia, udokumentowanemu w trzech wariantach (1926, 1920, 1910) w zachowanych dokumentach.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- ARCHIWUM HISTORII MOWIONEJ                                     -->
+<!-- ============================================================ -->
+<div class="bio-section" id="oral-history">
+  <h2 class="bio-main-title">Archiwum Historii Mowionej</h2>
+  <p class="bio-subtitle">Relacja zrodlowa &mdash; Muzeum Powstania Warszawskiego</p>
+
+  <div class="oral-history-card">
+    <h3>Relacja: Krzysztof Gluchowski</h3>
+    <p><strong>Sygnatura:</strong> AHM MPW, sygn. 1889</p>
+    <p><strong>Data nagrania:</strong> 31 lipca 2009</p>
+    <p><strong>Instytucja:</strong> Muzeum Powstania Warszawskiego &mdash; Archiwum Historii Mowionej</p>
+    <p><strong>Opis:</strong> Wielogodzinna relacja osiemdziesieciodwuletniego Krzysztofa Gluchowskiego ps. &bdquo;Juras&rdquo; &mdash; zolnierza AK, powstanca warszawskiego, jenca Stalagu XI-B. Nagranie stanowi podstawe rekonstrukcji szlaku bojowego rodziny Gluchowskich i jest kluczowym zrodlem do wszystkich trzech artykulow badawczych. Relacja obejmuje: dziecinstwo w Lazienkach, konspiracje od 1941, Akcje Wilanow, walki na Woli i Starym Miescie, ewakuacje kanalami, niewole i emigracje.</p>
+    <p><a href="https://www.1944.pl/archiwum-historii-mowionej/krzysztof-gluchowski,1889.html" target="_blank">&#8594; Otworz relacje na 1944.pl</a></p>
+  </div>
+</div>
+
 <nav class="nav">
 <a href="#finding-aid" class="nav-link" style="border-color:var(--gold);color:var(--gold);">Historia rodziny</a>
+<a href="#biografia" class="nav-link">Biografia</a>
+<a href="#research" class="nav-link">Badania</a>
+<a href="#oral-history" class="nav-link">Historia mowiona</a>
 <a href="#valuation" class="nav-link" style="border-color:#c0392b;color:#c0392b;">Wycena</a>
 {nav_html}
 </nav>
