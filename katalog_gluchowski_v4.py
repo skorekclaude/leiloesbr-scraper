@@ -9,10 +9,10 @@
 ║                                                                  ║
 ║  Zespół: ARG — Archiwum Rodziny Głuchowskich                    ║
 ║  Seria I:   Marian Głuchowski (1862–1924)                        ║
-║  Seria II:  Gen. bryg. Janusz Głuchowski (1888–1964)             ║
-║  Seria III: Ppor. Stanisław Stefan Głuchowski (1897–1977)        ║
+║  Seria II:  Gen. dyw. Janusz Głuchowski (1888–1964)              ║
+║  Seria III: Ppor. Stanisław Stefan Głuchowski (1893–1962)        ║
 ║  Seria IV:  Lech Głuchowski (1900–1944)                          ║
-║  Seria V:   St.ul. Krzysztof Andrzej Głuchowski (ur. 1926)      ║
+║  Seria V:   St.ul. Krzysztof Andrzej Głuchowski (1926–2020)     ║
 ║  Seria VI:  Varia / Rodzina                                      ║
 ╚══════════════════════════════════════════════════════════════════╝
 """
@@ -61,15 +61,15 @@ SERIES = [
     },
     {
         "id": "II",
-        "tytul": "Gen. bryg. Janusz Julian Głuchowski (1888–1964)",
-        "opis": "Siódemka Beliny (2.VIII.1914), d-ca 7 P.Uł., gen. bryg. (1933), I Wiceminister Spraw Wojskowych (1935). OB PPS 1905–1908, ZWC w Liège, Legiony, wojna 1920, MSWojsk, PSZ na Zachodzie, emigracja.",
+        "tytul": "Gen. dyw. Janusz Julian Głuchowski (1888–1964)",
+        "opis": "Siódemka Beliny (2.VIII.1914), twórca i d-ca 7 P.Uł. Lubelskich, gen. bryg. (1927), gen. dyw. (1.VI.1945), I Zastępca Ministra Spraw Wojskowych (1935-1939), Dowódca PSZ w Wielkiej Brytanii (1943-1945). OB PPS od 1905 (17 lat!), ZWC w Liège (współzałożyciel z T. Piskorem), Legiony, wojna 1920, MSWojsk, emigracja w Londynie, współzałożyciel Instytutu Piłsudskiego w Londynie (15.III.1947). Pochowany Brompton Cemetery (#576).",
         "daty": "1914–1964",
         "rozmiar": "33 jednostki"
     },
     {
         "id": "III",
-        "tytul": "Ppor. Stanisław Stefan Głuchowski (1897–1977)",
-        "opis": "Oficer 7 P.Uł. Lubelskich, jeniec Stalag XI B (Fallingbostel), nr jeniecki 0.1245/0.1845.",
+        "tytul": "Ppor. Stanisław Stefan Głuchowski (1893–1962)",
+        "opis": "Ur. 1.V.1893, Bukowa. Ppor. rez. kawalerii, leg. AK nr 2856, ps. 'Stefan'. Od 1923 w Kancelarii Cywilnej Prezydenta RP (do 1939). Aresztowany przez Gestapo 18.V.1944, Pawiak, zwolniony 29.VII.1944 (2 dni przed Powstaniem!). AK — Kwatermistrzostwo I Obwodu 'Radwan', Śródmieście. Jeniec Stalag XI-B Fallingbostel (nr 1245). Zm. 17.X.1962, Warszawa, pochowany Powązki.",
         "daty": "1944–1945",
         "rozmiar": "6 jednostek"
     },
@@ -82,8 +82,8 @@ SERIES = [
     },
     {
         "id": "V",
-        "tytul": "St.ul. Krzysztof Andrzej Głuchowski ps. 'Juras' (ur. 29.XI.1926)",
-        "opis": "AK plut. 1112, Obrona Starego Miasta, jeniec Stalag XI B / VI/3 / VI J (nr 141009), Gimnazjum 3 DSK (matura 1946), PKPR, repatriant via Francja (Orsay, Villard-de-Lans), II Korpus we Włoszech, emigracja (Anglia → Brazylia).",
+        "tytul": "St.ul. Krzysztof Andrzej Głuchowski ps. 'Juraś' (29.XI.1926 – V.2020)",
+        "opis": "Ur. 29.XI.1926, Warszawa. Przysięga AK 11.V.1942 (15 lat!). Pluton 1112, 7 P.Uł. AK, dywizjon 'Jeleń'. Obrona Fabryki Kamlera (KG AK), Starówka, ewakuacja kanałami 1.IX.1944, Śródmieście. Jeniec Stalag XI-B Fallingbostel (nr 141009) — ten sam obóz co ojciec! Via Holandia/Belgia/Francja do Włoch, 2 Korpus, Gimnazjum 3 DSK (matura 1946). Emigracja: Anglia → Brazylia (od 1974). Chartered Engineer, publicysta, wydawca bibliofilski. Zm. V.2020, Rio de Janeiro.",
         "daty": "1941–1968",
         "rozmiar": "156 jednostek"
     },
@@ -232,7 +232,7 @@ OBJECTS = [
     },
 
     # =====================================================================
-    # SERIA II — GEN. BRYG. JANUSZ GŁUCHOWSKI
+    # SERIA II — GEN. DYW. JANUSZ GŁUCHOWSKI
     # =====================================================================
 
     # -- Podseria II/A: Dokumenty służby przedwojennej --
@@ -247,7 +247,7 @@ OBJECTS = [
         "seria": "II",
         "tworca": "Wojskowe Biuro Historyczne",
         "jezyk": "polski",
-        "kontekst": "WBH wydawało biogramy dla oficerów-legionistów w ramach dokumentowania czynu zbrojnego. Potwierdza przynależność do 'Siódemki Beliny' — pierwszego patrolu kawaleryjskiego Legionów.",
+        "kontekst": "WBH wydawało biogramy dla oficerów-legionistów w ramach dokumentowania czynu zbrojnego. Potwierdza przynależność do 'Siódemki Beliny' — pierwszego patrolu kawaleryjskiego Legionów. 'ZWC w Liège' = Związek Walki Czynnej — Głuchowski współzałożył tę organizację w Belgii razem z Tadeuszem Piskorem podczas studiów na Politechnice w Liège (~1907-1909). 'OB PPS' = Organizacja Bojowa PPS — Głuchowski wstąpił w 1905 r., mając zaledwie 17 lat.",
         "powiazania": ["ARG/II/2", "ARG/II/4"],
         "stan": "Dobry"
     },
@@ -258,11 +258,11 @@ OBJECTS = [
         "data": "2–3.VIII.1914",
         "typ": "fotokopia",
         "opis_fizyczny": "Fotokopia fotografii grupowej na papierze fotograficznym, format ok. 18×24 cm, odręczne podpisy na marginesie",
-        "opis_tresci": "Fotokopia historycznego zdjęcia 'Siódemki Beliny' — pierwszego patrolu kawaleryjskiego Legionów Polskich (2–3.VIII.1914). Podpisy: Belina-Prażmowski, Głuchowski, Grzmot-Skotnicki, Karnacki i inni.",
+        "opis_tresci": "Fotokopia historycznego zdjęcia 'Siódemki Beliny' — pierwszego patrolu kawaleryjskiego Legionów Polskich (2–3.VIII.1914). Podpisy uczestników: Belina-Prażmowski (ur. 1888 Ruszkowiec, zm. 1938 Wenecja), Głuchowski (ur. 1888 Bukowa, zm. 1964 Londyn), Grzmot-Skotnicki (zm. IX.1939 pod Tułowicami), Bończa-Karwacki (poległ 1916 Kostiuchnówka — pierwszy z Siódemki), Jabłoński ps. 'Zdzisław' (~1896, zm. 1920 — najmłodszy, 18 lat!), Hanka-Kulesza (1892 Gandawa, zm. 5.VI.1964 Londyn — 6 dni przed Głuchowskim!), Kmicic-Skrzyński (1893 Odessa, zm. 1972 Manchester — OSTATNI żyjący z Siódemki).",
         "seria": "II",
         "tworca": "nieznany fotograf / uczestnik patrolu",
         "jezyk": "polski",
-        "kontekst": "IKONOGRAFICZNY DOKUMENT ZAŁOŻYCIELSKI polskiej kawalerii odrodzonej. Patrol Siódemki Beliny (2.VIII.1914) — siedmiu kawalerzystów przeprawiło się przez granicę rosyjską, otwierając kampanię Legionów. Głuchowski był jednym z siedmiu.",
+        "kontekst": "IKONOGRAFICZNY DOKUMENT ZAŁOŻYCIELSKI polskiej kawalerii odrodzonej. Patrol Siódemki Beliny (noc 2/3.VIII.1914) — siedmiu kawalerzystów na rozkaz Piłsudskiego przekroczyło granicę rosyjską, otwierając kampanię Legionów — pierwszy regularny oddział polski od Powstania Styczniowego 1863 r. Głuchowski był zastępcą dowódcy patrolu. Identyfikacja uczestników zweryfikowana wg źródeł IPN i jpilsudski.org.",
         "powiazania": ["ARG/II/1"],
         "stan": "Średni, fotokopia wtórna"
     },
@@ -354,7 +354,7 @@ OBJECTS = [
         "seria": "II",
         "tworca": "Sztab Generalny WP",
         "jezyk": "polski",
-        "kontekst": "AKT ZAŁOŻYCIELSKI 7 PUŁKU UŁANÓW LUBELSKICH. Rozkaz wydany 6 dni przed odzyskaniem niepodległości (11.XI.1918). Głuchowski organizował pułk, którym później dowodził.",
+        "kontekst": "AKT ZAŁOŻYCIELSKI — Głuchowski nie tylko organizował, ale TWORZYŁ oddziały kawalerii w Lublinie i Kraśniku, z których wyrósł przyszły 3 Pułk Ułanów (a nie bezpośrednio 7 P.Uł.). Rozkaz wydany 6 dni przed odzyskaniem niepodległości (11.XI.1918). Głuchowski był pierwszym dowódcą 7 P.Uł. Lubelskich (XI.1918 – VII.1920) i twórcą tradycji pułku, w którym później walczyła cała rodzina (Stefan, Lech, Krzysztof w AK).",
         "powiazania": ["ARG/II/15"],
         "stan": "Dobry"
     },
@@ -431,7 +431,7 @@ OBJECTS = [
         "seria": "II",
         "tworca": "Ministerstwo Spraw Wojskowych",
         "jezyk": "polski",
-        "kontekst": "Krzyż Walecznych — najwyższe polskie odznaczenie bojowe za męstwo na polu walki. Nadanie za wojnę 1920.",
+        "kontekst": "Krzyż Walecznych — najwyższe polskie odznaczenie bojowe za męstwo na polu walki. Nadanie za wojnę 1920. Głuchowski otrzymał KW wielokrotnie (4x wg IPN). Niniejsza legitymacja dokumentuje jedno z tych nadań.",
         "powiazania": ["ARG/II/10", "ARG/II/11"],
         "stan": "Dobry"
     },
@@ -508,7 +508,7 @@ OBJECTS = [
         "seria": "II",
         "tworca": "Prezydent RP / MSWojsk",
         "jezyk": "polski",
-        "kontekst": "Mianowanie na generała brygady — najwyższy stopień osiągnięty przez Głuchowskiego. Dowodzenie Okręgiem Korpusu = zarządzanie garnizonami i mobilizacją na dużym terytorium.",
+        "kontekst": "Głuchowski awansował na gen. brygady już w 1927 r. Dokument z 1933 r. dotyczy prawdopodobnie nominacji na Dowódcę Okręgu Korpusu nr X (1933-1935). Najwyższy stopień — gen. dywizji — otrzymał dopiero 1.VI.1945. Dowodzenie Okręgiem Korpusu = zarządzanie garnizonami i mobilizacją na dużym terytorium.",
         "powiazania": ["ARG/II/17", "ARG/II/19"],
         "stan": "Dobry"
     },
@@ -523,7 +523,7 @@ OBJECTS = [
         "seria": "II",
         "tworca": "Prezydent RP / MSWojsk",
         "jezyk": "polski",
-        "kontekst": "SZCZYT KARIERY — I Wiceminister Spraw Wojskowych = druga osoba w resorcie obrony II RP. Stanowisko kluczowe w przygotowaniach do wojny.",
+        "kontekst": "SZCZYT KARIERY — I Zastępca Ministra Spraw Wojskowych = druga osoba w resorcie obrony II RP. Stanowisko kluczowe w przygotowaniach do wojny. Na tym stanowisku Głuchowski wydał rozkazy tworzące Dowództwo Obrony Warszawy (gen. Czuma) we wrześniu 1939 oraz nakazał ewakuację pilotów do Rumunii.",
         "powiazania": ["ARG/II/18"],
         "stan": "Dobry"
     },
@@ -585,7 +585,7 @@ OBJECTS = [
         "seria": "II",
         "tworca": "atelier fotograficzne (nieznane)",
         "jezyk": "—",
-        "kontekst": "Portret oficjalny generała II RP. Widoczne ordery pozwalają na identyfikację odznaczeń.",
+        "kontekst": "Portret oficjalny generała II RP. Widoczne ordery pozwalają na identyfikację: Virtuti Militari (V kl.), Krzyż Niepodległości z Mieczami, Order Odrodzenia Polski, Krzyż Walecznych (4x), Order Korony Rumuńskiej. Na portrecie w mundurze wz.36 z gwiazdkami generalskimi.",
         "powiazania": [],
         "stan": "Dobry"
     },
@@ -602,7 +602,7 @@ OBJECTS = [
         "seria": "II",
         "tworca": "nieznany nadawca",
         "jezyk": "polski",
-        "kontekst": "Głuchowski po 1939 na emigracji w Londynie, w strukturach PSZ.",
+        "kontekst": "Głuchowski po 1939 internowany w Rumunii, dotarł do Palestyny (X.1940), potem Londyn (II.1941). Od III.1941 generał do dyspozycji Naczelnego Wodza. Od X.1941 dowodził Brygadą Szkolną w Szkocji. Od IX.1943 — Dowódca Polskich Jednostek Wojskowych w Wielkiej Brytanii. List z 14.IX.1943 datowany tuż po objęciu tego kluczowego stanowiska.",
         "powiazania": ["ARG/II/25"],
         "stan": "Dobry"
     },
@@ -632,7 +632,7 @@ OBJECTS = [
         "seria": "II",
         "tworca": "Oficerowie AMS",
         "jezyk": "polski",
-        "kontekst": "Adres iluminowany — tradycyjna forma podziękowań. 'C.B.' = Companion of the Order of the Bath — odznaczenie brytyjskie nadane Głuchowskiemu.",
+        "kontekst": "Adres iluminowany — tradycyjna forma podziękowań. 'C.B.' = Companion of the Order of the Bath — wysokie odznaczenie brytyjskie nadane Głuchowskiemu za dowodzenie polskimi jednostkami w Wielkiej Brytanii (IX.1943 – IX.1945). Adres od oficerów Allied Military Service po zakończeniu wojny.",
         "powiazania": [],
         "stan": "Dobry — kolorowy, dekoracyjny"
     },
@@ -641,7 +641,7 @@ OBJECTS = [
     {
         "sygn": "ARG/II/27",
         "photo": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p09_img01.jpeg",
-        "tytul": "List z Kanady",
+        "tytul": "List z emigracji londyńskiej",
         "data": "ok. 1964",
         "typ": "list",
         "opis_fizyczny": "List odręczny atramentem na papierze listowym, 1 karta",
@@ -649,7 +649,7 @@ OBJECTS = [
         "seria": "II",
         "tworca": "nieznany",
         "jezyk": "polski",
-        "kontekst": "Głuchowski na emigracji w Kanadzie — zmarł w 1964.",
+        "kontekst": "Głuchowski na emigracji w Londynie (NIE w Kanadzie!). Zmarł 11.VI.1964 w Londynie, pochowany na Brompton Cemetery (nr 576). 15.III.1947 współzałożył Instytut Józefa Piłsudskiego w Londynie — jego papiery stanowią jedną z najważniejszych kolekcji tej instytucji.",
         "powiazania": [],
         "stan": "Dobry"
     },
@@ -664,7 +664,7 @@ OBJECTS = [
         "seria": "II",
         "tworca": "Janusz Głuchowski (?)",
         "jezyk": "polski",
-        "kontekst": "50-lecie Legionów = 1964. Organizacja obchodów na emigracji.",
+        "kontekst": "50-lecie Legionów = 1964. Głuchowski zmarł 11.VI.1964, zaledwie kilka tygodni przed rocznicą (6.VIII.1964). Hanka-Kulesza (inny z Siódemki Beliny) zmarł 5.VI.1964 — sześć dni wcześniej! Kmicic-Skrzyński (ostatni żyjący z Siódemki) zmarł dopiero w 1972 w Manchesterze.",
         "powiazania": ["ARG/II/29"],
         "stan": "Dobry"
     },
@@ -679,7 +679,7 @@ OBJECTS = [
         "seria": "II",
         "tworca": "Janusz Głuchowski (?)",
         "jezyk": "polski",
-        "kontekst": "j.w.",
+        "kontekst": "Kontynuacja ARG/II/28. 50-lecie Legionów — Głuchowski organizował obchody na emigracji, ale nie dożył rocznicy (zm. 11.VI.1964, rocznica 6.VIII.1964). Hanka-Kulesza zmarł 5.VI.1964, sześć dni przed Głuchowskim.",
         "powiazania": ["ARG/II/28"],
         "stan": "Dobry"
     },
@@ -3510,7 +3510,7 @@ OBJECTS = [
 
     # -- Naukowy p19 = duplikat p04 (tablica), pomijam --
     # -- Tematyczny p15_img03 = duplikat p12_img03 (KW), pomijam --
-    # -- Naukowy p14_img03 = duplikat p09 (list Kanada?), weryfikacja --
+    # -- Naukowy p14_img03 = duplikat p09 (list z Londynu?), weryfikacja --
 
     # -- Biogramy rodzinne (kontynuacja) --
     {
@@ -3590,7 +3590,7 @@ VALUATIONS = {
         "rekomendacja": "W zestawie z Serią I."
     },
 
-    # === SERIA II — GEN. BRYG. JANUSZ GŁUCHOWSKI ===
+    # === SERIA II — GEN. DYW. JANUSZ GŁUCHOWSKI ===
     "ARG/II/1": {
         "wartosc_hist": "★★★★★",
         "opis_wartosci": "Biogram WBH nr 76/45 potwierdzający Siódemkę Beliny. Dokument łączący bezpośrednio z IKONĄ polskiej historii wojskowej. Zaświadczenia WBH: 500-1500 PLN; tu: Siódemka Beliny = unikatowa proweniencja.",
@@ -3801,7 +3801,7 @@ VALUATIONS = {
     },
     "ARG/II/27": {
         "wartosc_hist": "★★",
-        "opis_wartosci": "List z Kanady. Korespondencja emigracyjna: 200-500 PLN.",
+        "opis_wartosci": "List z emigracji londyńskiej. Korespondencja emigracyjna: 200-500 PLN.",
         "cena_min": 200,
         "cena_max": 500,
         "waluta": "PLN",
@@ -6038,14 +6038,14 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
       <div class="ft-connector">&darr;</div>
       <div class="ft-generation ft-gen-siblings">
         <div class="ft-person">
-          <div class="ft-name">Gen. bryg. Janusz Julian Głuchowski</div>
+          <div class="ft-name">Gen. dyw. Janusz Julian Głuchowski</div>
           <div class="ft-dates">1888 &ndash; 1964</div>
-          <div class="ft-role">Siódemka Beliny. D-ca 7 P.Uł. I Wiceminister Spraw Wojskowych. Companion of the Order of the Bath (C.B.).</div>
+          <div class="ft-role">Siódemka Beliny. Twórca 7 P.Uł. I Zastępca Min. Spraw Wojskowych. D-ca PSZ w UK. Companion of the Order of the Bath (C.B.). Współzałożyciel Instytutu Piłsudskiego w Londynie.</div>
           <div class="ft-docs">Dokumenty: ARG/II/1&ndash;32</div>
         </div>
         <div class="ft-person">
           <div class="ft-name">Ppor. Stanisław Stefan Głuchowski</div>
-          <div class="ft-dates">1897 &ndash; 1977</div>
+          <div class="ft-dates">1893 &ndash; 1962</div>
           <div class="ft-role">Oficer 7 P.Uł. Jeniec Stalag XI B (Fallingbostel), nr 0.1245 / 0.1845. Żona: Zofia (Zocha), ul. Pułaskiej, Kleczew, pow. Radomsko.</div>
           <div class="ft-docs">Dokumenty: ARG/III/1&ndash;9</div>
         </div>
@@ -6412,7 +6412,7 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
       <div class="tl-event">
         <div class="tl-date">1960&ndash;1964</div>
         <div class="tl-body">
-          <strong>Ostatnie ślady.</strong> Nekrolog Jana Lorensa (7 P.Uł.) w Chicago, 1960. Maszynopis Janusza o obchodach 50-lecia Legionów. List z Kanady, ok. 1964 &mdash; rok śmierci generała.
+          <strong>Ostatnie ślady.</strong> Nekrolog Jana Lorensa (7 P.Uł.) w Chicago, 1960. Maszynopis Janusza o obchodach 50-lecia Legionów. List z emigracji londyńskiej, ok. 1964. Głuchowski zmarł 11.VI.1964 w Londynie, pochowany Brompton Cemetery (#576).
           <div class="tl-docs">ARG/VI/9, II/28&ndash;29, II/27</div>
         </div>
       </div>
