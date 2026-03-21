@@ -183,7 +183,21 @@ Gen. Władysław Bortnowski, **Gen. Janusz Głuchowski**, Ludwik Piskor, Wacław
 - Kierownik Harcerstwa, Koło 7 Pułku Ułanów Lubelskich, POSK, SPK, ACIE
 - Wydawca bibliofilski, publicysta, autor wspomnień
 - **2006-2007: wystawy o Powstaniu 1944 w Rio de Janeiro (z Konsulatem RP)**
-- **Relacja w Archiwum Historii Mówionej Muzeum Powstania Warszawskiego**
+- **Relacja w Archiwum Historii Mówionej Muzeum Powstania Warszawskiego** — [PEŁNA TRANSKRYPCJA ONLINE](https://www.1944.pl/archiwum-historii-mowionej/krzysztof-gluchowski,1889.html)
+
+#### KLUCZOWE FAKTY Z RELACJI MÓWIONEJ (AHM 1944.pl):
+- Mieszkał w **budynku dozorcy Łazienek Królewskich** (bramy od Agrykoli i Szwoleżerów)
+- Ukończył **Szkołę Rodziny Wojskowej** (1939) — "To była wspaniała szkoła"
+- Przysięga AK: **11 maja 1942** (miał 15 lat!)
+- Rysował schematy wojskowe i mapy do publikacji podziemnych
+- Prowadził obserwację gestapowca Kempfa na Żurawiej 2
+- **Akcja Wilanów 26.IX.1943:** matka ranna, Krzysztof ukrył jej pistolet w ścianach pałacu i dzwonnicy; ewakuacja dorożką hr. Branickiej do szpitala Ujazdowskiego
+- **1.VIII.1944:** Fabryka Kamlera na Dzielnej — siedziba Komendy Głównej AK
+- Widział gen. Pełczyńskiego dowodzącego walką
+- Świadek śmierci st. strz. Stasia Bukowskiego (snajper)
+- **6.VIII:** ewakuacja z Woli przez ruiny getta na Starówkę
+- **6-13.VIII:** szkoła na Barokowej, rozpoznanie ku Senatorskiej i ul. Króla Alberta
+- **13.VIII:** ppor. Kamler zginął od pocisku na pl. Krasińskich
 
 **Odznaczenia:** Krzyż Walecznych, Krzyż AK (nr 3316), Medal Wojska, War Medal, Krzyż Kawalerski Orderu Odrodzenia Polski (2011!)
 
@@ -499,10 +513,33 @@ Bronisław i Marian to prawdopodobnie BRACIA lub bliscy kuzyni (obaj herbu Prus 
 ## 8. INSTYTUCJE EMIGRACYJNE
 
 ### Instytut Józefa Piłsudskiego w Londynie
-- Założony 1947, współzałożyciel: **Janusz Głuchowski**
+- Założony 15 III 1947, współzałożyciel i pierwszy prezes: **Janusz Głuchowski**
 - 238-246 King Street, London W6 0RF (Hammersmith)
 - Archiwa: dokumenty legionowe, zdjęcia, pamiętniki, mapy
 - **Kluczowe repozytorium** — mogą mieć materiały dot. kolekcji
+
+#### ZNALEZIONE ZESPOŁY ARCHIWALNE:
+
+**Zespół nr 70: Archiwum Janusza Głuchowskiego**
+- Typ: archiwum osobiste
+- Zakres chronologiczny: 1916-1964
+- Zawartość:
+  - Dokumenty osobiste (1916-1964)
+  - Korespondencja z Kołem Generałów (1948-1963)
+  - Raporty sztabowe (1940-1945)
+  - Materiały emigracyjne (1946-1961)
+- **BEZPOŚREDNIO POWIĄZANE z naszą kolekcją** — dokumenty z tego samego okresu i tej samej osoby
+
+**Zespół nr 154, wpis #314: Głuchowski Janusz Julian (1888-1964)**
+- Dokumenty: 1921-1964
+- Prawdopodobnie uzupełnia Zespół nr 70 o materiały z okresu międzywojennego
+- Może zawierać dokumenty dotyczące Kancelarii Cywilnej Prezydenta RP (Stefan tam pracował 1921-1939)
+
+#### Znaczenie dla kolekcji:
+- Zespół nr 70 jest **lustrzanym odbiciem** naszej kolekcji — te same osoby, ten sam okres
+- Korespondencja z Kołem Generałów (1948-63) może zawierać listy do/od osób widocznych na naszych zdjęciach
+- Raporty sztabowe (1940-45) mogą kontekstualizować dokumenty wojskowe Krzysztofa i Stefana
+- **Rekomendacja:** kontakt z Instytutem (archives@pilsudski.org.uk) w celu porównania zbiorów
 
 ### SPK (Stowarzyszenie Polskich Kombatantów)
 - Założone 1945 we Włoszech (II Korpus Andersa)
@@ -700,6 +737,9 @@ Wiele byłych baz RAF i obozów wojskowych przekształcono na ośrodki dla Polak
 - [IPN: Kmicic-Skrzyński](https://ipn.gov.pl/pl/publikacje/publikacje-edukacyjne-i/189325)
 - [jpilsudski.org: Hanka-Kulesza](https://jpilsudski.org/artykuly-personalia-biogramy/generalicja-oficerowie-zolnierze/item/1807-plk-stefan-hanka-kulesza)
 
+### Archiwum Historii Mówionej (1944.pl):
+- [Krzysztof Głuchowski "Juraś" — pełna relacja](https://www.1944.pl/archiwum-historii-mowionej/krzysztof-gluchowski,1889.html) — **KLUCZOWE!** Wielogodzinny wywiad z transkrypcją
+
 ### Inne:
 - [Kresowa Brygada Kawalerii — bohaterowie1939.pl](https://www.bohaterowie1939.pl/_content.php?a=content_listing&idKontent=167)
 - [PKPR/PRC — kresyfamily.com](https://www.kresyfamily.com/9-prc.html)
@@ -715,4 +755,4 @@ Wiele byłych baz RAF i obozów wojskowych przekształcono na ośrodki dla Polak
 
 ---
 
-*Raport wygenerowany 21.03.2026 na podstawie 7 agentów research (wiedza treningowa + web search). Ostatnia aktualizacja po agencie "Polska wojskowość 1910-1950" z 46 źródłami internetowymi.*
+*Raport wygenerowany 21.03.2026 na podstawie 7 agentów research (wiedza treningowa + web search). Ostatnia aktualizacja: 21.03.2026 — dodano Zespoły archiwalne Instytutu Piłsudskiego w Londynie (nr 70, nr 154).*

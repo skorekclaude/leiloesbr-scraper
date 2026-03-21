@@ -392,7 +392,7 @@ body { background:var(--bg); color:var(--text); font-family:'Inter',sans-serif; 
     <div class="timeline-dot" style="border-color:#e74c3c;"><div class="timeline-date">~1918</div><div class="timeline-label" style="color:#e74c3c;">Stefan Głuchowski — dekret Naczelnika Państwa</div></div>
     <div class="timeline-dot" style="border-color:var(--gold);"><div class="timeline-date">VII.1920</div><div class="timeline-label" style="color:var(--gold);">Dow. I Brygady Kawalerii (wojna 1920)</div></div>
     <div class="timeline-dot" style="border-color:#e74c3c;"><div class="timeline-date">1.VII.1921</div><div class="timeline-label" style="color:#e74c3c;">Stefan — przyjęcie do Kancelarii Cywilnej</div></div>
-    <div class="timeline-dot life"><div class="timeline-date">19.XI.1926</div><div class="timeline-label" style="color:var(--blue);">Ur. Krzysztof-Andrzej (Brzeżany)</div></div>
+    <div class="timeline-dot life"><div class="timeline-date">29.XI.1926</div><div class="timeline-label" style="color:var(--blue);">Ur. Krzysztof-Andrzej (Warszawa)</div></div>
     <div class="timeline-dot" style="border-color:var(--gold);"><div class="timeline-date">1927</div><div class="timeline-label" style="color:var(--gold);">Janusz — generał brygady</div></div>
     <div class="timeline-dot" style="border-color:#e74c3c;"><div class="timeline-date">8.VI.1929</div><div class="timeline-label" style="color:#e74c3c;">Stefan — Srebrny Krzyż Zasługi</div></div>
     <div class="timeline-dot" style="border-color:#e74c3c;"><div class="timeline-date">2.XI.1930</div><div class="timeline-label" style="color:#e74c3c;">Stefan — polowanie w Spale z Prezydentem</div></div>
@@ -405,8 +405,13 @@ body { background:var(--bg); color:var(--text); font-family:'Inter',sans-serif; 
     <div class="timeline-dot" style="border-color:var(--gold);"><div class="timeline-date">II.1941</div><div class="timeline-label" style="color:var(--gold);">Janusz — dociera do Londynu</div></div>
     <div class="timeline-dot" style="border-color:#e74c3c;"><div class="timeline-date">15.IX.1942</div><div class="timeline-label" style="color:#e74c3c;">Kriegsgefangenenpost z Oflagu do Stefana w Radomiu</div></div>
     <div class="timeline-dot" style="border-color:var(--gold);"><div class="timeline-date">IX.1943</div><div class="timeline-label" style="color:var(--gold);">Janusz — Dow. Jednostek Polskich w W. Brytanii</div></div>
+    <div class="timeline-dot" style="border-color:var(--blue);"><div class="timeline-date">11.V.1942</div><div class="timeline-label" style="color:var(--blue);">Krzysztof — przysięga AK (15 lat!)</div></div>
+    <div class="timeline-dot" style="border-color:var(--blue);"><div class="timeline-date">26.IX.1943</div><div class="timeline-label" style="color:var(--blue);">⚔ Akcja Wilanów — matka Wanda ranna, Krzysztof ukrywa pistolet</div></div>
+    <div class="timeline-dot" style="border-color:#e74c3c;"><div class="timeline-date">18.V.1944</div><div class="timeline-label" style="color:#e74c3c;">Stefan — aresztowany przez Gestapo! Pawiak</div></div>
     <div class="timeline-dot" style="border-color:#e74c3c;"><div class="timeline-date">25.VII.1944</div><div class="timeline-label" style="color:#e74c3c;">🔴 Stefan — zaświadczenie AK nr 2856 (6 dni przed Powstaniem!)</div></div>
     <div class="timeline-dot life"><div class="timeline-date">1.VIII.1944</div><div class="timeline-label" style="color:#e74c3c;">⚔ POWSTANIE WARSZAWSKIE — Stefan walczy w Śródmieściu</div></div>
+    <div class="timeline-dot" style="border-color:var(--blue);"><div class="timeline-date">1.VIII.1944</div><div class="timeline-label" style="color:var(--blue);">Krzysztof — Fabryka Kamlera (KG AK), potem Starówka</div></div>
+    <div class="timeline-dot life" style="border-color:#e74c3c;"><div class="timeline-date">15.IX.1944</div><div class="timeline-label" style="color:#e74c3c;">💀 Lech "Jeżycki" — ginie na Sadybie (samobójstwo bojowe)</div></div>
     <div class="timeline-dot" style="border-color:var(--gold);"><div class="timeline-date">1.VI.1945</div><div class="timeline-label" style="color:var(--gold);">Janusz — generał dywizji</div></div>
     <div class="timeline-dot" style="border-color:#e74c3c;"><div class="timeline-date">1945–1947</div><div class="timeline-label" style="color:#e74c3c;">Stefan — jeniec w obozie w Niemczech (listy do Janusza)</div></div>
     <div class="timeline-dot" style="border-color:var(--blue);"><div class="timeline-date">14.VII.1945</div><div class="timeline-label" style="color:var(--blue);">Krzysztof — zaciąg do Polish Forces</div></div>
@@ -1724,6 +1729,7 @@ document.addEventListener('keydown', e => { if(e.key==='Escape') closeLB(); });
 
 // === MULTI-PAGE NAVIGATION ===
 function showPage(docId, filename, btn) {
+  event.stopPropagation();
   const img = document.getElementById(docId + '-img');
   img.src = 'gluchowski_img/' + filename;
   btn.parentElement.querySelectorAll('.page-dot').forEach(d => d.classList.remove('active'));
