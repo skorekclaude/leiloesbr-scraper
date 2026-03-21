@@ -7310,6 +7310,54 @@ document.addEventListener('DOMContentLoaded', function() {{
 }});
 </script>'''
 
+    # =============================================
+    # PHOTO ARCHIVE — thumbnail grid
+    # =============================================
+    photo_cards = ""
+    photo_count = 0
+    all_typy = set()
+    all_serie = set()
+    for obj in OBJECTS:
+        photo = obj.get("photo", "")
+        if not photo:
+            continue
+        photo_count += 1
+        sygn = obj["sygn"]
+        title = obj.get("tytul", "")[:60]
+        seria = obj.get("seria", "")
+        typ = obj.get("typ", "")
+        typ_label = DOC_TYPES.get(typ, typ)
+        all_typy.add(typ)
+        all_serie.add(seria)
+        img_path = f"gluchowski_img/{photo}"
+        photo_cards += f'''<div class="photo-card" data-seria="{escape(seria)}" data-typ="{escape(typ)}" data-search="{escape(sygn.lower())} {escape(title.lower())}" onclick="openLightbox('{IMG_DIR}/{photo}', '{escape(obj.get('tytul', ''))}')">
+        <img src="{img_path}" alt="{escape(sygn)}" loading="lazy">
+        <div class="card-info">
+            <div class="card-sygn">{escape(sygn)}</div>
+            <div class="card-title">{escape(title)}</div>
+        </div>
+    </div>\n'''
+
+    # Build filter options
+    seria_options = ''.join(f'<option value="{s}">Seria {s}</option>' for s in sorted(all_serie))
+    typ_options = ''.join(f'<option value="{t}">{escape(DOC_TYPES.get(t, t))}</option>' for t in sorted(all_typy))
+
+    photo_archive_html = f'''<div class="filter-bar">
+    <select id="filter-seria" onchange="filterPhotos()">
+        <option value="">Wszystkie serie</option>
+        {seria_options}
+    </select>
+    <select id="filter-typ" onchange="filterPhotos()">
+        <option value="">Wszystkie typy</option>
+        {typ_options}
+    </select>
+    <input type="text" id="filter-search" placeholder="Szukaj (sygnatura, tytul)..." oninput="filterPhotos()">
+    <div class="photo-count" id="photo-count">{photo_count} fotografii</div>
+</div>
+<div class="photo-grid" id="photo-grid">
+    {photo_cards}
+</div>'''
+
     html = f'''<!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -7529,12 +7577,139 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
 /* FOOTER */
 .footer {{ text-align:center; padding:50px 20px; color:var(--text-faint); font-size:0.78em; border-top:1px solid var(--border); line-height:1.8; }}
 
+/* TAB NAVIGATION */
+.tab-nav {{
+    display: flex;
+    gap: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--gold);
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}}
+.tab-btn {{
+    padding: 12px 24px;
+    background: var(--surface);
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Source Sans 3', sans-serif;
+    color: var(--text-dim);
+    border-bottom: 3px solid transparent;
+    transition: all 0.2s;
+}}
+.tab-btn.active {{
+    background: var(--surface2);
+    border-bottom: 3px solid var(--gold);
+    font-weight: bold;
+    color: var(--gold);
+}}
+.tab-btn:hover {{
+    background: var(--surface2);
+    color: var(--text);
+}}
+.tab-content {{
+    display: none;
+}}
+.tab-content.active {{
+    display: block;
+}}
+
+/* PHOTO ARCHIVE GRID */
+.photo-grid {{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    padding: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}}
+.photo-card {{
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background: var(--surface);
+}}
+.photo-card:hover {{
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,.4);
+    border-color: var(--accent);
+}}
+.photo-card img {{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}}
+.photo-card .card-info {{
+    padding: 8px;
+    font-size: 12px;
+}}
+.photo-card .card-sygn {{
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+    color: var(--gold);
+    font-size: 11px;
+}}
+.photo-card .card-title {{
+    color: var(--text-dim);
+    margin-top: 4px;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}}
+
+/* FILTER BAR */
+.filter-bar {{
+    display: flex;
+    gap: 12px;
+    padding: 15px 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin: 0 auto 15px;
+    max-width: 1400px;
+    flex-wrap: wrap;
+    align-items: center;
+}}
+.filter-bar select, .filter-bar input {{
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-size: 14px;
+    background: var(--surface2);
+    color: var(--text);
+    font-family: 'Source Sans 3', sans-serif;
+}}
+.filter-bar select:focus, .filter-bar input:focus {{
+    outline: none;
+    border-color: var(--gold);
+}}
+.filter-bar input {{
+    flex: 1;
+    min-width: 200px;
+}}
+.photo-count {{
+    font-size: 13px;
+    color: var(--text-dim);
+    margin-left: auto;
+}}
+
 @media(max-width:700px) {{
   .cards-grid {{ grid-template-columns:1fr; }}
   .header h1 {{ font-size:1.6em; }}
   .series-title {{ font-size:1.3em; }}
   .val-table {{ font-size:0.7em; }}
   .val-top-lots {{ grid-template-columns:1fr; }}
+  .photo-grid {{ grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; padding: 10px; }}
+  .photo-card img {{ height: 110px; }}
+  .tab-btn {{ padding: 10px 14px; font-size: 13px; }}
+  .filter-bar {{ padding: 10px; gap: 8px; }}
+  .filter-bar select, .filter-bar input {{ font-size: 13px; padding: 6px 10px; }}
 }}
 </style>
 </head>
@@ -8182,6 +8357,12 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
   </div>
 </div>
 
+<div class="tab-nav">
+  <button class="tab-btn active" onclick="switchTab('katalog', this)">&#128218; Katalog</button>
+  <button class="tab-btn" onclick="switchTab('archiwum', this)">&#128247; Archiwum Fotograficzne</button>
+</div>
+
+<div class="tab-content active" id="tab-katalog">
 <nav class="nav">
 <a href="#finding-aid" class="nav-link" style="border-color:var(--gold);color:var(--gold);">Historia rodziny</a>
 <a href="#biografia" class="nav-link">Biografia</a>
@@ -8194,6 +8375,11 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
 {series_html}
 
 {valuation_html}
+</div>
+
+<div class="tab-content" id="tab-archiwum">
+{photo_archive_html}
+</div>
 
 <div class="footer">
   Katalog opracowany metodą muzealną na podstawie bezpośredniej analizy wizualnej dokumentów.<br>
@@ -8359,6 +8545,33 @@ document.addEventListener('keydown', e => {{
   if(e.key==='-' || e.key==='_') zoomOut();
   if(e.key==='0') zoomReset();
 }});
+
+/* Tab switching */
+function switchTab(tabId, btn) {{
+  document.querySelectorAll('.tab-content').forEach(tc => tc.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(tb => tb.classList.remove('active'));
+  document.getElementById('tab-' + tabId).classList.add('active');
+  btn.classList.add('active');
+  window.scrollTo({{ top: 0, behavior: 'smooth' }});
+}}
+
+/* Photo grid filtering */
+function filterPhotos() {{
+  const seria = document.getElementById('filter-seria').value;
+  const typ = document.getElementById('filter-typ').value;
+  const search = document.getElementById('filter-search').value.toLowerCase().trim();
+  const cards = document.querySelectorAll('.photo-card');
+  let visible = 0;
+  cards.forEach(card => {{
+    let show = true;
+    if (seria && card.dataset.seria !== seria) show = false;
+    if (typ && card.dataset.typ !== typ) show = false;
+    if (search && card.dataset.search.indexOf(search) === -1) show = false;
+    card.style.display = show ? '' : 'none';
+    if (show) visible++;
+  }});
+  document.getElementById('photo-count').textContent = visible + ' fotografii';
+}}
 </script>
 
 </body>
