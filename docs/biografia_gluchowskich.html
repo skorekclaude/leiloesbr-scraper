@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Głuchowscy — Pięć losów w jednym Powstaniu</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0a0a;
+  --surface: #141414;
+  --surface2: #1c1c1c;
+  --border: #252525;
+  --text: #e0ddd8;
+  --text-dim: #7a7a7a;
+  --gold: #c9a84c;
+  --gold-dim: rgba(201,168,76,.15);
+  --red: #c0392b;
+  --blue: #3498db;
+  --green: #27ae60;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:var(--bg); color:var(--text); font-family:'EB Garamond',serif; line-height:1.85; }
+
+/* === NAVIGATION === */
+.top-nav {
+  position:sticky; top:0; z-index:100;
+  background:rgba(10,10,10,.95); backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--border);
+  padding:10px 20px;
+  display:flex; justify-content:space-between; align-items:center;
+}
+.top-nav a { color:var(--text-dim); text-decoration:none; font-family:'Inter',sans-serif; font-size:.8em; transition:color .2s; }
+.top-nav a:hover { color:var(--gold); }
+.nav-links { display:flex; gap:20px; flex-wrap:wrap; }
+
+/* === HERO === */
+.hero {
+  min-height:80vh; display:flex; flex-direction:column; justify-content:center; align-items:center;
+  text-align:center; padding:80px 24px;
+  background:linear-gradient(180deg, rgba(201,168,76,.04) 0%, transparent 60%);
+  border-bottom:1px solid var(--border);
+}
+.hero h1 {
+  font-family:'Playfair Display',serif; font-weight:900; font-size:clamp(2.4em,6vw,4.5em);
+  color:var(--gold); line-height:1.15; margin-bottom:16px;
+  letter-spacing:-.02em;
+}
+.hero .subtitle {
+  font-size:clamp(1.1em,2.5vw,1.5em); color:var(--text-dim); font-style:italic;
+  max-width:700px; margin-bottom:40px;
+}
+.hero .meta {
+  font-family:'Inter',sans-serif; font-size:.78em; color:var(--text-dim);
+  display:flex; gap:24px; flex-wrap:wrap; justify-content:center;
+}
+.hero .meta span { display:flex; align-items:center; gap:6px; }
+
+/* === CONTENT === */
+.content { max-width:760px; margin:0 auto; padding:60px 24px; }
+
+.chapter-marker {
+  text-align:center; padding:60px 0 30px;
+  border-top:1px solid var(--border);
+  margin-top:60px;
+}
+.chapter-marker:first-child { border-top:none; margin-top:0; }
+.chapter-num { font-family:'Inter',sans-serif; font-size:.7em; letter-spacing:.2em; text-transform:uppercase; color:var(--gold); }
+.chapter-title {
+  font-family:'Playfair Display',serif; font-size:clamp(1.5em,3.5vw,2.2em);
+  color:var(--text); margin-top:8px; font-weight:700;
+}
+.chapter-date { font-family:'Inter',sans-serif; font-size:.8em; color:var(--text-dim); margin-top:8px; }
+
+p { margin-bottom:1.4em; font-size:1.15em; text-align:justify; hyphens:auto; }
+p.lead { font-size:1.35em; color:var(--text); font-weight:500; text-align:left; }
+p.quote {
+  border-left:3px solid var(--gold); padding:12px 20px; margin:28px 0;
+  background:var(--gold-dim); font-style:italic; font-size:1.1em; color:var(--text);
+}
+p.quote .source { display:block; font-style:normal; font-size:.82em; color:var(--text-dim); margin-top:8px; }
+
+/* === FAMILY TREE INLINE === */
+.family-box {
+  background:var(--surface); border:1px solid var(--border); border-radius:10px;
+  padding:28px; margin:36px 0;
+}
+.family-box h3 { font-family:'Playfair Display',serif; color:var(--gold); margin-bottom:16px; font-size:1.2em; }
+.family-member { padding:10px 0; border-bottom:1px solid var(--border); }
+.family-member:last-child { border-bottom:none; }
+.family-member .name { color:var(--gold); font-weight:600; font-size:1.05em; }
+.family-member .role { color:var(--text-dim); font-size:.9em; }
+.family-member .fate { color:var(--red); font-size:.88em; font-weight:500; margin-top:4px; }
+.family-member .fate.survived { color:var(--green); }
+
+/* === TIMELINE INLINE === */
+.timeline-inline { margin:36px 0; padding:0 0 0 20px; border-left:2px solid var(--gold); }
+.timeline-inline .event { padding:12px 0 12px 20px; position:relative; }
+.timeline-inline .event::before {
+  content:''; position:absolute; left:-25px; top:18px;
+  width:10px; height:10px; background:var(--gold); border-radius:50%;
+}
+.timeline-inline .event.death::before { background:var(--red); }
+.timeline-inline .event .date { font-family:'Inter',sans-serif; font-size:.78em; color:var(--gold); font-weight:600; }
+.timeline-inline .event .desc { font-size:1em; }
+
+/* === STATISTICS BOX === */
+.stat-box {
+  display:grid; grid-template-columns:repeat(auto-fit, minmax(140px,1fr)); gap:16px;
+  margin:36px 0; padding:24px; background:var(--surface); border:1px solid var(--border); border-radius:10px;
+}
+.stat { text-align:center; }
+.stat .num { font-family:'Playfair Display',serif; font-size:2em; color:var(--gold); font-weight:700; }
+.stat .label { font-family:'Inter',sans-serif; font-size:.72em; color:var(--text-dim); text-transform:uppercase; letter-spacing:.1em; }
+
+/* === SOURCE NOTE === */
+.source-note {
+  background:var(--surface); border:1px solid var(--border); border-radius:8px;
+  padding:20px; margin:36px 0; font-family:'Inter',sans-serif; font-size:.82em; color:var(--text-dim);
+}
+.source-note a { color:var(--gold); }
+
+/* === FOOTER === */
+.footer {
+  text-align:center; padding:60px 24px; border-top:1px solid var(--border);
+  font-family:'Inter',sans-serif; font-size:.8em; color:var(--text-dim);
+}
+.footer a { color:var(--gold); text-decoration:none; }
+
+/* === RESPONSIVE === */
+@media (max-width:600px) {
+  .content { padding:40px 16px; }
+  p { font-size:1.05em; }
+  .stat-box { grid-template-columns:repeat(2,1fr); }
+}
+</style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="top-nav">
+  <a href="transkrypcja_demo.html">← Katalog dokumentow</a>
+  <div class="nav-links">
+    <a href="#prolog">Prolog</a>
+    <a href="#lazienki">Lazienki</a>
+    <a href="#konspiracja">Konspiracja</a>
+    <a href="#wilanow">Wilanow</a>
+    <a href="#powstanie">Powstanie</a>
+    <a href="#kanaly">Kanaly</a>
+    <a href="#niewola">Niewola</a>
+    <a href="#emigracja">Emigracja</a>
+    <a href="#rodzina">Rodzina</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Piec losow w jednym Powstaniu</h1>
+  <div class="subtitle">Saga rodziny Gluchowskich — od Siodemki Beliny po kanaly Starówki. Opowiesc oparta na dokumentach z kolekcji prywatnej i relacji Archiwum Historii Mówionej Muzeum Powstania Warszawskiego.</div>
+  <div class="meta">
+    <span>Na podstawie wywiadu AHM z 31 lipca 2009</span>
+    <span>123 dokumenty archiwalne</span>
+    <span>67 zrodel internetowych</span>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<div class="content">
+
+<!-- PROLOG -->
+<div class="chapter-marker" id="prolog">
+  <div class="chapter-num">Prolog</div>
+  <div class="chapter-title">Patriarcha z Bukowej</div>
+  <div class="chapter-date">1862 — 1924</div>
+</div>
+
+<p class="lead">Wszystko zaczyna sie w majatku Bukowa pod Piotrkowem Trybunalskim, gdzie Marian Nepomucen Gluchowski herbu Prus II wychowuje synow na Polakow — w kraju, ktorego na mapie nie ma.</p>
+
+<p>Marian Gluchowski urodzil sie w 1862 roku w Sycanowie, w regionie sieradzkim. Byl aktywista PPS, pracownikiem samorzadowym, naczelnikiem wydzialu. Z zona Maria z Ziolkowskich mial trzech synow: Janusza, Stefana i Lecha. Wszyscy trzej pojda do wojska. Dwoch przezyje. Jeden odbierze sobie zycie na barykadzie, zeby nie narazac swoich zolnierzy.</p>
+
+<p>Marian zmarl 20 czerwca 1924 roku w Warszawie. Pochowan na Powazkach. Nie doczyl tego, co jego synowie zrobia dla Polski. Moze to i lepiej — bo nie doczyl tez tego, co Polska zrobi z jego synami.</p>
+
+<div class="family-box">
+  <h3>Rodzina Gluchowskich — piec osob w Powstaniu</h3>
+
+  <div class="family-member">
+    <div class="name">gen. dyw. Janusz Julian Gluchowski (1888-1964)</div>
+    <div class="role">Siodemka Beliny, I Zast. Ministra Spraw Wojskowych, zalozyciel Instytutu Pilsudskiego w Londynie</div>
+    <div class="fate survived">Emigracja — Londyn. Zmarl 11.VI.1964, Brompton Cemetery</div>
+  </div>
+
+  <div class="family-member">
+    <div class="name">ppor. Stanislaw Stefan Gluchowski ps. "Stefan" / "Radwan" (1893-1962)</div>
+    <div class="role">Kancelaria Cywilna Prezydenta RP 1921-1939, kwatermistrzostwo AK Obwod Srodmiescie</div>
+    <div class="fate">Aresztowany przez Gestapo 18.V.1944. Pawiak. Zwolniony 29.VII — 2 dni przed Powstaniem. Walczyl. Jeniec. Powrot do PRL 1947.</div>
+  </div>
+
+  <div class="family-member">
+    <div class="name">sierz. pchor. Wanda Bronislawa Gluchowska z d. Zembrzuskich ps. "Justyna"/"Krysta" (1901-1976)</div>
+    <div class="role">Magister farmacji, DYSK (jedyny kobiecy oddzial specjalny Kedywu), laczniczka gen. Okulickiego</div>
+    <div class="fate">Ciezko ranna w Akcji Wilanow 26.IX.1943, 30% inwalidztwa. Aresztowana przez UB po wojnie.</div>
+  </div>
+
+  <div class="family-member">
+    <div class="name">rtm. Lech Jerzy Gluchowski ps. "Jezycki" / "Uciech" (1902-1944)</div>
+    <div class="role">Dowodca Dywizjonu "Jelen", 7 Pulk Ulanow Lubelskich AK</div>
+    <div class="fate">ZGINAL 15.IX.1944. Ciezko ranny na ul. Dolnej — odebral sobie zycie, zeby nie narazac zolnierzy na ewakuacje pod ogniem.</div>
+  </div>
+
+  <div class="family-member">
+    <div class="name">st. ul. Krzysztof Gluchowski ps. "Juras" (1926-2020)</div>
+    <div class="role">Pluton 1112, ochrona Komendy Glownej AK, wartownik gen. Bora-Komorowskiego</div>
+    <div class="fate survived">Jeniec Stalag XI-B. Wyzwolony 16.IV.1945. Emigracja: Wlochy → Anglia → Brazylia. Zmarl w Rio de Janeiro.</div>
+  </div>
+</div>
+
+<div class="stat-box">
+  <div class="stat"><div class="num">5</div><div class="label">czlonkow rodziny<br>w Powstaniu</div></div>
+  <div class="stat"><div class="num">1</div><div class="label">zginal<br>w walce</div></div>
+  <div class="stat"><div class="num">3</div><div class="label">ranni lub<br>wiezieni</div></div>
+  <div class="stat"><div class="num">93</div><div class="label">lata zycia<br>Krzysztofa</div></div>
+</div>
+
+<!-- ROZDZIAL 1 — LAZIENKI -->
+<div class="chapter-marker" id="lazienki">
+  <div class="chapter-num">Rozdzial I</div>
+  <div class="chapter-title">Chlopiec z Lazienek</div>
+  <div class="chapter-date">1926 — 1939</div>
+</div>
+
+<p class="lead">Krzysztof Gluchowski przychodzi na swiat 29 listopada 1926 roku w Warszawie. Jego ojciec Stefan jest kierownikiem referatu w Kancelarii Cywilnej Prezydenta Rzeczypospolitej. Matka Wanda — magistra farmacji z Uniwersytetu Jana Kazimierza we Lwowie.</p>
+
+<p>Mieszkaja w budynku przy bramie Lazienek Krolewskich, tej wychodzacej na Agrykole i ulice Szwolezerow. Krzysztof dorasta w cieniu Palacu Na Wodzie, wsrod alejek parku, ktory za kilka lat stanie sie jego pierwszym polem bitwy.</p>
+
+<p>Chodzi do Szkoly Rodziny Wojskowej — szescioletniej szkoly dla dzieci oficerów i urzednikow wojskowych. Trzydziescioro dwoje dzieci w klasie, ten sam wychowawca przez szesc lat.</p>
+
+<p class="quote">"To byla wspaniala szkola. Przez szesc lat mielismy tego samego wychowawce-opiekuna naszej klasy. Wiekszosc tych, którzy zaczeli od poczatku, ukonczylo szkole. Do dnia dzisiejszego utrzymujemy bardzo bliskie kontakty."
+<span class="source">— Krzysztof Gluchowski, relacja AHM, 31.VII.2009</span></p>
+
+<p>W 1935 roku umiera Marszalek Pilsudski. Krzysztof ma dziewiec lat. Pamietamatki reakcje:</p>
+
+<p class="quote">"Mama przyszla zapłakana i powiedziala: 'Co teraz bedzie z Polska?!'"
+<span class="source">— Krzysztof Gluchowski, relacja AHM</span></p>
+
+<p>Gluchowscy sa pilsudczykami — nie w sensie partyjnym, lecz jako wierni wyznawcy Komendanta. Ojciec Stefan, choc nie mogl sluzyc w Legionach z powodu ciezkiego reumatyzmu, wstapil do wojska w 1919 roku. W domu o Pilsudskim mowi sie zawsze "Komendant" — tak jak mowili legionisci.</p>
+
+<p>Ostatnie lata pokoju plyna na podrozach. Kazdy rodzic tamtego pokolenia dba, zeby dzieci znaly Polske — te Polske, ktorej nie bylo na mapie przez 123 lata. Od morza po Tatry, od Poznania po Wolyn.</p>
+
+<p>Latem 1939 Krzysztof jedzie na oboz YMCA do Mszany Dolnej, potem do Krakowa, do majatku Branickich w Rosi kolo Bialymstoku, gdzie mlodszy wuj Lech zarzadza dobrami. Mobilizacja zastaje go z ojcem w Wilnie. Saperzy wbijaja w chodniki tablice kierunkowe. Ojciec, jako urzednik Kancelarii Prezydenta, musi natychmiast wrocic do Warszawy.</p>
+
+<p>1 wrzesnia 1939 — wojna. Pierwszy nalot trzynastoletni Krzysztof ogladaz tarasu Palacu Na Wodzie w Lazienkach. Sluzy jako goniec LOPP — Ligi Obrony Powietrznej i Przeciwgazowej. To juz nie jest zabawa.</p>
+
+<p>Po tygodniu rodzina ewakuuje sie samochodem: Siedlce, potem Derewnia kolo Zolkwi, majatek Starzynskich. Ojciec jedzie z Prezydentem Moscickim az do granicy rumunskiej. Tam prosi o pozwolenie na pozostanie w kraju. Prezydent zgadza sie. Stefan wraca do Lwowa, potem do Warszawy. Mieszkanie zajete przez Niemcow. Rodzina tymczasowo u Sampolskich w podchorazówce przy Lazienkach, potem Lodz — apteka matki.</p>
+
+<!-- ROZDZIAL 2 — KONSPIRACJA -->
+<div class="chapter-marker" id="konspiracja">
+  <div class="chapter-num">Rozdzial II</div>
+  <div class="chapter-title">Czternastoletni zolnierz</div>
+  <div class="chapter-date">1941 — 1943</div>
+</div>
+
+<p class="lead">W sierpniu 1941 roku Julek Klepacz — starszy kolega, kadet, ranny we wrzesniu 1939 — przychodzi do Krzysztofa i jego rówiesnikow z propozycja, ktora zmieni im zycie.</p>
+
+<p class="quote">"Od teraz na przyszlosc wciagam was do konspiracji i bedziecie zolnierzami Rzeczpospolitej. Zdrada bedzie karana smiercia."
+<span class="source">— Julek Klepacz do Krzysztofa i jego kolegów, sierpien 1941</span></p>
+
+<p>Krzysztof ma czternascie lat. Na poczatku to zabawa — chlopcy wystruguja drewniane modele karabinow. Ale szybko robi sie powazniej. Podzieleni na piatki — komórki po pieciu osob, gdzie nikt nie zna calej struktury. Dowódca komórki Krzysztofa nosi pseudonim "Ostoja", mieszka na ulicy Przekop, za Arsenalem.</p>
+
+<p>Jesienia 1941 pierwsze spotkanie w mieszkaniu Ostoi. Julek Klepacz pojawia sie jako inspektor. Wyciaga krzyzyk. Mowi, ze nie ma jeszcze nowego tekstu przysiegi, bo trwa reorganizacja, ale przysiega obowiazuje od zaraz.</p>
+
+<p>Formalna przysiega — <strong>11 maja 1942 roku</strong>. Krzysztof ma pietnascie lat i jest zolnierzem Armii Krajowej.</p>
+
+<p>Zadania rosna. Krzysztof okazuje sie uzdolniony plastycznie — rysuje mapy operacyjne, powieksza zdjecia broni, wykonuje rysunki techniczne karabinow na papierze woskowym, potem odbitki swiatloczynne w kuwetach z wywolywaczykiem.</p>
+
+<p>Dostaje misje wywiadowcza: obserwacja gestapowca <strong>Kempfa</strong>, ktory mieszka na <strong>Zurawiej 2</strong> i zostal skazany na smierc przez podziemie za zastrzelenie czlonka AK. Krzysztof spotyka sie z Julkiem pod zegarem przy Instytucie Gluchoniemych albo pod znaczkami propagandowymi LOPP na placu Napoleona. Zbiera informacje o nawykach i ruchach Kempfa.</p>
+
+<p>Egzekucji nie zdazono przeprowadzic przed smiercia Julka. Kempfa zastrzelil pozniej podchorazy Jas Gassowski ps. "Kania".</p>
+
+<p>We wrzesniu 1943 Krzysztof przechodzi do <strong>plutonu 1112</strong> przy <strong>7 Pulku Ulanow Lubelskich AK</strong>, dywizjon "Jelen". Dowódca dywizjonu — jego wuj, rotmistrz <strong>Lech Gluchowski ps. "Jezycki"</strong>. Dowódca plutonu — porucznik <strong>Jerzy Kamler ps. "Stolarz"</strong>, wlasciciel fabryki mebli na Dzielnej.</p>
+
+<!-- ROZDZIAL 3 — WILANÓW -->
+<div class="chapter-marker" id="wilanow">
+  <div class="chapter-num">Rozdzial III</div>
+  <div class="chapter-title">Akcja Wilanow — matka i syn</div>
+  <div class="chapter-date">26 wrzesnia 1943</div>
+</div>
+
+<p class="lead">Wanda Gluchowska jest sekcyjna w oddziale DYSK — Dywersja i Sabotaz Kobiet. To jedyny kobiecy oddzial specjalny Kedywu, liczacy od jedenastu do osiemdziesieciu kobiet. Jej syn Krzysztof mieszka w Wilanowie, przy palacu. Ma szesnascie lat.</p>
+
+<p>Matka odwiedza syna. Prosi o informacje o kwaterach Luftwaffe w <strong>kordegardzie wilanowskiej</strong>. Krzysztof dostarcza dane wywiadowcze. Nie wie jeszcze, ze za kilka dni bedzie swiadekiem operacji, w ktorej jego matka zostanie ciezko ranna.</p>
+
+<p><strong>26 wrzesnia 1943, godzina 10:00.</strong> Operacja Kedywu pod dowodztwem oddzialu "Zoska". Punkt koncentracji: cmentarz wilanowski. Trasa: przez cmentarz, przez tory kolejowe, przez mauzoleum Potockich do bramy glownej, potem boczna brama do podworza gospodarczego.</p>
+
+<p>W kordegardzie: stajnie (po prawej), budynek wartowni — parterowy, murowany (po lewej), stara kuchnia polaczona krytym przejsciem z wozownia. Dwóch zolnierzy AK ginie: plutonowy <strong>Wladyslaw Walecki ps. "Gruby"</strong> i kapral <strong>Zygmunt Wejrzanowski ps. "Smukly"</strong>.</p>
+
+<p>Wanda zostaje postrzelona w noge. Wpada do rowu z granatami. Po odzyskaniu przytomnosci pelznie przez podwórze i puka w okno babki Krzysztofa. Zabrana do mieszkania pani Branickiej na Smolnej, stamtad do Szpitala Ujazdowskiego. Noga nigdy sie nie zagoi prawidlowo — komisja lekarska AK orzeknie 30% inwalidztwa.</p>
+
+<p class="quote">"Sluchaj Krzysztof, tutaj jest moj pistolet i musisz go schowac."
+<span class="source">— Wanda Gluchowska do syna, po akcji Wilanow</span></p>
+
+<p>Krzysztof ukrywa pistolet matki w prawej wiezy palacu, wspinajac sie przez mechanizm dzwonu. Pozniej, gdy Niemcy jeszcze nie weszli do palacu, odzyskuje <strong>karabin Mauser wz. 98</strong> zostawiony przez podchorazego <strong>Janusza Radomyskiego</strong> u pani Branickiej i chowa go na strychu nad lazienka, pod sloma.</p>
+
+<p>Za akcje Wilanow Wanda otrzyma Krzyz Walecznych — 11 listopada 1943.</p>
+
+<!-- ROZDZIAL 4 — POWSTANIE -->
+<div class="chapter-marker" id="powstanie">
+  <div class="chapter-num">Rozdzial IV</div>
+  <div class="chapter-title">Fabryka Kamlera — serce Powstania</div>
+  <div class="chapter-date">31 lipca — 6 sierpnia 1944</div>
+</div>
+
+<p class="lead">Niedziela, 30 lipca — radzieckie i niemieckie samoloty walcza nad Warszawa. Poniedzialek, 31 lipca — Krzysztof wychodzi z domu na Pogonowskiego 9 na Zoliborzu z karabinem pod plaszczem. Nie wroci juz nigdy.</p>
+
+<p>Maszeruje do <strong>Fabryki Kamlera</strong> na Dzielnej 72 — kompleksu metalurgicznego, stolarni, pralni i fabryki kapeluszy, ciagnacego sie od Dzielnej do Pawiej. Dociera wieczorem. W nocy dowiaduje sie, ze w fabryce jest radiostacja — to siedziba <strong>Komendy Glownej Armii Krajowej</strong>.</p>
+
+<p><strong>1 sierpnia 1944, godzina "W".</strong> Krzysztof stoi na warcie przy bramie nr 64 od Dzielnej. Niemiecki samochod zaopatrzeniowy probuje wjechac — "Tuszynski" przy sasiedniej bramie otwiera ogien za wczesnie. Wymiana strzalow. Porucznik Kamler wybiega, strzela, nakazuje zamknac bramy.</p>
+
+<p>Fabryka jest oblezone. Krzysztof zajmuje stanowisko na pierwszym pietrze z ulanem <strong>Socha</strong>, obserwujac Dzielna. Pojawia sie dystyngowany cywil — to <strong>general Pelczynski</strong>, Szef Sztabu AK. Doradza jak rzucac granaty na niemieckie stanowiska w sasiednimbunkrze.</p>
+
+<p>Na trzecim pietrze lezy okolo czterystu granatow "filipinek" (zwanych "ojczulkami"). Trzeba je ewakuowac na dol. Krzysztof taszczygranaty po schodach, potem pelznie pod parapetami okien — na Dzielnej strzelaja Niemcy — do pralni, gdzie chowa je pod schodami.</p>
+
+<p>Pierwszy ranny: <strong>Andrzej Orlow</strong>, ranny w kregoslup pierwszego dnia. Mloda sanitariuszka ewakuuje go na noszach do Szpitala Wolskiego.</p>
+
+<p>Niemcy podpalaja pierwsze pietro — wschodnie skrzydlo, na prawo od bramy 64. Cisnienie w hydrancie za slabe. Porucznik Kamler sam wchodzi w dym i gasi pozar — pomaga mu ironicznie eksplozja niemieckiego granatu, ktora zasysa czesczplomieni.</p>
+
+<p>Wieczorem bataliony Zgrupowania "Radoslaw" przelomuja oblezenie. Krzysztof spi w pralni na plaszyczach Wehrmachtu. Jego dawna nauczycielka, pani <strong>Jadwiga Celinska</strong> — teraz szyfranka w Komendzie Glownej — rozpoznaje go i obejmuje ze lzami. Chwila ludzkosci w piekle.</p>
+
+<p><strong>2 sierpnia</strong> — Krzysztof z <strong>Januszem Klepaczem</strong> (bratem Julka, który go zwerbowal) wysylany jest jako goniec do kwatery Zgrupowania "Radoslaw" na rogu Mireckiej i Okopowej. Alarm: czolg niemiecki nadciaga. Podchorazy ustawia ciezki karabin maszynowy Maxim na kolowym lawecie wzdluz plotu. Czolg zostaje unieruchomiony "gamonami" — bronia przeciwpancerna.</p>
+
+<p>Na Woli giniekoledzy. Ulan <strong>Stanislaw Bukowski</strong> — strzal snajpera od strony sadu lub ulicy Wolnosci. Kula w serce. Smierc natychmiastowa. Pochowany na podworzu Monopolu Tytoniowego.</p>
+
+<p><strong>6 sierpnia</strong> — rozkaz ewakuacji. Trasa: przez Pawia, przez wyrwe w murze bylego getta, przez ogrodzenia Gesiówki (zdobytej wczesniej przez "Radoslawa"). Przejscie obok <strong>Pawiaka</strong> — wiezienie w rekach Niemcow, ogien z karabinow maszynowych z budynku bez okien. Strefa smierci. Przez Ogrody Krasinskich — na <strong>Starówke</strong>.</p>
+
+<!-- ROZDZIAL 5 — STARÓWKA -->
+<div class="chapter-marker" id="kanaly">
+  <div class="chapter-num">Rozdzial V</div>
+  <div class="chapter-title">Starówka — barykady i kanaly</div>
+  <div class="chapter-date">6 sierpnia — 1 wrzesnia 1944</div>
+</div>
+
+<p class="lead">Szkola na Barokowej staje sie domem plutonu. Krzysztof ma osiemnascie lat. Wokol niego gina ludzie, ktorych znal od dziecinstwa.</p>
+
+<p><strong>6-13 sierpnia</strong> — pluton kwateruje w sali gimnastycznej. Ochotnicy wychodzana rozpoznanie: ulica Senatorska, ulica Króla Alberta. Szukaja informacji o spodziewanym ataku czolgow od placu Pilsudskiego. Na dachu garazu podchorazy <strong>"Piotrek"</strong> — jednorenki, bo wczesniej sam sobie odpalil granat na klatce schodowej uciekajac przed Gestapo, stracil prawa reke, Niemcy go uratowali, a powstancy wyzwolili — wspina sie po drabinie. Jego filipinka wpada w rynne. O wlos od tragedii.</p>
+
+<p><strong>13 sierpnia</strong> — rozkaz przeniesienia do Ministerstwa Sprawiedliwosci na Dlugiej 7. Krzysztof z Januszem Klepaczem biegna przodem, pluton konczy sniadanie w kuchni szkolnej. Na <strong>placu Krasinskich</strong> — pocisk artyleryjski.</p>
+
+<p>Wynik: <strong>porucznik Jerzy Kamler "Stolarz"</strong> — ginie na miejscu. <strong>Podchorazy Karol Hilchen "Lorch"</strong> — smiertelnie ranny. Mloda <strong>telefonistka</strong> — zginela — przeszla do plutonu dzien wczesniej z grupy Centralki Telefonicznej na Tlomackiem, która podsluchiwala niemieckie rozmowy az do wyparcia.</p>
+
+<p>Nastepnego dnia — jedyna "zwarta szykowna" plutonu: caly pluton w mundurach, w róznych butach (bo jednolitych nie ma), grzebie porucznika. Podchorazego Hilchena grzebia dzien pozniej. Jednoczesnie pluton obsadza barykade przy Katedrze.</p>
+
+<p>Dwie barykady na Kanonii: jedna po skosie miedzy kamienicami od polnocy a naroznikiemzakrystii Katedry (za nia brama Archiwum Akt Miejskich), druga pod galeryjka laczaca Zamek z Katedra. Stanowiska ogniowe: pod brama od strony Zamku i pod galeryjka nad Dziekania.</p>
+
+<p>Niemcy trzymaja strone nadwislanska. Domy na Kanonii od Wisly — wszystkie wypalone.</p>
+
+<p><strong>1 wrzesnia 1944</strong> — rozkaz ewakuacji kanalami. Okolo 4500 powstancow wchodzi w scieki ze Starówki. Dwie trasy z placu Krasinskich. Krzysztof przechodzi do <strong>Srodmiescia</strong>.</p>
+
+<p>Ironia losu: ojciec Stefan tez jest w Srodmiesciu — sluzy w kwatermistrzostwie Obwodu I "Radwan" pod dowodztwem pplk. Edwarda Pfeiffera. Przez ostatni miesiac Powstania ojciec i syn sa w tym samym okrregu. Nie wiemy, czy sie spotkali.</p>
+
+<p><strong>15 wrzesnia</strong> — wuj Lech, dowódca dywizjonu "Jelen", zostaje ciezko ranny na ulicy Dolnej na Sadybie. Odmawia ewakuacji pod ogniem — odbiera sobie zycie, zeby nie narazac swoich zolnierzy. Z 233 zolnierzy dywizjonu "Jelen" przezyje walke tylko garstka — 125 zabitych, 98 rannych. Straty: 95,7%.</p>
+
+<p><strong>29 wrzesnia</strong> — Krzysztof otrzymuje "specjalna przepustke jednorazowa" na przejscie alei Sikorskiego (dzis Aleje Jerozolimskie). Trzy dni przed kapitulacja. Prawdopodobnie schwytany w okolicach tej daty.</p>
+
+<p><strong>2 pazdziernika 1944</strong> — kapitulacja Powstania.</p>
+
+<!-- ROZDZIAL 6 — NIEWOLA -->
+<div class="chapter-marker" id="niewola">
+  <div class="chapter-num">Rozdzial VI</div>
+  <div class="chapter-title">Stalag XI-B</div>
+  <div class="chapter-date">pazdziernik 1944 — kwiecien 1945</div>
+</div>
+
+<p class="lead">7 pazdziernika 1944 — transport: 80 osob w bydlecym wagonie, dwa dni bez jedzenia i wody. Cel: Stalag XI-B Fallingbostel, kolo Hanoweru. Numer jeniecki Krzysztofa: 141009.</p>
+
+<p>Trafia do tego samego obozu co ojciec Stefan. Dywizjon pracy: <strong>Arbeitskommando Monchengladbach</strong>. Dziesieciogodzinne zmiany w fabryce.</p>
+
+<p>Nie jest sam wsrod rówiesnikow. Ponad <strong>1100 chlopcow w wieku 11-18 lat</strong> walczylo w Powstaniu. 600 niepelnoletnich trafia do obozow. Przy apelu 18 pazdziernika 1944 w Lamsdorf policzono 550 mlodych: dwoch jedenastolatkow, szesciu dwunastolatkow, dziewieciu trzynastolatkow, czterdziestu osmiu czternastolatkow, stu pietnastulatow, stu siedemdziesieciu pieciu szesnastolatkow.</p>
+
+<p>W tym samym Stalagu XI-B siedzi czternastoletni <strong>Jerzy Bartnik "Magik"</strong> — najmłodszy kawaler Virtuti Militari w historii.</p>
+
+<p><strong>16 kwietnia 1945</strong> — Stalag XI-B wyzwolony przez Brytyjczykow. Eskadron B 11. Husarow i zwiad 8. Husarow.</p>
+
+<p>Krzysztof rusza na zachod: Holandia, Belgia, Francja, potem do Wloch. Dołacza do <strong>2 Korpusu Polskiego</strong> generala Andersa. Do sierpnia 1945 Korpus liczy juz 113 000 ludzi — spuchniety od bylych jencow i wyzwolonych Polakow.</p>
+
+<!-- ROZDZIAL 7 — EMIGRACJA -->
+<div class="chapter-marker" id="emigracja">
+  <div class="chapter-num">Rozdzial VII</div>
+  <div class="chapter-title">Od La Courtine do Rio</div>
+  <div class="chapter-date">1945 — 2020</div>
+</div>
+
+<p class="lead">Krzysztof konczy gimnazjum i liceum przy 3 Dywizji Strzelcow Karpackich. Potem La Courtine we Francji — oboz tranzytowy. Potem Anglia i Polski Korpus Przysposobienia i Rozmieszczenia. Zwolniony 31 pazdziernika 1948. Ma dwadziescia dwa lata i jest cywilny rezydentem Wielkiej Brytanii.</p>
+
+<p>Zdobywa dyplom Chartered Engineer. Pracuje w firmie CAV-Lucas (wtrysk diesla) — Anglia, potem Hiszpania, od 1974 Brazylia. Od 1988 na emeryturze w <strong>Rio de Janeiro</strong>.</p>
+
+<p>Ale nigdy nie przestaje byc zolnierzem. Kierownik Harcerstwa na emigracji. Czlonek Kola 7 Pulku Ulanow Lubelskich, Polskiego Osrodka Spoleczno-Kulturalnego (POSK) w Londynie, Stowarzyszenia Polskich Kombatantow, ACIE. Wydawca bibliofilski, publicysta, autor wspomniien.</p>
+
+<p>W <strong>2006-2007</strong> organizuje wystawy o Powstaniu Warszawskim 1944 w Rio de Janeiro, we wspolpracy z Konsulatem RP. Przenosi pamiec na druga polkule.</p>
+
+<p><strong>31 lipca 2009</strong> — w przededniu 65. rocznicy Powstania, osiemdziesieciodwuletni Krzysztof sklada wielogodzinna relacje w <strong>Archiwum Historii Mowionej Muzeum Powstania Warszawskiego</strong>. To na tej relacji oparta jest ta opowiesc.</p>
+
+<p><strong>19 listopada 2011</strong> — Krzyz Oficerski Orderu Odrodzenia Polski. Mial osiemdziesiat piec lat.</p>
+
+<p>Krzysztof Gluchowski ps. "Juras" zmarl <strong>16 maja 2020</strong> w Brazylii. Mial dziewiecdziesiat trzy lata. Ostatni z piecia Gluchowskich, którzy walczyli w Powstaniu.</p>
+
+<!-- ROZDZIAL 8 — RODZINA -->
+<div class="chapter-marker" id="rodzina">
+  <div class="chapter-num">Epilog</div>
+  <div class="chapter-title">Drzewo, ktore nie padlo</div>
+</div>
+
+<p class="lead">Piec czlonkow jednej rodziny w Powstaniu Warszawskim. General, urzednik prezydenta, farmaceutka-dywersantka, rotmistrz i chlopiec-wartownik. Trzy pokolenia. Jeden herb: Prus II.</p>
+
+<p>Lech zginal na Sadybie, wrzesien 1944. Stefan wrócil z niewoli do PRL-u, 1947 — zmarl w Warszawie, 1962. Wanda prowadzilaapteke do emerytury mimo 30% inwalidztwa i aresztowania przez UB — zmarlw 1976. Janusz zakladl Instytut Pilsudskiego w Londynie i zmarl w 1964, szesc dni po swoim towarzyszu z Siodemki Beliny, pulkowniku Hance-Kuleszy. Krzysztof dotarl najdalej — do Rio de Janeiro — i zyl najdluzej.</p>
+
+<p>W Instytucie Pilsudskiego w Londynie, przy King Street w Hammersmith, lezy <strong>Zespol nr 70: Archiwum Janusza Gluchowskiego</strong> — dokumenty osobiste z lat 1916-1964, korespondencja z Kolem Generalow, raporty sztabowe. To lustrzane odbicie naszej kolekcji — te same osoby, te same lata, ta sama historia widziana z drugiej strony.</p>
+
+<p>A na Powazkach, w kwaterze 99, leza obok siebie: Lech (I-27), Wanda (IV-19) i Stefan. Rodzina znów razem.</p>
+
+<div class="source-note">
+  <strong>Zrodla:</strong><br>
+  Archiwum Historii Mowionej Muzeum Powstania Warszawskiego — <a href="https://www.1944.pl/archiwum-historii-mowionej/krzysztof-gluchowski,1889.html" target="_blank">relacja Krzysztofa Gluchowskiego, 31.VII.2009</a><br>
+  Biogramy powstancze 1944.pl:
+  <a href="https://www.1944.pl/powstancze-biogramy/krzysztof-gluchowski,14205.html" target="_blank">Krzysztof</a>,
+  <a href="https://www.1944.pl/powstancze-biogramy/stanislaw-gluchowski,14209.html" target="_blank">Stanislaw</a>,
+  <a href="https://www.1944.pl/powstancze-biogramy/wanda-gluchowska,14197.html" target="_blank">Wanda</a>,
+  <a href="https://www.1944.pl/powstancze-biogramy/lech-gluchowski,14206.html" target="_blank">Lech</a>,
+  <a href="https://www.1944.pl/powstancze-biogramy/wlodzimierz-gluchowski,14213.html" target="_blank">Wlodzimierz</a><br>
+  Instytut Pilsudskiego w Londynie — Zespol nr 70, Zespol nr 154 wpis #314<br>
+  IPN — <a href="https://ipn.gov.pl/pl/100-bohaterow-na-100-le/104516" target="_blank">100 Bohaterow: Janusz Gluchowski</a><br>
+  Kolekcja prywatna — 123 dokumenty archiwalne (30 Juras + 31 Stefan + 62 zdjecia)<br>
+  Research: 67 zapytan agentów badawczych, 46 zródel internetowych
+</div>
+
+</div>
+<!-- END CONTENT -->
+
+<!-- FOOTER -->
+<div class="footer">
+  <p><strong>Piec losow w jednym Powstaniu</strong> — Saga rodziny Gluchowskich</p>
+  <p style="margin-top:8px;">Na podstawie dokumentow z kolekcji prywatnej, relacji Archiwum Historii Mówionej<br>i materialow Instytutu Pilsudskiego w Londynie.</p>
+  <p style="margin-top:16px;"><a href="transkrypcja_demo.html">Przejdz do katalogu dokumentow →</a></p>
+  <p style="margin-top:16px;font-size:.72em;">Opracowanie archiwalne i badawcze 2026</p>
+</div>
+
+</body>
+</html>
