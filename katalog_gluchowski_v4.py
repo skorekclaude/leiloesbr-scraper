@@ -3037,8 +3037,8 @@ OBJECTS = [
         "seria": "V",
         "tworca": "South West Essex Technical College",
         "jezyk": "angielski",
-        "kontekst": "Verso biletu studenckiego — podpis Krzysztofa, readaptacja cywilna w ramach PKPR.",
-        "powiazania": ["ARG/V/138"],
+        "kontekst": "Verso biletu studenckiego South West Essex Technical College — klauzula 'This ticket is not transferable' z podpisem Krzysztofa. SWTEC (obecnie South Essex College) w Walthamstow/Dagenham — Krzysztof studiował w ramach programu readaptacji PKPR, który finansował kursy zawodowe i akademickie dla demobilizowanych żołnierzy polskich. Tysiące Polaków zdobywało kwalifikacje w angielskich college'ach (inżynieria, budownictwo, handel). Podpis na verso = jedyny znany autograf Krzysztofa po angielsku (imię: 'Christopher'?).",
+        "powiazania": ["ARG/V/138", "ARG/V/123"],
         "stan": "Dobry"
     },
     {
