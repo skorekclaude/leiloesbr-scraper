@@ -1674,7 +1674,743 @@ Command Performance from 1945 [...] and American films [...] He excelled in
             "FOTO w mundurze — dystyngowany starszy oficer",
             "Sąsiedni biogram: Czesław Grochobiński — aktor, też Londyn"
         ],
-        "kontekst": "Biogram z Kwartalnika Biograficznego Polonii. POTWIERDZA: Gen. dyw. Janusz Julian Głuchowski (1888-1964) — jedna z najważniejszych postaci polskiego wychodźstwa wojskowego. I Zastępca Ministra Spraw Wojskowych przed wojną, dowódca jednostek polskich w Szkocji, po wojnie aktywny w Londynie. To OJCIEC (lub bliski krewny) Krzysztofa-Andrzeja. List z Paryża do 'Pana Generała Głuchowskiego, Sztab Główny, LONDYN' potwierdza rodzinną opiekę."
+        "kontekst": "Biogram z Kwartalnika Biograficznego Polonii. POTWIERDZA: Gen. dyw. Janusz Julian Głuchowski (1888-1964) — jedna z najważniejszych postaci polskiego wychodźstwa wojskowego. I Zastępca Ministra Spraw Wojskowych przed wojną, dowódca jednostek polskich w Szkocji, po wojnie aktywny w Londynie. BRAT Stefana Głuchowskiego (urzędnika Kancelarii Cywilnej Prezydenta RP). Krzysztof to SYN STEFANA."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # SERIA STEFAN — Dokumenty Stefana Głuchowskiego
+    # (brat gen. Janusza, urzędnik Kancelarii Cywilnej Prezydenta RP,
+    #  żołnierz AK, ojciec Krzysztofa)
+    # ═══════════════════════════════════════════════════════════════
+
+    # stefan_001 — Zarządzenie Prezesa Rady Ministrów
+    "stefan_001": {
+        "typ": "Zarządzenie urzędowe",
+        "data": "8 marca 1929",
+        "jezyk": "polski",
+        "nadawca": "Prezes Rady Ministrów",
+        "adresat": "Wyższa Komisja Dyscyplinarna przy Prezydium Rady Ministrów",
+        "transkrypcja": """PREZES RADY MINISTRÓW
+Nr. 3743                    Warszawa, dnia 8 marca 1929 r.
+
+Wyższa Komisja Dyscyplinarna,
+przy Prezydium Rady Ministrów.
+
+ZARZĄDZENIE WEWNĘTRZNE.
+
+Do Wyższej Komisji Dyscyplinarnej przy Prezydium
+Rady Ministrów, następujacą dla urzędników i
+funkcjonarjuszów niższych Prezydium Rady Ministrów,
+Kancelarii Cywilnej Prezydenta Rzeczypospolitej,
+Drukarni Państwowych, Urzędu Patentowych oraz
+Polskiej Agencji Telegraficznej, powołuję na okres
+trzech lat:
+na przewodniczącego: p. Jana Kantego Pietaka, Szefa
+    Biura Prawnego Prezydium Rady
+    Ministrów,
+na zastępcę przewod.: p.Dr Bronisława Krzyżanowskiego
+    [...]
+na członków:
+    p.P.: Władysława Racpoński [...]
+    Dr Ireneusza Karłińskiego [...]
+    Bolesław Rezera [...]
+    Henryka Turulskiego [...]
+    Augusta Janiczkiego [...]
+    Dr Zygmunta Skwarczyńskiego [...]
+    St. Jana Kuchowskiego [...]""",
+        "pieczecie": ["Nagłówek Prezes Rady Ministrów"],
+        "podpisy": [],
+        "osoby": ["Stefan Głuchowski (kontekst — dokument z jego akt)", "Jan Kanty Pietak", "Dr Bronisław Krzyżanowski"],
+        "znaki_szczegolne": [
+            "Dokument z akt osobowych Stefana Głuchowskiego",
+            "Komisja Dyscyplinarna dla Kancelarii Cywilnej Prezydenta RP",
+            "Wymienia kluczowe instytucje: Prezydium RM, Kancelaria Cywilna, PAT"
+        ],
+        "kontekst": "Zarządzenie o powołaniu komisji dyscyplinarnej obejmującej m.in. Kancelarię Cywilną Prezydenta RP, gdzie pracował Stefan Głuchowski. Dokument zachowany w jego aktach osobowych."
+    },
+
+    # stefan_002 — Dyplom: Brązowy Medal za Długoletnią Służbę
+    "stefan_002": {
+        "typ": "Dyplom odznaczeniowy",
+        "data": "14 maja 1938",
+        "jezyk": "polski",
+        "nadawca": "Kancelaria Cywilna Prezydenta Rzeczypospolitej",
+        "adresat": "Stefan Głuchowski",
+        "transkrypcja": """DYPLOM
+
+Na podstawie ustawy z dnia 8 stycznia 1938 roku
+(Dz. U. R. P. Nr 3, Poz. 11) nadaję
+
+P. STEFANOWI GŁUCHOWSKIEMU,
+Kierownikowi Referatu w Kancelarii Cywilnej Prezydenta Rzeczypospolitej
+
+BRĄZOWY
+MEDAL ZA DŁUGOLETNIĄ SŁUŻBĘ
+
+Warszawa, dnia 14 maja 1938 r.
+
+[podpis]
+SZEF KANCELARJI CYWILNEJ""",
+        "pieczecie": ["Kancelaria Cywilna Prezydenta Rzeczypospolitej (sucha pieczęć)"],
+        "podpisy": ["Szef Kancelarii Cywilnej"],
+        "osoby": ["Stefan Głuchowski"],
+        "znaki_szczegolne": [
+            "Stanowisko: Kierownik Referatu w Kancelarii Cywilnej Prezydenta RP",
+            "Brązowy Medal za Długoletnią Służbę — ustawa z 8.01.1938",
+            "Pieczęć sucha z orłem"
+        ],
+        "kontekst": "Stefan Głuchowski pracował jako Kierownik Referatu w Kancelarii Cywilnej Prezydenta RP Ignacego Mościckiego. Medal za długoletnią służbę (od 1918/1921 do 1938 = ~17-20 lat pracy)."
+    },
+
+    # stefan_003 — Złoty Krzyż Zasługi
+    "stefan_003": {
+        "typ": "Dyplom odznaczeniowy",
+        "data": "11 listopada 1936",
+        "jezyk": "polski",
+        "nadawca": "Prezydent Rzeczypospolitej / Prezes Rady Ministrów",
+        "adresat": "Stefan Głuchowski",
+        "transkrypcja": """Rzeczpospolita Polska
+
+PREZYDENT RZECZYPOSPOLITEJ
+za zgodą
+PREZESA RADY MINISTRÓW
+
+stwierdza, że
+zarządzeniem z dnia 11 Listopada 1936 r.
+
+NADAŁ
+
+STEFANOWI GŁUCHOWSKIEMU
+Kierownikowi Referatu Kancelarii Cywilnej P.R.P.
+
+ZŁOTY KRZYŻ ZASŁUGI
+
+PO RAZ PIERWSZY
+
+[podpis] PREZES RADY MINISTRÓW
+[podpis] SZEF KANCELARJI""",
+        "pieczecie": ["Orzeł RP (pieczęć ozdobna)"],
+        "podpisy": ["Prezes Rady Ministrów", "Szef Kancelarii"],
+        "osoby": ["Stefan Głuchowski", "Prezydent RP (Ignacy Mościcki)"],
+        "znaki_szczegolne": [
+            "ZŁOTY Krzyż Zasługi — 3. stopień (brązowy→srebrny→złoty)",
+            "Data symboliczna: 11 Listopada — Święto Niepodległości",
+            "Ozdobna kaligrafia, pieczęć z orłem",
+            "Zdobyty PO RAZ PIERWSZY — formularz przewiduje powtórzenia"
+        ],
+        "kontekst": "Złoty Krzyż Zasługi nadany 11 listopada 1936 r. (Święto Niepodległości). Stefan Głuchowski wspinał się po szczeblach odznaczeń: Srebrny Krzyż Zasługi (1929) → Złoty Krzyż Zasługi (1936). Równolegle brat Janusz był już I Zastępcą Ministra Spraw Wojskowych."
+    },
+
+    # stefan_004 — Pismo Kancelarii Cywilnej, mianowanie/przeniesienie
+    "stefan_004": {
+        "typ": "Pismo urzędowe",
+        "data": "ok. 1933-1934",
+        "jezyk": "polski",
+        "nadawca": "Kancelaria Cywilna Prezydenta Rzeczypospolitej",
+        "adresat": "Stefan Głuchowski",
+        "transkrypcja": """[Dokument obrócony — pismo Kancelarii Cywilnej Prezydenta RP
+dotyczące mianowania lub przeniesienia Stefana Głuchowskiego.
+Data: prawdopodobnie XII.1933 lub I.1934.
+Widoczna pieczęć Kancelarii Cywilnej (okrągła, czerwona).]""",
+        "pieczecie": ["Kancelaria Cywilna Prezydenta RP (okrągła, czerwona)"],
+        "podpisy": ["Szef Kancelarii Cywilnej"],
+        "osoby": ["Stefan Głuchowski"],
+        "znaki_szczegolne": ["Dokument obrócony o 180°", "Pieczęć czerwona"],
+        "kontekst": "Jedno z wielu pism personalnych w aktach Stefana — awanse i przeniesienia w Kancelarii Cywilnej."
+    },
+
+    # stefan_006 — Zarząd Rezydencji Prezydenta RP w Spale
+    "stefan_006": {
+        "typ": "Pismo urzędowe / zaproszenie",
+        "data": "2 listopada 1930",
+        "jezyk": "polski",
+        "nadawca": "Zarząd Rezydencji Prezydenta Rzeczypospolitej w Spale",
+        "adresat": "Stefan Głuchowski, Radca Min., Kanc.Cyw.Prezydenta",
+        "transkrypcja": """ZARZĄD REZYDENCJI
+PREZYDENTA RZECZYPOSPOLITEJ
+W SPALE
+
+Spała, dn. 2 listopada 1930.
+Nr. 210/109/30
+
+Do
+Pana Stefana Głuchowskiego
+Radcy Min., Kanc.Cyw.Prezydenta
+
+Zarząd Rezydencji w Spale przesyła Panu jako uczestnikowi
+corocznego myśliwskiego w dniu Sap Huberta w Spale w r. 1930, znaczek
+pamiątkowy, wydany przez Pana Prezydenta.
+
+[podpis]
+Zarządzający""",
+        "pieczecie": ["Zarząd Rezydencji Prezydenta RP w Spale (okrągła, niebieska)"],
+        "podpisy": ["Zarządzający Rezydencją"],
+        "osoby": ["Stefan Głuchowski", "Prezydent RP (Ignacy Mościcki)"],
+        "znaki_szczegolne": [
+            "SPAŁA — letnia rezydencja Prezydenta RP (pałac myśliwski Romanowów, potem RP)",
+            "Sap Huberta — tradycyjne polowanie hubertowskie, 3 listopada",
+            "Stefan jako RADCA MINISTERIALNY — wysoki urzędnik",
+            "Znaczek pamiątkowy od Prezydenta — osobisty prezent"
+        ],
+        "kontekst": "Stefan Głuchowski uczestniczył w polowaniu hubertowskim (Sap Huberta) w rezydencji prezydenckiej w Spale. To dowodzi jego wysokiej pozycji — do Spały zapraszano elitę urzędniczą i wojskową II RP. Prezydent Mościcki osobiście wydawał pamiątkowe znaczki. Spała była jedną z najważniejszych rezydencji — Piłsudski i Mościcki regularnie tam przebywali."
+    },
+
+    # stefan_007 — Komitet Krzyża i Medalu Niepodległości
+    "stefan_007": {
+        "typ": "Wezwanie urzędowe",
+        "data": "9 listopada [1931?]",
+        "jezyk": "polski",
+        "nadawca": "Komitet Krzyża i Medalu Niepodległości",
+        "adresat": "Głuchowski Stefan",
+        "transkrypcja": """KOMITET
+KRZYŻA I MEDALU NIEPODLEGŁOŚCI
+Konto P.K.O. Nr 29.860.
+
+N. 3/1062.
+
+Pan GŁUCHOWSKI Stefan
+w miejscu
+
+Zarządzeniem Pana Prezydenta Rzeczypospolitej
+Polskiej z dn. 9 Listopada
+odznaczony 7 KRZYŻEM NIEPODLEGŁOŚCI
+
+Proszę o wypełnienie do K.K.O. według załączonego
+wzoru kat. 10 — (dziesięciogresz) na konto Ko-
+mitetu wraz z 10 — [...]
+składam Panu potwierdzenie, proszę po wypłoszeni
+Biura Biuro Komitetu [...]
+
+KIEROWNIK BIURA KOMITETU
+Fr. Sygnowski ppłk.""",
+        "pieczecie": ["Komitet Krzyża i Medalu Niepodległości"],
+        "podpisy": ["Fr. Sygnowski ppłk."],
+        "osoby": ["Stefan Głuchowski", "Ppłk. Fr. Sygnowski"],
+        "znaki_szczegolne": [
+            "KRZYŻ NIEPODLEGŁOŚCI — jedno z najcenniejszych odznaczeń II RP",
+            "Nadawany za działalność w walce o niepodległość 1905-1921",
+            "Stefan musiał mieć zasługi niepodległościowe (jak brat Janusz)"
+        ],
+        "kontekst": "Krzyż Niepodległości nadawany na mocy ustawy z 1930 za czyn zbrojny lub pracę niepodległościową w okresie 1905-1921. Stefan musiał mieć udokumentowane zasługi — prawdopodobnie za działalność konspiracyjną lub służbę w wojnie polsko-bolszewickiej."
+    },
+
+    # stefan_008 — Order Odrodzenia Polski, Krzyż Kawalerski
+    "stefan_008": {
+        "typ": "Dyplom odznaczeniowy",
+        "data": "9 listopada 1931",
+        "jezyk": "polski",
+        "nadawca": "Kancelaria Odznaczenia / Prezydent RP",
+        "adresat": "Stefan Głuchowski",
+        "transkrypcja": """KANCELARIA ORDERÓW
+„ODRODZENIA POLSKI"
+
+Do
+Pana STEFANA GŁUCHOWSKIEGO, URZĘDNIKA
+Kancelarii Cywilnej Prezydenta Rzeczypospolitej
+w Warszawie
+
+Stwierdzam, że Prezydent Rzeczypospolitej
+dnia 9 Listopada 1931 r. raczył
+odznaczony Pana
+KRZYŻEM KAWALERSKIM
+
+orderu
+ODRODZENIA POLSKI
+
+Warszawa, dnia 12 Listopada 1931 r.    Kanclerz
+[podpis]""",
+        "pieczecie": ["Kancelaria Orderów Odrodzenia Polski"],
+        "podpisy": ["Kanclerz"],
+        "osoby": ["Stefan Głuchowski", "Prezydent RP (Ignacy Mościcki)"],
+        "znaki_szczegolne": [
+            "ORDER ODRODZENIA POLSKI (POLONIA RESTITUTA) — Krzyż Kawalerski (V klasa)",
+            "To BARDZO wysokie odznaczenie dla urzędnika cywilnego!",
+            "Data: 9 Listopada — Święto Niepodległości",
+            "Brat Janusz z pewnością miał wyższą klasę tego orderu"
+        ],
+        "kontekst": "Order Odrodzenia Polski (Polonia Restituta) w klasie V (Krzyż Kawalerski) — jedno z najwyższych odznaczeń cywilnych II RP. Nadany 9 listopada 1931 r. (wigilia Święta Niepodległości). Potwierdza wysoką pozycję Stefana w aparacie państwowym."
+    },
+
+    # stefan_010 — Srebrny Krzyż Zasługi
+    "stefan_010": {
+        "typ": "Dyplom odznaczeniowy",
+        "data": "8 czerwca 1929",
+        "jezyk": "polski",
+        "nadawca": "Prezes Rady Ministrów",
+        "adresat": "Stefan Głuchowski",
+        "transkrypcja": """KRZYŻ ZASŁUGI
+Nr. 6109/1021.
+
+Do
+Pana STEFANA GŁUCHOWSKIEGO
+Sekretarza Kancelarii Cywilnej
+Prezydenta Rzeczypospolitej
+w Warszawie
+
+SREBRNY KRZYŻ ZASŁUGI
+
+Na zasadzie art. 5 ustawy z 23 Czerwca 1923 r. (Dz.U.R.P.
+Nr. 62 poz. 458) nadaję Panu — po raz pierwszy
+
+Prezes Rady Ministrów
+Warszawa, dn. 8 Czerwca 1929 r.
+
+[podpis]""",
+        "pieczecie": ["Prezes Rady Ministrów (pieczęć okrągła)"],
+        "podpisy": ["Prezes Rady Ministrów"],
+        "osoby": ["Stefan Głuchowski"],
+        "znaki_szczegolne": [
+            "Srebrny Krzyż Zasługi — II stopień odznaczenia",
+            "Stanowisko: SEKRETARZ Kancelarii Cywilnej (1929) — potem awansował na Kierownika Referatu",
+            "Po raz pierwszy — można było otrzymać wielokrotnie"
+        ],
+        "kontekst": "Ścieżka odznaczeń Stefana: Srebrny KZ (1929) → Złoty KZ (1936). W 1929 był jeszcze Sekretarzem, do 1936 awansował na Kierownika Referatu."
+    },
+
+    # stefan_014 — Mianowanie na urzędnika VIII kategorii
+    "stefan_014": {
+        "typ": "Pismo nominacyjne",
+        "data": "ok. październik 1929",
+        "jezyk": "polski",
+        "nadawca": "Kancelaria Cywilna Prezydenta Rzeczypospolitej",
+        "adresat": "Stefan Głuchowski",
+        "transkrypcja": """KANCELARIA CYWILNA
+PREZYDENTA RZECZYPOSPOLITEJ
+Nr. [...]
+
+Do
+Pana Stefana Głuchowskiego
+urzędnika VIII-ej kat.st. w Kancelarii Cywilnej
+
+Pan Prezydent Rzeczypospolitej postanowił
+dnia dn. 20 Października 1929 r. na zasadzie art.
+11b ustawy o państwowej służbie cywilnej (Dz.Ust.R.P.
+Gr.61,dec.104 i 1925 r.) mianić Pana w stopniu
+państwowej.
+
+Jednocześnie Pan Prezydent Rzeczypospolitej
+ley mianować Pan zatrudnionym w VIII-ej kat.st.
+w Kancelarii Cywilnej.
+
+Szef Kancelacji Cywilnej:
+[podpis]""",
+        "pieczecie": ["Kancelaria Cywilna Prezydenta RP (okrągła, czerwona)"],
+        "podpisy": ["Szef Kancelarii Cywilnej"],
+        "osoby": ["Stefan Głuchowski", "Prezydent RP (Ignacy Mościcki)"],
+        "znaki_szczegolne": [
+            "Urzędnik VIII kategorii — średni szczebel służby cywilnej",
+            "Mianowanie przez samego Prezydenta RP (dla pracowników Kancelarii)",
+            "Pieczęć czerwona z orłem"
+        ],
+        "kontekst": "Mianowanie na stałego urzędnika państwowego VIII kategorii. W Kancelarii Cywilnej nawet takie formalne akty wymagały podpisu Prezydenta."
+    },
+
+    # stefan_015 — Przyjęcie do pracy w Kancelarii Cywilnej (1921)
+    "stefan_015": {
+        "typ": "Pismo o zatrudnieniu",
+        "data": "1 lipca 1921",
+        "jezyk": "polski",
+        "nadawca": "Kancelaria Cywilna Naczelnika Państwa",
+        "adresat": "Stefan Głuchowski",
+        "transkrypcja": """Kancelaria Cywilna
+Naczelnika Państwa
+Nr 4626/21.
+
+Do
+Pana Stefana Głuchowskiego
+w/m. — Słuzewska 2 m.10.
+
+W odpowiedzi na podanie z dn. 1.Lipca r.b.
+proszę Pana o objęcie posady w Kancelarii Cy-
+wilnej na czas próbny od 1.Lipca do 1 Sierpnia
+1921 r. z poborami odpowiadającemi kategorji
+I. płac urzędników państwo-wych.
+
+Szef Kancelacji Cywilnej:
+[podpis]""",
+        "pieczecie": ["Kancelaria Cywilna Naczelnika Państwa (orzeł, okrągła niebieska)"],
+        "podpisy": ["Szef Kancelarii Cywilnej"],
+        "osoby": ["Stefan Głuchowski"],
+        "znaki_szczegolne": [
+            "NACZELNIK PAŃSTWA — to jeszcze era Piłsudskiego jako Naczelnika (1918-1922)!",
+            "Adres: Słuzewska 2 m.10, Warszawa",
+            "Zatrudnienie na okres próbny — 1 miesiąc",
+            "Kategoria I płac — najniższa (początek kariery)",
+            "DATA: 1 lipca 1921 — Stefan zaczął pracę w Kancelarii Cywilnej"
+        ],
+        "kontekst": "Pierwsze zatrudnienie Stefana Głuchowskiego w Kancelarii Cywilnej Naczelnika Państwa (Józefa Piłsudskiego). Data: lipiec 1921 — jeszcze przed uchwaleniem Konstytucji marcowej! Stefan zaczynał od najniższej kategorii płac. Piłsudski był Naczelnikiem Państwa do 14 XII 1922."
+    },
+
+    # stefan_018 — Mianowanie przez Kancelarię Naczelnika Państwa
+    "stefan_018": {
+        "typ": "Pismo nominacyjne",
+        "data": "31 grudnia 1918 lub 1922",
+        "jezyk": "polski",
+        "nadawca": "Kancelaria Cywilna Naczelnika Państwa",
+        "adresat": "Stefan Głuchowski",
+        "transkrypcja": """Kancelaria Cywilna
+Naczelnika Państwa
+Nr 5834
+
+Do
+Pana STEFANA GŁUCHOWSKIEGO
+
+Na podstawie dekretu z dnia 11 Grudnia 1918
+roku mianuje Pana Ponomocnik Referenta Kancelarii Cy-
+wilnej Kancelarii Pełnpraw z odłączeniem do kategoryi
+[...] pienc urzednika Pańsn. od kategorji n- kasy
+masowej od dnia 1 po Stycznia 1922 roku.
+
+Szef Kancelarii Cywilnej:
+[podpis]""",
+        "pieczecie": ["Kancelaria Cywilna Naczelnika Państwa (orzeł, okrągła niebieska)"],
+        "podpisy": ["Szef Kancelarii Cywilnej"],
+        "osoby": ["Stefan Głuchowski"],
+        "znaki_szczegolne": [
+            "Dekret z 11 XII 1918 — jeden z pierwszych aktów prawnych odrodzonej Polski!",
+            "Mianowanie na Pomocnika Referenta — awans z kategorii I",
+            "Pieczęć z orłem Naczelnika Państwa"
+        ],
+        "kontekst": "Dokument potwierdzający awans w strukturze Kancelarii Cywilnej. Powołanie na dekret z 11 XII 1918 — to zaledwie miesiąc po odzyskaniu niepodległości!"
+    },
+
+    # stefan_019 — Medal Dziesięciolecia Odzyskanej Niepodległości
+    "stefan_019": {
+        "typ": "Dyplom odznaczeniowy",
+        "data": "ok. 1929",
+        "jezyk": "polski",
+        "nadawca": "Kancelaria Cywilna Prezydenta Rzeczypospolitej",
+        "adresat": "Stefan Głuchowski",
+        "transkrypcja": """KANCELARIA CYWILNA
+PREZYDENTA RZECZYPOSPOLITEJ
+Nr. [...]
+
+Do
+Pana Stefana Głuchowskiego
+urzędnika w Kancelarii Cywilnej
+[...] Prezydenta Rzeczypospolitej
+
+Na podstawie § 6 rozporządzenia Rady Ministrów z dnia
+27 września 1928 r. (Monitor Polski Nr 237 poz. 543) przyznaję
+Panu prawo do Medalu Dziesięciolecia Odzyskanej Niepodległości.
+
+SZEF KANCELARJI CYWILNEJ
+[podpis]""",
+        "pieczecie": ["Kancelaria Cywilna Prezydenta RP (orzeł)"],
+        "podpisy": ["Szef Kancelarii Cywilnej"],
+        "osoby": ["Stefan Głuchowski"],
+        "znaki_szczegolne": [
+            "Medal Dziesięciolecia Odzyskanej Niepodległości (1918-1928)",
+            "Rozporządzenie z 27.09.1928 (Monitor Polski Nr 237, poz. 543)",
+            "Przyznawany urzędnikom państwowym w 10. rocznicę niepodległości"
+        ],
+        "kontekst": "Medal pamiątkowy z okazji 10-lecia odzyskania niepodległości. Stefan pracował w służbie państwowej od ~1918/1921, więc kwalifikował się."
+    },
+
+    # stefan_020 — Biogram RTM. UCIECH GŁUCHOWSKI ps. "Jezycki"
+    "stefan_020": {
+        "typ": "Biogram / maszynopis historyczny",
+        "data": "ok. 1995 (opracowanie)",
+        "jezyk": "polski",
+        "nadawca": "autor biogramu (nieznany)",
+        "adresat": "—",
+        "transkrypcja": """RTM.(UCIECH) GŁUCHOWSKI pseudonim „JEZYCKI"
+
+syn Mariana Głuchowskiego i Marii z Zielikowskich. Urodzony w 1902 roku w Radomiu pod
+Częstochową. Szkoły średnie w Radomsku, a maturę w Łodzi. Ochotnik P.W.-IV
+[...] służył w kawalerii warszawskiej. W międzyczasie służył również na funkcjach w ro-
+zeszły 7 Pułku Ułanów Lubelskich, dowodzonych przez brata majora
+Głuchowskiego. W roku 1930 roku po odbyciu służby w P.W. i końcem zdjęty na maturze
+zafascynowany zagadnieniami na polu Medzyn [...] jednych lat hydrografizm.
+W 4 września dobrze znając od Piłssy i Narew realia kampanii poinformator [...]
+do obrony n 1922 roku moto rozpoczął studia na Akademii Rolniczej w Bydgoszczy. Po stu-
+diach Praktykant Rolniczy Karnicza. Po zakończeni prak. politycznego dyrektor krajoznaw-
+czego [...] administrowanie gdzie redokując 6 Brumisło w marg.Pław
+
+[...] we Wrześniu 1939 mobilizacyjnie, odbywa czas kampanię w 4 szwadronie 7 P.Uł.Lab, który to szwa-
+dron [...] od szeregowca do st.wachmistrza [...] O Roli Krakowskiej partyzantów, z Nowogrodzkem w „Romb" oddziale i
+dostał z połączeniu [...]
+
+W październiku 1944 obrany natrakciam Dywizjonu „Jelen" na Aleje Szucha, a nastepnie [...] a grupa pozosto-
+stałych przy życiu [...]
+1 Dywizja [...] o następnym szlaku od Mokotowa. 21 sierpnia dopiecznia dezertera Dywisjonu [...]
+1 Sierpnia [...] to razem otarty [...] zniszczone po tum koniku strasnie ulary.
+15 Października 1944 w czasie obrony trzeciej ranni zamiast odesłane do oddziału zamiast w [...] od uderzenia na Mokotów,
+odniesieniu ranie i aby nie narazać pragmatycz ży wobec żołnierzey, podslania się bycia czlnrak ze strzcl-
+[...] Po wyzwoleniu na gmin szlachetnem ze strony zdroumym obozu czasu [...]
+
+Pozostalemu awansowani do stopnia majora i odznaczany między innymi: Virtuti Militari, innee odznaczeni-
+Krzyż Walecznych, Krzyż Krzyża Zasluge z Mieczami, Krzyż Armii Krajowej (No. 1. Specjalna seria z
+I.5.8.67, kapitulacja podpiona przez gen. Tadeusza Pełczyńskiego „Grzegorz")
+
+W muzech u mąż pan Lecho Gloebowskich znaleźli sa w nastepujących wydrukowanych i zródłach-
+[...] Londyn str 120 50 3 1946 na str.148 94.5 do 100
+Ułani Lubelscy. Zeszty wydawane od 1947 przez Koło 7 P.Uł.Lubelskich London
+[...] 35(41)2, 8.56 Warszawa
+Redakcja Znaki nr 3.4.(6), London 1953 (artyku Plt plyp.G.Lewczowskiego)
+Powstanie Warszawskie; Adam Borkiewicz, Pax Warszawa 1957
+Powstanie Warszawskie w Bialoszek; Stelko Warszawa 1937
+[...]
+Dziennik Polski 2.4.91, 29.4.91, 24.6.91, 30.7.92, 23.9.92, London
+[...]
+Moskiny 1944: Leslam M.Barlticki MON Warszawa 1971
+[...]
+Wydano w czesc oficjalnych materiałow 1939-1945 Bialoszova Nomokiewicza Szczepańczkiw Warszawa 1992
+[...] Film: Mc. Oczekul Anders (I lumos) Warszawa 1994
+Biblioteka Narodowa w Warszawie Zbior Rekoposow No. 13853
+
+Przedstawiony I Vice minister Spraw Wojskowych i dowódca Jednostek Wojska w Wielkiej Brytanii,
+generał dywizji.
+
+Przypomnienie Krzysztof Głuchowski
+Rio de Janeiro, 18 Października 1995""",
+        "pieczecie": [],
+        "podpisy": ["Krzysztof Głuchowski (autor przypomnenia, Rio de Janeiro)"],
+        "osoby": ["RTM Uciech Głuchowski ps. Jezycki", "Marian Głuchowski (ojciec Uciec)", "Maria z Zielikowskich (matka)", "Krzysztof Głuchowski (autor)", "Gen. dyw. Janusz Głuchowski (wspomniany)", "Gen. Tadeusz Pełczyński ps. Grzegorz"],
+        "znaki_szczegolne": [
+            "NOWY CZŁONEK RODZINY: RTM Uciech Głuchowski, ur. 1902 Radom",
+            "Syn MARIANA Głuchowskiego (nie Janusza i nie Stefana!) — TRZECIA gałąź rodziny?",
+            "Służył w 7 Pułku Ułanów Lubelskich",
+            "Uczestnik POWSTANIA WARSZAWSKIEGO — Dywizjon 'Jeleń', Aleje Szucha, Mokotów",
+            "Odznaczenia: Virtuti Militari, Krzyż Walecznych, KZ z Mieczami, Krzyż AK (nr 1, specjalna seria!)",
+            "Ranny 15 X 1944 na Mokotowie",
+            "Autor biogramu: KRZYSZTOF GŁUCHOWSKI, Rio de Janeiro, 18 X 1995",
+            "Maszynopis wspomina Janusza jako 'I Vice minister Spraw Wojskowych i dowódca Jednostek Wojska w WB, generał dywizji'",
+            "Bibliografia: ~20 pozycji, London + Warszawa"
+        ],
+        "kontekst": "KLUCZOWY DOKUMENT GENEALOGICZNY. Biogram Uciec Głuchowskiego (ur. 1902, syn Mariana) napisany przez Krzysztofa Głuchowskiego w Rio de Janeiro w 1995. Uciech służył w 7 Pułku Ułanów Lubelskich, walczył w Powstaniu Warszawskim (Mokotów), odznaczony Virtuti Militari i Krzyżem AK nr 1 (specjalna seria). Krzysztof potwierdza Janusza jako generała dywizji i I Zastępcę Ministra. PYTANIE: jaka relacja między Marianem (ojcem Uciec) a Januszem i Stefanem?"
+    },
+
+    # stefan_022 — Etykieta: listy z obozu do generała i syna
+    "stefan_022": {
+        "typ": "Etykieta archiwalna / opis zawartości",
+        "data": "ok. 1945-1949 (opisywany okres)",
+        "jezyk": "polski",
+        "nadawca": "—",
+        "adresat": "—",
+        "transkrypcja": """Listy ppor. Stefana Głuchowskiego
+z obozu w Niemczech z lat 1945-1947
+do gen. Janusza Głuchowskiego w Anglii
+oraz
+Listy Stefana Głuchowskiego z Polski
+do syna Krzysztofa w Anglii z lat
+1947-1949""",
+        "pieczecie": [],
+        "podpisy": [],
+        "osoby": ["ppor. Stefan Głuchowski", "gen. Janusz Głuchowski", "Krzysztof Głuchowski"],
+        "znaki_szczegolne": [
+            "KLUCZOWY DOKUMENT GENEALOGICZNY!",
+            "Stefan = BRAT Janusza (pisze z obozu jenieckiego DO GENERAŁA)",
+            "Krzysztof = SYN STEFANA (Stefan pisze z Polski DO SYNA w Anglii)",
+            "Stefan miał stopień PODPORUCZNIKA (ppor.)",
+            "Stefan był w OBOZIE JENIECKIM w Niemczech 1945-1947",
+            "Po uwolnieniu wrócił do POLSKI (nie na Zachód)",
+            "Krzysztof był w ANGLII (prawdopodobnie PKPR/PSZ)"
+        ],
+        "kontekst": "REWOLUCYJNE ODKRYCIE DLA KOLEKCJI. Ta etykieta archiwalna rozwiązuje zagadkę rodzinną: Stefan Głuchowski (ppor. AK, urzędnik Kancelarii Prezydenta) był BRATEM gen. Janusza Głuchowskiego, a OJCEM Krzysztofa. Stefan po wojnie wrócił do Polski komunistycznej (1947+), natomiast jego syn Krzysztof pozostał na Zachodzie (Anglia → Brazylia). To wyjaśnia, dlaczego Krzysztof miał dokumenty zarówno Stefana (ojca) jak i Janusza (wuja-generała)."
+    },
+
+    # stefan_023 — Przydział AK: Kwatermistrzostwo Obwodu Śródmieście
+    "stefan_023": {
+        "typ": "Dokument konspiracyjny / przydział AK",
+        "data": "ok. 1943-1944",
+        "jezyk": "polski",
+        "nadawca": "Armia Krajowa, Obwód Śródmieście",
+        "adresat": "Stefan Głuchowski",
+        "transkrypcja": """Przydział:
+Kwatermistrzostwo Obwodu
+I
+
+[pieczęć okrągła: DOWÓDZTWO OBWODU ŚRÓDMIEŚCIE A.K. Warszawa]
+
+Radwan [pseudonim konspiracyjny]
+
+[nr] Wyd.Nr 141002
+[...] y R.""",
+        "pieczecie": ["DOWÓDZTWO OBWODU ŚRÓDMIEŚCIE A.K. Warszawa (okrągła, czerwona)"],
+        "podpisy": [],
+        "osoby": ["Stefan Głuchowski ps. Radwan"],
+        "znaki_szczegolne": [
+            "PSEUDONIM KONSPIRACYJNY STEFANA: RADWAN",
+            "Przydział: Kwatermistrzostwo Obwodu I (Śródmieście)",
+            "Pieczęć DOWÓDZTWO OBWODU ŚRÓDMIEŚCIE A.K. — autentyczna!",
+            "Nr ewidencyjny 141002",
+            "Obwód I Śródmieście — serce Powstania Warszawskiego"
+        ],
+        "kontekst": "Dokument konspiracyjny przydzielający Stefana Głuchowskiego (ps. Radwan) do Kwatermistrzostwa Obwodu I Śródmieście AK. Obwód Śródmieście był jednym z najważniejszych w strukturze AK Okręgu Warszawskiego — tu toczyły się najcięższe walki Powstania."
+    },
+
+    # stefan_026 — Kriegsgefangenenpost — karta jeniecka
+    "stefan_026": {
+        "typ": "Kriegsgefangenenpost (poczta jeniecka)",
+        "data": "15 września 1942",
+        "jezyk": "polski/niemiecki",
+        "nadawca": "Zaleski (?), Oflag XVII A",
+        "adresat": "Stefan Głuchowski, Radom",
+        "transkrypcja": """Kriegsgefangenenpost
+Correspondance des prisonniers de guerre
+Postkarte
+
+An: A. ZALESKI    [stempel: GEPRÜFT / STALAG XVII A]
+     gebir. [...]  Radom     14.12.41
+
+Absender / Expéditeur:
+Vor- und Zuname: [...]
+Gefangenennummer: [...]
+Lager-Bez. (pays): Oflag XVII A    Straße: [...]
+                                    Land: Galizien
+Oflag XVII.A. Unterlager: [...]
+Deutschland (Allemagne)
+
+Kriegsgefangenenlager           Datum: 15. 9. 1942
+Camp des prisonniers            date
+
+Kochany Stasio i Rodzino [...] napisałem [...] Grusz [...] wa
+[...] i ciągle szwaranc się i o rodzinne moje [...]
+[...] Brud [...]
+[...] Kościuszko Polowanie a dzisięe Lubelszczyznw [...]
+[...] Krzyszego Powiernik sędzkowie wizuam [...]
+[...] wiele [...] prosby [...]
+[...] Stalo to w lepszej [...] i cieszenia [...] i wiele nowej [...] [...]
+Serdeczni Czi/Serdeczni Boh.    Twój Kowalow [...]
+                                 Etwac""",
+        "pieczecie": ["GEPRÜFT / STALAG XVII A (stempel cenzury)", "Stempel pocztowy 14.12.41"],
+        "podpisy": ["Zaleski (?)"],
+        "osoby": ["Stefan Głuchowski (adresat 'Stasio')", "Zaleski (nadawca, jeniec Oflag XVII A)"],
+        "znaki_szczegolne": [
+            "OFLAG XVII A — obóz jeniecki dla oficerów w Edelbach (Austria)",
+            "Adres Stefana: RADOM — to potwierdza radomskie korzenie rodziny",
+            "Cenzura wojskowa (GEPRÜFT)",
+            "Nadawca zwraca się 'Kochany Stasio' — bliska znajomość",
+            "Wspomina Lubelszyznę i Kościuszkę — prawdopodobnie 7 Pułk Ułanów Lubelskich",
+            "Data: 15.IX.1942 — w środku okupacji"
+        ],
+        "kontekst": "Karta jeniecka z Oflagu XVII A (Edelbach, Austria) wysłana do Stefana Głuchowskiego w Radomiu. Nadawca (Zaleski?) to prawdopodobnie współsłużący z 7 Pułku Ułanów Lubelskich, jeniec wojenny od 1939. Stefan w tym czasie był jeszcze w Radomiu/Warszawie — dopiero później dołączył do AK."
+    },
+
+    # stefan_027 — List do Krzysztofa z podpisami oficerów 7 pułku
+    "stefan_027": {
+        "typ": "List osobisty",
+        "data": "ok. 1990s",
+        "jezyk": "polski",
+        "nadawca": "N. (autor listu, syn oficera?)",
+        "adresat": "Krzysztof Głuchowski",
+        "transkrypcja": """Drogi Krzysztofie,
+Posyłam Ci ten list w imieniu mojego Ojca, jako
+ciekawostkę, ale dotyczącą 7 płk ułanów. Oto
+są tam podpisy dwóch oficerów z tego pułku, którzy
+przyjaźnili się z moim Ojcem:
+por. Vol. Jocigar   i por. Janusz Pornatowski
+list pisany na zebraniu w Warszawie u
+p. domu P. Korolcbuk.
+
+N.""",
+        "pieczecie": [],
+        "podpisy": ["N. (autor)"],
+        "osoby": ["Krzysztof Głuchowski (adresat)", "por. Vol. Jocigar", "por. Janusz Pornatowski", "P. Korolcbuk"],
+        "znaki_szczegolne": [
+            "Dotyczy 7 PUŁKU UŁANÓW LUBELSKICH",
+            "Podpisy dwóch oficerów pułku",
+            "Zebranie w Warszawie — prawdopodobnie przedwojenne",
+            "Krzysztof zbierał materiały o 7 pułku (rodzinnym pułku)"
+        ],
+        "kontekst": "List do Krzysztofa z materiałami dotyczącymi 7 Pułku Ułanów Lubelskich. Krzysztof aktywnie zbierał wspomnienia i dokumenty pułkowe — to on napisał biogram Uciec w 1995."
+    },
+
+    # stefan_028 — ZAŚWIADCZENIE ARMII KRAJOWEJ
+    "stefan_028": {
+        "typ": "Zaświadczenie wojskowe / dokument konspiracyjny",
+        "data": "25 lipca 1944",
+        "jezyk": "polski",
+        "nadawca": "Armia Krajowa, Okręg Warszawski",
+        "adresat": "ppor. Głuchowski Stanisław Stefan",
+        "transkrypcja": """ARMIA KRAJOWA
+Okręg Warszawski
+
+Nr 2856
+
+Zaświadczam, że
+
+stopień wojsk. (pseudonim i imię)
+ppor. Głuchowski Stanisław Stefan jest
+nazwisko
+żołnierzem A. K.
+Dnia 25.VII.1944 r.
+
+Obwod [Śródmieście]
+Komendant Okręgu:
+[podpis] Radwan
+
+[pieczęć: DOWÓDZTWO OBWODU ŚRÓDMIEŚCIE A.K. Warszawa]""",
+        "pieczecie": ["DOWÓDZTWO OBWODU ŚRÓDMIEŚCIE A.K. Warszawa (pieczęć okrągła, czerwona z orłem)"],
+        "podpisy": ["Komendant Okręgu (podpis nieczytelny)"],
+        "osoby": ["ppor. Głuchowski Stanisław Stefan"],
+        "znaki_szczegolne": [
+            "🔴 DOKUMENT NAJWYŻSZEJ WAGI HISTORYCZNEJ!",
+            "Pełne imiona: STANISŁAW STEFAN Głuchowski — dwa imiona!",
+            "Data: 25 LIPCA 1944 — 6 DNI PRZED POWSTANIEM WARSZAWSKIM (1 VIII 1944)!",
+            "Stopień: podporucznik (ppor.)",
+            "Obwód Śródmieście — serce walki powstańczej",
+            "Pieczęć autentyczna AK z orłem w koronie",
+            "Nr zaświadczenia: 2856",
+            "To ten sam 'Radwan' co na dokumencie stefan_023!"
+        ],
+        "kontekst": "NAJCENNIEJSZY DOKUMENT W NOWEJ SERII. Zaświadczenie Armii Krajowej wystawione ppor. Stanisławowi Stefanowi Głuchowskiemu 25 lipca 1944 — SZEŚĆ DNI przed wybuchem Powstania Warszawskiego. Dokument potwierdza jego przynależność do AK, stopień podporucznika, przydział do Obwodu Śródmieście. Stefan (ps. Radwan) walczył w Powstaniu Warszawskim — przeżył i trafił do obozu jenieckiego w Niemczech (1945-1947)."
+    },
+
+    # stefan_030 — Dedykacja od oficerów 7 Pułku Ułanów
+    "stefan_030": {
+        "typ": "Dedykacja / wpis pamiątkowy",
+        "data": "ok. 1947 (Henstedt)",
+        "jezyk": "polski",
+        "nadawca": "Oficerowie 7 Pułku Ułanów Lubelskich",
+        "adresat": "Stefan Głuchowski",
+        "transkrypcja": """Kochanemu Stefankowi, wrocenu
+brykisci i dobremu towarzyszowi
+Hoch     Lochwia
+[podpis] przelożeni pst. 8 p.S.R. [?]
+[podpis] Karpiński [?]
+[podpis] KaZimierz [?]
+R. Małgorzata po Rym [?]
+[podpis]       [podpis]       [podpis]
+[podpis] Jack Morocoski [?]    Ktoszczelcen""",
+        "pieczecie": [],
+        "podpisy": ["~8 podpisów oficerów pułkowych"],
+        "osoby": ["Stefan Głuchowski (adresat dedykacji)", "oficerowie 7 Pułku Ułanów Lubelskich"],
+        "znaki_szczegolne": [
+            "Dedykacja od kolegow pulkowych - intymny, ciepły ton",
+            "'Kochanemu Stefankowi, wrocemu brykisci' - zdrobnienie!",
+            "~8 podpisow - proba identyfikacji: Karpinski, Malgorzata(?), Morocoski(?)",
+            "Prawdopodobnie z okazji demobilizacji lub pożegnania w Henstedt (1947)"
+        ],
+        "kontekst": "Dedykacja na karcie pamiątkowej 7 Pułku Ułanów Lubelskich z Henstedt (Niemcy, 1947). Oficerowie żegnają Stefana ciepłymi słowami. Stefan prawdopodobnie wracał do Polski (jako jeden z nielicznych), podczas gdy koło pułkowe kontynuowało działalność w Londynie."
+    },
+
+    # stefan_031 — Karta pamiątkowa 7 Pułku Ułanów Lubelskich
+    "stefan_031": {
+        "typ": "Karta pamiątkowa / okolicznościowa",
+        "data": "23 marca 1947",
+        "jezyk": "polski",
+        "nadawca": "7 Pułk Ułanów Lubelskich im. Gen. Broni Sosnkowskiego",
+        "adresat": "ppor. Głuchowski (Stefan)",
+        "transkrypcja": """ppor. Głuchowski [odręcznie na górze, odwrócone]
+
+7 Pułk Ułanów Lubelskich
+im Gen Broni Sosnkowskiego
+
+Henstedt  23. III. 47.""",
+        "pieczecie": [],
+        "podpisy": [],
+        "osoby": ["ppor. Stefan Głuchowski", "Gen. Broni Kazimierz Sosnkowski (patron)"],
+        "znaki_szczegolne": [
+            "7 PUŁK UŁANÓW LUBELSKICH — pułk rodzinny Głuchowskich!",
+            "Patron: Gen. Broni Kazimierz Sosnkowski",
+            "Henstedt (Niemcy) — miejsce stacjonowania pułku po wojnie",
+            "23 marca 1947 — demobilizacja w toku",
+            "Czerwony romb — znak rozpoznawczy pułku",
+            "Stefan przypisany jako ppor. (porucznik)"
+        ],
+        "kontekst": "Karta pamiątkowa 7 Pułku Ułanów Lubelskich im. Gen. Sosnkowskiego. Henstedt — obóz w Niemczech, gdzie pułk stacjonował po zakończeniu wojny (1945-1947). 23 marca 1947 to okres demobilizacji — żołnierze wybierali między Polską a emigracją. Stefan wybrał powrót do Polski."
     },
 }
 
