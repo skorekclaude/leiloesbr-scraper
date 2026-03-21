@@ -7492,10 +7492,14 @@ def generate_html():
 
         for obj in items:
             typ_label = DOC_TYPES.get(obj["typ"], obj["typ"])
+            # Multi-page gallery: create clickable links to related documents
             powiazania_html = ""
             if obj.get("powiazania"):
-                links = ", ".join(obj["powiazania"])
-                powiazania_html = f'<div class="card-field"><span class="field-label">Powiązania:</span> {escape(links)}</div>'
+                link_parts = []
+                for ref in obj["powiazania"]:
+                    safe_ref = ref.replace("/", "-")
+                    link_parts.append(f'<a href="#card-{safe_ref}" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard(\'{safe_ref}\')">{escape(ref)}</a>')
+                powiazania_html = f'<div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> {", ".join(link_parts)}</div>'
 
             trans = get_transcription(obj["sygn"])
             trans_html = ""
@@ -7517,7 +7521,8 @@ def generate_html():
       </div>
     </div>'''
 
-            series_html += f'''    <div class="card">
+            card_id = obj["sygn"].replace("/", "-")
+            series_html += f'''    <div class="card" id="card-{card_id}">
       <div class="card-img-wrap" onclick="openLightbox('{IMG_DIR}/{obj["photo"]}', '{escape(obj["tytul"])}')">
         <img src="{IMG_DIR}/{obj["photo"]}" alt="{escape(obj["tytul"])}" loading="lazy">
       </div>
@@ -7528,13 +7533,20 @@ def generate_html():
           <span class="card-date">{escape(obj["data"])}</span>
           <span class="card-type">{escape(typ_label)}</span>
         </div>
-        <div class="card-field"><span class="field-label">Opis fizyczny:</span> {escape(obj["opis_fizyczny"])}</div>
-        <div class="card-field"><span class="field-label">Treść:</span> {escape(obj["opis_tresci"])}</div>
-        <div class="card-field"><span class="field-label">Twórca:</span> {escape(obj["tworca"])}</div>
-        <div class="card-field"><span class="field-label">Język:</span> {escape(obj["jezyk"])}</div>
-        <div class="card-field card-context"><span class="field-label">Kontekst:</span> {escape(obj["kontekst"])}</div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> {escape(obj["opis_fizyczny"])}</div>
+        <div class="bilingual-header"><span data-lang="pl">ORYGINAŁ</span><span class="col-trans-label">TRANSLATION</span></div>
+        <div class="card-bilingual-row" data-field="tresc">
+          <div class="col-orig"><span class="field-label" data-label="tresc">Treść:</span> {escape(obj["opis_tresci"])}</div>
+          <div class="col-trans"></div>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> {escape(obj["tworca"])}</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> {escape(obj["jezyk"])}</div>
+        <div class="card-bilingual-row" data-field="kontekst">
+          <div class="col-orig card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> {escape(obj["kontekst"])}</div>
+          <div class="col-trans"></div>
+        </div>
         {powiazania_html}
-        <div class="card-condition"><span class="field-label">Stan:</span> {escape(obj["stan"])}</div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> {escape(obj["stan"])}</div>
         {trans_html}
       </div>
     </div>\n'''
@@ -8201,6 +8213,28 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
 .field-label {{ color:var(--text-faint); font-weight:500; font-size:0.9em; }}
 .card-context {{ color:var(--accent); font-style:italic; }}
 .card-condition {{ font-size:0.75em; color:var(--text-faint); margin-top:8px; padding-top:6px; border-top:1px solid var(--border); }}
+.powiazanie-link {{ color:var(--gold); text-decoration:none; font-family:'JetBrains Mono',monospace; font-size:0.95em; transition:color .2s; }}
+.powiazanie-link:hover {{ color:var(--accent); text-decoration:underline; }}
+.card.highlight-target {{ border-color:var(--gold) !important; box-shadow:0 0 20px rgba(201,169,110,.3) !important; transition:all .5s; }}
+
+/* TWO-COLUMN BILINGUAL MODE */
+.card-body.bilingual {{ }}
+.card-bilingual-row {{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:6px; }}
+.card-bilingual-row .col-orig {{ font-size:0.82em; color:var(--text-dim); line-height:1.5; padding-right:10px; border-right:1px solid var(--border); }}
+.card-bilingual-row .col-trans {{ font-size:0.82em; color:var(--gold-dim); line-height:1.5; font-style:italic; padding-left:10px; }}
+.card-bilingual-row .col-label {{ font-size:0.72em; color:var(--text-faint); text-transform:uppercase; letter-spacing:1px; margin-bottom:2px; }}
+.bilingual-header {{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:8px; padding-bottom:6px; border-bottom:1px solid var(--border); }}
+.bilingual-header span {{ font-size:0.7em; color:var(--text-faint); text-transform:uppercase; letter-spacing:2px; font-weight:600; }}
+body:not(.lang-active) .bilingual-header {{ display:none; }}
+body:not(.lang-active) .card-bilingual-row {{ grid-template-columns:1fr; }}
+body:not(.lang-active) .card-bilingual-row .col-trans {{ display:none; }}
+body:not(.lang-active) .card-bilingual-row .col-orig {{ border-right:none; padding-right:0; }}
+@media(max-width:700px) {{
+  .card-bilingual-row {{ grid-template-columns:1fr; }}
+  .card-bilingual-row .col-trans {{ border-left:2px solid var(--gold-dim); padding-left:10px; margin-top:4px; border-right:none; }}
+  .card-bilingual-row .col-orig {{ border-right:none; padding-right:0; }}
+  .bilingual-header {{ grid-template-columns:1fr; }}
+}}
 
 /* TRANSCRIPTION PANELS */
 .card-transcription {{ border-top:1px solid var(--border); margin-top:10px; padding-top:8px; }}
@@ -8286,6 +8320,7 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
 .person-card {{ background:var(--surface); border:1px solid var(--border); border-radius:4px; padding:14px; }}
 .pc-category {{ font-size:0.65em; color:var(--gold); text-transform:uppercase; letter-spacing:2px; margin-bottom:4px; font-weight:600; }}
 .pc-name {{ font-family:'Playfair Display',serif; font-size:0.95em; color:var(--text); margin-bottom:6px; }}
+.pc-dates {{ font-family:'Source Sans 3',sans-serif; font-size:0.8em; color:var(--gold-dim); font-weight:400; }}
 .pc-desc {{ font-size:0.8em; color:var(--text-dim); line-height:1.5; margin-bottom:6px; }}
 .pc-docs {{ font-family:'JetBrains Mono',monospace; font-size:0.68em; color:var(--text-faint); }}
 
@@ -8539,7 +8574,7 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
   <div class="subtitle" data-lang="nl">Documenten, correspondentie, foto's en efemera</div>
   <div class="subtitle" data-lang="fr">Documents, correspondance, photographies et éphémérides</div>
   <div class="subtitle" data-lang="yi">דאָקומענטן, קאָרעספּאָנדענץ, פאָטאָגראַפיעס און עפעמעראַ</div>
-  <div class="dates">1867 — 1964</div>
+  <div class="dates">1867 — 2020</div>
   <div class="stats">{total} jednostek inwentarzowych &bull; {len([s for s in SERIES if by_series.get(s["id"])])} serii archiwalnych &bull; 5 pokoleń</div>
 </div>
 
@@ -8749,7 +8784,15 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
 
   <!-- IDENTYFIKACJA OSÓB TRZECICH -->
   <div class="fa-section">
-    <h3 class="fa-section-title">Osoby zidentyfikowane w dokumentach</h3>
+    <h3 class="fa-section-title" id="indeks-osob">
+      <span data-lang="pl">Indeks osób zidentyfikowanych w dokumentach</span>
+      <span data-lang="en">Index of Persons Identified in Documents</span>
+      <span data-lang="pt">Índice de Pessoas Identificadas nos Documentos</span>
+      <span data-lang="de">Personenverzeichnis der in Dokumenten identifizierten Personen</span>
+      <span data-lang="nl">Index van geïdentificeerde personen in documenten</span>
+      <span data-lang="fr">Index des personnes identifiées dans les documents</span>
+      <span data-lang="yi">אינדעקס פֿון פּערזאָנען אידענטיפֿיצירט אין דאָקומענטן</span>
+    </h3>
     <div class="persons-grid">
 
       <div class="person-card">
@@ -8782,7 +8825,7 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
 
       <div class="person-card">
         <div class="pc-category">DOWÓDCY / PRZEŁOŻENI</div>
-        <div class="pc-name">Płk. dypl. Karol Ziemski</div>
+        <div class="pc-name">Płk. dypl. Karol Ziemski <span class="pc-dates">(1901&ndash;1991)</span></div>
         <div class="pc-desc">Dowódca Grupy &laquo;Północ&raquo; w Powstaniu Warszawskim (obrona Starego Miasta, ~5000 żołnierzy). Po wojnie: D-ca Polskiego Okręgu Wojskowego Schleswig-Holstein. Wydał kluczowe zaświadczenie o udziale Krzysztofa w Powstaniu (Wentorf pod Hamburgiem, 26.X.1946).</div>
         <div class="pc-docs">ARG/V/43</div>
       </div>
@@ -8810,14 +8853,14 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
 
       <div class="person-card">
         <div class="pc-category">DOWÓDCY / PRZEŁOŻENI</div>
-        <div class="pc-name">Gen. Kazimierz Sosnkowski</div>
+        <div class="pc-name">Gen. Kazimierz Sosnkowski <span class="pc-dates">(1885&ndash;1969)</span></div>
         <div class="pc-desc">Naczelny Wódz PSZ (1943&ndash;44), Inspektor Armii (lata 30.). Podpis na zaświadczeniu OB PPS (I.1935). List prywatny z Kanady &laquo;Kochany Januszu&raquo; (po 1960). Obaj legioniści Piłsudskiego i członkowie OB PPS 1905&ndash;08. Sosnkowski na emigracji w Arundel (Quebec) od XI.1944 do śmierci 11.X.1969.</div>
         <div class="pc-docs">ARG/II/3, II/4, II/27</div>
       </div>
 
       <div class="person-card">
         <div class="pc-category">DOWÓDCY / PRZEŁOŻENI</div>
-        <div class="pc-name">Marsz. Edward Śmigły-Rydz</div>
+        <div class="pc-name">Marsz. Edward Śmigły-Rydz <span class="pc-dates">(1886&ndash;1941)</span></div>
         <div class="pc-desc">Naczelny Wódz II RP. Odręczny list do Głuchowskiego. Widoczny na fotokopii wręczenia sztandaru 17 P.Uł. Wielkopolskich obok gen. Głuchowskiego.</div>
         <div class="pc-docs">ARG/II/14, II/22</div>
       </div>
@@ -8831,14 +8874,14 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
 
       <div class="person-card">
         <div class="pc-category">DYPLOMACI</div>
-        <div class="pc-name">Król Rumunii Ferdynand I</div>
+        <div class="pc-name">Król Rumunii Ferdynand I <span class="pc-dates">(1865&ndash;1927)</span></div>
         <div class="pc-desc">Podpis na dyplomie nadania Ordinul Coroanei României (Order Korony Rumuńskiej) dla Janusza Głuchowskiego. Kaligrafowany dokument, grudzień 1922. Pieczęć królewska. Kontrasygna: Ministrului Afacerilor Straine (Minister Spraw Zagranicznych).</div>
         <div class="pc-docs">ARG/II/16</div>
       </div>
 
       <div class="person-card">
         <div class="pc-category">PRELEGENCI PON</div>
-        <div class="pc-name">Wacław Sieroszewski, Juliusz Kaden(-Bandrowski), Marjan Dąbrowski</div>
+        <div class="pc-name">Wacław Sieroszewski <span class="pc-dates">(1858&ndash;1945)</span>, Juliusz Kaden-Bandrowski <span class="pc-dates">(1885&ndash;1944)</span>, Marjan Dąbrowski</div>
         <div class="pc-desc">Prelegenci na zebraniu PON w sali &laquo;Lutni&raquo;, 2.X.1914. Sieroszewski &mdash; pisarz i legionista. Kaden &mdash; prozaik, propagandysta Legionów. Organizator zebrania: Marjan Głuchowski.</div>
         <div class="pc-docs">ARG/I/2</div>
       </div>
@@ -8871,6 +8914,47 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
   <div class="fa-section">
     <h3 class="fa-section-title">Chronologia &mdash; historia rodziny w dokumentach</h3>
     <div class="timeline">
+
+      <div class="tl-era">Początki (1867&ndash;1904)</div>
+
+      <div class="tl-event">
+        <div class="tl-date">1867</div>
+        <div class="tl-body">
+          <strong>Narodziny Mariana Głuchowskiego</strong> &mdash; przyszłego Komisarza PON na powiat częstochowski. Legitymacja PON nr 2 &mdash; jeden z najwcześniejszych numerów w organizacji.
+          <div class="tl-docs">ARG/I/1</div>
+        </div>
+      </div>
+
+      <div class="tl-event tl-highlight">
+        <div class="tl-date">19.VI.1888</div>
+        <div class="tl-body">
+          <strong>Narodziny Janusza Juliana Głuchowskiego</strong> w Częstochowie. Przyszły generał dywizji, jeden z &laquo;Siódemki Beliny&raquo;, I Zastępca Ministra Spraw Wojskowych, współzałożyciel Instytutu Piłsudskiego w Londynie.
+          <div class="tl-docs">ARG/II/63</div>
+        </div>
+      </div>
+
+      <div class="tl-event">
+        <div class="tl-date">1.V.1893</div>
+        <div class="tl-body">
+          <strong>Narodziny Stanisława Stefana Głuchowskiego</strong> w Bukowej. Przyszły ppor. rezerwy kawalerii, urzędnik Kancelarii Cywilnej Prezydenta RP (1923&ndash;1939), żołnierz AK, jeniec Stalagu XI-B.
+          <div class="tl-docs">ARG/III/28</div>
+        </div>
+      </div>
+
+      <div class="tl-event">
+        <div class="tl-date">ok. 1900</div>
+        <div class="tl-body">
+          <strong>Narodziny Lecha Głuchowskiego</strong> ps. &laquo;Jeżycki&raquo;. Polegnie w Powstaniu Warszawskim 15.IX.1944.
+        </div>
+      </div>
+
+      <div class="tl-event">
+        <div class="tl-date">24.VIII.1904</div>
+        <div class="tl-body">
+          <strong>Marian Głuchowski mianowany Komisarzem PON</strong> na powiat częstochowski. Pismo Polskiej Organizacji Narodowej nr 2, podpis Sekretarza.
+          <div class="tl-docs">ARG/I/3</div>
+        </div>
+      </div>
 
       <div class="tl-era">Rewolucja i ruch niepodległościowy (1905&ndash;1914)</div>
 
@@ -9091,8 +9175,56 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
       <div class="tl-event">
         <div class="tl-date">1960&ndash;1964</div>
         <div class="tl-body">
-          <strong>Ostatnie ślady.</strong> Nekrolog Jana Lorensa (7 P.Uł.) w Chicago, 1960. Maszynopis Janusza o obchodach 50-lecia Legionów. List z emigracji londyńskiej, ok. 1964. Głuchowski zmarł 11.VI.1964 w Londynie, pochowany Brompton Cemetery (#576).
+          <strong>Ostatnie ślady gen. Janusza.</strong> Nekrolog Jana Lorensa (7 P.Uł.) w Chicago, 1960. Maszynopis Janusza o obchodach 50-lecia Legionów. List od Sosnkowskiego z Kanady &laquo;Kochany Januszu&raquo;.
           <div class="tl-docs">ARG/VI/9, II/28&ndash;29, II/27</div>
+        </div>
+      </div>
+
+      <div class="tl-event tl-highlight">
+        <div class="tl-date">11.VI.1964</div>
+        <div class="tl-body">
+          <strong>Śmierć gen. dyw. Janusza Głuchowskiego</strong> w Londynie. Pochowany na Brompton Cemetery (#576). Dwa dni później (13.VI.1964) umiera płk &laquo;Radwan&raquo; (Franciszek Pfeiffer) &mdash; Komendant Obwodu I Śródmieście AK, ten sam który podpisał zaświadczenie AK Stefana.
+          <div class="tl-docs">ARG/II/1&ndash;68</div>
+        </div>
+      </div>
+
+      <div class="tl-era">Emigracja i pamięć (1964&ndash;2020)</div>
+
+      <div class="tl-event">
+        <div class="tl-date">7.III.1968</div>
+        <div class="tl-body">
+          <strong>Krzysztof otrzymuje Krzyż Armii Krajowej nr 3316.</strong> Legitymacja wydana w Londynie, ustanowiony rozkazem gen. Bora-Komorowskiego 1.VIII.1966 (22. rocznica Godziny W).
+          <div class="tl-docs">ARG/V/164, V/165, V/119</div>
+        </div>
+      </div>
+
+      <div class="tl-event">
+        <div class="tl-date">ok. 1968</div>
+        <div class="tl-body">
+          <strong>List z Hazlewood Road.</strong> Krzysztof pisze o podróży do Argentyny, wuj Władysław w Polsce ma przedmioty z getta łódzkiego. Nawiązanie do bonów Litzmannstadt z kolekcji.
+          <div class="tl-docs">ARG/V/159, VI/11</div>
+        </div>
+      </div>
+
+      <div class="tl-event">
+        <div class="tl-date">1974</div>
+        <div class="tl-body">
+          <strong>Krzysztof emigruje do Brazylii.</strong> Z Anglii do Rio de Janeiro &mdash; Chartered Engineer, publicysta, wydawca bibliofilski. Zabiera ze sobą CAŁE archiwum rodzinne &mdash; 314 dokumentów, które przetrwają do XXI wieku na półkuli południowej.
+        </div>
+      </div>
+
+      <div class="tl-event">
+        <div class="tl-date">ok. 1980&ndash;2000</div>
+        <div class="tl-body">
+          <strong>Notatka od dziecka oficera 7 P.Uł.</strong> &laquo;Drogi Krzysztofie, przesyłam Ci ten list w imieniu mojego Ojca, jako ciekawostkę, ale dotyczącą 7 pułku Ułanów.&raquo; Podpisy por. Veli Jedigara i por. Janusza Poźniowskiego &mdash; więzi kombatanckie trwają pokoleniami.
+          <div class="tl-docs">ARG/III/33</div>
+        </div>
+      </div>
+
+      <div class="tl-event tl-highlight">
+        <div class="tl-date">V.2020</div>
+        <div class="tl-body">
+          <strong>Śmierć Krzysztofa Andrzeja Głuchowskiego</strong> w Rio de Janeiro, w wieku 93 lat. Ostatni żyjący członek rodziny, który pamiętał Powstanie Warszawskie z pierwszej ręki. Od przysięgi AK (1942, 15 lat) do śmierci &mdash; 78 lat. Archiwum trafia do spadkobierców.
         </div>
       </div>
 
@@ -9317,9 +9449,12 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
 <div class="tab-content active" id="tab-katalog">
 <nav class="nav">
 <a href="#finding-aid" class="nav-link" style="border-color:var(--gold);color:var(--gold);">Historia rodziny</a>
+<a href="#indeks-osob" class="nav-link">Indeks osób</a>
 <a href="#biografia" class="nav-link">Biografia</a>
 <a href="#research" class="nav-link">Badania</a>
-<a href="#oral-history" class="nav-link">Historia mowiona</a>
+<a href="#oral-history" class="nav-link">Historia mówiona</a>
+<a href="#conspiracy-note" class="nav-link" style="border-color:var(--accent);color:var(--accent);">&#x1F575; Nota konspiracyjna</a>
+<a href="#academic-articles" class="nav-link">Artykuły naukowe</a>
 <a href="#valuation" class="nav-link" style="border-color:#c0392b;color:#c0392b;">Wycena</a>
 {nav_html}
 </nav>
@@ -9508,6 +9643,26 @@ function switchTab(tabId, btn) {{
 }}
 
 /* Language switching */
+const FIELD_LABELS = {{
+  pl: {{ opis_fiz:'Opis fizyczny:', tresc:'Treść:', tworca:'Twórca:', jezyk:'Język:', kontekst:'Kontekst:', stan:'Stan:', powiazania:'Powiązania:' }},
+  en: {{ opis_fiz:'Physical description:', tresc:'Content:', tworca:'Creator:', jezyk:'Language:', kontekst:'Context:', stan:'Condition:', powiazania:'Related:' }},
+  pt: {{ opis_fiz:'Descrição física:', tresc:'Conteúdo:', tworca:'Criador:', jezyk:'Idioma:', kontekst:'Contexto:', stan:'Estado:', powiazania:'Relacionados:' }},
+  de: {{ opis_fiz:'Physische Beschreibung:', tresc:'Inhalt:', tworca:'Urheber:', jezyk:'Sprache:', kontekst:'Kontext:', stan:'Zustand:', powiazania:'Verknüpfungen:' }},
+  nl: {{ opis_fiz:'Fysieke beschrijving:', tresc:'Inhoud:', tworca:'Maker:', jezyk:'Taal:', kontekst:'Context:', stan:'Conditie:', powiazania:'Gerelateerd:' }},
+  fr: {{ opis_fiz:'Description physique:', tresc:'Contenu:', tworca:'Créateur:', jezyk:'Langue:', kontekst:'Contexte:', stan:'État:', powiazania:'Liens:' }},
+  yi: {{ opis_fiz:'פֿיזישע באַשרייבונג:', tresc:'אינהאַלט:', tworca:'שעפֿער:', jezyk:'שפּראַך:', kontekst:'קאָנטעקסט:', stan:'צושטאַנד:', powiazania:'פֿאַרבינדונגען:' }}
+}};
+
+const LANG_NAMES = {{ pl:'Polski', en:'English', pt:'Português', de:'Deutsch', nl:'Nederlands', fr:'Français', yi:'ייִדיש' }};
+const BILINGUAL_NOTE = {{
+  en:'[Original text in Polish — see left column]',
+  pt:'[Texto original em polonês — ver coluna esquerda]',
+  de:'[Originaltext auf Polnisch — siehe linke Spalte]',
+  nl:'[Originele tekst in het Pools — zie linkerkolom]',
+  fr:'[Texte original en polonais — voir colonne de gauche]',
+  yi:'[אָריגינעלער טעקסט אויף פּויליש — זע לינקע שפּאַלט]'
+}};
+
 function switchLang(lang, btn) {{
   // Update buttons
   document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
@@ -9516,8 +9671,48 @@ function switchLang(lang, btn) {{
   document.querySelectorAll('[data-lang]').forEach(el => {{
     el.style.display = el.getAttribute('data-lang') === lang ? '' : 'none';
   }});
+  // Translate field labels
+  const labels = FIELD_LABELS[lang] || FIELD_LABELS['pl'];
+  document.querySelectorAll('[data-label]').forEach(el => {{
+    const key = el.getAttribute('data-label');
+    if (labels[key]) el.textContent = labels[key];
+  }});
+  // Bilingual mode
+  if (lang !== 'pl') {{
+    document.body.classList.add('lang-active');
+    const note = BILINGUAL_NOTE[lang] || '';
+    document.querySelectorAll('.col-trans-label').forEach(el => {{
+      el.textContent = LANG_NAMES[lang] || lang.toUpperCase();
+      el.style.display = '';
+    }});
+    document.querySelectorAll('.card-bilingual-row .col-trans').forEach(el => {{
+      const field = el.parentElement.getAttribute('data-field');
+      const lbl = labels[field] || '';
+      el.innerHTML = '<span class="col-label">' + lbl + '</span> ' + note;
+    }});
+  }} else {{
+    document.body.classList.remove('lang-active');
+    document.querySelectorAll('.card-bilingual-row .col-trans').forEach(el => {{ el.innerHTML = ''; }});
+  }}
   // Update html lang attribute
   document.documentElement.lang = lang;
+}}
+
+/* Multi-page gallery — scroll to related card */
+function scrollToCard(cardId) {{
+  const el = document.getElementById('card-' + cardId);
+  if (!el) return;
+  // Ensure the tab containing the card is visible
+  const tabKatalog = document.getElementById('tab-katalog');
+  if (tabKatalog && !tabKatalog.classList.contains('active')) {{
+    document.querySelectorAll('.tab-content').forEach(tc => tc.classList.remove('active'));
+    document.querySelectorAll('.tab-btn').forEach(tb => tb.classList.remove('active'));
+    tabKatalog.classList.add('active');
+    document.querySelector('[onclick*="katalog"]')?.classList.add('active');
+  }}
+  el.scrollIntoView({{ behavior:'smooth', block:'center' }});
+  el.classList.add('highlight-target');
+  setTimeout(() => el.classList.remove('highlight-target'), 3000);
 }}
 
 /* Photo grid filtering */
