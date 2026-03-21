@@ -7534,7 +7534,7 @@ def generate_html():
           <span class="card-type">{escape(typ_label)}</span>
         </div>
         <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> {escape(obj["opis_fizyczny"])}</div>
-        <div class="bilingual-header"><span data-lang="pl">ORYGINAŁ</span><span class="col-trans-label">TRANSLATION</span></div>
+        <div class="bilingual-header"><span class="col-orig-label">ORYGINAŁ (PL)</span><span class="col-trans-label">TRANSLATION</span></div>
         <div class="card-bilingual-row" data-field="tresc">
           <div class="col-orig"><span class="field-label" data-label="tresc">Treść:</span> {escape(obj["opis_tresci"])}</div>
           <div class="col-trans"></div>
@@ -8179,8 +8179,12 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
 .lang-btn {{ padding:6px 14px; background:transparent; border:1px solid transparent; cursor:pointer; font-size:0.82em; font-family:'Source Sans 3',sans-serif; color:var(--text-dim); transition:all .2s; border-radius:3px; font-weight:500; }}
 .lang-btn:hover {{ color:var(--gold); border-color:var(--border); }}
 .lang-btn.active {{ color:var(--gold); border-color:var(--gold); background:rgba(201,169,110,.08); font-weight:600; }}
+/* data-lang visibility is managed entirely by JS switchLang() with parent-based fallback */
 [data-lang] {{ display:none; }}
 [data-lang="pl"] {{ display:revert; }}
+/* Fallback marker: when JS runs, it adds .lang-js to body and takes over */
+body.lang-js [data-lang] {{ display:none; }}
+body.lang-js [data-lang].lang-visible {{ display:revert; }}
 
 /* NAV */
 .nav {{ position:sticky; top:38px; z-index:100; background:rgba(12,11,9,.95); backdrop-filter:blur(12px); padding:14px 20px; border-bottom:1px solid var(--border); display:flex; flex-wrap:wrap; gap:8px; justify-content:center; }}
@@ -8222,9 +8226,12 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
 .card-bilingual-row {{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:6px; }}
 .card-bilingual-row .col-orig {{ font-size:0.82em; color:var(--text-dim); line-height:1.5; padding-right:10px; border-right:1px solid var(--border); }}
 .card-bilingual-row .col-trans {{ font-size:0.82em; color:var(--gold-dim); line-height:1.5; font-style:italic; padding-left:10px; }}
-.card-bilingual-row .col-label {{ font-size:0.72em; color:var(--text-faint); text-transform:uppercase; letter-spacing:1px; margin-bottom:2px; }}
+.card-bilingual-row .col-label {{ font-size:0.72em; color:var(--text-faint); text-transform:uppercase; letter-spacing:1px; margin-bottom:2px; display:block; }}
+.bilingual-hint {{ display:block; font-size:0.78em; color:var(--text-faint); font-style:italic; margin-top:4px; opacity:0.7; }}
 .bilingual-header {{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:8px; padding-bottom:6px; border-bottom:1px solid var(--border); }}
 .bilingual-header span {{ font-size:0.7em; color:var(--text-faint); text-transform:uppercase; letter-spacing:2px; font-weight:600; }}
+.bilingual-header .col-orig-label {{ color:var(--text-faint); }}
+.bilingual-header .col-trans-label {{ color:var(--gold-dim); }}
 body:not(.lang-active) .bilingual-header {{ display:none; }}
 body:not(.lang-active) .card-bilingual-row {{ grid-template-columns:1fr; }}
 body:not(.lang-active) .card-bilingual-row .col-trans {{ display:none; }}
@@ -8575,26 +8582,40 @@ body:not(.lang-active) .card-bilingual-row .col-orig {{ border-right:none; paddi
   <div class="subtitle" data-lang="fr">Documents, correspondance, photographies et éphémérides</div>
   <div class="subtitle" data-lang="yi">דאָקומענטן, קאָרעספּאָנדענץ, פאָטאָגראַפיעס און עפעמעראַ</div>
   <div class="dates">1867 — 2020</div>
-  <div class="stats">{total} jednostek inwentarzowych &bull; {len([s for s in SERIES if by_series.get(s["id"])])} serii archiwalnych &bull; 5 pokoleń</div>
+  <div class="stats" data-lang="pl">{total} jednostek inwentarzowych &bull; {len([s for s in SERIES if by_series.get(s["id"])])} serii archiwalnych &bull; 5 pokoleń</div>
+  <div class="stats" data-lang="en">{total} inventory units &bull; {len([s for s in SERIES if by_series.get(s["id"])])} archival series &bull; 5 generations</div>
 </div>
 
 <div class="provenance">
-  <h3>Nota proweniencyjna</h3>
-  <p>{escape(FONDS["historia_zespolu"])}</p>
-  <div class="prov-label">Proweniencja</div>
-  <p>{escape(FONDS["proweniencja"])}</p>
-  <div class="prov-label">Języki dokumentów</div>
-  <p>{escape(FONDS["jezyki"])}</p>
-  <div class="prov-label">Stan zachowania</div>
-  <p>{escape(FONDS["stan_zachowania"])}</p>
+  <h3 data-lang="pl">Nota proweniencyjna</h3>
+  <h3 data-lang="en">Provenance Note</h3>
+  <p data-lang="pl">{escape(FONDS["historia_zespolu"])}</p>
+  <p data-lang="en">Family archive of the Głuchowski family — five generations of Polish military officers and independence activists. The collection spans 1867&ndash;2020 and documents the family's involvement in the struggle for Polish independence (PON), both World Wars, the Warsaw Uprising, POW camps, and post-war emigration. Acquired in Buenos Aires from the estate of Krzysztof Głuchowski (1926&ndash;2020), the last living member of the family.</p>
+  <div class="prov-label" data-lang="pl">Proweniencja</div>
+  <div class="prov-label" data-lang="en">Provenance</div>
+  <p data-lang="pl">{escape(FONDS["proweniencja"])}</p>
+  <p data-lang="en">Private family archive, passed down through the male line: Marian &rarr; Janusz/Stefan &rarr; Krzysztof. Preserved in emigration (Argentina) since 1949. Acquired 2024 from private hands in Buenos Aires.</p>
+  <div class="prov-label" data-lang="pl">Języki dokumentów</div>
+  <div class="prov-label" data-lang="en">Document Languages</div>
+  <p data-lang="pl">{escape(FONDS["jezyki"])}</p>
+  <p data-lang="en">Polish (dominant), German, French, English, Italian, Romanian, Latin, Spanish. Reflects the family's international military and diplomatic connections.</p>
+  <div class="prov-label" data-lang="pl">Stan zachowania</div>
+  <div class="prov-label" data-lang="en">Condition</div>
+  <p data-lang="pl">{escape(FONDS["stan_zachowania"])}</p>
+  <p data-lang="en">Varied — from good (official documents, diplomas) to poor (field correspondence, POW cards). Some items show wartime damage, foxing, and fragile paper. Overall: good for a private collection preserved 75+ years in subtropical climate.</p>
 </div>
 
 <div class="methodology">
-  <strong>Metodologia katalogowania:</strong> Opis na poziomie jednostki inwentarzowej wg standardu ISAD(G) / Dublin Core.
+  <span data-lang="pl"><strong>Metodologia katalogowania:</strong> Opis na poziomie jednostki inwentarzowej wg standardu ISAD(G) / Dublin Core.
   Hierarchia: Zespół (ARG) &rarr; Seria (I&ndash;VI, wg twórcy) &rarr; Jednostka. Każda fotografia = osobna karta katalogowa.
   Pola: sygnatura, tytuł formalny, datowanie, typ dokumentu (słownik kontrolowany), opis fizyczny, opis treści,
   twórca, język, kontekst historyczny, powiązania wewnątrzzespołowe, stan zachowania.
-  Opisy sporządzone wyłącznie na podstawie analizy wizualnej fotografii &mdash; bez domysłów i interpolacji.
+  Opisy sporządzone wyłącznie na podstawie analizy wizualnej fotografii &mdash; bez domysłów i interpolacji.</span>
+  <span data-lang="en"><strong>Cataloguing methodology:</strong> Description at the item level per ISAD(G) / Dublin Core standards.
+  Hierarchy: Fonds (ARG) &rarr; Series (I&ndash;VI, by creator) &rarr; Item. Each photograph = one catalogue card.
+  Fields: call number, formal title, date, document type (controlled vocabulary), physical description, content description,
+  creator, language, historical context, internal cross-references, condition.
+  Descriptions based exclusively on visual analysis of photographs &mdash; no assumptions or interpolations.</span>
 </div>
 
 <!-- ============================================================ -->
@@ -8734,12 +8755,15 @@ body:not(.lang-active) .card-bilingual-row .col-orig {{ border-right:none; paddi
 <!-- ============================================================ -->
 
 <div class="finding-aid" id="finding-aid">
-  <h2 class="fa-main-title">Wstęp historyczny</h2>
-  <p class="fa-subtitle">Rekonstrukcja dziejów rodziny na podstawie dokumentów w kolekcji</p>
+  <h2 class="fa-main-title" data-lang="pl">Wstęp historyczny</h2>
+  <h2 class="fa-main-title" data-lang="en">Historical Introduction</h2>
+  <p class="fa-subtitle" data-lang="pl">Rekonstrukcja dziejów rodziny na podstawie dokumentów w kolekcji</p>
+  <p class="fa-subtitle" data-lang="en">Reconstruction of the family's history based on documents in the collection</p>
 
   <!-- DRZEWO GENEALOGICZNE -->
   <div class="fa-section">
-    <h3 class="fa-section-title">Drzewo rodziny</h3>
+    <h3 class="fa-section-title" data-lang="pl">Drzewo rodziny</h3>
+    <h3 class="fa-section-title" data-lang="en">Family Tree</h3>
     <div class="family-tree">
       <div class="ft-generation">
         <div class="ft-person ft-founder">
@@ -8912,7 +8936,8 @@ body:not(.lang-active) .card-bilingual-row .col-orig {{ border-right:none; paddi
 
   <!-- CHRONOLOGIA / NARRACJA -->
   <div class="fa-section">
-    <h3 class="fa-section-title">Chronologia &mdash; historia rodziny w dokumentach</h3>
+    <h3 class="fa-section-title" data-lang="pl">Chronologia &mdash; historia rodziny w dokumentach</h3>
+    <h3 class="fa-section-title" data-lang="en">Chronology &mdash; family history through documents</h3>
     <div class="timeline">
 
       <div class="tl-era">Początki (1867&ndash;1904)</div>
@@ -9448,14 +9473,14 @@ body:not(.lang-active) .card-bilingual-row .col-orig {{ border-right:none; paddi
 
 <div class="tab-content active" id="tab-katalog">
 <nav class="nav">
-<a href="#finding-aid" class="nav-link" style="border-color:var(--gold);color:var(--gold);">Historia rodziny</a>
-<a href="#indeks-osob" class="nav-link">Indeks osób</a>
-<a href="#biografia" class="nav-link">Biografia</a>
-<a href="#research" class="nav-link">Badania</a>
-<a href="#oral-history" class="nav-link">Historia mówiona</a>
-<a href="#conspiracy-note" class="nav-link" style="border-color:var(--accent);color:var(--accent);">&#x1F575; Nota konspiracyjna</a>
-<a href="#academic-articles" class="nav-link">Artykuły naukowe</a>
-<a href="#valuation" class="nav-link" style="border-color:#c0392b;color:#c0392b;">Wycena</a>
+<a href="#finding-aid" class="nav-link" style="border-color:var(--gold);color:var(--gold);" data-nav="family">Historia rodziny</a>
+<a href="#indeks-osob" class="nav-link" data-nav="persons">Indeks osób</a>
+<a href="#biografia" class="nav-link" data-nav="bio">Biografia</a>
+<a href="#research" class="nav-link" data-nav="research">Badania</a>
+<a href="#oral-history" class="nav-link" data-nav="oral">Historia mówiona</a>
+<a href="#conspiracy-note" class="nav-link" style="border-color:var(--accent);color:var(--accent);" data-nav="conspiracy">&#x1F575; Nota konspiracyjna</a>
+<a href="#academic-articles" class="nav-link" data-nav="articles">Artykuły naukowe</a>
+<a href="#valuation" class="nav-link" style="border-color:#c0392b;color:#c0392b;" data-nav="valuation">Wycena</a>
 {nav_html}
 </nav>
 
@@ -9642,7 +9667,9 @@ function switchTab(tabId, btn) {{
   window.scrollTo({{ top: 0, behavior: 'smooth' }});
 }}
 
-/* Language switching */
+/* ========================================= */
+/* Language switching — parent-based fallback */
+/* ========================================= */
 const FIELD_LABELS = {{
   pl: {{ opis_fiz:'Opis fizyczny:', tresc:'Treść:', tworca:'Twórca:', jezyk:'Język:', kontekst:'Kontekst:', stan:'Stan:', powiazania:'Powiązania:' }},
   en: {{ opis_fiz:'Physical description:', tresc:'Content:', tworca:'Creator:', jezyk:'Language:', kontekst:'Context:', stan:'Condition:', powiazania:'Related:' }},
@@ -9654,47 +9681,108 @@ const FIELD_LABELS = {{
 }};
 
 const LANG_NAMES = {{ pl:'Polski', en:'English', pt:'Português', de:'Deutsch', nl:'Nederlands', fr:'Français', yi:'ייִדיש' }};
-const BILINGUAL_NOTE = {{
-  en:'[Original text in Polish — see left column]',
-  pt:'[Texto original em polonês — ver coluna esquerda]',
-  de:'[Originaltext auf Polnisch — siehe linke Spalte]',
-  nl:'[Originele tekst in het Pools — zie linkerkolom]',
-  fr:'[Texte original en polonais — voir colonne de gauche]',
-  yi:'[אָריגינעלער טעקסט אויף פּויליש — זע לינקע שפּאַלט]'
+const BILINGUAL_HINT = {{
+  en:'Original description in Polish',
+  pt:'Descrição original em polonês',
+  de:'Originalbeschreibung auf Polnisch',
+  nl:'Originele beschrijving in het Pools',
+  fr:'Description originale en polonais',
+  yi:'אָריגינעלע באַשרייבונג אויף פּויליש'
 }};
 
+/* Activate JS-based lang control — initialize after functions defined */
+
 function switchLang(lang, btn) {{
-  // Update buttons
+  /* 1. Update buttons */
   document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
-  // Show/hide elements with data-lang
+
+  /* 2. Group-based fallback for data-lang elements.
+     Elements sharing same parent + same tag + same className form a group.
+     Within each group: pick target → en → pl fallback. */
+  const grouped = new Map();
   document.querySelectorAll('[data-lang]').forEach(el => {{
-    el.style.display = el.getAttribute('data-lang') === lang ? '' : 'none';
+    const parent = el.parentElement;
+    if (!parent) return;
+    /* Group key: parent identity + tag + class (minus lang-visible) */
+    const cls = Array.from(el.classList).filter(c => c !== 'lang-visible').sort().join(',');
+    const key = el.tagName + '|' + cls;
+    /* Use parent + key as composite group */
+    if (!grouped.has(parent)) grouped.set(parent, {{}});
+    const parentGroups = grouped.get(parent);
+    if (!parentGroups[key]) parentGroups[key] = [];
+    parentGroups[key].push(el);
   }});
-  // Translate field labels
+
+  grouped.forEach((groups) => {{
+    Object.values(groups).forEach(els => {{
+      /* Collect available langs for this group */
+      const byLang = {{}};
+      els.forEach(s => {{
+        const l = s.getAttribute('data-lang');
+        if (!byLang[l]) byLang[l] = [];
+        byLang[l].push(s);
+      }});
+
+      /* Pick best: target lang → english → polish */
+      const bestLang = byLang[lang] ? lang : (byLang['en'] ? 'en' : 'pl');
+
+      els.forEach(s => {{
+        if (s.getAttribute('data-lang') === bestLang) {{
+          s.classList.add('lang-visible');
+          s.style.display = '';
+        }} else {{
+          s.classList.remove('lang-visible');
+          s.style.display = 'none';
+        }}
+      }});
+    }});
+  }});
+
+  /* 3. Translate field labels on cards */
   const labels = FIELD_LABELS[lang] || FIELD_LABELS['pl'];
   document.querySelectorAll('[data-label]').forEach(el => {{
     const key = el.getAttribute('data-label');
     if (labels[key]) el.textContent = labels[key];
   }});
-  // Bilingual mode
+
+  /* 4. Bilingual mode — show original PL + translation column */
   if (lang !== 'pl') {{
     document.body.classList.add('lang-active');
-    const note = BILINGUAL_NOTE[lang] || '';
+    const hint = BILINGUAL_HINT[lang] || BILINGUAL_HINT['en'];
+    const langName = LANG_NAMES[lang] || lang.toUpperCase();
+    /* Update column header */
     document.querySelectorAll('.col-trans-label').forEach(el => {{
-      el.textContent = LANG_NAMES[lang] || lang.toUpperCase();
-      el.style.display = '';
+      el.textContent = langName;
     }});
+    /* Fill translation column with hint */
     document.querySelectorAll('.card-bilingual-row .col-trans').forEach(el => {{
       const field = el.parentElement.getAttribute('data-field');
       const lbl = labels[field] || '';
-      el.innerHTML = '<span class="col-label">' + lbl + '</span> ' + note;
+      el.innerHTML = '<span class="col-label">' + lbl + '</span><span class="bilingual-hint">' + hint + '</span>';
     }});
   }} else {{
     document.body.classList.remove('lang-active');
     document.querySelectorAll('.card-bilingual-row .col-trans').forEach(el => {{ el.innerHTML = ''; }});
   }}
-  // Update html lang attribute
+
+  /* 5. Translate navigation links */
+  const NAV = {{
+    pl: {{ family:'Historia rodziny', persons:'Indeks osób', bio:'Biografia', research:'Badania', oral:'Historia mówiona', conspiracy:'🕵 Nota konspiracyjna', articles:'Artykuły naukowe', valuation:'Wycena' }},
+    en: {{ family:'Family History', persons:'Person Index', bio:'Biography', research:'Research', oral:'Oral History', conspiracy:'🕵 Conspiracy Note', articles:'Academic Articles', valuation:'Valuation' }},
+    pt: {{ family:'História da Família', persons:'Índice de Pessoas', bio:'Biografia', research:'Pesquisa', oral:'História Oral', conspiracy:'🕵 Nota Conspiratória', articles:'Artigos Acadêmicos', valuation:'Avaliação' }},
+    de: {{ family:'Familiengeschichte', persons:'Personenindex', bio:'Biographie', research:'Forschung', oral:'Oral History', conspiracy:'🕵 Konspirationsnotiz', articles:'Wissenschaftliche Artikel', valuation:'Bewertung' }},
+    nl: {{ family:'Familiegeschiedenis', persons:'Personenindex', bio:'Biografie', research:'Onderzoek', oral:'Oral History', conspiracy:'🕵 Samenzweringsnotitie', articles:'Wetenschappelijke Artikelen', valuation:'Waardering' }},
+    fr: {{ family:'Histoire familiale', persons:'Index des personnes', bio:'Biographie', research:'Recherche', oral:'Histoire orale', conspiracy:'🕵 Note conspiratoire', articles:'Articles académiques', valuation:'Évaluation' }},
+    yi: {{ family:'משפּחה געשיכטע', persons:'פּערזאָנען אינדעקס', bio:'ביאָגראַפיע', research:'פֿאָרשונג', oral:'מינדלעכע געשיכטע', conspiracy:'🕵 קאָנספּיראַציע', articles:'אַקאַדעמישע אַרטיקלען', valuation:'אָפּשאַצונג' }}
+  }};
+  const navLabels = NAV[lang] || NAV['pl'];
+  document.querySelectorAll('[data-nav]').forEach(el => {{
+    const key = el.getAttribute('data-nav');
+    if (navLabels[key]) el.textContent = navLabels[key];
+  }});
+
+  /* 6. Update html lang */
   document.documentElement.lang = lang;
 }}
 
@@ -9732,6 +9820,14 @@ function filterPhotos() {{
   }});
   document.getElementById('photo-count').textContent = visible + ' fotografii';
 }}
+
+/* Initialize language system — mark PL elements as visible */
+(function initLang() {{
+  document.body.classList.add('lang-js');
+  /* Call switchLang with PL to mark all PL elements as lang-visible */
+  const plBtn = document.querySelector('.lang-btn.active');
+  if (plBtn) switchLang('pl', plBtn);
+}})();
 </script>
 
 </body>
