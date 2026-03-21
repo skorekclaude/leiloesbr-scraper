@@ -361,15 +361,15 @@ OBJECTS = [
     {
         "sygn": "ARG/II/9",
         "photo": "Kolekcja_Gluchowski_Katalog_Tematyczny_p12_img01.jpeg",
-        "tytul": "Życzenia od Samorządu Żołnierskiego 7 P.Uł.",
-        "data": "5.I. [lata 20.]",
+        "tytul": "Życzenia wielkanocne od D-cy Szwadronu Zapasowego 7 P.Uł. — Ciechanów",
+        "data": "5.I.[192x] (wielkanocne, nie noworoczne)",
         "typ": "pismo",
-        "opis_fizyczny": "Pismo na papierze z pieczęcią pułkową, odręczne podpisy",
-        "opis_tresci": "Życzenia świąteczne od Samorządu Żołnierskiego 7 Pułku Ułanów: 'do Majora Głuchowskiego Janusza, D-cy 7-go P.Ułanów, w imieniu oficerów i szeregowych...' Pieczęć 7 P.Uł., podpis.",
+        "opis_fizyczny": "Pismo na papierze z pieczęcią fioletową 'DOWÓDZTWO / Szwadronu Zapasowego / 7 pułku Ułanów'. Nr kancelaryjny L.[?]72. Maszynopis z odręcznym podpisem rotmistrza. Format ok. A5 poziomy.",
+        "opis_tresci": "Pieczęć: 'DOWÓDZTWO / Szwadronu Zapasowego / 7 pułku Ułanów' — Ciechanów — 'Do / Majora Głuchowskiego Janusza / D-cy 7-go P.Ułanów / m. postoju / ============= / W imieniu oficerów i szeregowych powierzonego mi szwadronu przy nadchodzących świętach Wielkiej Nocy składam najserdeczniejsze życzenie.' — Podpis: '[nazwisko], Rtm.II, D-ca Szw.zap. / 7-go P.Uł.'",
         "seria": "II",
-        "tworca": "Samorząd Żołnierski 7 P.Uł.",
+        "tworca": "Rotmistrz, D-ca Szwadronu Zapasowego 7 P.Uł., Ciechanów",
         "jezyk": "polski",
-        "kontekst": "Dokument świadczący o relacji dowódcy z żołnierzami. Stopień 'Major' pozwala datować na lata 20.",
+        "kontekst": "Życzenia WIELKANOCNE (Wielka Noc), nie noworoczne — to zmienia datowanie. Nadawca: rotmistrz dowodzący Szwadronem Zapasowym (kadrowym) 7 P.Uł. stacjonującym w CIECHANOWIE. Adresat: major Janusz Głuchowski jako D-ca 7 P.Uł. w 'm. postoju' (Mińsk Mazowiecki). W strukturze pułku kawalerii Szwadron Zapasowy był oddzielną jednostką szkolno-kadrową, stacjonującą w innym garnizonie niż pułk macierzysty. Stopień 'Major' datuje dokument na ok. 1926–1929 (przed awansem na pułkownika). Fakt, że D-ca Szw.Zap. pisze z Ciechanowa do Mińska Maz. potwierdza rozlokowanie 7 P.Uł. w dwóch garnizonach. Podpis 'Rtm.II' = rotmistrz II klasy (odpowiednik kapitana).",
         "powiazania": ["ARG/II/8"],
         "stan": "Dobry"
     },
@@ -530,15 +530,15 @@ OBJECTS = [
     {
         "sygn": "ARG/II/20",
         "photo": "Kolekcja_Gluchowski_Katalog_Tematyczny_p10_img01.jpeg",
-        "tytul": "Rozkaz wyjazdu — formularz MSWojsk",
-        "data": "lata 30. XX w.",
+        "tytul": "Rozkaz wyjazdu — D-wo Okręgu Korpusu, Przemyśl, gen.bryg. Głuchowski Janusz",
+        "data": "19.[?].1935",
         "typ": "formularz",
-        "opis_fizyczny": "Formularz służbowy z pieczęcią, maszynopis z odręcznymi wpisami",
-        "opis_tresci": "Rozkaz wyjazdu — MSWojsk, SZTAB, Seria J nr 116321. Generał bryg. Głuchowski Janusz, cel podróży: inspekcja. Formularz służbowy.",
+        "opis_fizyczny": "Formularz urzędowy 'Rozkaz wyjazdu na koszt M.S.Wojsk. konno, koleją, statkiem' — Świstek IV, Druk dziennego zarządzania. Nagłówek: 'DOWÓDZTWO OKRĘGU KORPUSU Nr [X] / Dowódca / SZTAB'. Serja J Nr 113424. Maszynopis z odręcznymi wpisami. Pieczęć okrągła. Format A4, papier brunatny.",
+        "opis_tresci": "'DOWÓDZTWO OKRĘGU KORPUSU Nr [X] / Dowódca / SZTAB / Przemyśl dn. 19.[?].35 / Serja J Nr 113424 / Rozkaz wyjazdu na koszt M.S.Wojsk. konno, koleją, statkiem' — Dla: 'Generała Bryg. Głuchowskiego Janusza' — trasa: Przemyśl → Warszawa. Cel podróży wpisany odręcznie (trudno czytelny — możliwe: 'udział w pogrzebie ś.p. Marszałka Piłsudskiego' LUB 'udział w przeglądzie'). Podpis Szefa Sztabu DOK.",
         "seria": "II",
-        "tworca": "MSWojsk, Sztab",
+        "tworca": "Dowództwo Okręgu Korpusu Nr X, Przemyśl",
         "jezyk": "polski",
-        "kontekst": "Codzienny dokument biurokratyczny armii — świadczy o inspekcjach jednostek przez wiceministra.",
+        "kontekst": "Rozkaz wyjazdu z Przemyśla do Warszawy dla gen.bryg. Janusza Głuchowskiego. Wystawca: D-wo Okręgu Korpusu Nr X w Przemyślu (DOK X odpowiadał za województwa: lwowskie, stanisławowskie, tarnopolskie, ze sztabem w Przemyślu). Janusz jako Dowódca Piechoty Dywizyjnej lub inspektor podlegał DOK X. JEŚLI data to V.1935 — może być związany z pogrzebem Marszałka Piłsudskiego (zm. 12.V.1935) — co byłoby dokumentem o ogromnym znaczeniu historycznym. Formularz 'Świstek IV' = standardowy druk podróży służbowej WP II RP, z rozliczeniem kosztów przejazdu. Numer serii J powyżej 113 000 świadczy o skali biurokracji wojskowej lat 30.",
         "powiazania": ["ARG/II/19"],
         "stan": "Dobry"
     },
@@ -803,11 +803,11 @@ OBJECTS = [
         "data": "XI.1944",
         "typ": "list",
         "opis_fizyczny": "Rewers formularza, gęste pismo ołówkowe",
-        "opis_tresci": "Długi list Stefana do Krzysztofa. 'Mama na ul. Howe-Monatkiego w Częstochowie', wspomina wielu krewnych. Podpis 'Stefek'. Intymna korespondencja rodzinna z niewoli.",
+        "opis_tresci": "'Drogi Mój Synu, Ampero dawno t.d. / po 38 dniach dostałem Twój list. Ja / pisałem do Ciebie kartkę z odpowie- / dzią, zdaje się 26.X. W kartce tej / pisałem Ci, że 29.IX, w dniu urodzin / Kolbona umarła Babcia w Willi B. Maciejskiej, / i jest pochowana tam w ogrodzie. Wiadomość / tę dostałem od Cioci Irchy. Ciocia / pisze że Halszka i Irka są w Klerinie(?), / a Mamusia ze Stenią i Andrzejem z córecz- / kami są w Częstochowie, mieszkają / na ul. Hoene-Wrońskiego 12. Ciocia / Eocha napisała bez daty a ze stempla / poczt. widać, że pisana kartka była / ponad 8 XI a pismo Ciocia że od Ciebie nie / dostała żedne(?). Może mi dokładnie adres / napisz: Klisin B. pod Rajgrowice, Kreis Radomsko, / Notary(?). Mamusia: Tschenstochau / z daty ulicy, jak wyżej. Do Mamusi napisałem do 28.X, / podałem Twój adres, a teraz czekam na wiadomość. / [...] Serdecznie Ci Synu ści- / skam i całuję od Ciebie ciągle tęskniący / Stefanek'.",
         "seria": "III",
         "tworca": "Stanisław Stefan Głuchowski",
         "jezyk": "polski",
-        "kontekst": "List o wielkim ładunku emocjonalnym. Ojciec-jeniec pisze do syna-jeńca o rodzinie w Częstochowie.",
+        "kontekst": "NIEZWYKLE INTYMNY LIST z obozu jenieckiego (XI.1944). Stefan-jeniec pisze do Krzysztofa-jeńca o losach rozrzuconej rodziny: (1) Babcia zmarła 29.IX w 'Willi B. Maciejskiej' — pochowana W OGRODZIE (nie na cmentarzu — czas wojenny!), (2) 'Mamusia' (żona Wanda?) ze Stenią i Andrzejem z córeczkami mieszka w Częstochowie, ul. Hoene-Wrońskiego 12 — adres KONKRETNY, weryfikowalny, (3) Halszka i Irka w 'Klerinie' (Clermont-Ferrand? Francja?), (4) 'Ciocia Ircha' pośredniczy w wiadomościach, (5) adresy podawane po NIEMIECKU: 'Kreis Radomsko', 'Tschenstochau' — realność GG. Podpis 'Stefanek' (nie 'Stefan') = czułość ojcowska. List pisany 38 DNI po otrzymaniu odpowiedzi — tempo poczty jenieckiej. Korespondencja OJCIEC↔SYN między dwoma Stalagami (Stefan w XI-B Fallingbostel, Krzysztof w XI-B Bergen — TEN SAM obóz, różne Kommandos!).",
         "powiazania": ["ARG/III/3"],
         "stan": "Średni — pismo ołówkowe, wyblakłe"
     },
@@ -914,11 +914,11 @@ OBJECTS = [
         "data": "1941–1944",
         "typ": "karta_id",
         "opis_fizyczny": "Rozkładówka ze zdjęciem legitymacyjnym, odciski palców, pieczęć urzędowa",
-        "opis_tresci": "Wnętrze Kennkarte z fotografią legitymacyjną Krzysztofa Głuchowskiego, danymi osobowymi i odciskami palców. Formularz niemieckojęzyczny z pieczęcią urzędową.",
+        "opis_tresci": "LEWA STRONA: Fotografia legitymacyjna — młody mężczyzna (twarz okrągła, włosy zaczesane do tyłu, marynarka). Podpis: 'Krzysztof Głuchowski'. Poniżej: 'Warschau / den 9. November 1943 / Der Polizeipräsident / [podpis] Lehmann'. Pieczęć z orłem III Rzeszy. Odciski palców w polu owalnym. PRAWA STRONA: 'AMTLICHE VERMERKE / UWAGI URZĘDOWE' — 'Der Kennkarteninhaber wohnt / Posiadacz karty rozpoznawczej zamieszkuje: / w Warschau[Warszawa] / Pogonowskiego [nr]'. Dalsze pola: Kreis, Dienstsiegel, Strasse — częściowo wypełnione. Pieczęć czerwona okrągła.",
         "seria": "V",
-        "tworca": "Urząd GG",
+        "tworca": "Der Polizeipräsident, Warschau (podpis: Lehmann)",
         "jezyk": "niemiecki",
-        "kontekst": "Zdjęcie młodego człowieka (ok. 15–17 lat) — jednocześnie jawny mieszkaniec GG i tajny żołnierz AK.",
+        "kontekst": "Rozkładówka Kennkarte wydanej 9.XI.1943 w Warszawie. Zdjęcie Krzysztofa w wieku ~17 lat — ale wg sfałszowanej daty urodzenia (29.XI.1928, ARG/V/161) karta pokazuje '15-latka'. ADRES: ul. Pogonowskiego w Warszawie — dzielnica Śródmieście/Mokotów. Podpis 'Lehmann' = urzędnik Der Polizeipräsident Warschau (policja porządkowa GG). Data wydania 9.XI.1943 to 5 dni po 20. rocznicach Marszu na Rzym — przypadkowa zbieżność. W MOMENCIE wystawiania Kennkarte Krzysztof był już ŻOŁNIERZEM AK (zaprzysiężony w 7 P.Uł. 'Jeleń'). Żona Stefana, Wanda ps. 'Krysta', była już ranna po akcji Kedywu w Wilanowie (26.IX.1943 — 6 tygodni wcześniej!). Kennkarte z fałszywą datą urodzenia = świadomy akt sabotażu tożsamościowego: rodzina chroniła syna przed Arbeitseinsatz (poborem na roboty przymusowe od 16 roku życia).",
         "powiazania": ["ARG/V/1", "ARG/V/3"],
         "stan": "Dobry"
     },
@@ -948,8 +948,8 @@ OBJECTS = [
         "seria": "V",
         "tworca": "AK",
         "jezyk": "polski",
-        "kontekst": "Zbliżenie umożliwia odczyt szczegółów: nr plutonu, pseudonim, data.",
-        "powiazania": ["ARG/V/3"],
+        "kontekst": "Zbliżenie fotograficzne legitymacji AK Krzysztofa — umożliwia odczyt kluczowych danych: PSEUDONIM 'Juras' (od 'Juraś' = zdrobnienie od Jerzy? lub rodzinne przezwisko), NR PLUTONU 1112 (7 P.Uł. Lubelskich ps. 'Jeleń'). Pluton 1112 = czwarty pluton batalionu 'Jeleń', który 1.VIII.1944 natarł na gmach Gestapo i Dom Prasy (ARG/V/158). Krzysztof miał 17 lat (choć Kennkarte pokazywała 15) — najmłodszy żołnierz w kolekcji. Legitymacja wydana W TRAKCIE okupacji — samo jej posiadanie groziło śmiercią.",
+        "powiazania": ["ARG/V/3", "ARG/V/158"],
         "stan": "j.w."
     },
 
@@ -1174,12 +1174,12 @@ OBJECTS = [
         "tytul": "Koperta Kriegsgefangenenpost — Krzysztof do Stefana",
         "data": "7.XI.1944",
         "typ": "koperta",
-        "opis_fizyczny": "Koperta z pieczęcią '27 Geprüft Stalag XI B', stempel 7.11.44",
-        "opis_tresci": "Do: Ppor. Stefana Głuchowskiego, nr 01245, Stalag XI B. Nadawca: St.Uł. Krzysztof Głuchowski. Stempel cenzury '27 Geprüft Stalag XI B'.",
+        "opis_fizyczny": "Koperta-formularz Kriegsgefangenenpost, dwujęzyczny (niem./franc.). Stempel cenzury prostokątny '27 Geprüft' z numerem cenzora. Stempel datowy okrągły: 7.11.44. Na formularzu nadruk: 'Besetztes Gebiet / Territoire occupé / Südfrankreich / France méridionale / Nichtzutreffendes streichen / Biffer les mentions inutiles'. Dolna część (odwrócona): dane nadawcy. Papier szary, ślady zginania.",
+        "opis_tresci": "STRONA ADRESOWA: 'Kriegsgefangenenpost / Correspondance des prisonnier de guerre' — 'An: ppor. Stefan Głuchow[ski] / Gefangenennummer: 01245 / Empfänger: Stalag XI B / Straße: Bergen'. Stempel: '27 Geprüft' (cenzura). Datownik: 7.11.44. STRONA NADAWCY (odwrócona): 'Deutschland (Allemagne) / Lager-Bezeichnung: [?] / Gefangenennummer: [nr Krzysztofa] / Vor- und Zuname: [Głuchowski Krzysztof] / Absender'. Nadruk: 'M. S[?]'.",
         "seria": "V",
         "tworca": "Krzysztof Andrzej Głuchowski",
-        "jezyk": "niemiecki / polski",
-        "kontekst": "Korespondencja syn→ojciec między obozami. Nr 27 = identyfikator cenzora.",
+        "jezyk": "niemiecki / francuski",
+        "kontekst": "Koperta jenieckiego listu SYN→OJCIEC z 7.XI.1944. Krzysztof (st.ułan, Stalag XI-B) pisze do Stefana (ppor., nr jeńca 01245, Stalag XI-B Bergen). PARADOKS: obaj w TYM SAMYM Stalagu XI-B, ale w różnych Arbeitskommandos — stąd korespondencja pocztowa zamiast kontaktu osobistego! Nr cenzora '27' = jeden z kilkudziesięciu cenzorów w obozie. Formularz z nadrukiem 'Besetztes Gebiet / Südfrankreich' (Terytorium okupowane / Południowa Francja) — to formularz uniwersalny z poleceniem 'skreślić co nie dotyczy', niekoniecznie oznacza lokalizację nadawcy. Bergen = dzielnica Celle w Dolnej Saksonii, blisko Bergen-Belsen. Stalag XI-B Fallingbostel (z filią w Bergen) mieścił ponad 90 000 jeńców różnych narodowości. List dokumentuje JEDYNY znany kontakt ojca z synem w niewoli — obaj wzięci do niewoli po Powstaniu Warszawskim (X.1944).",
         "powiazania": ["ARG/III/3", "ARG/V/18"],
         "stan": "Średni"
     },
@@ -1239,11 +1239,11 @@ OBJECTS = [
         "data": "1944–1945",
         "typ": "pamietnik",
         "opis_fizyczny": "Strona zeszytu/luźnej kartki, gęste pismo atramentem i ołówkiem",
-        "opis_tresci": "Zeszyt wspomnieniowy z okresu obozowego. Gęście zapisana strona. Wspomina 'Głuchowski', 'Powstanie', 'Krakowie', 'Boże Narodzenie', 'Londyn'.",
+        "opis_tresci": "Gęsto zapisana strona zeszytu z pamiętnikiem obozowym. Fragmenty czytelne: '...przypominały mi się kiedyś ze wersu...' — '...Piękne, inne, tamtej Machiny, Myślenia muzyczn...' — '...Przypomina mi się życie w Nałęczowie...' — '...Ciągle śpiewał artykuły frontowe w mszy w Berlinie...' — '...Do Boże Narodzenia...' — '...na obsłudze w Gladstone...' — '...Poparci Polskie powstanie i Rewolucja w Irlandii (sprawa oryginalna z roku 1920–1916)...' — '...po 3 tygodnie w Krakowie...'",
         "seria": "V",
         "tworca": "Krzysztof Andrzej Głuchowski",
         "jezyk": "polski",
-        "kontekst": "Wspomnienia pisane w obozie — pamiętnik literacki. Kraków i Londyn = punkty odniesienia rodzinne.",
+        "kontekst": "PAMIĘTNIK LITERACKI młodego Krzysztofa — pisany w Stalagu XI-B lub tuż po wyzwoleniu (zima 1944/45). Niezwykła dojrzałość intelektualna 18-latka: (1) wspomina NAŁĘCZÓW — letnisko inteligencji, prawdopodobnie wakacje rodzinne sprzed wojny, (2) refleksja o muzyce i myśleniu — wrażliwość artystyczna, (3) porównanie Powstania Warszawskiego z IRLANDZKĄ REWOLUCJĄ 1916–1920 (Easter Rising + War of Independence) — nieoczywiste zestawienie, świadczące o oczytaniu i umiejętności kontekstualizacji historycznej, (4) wzmianka o Krakowie i Londynie = dwa bieguny rodzinne (matka w Krakowie/Częstochowie, wuj Janusz w Londynie), (5) 'Gladstone' = możliwe Camp Gladstone (obóz dla DPs w Niemczech) lub nawiązanie do polityka. Pamiętnik jest częścią serii 4 stron (ARG/V/23–26) — razem tworzą spójną narrację.",
         "powiazania": ["ARG/V/24", "ARG/V/25", "ARG/V/26"],
         "stan": "Średni — papier kruchy"
     },
@@ -1558,11 +1558,11 @@ OBJECTS = [
         "data": "1945",
         "typ": "ulotka",
         "opis_fizyczny": "Druk dwustronny, format A5, czcionka antykwowa",
-        "opis_tresci": "Odezwa do polskich jeńców we Francji: 'Nareszcie... RODACY — Nareszcie nadeszła radosna chwila... powrotu na łono Ojczyzny...' Lista konsulatów i agencji PCK we Francji.",
+        "opis_tresci": "Nagłówek: 'Rodacy...' (duże litery) — 'Nareszcie... / Nareszcie nadeszła radosna chwila, gdy powrót / Wasz wolny ze swobodnej od wspólnego wroga stanie / się rzeczywistością!' — Dalej: apel o powrót do 'Odrodzonej Rzeczypospolitej Polskiej'. Ostrzeżenie przed 'nieodpowiedzialnymi nawoływaniami'. Informacja o Polskich Siłach Zbrojnych. Na dole: PEŁNA LISTA placówek dyplomatycznych i agencji PCK we Francji — Konsulat R.P. w Paryżu (1, rue Talg.), Marsylii, Lille, Lyonie, Strasburgu, Tuluzie; Agencje Konsularne w: La Rochelle, Bar le Duc, Nîmes, Poitiers, Aurillac, Valence, Charteville, Limoges, Nancy, Montauban, Bordeaux, Périgueux, Montpellier; Hotel Nancy (Gare de l'Est); Polski Urząd Repatriacyjny.",
         "seria": "V",
-        "tworca": "Ambasada RP / PCK",
+        "tworca": "Ambasada RP w Paryżu / PCK / Polski Urząd Repatriacyjny",
         "jezyk": "polski",
-        "kontekst": "Druk repatriacyjny dla Displaced Persons we Francji. Sieć konsulatów i PCK organizowała powroty.",
+        "kontekst": "Ulotka repatriacyjna z 1945 r. skierowana do polskich żołnierzy i cywilów we Francji. Ton oficjalny, patriotyczny — 'powrót na łono Ojczyzny'. KONTEKST HISTORYCZNY: po wyzwoleniu Francji (1944) ok. 50 000–70 000 Polaków znalazło się na terytorium francuskim — jeńcy wojenni, robotnicy przymusowi, żołnierze (m.in. 1. Dywizja Grenadierów). Rząd RP w Londynie (jeszcze uznawany w 1945) organizował repatriację przez sieć konsularną. Lista placówek ujawnia GEOGRAFIĘ polskiej diaspory we Francji — od Lille (Pas-de-Calais, polscy górnicy od lat 20.) po Marsylię i Tuluzę. Krzysztof zachował ulotkę, choć sam nie wrócił do Polski — wybrał Anglię (via Włochy). Dokument ilustruje moment, gdy wielu Polaków musiało podjąć DECYZJĘ: wracać do Polski (komunistycznej) czy pozostać na emigracji.",
         "powiazania": ["ARG/V/45"],
         "stan": "Dobry"
     },
@@ -1832,11 +1832,11 @@ OBJECTS = [
         "data": "21.XI.1945",
         "typ": "esej",
         "opis_fizyczny": "Esej szkolny na kilku stronach",
-        "opis_tresci": "Tematy: 'Społeczeństwo polskie u progu XX stulecia (Wesele Wyspiańskiego)', 'Upadek nagrobkości w świetle hist.', 'Dzień 11 Listopada w Polsce Odrodzonej'.",
+        "opis_tresci": "'3. Zadanie szkolne' — data: '21.XI.45 r.' — Tematy do wyboru: '1) Społeczeństwo polskie u progu XX stulecia (na podstawie «Wesela» Wyspiańskiego). / 2) Idea i świetlaność kultury polskiej z «Ludzi Bezdomnych» Żeromskiego. / 3) Dzień 11 Listopada w Polsce Odrodzonej.' — Początek eseju: 'Każdy człowiek ma w swoim życiu cel, dla którego żyje. Są ludzie którzy mają to prawo[...] dążąc stojąc [...] główną osią ich życia. Muszą stać się [...] ludzie, którzy potrafią na wyniku sprawdzenia [...] czują się[...] nie jest w stanie osiągnąć / i lepiej wyniku, a jeśli nawet osiąga to nie ktoś[...] / w społeczeństwo...' — 'Doktor Tomasz Judym wyjeżdż[ał] ze swej codziennej biedy...'",
         "seria": "V",
         "tworca": "Krzysztof Andrzej Głuchowski",
         "jezyk": "polski",
-        "kontekst": "Eseje maturalne z literatury polskiej — program gimnazjalny kontynuowany na emigracji.",
+        "kontekst": "MATURA NA EMIGRACJI — trzecie zadanie szkolne z 21.XI.1945 r. Krzysztof wybrał temat nr 2: 'Ludzie Bezdomni' Żeromskiego — zaczyna od refleksji o celu życia człowieka, przechodzi do analizy Doktora Tomasza Judyma. NIEZWYKŁE: 19-letni żołnierz-jeniec pisze ESEJ MATURALNY o idealizmie społecznym Judyma — rok po Powstaniu Warszawskim, prawdopodobnie w jednym z polskich gimnazjów na emigracji (Włochy lub Niemcy). Program: PEŁNY kanon literacki II RP (Wyspiański, Żeromski, 11 Listopada). Polskie szkoły średnie działały przy 2. Korpusie PSZ we Włoszech (m.in. w Porto San Giorgio, Barletta, Matino). Kontynuacja edukacji w mundurze = priorytet gen. Andersa. Data 21.XI = 10 dni po Święcie Niepodległości (temat nr 3). Zadanie szkolne nr 3 z serii (ARG/V/58–64).",
         "powiazania": ["ARG/V/58"],
         "stan": "Dobry"
     },
@@ -1866,8 +1866,8 @@ OBJECTS = [
         "seria": "V",
         "tworca": "HMSO",
         "jezyk": "angielski",
-        "kontekst": "Brytyjski system miar — codzienność polskich żołnierzy w strukturach Korony.",
-        "powiazania": ["ARG/V/58"],
+        "kontekst": "Tylna okładka zeszytu szkolnego (EXERCISE BOOK) z tabelami przeliczników brytyjskiego systemu miar: Metric Measures, Liquid Measure, Weight, Length, Money, Troy Weight. Druk HMSO (His Majesty's Stationery Office). Krzysztof uczył się w POLSKIM liceum, ale używał BRYTYJSKICH zeszytów — materialna dwoistość emigracji. Tabele przeliczników = praktyczna pomoc dla Polaków uczących się systemu imperialnego (mile, funty, galony). Zeszyt z serii zadań szkolnych (ARG/V/58–64).",
+        "powiazania": ["ARG/V/58", "ARG/V/62"],
         "stan": "Dobry"
     },
     {
@@ -1942,12 +1942,12 @@ OBJECTS = [
         "tytul": "Arkusz ewidencyjny wojskowy — Oficer Rezerwy",
         "data": "1945–1946",
         "typ": "formularz",
-        "opis_fizyczny": "Arkusz na papierze w kratki, wypełniony ręcznie atramentem, tabele z datami i stopniami",
-        "opis_tresci": "Arkusz ewidencyjny wojskowy (Oficer Rezerwy) z chronologią służby, stopniami, przydziałami. Wypełniony odręcznie z datami mobilizacji, przydziałów jednostkowych.",
+        "opis_fizyczny": "Arkusz tabelaryczny na papierze w kratki (format A4 poziomy). Pieczęć fioletowa: 'OFICER REZERWOWY / EWIDENCJA / KARTA / KLASA I M.S.' Wypełniony odręcznie atramentem i ołówkiem. Kolumny: daty, stopnie, jednostki, numery ewidencyjne. Wiele wpisów, gęsto.",
+        "opis_tresci": "Nagłówek: pieczęć 'OFICER REZERWOWY / EWIDENCJA / KARTA / KLASA I M.S.' — Nazwisko: 'st. Głuchowski Krzysztof'. Tabela chronologiczna służby z datami: 29.8.44 (Powstanie), 1.10.44 (niewola?), daty z 1946. Numery ewidencyjne: 141009 (AK), inne. Wpisy o przydziałach jednostkowych, transferach między obozami i jednostkami PSZ. Stopnie: od st.ułan do [późniejsze]. Wiele skrótów wojskowych.",
         "seria": "V",
-        "tworca": "Krzysztof Andrzej Głuchowski / kancelaria wojskowa",
+        "tworca": "kancelaria wojskowa PSZ / Krzysztof Andrzej Głuchowski",
         "jezyk": "polski",
-        "kontekst": "Dokument ewidencyjny — kluczowy dla rekonstrukcji przebiegu służby Krzysztofa w AK i PSZ.",
+        "kontekst": "KLUCZOWY DOKUMENT EWIDENCYJNY — pełna chronologia służby Krzysztofa na jednym arkuszu. Pieczęć 'OFICER REZERWOWY / KLASA I M.S.' = Krzysztof przeszedł kurs oficerski i został Oficerem Rezerwy klasy I. Data 29.8.44 = włączenie do walki w Powstaniu Warszawskim (Godzina 'W' = 1.VIII.1944, ale Krzysztof mógł dołączyć później lub data dotyczy innego zdarzenia). Data 1.10.44 = prawdopodobnie moment wzięcia do niewoli (kapitulacja Śródmieścia: 2.X.1944). Nr 141009 = ten sam numer z karty AK (ARG/III/30), Kennkarte jenieckiej i Kriegsgefangenenpostu. Arkusz pozwala zrekonstruować PEŁNĄ ŚCIEŻKĘ: AK 'Jeleń' → Powstanie → Stalag XI-B → PSZ (3 DSK, Włochy) → 7 P.Uł. przy 2. Korpusie → demobilizacja → PKPR (Anglia). Dokument o najwyższej wartości badawczej — łączy wszystkie inne dokumenty służby.",
         "powiazania": ["ARG/V/70", "ARG/V/91"],
         "stan": "Średni — papier w kratki, pożółkły"
     },
@@ -1962,8 +1962,8 @@ OBJECTS = [
         "seria": "V",
         "tworca": "D-wo 3 DSK",
         "jezyk": "polski, angielski",
-        "kontekst": "Przepustka z okresu służby w strukturach 3 DSK we Włoszech, po zakończeniu działań wojennych.",
-        "powiazania": ["ARG/V/66", "ARG/V/69"],
+        "kontekst": "Przepustka (PASS) z 14.II.1946 wydana przez Dowództwo 3 Dywizji Strzelców Karpackich. 3 DSK stacjonowała wówczas w regionie Marche/Abruzji (Włochy). Formularz dwujęzyczny PL/EN = PSZ działały w strukturze British Army. Krzysztof miał 19 lat, służył w 7 P.Uł. przydzielonym do 3 DSK. Przepustka z lutego 1946 = okres względnego spokoju między końcem wojny (V.1945) a demobilizacją (1947). Żołnierze korzystali z przepustek na zwiedzanie Włoch, kursy, wizyty w miastach — normalizacja życia po traumie wojennej.",
+        "powiazania": ["ARG/V/66", "ARG/V/69", "ARG/V/128"],
         "stan": "Dobry"
     },
 
@@ -2009,8 +2009,8 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Liceum Ogólnokształcące przy 3 DSK",
         "jezyk": "polski",
-        "kontekst": "Homeracle — miejscowość we Włoszech, siedziba szkolnictwa polskiego przy 3 DSK.",
-        "powiazania": ["ARG/V/71", "ARG/V/72"],
+        "kontekst": "Verso świadectwa licealnego z VI.1946. Polskie licea i gimnazja działały przy 2. Korpusie PSZ we Włoszech od 1944 — program nauczania MEN II RP, matura uznawana przez rząd londyński. 'Homeracle' — prawdopodobnie zniekształcona nazwa włoska (Homerville? Camerale?). Szkoły polskie we Włoszech: Porto San Giorgio, Barletta, Matino (prow. Lecce), Recanati, Fermo. 3 DSK stacjonowała w okolicach Ancony i Marche. Gen. Anders priorytetowo traktował edukację — ok. 4 000 żołnierzy zdało maturę przy 2. Korpusie. Krzysztof (ur. 1926) kończył przerwane wojną gimnazjum — Powstanie wypadło w środku jego nauki.",
+        "powiazania": ["ARG/V/71", "ARG/V/72", "ARG/V/62"],
         "stan": "Dobry"
     },
 
@@ -2073,8 +2073,8 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Krzysztof Andrzej Głuchowski",
         "jezyk": "polski",
-        "kontekst": "Druga strona listu wigilijnego 1946 — kontynuacja tęsknoty emigranta za rodziną w Polsce.",
-        "powiazania": ["ARG/V/76", "ARG/V/78", "ARG/V/79"],
+        "kontekst": "Druga strona listu wigilijnego z 24.XII.1946. Krzysztof (20 lat) pisze do matki — Wandy z domu Głuchowskiej ps. 'Krysta' (sierż. pchor. Kedyw AK), która jest w Polsce. To TRZECIA Wigilia z rzędu poza domem: 1944 (Stalag XI-B), 1945 (Włochy, 3 DSK), 1946 (Włochy lub Niemcy). List jest częścią serii 4 stron (ARG/V/76–79) — gęste pismo świadczy o silnej potrzebie kontaktu. Kontekst polityczny: w XII.1946 komuniści umacniają władzę w Polsce (referendum sfałszowane VI.1946), Krzysztof prawdopodobnie już wie, że nie wróci. Matka Wanda była ranna w akcji Kedywu w Wilanowie (26.IX.1943) — tęsknota syna za matką-bohaterką.",
+        "powiazania": ["ARG/V/76", "ARG/V/78", "ARG/V/79", "ARG/III/4"],
         "stan": "Dobry"
     },
     {
@@ -2150,8 +2150,8 @@ OBJECTS = [
         "seria": "V",
         "tworca": "British Army",
         "jezyk": "angielski",
-        "kontekst": "Materiał informacyjny — codzienność żołnierza polskiego w strukturach brytyjskich.",
-        "powiazania": ["ARG/V/81"],
+        "kontekst": "Instrukcja medyczna British Army dla żołnierzy na przepustce — procedura postępowania w razie choroby lub wypadku poza koszarami. Tekst drukowany drobnym pismem na pergaminowym papierze = przeznaczony do noszenia przy sobie. Dokument ilustruje PODWÓJNOŚĆ statusu polskich żołnierzy w PSZ/PKPR: podlegali regulaminom British Army (po angielsku), ale służyli w polskich jednostkach. System medyczny Crown Forces obejmował ok. 250 000 Polaków (1944–1949). Instrukcja zachowana w książeczce wojskowej Krzysztofa — nosił ją regularnie.",
+        "powiazania": ["ARG/V/81", "ARG/V/105"],
         "stan": "Dobry"
     },
     {
@@ -2180,8 +2180,8 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Krzysztof Andrzej Głuchowski / jednostka",
         "jezyk": "—",
-        "kontekst": "Verso kartki świątecznej z Bodney Airfield — ornament choinkowy, tradycja emigracyjna.",
-        "powiazania": ["ARG/V/83"],
+        "kontekst": "Verso kartki świątecznej z Bodney Airfield (Norfolk, Anglia), XII.1947. Bodney Airfield = dawna baza RAF/USAAF z II wojny światowej, po 1946 przekształcona w obóz dla polskich żołnierzy oczekujących na demobilizację/osiedlenie. Ornament choinkowy na verso — polskie tradycje bożonarodzeniowe kultywowane na emigracji. Boże Narodzenie 1947 = czwarte z kolei poza domem dla Krzysztofa. Bodney Camp mieścił się w hrabstwie Norfolk, ok. 2h od Londynu.",
+        "powiazania": ["ARG/V/83", "ARG/V/128"],
         "stan": "Dobry"
     },
     {
@@ -2507,8 +2507,8 @@ OBJECTS = [
         "seria": "V",
         "tworca": "British Army / HMSO",
         "jezyk": "angielski",
-        "kontekst": "Okładka książeczki wojskowej Army Book 64 — strona tytułowa dokumentu służby w PSZ.",
-        "powiazania": ["ARG/V/104", "ARG/V/106"],
+        "kontekst": "Army Book 64 Part I — Soldier's Service Book (Książeczka służby żołnierza) nr 43464/45. Standardowy dokument British Army wydawany KAŻDEMU żołnierzowi, w tym Polakom w PSZ/PKPR. Okładka zawiera instrukcję: 'You are held personally responsible for the safe custody of this book. You will always carry this book on your person' — żołnierz odpowiadał osobiście za książeczkę. Numer 43464/45 sugeruje datę wydania 1945. Sekcja DETAIL OF PERSONAL SIZED GARMENTS = rozmiary munduru — Krzysztof w pełnym umundurowaniu brytyjskim (battledress). Książeczka towarzyszyła mu przez całą służbę w PSZ i PKPR (1945–1949).",
+        "powiazania": ["ARG/V/104", "ARG/V/106", "ARG/V/69"],
         "stan": "Dobry"
     },
     {
@@ -2537,8 +2537,8 @@ OBJECTS = [
         "seria": "V",
         "tworca": "British Army Medical Service",
         "jezyk": "angielski",
-        "kontekst": "Dokumentacja medyczna żołnierza — szczepienia obowiązkowe, stan zdrowia.",
-        "powiazania": ["ARG/V/104", "ARG/V/106"],
+        "kontekst": "Strony medyczne Army Book 64: Medical Classification (kategoria zdrowia) + Vaccinations TAB (rejestr szczepień). Żołnierze PSZ we Włoszech i Anglii podlegali obowiązkowym szczepieniom British Army: tyfus, tężec, dyfteryt, ospa. Wpisy okulistyczne mogą wskazywać na problemy ze wzrokiem (Krzysztof nosił okulary? — porównaj z fotografią na Kennkarte ARG/V/2). Klasyfikacja medyczna 'A1' = pełna zdolność bojowa. Dokumentacja zdrowotna 20-latka, który przeżył Powstanie Warszawskie i obóz jeniecki.",
+        "powiazania": ["ARG/V/104", "ARG/V/106", "ARG/V/2"],
         "stan": "Dobry"
     },
     {
@@ -2629,8 +2629,8 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Krzysztof Andrzej Głuchowski",
         "jezyk": "polski",
-        "kontekst": "j.w. Quinoy = prawdopodobnie lokalizacja kwatery jednostki we Włoszech.",
-        "powiazania": ["ARG/V/111", "ARG/V/112"],
+        "kontekst": "Notatnik Krzysztofa z ewidencją odznaczeń i rozkazów — pełna chronologia: (1) MEDAL WOJSKA — Rozkaz Nr 245 z 29.X.1946 (2. Korpus PSZ), (2) ODZNAKA 3 DSK — Rozkaz Dzienny Nr 256 z 12.XI.1946. Medal Wojska (ustanowiony 1945) nadawano za min. 6 miesięcy 'wzorowej' służby — Krzysztof miał ponad 2 lata (od Powstania 1944). Odznaka 3 Dywizji Strzelców Karpackich potwierdza przydział Krzysztofa do tej jednostki we Włoszech. 3 DSK (dawniej Brygada Karpacka) walczyła pod Tobrukiem, Monte Cassino, Anconą. Krzysztof dołączył po wyzwoleniu z obozu (1945). Systematyczność notatek świadczy o urzędowym charakterze Krzysztofa — dbał o dokumentację (cecha odziedziczona po ojcu Stefanie, wieloletnim urzędniku Kancelarii Prezydenta).",
+        "powiazania": ["ARG/V/111", "ARG/V/112", "ARG/V/69"],
         "stan": "Średni"
     },
 
@@ -2646,8 +2646,8 @@ OBJECTS = [
         "seria": "V",
         "tworca": "kancelaria wojskowa",
         "jezyk": "polski",
-        "kontekst": "Inwentarz osobisty żołnierza — standardowa procedura ewidencyjna przy wcieleniu lub zwolnieniu.",
-        "powiazania": ["ARG/V/115"],
+        "kontekst": "Wykaz wyposażenia osobistego żołnierza PSZ — formularz tabelaryczny z sekcjami: umundurowanie (mundur, szynel, buty), przybory osobiste, ekwipunek polowy. Sekcja pomiarowa z miarami fizycznymi = szyte na miarę lub dobierane wg rozmiarów. Wypełniony przy wcieleniu lub przeglądzie — procedura administracyjna typowa dla regularnej armii. Formularz POLSKI (nie brytyjski) = własna administracja PSZ w ramach struktur brytyjskich. Dokument cenny etnograficznie — pokazuje co KONKRETNIE miał przy sobie polski żołnierz na emigracji.",
+        "powiazania": ["ARG/V/115", "ARG/V/105"],
         "stan": "Dobry"
     },
     {
@@ -2691,7 +2691,7 @@ OBJECTS = [
         "seria": "V",
         "tworca": "PSZ",
         "jezyk": "polski",
-        "kontekst": "Verso formularza testamentu żołnierskiego — polskie prawo spadkowe dla PSZ na emigracji.",
+        "kontekst": "Verso formularza testamentu żołnierskiego — kontynuacja lub instrukcja wypełniania. Testamenty żołnierskie w PSZ regulowane polskim prawem spadkowym (Kodeks Cywilny 1933), ale realizowane w warunkach emigracyjnych — spadkobiercy często w Polsce za żelazną kurtyną. Samo posiadanie formularza testamentowego przez 20-latka (Krzysztof, 1946–1948) świadczy o realiach żołnierskiego życia — każdy mógł zginąć, nawet po wojnie (wypadki, choroby, samobójstwa w obozach). Testament = JEDYNY sposób na zabezpieczenie rodziny w Polsce.",
         "powiazania": ["ARG/V/116"],
         "stan": "Dobry"
     },
@@ -2723,8 +2723,8 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Stowarzyszenie AK",
         "jezyk": "polski",
-        "kontekst": "Okładka legitymacji Krzyża AK nr 3316 — kotwica PW, dokument tożsamości akowskiej.",
-        "powiazania": ["ARG/V/118"],
+        "kontekst": "Krzyż Armii Krajowej — odznaczenie ustanowione przez gen. Bora-Komorowskiego rozkazem z 1.VIII.1966 (w 22. rocznicę Powstania) dla żołnierzy AK. Nr 3316 = Krzysztof otrzymał go stosunkowo wcześnie (łącznie nadano ok. 70 000). Krzyż AK to krzyż grecki z kotwicą 'Polska Walcząca' w medalionie i wieńcem cierniowym — symbolika męczeństwa i oporu. Legitymacja wydawana przez Koło AK w Londynie (Krzysztof mieszkał w Anglii). Data 1966–1968 — Krzysztof miał wtedy 40–42 lata, żył w Anglii, ale utrzymywał więzi z organizacjami kombatanckimi. Dokument łączy się z Krzyżem Walecznych (ARG/V/118) — Krzysztof odznaczony za walki w Powstaniu Warszawskim jako 18-letni st.ułan 7 P.Uł. 'Jeleń'.",
+        "powiazania": ["ARG/V/118", "ARG/V/169"],
         "stan": "Dobry"
     },
     {
@@ -2800,8 +2800,8 @@ OBJECTS = [
         "seria": "V",
         "tworca": "P.R.C. Record Office",
         "jezyk": "angielski",
-        "kontekst": "Drugi egzemplarz — zachowany jako zabezpieczenie dokumentacji.",
-        "powiazania": ["ARG/V/123"],
+        "kontekst": "Duplikat certyfikatu PKPR (Polish Resettlement Corps) z 19.II.1948. Wielokrotne kopie tego samego certyfikatu (ARG/V/123–127) świadczą o LĘKU EMIGRANTA przed utratą dokumentów — jedynego dowodu tożsamości i statusu prawnego w obcym kraju. Bez certyfikatu PKPR Polak w Anglii tracił prawo pobytu, pracę, mieszkanie. Krzysztof zachował min. 4 egzemplarze — mentalność archiwalna odziedziczona po ojcu (Stefan — 18 lat urzędnik Kancelarii Prezydenta RP).",
+        "powiazania": ["ARG/V/123", "ARG/V/125"],
         "stan": "Dobry"
     },
     {
@@ -2815,8 +2815,8 @@ OBJECTS = [
         "seria": "V",
         "tworca": "P.R.C. Record Office",
         "jezyk": "angielski",
-        "kontekst": "Inny numer ewidencyjny (3023271 vs 3004271) — możliwe przerejestrowanie w PKPR.",
-        "powiazania": ["ARG/V/123"],
+        "kontekst": "Certyfikat PKPR z INNYM numerem ewidencyjnym: 3023271 (zamiast 3004271 z ARG/V/123). Data: 3.III.1948 (2 tygodnie po poprzednim). Dwa numery mogą oznaczać: (a) przerejestrowanie po zmianie jednostki/obozu, (b) błąd administracyjny, (c) numer ogólny PKPR vs numer jednostkowy. PKPR (Polish Resettlement Corps / Polski Korpus Przysposobienia i Rozmieszczenia) był unikalną strukturą prawną — brytyjska jednostka wojskowa stworzona specjalnie dla ok. 114 000 Polaków, którzy odmówili powrotu do komunistycznej Polski. Działał od IX.1946 do IX.1949.",
+        "powiazania": ["ARG/V/123", "ARG/V/124"],
         "stan": "Dobry"
     },
     {
@@ -2830,8 +2830,8 @@ OBJECTS = [
         "seria": "V",
         "tworca": "P.R.C. Record Office",
         "jezyk": "angielski",
-        "kontekst": "Trzeci egzemplarz tego samego dokumentu — emigrant zabezpieczał się wieloma kopiami.",
-        "powiazania": ["ARG/V/123", "ARG/V/124"],
+        "kontekst": "Trzeci egzemplarz certyfikatu PKPR z 19.II.1948. Seria kopii (ARG/V/123–127) dokumentuje proces demobilizacji: żołnierz otrzymywał certyfikat, który uprawniał do pobytu w Anglii, dostępu do opieki medycznej, kursów zawodowych i pomocy w znalezieniu pracy. Certyfikat zastępował paszport — Polacy w PKPR nie mieli obywatelstwa brytyjskiego ani ważnych paszportów RP (rząd komunistyczny ich nie uznawał). Dopiero Ustawa o Polskiej Repatriacji (Polish Resettlement Act 1947) dała im prawo stałego pobytu.",
+        "powiazania": ["ARG/V/123", "ARG/V/124", "ARG/V/125"],
         "stan": "Dobry"
     },
     {
@@ -2845,8 +2845,8 @@ OBJECTS = [
         "seria": "V",
         "tworca": "P.R.C. Record Office",
         "jezyk": "angielski",
-        "kontekst": "Kolejna kopia certyfikatu PKPR — emigrant zabezpieczał się wieloma egzemplarzami dokumentów.",
-        "powiazania": ["ARG/V/123"],
+        "kontekst": "Czwarta kopia certyfikatu PKPR — z wyraźniejszą pieczęcią. Komplet 4–5 kopii to typowe zachowanie emigranta z traumą wojenną: Stefan stracił dom i dokumenty w Powstaniu (VIII.1944), Krzysztof stracił wszystko jako 18-letni jeniec. Lekcja: dokumenty można stracić w chwilę. Mentalność 'zachowaj kopię' = strategia przetrwania diaspory. W kolekcji Głuchowskich zachowały się SETKI dokumentów — nie przypadek, lecz świadome archiwum rodzinne.",
+        "powiazania": ["ARG/V/123", "ARG/V/124"],
         "stan": "Dobry"
     },
 
@@ -2862,8 +2862,8 @@ OBJECTS = [
         "seria": "V",
         "tworca": "7 P.Uł. Lubelskich / British Army",
         "jezyk": "angielski",
-        "kontekst": "Kolejna przepustka z pieczęcią pułkową — dowód przynależności do 7 P.Uł. w strukturach brytyjskich.",
-        "powiazania": ["ARG/V/81", "ARG/V/129"],
+        "kontekst": "Przepustka z 9.IX.1947 do LONDYNU — Krzysztof jako L/Cpl. (Lance Corporal = starszy ułan/kapral) z Bower Ward Camp. Nr ewidencyjny 3004271 w PKPR. Pieczęć '7 PUŁK UŁANÓW LUBELSKICH / STARCÓW REGIMENT' — polska nazwa z angielskim tłumaczeniem ('Starców' = 'Lancers'). Podpis oficera 'H. Mazur' — możliwy por./kpt. Mazur z kadry 7 P.Uł. Bower Ward Camp = prawdopodobnie jeden z obozów dla Polaków w Anglii (Hampshire, Norfolk lub Suffolk). Wyjazd do Londynu we IX.1947 = Krzysztof mógł odwiedzać wuja gen. Janusza Głuchowskiego (mieszkał w Londynie od 1940). Przepustka dokumentuje etap przejścia z wojska do życia cywilnego — PKPR (Polish Resettlement Corps) działał 1946–1949.",
+        "powiazania": ["ARG/V/81", "ARG/V/129", "ARG/V/123"],
         "stan": "Dobry"
     },
     {
@@ -3405,11 +3405,11 @@ OBJECTS = [
         "data": "1946",
         "typ": "leg",
         "opis_fizyczny": "Dwie małe legitymacje sfotografowane razem",
-        "opis_tresci": "(1) St.ułan Głuchowski Krzysztof — odznaka pamiątkowa 7 P.Uł. Lubelskich, 23.III.1946. (2) Gen.Brygad. Głuchowski Janusz — Znak pułkowy 20 P.Uł., Rzeszów.",
+        "opis_tresci": "(1) GÓRNA: 'Legitymacja / St.ułan Głuchowski Krzysztof / otrzymał odznakę pamiątkową 7. Pułku Ułanów / Lubelskich im. gen. K. Sosnkowskiego / W dniu 23 III 1946 / Nr odznaki 34/K / D-ca Pułku [podpis]' — pieczęć: '7 PUŁKU UŁANÓW LUBELSKICH'. Proporczyk pułkowy (czerwono-biały chevron) w nagłówku. (2) DOLNA: 'LEGITYMACJA / Gen. Brygad. Głuchowski Janusz / uprawnionym jest do noszenia Znaku pułkowego / 20 pułku Ułanów, nadanego na mocy § 5 Regula- / minu Znaku pułkowego. / Rzeszów, dnia 24 II 1930' — pieczęć czerwona: '[20] PUŁKU UŁANÓW' z Orłem. Podpis D-cy pułku.",
         "seria": "VI",
-        "tworca": "7 P.Uł. / 20 P.Uł.",
+        "tworca": "7 P.Uł. Lubelskich / 20 P.Uł. im. Króla Jana III Sobieskiego",
         "jezyk": "polski",
-        "kontekst": "Dwa pokolenia — stryj i bratanek — w dwóch pułkach ułanów. Ciągłość tradycji kawaleryjskiej.",
+        "kontekst": "DWA POKOLENIA, DWA PUŁKI UŁANÓW — zestawienie nieprzypadkowe: (1) Krzysztof = st.ułan 7 P.Uł. Lubelskich, odznaka nr 34/K z 23.III.1946 (Henstedt, Niemcy — po wojnie). Litera 'K' przy numerze może oznaczać kategorię lub inicjał. (2) Janusz = gen.bryg. z legitymacją 20 P.Uł. im. Króla Jana III Sobieskiego z Rzeszowa, 24.II.1930. 20 P.Uł. stacjonował w Rzeszowie — Janusz jako inspektor kawalerii lub gość honorowy otrzymał prawo noszenia znaku pułkowego. Data 1930 = Janusz już w stopniu gen.bryg. (awans 1928). PATRON: 7 P.Uł. nosił imię gen. Kazimierza Sosnkowskiego — tego samego, który pisał do Janusza (ARG/II/27)! Sosnkowski = Naczelny Wódz PSZ 1943–1944, po wojnie w Kanadzie. Proporczyk pułkowy 7 P.Uł. (dwa czerwone romby/szewrony na białym tle) widoczny też na karcie pułkowej z Henstedt (ARG/III/37).",
         "powiazania": ["ARG/II/8", "ARG/V/54"],
         "stan": "Dobry"
     },
@@ -4320,8 +4320,8 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Koło byłych żołnierzy AK / Londyn",
         "jezyk": "polski",
-        "kontekst": "Symbol PW na okładce — ikonografia Polskiego Państwa Podziemnego.",
-        "powiazania": ["ARG/V/164"],
+        "kontekst": "Okładka legitymacji Krzyża AK z 7.III.1968 — drugi egzemplarz obok ARG/V/119 (nr 3316). Symbol PW (Polska Walcząca) = kotwica zaprojektowana w 1942 przez harcerza Annę Smoleńską — jeden z najbardziej rozpoznawalnych znaków polskiego oporu. Krzyż AK ustanowiony rozkazem gen. Bora-Komorowskiego 1.VIII.1966 (22. rocznica Godziny 'W'). Nadawany żołnierzom AK z udokumentowaną służbą — Krzysztof miał pełną dokumentację (zaświadczenie, weryfikacja, lista personalna). Zdjęcie na niebieskiej sofie = fotografowane w domu Krzysztofa w Anglii, prawdopodobnie przy dokumentowaniu kolekcji.",
+        "powiazania": ["ARG/V/164", "ARG/V/119"],
         "stan": "Dobry — niebieska sofa w tle, wymaga rembg"
     },
 
