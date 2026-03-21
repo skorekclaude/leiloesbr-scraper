@@ -2412,6 +2412,107 @@ Henstedt  23. III. 47.""",
         ],
         "kontekst": "Karta pamiątkowa 7 Pułku Ułanów Lubelskich im. Gen. Sosnkowskiego. Henstedt — obóz w Niemczech, gdzie pułk stacjonował po zakończeniu wojny (1945-1947). 23 marca 1947 to okres demobilizacji — żołnierze wybierali między Polską a emigracją. Stefan wybrał powrót do Polski."
     },
+
+    # ═══════════════════════════════════════════════════════════════
+    # lbr_II_54 — Dedykacja gen. Andersa na albumie
+    # ═══════════════════════════════════════════════════════════════
+    "lbr_II_54": {
+        "typ": "dedykacja",
+        "data": "31.III.1945",
+        "jezyk": "pl",
+        "nadawca": "Gen. Władysław Anders",
+        "adresat": "Gen. Janusz Głuchowski",
+        "transkrypcja": "Gł. J. Głuchowskiemu z wyrazami przyjaźni\nw hołdzie naszym żołnierzom do Polski\nW. Anders\n31.3.45",
+        "pieczecie": [],
+        "podpisy": ["W. Anders"],
+        "osoby": ["Władysław Anders", "Janusz Głuchowski"],
+        "znaki_szczegolne": "Dedykacja odręczna na stronie tytułowej albumu 'Żołnierz z Montecassino'. Atrament czarny, pismo kaligraficzne.",
+        "kontekst": "Osobista dedykacja gen. Andersa — dowódcy 2. Korpusu Polskiego i zwycięzcy spod Monte Cassino — dla gen. Głuchowskiego, Dowódcy JWWB. Datowana 31 marca 1945, gdy Anders był jeszcze we Włoszech. Dokument przyjaźni dwóch najwyższych generałów polskiej emigracji."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # wa_krzyz_ak — Legitymacja Krzyża Armii Krajowej (Krzysztof)
+    # ═══════════════════════════════════════════════════════════════
+    "wa_krzyz_ak": {
+        "typ": "Legitymacja odznaczenia wojskowego",
+        "data": "7.3.1968",
+        "jezyk": "polski",
+        "nadawca": "K. Ziemski «Wachnowski», Z-ca D-cy W-skiego Korpusu A.K.",
+        "adresat": "Krzysztof Głuchowski ps. «Juras»",
+        "transkrypcja": """Nazwisko  GŁUCHOWSKI
+Imię  Krzysztof
+Pseudonim  „JURAS"
+Przydział  Z.W.Z. KOMP. K. PLUT. III2
+7 PUŁK UŁAN. LUBEL. „JELEŃ"
+
+Odznaczony został
+KRZYŻEM ARMII KRAJOWEJ
+ustanowionym dnia 1 sierpnia 1966 roku
+przez dowódcę A.K. gen. Tadeusza Bora-
+Komorowskiego dla upamiętnienia wysiłku
+żołnierza Polski Podziemnej w latach
+1939 — 1945.
+
+Podpis:
+K. Ziemski — „Wachnowski"
+Z-CA D-CY W-SKIEGO KORPUSU A.K.
+
+Londyn, dnia 7.3.68""",
+        "pieczecie": [],
+        "podpisy": ["K. Ziemski «Wachnowski»"],
+        "osoby": [
+            "Krzysztof Głuchowski ps. «Juras»",
+            "K. Ziemski ps. «Wachnowski» (Z-ca D-cy Warszawskiego Korpusu AK)",
+            "Gen. Tadeusz Bór-Komorowski (ustanowienie odznaczenia)"
+        ],
+        "znaki_szczegolne": [
+            "Legitymacja Krzyża Armii Krajowej — odznaczenie ustanowione 1.VIII.1966",
+            "Pseudonim «Juras» — od niego nazwa serii kolekcji",
+            "Przydział: ZWZ, Kompania K, Pluton III/2, 7 Pułk Ułanów Lubelskich «Jeleń»",
+            "Podpisana w Londynie 7 marca 1968",
+            "Podpis K. Ziemskiego «Wachnowskiego» — Zastępcy Dowódcy Warszawskiego Korpusu AK",
+            "Dokument drukowany z odręcznymi wpisami danymi i podpisem"
+        ],
+        "kontekst": "Legitymacja potwierdzająca nadanie Krzyżowi Armii Krajowej Krzysztofowi Głuchowskiemu ps. «Juras». Odznaczenie ustanowione przez gen. Bora-Komorowskiego 1 sierpnia 1966 r. dla upamiętnienia żołnierzy Polski Podziemnej 1939-1945. Krzysztof służył w ZWZ, a następnie w 7 Pułku Ułanów Lubelskich «Jeleń» — tym samym pułku co jego brat Stefan. Legitymacja wydana w Londynie w 1968 r."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # galeria_tablica_gestapo — Tablica pamiątkowa ataku na Gestapo
+    # ═══════════════════════════════════════════════════════════════
+    "galeria_tablica_gestapo": {
+        "typ": "Tablica pamiątkowa / inskrypcja",
+        "data": "1.VIII.1944",
+        "jezyk": "polski",
+        "nadawca": "brak (tablica upamiętniająca)",
+        "adresat": "brak",
+        "transkrypcja": """Dnia 1.8.1944 r. godz. 17.
+z tego domu i okolicznych
+ruszyło do natarcia
+na gmach Gestapo i Dom Prasy
+5 plutonów
+7 pułku ułanów AK
+„JELEŃ"
+z 187 Powstańców
+poległo 67
+Cześć Ich pamięci.""",
+        "pieczecie": [],
+        "podpisy": [],
+        "osoby": [
+            "Żołnierze 7 Pułku Ułanów AK «Jeleń»",
+            "187 Powstańców (uczestników natarcia)",
+            "67 poległych"
+        ],
+        "znaki_szczegolne": [
+            "Tablica pamiątkowa z Powstania Warszawskiego",
+            "1 sierpnia 1944 godz. 17:00 — godzina «W», początek Powstania",
+            "Natarcie na gmach Gestapo i Dom Prasy",
+            "5 plutonów 7 Pułku Ułanów AK «Jeleń»",
+            "187 powstańców ruszyło do ataku, 67 poległo (36% strat)",
+            "Papier maszynowy, prawdopodobnie kopia lub druk pamiątkowy",
+            "Tekst ułożony pionowo na kartce"
+        ],
+        "kontekst": "Tablica upamiętniająca atak 7 Pułku Ułanów AK «Jeleń» na gmach Gestapo i Dom Prasy w pierwszych minutach Powstania Warszawskiego, 1 sierpnia 1944 o godz. 17:00 (godzina «W»). Z 187 powstańców poległo 67 — ponad jedna trzecia. To ten sam pułk, w którym służyli Krzysztof («Juras») i Stefan Głuchowscy. Dokument łączy kolekcję z najkrwawszymi chwilami Powstania."
+    },
 }
 
 # ═══════════════════════════════════════════════════════════════
