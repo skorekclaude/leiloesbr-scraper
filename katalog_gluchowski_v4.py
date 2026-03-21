@@ -7538,17 +7538,10 @@ def generate_html():
           <span class="card-type">{escape(typ_label)}</span>
         </div>
         <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> {escape(obj["opis_fizyczny"])}</div>
-        <div class="bilingual-header"><span class="col-orig-label">ORYGINAŁ (PL)</span><span class="col-trans-label">TRANSLATION</span></div>
-        <div class="card-bilingual-row" data-field="tresc">
-          <div class="col-orig"><span class="field-label" data-label="tresc">Treść:</span> {escape(obj["opis_tresci"])}</div>
-          <div class="col-trans"></div>
-        </div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> {escape(obj["opis_tresci"])}</div>
         <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> {escape(obj["tworca"])}</div>
         <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> {escape(obj["jezyk"])}</div>
-        <div class="card-bilingual-row" data-field="kontekst">
-          <div class="col-orig card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> {escape(obj["kontekst"])}</div>
-          <div class="col-trans"></div>
-        </div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> {escape(obj["kontekst"])}</div>
         {powiazania_html}
         <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> {escape(obj["stan"])}</div>
         {trans_html}
@@ -8227,27 +8220,9 @@ body.lang-js [data-lang].lang-visible {{ display:revert; }}
 .powiazanie-link:hover {{ color:var(--accent); text-decoration:underline; }}
 .card.highlight-target {{ border-color:var(--gold) !important; box-shadow:0 0 20px rgba(201,169,110,.3) !important; transition:all .5s; }}
 
-/* TWO-COLUMN BILINGUAL MODE */
-.card-body.bilingual {{ }}
-.card-bilingual-row {{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:6px; }}
-.card-bilingual-row .col-orig {{ font-size:0.82em; color:var(--text-dim); line-height:1.5; padding-right:10px; border-right:1px solid var(--border); }}
-.card-bilingual-row .col-trans {{ font-size:0.82em; color:var(--gold-dim); line-height:1.5; font-style:italic; padding-left:10px; }}
-.card-bilingual-row .col-label {{ font-size:0.72em; color:var(--text-faint); text-transform:uppercase; letter-spacing:1px; margin-bottom:2px; display:block; }}
-.bilingual-hint {{ display:block; font-size:0.78em; color:var(--text-faint); font-style:italic; margin-top:4px; opacity:0.7; }}
-.bilingual-header {{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:8px; padding-bottom:6px; border-bottom:1px solid var(--border); }}
-.bilingual-header span {{ font-size:0.7em; color:var(--text-faint); text-transform:uppercase; letter-spacing:2px; font-weight:600; }}
-.bilingual-header .col-orig-label {{ color:var(--text-faint); }}
-.bilingual-header .col-trans-label {{ color:var(--gold-dim); }}
-body:not(.lang-active) .bilingual-header {{ display:none; }}
-body:not(.lang-active) .card-bilingual-row {{ grid-template-columns:1fr; }}
-body:not(.lang-active) .card-bilingual-row .col-trans {{ display:none; }}
-body:not(.lang-active) .card-bilingual-row .col-orig {{ border-right:none; padding-right:0; }}
-@media(max-width:700px) {{
-  .card-bilingual-row {{ grid-template-columns:1fr; }}
-  .card-bilingual-row .col-trans {{ border-left:2px solid var(--gold-dim); padding-left:10px; margin-top:4px; border-right:none; }}
-  .card-bilingual-row .col-orig {{ border-right:none; padding-right:0; }}
-  .bilingual-header {{ grid-template-columns:1fr; }}
-}}
+/* LANGUAGE INDICATOR — subtle badge when viewing in non-PL language */
+.card-lang-badge {{ display:none; font-size:0.65em; color:var(--text-faint); background:var(--surface2); padding:2px 6px; border-radius:2px; margin-left:6px; letter-spacing:1px; text-transform:uppercase; }}
+body.lang-active .card-lang-badge {{ display:inline; }}
 
 /* TRANSCRIPTION PANELS */
 .card-transcription {{ border-top:1px solid var(--border); margin-top:10px; padding-top:8px; }}
@@ -9687,14 +9662,7 @@ const FIELD_LABELS = {{
 }};
 
 const LANG_NAMES = {{ pl:'Polski', en:'English', pt:'Português', de:'Deutsch', nl:'Nederlands', fr:'Français', yi:'ייִדיש' }};
-const BILINGUAL_HINT = {{
-  en:'Original description in Polish',
-  pt:'Descrição original em polonês',
-  de:'Originalbeschreibung auf Polnisch',
-  nl:'Originele beschrijving in het Pools',
-  fr:'Description originale en polonais',
-  yi:'אָריגינעלע באַשרייבונג אויף פּויליש'
-}};
+/* Card descriptions remain in Polish (original archival language) — only labels translate */
 
 /* Activate JS-based lang control — initialize after functions defined */
 
@@ -9752,24 +9720,11 @@ function switchLang(lang, btn) {{
     if (labels[key]) el.textContent = labels[key];
   }});
 
-  /* 4. Bilingual mode — show original PL + translation column */
+  /* 4. Toggle lang-active class for subtle UI hints */
   if (lang !== 'pl') {{
     document.body.classList.add('lang-active');
-    const hint = BILINGUAL_HINT[lang] || BILINGUAL_HINT['en'];
-    const langName = LANG_NAMES[lang] || lang.toUpperCase();
-    /* Update column header */
-    document.querySelectorAll('.col-trans-label').forEach(el => {{
-      el.textContent = langName;
-    }});
-    /* Fill translation column with hint */
-    document.querySelectorAll('.card-bilingual-row .col-trans').forEach(el => {{
-      const field = el.parentElement.getAttribute('data-field');
-      const lbl = labels[field] || '';
-      el.innerHTML = '<span class="col-label">' + lbl + '</span><span class="bilingual-hint">' + hint + '</span>';
-    }});
   }} else {{
     document.body.classList.remove('lang-active');
-    document.querySelectorAll('.card-bilingual-row .col-trans').forEach(el => {{ el.innerHTML = ''; }});
   }}
 
   /* 5. Translate navigation links */
