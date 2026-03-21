@@ -3868,21 +3868,7 @@ OBJECTS = [
 
     # --- Seria V: Krzysztof Andrzej "Juraś" Głuchowski ---
 
-    {
-        "sygn": "ARG/II/56",
-        "photo": "lbr_V_157_p01.jpg",
-        "tytul": "Pocztówka z litografią karykatury por. Głuchowskiego — Henryk Hertz-Barwiński, 1916",
-        "data": "1916–1917",
-        "typ": "pocztówka",
-        "opis_fizyczny": "Pocztówka ok. 14 × 9 cm, reprodukcja litografii barwnej autorstwa Henryka Hertza-Barwińskiego. Awers: karykatura por. Janusza Głuchowskiego z napisem 'por. Głuchowski' (u góry) i 'Iwankowicze' (u dołu — nazwa miejscowości na Wołyniu, NIE podpis artysty). Rewers: odręczny napis ołówkiem 'Z albumu karykatur Illustr. Sztal. Baonów o por. I Bryg. LP', pieczęć okrągła z monogramem. 2 zdjęcia (obj6_1.jpg awers, obj6_2.jpg rewers).",
-        "opis_tresci": "Reprodukcja pocztówkowa jednej z 20 litografii z teki 'Woyska polskiego konterfektów gładkich 20' autorstwa Henryka Hertza-Barwińskiego (1877–1970), aktora i karykaturzysty, oficera I Brygady LP. Teka wydana w Krakowie przez litografa W. Krzepowskiego w 1916–17. Napis 'Iwankowicze' to nazwa miejscowości na froncie wołyńskim, gdzie rysunek powstał — błędnie odczytywany jako nazwisko 'Iwankiewicz'. Wśród 20 sportretowanych oficerów: Piłsudski, Śmigły-Rydz, Berbecki, Kukiel, Kaden-Bandrowski i por. Głuchowski.",
-        "seria": "II",
-        "tworca": "Henryk Hertz-Barwiński (1877–1970)",
-        "jezyk": "polski",
-        "kontekst": "Henryk Hertz-Barwiński — aktor, reżyser teatralny i karykaturzysta, ochotnik I Brygady LP od 1914, odznaczony dwukrotnie Krzyżem Walecznych. Stworzył teczkę 20 karykatur oficerów I Brygady na froncie wołyńskim (Iwankowicze) 1915–16, wydaną jako litografie barwne w Krakowie 1916–17. Kompletne teki pojawiają się na aukcjach Desa Unicum. Oryginały zdigitalizowane w Zielonogórskiej Bibliotece Cyfrowej. Pojedyncza pocztówka z kolekcji — dowód rozpoznawalności Głuchowskiego w elicie legionowej.",
-        "powiazania": ["ARG/II/59", "ARG/II/1", "ARG/II/2", "ARG/II/36"],
-        "stan": "Dobry"
-    },
+    # ARG/II/56 usunięty — pocztówka nie istnieje fizycznie, jedyny obiekt to oryginał rysunku ARG/II/59
     {
         "sygn": "ARG/V/157",
         "photo": "lbr_V_158_p01.jpg",
@@ -4106,7 +4092,7 @@ OBJECTS = [
         "tworca": "Henryk Hertz-Barwiński (1877–1970)",
         "jezyk": "n/a",
         "kontekst": "UNIKAT. Oryginał rysunku ołówkowego w kolekcji rodzinnej sportretowanego — wyjątkowa wartość, bo teka wydana zawiera jedynie litografie, a oryginalne rysunki przygotowawcze nie były publikowane. Hertz-Barwiński (aktor, reżyser teatralny, dwukrotnie odznaczony KW) rysował współtowarzyszy broni na pozycjach I Brygady LP na Wołyniu. Fakt posiadania oryginału przez rodzinę Głuchowskich sugeruje bezpośredni dar artysty dla portretowanego oficera.",
-        "powiazania": ["ARG/II/56"],
+        "powiazania": ["ARG/II/1", "ARG/II/2", "ARG/II/36"],
         "stan": "Dobry"
     },
     {
