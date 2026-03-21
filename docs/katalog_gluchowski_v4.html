@@ -41,8 +41,17 @@ body { background:var(--bg); color:var(--text); font-family:'Source Sans 3',sans
 .methodology { max-width:900px; margin:0 auto 40px; padding:20px 30px; background:var(--surface2); border-left:3px solid var(--gold); font-size:0.82em; color:var(--text-dim); line-height:1.7; }
 .methodology strong { color:var(--gold-dim); }
 
+/* LANGUAGE BAR */
+.lang-bar { position:sticky; top:0; z-index:200; background:rgba(12,11,9,.98); backdrop-filter:blur(16px); padding:8px 20px; border-bottom:1px solid var(--border); display:flex; gap:0; justify-content:center; align-items:center; }
+.lang-bar .lang-label { font-size:0.7em; color:var(--text-faint); text-transform:uppercase; letter-spacing:2px; margin-right:12px; font-weight:500; }
+.lang-btn { padding:6px 14px; background:transparent; border:1px solid transparent; cursor:pointer; font-size:0.82em; font-family:'Source Sans 3',sans-serif; color:var(--text-dim); transition:all .2s; border-radius:3px; font-weight:500; }
+.lang-btn:hover { color:var(--gold); border-color:var(--border); }
+.lang-btn.active { color:var(--gold); border-color:var(--gold); background:rgba(201,169,110,.08); font-weight:600; }
+[data-lang] { display:none; }
+[data-lang="pl"] { display:revert; }
+
 /* NAV */
-.nav { position:sticky; top:0; z-index:100; background:rgba(12,11,9,.95); backdrop-filter:blur(12px); padding:14px 20px; border-bottom:1px solid var(--border); display:flex; flex-wrap:wrap; gap:8px; justify-content:center; }
+.nav { position:sticky; top:38px; z-index:100; background:rgba(12,11,9,.95); backdrop-filter:blur(12px); padding:14px 20px; border-bottom:1px solid var(--border); display:flex; flex-wrap:wrap; gap:8px; justify-content:center; }
 .nav-link { color:var(--text-dim); text-decoration:none; font-size:0.8em; padding:5px 12px; border:1px solid var(--border); border-radius:3px; transition:all .2s; font-weight:500; }
 .nav-link:hover { color:var(--gold); border-color:var(--gold); }
 
@@ -214,6 +223,33 @@ body { background:var(--bg); color:var(--text); font-family:'Source Sans 3',sans
 .val-methodology h4 { color:var(--text); margin-bottom:10px; }
 .val-methodology ul { padding-left:20px; margin:8px 0; }
 
+/* CONSPIRACY NOTE */
+.conspiracy-note { max-width:900px; margin:40px auto; padding:30px 35px; background:linear-gradient(135deg, rgba(192,57,43,.04), rgba(201,169,110,.04)); border:1px solid rgba(192,57,43,.2); border-left:4px solid #c45a5a; border-radius:6px; }
+.conspiracy-note h3 { font-family:'Playfair Display',serif; color:#c45a5a; font-size:1.3em; margin-bottom:16px; }
+.conspiracy-note .cn-subtitle { font-size:0.85em; color:var(--text-dim); font-style:italic; margin-bottom:16px; }
+.conspiracy-note p { font-size:0.9em; color:var(--text-dim); line-height:1.8; margin-bottom:12px; }
+.conspiracy-note .cn-doc-ref { font-family:'JetBrains Mono',monospace; font-size:0.8em; color:var(--gold); background:var(--surface2); padding:2px 8px; border-radius:2px; }
+.conspiracy-note .cn-comparison { display:grid; grid-template-columns:1fr 1fr; gap:20px; margin:20px 0; padding:16px; background:var(--surface); border:1px solid var(--border); border-radius:4px; }
+.conspiracy-note .cn-comparison .cn-col { }
+.conspiracy-note .cn-comparison .cn-col-title { font-size:0.75em; color:var(--text-faint); text-transform:uppercase; letter-spacing:2px; margin-bottom:8px; }
+.conspiracy-note .cn-comparison .cn-value { font-family:'JetBrains Mono',monospace; font-size:1.1em; color:var(--gold); }
+.conspiracy-note .cn-comparison .cn-explain { font-size:0.82em; color:var(--text-dim); margin-top:4px; }
+
+/* ACADEMIC ARTICLES */
+.academic-section { max-width:900px; margin:50px auto; padding:0 20px; }
+.academic-section h2 { font-family:'Playfair Display',serif; font-size:1.8em; color:var(--gold); text-align:center; margin-bottom:8px; }
+.academic-section .acad-subtitle { text-align:center; color:var(--text-dim); font-size:0.95em; margin-bottom:40px; }
+.article-proposal { background:var(--surface); border:1px solid var(--border); border-radius:6px; padding:24px; margin-bottom:20px; transition:border-color .3s; }
+.article-proposal:hover { border-color:var(--accent); }
+.article-proposal h4 { font-family:'Playfair Display',serif; font-size:1.1em; color:var(--text); margin-bottom:8px; line-height:1.4; }
+.article-proposal .ap-meta { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:12px; }
+.article-proposal .ap-badge { font-size:0.72em; background:var(--surface2); border:1px solid var(--border); color:var(--text-dim); padding:3px 10px; border-radius:2px; text-transform:uppercase; letter-spacing:.5px; }
+.article-proposal .ap-badge.ap-type { border-color:var(--gold); color:var(--gold); }
+.article-proposal .ap-thesis { font-size:0.88em; color:var(--accent); font-style:italic; margin-bottom:10px; line-height:1.6; }
+.article-proposal .ap-novelty { font-size:0.82em; color:var(--text-dim); line-height:1.6; }
+.article-proposal .ap-novelty strong { color:var(--text-faint); }
+.article-proposal .ap-sources { font-family:'JetBrains Mono',monospace; font-size:0.75em; color:var(--text-faint); margin-top:10px; }
+
 /* FOOTER */
 .footer { text-align:center; padding:50px 20px; color:var(--text-faint); font-size:0.78em; border-top:1px solid var(--border); line-height:1.8; }
 
@@ -355,10 +391,34 @@ body { background:var(--bg); color:var(--text); font-family:'Source Sans 3',sans
 </head>
 <body>
 
+<!-- LANGUAGE SWITCHER -->
+<div class="lang-bar" id="lang-bar">
+  <span class="lang-label">Język / Language</span>
+  <button class="lang-btn active" onclick="switchLang('pl', this)">PL</button>
+  <button class="lang-btn" onclick="switchLang('en', this)">EN</button>
+  <button class="lang-btn" onclick="switchLang('pt', this)">PT</button>
+  <button class="lang-btn" onclick="switchLang('de', this)">DE</button>
+  <button class="lang-btn" onclick="switchLang('nl', this)">NL</button>
+  <button class="lang-btn" onclick="switchLang('fr', this)">FR</button>
+  <button class="lang-btn" onclick="switchLang('yi', this)">YI</button>
+</div>
+
 <div class="header">
-  <div class="institution">Katalog Muzealny</div>
+  <div class="institution" data-lang="pl">Katalog Muzealny</div>
+  <div class="institution" data-lang="en">Museum Catalogue</div>
+  <div class="institution" data-lang="pt">Catálogo Museológico</div>
+  <div class="institution" data-lang="de">Museumskatalog</div>
+  <div class="institution" data-lang="nl">Museumcatalogus</div>
+  <div class="institution" data-lang="fr">Catalogue Muséal</div>
+  <div class="institution" data-lang="yi">מוזעאום קאַטאַלאָג</div>
   <h1>ARCHIWUM RODZINY GŁUCHOWSKICH</h1>
-  <div class="subtitle">Dokumenty, korespondencja, fotografie i ephemera</div>
+  <div class="subtitle" data-lang="pl">Dokumenty, korespondencja, fotografie i ephemera</div>
+  <div class="subtitle" data-lang="en">Documents, correspondence, photographs and ephemera</div>
+  <div class="subtitle" data-lang="pt">Documentos, correspondência, fotografias e efêmeros</div>
+  <div class="subtitle" data-lang="de">Dokumente, Korrespondenz, Fotografien und Ephemera</div>
+  <div class="subtitle" data-lang="nl">Documenten, correspondentie, foto's en efemera</div>
+  <div class="subtitle" data-lang="fr">Documents, correspondance, photographies et éphémérides</div>
+  <div class="subtitle" data-lang="yi">דאָקומענטן, קאָרעספּאָנדענץ, פאָטאָגראַפיעס און עפעמעראַ</div>
   <div class="dates">1867 — 1964</div>
   <div class="stats">314 jednostek inwentarzowych &bull; 5 serii archiwalnych &bull; 5 pokoleń</div>
 </div>
@@ -380,6 +440,138 @@ body { background:var(--bg); color:var(--text); font-family:'Source Sans 3',sans
   Pola: sygnatura, tytuł formalny, datowanie, typ dokumentu (słownik kontrolowany), opis fizyczny, opis treści,
   twórca, język, kontekst historyczny, powiązania wewnątrzzespołowe, stan zachowania.
   Opisy sporządzone wyłącznie na podstawie analizy wizualnej fotografii &mdash; bez domysłów i interpolacji.
+</div>
+
+<!-- ============================================================ -->
+<!-- CONSPIRACY NOTE                                               -->
+<!-- ============================================================ -->
+<div class="conspiracy-note" id="conspiracy-note">
+  <h3 data-lang="pl">&#x1F575; Nota konspiracyjna — Fałszerstwo ochronne dat urodzenia</h3>
+  <h3 data-lang="en">&#x1F575; Conspiracy Note — Protective Falsification of Birth Dates</h3>
+  <h3 data-lang="pt">&#x1F575; Nota Conspiratória — Falsificação Protetora de Datas de Nascimento</h3>
+  <h3 data-lang="de">&#x1F575; Konspirationsnotiz — Schützende Fälschung der Geburtsdaten</h3>
+  <h3 data-lang="nl">&#x1F575; Samenzweringsnotitie — Beschermende Vervalsing van Geboortedatums</h3>
+  <h3 data-lang="fr">&#x1F575; Note conspiratoire — Falsification protectrice des dates de naissance</h3>
+  <h3 data-lang="yi">&#x1F575; קאָנספּיראַציע נאָטיץ — שיצנדיקע פֿאַלשונג פֿון געבורטס-דאַטעס</h3>
+
+  <div class="cn-subtitle" data-lang="pl">Odkrycie archiwalne: rodzina Głuchowskich sfałszowała rok urodzenia Krzysztofa, aby ochronić 17-latka przed niemieckim Arbeitseinsatz</div>
+  <div class="cn-subtitle" data-lang="en">Archival discovery: the Głuchowski family falsified Krzysztof's birth year to protect the 17-year-old from German forced labor (Arbeitseinsatz)</div>
+
+  <div class="cn-comparison">
+    <div class="cn-col">
+      <div class="cn-col-title" data-lang="pl">Kennkarte (ARG/V/161)</div>
+      <div class="cn-col-title" data-lang="en">Kennkarte (ARG/V/161)</div>
+      <div class="cn-value">29.XI.1928</div>
+      <div class="cn-explain" data-lang="pl">Sfałszowana data — Krzysztof „młodszy" o 2 lata</div>
+      <div class="cn-explain" data-lang="en">Falsified date — Krzysztof made 2 years younger</div>
+    </div>
+    <div class="cn-col">
+      <div class="cn-col-title" data-lang="pl">Lista weryfikacyjna AK (ARG/III/34)</div>
+      <div class="cn-col-title" data-lang="en">AK Verification List (ARG/III/34)</div>
+      <div class="cn-value">1926</div>
+      <div class="cn-explain" data-lang="pl">Prawdziwy rok urodzenia — potwierdzony przez Komisję Weryfikacyjną</div>
+      <div class="cn-explain" data-lang="en">True birth year — confirmed by Verification Commission</div>
+    </div>
+  </div>
+
+  <p data-lang="pl">
+    Krzysztof Głuchowski urodził się <strong>29.XI.1926</strong>. Na Kennkarte wydanej 9.XI.1943 w Warszawie
+    (<span class="cn-doc-ref">ARG/V/161</span>) wpisano datę <strong>29.XI.1928</strong> — przesunięcie o dokładnie 2 lata.
+    Cel fałszerstwa: ochrona przed <em>Arbeitseinsatz</em> (poborem na roboty przymusowe), który w Generalnym Gubernatorstwie
+    obejmował osoby od 16. roku życia. Wg prawdziwej daty Krzysztof miał 16 lat w XI.1942 — podlegał poborowi.
+    Wg sfałszowanej miał dopiero 14 — był „za młody".
+  </p>
+  <p data-lang="pl">
+    W momencie wystawiania Kennkarte Krzysztof był już ŻOŁNIERZEM AK — zaprzysiężony 11.V.1942 (w wieku 15 lat!)
+    w 7 Pułku Ułanów „Jeleń" (<span class="cn-doc-ref">ARG/V/3</span>, <span class="cn-doc-ref">ARG/V/4</span>).
+    Matka Wanda ps. „Krysta" (sierż. pchor. Kedyw AK) była już ranna po akcji dywersyjnej w Wilanowie (26.IX.1943).
+    Rodzina prowadziła PODWÓJNE ŻYCIE: jawne (Kennkarte z fałszywą datą) i tajne (legitymacja AK, pseudonim „Juraś").
+  </p>
+  <p data-lang="pl">
+    Fałszerstwo ujawnia się dopiero przy porównaniu dokumentów z kolekcji: Kennkarte vs. lista personalna
+    7 P.Uł. (<span class="cn-doc-ref">ARG/III/34</span>) z weryfikacji AK 1946, gdzie Krzysztof figuruje
+    z rokiem urodzenia <strong>1926</strong>. To samo potwierdza etykieta archiwalna (<span class="cn-doc-ref">ARG/III/29</span>).
+    <strong>Strategia przetrwania jednej rodziny — widoczna wyłącznie przy porównaniu dokumentów z różnych serii archiwum.</strong>
+  </p>
+  <p data-lang="en">
+    Krzysztof Głuchowski was born on <strong>29.XI.1926</strong>. On his Kennkarte issued 9.XI.1943 in Warsaw
+    (<span class="cn-doc-ref">ARG/V/161</span>), the date <strong>29.XI.1928</strong> was entered — shifted by exactly 2 years.
+    Purpose: protection from <em>Arbeitseinsatz</em> (forced labor conscription), which in the General Government
+    applied to persons from age 16. According to his real date, Krzysztof was 16 in XI.1942 — subject to conscription.
+    According to the falsified date, he was only 14 — "too young."
+  </p>
+  <p data-lang="en">
+    At the time the Kennkarte was issued, Krzysztof was already an AK SOLDIER — sworn in on 11.V.1942 (at age 15!)
+    in the 7th Uhlan Regiment "Jeleń" (<span class="cn-doc-ref">ARG/V/3</span>, <span class="cn-doc-ref">ARG/V/4</span>).
+    His mother Wanda, codename "Krysta" (Staff Sgt. Kedyw AK), had already been wounded in a sabotage action in Wilanów (26.IX.1943).
+    The family led a DOUBLE LIFE: overt (Kennkarte with false date) and covert (AK identity card, codename "Juraś").
+  </p>
+  <p data-lang="en">
+    The forgery is revealed only by comparing documents from the collection: Kennkarte vs. the personnel roster
+    of 7th Uhlans (<span class="cn-doc-ref">ARG/III/34</span>) from 1946 AK verification, where Krzysztof appears
+    with the birth year <strong>1926</strong>.
+    <strong>A family's survival strategy — visible only through cross-referencing documents from different archival series.</strong>
+  </p>
+</div>
+
+<!-- ============================================================ -->
+<!-- ACADEMIC ARTICLE PROPOSALS                                    -->
+<!-- ============================================================ -->
+<div class="academic-section" id="academic-articles">
+  <h2 data-lang="pl">Propozycje artykułów naukowych</h2>
+  <h2 data-lang="en">Academic Article Proposals</h2>
+  <p class="acad-subtitle" data-lang="pl">Na podstawie materiałów z Archiwum Rodziny Głuchowskich</p>
+  <p class="acad-subtitle" data-lang="en">Based on materials from the Głuchowski Family Archive</p>
+
+  <div class="article-proposal">
+    <h4>„Pięć losów w jednym Powstaniu — rodzina Głuchowskich w dokumentach prywatnych"</h4>
+    <div class="ap-meta">
+      <span class="ap-badge ap-type">artykuł źródłoznawczy</span>
+      <span class="ap-badge">Przegląd Historyczny</span>
+      <span class="ap-badge">Dzieje Najnowsze</span>
+      <span class="ap-badge">Rocznik Warszawski</span>
+    </div>
+    <div class="ap-thesis" data-lang="pl">Teza: Kolekcja 314 dokumentów jednej rodziny jako mikrokosmos polskich losów 1914–2020. Pięciu członków rodziny (Marian, Janusz, Stefan, Lech, Krzysztof) — pięć różnych ról w tym samym konflikcie: organizator niepodległościowy, generał na emigracji, kwatermistrz AK, żołnierz poległy, chłopiec-powstaniec.</div>
+    <div class="ap-novelty"><strong>Nowość naukowa:</strong> Powiązanie dokumentów prywatnych ze zbiorami Instytutu Piłsudskiego w Londynie (Zespół 70 — akta gen. Głuchowskiego). Pierwszy pełny katalog muzealny archiwum rodzinnego w standardzie ISAD(G).</div>
+    <div class="ap-sources">Źródła: ARG/I/1–6, ARG/II/1–68, ARG/III/1–38, ARG/V/1–173, ARG/VI/1–29</div>
+  </div>
+
+  <div class="article-proposal">
+    <h4>„Chłopiec-powstaniec — droga Krzysztofa Głuchowskiego od Fabryki Kamlera do Stalagu XI-B"</h4>
+    <div class="ap-meta">
+      <span class="ap-badge ap-type">artykuł biograficzny</span>
+      <span class="ap-badge">Biuletyn IPN</span>
+      <span class="ap-badge">Powstanie Warszawskie — studia i materiały</span>
+    </div>
+    <div class="ap-thesis" data-lang="pl">Teza: Dokumenty konspiracyjne zmiany dat urodzenia jako strategia przetrwania. Kennkarte z fałszywym rokiem 1928 vs. prawdziwy 1926 — ochrona 17-latka przed Arbeitseinsatz. Rekonstrukcja trasy: przysięga AK (15 lat) → pluton 1112 „Jeleń" → obrona Fabryki Kamlera → ewakuacja kanałami → Śródmieście → kapitulacja → Stalag XI-B → 3 DSK → matura w mundurze → emigracja.</div>
+    <div class="ap-novelty"><strong>Nowość:</strong> Korelacja relacji z Archiwum Historii Mówionej MPW z dokumentami z kolekcji. Pierwszy udokumentowany przypadek „fałszerstwa ochronnego" daty urodzenia w jednej rodzinie AK z pełnym łańcuchem dowodowym.</div>
+    <div class="ap-sources">Źródła: ARG/V/1–4, ARG/V/158, ARG/V/161, ARG/III/34, ARG/V/13, ARG/V/69</div>
+  </div>
+
+  <div class="article-proposal">
+    <h4>„DYSK — farmaceutka w oddziale dywersji kobiet. Wanda Głuchowska i Akcja Wilanów"</h4>
+    <div class="ap-meta">
+      <span class="ap-badge ap-type">studium przypadku</span>
+      <span class="ap-badge">gender military history</span>
+      <span class="ap-badge">Niepodległość i Pamięć</span>
+      <span class="ap-badge">Studia z Dziejów Wojskowości</span>
+    </div>
+    <div class="ap-thesis" data-lang="pl">Teza: Rola kobiet w Kedyw AK na przykładzie jednej rodziny — Wanda z domu Głuchowska ps. „Krysta"/„Justyna" (sierż. pchor., oddział DYSK, Kedyw AK). Ranna w akcji dywersyjnej w Wilanowie 26.IX.1943. Nie zmobilizowana do Powstania z powodu ran. Mąż Stefan aresztowany przez Gestapo V.1944, syn Krzysztof w plutonie 1112.</div>
+    <div class="ap-novelty"><strong>Nowość:</strong> Rekonstrukcja losów rodziny, w której WSZYSCY dorośli członkowie walczyli w konspiracji. Matka-dywersantka, ojciec-kwatermistrz, syn-powstaniec — trzy różne formy oporu w jednym gospodarstwie domowym.</div>
+    <div class="ap-sources">Źródła: ARG/III/28, ARG/V/158, ARG/V/161, portal 1944.pl</div>
+  </div>
+
+  <div class="article-proposal">
+    <h4>„Od Siódemki Beliny do Instytutu Piłsudskiego — gen. Janusz Głuchowski i jego archiwum"</h4>
+    <div class="ap-meta">
+      <span class="ap-badge ap-type">artykuł archiwoznawczy</span>
+      <span class="ap-badge">Teki Archiwalne</span>
+      <span class="ap-badge">Archeion</span>
+    </div>
+    <div class="ap-thesis" data-lang="pl">Teza: Porównanie kolekcji prywatnej (ARG, 314 jedn.) z Zespołem 70 w Instytucie Piłsudskiego w Londynie. Gen. Janusz Głuchowski (1888–1964) — jeden z „Siódemki Beliny" (2.VIII.1914), twórca 7 P.Uł. Lubelskich, I Zastępca Ministra Spraw Wojskowych (1935–1939), D-ca PSZ w UK, współzałożyciel Instytutu Piłsudskiego w Londynie (15.III.1947).</div>
+    <div class="ap-novelty"><strong>Nowość:</strong> Identyfikacja dokumentów z kolekcji prywatnej, które UZUPEŁNIAJĄ Zespół 70 — w tym list Śmigłego-Rydza (ARG/II/14), dekret orderowy z 1925 (ARG/II/17), życzenia od Sosnkowskiego (ARG/II/27). Metodologia: porównanie inwentarza Zespołu 70 z katalogiem ARG pozycja po pozycji.</div>
+    <div class="ap-sources">Źródła: ARG/II/1–68, Zespół 70 (Instytut Piłsudskiego, Londyn)</div>
+  </div>
 </div>
 
 <!-- ============================================================ -->
@@ -15886,6 +16078,19 @@ function switchTab(tabId, btn) {
   document.getElementById('tab-' + tabId).classList.add('active');
   btn.classList.add('active');
   window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+/* Language switching */
+function switchLang(lang, btn) {
+  // Update buttons
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  // Show/hide elements with data-lang
+  document.querySelectorAll('[data-lang]').forEach(el => {
+    el.style.display = el.getAttribute('data-lang') === lang ? '' : 'none';
+  });
+  // Update html lang attribute
+  document.documentElement.lang = lang;
 }
 
 /* Photo grid filtering */
