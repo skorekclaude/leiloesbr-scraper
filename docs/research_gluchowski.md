@@ -226,4 +226,103 @@ Pierwszy patrol zbrojny odradzającej się Polski. Siedmiu jeźdźców pod dowó
 
 ---
 
-*Raport wygenerowany na podstawie research agentów. Dane do uzupełnienia po zakończeniu pozostałych agentów.*
+## 9. LA COURTINE — OBÓZ TRANZYTOWY (Francja)
+
+- **Lokalizacja:** La Courtine, departament Creuse, środkowa Francja (Masyw Centralny)
+- **Historia:** Obóz wojskowy od 1901 (Camp militaire de La Courtine)
+- **Użycie polskie:** Obóz tranzytowy dla żołnierzy II Korpusu, **1946-1947**
+
+### Trasa transferu:
+Włochy (Emilia-Romania) → kolej przez Francję → **La Courtine** (przetwarzanie, dokumentacja, badania) → porty kanałowe (Calais/Dieppe) → **Wielka Brytania**
+
+### Charakter:
+- Pobyt tymczasowy — tygodnie, nie miesiące
+- Baraki Nissen lub koszary francuskie
+- **Punkt decyzyjny:** żołnierze wybierali między repatriacją do PRL a osiedleniem w UK
+- Propaganda z obu stron — komunistyczna Polska wysyłała przedstawicieli zachęcających do powrotu
+- Główny okres: **późny 1946 — 1947**
+
+---
+
+## 10. OBOZY PKPR W WIELKIEJ BRYTANII
+
+- **Foxley Camp**, Herefordshire — duże osiedle polskie
+- **Daglingworth Camp**, Gloucestershire
+- **Stover Camp**, Devon
+- **Kelham Hall**, Nottinghamshire
+- **Doddington Park**, Cheshire
+- **Mepal**, Cambridgeshire (była baza RAF)
+- **Fairford**, Gloucestershire
+- **Hodgemoor Camp**, Buckinghamshire
+
+Wiele byłych baz RAF i obozów wojskowych przekształcono na ośrodki dla Polaków.
+
+---
+
+## 11. IDENTYFIKACJA MEDALI NA ZDJĘCIACH
+
+### Medale brytyjskie (na polskich żołnierzach):
+| Medal | Wstążka |
+|-------|---------|
+| 1939-1945 Star | Ciemnoniebieski, czerwony, jasnoniebieski (pion) |
+| Italy Star | Czerwony, biały, zielony, czerwony, biały |
+| France and Germany Star | Niebieski, biały, czerwony, niebieski, biały |
+| War Medal 1939-1945 | Czerwony, biały, niebieski z cienkimi krawędziami |
+| Defence Medal | Zielony z pomarańczowymi krawędziami |
+
+### Medale polskie:
+| Medal | Wstążka | Uwagi |
+|-------|---------|-------|
+| **Virtuti Militari** | Czarna z niebieskimi krawędziami | Najwyższe odznaczenie (= Victoria Cross) |
+| **Krzyż Walecznych** | Czerwono-biała | Powszechny |
+| **Krzyż Monte Cassino** | Zielono-biała | Specyficzny dla bitwy, BARDZO częsty u II Korpusu |
+| **Medal Wojska** | Brązowy | Powszechny |
+| **Krzyż Zasługi** | Złoty/srebrny/brązowy | Różne klasy |
+
+### Szybka identyfikacja na zdjęciu:
+- Battledress + "POLAND" + orzeł + Italy Star + Krzyż Monte Cassino = **II Korpus, 1944-1947**
+- Rogatywka + dużo baretek = **oficer starszy, ceremonialne**
+- Czerwone patki kołnierzowe na Brytyjczyku = **oficer sztabowy** (staff officer)
+- Czerwona opaska na czapce = **oficer sztabowy lub Military Police**
+- Beret z 2 odznakami = **Montgomery**
+- Opaska na oko + brak ręki = **Gen. Carton de Wiart** (British Military Mission to Poland)
+
+---
+
+## 12. RELACJE BRYTYJSKO-POLSKIE — KLUCZOWE WYDARZENIA
+
+### "Zdrada" Polski:
+- **Jałta (luty 1945):** Churchill i Roosevelt oddali granice wschodnie Stalinowi
+- **Lipiec 1945:** Wielka Brytania cofnęła uznanie Rządu RP na Uchodźstwie
+- **Parada Zwycięstwa (czerwiec 1946):** Polacy **NIE ZOSTALI ZAPROSZENI** — największa zniewaga, pamiętana do dziś
+
+### Polish Resettlement Act 1947:
+- Pierwszy masowy akt imigracyjny w historii Wielkiej Brytanii
+- Dał Polakom prawo pobytu i pracy (ale nie obywatelstwo)
+- Kluczowi politycy: **Attlee** (premier), **Bevin** (MSZ), **Chuter Ede** (MSW)
+
+### Alien Registration:
+- Polscy żołnierze rejestrrowani pod **Aliens Order 1920**
+- Zielone karty/książeczki rejestracyjne (widoczne w dokumencie juras_065)
+- Obsługiwane przez lokalne komisariaty policji i **Home Office Aliens Department**
+
+---
+
+## 13. BRYTYJSCY DOWÓDCY — KONTAKTY Z POLAKAMI
+
+### Włochy / Monte Cassino:
+- **FM Harold Alexander** — Naczelny dowódca Śródziemnomorze. Ciepłe relacje z Andersem. Wysoki, elegancki. CZĘSTO na zdjęciach z Polakami
+- **Gen. Sir Oliver Leese** — 8 Armia (dowodził Polakami pod Monte Cassino). Wysoki, beret
+- **Gen. Sir Richard McCreery** — 8 Armia (po Leese). Kawalerzysta, szczupły
+
+### Europa Zachodnia:
+- **FM Montgomery** — 1 DPanc walczyła pod nim. Beret z 2 odznakami
+- **Gen. Sir Brian Horrocks** — XXX Korpus, współpracował z 1 DPanc pod Arnhem
+
+### Politycy:
+- **Churchill** — relacja z Sikorskim i Andersem. Może być na zdjęciach z polskimi generałami
+- **Król Jerzy VI** — inspekcje wojsk polskich
+
+---
+
+*Raport wygenerowany na podstawie 5 agentów research (2 z web search wciąż pracują). Uzupełnienie po zakończeniu.*
