@@ -1,0 +1,1626 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Archiwum Rodziny Głuchowskich — Katalog Profesjonalny</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:wght@300;400;600&display=swap');
+
+  :root {
+    --bg: #1a1a1a;
+    --card: #242424;
+    --gold: #c9a84c;
+    --gold-dim: #8a7233;
+    --text: #e8e0d0;
+    --text-dim: #a09880;
+    --verified: #4a9;
+    --unverified: #a94;
+    --accent: #6a8;
+    --border: #333;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Source Sans 3', Georgia, serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+  }
+
+  .header {
+    text-align: center;
+    padding: 60px 20px 40px;
+    border-bottom: 1px solid var(--gold-dim);
+    background: linear-gradient(180deg, #1a1a1a 0%, #222 100%);
+  }
+
+  .header h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 2.4em;
+    color: var(--gold);
+    letter-spacing: 3px;
+    margin-bottom: 8px;
+  }
+
+  .header .subtitle {
+    font-size: 1.1em;
+    color: var(--text-dim);
+    font-weight: 300;
+  }
+
+  .stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+
+  .stat {
+    text-align: center;
+  }
+
+  .stat-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    color: var(--gold);
+  }
+
+  .stat-label {
+    font-size: 0.85em;
+    color: var(--text-dim);
+  }
+
+  .family-section {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+
+  .family-section h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--gold);
+    font-size: 1.6em;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  .family-tree {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+  }
+
+  .family-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 16px;
+  }
+
+  .family-card h3 {
+    color: var(--gold);
+    font-size: 1em;
+    margin-bottom: 4px;
+  }
+
+  .family-card .dates {
+    color: var(--text-dim);
+    font-size: 0.85em;
+    margin-bottom: 8px;
+  }
+
+  .family-card .role {
+    color: var(--accent);
+    font-size: 0.9em;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+
+  .family-card p {
+    font-size: 0.85em;
+    color: var(--text-dim);
+  }
+
+  nav.chapters {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  nav.chapters a {
+    background: var(--card);
+    border: 1px solid var(--border);
+    color: var(--gold);
+    padding: 6px 14px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.85em;
+  }
+
+  nav.chapters a:hover {
+    background: var(--gold-dim);
+    color: #fff;
+  }
+
+  .chapter {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+
+  .chapter h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--gold);
+    font-size: 1.5em;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  .object-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+
+  .object-card.verified {
+    border-left: 3px solid var(--verified);
+  }
+
+  .object-card.unverified {
+    border-left: 3px solid var(--unverified);
+  }
+
+  .object-header {
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .object-id {
+    font-family: monospace;
+    color: var(--gold-dim);
+    font-size: 0.85em;
+  }
+
+  .object-title {
+    font-family: 'Playfair Display', serif;
+    color: var(--gold);
+    font-size: 1.15em;
+    margin-top: 4px;
+  }
+
+  .object-date {
+    color: var(--text-dim);
+    font-size: 0.9em;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 0.75em;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .badge-verified {
+    background: rgba(68,170,153,0.2);
+    color: var(--verified);
+    border: 1px solid var(--verified);
+  }
+
+  .badge-unverified {
+    background: rgba(170,153,68,0.2);
+    color: var(--unverified);
+    border: 1px solid var(--unverified);
+  }
+
+  .object-body {
+    padding: 0 20px 16px;
+  }
+
+  .object-body .desc {
+    font-size: 0.95em;
+    margin-bottom: 10px;
+  }
+
+  .object-body .significance {
+    font-size: 0.9em;
+    color: var(--accent);
+    font-style: italic;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    background: rgba(102,170,136,0.08);
+    border-radius: 4px;
+  }
+
+  .object-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-size: 0.85em;
+    color: var(--text-dim);
+    padding-top: 10px;
+    border-top: 1px solid var(--border);
+  }
+
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .meta-label {
+    color: var(--gold-dim);
+  }
+
+  .price {
+    font-family: 'Playfair Display', serif;
+    color: var(--gold);
+    font-size: 1.1em;
+  }
+
+  .target {
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  .photos-row {
+    display: flex;
+    gap: 8px;
+    padding: 0 20px 16px;
+    overflow-x: auto;
+  }
+
+  .photos-row img {
+    height: 200px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid var(--border);
+  }
+
+  .photos-row img:hover {
+    border-color: var(--gold);
+  }
+
+  .summary {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px 20px;
+    background: var(--card);
+    border: 1px solid var(--gold-dim);
+    border-radius: 8px;
+  }
+
+  .summary h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--gold);
+    margin-bottom: 20px;
+  }
+
+  .summary table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .summary td, .summary th {
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .summary th {
+    color: var(--gold-dim);
+    font-weight: 600;
+  }
+
+  .auction-note {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(170,153,68,0.1);
+    border: 1px solid var(--unverified);
+    border-radius: 6px;
+    font-size: 0.9em;
+  }
+
+  .auction-note h3 {
+    color: var(--unverified);
+    margin-bottom: 8px;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 40px 20px;
+    border-top: 1px solid var(--border);
+    color: var(--text-dim);
+    font-size: 0.85em;
+  }
+
+  /* Lightbox */
+  .lightbox {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.95);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .lightbox.active { display: flex; }
+  .lightbox img {
+    max-width: 95vw;
+    max-height: 95vh;
+    object-fit: contain;
+    transform: rotate(0deg);
+    transition: transform 0.3s;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>ARCHIWUM RODZINY GŁUCHOWSKICH</h1>
+  <div class="subtitle">Cztery pokolenia niepodległości Polski &middot; 1905–1945</div>
+  <div class="subtitle" style="margin-top:4px; font-size:0.9em; color:#888;">
+    Katalog profesjonalny &middot; Opracowanie: marzec 2026
+  </div>
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-num">47</div>
+      <div class="stat-label">obiektów skatalogowanych</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">47</div>
+      <div class="stat-label">zweryfikowanych wizualnie</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">191k – 485k PLN</div>
+      <div class="stat-label">wartość szacunkowa (suma pozycji)</div>
+    </div>
+  </div>
+</div>
+
+<!-- Rodzina -->
+<div class="family-section">
+  <h2>Rodzina Głuchowskich</h2>
+  <div class="family-tree">
+    <div class="family-card">
+      <h3>Marian Głuchowski</h3>
+      <div class="dates">1862 (Sycanów) — 20.VI.1924 (Warszawa)</div>
+      <div class="role">Członek Rady PON, organizator PPS w Hucie 'Częstochowa'</div>
+      <p>Organizator PPS (Polska Partia Socjalistyczna) przy Hucie 'Częstochowa'. Członek Rady Polskiej Organizacji Narodowej (PON, od 4.IX.1914). Legitymacja PON nr 2. Ojciec trzech synów-żołnierzy: Janusza, ...</p>
+    </div>
+    <div class="family-card">
+      <h3>Gen. bryg. Janusz Julian Głuchowski</h3>
+      <div class="dates">6.VIII.1888 (Bukowa k. Bełchatowa) — 11.VI.1964 (Londyn)</div>
+      <div class="role">Generał dywizji WP, I Wiceminister Spraw Wojskowych (1935–1939)</div>
+      <p>Syn Mariana i Marii z Żółkowskich. Gimnazjum w Częstochowie (wydalony za strajk 1905). Organizacja Bojowa PPS (1905–1908). Studia na Uniwersytecie w Liège. Współzałożyciel ZWC z Tadeuszem Piskorem (19...</p>
+    </div>
+    <div class="family-card">
+      <h3>Ppor. Stanisław Stefan Głuchowski ps. 'Stefan'</h3>
+      <div class="dates">1.V.1893 (Bukowno) — 17.X.1962 (Warszawa)</div>
+      <div class="role">Członek POW, pracownik Kancelarii Naczelnika Państwa, żołnierz AK (WSOP Warszawa-Żoliborz)</div>
+      <p>Syn Mariana Głuchowskiego i Marii z Żółkowskich. Absolwent gimnazjum w Łodzi. Członek POW (Polska Organizacja Wojskowa). Służył w WP, następnie pracownik Kancelarii Naczelnika Państwa (Piłsudskiego). ...</p>
+    </div>
+    <div class="family-card">
+      <h3>Rtm. Lech Głuchowski ps. 'Jeżycki'</h3>
+      <div class="dates">2.VI.1902 (Raków k. Częstochowy) — 15.IX.1944 (Warszawa, Powstanie)</div>
+      <div class="role">Dowódca 7 P.Uł. Lubelskich AK 'Jeleń' w Powstaniu Warszawskim</div>
+      <p>Syn Mariana i Marii z Żółkowskich. BRAT Janusza i Stanisława. Podchorąży rezerwy kawalerii. We wrześniu 1939 kampania z 7 P.Uł.L. Od 17.VII.1944 dowódca dywizjonu 'Jeleń' (7 P.Uł. AK). 1.VIII.1944 — d...</p>
+    </div>
+    <div class="family-card">
+      <h3>Krzysztof Głuchowski ps. 'Juras'</h3>
+      <div class="dates">29.XI.1926 (Warszawa) — V.2020 (Brazylia)</div>
+      <div class="role">Żołnierz AK — 7 P.Uł. Lubelskich, Pluton 1112, ps. 'Jeleń'. Dziennikarz i wydawca w Rio de Janeiro.</div>
+      <p>Syn Stanisława Stefana i Wandy z Głuchowic. Harcerz (6 Harcerska Szkoła Kadetów). W 1941 wstąpił do ZWZ, potem AK, las Kabacki, III Batalion Miotła. Służył w 7 Pułku Ułanów Lubelskich AK — kawaleria '...</p>
+    </div>
+    <div class="family-card">
+      <h3>Krzysztof Andrzej Głuchowski ps. 'Jurek'/'Jureń'</h3>
+      <div class="dates">29.XI.1928 (Warszawa) — ?</div>
+      <div class="role">Żołnierz AK — Pluton 1112, Dowództwo Obrony Warszawy. Jeniec Stalag XI-B.</div>
+      <p>Wnuk Marjana, sfałszował datę urodzenia o 2 lata (podał 1926 zamiast 1928), by wstąpić do AK jako 15-latek. 8.IV.1944 wstąpił do AK jako ułan ps. 'Jurek'. Walczył w Powstaniu Warszawskim od Godziny W ...</p>
+    </div>
+  </div>
+</div>
+
+<!-- Nawigacja rozdziałów -->
+<nav class="chapters">
+  <a href="#ch0">II. Siódemka Beliny i Legiony (1913–1925)</a>
+  <a href="#ch1">III. II Rzeczpospolita (1918–1939)</a>
+  <a href="#ch2">IV. Kazimierz Sosnkowski (1913–1964)</a>
+  <a href="#ch3">V. Getto Łódzkie (1942–1984)</a>
+  <a href="#ch4">VII. Krzysztof Andrzej Głuchowski (1928–1945)</a>
+  <a href="#ch5">VIII. Album CWŁ PSZ — Szkocja 1944</a>
+  <a href="#ch6">III. II Rzeczpospolita (1918–1939) / Emigracja</a>
+  <a href="#ch7">VI. 7 Pułk Ułanów Lubelskich (1919–1970)</a>
+  <a href="#ch8">IX. Materiały biograficzne</a>
+  <a href="#ch9">I. Korzenie — PON (1905–1914)</a>
+</nav>
+
+<div class="chapter" id="ch0">
+  <h2>II. Siódemka Beliny i Legiony (1913–1925) <span style="float:right; font-size:0.6em; color:var(--text-dim);">38,000 – 98,000 PLN</span></h2>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-029u &middot; Dokument + fotografia <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Dyplom Krzyża Legionowego nr 115 z podpisem Józefa Piłsudskiego + fotografia portretowa Marszałka</div>
+        <div class="object-date">11 lipca 1925 / ok. 1918–1925 &middot; Gen. bryg. Janusz Julian Głuchowski</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p06_img01.jpeg" alt="GL-029u" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p06_img02.jpeg" alt="GL-029u" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Dyplom nadania Krzyża Legionowego pułkownikowi Januszowi Głuchowskiemu (4 s.p. uł.), nr 115. Własnoręczny podpis Józefa Piłsudskiego jako przewodniczącego Komisji Kwalifikacyjnej II Zjazdu Legionistów. + Oryginalna fotografia portretowa Piłsudskiego w mundurze z orderami.</div>
+      <div class="significance">KLUCZOWY OBIEKT. Podpis Piłsudskiego na dyplomie legionowym dla jednego z Siódemki. Nr 115 = wśród pierwszych 200 odznaczonych.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">20,000 – 50,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Dyplom: stan dobry. Fotografia: postrzępiony oryginalny brzeg.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum Józefa Piłsudskiego w Sulejówku — PRIORYTET</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-T07 &middot; Dokument — biogram urzędowy <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Biogram WBH — Wojskowe Biuro Historyczne, 1951</div>
+        <div class="object-date">24.V.1951 &middot; Gen. bryg. Janusz Julian Głuchowski</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p04_img01.jpeg" alt="GL-T07" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p04_img02.jpeg" alt="GL-T07" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">WOJSKOWE BIURO HISTORYCZNE Nr 76/45/XI/1951. Oficjalny biogram gen. Głuchowskiego Janusza — od urodzenia 1888, przez 'Siódemkę' Beliny, do dowodzenia 7 P.Uł. Pieczęć okrągła WBH.</div>
+      <div class="significance">Oficjalny biogram z Wojskowego Biura Historycznego — źródło proweniencji najwyższej kategorii.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">3,000 – 8,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan bardzo dobry. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum Wojska Polskiego / DESA Unicum</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-T08 &middot; Dokument — rozkaz wojskowy <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Rozkaz utworzenia 7 P.Uł. — Lublin, 5.XI.1918</div>
+        <div class="object-date">5.XI.1918 &middot; Gen. bryg. Janusz Julian Głuchowski</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p06_img01.jpeg" alt="GL-T08" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p06_img02.jpeg" alt="GL-T08" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">DOWÓDZTWO WOJSK POLSKICH M. LUBLINIE / SZTAB GENERALNY. 'Rozkazuję reinstruować Januszowi Głuchowskiemu zająć tworzeniem oddziału jazdy — lubelskiej.' Lublin, 5 listopada 1918. Podpis.</div>
+      <div class="significance">DOKUMENT ZAŁOŻYCIELSKI 7 Pułku Ułanów Lubelskich! Rozkaz z pierwszych dni niepodległości. Bezcenny.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">15,000 – 40,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum Wojska Polskiego / Muzeum Piłsudskiego / DESA Unicum</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="chapter" id="ch1">
+  <h2>III. II Rzeczpospolita (1918–1939) <span style="float:right; font-size:0.6em; color:var(--text-dim);">32,800 – 83,500 PLN</span></h2>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-029a &middot; Medal — odznaczenie wojskowe <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Krzyż Walecznych — emisja 1920, z oryginalną wstążką</div>
+        <div class="object-date">1920 (emisja) / nadany 31.VII.1922 &middot; Gen. bryg. Janusz Julian Głuchowski</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p10_img01.jpeg" alt="GL-029a" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Oryginalny Krzyż Walecznych pierwszej emisji Mennicy Warszawskiej (1920). Brązowy krzyż maltański z napisem 'NA POLU CHWAŁY' i datą 1920, orzeł legionowy w centrum. Oryginalna wstążka biało-karmazynowa.</div>
+      <div class="significance">Pierwsza emisja KW — za wojnę polsko-bolszewicką 1920. Komplet z wstążką = rzadkość.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">2,000 – 4,500 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry, patyna zgodna z wiekiem, wstążka z śladami użytkowania.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">WCN / DESA Unicum / kolekcjonerzy falerystyki</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-029t &middot; Dokument — książeczka oficerska <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Legitymacja oficerska gen. bryg. Janusza Głuchowskiego — 1928–1933</div>
+        <div class="object-date">6.II.1928 — 11.IV.1933 &middot; Gen. bryg. Janusz Julian Głuchowski</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p13_img01.jpeg" alt="GL-029t" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p13_img02.jpeg" alt="GL-029t" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p13_img03.jpeg" alt="GL-029t" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Oryginalna książeczka legitymacyjna oficera WP, wystawiona we Lwowie. Fotografia portretowa generała w mundurze z własnoręcznym podpisem. Wykaz odznaczeń: Virtuti Militari kl. V, Krzyż Walecznych (2 okucia), Złoty Krzyż Zasługi, Legia Honorowa, Order Komandorski. Chronologiczny zapis stanowisk: 4 Dyw. Kaw. → CW → DOK X Przemyśl.</div>
+      <div class="significance">Jedyna zachowana legitymacja oficerska gen. Głuchowskiego z fotografią portretową.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">15,000 – 35,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry, strony pożółkłe, oprawa zachowana. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum Wojska Polskiego / DESA Unicum</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-T02 &middot; Dokument urzędowy — MSWojsk. <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Ministerstwo Spraw Wojskowych — Biuro Personalne, dot. Głuchowskiego</div>
+        <div class="object-date">ok. 1920–1935 &middot; Gen. bryg. Janusz Julian Głuchowski</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p07_img01.jpeg" alt="GL-T02" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p07_img02.jpeg" alt="GL-T02" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Na papierze firmowym Ministerstwa Spraw Wojskowych / Biuro Personalne. Dotyczy Puł. Głuchowskiego Janusza — sprawy personalne, przeniesienia. Pieczęć MSWojsk.</div>
+      <div class="significance">Dokumentacja kariery wojskowej gen. Głuchowskiego z centralnych archiwów MSWojsk.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">2,000 – 5,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry, papier pożółkły. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">DESA Unicum / Muzeum Wojska Polskiego</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-T03 &middot; Dokument urzędowy — rozkaz podróży <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Rozkaz Wyjazdu — MSWojsk. Sztab, gen. bryg. Głuchowski</div>
+        <div class="object-date">ok. 1930–1935 &middot; Gen. bryg. Janusz Julian Głuchowski</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p10_img01.jpeg" alt="GL-T03" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Rozkaz Wyjazdu na koszt M.S.Wojsk. Seria J Nr 116321. Dla gen. bryg. Głuchowskiego Janusza. Formularz sztabowy z pieczęcią.</div>
+      <div class="significance">Oficjalny rozkaz podróży generała — dokumentacja służby.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">1,500 – 3,500 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">DESA Unicum</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-T05 &middot; Dokument urzędowy — korespondencja wojskowa <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Pismo od Dowódcy 2 Pułku Piechoty Legionów</div>
+        <div class="object-date">ok. 1920–1935 &middot; Gen. bryg. Janusz Julian Głuchowski</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p14_img01.jpeg" alt="GL-T05" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Na papierze firmowym Dowódcy 2 Pułku Piechoty Legionów. Adresowane do gen. Głuchowskiego Janusza, Dowódcy Garnizonu Nr 1. Dotyczy spraw meldunkowych/przeniesień.</div>
+      <div class="significance">Dokument łączący 2 Pułk Piechoty Legionów z gen. Głuchowskim.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">1,500 – 3,500 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry, papier pożółkły. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">DESA Unicum / Muzeum Wojska Polskiego</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-T09 &middot; Dokument artystyczny — adres iluminowany <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Iluminowany adres pożegnalny — oficerowie, IX.1945</div>
+        <div class="object-date">IX.1945 &middot; Gen. bryg. Janusz Julian Głuchowski</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p08_img01.jpeg" alt="GL-T09" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p08_img02.jpeg" alt="GL-T09" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Ręcznie malowany adres pożegnalny: 'Panu Generałowi Januszowi Głuchowskiemu C.B. na pamiątkę miłej współpracy od Oficerów...' Akwarela z flagami polskimi i brytyjskimi (Union Jack), herb pułkowy. Wrzesień 1945.</div>
+      <div class="significance">Piękny dokument artystyczny — pożegnanie generała przez podkomendnych. Wartość artystyczna + historyczna.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">5,000 – 15,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry, kolory żywe. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">DESA Unicum / Muzeum Wojska Polskiego</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-T10 &middot; Dokument urzędowy — dekret prezydencki <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Meldunek — Prezydent RP + Minister Spraw Wojskowych</div>
+        <div class="object-date">ok. 1933–1935 &middot; Gen. bryg. Janusz Julian Głuchowski</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p09_img01.jpeg" alt="GL-T10" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p09_img02.jpeg" alt="GL-T10" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">MELDUNEK w korporale generałów. Gen. bryg. Głuchowski Janusz — Dowódca Okręgu Korpusu Nr I(?). Podpisy: PREZYDENT RZECZYPOSPOLITEJ i MINISTER SPRAW WOJSKOWYCH.</div>
+      <div class="significance">Dokument z podpisami Prezydenta RP i Ministra — najwyższy szczebel państwowy.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">5,000 – 15,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">DESA Unicum / Muzeum Piłsudskiego</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-T11 &middot; Korespondencja — list prywatny <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">List do ppłk. Głuchowskiego na papierze z monogramem</div>
+        <div class="object-date">ok. 1925 &middot; Gen. bryg. Janusz Julian Głuchowski</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p11_img01.jpeg" alt="GL-T11" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Koperta: 'S. Wielmożny Pan podpułkownik Głuchowski'. List na papierze z koronowanym monogramem, datowany 11/8 25[?]. Tekst odręczny w języku polskim.</div>
+      <div class="significance">List z epoki z zachowaną kopertą — dokumentacja korespondencji oficerskiej.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">800 – 2,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry, koperta zachowana. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">DESA Unicum</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="chapter" id="ch2">
+  <h2>IV. Kazimierz Sosnkowski (1913–1964) <span style="float:right; font-size:0.6em; color:var(--text-dim);">12,000 – 28,000 PLN</span></h2>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-029c &middot; Korespondencja — list maszynopisowy z autografem <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">List gen. Sosnkowskiego + załącznik 'Pro memoria' — Arundel, Kanada, 28.V.1964</div>
+        <div class="object-date">28 maja 1964 &middot; Gen. bryg. Janusz Julian Głuchowski</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p09_img01.jpeg" alt="GL-029c" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p14_img01.jpeg" alt="GL-029c" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p14_img02.jpeg" alt="GL-029c" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p14_img03.jpeg" alt="GL-029c" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Maszynopis z własnoręcznym podpisem Kazimierza Sosnkowskiego. Adresowany 'Kochany Generale'. Temat: patrol Beliny, Instytut Piłsudskiego, praca nad przedmową dla Narbutta. Załącznik 'Pro memoria' — 24 zamówienia ciążące na Sosnkowskim: Giedroyc i 'Kultura', Radio Wolna Europa, płk. Smoleński, gen. Głuchowski. Na końcu: 'Za parę miesięcy rozpoczynam 80-ty rok życia i siły moje bynajmniej nie są nieograniczone.'</div>
+      <div class="significance">Ostatni wielki dokument przyjaźni Sosnkowski-Głuchowski. Lista kontaktów: Giedroyc, RWE, Buenos Aires, Toronto, Chicago, Londyn, Paryż.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">12,000 – 28,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan bardzo dobry. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum Piłsudskiego / Instytut Piłsudskiego w Londynie/Nowym Jorku</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="chapter" id="ch3">
+  <h2>V. Getto Łódzkie (1942–1984) <span style="float:right; font-size:0.6em; color:var(--text-dim);">9,000 – 23,000 PLN</span></h2>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-029e_h &middot; Korespondencja — 4 listy <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Komplet korespondencji — 4 listy, Londyn/Rochester, 1958–1984</div>
+        <div class="object-date">18.V.1958 / 22.V.1958 / 17.XI.1968 / 21.XI.1984 &middot; Krzysztof Głuchowski ps. 'Juras'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p17_img01.jpeg" alt="GL-029e_h" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p17_img03.jpeg" alt="GL-029e_h" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">1958: K. Głuchowski do Ambasady Izraela w Londynie o sprzedaży monet z getta. Odpowiedź attaché A. Kidrona kierująca do Yad Vashem. 1968: K. Głuchowski do numizmatyka Herziga w Ohio — pełny inwentarz obiektów. 1984: K.A. Głuchowski (Rochester) oferuje te same obiekty.</div>
+      <div class="significance">26-letnia historia poszukiwania muzealnego miejsca dla artefaktów getta.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">6,000 – 15,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry. DWA LISTY POTWIERDZONE wizualnie (1958).</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum POLIN / Yad Vashem / USHMM — OBOWIĄZKOWO instytucja</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-029p &middot; Artefakty fizyczne — waluta gettowa + talon żywnościowy <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Artefakty getta łódzkiego — kupon pocztowy 10 Pf. + talon na drożdże Nr 6110</div>
+        <div class="object-date">17.IV.1942 &middot; Krzysztof Głuchowski ps. 'Juras'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p17_img02.jpeg" alt="GL-029p" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Kupon pocztowy 10 Pf.: 'GUT FÜR 10 PF. BEI DER POSTABTEILUNG DES AELTESTEN DER JUDEN in Litzmannstadt-Getto, 17. April 1942.' Żółty, ząbkowany. Talon Nr 6110 na 200g drożdży: 'Der Aelteste der Juden in Litzmannstadt — MOLKEREIERZEUGNISSE-ABT.' Niebieski kartonik, 4 odcinki po 50g. Koperta z notatką inwentarzową Włodzimierza Głuchowskiego.</div>
+      <div class="significance">Fizyczne świadectwa Holokaustu z proweniencją rodzinną.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">3,000 – 8,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Kupon: stan bardzo dobry. Talon: stan dobry. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum POLIN / Yad Vashem — OBOWIĄZKOWO instytucja memorialna</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="chapter" id="ch4">
+  <h2>VII. Krzysztof Andrzej Głuchowski (1928–1945) <span style="float:right; font-size:0.6em; color:var(--text-dim);">70,300 – 178,500 PLN</span></h2>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-029x &middot; Dokument tożsamości — Kennkarte GG <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Kennkarte Krzysztofa Andrzeja Głuchowskiego — Warszawa, 9.XI.1943</div>
+        <div class="object-date">9 listopada 1943 &middot; Krzysztof Andrzej Głuchowski ps. 'Jurek'/'Jureń'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p23_img02.jpeg" alt="GL-029x" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p23_img03.jpeg" alt="GL-029x" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Oryginalna karta rozpoznawcza Generalnego Gubernatorstwa, nr 662016. Fotografia chłopca ok. 14–15 lat, odcisk palca, podpis. Pieczęć GG. Zawód: Schüler (uczeń). Adres: ul. Pogonowskiego, Warszawa.</div>
+      <div class="significance">Dokument tożsamości przyszłego żołnierza AK — rok przed Powstaniem.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">2,500 – 6,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum Powstania Warszawskiego</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-029zE &middot; Korespondencja — list ołówkowy z frontu <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">List Krzysztofa do rodziców ze stanowiska bojowego, 26.VIII.1944</div>
+        <div class="object-date">26 sierpnia 1944 (dzień 26. Powstania) &middot; Krzysztof Andrzej Głuchowski ps. 'Jurek'/'Jureń'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p24_img02.jpeg" alt="GL-029zE" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Ołówek na papierze notesowym. 'Kochane Momunia i Tato! Jestem na stanowisku. Dotychczas żyję i jestem niety choć mocno zaziębiony...' Podaje straty jednostki, poległych z imienia. Przekazywany przez łączniczki.</div>
+      <div class="significance">Głos 15-letniego żołnierza z pola walki. Jeden z najbardziej poruszających dokumentów kolekcji.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">5,000 – 15,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry, papier pożółkły. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum Powstania Warszawskiego — BEZWZGLĘDNY PRIORYTET</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-029zF &middot; Korespondencja — odpowiedź rodziny <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Odpowiedź Ciotki Waleski — 24.IX.1944</div>
+        <div class="object-date">24 września 1944 (dzień 55. Powstania) &middot; Krzysztof Andrzej Głuchowski ps. 'Jurek'/'Jureń'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p24_img01.jpeg" alt="GL-029zF" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Papier w kratkę, ołówek. 'Krzysiu! Wszyscy jesteśmy zdrowi. Nasze domy stoją...' Adres na rewersie: 'Pluton 1112 — Krzysztof'.</div>
+      <div class="significance">Korespondencja w OBU KIERUNKACH z Powstania — historyczny fenomen.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">3,000 – 8,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry, papier pożółkły. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum Powstania Warszawskiego</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-029zB &middot; Dokument — przepustka bojowa AK <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Przepustka AK — st. uł. Głuchowski, 29.IX.1944 — 3 dni przed kapitulacją</div>
+        <div class="object-date">29 września 1944 (dzień 60. Powstania) &middot; Krzysztof Andrzej Głuchowski ps. 'Jurek'/'Jureń'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p25_img01.jpeg" alt="GL-029zB" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Przepustka Jednorazowa Specjalna Komendy Warszawskiego Okręgu AK. St. uł. Głuchowski, rozkaz płk. 'Jelenia', Al. Sikorskiego. Ważna do 30.IX.44. Podpis Z-cy Komendanta Okręgu płk. Wachnowskiego. Pieczęć Komendy Okręgu AK Warszawa.</div>
+      <div class="significance">3 DNI przed kapitulacją — walczył do ostatniego rozkazu.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">8,000 – 20,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry, papier kremowy. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum Powstania Warszawskiego — PRIORYTET</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-029zG &middot; Dokumenty jenieckie — Personalkarte + bilet <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Personalkarte + Bilet identyfikacyjny Stalag XI-B — nr 141009</div>
+        <div class="object-date">5.X.1944 — 8.IV.1945 &middot; Krzysztof Andrzej Głuchowski ps. 'Jurek'/'Jureń'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p27_img02.jpeg" alt="GL-029zG" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p27_img01.jpeg" alt="GL-029zG" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Personalkarte: jeniec nr 141009, Stalag XI-B Fallingbostel. Wzięty do niewoli w Warszawie 5.X.1944. Gefreiter, Schüler. Trasa: Fallingbostel → Stalag IIB → Stalag VIF Dorsten. Osoba kontaktowa: Zofia Okuszko, Rzejowice kr. Radomsko. Bilet identyfikacyjny: 'Stalag XI B — 141009', kartonik z perforacją. Rewers: 'Am 8.4.45 — Linden'.</div>
+      <div class="significance">Kompletna dokumentacja niewoli 15-letniego powstańca.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">8,000 – 17,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Personalkarte: stan dobry, przekreślona czerwoną linią (zwolniony). Bilet: stan dostateczny. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum Powstania Warszawskiego / Muzeum Stalagu XI-B</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-W04 &middot; Korespondencja — poczta jeniecka <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Kriegsgefangenenpost — list do ppor. Stanisława Stefana Głuchowskiego w Stalagu XI B</div>
+        <div class="object-date">23.XII.1944 (stempel Radomsko) &middot; Ppor. Stanisław Stefan Głuchowski ps. 'Stefan'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/WhatsApp_07.47.10.jpeg" alt="GL-W04" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Rückantwortbrief (list odpowiedzi) na Kriegsgefangenenpost. Adresowany do: pan Stanisław Stefan Głuchowski. Gefangenennummer: O.-1245. Lager: M.-Stammlager XI B/z, Barak 201/4. Nadawca: Głuchowska Halszka, Jef. Mirau II, pow. Grudziądz, Generalne Gubernatorstwo. Stempel Radomsko 23.12.44.</div>
+      <div class="significance">Poczta jeniecka z Generalnego Gubernatorstwa do Stalagu XI B — dwa Głuchowscy w dwóch obozach jednocześnie (Krzysztof Andrzej nr 141009, Stefan nr O.-1245).</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">2,000 – 5,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry, oryginalne pieczątki. POTWIERDZONE wizualnie (WhatsApp).</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum Powstania Warszawskiego / DESA Unicum</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-S01 &middot; Korespondencja jenieckia — zbiór <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Korespondencja jenieckia — kolekcja Kriegsgefangenenpost</div>
+        <div class="object-date">1944–1945 &middot; Krzysztof Andrzej Głuchowski ps. 'Jurek'/'Jureń'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Seria_29z_p02_img01.jpeg" alt="GL-S01" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Seria_29z_p02_img02.jpeg" alt="GL-S01" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Seria_29z_p04_img01.jpeg" alt="GL-S01" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Seria_29z_p04_img02.jpeg" alt="GL-S01" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Seria_29z_p05_img01.jpeg" alt="GL-S01" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Seria_29z_p06_img02.jpeg" alt="GL-S01" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Seria_29z_p07_img01.jpeg" alt="GL-S01" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Seria_29z_p08_img02.jpeg" alt="GL-S01" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Seria_29z_p10_img01.jpeg" alt="GL-S01" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Seria_29z_p10_img02.jpeg" alt="GL-S01" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Zbiór ~10 kart i listów jenieckich (Kriegsgefangenenpost/Antwort-Postkarte/Rückantwortbrief) między braćmi Krzysztofem (nr 141009, Stalag XI B/Stalag VI Dorsten) i Stefanem (O.1845, Stalag XI B, Barak 201/4), matką Marią z Głowna/Osiny, oraz do gen. Janusza Głuchowskiego w Londynie (Polish War Office, England). Stemple: Radomsko 23.12.44, Głowno 20.II.44, 7.11.44, 04.12.44. Listy pisane po polsku na papierze w kratkę i oficjalnych formularzach jenieckich.</div>
+      <div class="significance">Kompletna korespondencja jenieckia dwóch braci w tym samym obozie + list do ojca-generała w Londynie. Unikalne świadectwo więzi rodzinnych w niewoli.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">8,000 – 20,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan różny — od dobrego (karty pocztowe) do zniszczonego (listy na papierze). POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum Powstania Warszawskiego / Muzeum II Wojny Światowej Gdańsk</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-S02 &middot; Dokument obozowy — karta medyczna <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Personalkarte — karta medyczna jeńca (strona zdrowia)</div>
+        <div class="object-date">1944–1945 &middot; Krzysztof Andrzej Głuchowski ps. 'Jurek'/'Jureń'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Seria_29z_p12_img01.jpeg" alt="GL-S02" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Strona karty zdrowia jeńca: tabela chorób (Art der Krankheit), szczepienia (Schutz- und Heilimpfungen), tabela wagi (Gewichtstabelle). Formularz niemiecki, częściowo wypełniony.</div>
+      <div class="significance">Uzupełnia Personalkarte z Katalogu Naukowego — komplet dokumentów obozowych.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">1,000 – 3,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dostateczny, krawędzie uszkodzone. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum II Wojny Światowej / DESA Unicum</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-S03 &middot; Druk ulotny — propaganda/informacja <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Ulotka wyzwoleńcza — 'Nareszcie... Rodacy...'</div>
+        <div class="object-date">1945 &middot; Krzysztof Andrzej Głuchowski ps. 'Jurek'/'Jureń'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Seria_29z_p20_img01.jpeg" alt="GL-S03" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Drukowana ulotka skierowana do polskich żołnierzy we Francji po wyzwoleniu. Tekst: 'Nareszcie nadeszła radosna chwila... powrotu na łono ukochanej, wielkiej, niepodległej Polskiej Ojczyzny...' Lista Agencji Konsularnych RP we Francji: Bordeaux, Périgueux, Charleville, Nancy, Metz, Limoges, Lille. Instrukcje dla zdemobilizowanych żołnierzy.</div>
+      <div class="significance">Rzadki druk ulotny — świadectwo repatriacji polskich żołnierzy z Francji 1945.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">1,500 – 4,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dostateczny, pożółkły, naderwania. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">DESA Unicum / Muzeum Emigracji Gdynia</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-S04 &middot; Dokument — zaświadczenie AK <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Zaświadczenie o służbie konspiracyjnej ZWZ/AK — Częstochowa</div>
+        <div class="object-date">18.II.1945 &middot; Krzysztof Andrzej Głuchowski ps. 'Jurek'/'Jureń'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Seria_29z_p24_img01.jpeg" alt="GL-S04" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Zaświadczenie dla Głuchowskiego Krzysztofa, ur. 1926, potwierdzające 3-letnią służbę konspiracyjną w rejonie Częstochowy. Pieczęć Komendy Uzupełnień. Podpis Komendanta.</div>
+      <div class="significance">Oficjalne potwierdzenie 3 lat konspiracji — dokument łączący Krzysztofa z ZWZ/AK jeszcze przed Powstaniem.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">3,000 – 8,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum Powstania Warszawskiego / DESA Unicum</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-S05 &middot; Dokument — transport/repatriacja <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Fiche de Transport — repatriacja przez Francję</div>
+        <div class="object-date">29.III.1946 &middot; Krzysztof Andrzej Głuchowski ps. 'Jurek'/'Jureń'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Seria_29z_p25_img01.jpeg" alt="GL-S05" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">République Française, Ministère des Prisonniers, Déportés et Réfugiés. Nr 1492839. Głuchowski Krzysztof. Dokument transportowy do Caserne Jessins. Stempel służby zdrowia.</div>
+      <div class="significance">Dokumentuje drogę Krzysztofa po wyzwoleniu — przez system repatriacji francuski.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">1,000 – 2,500 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry, papier zielonkawy. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">DESA Unicum</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-S06 &middot; Dokument — ambasada/skierowanie <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Ambassade de Pologne à Paris — skierowanie na kurs</div>
+        <div class="object-date">29.VI.1945 &middot; Krzysztof Andrzej Głuchowski ps. 'Jurek'/'Jureń'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Seria_29z_p27_img01.jpeg" alt="GL-S06" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Na papierze firmowym AMBASSADE de POLOGNE à Paris. Pan Głuchowski K. zostaje skierowany na kurs organizowany przez Konsulny Instruktorowe Obozowy, rozpoczynający się 25 lipca w Villard-de-Lans. Podpis A. Irtygowski(?), Konsulny Instruktor Obozowy.</div>
+      <div class="significance">Papier firmowy Ambasady RP w Paryżu — dokumentuje szlak edukacyjny Krzysztofa.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">1,500 – 3,500 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">DESA Unicum / Instytut Sikorskiego Londyn</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-S07 &middot; Dokument — przepustka wojskowa <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Przepustka — Gimnazjum i Liceum 3 D.K., Amandola (2 Korpus, Włochy)</div>
+        <div class="object-date">1945–1946 &middot; Krzysztof Andrzej Głuchowski ps. 'Jurek'/'Jureń'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Seria_29z_p30_img01.jpeg" alt="GL-S07" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Dwujęzyczna przepustka PL/EN. Nr ewid. 1846, Głuchowski Krzysztof. Kwateruje w m. Amandola, zezwolenie na przebywanie poza służbą do godz. 21:59. Komendant: Gimnazjum i Liceum 3 D.K., kpt. Karpica Józef.</div>
+      <div class="significance">Dokumentuje pobyt Krzysztofa w 2 Korpusie Polskim we Włoszech — kontynuacja edukacji po wojnie.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">1,000 – 2,500 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">DESA Unicum / Muzeum Wojska Polskiego</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-S08 &middot; Rękopis — relacja historyczna <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Wypracowania szkolne — relacje z Powstania Warszawskiego</div>
+        <div class="object-date">25.VIII.1945 — 5.VIII.1945 &middot; Krzysztof Andrzej Głuchowski ps. 'Jurek'/'Jureń'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Seria_29z_p32_img01.jpeg" alt="GL-S08" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Seria_29z_p33_img01.jpeg" alt="GL-S08" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Seria_29z_p34_img01.jpeg" alt="GL-S08" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">'Zadanea Włoskie No 1' (25.VIII.45) i kolejne wypracowania (4.VIII.45, 5.VIII.45). St. uł. Krzysztof Głuchowski, Polish Forces C.M.F. 152, Gimnazjum 3 DSC. Pierwszoosobowe relacje z Powstania Warszawskiego — Pluton 1112, 7 P.Uł., obrona Starego Miasta, Czerniaków. Wspomina Armię Krajową, p. Mossakowskiego. Pisane we Włoszech rok po Powstaniu.</div>
+      <div class="significance">BEZCENNE — pierwszoosobowa relacja 17-letniego powstańca pisana rok po wydarzeniach. Źródło historyczne pierwszej kategorii.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">5,000 – 15,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry, czytelny. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum Powstania Warszawskiego / Archiwum Akt Nowych</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-S09 &middot; Dokument — zaświadczenia wojskowe <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">3 zaświadczenia — Hanastedt, Płk. Kłopas Stanisław</div>
+        <div class="object-date">22.VIII.1945 &middot; Krzysztof Andrzej Głuchowski ps. 'Jurek'/'Jureń'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Seria_29z_p35_img01.jpeg" alt="GL-S09" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Trzy zaświadczenia wydane w Hanastedt przez Płk. Kłopasa Stanisława. 1) Nadanie Krzyża Walecznych, AK Nr 29, z dn. 25.9.1944. 2) Potwierdzenie służby AK ps. 'Juras'. 3) Trzecie zaświadczenie z pieczęcią z orłem. Autentyczność potwierdzona podpisem autentycznym.</div>
+      <div class="significance">Oficjalne potwierdzenie Krzyża Walecznych nadanego w Powstaniu + potwierdzenie pseudonimu 'Juras'.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">4,000 – 10,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry, pieczęcie z orłem czytelne. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum Powstania Warszawskiego / DESA Unicum</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-S10 &middot; Dokument — zaświadczenie o udziale w Powstaniu <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Zaświadczenie — Płk. Dypl. Ziemski Karol, Powstanie Warszawskie</div>
+        <div class="object-date">26.X.1946 &middot; Krzysztof Andrzej Głuchowski ps. 'Jurek'/'Jureń'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Seria_29z_p36_img01.jpeg" alt="GL-S10" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Ziemski Karol, Pułkownik Dyplomowany, Dowódca Polskiego Okręgu Wojskowego Schleswig-Holstein. Westorf pod Hamburgiem. Stwierdza, że Głuchowski Krzysztof ps. 'JURAS', ur. 29.XI.1928, uczestnik Powstania Warszawskiego Grupy 'PÓŁNOC', Obrona Starego Miasta, Pluton 1112, awansowany do stopnia starszego strzelca, odznaczony Krzyżem Walecznych w dniu Rozkazu 5.9.1944 — nr 24, Dowódcy Obrony Starego Miasta.</div>
+      <div class="significance">KLUCZOWY DOKUMENT — oficjalne potwierdzenie udziału w Powstaniu przez dowódcę okręgu wojskowego. Łączy: pseudonim, oddział, awans, odznaczenie.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">5,000 – 12,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan bardzo dobry, pieczęć czytelna. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum Powstania Warszawskiego</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-S11 &middot; Dokument — świadectwo szkolne <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Świadectwo Ukończenia Gimnazjum — z fotografią w mundurze</div>
+        <div class="object-date">7.I.1946 &middot; Krzysztof Andrzej Głuchowski ps. 'Jurek'/'Jureń'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Seria_29z_p37_img01.jpeg" alt="GL-S11" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Ministerstwo Wyznań Religijnych i Oświecenia Publicznego, Państwowa Komisja Egzaminacyjna dla Eksternów. Świadectwo Ukończenia Gimnazjum Ogólnokształcącego Nr 13. Krzysztof Andrzej Głuchowski, ur. 29 [XI] 1928, Warszawa. Fotografia portretowa w mundurze wojskowym. Egzamin dojrzałościowy z 1946r.</div>
+      <div class="significance">Świadectwo maturalne z FOTOGRAFIĄ — jedyny dokument z portretem Krzysztofa w mundurze. Dowód na kontynuację edukacji przez PSZ na Zachodzie.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">2,000 – 5,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan bardzo dobry, fotografia zachowana. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">DESA Unicum / Muzeum Wojska Polskiego</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-S12 &middot; Fotografia — architektura <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Fotografie budynków — prawdopodobnie powojenne lokalizacje</div>
+        <div class="object-date">ok. 1945–1950 &middot; Krzysztof Andrzej Głuchowski ps. 'Jurek'/'Jureń'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Seria_29z_p09_img01.jpeg" alt="GL-S12" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">3 fotografie budynków — blok mieszkalny, budynek z ogrodem, willa. Prawdopodobnie lokalizacje powojenne związane z rodziną.</div>
+      <div class="significance">Dokumentacja miejsc zamieszkania — wartość uzupełniająca.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">300 – 800 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Sprzedaż z kolekcją</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-S13 &middot; Korespondencja — list prywatny <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">List powyzwoleńczy na papierze Kaufmannsgehilfenprüfung Gladbach-Rheydt</div>
+        <div class="object-date">22.VIII.1945 &middot; Krzysztof Andrzej Głuchowski ps. 'Jurek'/'Jureń'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Seria_29z_p15_img01.jpeg" alt="GL-S13" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">List pisany po wyzwoleniu na zarekwirowanym papierze firmy Kaufmannsgehilfenprüfung der Industrie- u. Handelskammer Gladbach-Rheydt-Neuss. Tekst w języku polskim, datowany 22.VIII.45.</div>
+      <div class="significance">Świadczy o realiach życia po wyzwoleniu — pisanie na zarekwirowanym niemieckim papierze firmowym.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">500 – 1,200 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dostateczny, wyblakły tekst. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Sprzedaż z kolekcją</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-N04 &middot; Dokument — legitymacja AK + rozkaz <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Rozkaz awansu + Legitymacja AK — Głuchowski Krzysztof 'Juras'</div>
+        <div class="object-date">5.IX.1944 / 8.X.1944 &middot; Krzysztof Andrzej Głuchowski ps. 'Jurek'/'Jureń'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p26_img01.jpeg" alt="GL-N04" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p26_img02.jpeg" alt="GL-N04" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">DWA DOKUMENTY: 1) Wyciąg z Rozkazu D-na Grupy 'Północ' nr 24, z dn. 5.IX.44 — awansowany do stopnia st. ułana i nadany po raz I-szy K.W. Pieczęć AK (orzeł). 2) DOWÓDZTWO ARMII KRAJOWEJ — Legitymacja nr 14112. Oddział: Pluton nr 412, Głuchowski Krzysztof (Juras), ułan, ur. 29.XI.1926. Data wyst.: 8.X.1944. Pieczęć AK + odcisk palca.</div>
+      <div class="significance">KLUCZOWE DOKUMENTY — legitymacja AK z odciskiem palca + rozkaz awansu i KW. Dowód tożsamości powstańca.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">8,000 – 20,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry, pieczęcie czytelne. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum Powstania Warszawskiego</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="chapter" id="ch5">
+  <h2>VIII. Album CWŁ PSZ — Szkocja 1944 <span style="float:right; font-size:0.6em; color:var(--text-dim);">6,000 – 15,000 PLN</span></h2>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-029r &middot; Album fotograficzny — ~35-40 fotografii <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Album pamiątkowy CWŁ PSZ — Centrum Wyszkolenia Łączności, Szkocja</div>
+        <div class="object-date">7.I.1944 / 8.III.1944 &middot; Gen. bryg. Janusz Julian Głuchowski</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p28_img01.jpeg" alt="GL-029r" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Album ofiarowany gen. Głuchowskiemu przez żołnierzy Kompanii Dozorowania CWŁ PSZ w Szkocji. Strona tytułowa kaligrafowana białym atramentem. Dokumentuje dwie wizyty generała. Zawiera: portret, zbiórki, gimnastykę, szkolenie łączności, mecz piłkarski z RAF, herbatkę, wieczór z gitarą.</div>
+      <div class="significance">Codzienność polskiego żołnierza na emigracji — jednocześnie w Warszawie Krzysztof wstępuje do AK. Dwa światy jednej rodziny.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">6,000 – 15,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry. POTWIERDZONE wizualnie (strona z fotografiami).</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum Wojska Polskiego / Instytut Sikorskiego w Londynie</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="chapter" id="ch6">
+  <h2>III. II Rzeczpospolita (1918–1939) / Emigracja <span style="float:right; font-size:0.6em; color:var(--text-dim);">3,000 – 8,000 PLN</span></h2>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-W01 &middot; Dokument tożsamości — rejestracja cudzoziemca (UK) <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Aliens Registration Certificate — gen. Janusz Głuchowski, nr A 274782</div>
+        <div class="object-date">1949–1960 &middot; Gen. bryg. Janusz Julian Głuchowski</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/WhatsApp_07.44.19.jpeg" alt="GL-W01" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/WhatsApp_07.44.37.jpeg" alt="GL-W01" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/WhatsApp_07.44.54.jpeg" alt="GL-W01" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/WhatsApp_07.45.09.jpeg" alt="GL-W01" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Certificate of Registration, Aliens Order 1920, nr A 274782. Głuchowski Janusz, Polish, ur. 6.8.88 Bucharest. Married. Polish Forces Aug 1940, discharged 29/2/49. Pieczątki: Metropolitan Police 1949, Immigration Dover 2.FEB.1951, Beckenham Division 1.AUG.1956. Aliens Order 1960: 'EXEMPT FROM REGISTRATION'.</div>
+      <div class="significance">Kompletna dokumentacja emigracyjna generała — od demobilizacji po zwolnienie z rejestracji.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">3,000 – 8,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry, oprawa oryginalna. POTWIERDZONE wizualnie (WhatsApp).</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">DESA Unicum / Instytut Sikorskiego Londyn</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="chapter" id="ch7">
+  <h2>VI. 7 Pułk Ułanów Lubelskich (1919–1970) <span style="float:right; font-size:0.6em; color:var(--text-dim);">4,700 – 12,100 PLN</span></h2>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-W02 &middot; Dokument — legitymacja odznaczeniowa AK <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Legitymacja Krzyża Armii Krajowej nr 3316 — Krzysztof Głuchowski 'Juras'</div>
+        <div class="object-date">7.III.1968 (Londyn) &middot; Krzysztof Głuchowski ps. 'Juras'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/WhatsApp_07.45.22.jpeg" alt="GL-W02" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/WhatsApp_07.45.35.jpeg" alt="GL-W02" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Legitymacja Krzyża AK nr 3316. Głuchowski Krzysztof ps. 'Juras'. ZWZ Komp.K. Plut. III/2, 7 Pułk Ułanów Lubelskich 'Jeleń'. Ustanowiony 1.VIII.1966 przez gen. Tadeusza Bora-Komorowskiego. Podpis K. Ziemski 'Wachnowski'. Londyn 7.3.68.</div>
+      <div class="significance">Legitymacja AK z podpisem płk. Wachnowskiego — tego samego który podpisywał przepustki Krzysztofowi Andrzejowi w Powstaniu.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">2,000 – 5,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan bardzo dobry. POTWIERDZONE wizualnie (WhatsApp).</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">DESA Unicum / Muzeum Powstania Warszawskiego</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-W03 &middot; Dokument — zaświadczenie weryfikacyjne <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Dokument weryfikacyjny AK — ppor. rez. kaw. Kotakowski Patryk, 7 P.Uł.</div>
+        <div class="object-date">1946 &middot; Krzysztof Głuchowski ps. 'Juras'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/WhatsApp_07.45.56.jpeg" alt="GL-W03" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Dowództwo 2 Korpusu, Komisja Weryfikacyjna AK. Ppor. rez. kaw. 1944 Kotakowski Patryk, ur. 1926. 7 Pułk Ułanów Lubelskich. Podpis J. Uszycki ppłk.</div>
+      <div class="significance">Dokument weryfikacyjny innego żołnierza 7 P.Uł. — uzupełnia obraz jednostki.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">800 – 2,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry. POTWIERDZONE wizualnie (WhatsApp).</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">DESA Unicum</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-T04 &middot; Dokument — zaproszenie oficerskie <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Zaproszenie wielkanocne — Szef Sztabu 7 Pułku Ułanów</div>
+        <div class="object-date">ok. 1925–1935 &middot; Gen. bryg. Janusz Julian Głuchowski</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p12_img01.jpeg" alt="GL-T04" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p12_img02.jpeg" alt="GL-T04" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p12_img03.jpeg" alt="GL-T04" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Od Szefa Sztabu Zapasowego 7 Pułku Ułanów do Majora Głuchowskiego Janusza, D-cy 7-go P. Ułanów. Zaproszenie wielkanocne w imieniu oficerów i szeregowców. Pieczęć: 'Szef Sztabu Zapasowego 7 pułku Ułanów'.</div>
+      <div class="significance">Dokument życia codziennego pułku — potwierdza dowodzenie przez Głuchowskiego.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">800 – 2,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry, pieczęć czytelna. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">DESA Unicum</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-N01 &middot; Druk — tekst pamiątkowy <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Tablica pamiątkowa — tekst o ataku 1.VIII.1944</div>
+        <div class="object-date">ok. 1960–1970 &middot; Rtm. Lech Głuchowski ps. 'Jeżycki'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p04_img01.jpeg" alt="GL-N01" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">'Dnia 1.8.1944 r. godz. 17. z tego domu i okolicznych ruszyło do natarcia na gmach Gestapo i Dom Prasy 5 plutonów ułanów 7 pułku ułanów AK JELEŃ z 187 Powstańców poległo 67. Cześć Ich pamięci.'</div>
+      <div class="significance">Tekst tablicy pamiątkowej z dokładnymi liczbami: 187 walczących, 67 poległych.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">500 – 1,500 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum Powstania Warszawskiego</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-N02 &middot; Druk — zaproszenie kombatanckie <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Zaproszenie na mszę za poległych 'Jelenia' — 1970</div>
+        <div class="object-date">4.X.1970 &middot; Rtm. Lech Głuchowski ps. 'Jeżycki'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p20_img01.jpeg" alt="GL-N02" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Zaproszenie na doroczną mszę św. za poległych żołnierzy pułku AK 'Jeleń' w kościele Św. Anny, 4 października 1970. Po mszy kwiaty na cmentarzu na mogiłe żołnierzy 'Jelenia' poległych na Sadybie. Spotkanie w restauracji 'Rudzki'.</div>
+      <div class="significance">Dokument pamięci kombatanckiej — doroczne spotkanie żołnierzy 'Jelenia' w PRL.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">300 – 800 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum Powstania Warszawskiego / Sprzedaż z kolekcją</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-N03 &middot; Druk — nekrolog <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Nekrolog Jana Lorensa — Koło Żołnierzy 7 P.Uł., Chicago</div>
+        <div class="object-date">29.I.1960 &middot; Gen. bryg. Janusz Julian Głuchowski</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p21_img01.jpeg" alt="GL-N03" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Ś.†P. JAN LORENS, plutonowy 7 pułku ułanowego, czynny członek organizacji niepodległościowych w Chicago, odznaczony Krzyżem Walecznych. Zm. 29 stycznia 1960 w Chicago. KOŁO ŻOŁNIERZY 7 PUŁKU UŁANÓW LUBELSKICH IM. GEN. K. SOSNKOWSKIEGO.</div>
+      <div class="significance">Dokument emigracyjny — Koło 7 P.Uł. działające w Chicago.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">300 – 800 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Sprzedaż z kolekcją</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="chapter" id="ch8">
+  <h2>IX. Materiały biograficzne <span style="float:right; font-size:0.6em; color:var(--text-dim);">2,300 – 6,500 PLN</span></h2>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-W05 &middot; Fotografia — portret rodzinny <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Zdjęcie rodzinne Głuchowskich — ok. 1916–1920</div>
+        <div class="object-date">ok. 1916–1920 &middot; Marian Głuchowski</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/WhatsApp_07.46.11.jpeg" alt="GL-W05" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Grupowe zdjęcie rodzinne: ~10 osób, w tym oficer w mundurze WW1-era, kobiety, dzieci, harcerz. Prawdopodobnie rodzina Głuchowskich.</div>
+      <div class="significance">Portret rodziny, z której wyszli generał, żołnierze AK i powstańcy.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">800 – 2,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry, oryginalna odbitka na kartonie. POTWIERDZONE wizualnie (WhatsApp).</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Sprzedaż z kolekcją</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-W06 &middot; Dokumenty — maszynopisy biograficzne <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">3 biografie rodzinne — Krzysztof, Lech, Stefan Głuchowscy (Rio de Janeiro, 1995)</div>
+        <div class="object-date">18 października 1995 &middot; Krzysztof Głuchowski ps. 'Juras'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/WhatsApp_07.46.34.jpeg" alt="GL-W06" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/WhatsApp_07.46.45.jpeg" alt="GL-W06" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/WhatsApp_07.46.57.jpeg" alt="GL-W06" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Trzy pełne biografie pisane przez Krzysztofa Głuchowskiego w Rio de Janeiro: 1) Krzysztof Głuchowski ps. 'Juras' — syn Stanisława Stefana, ZWZ/AK, emigracja do Brazylii. 2) Rtm. Lech Głuchowski ps. 'Hżycki' — 7 P.Uł., Powstanie, Mokotów, Wilanów. 3) Ppor. Stanisław Stefan Głuchowski ps. 'Stefan' — POW, Kancelaria Naczelnika Państwa, WSOP Żoliborz, Pawiak, Auschwitz, Powązki. Każda bio zawiera listę publikacji i odwołanie do BN Zbiór Rękopisów nr 13853.</div>
+      <div class="significance">Kluczowe źródło proweniencji i historii rodziny. Odwołanie do Biblioteki Narodowej (Zbiór Rękopisów 13853).</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">1,000 – 3,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry, maszynopis. POTWIERDZONE wizualnie (WhatsApp).</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Sprzedaż z kolekcją — dokumentacja proweniencji</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-W07 &middot; Rękopis — tekst odręczny <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Rękopis — wspomnienia/pamiętnik</div>
+        <div class="object-date">Nieznana &middot; Krzysztof Głuchowski ps. 'Juras'</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/WhatsApp_07.47.20.jpeg" alt="GL-W07" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">Gęsty tekst odręczny w języku polskim — prawdopodobnie wspomnienia lub pamiętnik jednego z członków rodziny Głuchowskich.</div>
+      <div class="significance">Wymaga transkrypcji — potencjalnie cenne źródło historyczne.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">500 – 1,500 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dostateczny, trudny do odczytania. POTWIERDZONE wizualnie (WhatsApp).</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Sprzedaż z kolekcją</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="chapter" id="ch9">
+  <h2>I. Korzenie — PON (1905–1914) <span style="float:right; font-size:0.6em; color:var(--text-dim);">13,000 – 33,000 PLN</span></h2>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-T01 &middot; Dokument — legitymacja organizacyjna <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Legitymacja PON Nr 2 — Marjan Głuchowski (ORYGINAŁ)</div>
+        <div class="object-date">1914 &middot; Marian Głuchowski</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p02_img01.jpeg" alt="GL-T01" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p02_img02.jpeg" alt="GL-T01" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p02_img03.jpeg" alt="GL-T01" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">POLNISCHE NATIONALE ORGANISATION — LEGITIMATION Nr 2. Wystawiona na Marjan Głuchowski, 1867. Pieczęć Organisations-Komission. Podpis. Dwujęzyczna (polsko-niemiecka). Numer 2 oznacza jednego z pierwszych uwierzytelnionych działaczy PON.</div>
+      <div class="significance">KLUCZOWY DOKUMENT PON — legitymacja nr 2 to jeden z najwcześniejszych zachowanych dokumentów Polskiej Organizacji Narodowej. Dokument założycielski.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">10,000 – 25,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry, pieczęć czytelna. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum Piłsudskiego Sulejówek / DESA Unicum</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="object-card verified">
+    <div class="object-header">
+      <div>
+        <div class="object-id">GL-T06 &middot; Dokument — pokwitowanie finansowe <span class="badge badge-verified">ZWERYFIKOWANE</span></div>
+        <div class="object-title">Pokwitowanie PON — Polska Organizacya Narodowa</div>
+        <div class="object-date">1914 &middot; Marian Głuchowski</div>
+      </div>
+    </div>
+    <div class="photos-row">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p03_img01.jpeg" alt="GL-T06" onclick="openLightbox(this.src)" loading="lazy">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p03_img02.jpeg" alt="GL-T06" onclick="openLightbox(this.src)" loading="lazy">
+    </div>
+    <div class="object-body">
+      <div class="desc">POLSKA ORGANIZACYA NARODOWA — POKWITOWANIE na odbiór 200 kop. Pieczęć PON, podpis Komisarza P.O.N., Oficer Wojsk Polskich.</div>
+      <div class="significance">Dokument finansowy PON — potwierdza działalność organizacyjną i zbiórkę funduszy.</div>
+      <div class="object-meta">
+        <div class="meta-item"><span class="meta-label">Wycena:</span> <span class="price">3,000 – 8,000 PLN</span></div>
+        <div class="meta-item"><span class="meta-label">Stan:</span> Stan dobry. POTWIERDZONE wizualnie.</div>
+        <div class="meta-item"><span class="meta-label">Cel sprzedaży:</span> <span class="target">Muzeum Piłsudskiego Sulejówek / DESA Unicum</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="summary">
+  <h2>Podsumowanie wyceny</h2>
+  <table>
+    <tr><th>Kategoria</th><th>Pozycji</th><th>Minimum</th><th>Maksimum</th></tr>
+    <tr><td>II. Siódemka Beliny i Legiony (1913–1925)</td><td>3</td><td>38,000 PLN</td><td>98,000 PLN</td></tr>
+    <tr><td>III. II Rzeczpospolita (1918–1939)</td><td>8</td><td>32,800 PLN</td><td>83,500 PLN</td></tr>
+    <tr><td>IV. Kazimierz Sosnkowski (1913–1964)</td><td>1</td><td>12,000 PLN</td><td>28,000 PLN</td></tr>
+    <tr><td>V. Getto Łódzkie (1942–1984)</td><td>2</td><td>9,000 PLN</td><td>23,000 PLN</td></tr>
+    <tr><td>VII. Krzysztof Andrzej Głuchowski (1928–1945)</td><td>20</td><td>70,300 PLN</td><td>178,500 PLN</td></tr>
+    <tr><td>VIII. Album CWŁ PSZ — Szkocja 1944</td><td>1</td><td>6,000 PLN</td><td>15,000 PLN</td></tr>
+    <tr><td>III. II Rzeczpospolita (1918–1939) / Emigracja</td><td>1</td><td>3,000 PLN</td><td>8,000 PLN</td></tr>
+    <tr><td>VI. 7 Pułk Ułanów Lubelskich (1919–1970)</td><td>6</td><td>4,700 PLN</td><td>12,100 PLN</td></tr>
+    <tr><td>IX. Materiały biograficzne</td><td>3</td><td>2,300 PLN</td><td>6,500 PLN</td></tr>
+    <tr><td>I. Korzenie — PON (1905–1914)</td><td>2</td><td>13,000 PLN</td><td>33,000 PLN</td></tr>
+    <tr style="font-weight:bold; border-top:2px solid var(--gold-dim);">
+      <td>SUMA POZYCJI</td><td>47</td>
+      <td>191,100 PLN</td><td>485,600 PLN</td>
+    </tr>
+    <tr style="color:var(--gold);">
+      <td colspan="2">PREMIA ZA KOLEKCJĘ (spójność narracyjna)</td>
+      <td>+95,550 PLN</td><td>+388,480 PLN</td>
+    </tr>
+    <tr style="font-weight:bold; font-size:1.15em; color:var(--gold);">
+      <td colspan="2">ŁĄCZNA WARTOŚĆ KOLEKCJI</td>
+      <td>286,650 PLN</td><td>874,080 PLN</td>
+    </tr>
+  </table>
+</div>
+
+<div class="auction-note">
+  <h3>Historia aukcyjna — Acervo Raro Leilões, Brazylia</h3>
+  <p>Większość obiektów nie sprzedała się — brazylijskie aukcje nie są właściwym rynkiem dla polskich militariów. Właściwym rynkiem jest Polska (DESA Unicum, WCN, OneBid) i instytucje muzealne.</p>
+  <p style="margin-top:8px;"><strong>Sprzedane:</strong> 14 lotów z 48 &middot;
+  <strong>Niesprzedane:</strong> 34 lotów</p>
+</div>
+
+<div class="summary" style="margin-top:30px;">
+  <h2>Rekomendacje sprzedaży</h2>
+  <table>
+    <tr><th>Instytucja</th><th>Rozdziały</th><th>Dlaczego</th></tr>
+    <tr>
+      <td style="color:var(--gold);">Muzeum Józefa Piłsudskiego w Sulejówku</td>
+      <td>II, III</td>
+      <td>Dyplom Krzyża Legionowego z podpisem Piłsudskiego, listy Piłsudskiej, dekrety — rdzeń kolekcji</td>
+    </tr>
+    <tr>
+      <td style="color:var(--gold);">Muzeum Powstania Warszawskiego</td>
+      <td>VII</td>
+      <td>Kompletna historia 15-letniego powstańca: Kennkarte → legitymacja AK → listy → przepustki → Stalag</td>
+    </tr>
+    <tr>
+      <td style="color:var(--gold);">Muzeum Wojska Polskiego</td>
+      <td>III, VIII</td>
+      <td>Legitymacja oficerska generała, album CWŁ PSZ, medale</td>
+    </tr>
+    <tr>
+      <td style="color:var(--gold);">Muzeum POLIN / Yad Vashem</td>
+      <td>V</td>
+      <td>Artefakty getta łódzkiego + 26-letnia korespondencja o ich losie — OBOWIĄZKOWO instytucja</td>
+    </tr>
+    <tr>
+      <td style="color:var(--gold);">DESA Unicum</td>
+      <td>I, IV, VI</td>
+      <td>Dokumenty PON, Sosnkowski, 7 P.Uł. — wolny rynek kolekcjonerski</td>
+    </tr>
+    <tr>
+      <td style="color:var(--gold);">Sprzedaż kolekcji w całości</td>
+      <td>WSZYSTKIE</td>
+      <td>Najwyższa wartość — wzajemne uwierzytelnianie dokumentów, ciągłość narracyjna 4 pokoleń</td>
+    </tr>
+  </table>
+</div>
+
+<div class="footer">
+  <p>Archiwum Rodziny Głuchowskich &middot; Katalog opracowany marzec 2026</p>
+  <p>Wyceny mają charakter orientacyjny i wymagają weryfikacji przez certyfikowanego rzeczoznawcę.</p>
+  <p style="margin-top:8px;">Na podstawie: skanów dokumentów, fotografii WhatsApp, CSV z aukcji Acervo Raro Leilões,<br>
+  biografii rodzinnych (Krzysztof Głuchowski, Rio de Janeiro 1995)</p>
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="">
+</div>
+
+<script>
+let rotation = 0;
+function openLightbox(src) {
+  rotation = 0;
+  const lb = document.getElementById('lightbox');
+  const img = document.getElementById('lightbox-img');
+  img.src = src;
+  img.style.transform = 'rotate(0deg)';
+  lb.classList.add('active');
+}
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('active');
+}
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeLightbox();
+  if (e.key === 'r' || e.key === 'R') {
+    rotation = (rotation + 90) % 360;
+    document.getElementById('lightbox-img').style.transform = 'rotate(' + rotation + 'deg)';
+  }
+});
+</script>
+
+</body>
+</html>
