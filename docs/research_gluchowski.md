@@ -245,7 +245,80 @@ BRONISŁAW Zembrzuski + JADWIGA
 - [Lech Głuchowski — biogram](https://www.1944.pl/powstancze-biogramy/lech-gluchowski,14206.html)
 - [Włodzimierz Głuchowski — biogram](https://www.1944.pl/powstancze-biogramy/wlodzimierz-gluchowski,14213.html)
 - [Krzysztof Głuchowski — Archiwum Historii Mówionej](https://www.1944.pl/archiwum-historii-mowionej/krzysztof-gluchowski,1889.html)
-- **Relacja z ojcem:** Janusz miał 38 lat gdy urodził się Krzysztof — typowe dla oficerów
+### DODATKOWE ODKRYCIA (z web search, 67 zapytan):
+
+**PATRIARCHA — Marian Głuchowski:**
+- Ur. 1862, Sycanów (region sieradzki)
+- Pełne imię: Marian Nepomucen Głuchowski, herbu Prus II (Wilczekosy)
+- Zm. 20 czerwca 1924, Warszawa, pochowany Powązki
+- Żona: Maria z Ziółkowskich
+- Zawód: aktywista PPS, "pracownik w radach; naczelnik wydziału"
+- Majątek: Bukowa (powiat piotrkowski/bełchatowski)
+- Ojciec Mariana: Jan Nepomucen Erazm Głuchowski (ok. 1791-po 1840)
+- Źródło: [sejm-wielki.pl](http://www.sejm-wielki.pl/b/psb.6811.1), PSB tom 8 str. 134
+
+**BRONISŁAW Głuchowski — ojciec Wandy (aptekarz-patriota):**
+- Ur. ok. 1863, Wola Blakowa (chrzczony: Lgota Wielka)
+- Herbu Prus II (Wilczekosy) — TEN SAM herb co Marian!
+- Ojciec: Jan Nepomucen Głuchowski, matka: Emilia Potocka h. Szeliga
+- Żona: Jadwiga z Zembrzuskich (ślub 1899 Warszawa, par. św. Andrzeja)
+- Apteka "Pod Słońcem" w Łodzi (ul. Dzielna/Narutowicza 6) — od 1895
+- Fabryka wód mineralnych i leków
+- Nagrody na wystawach w Antwerpii i Londynie!
+- Inicjator I Zjazdu Aptekarzy Królestwa Polskiego w Łodzi
+- Dom używany na tajne zebrania polityczne, kolportaż wydawnictw patriotycznych
+- Źródło: [sejm-wielki.pl](https://www.sejm-wielki.pl/b/sw.737951), [Aptekarz Polski](https://archiwum.aptekarzpolski.pl/historia-farmacji/)
+
+**WANDA = z domu GŁUCHOWSKA — MAŁŻEŃSTWO KUZYNOSKIE!**
+Bronisław i Marian to prawdopodobnie BRACIA lub bliscy kuzyni (obaj herbu Prus II, obaj z regionu piotrkowskiego/łódzkiego). Ich dzieci (Stefan i Wanda) pobrali się w 1924!
+
+**HERB RODZINY: Prus II (Wilczekosy)**
+- Stara rodzina mazowiecka, posiadłości w ziemi chełmińskiej od czasów krzyżackich
+- Nazwa od majątku Głuchów/Glauchen
+- Podpisywali elekcje królewskie 1697 (ziemia dobrzyńska)
+- Legitymowani w Królestwie Polskim 1836-1862
+- Źródło: [szlachta.com.pl](https://archiwum.szlachta.com.pl/pl/p/Gluchowski-herbu-Radwan/341)
+
+**JANUSZ = TWÓRCA 7 PUŁKU UŁANÓW LUBELSKICH:**
+- Utworzył pułk w Lublinie i Kraśniku w LISTOPADZIE 1918
+- Pierwszy dowódca (XI.1918 – VII.1920)
+- Patron: Gen. Sosnkowski (od 4.III.1920, oficjalnie 31.XII.1937)
+- Garnizony pokojowe: Mińsk Mazowiecki
+- Dlatego CAŁA RODZINA walczyła w tym pułku — to był PUŁK JANUSZA!
+
+**JANUSZ — żona: Maria Bukowska**
+
+**DYWIZJON "JELEŃ" — STRATY:**
+- Rozpoczął Powstanie z 233 żołnierzami
+- **125 zabitych, 98 rannych** — 96% strat!
+
+**NUMERY KRZYŻY AK (KOLEJNE!):**
+- Wanda: #3719
+- Stefan: #3720
+- Włodzimierz: #3722
+- (Wniosek rodzinny, złożony razem)
+
+**KRZYSZTOF — szczegóły z Archiwum Historii Mówionej:**
+- Dorastał przy ŁAZIENKACH KRÓLEWSKICH (ojciec miał mieszkanie służbowe)
+- Przysięga podziemna: 11 maja 1942 (miał 15 lat!)
+- Rysował powiększone schematy broni i mapy (w tym mapę kwatery Gestapo na Al. Szucha)
+- Zbierał wywiad o oficerze Gestapo "Kempf"
+- Ewakuował 400 granatów pod ogniem z fabryki Kamlera!
+
+**GROBY NA POWĄZKACH:**
+- Marian Głuchowski — Powązki (zm. 1924)
+- Stefan Głuchowski — Powązki (zm. 1962)
+- Wanda Głuchowska — Powązki, kw. 99-IV-19 (zm. 1976)
+- Lech Głuchowski — Powązki, kw. 99-I-27 (zm. 1944)
+
+**Źródła dodatkowe:**
+- [IPN Biogramy: Janusz Głuchowski](https://biogramy.ipn.gov.pl/bio/wszystkie-biogramy/111338)
+- [Fundacja 100: Janusz Głuchowski](https://fundacja100.pl/krzyz-i-medal-niepodleglosci/lista-odznaczonych/janusz-julian-gluchowski)
+- [7 Pułk Ułanów — Wikipedia](https://pl.wikipedia.org/wiki/7_Pu%C5%82k_U%C5%82an%C3%B3w_Lubelskich)
+- [Muzeum Ziemi Mińskiej — 7 Pułk](https://mzm-minskmaz.pl/7-pulk-ulanow-lubelskich/)
+- [Apteki w Powstaniu](https://mgr.farm/opinie/apteki-w-powstaniu-warszawskim-czesc-ii/)
+- [Włodzimierz — numizmatyk](https://www.portalnumizmatyczny.pl/2021/12/wodzimierz-guchowski-znany-aptekarz-i.html)
+- [AAN — Kancelaria Cywilna](https://www.aan.gov.pl/a,9,kancelaria-cywilna-naczelnika-panstwa-w-warszawie-1918-1922-1923-23)
 
 ### 3 DSK — Struktura (ZWERYFIKOWANA):
 - **Dowódca:** gen. bryg. Bronisław Duch (od 6 VIII 1943)
