@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dywizjon Jelen — regularne wojsko w Powstaniu Warszawskim</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root { --bg:#0a0a0a; --surface:#141414; --border:#252525; --text:#dddad5; --text-dim:#7a7a7a; --gold:#c9a84c; --red:#c0392b; --blue:#3498db; }
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:var(--bg); color:var(--text); font-family:'EB Garamond',serif; line-height:1.9; }
+.top-nav { position:sticky; top:0; z-index:100; background:rgba(10,10,10,.95); backdrop-filter:blur(12px); border-bottom:1px solid var(--border); padding:10px 20px; display:flex; justify-content:space-between; align-items:center; }
+.top-nav a { color:var(--text-dim); text-decoration:none; font-family:'Inter',sans-serif; font-size:.8em; }
+.top-nav a:hover { color:var(--gold); }
+article { max-width:720px; margin:0 auto; padding:60px 24px 80px; }
+.article-header { text-align:center; margin-bottom:50px; padding-bottom:40px; border-bottom:1px solid var(--border); }
+.article-journal { font-family:'Inter',sans-serif; font-size:.72em; letter-spacing:.15em; text-transform:uppercase; color:var(--gold); }
+.article-title { font-size:clamp(1.5em,4vw,2.3em); font-weight:700; margin:16px 0 12px; line-height:1.25; }
+.article-subtitle { font-size:1.12em; font-style:italic; color:var(--text-dim); margin-bottom:20px; }
+.article-author { font-family:'Inter',sans-serif; font-size:.85em; color:var(--text-dim); }
+.article-meta { font-family:'Inter',sans-serif; font-size:.75em; color:var(--text-dim); margin-top:8px; }
+h2 { font-size:1.4em; color:var(--gold); margin:40px 0 16px; font-weight:600; }
+h3 { font-size:1.15em; color:var(--text); margin:28px 0 12px; font-weight:600; }
+p { margin-bottom:1.3em; font-size:1.08em; text-align:justify; hyphens:auto; }
+p.abstract { border-left:3px solid var(--gold); padding:16px 20px; margin:24px 0 36px; background:rgba(201,168,76,.06); font-style:italic; font-size:1em; }
+p.keywords { font-family:'Inter',sans-serif; font-size:.82em; color:var(--text-dim); margin-bottom:36px; }
+blockquote { border-left:3px solid var(--border); padding:12px 20px; margin:20px 0; font-style:italic; color:var(--text-dim); font-size:1em; }
+blockquote .source { display:block; font-style:normal; font-size:.85em; margin-top:6px; }
+table { width:100%; border-collapse:collapse; margin:20px 0 28px; font-size:.92em; }
+th { text-align:left; padding:10px 12px; border-bottom:2px solid var(--gold); color:var(--gold); font-family:'Inter',sans-serif; font-size:.82em; letter-spacing:.05em; text-transform:uppercase; }
+td { padding:8px 12px; border-bottom:1px solid var(--border); }
+td.red { color:var(--red); font-weight:600; }
+tr:hover td { background:rgba(201,168,76,.04); }
+sup { color:var(--gold); font-size:.8em; }
+.footnote-ref { font-size:.82em; vertical-align:super; color:var(--gold); text-decoration:none; }
+.footnotes { margin-top:50px; padding-top:30px; border-top:1px solid var(--border); }
+.footnotes h2 { font-size:1.1em; margin-bottom:16px; }
+.footnotes ol { padding-left:20px; }
+.footnotes li { font-size:.88em; color:var(--text-dim); margin-bottom:8px; line-height:1.6; }
+.bibliography { margin-top:50px; padding-top:30px; border-top:1px solid var(--border); }
+.bibliography h2 { font-size:1.1em; margin-bottom:16px; }
+.bib-entry { font-size:.9em; margin-bottom:6px; padding-left:24px; text-indent:-24px; }
+.bib-section { margin-bottom:20px; }
+.bib-section h3 { font-size:.95em; color:var(--text-dim); margin-bottom:8px; font-family:'Inter',sans-serif; }
+.highlight-box { background:var(--surface); border:1px solid var(--gold); border-radius:10px; padding:24px; margin:28px 0; }
+.highlight-box h3 { color:var(--gold); margin-bottom:12px; font-size:1.1em; }
+.stat-row { display:grid; grid-template-columns:repeat(auto-fit,minmax(130px,1fr)); gap:16px; margin:20px 0; }
+.stat { text-align:center; padding:16px; background:var(--surface); border:1px solid var(--border); border-radius:8px; }
+.stat .num { font-family:'Inter',sans-serif; font-size:2em; color:var(--gold); font-weight:700; }
+.stat .num.red { color:var(--red); }
+.stat .label { font-family:'Inter',sans-serif; font-size:.7em; color:var(--text-dim); text-transform:uppercase; letter-spacing:.08em; margin-top:4px; }
+@media (max-width:600px) { article { padding:40px 16px; } p { font-size:1em; } .stat-row { grid-template-columns:repeat(2,1fr); } }
+</style>
+</head>
+<body>
+
+<nav class="top-nav">
+  <a href="transkrypcja_demo.html">&larr; Katalog dokumentow</a>
+  <a href="artykul_chlopiec_powstaniec.html">&larr; Art. 2: Chlopiec-powstaniec</a>
+</nav>
+
+<article>
+
+<div class="article-header">
+  <div class="article-journal">Przeglad Historyczno-Wojskowy &middot; Artykul badawczy</div>
+  <h1 class="article-title">Dywizjon &bdquo;Jelen&rdquo;: regularne wojsko polskie w Powstaniu Warszawskim</h1>
+  <div class="article-subtitle">7 Pulk Ulanow Lubelskich AK — od stworzenia przez generala Gluchowskiego (1918) do zaglady na Sadybie (1944). Trzy pokolenia jednej rodziny w jednym pulku. Dekonstrukcja mitu o &bdquo;cywilach i dzieciach&rdquo;.</div>
+  <div class="article-author">Opracowanie badawcze, 2026</div>
+  <div class="article-meta">Zrodla: ARG (123 dok.), 1944.pl, Wikipedia PL, Kurier Lubelski, jednostki-wojskowe.pl, AHM MPW sygn. 1889</div>
+</div>
+
+<p class="abstract">
+<strong>Abstrakt:</strong> W potocznej pamieci Powstanie Warszawskie 1944 funkcjonuje jako zryw cywilny — walka mieszkancow i dzieci z gloymi rekami przeciw czolgom. Niniejszy artykul, oparty na kolekcji 123 dokumentow archiwalnych rodziny Gluchowskich oraz relacji Archiwum Historii Mowionej, prezentuje zasadniczo odmienny obraz: udzial <strong>odtworzonego podziemnie regularnego pulku kawalerii polskiej</strong> — 7 Pulku Ulanow Lubelskich AK (kryptonim &bdquo;Jelen&rdquo;), jednostki ze stuletnia tradycja, dowodzonej przez zawodowych oficerow-weteranow z 1920 roku. Pulk zostal stworzony w 1918 roku przez rotmistrza Janusza Gluchowskiego (pozniejszego generala dywizji); w 1944 dowodzil nim rotmistrz Lech Gluchowski (brat Janusza); walczyl w nim siedemnastoletni Krzysztof Gluchowski (syn trzeciego brata, Stefana). Z 233 zolnierzy Dywizjonu polowglo 125, a 98 zostalo rannych — straty wyniosly <strong>95,7%</strong>. Dowodca, rotmistrz Lech Gluchowski, odebral sobie zycie na Sadybie, gdy został ciezko ranny i odmowil narazania zolnierzy na ewakuacje pod ogniem. Artykul analizuje zjawisko podziemnej odbudowy przedwojennych pulkow w Armii Krajowej i poddaje krytyce mit &bdquo;powstania cywilnego&rdquo;.
+</p>
+
+<p class="keywords"><strong>Slowa kluczowe:</strong> 7 Pulk Ulanow Lubelskich, Dywizjon Jelen, Armia Krajowa, Powstanie Warszawskie, Lech Gluchowski, regularne wojsko, kawaleria polska, Sadyba, Siodemka Beliny, odbudowa pododdzialow</p>
+
+<!-- ============================================ -->
+<h2>1. Mit i rzeczywistosc</h2>
+
+<p class="lead" style="font-size:1.2em;font-weight:500;text-align:left;">W zbiorowej pamieci Powstanie Warszawskie to zryw cywilny: mlodzi ludzie z opaskami i pistoletami przeciw czolgom. Ten obraz nie jest falszywy — ale jest <strong>tragicznie niepelny</strong>.</p>
+
+<p>Armia Krajowa w Warszawie wystawila w dniu 1 sierpnia 1944 roku od 40 000 do 50 000 zolnierzy. Tylko okolo 10% z nich bylo uzbrojonych w momencie godziny &bdquo;W&rdquo;. Ale to nie byli amatorzy. Wsrod nich byly <strong>odtworzone podziemnie przedwojenne pulki regularnego Wojska Polskiego</strong> — z zawodowymi oficerami, weteranami kampanii 1939 roku, a czesto nawet wojny 1920. Jednym z nich byl 7 Pulk Ulanow Lubelskich, dzialajacy pod kryptonimem &bdquo;Jelen&rdquo;.<a class="footnote-ref" href="#fn1">1</a></p>
+
+<p>Mit o &bdquo;cywilach i dzieciach&rdquo; ma kilka zrodel. <strong>Propaganda niemiecka</strong> przedstawiala Powstanie jako akcje &bdquo;bandytow&rdquo;, aby uzasadnic represje wobec ludnosci cywilnej. <strong>Propaganda radziecka i komunistyczna</strong> dyskredytowala AK jako organizacje lojalna wobec rzadu londynskiego, a nie Moskwy — negowanie jej charakteru wojskowego sluzilo politycznym celom PRL. Wreszcie, <strong>widoczna obecnosc bardzo mlodych zolnierzy</strong> (wielu w wieku 15-20 lat) utrwalila obraz &bdquo;dzieci na barykadach&rdquo; — choc ci sami &bdquo;chlopcy&rdquo; czesto mieli za soba lata szkolenia konspiracyjnego.<a class="footnote-ref" href="#fn2">2</a></p>
+
+<p>Historia Dywizjonu &bdquo;Jelen&rdquo; obala ten mit w sposob dosadny: pulk z tradycjami siegajacymi 1918 roku, z oficerami z wojny 1920, z regularna struktura dowodzenia — <strong>i 95,7% strat</strong>. To nie byli amatorzy z pistoletami. To bylo regularne wojsko polskie, ktore zginelo prawie w calosci.</p>
+
+<div class="stat-row">
+  <div class="stat"><div class="num">233</div><div class="label">zolnierzy<br>1.VIII.1944</div></div>
+  <div class="stat"><div class="num red">125</div><div class="label">zabitych</div></div>
+  <div class="stat"><div class="num red">98</div><div class="label">rannych</div></div>
+  <div class="stat"><div class="num red">95,7%</div><div class="label">strat</div></div>
+</div>
+
+<!-- ============================================ -->
+<h2>2. Geneza: noc z 31 pazdziernika na 1 listopada 1918</h2>
+
+<p>7 Pulk Ulanow Lubelskich powstal dokladnie w momencie narodzin niepodleglej Polski. W nocy z <strong>31 pazdziernika na 1 listopada 1918 roku</strong> pododzzialy pod dowodztwem <strong>rotmistrza Janusza Gluchowskiego</strong> — bylego legionisty z Siodemki Beliny, zastepcy dowodcy pierwszego polskiego patrolu konnego od Powstania Styczniowego — zajely koszary austriackich ulanow w Lublinie. 30 grudnia 1918 jednostke oficjalnie przemianowano na <strong>7 Pulk Ulanow Lubelskich</strong>.<a class="footnote-ref" href="#fn3">3</a></p>
+
+<p>Janusz Gluchowski — wowczas major — dowodzil pulkiem w zwycieskich bitwach wojny polsko-bolszewickiej 1920 roku. 29 maja 1920 zostal zatwierdzony w stopniu pulkownika. Dowodzil pulkiem do lipca 1920, gdy objal dowodzstwo I Brygady Kawalerii.</p>
+
+<p>W okresie miedzywojennym pulk stacjonowal w <strong>Minsku Mazowieckim</strong>, wchodzac w sklad Mazowieckiej Brygady Kawalerii. Nazwa &bdquo;lubelski&rdquo; odnosila sie do miejsca powstania, a <strong>jelen</strong> w herbie — do tradycji regionu.</p>
+
+<div class="highlight-box">
+<h3>Trzy pokolenia Gluchowskich w jednym pulku</h3>
+<table>
+<thead><tr><th>Pokolenie</th><th>Osoba</th><th>Rola w pulku</th><th>Okres</th></tr></thead>
+<tbody>
+<tr><td>I</td><td><strong>Rtm./Plk Janusz Gluchowski</strong></td><td>TWORCA i pierwszy dowodca</td><td>1918&ndash;1920</td></tr>
+<tr><td>II</td><td><strong>Rtm. Lech Gluchowski &bdquo;Jezycki&rdquo;</strong></td><td>Dowodca I Dywizjonu AK &bdquo;Jelen&rdquo;</td><td>1939&ndash;1944</td></tr>
+<tr><td>III</td><td><strong>St. ul. Krzysztof Gluchowski &bdquo;Juras&rdquo;</strong></td><td>Zolnierz plutonu 1112, ochrona KG AK</td><td>1943&ndash;1944</td></tr>
+</tbody>
+</table>
+<p style="font-size:.9em;color:var(--text-dim);margin-top:12px;">Dziadek tworca &rarr; wuj dowodca &rarr; bratanek zolnierz. Trzy pokolenia, jeden pulk, jedno Powstanie.</p>
+</div>
+
+<!-- ============================================ -->
+<h2>3. Kampania wrzesniowa 1939</h2>
+
+<p>We wrzesniu 1939 7 Pulk Ulanow Lubelskich walczyl w skladzie <strong>Mazowieckiej Brygady Kawalerii</strong>, Armii &bdquo;Modlin&rdquo;. Lech Gluchowski sluzyl w 4. szwadronie. Pulk stooczyl <strong>bitwe pod Suchowola</strong>, nastepnie wycofywal sie w kierunku Warszawy. Rozwiazany 9 pazdziernika 1939 — ale <strong>nie w duszach zolnierzy</strong>.<a class="footnote-ref" href="#fn4">4</a></p>
+
+<p>Wielu oficerów i szeregowych pozostalo w Warszawie. Wsrod nich Lech Gluchowski, ktory natychmiast wlaczyl sie w struktury konspiracyjne Zwiazku Walki Zbrojnej (ZWZ), a pozniej Armii Krajowej.</p>
+
+<!-- ============================================ -->
+<h2>4. Odbudowa podziemna: pulk pod kryptonimem &bdquo;Jelen&rdquo;</h2>
+
+<p>Armia Krajowa nie byla partyzantka. Byla <strong>kontynuacja legalnego Wojska Polskiego</strong>, podlegla Naczelnemu Wodzowi (gen. Sosnkowski, potem gen. Bor-Komorowski) i Rzadowi RP na Uchodzstwie w Londynie. Zasada organizacyjna byla jasna: przedwojenne okregi wojskowe stawaly sie podziemnymi okregami, a przedwojenne pulki odtwarzano z zachowaniem numeracji, tradycji i — tam gdzie to mozliwe — kadr.<a class="footnote-ref" href="#fn5">5</a></p>
+
+<p>7 Pulk Ulanow Lubelskich zostal odtworzony podziemnie pod kryptonimem <strong>&bdquo;Jelen&rdquo;</strong>. Lech Gluchowski, weteran 1920 i 1939, zostal zastepca dowodcy, a <strong>17 lipca 1944</strong> — dwa tygodnie przed Powstaniem — objal dowodzstwo I Dywizjonu Warszawskiego i calego pulku.</p>
+
+<p>Struktura w przededniu Powstania:</p>
+
+<table>
+<thead><tr><th>Szczebel</th><th>Dowodca</th><th>Pseudonim</th><th>Podleglosc</th></tr></thead>
+<tbody>
+<tr><td>Pulk (krypt. &bdquo;Jelen&rdquo;)</td><td>Rtm. Lech Gluchowski</td><td>&bdquo;Jezycki&rdquo;</td><td>Obwod Srodmiescie &bdquo;Radwan&rdquo;</td></tr>
+<tr><td>I Dywizjon Warszawski</td><td>Rtm. Lech Gluchowski</td><td>&bdquo;Jezycki&rdquo;</td><td>j.w.</td></tr>
+<tr><td>Pluton 1112</td><td>Por. Jerzy Kamler</td><td>&bdquo;Stolarz&rdquo;</td><td>Ochrona KG AK</td></tr>
+</tbody>
+</table>
+
+<p>Pluton 1112, w ktorym sluzyl Krzysztof Gluchowski, pelnil szczegolna role: byl <strong>oddzialem ochronnym Komendy Glownej AK</strong> — strzegel generala Bora-Komorowskiego i Delegata Rzadu. To oznacza, ze jeden z plutonow odtworzonego pulku kawalerii pelnil najwazniejsza funkcje ochronna calego Powstania.<a class="footnote-ref" href="#fn6">6</a></p>
+
+<!-- ============================================ -->
+<h2>5. Powstanie: od Alei Szucha do Sadyby</h2>
+
+<p><strong>1 sierpnia 1944.</strong> Godzina &bdquo;W&rdquo;. I Dywizjon &bdquo;Jelen&rdquo; pod dowodztwem rotmistrza Lecha Gluchowskiego rusza do natarcia na <strong>Aleje Szucha</strong> — siedzibe Gestapo. To jeden z najtrudniejszych celow w calym Powstaniu: silnie umocniony, z betonowymi schronami, bunkrami i stalym garnizonem.</p>
+
+<p>Natarcie konczy sie krwawa porazka. Dywizjon zostaje rozproszony. Czesc zolnierzy przebija sie na <strong>Mokotow</strong>, czesc trafia do walk w innych dzielnicach. Pluton 1112 — ten Krzysztofa — pozostaje przy Komendzie Glownej na Woli (Fabryka Kamlera), nastepnie przechodzi na Starowke i do Srodmiescia.</p>
+
+<p><strong>21 sierpnia.</strong> Lech Gluchowski obejmuje dowodzstwo rejonu <strong>Sadyby</strong> — poludniowej czesci Mokotowa. Dywizjon &bdquo;Jelen&rdquo; staje sie kregoslupem obrony tego sektora.</p>
+
+<p><strong>15 wrzesnia 1944, ulica Dolna.</strong> Rotmistrz Lech Gluchowski zostaje ciezko ranny. Dalsze prowadzenie walki jest niemozliwe. Ewakuacja wymagalaby narazenia zolnierzy na ogien wroga. Lech podejmuje decyzje:</p>
+
+<blockquote>&bdquo;Nie chciac narazac swoich zolnierzy na ewakuacje pod ogniem, odebral sobie zycie.&rdquo;
+<span class="source">Biogram powstanczy, 1944.pl (14206)</span>
+</blockquote>
+
+<p>Wspoltowarzysze broni okreslili jego smierc jako <strong>bohaterskie poswiecenie, nie akt rozpaczy</strong>. Lech Gluchowski mial czterdziesci dwa lata. Byl weteranem trzech wojen. Odznaczony posmiertnie <strong>Virtuti Militari V klasy</strong>.</p>
+
+<!-- ============================================ -->
+<h2>6. Bilans zaglady</h2>
+
+<p>Straty Dywizjonu &bdquo;Jelen&rdquo; nalezaly do najwyzszych w calym Powstaniu Warszawskim:</p>
+
+<table>
+<thead><tr><th>Kategoria</th><th>Liczba</th><th>Procent</th></tr></thead>
+<tbody>
+<tr><td>Stan poczatkowy (1.VIII.1944)</td><td>233</td><td>100%</td></tr>
+<tr><td class="red">Zabici</td><td class="red">125</td><td class="red">53,6%</td></tr>
+<tr><td class="red">Ranni</td><td class="red">98</td><td class="red">42,1%</td></tr>
+<tr><td><strong>Lacznie straty</strong></td><td class="red"><strong>223</strong></td><td class="red"><strong>95,7%</strong></td></tr>
+<tr><td>Nieobjeci stratami</td><td>~10</td><td>~4,3%</td></tr>
+</tbody>
+</table>
+
+<p>Dla porownania: srednie straty piechotyamerykamskiej w najciezszych bitwach II wojny swiatowej (Hurtgen Forest, Okinawa) wynosily 30-50%. Straty Dywizjonu &bdquo;Jelen&rdquo; byly <strong>dwukrotnie wyzsze</strong> niz w najkrwawszych bitwach frontu zachodniego.</p>
+
+<p>Z 233 zolnierzy, ktorzy 1 sierpnia stali w szyku, <strong>przezylo zaledwie okolo dziesieciu</strong> bez ran. Caly pulk praktycznie przestał istnieec.</p>
+
+<!-- ============================================ -->
+<h2>7. Pluton Gluchoniemych: zapomniani obroncysasiedzi</h2>
+
+<p>W kontekscie walk Dywizjonu &bdquo;Jelen&rdquo; w rejonie Srodmiescia Poludniowego warto wspomniec o jeszcze jednej zapomnianej jednostce. W <strong>Instytucie Gluchoniemych</strong> przy placu Trzech Krzyzy — budynku, ktory w relacji mowionej Krzysztofa Gluchowskiego pojawia sie jako punkt kontaktowy konspiracji (&bdquo;Spotkam cie pod zegarem Instytutu Gluchoniemych&rdquo;) — walczyl <strong>Pluton Gluchoniemych</strong>: okolo 29 nieslyszacych zolnierzy AK.<a class="footnote-ref" href="#fn7">7</a></p>
+
+<p>Ich pierwsza akcja polegala na zdobyciu <strong>Soldatenheim</strong> (Domu Zolnierza) mieszczacego sie w Gimnazjum Krolowej Jadwigi przy placu Trzech Krzyzy. Nastepnie pelnilidwarty w poblizuych budynkach, w tym w kinie &bdquo;Napoleon&rdquo;. Walczyli razem ze sluszacymi kolegami, porozumiewajac sie jezykiem migowym pod ogniem.</p>
+
+<p>26 pazdziernika 1944 Niemcy podpalili budynek Instytutu.</p>
+
+<!-- ============================================ -->
+<h2>8. Odbudowa pulkow w AK: skala zjawiska</h2>
+
+<p>7 Pulk Ulanow Lubelskich nie byl wyjatkiem. Armia Krajowa systematycznie odtwarzala przedwojenne jednostki Wojska Polskiego w konspiracji. W Powstaniu Warszawskim walczyly miedzy innymi:<a class="footnote-ref" href="#fn8">8</a></p>
+
+<table>
+<thead><tr><th>Typ jednostki</th><th>Przyklady</th><th>Charakter</th></tr></thead>
+<tbody>
+<tr><td>Pulki piechoty</td><td>36 pp, 72 pp i in.</td><td>Regularna piechota</td></tr>
+<tr><td>Pulki kawalerii (piesze)</td><td>7 P.Ul.Lub. (&bdquo;Jelen&rdquo;) i in.</td><td>Kawaleria walczaca pieszo</td></tr>
+<tr><td>Bataliony szturmowe Kedywu</td><td>&bdquo;Zoska&rdquo;, &bdquo;Parasol&rdquo;, &bdquo;Miotla&rdquo;</td><td>Elitarna dywersja (czesto opisywani jako &bdquo;harcerze&rdquo;, w rzeczywistosci komandosi)</td></tr>
+<tr><td>Zgrupowania</td><td>&bdquo;Radoslaw&rdquo;, &bdquo;Krybar&rdquo;, &bdquo;Baszta&rdquo;</td><td>Grupy taktyczne laczace kilka batalionow</td></tr>
+<tr><td>Jednostki lacznosci</td><td>Centralka Telefoniczna</td><td>Profesjonalna lacznosc, podsluch niemiecki</td></tr>
+</tbody>
+</table>
+
+<p>Kadra oficerska AK obejmowala <strong>tysiace zawodowych oficerów</strong> przedwojennego Wojska Polskiego — absolwentow akademii wojskowych, weteranow kampanii 1939 i nawet wojny 1920 roku. Podziemne Szkoly Podchorazych AK szkolily nowych oficerow wedlug regulaminow przedwojennych.</p>
+
+<p>Powstanie Warszawskie nie bylo wiec &bdquo;zrywem cywilnym&rdquo;. Bylo operacja wojskowa prowadzona przez <strong>odtworzone podziemnie regularne Wojsko Polskie</strong>, podlegle legalnemu rzadowi RP, z profesjonalna struktura dowodzenia — ktore ponioslo katastrofalne straty w nierównej walce z Wehrmachtem, SS i policja.</p>
+
+<!-- ============================================ -->
+<h2>9. Dlaczego zapomniano?</h2>
+
+<p>Pytanie, dlaczego Dywizjon &bdquo;Jelen&rdquo; — i szerzej, wojskowy charakter AK w Powstaniu — zostal zapomniany, ma kilka odpowiedzi:</p>
+
+<p><strong>Po pierwsze</strong>, dowodca Lech Gluchowski zginal. Nie bylo komu opowiadac historii pulku po wojnie.</p>
+
+<p><strong>Po drugie</strong>, ojciec Stefana Krzysztofa — drugi wazny zolnierz pulku — wrocil do PRL w 1947 roku. W komunistycznej Polsce opowiadanie o sluzbie w AK bylo niebezpieczne. Wanda Gluchowska byla aresztowana przez UB. Historia rodziny zostala <strong>celowo wyciszona</strong>.</p>
+
+<p><strong>Po trzecie</strong>, Krzysztof — jedyny ocalaly mlody zolnierz rodziny — wyjechalddo Brazylii. Z Rio de Janeiro opowiadac o lubelskich ulanach bylo daleko.</p>
+
+<p><strong>Po czwarte</strong>, narracja PRL o Powstaniu celowo podkreslala &bdquo;tragizm&rdquo; i &bdquo;bezsensownosc&rdquo; zrywu, a nie jego <strong>wojskowy profesjonalizm</strong>. Przyznanie, ze AK walczylo jako regularne wojsko, podwazaloby komunistyczna teze o &bdquo;awanturniczej akcji reakcyjnych oficerow&rdquo;.</p>
+
+<p>Dopiero kolekcja dokumentow rodzinnych — 123 jednostki archiwalne, od dekretow Naczelnika Panstwa po biogramy pisane w Rio — pozwala zrekonstruowac <strong>pelna historie trzech pokolen jednej rodziny w jednym pulku</strong>: dziadek tworca, wuj dowodca, bratanek zolnierz.</p>
+
+<!-- ============================================ -->
+<h2>10. Wnioski</h2>
+
+<p>Przypadek Dywizjonu &bdquo;Jelen&rdquo; ilustruje zjawisko kluczowe dla historiografii Powstania Warszawskiego i szerzej — polskiej historii wojskowej XX wieku:</p>
+
+<p><strong>Armia Krajowa nie byla partyzantka.</strong> Byla podziemnym Wojskiem Polskim, z regularnymi pulkami, zawodowymi oficerami i struktura dowodzenia siegajaca Naczelnego Wodza w Londynie.</p>
+
+<p><strong>Odbudowa pulkow w konspiracji</strong> — zachowanie numeracji, tradycji, kadry — swiadczy o niezwyklej sile instytucjonalnej polskiego panstwa podziemnego.</p>
+
+<p><strong>Straty 95,7%</strong> jednego dywizjonu pokazuja, ze Powstanie nie bylo improwizacja, lecz regularna bitwa — z regularnymi stratami, przewyzszajacymi najkrwawsze bitwy frontu zachodniego.</p>
+
+<p><strong>Trzy pokolenia Gluchowskich</strong> w jednym pulku — od jego stworzenia w 1918 do zaglady w 1944 — to mikrohistoria, ktora w 123 dokumentach archiwalnych opowiada cala historie polskiej kawalerii, polskiej niepodleglosci i polskiej tragedii.</p>
+
+<p>Zapomnieli o nich, bo Lech sie zabil, Stefan wrocil do PRL-u, a Krzysztof uciekl do Brazylii. My ich odnalezlismy.</p>
+
+<!-- ============================================ -->
+<div class="footnotes">
+<h2>Przypisy</h2>
+<ol>
+<li id="fn1">O strukturze AK w Warszawie i odtwarzaniu przedwojennych pulkow zob. Fundacja Polskiego Panstwa Podziemnego, "Okreg Warszawa Armii Krajowej" (fundacja-ppp.pl).</li>
+<li id="fn2">O zrodlach mitu "cywilnego" charakteru Powstania zob. J. Kirchmayer, <em>Powstanie Warszawskie</em>; A. Borkiewicz, <em>Powstanie Warszawskie 1944: Zarys dzialan natury wojskowej</em>.</li>
+<li id="fn3">Wikipedia PL, haslo "7 Pulk Ulanow Lubelskich"; Kurier Lubelski, "Dzieje 7 Pulku Ulanow Lubelskich im. Gen. Kazimierza Sosnkowskiego" (art. 234825). Zob. takze Muzeum Ziemi Minskiej, dzial 7 P.Ul.Lub.</li>
+<li id="fn4">Biogram powstanczy Lecha Gluchowskiego: 1944.pl/powstancze-biogramy/lech-gluchowski,14206.html.</li>
+<li id="fn5">O zasadzie ciaglosci prawnej PSP zob. Fundacja PPP, op. cit.; Wikipedia PL, hasla "Armia Krajowa", "Polskie Panstwo Podziemne".</li>
+<li id="fn6">Biogram Krzysztofa Gluchowskiego: 1944.pl/powstancze-biogramy/krzysztof-gluchowski,14205.html. AHM MPW sygn. 1889.</li>
+<li id="fn7">O Plutonie Gluchoniemych zob. Aleteia.org, "Pluton Gluchoniemych, ktory walczyl w Powstaniu Warszawskim" (2018). Instytut Gluchoniemych, strona historyczna.</li>
+<li id="fn8">O jednostkach AK w Powstaniu zob. A. Borkiewicz, op. cit.; Wikipedia PL, haslo "Powstanie Warszawskie — sily".</li>
+</ol>
+</div>
+
+<div class="bibliography">
+<h2>Bibliografia</h2>
+<div class="bib-section">
+<h3>Zrodla archiwalne</h3>
+<div class="bib-entry">Archiwum Rodziny Gluchowskich (ARG), kolekcja prywatna, 123 j.a. W szczegolnosci: ARG/Stefan/020 (biogram Lecha "Uciech"), ARG/Stefan/023 (zaswiadczenie AK nr 2856), ARG/Stefan/031 (karta 7 Pulku).</div>
+<div class="bib-entry">Muzeum Powstania Warszawskiego, AHM sygn. 1889: Krzysztof Gluchowski (31.VII.2009).</div>
+</div>
+<div class="bib-section">
+<h3>Biogramy (1944.pl)</h3>
+<div class="bib-entry">Lech Gluchowski (14206), Krzysztof Gluchowski (14205), Stanislaw Gluchowski (14209).</div>
+</div>
+<div class="bib-section">
+<h3>Opracowania</h3>
+<div class="bib-entry">Borkiewicz A., <em>Powstanie Warszawskie 1944: Zarys dzialan natury wojskowej</em>, Warszawa 1957.</div>
+<div class="bib-entry">Kirchmayer J., <em>Powstanie Warszawskie</em>, Warszawa 1959.</div>
+<div class="bib-entry">Bartoszewski W., <em>Dni walczacej Stolicy</em>, Warszawa 1984.</div>
+<div class="bib-entry"><em>Zarys historji wojennej 7-go pulku ulanow lubelskich</em>, Wielkopolska Biblioteka Cyfrowa (wbc.poznan.pl).</div>
+<div class="bib-entry">Kurier Lubelski, "Dzieje 7 Pulku Ulanow Lubelskich im. Gen. Kazimierza Sosnkowskiego" (art. 234825).</div>
+<div class="bib-entry">jednostki-wojskowe.pl, "7 Dywizjon Ulanow Lubelskich".</div>
+<div class="bib-entry">Aleteia.org, "Pluton Gluchoniemych, ktory walczyl w Powstaniu Warszawskim" (2.VIII.2018).</div>
+<div class="bib-entry">IPN, "100 Bohaterow: Janusz Gluchowski" (art. 104516).</div>
+</div>
+</div>
+
+</article>
+
+<div style="text-align:center; padding:40px 24px 60px; border-top:1px solid var(--border); font-family:'Inter',sans-serif; font-size:.8em; color:var(--text-dim);">
+  <a href="transkrypcja_demo.html" style="color:var(--gold);text-decoration:none;">Katalog dokumentow</a> &middot;
+  <a href="biografia_gluchowskich.html" style="color:var(--gold);text-decoration:none;">Biografia rodziny</a> &middot;
+  <a href="artykul_piec_losow.html" style="color:var(--gold);text-decoration:none;">Art. 1: Piec losow</a> &middot;
+  <a href="artykul_chlopiec_powstaniec.html" style="color:var(--gold);text-decoration:none;">Art. 2: Chlopiec-powstaniec</a>
+</div>
+
+</body>
+</html>
