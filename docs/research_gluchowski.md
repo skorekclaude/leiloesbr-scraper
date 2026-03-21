@@ -141,7 +141,7 @@ Gen. Władysław Bortnowski, **Gen. Janusz Głuchowski**, Ludwik Piskor, Wacław
 - 1926: urodziła Krzysztofa
 - 1939: apteka rodzinna w Łodzi, potem Warszawa, Krucza 28
 - XII.1939: komórka wywiadu ZWZ jako łączniczka
-- 1942: oddział dywersyjny "Dysk" (Dywersja i Sabotaż Kobiet!), podchorążówka, sekcyjna
+- 1942: oddział dywersyjny **"DYSK" (Dywersja i Sabotaż Kobiet)** — jedyny kobiecy oddział specjalny Kedywu, 11-80 kobiet! Podchorążówka, sekcyjna
 - **18.XI.1942: wysadzenie toru kolejowego pod Jedlnią!**
 - **26.IX.1943: akcja "Wilanów" — CIĘŻKO RANNA! 30% inwalidztwa**
 - 11.XI.1943: Krzyż Walecznych (za Wilanów)
@@ -160,19 +160,33 @@ Gen. Władysław Bortnowski, **Gen. Janusz Głuchowski**, Ludwik Piskor, Wacław
 - **Stopień:** starszy ułan (awans VIII.1944)
 - **Nr jeniecki:** 141009 (Stalag XI-B Fallingbostel)
 
-**SZLAK BOJOWY (17-LETNI CHŁOPIEC!):**
+**SZLAK BOJOWY (17-LETNI CHŁOPIEC!) — DZIEŃ PO DNIU:**
 - VI.1939: ukończył Szkołę Rodziny Wojskowej, zdał do Korpusu Kadetów nr 1 we Lwowie
 - Okupacja: szkoły zawodowe + tajne Gimnazjum im. Górskiego (IV klasa)
-- **VIII.1941: żołnierz ZWZ/AK — miał 14 lat!**
+- **VIII.1941: żołnierz ZWZ/AK — miał 14 lat!** Zwerbowany przez Julka Klepacza
+- Zadania: obserwacja gestapowca Kempfa (Żurawia 2), rysowanie map i schematów, powiększanie zdjęć
 - Kompania Kadecka, potem (od IX.1943) pluton 1112 przy 7 Pułku Ułanów Lubelskich AK, dywizjon "Jeleń"
 - 26-27.IX.1943: uczestnik akcji "Wilanów" (razem z matką!)
-- **POWSTANIE WARSZAWSKIE:** Wola → Stare Miasto → Śródmieście
-  - Obrona fabryki Kamlera (siedziba Komendy Głównej AK!)
+- **POWSTANIE WARSZAWSKIE — CHRONOLOGIA:**
+  - **31.VII:** wychodzi z domu do Fabryki Kamlera (Dzielna 72)
+  - **1.VIII:** Obrona Fabryki Kamlera (siedziba KG AK!). Transportuje granaty "filipinki" z pięter pod ogniem. Widzi gen. Pełczyńskiego
+  - **6.VIII:** Ewakuacja z Woli przez mur getta pod ogniem z Pawiaka na Starówkę
+  - **6-13.VIII:** Szkoła na Barokowej, rozpoznanie ku Senatorskiej
+  - **13.VIII:** Kpt. Kamler ginie od pocisku na pl. Krasińskich. Pogrzeb na barykadzie przy Katedrze
+  - **VIII-IX:** Barykady na Kanonii, obrona od strony Zamku Królewskiego
   - **WARTOWNIK GEN. BORA-KOMOROWSKIEGO!**
-  - Pałac Krasińskich na Starym Mieście
-  - Strażnik Kwatery Głównej Okręgu w kinie "Palladium"
+  - **1.IX.1944:** EWAKUACJA KANAŁAMI ze Starówki do Śródmieścia (~4500 powstańców)
+  - **IX.1944:** Strażnik Kwatery Głównej Okręgu w kinie "Palladium"
+  - **29.IX.1944:** Otrzymuje "specjalną przepustkę jednorazową" na przejście Al. Sikorskiego
+  - **~29.IX-2.X:** SCHWYTANY przez Niemców (~3 dni przed kapitulacją!)
+  - **2.X.1944:** Kapitulacja Powstania
+  - **7.X.1944:** Transport w bydlęcych wagonach do Stalagu XI-B Fallingbostel
 - **Niewola:** Stalag XI-B Fallingbostel (ten sam obóz co ojciec!), nr 141009
-- Arbeitskommando München-Gladbach
+- Arbeitskommando Mönchengladbach (praca w fabryce, 10h dziennie)
+- **16.IV.1945:** Wyzwolenie Stalagu XI-B przez Brytyjczyków (B Squadron 11th Hussars)
+- Droga przez Holandię → Belgię → Francję do Włoch → 2 Korpus
+
+**OJCIEC I SYN W TYM SAMYM OKRĘGU:** Po ewakuacji kanałami 1.IX, Krzysztof był w Śródmieściu — tym samym okręgu gdzie Stefan służył w kwatermistrzostwie. Przez ostatni miesiąc Powstania mogli być blisko siebie!
 
 **PO WOJNIE:**
 - 2 Korpus Andersa we Włoszech
@@ -223,6 +237,8 @@ Gen. Władysław Bortnowski, **Gen. Janusz Głuchowski**, Ludwik Piskor, Wacław
 
 **Odznaczenia:** Virtuti Militari V klasy, Krzyż Walecznych, Złoty Krzyż Zasługi z Mieczami, Krzyż AK
 
+**STRATY DYWIZJONU "JELEŃ":** Z 233 żołnierzy 1.VIII.1944 — **125 zabitych, 98 rannych = 95,7% strat!**
+
 ### 3e. ppor. Włodzimierz Głuchowski ps. "Tomaszewski" — BRAT WANDY
 - **Ur.:** 7 lipca 1904, Łódź
 - **Zm.:** 1977, Łódź
@@ -259,7 +275,28 @@ BRONISŁAW Zembrzuski + JADWIGA
 - [Lech Głuchowski — biogram](https://www.1944.pl/powstancze-biogramy/lech-gluchowski,14206.html)
 - [Włodzimierz Głuchowski — biogram](https://www.1944.pl/powstancze-biogramy/wlodzimierz-gluchowski,14213.html)
 - [Krzysztof Głuchowski — Archiwum Historii Mówionej](https://www.1944.pl/archiwum-historii-mowionej/krzysztof-gluchowski,1889.html)
-### DODATKOWE ODKRYCIA (z web search, 67 zapytan):
+- [Jerzy Głuchowski — biogram](https://www.1944.pl/powstancze-biogramy/jerzy-gluchowski,14203.html)
+
+### 3f. CHŁOPCY-POWSTAŃCY — KONTEKST STATYSTYCZNY (Krzysztof na tle rówieśników)
+
+| Wiek | Liczba żołnierzy (z 550 policzonych w Lamsdorf 18.X.1944) |
+|------|-----------------------------------------------------------|
+| 11 lat | 2 |
+| 12 lat | 6 |
+| 13 lat | 9 |
+| 14 lat | 48 |
+| 15 lat | 115 |
+| **16 lat** | **175** |
+
+- Ponad **1100 chłopców w wieku 11-18** wśród ~16 000 powstańców, którzy złożyli broń
+- 206 (37%) awansowanych do wyższych stopni (do ppor.)
+- 3 otrzymali Virtuti Militari, 18 Krzyż Walecznych
+- **Jerzy Bartnik "Magik"** (14 lat) — najmłodszy VM, trafił do tego samego Stalagu XI-B co Krzysztof!
+- Po wyzwoleniu: drogi przez Holandię/Belgię/Francję do Włoch i 2 Korpusu
+
+**Źródła:** [SPPW1944: Mali powstańcy](https://www.sppw1944.org/powstanie/mlodzi_powstancy.html), [Przystanek Historia](https://przystanekhistoria.pl/pa2/tematy/powstanie-warszawskie/108579)
+
+### DODATKOWE ODKRYCIA (z web search, 67 zapytań):
 
 **PATRIARCHA — Marian Głuchowski:**
 - Ur. 1862, Sycanów (region sieradzki)
