@@ -2744,7 +2744,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/121",
-        "photo": "juras_055_page56.png",
+        "photo": "juras_055_page56.jpeg",
         "tytul": "Legitymacja Odznaki Pamiątkowej AK — okładka z Kotwicą PW na tarczy",
         "data": "1946",
         "typ": "leg",
@@ -2759,7 +2759,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/122",
-        "photo": "juras_056_page57.png",
+        "photo": "juras_056_page57.jpeg",
         "tytul": "Legitymacja Odznaki Pamiątkowej AK — wewnątrz: St.Uł. Głuchowski Krzysztof, ps. JURAS, Nr 4042",
         "data": "12.VI.1946",
         "typ": "leg",
@@ -2776,7 +2776,7 @@ OBJECTS = [
     # -- Podseria V/AA: Certyfikaty PKPR --
     {
         "sygn": "ARG/V/123",
-        "photo": "juras_057_page58.png",
+        "photo": "juras_057_page58.jpeg",
         "tytul": "Certificate P.R.C. Record Office — Witley Camp, 19.II.1948",
         "data": "19.II.1948",
         "typ": "certyfikat",
@@ -2791,7 +2791,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/124",
-        "photo": "juras_058_page59.png",
+        "photo": "juras_058_page59.jpeg",
         "tytul": "Certificate P.R.C. — duplikat (19.II.1948)",
         "data": "19.II.1948",
         "typ": "certyfikat",
@@ -2806,7 +2806,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/125",
-        "photo": "juras_059_page60.png",
+        "photo": "juras_059_page60.jpeg",
         "tytul": "Certificate P.R.C. Record Office — nr 3023271, 3.III.1948",
         "data": "3.III.1948",
         "typ": "certyfikat",
@@ -2821,7 +2821,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/126",
-        "photo": "juras_060_page61.png",
+        "photo": "juras_060_page61.jpeg",
         "tytul": "Certificate P.R.C. — kolejna kopia (19.II.1948)",
         "data": "19.II.1948",
         "typ": "certyfikat",
@@ -2853,7 +2853,7 @@ OBJECTS = [
     # -- Podseria V/AB: Przepustki (duplikaty) --
     {
         "sygn": "ARG/V/128",
-        "photo": "juras_062_page63.png",
+        "photo": "juras_062_page63.jpeg",
         "tytul": "Przepustka Army Form B.295 — pieczęć PUŁK UŁANÓW LUBELSKICH",
         "data": "1946–1948",
         "typ": "przepustka",
@@ -2868,7 +2868,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/129",
-        "photo": "juras_063_page64.png",
+        "photo": "juras_063_page64.jpeg",
         "tytul": "Instrukcja medyczna ATS — verso przepustki, nr PRSC 2785",
         "data": "1946–1948",
         "typ": "ulotka",
