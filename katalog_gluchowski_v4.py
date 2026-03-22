@@ -3169,7 +3169,7 @@ OBJECTS = [
     # -- Podseria V/AJ: Korespondencja z instytucjami --
     {
         "sygn": "ARG/V/148",
-        "photo": "juras_082_page83.png",
+        "photo": "juras_082_page83.jpeg",
         "tytul": "Aerogram do gen. Bora-Komorowskiego — HQ Polish Forces, ENGLAND",
         "data": "lata 40.–50. XX w.",
         "typ": "aerogram",
@@ -3184,7 +3184,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/149",
-        "photo": "juras_083_page84.png",
+        "photo": "juras_083_page84.jpeg",
         "tytul": "Treść aerogramu — list nr 563, historia Pułku 1112, Polish Institute",
         "data": "lata 40.–50. XX w.",
         "typ": "aerogram",
@@ -3199,7 +3199,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/150",
-        "photo": "juras_084_page85.png",
+        "photo": "juras_084_page85.jpeg",
         "tytul": "Pismo z Polish Institute and Sikorski Museum — potwierdzenie otrzymania dokumentów",
         "data": "lata 50.–60. XX w.",
         "typ": "pismo urzędowe",
@@ -3216,7 +3216,7 @@ OBJECTS = [
     # -- Podseria V/AK: Wspomnienia rękopiśmienne --
     {
         "sygn": "ARG/V/151",
-        "photo": "juras_085_page86.png",
+        "photo": "juras_085_page86.jpeg",
         "tytul": "Wspomnienia rękopiśmienne — str. 1 (stosunki polsko-żydowskie)",
         "data": "lata 50.–60. XX w.",
         "typ": "wspomnienia",
@@ -3231,7 +3231,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/152",
-        "photo": "juras_086_page87.png",
+        "photo": "juras_086_page87.jpeg",
         "tytul": "Wspomnienia — str. 2 (przedwojenny Kraków, 1918)",
         "data": "lata 50.–60. XX w.",
         "typ": "wspomnienia",
@@ -3246,7 +3246,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/153",
-        "photo": "juras_087_page88.png",
+        "photo": "juras_087_page88.jpeg",
         "tytul": "Wspomnienia — str. 3 (Bahia/Salvador 1949-50, emigracja do Brazylii)",
         "data": "lata 50.–60. XX w.",
         "typ": "wspomnienia",
@@ -3261,7 +3261,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/154",
-        "photo": "juras_088_page89.png",
+        "photo": "juras_088_page89.jpeg",
         "tytul": "Wspomnienia — str. 4 (warunki emigrantów, 3500 robotników)",
         "data": "lata 50.–60. XX w.",
         "typ": "wspomnienia",
@@ -3276,7 +3276,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/155",
-        "photo": "juras_089_page90.png",
+        "photo": "juras_089_page90.jpeg",
         "tytul": "Wspomnienia — str. 5 (alianci, radio, organizacje polonijne)",
         "data": "lata 50.–60. XX w.",
         "typ": "wspomnienia",
@@ -3291,7 +3291,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/156",
-        "photo": "juras_090_page91.png",
+        "photo": "juras_090_page91.jpeg",
         "tytul": "Wspomnienia — str. 5 (zakończenie): o polskości na emigracji, filozofii życia i odpowiedzialności",
         "data": "lata 50.–60. XX w.",
         "typ": "wspomnienia",
