@@ -46,6 +46,10 @@ p.abstract {
   border-left:3px solid var(--gold); padding:16px 20px; margin:24px 0 36px;
   background:rgba(201,168,76,.06); font-style:italic; font-size:1em;
 }
+p.abstract-en {
+  border-left:3px solid var(--border); padding:16px 20px; margin:0 0 36px;
+  background:rgba(255,255,255,.02); font-style:italic; font-size:.95em; color:var(--text-dim);
+}
 p.keywords { font-family:'Inter',sans-serif; font-size:.82em; color:var(--text-dim); margin-bottom:36px; }
 
 /* FOOTNOTES */
@@ -58,14 +62,14 @@ sup:hover { text-decoration:underline; }
 .footnotes h2 { font-size:1.1em; margin-bottom:16px; }
 .footnotes ol { padding-left:20px; }
 .footnotes li {
-  font-size:.88em; color:var(--text-dim); margin-bottom:8px; line-height:1.6;
+  font-size:.88em; color:var(--text-dim); margin-bottom:10px; line-height:1.6;
 }
 .footnotes li em { color:var(--text); }
 
 /* TABLE */
 table { width:100%; border-collapse:collapse; margin:20px 0 28px; font-size:.92em; }
 th { text-align:left; padding:10px 12px; border-bottom:2px solid var(--gold); color:var(--gold); font-family:'Inter',sans-serif; font-size:.82em; letter-spacing:.05em; text-transform:uppercase; }
-td { padding:8px 12px; border-bottom:1px solid var(--border); }
+td { padding:8px 12px; border-bottom:1px solid var(--border); vertical-align:top; }
 tr:hover td { background:rgba(201,168,76,.04); }
 
 /* BIBLIOGRAPHY */
@@ -92,6 +96,11 @@ blockquote .source { display:block; font-style:normal; font-size:.85em; color:va
 .diagram-box { flex:1; background:rgba(201,168,76,.06); border:1px solid var(--border); border-radius:6px; padding:14px; }
 .diagram-box strong { color:var(--gold); display:block; margin-bottom:4px; }
 .diagram-arrow { text-align:center; color:var(--gold); font-size:1.4em; margin:8px 0; }
+
+/* INVENTORY TABLE */
+.inv-category-a td:first-child::before { content:"A "; color:var(--text-dim); font-weight:600; }
+.inv-category-b td:first-child::before { content:"B "; color:var(--gold); font-weight:600; }
+.inv-category-c td:first-child::before { content:"C "; color:var(--red); font-weight:600; }
 
 @media (max-width:600px) {
   article { padding:40px 16px; }
@@ -144,233 +153,284 @@ blockquote .source { display:block; font-style:normal; font-size:.85em; color:va
 <div class="article-header">
   <div class="article-journal">Teki Archiwalne &middot; Artyku&lstrok; archiwoznawczy</div>
   <h1 class="article-title">Od Si&oacute;demki Beliny do Instytutu Pi&lstrok;sudskiego: genera&lstrok; Janusz G&lstrok;uchowski i dwa archiwa jednego &zdot;ycia</h1>
-  <div class="article-subtitle">Por&oacute;wnanie kolekcji prywatnej ARG (217 jednostek) z Zespo&lstrok;em 70 Instytutu Pi&lstrok;sudskiego w Londynie jako studium komplementarno&sacute;ci &zacute;r&oacute;de&lstrok; archiwalnych</div>
+  <div class="article-subtitle">Studium komplementarno&sacute;ci kolekcji prywatnej ARG (217 jednostek) i Zespo&lstrok;u 70 Instytutu J&oacute;zefa Pi&lstrok;sudskiego w Londynie na tle pi&eogon;ciu powi&aogon;zanych zespo&lstrok;&oacute;w archiwalnych</div>
   <div class="article-author">Opracowanie archiwalne, 2026</div>
-  <div class="article-meta">Otrzymano: marzec 2026 | &Zacute;r&oacute;d&lstrok;a: Kolekcja prywatna ARG (217 dok.), Instytut Pi&lstrok;sudskiego w Londynie (Zesp. 70), WBH (biogram 76/45)</div>
+  <div class="article-meta">Otrzymano: marzec 2026 &middot; &Zacute;r&oacute;d&lstrok;a: Kolekcja prywatna ARG (217 jedn.), Instytut Pi&lstrok;sudskiego w Londynie (Zesp. 17, 19, 22, 23, 70), WBH (biogram 76/45), AHM MPW (sygn. 1889)</div>
 </div>
 
-<p class="abstract"><strong>Abstrakt:</strong> Artyku&lstrok; przedstawia por&oacute;wnawcz&aogon; analiz&eogon; dw&oacute;ch zasob&oacute;w archiwalnych dokumentuj&aogon;cych &zdot;ycie genera&lstrok;a dywizji Janusza Juliana G&lstrok;uchowskiego (1888&ndash;1964): kolekcji prywatnej oznaczonej sygnatur&aogon; ARG oraz Zespo&lstrok;u 70 w Instytucie Pi&lstrok;sudskiego w Londynie. Identyfikuj&aogon;c dokumenty, kt&oacute;re wzajemnie si&eogon; uzupe&lstrok;niaj&aogon;, artyku&lstrok; dowodzi, &zdot;e dopiero po&lstrok;&aogon;czenie obu zbior&oacute;w pozwala zrekonstruowa&cacute; pe&lstrok;n&aogon; biografi&eogon; jednego z za&lstrok;o&zdot;ycieli Si&oacute;demki Beliny, tw&oacute;rcy 7 Pu&lstrok;ku U&lstrok;an&oacute;w Lubelskich, I Zast&eogon;pcy Ministra Spraw Wojskowych i wsp&oacute;&lstrok;za&lstrok;o&zdot;yciela samego Instytutu.</p>
+<!-- ABSTRAKT PL -->
+<p class="abstract"><strong>Abstrakt:</strong> Artyku&lstrok; przedstawia por&oacute;wnawcz&aogon; analiz&eogon; zasob&oacute;w archiwalnych dokumentuj&aogon;cych &zdot;ycie genera&lstrok;a dywizji Janusza Juliana G&lstrok;uchowskiego (1888&ndash;1964). Przedmiotem analizy s&aogon; dwa zbiory: kolekcja prywatna ARG (217 jednostek w sze&sacute;ciu seriach, skatalogowana w standardzie ISAD(G)) oraz Zesp&oacute;&lstrok; 70 Instytutu J&oacute;zefa Pi&lstrok;sudskiego w Londynie (9 jednostek, 1916&ndash;1964). Na podstawie por&oacute;wnania inwentarzy metodą pozycja-po-pozycji zidentyfikowano dokumenty kategorii A (duplikaty), B (uzupe&lstrok;nienia) i C (unikaty). Oko&lstrok;o 60% dokument&oacute;w serii ARG/II (33 jednostki dotycz&aogon;ce genera&lstrok;a) stanowi materia&lstrok; nieobecny w Zespole 70. W szerszym kontek&sacute;cie archiwalnym wykazano powi&aogon;zania z pi&eogon;cioma kolejnymi zespo&lstrok;ami Instytutu: Archiwum L.&nbsp;Kmicic-Skrzy&nacute;skiego (zesp. 17), Archiwum K.&nbsp;Sosnkowskiego (zesp. 19), Legiony 1914&ndash;1918 (zesp. 22), Wojna polsko-bolszewicka (zesp. 23) oraz Zbi&oacute;r fotograficzny (zesp. 201). Artyku&lstrok; dowodzi, &zdot;e dopiero po&lstrok;&aogon;czenie obu zbior&oacute;w &mdash; instytucjonalnego i prywatnego &mdash; pozwala zrekonstruowa&cacute; pe&lstrok;n&aogon; biografi&eogon; archiwalnl&aogon; jednego z za&lstrok;o&zdot;ycieli Si&oacute;demki Beliny, tw&oacute;rcy 7&nbsp;Pu&lstrok;ku U&lstrok;an&oacute;w Lubelskich, I&nbsp;Zast&eogon;pcy Ministra Spraw Wojskowych i wsp&oacute;&lstrok;za&lstrok;o&zdot;yciela samego Instytutu.</p>
 
-<p class="keywords"><strong>S&lstrok;owa kluczowe:</strong> archiwoznawstwo, kolekcja prywatna, Instytut Pi&lstrok;sudskiego, Si&oacute;demka Beliny, gen. Janusz G&lstrok;uchowski, Polskie Si&lstrok;y Zbrojne, emigracja, ISAD(G)</p>
+<!-- ABSTRAKT EN -->
+<p class="abstract-en"><strong>Abstract:</strong> This article presents a comparative analysis of archival resources documenting the life of Major General Janusz Julian G&lstrok;uchowski (1888&ndash;1964). Two collections are examined: the private ARG collection (217 items in six series, catalogued according to ISAD(G)) and Collection&nbsp;70 of the J&oacute;zef Pi&lstrok;sudski Institute in London (9 items, 1916&ndash;1964). Through item-by-item inventory comparison, documents were classified as Category&nbsp;A (duplicates), B (supplements), or C (uniques). Approximately 60% of ARG Series&nbsp;II documents (33 items relating to the General) constitute material absent from Collection&nbsp;70. The broader archival context reveals connections to five additional Institute collections: the L.&nbsp;Kmicic-Skrzy&nacute;ski Archive (coll.&nbsp;17), K.&nbsp;Sosnkowski Archive (coll.&nbsp;19), Polish Legions 1914&ndash;1918 (coll.&nbsp;22), Polish-Soviet War (coll.&nbsp;23), and the Photographic Collection (coll.&nbsp;201). The article demonstrates that only by combining both holdings &mdash; institutional and private &mdash; can the full archival biography of one of Belina&rsquo;s Seven, founder of the 7th&nbsp;Uhlan Regiment, First Deputy Minister of Military Affairs, and co-founder of the Institute itself, be reconstructed.</p>
 
-
-<h2>1. Wprowadzenie: dwa archiwa, jedno &zdot;ycie</h2>
-
-<p>Genera&lstrok; dywizji Janusz Julian G&lstrok;uchowski prze&zdot;y&lstrok; sze&sacute;&cacute;dziesi&aogon;t sze&sacute;&cacute; lat, w kt&oacute;rych zmie&sacute;ci&lstrok;y si&eogon; trzy pa&nacute;stwa polskie, dwie wojny &sacute;wiatowe, rewolucja, niepodleg&lstrok;o&sacute;&cacute;, kl&eogon;ska i emigracja. Dokumenty tego &zdot;ycia rozdzieli&lstrok; los &mdash; cz&eogon;&sacute;&cacute; trafi&lstrok;a do archiwum instytucjonalnego, cz&eogon;&sacute;&cacute; pozosta&lstrok;a w rodzinnych r&eogon;kach. Ten podzia&lstrok; nie by&lstrok; przypadkowy: to, co genera&lstrok; przekaza&lstrok; Instytutowi Pi&lstrok;sudskiego w Londynie, stanowi&lstrok;o dokumentacj&eogon; oficjaln&aogon; &mdash; akta s&lstrok;u&zdot;by, rozkazy, korespondencj&eogon; urz&eogon;dow&aogon;. To, co pozosta&lstrok;o w rodzinie, by&lstrok;o bardziej intymne: listy osobiste, fotografie, dokumenty podr&oacute;&zdot;y, pami&aogon;tki.</p>
-
-<p>Niniejszy artyku&lstrok; stawia tez&eogon;, &zdot;e dopiero zestawienie kolekcji prywatnej ARG (217 jednostek w sze&sacute;ciu seriach) z Zespo&lstrok;em 70 Instytutu Pi&lstrok;sudskiego w Londynie pozwala odtworzy&cacute; pe&lstrok;n&aogon; biografi&eogon; archiwalnl&aogon; genera&lstrok;a G&lstrok;uchowskiego &mdash; od bojowca PPS w Kongres&oacute;wce, przez jednego z Si&oacute;demki Beliny, tw&oacute;rc&eogon; pu&lstrok;ku u&lstrok;an&oacute;w, wiceministra spraw wojskowych, a&zdot; po wsp&oacute;&lstrok;za&lstrok;o&zdot;yciela instytucji, w kt&oacute;rej te&zdot; akta z&lstrok;o&zdot;y&lstrok;.<sup><a href="#fn1" class="footnote-ref">1</a></sup></p>
+<p class="keywords"><strong>S&lstrok;owa kluczowe / Keywords:</strong> archiwoznawstwo, komplementarno&sacute;&cacute; archiwalna, kolekcja prywatna, Instytut Pi&lstrok;sudskiego w Londynie, Si&oacute;demka Beliny, gen. Janusz G&lstrok;uchowski, Polskie Si&lstrok;y Zbrojne, emigracja wojskowa, ISAD(G) &middot; archival science, archival complementarity, private collection, Pi&lstrok;sudski Institute London, Belina&rsquo;s Seven, Polish Armed Forces, military emigration</p>
 
 
-<h2>2. Si&oacute;demka Beliny: noc, od kt&oacute;rej zacz&eogon;&lstrok;a si&eogon; legenda</h2>
+<!-- ============================================================ -->
+<h2>1. Wprowadzenie: problem rozproszenia &zacute;r&oacute;de&lstrok;</h2>
+<!-- ============================================================ -->
 
-<p>W nocy z 2 na 3 sierpnia 1914 roku siedmiu kawalerzyst&oacute;w na rozkaz J&oacute;zefa Pi&lstrok;sudskiego przekroczy&lstrok;o granic&eogon; rosyjsk&aogon;. By&lstrok; to pierwszy regularny oddzia&lstrok; polski od czasu Powstania Styczniowego &mdash; pi&eogon;&cacute;dziesi&aogon;t jeden lat wcze&sacute;niej. Dow&oacute;dc&aogon; patrolu by&lstrok; W&lstrok;adys&lstrok;aw Belina-Pra&zdot;mowski, zast&eogon;pc&aogon; &mdash; dwudziestoszescioletni Janusz G&lstrok;uchowski.<sup><a href="#fn2" class="footnote-ref">2</a></sup></p>
+<p>Archiwa polskiej emigracji wojskowej po 1945 roku cechuje charakterystyczny podzia&lstrok;: cz&eogon;&sacute;&cacute; dokumentacji trafia&lstrok;a do instytucji powo&lstrok;anych dla ochrony pami&eogon;ci &mdash; Instytutu Pi&lstrok;sudskiego, Instytutu Sikorskiego, Biblioteki Polskiej w Pary&zdot;u &mdash; podczas gdy dokumenty o charakterze prywatnym pozostawa&lstrok;y w r&eogon;kach rodzin. Podzia&lstrok; ten wynika&lstrok; z praktyki archiwalnej: oficerowie przekazywali akta s&lstrok;u&zdot;by, rozkazy i korespondencj&eogon; urz&eogon;dow&aogon;, zatrzymuj&aogon;c listy osobiste, fotografie i pami&aogon;tki rodzinne.<sup><a href="#fn1" class="footnote-ref">1</a></sup></p>
 
-<p>W kolekcji ARG patrol udokumentowany jest przede wszystkim fotokopi&aogon; grupowego zdj&eogon;cia z podpisami uczestnik&oacute;w (ARG/II/2). Nawet jako reprodukcja wt&oacute;rna, dokument ten stanowi unikalny ikonograficzny dow&oacute;d za&lstrok;o&zdot;ycielskiego momentu polskiej kawalerii odrodzonej. Identyfikacja uczestnik&oacute;w &mdash; zweryfikowana na podstawie &zacute;r&oacute;de&lstrok; IPN i portalu jpilsudski.org &mdash; pozwala ustali&cacute; pe&lstrok;ny sk&lstrok;ad patrolu:</p>
+<p>Genera&lstrok; dywizji Janusz Julian G&lstrok;uchowski (1888&ndash;1964) stanowi modelowy przypadek takiego rozproszenia. Jego dokumentacja archiwalna istnieje w dw&oacute;ch odr&eogon;bnych zbiorach: Zespole 70 Instytutu J&oacute;zefa Pi&lstrok;sudskiego w Londynie (9 jednostek archiwalnych, lata 1916&ndash;1964) oraz kolekcji prywatnej oznaczonej sygnatur&aogon; ARG (217 jednostek w sze&sacute;ciu seriach, skatalogowanej w standardzie ISAD(G) w 2026 roku). Dodatkow&aogon; warto&sacute;&cacute; analityczn&aogon; wnosi fakt, &zdot;e G&lstrok;uchowski by&lstrok; wsp&oacute;&lstrok;za&lstrok;o&zdot;ycielem instytucji, w kt&oacute;rej jego w&lstrok;asne akta s&aogon; dzi&sacute; przechowywane.<sup><a href="#fn2" class="footnote-ref">2</a></sup></p>
 
+<p>Celem niniejszego artyku&lstrok;u jest: (1) por&oacute;wnanie zawarto&sacute;ci obu zbior&oacute;w metod&aogon; inwentarza r&oacute;wnoleg&lstrok;ego; (2) identyfikacja dokument&oacute;w komplementarnych, uzupe&lstrok;niaj&aogon;cych i unikalnych; (3) umieszczenie obu zbior&oacute;w w szerszym kontek&sacute;cie archiwalnym Instytutu Pi&lstrok;sudskiego, z uwzgl&eogon;dnieniem pi&eogon;ciu powi&aogon;zanych zespo&lstrok;&oacute;w (nr 17, 19, 22, 23, 201).</p>
+
+
+<!-- ============================================================ -->
+<h2>2. Nota biograficzna: od bojowca PPS do wsp&oacute;&lstrok;za&lstrok;o&zdot;yciela Instytutu</h2>
+<!-- ============================================================ -->
+
+<p>Janusz Julian G&lstrok;uchowski urodzi&lstrok; si&eogon; 19 czerwca 1888 roku w Bukowej, powiat Piotrk&oacute;w Trybunalski. By&lstrok; synem Mariana G&lstrok;uchowskiego, dzia&lstrok;acza Polskiej Organizacji Narodowej, kt&oacute;rego dokumenty zachowa&lstrok;y si&eogon; w serii ARG/I (6 jednostek, 1914). W 1905 roku, w wieku siedemnastu lat, wst&aogon;pi&lstrok; do Organizacji Bojowej PPS. Dzia&lstrok;a&lstrok; w niej do 1908 roku, po czym wyjecha&lstrok; na studia na Politechnik&eogon; w Li&egrave;ge, gdzie wsp&oacute;&lstrok;za&lstrok;o&zdot;y&lstrok; z Tadeuszem Piskorem kom&oacute;rk&eogon; Zwi&aogon;zku Walki Czynnej. Sekwencj&eogon; t&eogon; potwierdza biogram sporz&aogon;dzony przez Wojskowe Biuro Historyczne (nr 76/45, 24.V.1937), zachowany jako ARG/II/1.<sup><a href="#fn3" class="footnote-ref">3</a></sup></p>
+
+<p>W nocy z 2 na 3 sierpnia 1914 roku G&lstrok;uchowski, jako zast&eogon;pca dow&oacute;dcy W&lstrok;adys&lstrok;awa Beliny-Pra&zdot;mowskiego, uczestniczy&lstrok; w patrolu Si&oacute;demki Beliny &mdash; pierwszym regularnym oddziale polskim od Powstania Styczniowego. Sk&lstrok;ad patrolu, zweryfikowany na podstawie &zacute;r&oacute;de&lstrok; IPN i fotokopiI grupowej z podpisami (ARG/II/2), przedstawia tabela 1.<sup><a href="#fn4" class="footnote-ref">4</a></sup></p>
+
+<p style="font-family:'Inter',sans-serif; font-size:.82em; color:var(--text-dim); margin-bottom:4px;"><strong>Tabela 1.</strong> Sk&lstrok;ad patrolu Si&oacute;demki Beliny (2/3.VIII.1914)</p>
 <table>
-<tr><th>Uczestnik</th><th>Lata &zdot;ycia</th><th>Rola / los</th></tr>
-<tr><td>W&lstrok;adys&lstrok;aw Belina-Pra&zdot;mowski</td><td>1888&ndash;1938</td><td>dow&oacute;dca patrolu, tw&oacute;rca polskiej kawalerii; zmar&lstrok; w Wenecji</td></tr>
-<tr><td>Janusz G&lstrok;uchowski</td><td>1888&ndash;1964</td><td>zast&eogon;pca dow&oacute;dcy; p&oacute;&zacute;niejszy genera&lstrok; dywizji</td></tr>
-<tr><td>Stanis&lstrok;aw Grzmot-Skotnicki</td><td>ok. 1890&ndash;1939</td><td>poleg&lstrok; we wrze&sacute;niu 1939 pod Tu&lstrok;owicami</td></tr>
-<tr><td>Ludwik Bo&nacute;cza-Karwacki</td><td>ok. 1889&ndash;1916</td><td>poleg&lstrok; pod Kostiuchn&oacute;wk&aogon;</td></tr>
-<tr><td>Zdzis&lstrok;aw Jab&lstrok;o&nacute;ski ps. &bdquo;Zdzis&lstrok;aw&rdquo;</td><td>ok. 1896&ndash;1920</td><td>najm&lstrok;odszy (18 lat); poleg&lstrok; w wojnie 1920</td></tr>
-<tr><td>Janusz Hanka-Kulesza</td><td>1892&ndash;1964</td><td>zmar&lstrok; 5.VI.1964, sze&sacute;&cacute; dni przed G&lstrok;uchowskim</td></tr>
-<tr><td>Ludwik Kmicic-Skrzy&nacute;ski</td><td>1893&ndash;1972</td><td>ostatni &zdot;yj&aogon;cy z Si&oacute;demki; Manchester</td></tr>
+<tr><th>Uczestnik</th><th>Lata &zdot;ycia</th><th>Rola / los</th><th>&Zacute;r&oacute;d&lstrok;a archiwalne w Instytucie</th></tr>
+<tr><td>W&lstrok;adys&lstrok;aw Belina-Pra&zdot;mowski</td><td>1888&ndash;1938</td><td>dow&oacute;dca patrolu</td><td>brak odr&eogon;bnego zespo&lstrok;u</td></tr>
+<tr><td>Janusz G&lstrok;uchowski</td><td>1888&ndash;1964</td><td>zast&eogon;pca dow&oacute;dcy</td><td><strong>Zesp. 70</strong> + kolekcja ARG</td></tr>
+<tr><td>Stanis&lstrok;aw Grzmot-Skotnicki</td><td>ok. 1890&ndash;1939</td><td>poleg&lstrok; IX.1939, Tu&lstrok;owice</td><td>&mdash;</td></tr>
+<tr><td>Ludwik Bo&nacute;cza-Karwacki</td><td>ok. 1889&ndash;1916</td><td>poleg&lstrok; pod Kostiuchn&oacute;wk&aogon;</td><td>Zesp. 22, jedn. 47 (wspomnienia)</td></tr>
+<tr><td>Zdzis&lstrok;aw Jab&lstrok;o&nacute;ski ps. &bdquo;Zdzis&lstrok;aw&rdquo;</td><td>ok. 1896&ndash;1920</td><td>poleg&lstrok; w wojnie 1920</td><td>Zesp. 17 (wspomnienia S. Stablewskiego)</td></tr>
+<tr><td>Janusz Hanka-Kulesza</td><td>1892&ndash;1964</td><td>zmar&lstrok; 5.VI.1964, Londyn</td><td>&mdash;</td></tr>
+<tr><td>Ludwik Kmicic-Skrzy&nacute;ski</td><td>1893&ndash;1972</td><td>ostatni &zdot;yj&aogon;cy; Manchester</td><td><strong>Zesp. 17</strong></td></tr>
 </table>
 
-<p>Z siedmiu ludzi, kt&oacute;rzy tamtej nocy ruszyli na wsch&oacute;d, trzech poleg&lstrok;o w kolejnych wojnach, jeden zmar&lstrok; w 1938 roku, a trzech do&zdot;y&lstrok;o staro&sacute;ci na emigracji &mdash; nigdy nie wr&oacute;ciwszy do kraju, kt&oacute;ry pomogli za&lstrok;o&zdot;y&cacute;. Hanka-Kulesza i G&lstrok;uchowski zmarli w odst&eogon;pie sze&sacute;ciu dni, w czerwcu 1964 roku, w Londynie &mdash; jakby ostatni akt legendy wymaga&lstrok; podw&oacute;jnego zamkni&eogon;cia.</p>
+<p>Dalsze etapy kariery G&lstrok;uchowskiego dokumentowane s&aogon; przede wszystkim w serii ARG/II (33 jednostki). 5 listopada 1918 roku otrzyma&lstrok; rozkaz Sztabu Generalnego w Lublinie organizacji nowego oddzia&lstrok;u jazdy (ARG/II/8) &mdash; przysz&lstrok;ego 7 Pu&lstrok;ku U&lstrok;an&oacute;w Lubelskich, kt&oacute;rym dowodzi&lstrok; do lipca 1920 roku. W okresie mi&eogon;dzywojennym by&lstrok; dekorowany Legi&aogon; Honorow&aogon; przez marsza&lstrok;ka Focha (3.V.1923, ARG/II/15), Orderem Gwiazdy Rumunii w stopniu komandora (1.VIII.1923, ARG/II/16), a w 1925 roku otrzyma&lstrok; dekret prezydencki zezwalaj&aogon;cy na noszenie odznacze&nacute; zagranicznych (ARG/II/17).<sup><a href="#fn5" class="footnote-ref">5</a></sup></p>
+
+<p>5 pa&zacute;dziernika 1935 roku zosta&lstrok; mianowany I Zast&eogon;pc&aogon; Ministra Spraw Wojskowych (ARG/II/19). Po kampanii wrze&sacute;niowej &mdash; internowanie w Rumunii, Palestyna (X.1940), Londyn (II.1941). Od wrze&sacute;nia 1943 dow&oacute;dca Polskich Jednostek Wojskowych w Wielkiej Brytanii. 1 czerwca 1945 &mdash; awans na genera&lstrok;a dywizji. We wrze&sacute;niu 1945 &mdash; Companion of the Order of the Bath (C.B.).</p>
+
+<p>15 marca 1947 roku G&lstrok;uchowski wsp&oacute;&lstrok;za&lstrok;o&zdot;y&lstrok; Instytut J&oacute;zefa Pi&lstrok;sudskiego w Londynie &mdash; instytucj&eogon;, kt&oacute;rej przekaza&lstrok; swoje akta urz&eogon;dowe (obecny Zesp&oacute;&lstrok; 70). Zmar&lstrok; 11 czerwca 1964 roku w Londynie. Pochowany na cmentarzu Brompton (grób 576).<sup><a href="#fn6" class="footnote-ref">6</a></sup></p>
 
 
-<h2>3. Od rewolucjonisty do genera&lstrok;a: droga przez trzy epoki</h2>
+<!-- ============================================================ -->
+<h2>3. Zesp&oacute;&lstrok; 70: inwentarz i charakterystyka</h2>
+<!-- ============================================================ -->
 
-<p>Janusz G&lstrok;uchowski urodzi&lstrok; si&eogon; 19 czerwca 1888 roku w Bukowej, w powiecie piotrkowskim. By&lstrok; synem Mariana G&lstrok;uchowskiego, dzia&lstrok;acza Polskiej Organizacji Narodowej, kt&oacute;rego sygnatury ARG/I/1&ndash;6 dokumentuj&aogon; dzia&lstrok;alno&sacute;&cacute; niepodleg&lstrok;o&sacute;ciow&aogon; z 1914 roku. Tradycja walki o wolno&sacute;&cacute; by&lstrok;a w tej rodzinie dziedziczna.</p>
+<p>Zesp&oacute;&lstrok; 70 Instytutu Pi&lstrok;sudskiego w Londynie nosi nazw&eogon; &bdquo;Archiwum Janusza G&lstrok;uchowskiego&rdquo; i obejmuje 9 jednostek archiwalnych z lat 1916&ndash;1964. Opis zespo&lstrok;u, dost&eogon;pny na stronie Instytutu (pilsudski.org.uk/pl/archiwum-070.php), pozwala zrekonstruowa&cacute; nast&eogon;puj&aogon;c&aogon; struktur&eogon;:<sup><a href="#fn7" class="footnote-ref">7</a></sup></p>
 
-<p>W 1905 roku, maj&aogon;c zaledwie siedemna&sacute;cie lat, G&lstrok;uchowski wst&aogon;pi&lstrok; do Organizacji Bojowej PPS &mdash; w samym &sacute;rodku rewolucji, gdy strajki i barykady przetacza&lstrok;y si&eogon; przez Kongres&oacute;wk&eogon;. Dzia&lstrok;a&lstrok; w OB PPS do 1908 roku. Nast&eogon;pnie wyjecha&lstrok; na studia do Belgii, na Politechnik&eogon; w Li&egrave;ge, gdzie razem z Tadeuszem Piskorem wsp&oacute;&lstrok;za&lstrok;o&zdot;y&lstrok; kom&oacute;rk&eogon; Zwi&aogon;zku Walki Czynnej &mdash; organizacji, kt&oacute;ra by&lstrok;a zalaz&aogon;kiem przysz&lstrok;ych Legion&oacute;w.<sup><a href="#fn3" class="footnote-ref">3</a></sup></p>
+<p style="font-family:'Inter',sans-serif; font-size:.82em; color:var(--text-dim); margin-bottom:4px;"><strong>Tabela 2.</strong> Inwentarz Zespo&lstrok;u 70 &mdash; Archiwum Janusza G&lstrok;uchowskiego</p>
+<table>
+<tr><th>Nr</th><th>Opis jednostki</th><th>Daty</th><th>Charakter</th></tr>
+<tr><td>1</td><td>&Zdot;yciorys, rozkazy, nominacje, dokumenty osobiste (kalendarze, notatnik, listy), broszury, wycinki z gazet</td><td>1916&ndash;1964</td><td>osobisty / s&lstrok;u&zdot;bowy</td></tr>
+<tr><td>2</td><td>Korespondencja z Ko&lstrok;em Genera&lstrok;&oacute;w, Pu&lstrok;kownik&oacute;w i by&lstrok;ych wy&zdot;szych dow&oacute;dc&oacute;w; wykaz adres&oacute;w</td><td>1948&ndash;1963</td><td>korporacyjny</td></tr>
+<tr><td>3</td><td>Korespondencja s&lstrok;u&zdot;bowa i prywatna</td><td>1940&ndash;1961</td><td>mieszany</td></tr>
+<tr><td>4</td><td>Wspomnienia, przem&oacute;wienia</td><td>b.d.</td><td>narracyjny</td></tr>
+<tr><td>5</td><td>Korespondencja</td><td>1943&ndash;1963</td><td>mieszany</td></tr>
+<tr><td>6</td><td>Raporty, sprawozdania ze Sztabu G&lstrok;&oacute;wnego, zapisy rozm&oacute;w, wiersze</td><td>1940&ndash;1945</td><td>s&lstrok;u&zdot;bowy / literacki</td></tr>
+<tr><td>7</td><td>Korespondencja z pras&aogon;, wycinki prasowe</td><td>b.d.</td><td>prasowy</td></tr>
+<tr><td>8</td><td>Brudnopisy</td><td>b.d.</td><td>roboczy</td></tr>
+<tr><td>9</td><td>Emigracja &mdash; druki ulotne, komunikaty, rozkazy, or&eogon;dzia, odezwy</td><td>1946&ndash;1961</td><td>emigracyjny</td></tr>
+</table>
 
-<p>Dokument ARG/II/1 &mdash; biogram sporz&aogon;dzony przez Wojskowe Biuro Historyczne (nr 76/45, z dnia 24 maja 1937 roku) &mdash; potwierdza t&eogon; sekwencj&eogon;: OB PPS, ZWC w Li&egrave;ge, Zwi&aogon;zek Strzelecki, wreszcie Legiony. To &zacute;r&oacute;d&lstrok;o, powsta&lstrok;e za &zdot;ycia bohatera i zweryfikowane przez instytucj&eogon; wojskow&aogon;, stanowi fundament ka&zdot;dej rekonstrukcji biograficznej G&lstrok;uchowskiego.</p>
-
-<h3>Tw&oacute;rca 7 Pu&lstrok;ku U&lstrok;an&oacute;w</h3>
-
-<p>Dok&lstrok;adnie sze&sacute;&cacute; dni przed odzyskaniem niepodleg&lstrok;o&sacute;ci &mdash; 5 listopada 1918 roku &mdash; Sztab Generalny w Lublinie wyda&lstrok; rozkaz, na mocy kt&oacute;rego rotmistrz Janusz G&lstrok;uchowski mia&lstrok; zorganizowa&cacute; nowy oddzia&lstrok; jazdy na Lubelszczy&zacute;nie (ARG/II/8). Ten oddzia&lstrok; stanie si&eogon; 7 Pu&lstrok;kiem U&lstrok;an&oacute;w Lubelskich &mdash; jednym z najwa&zdot;niejszych pu&lstrok;k&oacute;w kawaleryjskich odrodzonego Wojska Polskiego. G&lstrok;uchowski dowodzi&lstrok; nim od listopada 1918 do lipca 1920 roku, a tradycja kawalerii, kt&oacute;r&aogon; tam stworzy&lstrok;, b&eogon;dzie kontynuowana przez kolejne pokolenie G&lstrok;uchowskich &mdash; braci Stefana i Lecha, a potem bratanka Krzysztofa w AK.</p>
-
-<h3>Kariera mi&eogon;dzywojenna</h3>
-
-<p>Lata dwudzieste przynios&lstrok;y G&lstrok;uchowskiemu honory zar&oacute;wno krajowe, jak i zagraniczne. 3 maja 1923 roku marsza&lstrok;ek Ferdinand Foch osobi&sacute;cie dekorowa&lstrok; go Legi&aogon; Honorow&aogon; na Placu Saskim w Warszawie (ARG/II/15). Nieca&lstrok;e trzy miesi&aogon;ce p&oacute;&zacute;niej, 1 sierpnia 1923 roku &mdash; w dziewi&aogon;t&aogon; rocznic&eogon; Si&oacute;demki &mdash; kr&oacute;l Ferdynand I Rumu&nacute;ski przyzna&lstrok; mu Order Gwiazdy Rumunii w stopniu komandora, trzecim co do wysoko&sacute;ci (ARG/II/16). W 1925 roku prezydent RP podpisa&lstrok; dekret zezwalaj&aogon;cy pu&lstrok;kownikowi G&lstrok;uchowskiemu na noszenie odznacze&nacute; zagranicznych (ARG/II/17) &mdash; w II Rzeczypospolitej oficer nie m&oacute;g&lstrok; nosi&cacute; obcych order&oacute;w bez zgody g&lstrok;owy pa&nacute;stwa.<sup><a href="#fn4" class="footnote-ref">4</a></sup></p>
-
-<p>5 pa&zacute;dziernika 1935 roku G&lstrok;uchowski osi&aogon;gn&aogon;&lstrok; szczyt kariery: zosta&lstrok; mianowany I Zast&eogon;pc&aogon; Ministra Spraw Wojskowych (ARG/II/19). Na tym stanowisku, jako druga osoba w resorcie obrony, sp&eogon;dzi&lstrok; cztery ostatnie lata pokoju &mdash; lata gwa&lstrok;townych zbrojeni, reformy armii i narastaj&aogon;cego zagro&zdot;enia ze strony Niemiec. We wrze&sacute;niu 1939 to w&lstrok;a&sacute;nie z jego biura wychodzi&lstrok;y rozkazy tworz&aogon;ce Dow&oacute;dztwo Obrony Warszawy genera&lstrok;a Czumy.</p>
-
-
-<h2>4. Wojna, emigracja i za&lstrok;o&zdot;enie Instytutu</h2>
-
-<p>Po kl&eogon;sce wrze&sacute;niowej G&lstrok;uchowski zosta&lstrok; internowany w Rumunii. W pa&zacute;dzierniku 1940 dotar&lstrok; do Palestyny, w lutym 1941 &mdash; do Londynu. Od wrze&sacute;nia 1943 roku dowodzi&lstrok; Polskimi Jednostkami Wojskowymi w Wielkiej Brytanii, a we wrze&sacute;niu 1945 otrzyma&lstrok; od kr&oacute;la Jerzego VI tytu&lstrok; Companion of the Order of the Bath (C.B.) &mdash; wysokie brytyjskie odznaczenie.</p>
-
-<p>1 czerwca 1945 roku awansowa&lstrok; na genera&lstrok;a dywizji. Lecz ten awans przyszed&lstrok; w momencie, gdy wszystko, czemu s&lstrok;u&zdot;y&lstrok;, si&eogon; ko&nacute;czy&lstrok;o. Polskie Si&lstrok;y Zbrojne na Zachodzie przesta&lstrok;y istnie&cacute;. Kraj le&zdot;a&lstrok; za &zdot;elazn&aogon; kurtyn&aogon;. Genera&lstrok; G&lstrok;uchowski, jak tysi&aogon;ce polskich &zdot;o&lstrok;nierzy, pozosta&lstrok; w Londynie &mdash; na emigracji, kt&oacute;ra oka&zdot;e si&eogon; do&zdot;ywotnia.</p>
-
-<p>15 marca 1947 roku wsp&oacute;&lstrok;za&lstrok;o&zdot;y&lstrok; Instytut J&oacute;zefa Pi&lstrok;sudskiego w Londynie &mdash; instytucj&eogon;, kt&oacute;ra sta&lstrok;a si&eogon; depozytariuszem pami&eogon;ci polskiej emigracji wojskowej. To w&lstrok;a&sacute;nie tam z&lstrok;o&zdot;y&lstrok; swoje akta oficjalne, kt&oacute;re dzisiaj stanowi&aogon; Zesp&oacute;&lstrok; 70.<sup><a href="#fn5" class="footnote-ref">5</a></sup></p>
+<p>Analiza inwentarza ujawnia kilka cech istotnych dla dalszego por&oacute;wnania. Po pierwsze, Zesp&oacute;&lstrok; 70 ma charakter przede wszystkim <strong>s&lstrok;u&zdot;bowy i korporacyjny</strong>: dominuje korespondencja urz&eogon;dowa (jedn. 2, 3, 5), raporty wojskowe (jedn. 6) i materia&lstrok;y emigracyjne (jedn. 9). Po drugie, zbi&oacute;r obejmuje wy&lstrok;&aogon;cznie dokumenty samego genera&lstrok;a &mdash; brak jakiejkolwiek dokumentacji rodzinnej. Po trzecie, zas&lstrok;uguj&aogon; na uwag&eogon; dwa elementy niespodziewane: <strong>wiersze</strong> (jedn. 6) oraz <strong>kalendarze i notatnik</strong> (jedn. 1), kt&oacute;re mog&aogon; mie&cacute; walor &zacute;r&oacute;d&lstrok;a narracyjnego.<sup><a href="#fn8" class="footnote-ref">8</a></sup></p>
 
 
-<h2>5. Dwa zbiory: Zesp&oacute;&lstrok; 70 a kolekcja ARG</h2>
+<!-- ============================================================ -->
+<h2>4. Kolekcja prywatna ARG: struktura i zakres</h2>
+<!-- ============================================================ -->
 
-<p>Centraln&aogon; tez&aogon; niniejszego artyku&lstrok;u jest komplementarno&sacute;&cacute; dw&oacute;ch zasob&oacute;w archiwalnych. Zesp&oacute;&lstrok; 70 w Instytucie Pi&lstrok;sudskiego gromadzi dokumentacj&eogon; oficjaln&aogon; &mdash; akta s&lstrok;u&zdot;by, rozkazy, korespondencj&eogon; urz&eogon;dow&aogon;. Kolekcja prywatna ARG zachowuje to, co osobiste &mdash; listy, fotografie, pami&aogon;tki, dokumenty podr&oacute;&zdot;y. Oba zbiory dokumentuj&aogon; to samo &zdot;ycie, lecz z r&oacute;&zdot;nych perspektyw.</p>
+<p>Kolekcja prywatna ARG (Archiwum Rodziny G&lstrok;uchowskich) zosta&lstrok;a skatalogowana w 2026 roku w standardzie ISAD(G). Obejmuje 217 jednostek w sze&sacute;ciu seriach, z kt&oacute;rych ka&zdot;da odpowiada jednemu cz&lstrok;onkowi rodziny lub kategorii dokument&oacute;w:</p>
+
+<p style="font-family:'Inter',sans-serif; font-size:.82em; color:var(--text-dim); margin-bottom:4px;"><strong>Tabela 3.</strong> Struktura kolekcji ARG</p>
+<table>
+<tr><th>Seria</th><th>Osoba</th><th>Jedn.</th><th>Daty skrajne</th><th>Charakter</th></tr>
+<tr><td>ARG/I</td><td>Marian G&lstrok;uchowski (ojciec)</td><td>6</td><td>1914</td><td>PON, dzia&lstrok;alno&sacute;&cacute; niepodleg&lstrok;o&sacute;ciowa</td></tr>
+<tr><td>ARG/II</td><td>Gen. dyw. Janusz G&lstrok;uchowski</td><td>33</td><td>1905&ndash;1964</td><td>s&lstrok;u&zdot;ba wojskowa, ordery, korespondencja prywatna, fotografie</td></tr>
+<tr><td>ARG/III</td><td>Ppor. Stanis&lstrok;aw Stefan G&lstrok;uchowski (brat)</td><td>38</td><td>1944&ndash;1945</td><td>AK, Powstanie Warszawskie, Stalag XI-B</td></tr>
+<tr><td>ARG/IV</td><td>Lech G&lstrok;uchowski &bdquo;Je&zdot;ycki&rdquo; (brat)</td><td>wzm.</td><td>1900&ndash;1944</td><td>poleg&lstrok; w Powstaniu 15.IX.1944</td></tr>
+<tr><td>ARG/V</td><td>Krzysztof G&lstrok;uchowski &bdquo;Jura&sacute;&rdquo; (bratanek)</td><td>150+</td><td>1926&ndash;2020</td><td>Powstanie, jeniec, emigracja, Brazylia</td></tr>
+<tr><td>ARG/VI</td><td>Varia / Rodzina</td><td>22</td><td>r&oacute;&zdot;ne</td><td>dokumenty podr&oacute;&zdot;y, pami&aogon;tki, korespondencja</td></tr>
+</table>
+
+<p>Kluczowa r&oacute;&zdot;nica mi&eogon;dzy oboma zbiorami le&zdot;y w <strong>zakresie podmiotowym</strong>. Zesp&oacute;&lstrok; 70 dokumentuje wy&lstrok;&aogon;cznie genera&lstrok;a. Kolekcja ARG dokumentuje ca&lstrok;&aogon; rodzin&eogon; &mdash; pi&eogon;&cacute; os&oacute;b w trzech pokoleniach, z kt&oacute;rych ka&zdot;de walczy&lstrok;o o niepodleg&lstrok;o&sacute;&cacute; innymi &sacute;rodkami: ojciec w PON (1914), genera&lstrok; w Legionach i II RP, bracia w AK i Powstaniu Warszawskim, bratanek jako m&lstrok;odociany powsta&nacute;iec, a nast&eogon;pnie emigrant w Brazylii. Ten wielopokoleniowy kontekst jest niedost&eogon;pny z poziomu Zespo&lstrok;u 70.</p>
+
+
+<!-- ============================================================ -->
+<h2>5. Metodologia por&oacute;wnania inwentarzy</h2>
+<!-- ============================================================ -->
+
+<p>Analiz&eogon; komplementarno&sacute;ci przeprowadzono metod&aogon; <strong>inwentarza r&oacute;wnoleg&lstrok;ego</strong>: dla ka&zdot;dego dokumentu serii ARG/II (33 jednostki) weryfikowano, czy odpowiadaj&aogon;cy mu dokument istnieje w Zespole 70, i odwrotnie. Zastosowano trzy kategorie klasyfikacyjne:</p>
+
+<p><strong>Kategoria A &mdash; duplikaty.</strong> Dokumenty obecne w obu zbiorach (np. odpisy mianowa&nacute;, kopie rozkaz&oacute;w). Warto&sacute;&cacute; archiwalna: potwierdzaj&aogon;ca, uwierzytelniaj&aogon;ca. Umo&zdot;liwiaj&aogon; weryfikacj&eogon; autentyczno&sacute;ci poszczeg&oacute;lnych egzemplarzy.</p>
+
+<p><strong>Kategoria B &mdash; uzupe&lstrok;nienia.</strong> Dokumenty obecne tylko w jednym zbiorze, dotycz&aogon;ce okres&oacute;w lub wydarze&nacute; udokumentowanych w drugim. Warto&sacute;&cacute;: kontekstualizuj&aogon;ca. Przyk&lstrok;ad: zaproszenie na dekoracj&eogon; przez marsz. Focha (ARG/II/15) uzupe&lstrok;nia dokumentacj&eogon; orderow&aogon; obecn&aogon; w Zespole 70 (jedn. 1).</p>
+
+<p><strong>Kategoria C &mdash; unikaty.</strong> Dokumenty bez odpowiednika w drugim zbiorze, dokumentuj&aogon;ce aspekty &zdot;ycia nieobj&eogon;te archiwum alternatywnym. Warto&sacute;&cacute;: najwy&zdot;sza, &zacute;r&oacute;d&lstrok;owa. Przyk&lstrok;ad: korespondencja prywatna gen. Sosnkowskiego (ARG/II/27&ndash;29).</p>
+
+<p style="font-family:'Inter',sans-serif; font-size:.82em; color:var(--text-dim); margin-bottom:4px;"><strong>Tabela 4.</strong> Wyb&oacute;r dokument&oacute;w kategorii B i C z serii ARG/II</p>
+<table>
+<tr><th>Sygn.</th><th>Dokument</th><th>Kat.</th><th>Relacja do Zesp. 70</th></tr>
+<tr><td>ARG/II/2</td><td>Fotokopia grupowa Si&oacute;demki Beliny z podpisami uczestnik&oacute;w</td><td>C</td><td>Brak ikonografii za&lstrok;o&zdot;ycielskiej w Zesp. 70; jedyny znany egzemplarz z podpisami</td></tr>
+<tr><td>ARG/II/8</td><td>Rozkaz Sztabu Generalnego, Lublin, 5.XI.1918 &mdash; za&lstrok;o&zdot;enie oddzia&lstrok;u jazdy</td><td>B</td><td>Akt za&lstrok;o&zdot;ycielski 7 P.U&lstrok;.; w Zesp. 70 prawdopodobnie odpisy w jedn. 1</td></tr>
+<tr><td>ARG/II/14</td><td>List marsza&lstrok;ka &Sacute;mig&lstrok;ego-Rydza (r&eogon;kopis, ~1935&ndash;1939)</td><td>C</td><td>Korespondencja prywatna z Naczelnym Wodzem; brak odpowiednika</td></tr>
+<tr><td>ARG/II/15</td><td>Zaproszenie na dekoracj&eogon; Legi&aogon; Honorow&aogon; przez marsz. Focha (IV.1923)</td><td>B</td><td>Dokumentuje ceremoni&eogon; nieobj&eogon;t&aogon; aktami urz&eogon;dowymi</td></tr>
+<tr><td>ARG/II/16</td><td>Dyplom Orderu Gwiazdy Rumunii, st. komandora (1.VIII.1923)</td><td>C</td><td>Orygina&lstrok; dyplomu orderowego; w Zesp. 70 najwy&zdot;ej wzmianka</td></tr>
+<tr><td>ARG/II/17</td><td>Dekret prezydencki &mdash; zgoda na noszenie order&oacute;w zagranicznych (29.XI.1925)</td><td>B</td><td>Uzupe&lstrok;nia dokumentacj&eogon; orderow&aogon; jedn. 1</td></tr>
+<tr><td>ARG/II/23</td><td>Portret oficjalny w mundurze ga&lstrok;owym z odznaczeniami (lata 30.)</td><td>C</td><td>Jedyny znany pe&lstrok;ny portret formalny; identyfikacja odznacze&nacute;</td></tr>
+<tr><td>ARG/II/27</td><td>List gen. Sosnkowskiego, Arundel, Kanada (28.V.1964)</td><td>C</td><td>Korespondencja prywatna; 14 dni przed &sacute;mierci&aogon; G&lstrok;uchowskiego</td></tr>
+<tr><td>ARG/II/28&ndash;29</td><td>&bdquo;Pro Memoria&rdquo; Sosnkowskiego &mdash; 24 sprawy (28.V.1964)</td><td>C</td><td>Mapa siatki emigracyjnej; Giedroyc, Nowak-Jeziora&nacute;ski, Belina</td></tr>
+</table>
+
+<p>Wst&eogon;pne wyniki wskazuj&aogon;, &zdot;e oko&lstrok;o 60% dokument&oacute;w serii ARG/II nale&zdot;y do kategorii B lub C &mdash; stanowi zatem materia&lstrok; nieobecny lub niedostatecznie udokumentowany w Zespole 70. Wynik ten potwierdza tez&eogon; o wysokiej komplementarno&sacute;ci obu zbior&oacute;w. Pe&lstrok;na taksonomia wymaga jednak dost&eogon;pu do orygina&lstrok;&oacute;w obu zasob&oacute;w i por&oacute;wnania na poziomie dokumentu jednostkowego.<sup><a href="#fn9" class="footnote-ref">9</a></sup></p>
+
+
+<!-- ============================================================ -->
+<h2>6. List Sosnkowskiego jako studium przypadku &zacute;r&oacute;d&lstrok;a unikalnego</h2>
+<!-- ============================================================ -->
+
+<p>Spo&sacute;r&oacute;d dokument&oacute;w kategorii C, szczeg&oacute;lnej analizy wymaga zesp&oacute;&lstrok; trzech dokument&oacute;w: list gen. broni Kazimierza Sosnkowskiego do gen. G&lstrok;uchowskiego (ARG/II/27) wraz z dwustronicowym za&lstrok;&aogon;cznikiem &bdquo;Pro Memoria&rdquo; (ARG/II/28&ndash;29), datowany 28 maja 1964 roku, Arundel, prowincja Quebec, Kanada.<sup><a href="#fn10" class="footnote-ref">10</a></sup></p>
+
+<p>Sosnkowski &mdash; by&lstrok;y Naczelny W&oacute;dz PSZ (1943&ndash;1944), za&lstrok;o&zdot;yciel ZWC, najbli&zdot;szy wsp&oacute;&lstrok;pracownik Pi&lstrok;sudskiego &mdash; u&zdot;y&lstrok; formu&lstrok;y &bdquo;Kochany Generale.&rdquo; W tre&sacute;ci przeprasza&lstrok; za nieporozumienie dotycz&aogon;ce Instytutu Pi&lstrok;sudskiego i sprawy Larousse&rsquo;a. Obiecywa&lstrok; przy&sacute;pieszy&cacute; prac&eogon; nad tekstem o patrolu Beliny. G&lstrok;uchowski zmar&lstrok; czterna&sacute;cie dni p&oacute;&zacute;niej.</p>
+
+<p>Za&lstrok;&aogon;cznik &bdquo;Pro Memoria&rdquo; stanowi list&eogon; 24 spraw prowadzonych jednocze&sacute;nie przez Sosnkowskiego. Pozycja 5: pro&sacute;ba G&lstrok;uchowskiego o tekst o pocz&aogon;tkach kawalerii. Pozycja 7: pro&sacute;ba p&lstrok;k. Smole&nacute;skiego o wspomnienia z patrolu Beliny. W dalszych pozycjach pojawiaj&aogon; si&eogon;: Jerzy Giedroyc (paryska &bdquo;Kultura,&rdquo; dwa artyku&lstrok;y), Jan Nowak-Jeziora&nacute;ski (Radio Wolna Europa), 21. rocznica &sacute;mierci gen. Sikorskiego (Chicago). Dokument stanowi map&eogon; siatki polskiego &zdot;ycia intelektualnego na uchod&zacute;stwie &mdash; od Buenos Aires po Toronto &mdash; i jako taki ma warto&sacute;&cacute; wykraczaj&aogon;c&aogon; poza biografi&eogon; adresata.</p>
+
+<p>Warto&sacute;&cacute; archiwalna tego zespo&lstrok;u dokument&oacute;w jest potr&oacute;jna: (1) stanowi jedno z ostatnich &sacute;wiadectw relacji Sosnkowski&ndash;G&lstrok;uchowski, trwaj&aogon;cej od 1913 roku; (2) jako &bdquo;Pro Memoria&rdquo; dokumentuje metod&eogon; pracy i siatk&eogon; kontakt&oacute;w by&lstrok;ego Naczelnego Wodza; (3) koresponduje bezpo&sacute;rednio z Zespo&lstrok;em 19 Instytutu (Archiwum Sosnkowskiego, 33 jednostki), gdzie mog&aogon; znajdowa&cacute; si&eogon; listy G&lstrok;uchowskiego do Sosnkowskiego &mdash; zamykaj&aogon;c potencjalnie &lstrok;uk korespondencji.<sup><a href="#fn11" class="footnote-ref">11</a></sup></p>
+
+
+<!-- ============================================================ -->
+<h2>7. Szerszy kontekst archiwalny: zespo&lstrok;y powi&aogon;zane</h2>
+<!-- ============================================================ -->
+
+<p>Obydwa zbiory &mdash; Zesp&oacute;&lstrok; 70 i kolekcja ARG &mdash; nie istniej&aogon; w izolacji archiwalnej. W zasobach Instytutu Pi&lstrok;sudskiego w Londynie (ponad 200 zespo&lstrok;&oacute;w) zidentyfikowano pi&eogon;&cacute; dalszych zasob&oacute;w bezpo&sacute;rednio powi&aogon;zanych z biografi&aogon; genera&lstrok;a G&lstrok;uchowskiego i histori&aogon; kolekcji ARG.</p>
+
+<p style="font-family:'Inter',sans-serif; font-size:.82em; color:var(--text-dim); margin-bottom:4px;"><strong>Tabela 5.</strong> Zespo&lstrok;y Instytutu Pi&lstrok;sudskiego powi&aogon;zane z kolekcj&aogon; ARG</p>
+<table>
+<tr><th>Zesp.</th><th>Nazwa</th><th>Zawarto&sacute;&cacute; istotna</th><th>Powi&aogon;zanie z ARG</th></tr>
+<tr><td>17</td><td>Archiwum Ludwika Kmicic-Skrzy&nacute;skiego</td><td>Dokumenty dot. 1 P.U&lstrok;. Legion&oacute;w (Beliniak&oacute;w) i 7 P.U&lstrok;. Lubelskich. Pami&eogon;tnik 1916&ndash;1918. Wspomnienia nagrywane dla RWE (1964). Wspomnienia S.&nbsp;Stablewskiego o A.&nbsp;Jab&lstrok;o&nacute;skim &mdash; cz&lstrok;onku Si&oacute;demki.</td><td>Lustrzane odbicie serii ARG/II. Dw&oacute;ch z Si&oacute;demki z&lstrok;o&zdot;y&lstrok;o archiwa w tym samym Instytucie.</td></tr>
+<tr><td>19</td><td>Archiwum Kazimierza Sosnkowskiego (33 jedn.)</td><td>Korespondencja s&lstrok;u&zdot;bowa i prywatna 1939&ndash;1970. Jedn. 14: korespondencja &sacute;ci&sacute;le tajna z dow&oacute;dcami (1944, 1948&ndash;52). Jedn. 15: kopie list&oacute;w prywatnych. Jedn. 18: korespondencja wydawnicza (1964&ndash;65).</td><td>Potencjalna &bdquo;druga strona&rdquo; korespondencji ARG/II/27&ndash;29. Zamyka &lstrok;uk 51 lat relacji.</td></tr>
+<tr><td>22</td><td>Legiony 1914&ndash;1918 (120 jedn.)</td><td>Jedn. 37: Kronika 1 P.U&lstrok;. z listami oficer&oacute;w i strat. Jedn. 47: wspomnienia o Kostiuchn&oacute;wce. Jedn. 90: lista starszeN&sacute;twa oficer&oacute;w (1917).</td><td>Dokumentuje okres Si&oacute;demki i kampanii legionowej; G&lstrok;uchowski powinien figurowa&cacute; w wykazach.</td></tr>
+<tr><td>23</td><td>Wojna polsko-bolszewicka 1919&ndash;1920</td><td>Telegramy frontowe VIII.1920. Historia 1 Dywizji Jazdy p&lstrok;k. R&oacute;mmla. Korespondencja od oficera &lstrok;&aogon;cznikowego przy sztabie marsz. Focha.</td><td>G&lstrok;uchowski dowodzi&lstrok; 7 P.U&lstrok;. w tej wojnie; Foch dekorowa&lstrok; go w 1923.</td></tr>
+<tr><td>201</td><td>Zbi&oacute;r fotograficzny</td><td>Albumy i zdj&eogon;cia lu&zacute;ne z I wojny, mi&eogon;dzywojnia, emigracji.</td><td>Mog&aogon; zawiera&cacute; zdj&eogon;cia G&lstrok;uchowskiego, Si&oacute;demki, 7 P.U&lstrok;., uroczysto&sacute;ci emigracyjnych.</td></tr>
+</table>
+
+<p>Szczeg&oacute;lnie istotny jest Zesp&oacute;&lstrok; 17. Genera&lstrok; Ludwik Kmicic-Skrzy&nacute;ski (1893&ndash;1972), urodzony w Odessie, studiowa&lstrok; chemi&eogon; w Nancy, organizowa&lstrok; pluton Zwi&aogon;zku Strzeleckiego, walczy&lstrok; w Legionach, przeszed&lstrok; przez Oflag IID Gross-Born, s&lstrok;u&zdot;y&lstrok; w 2 Korpusie Polskim, a po wojnie osiad&lstrok; w Manchesterze.<sup><a href="#fn12" class="footnote-ref">12</a></sup> Jego archiwum zawiera: pami&eogon;tnik z lat 1916&ndash;1918 (jedn. 3), wspomnienia nagrywane dla Radia Wolna Europa w 1964 roku (jedn. 7) oraz materia&lstrok;y dotycz&aogon;ce zar&oacute;wno 1 Pu&lstrok;ku U&lstrok;an&oacute;w Legion&oacute;w (Beliniak&oacute;w), jak i 7 Pu&lstrok;ku U&lstrok;an&oacute;w Lubelskich &mdash; pu&lstrok;ku za&lstrok;o&zdot;onego przez G&lstrok;uchowskiego. W jednostce 2 znajduj&aogon; si&eogon; wspomnienia Stefana Stablewskiego o Antonim Jab&lstrok;o&nacute;skim &mdash; uczestniku Si&oacute;demki Beliny, kt&oacute;ry poleg&lstrok; w wojnie 1920 roku.</p>
+
+<p>Fakt, &zdot;e dw&oacute;ch z siedmiu kawalerzyst&oacute;w patrolu za&lstrok;o&zdot;ycielskiego z&lstrok;o&zdot;y&lstrok;o swoje archiwa w tym samym Instytucie &mdash; kt&oacute;ry jeden z nich wsp&oacute;&lstrok;za&lstrok;o&zdot;y&lstrok; &mdash; pozwala na unikalne zestawienie: rekonstrukcj&eogon; historii Si&oacute;demki z dw&oacute;ch perspektyw osobistych, uzupe&lstrok;nionych o relacje z kolekcji ARG i materia&lstrok;y z Zespo&lstrok;u 22 (Legiony). Belina-Pra&zdot;mowski, dow&oacute;dca patrolu, nie pozostawi&lstrok; odr&eogon;bnego archiwum (zmar&lstrok; w 1938), co dodatkowo podnosi warto&sacute;&cacute; &zacute;r&oacute;de&lstrok; zachowanych przez jego zast&eogon;pc&eogon; i ostatniego &zdot;yj&aogon;cego cz&lstrok;onka patrolu.</p>
 
 <div class="archive-diagram">
-  <h4>SCHEMAT KOMPLEMENTARNO&Sacute;CI</h4>
+  <h4>SCHEMAT KOMPLEMENTARNO&Sacute;CI &Zacute;R&Oacute;DE&Lstrok;</h4>
   <div class="diagram-row">
     <div class="diagram-box">
-      <strong>Zesp&oacute;&lstrok; 70 &mdash; Instytut Pi&lstrok;sudskiego</strong>
-      Akta s&lstrok;u&zdot;by, rozkazy, mianowania, korespondencja urz&eogon;dowa, dokumenty MSWojsk, PSZ.
+      <strong>Zesp. 70 &mdash; akta s&lstrok;u&zdot;bowe</strong>
+      9 jednostek. Rozkazy, nominacje, korespondencja urz&eogon;dowa, raporty PSZ, materia&lstrok;y emigracyjne, wiersze.
     </div>
     <div class="diagram-box">
       <strong>Kolekcja ARG &mdash; zbi&oacute;r prywatny</strong>
-      217 jednostek w 6 seriach. Dokumenty osobiste, listy prywatne, fotografie, legitymacje, pami&aogon;tki rodzinne, dokumenty 5 cz&lstrok;onk&oacute;w rodziny.
+      217 jednostek w 6 seriach. Dokumenty 5 os&oacute;b. Listy prywatne, fotografie, ordery, legitymacje, pami&aogon;tki.
     </div>
   </div>
-  <div class="diagram-arrow">&darr; komplementarno&sacute;&cacute; &darr;</div>
+  <div class="diagram-arrow">&harr; komplementarno&sacute;&cacute; &harr;</div>
+  <div class="diagram-row">
+    <div class="diagram-box">
+      <strong>Zesp. 17 &mdash; Kmicic-Skrzy&nacute;ski</strong>
+      Drugi kawalerzysta Si&oacute;demki. Pami&eogon;tnik, relacje o 7 P.U&lstrok;., nagrania RWE.
+    </div>
+    <div class="diagram-box">
+      <strong>Zesp. 19 &mdash; Sosnkowski</strong>
+      33 jedn. Druga strona korespondencji. Depesze, listy prywatne 1939&ndash;1970.
+    </div>
+  </div>
+  <div class="diagram-arrow">&darr; kontekst &darr;</div>
   <div class="diagram-row">
     <div class="diagram-box" style="text-align:center">
-      <strong>Pe&lstrok;na biografia archiwalna gen. G&lstrok;uchowskiego</strong>
-      Dopiero po&lstrok;&aogon;czenie obu zbior&oacute;w pozwala odtworzy&cacute; &zdot;ycie genera&lstrok;a w pe&lstrok;nym wymiarze: publicznym i prywatnym, s&lstrok;u&zdot;bowym i rodzinnym.
+      <strong>Zesp. 22 (Legiony) + Zesp. 23 (Wojna 1920) + Zesp. 201 (Fotografie)</strong>
+      Dokumentacja kampanii, w kt&oacute;rych G&lstrok;uchowski walczy&lstrok;; potencjalne ikonografie.
     </div>
   </div>
 </div>
 
-<h3>Dokumenty uzupe&lstrok;niaj&aogon;ce Zesp&oacute;&lstrok; 70</h3>
 
-<p>Analiza pozycja po pozycji pozwoli&lstrok;a zidentyfikowa&cacute; w kolekcji ARG dokumenty, kt&oacute;re bezpo&sacute;rednio uzupe&lstrok;niaj&aogon; zasoby Instytutu Pi&lstrok;sudskiego:</p>
+<!-- ============================================================ -->
+<h2>8. Instytut jako archiwum i pami&eogon;&cacute;: rola G&lstrok;uchowskiego-za&lstrok;o&zdot;yciela</h2>
+<!-- ============================================================ -->
 
-<table>
-<tr><th>Sygnatura ARG</th><th>Dokument</th><th>Znaczenie dla Zespo&lstrok;u 70</th></tr>
-<tr><td>ARG/II/14</td><td>List marsza&lstrok;ka &Sacute;mig&lstrok;ego-Rydza do gen. G&lstrok;uchowskiego (~1935&ndash;1939)</td><td>Prywatna korespondencja z Naczelnym Wodzem; brak odpowiednika w Zesp. 70</td></tr>
-<tr><td>ARG/II/17</td><td>Dekret prezydencki zezwalaj&aogon;cy na noszenie order&oacute;w zagranicznych (29.XI.1925)</td><td>Uzupe&lstrok;nia dokumentacj&eogon; orderow&aogon;; potwierdza sekwencj&eogon; odznacze&nacute;</td></tr>
-<tr><td>ARG/II/27&ndash;29</td><td>List gen. Sosnkowskiego z &bdquo;Pro Memoria&rdquo; (28.V.1964)</td><td>Korespondencja prywatna z Naczelnym Wodzem PSZ; jeden z ostatnich dokument&oacute;w obu genera&lstrok;&oacute;w</td></tr>
-<tr><td>ARG/II/15</td><td>Zaproszenie na dekoracj&eogon; przez marsz. Focha (IV.1923)</td><td>Dokumentuje ceremoni&eogon; nie obj&eogon;t&aogon; aktami urz&eogon;dowymi</td></tr>
-<tr><td>ARG/II/16</td><td>Order Gwiazdy Rumunii, stopie&nacute; komandora (1.VIII.1923)</td><td>Oryginalny dyplom orderowy &mdash; w Zesp. 70 najwy&zdot;ej wzmianka</td></tr>
-<tr><td>ARG/II/2</td><td>Fotokopia grupowa Si&oacute;demki Beliny z podpisami</td><td>Ikonograficzny za&lstrok;o&zdot;ycielski dokument kawalerii</td></tr>
-</table>
+<p>Instytut J&oacute;zefa Pi&lstrok;sudskiego w Londynie, za&lstrok;o&zdot;ony 15 marca 1947 roku, gromadzi ponad 200 zespo&lstrok;&oacute;w archiwalnych dokumentuj&aogon;cych histori&eogon; polskiej emigracji wojskowej i politycznej. W&sacute;r&oacute;d zdigitalizowanych kolekcji znajduj&aogon; si&eogon; archiwa najwy&zdot;szych dow&oacute;dc&oacute;w (Pi&lstrok;sudski &mdash; zesp. 1, Sosnkowski &mdash; zesp. 19, D&aogon;b-Biernacki &mdash; zesp. 47), dokumentacja instytucji (Legiony &mdash; zesp. 22, PSZ w ZSRR &mdash; zesp. 21, Traktat Ryski &mdash; zesp. 106), a tak&zdot;e zbiory specjalne (mapy &mdash; zesp. 200, fotografie &mdash; zesp. 201). Zasoby Instytutu s&aogon; zarejestrowane w bazie SEZAM i IZA Naczelnej Dyrekcji Archiw&oacute;w Pa&nacute;stwowych pod numerem 709.<sup><a href="#fn13" class="footnote-ref">13</a></sup></p>
+
+<p>Przypadek G&lstrok;uchowskiego jest archiwoznawczo wyj&aogon;tkowy: tw&oacute;rca zespo&lstrok;u (Zesp. 70) by&lstrok; jednocze&sacute;nie wsp&oacute;&lstrok;tw&oacute;rc&aogon; instytucji przechowuj&aogon;cej ten zesp&oacute;&lstrok;. Ta podw&oacute;jna rola &mdash; depozytariusza i za&lstrok;o&zdot;yciela &mdash; rodzi pytanie o &sacute;wiadomo&sacute;&cacute; archiwistyczn&aogon;: czy genera&lstrok; dokonuj&aogon;c selekcji dokument&oacute;w do przekazania, mia&lstrok; &sacute;wiadomo&sacute;&cacute; tego, kt&oacute;re akta nale&zdot;&aogon; do sfery publicznej, a kt&oacute;re do prywatnej? Zestawienie inwentarzy sugeruje, &zdot;e tak: Zesp&oacute;&lstrok; 70 ma charakter wyra&zacute;nie urz&eogon;dowy (raporty, rozkazy, korespondencja s&lstrok;u&zdot;bowa), podczas gdy w rodzinie pozosta&lstrok;y dokumenty o charakterze osobistym (listy prywatne, fotografie, ordery w orygina&lstrok;ach, pami&aogon;tki). Ten &sacute;wiadomy podzia&lstrok; jest sam w sobie &zacute;r&oacute;d&lstrok;em informacji o mentalno&sacute;ci archiwalnej tw&oacute;rcy zespo&lstrok;u.</p>
 
 
-<h3>Szerszy kontekst archiwalny: zespo&lstrok;y powi&aogon;zane</h3>
+<!-- ============================================================ -->
+<h2>9. Wnioski</h2>
+<!-- ============================================================ -->
 
-<p>Kolekcja ARG nie istnieje w pr&oacute;&zdot;ni archiwalnej. W samym Instytucie Pi&lstrok;sudskiego w Londynie przechowywane s&aogon; zespo&lstrok;y, kt&oacute;re bezpo&sacute;rednio krzy&zdot;uj&aogon; si&eogon; z biografi&aogon; genera&lstrok;a G&lstrok;uchowskiego i jego rodziny:</p>
+<p>Analiza por&oacute;wnawcza kolekcji prywatnej ARG i Zespo&lstrok;u 70 Instytutu Pi&lstrok;sudskiego prowadzi do nast&eogon;puj&aogon;cych wniosk&oacute;w:</p>
 
-<table>
-<tr><th>Zesp&oacute;&lstrok;</th><th>Nazwa</th><th>Powi&aogon;zanie z kolekcj&aogon; ARG</th></tr>
-<tr><td>17</td><td>Archiwum Ludwika Kmicic-Skrzy&nacute;skiego</td><td><strong>Ostatni &zdot;yj&aogon;cy z Si&oacute;demki Beliny</strong> (1893&ndash;1972, Manchester). Dokumenty dot. 1 P.U&lstrok;. Legion&oacute;w (Beliniak&oacute;w) i <strong>7 P.U&lstrok;. Lubelskich</strong> &mdash; pu&lstrok;ku za&lstrok;o&zdot;onego przez G&lstrok;uchowskiego. Wspomnienia. Lustrzane odbicie serii ARG/II.</td></tr>
-<tr><td>19</td><td>Archiwum Kazimierza Sosnkowskiego</td><td>Mamy list Sosnkowskiego DO G&lstrok;uchowskiego (ARG/II/27). W Zespole 19 mo&zdot;e by&cacute; <strong>druga strona korespondencji</strong> &mdash; listy G&lstrok;uchowskiego do Sosnkowskiego. Zamyka &lstrok;uk 51 lat.</td></tr>
-<tr><td>22</td><td>Legiony 1914&ndash;1918</td><td>Okres Si&oacute;demki Beliny. Relacje, rozkazy, dokumenty z tego samego patrolu i kampanii legionowej.</td></tr>
-<tr><td>23</td><td>Wojna polsko-bolszewicka 1919&ndash;1920</td><td>G&lstrok;uchowski dowodzi&lstrok; 7 P.U&lstrok;. w tej wojnie. Telegramy frontowe, plany bitew. Korespondencja od oficera &lstrok;&aogon;cznikowego przy sztabie <strong>marsz. Focha</strong> &mdash; kt&oacute;ry dekorowa&lstrok; G&lstrok;uchowskiego w 1923.</td></tr>
-<tr><td>201</td><td>Zbi&oacute;r fotograficzny</td><td>Albumy z I wojny, mi&eogon;dzywojnia, emigracji &mdash; mog&aogon; zawiera&cacute; zdj&eogon;cia G&lstrok;uchowskiego, Si&oacute;demki, 7 P.U&lstrok;.</td></tr>
-</table>
+<p><strong>1.</strong> Oba zbiory s&aogon; <strong>komplementarne, nie konkurencyjne</strong>. Zesp&oacute;&lstrok; 70 (9 jednostek) dokumentuje karier&eogon; oficjaln&aogon; &mdash; s&lstrok;u&zdot;b&eogon;, korespondencj&eogon; korporacyjn&aogon;, raporty. Kolekcja ARG/II (33 jednostki) dokumentuje &zdot;ycie prywatne, relacje osobiste i kontekst rodzinny. Dopiero po&lstrok;&aogon;czenie obu pozwala zrekonstruowa&cacute; pe&lstrok;n&aogon; biografi&eogon; archiwalnl&aogon;.</p>
 
-<p>Szczeg&oacute;lnie istotny jest Zesp&oacute;&lstrok; 17 &mdash; archiwum Kmicic-Skrzy&nacute;skiego. Dw&oacute;ch z siedmiu kawalerzyst&oacute;w, kt&oacute;rzy tamtej sierpniowej nocy 1914 roku przekroczyli granic&eogon;, z&lstrok;o&zdot;y&lstrok;o swoje pami&aogon;tki w tym samym Instytucie, kt&oacute;ry jeden z nich wsp&oacute;&lstrok;za&lstrok;o&zdot;y&lstrok;. Zestawienie Zespo&lstrok;u 17 z Zespo&lstrok;em 70 i kolekcj&aogon; ARG pozwoli&lstrok;oby odtworzy&cacute; histori&eogon; Si&oacute;demki Beliny z dw&oacute;ch perspektyw osobistych &mdash; dow&oacute;dcy (Belina nie pozostawi&lstrok; archiwum, zmar&lstrok; w 1938) i jego zast&eogon;pcy, uzupe&lstrok;nionych o wspomnienia ostatniego &zdot;yj&aogon;cego &sacute;wiadka.<sup><a href="#fn8" class="footnote-ref">8</a></sup></p>
+<p><strong>2.</strong> Kolekcja ARG zawiera <strong>dokumenty o najwy&zdot;szej warto&sacute;ci &zacute;r&oacute;d&lstrok;owej</strong>, nieobecne w zbiorach instytucjonalnych. W szczeg&oacute;lno&sacute;ci: korespondencja Sosnkowskiego z &bdquo;Pro Memoria&rdquo; (ARG/II/27&ndash;29), list marsza&lstrok;ka &Sacute;mig&lstrok;ego-Rydza (ARG/II/14), oryginalny dyplom Orderu Gwiazdy Rumunii (ARG/II/16), fotokopia Si&oacute;demki Beliny z podpisami (ARG/II/2). Ka&zdot;dy z tych dokument&oacute;w stanowi unikat.</p>
 
+<p><strong>3.</strong> <strong>Wielopokoleniowy charakter kolekcji ARG</strong> (5 os&oacute;b w 6 seriach) daje jej warto&sacute;&cacute; niedost&eogon;pn&aogon; z poziomu Zespo&lstrok;u 70. Rodzina G&lstrok;uchowskich &mdash; od ojca w PON, przez genera&lstrok;a w Legionach i II RP, braci w AK i Powstaniu, po bratanka-emigranta w Brazylii &mdash; stanowi mikrohistori&eogon; polskiego XX wieku.</p>
 
-<h2>6. List Sosnkowskiego: &lstrok;uk pi&eogon;&cacute;dziesi&eogon;ciu lat</h2>
+<p><strong>4.</strong> <strong>Powi&aogon;zania z pi&eogon;cioma kolejnymi zespo&lstrok;ami</strong> Instytutu (17, 19, 22, 23, 201) tworz&aogon; szeroki kontekst archiwalny, w kt&oacute;rym kolekcja ARG pe&lstrok;ni rol&eogon; w&eogon;z&lstrok;a &lstrok;&aogon;cz&aogon;cego &zacute;r&oacute;d&lstrok;a rozproszone mi&eogon;dzy wieloma zasobami. Zesp&oacute;&lstrok; 17 (Kmicic-Skrzy&nacute;ski) jest tu szczeg&oacute;lnie istotny: dw&oacute;ch z Si&oacute;demki Beliny z&lstrok;o&zdot;y&lstrok;o swoje archiwa w tej samej instytucji.</p>
 
-<p>Spo&sacute;r&oacute;d wszystkich dokument&oacute;w w kolekcji ARG, jeden zas&lstrok;uguje na szczeg&oacute;ln&aogon; uwag&eogon; archiwoznawcz&aogon;. 28 maja 1964 roku genera&lstrok; broni Kazimierz Sosnkowski &mdash; by&lstrok;y Naczelny W&oacute;dz Polskich Si&lstrok; Zbrojnych (1943&ndash;1944) &mdash; napisa&lstrok; z kanadyjskiej farmy w Arundel (prowincja Quebec) list do genera&lstrok;a G&lstrok;uchowskiego. Sosnkowski zaczyna&lstrok; od s&lstrok;&oacute;w &bdquo;Kochany Generale&rdquo; i przeprasza&lstrok; za nieporozumienie zwi&aogon;zane z Instytutem Pi&lstrok;sudskiego i spraw&aogon; Larousse&rsquo;a. Pisa&lstrok; o pracy nad przedmow&aogon; dla Narobutta. I &mdash; co szczeg&oacute;lnie poruszaj&aogon;ce &mdash; obiecywa&lstrok;: &bdquo;postaram si&eogon; przy&sacute;pieszy&cacute; spraw&eogon; o patrolu Beliny.&rdquo;<sup><a href="#fn6" class="footnote-ref">6</a></sup></p>
+<p><strong>5.</strong> Podzia&lstrok; dokument&oacute;w mi&eogon;dzy zbi&oacute;r instytucjonalny i prywatny odzwierciedla <strong>&sacute;wiadomy wyb&oacute;r archiwalny tw&oacute;rcy zespo&lstrok;u</strong>, kt&oacute;ry by&lstrok; jednocze&sacute;nie wsp&oacute;&lstrok;za&lstrok;o&zdot;ycielem instytucji przechowuj&aogon;cej jego akta. Ta podw&oacute;jna rola &mdash; depozytariusza i za&lstrok;o&zdot;yciela &mdash; czyni przypadek G&lstrok;uchowskiego wyj&aogon;tkowym w archiwoznawstwie emigracji polskiej.</p>
 
-<p>Ten list by&lstrok; jednym z ostatnich dokument&oacute;w &lstrok;&aogon;cz&aogon;cych dw&oacute;ch ludzi, kt&oacute;rzy znali si&eogon; od 1913 roku. Pi&eogon;&cacute;dziesi&aogon;t jeden lat historii zamkni&eogon;tej w jednej kopercie &mdash; od konspiracji strzeleckiej w Galicji, przez dwie wojny i kl&eogon;sk&eogon;, po staro&sacute;&cacute; na obczy&zacute;nie. G&lstrok;uchowski zmar&lstrok; czterna&sacute;cie dni p&oacute;&zacute;niej, 11 czerwca 1964 roku. Sosnkowski prze&zdot;y&lstrok; go o pi&eogon;&cacute; lat, umieraj&aogon;c w 1969 roku.</p>
-
-<p>Do listu do&lstrok;&aogon;czony jest dwustronicowy dokument &bdquo;Pro Memoria&rdquo; (ARG/II/28&ndash;29) &mdash; lista dwudziestu czterech spraw i zlece&nacute;, kt&oacute;re Sosnkowski prowadzi&lstrok; jednocze&sacute;nie. Pi&aogon;ta pozycja to pro&sacute;ba G&lstrok;uchowskiego o tekst na temat pocz&aogon;tk&oacute;w kawalerii. Si&oacute;dma &mdash; pro&sacute;ba pu&lstrok;kownika Smole&nacute;skiego o wspomnienia z patrolu Beliny. Dalej pojawiaj&aogon; si&eogon; nazwiska, kt&oacute;re same stanowi&aogon; histori&eogon; polskiej emigracji: Jerzy Giedroyc z paryskiej &bdquo;Kultury,&rdquo; Jan Nowak-Jeziora&nacute;ski z Radia Wolna Europa, rocznica genera&lstrok;a Sikorskiego w Chicago. Ca&lstrok;a siatka polskiego &zdot;ycia intelektualnego na uchod&zacute;stwie &mdash; od Buenos Aires po Toronto &mdash; skupiona w jednym dokumencie.</p>
+<p><strong>Postulat badawczy:</strong> Wskazane jest przeprowadzenie pe&lstrok;nej analizy por&oacute;wnawczej na poziomie dokumentu jednostkowego, obejmuj&aogon;cej dost&eogon;p do orygina&lstrok;&oacute;w Zespo&lstrok;u 70 w czytelni Instytutu Pi&lstrok;sudskiego w Londynie, a tak&zdot;e kwerend&eogon; w Zespo&lstrok;ach 17 i 19 pod k&aogon;tem korespondencji wzajemnej. Przydatna by&lstrok;aby r&oacute;wnie&zdot; kwerenda w Zespole 22 (listy oficer&oacute;w Legionow, jedn. 37 i 90) w celu potwierdzenia obecno&sacute;ci G&lstrok;uchowskiego w wykazach personalnych.</p>
 
 
-<h2>7. Struktura kolekcji ARG: sze&sacute;&cacute; serii, pi&eogon;&cacute; pokole&nacute;</h2>
-
-<p>Kolekcja prywatna ARG zosta&lstrok;a skatalogowana w standardzie ISAD(G) i obejmuje sze&sacute;&cacute; serii tematycznych, z kt&oacute;rych ka&zdot;da odpowiada jednemu cz&lstrok;onkowi rodziny G&lstrok;uchowskich:</p>
-
-<table>
-<tr><th>Seria</th><th>Osoba</th><th>Liczba jedn.</th><th>Zakres</th></tr>
-<tr><td>ARG/I</td><td>Marian G&lstrok;uchowski (ojciec)</td><td>6</td><td>1914 &mdash; PON, dzia&lstrok;alno&sacute;&cacute; niepodleg&lstrok;o&sacute;ciowa</td></tr>
-<tr><td>ARG/II</td><td>Gen. Janusz G&lstrok;uchowski</td><td>33</td><td>1905&ndash;1964 &mdash; od OB PPS po emigracj&eogon;</td></tr>
-<tr><td>ARG/III</td><td>Mjr Stefan G&lstrok;uchowski (brat)</td><td>6</td><td>1944&ndash;1945 &mdash; AK, Stalag XI-B</td></tr>
-<tr><td>ARG/IV</td><td>Lech G&lstrok;uchowski &bdquo;Je&zdot;ycki&rdquo; (brat)</td><td>wzm.</td><td>1900&ndash;1944, poleg&lstrok; w Powstaniu (15.IX.1944)</td></tr>
-<tr><td>ARG/V</td><td>Krzysztof G&lstrok;uchowski &bdquo;Jura&sacute;&rdquo; (bratanek)</td><td>150+</td><td>1926&ndash;2020 &mdash; Powstanie, jeniec, emigracja, Brazylia</td></tr>
-<tr><td>ARG/VI</td><td>Dokumenty rodzinne / Varia</td><td>22</td><td>Dokumenty podr&oacute;&zdot;y, pami&aogon;tki, korespondencja</td></tr>
-</table>
-
-<p>Ta struktura ujawnia archiwoznawcz&aogon; warto&sacute;&cacute; kolekcji: Zesp&oacute;&lstrok; 70 koncentruje si&eogon; wy&lstrok;&aogon;cznie na generale, podczas gdy kolekcja ARG dokumentuje ca&lstrok;&aogon; rodzin&eogon; &mdash; od ojca-dzia&lstrok;acza PON (seria I), przez genera&lstrok;a (seria II), braci walcz&aogon;cych w AK i Powstaniu (serie III&ndash;IV), po bratanka-powstanza emigruj&aogon;cego do Brazylii (seria V). Dopiero ten szerszy kontekst rodzinny pozwala zrozumie&cacute; pe&lstrok;ny wymiar &zdot;ycia genera&lstrok;a &mdash; nie jako izolowanej postaci, lecz jako cz&lstrok;owieka osadzonego w tradycji, kt&oacute;rej s&lstrok;u&zdot;y&lstrok;.</p>
-
-
-<h2>8. Metodologia por&oacute;wnania: od inwentarza do komplementarno&sacute;ci</h2>
-
-<p>Analiz&eogon; komplementarno&sacute;ci przeprowadzono metod&aogon; por&oacute;wnania inwentarzy &mdash; pozycja po pozycji. Dla ka&zdot;dego dokumentu kolekcji ARG serii II (33 jednostki) weryfikowano, czy odpowiadaj&aogon;cy mu dokument istnieje w Zespole 70. Zastosowano trzy kategorie:</p>
-
-<p><strong>Kategoria A &mdash; duplikaty:</strong> Dokumenty obecne w obu zbiorach (np. odpisy mianowa&nacute;, kopie rozkazw). Warto&sacute;&cacute; archiwalna: potwierdzaj&aogon;ca, uwierzytelniaj&aogon;ca.</p>
-
-<p><strong>Kategoria B &mdash; uzupe&lstrok;nienia:</strong> Dokumenty obecne tylko w ARG, kt&oacute;re dotycz&aogon; okres&oacute;w lub wydarze&nacute; udokumentowanych w Zespole 70. Warto&sacute;&cacute;: uzupe&lstrok;niaj&aogon;ca, kontekstualizuj&aogon;ca. Przyk&lstrok;ady: list &Sacute;mig&lstrok;ego-Rydza (ARG/II/14), zaproszenie od Focha (ARG/II/15), Order Rumunii (ARG/II/16).</p>
-
-<p><strong>Kategoria C &mdash; unikaty:</strong> Dokumenty bez odpowiednika w Zespole 70, dokumentuj&aogon;ce aspekty &zdot;ycia nieobj&eogon;te archiwum instytucjonalnym. Warto&sacute;&cacute;: najwy&zdot;sza, &zacute;r&oacute;d&lstrok;owa. Przyk&lstrok;ady: korespondencja Sosnkowskiego (ARG/II/27&ndash;29), fotokopia Si&oacute;demki z podpisami (ARG/II/2), portret w mundurze ga&lstrok;owym (ARG/II/23).</p>
-
-<p>Wst&eogon;pne wyniki wskazuj&aogon;, &zdot;e oko&lstrok;o 60% dokument&oacute;w serii II nale&zdot;y do kategorii B lub C &mdash; czyli stanowi materia&lstrok; nieznany z Zespo&lstrok;u 70. To potwierdza tez&eogon; o wysokiej komplementarno&sacute;ci obu zbior&oacute;w.<sup><a href="#fn7" class="footnote-ref">7</a></sup></p>
-
-
-<h2>9. Genera&lstrok; jako instytucja: za&lstrok;o&zdot;yciel i depozytariusz</h2>
-
-<p>Jest pewna ironia losu w tym, &zdot;e genera&lstrok; G&lstrok;uchowski wsp&oacute;&lstrok;za&lstrok;o&zdot;y&lstrok; instytucj&eogon;, w kt&oacute;rej jego w&lstrok;asne akta s&aogon; dzi&sacute; przechowywane. 15 marca 1947 roku, nieca&lstrok;e dwa lata po zako&nacute;czeniu wojny, grupa polskich oficer&oacute;w i dzia&lstrok;aczy powo&lstrok;a&lstrok;a do &zdot;ycia Instytut J&oacute;zefa Pi&lstrok;sudskiego w Londynie. G&lstrok;uchowski by&lstrok; jednym z nich &mdash; z pe&lstrok;n&aogon; &sacute;wiadomo&sacute;ci&aogon;, &zdot;e skoro pow&oacute;t do kraju jest niemo&zdot;liwy, trzeba stworzy&cacute; miejsce, kt&oacute;re ocali pami&eogon;&cacute;.</p>
-
-<p>Instytut pe&lstrok;ni&lstrok; &mdash; i pe&lstrok;ni do dzi&sacute; &mdash; podw&oacute;jn&aogon; funkcj&eogon;: archiwum i &sacute;wi&aogon;tyni. Gromadzi&lstrok; dokumenty ludzi, kt&oacute;rzy nie mogli powr&oacute;ci&cacute;, a jednocze&sacute;nie podtrzymywa&lstrok; tradycj&eogon; pa&nacute;stwa, kt&oacute;re formalnie istnia&lstrok;o, lecz zosta&lstrok;o przej&eogon;te przez obcy re&zdot;im. Zesp&oacute;&lstrok; 70 &mdash; akta genera&lstrok;a G&lstrok;uchowskiego &mdash; jest jednym z wielu takich depozyt&oacute;w. Ale jest te&zdot; czym&sacute; wi&eogon;cej: jest &sacute;wiadectwem cz&lstrok;owieka, kt&oacute;ry nie tylko odda&lstrok; archiwum swoje dokumenty, lecz tak&zdot;e pomo&zdot;e stworzy&cacute; sam&aogon; instytucj&eogon;.</p>
-
-
-<h2>10. Wnioski</h2>
-
-<p>Analiza por&oacute;wnawcza kolekcji prywatnej ARG i Zespo&lstrok;u 70 Instytutu Pi&lstrok;sudskiego prowadzi do trzech g&lstrok;&oacute;wnych wniosk&oacute;w:</p>
-
-<p><strong>Po pierwsze,</strong> oba zbiory s&aogon; komplementarne, nie konkurencyjne. Zesp&oacute;&lstrok; 70 dokumentuje karrier&eogon; oficjaln&aogon;; kolekcja ARG &mdash; &zdot;ycie prywatne, kontekst rodzinny i relacje osobiste. Dopiero po&lstrok;&aogon;czenie obu pozwala zrekonstruowa&cacute; pe&lstrok;n&aogon; biografi&eogon; archiwln&aogon;.</p>
-
-<p><strong>Po drugie,</strong> kolekcja ARG zawiera dokumenty o najwy&zdot;szej warto&sacute;ci &zacute;r&oacute;d&lstrok;owej, nieobecne w zbiorach instytucjonalnych &mdash; w szczeg&oacute;lno&sacute;ci korespondencj&eogon; Sosnkowskiego (ARG/II/27&ndash;29), list marsza&lstrok;ka &Sacute;mig&lstrok;ego-Rydza (ARG/II/14) oraz oryginalny dyplom orderowy Gwiazdy Rumunii (ARG/II/16). Ka&zdot;dy z tych dokument&oacute;w stanowi unikat.</p>
-
-<p><strong>Po trzecie,</strong> wielopokoleniowy charakter kolekcji ARG (pi&eogon;&cacute; cz&lstrok;onk&oacute;w rodziny w sze&sacute;ciu seriach) daje jej warto&sacute;&cacute; niedost&eogon;pn&aogon; dla Zespo&lstrok;u 70, kt&oacute;ry koncentruje si&eogon; wy&lstrok;&aogon;cznie na generale. Rodzina G&lstrok;uchowskich &mdash; od ojca-dzia&lstrok;acza PON, przez genera&lstrok;a-legionist&eogon;, braci w AK i Powstaniu, po bratanka-emigranta w Brazylii &mdash; stanowi mikrohistori&eogon; polskiego XX wieku, w kt&oacute;rej ka&zdot;de pokolenie walczy&lstrok;o o niepodleg&lstrok;o&sacute;&cacute; innymi &sacute;rodkami i w innych okoliczno&sacute;ciach.</p>
-
-<p>Genera&lstrok; G&lstrok;uchowski przeszed&lstrok; drog&eogon; od siedemnastoletniego bojowca PPS w Kongres&oacute;wce, przez kawalerzyst&eogon; Si&oacute;demki Beliny, tw&oacute;rc&eogon; pu&lstrok;ku u&lstrok;an&oacute;w, wiceministra spraw wojskowych, dow&oacute;dc&eogon; PSZ na uchod&zacute;stwie, a&zdot; po wsp&oacute;&lstrok;za&lstrok;o&zdot;yciela instytucji, kt&oacute;ra ocali&lstrok;a pami&eogon;&cacute; o tym wszystkim. Jego &zdot;ycie &mdash; zamkni&eogon;te mi&eogon;dzy dwoma archiwami &mdash; jest opowie&sacute;ci&aogon; o cz&lstrok;owieku, kt&oacute;ry s&lstrok;u&zdot;y&lstrok; pa&nacute;stwu nawet wtedy, gdy to pa&nacute;stwo przesta&lstrok;o istnie&cacute;. A jego dokumenty &mdash; rozdzielone mi&eogon;dzy zbi&oacute;r instytucjonalny i kolekcj&eogon; rodzinn&aogon; &mdash; czekaj&aogon; na ponowne po&lstrok;&aogon;czenie.</p>
-
-
+<!-- ============================================================ -->
 <!-- PRZYPISY -->
+<!-- ============================================================ -->
 <div class="footnotes">
   <h2>Przypisy</h2>
   <ol>
-    <li id="fn1">Instytut J&oacute;zefa Pi&lstrok;sudskiego w Londynie, za&lstrok;. 15.III.1947, przechowuje w Zespole 70 akta urz&eogon;dowe gen. G&lstrok;uchowskiego. Kolekcja prywatna ARG pozosta&lstrok;a w r&eogon;kach rodziny i jest przedmiotem niniejszego opracowania.</li>
-    <li id="fn2">Identyfikacja uczestnik&oacute;w patrolu na podstawie: IPN, baza biogramowa; jpilsudski.org; fotokopia grupowa z podpisami ARG/II/2. Data patrolu: 2/3.VIII.1914.</li>
-    <li id="fn3">ARG/II/1, Biogram WBH nr 76/45, 24.V.1937. Dokument potwierdza: OB PPS od 1905, ZWC w Li&egrave;ge (wsp&oacute;&lstrok;za&lstrok;o&zdot;yciel z T. Piskorem), Zwi&aogon;zek Strzelecki. Piskor &mdash; p&oacute;&zacute;niejszy genera&lstrok; dywizji, szef Sztabu G&lstrok;&oacute;wnego WP.</li>
-    <li id="fn4">ARG/II/17, pismo MSWojsk L.75/25 G.M.I. z 29.XI.1925. W II RP oficerowie potrzebowali dekretu prezydenckiego z kontrasygnatar&aogon; ministerialn&aogon; do noszenia zagranicznych odznacze&nacute;.</li>
-    <li id="fn5">Data za&lstrok;o&zdot;enia Instytutu: 15.III.1947. G&lstrok;uchowski figuruje w&sacute;r&oacute;d wsp&oacute;&lstrok;za&lstrok;o&zdot;ycieli. Zesp&oacute;&lstrok; 70 zosta&lstrok; wydzielony jako odr&eogon;bna jednostka archiwalna.</li>
-    <li id="fn6">ARG/II/27, list gen. Sosnkowskiego do gen. G&lstrok;uchowskiego, dat. 28.V.1964, Arundel, P. Qu&eacute;bec, Kanada. Sosnkowski u&zdot;y&lstrok; formu&lstrok;y &bdquo;Kochany Generale.&rdquo; Do listu do&lstrok;&aogon;czono &bdquo;Pro Memoria&rdquo; (ARG/II/28&ndash;29) z 24 pozycjami spraw. G&lstrok;uchowski zmar&lstrok; 14 dni p&oacute;&zacute;niej.</li>
-    <li id="fn7">Analiza wst&eogon;pna oparta na por&oacute;wnaniu inwentarza Zespo&lstrok;u 70 (dost&eogon;pnego w czytelni Instytutu Pi&lstrok;sudskiego) z pe&lstrok;nym katalogiem kolekcji ARG. Pe&lstrok;na taksonomia wymaga dost&eogon;pu do orygina&lstrok;&oacute;w obu zbior&oacute;w.</li>
-    <li id="fn8">Zesp&oacute;&lstrok; 17 (Archiwum L. Kmicic-Skrzy&nacute;skiego) zawiera materia&lstrok;y dot. dzia&lstrok;alno&sacute;ci 1 Pu&lstrok;ku U&lstrok;an&oacute;w Legion&oacute;w Polskich &mdash; Beliniak&oacute;w oraz 7 Pu&lstrok;ku U&lstrok;an&oacute;w Lubelskich. Zesp&oacute;&lstrok; 19 (Archiwum K. Sosnkowskiego) zawiera &zdot;yciorys, dane biograficzne, meldunki, notatki, korespondencje. Zesp&oacute;&lstrok; 22 &mdash; Legiony 1914&ndash;1918. Zesp&oacute;&lstrok; 23 &mdash; Wojna polsko-bolszewicka 1919&ndash;1920 (m.in. korespondencja od oficera &lstrok;&aogon;cznikowego przy sztabie marsz. Focha). Opis zdigitalizowanych kolekcji: www.pilsudski.org.uk/pl/katalog.php.</li>
+    <li id="fn1">O rozproszeniu archiw&oacute;w emigracji polskiej zob. R. Habielski, <em>&Zdot;ycie spo&lstrok;eczne i kulturalne emigracji</em>, Warszawa 1999; M. Kry&nacute;ska-&Lstrok;owi&nacute;ska, <em>Instytut Pi&lstrok;sudskiego w Londynie: geneza i dzia&lstrok;alno&sacute;&cacute;</em>, &bdquo;Teki Archiwalne,&rdquo; seria nowa, t. 11, 2012. Instytut Pi&lstrok;sudskiego w Londynie przechowuje ponad 200 zespo&lstrok;&oacute;w; Instytut Sikorskiego &mdash; ponad 400.</li>
+    <li id="fn2">Instytut J&oacute;zefa Pi&lstrok;sudskiego w Londynie, za&lstrok;. 15.III.1947, zarejestrowany w bazie SEZAM/IZA NDAP pod nr 709. G&lstrok;uchowski figuruje w&sacute;r&oacute;d wsp&oacute;&lstrok;za&lstrok;o&zdot;ycieli. Zesp&oacute;&lstrok; 70 wydzielony jako odr&eogon;bna jednostka archiwalna.</li>
+    <li id="fn3">ARG/II/1, Biogram WBH nr 76/45, 24.V.1937. Potwierdza: OB PPS od 1905 (w wieku 17 lat), ZWC w Li&egrave;ge (wsp&oacute;&lstrok;za&lstrok;o&zdot;yciel z T. Piskorem, p&oacute;&zacute;niejszym gen. dyw. i szefem Sztabu G&lstrok;&oacute;wnego WP), Zwi&aogon;zek Strzelecki. Dokument sporz&aogon;dzony za &zdot;ycia bohatera i zweryfikowany przez instytucj&eogon; wojskow&aogon;.</li>
+    <li id="fn4">Identyfikacja uczestnik&oacute;w patrolu na podstawie: IPN, baza biogramowa (ipn.gov.pl); jpilsudski.org (Instytut Pi&lstrok;sudskiego w Ameryce); fotokopia grupowa z podpisami ARG/II/2. Data patrolu: noc 2/3.VIII.1914. Zob. J. Litewski, <em>Si&oacute;demka Beliny</em>, Krak&oacute;w 1999.</li>
+    <li id="fn5">ARG/II/15: zaproszenie datowane IV.1923, ceremonia 3.V.1923, Plac Saski (dzi&sacute; Plac Pi&lstrok;sudskiego), Warszawa. ARG/II/16: dyplom Ordinul Steaua Rom&acirc;niei w stopniu Comandor, podpisany przez kr&oacute;la Ferdynanda I i ministra I.G. Duc&aogon;, Sinaia, 1.VIII.1923. ARG/II/17: pismo MSWojsk L.75/25 G.M.I. z 29.XI.1925; w II RP oficerowie potrzebowali dekretu prezydenckiego z kontrasygnatar&aogon; ministerialn&aogon; do noszenia zagranicznych odznacze&nacute;.</li>
+    <li id="fn6">Encyklopedia PWN, has&lstrok;o &bdquo;G&lstrok;uchowski Janusz&rdquo; (encyklopedia.pwn.pl/haslo/3906169). IPN, biogram &bdquo;Janusz G&lstrok;uchowski&rdquo; (ipn.gov.pl/pl/100-bohaterow-na-100-le/104516). Cmentarz Brompton, Londyn, gr&oacute;b nr 576.</li>
+    <li id="fn7">Opis Zespo&lstrok;u 70: Instytut Pi&lstrok;sudskiego w Londynie, pilsudski.org.uk/pl/archiwum-070.php (dost&eogon;p: III.2026). Inwentarz ma charakter ramowy; pe&lstrok;ny opis na poziomie dokumentu dost&eogon;pny w czytelni Instytutu.</li>
+    <li id="fn8">Obecno&sacute;&cacute; wierszy w Zespole 70 (jedn. 6, wspólnie z raportami i zapisami rozmów, 1940&ndash;1945) jest zaskakuj&aogon;ca i mo&zdot;e wskazywa&cacute; na aktywno&sacute;&cacute; literack&aogon; genera&lstrok;a w okresie wojennym. Kalendarze i notatnik (jedn. 1) mog&aogon; pe&lstrok;ni&cacute; funkcj&eogon; dziennika &mdash; wymagaj&aogon; weryfikacji in situ.</li>
+    <li id="fn9">Odsetek 60% ma charakter szacunkowy, oparty na por&oacute;wnaniu inwentarza ramowego Zesp. 70 z pe&lstrok;nym katalogiem ARG. Pe&lstrok;na taksonomia wymaga dost&eogon;pu do orygina&lstrok;&oacute;w obu zbior&oacute;w i por&oacute;wnania na poziomie dokumentu jednostkowego. Szczeg&oacute;lne trudno&sacute;ci sprawia jednostka 3 Zesp. 70 (&bdquo;korespondencja s&lstrok;u&zdot;bowa i prywatna, 1940&ndash;1961&rdquo;), kt&oacute;rej zakres mo&zdot;e cz&eogon;&sacute;ciowo pokrywa&cacute; si&eogon; z ARG/II/24&ndash;26.</li>
+    <li id="fn10">ARG/II/27, list gen. broni Kazimierza Sosnkowskiego (1885&ndash;1969) do gen. dyw. Janusza G&lstrok;uchowskiego, dat. 28.V.1964, Arundel, P. Qu&eacute;bec, Kanada. Inskrypcja: &bdquo;Kochany Generale.&rdquo; Do listu do&lstrok;&aogon;czono &bdquo;Pro Memoria&rdquo; (ARG/II/28 &mdash; strona 1, ARG/II/29 &mdash; strona 2) z 24 pozycjami spraw. G&lstrok;uchowski zmar&lstrok; 14 dni p&oacute;&zacute;niej (11.VI.1964). Sosnkowski pisa&lstrok; z farmy w Arundel, prowincja Quebec, dok&aogon;d wyemigrowa&lstrok; w XI.1944. Zmar&lstrok; 11.X.1969.</li>
+    <li id="fn11">Zesp&oacute;&lstrok; 19 (Archiwum Sosnkowskiego), 33 jednostki. Jedn. 14: &bdquo;Korespondencja &sacute;ci&sacute;le tajna z dow&oacute;dcami (1944, 1948&ndash;52)&rdquo;; jedn. 15: &bdquo;Kopie list&oacute;w prywatnych (1939&ndash;44, 1970)&rdquo;; jedn. 18: &bdquo;Korespondencja wydawnicza, pisma wybrane Sosnkowskiego (1956, 1964&ndash;65).&rdquo; Rok 1964 w jedn. 17 i 18 pokrywa si&eogon; z dat&aogon; listu ARG/II/27. Opis zespo&lstrok;u: pilsudski.org.uk/pl/archiwum-019.php.</li>
+    <li id="fn12">Zesp&oacute;&lstrok; 17 (Archiwum L. Kmicic-Skrzy&nacute;skiego). Nota biograficzna wg opisu zespo&lstrok;u (pilsudski.org.uk/pl/archiwum-017.php): ur. 1893 Odessa, studia chemii w Nancy, pluton Zwi&aogon;zku Strzeleckiego, Legiony, kampania wrze&sacute;niowa, Oflag IID Gross-Born, 2 Korpus Polski, osiedlenie w Manchesterze. Zmar&lstrok; 14.II.1972. Jedn. 2: wspomnienia S. Stablewskiego o A. Jab&lstrok;o&nacute;skim, referat o Bitwie Warszawskiej 1920 (1964&ndash;65). Jedn. 3: relacje o pu&lstrok;ku u&lstrok;an&oacute;w Legion&oacute;w, pami&eogon;tnik Leona Kmicic-Skrzy&nacute;skiego (1916&ndash;1918). Jedn. 7: wspomnienia nagrywane dla RWE (1964), wspomnienia z lat 1916&ndash;1918.</li>
+    <li id="fn13">Instytut Pi&lstrok;sudskiego w Londynie, pe&lstrok;ny katalog zbior&oacute;w: pilsudski.org.uk/pl/katalog.php. Rejestracja NDAP pod nr 709: baza SEZAM (szukajwarchiwach.gov.pl). Stan na III.2026: ponad 200 zespo&lstrok;&oacute;w archiwalnych, w tym archiwa: J. Pi&lstrok;sudskiego (zesp. 1), A. Pi&lstrok;sudskiej (zesp. 2), K. Sosnkowskiego (zesp. 19), S. Mayera (zesp. 100), G. Langera (zesp. 133, materia&lstrok;y kryptologiczne), W. S&lstrok;awka (zesp. 92).</li>
   </ol>
 </div>
 
+
+<!-- ============================================================ -->
 <!-- BIBLIOGRAFIA -->
+<!-- ============================================================ -->
 <div class="bibliography">
   <h2>Bibliografia</h2>
 
   <div class="bib-section">
     <h3>&Zacute;r&oacute;d&lstrok;a archiwalne</h3>
     <p class="bib-entry">Kolekcja prywatna ARG &mdash; Archiwum Rodziny G&lstrok;uchowskich. 217 jednostek w 6 seriach (ARG/I&ndash;VI). Skatalogowane w standardzie ISAD(G), 2026.</p>
-    <p class="bib-entry">Instytut J&oacute;zefa Pi&lstrok;sudskiego w Londynie, Zesp&oacute;&lstrok; 70 &mdash; Akta gen. dyw. Janusza G&lstrok;uchowskiego. 9 jednostek, 1916&ndash;1964.</p>
-    <p class="bib-entry">Instytut J&oacute;zefa Pi&lstrok;sudskiego w Londynie, Zesp&oacute;&lstrok; 17 &mdash; Archiwum Ludwika Kmicic-Skrzy&nacute;skiego. Materia&lstrok;y dot. 1 P.U&lstrok;. Legion&oacute;w (Beliniak&oacute;w) i 7 P.U&lstrok;. Lubelskich.</p>
-    <p class="bib-entry">Instytut J&oacute;zefa Pi&lstrok;sudskiego w Londynie, Zesp&oacute;&lstrok; 19 &mdash; Archiwum Kazimierza Sosnkowskiego.</p>
-    <p class="bib-entry">Instytut J&oacute;zefa Pi&lstrok;sudskiego w Londynie, Zesp&oacute;&lstrok; 22 &mdash; Legiony 1914&ndash;1918.</p>
+    <p class="bib-entry">Instytut J&oacute;zefa Pi&lstrok;sudskiego w Londynie, Zesp&oacute;&lstrok; 17 &mdash; Archiwum Ludwika Kmicic-Skrzy&nacute;skiego. 8 jednostek.</p>
+    <p class="bib-entry">Instytut J&oacute;zefa Pi&lstrok;sudskiego w Londynie, Zesp&oacute;&lstrok; 19 &mdash; Archiwum Kazimierza Sosnkowskiego. 33 jednostki.</p>
+    <p class="bib-entry">Instytut J&oacute;zefa Pi&lstrok;sudskiego w Londynie, Zesp&oacute;&lstrok; 22 &mdash; Legiony 1914&ndash;1918. 120 jednostek, 1912&ndash;1988.</p>
     <p class="bib-entry">Instytut J&oacute;zefa Pi&lstrok;sudskiego w Londynie, Zesp&oacute;&lstrok; 23 &mdash; Wojna polsko-bolszewicka 1919&ndash;1920.</p>
+    <p class="bib-entry">Instytut J&oacute;zefa Pi&lstrok;sudskiego w Londynie, Zesp&oacute;&lstrok; 70 &mdash; Archiwum Janusza G&lstrok;uchowskiego. 9 jednostek, 1916&ndash;1964.</p>
+    <p class="bib-entry">Instytut J&oacute;zefa Pi&lstrok;sudskiego w Londynie, Zesp&oacute;&lstrok; 201 &mdash; Zbi&oacute;r fotograficzny.</p>
     <p class="bib-entry">Wojskowe Biuro Historyczne, Biogram nr 76/45 (24.V.1937) &mdash; gen. Janusz G&lstrok;uchowski.</p>
     <p class="bib-entry">Archiwum Historii M&oacute;wionej Muzeum Powstania Warszawskiego, sygn. 1889.</p>
   </div>
 
   <div class="bib-section">
     <h3>Opracowania</h3>
-    <p class="bib-entry">Chmielarz A., <em>Kedyw Okr&eogon;gu Warszawa AK</em>, Warszawa 2014.</p>
+    <p class="bib-entry">Chmielarz A., <em>Kedyw Okr&eogon;gu Warszawa Armii Krajowej. Dokumenty &mdash; rok 1944</em>, Warszawa 2014.</p>
     <p class="bib-entry">Habielski R., <em>&Zdot;ycie spo&lstrok;eczne i kulturalne emigracji</em>, Warszawa 1999.</p>
-    <p class="bib-entry">Instytut Pami&eogon;ci Narodowej, baza biogramowa &mdash; has&lstrok;a uczestnik&oacute;w patrolu Beliny.</p>
-    <p class="bib-entry">Kry&nacute;ska-&Lstrok;owi&nacute;ska M., <em>Instytut Pi&lstrok;sudskiego w Londynie: geneza i dzia&lstrok;alno&sacute;&cacute;</em>, &bdquo;Teki Archiwalne&rdquo; 2012.</p>
+    <p class="bib-entry">Kry&nacute;ska-&Lstrok;owi&nacute;ska M., &bdquo;Instytut Pi&lstrok;sudskiego w Londynie: geneza i dzia&lstrok;alno&sacute;&cacute;,&rdquo; <em>Teki Archiwalne</em>, seria nowa, t. 11, 2012.</p>
     <p class="bib-entry">Litewski J., <em>Si&oacute;demka Beliny</em>, Krak&oacute;w 1999.</p>
-    <p class="bib-entry">Stachiewicz P., <em>Parasol. Dzieje odzia&lstrok;u do Zada&nacute; Specjalnych Kedywu</em>, Warszawa 1984.</p>
+    <p class="bib-entry">Stachiewicz P., <em>Parasol. Dzieje odzia&lstrok;u do zada&nacute; specjalnych Kedywu Komendy G&lstrok;&oacute;wnej AK</em>, Warszawa 1984.</p>
     <p class="bib-entry">Wro&nacute;ski T., <em>Kronika Powstania Warszawskiego</em>, Warszawa 2004.</p>
   </div>
 
   <div class="bib-section">
     <h3>Portale i bazy danych</h3>
-    <p class="bib-entry">jpilsudski.org &mdash; Instytut Pi&lstrok;sudskiego w Ameryce, baza archiwalna.</p>
-    <p class="bib-entry">1944.pl &mdash; Muzeum Powstania Warszawskiego, biogramy powsta&nacute;c&oacute;w.</p>
-    <p class="bib-entry">szukajwarchiwach.gov.pl &mdash; Naczelna Dyrekcja Archiw&oacute;w Pa&nacute;stwowych.</p>
+    <p class="bib-entry">Instytut J&oacute;zefa Pi&lstrok;sudskiego w Londynie &mdash; katalog zbior&oacute;w: pilsudski.org.uk/pl/katalog.php</p>
+    <p class="bib-entry">Instytut Pi&lstrok;sudskiego w Ameryce &mdash; baza archiwalna: pilsudski.org</p>
+    <p class="bib-entry">Instytut Pami&eogon;ci Narodowej &mdash; baza biogramowa: ipn.gov.pl</p>
+    <p class="bib-entry">Encyklopedia PWN: encyklopedia.pwn.pl/haslo/Gluchowski-Janusz;3906169.html</p>
+    <p class="bib-entry">Muzeum Powstania Warszawskiego &mdash; biogramy: 1944.pl</p>
+    <p class="bib-entry">Naczelna Dyrekcja Archiw&oacute;w Pa&nacute;stwowych: szukajwarchiwach.gov.pl (baza SEZAM/IZA, Instytut Pi&lstrok;sudskiego Londyn &mdash; nr 709)</p>
   </div>
 </div>
 
