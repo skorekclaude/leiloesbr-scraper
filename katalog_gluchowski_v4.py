@@ -2836,7 +2836,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/127",
-        "photo": "juras_061_page62.png",
+        "photo": "juras_061_page62.jpeg",
         "tytul": "Certificate P.R.C. — kopia z pieczęcią",
         "data": "19.II.1948",
         "typ": "certyfikat",
@@ -2885,7 +2885,7 @@ OBJECTS = [
     # -- Podseria V/AC: Dokumenty tożsamości emigranta --
     {
         "sygn": "ARG/V/130",
-        "photo": "juras_064_page65.png",
+        "photo": "juras_064_page65.jpeg",
         "tytul": "Alien's Identity Certificate — South West Essex Technical College, 31.X.1947",
         "data": "31.X.1947",
         "typ": "karta_id",
@@ -2900,7 +2900,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/131",
-        "photo": "juras_065_page66.png",
+        "photo": "juras_065_page66.jpeg",
         "tytul": "Alien's Identity Certificate — verso (adres High Wycombe, Bucks)",
         "data": "1947–1948",
         "typ": "karta_id",
@@ -2917,7 +2917,7 @@ OBJECTS = [
     # -- Podseria V/AD: Biogram i weryfikacja --
     {
         "sygn": "ARG/V/132",
-        "photo": "juras_066_page67.png",
+        "photo": "juras_066_page67.jpeg",
         "tytul": "Biogram Krzysztofa Głuchowskiego — druk biograficzny",
         "data": "lata 60.–70. XX w.",
         "typ": "biogram",
@@ -2932,7 +2932,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/133",
-        "photo": "juras_067_page68.png",
+        "photo": "juras_067_page68.jpeg",
         "tytul": "Dokument War Office / MI5 (CONFIDENTIAL) — weryfikacja Głuchowskiego",
         "data": "1946–1947",
         "typ": "pismo",
@@ -2966,7 +2966,7 @@ OBJECTS = [
     # -- Podseria V/AF: Ephemera i kartki okolicznościowe --
     {
         "sygn": "ARG/V/135",
-        "photo": "juras_069_page70.png",
+        "photo": "juras_069_page70.jpeg",
         "tytul": "Kartka od Stowarzyszenia Polskich Przemysłowców (SPP) — życzenia",
         "data": "lata 50.–60. XX w.",
         "typ": "druk",
