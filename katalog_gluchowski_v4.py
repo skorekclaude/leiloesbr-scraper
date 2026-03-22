@@ -3028,7 +3028,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/139",
-        "photo": "juras_073_page74.png",
+        "photo": "juras_073_page74.jpeg",
         "tytul": "Bilet członkowski — verso ('This ticket is not transferable')",
         "data": "1947–1948",
         "typ": "bilet",
@@ -3043,7 +3043,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/140",
-        "photo": "juras_074_page75.png",
+        "photo": "juras_074_page75.jpeg",
         "tytul": "Rysunek odręczny — szkic żaglowca na morzu",
         "data": "ok. 1947–1948",
         "typ": "rysunek",
@@ -3060,7 +3060,7 @@ OBJECTS = [
     # -- Podseria V/AH: Prasa polonijna --
     {
         "sygn": "ARG/V/141",
-        "photo": "juras_075_page76.png",
+        "photo": "juras_075_page76.jpeg",
         "tytul": "Wycinek 'Życie Tygodnia' — CZYTELNICY PISZĄ, CMP 53",
         "data": "lata 40.–50. XX w.",
         "typ": "wycinek",
