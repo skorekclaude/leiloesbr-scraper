@@ -3075,7 +3075,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/142",
-        "photo": "juras_076_page77.png",
+        "photo": "juras_076_page77.jpeg",
         "tytul": "Okładka 'Życie Tygodnia' — 'Ameryka walczy z 5-tą kolumną'",
         "data": "lata 40. XX w.",
         "typ": "gazeta",
@@ -3090,7 +3090,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/143",
-        "photo": "juras_077_page78.png",
+        "photo": "juras_077_page78.jpeg",
         "tytul": "Wycinek prasowy 'Smutna, ale pouczająca sprawa' — Klaudiusz Hrabyk, prasa polonijna",
         "data": "lata 40.–50. XX w.",
         "typ": "wycinek prasowy",
@@ -3105,7 +3105,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/144",
-        "photo": "juras_078_page79.png",
+        "photo": "juras_078_page79.jpeg",
         "tytul": "Zaświadczenie płk. dypl. Ziemskiego Karola — potwierdzenie udziału w Powstaniu i odznaczenia Krzyżem Walecznych",
         "data": "po 1945",
         "typ": "zaswiadczenie",
