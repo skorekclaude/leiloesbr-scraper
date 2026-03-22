@@ -7517,7 +7517,7 @@ def generate_html():
 
             card_id = obj["sygn"].replace("/", "-")
             series_html += f'''    <div class="card" id="card-{card_id}">
-      <div class="card-img-wrap" onclick="openLightbox('{IMG_DIR}/{obj["photo"]}', '{js_escape(obj["tytul"])}')">
+      <div class="card-img-wrap" data-src="{IMG_DIR}/{obj["photo"]}" data-title="{escape(obj["tytul"])}" onclick="openLightbox(this.dataset.src, this.dataset.title)">
         <img src="{IMG_DIR}/{obj["photo"]}" alt="{escape(obj["tytul"])}" loading="lazy">
       </div>
       <div class="card-body">
@@ -8091,7 +8091,7 @@ document.addEventListener('DOMContentLoaded', function() {{
         all_typy.add(typ)
         all_serie.add(seria)
         img_path = f"gluchowski_img/{photo}"
-        photo_cards += f'''<div class="photo-card" data-seria="{escape(seria)}" data-typ="{escape(typ)}" data-search="{escape(sygn.lower())} {escape(title.lower())}" onclick="openLightbox('{IMG_DIR}/{photo}', '{js_escape(obj.get('tytul', ''))}')">
+        photo_cards += f'''<div class="photo-card" data-seria="{escape(seria)}" data-typ="{escape(typ)}" data-search="{escape(sygn.lower())} {escape(title.lower())}" data-src="{IMG_DIR}/{photo}" data-title="{escape(obj.get('tytul', ''))}" onclick="openLightbox(this.dataset.src, this.dataset.title)">
         <img src="{img_path}" alt="{escape(sygn)}" loading="lazy">
         <div class="card-info">
             <div class="card-sygn">{escape(sygn)}</div>
