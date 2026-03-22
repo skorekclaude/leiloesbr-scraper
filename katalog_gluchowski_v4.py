@@ -8884,13 +8884,13 @@ body.lang-active .card-lang-badge {{ display:inline; }}
     <div class="ap-sources" data-lang="nl">Bronnen: ARG/I–VI (313 eenheden), Collectie 70 van het Piłsudski-Instituut in Londen, Oral History Archief van het Museum van de Opstand van Warschau nr. 1889</div>
     <div class="ap-sources" data-lang="fr">Sources : ARG/I–VI (313 unités), Fonds 70 de l'Institut Piłsudski de Londres, Archives d'Histoire Orale du Musée de l'Insurrection de Varsovie réf. 1889</div>
     <div class="ap-sources" data-lang="yi">מקורות: ARG/I–VI (313 אייניקייטן), זאַמלונג 70 פֿון פּיווסודסקי-אינסטיטוט אין לאָנדאָן</div>
-    <a class="ap-link" href="artykul_regularne_wojsko_w_powstaniu.html" data-lang="pl"><span class="lock-icon">🔒</span>Czytaj pełny artykuł</a>
-    <a class="ap-link" href="artykul_regularne_wojsko_w_powstaniu.html" data-lang="en"><span class="lock-icon">🔒</span>Read full article</a>
-    <a class="ap-link" href="artykul_regularne_wojsko_w_powstaniu.html" data-lang="pt"><span class="lock-icon">🔒</span>Leia o artigo completo</a>
-    <a class="ap-link" href="artykul_regularne_wojsko_w_powstaniu.html" data-lang="de"><span class="lock-icon">🔒</span>Vollständigen Artikel lesen</a>
-    <a class="ap-link" href="artykul_regularne_wojsko_w_powstaniu.html" data-lang="nl"><span class="lock-icon">🔒</span>Lees het volledige artikel</a>
-    <a class="ap-link" href="artykul_regularne_wojsko_w_powstaniu.html" data-lang="fr"><span class="lock-icon">🔒</span>Lire l'article complet</a>
-    <a class="ap-link" href="artykul_regularne_wojsko_w_powstaniu.html" data-lang="yi"><span class="lock-icon">🔒</span>לייענט דעם גאַנצן אַרטיקל</a>
+    <a class="ap-link" href="artykul_regularne_wojsko_w_powstaniu.html" data-lang="pl">Czytaj pełny artykuł</a>
+    <a class="ap-link" href="artykul_regularne_wojsko_w_powstaniu.html" data-lang="en">Read full article</a>
+    <a class="ap-link" href="artykul_regularne_wojsko_w_powstaniu.html" data-lang="pt">Leia o artigo completo</a>
+    <a class="ap-link" href="artykul_regularne_wojsko_w_powstaniu.html" data-lang="de">Vollständigen Artikel lesen</a>
+    <a class="ap-link" href="artykul_regularne_wojsko_w_powstaniu.html" data-lang="nl">Lees het volledige artikel</a>
+    <a class="ap-link" href="artykul_regularne_wojsko_w_powstaniu.html" data-lang="fr">Lire l'article complet</a>
+    <a class="ap-link" href="artykul_regularne_wojsko_w_powstaniu.html" data-lang="yi">לייענט דעם גאַנצן אַרטיקל</a>
   </div>
 
   <!-- ARTYKUŁ 2: PIĘĆ LOSÓW -->
@@ -8929,13 +8929,13 @@ body.lang-active .card-lang-badge {{ display:inline; }}
     <div class="ap-novelty" data-lang="fr"><strong>Nouveauté :</strong> Mise en relation de documents privés avec les collections de l'Institut Piłsudski de Londres (Fonds 70). Premier catalogue muséal complet d'une archive familiale selon la norme ISAD(G).</div>
     <div class="ap-novelty" data-lang="yi"><strong>נײַיקייט:</strong> פֿאַרבינדונג פֿון פּריוואַטע דאָקומענטן מיט די זאַמלונגען פֿון פּיווסודסקי-אינסטיטוט אין לאָנדאָן (זאַמלונג 70). ערשטער מוזיי-קאַטאַלאָג פֿון אַ משפּחה-אַרכיוו אין ISAD(G)-סטאַנדאַרט.</div>
     <div class="ap-sources">Źródła / Sources: ARG/I/1–6, ARG/II/1–68, ARG/III/1–38, ARG/V/1–173, ARG/VI/1–29</div>
-    <a class="ap-link" href="artykul_piec_losow.html" data-lang="pl"><span class="lock-icon">🔒</span>Czytaj pełny artykuł</a>
-    <a class="ap-link" href="artykul_piec_losow.html" data-lang="en"><span class="lock-icon">🔒</span>Read full article</a>
-    <a class="ap-link" href="artykul_piec_losow.html" data-lang="pt"><span class="lock-icon">🔒</span>Leia o artigo completo</a>
-    <a class="ap-link" href="artykul_piec_losow.html" data-lang="de"><span class="lock-icon">🔒</span>Vollständigen Artikel lesen</a>
-    <a class="ap-link" href="artykul_piec_losow.html" data-lang="nl"><span class="lock-icon">🔒</span>Lees het volledige artikel</a>
-    <a class="ap-link" href="artykul_piec_losow.html" data-lang="fr"><span class="lock-icon">🔒</span>Lire l'article complet</a>
-    <a class="ap-link" href="artykul_piec_losow.html" data-lang="yi"><span class="lock-icon">🔒</span>לייענט דעם גאַנצן אַרטיקל</a>
+    <a class="ap-link" href="artykul_piec_losow.html" data-lang="pl">Czytaj pełny artykuł</a>
+    <a class="ap-link" href="artykul_piec_losow.html" data-lang="en">Read full article</a>
+    <a class="ap-link" href="artykul_piec_losow.html" data-lang="pt">Leia o artigo completo</a>
+    <a class="ap-link" href="artykul_piec_losow.html" data-lang="de">Vollständigen Artikel lesen</a>
+    <a class="ap-link" href="artykul_piec_losow.html" data-lang="nl">Lees het volledige artikel</a>
+    <a class="ap-link" href="artykul_piec_losow.html" data-lang="fr">Lire l'article complet</a>
+    <a class="ap-link" href="artykul_piec_losow.html" data-lang="yi">לייענט דעם גאַנצן אַרטיקל</a>
   </div>
 
   <!-- ARTYKUŁ 3: CHŁOPIEC-POWSTANIEC -->
@@ -8973,13 +8973,13 @@ body.lang-active .card-lang-badge {{ display:inline; }}
     <div class="ap-novelty" data-lang="fr"><strong>Nouveauté :</strong> Corrélation du témoignage d'histoire orale du Musée avec les documents de la collection. Premier cas documenté de « falsification protectrice » de date de naissance dans une famille AK avec chaîne de preuves complète.</div>
     <div class="ap-novelty" data-lang="yi"><strong>נײַיקייט:</strong> ערשטער דאָקומענטירטער פֿאַל פֿון „שיצנדיקע פֿאַלשונג" פֿון געבורטס-דאַטום אין אַ AK-משפּחה מיט אַ גאַנצער באַווײַז-קייט.</div>
     <div class="ap-sources">Źródła / Sources: ARG/V/1–4, ARG/V/158, ARG/V/161, ARG/III/34, ARG/V/13, ARG/V/69</div>
-    <a class="ap-link" href="artykul_chlopiec_powstaniec.html" data-lang="pl"><span class="lock-icon">🔒</span>Czytaj pełny artykuł</a>
-    <a class="ap-link" href="artykul_chlopiec_powstaniec.html" data-lang="en"><span class="lock-icon">🔒</span>Read full article</a>
-    <a class="ap-link" href="artykul_chlopiec_powstaniec.html" data-lang="pt"><span class="lock-icon">🔒</span>Leia o artigo completo</a>
-    <a class="ap-link" href="artykul_chlopiec_powstaniec.html" data-lang="de"><span class="lock-icon">🔒</span>Vollständigen Artikel lesen</a>
-    <a class="ap-link" href="artykul_chlopiec_powstaniec.html" data-lang="nl"><span class="lock-icon">🔒</span>Lees het volledige artikel</a>
-    <a class="ap-link" href="artykul_chlopiec_powstaniec.html" data-lang="fr"><span class="lock-icon">🔒</span>Lire l'article complet</a>
-    <a class="ap-link" href="artykul_chlopiec_powstaniec.html" data-lang="yi"><span class="lock-icon">🔒</span>לייענט דעם גאַנצן אַרטיקל</a>
+    <a class="ap-link" href="artykul_chlopiec_powstaniec.html" data-lang="pl">Czytaj pełny artykuł</a>
+    <a class="ap-link" href="artykul_chlopiec_powstaniec.html" data-lang="en">Read full article</a>
+    <a class="ap-link" href="artykul_chlopiec_powstaniec.html" data-lang="pt">Leia o artigo completo</a>
+    <a class="ap-link" href="artykul_chlopiec_powstaniec.html" data-lang="de">Vollständigen Artikel lesen</a>
+    <a class="ap-link" href="artykul_chlopiec_powstaniec.html" data-lang="nl">Lees het volledige artikel</a>
+    <a class="ap-link" href="artykul_chlopiec_powstaniec.html" data-lang="fr">Lire l'article complet</a>
+    <a class="ap-link" href="artykul_chlopiec_powstaniec.html" data-lang="yi">לייענט דעם גאַנצן אַרטיקל</a>
   </div>
 
   <!-- ARTYKUŁ 4: DYSK -->
@@ -9018,13 +9018,13 @@ body.lang-active .card-lang-badge {{ display:inline; }}
     <div class="ap-novelty" data-lang="fr"><strong>Nouveauté :</strong> Reconstitution d'une famille dont TOUS les membres adultes ont combattu dans la clandestinité. Mère-saboteuse, père-intendant, fils-insurgé — trois formes de résistance dans un même foyer.</div>
     <div class="ap-novelty" data-lang="yi"><strong>נײַיקייט:</strong> רעקאָנסטרוקציע פֿון אַ משפּחה וווּ אַלע דערוואַקסענע מיטגלידער האָבן געקעמפֿט אין אונטערגרונט.</div>
     <div class="ap-sources">Źródła / Sources: ARG/III/28, ARG/V/158, ARG/V/161, portal 1944.pl</div>
-    <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="pl"><span class="lock-icon">🔒</span>Czytaj pełny artykuł</a>
-    <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="en"><span class="lock-icon">🔒</span>Read full article</a>
-    <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="pt"><span class="lock-icon">🔒</span>Leia o artigo completo</a>
-    <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="de"><span class="lock-icon">🔒</span>Vollständigen Artikel lesen</a>
-    <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="nl"><span class="lock-icon">🔒</span>Lees het volledige artikel</a>
-    <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="fr"><span class="lock-icon">🔒</span>Lire l'article complet</a>
-    <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="yi"><span class="lock-icon">🔒</span>לייענט דעם גאַנצן אַרטיקל</a>
+    <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="pl">Czytaj pełny artykuł</a>
+    <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="en">Read full article</a>
+    <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="pt">Leia o artigo completo</a>
+    <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="de">Vollständigen Artikel lesen</a>
+    <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="nl">Lees het volledige artikel</a>
+    <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="fr">Lire l'article complet</a>
+    <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="yi">לייענט דעם גאַנצן אַרטיקל</a>
   </div>
 
   <!-- ARTYKUŁ 5: OD SIÓDEMKI BELINY -->
