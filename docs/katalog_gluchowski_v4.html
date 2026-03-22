@@ -45,20 +45,15 @@ body { background:var(--bg); color:var(--text); font-family:'Source Sans 3',sans
 .lang-bar { position:sticky; top:0; z-index:200; background:rgba(12,11,9,.98); backdrop-filter:blur(16px); padding:8px 20px; border-bottom:1px solid var(--border); display:flex; gap:0; justify-content:center; align-items:center; }
 .lang-bar .lang-label { font-size:0.7em; color:var(--text-faint); text-transform:uppercase; letter-spacing:2px; margin-right:12px; font-weight:500; }
 
-/* Google Translate widget styling */
-#google_translate_element { display:inline-block; }
-#google_translate_element select { background:var(--surface); color:var(--text); border:1px solid var(--border); border-radius:3px; padding:4px 8px; font-size:0.82em; font-family:'Source Sans 3',sans-serif; cursor:pointer; }
-.goog-te-gadget { font-size:0; }
-.goog-te-gadget .goog-te-combo { background:var(--surface) !important; color:var(--text) !important; border:1px solid var(--border) !important; border-radius:3px; padding:6px 12px; font-size:13px !important; font-family:'Source Sans 3',sans-serif !important; }
-/* Hide Google Translate attribution bar */
-.goog-te-banner-frame { display:none !important; }
-body { top:0 !important; }
-.skiptranslate { display:none !important; }
-.lang-bar .skiptranslate { display:inline-block !important; }
+.lang-btn { padding:6px 14px; background:transparent; border:1px solid transparent; cursor:pointer; font-size:0.82em; font-family:'Source Sans 3',sans-serif; color:var(--text-dim); transition:all .2s; border-radius:3px; font-weight:500; }
+.lang-btn:hover { color:var(--gold); border-color:var(--border); }
+.lang-btn.active { color:var(--gold); border-color:var(--gold); background:rgba(201,169,110,.08); font-weight:600; }
 
-/* data-lang: show only Polish originals, hide duplicates in other languages */
+/* data-lang visibility managed by JS switchLang() with group-based fallback */
 [data-lang] { display:none; }
 [data-lang="pl"] { display:revert; }
+body.lang-js [data-lang] { display:none; }
+body.lang-js [data-lang].lang-visible { display:revert; }
 
 /* NAV */
 .nav { position:sticky; top:38px; z-index:100; background:rgba(12,11,9,.95); backdrop-filter:blur(12px); padding:14px 20px; border-bottom:1px solid var(--border); display:flex; flex-wrap:wrap; gap:8px; justify-content:center; }
@@ -409,22 +404,17 @@ body.lang-active .card-lang-badge { display:inline; }
 </head>
 <body>
 
-<!-- LANGUAGE SWITCHER — Google Translate -->
+<!-- LANGUAGE SWITCHER -->
 <div class="lang-bar" id="lang-bar">
   <span class="lang-label">Język / Language</span>
-  <div id="google_translate_element"></div>
+  <button class="lang-btn active" onclick="switchLang('pl', this)">PL</button>
+  <button class="lang-btn" onclick="switchLang('en', this)">EN</button>
+  <button class="lang-btn" onclick="switchLang('pt', this)">PT</button>
+  <button class="lang-btn" onclick="switchLang('de', this)">DE</button>
+  <button class="lang-btn" onclick="switchLang('nl', this)">NL</button>
+  <button class="lang-btn" onclick="switchLang('fr', this)">FR</button>
+  <button class="lang-btn" onclick="switchLang('yi', this)">YI</button>
 </div>
-<script>
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({
-    pageLanguage: 'pl',
-    includedLanguages: 'pl,en,pt,de,nl,fr,yi,es,it,he,uk,ru,ja,zh-CN',
-    layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-    autoDisplay: false
-  }, 'google_translate_element');
-}
-</script>
-<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 <div class="header">
   <div class="institution" data-lang="pl">Katalog Muzealny</div>
@@ -603,13 +593,34 @@ function googleTranslateElementInit() {
 <!-- ACADEMIC ARTICLE PROPOSALS                                    -->
 <!-- ============================================================ -->
 <div class="academic-section" id="academic-articles">
-  <h2 data-lang="pl">Propozycje artykułów naukowych</h2>
-  <h2 data-lang="en">Academic Article Proposals</h2>
+  <h2 data-lang="pl">Artykuły naukowe</h2>
+  <h2 data-lang="en">Academic Articles</h2>
   <p class="acad-subtitle" data-lang="pl">Na podstawie materiałów z Archiwum Rodziny Głuchowskich</p>
   <p class="acad-subtitle" data-lang="en">Based on materials from the Głuchowski Family Archive</p>
 
+  <div class="article-proposal" style="border-left:3px solid var(--gold);padding-left:16px;margin-bottom:24px;">
+    <h4><a href="artykul_regularne_wojsko_w_powstaniu.html" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--gold);">„Regularne Wojsko Polskie w Powstaniu Warszawskim — ciągłość instytucjonalna 7 Pułku Ułanów Lubelskich 1918–1947"</a></h4>
+    <div class="ap-meta">
+      <span class="ap-badge ap-type">artykuł źródłoznawczy</span>
+      <span class="ap-badge" style="background:rgba(46,204,113,.15);color:#2ecc71;">GOTOWY</span>
+      <span class="ap-badge">Przegląd Historyczno-Wojskowy</span>
+    </div>
+    <div class="ap-thesis" data-lang="pl">Teza: Armia Krajowa w Powstaniu Warszawskim funkcjonowała nie jako ruch partyzancki, lecz jako regularne Wojsko Polskie działające w warunkach konspiracji. Dowód: analiza formy dokumentacji wojskowej (numerowane rozkazy, stopnie kawaleryjskie, procedury odznaczeniowe, sztandary pułkowe, łańcuch weryfikacyjny). 24 przypisy, 313 źródeł archiwalnych.</div>
+  </div>
+
+  <div class="article-proposal" style="border-left:3px solid var(--gold);padding-left:16px;margin-bottom:24px;">
+    <h4><a href="artykul_dywizjon_jelen.html" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--gold);">„Dywizjon «Jeleń» — 7 Pułk Ułanów Lubelskich AK w Powstaniu Warszawskim"</a></h4>
+    <div class="ap-meta">
+      <span class="ap-badge ap-type">artykuł źródłoznawczy</span>
+      <span class="ap-badge" style="background:rgba(46,204,113,.15);color:#2ecc71;">GOTOWY</span>
+    </div>
+    <div class="ap-thesis" data-lang="pl">Szczegółowa rekonstrukcja losów Dywizjonu „Jeleń" — konspiracyjnej kontynuacji 7 Pułku Ułanów Lubelskich — od odtworzenia w podziemiu (1940) do natarcia na Gestapo 1.VIII.1944 i kapitulacji. 187 powstańców, 67 poległych pierwszego dnia.</div>
+  </div>
+
+  <p style="font-size:0.85em;color:var(--text-faint);margin-bottom:30px;border-bottom:1px solid var(--border);padding-bottom:20px;">Poniżej: propozycje artykułów w przygotowaniu</p>
+
   <div class="article-proposal">
-    <h4>„Pięć losów w jednym Powstaniu — rodzina Głuchowskich w dokumentach prywatnych"</h4>
+    <h4><a href="artykul_piec_losow.html" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--gold);">„Pięć losów w jednym Powstaniu — rodzina Głuchowskich w dokumentach prywatnych"</a></h4>
     <div class="ap-meta">
       <span class="ap-badge ap-type">artykuł źródłoznawczy</span>
       <span class="ap-badge">Przegląd Historyczny</span>
@@ -622,7 +633,7 @@ function googleTranslateElementInit() {
   </div>
 
   <div class="article-proposal">
-    <h4>„Chłopiec-powstaniec — droga Krzysztofa Głuchowskiego od Fabryki Kamlera do Stalagu XI-B"</h4>
+    <h4><a href="artykul_chlopiec_powstaniec.html" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--gold);">„Chłopiec-powstaniec — droga Krzysztofa Głuchowskiego od Fabryki Kamlera do Stalagu XI-B"</a></h4>
     <div class="ap-meta">
       <span class="ap-badge ap-type">artykuł biograficzny</span>
       <span class="ap-badge">Biuletyn IPN</span>
@@ -16236,7 +16247,67 @@ function switchTab(tabId, btn) {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-/* Language is now handled by Google Translate — no manual switching needed */
+/* ─── LANGUAGE SYSTEM ─── */
+const FIELD_LABELS = {
+  pl: { opis_fiz:'Opis fizyczny:', tresc:'Treść:', tworca:'Twórca:', jezyk:'Język:', kontekst:'Kontekst:', stan:'Stan:', powiazania:'Powiązania:' },
+  en: { opis_fiz:'Physical description:', tresc:'Content:', tworca:'Creator:', jezyk:'Language:', kontekst:'Context:', stan:'Condition:', powiazania:'Related items:' },
+  pt: { opis_fiz:'Descrição física:', tresc:'Conteúdo:', tworca:'Autor:', jezyk:'Idioma:', kontekst:'Contexto:', stan:'Estado:', powiazania:'Itens relacionados:' },
+  de: { opis_fiz:'Physische Beschreibung:', tresc:'Inhalt:', tworca:'Urheber:', jezyk:'Sprache:', kontekst:'Kontext:', stan:'Zustand:', powiazania:'Verwandte Objekte:' },
+  nl: { opis_fiz:'Fysieke beschrijving:', tresc:'Inhoud:', tworca:'Maker:', jezyk:'Taal:', kontekst:'Context:', stan:'Conditie:', powiazania:'Gerelateerde items:' },
+  fr: { opis_fiz:'Description physique:', tresc:'Contenu:', tworca:'Créateur:', jezyk:'Langue:', kontekst:'Contexte:', stan:'État:', powiazania:'Objets liés:' },
+  yi: { opis_fiz:'פֿיזישע באַשרײַבונג:', tresc:'אינהאַלט:', tworca:'שעפֿער:', jezyk:'שפּראַך:', kontekst:'קאָנטעקסט:', stan:'צושטאַנד:', powiazania:'פֿאַרבונדענע:' }
+};
+
+const LANG_NAMES = { pl:'Polski', en:'English', pt:'Português', de:'Deutsch', nl:'Nederlands', fr:'Français', yi:'ייִדיש' };
+
+const NAV_LABELS = {
+  pl: { family:'Historia rodziny', persons:'Indeks osób', bio:'Biografia', research:'Badania', oral:'Historia mówiona', conspiracy:'🕵Nota konspiracyjna', articles:'Artykuły naukowe', valuation:'Wycena' },
+  en: { family:'Family history', persons:'Person index', bio:'Biography', research:'Research', oral:'Oral history', conspiracy:'🕵Conspiracy note', articles:'Academic articles', valuation:'Valuation' },
+  pt: { family:'História da família', persons:'Índice de pessoas', bio:'Biografia', research:'Pesquisa', oral:'História oral', conspiracy:'🕵Nota conspiratória', articles:'Artigos acadêmicos', valuation:'Avaliação' },
+  de: { family:'Familiengeschichte', persons:'Personenindex', bio:'Biografie', research:'Forschung', oral:'Oral History', conspiracy:'🕵Konspirative Notiz', articles:'Wissenschaftliche Artikel', valuation:'Bewertung' },
+  nl: { family:'Familiegeschiedenis', persons:'Personenindex', bio:'Biografie', research:'Onderzoek', oral:'Mondelinge geschiedenis', conspiracy:'🕵Samenzweringsnotitie', articles:'Wetenschappelijke artikelen', valuation:'Waardering' },
+  fr: { family:'Histoire familiale', persons:'Index des personnes', bio:'Biographie', research:'Recherche', oral:'Histoire orale', conspiracy:'🕵Note conspirative', articles:'Articles académiques', valuation:'Évaluation' },
+  yi: { family:'משפּחה געשיכטע', persons:'פּערזאָנען אינדעקס', bio:'ביאָגראַפֿיע', research:'פֿאָרשונג', oral:'מינדלעכע געשיכטע', conspiracy:'🕵קאָנספּיראַציע', articles:'וויסנשאַפֿטלעכע אַרטיקלען', valuation:'אָפּשאַצונג' }
+};
+
+function switchLang(lang, btn) {
+  /* 1. Update button state */
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+
+  /* 2. Group-based fallback: for each parent containing [data-lang], show best match */
+  const fallback = [lang, 'en', 'pl'];
+  const groups = new Map();
+  document.querySelectorAll('[data-lang]').forEach(el => {
+    const parent = el.parentNode;
+    if (!groups.has(parent)) groups.set(parent, []);
+    groups.get(parent).push(el);
+  });
+  groups.forEach((els, _parent) => {
+    els.forEach(el => el.classList.remove('lang-visible'));
+    for (const fb of fallback) {
+      const match = els.find(e => e.dataset.lang === fb);
+      if (match) { match.classList.add('lang-visible'); break; }
+    }
+  });
+
+  /* 3. Translate field labels */
+  const labels = FIELD_LABELS[lang] || FIELD_LABELS['en'];
+  document.querySelectorAll('[data-label]').forEach(el => {
+    const key = el.dataset.label;
+    if (labels[key]) el.textContent = labels[key];
+  });
+
+  /* 4. Translate navigation links */
+  const nav = NAV_LABELS[lang] || NAV_LABELS['en'];
+  document.querySelectorAll('[data-nav]').forEach(el => {
+    const key = el.dataset.nav;
+    if (nav[key]) el.textContent = nav[key];
+  });
+
+  /* 5. Update html lang */
+  document.documentElement.lang = lang;
+}
 
 /* Multi-page gallery — scroll to related card */
 function scrollToCard(cardId) {
@@ -16273,7 +16344,12 @@ function filterPhotos() {
   document.getElementById('photo-count').textContent = visible + ' fotografii';
 }
 
-/* No manual language init needed — Google Translate handles everything */
+/* ─── INIT LANGUAGE ON LOAD ─── */
+(function initLang() {
+  document.body.classList.add('lang-js');
+  const plBtn = document.querySelector('.lang-btn.active');
+  if (plBtn) switchLang('pl', plBtn);
+})();
 </script>
 
 </body>
