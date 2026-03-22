@@ -9018,6 +9018,13 @@ body.lang-active .card-lang-badge {{ display:inline; }}
     <div class="ap-novelty" data-lang="fr"><strong>Nouveauté :</strong> Reconstitution d'une famille dont TOUS les membres adultes ont combattu dans la clandestinité. Mère-saboteuse, père-intendant, fils-insurgé — trois formes de résistance dans un même foyer.</div>
     <div class="ap-novelty" data-lang="yi"><strong>נײַיקייט:</strong> רעקאָנסטרוקציע פֿון אַ משפּחה וווּ אַלע דערוואַקסענע מיטגלידער האָבן געקעמפֿט אין אונטערגרונט.</div>
     <div class="ap-sources">Źródła / Sources: ARG/III/28, ARG/V/158, ARG/V/161, portal 1944.pl</div>
+    <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="pl"><span class="lock-icon">🔒</span>Czytaj pełny artykuł</a>
+    <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="en"><span class="lock-icon">🔒</span>Read full article</a>
+    <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="pt"><span class="lock-icon">🔒</span>Leia o artigo completo</a>
+    <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="de"><span class="lock-icon">🔒</span>Vollständigen Artikel lesen</a>
+    <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="nl"><span class="lock-icon">🔒</span>Lees het volledige artikel</a>
+    <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="fr"><span class="lock-icon">🔒</span>Lire l'article complet</a>
+    <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="yi"><span class="lock-icon">🔒</span>לייענט דעם גאַנצן אַרטיקל</a>
   </div>
 
   <!-- ARTYKUŁ 5: OD SIÓDEMKI BELINY -->
@@ -9055,6 +9062,13 @@ body.lang-active .card-lang-badge {{ display:inline; }}
     <div class="ap-novelty" data-lang="fr"><strong>Nouveauté :</strong> Identification de documents privés qui COMPLÈTENT le Fonds 70 — dont une lettre du Maréchal Śmigły-Rydz (ARG/II/14), un décret de décoration de 1925 et des vœux du gén. Sosnkowski. Méthodologie : comparaison pièce par pièce.</div>
     <div class="ap-novelty" data-lang="yi"><strong>נײַיקייט:</strong> אידענטיפֿיצירונג פֿון פּריוואַטע דאָקומענטן וואָס דערגענצן זאַמלונג 70 — אַרײַנגערעכנט אַ בריוו פֿון מאַרשאַל שמיגלי-ריידז (ARG/II/14).</div>
     <div class="ap-sources">Źródła / Sources: ARG/II/1–68, Zespół 70 / Collection 70 (Instytut Piłsudskiego, Londyn)</div>
+    <a class="ap-link" href="artykul_belina_instytut.html" data-lang="pl"><span class="lock-icon">🔒</span>Czytaj pełny artykuł</a>
+    <a class="ap-link" href="artykul_belina_instytut.html" data-lang="en"><span class="lock-icon">🔒</span>Read full article</a>
+    <a class="ap-link" href="artykul_belina_instytut.html" data-lang="pt"><span class="lock-icon">🔒</span>Leia o artigo completo</a>
+    <a class="ap-link" href="artykul_belina_instytut.html" data-lang="de"><span class="lock-icon">🔒</span>Vollständigen Artikel lesen</a>
+    <a class="ap-link" href="artykul_belina_instytut.html" data-lang="nl"><span class="lock-icon">🔒</span>Lees het volledige artikel</a>
+    <a class="ap-link" href="artykul_belina_instytut.html" data-lang="fr"><span class="lock-icon">🔒</span>Lire l'article complet</a>
+    <a class="ap-link" href="artykul_belina_instytut.html" data-lang="yi"><span class="lock-icon">🔒</span>לייענט דעם גאַנצן אַרטיקל</a>
   </div>
 </div>
 
