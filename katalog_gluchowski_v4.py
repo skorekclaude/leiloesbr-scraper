@@ -8242,12 +8242,6 @@ body.lang-active .card-lang-badge {{ display:inline; }}
 .bio-chapter-body p {{ margin-bottom:12px; }}
 .bio-quote {{ border-left:3px solid var(--gold); padding:8px 16px; margin:16px 0; font-style:italic; color:var(--text); background:rgba(201,169,110,.04); }}
 .bio-quote .source {{ display:block; font-style:normal; font-size:0.85em; color:var(--text-faint); margin-top:4px; }}
-.research-article {{ margin-bottom:20px; padding:20px; background:var(--surface); border:1px solid var(--border); border-radius:4px; }}
-.research-article-title {{ font-family:'Playfair Display',serif; font-size:1.05em; color:var(--gold); cursor:pointer; user-select:none; }}
-.research-article-title:hover {{ color:var(--accent); }}
-.research-article-meta {{ font-size:0.78em; color:var(--text-faint); margin:4px 0 0; }}
-.research-article-body {{ display:none; font-size:0.88em; color:var(--text-dim); line-height:1.7; padding-top:12px; border-top:1px solid var(--border); margin-top:8px; }}
-.research-article.open .research-article-body {{ display:block; }}
 .oral-history-card {{ max-width:900px; margin:0 auto; padding:30px; background:var(--surface); border:1px solid var(--gold); border-radius:6px; }}
 .oral-history-card h3 {{ font-family:'Playfair Display',serif; color:var(--gold); font-size:1.1em; margin-bottom:8px; }}
 .oral-history-card p {{ font-size:0.9em; color:var(--text-dim); line-height:1.6; margin-bottom:6px; }}
@@ -10002,43 +9996,6 @@ body.lang-active .card-lang-badge {{ display:inline; }}
   </div>
 </div>
 
-<!-- ============================================================ -->
-<!-- OPRACOWANIA BADAWCZE                                           -->
-<!-- ============================================================ -->
-<div class="bio-section" id="research">
-  <h2 class="bio-main-title">Opracowania badawcze</h2>
-  <p class="bio-subtitle">Trzy artykuly naukowe oparte na dokumentach z Archiwum Rodziny Gluchowskich</p>
-
-  <div class="research-article" onclick="this.classList.toggle('open')">
-    <div class="research-article-title">&#9654; Piec losow w jednym Powstaniu: rodzina Gluchowskich w dokumentach kolekcji prywatnej</div>
-    <div class="research-article-meta">Studia zrodloznawcze &bull; Artykul badawczy &bull; 2026 &bull; Zrodla: ARG (123 dok.), AHM MPW sygn. 1889, Instytut Pilsudskiego (Zesp. 70, 154)</div>
-    <div class="research-article-body">
-      <p>Analiza zrodloznawcza kolekcji 123 dokumentow archiwalnych dotyczacych rodziny Gluchowskich &mdash; od generala dywizji Janusza Juliana Gluchowskiego, jednego z legendarnej Siodemki Beliny (1914), przez jego brata Stefana, urzednika Kancelarii Cywilnej Prezydenta RP, az po bratanka Krzysztofa, siedemnastoletniego powstanca warszawskiego.</p>
-      <p>Kolekcja obejmuje dokumenty wojskowe, korespondencje, swiadectwa, zaswiadczenia konspiracyjne i fotografie z lat 1914&ndash;1995 w siedmiu jezykach. Jej wartosc badawcza polega na unikalnym przekroju przez cztery kluczowe momenty polskiej historii XX wieku: odzyskanie niepodleglosci (1914&ndash;1918), II Rzeczpospolita (1918&ndash;1939), Powstanie Warszawskie (1944) i emigracja wojenna (1945&ndash;1995).</p>
-      <p>Artykul analizuje strukture zbiorow, identyfikuje osoby i instytucje, rekonstruuje sieci korespondencji miedzy obozami jenieckimi oraz dokumentuje zjawisko konspiracyjnego falszowania dat urodzenia.</p>
-    </div>
-  </div>
-
-  <div class="research-article" onclick="this.classList.toggle('open')">
-    <div class="research-article-title">&#9654; Dywizjon &bdquo;Jelen&rdquo;: regularne wojsko polskie w Powstaniu Warszawskim</div>
-    <div class="research-article-meta">Przeglad Historyczno-Wojskowy &bull; Artykul badawczy &bull; 2026 &bull; Zrodla: ARG (123 dok.), 1944.pl, AHM MPW sygn. 1889</div>
-    <div class="research-article-body">
-      <p>7 Pulk Ulanow Lubelskich AK (kryptonim &bdquo;Jelen&rdquo;) &mdash; jednostka ze stuletnia tradycja, dowodzona przez zawodowych oficerow-weteranow z 1920 roku. Pulk zostal stworzony w 1918 roku przez rotmistrza Janusza Gluchowskiego; w 1944 dowodzil nim rotmistrz Lech Gluchowski (brat Janusza); walczyl w nim siedemnastoletni Krzysztof Gluchowski (syn trzeciego brata, Stefana).</p>
-      <p>Z 233 zolnierzy Dywizjonu poleglo 125, a 98 zostalo rannych &mdash; straty wyniosly <strong>95,7%</strong>. Dowodca, rotmistrz Lech Gluchowski, odebral sobie zycie na Sadybie, gdy zostal ciezko ranny i odmowil narazania zolnierzy na ewakuacje pod ogniem.</p>
-      <p>Artykul dekonstruuje mit o &bdquo;powstaniu cywilnym&rdquo; i analizuje zjawisko podziemnej odbudowy przedwojennych pulkow w Armii Krajowej. Trzy pokolenia jednej rodziny w jednym pulku: dziadek tworca, wuj dowodca, bratanek zolnierz.</p>
-    </div>
-  </div>
-
-  <div class="research-article" onclick="this.classList.toggle('open')">
-    <div class="research-article-title">&#9654; Chlopiec-powstaniec: droga Krzysztofa Gluchowskiego od Fabryki Kamlera do Stalagu XI-B</div>
-    <div class="research-article-meta">Biuletyn IPN &bull; Artykul biograficzny &bull; 2026 &bull; Zrodla: AHM MPW sygn. 1889, ARG (123 dok.), biogramy 1944.pl</div>
-    <div class="research-article-body">
-      <p>Rekonstrukcja pelnego szlaku bojowego Krzysztofa Gluchowskiego ps. &bdquo;Juras&rdquo; (1926&ndash;2020) &mdash; jednego z ponad 1100 chlopcow w wieku 11&ndash;18 lat walczacych w Powstaniu Warszawskim.</p>
-      <p>Na podstawie wielogodzinnej relacji mowionej (AHM MPW, sygn. 1889, 31.VII.2009) oraz 92 dokumentow z kolekcji prywatnej odtworzono chronologie sluzby: od zaprzysiezzenia w AK w wieku pietnastu lat (11.V.1942), przez Akcje Wilanow (IX.1943), walki na Woli, Starym Miescie i w Srodmiesciu (VIII&ndash;IX.1944), ewakuacje kanalami (1.IX.1944), schwytanie przez Niemcow (~29.IX.1944), niewole w Stalagu XI-B Fallingbostel, az po wyzwolenie i emigracje.</p>
-      <p>Szczegolna uwage poswiecono zjawisku konspiracyjnego falszowania dat urodzenia, udokumentowanemu w trzech wariantach (1926, 1920, 1910) w zachowanych dokumentach.</p>
-    </div>
-  </div>
-</div>
 
 <!-- ============================================================ -->
 <!-- ARCHIWUM HISTORII MOWIONEJ                                     -->
@@ -10067,7 +10024,7 @@ body.lang-active .card-lang-badge {{ display:inline; }}
 <a href="#finding-aid" class="nav-link" style="border-color:var(--gold);color:var(--gold);" data-nav="family">Historia rodziny</a>
 <a href="#indeks-osob" class="nav-link" data-nav="persons">Indeks osób</a>
 <a href="#biografia" class="nav-link" data-nav="bio">Biografia</a>
-<a href="#research" class="nav-link" data-nav="research">Badania</a>
+<a href="#academic-articles" class="nav-link" data-nav="research">Badania</a>
 <a href="#oral-history" class="nav-link" data-nav="oral">Historia mówiona</a>
 <a href="#conspiracy-note" class="nav-link" style="border-color:var(--accent);color:var(--accent);" data-nav="conspiracy">&#x1F575; Nota konspiracyjna</a>
 <a href="#academic-articles" class="nav-link" data-nav="articles">Artykuły naukowe</a>
