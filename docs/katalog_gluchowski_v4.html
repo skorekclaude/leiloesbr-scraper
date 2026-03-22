@@ -946,6 +946,20 @@ body.lang-active .card-lang-badge { display:inline; }
         <div class="pc-docs">ARG/V/48</div>
       </div>
 
+      <div class="person-card">
+        <div class="pc-category">TOWARZYSZE BRONI</div>
+        <div class="pc-name">Gen. Tadeusz Piskor <span class="pc-dates">(1889&ndash;1951)</span></div>
+        <div class="pc-desc">Współzałożyciel Związku Walki Czynnej w Liège (Belgia) razem z Januszem Głuchowskim, ok. 1907&ndash;1909. Obaj studiowali na Politechnice w Liège. Późniejszy Szef Sztabu Głównego WP (1926&ndash;1931), gen. dyw. W kampanii wrześniowej d-ca Armii &laquo;Lublin&raquo;. Jeniec Oflagu VII-A Murnau, zmarł w Londynie.</div>
+        <div class="pc-docs">ARG/II/1 (biogram WBH)</div>
+      </div>
+
+      <div class="person-card">
+        <div class="pc-category">DOWÓDCY / PRZEŁOŻENI</div>
+        <div class="pc-name">Gen. Walerian Czuma <span class="pc-dates">(1890&ndash;1962)</span></div>
+        <div class="pc-desc">Dowódca Obrony Warszawy we wrześniu 1939. Mianowany na mocy rozkazu wydanego przez gen. Głuchowskiego jako I Zastępcy Ministra Spraw Wojskowych. Potwierdzenie roli Głuchowskiego w organizacji obrony stolicy.</div>
+        <div class="pc-docs">ARG/II/29 (kontekst)</div>
+      </div>
+
     </div>
   </div>
 
@@ -16380,9 +16394,13 @@ function switchLang(lang, btn) {
   });
   groups.forEach((els, _parent) => {
     els.forEach(el => el.classList.remove('lang-visible'));
+    /* Find best language for this group, then show ALL elements of that language */
+    let target = null;
     for (const fb of fallback) {
-      const match = els.find(e => e.dataset.lang === fb);
-      if (match) { match.classList.add('lang-visible'); break; }
+      if (els.some(e => e.dataset.lang === fb)) { target = fb; break; }
+    }
+    if (target) {
+      els.filter(e => e.dataset.lang === target).forEach(e => e.classList.add('lang-visible'));
     }
   });
 
