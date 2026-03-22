@@ -3122,7 +3122,7 @@ OBJECTS = [
     # -- Podseria V/AI: Gazety --
     {
         "sygn": "ARG/V/145",
-        "photo": "juras_079_page80.png",
+        "photo": "juras_079_page80.jpeg",
         "tytul": "Gazeta 'Życie' Rok I Nr 11 — 14 kwietnia 1946",
         "data": "14.IV.1946",
         "typ": "gazeta",
@@ -3137,7 +3137,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/146",
-        "photo": "juras_080_page81.png",
+        "photo": "juras_080_page81.jpeg",
         "tytul": "Gazeta 'Życie' — strona kulturalna (Film, Teatr, Muzyka)",
         "data": "14.IV.1946",
         "typ": "gazeta",
@@ -3152,7 +3152,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/147",
-        "photo": "juras_081_page82.png",
+        "photo": "juras_081_page82.jpeg",
         "tytul": "Strona gazetowa — ogłoszenia (kursy językowe, szkoły, Veritas)",
         "data": "lata 50.–60. XX w.",
         "typ": "gazeta",
