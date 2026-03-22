@@ -262,6 +262,9 @@ body.lang-active .card-lang-badge { display:inline; }
 .article-proposal .ap-novelty { font-size:0.82em; color:var(--text-dim); line-height:1.6; }
 .article-proposal .ap-novelty strong { color:var(--text-faint); }
 .article-proposal .ap-sources { font-family:'JetBrains Mono',monospace; font-size:0.75em; color:var(--text-faint); margin-top:10px; }
+.article-proposal .ap-link { display:inline-block; margin-top:14px; font-size:0.82em; color:var(--gold); border:1px solid var(--gold); padding:6px 16px; border-radius:3px; text-decoration:none; transition:all .3s; letter-spacing:.3px; }
+.article-proposal .ap-link:hover { background:var(--gold); color:var(--bg); }
+.article-proposal .ap-link .lock-icon { margin-right:6px; }
 
 /* FOOTER */
 .footer { text-align:center; padding:50px 20px; color:var(--text-faint); font-size:0.78em; border-top:1px solid var(--border); line-height:1.8; }
@@ -515,6 +518,29 @@ body.lang-active .card-lang-badge { display:inline; }
   Fields: call number, formal title, date, document type (controlled vocabulary), physical description, content description,
   creator, language, historical context, internal cross-references, condition.
   Descriptions based exclusively on visual analysis of photographs &mdash; no assumptions or interpolations.</span>
+  <span data-lang="pt"><strong>Metodologia de catalogação:</strong> Descrição ao nível da unidade de inventário segundo o padrão ISAD(G) / Dublin Core.
+  Hierarquia: Fundo (ARG) &rarr; Série (I&ndash;VI, por criador) &rarr; Unidade. Cada fotografia = uma ficha catalográfica.
+  Campos: cota, título formal, datação, tipo de documento (vocabulário controlado), descrição física, descrição do conteúdo,
+  criador, idioma, contexto histórico, referências cruzadas internas, estado de conservação.
+  Descrições elaboradas exclusivamente com base na análise visual das fotografias &mdash; sem suposições ou interpolações.</span>
+  <span data-lang="de"><strong>Katalogisierungsmethodik:</strong> Beschreibung auf Verzeichnungseinheit-Ebene nach ISAD(G) / Dublin Core.
+  Hierarchie: Bestand (ARG) &rarr; Serie (I&ndash;VI, nach Urheber) &rarr; Einheit. Jede Fotografie = eine Katalogkarte.
+  Felder: Signatur, Formaltitel, Datierung, Dokumententyp (kontrolliertes Vokabular), physische Beschreibung, Inhaltsbeschreibung,
+  Urheber, Sprache, historischer Kontext, bestandsinterne Querverweise, Erhaltungszustand.
+  Beschreibungen ausschließlich auf Grundlage visueller Analyse der Fotografien &mdash; ohne Annahmen oder Interpolationen.</span>
+  <span data-lang="nl"><strong>Catalogiseringsmethodologie:</strong> Beschrijving op het niveau van de inventariseenheid volgens de ISAD(G) / Dublin Core-standaard.
+  Hiërarchie: Fonds (ARG) &rarr; Serie (I&ndash;VI, per maker) &rarr; Eenheid. Elke foto = één cataloguskaart.
+  Velden: signatuur, formele titel, datering, documenttype (gecontroleerd vocabulaire), fysieke beschrijving, inhoudsbeschrijving,
+  maker, taal, historische context, interne kruisverwijzingen, conditie.
+  Beschrijvingen uitsluitend gebaseerd op visuele analyse van foto's &mdash; zonder aannames of interpolaties.</span>
+  <span data-lang="fr"><strong>Méthodologie de catalogage :</strong> Description au niveau de l'unité d'inventaire selon la norme ISAD(G) / Dublin Core.
+  Hiérarchie : Fonds (ARG) &rarr; Série (I&ndash;VI, par créateur) &rarr; Unité. Chaque photographie = une fiche de catalogue.
+  Champs : cote, titre formel, datation, type de document (vocabulaire contrôlé), description physique, description du contenu,
+  créateur, langue, contexte historique, renvois internes, état de conservation.
+  Descriptions établies exclusivement sur la base de l'analyse visuelle des photographies &mdash; sans hypothèses ni interpolations.</span>
+  <span data-lang="yi"><strong>קאַטאַלאָגיזירונג-מעטאָדאָלאָגיע:</strong> באַשרײַבונג אויפֿן ניוואָ פֿון דער אינוועֹנטאַר-אייניקייט לויט ISAD(G) / Dublin Core.
+  היעראַרכיע: באַשטאַנד (ARG) &rarr; סעריע (I&ndash;VI, לויט שעפֿער) &rarr; אייניקייט. יעדע פֿאָטאָגראַפֿיע = איין קאַטאַלאָג-קאַרטע.
+  באַשרײַבונגען באַזירט אויסשליסלעך אויף וויזועלער אַנאַליזע פֿון פֿאָטאָגראַפֿיעס &mdash; אָן אָננאַמעס אָדער אינטערפּאָלאַציעס.</span>
 </div>
 
 <!-- ============================================================ -->
@@ -531,21 +557,46 @@ body.lang-active .card-lang-badge { display:inline; }
 
   <div class="cn-subtitle" data-lang="pl">Odkrycie archiwalne: rodzina Głuchowskich sfałszowała rok urodzenia Krzysztofa, aby ochronić 17-latka przed niemieckim Arbeitseinsatz</div>
   <div class="cn-subtitle" data-lang="en">Archival discovery: the Głuchowski family falsified Krzysztof's birth year to protect the 17-year-old from German forced labor (Arbeitseinsatz)</div>
+  <div class="cn-subtitle" data-lang="pt">Descoberta arquivística: a família Głuchowski falsificou o ano de nascimento de Krzysztof para proteger o jovem de 17 anos do trabalho forçado alemão (Arbeitseinsatz)</div>
+  <div class="cn-subtitle" data-lang="de">Archivalische Entdeckung: Die Familie Głuchowski fälschte Krzysztofs Geburtsjahr, um den 17-Jährigen vor dem deutschen Arbeitseinsatz zu schützen</div>
+  <div class="cn-subtitle" data-lang="nl">Archivalische ontdekking: de familie Głuchowski vervalste Krzysztofs geboortejaar om de 17-jarige te beschermen tegen Duitse dwangarbeid (Arbeitseinsatz)</div>
+  <div class="cn-subtitle" data-lang="fr">Découverte archivistique : la famille Głuchowski a falsifié l'année de naissance de Krzysztof pour protéger le jeune de 17 ans du travail forcé allemand (Arbeitseinsatz)</div>
+  <div class="cn-subtitle" data-lang="yi">אַרכיוו-אַנטדעקונג: די משפּחה גלוכאָווסקי האָט פֿאַלשיפֿיצירט קריסטאָפֿס געבורטס-יאָר כּדי צו באַשיצן דעם 17-יעריקן פֿון דער דײַטשער צוואַנג-אַרבעט (Arbeitseinsatz)</div>
 
   <div class="cn-comparison">
     <div class="cn-col">
       <div class="cn-col-title" data-lang="pl">Kennkarte (ARG/V/161)</div>
       <div class="cn-col-title" data-lang="en">Kennkarte (ARG/V/161)</div>
+      <div class="cn-col-title" data-lang="pt">Kennkarte (ARG/V/161)</div>
+      <div class="cn-col-title" data-lang="de">Kennkarte (ARG/V/161)</div>
+      <div class="cn-col-title" data-lang="nl">Kennkarte (ARG/V/161)</div>
+      <div class="cn-col-title" data-lang="fr">Kennkarte (ARG/V/161)</div>
+      <div class="cn-col-title" data-lang="yi">קענקאַרטע (ARG/V/161)</div>
       <div class="cn-value">29.XI.1928</div>
       <div class="cn-explain" data-lang="pl">Sfałszowana data — Krzysztof „młodszy" o 2 lata</div>
       <div class="cn-explain" data-lang="en">Falsified date — Krzysztof made 2 years younger</div>
+      <div class="cn-explain" data-lang="pt">Data falsificada — Krzysztof tornado 2 anos mais jovem</div>
+      <div class="cn-explain" data-lang="de">Gefälschtes Datum — Krzysztof um 2 Jahre jünger gemacht</div>
+      <div class="cn-explain" data-lang="nl">Vervalste datum — Krzysztof 2 jaar jonger gemaakt</div>
+      <div class="cn-explain" data-lang="fr">Date falsifiée — Krzysztof rajeuni de 2 ans</div>
+      <div class="cn-explain" data-lang="yi">פֿאַלשיפֿיצירט דאַטום — קריסטאָף 2 יאָר יונגער געמאַכט</div>
     </div>
     <div class="cn-col">
       <div class="cn-col-title" data-lang="pl">Lista weryfikacyjna AK (ARG/III/34)</div>
       <div class="cn-col-title" data-lang="en">AK Verification List (ARG/III/34)</div>
+      <div class="cn-col-title" data-lang="pt">Lista de Verificação AK (ARG/III/34)</div>
+      <div class="cn-col-title" data-lang="de">AK-Verifizierungsliste (ARG/III/34)</div>
+      <div class="cn-col-title" data-lang="nl">AK-verificatielijst (ARG/III/34)</div>
+      <div class="cn-col-title" data-lang="fr">Liste de vérification AK (ARG/III/34)</div>
+      <div class="cn-col-title" data-lang="yi">AK-וועריפֿיקאַציע-ליסטע (ARG/III/34)</div>
       <div class="cn-value">1926</div>
       <div class="cn-explain" data-lang="pl">Prawdziwy rok urodzenia — potwierdzony przez Komisję Weryfikacyjną</div>
       <div class="cn-explain" data-lang="en">True birth year — confirmed by Verification Commission</div>
+      <div class="cn-explain" data-lang="pt">Ano de nascimento verdadeiro — confirmado pela Comissão de Verificação</div>
+      <div class="cn-explain" data-lang="de">Wahres Geburtsjahr — bestätigt durch die Verifizierungskommission</div>
+      <div class="cn-explain" data-lang="nl">Werkelijk geboortejaar — bevestigd door de Verificatiecommissie</div>
+      <div class="cn-explain" data-lang="fr">Véritable année de naissance — confirmée par la Commission de vérification</div>
+      <div class="cn-explain" data-lang="yi">אמתער געבורטס-יאָר — באַשטעטיקט דורך דער וועריפֿיקאַציע-קאָמיסיע</div>
     </div>
   </div>
 
@@ -586,6 +637,86 @@ body.lang-active .card-lang-badge { display:inline; }
     of 7th Uhlans (<span class="cn-doc-ref">ARG/III/34</span>) from 1946 AK verification, where Krzysztof appears
     with the birth year <strong>1926</strong>.
     <strong>A family's survival strategy — visible only through cross-referencing documents from different archival series.</strong>
+  </p>
+  <p data-lang="pt">
+    Krzysztof Głuchowski nasceu em <strong>29.XI.1926</strong>. Na Kennkarte emitida em 9.XI.1943 em Varsóvia
+    (<span class="cn-doc-ref">ARG/V/161</span>) foi registrada a data <strong>29.XI.1928</strong> — um desvio de exatamente 2 anos.
+    Objetivo: proteção contra o <em>Arbeitseinsatz</em> (trabalho forçado), que no Governo Geral se aplicava a partir dos 16 anos.
+  </p>
+  <p data-lang="pt">
+    No momento da emissão da Kennkarte, Krzysztof já era SOLDADO do AK — juramentado em 11.V.1942 (aos 15 anos!)
+    no 7º Regimento de Ulanos „Jeleń" (<span class="cn-doc-ref">ARG/V/3</span>, <span class="cn-doc-ref">ARG/V/4</span>).
+    A mãe Wanda, codinome „Krysta" (sargento do Kedyw AK), já havia sido ferida na ação de sabotagem em Wilanów (26.IX.1943).
+    A família levava uma VIDA DUPLA: oficial (Kennkarte com data falsa) e secreta (carteira do AK, codinome „Juraś").
+  </p>
+  <p data-lang="pt">
+    A falsificação só se revela ao comparar documentos da coleção: Kennkarte vs. lista de pessoal do 7º Ulanos
+    (<span class="cn-doc-ref">ARG/III/34</span>) da verificação AK de 1946, onde Krzysztof consta com o ano de nascimento <strong>1926</strong>.
+    <strong>Estratégia de sobrevivência de uma família — visível apenas ao cruzar documentos de diferentes séries do arquivo.</strong>
+  </p>
+  <p data-lang="de">
+    Krzysztof Głuchowski wurde am <strong>29.XI.1926</strong> geboren. Auf seiner Kennkarte, ausgestellt am 9.XI.1943 in Warschau
+    (<span class="cn-doc-ref">ARG/V/161</span>), wurde das Datum <strong>29.XI.1928</strong> eingetragen — eine Verschiebung um genau 2 Jahre.
+    Zweck: Schutz vor dem <em>Arbeitseinsatz</em> (Zwangsarbeit), der im Generalgouvernement ab dem 16. Lebensjahr galt.
+  </p>
+  <p data-lang="de">
+    Zum Zeitpunkt der Ausstellung der Kennkarte war Krzysztof bereits AK-SOLDAT — vereidigt am 11.V.1942 (mit 15 Jahren!)
+    beim 7. Ulanen-Regiment „Jeleń" (<span class="cn-doc-ref">ARG/V/3</span>, <span class="cn-doc-ref">ARG/V/4</span>).
+    Seine Mutter Wanda, Deckname „Krysta" (Feldwebel, Kedyw AK), war bereits bei der Sabotageaktion in Wilanów verwundet worden (26.IX.1943).
+    Die Familie führte ein DOPPELLEBEN: offiziell (Kennkarte mit falschem Datum) und geheim (AK-Ausweis, Deckname „Juraś").
+  </p>
+  <p data-lang="de">
+    Die Fälschung offenbart sich erst beim Vergleich der Dokumente: Kennkarte vs. Personalverzeichnis des 7. Ulanen-Regiments
+    (<span class="cn-doc-ref">ARG/III/34</span>) aus der AK-Verifizierung 1946, wo Krzysztof mit dem Geburtsjahr <strong>1926</strong> erscheint.
+    <strong>Überlebensstrategie einer Familie — sichtbar nur durch den Vergleich von Dokumenten aus verschiedenen Archivserien.</strong>
+  </p>
+  <p data-lang="nl">
+    Krzysztof Głuchowski werd geboren op <strong>29.XI.1926</strong>. Op zijn Kennkarte, uitgegeven op 9.XI.1943 in Warschau
+    (<span class="cn-doc-ref">ARG/V/161</span>), werd de datum <strong>29.XI.1928</strong> genoteerd — een verschuiving van precies 2 jaar.
+    Doel: bescherming tegen de <em>Arbeitseinsatz</em> (dwangarbeid), die in het Generaal-Gouvernement gold vanaf 16 jaar.
+  </p>
+  <p data-lang="nl">
+    Op het moment dat de Kennkarte werd uitgegeven, was Krzysztof al AK-SOLDAAT — beëdigd op 11.V.1942 (op 15-jarige leeftijd!)
+    bij het 7e Ulanen-Regiment „Jeleń" (<span class="cn-doc-ref">ARG/V/3</span>, <span class="cn-doc-ref">ARG/V/4</span>).
+    Zijn moeder Wanda, schuilnaam „Krysta" (sergeant, Kedyw AK), was al gewond geraakt bij de sabotageactie in Wilanów (26.IX.1943).
+    Het gezin leidde een DUBBELLEVEN: openbaar (Kennkarte met valse datum) en geheim (AK-legitimatie, schuilnaam „Juraś").
+  </p>
+  <p data-lang="nl">
+    De vervalsing wordt pas onthuld bij het vergelijken van documenten: Kennkarte vs. personeelslijst van het 7e Ulanen-Regiment
+    (<span class="cn-doc-ref">ARG/III/34</span>) uit de AK-verificatie van 1946, waar Krzysztof voorkomt met geboortejaar <strong>1926</strong>.
+    <strong>Overlevingsstrategie van een familie — alleen zichtbaar door kruisverwijzing van documenten uit verschillende archiefseries.</strong>
+  </p>
+  <p data-lang="fr">
+    Krzysztof Głuchowski est né le <strong>29.XI.1926</strong>. Sur sa Kennkarte délivrée le 9.XI.1943 à Varsovie
+    (<span class="cn-doc-ref">ARG/V/161</span>), la date <strong>29.XI.1928</strong> a été inscrite — un décalage de exactement 2 ans.
+    But : protection contre l'<em>Arbeitseinsatz</em> (travail forcé), qui dans le Gouvernement Général s'appliquait dès l'âge de 16 ans.
+  </p>
+  <p data-lang="fr">
+    Au moment de la délivrance de la Kennkarte, Krzysztof était déjà SOLDAT de l'AK — assermenté le 11.V.1942 (à 15 ans !)
+    au 7e Régiment d'Uhlans « Jeleń » (<span class="cn-doc-ref">ARG/V/3</span>, <span class="cn-doc-ref">ARG/V/4</span>).
+    Sa mère Wanda, nom de code « Krysta » (sergent, Kedyw AK), avait déjà été blessée dans l'action de sabotage à Wilanów (26.IX.1943).
+    La famille menait une DOUBLE VIE : officielle (Kennkarte avec fausse date) et secrète (carte AK, nom de code « Juraś »).
+  </p>
+  <p data-lang="fr">
+    La falsification ne se révèle qu'en comparant les documents de la collection : Kennkarte vs. la liste du personnel
+    du 7e Uhlans (<span class="cn-doc-ref">ARG/III/34</span>) de la vérification AK de 1946, où Krzysztof apparaît
+    avec l'année de naissance <strong>1926</strong>.
+    <strong>Stratégie de survie d'une famille — visible uniquement par le croisement de documents de différentes séries d'archives.</strong>
+  </p>
+  <p data-lang="yi">
+    קריסטאָף גלוכאָווסקי איז געבאָרן געוואָרן דעם <strong>29.XI.1926</strong>. אויף זײַן קענקאַרטע, אַרויסגעגעבן דעם 9.XI.1943 אין וואַרשע
+    (<span class="cn-doc-ref">ARG/V/161</span>), איז אײַנגעשריבן געוואָרן דער דאַטום <strong>29.XI.1928</strong> — אַ פֿאַרשיבונג פֿון פּונקט 2 יאָר.
+    ציל: באַשיצונג פֿון <em>Arbeitseinsatz</em> (צוואַנג-אַרבעט), וואָס אין גענעראַלגובערנעמענט האָט אָנגעהויבן פֿון 16 יאָר.
+  </p>
+  <p data-lang="yi">
+    אין דער צײַט פֿון אַרויסגעבן די קענקאַרטע איז קריסטאָף שוין געווען אַ AK-סאָלדאַט — פֿאַרשוואָרן דעם 11.V.1942 (מיט 15 יאָר!)
+    אין 7טן אולאַנען-רעגימענט „Jeleń" (<span class="cn-doc-ref">ARG/V/3</span>, <span class="cn-doc-ref">ARG/V/4</span>).
+    די משפּחה האָט געפֿירט אַ דאָפּלט לעבן: אָפֿיציעל (קענקאַרטע מיט פֿאַלשן דאַטום) און סוד (AK-לעגיטימאַציע, דעקנאָמען „יוראַש").
+  </p>
+  <p data-lang="yi">
+    די פֿאַלשונג ענטפּלעקט זיך נאָר בײַם פֿאַרגלײַכן דאָקומענטן: קענקאַרטע קעגן פּערסאָנאַל-ליסטע פֿון 7טן אולאַנען-רעגימענט
+    (<span class="cn-doc-ref">ARG/III/34</span>) פֿון AK-וועריפֿיקאַציע 1946, וווּ קריסטאָף ערשײַנט מיט געבורטס-יאָר <strong>1926</strong>.
+    <strong>איבערלעבונגס-סטראַטעגיע פֿון איין משפּחה — זעבאַר נאָר דורך קרײַצפֿאַרגלײַך פֿון דאָקומענטן פֿון פֿאַרשידענע אַרכיוו-סעריעס.</strong>
   </p>
 </div>
 
@@ -638,6 +769,13 @@ body.lang-active .card-lang-badge { display:inline; }
     <div class="ap-sources" data-lang="nl">Bronnen: ARG/I–VI (313 eenheden), Collectie 70 van het Piłsudski-Instituut in Londen, Oral History Archief van het Museum van de Opstand van Warschau nr. 1889</div>
     <div class="ap-sources" data-lang="fr">Sources : ARG/I–VI (313 unités), Fonds 70 de l'Institut Piłsudski de Londres, Archives d'Histoire Orale du Musée de l'Insurrection de Varsovie réf. 1889</div>
     <div class="ap-sources" data-lang="yi">מקורות: ARG/I–VI (313 אייניקייטן), זאַמלונג 70 פֿון פּיווסודסקי-אינסטיטוט אין לאָנדאָן</div>
+    <a class="ap-link" href="artykul_regularne_wojsko_w_powstaniu.html" data-lang="pl"><span class="lock-icon">🔒</span>Czytaj pełny artykuł</a>
+    <a class="ap-link" href="artykul_regularne_wojsko_w_powstaniu.html" data-lang="en"><span class="lock-icon">🔒</span>Read full article</a>
+    <a class="ap-link" href="artykul_regularne_wojsko_w_powstaniu.html" data-lang="pt"><span class="lock-icon">🔒</span>Leia o artigo completo</a>
+    <a class="ap-link" href="artykul_regularne_wojsko_w_powstaniu.html" data-lang="de"><span class="lock-icon">🔒</span>Vollständigen Artikel lesen</a>
+    <a class="ap-link" href="artykul_regularne_wojsko_w_powstaniu.html" data-lang="nl"><span class="lock-icon">🔒</span>Lees het volledige artikel</a>
+    <a class="ap-link" href="artykul_regularne_wojsko_w_powstaniu.html" data-lang="fr"><span class="lock-icon">🔒</span>Lire l'article complet</a>
+    <a class="ap-link" href="artykul_regularne_wojsko_w_powstaniu.html" data-lang="yi"><span class="lock-icon">🔒</span>לייענט דעם גאַנצן אַרטיקל</a>
   </div>
 
   <!-- ARTYKUŁ 2: PIĘĆ LOSÓW -->
@@ -676,6 +814,13 @@ body.lang-active .card-lang-badge { display:inline; }
     <div class="ap-novelty" data-lang="fr"><strong>Nouveauté :</strong> Mise en relation de documents privés avec les collections de l'Institut Piłsudski de Londres (Fonds 70). Premier catalogue muséal complet d'une archive familiale selon la norme ISAD(G).</div>
     <div class="ap-novelty" data-lang="yi"><strong>נײַיקייט:</strong> פֿאַרבינדונג פֿון פּריוואַטע דאָקומענטן מיט די זאַמלונגען פֿון פּיווסודסקי-אינסטיטוט אין לאָנדאָן (זאַמלונג 70). ערשטער מוזיי-קאַטאַלאָג פֿון אַ משפּחה-אַרכיוו אין ISAD(G)-סטאַנדאַרט.</div>
     <div class="ap-sources">Źródła / Sources: ARG/I/1–6, ARG/II/1–68, ARG/III/1–38, ARG/V/1–173, ARG/VI/1–29</div>
+    <a class="ap-link" href="artykul_piec_losow.html" data-lang="pl"><span class="lock-icon">🔒</span>Czytaj pełny artykuł</a>
+    <a class="ap-link" href="artykul_piec_losow.html" data-lang="en"><span class="lock-icon">🔒</span>Read full article</a>
+    <a class="ap-link" href="artykul_piec_losow.html" data-lang="pt"><span class="lock-icon">🔒</span>Leia o artigo completo</a>
+    <a class="ap-link" href="artykul_piec_losow.html" data-lang="de"><span class="lock-icon">🔒</span>Vollständigen Artikel lesen</a>
+    <a class="ap-link" href="artykul_piec_losow.html" data-lang="nl"><span class="lock-icon">🔒</span>Lees het volledige artikel</a>
+    <a class="ap-link" href="artykul_piec_losow.html" data-lang="fr"><span class="lock-icon">🔒</span>Lire l'article complet</a>
+    <a class="ap-link" href="artykul_piec_losow.html" data-lang="yi"><span class="lock-icon">🔒</span>לייענט דעם גאַנצן אַרטיקל</a>
   </div>
 
   <!-- ARTYKUŁ 3: CHŁOPIEC-POWSTANIEC -->
@@ -713,6 +858,13 @@ body.lang-active .card-lang-badge { display:inline; }
     <div class="ap-novelty" data-lang="fr"><strong>Nouveauté :</strong> Corrélation du témoignage d'histoire orale du Musée avec les documents de la collection. Premier cas documenté de « falsification protectrice » de date de naissance dans une famille AK avec chaîne de preuves complète.</div>
     <div class="ap-novelty" data-lang="yi"><strong>נײַיקייט:</strong> ערשטער דאָקומענטירטער פֿאַל פֿון „שיצנדיקע פֿאַלשונג" פֿון געבורטס-דאַטום אין אַ AK-משפּחה מיט אַ גאַנצער באַווײַז-קייט.</div>
     <div class="ap-sources">Źródła / Sources: ARG/V/1–4, ARG/V/158, ARG/V/161, ARG/III/34, ARG/V/13, ARG/V/69</div>
+    <a class="ap-link" href="artykul_chlopiec_powstaniec.html" data-lang="pl"><span class="lock-icon">🔒</span>Czytaj pełny artykuł</a>
+    <a class="ap-link" href="artykul_chlopiec_powstaniec.html" data-lang="en"><span class="lock-icon">🔒</span>Read full article</a>
+    <a class="ap-link" href="artykul_chlopiec_powstaniec.html" data-lang="pt"><span class="lock-icon">🔒</span>Leia o artigo completo</a>
+    <a class="ap-link" href="artykul_chlopiec_powstaniec.html" data-lang="de"><span class="lock-icon">🔒</span>Vollständigen Artikel lesen</a>
+    <a class="ap-link" href="artykul_chlopiec_powstaniec.html" data-lang="nl"><span class="lock-icon">🔒</span>Lees het volledige artikel</a>
+    <a class="ap-link" href="artykul_chlopiec_powstaniec.html" data-lang="fr"><span class="lock-icon">🔒</span>Lire l'article complet</a>
+    <a class="ap-link" href="artykul_chlopiec_powstaniec.html" data-lang="yi"><span class="lock-icon">🔒</span>לייענט דעם גאַנצן אַרטיקל</a>
   </div>
 
   <!-- ARTYKUŁ 4: DYSK -->
