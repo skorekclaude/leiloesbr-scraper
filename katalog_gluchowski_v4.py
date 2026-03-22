@@ -1906,7 +1906,7 @@ OBJECTS = [
     # -- Podseria V/L: Korespondencja (aerogramy, listy) --
     {
         "sygn": "ARG/V/67",
-        "photo": "juras_001_page2.png",
+        "photo": "juras_001_page2.jpeg",
         "tytul": "Aerogram do Głuchowskiego — CMF 3 DSK, Włochy",
         "data": "1945–1946",
         "typ": "aerogram",
@@ -1921,7 +1921,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/68",
-        "photo": "juras_002_page3.png",
+        "photo": "juras_002_page3.jpeg",
         "tytul": "List ręczny z Bahia/Salvador, Brazylia — korespondencja rodzinna",
         "data": "lata 50. XX w.",
         "typ": "list",
@@ -1938,7 +1938,7 @@ OBJECTS = [
     # -- Podseria V/M: Dokumenty wojskowe i ewidencyjne --
     {
         "sygn": "ARG/V/69",
-        "photo": "juras_003_page4.png",
+        "photo": "juras_003_page4.jpeg",
         "tytul": "Arkusz ewidencyjny wojskowy — Oficer Rezerwy",
         "data": "1945–1946",
         "typ": "formularz",
@@ -1953,7 +1953,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/70",
-        "photo": "juras_004_page5.png",
+        "photo": "juras_004_page5.jpeg",
         "tytul": "Przepustka wojskowa (PASS) — D-wo 3 DSK, 14.II.1946",
         "data": "14.II.1946",
         "typ": "przepustka",
@@ -1970,7 +1970,7 @@ OBJECTS = [
     # -- Podseria V/N: Świadectwa szkolne (Gimnazjum i Liceum 3 DSK) --
     {
         "sygn": "ARG/V/71",
-        "photo": "juras_005_page6.png",
+        "photo": "juras_005_page6.jpeg",
         "tytul": "Świadectwo Gimnazjum i Liceum 3 DSK — formularz z pieczęcią kpt. Kapicy",
         "data": "1946",
         "typ": "swiadectwo",
@@ -1985,7 +1985,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/72",
-        "photo": "juras_006_page7.png",
+        "photo": "juras_006_page7.jpeg",
         "tytul": "Świadectwo 1. Liceum Ogólnokształcącego 3 DSK — oceny, Krzysztof Głuchowski",
         "data": "1946",
         "typ": "swiadectwo",
@@ -2000,7 +2000,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/73",
-        "photo": "juras_007_page8.png",
+        "photo": "juras_007_page8.jpeg",
         "tytul": "Świadectwo Liceum — verso z pieczęcią, Homeracle-Italia, VI.1946",
         "data": "VI.1946",
         "typ": "swiadectwo",
@@ -2017,7 +2017,7 @@ OBJECTS = [
     # -- Podseria V/O: Życie obozowe --
     {
         "sygn": "ARG/V/74",
-        "photo": "juras_008_page9.png",
+        "photo": "juras_008_page9.jpeg",
         "tytul": "Obóz Lammie — Wiadomości Tygodniowe (druk obozowy)",
         "data": "1946–1947",
         "typ": "druk",
@@ -2032,7 +2032,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/75",
-        "photo": "juras_009_page10.png",
+        "photo": "juras_009_page10.jpeg",
         "tytul": "Mapa obozu Lammie z legendą",
         "data": "1946–1947",
         "typ": "mapa",
@@ -2049,7 +2049,7 @@ OBJECTS = [
     # -- Podseria V/P: Korespondencja osobista --
     {
         "sygn": "ARG/V/76",
-        "photo": "juras_010_page11.png",
+        "photo": "juras_010_page11.jpeg",
         "tytul": "List do matki — 'Kochana moja Matenko!' — Wigilia 24.XII.1946, str. 1",
         "data": "24.XII.1946",
         "typ": "list",
@@ -2064,7 +2064,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/77",
-        "photo": "juras_011_page12.png",
+        "photo": "juras_011_page12.jpeg",
         "tytul": "List do matki — Wigilia 24.XII.1946, str. 2",
         "data": "24.XII.1946",
         "typ": "list",
@@ -2079,7 +2079,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/78",
-        "photo": "juras_012_page13.png",
+        "photo": "juras_012_page13.jpeg",
         "tytul": "List do matki — Wigilia 24.XII.1946, str. 3 (wspomnienia z 1945)",
         "data": "24.XII.1946",
         "typ": "list",
@@ -2094,7 +2094,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/79",
-        "photo": "juras_013_page14.png",
+        "photo": "juras_013_page14.jpeg",
         "tytul": "List do matki — Wigilia 24.XII.1946, str. 4 (sytuacja emigrantów)",
         "data": "24.XII.1946",
         "typ": "list",
@@ -2109,7 +2109,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/80",
-        "photo": "juras_014_page15.png",
+        "photo": "juras_014_page15.jpeg",
         "tytul": "Rysunek techniczny — diagram geometryczny (zadanie szkolne)",
         "data": "1945–1946",
         "typ": "rysunek",
@@ -2126,7 +2126,7 @@ OBJECTS = [
     # -- Podseria V/Q: Przepustki i dokumenty brytyjskie --
     {
         "sygn": "ARG/V/81",
-        "photo": "juras_015_page16.png",
+        "photo": "juras_015_page16.jpeg",
         "tytul": "Przepustka Army Form B.295 — L/Cpl Głuchowski, 7 Pułk Ułanów Lubelskich",
         "data": "1946–1948",
         "typ": "przepustka",
@@ -2141,7 +2141,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/82",
-        "photo": "juras_016_page17.png",
+        "photo": "juras_016_page17.jpeg",
         "tytul": "Instrukcja medyczna British Army — postępowanie w razie choroby na przepustce",
         "data": "1946–1948",
         "typ": "druk regulaminowy",
@@ -2156,7 +2156,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/83",
-        "photo": "juras_017_page18.png",
+        "photo": "juras_017_page18.jpeg",
         "tytul": "Kartka świąteczna PL/EN — 'Wesołych Świąt / Christmastide Greetings 1947', Bodney Airfield",
         "data": "XII.1947",
         "typ": "druk",
@@ -2171,7 +2171,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/84",
-        "photo": "juras_018_page19.png",
+        "photo": "juras_018_page19.jpeg",
         "tytul": "Kartka świąteczna — verso (ornament choinkowy)",
         "data": "XII.1947",
         "typ": "druk",
@@ -2186,7 +2186,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/85",
-        "photo": "juras_019_page20.png",
+        "photo": "juras_019_page20.jpeg",
         "tytul": "Notatka z obliczeniami finansowymi",
         "data": "lata 40.–50. XX w.",
         "typ": "notatka",
@@ -2201,7 +2201,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/86",
-        "photo": "juras_020_page21.png",
+        "photo": "juras_020_page21.jpeg",
         "tytul": "Wizytówka H. London POLACCO — Bari, Włochy",
         "data": "1945–1946",
         "typ": "wizytowka",
@@ -2218,7 +2218,7 @@ OBJECTS = [
     # -- Podseria V/R: Świadectwa i dyplomy (Anglia) --
     {
         "sygn": "ARG/V/87",
-        "photo": "juras_021_page22.png",
+        "photo": "juras_021_page22.jpeg",
         "tytul": "Świadectwo I Polskiego Liceum im. 3 DSK — Bodney (Norfolk), Nr 3, klasa 3a/37",
         "data": "1947",
         "typ": "swiadectwo",
@@ -2233,7 +2233,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/88",
-        "photo": "juras_022_page23.png",
+        "photo": "juras_022_page23.jpeg",
         "tytul": "Świadectwo Liceum Bodney — verso z pieczęcią (30.VI.1946)",
         "data": "30.VI.1946",
         "typ": "swiadectwo",
@@ -2248,7 +2248,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/89",
-        "photo": "juras_023_page24.png",
+        "photo": "juras_023_page24.jpeg",
         "tytul": "Przepustka Polish School Master — Gimnazjum i Liceum BOSK, nr 3024427",
         "data": "1.VI.1947 – 4.V.1947",
         "typ": "przepustka",
@@ -2265,7 +2265,7 @@ OBJECTS = [
     # -- Podseria V/S: PKPR (Polski Korpus Przysposobienia i Rozmieszczenia) --
     {
         "sygn": "ARG/V/90",
-        "photo": "juras_024_page25.png",
+        "photo": "juras_024_page25.jpeg",
         "tytul": "Druk informacyjny PKPR — 'POLSKI KORPUS PRZYSPOSOBIENIA I ROZMIESZCZENIA (POLISH RESETTLEMENT CORPS)'",
         "data": "1946",
         "typ": "ulotka",
@@ -2280,7 +2280,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/91",
-        "photo": "juras_025_page26.png",
+        "photo": "juras_025_page26.jpeg",
         "tytul": "Autentyczny Odpis Umowy Służby — nr 31043371, Głuchowski Krzysztof, PKPC",
         "data": "4.VI.1945",
         "typ": "formularz",
@@ -2295,7 +2295,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/92",
-        "photo": "juras_026_page27.png",
+        "photo": "juras_026_page27.jpeg",
         "tytul": "WYCIĄG — La Courtine, 15.XI.1946: st. ułan Głuchowski 'A.K. skreślony ze stanu Obozu', brak dokumentów",
         "data": "15.XI.1946",
         "typ": "rozkaz",
@@ -2310,7 +2310,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/93",
-        "photo": "juras_027_page28.png",
+        "photo": "juras_027_page28.jpeg",
         "tytul": "Pismo Polskiej Misji Wojskowej — Paryż, 23.XI.1946, do PANA GENERAŁA GŁUCHOWSKIEGO w Londynie",
         "data": "23.XI.1946",
         "typ": "pismo",
@@ -2325,7 +2325,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/94",
-        "photo": "juras_028_page29.png",
+        "photo": "juras_028_page29.jpeg",
         "tytul": "Kwestionariusz Osobisty (POUFNE) — str. 1, dane osobowe i służba",
         "data": "1946–1947",
         "typ": "kwestionariusz",
@@ -2340,7 +2340,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/95",
-        "photo": "juras_029_page30.png",
+        "photo": "juras_029_page30.jpeg",
         "tytul": "Kwestionariusz Osobisty — str. 2, rodzina i 'PETYCJA O REPATRIACJĘ'",
         "data": "1946–1947",
         "typ": "kwestionariusz",
@@ -2357,7 +2357,7 @@ OBJECTS = [
     # -- Podseria V/T: Weryfikacja AK --
     {
         "sygn": "ARG/V/96",
-        "photo": "juras_030_page31.png",
+        "photo": "juras_030_page31.jpeg",
         "tytul": "Zaświadczenie Komisji Weryfikacyjnej AK — przejście kanałami z Powstania",
         "data": "1946",
         "typ": "zaswiadczenie",
@@ -2372,7 +2372,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/97",
-        "photo": "juras_031_page32.png",
+        "photo": "juras_031_page32.jpeg",
         "tytul": "Zaświadczenie Komisji Weryfikacyjnej AK — 7 Pułk Ułanów Lubelskich, 24.VI.1946",
         "data": "24.VI.1946",
         "typ": "zaswiadczenie",
@@ -2387,7 +2387,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/98",
-        "photo": "juras_032_page33.png",
+        "photo": "juras_032_page33.jpeg",
         "tytul": "Pismo ppłk. ANDERSA — Szef Wydziału Rodzin Wojskowych do St.Uł. Głuchowskiego, Londyn 1.III.1949",
         "data": "1.III.1949",
         "typ": "pismo",
@@ -2402,7 +2402,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/99",
-        "photo": "juras_033_page34.png",
+        "photo": "juras_033_page34.jpeg",
         "tytul": "Notatki odręczne Krzysztofa — ewidencja dat służby, rozkazów i odznaczeń 1945–1946",
         "data": "1946",
         "typ": "notatka",
@@ -2419,7 +2419,7 @@ OBJECTS = [
     # -- Podseria V/U: Zaświadczenia o służbie --
     {
         "sygn": "ARG/V/100",
-        "photo": "juras_034_page35.png",
+        "photo": "juras_034_page35.jpeg",
         "tytul": "ZAŚWIADCZENIE O ZAKOŃCZENIU SŁUŻBY — PSZ Nr 87949, St.Uł. Krzysztof Głuchowski, Londyn 24.II.1949",
         "data": "24.II.1949",
         "typ": "zaswiadczenie",
@@ -2434,7 +2434,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/101",
-        "photo": "juras_035_page36.png",
+        "photo": "juras_035_page36.jpeg",
         "tytul": "Świadectwo Dojrzałości ZE ZDJĘCIEM — Głuchowski Krzysztof, egzamin 'Dobrze'",
         "data": "1946",
         "typ": "dyplom",
@@ -2449,7 +2449,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/102",
-        "photo": "juras_036_page37.png",
+        "photo": "juras_036_page37.jpeg",
         "tytul": "Świadectwo Dojrzałości — verso, podpisy komisji, dalsze oceny",
         "data": "1946",
         "typ": "dyplom",
@@ -2466,7 +2466,7 @@ OBJECTS = [
     # -- Podseria V/V: Discharge i demobilizacja --
     {
         "sygn": "ARG/V/103",
-        "photo": "juras_037_page38.png",
+        "photo": "juras_037_page38.jpeg",
         "tytul": "Discharge Certificate — Army No. 3004271, Pte Głuchowski Krzysztof, Witley Camp, 31.X.1948",
         "data": "31.X.1948",
         "typ": "discharge",
@@ -2483,7 +2483,7 @@ OBJECTS = [
     # -- Podseria V/W: Książeczka żołnierska (Soldier's Service Book) --
     {
         "sygn": "ARG/V/104",
-        "photo": "juras_038_page39.png",
+        "photo": "juras_038_page39.jpeg",
         "tytul": "Soldier's Service Book (Army Book 64) — Short Form of Will",
         "data": "1945–1948",
         "typ": "ksiazeczka",
@@ -2498,7 +2498,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/105",
-        "photo": "juras_039_page40.png",
+        "photo": "juras_039_page40.jpeg",
         "tytul": "Soldier's Service Book — okładka wewnętrzna i strona tytułowa",
         "data": "1945–1948",
         "typ": "ksiazeczka",
@@ -2513,7 +2513,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/106",
-        "photo": "juras_040_page41.png",
+        "photo": "juras_040_page41.jpeg",
         "tytul": "Soldier's Service Book — dane osobowe (str. 2-3)",
         "data": "1945–1948",
         "typ": "ksiazeczka",
@@ -2528,7 +2528,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/107",
-        "photo": "juras_041_page42.png",
+        "photo": "juras_041_page42.jpeg",
         "tytul": "Soldier's Service Book — Medical Classification, szczepienia (str. 8-9)",
         "data": "1945–1948",
         "typ": "ksiazeczka",
@@ -2543,7 +2543,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/108",
-        "photo": "juras_042_page43.png",
+        "photo": "juras_042_page43.jpeg",
         "tytul": "Soldier's Service and Pay Book — okładka zewnętrzna 'ARMY BOOK 64', karton khaki",
         "data": "1945–1948",
         "typ": "ksiazeczka",
@@ -2558,7 +2558,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/109",
-        "photo": "juras_043_page44.png",
+        "photo": "juras_043_page44.jpeg",
         "tytul": "Karta odznaczeń Campaign Stars and Medals 1939–45",
         "data": "1945–1948",
         "typ": "ksiazeczka",
@@ -2573,7 +2573,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/110",
-        "photo": "juras_044_page45.png",
+        "photo": "juras_044_page45.jpeg",
         "tytul": "Pismo Under-Secretary of State for War — transmisja odznaczeń wojennych",
         "data": "1946–1948",
         "typ": "pismo",
@@ -2590,7 +2590,7 @@ OBJECTS = [
     # -- Podseria V/X: Notatki i ewidencja odznaczeń --
     {
         "sygn": "ARG/V/111",
-        "photo": "juras_045_page46.png",
+        "photo": "juras_045_page46.jpeg",
         "tytul": "Notatki ewidencyjne — odznaczenia, weryfikacja AK, numer 1134/II AK/46",
         "data": "IX–XI.1946",
         "typ": "notatka",
@@ -2605,7 +2605,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/112",
-        "photo": "juras_046_page47.png",
+        "photo": "juras_046_page47.jpeg",
         "tytul": "Notatki weryfikacyjne AK — 7 P.Uł., Komp. I, lista weryfikowanych, numer 1134/II AK/46",
         "data": "1946",
         "typ": "notatka",
@@ -2620,7 +2620,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/113",
-        "photo": "juras_047_page48.png",
+        "photo": "juras_047_page48.jpeg",
         "tytul": "Notatki — numery rozkazów, Medal Wojska, Odznaka 3 DSK",
         "data": "1946",
         "typ": "notatka",
@@ -2637,7 +2637,7 @@ OBJECTS = [
     # -- Podseria V/Y: Wyposażenie i testament --
     {
         "sygn": "ARG/V/114",
-        "photo": "juras_048_page49.png",
+        "photo": "juras_048_page49.jpeg",
         "tytul": "Wykaz wyposażenia osobistego — Krzysztof Głuchowski, Umundurowanie + Przybory",
         "data": "1945–1946",
         "typ": "formularz",
