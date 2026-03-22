@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DYSK — farmaceutka w oddziale dywersji kobiet. Wanda Głuchowska i Akcja Wilanów</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0a0a;
+  --surface: #141414;
+  --border: #252525;
+  --text: #dddad5;
+  --text-dim: #7a7a7a;
+  --gold: #c9a84c;
+  --red: #c0392b;
+  --blue: #3498db;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:var(--bg); color:var(--text); font-family:'EB Garamond',serif; line-height:1.9; }
+
+.top-nav {
+  position:sticky; top:0; z-index:100;
+  background:rgba(10,10,10,.95); backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--border);
+  padding:10px 20px; display:flex; justify-content:space-between; align-items:center;
+}
+.top-nav a { color:var(--text-dim); text-decoration:none; font-family:'Inter',sans-serif; font-size:.8em; }
+.top-nav a:hover { color:var(--gold); }
+
+article { max-width:720px; margin:0 auto; padding:60px 24px 80px; }
+
+.article-header { text-align:center; margin-bottom:50px; padding-bottom:40px; border-bottom:1px solid var(--border); }
+.article-journal { font-family:'Inter',sans-serif; font-size:.72em; letter-spacing:.15em; text-transform:uppercase; color:var(--gold); }
+.article-title { font-size:clamp(1.6em,4vw,2.4em); font-weight:700; margin:16px 0 12px; line-height:1.25; color:var(--text); }
+.article-subtitle { font-size:1.15em; font-style:italic; color:var(--text-dim); margin-bottom:20px; }
+.article-author { font-family:'Inter',sans-serif; font-size:.85em; color:var(--text-dim); }
+.article-meta { font-family:'Inter',sans-serif; font-size:.75em; color:var(--text-dim); margin-top:8px; }
+
+h2 { font-size:1.4em; color:var(--gold); margin:40px 0 16px; font-weight:600; }
+h3 { font-size:1.15em; color:var(--text); margin:28px 0 12px; font-weight:600; }
+p { margin-bottom:1.3em; font-size:1.08em; text-align:justify; hyphens:auto; }
+p.abstract {
+  border-left:3px solid var(--gold); padding:16px 20px; margin:24px 0 36px;
+  background:rgba(201,168,76,.06); font-style:italic; font-size:1em;
+}
+p.keywords { font-family:'Inter',sans-serif; font-size:.82em; color:var(--text-dim); margin-bottom:36px; }
+
+sup { color:var(--gold); cursor:pointer; font-size:.8em; }
+sup:hover { text-decoration:underline; }
+.footnote-ref { font-size:.82em; vertical-align:super; color:var(--gold); text-decoration:none; }
+.footnotes {
+  margin-top:50px; padding-top:30px; border-top:1px solid var(--border);
+}
+.footnotes h2 { font-size:1.1em; margin-bottom:16px; }
+.footnotes ol { padding-left:20px; }
+.footnotes li {
+  font-size:.88em; color:var(--text-dim); margin-bottom:8px; line-height:1.6;
+}
+.footnotes li em { color:var(--text); }
+
+table { width:100%; border-collapse:collapse; margin:20px 0 28px; font-size:.92em; }
+th { text-align:left; padding:10px 12px; border-bottom:2px solid var(--gold); color:var(--gold); font-family:'Inter',sans-serif; font-size:.82em; letter-spacing:.05em; text-transform:uppercase; }
+td { padding:8px 12px; border-bottom:1px solid var(--border); }
+tr:hover td { background:rgba(201,168,76,.04); }
+
+.bibliography { margin-top:50px; padding-top:30px; border-top:1px solid var(--border); }
+.bibliography h2 { font-size:1.1em; margin-bottom:16px; }
+.bib-section { margin-bottom:20px; }
+.bib-section h3 { font-size:.95em; color:var(--text-dim); margin-bottom:8px; font-family:'Inter',sans-serif; }
+.bib-entry { font-size:.9em; margin-bottom:6px; padding-left:24px; text-indent:-24px; }
+
+blockquote {
+  border-left:3px solid var(--border); padding:12px 20px; margin:20px 0;
+  font-style:italic; color:var(--text-dim); font-size:1em;
+}
+blockquote .source { display:block; font-style:normal; font-size:.85em; color:var(--text-dim); margin-top:6px; }
+
+@media (max-width:600px) {
+  article { padding:40px 16px; }
+  p { font-size:1em; }
+}
+</style>
+</head>
+<body>
+<script>
+(function(){
+  var HASH='2d520b8311818d9fea9edd73144600e5b8f97e59858114d15db0cca294c66184';
+  var SK='article_auth';
+  if(sessionStorage.getItem(SK)==='ok'){return;}
+  document.body.style.display='none';
+  var ov=document.createElement('div');
+  ov.id='auth-overlay';
+  ov.innerHTML='<div style="position:fixed;inset:0;z-index:99999;background:#0a0a0a;display:flex;align-items:center;justify-content:center;font-family:Inter,sans-serif">'
+    +'<div style="background:#141414;border:1px solid #252525;border-radius:12px;padding:40px 36px;max-width:360px;width:90%;text-align:center">'
+    +'<h2 style="color:#c9a84c;font-size:1.3em;margin-bottom:8px;font-weight:600">Dost\u0119p chroniony</h2>'
+    +'<p style="color:#7a7a7a;font-size:.85em;margin-bottom:24px">Podaj has\u0142o, aby kontynuowa\u0107</p>'
+    +'<input id="pw-input" type="password" placeholder="Has\u0142o" style="width:100%;padding:10px 14px;border:1px solid #252525;border-radius:6px;background:#0a0a0a;color:#dddad5;font-size:1em;outline:none;margin-bottom:12px">'
+    +'<p id="pw-err" style="color:#c0392b;font-size:.82em;min-height:1.2em;margin-bottom:12px"></p>'
+    +'<button id="pw-btn" style="width:100%;padding:10px 0;border:none;border-radius:6px;background:#c9a84c;color:#0a0a0a;font-weight:600;font-size:1em;cursor:pointer">Wejd\u017a</button>'
+    +'</div></div>';
+  document.documentElement.appendChild(ov);
+  async function check(){
+    var pw=document.getElementById('pw-input').value;
+    var buf=new TextEncoder().encode(pw);
+    var hash=await crypto.subtle.digest('SHA-256',buf);
+    var hex=Array.from(new Uint8Array(hash)).map(function(b){return b.toString(16).padStart(2,'0')}).join('');
+    if(hex===HASH){sessionStorage.setItem(SK,'ok');document.getElementById('auth-overlay').remove();document.body.style.display='';}
+    else{document.getElementById('pw-err').textContent='B\u0142\u0119dne has\u0142o';}
+  }
+  setTimeout(function(){
+    var btn=document.getElementById('pw-btn');
+    if(btn){btn.onclick=check;}
+    var inp=document.getElementById('pw-input');
+    if(inp){inp.onkeydown=function(e){if(e.key==='Enter')check();};}
+  },50);
+})();
+</script>
+
+<nav class="top-nav">
+  <a href="katalog_gluchowski_v4.html">&larr; Katalog Kolekcji G&lstrok;uchowskich</a>
+  <a href="katalog_gluchowski_v4.html#academic-articles">Artyku&lstrok;y naukowe</a>
+</nav>
+
+<article>
+  <header class="article-header">
+    <div class="article-journal">Studium przypadku &bull; Gender military history</div>
+    <h1 class="article-title">DYSK &mdash; farmaceutka w oddziale dywersji kobiet</h1>
+    <div class="article-subtitle">Wanda G&lstrok;uchowska ps. &bdquo;Krysta&rdquo;/&bdquo;Justyna&rdquo; i Akcja Wilan&oacute;w 26 wrze&sacute;nia 1943</div>
+    <div class="article-author">Na podstawie Archiwum Rodziny G&lstrok;uchowskich (ARG) oraz relacji AHM MPW sygn. 1889</div>
+    <div class="article-meta">2026 &bull; &Zacute;r&oacute;d&lstrok;a: ARG/III/28, ARG/V/3&ndash;4, ARG/V/158, ARG/V/161, ARG/VI/25, AHM MPW sygn. 1889, portal 1944.pl</div>
+  </header>
+
+  <p class="abstract">Rola kobiet w Kedywie Armii Krajowej na przyk&lstrok;adzie jednej rodziny warszawskiej. Wanda Bronis&lstrok;awa G&lstrok;uchowska z domu Zembrzuska (1901&ndash;1976), magister farmacji Uniwersytetu Jana Kazimierza we Lwowie, s&lstrok;u&zdot;y&lstrok;a w oddziale DYSK (Dywersja i Sabota&zdot; Kobiet) &mdash; jedynym &zdot;e&nacute;skim oddziale specjalnym Kedywu AK. Ranna w akcji dywersyjnej pod Wilan&oacute;wem 26 wrze&sacute;nia 1943, odznaczona Krzy&zdot;em Walecznych, nie zosta&lstrok;a zmobilizowana do Powstania Warszawskiego. W tym samym czasie jej m&aogon;&zdot; Stefan &mdash; ppor. AK, kwatermistrz Obwodu I &Sacute;r&oacute;dmie&sacute;cie &mdash; zosta&lstrok; aresztowany przez Gestapo (18 maja 1944), a ich siedemnastoletni syn Krzysztof ps. &bdquo;Jura&sacute;&rdquo; walczy&lstrok; w Dywizjonie &bdquo;Jele&nacute;&rdquo;. Artyku&lstrok; rekonstruuje los&oacute;w rodziny, w kt&oacute;rej wszyscy doro&sacute;li cz&lstrok;onkowie walczyli w konspiracji, realizuj&aogon;c trzy r&oacute;&zdot;ne formy oporu w jednym gospodarstwie domowym.</p>
+
+  <p class="keywords"><strong>S&lstrok;owa kluczowe:</strong> Kedyw AK, DYSK, dywersja kobiet, Wanda G&lstrok;uchowska, Akcja Wilan&oacute;w, Powstanie Warszawskie, gender military history, archiwum rodzinne, konspiracja</p>
+
+  <h2>1. Wprowadzenie: kobiety w Kedywie</h2>
+
+  <p>Historiografia Polskiego Pa&nacute;stwa Podziemnego traktuje kobiec&aogon; s&lstrok;u&zdot;b&eogon; wojskow&aogon; g&lstrok;&oacute;wnie przez pryzmat &lstrok;&aogon;czno&sacute;ci i s&lstrok;u&zdot;by sanitarnej. Oddzia&lstrok; DYSK (Dywersja i Sabota&zdot; Kobiet), dzia&lstrok;aj&aogon;cy w ramach Kedywu &mdash; Kierownictwa Dywersji Armii Krajowej &mdash; pozostaje na marginesie bada&nacute;, cho&cacute; stanowi&lstrok; jedyn&aogon; &zdot;e&nacute;sk&aogon; jednostk&eogon; specjaln&aogon; w strukturach AK przeznaczon&aogon; do zada&nacute; bojowo-dywersyjnych.<sup><a class="footnote-ref" href="#fn1">1</a></sup></p>
+
+  <p>Niniejszy artyku&lstrok; analizuje dzia&lstrok;alno&sacute;&cacute; oddzia&lstrok;u DYSK przez pryzmat jednej rodziny &mdash; G&lstrok;uchowskich &mdash; w kt&oacute;rej matka, ojciec i syn pe&lstrok;nili jednocze&sacute;nie trzy r&oacute;&zdot;ne funkcje konspiracyjne. Podstaw&eogon; &zacute;r&oacute;d&lstrok;ow&aogon; jest Archiwum Rodziny G&lstrok;uchowskich (ARG, 313 jednostek inwentarzowych), uzupe&lstrok;nione relacj&aogon; z Archiwum Historii M&oacute;wionej Muzeum Powstania Warszawskiego (AHM MPW, sygn. 1889).</p>
+
+  <h2>2. Wanda Zembrzuska: droga do konspiracji</h2>
+
+  <p>Wanda Bronis&lstrok;awa Zembrzuska urodzi&lstrok;a si&eogon; w 1901 roku. Uko&nacute;czy&lstrok;a studia farmaceutyczne na Uniwersytecie Jana Kazimierza we Lwowie, uzyskuj&aogon;c tytu&lstrok; magistra farmacji &mdash; wykszta&lstrok;cenie, kt&oacute;re w r&eogon;kach konspiratorki mia&lstrok;o si&eogon; okaza&cacute; narz&eogon;dziem o podw&oacute;jnym zastosowaniu. Jako farmaceutka mia&lstrok;a dost&eogon;p do materia&lstrok;&oacute;w chemicznych, a jej apteka stanowi&lstrok;a naturalne zaplecze logistyczne konspiracji.<sup><a class="footnote-ref" href="#fn2">2</a></sup></p>
+
+  <p>Wysz&lstrok;a za m&aogon;&zdot; za Stanis&lstrok;awa Stefana G&lstrok;uchowskiego (1893&ndash;1962), podporucznika rezerwy, urz&eogon;dnika Kancelarii Cywilnej Prezydenta RP w Zamku Kr&oacute;lewskim. Rodzina mieszka&lstrok;a w oficynie Pa&lstrok;acu &Lstrok;azienkowskiego &mdash; w bezpo&sacute;rednim s&aogon;siedztwie siedziby g&lstrok;owy pa&nacute;stwa. W 1926 roku urodzi&lstrok; si&eogon; ich syn Krzysztof Andrzej.</p>
+
+  <p>Okupacja zastaje rodzin&eogon; w Warszawie. Stefan podejmuje prac&eogon; w administracji cywilnej, jednocze&sacute;nie wst&eogon;puj&aogon;c do Armii Krajowej jako oficer kwatermistrzostwa Obwodu I &Sacute;r&oacute;dmie&sacute;cie. Wanda, korzystaj&aogon;c z zawodu farmaceutki jako przykrywki, do&lstrok;&aogon;cza do Kedywu.</p>
+
+  <h2>3. Oddzia&lstrok; DYSK: jedyna &zdot;e&nacute;ska jednostka specjalna Kedywu</h2>
+
+  <p>DYSK &mdash; Dywersja i Sabota&zdot; Kobiet &mdash; powsta&lstrok; jako odpowied&zacute; na specyficzne potrzeby operacyjne Kedywu. Kobiety mog&lstrok;y porusza&cacute; si&eogon; po mie&sacute;cie z mniejszym ryzykiem kontroli ni&zdot; m&eogon;&zdot;czy&zacute;ni zagro&zdot;eni &lstrok;apankami. Ich zadania obejmowa&lstrok;y: rozpoznanie teren&oacute;w przed akcjami dywersyjnymi, transport materia&lstrok;&oacute;w wybuchowych, udzia&lstrok; w zamachach na cele infrastrukturalne i wojskowe, a tak&zdot;e zabezpieczenie logistyczne operacji.<sup><a class="footnote-ref" href="#fn3">3</a></sup></p>
+
+  <p>Wanda G&lstrok;uchowska s&lstrok;u&zdot;y&lstrok;a w oddziale DYSK w stopniu sier&zdot;anta podchor&aogon;&zdot;ej, pos&lstrok;uguj&aogon;c si&eogon; pseudonimami &bdquo;Krysta&rdquo; i &bdquo;Justyna&rdquo;. Jej kompetencje farmaceutyczne czyni&lstrok;y j&aogon; szczeg&oacute;lnie przydatn&aogon; w operacjach wymagaj&aogon;cych znajomo&sacute;ci materia&lstrok;&oacute;w chemicznych.</p>
+
+  <h2>4. Akcja Wilan&oacute;w: 26 wrze&sacute;nia 1943</h2>
+
+  <p>Akcja dywersyjna pod Wilan&oacute;wem 26 wrze&sacute;nia 1943 roku stanowi kluczowy epizod w biografii Wandy G&lstrok;uchowskiej. Operacja, przeprowadzona przez oddzia&lstrok; DYSK Kedywu AK, mia&lstrok;a na celu uderzenie w infrastruktur&eogon; niemieck&aogon; na po&lstrok;udniowych obrze&zdot;ach Warszawy.</p>
+
+  <p>W trakcie akcji Wanda zosta&lstrok;a postrzelona w nog&eogon;. Ranna wpad&lstrok;a do rowu, w kt&oacute;rym znajdowa&lstrok;y si&eogon; granaty. Po odzyskaniu przytomno&sacute;ci przyczo&lstrok;ga&lstrok;a si&eogon; do domu matki Krzysztofa &mdash; babki ch&lstrok;opca &mdash; sk&aogon;d wezwa&lstrok;a syna.<sup><a class="footnote-ref" href="#fn4">4</a></sup></p>
+
+  <blockquote>
+    S&lstrok;uchaj Krzysztof, tutaj jest m&oacute;j pistolet i musisz go schowa&cacute;.
+    <span class="source">&mdash; Wanda G&lstrok;uchowska do syna, po Akcji Wilan&oacute;w, wrzesie&nacute; 1943 (relacja AHM MPW sygn. 1889)</span>
+  </blockquote>
+
+  <p>Siedemnastoletni Krzysztof ukry&lstrok; pistolet matki w prawej wie&zdot;y Pa&lstrok;acu Wilanowskiego. Za udzia&lstrok; w Akcji Wilan&oacute;w Wanda zosta&lstrok;a odznaczona Krzy&zdot;em Walecznych &mdash; 11 listopada 1943 roku.</p>
+
+  <p>Rany odniesione pod Wilan&oacute;wem okaza&lstrok;y si&eogon; na tyle powa&zdot;ne, &zdot;e Wanda nie zosta&lstrok;a zmobilizowana do Powstania Warszawskiego w sierpniu 1944 roku. Paradoksalnie, to w&lstrok;a&sacute;nie rany ocali&lstrok;y jej &zdot;ycie &mdash; Dywizjon &bdquo;Jele&nacute;&rdquo;, w kt&oacute;rym walczy&lstrok; jej syn, poni&oacute;s&lstrok; straty si&eogon;gaj&aogon;ce 95,7% stanu osobowego.</p>
+
+  <h2>5. Trzy formy oporu w jednym domu</h2>
+
+  <p>Przypadek rodziny G&lstrok;uchowskich ilustruje zjawisko rzadko analizowane w literaturze przedmiotu: ca&lstrok;kowite zaanga&zdot;owanie wszystkich doros&lstrok;ych cz&lstrok;onk&oacute;w jednego gospodarstwa domowego w r&oacute;&zdot;ne struktury konspiracyjne.</p>
+
+  <table>
+    <tr><th>Cz&lstrok;onek rodziny</th><th>Pseudonim</th><th>Stopie&nacute;</th><th>Funkcja</th><th>&Zacute;r&oacute;d&lstrok;o</th></tr>
+    <tr><td>Wanda G&lstrok;uchowska</td><td>&bdquo;Krysta&rdquo;/&bdquo;Justyna&rdquo;</td><td>sier&zdot;. pchor.</td><td>Dywersantka, DYSK Kedyw AK</td><td>ARG/III/28</td></tr>
+    <tr><td>Stefan G&lstrok;uchowski</td><td>&bdquo;Stefan&rdquo;</td><td>ppor.</td><td>Kwatermistrz Obwodu I &Sacute;r&oacute;dmie&sacute;cie</td><td>ARG/III/30</td></tr>
+    <tr><td>Krzysztof G&lstrok;uchowski</td><td>&bdquo;Jura&sacute;&rdquo;</td><td>st. u&lstrok;.</td><td>&Zdot;o&lstrok;nierz plut. 1112, Dyw. &bdquo;Jele&nacute;&rdquo;</td><td>ARG/V/3</td></tr>
+  </table>
+
+  <p>Ka&zdot;dy z nich realizowa&lstrok; inn&aogon; form&eogon; oporu: matka &mdash; dywersj&eogon; i sabota&zdot;, ojciec &mdash; prac&eogon; sztabow&aogon; i logistyk&eogon;, syn &mdash; walk&eogon; zbrojn&aogon;. Ta r&oacute;&zdot;norodno&sacute;&cacute; wynika&lstrok;a nie z przypadku, lecz z logiki konspiracji: rozdzielenie rodziny mi&eogon;dzy r&oacute;&zdot;ne struktury minimalizowa&lstrok;o ryzyko jednoczesnej dekonspiracjiwszystkich cz&lstrok;onk&oacute;w.</p>
+
+  <h2>6. Aresztowanie Stefana: Gestapo, Pawiak, Aleja Szucha</h2>
+
+  <p>18 maja 1944 roku &mdash; nieca&lstrok;e trzy miesi&aogon;ce przed Godzin&aogon; &bdquo;W&rdquo; &mdash; Stefan G&lstrok;uchowski zosta&lstrok; aresztowany przez Gestapo. Osadzono go na Pawiaku i przes&lstrok;uchiwano w siedzibie Gestapo przy Alei Szucha 25 &mdash; tym samym budynku, na kt&oacute;ry 1 sierpnia 1944 uderz&aogon; powstancy Dywizjonu &bdquo;Jele&nacute;&rdquo;, w tym syn Stefana, Krzysztof.<sup><a class="footnote-ref" href="#fn5">5</a></sup></p>
+
+  <p>Stefan zosta&lstrok; zwolniony 29 lipca 1944 roku &mdash; trzy dni przed wybuchem Powstania. Za&sacute;wiadczenie AK nr 2856, podpisane przez p&lstrok;k. Franciszka Edwarda Pfeiffera ps. &bdquo;Radwan&rdquo;, Komendanta Obwodu I &Sacute;r&oacute;dmie&sacute;cie, datowane jest na 25 lipca 1944 &mdash; sze&sacute;&cacute; dni przed Godzin&aogon; &bdquo;W&rdquo; (ARG/III/28). Dokument ten potwierdza, &zdot;e Stefan by&lstrok; nadal czynnym &zdot;o&lstrok;nierzem AK w momencie aresztowania.</p>
+
+  <p>Za&sacute;wiadczenie ARG/III/28 stanowi jeden z najcenniejszych dokument&oacute;w kolekcji (wycena: 3000&ndash;8000 PLN). Zawiera r&oacute;wnie&zdot; adnotacj&eogon; o Wandzie, potwierdzaj&aogon;c&aogon; jej pseudonimy konspiracyjne i przynale&zdot;no&sacute;&cacute; do Kedywu.</p>
+
+  <h2>7. Kennkarte: fa&lstrok;szerstwo ochronne</h2>
+
+  <p>W kontekscie rodzinnym warto odnotowa&cacute; Kennkarte Krzysztofa (ARG/V/161), wydanej 9 listopada 1943 roku &mdash; nieca&lstrok;e sze&sacute;&cacute; tygodni po Akcji Wilan&oacute;w. Dokument zawiera sfa&lstrok;szowan&aogon; dat&eogon; urodzenia: rok 1928 zamiast prawdziwego 1926. R&oacute;&zdot;nica dw&oacute;ch lat chroni&lstrok;a siedemnastolatka przed Arbeitseinsatz &mdash; przymusowym wys&lstrok;aniem na roboty do Rzeszy.<sup><a class="footnote-ref" href="#fn6">6</a></sup></p>
+
+  <p>Data wydania Kennkarte nie jest przypadkowa. W momencie jej wystawienia Wanda dochodzi&lstrok;a do siebie po ranach z Wilan&oacute;wa, Stefan dzia&lstrok;a&lstrok; w kwatermistrzostwie AK, a Krzysztof przygotowywa&lstrok; si&eogon; do z&lstrok;o&zdot;enia przysi&eogon;gi AK (z&lstrok;o&zdot;y j&aogon; w maju 1942, maj&aogon;c pi&eogon;tna&sacute;cie lat). Rodzina prowadzi&lstrok;a podw&oacute;jne &zdot;ycie: ka&zdot;dy dokument to&zdot;samo&sacute;ci by&lstrok; narz&eogon;dziem przetrwania.</p>
+
+  <h2>8. 1 sierpnia 1944: matka nie walczy, syn idzie</h2>
+
+  <p>Gdy 1 sierpnia 1944 roku o godzinie 17:00 pi&eogon;&cacute; pluton&oacute;w 7 Pu&lstrok;ku U&lstrok;an&oacute;w AK &bdquo;Jele&nacute;&rdquo; ruszy&lstrok;o do natarcia na gmach Gestapo przy Alei Szucha i Dom Prasy, w&sacute;r&oacute;d 187 powsta&nacute;c&oacute;w by&lstrok; osiemnastoletni Krzysztof G&lstrok;uchowski. Jego matka Wanda &mdash; wci&aogon;&zdot; niepe&lstrok;nosprawna po ranach z Wilan&oacute;wa &mdash; pozosta&lstrok;a w domu (ARG/V/158).</p>
+
+  <p>Z 187 &zdot;o&lstrok;nierzy Dywizjonu &bdquo;Jele&nacute;&rdquo; poleg&lstrok;o 67 w pierwszym dniu walk. Dow&oacute;dca, rtm. Lech G&lstrok;uchowski ps. &bdquo;Je&zdot;ycki&rdquo; &mdash; stryj Krzysztofa &mdash; odebra&lstrok; sobie &zdot;ycie na Sadybie, gdy zosta&lstrok; ci&eogon;&zdot;ko ranny i odm&oacute;wi&lstrok; nara&zdot;ania &zdot;o&lstrok;nierzy na ewakuacj&eogon; pod ogniem. Krzysztof przeszed&lstrok; ca&lstrok;&aogon; drog&eogon;: Wola, Stare Miasto, ewakuacja kana&lstrok;ami, &Sacute;r&oacute;dmie&sacute;cie, kapitulacja, niewola w Stalagu XI-B Fallingbostel.</p>
+
+  <h2>9. Po wojnie: apteka, inwalidztwo, Pow&aogon;zki</h2>
+
+  <p>Wanda G&lstrok;uchowska prowadzi&lstrok;a aptek&eogon; do emerytury, mimo trzydziestoprocentowego inwalidztwa b&eogon;d&aogon;cego konsekwencj&aogon; ran odniesionych pod Wilan&oacute;wem. Stefan pracowa&lstrok; w administracji, nie opuszczaj&aogon;c Polski &mdash; w przeciwie&nacute;stwie do Krzysztofa, kt&oacute;ry po wyzwoleniu z obozu trafi&lstrok; do 3 Dywizji Strzelc&oacute;w Karpackich, a nast&eogon;pnie wyemigrowa&lstrok; do Brazylii.</p>
+
+  <p>Wanda zmar&lstrok;a w 1976 roku. Na Pow&aogon;zkach Wojskowych, w kwaterze 99, le&zdot;&aogon; obok siebie: rtm. Lech G&lstrok;uchowski (rz&aogon;d I, grob 27), Wanda G&lstrok;uchowska (rz&aogon;d IV, gr&oacute;b 19) i Stefan G&lstrok;uchowski. Rodzina, rozdzielona przez wojn&eogon; na trzy r&oacute;&zdot;ne &sacute;cie&zdot;ki oporu, znalaz&lstrok;a si&eogon; ponownie razem.</p>
+
+  <h2>10. Wnioski: trzy formy oporu w jednym domu</h2>
+
+  <p>Przypadek rodziny G&lstrok;uchowskich pozwala sformu&lstrok;owa&cacute; kilka wniosk&oacute;w istotnych dla bada&nacute; nad Polskim Pa&nacute;stwem Podziemnym:</p>
+
+  <p><strong>Po pierwsze</strong>, oddzia&lstrok; DYSK Kedywu AK wymaga osobnych bada&nacute; jako jedyna &zdot;e&nacute;ska jednostka specjalna o charakterze bojowo-dywersyjnym. Obecna literatura marginalizuje ten temat, traktuj&aogon;c kobiec&aogon; s&lstrok;u&zdot;b&eogon; w AK jako wy&lstrok;&aogon;cznie pomocnicz&aogon;.</p>
+
+  <p><strong>Po drugie</strong>, dokumenty z kolekcji ARG dowodz&aogon;, &zdot;e konspiracja by&lstrok;a zjawiskiem rodzinnym. Zaanga&zdot;owanie wszystkich doros&lstrok;ych cz&lstrok;onk&oacute;w jednego gospodarstwa domowego w r&oacute;&zdot;ne struktury AK nie by&lstrok;o wyj&aogon;tkiem, lecz &mdash; jak mo&zdot;na przypuszcza&cacute; na podstawie analogii &mdash; wzorcem stosunkowo powszechnym w&sacute;r&oacute;d rodzin inteligencji patriotycznej.</p>
+
+  <p><strong>Po trzecie</strong>, rany odniesione w akcjach dywersyjnych przed Powstaniem decydowa&lstrok;y o mobilizacji w sierpniu 1944. Wanda G&lstrok;uchowska, dywersantka z Krzy&zdot;em Walecznych, nie wzi&eogon;&lstrok;a udzia&lstrok;u w Powstaniu &mdash; nie z braku woli, lecz z powodu ran. Ta kategoria &zdot;o&lstrok;nierzy AK &mdash; ranni w akcjach przedpowsta&nacute;czych &mdash; jest praktycznie nieobecna w historiografii.</p>
+
+  <p><strong>Po czwarte</strong>, dokumenty konspiracyjne (Kennkarte, za&sacute;wiadczenia AK, legitymacje) czytane &lstrok;&aogon;cznie tworz&aogon; obraz &bdquo;podw&oacute;jnego &zdot;ycia&rdquo; rodziny: ka&zdot;dy cz&lstrok;onek mia&lstrok; oficjaln&aogon; to&zdot;samo&sacute;&cacute; (farmaceutka, urz&eogon;dnik, ucze&nacute;) i konspiracyjn&aogon; (dywersantka &bdquo;Krysta&rdquo;, kwatermistrz &bdquo;Stefan&rdquo;, u&lstrok;an &bdquo;Jura&sacute;&rdquo;). Archiwum rodzinne jest jedynym typem &zacute;r&oacute;d&lstrok;a, w kt&oacute;rym obie warstwy to&zdot;samo&sacute;ci s&aogon; jednocze&sacute;nie widoczne.</p>
+
+  <div class="footnotes">
+    <h2>Przypisy</h2>
+    <ol>
+      <li id="fn1">O Kedywie zob. J. Szatsznajder, <em>Kedyw Okr&eogon;gu Warszawskiego Armii Krajowej</em>, Warszawa 1994; T. Strzembosz, <em>Akcje zbrojne podziemnej Warszawy 1939&ndash;1944</em>, Warszawa 1978. O oddziale DYSK: fragmentaryczne wzmianki w pami&eogon;tnikach i relacjach kombatanckich &mdash; brak monografii.</li>
+      <li id="fn2">Biogram Wandy G&lstrok;uchowskiej z d. Zembrzuskiej na podstawie relacji Krzysztofa G&lstrok;uchowskiego, AHM MPW sygn. 1889, 31 VII 2009. Wykszta&lstrok;cenie farmaceutyczne potwierdzone w za&sacute;wiadczeniu ARG/III/28.</li>
+      <li id="fn3">DYSK dzia&lstrok;a&lstrok; w ramach Kedywu KG AK. Zob. M. Ney-Krwawicz, <em>Komenda G&lstrok;&oacute;wna Armii Krajowej 1939&ndash;1945</em>, Warszawa 1990.</li>
+      <li id="fn4">Relacja Krzysztofa G&lstrok;uchowskiego, AHM MPW sygn. 1889, rozdz. &bdquo;Akcja Wilan&oacute;w&rdquo;. Cytat za transkrypcj&aogon; archiwaln&aogon;.</li>
+      <li id="fn5">Aresztowanie Stefana: ARG/VI/25 (biogram sporz&aogon;dzony przez Krzysztofa, Rio de Janeiro, 18 X 1995); ARG/III/28 (za&sacute;wiadczenie AK). Zwolnienie z Pawiaka 29 VII 1944 &mdash; trzy dni przed Godzin&aogon; &bdquo;W&rdquo;.</li>
+      <li id="fn6">Kennkarte ARG/V/161, wydana 9 XI 1943. Por. ARG/V/162 (dowod osobisty) i ARG/V/163 (za&sacute;wiadczenie), w kt&oacute;rych figuruj&aogon; r&oacute;&zdot;ne daty urodzenia: 1926, 1928, 1920.</li>
+    </ol>
+  </div>
+
+  <div class="bibliography">
+    <h2>Bibliografia</h2>
+    <div class="bib-section">
+      <h3>&Zacute;r&oacute;d&lstrok;a archiwalne</h3>
+      <p class="bib-entry">Archiwum Rodziny G&lstrok;uchowskich (ARG), jednostki: ARG/III/28, ARG/III/30&ndash;31, ARG/V/3&ndash;4, ARG/V/158, ARG/V/161&ndash;163, ARG/VI/8, ARG/VI/25.</p>
+      <p class="bib-entry">Archiwum Historii M&oacute;wionej Muzeum Powstania Warszawskiego, relacja Krzysztofa G&lstrok;uchowskiego ps. &bdquo;Jura&sacute;&rdquo;, sygn. 1889, nagr. 31 VII 2009.</p>
+      <p class="bib-entry">Biblioteka Narodowa, Warszawa, Zbi&oacute;r R&eogon;kopis&oacute;w Nr 13853 (korespondencja Stefana G&lstrok;uchowskiego).</p>
+    </div>
+    <div class="bib-section">
+      <h3>Opracowania</h3>
+      <p class="bib-entry">Ney-Krwawicz M., <em>Komenda G&lstrok;&oacute;wna Armii Krajowej 1939&ndash;1945</em>, Warszawa 1990.</p>
+      <p class="bib-entry">Strzembosz T., <em>Akcje zbrojne podziemnej Warszawy 1939&ndash;1944</em>, Warszawa 1978.</p>
+      <p class="bib-entry">Szatsznajder J., <em>Kedyw Okr&eogon;gu Warszawskiego Armii Krajowej</em>, Warszawa 1994.</p>
+    </div>
+    <div class="bib-section">
+      <h3>Portale</h3>
+      <p class="bib-entry"><a href="https://www.1944.pl/archiwum-historii-mowionej/krzysztof-gluchowski,1889.html" target="_blank" style="color:var(--blue)">1944.pl &mdash; relacja Krzysztofa G&lstrok;uchowskiego</a></p>
+    </div>
+  </div>
+</article>
+</body>
+</html>
