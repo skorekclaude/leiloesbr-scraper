@@ -8715,29 +8715,19 @@ body.lang-active .card-lang-badge {{ display:inline; }}
   <p class="acad-subtitle" data-lang="pl">Na podstawie materiałów z Archiwum Rodziny Głuchowskich</p>
   <p class="acad-subtitle" data-lang="en">Based on materials from the Głuchowski Family Archive</p>
 
-  <div class="article-proposal" style="border-left:3px solid var(--gold);padding-left:16px;margin-bottom:24px;">
-    <h4><a href="artykul_regularne_wojsko_w_powstaniu.html" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--gold);">„Regularne Wojsko Polskie w Powstaniu Warszawskim — ciągłość instytucjonalna 7 Pułku Ułanów Lubelskich 1918–1947"</a></h4>
+  <div class="article-proposal">
+    <h4>„Regularne Wojsko Polskie w Powstaniu Warszawskim — ciągłość instytucjonalna 7 Pułku Ułanów Lubelskich 1918–1947"</h4>
     <div class="ap-meta">
       <span class="ap-badge ap-type">artykuł źródłoznawczy</span>
-      <span class="ap-badge" style="background:rgba(46,204,113,.15);color:#2ecc71;">GOTOWY</span>
       <span class="ap-badge">Przegląd Historyczno-Wojskowy</span>
+      <span class="ap-badge" style="background:rgba(46,204,113,.15);color:#2ecc71;">w przygotowaniu do publikacji</span>
     </div>
-    <div class="ap-thesis" data-lang="pl">Teza: Armia Krajowa w Powstaniu Warszawskim funkcjonowała nie jako ruch partyzancki, lecz jako regularne Wojsko Polskie działające w warunkach konspiracji. Dowód: analiza formy dokumentacji wojskowej (numerowane rozkazy, stopnie kawaleryjskie, procedury odznaczeniowe, sztandary pułkowe, łańcuch weryfikacyjny). 24 przypisy, 313 źródeł archiwalnych.</div>
+    <div class="ap-thesis" data-lang="pl">Teza: Armia Krajowa w Powstaniu Warszawskim funkcjonowała nie jako ruch partyzancki, lecz jako regularne Wojsko Polskie działające w warunkach konspiracji. Dowód: analiza formy (nie treści) dokumentacji wojskowej &mdash; numerowane rozkazy, stopnie kawaleryjskie, procedury odznaczeniowe, sztandary pułkowe, łańcuch weryfikacyjny na czterech kontynentach. Pierwszy artykuł systematycznie badający ciągłość instytucjonalną regularnej armii przez pryzmat jednego archiwum rodzinnego obejmującego trzy pokolenia.</div>
+    <div class="ap-sources">Źródła: ARG/I–VI (313 jednostek), Zespół 70 Instytutu Piłsudskiego w Londynie, AHM MPW sygn. 1889</div>
   </div>
-
-  <div class="article-proposal" style="border-left:3px solid var(--gold);padding-left:16px;margin-bottom:24px;">
-    <h4><a href="artykul_dywizjon_jelen.html" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--gold);">„Dywizjon «Jeleń» — 7 Pułk Ułanów Lubelskich AK w Powstaniu Warszawskim"</a></h4>
-    <div class="ap-meta">
-      <span class="ap-badge ap-type">artykuł źródłoznawczy</span>
-      <span class="ap-badge" style="background:rgba(46,204,113,.15);color:#2ecc71;">GOTOWY</span>
-    </div>
-    <div class="ap-thesis" data-lang="pl">Szczegółowa rekonstrukcja losów Dywizjonu „Jeleń" — konspiracyjnej kontynuacji 7 Pułku Ułanów Lubelskich — od odtworzenia w podziemiu (1940) do natarcia na Gestapo 1.VIII.1944 i kapitulacji. 187 powstańców, 67 poległych pierwszego dnia.</div>
-  </div>
-
-  <p style="font-size:0.85em;color:var(--text-faint);margin-bottom:30px;border-bottom:1px solid var(--border);padding-bottom:20px;">Poniżej: propozycje artykułów w przygotowaniu</p>
 
   <div class="article-proposal">
-    <h4><a href="artykul_piec_losow.html" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--gold);">„Pięć losów w jednym Powstaniu — rodzina Głuchowskich w dokumentach prywatnych"</a></h4>
+    <h4>„Pięć losów w jednym Powstaniu — rodzina Głuchowskich w dokumentach prywatnych"</h4>
     <div class="ap-meta">
       <span class="ap-badge ap-type">artykuł źródłoznawczy</span>
       <span class="ap-badge">Przegląd Historyczny</span>
@@ -8750,7 +8740,7 @@ body.lang-active .card-lang-badge {{ display:inline; }}
   </div>
 
   <div class="article-proposal">
-    <h4><a href="artykul_chlopiec_powstaniec.html" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--gold);">„Chłopiec-powstaniec — droga Krzysztofa Głuchowskiego od Fabryki Kamlera do Stalagu XI-B"</a></h4>
+    <h4>„Chłopiec-powstaniec — droga Krzysztofa Głuchowskiego od Fabryki Kamlera do Stalagu XI-B"</h4>
     <div class="ap-meta">
       <span class="ap-badge ap-type">artykuł biograficzny</span>
       <span class="ap-badge">Biuletyn IPN</span>
@@ -8966,6 +8956,111 @@ body.lang-active .card-lang-badge {{ display:inline; }}
         <div class="pc-name">Ppor. Kucliński</div>
         <div class="pc-desc">Podpis na przepustce z Bazy Personalnej Legio 2 Korpusu (11.VI.1946).</div>
         <div class="pc-docs">ARG/V/57</div>
+      </div>
+
+      <div class="person-card">
+        <div class="pc-category">RODZINA / KONSPIRACJA</div>
+        <div class="pc-name">Wanda Głuchowska z d. Zembrzuska ps. &laquo;Krysta&raquo; / &laquo;Justyna&raquo; <span class="pc-dates">(1901&ndash;1976)</span></div>
+        <div class="pc-desc">Matka Krzysztofa. Mgr farmacji UJK we Lwowie. Sierż. pchor. oddziału DYSK (dywersja i sabotaż kobiet), Kedyw AK. Ranna w akcji dywersyjnej w Wilanowie 26.IX.1943. Nie zmobilizowana do Powstania z powodu ran. Mąż Stefan aresztowany przez Gestapo 18.V.1944.</div>
+        <div class="pc-docs">ARG/V/3, V/4, III/28, V/158, V/161</div>
+      </div>
+
+      <div class="person-card">
+        <div class="pc-category">RODZINA / KONSPIRACJA</div>
+        <div class="pc-name">Rtm. Lech Głuchowski ps. &laquo;Jeżycki&raquo; <span class="pc-dates">(2.VI.1902&ndash;&dagger;15.IX.1944)</span></div>
+        <div class="pc-desc">Bratanek gen. Janusza. D-ca 1. Szwadronu Warszawskiego, następnie d-ca Dywizjonu &laquo;Jeleń&raquo; (7 P.Uł. AK) od 17.VII.1944. Członek POW od 1918, uczestnik wojny polsko-bolszewickiej. Ciężko ranny na ul. Dolnej (Sadyba) &mdash; popełnił samobójstwo, aby nie opóźniać ewakuacji żołnierzy pod ostrzałem. Pośmiertnie awansowany na majora, odznaczony VM V kl.</div>
+        <div class="pc-docs">ARG/I/6, VI/24, VI/25, V/21, V/36</div>
+      </div>
+
+      <div class="person-card">
+        <div class="pc-category">GŁOWY PAŃSTWA</div>
+        <div class="pc-name">Marsz. Józef Piłsudski <span class="pc-dates">(1867&ndash;1935)</span></div>
+        <div class="pc-desc">Naczelnik Państwa, Marszałek Polski. Twórca Legionów. Portret na dyplomie Krzyża Legionowego nr 145 (1925). Dekret orderowy z podpisem. Odznaczył sztandar 7 P.Uł. Srebrnym VM (23.III.1921). Stefan Głuchowski pracował w jego Kancelarii Cywilnej.</div>
+        <div class="pc-docs">ARG/II/10, II/11, II/17, III/23, II/36</div>
+      </div>
+
+      <div class="person-card">
+        <div class="pc-category">GŁOWY PAŃSTWA</div>
+        <div class="pc-name">Prezydent Ignacy Mościcki <span class="pc-dates">(1867&ndash;1946)</span></div>
+        <div class="pc-desc">Prezydent RP 1926&ndash;1939. Podpis na dyplomie Złotego Krzyża Zasługi (11.XI.1936) dla Stanisława Stefana. Stefan pracował w jego Kancelarii Cywilnej &mdash; obsługa polowań prezydenckich, najbliższe otoczenie głowy państwa.</div>
+        <div class="pc-docs">ARG/III/18, III/22, III/23, III/24, III/26</div>
+      </div>
+
+      <div class="person-card">
+        <div class="pc-category">GŁOWY PAŃSTWA</div>
+        <div class="pc-name">Prezes RM Kazimierz Bartel <span class="pc-dates">(1882&ndash;1941)</span></div>
+        <div class="pc-desc">Premier RP (1929). Podpis na dyplomie Srebrnego Krzyża Zasługi dla Stanisława Stefana Głuchowskiego. Matematyk, polityk, zamordowany przez Gestapo we Lwowie.</div>
+        <div class="pc-docs">ARG/III/11, III/19</div>
+      </div>
+
+      <div class="person-card">
+        <div class="pc-category">DOWÓDCY / PRZEŁOŻENI</div>
+        <div class="pc-name">Gen. Tadeusz Bór-Komorowski <span class="pc-dates">(1895&ndash;1966)</span></div>
+        <div class="pc-desc">Dowódca Powstania Warszawskiego, Naczelny Wódz PSZ (1944). Podpis na Legitymacji Krzyża AK nr 3316. Widoczny na fotografiach z inspekcji wojskowej w Kelso (15.VI.1945) obok gen. Głuchowskiego.</div>
+        <div class="pc-docs">ARG/II/49, II/50, V/96, V/119, V/120</div>
+      </div>
+
+      <div class="person-card">
+        <div class="pc-category">DOWÓDCY / PRZEŁOŻENI</div>
+        <div class="pc-name">Płk Franciszek Edward Pfeiffer ps. &laquo;Radwan&raquo; <span class="pc-dates">(1895&ndash;1964)</span></div>
+        <div class="pc-desc">Komendant Obwodu I Śródmieście AK. Zaświadczenie AK nr 2856 (25.VII.1944 &mdash; 6 dni przed Powstaniem). Pieczęć i podpis na kartach przydziału Stanisława Stefana i Krzysztofa. Zmarł 13.VI.1964.</div>
+        <div class="pc-docs">ARG/III/28, III/30, V/162, V/168, VI/25</div>
+      </div>
+
+      <div class="person-card">
+        <div class="pc-category">DOWÓDCY / PRZEŁOŻENI</div>
+        <div class="pc-name">Mjr Veli bek Jedigar ps. &laquo;Damazy&raquo; <span class="pc-dates">(1897&ndash;1971)</span></div>
+        <div class="pc-desc">Azerbejdżanin z Kaukazu. Ostatni przedwojenny d-ca 7 P.Uł. (Mińsk Mazowiecki). Po zwolnieniu z niewoli niemieckiej (jako obcokrajowiec) powrócił do Warszawy. Konspiracyjny d-ca 7 P.Uł. AK od VIII.1940 do 17.VII.1944, kiedy przekazał dowodzenie rtm. Lechowi Głuchowskiemu.</div>
+        <div class="pc-docs">ARG/V/164, V/170</div>
+      </div>
+
+      <div class="person-card">
+        <div class="pc-category">DOWÓDCY / PRZEŁOŻENI</div>
+        <div class="pc-name">Ppłk J. Uszycki</div>
+        <div class="pc-desc">Przewodniczący Komisji Weryfikacyjnej AK przy 2. Korpusie PSZ. Podpis na dokumentach weryfikacyjnych żołnierzy 7 P.Uł. AK (1946). Potwierdził służbę i odznaczenia Krzysztofa i Stanisława Stefana.</div>
+        <div class="pc-docs">ARG/III/31, V/169, V/171, VI/23</div>
+      </div>
+
+      <div class="person-card">
+        <div class="pc-category">DOWÓDCY / PRZEŁOŻENI</div>
+        <div class="pc-name">Gen. bryg. Szpakowski</div>
+        <div class="pc-desc">Szef Gabinetu Ministra Spraw Wojskowych. Podpis na zaproszeniu na dekorację Legią Honorową przez marsz. Focha (IV.1923).</div>
+        <div class="pc-docs">ARG/II/15</div>
+      </div>
+
+      <div class="person-card">
+        <div class="pc-category">DOWÓDCY / PRZEŁOŻENI</div>
+        <div class="pc-name">Gen. Roman Abraham</div>
+        <div class="pc-desc">Widoczny na fotografii prasowej z ok. 1937: Marsz. Śmigły-Rydz wręcza sztandar 17 P.Uł. Wielkopolskich. Na zdjęciu obok gen. Głuchowskiego, gen. Knoll-Kownackiego i płk. Kowalczewskiego.</div>
+        <div class="pc-docs">ARG/II/27</div>
+      </div>
+
+      <div class="person-card">
+        <div class="pc-category">DYPLOMACI</div>
+        <div class="pc-name">Marsz. Ferdinand Foch <span class="pc-dates">(1851&ndash;1929)</span></div>
+        <div class="pc-desc">Naczelny Wódz Aliantów, marszałek Francji. Osobiście wręczył gen. Głuchowskiemu odznakę Kawalera Legii Honorowej na Placu Saskim w Warszawie (3.V.1923). Zaproszenie na ceremonię zachowane w kolekcji.</div>
+        <div class="pc-docs">ARG/II/15, II/16, II/17</div>
+      </div>
+
+      <div class="person-card">
+        <div class="pc-category">ARTYŚCI</div>
+        <div class="pc-name">Henryk Hertz-Barwiński <span class="pc-dates">(1877&ndash;1970)</span></div>
+        <div class="pc-desc">Karykaturzysta I Brygady Legionów Polskich. Autor oryginalnej karykatury ołówkowej por. Janusza Głuchowskiego (Iwankowicze, 1915&ndash;16). Rysował portrety oficerów legionowych w okopach &mdash; unikatowe źródło ikonograficzne.</div>
+        <div class="pc-docs">ARG/II/59</div>
+      </div>
+
+      <div class="person-card">
+        <div class="pc-category">KONTAKTY EMIGRACYJNE</div>
+        <div class="pc-name">A. Drogowski, Naczelny Instruktor Oświatowy</div>
+        <div class="pc-desc">Ambasada RP w Paryżu. Podpis na skierowaniu Krzysztofa na kurs w Villard-de-Lans w Alpach francuskich (29.VI.1945). Ślad polskiej infrastruktury edukacyjnej dla żołnierzy-uchodźców we Francji.</div>
+        <div class="pc-docs">ARG/V/46</div>
+      </div>
+
+      <div class="person-card">
+        <div class="pc-category">KONTAKTY EMIGRACYJNE</div>
+        <div class="pc-name">Ppor. lek. Cisek</div>
+        <div class="pc-desc">Lekarz Pułku 7 P.Uł. Lubelskich. Wystawił skierowanie na RTG płuc Krzysztofa (21.VII.1945) do 7 Szpitala Wojennego we Włoszech. Dowód kontynuacji opieki pułkowej nad żołnierzami.</div>
+        <div class="pc-docs">ARG/V/48</div>
       </div>
 
     </div>

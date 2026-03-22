@@ -89,6 +89,38 @@ blockquote .source { display:block; font-style:normal; font-size:.85em; color:va
 </style>
 </head>
 <body>
+<script>
+(function(){
+  var HASH='2d520b8311818d9fea9edd73144600e5b8f97e59858114d15db0cca294c66184';
+  var SK='article_auth';
+  if(sessionStorage.getItem(SK)==='ok'){return;}
+  document.body.style.display='none';
+  var ov=document.createElement('div');
+  ov.id='auth-overlay';
+  ov.innerHTML='<div style="position:fixed;inset:0;z-index:99999;background:#0a0a0a;display:flex;align-items:center;justify-content:center;font-family:Inter,sans-serif">'
+    +'<div style="background:#141414;border:1px solid #252525;border-radius:12px;padding:40px 36px;max-width:360px;width:90%;text-align:center">'
+    +'<h2 style="color:#c9a84c;font-size:1.3em;margin-bottom:8px;font-weight:600">Dost\u0119p chroniony</h2>'
+    +'<p style="color:#7a7a7a;font-size:.85em;margin-bottom:24px">Podaj has\u0142o, aby kontynuowa\u0107</p>'
+    +'<input id="pw-input" type="password" placeholder="Has\u0142o" style="width:100%;padding:10px 14px;border:1px solid #252525;border-radius:6px;background:#0a0a0a;color:#dddad5;font-size:1em;outline:none;margin-bottom:12px">'
+    +'<p id="pw-err" style="color:#c0392b;font-size:.82em;min-height:1.2em;margin-bottom:12px"></p>'
+    +'<button id="pw-btn" style="width:100%;padding:10px 0;border:none;border-radius:6px;background:#c9a84c;color:#0a0a0a;font-weight:600;font-size:1em;cursor:pointer">Wejd\u017a</button>'
+    +'</div></div>';
+  document.documentElement.appendChild(ov);
+  async function check(){
+    var v=document.getElementById('pw-input').value;
+    var enc=new TextEncoder().encode(v);
+    var buf=await crypto.subtle.digest('SHA-256',enc);
+    var h=Array.from(new Uint8Array(buf)).map(function(b){return b.toString(16).padStart(2,'0')}).join('');
+    if(h===HASH){sessionStorage.setItem(SK,'ok');ov.remove();document.body.style.display='';}
+    else{document.getElementById('pw-err').textContent='B\u0142\u0119dne has\u0142o';}
+  }
+  setTimeout(function(){
+    document.getElementById('pw-btn').addEventListener('click',check);
+    document.getElementById('pw-input').addEventListener('keydown',function(e){if(e.key==='Enter')check();});
+    document.getElementById('pw-input').focus();
+  },0);
+})();
+</script>
 
 <nav class="top-nav">
   <a href="transkrypcja_demo.html">&larr; Katalog dokumentow</a>
