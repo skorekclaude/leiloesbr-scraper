@@ -168,7 +168,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "PON — organizacja paramilitarna założona w 1914 dla przygotowania powstania antyrosyjskiego. Legitymacja nr 2 sugeruje, że Marian był jednym z założycieli oddziału częstochowskiego.",
         "powiazania": ["ARG/I/2", "ARG/I/3", "ARG/I/4"],
-        "stan": "Dobry, pożółkły papier, pieczęcie czytelne"
+        "stan": "Dobry, pożółkły papier, pieczęcie czytelne",
+        "wycena": "800-2000 PLN"
     },
     {
         "sygn": "ARG/I/2",
@@ -183,7 +184,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Wacław Sieroszewski — pisarz, legionista. Juliusz Kaden-Bandrowski — prozaik, propagandysta Legionów. Zebranie werbunkowe dla idei niepodległościowej.",
         "powiazania": ["ARG/I/1"],
-        "stan": "Dobry, papier kruchy"
+        "stan": "Dobry, papier kruchy",
+        "wycena": "1000-3000 PLN"
     },
     {
         "sygn": "ARG/I/3",
@@ -198,7 +200,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWY DOKUMENT SERII I. Polska Organizacja Narodowa (PON) — tajna organizacja niepodległościowa działająca w zaborze rosyjskim na pocz. XX w. Marian Głuchowski pełnił funkcję Komisarza PON na powiat częstochowski — funkcja odpowiedzialna za organizację ruchu niepodległościowego w całym powiecie. Data 24.VIII.1904 — przed rewolucją 1905. Pieczęć z Orłem potwierdza oficjalny charakter organizacji. Adres 'w Częstochowie' lokalizuje działalność Mariana. PON łączyła elementy Ligi Narodowej i Polskiej Macierzy Szkolnej — ruch endecki Dmowskiego. Pismo wzywające komisarza 'abyście ustąpili urzędowi upoważnionym' sugeruje rotację kadr lub przekazanie obowiązków.",
         "powiazania": ["ARG/I/1"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1000-3000 PLN"
     },
     {
         "sygn": "ARG/I/4",
@@ -213,7 +216,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Dokument materialny — potwierdza przekazanie broni białej i sprzętu na potrzeby organizacji paramilitarnej. Szable sugerują tradycję kawaleryjską rodziny.",
         "powiazania": ["ARG/I/1"],
-        "stan": "Dobry, odręczne wpisy czytelne"
+        "stan": "Dobry, odręczne wpisy czytelne",
+        "wycena": "600-1600 PLN"
     },
     {
         "sygn": "ARG/I/5",
@@ -228,7 +232,8 @@ OBJECTS = [
         "jezyk": "polski / niemiecki",
         "kontekst": "Koperta urzędowa PON potwierdza funkcję komisarza. Karta Polowa Legionów to standardowy formularz korespondencji z frontu I wojny.",
         "powiazania": ["ARG/I/1", "ARG/I/3"],
-        "stan": "Średni, koperta pożółkła"
+        "stan": "Średni, koperta pożółkła",
+        "wycena": "400-1000 PLN"
     },
 
     # =====================================================================
@@ -249,7 +254,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "WBH wydawało biogramy dla oficerów-legionistów w ramach dokumentowania czynu zbrojnego. Potwierdza przynależność do 'Siódemki Beliny' — pierwszego patrolu kawaleryjskiego Legionów. 'ZWC w Liège' = Związek Walki Czynnej — Głuchowski współzałożył tę organizację w Belgii razem z Tadeuszem Piskorem podczas studiów na Politechnice w Liège (~1907-1909). 'OB PPS' = Organizacja Bojowa PPS — Głuchowski wstąpił w 1905 r., mając zaledwie 17 lat.",
         "powiazania": ["ARG/II/2", "ARG/II/4"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "400-1000 PLN"
     },
     {
         "sygn": "ARG/II/2",
@@ -264,7 +270,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "IKONOGRAFICZNY DOKUMENT ZAŁOŻYCIELSKI polskiej kawalerii odrodzonej. Patrol Siódemki Beliny (noc 2/3.VIII.1914) — siedmiu kawalerzystów na rozkaz Piłsudskiego przekroczyło granicę rosyjską, otwierając kampanię Legionów — pierwszy regularny oddział polski od Powstania Styczniowego 1863 r. Głuchowski był zastępcą dowódcy patrolu. Identyfikacja uczestników zweryfikowana wg źródeł IPN i jpilsudski.org.",
         "powiazania": ["ARG/II/1"],
-        "stan": "Średni, fotokopia wtórna"
+        "stan": "Średni, fotokopia wtórna",
+        "wycena": "1200-4000 PLN"
     },
     {
         "sygn": "ARG/II/3",
@@ -279,7 +286,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "OB PPS — tajna organizacja bojowa Polskiej Partii Socjalistycznej, prowadząca akcje zbrojne przeciw Rosji. Sosnkowski jako współtwórca ruchu strzeleckiego potwierdzał rewolucyjną przeszłość Głuchowskiego.",
         "powiazania": ["ARG/II/1", "ARG/II/5"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "300-800 PLN"
     },
     {
         "sygn": "ARG/II/4",
@@ -294,7 +302,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KOREKTA: To NIE jest papier Inspektoratu Armii Sosnkowskiego, lecz Dowódcy 4 Dywizji Piechoty z Częstochowy. List chwali pracę Głuchowskiego w 'Centrum' — prawdopodobnie Centrum Wyszkolenia Piechoty lub Centrum Wyższych Studiów Wojskowych, którym Głuchowski kierował w 1930–1933. 'Atmosfera radości pracy' — rzadki osobisty komplement w korespondencji wojskowej.",
         "powiazania": ["ARG/II/3"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1000-4000 PLN"
     },
     {
         "sygn": "ARG/II/5",
@@ -309,7 +318,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Dokument potwierdzający zakończenie działalności bojowej w OB PPS. 'Szarża Miłości' — punkt zborny konspiracyjny.",
         "powiazania": ["ARG/II/3"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "300-800 PLN"
     },
     {
         "sygn": "ARG/II/6",
@@ -324,7 +334,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Związek Strzelecki — organizacja paramilitarna przygotowująca kadry dla przyszłego wojska polskiego, prekursor Legionów.",
         "powiazania": ["ARG/II/1"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "150-400 PLN"
     },
     {
         "sygn": "ARG/II/7",
@@ -339,7 +350,8 @@ OBJECTS = [
         "jezyk": "—",
         "kontekst": "Plac Strzelecki w Krakowie — historyczne centrum zbiórek strzeleckich Piłsudskiego. Jeśli odwrót zdjęcia potwierdzi identyfikację 'Belina', dokument ma WYJĄTKOWĄ wartość ikonograficzną: ci sami ludzie za kilka miesięcy przekroczą granicę jako Siódemka. Belina widnieje na WYKAZIE ze Stróży 1913 (ARG/II/6) i na fotografii Siódemki (ARG/II/2) — ta sama twarz w cywilu. WYMAGA WERYFIKACJI — odwrót zdjęcia nie jest widoczny na skanie.",
         "powiazania": [],
-        "stan": "Słaby — ciemna, nieczytelna"
+        "stan": "Słaby — ciemna, nieczytelna",
+        "wycena": "1200-4000 PLN"
     },
 
     # -- Podseria II/B: 7 Pułk Ułanów Lubelskich --
@@ -356,7 +368,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "AKT ZAŁOŻYCIELSKI — Głuchowski nie tylko organizował, ale TWORZYŁ oddziały kawalerii w Lublinie i Kraśniku, z których wyrósł przyszły 3 Pułk Ułanów (a nie bezpośrednio 7 P.Uł.). Rozkaz wydany 6 dni przed odzyskaniem niepodległości (11.XI.1918). Głuchowski był pierwszym dowódcą 7 P.Uł. Lubelskich (XI.1918 – VII.1920) i twórcą tradycji pułku, w którym później walczyła cała rodzina (Stefan, Lech, Krzysztof w AK).",
         "powiazania": ["ARG/II/15"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "800-2000 PLN"
     },
     {
         "sygn": "ARG/II/9",
@@ -371,7 +384,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Życzenia WIELKANOCNE (Wielka Noc), nie noworoczne — to zmienia datowanie. Nadawca: rotmistrz dowodzący Szwadronem Zapasowym (kadrowym) 7 P.Uł. stacjonującym w CIECHANOWIE. Adresat: major Janusz Głuchowski jako D-ca 7 P.Uł. w 'm. postoju' (Mińsk Mazowiecki). W strukturze pułku kawalerii Szwadron Zapasowy był oddzielną jednostką szkolno-kadrową, stacjonującą w innym garnizonie niż pułk macierzysty. Stopień 'Major' datuje dokument na ok. 1926–1929 (przed awansem na pułkownika). Fakt, że D-ca Szw.Zap. pisze z Ciechanowa do Mińska Maz. potwierdza rozlokowanie 7 P.Uł. w dwóch garnizonach. Podpis 'Rtm.II' = rotmistrz II klasy (odpowiednik kapitana).",
         "powiazania": ["ARG/II/8"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1200-4000 PLN"
     },
 
     # -- Podseria II/C: Legiony i odznaczenia --
@@ -388,7 +402,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Krzyż Legionowy — odznaczenie pamiątkowe nadawane uczestnikom Legionów Polskich 1914–1918 na mocy uchwały Zjazdu Legionistów. Nr 145 — niski numer, świadczący o wczesnym nadaniu. Janusz Głuchowski w 1925 r. w stopniu pułkownika (płk), dowódca 1 Pułku Ułanów (nie 7 P.U.L., w którym służył wcześniej). Data 11.VII.1925 — upamiętnia rocznicę wymarszu Siódemki Beliny (1914). Podpis prawdopodobnie Józefa Piłsudskiego jako patrona ruchu legionowego.",
         "powiazania": ["ARG/II/11"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "4000-12000 PLN"
     },
     {
         "sygn": "ARG/II/11",
@@ -403,7 +418,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Widok pełny dyplomu z ARG/II/10 wraz z portretem. Zestawienie dyplomu legionowego z portretem Piłsudskiego — układ typowy dla pamiątek kombatanckich. Krzyż Legionowy Nr 145 potwierdza udział Janusza w Legionach (Siódemka Beliny, 1914). Portret obok dyplomu to prawdopodobnie sam Piłsudski — patron Legionów i sygnatariusz dyplomu.",
         "powiazania": ["ARG/II/10"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1200-4000 PLN"
     },
     {
         "sygn": "ARG/II/12",
@@ -418,7 +434,8 @@ OBJECTS = [
         "jezyk": "rosyjski / polski",
         "kontekst": "'Propusk w pleń' — przepustka dla jeńca, dokument z frontu I wojny światowej. Świadczy o epizodzie niewoli rosyjskiej.",
         "powiazania": ["ARG/II/1"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "200-600 PLN"
     },
     {
         "sygn": "ARG/II/13",
@@ -433,7 +450,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Krzyż Walecznych — najwyższe polskie odznaczenie bojowe za męstwo na polu walki. Nadanie za wojnę 1920. Głuchowski otrzymał KW wielokrotnie (4x wg IPN). Niniejsza legitymacja dokumentuje jedno z tych nadań.",
         "powiazania": ["ARG/II/10", "ARG/II/11"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1200-4000 PLN"
     },
 
     # -- Podseria II/D: Kariera ministerialna --
@@ -450,7 +468,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Korespondencja prywatna z Naczelnym Wodzem II RP. Świadczy o osobistych relacjach Głuchowskiego z najwyższym dowództwem.",
         "powiazania": ["ARG/II/17"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1000-4000 PLN"
     },
     {
         "sygn": "ARG/II/15",
@@ -465,7 +484,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "JEDEN Z NAJCENNIEJSZYCH DOKUMENTÓW W KOLEKCJI. Ferdinand FOCH — Naczelny Wódz Aliantów, zwycięzca I wojny światowej — osobiście dekoruje Głuchowskiego Legią Honorową na Placu Saskim (dziś Pl. Piłsudskiego) 3 maja 1923 r. Adres Głuchowskiego: ul. Mazurska 1, Warszawa. Tytuł: Dowódca I Brygady Kawalerii. Foch odwiedził Polskę w 1923 r. — dwa lata po Bitwie Warszawskiej 1920, w której Głuchowski dowodził kawalerią pod Mławą. Dokument służył jednocześnie jako legitymacja wstępu na ceremonię. Por. ARG/II/16 (Order Rumunii z tego samego okresu).",
         "powiazania": ["ARG/II/16", "ARG/II/17"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "250-800 PLN"
     },
     {
         "sygn": "ARG/II/16",
@@ -480,7 +500,8 @@ OBJECTS = [
         "jezyk": "rumuński",
         "kontekst": "KOREKTA NAZWY ORDERU: Ordinul STEAUA României (Order GWIAZDY Rumunii), nie Coroana (Korony). Stopień: COMANDOR (Komandor) — trzeci od góry w hierarchii. Głuchowski tytułowany jako 'Colonel, Comandantul Brigăzei I de Cavalerie din Armata Polonă' — Pułkownik, Dowódca I Brygady Kawalerii Armii Polskiej. Sinaia — letnia rezydencja królów Rumunii w Karpatach. I.G. Duca (1879–1933) — premier Rumunii, zamordowany 29.XII.1933 przez Żelazną Gwardię na peronie dworca w Sinaia. Polska i Rumunia łączył sojusz wojskowy (1921) skierowany przeciw ZSRR. Data 1.VIII.1923 — jeden dzień przed 9. rocznicą wymarszu Siódemki (2.VIII.1914)!",
         "powiazania": ["ARG/II/13"],
-        "stan": "Dobry — dokument reprezentacyjny"
+        "stan": "Dobry — dokument reprezentacyjny",
+        "wycena": "2500-7500 PLN"
     },
     {
         "sygn": "ARG/II/17",
@@ -495,7 +516,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Dekret Prezydenta RP z kontrasygnał Ministra Spraw Wojskowych — zezwolenie na przyjmowanie i noszenie zagranicznych odznaczeń. W II RP oficer nie mógł nosić obcych orderów bez zezwolenia Prezydenta. Głuchowski jako dowódca 1. Brygady Jazdy (kawalerii) utrzymywał kontakty z zagranicznymi wojskowymi — stąd potrzeba formalnego zezwolenia. 'Dcy 1 Bryg. Jazd.' potwierdza dowodzenie 1. Brygadą Jazdy w 1925 r. Zagraniczne ordery Głuchowskiego: m.in. Order Korony Rumuńskiej (widoczny na portretach).",
         "powiazania": ["ARG/II/18", "ARG/II/19"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "800-2000 PLN"
     },
     {
         "sygn": "ARG/II/18",
@@ -510,7 +532,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Głuchowski awansował na gen. brygady już w 1927 r. Dokument z 1933 r. dotyczy prawdopodobnie nominacji na Dowódcę Okręgu Korpusu nr X (1933-1935). Najwyższy stopień — gen. dywizji — otrzymał dopiero 1.VI.1945. Dowodzenie Okręgiem Korpusu = zarządzanie garnizonami i mobilizacją na dużym terytorium.",
         "powiazania": ["ARG/II/17", "ARG/II/19"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "2000-6000 PLN"
     },
     {
         "sygn": "ARG/II/19",
@@ -525,7 +548,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "SZCZYT KARIERY — I Zastępca Ministra Spraw Wojskowych = druga osoba w resorcie obrony II RP. Stanowisko kluczowe w przygotowaniach do wojny. Na tym stanowisku Głuchowski wydał rozkazy tworzące Dowództwo Obrony Warszawy (gen. Czuma) we wrześniu 1939 oraz nakazał ewakuację pilotów do Rumunii.",
         "powiazania": ["ARG/II/18"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "2500-7500 PLN"
     },
     {
         "sygn": "ARG/II/20",
@@ -540,7 +564,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Rozkaz wyjazdu z Przemyśla do Warszawy dla gen.bryg. Janusza Głuchowskiego. Wystawca: D-wo Okręgu Korpusu Nr X w Przemyślu (DOK X odpowiadał za województwa: lwowskie, stanisławowskie, tarnopolskie, ze sztabem w Przemyślu). Janusz jako Dowódca Piechoty Dywizyjnej lub inspektor podlegał DOK X. JEŚLI data to V.1935 — może być związany z pogrzebem Marszałka Piłsudskiego (zm. 12.V.1935) — co byłoby dokumentem o ogromnym znaczeniu historycznym. Formularz 'Świstek IV' = standardowy druk podróży służbowej WP II RP, z rozliczeniem kosztów przejazdu. Numer serii J powyżej 113 000 świadczy o skali biurokracji wojskowej lat 30.",
         "powiazania": ["ARG/II/19"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "250-800 PLN"
     },
 
     # -- Podseria II/E: Korespondencja i fotokopie --
@@ -557,7 +582,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Korespondencja prywatna na papierze z monogramem — świadczy o kręgu towarzyskim wyższej kadry oficerskiej.",
         "powiazania": [],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-600 PLN"
     },
     {
         "sygn": "ARG/II/22",
@@ -572,7 +598,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Ceremonia wojskowa najwyższej rangi — wręczenie sztandaru przez Naczelnego Wodza. Głuchowski jako dowódca Brygady Kawalerii.",
         "powiazania": ["ARG/II/14"],
-        "stan": "Średni — fotokopia"
+        "stan": "Średni — fotokopia",
+        "wycena": "1200-4000 PLN"
     },
     {
         "sygn": "ARG/II/23",
@@ -587,7 +614,8 @@ OBJECTS = [
         "jezyk": "—",
         "kontekst": "Portret oficjalny generała II RP. Widoczne ordery pozwalają na identyfikację: Virtuti Militari (V kl.), Krzyż Niepodległości z Mieczami, Order Odrodzenia Polski, Krzyż Walecznych (4x), Order Korony Rumuńskiej. Na portrecie w mundurze wz.36 z gwiazdkami generalskimi.",
         "powiazania": [],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "5000-12000 PLN"
     },
 
     # -- Podseria II/F: PSZ na Zachodzie --
@@ -604,7 +632,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Głuchowski po 1939 internowany w Rumunii, dotarł do Palestyny (X.1940), potem Londyn (II.1941). Od III.1941 generał do dyspozycji Naczelnego Wodza. Od X.1941 dowodził Brygadą Szkolną w Szkocji. Od IX.1943 — Dowódca Polskich Jednostek Wojskowych w Wielkiej Brytanii. List z 14.IX.1943 datowany tuż po objęciu tego kluczowego stanowiska.",
         "powiazania": ["ARG/II/25"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "600-2000 PLN"
     },
     {
         "sygn": "ARG/II/25",
@@ -619,7 +648,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "3 Pułk Piechoty Legjonów — elitarny pułk garnizonem w Zambrowie, wywodzący się z I Brygady Legionów. Na emigracji utrzymywał tradycje przedwojenne (nagłówek z Zambrowem). Pismo informuje gen. Głuchowskiego o przyznaniu odznaki pułkowej — wyraz uznania za związki z jednostką. Święto pułkowe 30 listopada. Zwrot 'Jaśnie Wielmożny' i adres 'Przemyśl' (przedwojenny garnizon Głuchowskiego) — formuła tradycyjna, zachowana na emigracji. Porównaj z ARG/II/24 — korespondencja z tego samego okresu (IX.1943).",
         "powiazania": ["ARG/II/24"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "800-2500 PLN"
     },
     {
         "sygn": "ARG/II/26",
@@ -634,7 +664,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Adres iluminowany — tradycyjna forma podziękowań. 'C.B.' = Companion of the Order of the Bath — wysokie odznaczenie brytyjskie nadane Głuchowskiemu za dowodzenie polskimi jednostkami w Wielkiej Brytanii (IX.1943 – IX.1945). Adres od oficerów Allied Military Service po zakończeniu wojny.",
         "powiazania": [],
-        "stan": "Dobry — kolorowy, dekoracyjny"
+        "stan": "Dobry — kolorowy, dekoracyjny",
+        "wycena": "1000-3000 PLN"
     },
 
     # -- Podseria II/G: Emigracja i dokumenty późne --
@@ -651,7 +682,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Gen. Kazimierz Sosnkowski — Naczelny Wódz PSZ (VII.1943 – IX.1944), najwyższej rangi żyjący generał polski w 1964. Od XI.1944 na emigracji w Kanadzie (farma w Arundel, Quebec). List pisany 14 dni przed śmiercią Głuchowskiego (zm. 11.VI.1964) — jedno z OSTATNICH pism Sosnkowskiego do przyjaciela. 51-letni łuk relacji: egzamin ZWC w Stróżach (1913) → KW jako minister (1922) → zaświadczenie OB PPS (1935) → list z Kanady (1964). Piąty dokument Sosnkowskiego w kolekcji. Sosnkowski pisał o patrolu Beliny do człowieka, który w tym patrolu UCZESTNICZYŁ — jeden z Siódemki. DOKUMENT EKSTREMALNIE RZADKI — autograf Naczelnego Wodza z okresu kanadyjskiego, prywatna korespondencja.",
         "powiazania": ["ARG/II/3", "ARG/II/4", "ARG/II/28", "ARG/II/29"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1200-5000 PLN"
     },
     {
         "sygn": "ARG/II/28",
@@ -666,7 +698,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Załącznik do listu ARG/II/27. 'Pro memoria' ujawnia rolę Sosnkowskiego jako żywej pamięci historycznej polskiej emigracji. Lista 24 zamówień od różnych instytucji i osób: historycy, redakcje, archiwa. Sosnkowski w 1964 roku miał prawie 80 lat ('Za parę miesięcy rozpoczynam 80-ty rok życia i siły moje bynajmniej nie są nieograniczone'). Pisał z Arundel (Quebec) do całego świata. Głuchowski (poz. 5) prosił o tekst o kawalerii — jako jeden z Siódemki miał prawo żądać tego od współtwórcy ich legendy.",
         "powiazania": ["ARG/II/27", "ARG/II/29"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-500 PLN"
     },
     {
         "sygn": "ARG/II/29",
@@ -681,7 +714,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Kontynuacja ARG/II/28. Giedroyć i 'Kultura' paryska = najważniejsze intelektualne czasopismo polskiej emigracji. Radio Wolna Europa = informacyjna linia ratunkowa dla kraju za żelazną kurtyną. J. Nowak = prawdopodobnie Jan Nowak-Jeziorański, legendarny kurier z Warszawy i dyrektor RWE (1952–1976). Cytat '80-ty rok życia' — Sosnkowski urodził się 19.XI.1885, więc w maju 1964 miał 78 lat, 80-ty rok życia rozpoczynałby w XI.1964. Zmarł 11.X.1969.",
         "powiazania": ["ARG/II/27", "ARG/II/28"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "150-400 PLN"
     },
 
     # -- Podseria II/H: Legitymacja oficerska --
@@ -698,7 +732,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Wpisy w legitymacji z 1930 r. dokumentują karierę Janusza: (1) przeniesienie do dyspozycji Ministra (31.IV.1930), (2) mianowanie na Dowódcę/Komendanta ośrodka szkolenia piechoty (18.IX.1930). Podpisane przez Generała Dywizji (prawdopodobnie Piskor lub Rydz-Śmigły). Pieczęć czerwona Ministerstwa Spraw Wojskowych.",
         "powiazania": ["ARG/II/31", "ARG/II/32"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "800-2000 PLN"
     },
     {
         "sygn": "ARG/II/31",
@@ -713,7 +748,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWY DOKUMENT IKONOGRAFICZNY — jedyne zdjęcie portretowe gen. Głuchowskiego w mundurze galowym z orderami. Legitymacja wystawiona w D.O.K. I (Dowództwo Okręgu Korpusu Nr I — Warszawa). Stopień: generał brygady (mianowany 1927). Przydział: D-two 4 dywizji lub D.O.K. I. Stała przynależność: Biuro Personalne MSWojsk — potwierdza rolę w strukturach ministerstwa. Zdjęcie pokazuje ordery: prawdopodobnie VM (Virtuti Militari), KW (Krzyż Walecznych), KL (Krzyż Legionowy Nr 145), odznaczenia zagraniczne (rumuński, francuski, estoński).",
         "powiazania": ["ARG/II/30", "ARG/II/32"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "5000-12000 PLN"
     },
     {
         "sygn": "ARG/II/32",
@@ -728,7 +764,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "PEŁNA LISTA ODZNACZEŃ Janusza Głuchowskiego wpisana urzędowo: Virtuti Militari (najwyższe polskie odznaczenie wojskowe), Krzyż Walecznych z 2 okuciami (trzykrotnie odznaczony za męstwo!), Złoty Krzyż Zasługi, francuski Krzyż Kawalera Legii Honorowej, rumuński Order Korony Rumunii, estoński Krzyż Komandorski. Wystawiona przez płk SG Mariana Czerniewskiego 6.I.1929. Przedłużana dwukrotnie (1932, 1937) — podpisy generałów dywizji (prawdopodobnie Piskor lub Rydz-Śmigły). Legitymacja ważna aż do 1937 — prawdopodobnie zastąpiona nową przed wojną.",
         "powiazania": ["ARG/II/30", "ARG/II/31"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "5000-12000 PLN"
     },
 
     # -- Biogram (z kolekcji Krzysztofa) --
@@ -745,7 +782,8 @@ OBJECTS = [
         "jezyk": "polski, angielski",
         "kontekst": "Kwartalnik Biograficzny Polonii — encyklopedyczne wydawnictwo dokumentujące biogramy wybitnych Polaków na emigracji. KLUCZOWE ŹRÓDŁO do biografii gen. Głuchowskiego — potwierdza: studia w Liège, Siódemkę Beliny, organizację 7 P.Uł., stanowisko I Wiceministra Spraw Wojskowych (1935–1939), dowodzenie we Włoszech i Szkocji, współzałożenie Instytutu Sikorskiego.",
         "powiazania": ["ARG/II/1", "ARG/VI/14", "ARG/V/132"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "500-1200 PLN"
     },
 
     # =====================================================================
@@ -764,7 +802,8 @@ OBJECTS = [
         "jezyk": "niemiecki (formularz) / polski (treść)",
         "kontekst": "Kriegsgefangenenpost datowana 20.X.1944 — 18 dni po kapitulacji Powstania Warszawskiego (2.X.1944). Stefan został schwytany po kapitulacji i jako oficer (ppor.) otrzymał status jeńca wojennego. Nr 0.1245 = numer oficerski. Adresatka Zofia w Radomsku — prawdopodobnie krewna z rodzinnych stron Głuchowskich (majątek Bukowa, pow. piotrkowski). Wg biogramu 1944.pl Stefan przeszedł 5 obozów: Stalag XI-B Fallingbostel → Bergen → Oflag II D Gross-Born → Stalag X-B Sandbostel → Oflag X-C Lübeck. Kontekst: Stefan był aresztowany przez Gestapo w maju 1944 (Pawiak, Aleja Szucha!), zwolniony 29.VII.1944 — 3 dni przed Powstaniem. Podczas Powstania: kwatermistrz Obwodu I Śródmieście AK.",
         "powiazania": ["ARG/III/2", "ARG/III/28", "ARG/III/30"],
-        "stan": "Średni — pożółkły, stempel czytelny"
+        "stan": "Średni — pożółkły, stempel czytelny",
+        "wycena": "600-1600 PLN"
     },
     {
         "sygn": "ARG/III/2",
@@ -779,7 +818,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWA INFORMACJA — ojciec (oficer, oflag) i syn (szeregowy, stalag) w różnych obozach. Stefan wie, gdzie jest Krzysztof.",
         "powiazania": ["ARG/III/1", "ARG/V/5"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "200-500 PLN"
     },
     {
         "sygn": "ARG/III/3",
@@ -794,7 +834,8 @@ OBJECTS = [
         "jezyk": "niemiecki (formularz) / polski (treść)",
         "kontekst": "KORESPONDENCJA OJCIEC→SYN MIĘDZY STALAGAMI — jeden z najrzadszych typów dokumentów jenieckich. Stefan (ppor., obóz oficerski) pisał do Krzysztofa (st. uł., Stalag VI J Dorsten w Westfalii) przez system Rückantwortbrief (list z opłaconą odpowiedzią). Obaj schwytani po kapitulacji Powstania 2.X.1944, rozdzieleni wg stopnia: oficerowie do oflagów, szeregowi do stalagów. Stalag VI J Dorsten — obóz w Zagłębiu Ruhry, jeńcy pracowali w przemyśle ciężkim. System pocztowy Czerwonego Krzyża umożliwiał korespondencję między obozami — ale z wielotygodniowym opóźnieniem i pod cenzurą.",
         "powiazania": ["ARG/III/4", "ARG/V/5"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "300-800 PLN"
     },
     {
         "sygn": "ARG/III/4",
@@ -809,7 +850,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "NIEZWYKLE INTYMNY LIST z obozu jenieckiego (XI.1944). Stefan-jeniec pisze do Krzysztofa-jeńca o losach rozrzuconej rodziny: (1) Babcia zmarła 29.IX w 'Willi B. Maciejskiej' — pochowana W OGRODZIE (nie na cmentarzu — czas wojenny!), (2) 'Mamusia' (żona Wanda?) ze Stenią i Andrzejem z córeczkami mieszka w Częstochowie, ul. Hoene-Wrońskiego 12 — adres KONKRETNY, weryfikowalny, (3) Halszka i Irka w 'Klerinie' (Clermont-Ferrand? Francja?), (4) 'Ciocia Ircha' pośredniczy w wiadomościach, (5) adresy podawane po NIEMIECKU: 'Kreis Radomsko', 'Tschenstochau' — realność GG. Podpis 'Stefanek' (nie 'Stefan') = czułość ojcowska. List pisany 38 DNI po otrzymaniu odpowiedzi — tempo poczty jenieckiej. Korespondencja OJCIEC↔SYN między dwoma Stalagami (Stefan w XI-B Fallingbostel, Krzysztof w XI-B Bergen — TEN SAM obóz, różne Kommandos!).",
         "powiazania": ["ARG/III/3"],
-        "stan": "Średni — pismo ołówkowe, wyblakłe"
+        "stan": "Średni — pismo ołówkowe, wyblakłe",
+        "wycena": "200-600 PLN"
     },
     {
         "sygn": "ARG/III/5",
@@ -824,7 +866,8 @@ OBJECTS = [
         "jezyk": "niemiecki / polski",
         "kontekst": "KLUCZOWY DOKUMENT: potwierdza numer jeniecki Stefana: O.1845 (Offizier 1845, Stalag XI B). Adresatka: Zofia Głuchowska — prawdopodobnie żona (matka Krzysztofa nosiła imię Wanda, więc 'Zofia' to inna krewna, np. ciotka?). Kleczew leży w pow. konińskim, nie radomskim — ale 'Kreis: Radomsko' może wskazywać na inne Kleczew lub błąd cenzora. Barak 20/4 = identyczny adres jak w ARG/III/9.",
         "powiazania": ["ARG/III/6"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "400-1000 PLN"
     },
     {
         "sygn": "ARG/III/6",
@@ -839,7 +882,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "List napisany 28 dni po kapitulacji Powstania. Stefan (ppor., nr O.1845) pisze do 'Zochenko' (Zocha = Zofia). KLUCZOWE: zna numer jeniecki syna Krzysztofa (141009) — ojciec i syn byli razem w transporcie z Warszawy, potem rozdzieleni (Stefan jako oficer do oflagu/XI B, Krzysztof jako szeregowy do Stalagu VI J). Por. ARG/V/39 gdzie Krzysztof potwierdza: 'Po kapitulacji Ojciec i ja poszliśmy do Niewoli'.",
         "powiazania": ["ARG/III/5", "ARG/V/1"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "300-800 PLN"
     },
     {
         "sygn": "ARG/III/7",
@@ -854,7 +898,8 @@ OBJECTS = [
         "jezyk": "niemiecki",
         "kontekst": "TRZY IDENTYFIKATORY NA JEDNYM FRAGMENCIE: ps. 'Juraś' = Krzysztof Głuchowski, Bat. 1112 = batalion w strukturach AK, 'Jeleń' = kryptonim 7 Pułku Ułanów Lubelskich im. Gen. K. Sosnkowskiego. Por. ARG/V/118 (legitymacja Krzyża AK: 'Plut. III/2, 7 P.Uł. JELEŃ'). Fragment mógł służyć jako ukryta notatka identyfikacyjna w obozie jenieckim.",
         "powiazania": ["ARG/III/1"],
-        "stan": "Słaby — wyblakły"
+        "stan": "Słaby — wyblakły",
+        "wycena": "500-1200 PLN"
     },
     {
         "sygn": "ARG/III/8",
@@ -869,7 +914,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "List z 16.X.1944 — napisany zaledwie 14 dni po kapitulacji Powstania. 'Krysiu' — zdrobnienie, prawdopodobnie zwrot do Krystyny/Christyny (siostry? kuzynki?). Wzmianka o 'Stryju' = gen. Janusz (który w tym czasie był już w Wielkiej Brytanii). 'Monotonia rutyn' — opis pierwszych dni w obozie jenieckim. Papier w kratkę = zeszyt zdobyty w obozie.",
         "powiazania": ["ARG/III/1"],
-        "stan": "Słaby — zniszczony, ubytki"
+        "stan": "Słaby — zniszczony, ubytki",
+        "wycena": "300-1000 PLN"
     },
     {
         "sygn": "ARG/III/9",
@@ -884,7 +930,8 @@ OBJECTS = [
         "jezyk": "polski / niemiecki",
         "kontekst": "Bergen leży 15 km od Fallingbostel, gdzie znajdował się Stalag XI B — główny obóz Stefana. 'Barak 20' = konkretny budynek w obozie. 'Lind[?]' — prawdopodobnie Lindwedel lub nazwa podobozu. W pobliżu Bergen znajdował się Bergen-Belsen (obóz koncentracyjny), ale Stalag XI B był oddzielnym obozem jenieckim. Stefan jako ppor. (oficer) powinien był trafić do oflagu, nie stalagu — możliwe, że początkowo był ze zwykłymi jeńcami.",
         "powiazania": ["ARG/III/1"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "150-400 PLN"
     },
 
     # =====================================================================
@@ -905,7 +952,8 @@ OBJECTS = [
         "jezyk": "niemiecki / polski",
         "kontekst": "Kennkarte — przymusowy dokument tożsamości dla ludności polskiej w GG. Obowiązek posiadania od 14 roku życia.",
         "powiazania": ["ARG/V/2"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-500 PLN"
     },
     {
         "sygn": "ARG/V/2",
@@ -920,7 +968,8 @@ OBJECTS = [
         "jezyk": "niemiecki",
         "kontekst": "Rozkładówka Kennkarte wydanej 9.XI.1943 w Warszawie. Zdjęcie Krzysztofa w wieku ~17 lat — ale wg sfałszowanej daty urodzenia (29.XI.1928, ARG/V/161) karta pokazuje '15-latka'. ADRES: ul. Pogonowskiego w Warszawie — dzielnica Śródmieście/Mokotów. Podpis 'Lehmann' = urzędnik Der Polizeipräsident Warschau (policja porządkowa GG). Data wydania 9.XI.1943 to 5 dni po 20. rocznicach Marszu na Rzym — przypadkowa zbieżność. W MOMENCIE wystawiania Kennkarte Krzysztof był już ŻOŁNIERZEM AK (zaprzysiężony w 7 P.Uł. 'Jeleń'). Żona Stefana, Wanda ps. 'Krysta', była już ranna po akcji Kedywu w Wilanowie (26.IX.1943 — 6 tygodni wcześniej!). Kennkarte z fałszywą datą urodzenia = świadomy akt sabotażu tożsamościowego: rodzina chroniła syna przed Arbeitseinsatz (poborem na roboty przymusowe od 16 roku życia).",
         "powiazania": ["ARG/V/1", "ARG/V/3"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1200-3000 PLN"
     },
     {
         "sygn": "ARG/V/3",
@@ -935,7 +984,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWY DOKUMENT — legitymacja AK z pseudonimem 'Juras' i numerem plutonu 1112 (7 P.Uł. AK 'Jeleń'). Data 8.IV.1944 = 4 miesiące przed Powstaniem.",
         "powiazania": ["ARG/V/1", "ARG/V/2", "ARG/V/4"],
-        "stan": "Średni — papier cienki, naddarcia"
+        "stan": "Średni — papier cienki, naddarcia",
+        "wycena": "1200-4000 PLN"
     },
     {
         "sygn": "ARG/V/4",
@@ -950,7 +1000,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Zbliżenie fotograficzne legitymacji AK Krzysztofa — umożliwia odczyt kluczowych danych: PSEUDONIM 'Juras' (od 'Juraś' = zdrobnienie od Jerzy? lub rodzinne przezwisko), NR PLUTONU 1112 (7 P.Uł. Lubelskich ps. 'Jeleń'). Pluton 1112 = czwarty pluton batalionu 'Jeleń', który 1.VIII.1944 natarł na gmach Gestapo i Dom Prasy (ARG/V/158). Krzysztof miał 17 lat (choć Kennkarte pokazywała 15) — najmłodszy żołnierz w kolekcji. Legitymacja wydana W TRAKCIE okupacji — samo jej posiadanie groziło śmiercią.",
         "powiazania": ["ARG/V/3", "ARG/V/158"],
-        "stan": "j.w."
+        "stan": "j.w.",
+        "wycena": "1200-4000 PLN"
     },
 
     # -- Podseria V/B: Powstanie Warszawskie --
@@ -967,7 +1018,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "NIEZWYKŁY DOKUMENT — list od ciotki do Krzysztofa z 24.IX.1944 = 8 DNI PRZED KAPITULACJĄ POWSTANIA. Autorka donosi: 'Wszyscy jesteśmy zdrowi', 'Nasze domy stoją chociaż pocharatane' — rodzina przeżyła bombardowania. Wspomina 'pannę Zosię' (Zofia Kopczyńska 'Władka' z plutonu 1112? por. ARG/II/41) i 'p. Stanisztkę'. Wzmianka o 'ciotce Świdce w aptece' sugeruje, że część rodziny schroniła się w aptece (typowe schronienie podczas walk). List dostarczony przez łączników między rejonami walczącej Warszawy.",
         "powiazania": ["ARG/V/6", "ARG/II/41"],
-        "stan": "Średni — papier polowy, ołówek czytelny"
+        "stan": "Średni — papier polowy, ołówek czytelny",
+        "wycena": "300-800 PLN"
     },
     {
         "sygn": "ARG/V/6",
@@ -982,7 +1034,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "NAJCENNIEJSZY DOKUMENT KOLEKCJI. List 17-latka z walczącej Warszawy do rodziców — 26 dni po wybuchu Powstania. Krzysztof raportuje: (1) 'Dotychczas żyję, jestem cały choć nieco zarysiony' — lekko ranny; (2) Stracili porucznika Jerzego + 13 ludzi od granatu — ciężkie straty; (3) Zginął sierżant B. + kolejnych 2; (4) 'Ze stryjem nie byłem od początku' — STRYJ = wuj ze strony ojca = prawdopodobnie Lech Głuchowski (1900–1944), brat Stefana, który ZGINĄŁ W 1944; (5) 'O naszych na Żoliborzu nie wiem' — Żoliborz był odcięty od reszty walczącego miasta. List z oblężonego miasta — jeden z najrzadszych typów dokumentów powstańczych.",
         "powiazania": ["ARG/V/5", "ARG/V/7", "ARG/V/39"],
-        "stan": "Średni — ołówek, kruchy papier"
+        "stan": "Średni — ołówek, kruchy papier",
+        "wycena": "300-800 PLN"
     },
     {
         "sygn": "ARG/V/7",
@@ -997,7 +1050,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "DOKUMENT Z OSTATNICH GODZIN POWSTANIA. 29.IX.1944 = 3 dni przed kapitulacją (2.X.1944). Przepustka specjalna na przejście przez Al. Sikorskiego (barykadę) — w sprawach służbowych, 'bez kolejki'. Podpisał płk 'Wachnowski' = pseudonim płk. dypl. Kazimierza Ziemskiego, Zastępcy Komendanta Okręgu Warszawskiego AK. TEN SAM Ziemski, który później wystawił Krzysztofowi zaświadczenie o Krzyżu Walecznych (ARG/V/144) i podpisał legitymację Krzyża AK (ARG/V/118). Pieczęć KOM.OKR. AK z orłem — autentyczna pieczęć konspiracyjna Komendy Okręgu.",
         "powiazania": ["ARG/V/8", "ARG/V/144", "ARG/V/118"],
-        "stan": "Średni — papier pożółkły, pieczęć czytelna"
+        "stan": "Średni — papier pożółkły, pieczęć czytelna",
+        "wycena": "600-1600 PLN"
     },
     {
         "sygn": "ARG/V/8",
@@ -1012,7 +1066,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KOREKTA DATY: Rozkaz Nr 24 z 5.IX.1944 (nie 29.IX jak podawano). Odpis potwierdzony przez płk. Ziemskiego 11.IX.1944. Grupa 'Północ' = zgrupowanie AK na Żoliborzu pod dow. płk. 'Żywiciela' (Mieczysław Niedzielski). Krzysztof awansowany z ułana na STARSZEGO UŁANA i odznaczony KRZYŻEM WALECZNYCH po raz I-szy — za walki w Powstaniu. K.W. = najwyższe polskie odznaczenie bojowe. Ten sam rozkaz Nr 24 cytowany w zaświadczeniu płk. Ziemskiego (ARG/V/144). Pieczęć KOM.OKR. AK identyczna jak na przepustce (ARG/V/7) — potwierdza autentyczność.",
         "powiazania": ["ARG/V/7", "ARG/V/144", "ARG/V/118"],
-        "stan": "Dobry — czytelny, pieczęć wyraźna"
+        "stan": "Dobry — czytelny, pieczęć wyraźna",
+        "wycena": "500-1500 PLN"
     },
 
     # -- Podseria V/C: Niewola (Stalagi) --
@@ -1029,7 +1084,8 @@ OBJECTS = [
         "jezyk": "niemiecki",
         "kontekst": "Nr 141009 powtarza się w wielu dokumentach kolekcji — centralny identyfikator Krzysztofa w systemie obozowym.",
         "powiazania": ["ARG/V/10"],
-        "stan": "Średni — karton kruchy"
+        "stan": "Średni — karton kruchy",
+        "wycena": "300-800 PLN"
     },
     {
         "sygn": "ARG/V/10",
@@ -1044,7 +1100,8 @@ OBJECTS = [
         "jezyk": "niemiecki",
         "kontekst": "Personalkarte — podstawowy dokument ewidencyjny jeńca. Podaje dane osobowe, ojca, adres rodziny w Częstochowie.",
         "powiazania": ["ARG/V/9", "ARG/III/1"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "200-500 PLN"
     },
     {
         "sygn": "ARG/V/11",
@@ -1059,7 +1116,8 @@ OBJECTS = [
         "jezyk": "niemiecki",
         "kontekst": "Standardowy formularz medyczny obozu jenieckiego. Puste rubryki szczepień i wagi sugerują, że karta nie była systematycznie prowadzona — typowe dla obozów pod koniec wojny (1944-45) gdy organizacja jenieckiej służby zdrowia się załamywała. Szkice medyczne w tabeli chorób mogą dokumentować urazy lub choroby Krzysztofa. Par. ARG/V/12 (okładka karty).",
         "powiazania": ["ARG/V/12"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "200-500 PLN"
     },
     {
         "sygn": "ARG/V/12",
@@ -1074,7 +1132,8 @@ OBJECTS = [
         "jezyk": "niemiecki",
         "kontekst": "Stalag VI J = Mannschaftsstammlager VI J w Fichtenhain bei Krefeld (Nadrenia Północna-Westfalia). Obóz dla szeregowych i podoficerów. Krzysztof jako st.uł. (starszy ułan = szeregowy) trafił tu po rozdzieleniu z ojcem (Stefan jako oficer do XI B). Karta zdrowia zawierała dane o chorobach, szczepieniach, odwszawianiu i wadze — standardowy dokument obozowy. Stalag VI J leżał ok. 80 km na południe od Stalagu XI B Fallingbostel.",
         "powiazania": ["ARG/V/11", "ARG/V/9"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "200-500 PLN"
     },
 
     # -- Podseria V/D: Korespondencja obozowa --
@@ -1091,7 +1150,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "List do ojca Stefana — pisany na kartonie ołówkiem w typowych warunkach obozowych. Krzysztof podaje swój numer 141009 w Stalag XI B Fallingbostel i prosi o wysyłanie listów 'w kilku egzemplarzach' — świadomy, że korespondencja jeniecka często giła. Wzmianka o 'Westhofalii' (Westfalii?) sugeruje, że Krzysztof był wcześniej w innym obozie (Stalag VI J Dorsten w Westfalii — por. ARG/V/14) i został przeniesiony do XI B. 'Trzymamy się do końca!' — motto jenieckiej solidarności AK. Data 21.VIII.1944 sugeruje, że list pisany zaledwie 3 tygodnie po kapitulacji Powstania (2.X.1944 — ALE data 21.VIII jest WCZEŚNIEJSZA niż kapitulacja — do weryfikacji). Porównaj z fizycznym nieśmiertelnikiem 'Stalag XI B / 141009' (ARG/V/163).",
         "powiazania": ["ARG/V/9", "ARG/V/14", "ARG/V/163"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "300-800 PLN"
     },
     {
         "sygn": "ARG/V/14",
@@ -1106,7 +1166,8 @@ OBJECTS = [
         "jezyk": "niemiecki (formularz) / polski (treść)",
         "kontekst": "KARTA DO KRZYSZTOFA W STALAGU VI J DORSTEN. Nadawczyni 'Maria Janisz' z Głowna (pow. Łowicz) — prawdopodobnie krewna lub znajoma rodziny. DORSTEN w Westfalii — Stalag VI J (nie VI/3 jak we wcześniejszym opisie!). Numer jeniecki: 141009 (identyczny jak w ARG/III/3 i ARG/III/6). Arb. Km. 756 = Arbeitskommando 756 — komando pracy, do którego Krzysztof był przydzielony. Jeńcy z komanderów pracowali w fabrykach, kopalniach i na farmach w okolicy Dorsten/Recklinghausen (Zagłębie Ruhry). Stempel z Głowna — poczta cywilna z Generalnego Gubernatorstwa.",
         "powiazania": ["ARG/V/15"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "200-500 PLN"
     },
     {
         "sygn": "ARG/V/15",
@@ -1121,7 +1182,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Odpowiedź kilku osób na jednej kartce — typowe wobec limitów korespondencji. Sieć rodzinna z Częstochowy.",
         "powiazania": ["ARG/V/14"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "200-500 PLN"
     },
     {
         "sygn": "ARG/V/16",
@@ -1136,7 +1198,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "LIST 18-LETNIEGO JEŃCA DO STRYJA-GENERAŁA. Krzysztof (18 lat, st. uł., Stalag VI J Dorsten) pisze do gen. Janusza Głuchowskiego ('Stryju') i jego żony ('Ciociu') — prawdopodobnie do Londynu. Data: 19.X.1944 — zaledwie 17 dni po kapitulacji Powstania (2.X.1944). ŻABIKOWO = obóz karny/przejściowy pod Poznaniem (Żabikowo/Luboń), przez który przechodzili jeńcy z Powstania w drodze do Stalagów. 'BB chowany żyje' — informacja o przeżyciu kogoś bliskiego. Cenzura obozowa zakreśliła fragment — prawdopodobnie informacje wojskowe lub lokalizacyjne. Podpis 'Krzysztof' — intymny, nie formalny. Ten list łączy TRZY SERIE: V (Krzysztof), II (gen. Janusz — adresat), III (Stefan — wspomniany jako ojciec).",
         "powiazania": ["ARG/V/17"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "300-1000 PLN"
     },
     {
         "sygn": "ARG/V/17",
@@ -1151,7 +1214,8 @@ OBJECTS = [
         "jezyk": "niemiecki / angielski / polski",
         "kontekst": "DOKUMENT WYJĄTKOWY — kartka z obozu jenieckiego do generała w Londynie. Trójjęzyczność (niemiecki formularz, angielski adres, polskie pismo). Stempel PASSED = cenzura brytyjska.",
         "powiazania": ["ARG/V/16", "ARG/II/24"],
-        "stan": "Dobry — stemple czytelne"
+        "stan": "Dobry — stemple czytelne",
+        "wycena": "150-400 PLN"
     },
     {
         "sygn": "ARG/V/18",
@@ -1166,7 +1230,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "List syn→ojciec między obozami jenieckimi. Koperta (ARG/V/19) potwierdza adresata: ppor. Stefan Głuchowski, nr 01245, Stalag XI B. Gęsty, szczegółowy opis codzienności obozowej — typowy dla korespondencji KGF, gdzie limity słów zmuszały do pisania drobnym pismem. Wzruszający ton — 'Kochany Tatuśku' — 18-letni chłopiec pisze do ojca w innym obozie.",
         "powiazania": ["ARG/V/19"],
-        "stan": "Średni — pismo ołówkowe częściowo zatarte"
+        "stan": "Średni — pismo ołówkowe częściowo zatarte",
+        "wycena": "200-600 PLN"
     },
     {
         "sygn": "ARG/V/19",
@@ -1181,7 +1246,8 @@ OBJECTS = [
         "jezyk": "niemiecki / francuski",
         "kontekst": "Koperta jenieckiego listu SYN→OJCIEC z 7.XI.1944. Krzysztof (st.ułan, Stalag XI-B) pisze do Stefana (ppor., nr jeńca 01245, Stalag XI-B Bergen). PARADOKS: obaj w TYM SAMYM Stalagu XI-B, ale w różnych Arbeitskommandos — stąd korespondencja pocztowa zamiast kontaktu osobistego! Nr cenzora '27' = jeden z kilkudziesięciu cenzorów w obozie. Formularz z nadrukiem 'Besetztes Gebiet / Südfrankreich' (Terytorium okupowane / Południowa Francja) — to formularz uniwersalny z poleceniem 'skreślić co nie dotyczy', niekoniecznie oznacza lokalizację nadawcy. Bergen = dzielnica Celle w Dolnej Saksonii, blisko Bergen-Belsen. Stalag XI-B Fallingbostel (z filią w Bergen) mieścił ponad 90 000 jeńców różnych narodowości. List dokumentuje JEDYNY znany kontakt ojca z synem w niewoli — obaj wzięci do niewoli po Powstaniu Warszawskim (X.1944).",
         "powiazania": ["ARG/III/3", "ARG/V/18"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "500-1200 PLN"
     },
 
     # -- Podseria V/E: Notatki i Powstanie z pamięci --
@@ -1198,7 +1264,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "'Gryfon' — prawdopodobnie pseudonim kolegi z oddziału. Obliczenia mogą dotyczyć strat, amunicji lub odległości.",
         "powiazania": ["ARG/V/36"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "400-1200 PLN"
     },
     {
         "sygn": "ARG/V/21",
@@ -1213,7 +1280,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "DOKUMENT O OGROMNEJ WARTOŚCI HISTORYCZNEJ. Relacja naocznego świadka z konkretnymi danymi: '508 strat' = straty jednostki, '1112 odznacz' = pluton 1112. Pisana prawdopodobnie w obozie z pamięci.",
         "powiazania": ["ARG/V/20", "ARG/V/8"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "1600-5000 PLN"
     },
     {
         "sygn": "ARG/V/22",
@@ -1228,7 +1296,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Krzysztof walczył w Powstaniu Warszawskim w 7 Pułku Ułanów AK 'Jeleń'. Wołomin — rejon walk na wschód od Warszawy, gdzie toczono boje z Niemcami. Mapka rysowana z pamięci w obozie jenieckim — rekonstrukcja przebiegu walk. Podobne szkice tworzyli inni jeńcy-powstańcy dla udokumentowania swoich doświadczeń bojowych. Porównaj z mapą Marsylii (ARG/V/52) — ta sama metoda: rysowanie z pamięci.",
         "powiazania": ["ARG/V/21", "ARG/V/52"],
-        "stan": "Średni — pismo częściowo wyblakłe"
+        "stan": "Średni — pismo częściowo wyblakłe",
+        "wycena": "400-1200 PLN"
     },
 
     # -- Podseria V/F: Pamiętnik obozowy --
@@ -1245,7 +1314,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "PAMIĘTNIK LITERACKI młodego Krzysztofa — pisany w Stalagu XI-B lub tuż po wyzwoleniu (zima 1944/45). Niezwykła dojrzałość intelektualna 18-latka: (1) wspomina NAŁĘCZÓW — letnisko inteligencji, prawdopodobnie wakacje rodzinne sprzed wojny, (2) refleksja o muzyce i myśleniu — wrażliwość artystyczna, (3) porównanie Powstania Warszawskiego z IRLANDZKĄ REWOLUCJĄ 1916–1920 (Easter Rising + War of Independence) — nieoczywiste zestawienie, świadczące o oczytaniu i umiejętności kontekstualizacji historycznej, (4) wzmianka o Krakowie i Londynie = dwa bieguny rodzinne (matka w Krakowie/Częstochowie, wuj Janusz w Londynie), (5) 'Gladstone' = możliwe Camp Gladstone (obóz dla DPs w Niemczech) lub nawiązanie do polityka. Pamiętnik jest częścią serii 4 stron (ARG/V/23–26) — razem tworzą spójną narrację.",
         "powiazania": ["ARG/V/24", "ARG/V/25", "ARG/V/26"],
-        "stan": "Średni — papier kruchy"
+        "stan": "Średni — papier kruchy",
+        "wycena": "1600-5000 PLN"
     },
     {
         "sygn": "ARG/V/24",
@@ -1260,7 +1330,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWY FRAGMENT TOŻSAMOŚCIOWY — Krzysztof pisze 'Człowiek który noszący nr 141009 — to ja'. Numer 141009 to jego numer jeniecki w Stalagu VI J / XI B. Zdanie to jest głęboką refleksją nad dehumanizacją obozową — jeniec sprowadzony do numeru, ale odzyskujący podmiotowość przez akt pisania. Por. ARG/V/12 (Gesundheitskarte ze Stalagu VI J z tym numerem).",
         "powiazania": ["ARG/V/23"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "500-1500 PLN"
     },
     {
         "sygn": "ARG/V/25",
@@ -1275,7 +1346,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Początek rozdziału autobiograficznego pisanego przez 18-letniego jeńca. Zdanie otwierające — 'Dzieciństwo zrośnięto się z działaniami wojennymi w 39 roku' — jest literacko świadome i dojrzałe. Krzysztof urodził się 29.XI.1926, więc we wrześniu 1939 miał niespełna 13 lat. Wzmianka o 'Grzieśku Dylli' który 'polegał' — prawdopodobnie kolega z Powstania lub z obozu. Por. ARG/V/59–61 (eseje o Powstaniu).",
         "powiazania": ["ARG/V/23"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "800-2500 PLN"
     },
     {
         "sygn": "ARG/V/26",
@@ -1290,7 +1362,8 @@ OBJECTS = [
         "jezyk": "polski / niemiecki",
         "kontekst": "Słowo 'Winterreise' (podróż zimowa, tytuł cyklu pieśni Schuberta) użyte w kontekście obozowym — sugeruje, że Krzysztof znał kulturę niemiecką lub słyszał tę muzykę. Bombardowania w pobliżu obozu — alianckie naloty na cele w zachodniej Rzeszy 1944–1945. '3 lata... młodość' — Krzysztof w niewoli od X.1944 do IV/V.1945, ale liczy od Powstania 1944 lub od początku okupacji 1939.",
         "powiazania": ["ARG/V/23"],
-        "stan": "Średni — pożółkły"
+        "stan": "Średni — pożółkły",
+        "wycena": "800-2500 PLN"
     },
     {
         "sygn": "ARG/V/27",
@@ -1305,7 +1378,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWY DOKUMENT CHRONOLOGICZNY. Potwierdzona trasa obozowa Krzysztofa: po kapitulacji Powstania (2.X.1944) → transport → Stalag XI B (Fallingbostel, z ojcem Stefanem) → rozdzielenie (Stefan jako oficer do Oflagu, Krzysztof jako szeregowy do Stalagu) → Stalag VI J (Fichtenhain/Krefeld, por. ARG/V/12) → Stalag VI/13 lub VI/17 → inne obozy. Data '24.XI.44' wypada 4 dni przed 18. urodzinami Krzysztofa (29.XI.1926). Fallingbostel leży w Dolnej Saksonii, Stalag VI w Nadrenii — transport ok. 300 km na zachód.",
         "powiazania": ["ARG/V/12"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "2000-6000 PLN"
     },
     {
         "sygn": "ARG/V/28",
@@ -1320,7 +1394,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Wspomnienia z wczesnej okupacji (1940) pisane w obozie. Krzysztof miał wtedy 14 lat. Wzmianka o 'siostrze' — prawdopodobnie Christyna/Krystyna (wspomniana też w ARG/V/38). 'Kilkakrotnie wzięta' sugeruje wielokrotne aresztowania lub łapanki. Fragment o 'agonii' i 'zgładzie' — prawdopodobne świadectwo terroru okupacyjnego w Warszawie.",
         "powiazania": ["ARG/V/23"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "800-2500 PLN"
     },
     {
         "sygn": "ARG/V/29",
@@ -1335,7 +1410,8 @@ OBJECTS = [
         "jezyk": "niemiecki (formularz) / polski (notatki)",
         "kontekst": "Gladbach-Rheydt-Neuß = Mönchengladbach-Rheydt-Neuss, miasta w Nadrenii Północnej-Westfalii, ok. 30 km od Düsseldorfu. IHK (Industrie- und Handelskammer) — niemiecka izba handlowa. Formularze egzaminów kupieckich zdobyte przez Krzysztofa w obozie/po wyzwoleniu i użyte jako papier brudnopisowy. Identyczne formularze: ARG/V/30 i ARG/V/31.",
         "powiazania": ["ARG/V/30", "ARG/V/31"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "300-800 PLN"
     },
     {
         "sygn": "ARG/V/30",
@@ -1350,7 +1426,8 @@ OBJECTS = [
         "jezyk": "niemiecki / polski",
         "kontekst": "Data 22.VIII.1945 — ponad 3 miesiące po wyzwoleniu. Krzysztof wciąż przebywał w rejonie Nadrenii (Düsseldorf/Gladbach). 'Getze' — nieznana osoba, prawdopodobnie Niemiec. Obietnica mogła dotyczyć pomocy materialnej, pracy lub rekomendacji. Notatka jest lakoniczna, ale pokazuje pragmatyzm Krzysztofa — zapisywał sobie zobowiązania ludzi.",
         "powiazania": ["ARG/V/29"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "300-800 PLN"
     },
     {
         "sygn": "ARG/V/31",
@@ -1365,7 +1442,8 @@ OBJECTS = [
         "jezyk": "polski / niemiecki",
         "kontekst": "Komplet trzech formularzy IHK (V/29, V/30, V/31) stanowi spójny zestaw notatek z okresu tuż po wyzwoleniu. Gladbach-Rheydt-Neuß (dziś Mönchengladbach) — ok. 30 km od Düsseldorfu. Formularze egzaminów kupieckich (Kaufmannsgehilfenprüfung = egzamin czeladnika handlowego) zdobyte prawdopodobnie w opuszczonych biurach IHK i użyte jako papier brudnopisowy. Data 22.VIII.1945 — ponad 3 miesiące po wyzwoleniu, Krzysztof wciąż w Nadrenii.",
         "powiazania": ["ARG/V/29", "ARG/V/30"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "400-1200 PLN"
     },
     {
         "sygn": "ARG/V/32",
@@ -1380,7 +1458,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Tytuł 'Etapy' sugeruje zamierzony plan autobiografii — Krzysztof spisywał kamienie milowe życia. 'Stryj' = gen. Janusz Głuchowski (brat ojca Stefana). 'Pani Stryjowa' = żona Janusza. 'Praga' = prawobrzeżna Warszawa — rodzina Głuchowskich miała tam dom. 'Skaryszew' = prawdopodobnie ul. Skaryszewska na Pradze-Południe. Daty 1933-1934 = dzieciństwo Krzysztofa (7-8 lat). Por. autobiogram ARG/VI/24 z 1995 r.",
         "powiazania": ["ARG/V/23"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "800-2500 PLN"
     },
     {
         "sygn": "ARG/V/33",
@@ -1395,7 +1474,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "PORTRET GEN. JANUSZA OCZAMI BRATANKA. Krzysztof opisuje stryja jako człowieka 'silnego charakteru', pracowitego, piszącego prace naukowe (Janusz publikował o kawalerii i taktyce). Mokotów = dzielnica Warszawy, gdzie Głuchowscy mogli mieszkać. Wzmianka '10 lat nie umie dowiedzieć' sugeruje, że Krzysztof pisał te wspomnienia po 1964 r. (10+ lat po śmierci Janusza 11.VI.1964) — ale możliwe też inne odczytanie. Dokument jest jednym z niewielu osobistych portretów gen. Głuchowskiego — nie z perspektywy historyka, ale z perspektywy rodziny.",
         "powiazania": ["ARG/V/23"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "800-2500 PLN"
     },
     {
         "sygn": "ARG/V/34",
@@ -1410,7 +1490,8 @@ OBJECTS = [
         "jezyk": "polski / angielski",
         "kontekst": "KLUCZOWY DOKUMENT TRASY REPATRIACYJNEJ. Po wyzwoleniu z obozu w Nadrenii (V.1945), Krzysztof przebył drogę: Düsseldorf/Hilden → Paryż (Caserne Bessines, ARG/V/53) → Marsylia (ARG/V/52) → San Remo → Genova → Forlì → do 2. Korpusu Polskiego we Włoszech. 'DPMK' = prawdopodobnie Drużyny Polskiej Misji Kolejowej lub punkt zborny. San Remo, Genova, Forlì — miasta na trasie Via Emilia, gdzie stacjonował 2. Korpus gen. Andersa. 'POJ' i 'E.P.M.' — nierozpoznane skróty wojskowe. Odliczanie dni w kalendarzu sugeruje oczekiwanie na transport.",
         "powiazania": ["ARG/V/39"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "200-500 PLN"
     },
 
     # -- Podseria V/G: Wyzwolenie i repatriacja --
@@ -1427,7 +1508,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "List z 6.VII.1945 (po wyzwoleniu). 'Bogdan' — prawdopodobnie towarzysz z obozu lub z 2. Korpusu. 'Gieressik' — nierozpoznana nazwa (obóz? miejscowość w Niemczech?). 'Olimpijskie wysiłki' — sport uprawiany po wyzwoleniu (Krzysztof był sportowcem — później założył Brazilian Sailing Union). 'Babcia do Polski' — babcia planowała powrót (większość rodziny ostatecznie nie wróciła). Krzysztof świadomie cenzuruje informacje o warunkach — nie chce martwić rodziny.",
         "powiazania": ["ARG/V/36"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-600 PLN"
     },
     {
         "sygn": "ARG/V/36",
@@ -1442,7 +1524,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWA RELACJA — pisana 9 dni po wyzwoleniu, do stryja-generała i ciotki. Zawiera szczegółowy opis walk, kapitulacji, transportu do obozu. Wyzwolony 24.V.1945 przez wojska USA.",
         "powiazania": ["ARG/V/21", "ARG/V/37"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "300-1000 PLN"
     },
     {
         "sygn": "ARG/V/37",
@@ -1457,7 +1540,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Recykling papeterii niemieckiej — typowe dla Displaced Persons. Fabryka w Grafenbergu mogła być miejscem pracy przymusowej.",
         "powiazania": ["ARG/V/36", "ARG/V/38"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "100-300 PLN"
     },
     {
         "sygn": "ARG/V/38",
@@ -1472,7 +1556,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWY DOKUMENT — pierwszy list po wyzwoleniu! Data skorygowana z '2.II.1945' na '2.VI.1945' (Krzysztof jest już wolny, w Hilden bei Düsseldorf). Dowiaduje się, że stryj gen. Janusz jest w Edynburgu (Szkocja) — tam stacjonowały polskie siły zbrojne. Nie ma wieści o ojcu Stefanie (który był w Stalagu XI B Fallingbostel — ok. 300 km na północ). Hilden leży 15 km od Düsseldorfu — Krzysztof prawdopodobnie wyzwolony przez wojska alianckie w rejonie Nadrenii. Papeteria Emil Schröder (ARG/V/37, V/39) pochodzi z pobliskiego Düsseldorfu-Grafenbergu.",
         "powiazania": ["ARG/V/37"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "800-2500 PLN"
     },
     {
         "sygn": "ARG/V/39",
@@ -1487,7 +1572,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "DOKUMENT KLUCZOWY DLA BIOGRAFII RODZINY. Krzysztof na papierze zdobytym w Düsseldorfie (fabryka lakierów Schröder) opisuje losy rodziny: (1) rodzice ukrywali się w aptece podczas Powstania Warszawskiego, (2) ojciec Stefan przeszedł Pawiak (aresztowany 18.V.1944, wypuszczony 29.VII.1944 — 3 dni przed Powstaniem!), (3) po kapitulacji 2.X.1944 ojciec i syn razem trafili do niewoli, (4) matka Wanda została w Warszawie, (5) Stefan skierowany do Stalagu XI B Fallingbostel (oficerski). Papeteria 'Emil Schröder' z Düsseldorfu-Grafenbergu — Krzysztof zdobył ją po wyzwoleniu, przebywając w rejonie Hilden/Düsseldorf (por. ARG/V/38).",
         "powiazania": ["ARG/V/37"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1600-5000 PLN"
     },
     {
         "sygn": "ARG/V/40",
@@ -1502,7 +1588,8 @@ OBJECTS = [
         "jezyk": "angielski / polski",
         "kontekst": "KARTA TOŻSAMOŚCI WYZWOLONEGO JEŃCA — pierwszy dokument wolności Krzysztofa! P.f.c. = Private First Class = st.ułan. Wyzwolony przez ARMIE AMERYKAŃSKIE, zakwaterowany w SZPITALU byłych jeńców w Düsseldorf-Gerresheim. Podpis polskiego lekarza naczelnego szpitala. 25 kwietnia 1945 — 13 dni przed kapitulacją Niemiec (8.V.1945). Chronologia: wyzwolenie Düsseldorf (25.IV.1945) → repatriacja Paryż (27.VI.1945) → PSZ Włochy (14.VII.1945).",
         "powiazania": ["ARG/V/36", "ARG/V/43"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "300-800 PLN"
     },
     {
         "sygn": "ARG/V/41",
@@ -1517,7 +1604,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Potwierdzenie 3-letniej służby konspiracyjnej (1941–1944). Pseudonimy: Jurat/Język — warianty 'Jurasa'.",
         "powiazania": ["ARG/V/3", "ARG/V/42"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "800-2000 PLN"
     },
     {
         "sygn": "ARG/V/42",
@@ -1532,7 +1620,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Zaświadczenia wydane po wyzwoleniu w Sannstedt (Niemcy, Schleswig-Holstein) potwierdzające odznaczenie KW i awans z Powstania. Płk. Klepacz — dowódca batalionu 1112 w AK. Pseudonim 'Juras' (wariant 'Juraś') potwierdzony w dopisku odręcznym. Dwa identyczne zaświadczenia — jedno na KW, drugie na awans — wystawione tego samego dnia.",
         "powiazania": ["ARG/V/8", "ARG/V/43"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "400-1000 PLN"
     },
     {
         "sygn": "ARG/V/43",
@@ -1547,7 +1636,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWY DOKUMENT. Płk dypl. Karol Ziemski (ps. 'Wachnowski') — dowódca Grupy 'Północ' i obrony Starego Miasta w Powstaniu Warszawskim (VIII–IX.1944). Po wojnie D-ca Polskiego Okręgu Wojskowego Schleswig-Holstein w Wentorf pod Hamburgiem. Zaświadczenie potwierdza: pseudonim 'Juraś', walka w Plutonie III, awans na st. strzelca, Krzyż Walecznych (Rozkaz Nr 24 z 5.IX.1944). UWAGA: data urodzenia w dokumencie '29.11.1928' — błąd, prawidłowa to 29.XI.1926 (potwierdzona w innych dokumentach: Carte de Rapatrié, Fiche de Transport, świadectwo ukończenia gimnazjum).",
         "powiazania": ["ARG/V/8", "ARG/V/42"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "400-1000 PLN"
     },
 
     # -- Podseria V/H: Repatriacja Francja --
@@ -1564,7 +1654,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Ulotka repatriacyjna z 1945 r. skierowana do polskich żołnierzy i cywilów we Francji. Ton oficjalny, patriotyczny — 'powrót na łono Ojczyzny'. KONTEKST HISTORYCZNY: po wyzwoleniu Francji (1944) ok. 50 000–70 000 Polaków znalazło się na terytorium francuskim — jeńcy wojenni, robotnicy przymusowi, żołnierze (m.in. 1. Dywizja Grenadierów). Rząd RP w Londynie (jeszcze uznawany w 1945) organizował repatriację przez sieć konsularną. Lista placówek ujawnia GEOGRAFIĘ polskiej diaspory we Francji — od Lille (Pas-de-Calais, polscy górnicy od lat 20.) po Marsylię i Tuluzę. Krzysztof zachował ulotkę, choć sam nie wrócił do Polski — wybrał Anglię (via Włochy). Dokument ilustruje moment, gdy wielu Polaków musiało podjąć DECYZJĘ: wracać do Polski (komunistycznej) czy pozostać na emigracji.",
         "powiazania": ["ARG/V/45"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "150-400 PLN"
     },
     {
         "sygn": "ARG/V/45",
@@ -1579,7 +1670,8 @@ OBJECTS = [
         "jezyk": "polski, francuski",
         "kontekst": "UNIKALNY INFORMATOR DLA DISPLACED PERSONS — kompletna mapa polskich instytucji pomocy we Francji 1945. PCK (Polski Czerwony Krzyż) prowadził sieć przedstawicielstw departamentalnych w całej Francji. 'Hoteliki departamentalne' = schroniska dla polskich uchodźców. Krzysztof przeszedł przez Francję w drodze z obozów jenieckich do Włoch (via La Courtine — por. ARG/V/92). Ten informator mógł mu służyć jako praktyczny przewodnik. Dokument socjologiczny — ilustruje skalę polskiej diaspory we Francji tuż po wojnie.",
         "powiazania": ["ARG/V/44"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "150-400 PLN"
     },
     {
         "sygn": "ARG/V/46",
@@ -1594,7 +1686,8 @@ OBJECTS = [
         "jezyk": "francuski",
         "kontekst": "KARTA REPATRIANTA Z ORSAY. Centre d'accueil d'Orsay (obecne Musée d'Orsay) służył jako punkt repatriacji. Nr 1492839 = ten sam co Fiche de Transport.",
         "powiazania": ["ARG/V/47", "ARG/V/40"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-500 PLN"
     },
     {
         "sygn": "ARG/V/47",
@@ -1609,7 +1702,8 @@ OBJECTS = [
         "jezyk": "francuski",
         "kontekst": "Caserne Bessines w Paryżu (St. Ouen) — koszary, w których kwaterowali polscy repatrianci w czerwcu–lipcu 1945. Numer 1492839 identyczny z Carte de Rapatrié (ARG/V/46). Karta umożliwiała darmowy przejazd kolejowy po Francji. Krzysztof przebywał tu razem z ppor. Radomyskim (por. ARG/V/53).",
         "powiazania": ["ARG/V/46"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "150-400 PLN"
     },
     {
         "sygn": "ARG/V/48",
@@ -1624,7 +1718,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Villard-de-Lans — miejscowość w Alpach francuskich (Isère), gdzie Ambasada RP organizowała kursy oświatowe dla polskich żołnierzy i repatriantów. Naczelny Instruktorat Oświatowy przy Ambasadzie RP koordynował kształcenie Polaków we Francji. Głuchowski ostatecznie NIE pojechał do Villard-de-Lans — wstąpił do PSZ we Włoszech (14.VII.1945, dzień przed planowanym rozpoczęciem kursu).",
         "powiazania": ["ARG/V/46"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "100-300 PLN"
     },
     {
         "sygn": "ARG/V/49",
@@ -1639,7 +1734,8 @@ OBJECTS = [
         "jezyk": "polski, francuski",
         "kontekst": "EPHEMERA Z TRASY REPATRIACYJNEJ — drobne przedmioty zachowane w kieszeni żołnierza-tułacza: notka z adresem Czerwonego Krzyża w Paryżu (Quai d'Orsay — obecne Musée d'Orsay!), ręcznie rysowany Orzeł (tożsamość narodowa wyrażona w obozie), wizytówka spotykanego oficera. Rue de Solferino w Paryżu = siedziba wielu instytucji pomocowych. Te drobne karteczki dokumentują szlak Krzysztofa z obozu przez Francję do Włoch. Por. ARG/V/44-45 (ulotka PCK z listą instytucji we Francji).",
         "powiazania": ["ARG/V/44", "ARG/V/45", "ARG/V/46"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "50-150 PLN"
     },
     {
         "sygn": "ARG/V/50",
@@ -1654,7 +1750,8 @@ OBJECTS = [
         "jezyk": "polski / francuski",
         "kontekst": "Mapa paryskich instytucji polonijnych. Henri Kołacz — polski rzeźbiarz w Troyes, kontakt artystyczny.",
         "powiazania": ["ARG/V/46"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "50-150 PLN"
     },
     {
         "sygn": "ARG/V/51",
@@ -1669,7 +1766,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Prawdopodobnie notatka z okresu repatriacji — 'Misja' to zapewne polska misja wojskowa lub placówka repatriacyjna we Francji/Włoszech. Zachowana jako wskazówka nawigacyjna na wypadek potrzeby. Por. mapka Marsylii (ARG/V/52).",
         "powiazania": [],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "80-200 PLN"
     },
     {
         "sygn": "ARG/V/52",
@@ -1684,7 +1782,8 @@ OBJECTS = [
         "jezyk": "francuski / polski",
         "kontekst": "ŚLAD PODRÓŻY REPATRIACYJNEJ: Krzysztof w Marsylii, prawdopodobnie w drodze z Niemiec przez Francję do Włoch (do 2. Korpusu Polskiego). Rue de Rome 99 w Marsylii — adres polskiej placówki lub kwatery? Hotel Scribe — znany hotel przy Canebière. Dworzec = Gare Saint-Charles. Marsylia była kluczowym punktem tranzytowym dla polskich żołnierzy i DP. Trasa repatriacyjna Krzysztofa: Hilden/Düsseldorf → Paryż (Caserne Bessines, ARG/V/53) → Marsylia → Włochy (San Remo → Genova → Forlì, por. ARG/V/34).",
         "powiazania": ["ARG/V/46"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-500 PLN"
     },
     {
         "sygn": "ARG/V/53",
@@ -1699,7 +1798,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "List z okresu repatriacji (VI–VII.1945), kiedy Krzysztof przebywał w Caserne Bessines w Paryżu (St. Ouen). Ppor. Radomyski Janusz (ur. 1922) — towarzysz Krzysztofa, ten sam świadek, który poświadczył jego służbę AK (por. ARG/V/41). 'Krusio' — familijne zdrobnienie imienia Krzysztof. Poprzednia data '3.II.1944' była błędna — treść jednoznacznie wskazuje na okres po wyzwoleniu.",
         "powiazania": [],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "100-300 PLN"
     },
 
     # -- Podseria V/I: PSZ, II Korpus, Gimnazjum 3DSK --
@@ -1716,7 +1816,8 @@ OBJECTS = [
         "jezyk": "polski / angielski",
         "kontekst": "7 Pułk Ułanów Lubelskich im. Gen. Kazimierza Sosnkowskiego — pułk, w którym służył Krzysztof po wstąpieniu do PSZ (VII.1945). Skierowanie na RTG płuc wskazuje na problemy zdrowotne po pobycie w obozie jenieckim (Stalag IV-B Mühlberg). 7 Szpital Wojenny (Polish General Hospital) — szpital polskich sił zbrojnych we Włoszech.",
         "powiazania": ["ARG/II/8"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "500-1200 PLN"
     },
     {
         "sygn": "ARG/V/55",
@@ -1731,7 +1832,8 @@ OBJECTS = [
         "jezyk": "polski (notatka) / niemiecki (formularz)",
         "kontekst": "Styczeń 1945 — ostatnie tygodnie przed wyzwoleniem obozów. Krzysztof używał druków administracyjnych jako papieru do własnych notatek (por. ARG/V/29, V/30 — formularze IHK). 'Spr. Woj.' = prawdopodobnie 'Spraw Wojskowych' — kontakt z osobą z wydziału wojskowego?",
         "powiazania": ["ARG/V/29", "ARG/V/30"],
-        "stan": "Słaby — formularz prawie całkowicie wyblakły, notatka czytelna"
+        "stan": "Słaby — formularz prawie całkowicie wyblakły, notatka czytelna",
+        "wycena": "100-300 PLN"
     },
     {
         "sygn": "ARG/V/56",
@@ -1746,7 +1848,8 @@ OBJECTS = [
         "jezyk": "polski / angielski",
         "kontekst": "Amandola — miasteczko w regionie Marche (Włochy), siedziba Gimnazjum 3 Dywizji Strzelców Karpackich. Żołnierze-uczniowie.",
         "powiazania": ["ARG/V/57", "ARG/V/64"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "150-400 PLN"
     },
     {
         "sygn": "ARG/V/57",
@@ -1761,7 +1864,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "PRZEPUSTKA Z OBOZU TRANZYTOWEGO — 2 Korpus Polski we Włoszech po zakończeniu wojny. Krzysztof w obozie przejściowym (P.T.J.) czekał na przydział — do 3 DSK (szkoła), do pracy lub do repatriacji. Komendant ppor. Kucharski — zidentyfikowany z nazwiska. Cel podróży Reggio/Pesaro — miasta we Włoszech centralnych, w rejonie stacjonowania 2 Korpusu. Godzina 13:45 — przepustki miały ściśle określone ramy czasowe. Dokument ilustruje kontrolowany charakter życia żołnierzy polskich we Włoszech — nawet opuszczenie rejonu obozu wymagało formalnej przepustki.",
         "powiazania": ["ARG/V/56"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "150-400 PLN"
     },
 
     # -- Podseria V/J: Gimnazjum 3DSK --
@@ -1778,7 +1882,8 @@ OBJECTS = [
         "jezyk": "angielski (okładka) / polski (treść)",
         "kontekst": "BRYTYJSKI ZESZYT SZKOLNY POLSKIEGO ŻOŁNIERZA — zeszyt wojskowy Korony Brytyjskiej użyty w polskim gimnazjum we Włoszech. Dokument cywilizacyjny.",
         "powiazania": ["ARG/V/59", "ARG/V/60", "ARG/V/61"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-600 PLN"
     },
     {
         "sygn": "ARG/V/59",
@@ -1793,7 +1898,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "ESEJ SZKOLNY Z POWSTANIA — 19-latek pisze o walkach powstańczych jako zadanie szkolne we Włoszech, rok po Powstaniu.",
         "powiazania": ["ARG/V/58"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "600-1600 PLN"
     },
     {
         "sygn": "ARG/V/60",
@@ -1808,7 +1914,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "PISANY DOKŁADNIE ROK PO WYBUCHU POWSTANIA — 1.VIII.1945, godz. 15:00. C.M.F. = Central Mediterranean Forces.",
         "powiazania": ["ARG/V/58", "ARG/V/61"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "300-800 PLN"
     },
     {
         "sygn": "ARG/V/61",
@@ -1823,7 +1930,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "AUTOREFERENCYJNY DOKUMENT RODZINNY — uczeń pisze esej o artykułach stryja-generała o Powstaniu, w którym sam walczył.",
         "powiazania": ["ARG/V/58", "ARG/II/27"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "600-1600 PLN"
     },
     {
         "sygn": "ARG/V/62",
@@ -1838,7 +1946,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "MATURA NA EMIGRACJI — trzecie zadanie szkolne z 21.XI.1945 r. Krzysztof wybrał temat nr 2: 'Ludzie Bezdomni' Żeromskiego — zaczyna od refleksji o celu życia człowieka, przechodzi do analizy Doktora Tomasza Judyma. NIEZWYKŁE: 19-letni żołnierz-jeniec pisze ESEJ MATURALNY o idealizmie społecznym Judyma — rok po Powstaniu Warszawskim, prawdopodobnie w jednym z polskich gimnazjów na emigracji (Włochy lub Niemcy). Program: PEŁNY kanon literacki II RP (Wyspiański, Żeromski, 11 Listopada). Polskie szkoły średnie działały przy 2. Korpusie PSZ we Włoszech (m.in. w Porto San Giorgio, Barletta, Matino). Kontynuacja edukacji w mundurze = priorytet gen. Andersa. Data 21.XI = 10 dni po Święcie Niepodległości (temat nr 3). Zadanie szkolne nr 3 z serii (ARG/V/58–64).",
         "powiazania": ["ARG/V/58"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "300-800 PLN"
     },
     {
         "sygn": "ARG/V/63",
@@ -1853,7 +1962,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Wrzesień 1945 — Krzysztof w Gimnazjum i Liceum 3 DSK we Włoszech (por. przepustka ARG/V/56 — Amandola). Klasa IV = poziom maturalny. Esej o 'wzorcu społecznym' na przykładzie postaci literackiej — wymagający temat dla 19-latka (który 3 miesiące wcześniej był jeszcze jeńcem wojennym). Przejście od obozowej egzystencji do analizy literackiej — niezwykła adaptacja.",
         "powiazania": ["ARG/V/58", "ARG/V/56"],
-        "stan": "Dobry — czytelny rękopis"
+        "stan": "Dobry — czytelny rękopis",
+        "wycena": "200-600 PLN"
     },
     {
         "sygn": "ARG/V/64",
@@ -1868,7 +1978,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "Tylna okładka zeszytu szkolnego (EXERCISE BOOK) z tabelami przeliczników brytyjskiego systemu miar: Metric Measures, Liquid Measure, Weight, Length, Money, Troy Weight. Druk HMSO (His Majesty's Stationery Office). Krzysztof uczył się w POLSKIM liceum, ale używał BRYTYJSKICH zeszytów — materialna dwoistość emigracji. Tabele przeliczników = praktyczna pomoc dla Polaków uczących się systemu imperialnego (mile, funty, galony). Zeszyt z serii zadań szkolnych (ARG/V/58–64).",
         "powiazania": ["ARG/V/58", "ARG/V/62"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "100-300 PLN"
     },
     {
         "sygn": "ARG/V/65",
@@ -1883,7 +1994,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "MATURA POLSKIEGO ŻOŁNIERZA WE WŁOSZECH. Ministerstwo Wyznań Religijnych i Oświecenia Publicznego kontynuowało system edukacji na emigracji. Matura w mundurze, w 20. roku życia, po Powstaniu i obozach.",
         "powiazania": ["ARG/V/58", "ARG/V/56"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "300-800 PLN"
     },
 
     # -- Podseria V/K: Odznaki i legitymacje pułkowe --
@@ -1900,7 +2012,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "3 Dywizja Strzelców Karpackich — legendarna jednostka: Tobruk, Monte Cassino. Krzysztof nie walczył z nią, ale służył w jej strukturach po wyzwoleniu.",
         "powiazania": ["ARG/V/56"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "300-800 PLN"
     },
 
     # -- Podseria V/L: Korespondencja (aerogramy, listy) --
@@ -1917,7 +2030,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "CMF = Central Mediterranean Forces. Korespondencja z diasporą polską — Polacy osiedleni w Nowej Zelandii (obozy uchodźcze w Pahiatua).",
         "powiazania": ["ARG/V/68"],
-        "stan": "Średni — pożółkły"
+        "stan": "Średni — pożółkły",
+        "wycena": "200-500 PLN"
     },
     {
         "sygn": "ARG/V/68",
@@ -1932,7 +2046,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Ślad diaspory polskiej w Brazylii — bahijska Polonia. Krzysztof wyemigrował do Brazylii, ten list mógł być od niego lub do niego.",
         "powiazania": ["ARG/V/67", "ARG/V/153"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "100-300 PLN"
     },
 
     # -- Podseria V/M: Dokumenty wojskowe i ewidencyjne --
@@ -1949,7 +2064,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWY DOKUMENT EWIDENCYJNY — pełna chronologia służby Krzysztofa na jednym arkuszu. Pieczęć 'OFICER REZERWOWY / KLASA I M.S.' = Krzysztof przeszedł kurs oficerski i został Oficerem Rezerwy klasy I. Data 29.8.44 = włączenie do walki w Powstaniu Warszawskim (Godzina 'W' = 1.VIII.1944, ale Krzysztof mógł dołączyć później lub data dotyczy innego zdarzenia). Data 1.10.44 = prawdopodobnie moment wzięcia do niewoli (kapitulacja Śródmieścia: 2.X.1944). Nr 141009 = ten sam numer z karty AK (ARG/III/30), Kennkarte jenieckiej i Kriegsgefangenenpostu. Arkusz pozwala zrekonstruować PEŁNĄ ŚCIEŻKĘ: AK 'Jeleń' → Powstanie → Stalag XI-B → PSZ (3 DSK, Włochy) → 7 P.Uł. przy 2. Korpusie → demobilizacja → PKPR (Anglia). Dokument o najwyższej wartości badawczej — łączy wszystkie inne dokumenty służby.",
         "powiazania": ["ARG/V/70", "ARG/V/91"],
-        "stan": "Średni — papier w kratki, pożółkły"
+        "stan": "Średni — papier w kratki, pożółkły",
+        "wycena": "500-1200 PLN"
     },
     {
         "sygn": "ARG/V/70",
@@ -1964,7 +2080,8 @@ OBJECTS = [
         "jezyk": "polski, angielski",
         "kontekst": "Przepustka (PASS) z 14.II.1946 wydana przez Dowództwo 3 Dywizji Strzelców Karpackich. 3 DSK stacjonowała wówczas w regionie Marche/Abruzji (Włochy). Formularz dwujęzyczny PL/EN = PSZ działały w strukturze British Army. Krzysztof miał 19 lat, służył w 7 P.Uł. przydzielonym do 3 DSK. Przepustka z lutego 1946 = okres względnego spokoju między końcem wojny (V.1945) a demobilizacją (1947). Żołnierze korzystali z przepustek na zwiedzanie Włoch, kursy, wizyty w miastach — normalizacja życia po traumie wojennej.",
         "powiazania": ["ARG/V/66", "ARG/V/69", "ARG/V/128"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "400-1000 PLN"
     },
 
     # -- Podseria V/N: Świadectwa szkolne (Gimnazjum i Liceum 3 DSK) --
@@ -1981,7 +2098,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Szkolnictwo polskie przy 3 DSK we Włoszech — kontynuacja edukacji żołnierzy-uczniów po zakończeniu działań wojennych.",
         "powiazania": ["ARG/V/72", "ARG/V/73", "ARG/V/65"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-600 PLN"
     },
     {
         "sygn": "ARG/V/72",
@@ -1996,7 +2114,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "1. Liceum Ogólnokształcące 3 DSK — szkoła średnia działająca przy 3. Dywizji Strzelców Karpackich we Włoszech. Po zakończeniu walk 2. Korpus zorganizował pełny system edukacyjny dla żołnierzy-uczniów, którzy stracili lata szkolne na wojnę. Krzysztof (ur. 1926) miał 20 lat — normalnie skończyłby liceum w 1944, ale Powstanie Warszawskie i niewola przerwały naukę. We Włoszech nadrabiał stracone lata. Komplet świadectw: V/71-73 (Włochy) + V/87-88 (Anglia).",
         "powiazania": ["ARG/V/71", "ARG/V/73", "ARG/V/87"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "600-1600 PLN"
     },
     {
         "sygn": "ARG/V/73",
@@ -2011,7 +2130,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Verso świadectwa licealnego z VI.1946 — I POLSKIE LICEUM IM. 3 DYWIZJI STRZELCÓW KARPACKICH. Szkoły polskie 2. Korpusu PSZ we Włoszech działały w prow. Lecce (Puglia): Santa Maria al Bagno, Santa Maria di Leuca, Matino, Casarano. 'Homeracle' — prawdopodobnie zniekształcona nazwa miejscowości z Lecce/Puglia. Program: PEŁNY kurs gimnazjalny/licealny wg MEN II RP (j.polski, matematyka, łacina, historia, nauki przyrodnicze), matura uznawana przez rząd londyński. Ok. 4 000 żołnierzy zdało maturę przy 2. Korpusie. Szkoły podlegały Wydziałowi Oświaty 2. Korpusu (ppłk dr Kazimierz Grudziński). Po demobilizacji (1946–1947) szkoły przeniesione do Anglii. Krzysztof zdał maturę w mundurze — 20-letni weteran Powstania Warszawskiego i obozów jenieckich kończył edukację przerwaną w 1944.",
         "powiazania": ["ARG/V/71", "ARG/V/72", "ARG/V/62"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "600-1600 PLN"
     },
 
     # -- Podseria V/O: Życie obozowe --
@@ -2028,7 +2148,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Obóz Lammie — prawdopodobnie obóz dla żołnierzy polskich we Włoszech lub Wielkiej Brytanii, oczekujących na repatriację lub osiedlenie.",
         "powiazania": ["ARG/V/75"],
-        "stan": "Średni — druk obozowy, papier niskiej jakości"
+        "stan": "Średni — druk obozowy, papier niskiej jakości",
+        "wycena": "150-400 PLN"
     },
     {
         "sygn": "ARG/V/75",
@@ -2043,7 +2164,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Unikatowy plan obozu — dokumentacja topograficzna życia obozowego polskich żołnierzy. Obecność synagogi wskazuje na obóz wielowyznaniowy lub przebudowany z obozu DP.",
         "powiazania": ["ARG/V/74"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "800-2000 PLN"
     },
 
     # -- Podseria V/P: Korespondencja osobista --
@@ -2060,7 +2182,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Wigilia 1946 — druga po wojnie. Krzysztof w jednostce 2. Korpusu Polskiego we Włoszech lub już w Anglii (demobilizacja). 'Matenko' = czuła forma 'Mamo'. Pisze do matki (żony Stefana Głuchowskiego) w Polsce. 'Tatuś' = Stefan Głuchowski (ojciec). List o niezwykłej wartości emocjonalnej — 20-latek, Powstaniec Warszawski, teraz na obczyźnie, w Wigilię zwraca się do matki. Komplet 4 stron (V/76-79) stanowi jeden z najcenniejszych dokumentów osobistych kolekcji.",
         "powiazania": ["ARG/V/77", "ARG/V/78", "ARG/V/79"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "300-800 PLN"
     },
     {
         "sygn": "ARG/V/77",
@@ -2075,7 +2198,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Druga strona listu wigilijnego z 24.XII.1946. Krzysztof (20 lat) pisze do matki — Wandy z domu Głuchowskiej ps. 'Krysta' (sierż. pchor. Kedyw AK), która jest w Polsce. To TRZECIA Wigilia z rzędu poza domem: 1944 (Stalag XI-B), 1945 (Włochy, 3 DSK), 1946 (Włochy lub Niemcy). List jest częścią serii 4 stron (ARG/V/76–79) — gęste pismo świadczy o silnej potrzebie kontaktu. Kontekst polityczny: w XII.1946 komuniści umacniają władzę w Polsce (referendum sfałszowane VI.1946), Krzysztof prawdopodobnie już wie, że nie wróci. Matka Wanda była ranna w akcji Kedywu w Wilanowie (26.IX.1943) — tęsknota syna za matką-bohaterką.",
         "powiazania": ["ARG/V/76", "ARG/V/78", "ARG/V/79", "ARG/III/4"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-600 PLN"
     },
     {
         "sygn": "ARG/V/78",
@@ -2090,7 +2214,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Retrospekcja — rok wcześniej (1945) Krzysztof był jeszcze blisko Polski, teraz daleko. Emocjonalny kontrast.",
         "powiazania": ["ARG/V/76", "ARG/V/77", "ARG/V/79"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "100-300 PLN"
     },
     {
         "sygn": "ARG/V/79",
@@ -2105,7 +2230,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Refleksja 20-latka nad losem emigranta — nie wie jeszcze, że do Polski nie wróci. Kontekst polityczny: powojenna sytuacja Polaków za granicą.",
         "powiazania": ["ARG/V/76", "ARG/V/77", "ARG/V/78"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "100-300 PLN"
     },
     {
         "sygn": "ARG/V/80",
@@ -2120,7 +2246,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Rysunek techniczny jako element edukacji — program szkolny obejmował przedmioty praktyczne obok ogólnokształcących.",
         "powiazania": ["ARG/V/71", "ARG/V/65"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "150-400 PLN"
     },
 
     # -- Podseria V/Q: Przepustki i dokumenty brytyjskie --
@@ -2137,7 +2264,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "Army Form B.295 — standardowy formularz przepustkowy British Army, stosowany też przez PKPR. 7 Pułk Ułanów Lubelskich — jeden z najsłynniejszych pułków kawalerii polskiej, walczył pod Monte Cassino, Ankoną, Bolonią. Po wojnie pułk przeszedł do PKPR. Krzysztof jako st. ułan (L/Cpl) służył w tym pułku — niezwykłe, że Powstaniec AK trafił do jednostki kawaleryjskiej. Stopień Lance Corporal odpowiadał polskiemu starszemu ułanowi.",
         "powiazania": ["ARG/V/82", "ARG/V/128"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "800-2000 PLN"
     },
     {
         "sygn": "ARG/V/82",
@@ -2152,7 +2280,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "Instrukcja medyczna British Army dla żołnierzy na przepustce — procedura postępowania w razie choroby lub wypadku poza koszarami. Tekst drukowany drobnym pismem na pergaminowym papierze = przeznaczony do noszenia przy sobie. Dokument ilustruje PODWÓJNOŚĆ statusu polskich żołnierzy w PSZ/PKPR: podlegali regulaminom British Army (po angielsku), ale służyli w polskich jednostkach. System medyczny Crown Forces obejmował ok. 250 000 Polaków (1944–1949). Instrukcja zachowana w książeczce wojskowej Krzysztofa — nosił ją regularnie.",
         "powiazania": ["ARG/V/81", "ARG/V/105"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-600 PLN"
     },
     {
         "sygn": "ARG/V/83",
@@ -2167,7 +2296,8 @@ OBJECTS = [
         "jezyk": "polski, angielski",
         "kontekst": "Bodney Airfield — dawna baza RAF (USAAF Station 141) w Norfolk, po wojnie przekształcona w obóz/osiedle dla polskich żołnierzy PKPR i ich rodzin. Numer '35' = numer baraku/kwatery Krzysztofa. Kartka z życzeniami 'Best Wishes for 1948' — rok w którym Krzysztof wyjechał do Brazylii. Być może ostatnia kartka świąteczna wysłana z Anglii.",
         "powiazania": ["ARG/V/84", "ARG/V/87", "ARG/V/98"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "500-1500 PLN"
     },
     {
         "sygn": "ARG/V/84",
@@ -2182,7 +2312,8 @@ OBJECTS = [
         "jezyk": "—",
         "kontekst": "Verso kartki świątecznej z Bodney Airfield (Norfolk, Anglia), XII.1947. Bodney Airfield = dawna baza RAF/USAAF z II wojny światowej, po 1946 przekształcona w obóz dla polskich żołnierzy oczekujących na demobilizację/osiedlenie. Ornament choinkowy na verso — polskie tradycje bożonarodzeniowe kultywowane na emigracji. Boże Narodzenie 1947 = czwarte z kolei poza domem dla Krzysztofa. Bodney Camp mieścił się w hrabstwie Norfolk, ok. 2h od Londynu.",
         "powiazania": ["ARG/V/83", "ARG/V/128"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "150-400 PLN"
     },
     {
         "sygn": "ARG/V/85",
@@ -2197,7 +2328,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Kalkulacje finansowe emigranta — przeliczniki funtów, lir, cruzeiros? Codzienność materialna żołnierza-emigranta.",
         "powiazania": [],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "80-200 PLN"
     },
     {
         "sygn": "ARG/V/86",
@@ -2212,7 +2344,8 @@ OBJECTS = [
         "jezyk": "włoski / angielski",
         "kontekst": "Bari — kluczowe miasto logistyczne dla 2. Korpusu Polskiego we Włoszech 1944-46. Po zakończeniu walk Polacy mieli intensywne kontakty z lokalną Polonią i osobami polskiego pochodzenia. 'POLACCO' jako identyfikator — Polak na obczyźnie sygnalizujący rodakom swoją tożsamość.",
         "powiazania": [],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "50-150 PLN"
     },
 
     # -- Podseria V/R: Świadectwa i dyplomy (Anglia) --
@@ -2229,7 +2362,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "I Polskie Liceum im. 3 DSK — szkoła przeniesiona z Włoch do Anglii wraz z żołnierzami 2. Korpusu. RAF Bodney (Station 141, Norfolk) — baza USAAF przekazana po wojnie Polakom, przerobiona na obóz szkolny i mieszkalny. Klasa '3a/37' i 'rocznik 1944 Warszawa' — uczniowie którzy mieli zdawać maturę w 1944, ale Powstanie Warszawskie przerwało naukę. Krzysztof nadrabiał braki: jego oceny (dużo 'dostatecznych') odzwierciedlają trudności po 2 latach wojny i niewoli. Najlepsze oceny z religii i j. polskiego — przedmioty tożsamościowe.",
         "powiazania": ["ARG/V/88", "ARG/V/71", "ARG/V/72"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "600-1600 PLN"
     },
     {
         "sygn": "ARG/V/88",
@@ -2244,7 +2378,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "PROMOCJA DO NASTĘPNEJ KLASY — 30 listopada 1946. Podpis Dyrektora z tytułem 'PRZEŁOŻONA' (żeński!) sugeruje, że dyrektorem szkoły mogła być kobieta — co byłoby niezwykłe w kontekście szkolnictwa wojskowego. Nr ewidencyjny 80849 = numer w systemie szkolnictwa PSZ. Data XI.1946 (nie VI jak w tytule) — rok szkolny w szkołach polskich we Włoszech/Anglii biegł od V do XI, dostosowany do warunków obozowych. Por. ARG/V/87 (pełna lista ocen z I Polskiego Liceum).",
         "powiazania": ["ARG/V/87"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-600 PLN"
     },
     {
         "sygn": "ARG/V/89",
@@ -2259,7 +2394,8 @@ OBJECTS = [
         "jezyk": "angielski, polski",
         "kontekst": "BOSK = Baza Organizacyjna Szkolnictwa Krajowego (?) — szkolnictwo polskie w Wielkiej Brytanii pod kuratelą wojskową.",
         "powiazania": ["ARG/V/87"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "100-300 PLN"
     },
 
     # -- Podseria V/S: PKPR (Polski Korpus Przysposobienia i Rozmieszczenia) --
@@ -2276,7 +2412,8 @@ OBJECTS = [
         "jezyk": "polski, angielski",
         "kontekst": "PKPR (Polish Resettlement Corps) utworzony ustawą Polish Resettlement Act 1947 — formacja przejściowa umożliwiająca ~114 000 polskim żołnierzom przejście do życia cywilnego w Wielkiej Brytanii. Druk informacyjny zachowany przez Krzysztofa — świadectwo momentu decyzji: pozostać w Anglii czy wracać do Polski. Krzysztof wybrał trzecią drogę — emigrację do Brazylii.",
         "powiazania": ["ARG/V/91", "ARG/V/103"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "100-300 PLN"
     },
     {
         "sygn": "ARG/V/91",
@@ -2291,7 +2428,8 @@ OBJECTS = [
         "jezyk": "angielski, polski",
         "kontekst": "Nr 31043371 — numer ewidencyjny Krzysztofa w systemie PSZ. Data wcielenia 4.VI.1945 potwierdza, że po wyzwoleniu z obozu jenieckiego (maj 1945) Krzysztof natychmiast zgłosił się do PSZ na Zachodzie. Wcielony jako Private (szeregowy) — mimo że w AK miał stopień st. strzelca. W systemie brytyjskim musiał zaczynać od najniższego stopnia. Dokument kluczowy dla rekonstrukcji ścieżki: AK → jeniec → PSZ → PKPR → emigracja.",
         "powiazania": ["ARG/V/69", "ARG/V/103", "ARG/V/92"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-500 PLN"
     },
     {
         "sygn": "ARG/V/92",
@@ -2306,7 +2444,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWY DOKUMENT BIOGRAFICZNY. La Courtine — obóz wojskowy we Francji (departament Creuse), gdzie po wojnie stacjonowały polskie jednostki. Krzysztof przeszedł przez ten obóz w drodze z Niemiec do Anglii. 'A.K. skreślony' = usunięty z ewidencji AK, nie z karnych powodów, lecz jako procedura likwidacyjna. Najważniejsza informacja: 'nie posiada żadnych dokumentów osobistych' — Krzysztof stracił wszystkie dokumenty osobiste (w Powstaniu? w niewoli?). To wyjaśnia, dlaczego gen. Janusz (stryj) interweniował przez Misję Wojskową w Paryżu (ARG/V/93) — szukał dokumentów bratanka.",
         "powiazania": ["ARG/V/93", "ARG/V/91"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "800-2000 PLN"
     },
     {
         "sygn": "ARG/V/93",
@@ -2321,7 +2460,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "DOKUMENT O WYJĄTKOWEJ WARTOŚCI NARRACYJNEJ. Pismo z Polskiej Misji Wojskowej w Paryżu adresowane bezpośrednio do GENERAŁA GŁUCHOWSKIEGO (Janusz Głuchowski — stryj Krzysztofa!) w Sztabie Głównym w Londynie. Generał używał swoich koneksji i stanowiska, by odnaleźć dokumenty bratanka, który stracił je wszystkie (potwierdzenie: ARG/V/92 — 'nie posiada żadnych dokumentów osobistych'). Adres 14 Rue de Castiglione — siedziba Polskiej Misji Wojskowej w Paryżu, przy jednej z najbardziej prestiżowych ulic. Dokument potwierdza RODZINNE POWIĄZANIE między Serią II (gen. Janusz) a Serią V (Krzysztof) — stryj-generał opiekował się bratankiem-powstańcem na płaszczyźnie oficjalnej korespondencji wojskowej.",
         "powiazania": ["ARG/V/92", "ARG/II/47", "ARG/II/52"],
-        "stan": "Średni — dolna część uszkodzona"
+        "stan": "Średni — dolna część uszkodzona",
+        "wycena": "400-1200 PLN"
     },
     {
         "sygn": "ARG/V/94",
@@ -2336,7 +2476,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Kwestionariusz ewidencyjny wypełniany przez żołnierzy PSZ/PKPR — kluczowy dokument administracyjny decydujący o dalszym losie (repatriacja, emigracja, demobilizacja). Klauzula POUFNE — formularz zawierał dane wrażliwe (przynależność do AK, konspiracja, rodzina w Polsce). Sekcja KWESTIONARIUSZ CYWILNY — pytania o umiejętności i plany przyszłościowe, używane przez brytyjskie urzędy do rozmieszczania polskich żołnierzy.",
         "powiazania": ["ARG/V/95"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "400-1000 PLN"
     },
     {
         "sygn": "ARG/V/95",
@@ -2351,7 +2492,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Sekcja 'PETYCJA O REPATRIACJĘ' — kluczowy moment decyzyjny. Pytania zadawane żołnierzom PSZ w 1946-47: czy chcesz wrócić do Polski? Odpowiedź 'NIE' oznaczała status emigranta/DPs (Displaced Persons). Daty '30', '31', '35' w tabeli rodzinnej mogą dotyczyć dat urodzenia rodzeństwa lub rodziców. Krzysztof ostatecznie nie wrócił — wyjechał do Brazylii ok. 1948-49.",
         "powiazania": ["ARG/V/94"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "150-400 PLN"
     },
 
     # -- Podseria V/T: Weryfikacja AK --
@@ -2368,7 +2510,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWY DOKUMENT — potwierdza udział w Powstaniu Warszawskim i ewakuację kanałami. 1.IX.1944 = miesiąc po wybuchu, w trakcie najcięższych walk o Stare Miasto.",
         "powiazania": ["ARG/V/52", "ARG/V/118"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1000-2500 PLN"
     },
     {
         "sygn": "ARG/V/97",
@@ -2383,7 +2526,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Dokument weryfikacji żołnierzy AK po wojnie. 7 Pułk Ułanów Lubelskich AK (kryptonim 'Jeleń') — jednostka kawaleryjska Okręgu Lublin AK, w Powstaniu Warszawskim walczyła na Żoliborzu i w Śródmieściu. Weryfikacja prowadzona w Krakowie w 1946 r. potwierdzała służbę konspiracyjną i powstańczą dla celów kombatanckich.",
         "powiazania": ["ARG/V/96", "ARG/V/118", "ARG/V/81"],
-        "stan": "Dobry — pożółkły papier, zielony atrament pieczęci i podpisu czytelny"
+        "stan": "Dobry — pożółkły papier, zielony atrament pieczęci i podpisu czytelny",
+        "wycena": "400-1000 PLN"
     },
     {
         "sygn": "ARG/V/98",
@@ -2398,7 +2542,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Dokument z podpisem ppłk. Andersa jako Szefa Wydziału Rodzin Wojskowych — instytucji opiekującej się rodzinami żołnierzy PSZ po wojnie. Adres Belney/Bodney Airfield w Norfolk potwierdza pobyt Krzysztofa w obozie PKPR. RAF Bodney — baza lotnicza używana po wojnie jako obóz dla polskich żołnierzy oczekujących na demobilizację lub resettlement.",
         "powiazania": ["ARG/V/100", "ARG/V/103", "ARG/V/83"],
-        "stan": "Średni — dolna część uszkodzona, plamy, ale podpis i treść czytelne"
+        "stan": "Średni — dolna część uszkodzona, plamy, ale podpis i treść czytelne",
+        "wycena": "1000-3000 PLN"
     },
     {
         "sygn": "ARG/V/99",
@@ -2413,7 +2558,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Prywatna ewidencja dat i rozkazów — typowe dla żołnierzy PSZ prowadzących osobistą dokumentację służby na potrzeby weryfikacji i przyszłych wniosków kombatanckich.",
         "powiazania": ["ARG/V/111", "ARG/V/112", "ARG/V/113"],
-        "stan": "Średni — pożółkły papier, pismo czytelne"
+        "stan": "Średni — pożółkły papier, pismo czytelne",
+        "wycena": "100-300 PLN"
     },
 
     # -- Podseria V/U: Zaświadczenia o służbie --
@@ -2430,7 +2576,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Oficjalne zaświadczenie o zakończeniu służby wojskowej — dokument kluczowy dla dalszych losów Krzysztofa. Komisja Likwidacyjna PSZ działała w Londynie od 1947 r. zajmując się rozwiązywaniem Polskich Sił Zbrojnych na Zachodzie. Nr 87949 = numer kolejny zaświadczenia. Stopień: Starszy Ułan (odpowiednik L/Cpl w British Army). Po tym zaświadczeniu Krzysztof przeszedł do życia cywilnego — studiował w South West Essex Technical College.",
         "powiazania": ["ARG/V/91", "ARG/V/103", "ARG/V/98", "ARG/V/123"],
-        "stan": "Dobry — pieczęć i tekst czytelne"
+        "stan": "Dobry — pieczęć i tekst czytelne",
+        "wycena": "150-400 PLN"
     },
     {
         "sygn": "ARG/V/101",
@@ -2445,7 +2592,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "JEDYNE ZNANE ZDJĘCIE KRZYSZTOFA W TYM ARCHIWUM — bezcenne dla rekonstrukcji wyglądu. Świadectwo Dojrzałości = matura zdana na emigracji, w ramach systemu szkolnictwa polskiego prowadzonego przez PSZ we Włoszech i Anglii. Dział Oświaty Ministerstwa Obrony Narodowej = rząd emigracyjny organizował edukację dla żołnierzy-uczniów. Krzysztof zdał maturę w wieku 20 lat, z 2-letnim opóźnieniem (Powstanie Warszawskie + niewola). Oceny mieszane: bardzo dobry z polskiego, dostateczny z matematyki — profil humanistyczny.",
         "powiazania": ["ARG/V/102", "ARG/V/65", "ARG/V/72", "ARG/V/87"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "600-1600 PLN"
     },
     {
         "sygn": "ARG/V/102",
@@ -2460,7 +2608,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Numer '24' sugeruje, że Krzysztof był 24. absolwentem tej komisji — niewielka grupa żołnierzy-maturzystów. Podpisy członków komisji to źródło personalne dla historyków szkolnictwa emigracyjnego. Folia ochronna — Krzysztof lub jego rodzina traktowali ten dokument jako szczególnie cenny.",
         "powiazania": ["ARG/V/101"],
-        "stan": "Dobry — w folii ochronnej"
+        "stan": "Dobry — w folii ochronnej",
+        "wycena": "300-800 PLN"
     },
 
     # -- Podseria V/V: Discharge i demobilizacja --
@@ -2477,7 +2626,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "KLUCZOWY DOKUMENT — oficjalne zakończenie służby wojskowej. Witley Camp (Surrey) = główna baza demobilizacyjna PKPR. 3 lata i 2 miesiące służby (VI.1945 – X.1948).",
         "powiazania": ["ARG/V/91", "ARG/V/100", "ARG/V/123"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "500-1500 PLN"
     },
 
     # -- Podseria V/W: Książeczka żołnierska (Soldier's Service Book) --
@@ -2494,7 +2644,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "Formularz testamentowy — obowiązkowy element książeczki żołnierskiej British Army od I wojny światowej. Wzory datowane na '5th August 1914' (dzień po wypowiedzeniu wojny!) — ten sam formularz używany od 30 lat. Fakt że Krzysztof nie wypełnił formularza (linia przekreślenia) może oznaczać że nie sporządził testamentu wojskowego lub sporządził go na osobnym formularzu (zob. ARG/V/116-117).",
         "powiazania": ["ARG/V/105", "ARG/V/106", "ARG/V/107", "ARG/V/108", "ARG/V/109"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "300-800 PLN"
     },
     {
         "sygn": "ARG/V/105",
@@ -2509,7 +2660,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "Army Book 64 Part I — Soldier's Service Book (Książeczka służby żołnierza) nr 43464/45. Standardowy dokument British Army wydawany KAŻDEMU żołnierzowi, w tym Polakom w PSZ/PKPR. Okładka zawiera instrukcję: 'You are held personally responsible for the safe custody of this book. You will always carry this book on your person' — żołnierz odpowiadał osobiście za książeczkę. Numer 43464/45 sugeruje datę wydania 1945. Sekcja DETAIL OF PERSONAL SIZED GARMENTS = rozmiary munduru — Krzysztof w pełnym umundurowaniu brytyjskim (battledress). Książeczka towarzyszyła mu przez całą służbę w PSZ i PKPR (1945–1949).",
         "powiazania": ["ARG/V/104", "ARG/V/106", "ARG/V/69"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "300-800 PLN"
     },
     {
         "sygn": "ARG/V/106",
@@ -2524,7 +2676,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "Kluczowe dane identyfikacyjne. 'No trade' = bez zawodu cywilnego — 19-latek który całe dorosłe życie spędził na wojnie.",
         "powiazania": ["ARG/V/104", "ARG/V/107"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "300-800 PLN"
     },
     {
         "sygn": "ARG/V/107",
@@ -2539,7 +2692,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "Strony medyczne Army Book 64: Medical Classification (kategoria zdrowia) + Vaccinations TAB (rejestr szczepień). Żołnierze PSZ we Włoszech i Anglii podlegali obowiązkowym szczepieniom British Army: tyfus, tężec, dyfteryt, ospa. Wpisy okulistyczne mogą wskazywać na problemy ze wzrokiem (Krzysztof nosił okulary? — porównaj z fotografią na Kennkarte ARG/V/2). Klasyfikacja medyczna 'A1' = pełna zdolność bojowa. Dokumentacja zdrowotna 20-latka, który przeżył Powstanie Warszawskie i obóz jeniecki.",
         "powiazania": ["ARG/V/104", "ARG/V/106", "ARG/V/2"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "600-1600 PLN"
     },
     {
         "sygn": "ARG/V/108",
@@ -2554,7 +2708,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "Army Book 64 — podstawowy dokument tożsamości żołnierza armii brytyjskiej. Polscy żołnierze PKPR (Polish Resettlement Corps) otrzymywali identyczne książeczki jak żołnierze British Army. Krzysztof służył w PKPR od demobilizacji PSZ do wyjazdu do Brazylii. Okładka khaki — ikoniczna dla żołnierza WWII.",
         "powiazania": ["ARG/V/104", "ARG/V/105", "ARG/V/106", "ARG/V/107", "ARG/V/109"],
-        "stan": "Średni — przetarcia na zgięciach"
+        "stan": "Średni — przetarcia na zgięciach",
+        "wycena": "500-1500 PLN"
     },
     {
         "sygn": "ARG/V/109",
@@ -2569,7 +2724,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "Karta odznaczeń brytyjskich — '0-1-0' oznacza przyznanie jednego medalu (prawdopodobnie War Medal 1939-45).",
         "powiazania": ["ARG/V/104", "ARG/V/110"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "300-800 PLN"
     },
     {
         "sygn": "ARG/V/110",
@@ -2584,7 +2740,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "Oficjalna transmisja brytyjskich odznaczeń wojennych — uznanie służby Krzysztofa przez Koronę Brytyjską.",
         "powiazania": ["ARG/V/109"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-500 PLN"
     },
 
     # -- Podseria V/X: Notatki i ewidencja odznaczeń --
@@ -2601,7 +2758,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWY DOKUMENT ŁĄCZĄCY — notatki Krzysztofa potwierdzają numery i daty z oficjalnych dokumentów: numer 1134/II AK/46 = ARG/V/97 (zaświadczenie weryfikacyjne AK), data 12.VI.1946 = ARG/V/97 (data wystawienia), Odznaka 3 DSK 12.XI.46 = ARG/V/113 (notatki o odznaczeniach). 'Dino' = prawdopodobnie Campo Dino lub inna lokalizacja kwatery 2 Korpusu Polskiego we Włoszech. Notatki przygotowawcze Krzysztofa do ewidencji służby — zbierał dane do weryfikacji i przyszłych wniosków kombatanckich.",
         "powiazania": ["ARG/V/97", "ARG/V/66", "ARG/V/109", "ARG/V/112", "ARG/V/113"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "250-800 PLN"
     },
     {
         "sygn": "ARG/V/112",
@@ -2616,7 +2774,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "ODKRYCIE: Weryfikacja AK prowadzona była na SARDYNII (Komisja Weryf. Sardinia), nie w Krakowie jak wcześniej założono! Wpis '10. Nasualski' sugeruje, że Krzysztof sporządzał listę żołnierzy 7 P.Uł. podlegających weryfikacji — być może pełnił rolę pisarza/ewidenta. Numer 1134/II.AK/46 przewija się przez trzy dokumenty: V/97 (zaświadczenie), V/111 (notatki), V/112 (notatki) — spójna chronologia weryfikacyjna. Sardynia — w 1946 r. część polskich jednostek stacjonowała na tej wyspie w ramach okupacji brytyjskiej Włoch.",
         "powiazania": ["ARG/V/97", "ARG/V/111", "ARG/V/113", "ARG/V/96"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "500-1500 PLN"
     },
     {
         "sygn": "ARG/V/113",
@@ -2631,7 +2790,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Notatnik Krzysztofa z ewidencją odznaczeń i rozkazów — pełna chronologia: (1) MEDAL WOJSKA — Rozkaz Nr 245 z 29.X.1946 (2. Korpus PSZ), (2) ODZNAKA 3 DSK — Rozkaz Dzienny Nr 256 z 12.XI.1946. Medal Wojska (ustanowiony 1945) nadawano za min. 6 miesięcy 'wzorowej' służby — Krzysztof miał ponad 2 lata (od Powstania 1944). Odznaka 3 Dywizji Strzelców Karpackich potwierdza przydział Krzysztofa do tej jednostki we Włoszech. 3 DSK (dawniej Brygada Karpacka) walczyła pod Tobrukiem, Monte Cassino, Anconą. Krzysztof dołączył po wyzwoleniu z obozu (1945). Systematyczność notatek świadczy o urzędowym charakterze Krzysztofa — dbał o dokumentację (cecha odziedziczona po ojcu Stefanie, wieloletnim urzędniku Kancelarii Prezydenta).",
         "powiazania": ["ARG/V/111", "ARG/V/112", "ARG/V/69"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "200-600 PLN"
     },
 
     # -- Podseria V/Y: Wyposażenie i testament --
@@ -2648,7 +2808,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Wykaz wyposażenia osobistego żołnierza PSZ — formularz tabelaryczny z sekcjami: umundurowanie (mundur, szynel, buty), przybory osobiste, ekwipunek polowy. Sekcja pomiarowa z miarami fizycznymi = szyte na miarę lub dobierane wg rozmiarów. Wypełniony przy wcieleniu lub przeglądzie — procedura administracyjna typowa dla regularnej armii. Formularz POLSKI (nie brytyjski) = własna administracja PSZ w ramach struktur brytyjskich. Dokument cenny etnograficznie — pokazuje co KONKRETNIE miał przy sobie polski żołnierz na emigracji.",
         "powiazania": ["ARG/V/115", "ARG/V/105"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "100-300 PLN"
     },
     {
         "sygn": "ARG/V/115",
@@ -2663,7 +2824,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Formularz inspekcyjny wyposażenia żołnierza PSZ — drugostronicowa tabela (par. z ARG/V/114). Systematyczne sprawdzanie stanu osobistego wyposażenia — standardowa procedura wojskowa. Interesujący przekrój przedmiotów codziennego użytku żołnierza: od maszynki do golenia po bagnet.",
         "powiazania": ["ARG/V/114"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-600 PLN"
     },
     {
         "sygn": "ARG/V/116",
@@ -2678,7 +2840,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Testament żołnierski — obowiązkowy formularz. Polskie prawo spadkowe stosowane wobec żołnierzy PSZ na emigracji.",
         "powiazania": ["ARG/V/117", "ARG/V/104"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "100-300 PLN"
     },
     {
         "sygn": "ARG/V/117",
@@ -2693,7 +2856,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Verso formularza testamentu żołnierskiego — kontynuacja lub instrukcja wypełniania. Testamenty żołnierskie w PSZ regulowane polskim prawem spadkowym (Kodeks Cywilny 1933), ale realizowane w warunkach emigracyjnych — spadkobiercy często w Polsce za żelazną kurtyną. Samo posiadanie formularza testamentowego przez 20-latka (Krzysztof, 1946–1948) świadczy o realiach żołnierskiego życia — każdy mógł zginąć, nawet po wojnie (wypadki, choroby, samobójstwa w obozach). Testament = JEDYNY sposób na zabezpieczenie rodziny w Polsce.",
         "powiazania": ["ARG/V/116"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "100-300 PLN"
     },
 
     # -- Podseria V/Z: Legitymacje Krzyża AK i Odznaki Pamiątkowej AK --
@@ -2710,7 +2874,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "DOKUMENT O NIEZWYKŁEJ WARTOŚCI — łączy trzy epoki życia Krzysztofa. Pseudonim 'JURAŚ' (stąd sygnatura 'juras' w nazwach plików zdjęć!). Przydział: M.W.Z. KOMP.K. PLUT. III/12 = Pluton III/12, Kompania K, 7 Pułk Ułanów Lubelskich 'Jeleń'. Podpis: K. Ziemski 'Wachnowski' = płk Kazimierz Ziemski — TA SAMA OSOBA, która podpisała przepustkę Krzysztofa podczas Powstania (ARG/V/7, 29.IX.1944) i odpis rozkazu o awansie (ARG/V/8, 11.IX.1944)! 24 lata później, już jako Z-ca D-cy Warszawskiego Korpusu AK na emigracji, nadaje Krzysztofowi Krzyż AK. Ciągłość od boju po emigrację — ten sam dowódca, ten sam żołnierz.",
         "powiazania": ["ARG/V/119", "ARG/V/120", "ARG/V/96"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1200-4000 PLN"
     },
     {
         "sygn": "ARG/V/119",
@@ -2725,7 +2890,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Krzyż Armii Krajowej — odznaczenie ustanowione przez gen. Bora-Komorowskiego rozkazem z 1.VIII.1966 (w 22. rocznicę Powstania) dla żołnierzy AK. Nr 3316 = Krzysztof otrzymał go stosunkowo wcześnie (łącznie nadano ok. 70 000). Krzyż AK to krzyż grecki z kotwicą 'Polska Walcząca' w medalionie i wieńcem cierniowym — symbolika męczeństwa i oporu. Legitymacja wydawana przez Koło AK w Londynie (Krzysztof mieszkał w Anglii). Data 1966–1968 — Krzysztof miał wtedy 40–42 lata, żył w Anglii, ale utrzymywał więzi z organizacjami kombatanckimi. Dokument łączy się z Krzyżem Walecznych (ARG/V/118) — Krzysztof odznaczony za walki w Powstaniu Warszawskim jako 18-letni st.ułan 7 P.Uł. 'Jeleń'.",
         "powiazania": ["ARG/V/118", "ARG/V/169"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1200-4000 PLN"
     },
     {
         "sygn": "ARG/V/120",
@@ -2740,7 +2906,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Drugi egzemplarz identycznej legitymacji — praktyka zachowywania kopii dokumentów przez emigrantów. Krzysztof w Brazylii (São Paulo/Rio) mógł bać się utraty oryginału w transporcie pocztowym. Podwójne egzemplarze legitymacji AK nie są rzadkością w kolekcjach kombatanckich.",
         "powiazania": ["ARG/V/118", "ARG/V/119"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "500-1500 PLN"
     },
     {
         "sygn": "ARG/V/121",
@@ -2755,7 +2922,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Odznaka Pamiątkowa AK — nadawana weteranom Armii Krajowej zweryfikowanym przez komisje kombatanckie.",
         "powiazania": ["ARG/V/122"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "500-1500 PLN"
     },
     {
         "sygn": "ARG/V/122",
@@ -2770,7 +2938,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Odznaka Pamiątkowa AK nr 4042 nadana 12 czerwca 1946 — ta sama data co weryfikacja AK w ARG/V/97 i V/111! Komisja Weryfikacyjna 2 Korpusu działała we Włoszech, weryfikując żołnierzy AK którzy po wojnie znaleźli się w strukturach PSZ. Podpis Przewodniczącego Kapituły (prawdopodobnie gen. mjr) i pieczęć Komisji potwierdzają formalny proces nadania. Numer 4042 = Krzysztof był jednym z ponad 4000 zweryfikowanych żołnierzy AK w 2 Korpusie.",
         "powiazania": ["ARG/V/121", "ARG/V/118", "ARG/V/97"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "500-1500 PLN"
     },
 
     # -- Podseria V/AA: Certyfikaty PKPR --
@@ -2787,7 +2956,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "Certyfikat potwierdzający przejście z PSZ do PKPR (P.R.C. = Polish Resettlement Corps). Okres służby w PSZ: 14.VII.1945 – 1.XI.1946. Wcielenie do PKPR: 1.XI.1946.",
         "powiazania": ["ARG/V/103", "ARG/V/124", "ARG/V/125"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-500 PLN"
     },
     {
         "sygn": "ARG/V/124",
@@ -2802,7 +2972,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "Duplikat certyfikatu PKPR (Polish Resettlement Corps) z 19.II.1948. Wielokrotne kopie tego samego certyfikatu (ARG/V/123–127) świadczą o LĘKU EMIGRANTA przed utratą dokumentów — jedynego dowodu tożsamości i statusu prawnego w obcym kraju. Bez certyfikatu PKPR Polak w Anglii tracił prawo pobytu, pracę, mieszkanie. Krzysztof zachował min. 4 egzemplarze — mentalność archiwalna odziedziczona po ojcu (Stefan — 18 lat urzędnik Kancelarii Prezydenta RP).",
         "powiazania": ["ARG/V/123", "ARG/V/125"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-500 PLN"
     },
     {
         "sygn": "ARG/V/125",
@@ -2817,7 +2988,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "Certyfikat PKPR z INNYM numerem ewidencyjnym: 3023271 (zamiast 3004271 z ARG/V/123). Data: 3.III.1948 (2 tygodnie po poprzednim). Dwa numery mogą oznaczać: (a) przerejestrowanie po zmianie jednostki/obozu, (b) błąd administracyjny, (c) numer ogólny PKPR vs numer jednostkowy. PKPR (Polish Resettlement Corps / Polski Korpus Przysposobienia i Rozmieszczenia) był unikalną strukturą prawną — brytyjska jednostka wojskowa stworzona specjalnie dla ok. 114 000 Polaków, którzy odmówili powrotu do komunistycznej Polski. Działał od IX.1946 do IX.1949.",
         "powiazania": ["ARG/V/123", "ARG/V/124"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-500 PLN"
     },
     {
         "sygn": "ARG/V/126",
@@ -2832,7 +3004,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "Trzeci egzemplarz certyfikatu PKPR z 19.II.1948. Seria kopii (ARG/V/123–127) dokumentuje proces demobilizacji: żołnierz otrzymywał certyfikat, który uprawniał do pobytu w Anglii, dostępu do opieki medycznej, kursów zawodowych i pomocy w znalezieniu pracy. Certyfikat zastępował paszport — Polacy w PKPR nie mieli obywatelstwa brytyjskiego ani ważnych paszportów RP (rząd komunistyczny ich nie uznawał). Dopiero Ustawa o Polskiej Repatriacji (Polish Resettlement Act 1947) dała im prawo stałego pobytu.",
         "powiazania": ["ARG/V/123", "ARG/V/124", "ARG/V/125"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-500 PLN"
     },
     {
         "sygn": "ARG/V/127",
@@ -2847,7 +3020,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "Czwarta kopia certyfikatu PKPR — z wyraźniejszą pieczęcią. Komplet 4–5 kopii to typowe zachowanie emigranta z traumą wojenną: Stefan stracił dom i dokumenty w Powstaniu (VIII.1944), Krzysztof stracił wszystko jako 18-letni jeniec. Lekcja: dokumenty można stracić w chwilę. Mentalność 'zachowaj kopię' = strategia przetrwania diaspory. W kolekcji Głuchowskich zachowały się SETKI dokumentów — nie przypadek, lecz świadome archiwum rodzinne.",
         "powiazania": ["ARG/V/123", "ARG/V/124"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-500 PLN"
     },
 
     # -- Podseria V/AB: Przepustki (duplikaty) --
@@ -2864,7 +3038,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "Przepustka z 9.IX.1947 do LONDYNU — Krzysztof jako L/Cpl. (Lance Corporal = starszy ułan/kapral) z Bower Ward Camp. Nr ewidencyjny 3004271 w PKPR. Pieczęć '7 PUŁK UŁANÓW LUBELSKICH / STARCÓW REGIMENT' — polska nazwa z angielskim tłumaczeniem ('Starców' = 'Lancers'). Podpis oficera 'H. Mazur' — możliwy por./kpt. Mazur z kadry 7 P.Uł. Bower Ward Camp = prawdopodobnie jeden z obozów dla Polaków w Anglii (Hampshire, Norfolk lub Suffolk). Wyjazd do Londynu we IX.1947 = Krzysztof mógł odwiedzać wuja gen. Janusza Głuchowskiego (mieszkał w Londynie od 1940). Przepustka dokumentuje etap przejścia z wojska do życia cywilnego — PKPR (Polish Resettlement Corps) działał 1946–1949.",
         "powiazania": ["ARG/V/81", "ARG/V/129", "ARG/V/123"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "250-800 PLN"
     },
     {
         "sygn": "ARG/V/129",
@@ -2879,7 +3054,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "Numer PRSC 2785 na dole strony — PRSC = Polish Resettlement Corps (Polski Korpus Przysposobienia i Rozmieszczenia). Ten numer identyfikuje Krzysztofa w systemie PKPR — formacji która zajmowała się demobilizacją i reintegracją polskich żołnierzy w Wielkiej Brytanii po 1946 r. Instrukcja ATS (Auxiliary Territorial Service) obejmowała także żołnierzy PSZ pod dowództwem brytyjskim.",
         "powiazania": ["ARG/V/128", "ARG/V/82", "ARG/V/106"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "100-300 PLN"
     },
 
     # -- Podseria V/AC: Dokumenty tożsamości emigranta --
@@ -2896,7 +3072,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "KLUCZOWY DOKUMENT EMIGRACYJNY — Krzysztof jako 'Alien' (cudzoziemiec) w Anglii, student szkoły technicznej. Gravesend = port wejścia do Anglii.",
         "powiazania": ["ARG/V/131", "ARG/V/138"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "500-1200 PLN"
     },
     {
         "sygn": "ARG/V/131",
@@ -2911,7 +3088,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "High Wycombe, Buckinghamshire — miejsce zamieszkania Krzysztofa w Anglii. Obowiązek meldunkowy cudzoziemców (Alien Registration).",
         "powiazania": ["ARG/V/130"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-500 PLN"
     },
 
     # -- Podseria V/AD: Biogram i weryfikacja --
@@ -2928,7 +3106,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWY DOKUMENT BIOGRAFICZNY — syntetyczny opis całego życia Krzysztofa. Potwierdza emigrację do Brazylii i zawód inżyniera.",
         "powiazania": ["ARG/V/118", "ARG/V/103", "ARG/II/33"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "800-2000 PLN"
     },
     {
         "sygn": "ARG/V/133",
@@ -2943,7 +3122,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "DOKUMENT WYWIADOWCZY — MI5 weryfikowało polskich żołnierzy pod kątem lojalności politycznej. 'Politically Well-Minded' = pozytywna ocena. Ujawnia miejsce urodzenia: Grzegorzów, rodziców: Stefan i Helena.",
         "powiazania": ["ARG/V/94", "ARG/V/103"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-500 PLN"
     },
 
     # -- Podseria V/AE: Fotografia proporca --
@@ -2960,7 +3140,8 @@ OBJECTS = [
         "jezyk": "—",
         "kontekst": "DOKUMENT O WYJĄTKOWEJ WARTOŚCI HISTORYCZNEJ — jedyna znana fotografia proporca/sztandaru 7 Pułku Ułanów Lubelskich AK, który zaginął podczas Powstania Warszawskiego 1944. Sztandary pułkowe były najcenniejszymi symbolami jednostki — ich utrata w boju miała głębokie znaczenie symboliczne. Zachowanie tego zdjęcia przez Krzysztofa świadczy o głębokim przywiązaniu do tradycji pułkowej.",
         "powiazania": ["ARG/V/81", "ARG/V/118", "ARG/V/97", "ARG/V/128", "ARG/VI/3"],
-        "stan": "Dobry — zdjęcie czytelne, kontrast zachowany"
+        "stan": "Dobry — zdjęcie czytelne, kontrast zachowany",
+        "wycena": "400-1000 PLN"
     },
 
     # -- Podseria V/AF: Ephemera i kartki okolicznościowe --
@@ -2977,7 +3158,8 @@ OBJECTS = [
         "jezyk": "polski, angielski",
         "kontekst": "SPP — Stowarzyszenie Polskich Przemysłowców (lub Przedsiębiorców) z siedzibą w LONDYNIE, nie w Brazylii. Organizacja polonijna zrzeszająca polskich przedsiębiorców na emigracji. Kartka wysłana DO Krzysztofa w Brazylii z Londynu — wraz z Biuletynem nr 10 organizacji. Zwraca uwagę zdrobniałe 'Krzychu!' i 'Zbychu' — Krzysztof miał bliskie, serdeczne relacje z londyńską Polonią mimo fizycznej odległości (Brazylia). 'K.I. Dom' = prawdopodobnie Kombatancki/Katolicki Dom w Londynie. Wielopodpisowość — cała społeczność pamiętała o Krzysztofie.",
         "powiazania": ["ARG/V/132", "ARG/V/148"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "150-400 PLN"
     },
     {
         "sygn": "ARG/V/136",
@@ -2992,7 +3174,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "FUNDUSZ INWALIDÓW AK — organizacja kombatancka w Londynie zbierająca fundusze na pomoc rannym i inwalidom Armii Krajowej. Koło AK Londyn — jedno z najważniejszych ognisk pamięci o AK na emigracji, aktywne przez całe dekady. Kartka z 1984 roku — 40. rocznica Powstania Warszawskiego. Krzysztof, sam weteran AK (ps. JURAŚ, 7 P.Uł.), zachował kartkę jako kombatant-donator. Grafika Ziemi Stanisławskiej — ekspresjonistyczny styl oddający dramat wojennych cierpień. ANIELA BERAKOWA — prawdopodobnie patronka lub inicjatorka funduszu artystycznego.",
         "powiazania": ["ARG/V/118", "ARG/V/119", "ARG/V/122"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "400-1000 PLN"
     },
     {
         "sygn": "ARG/V/137",
@@ -3007,7 +3190,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "PALMIRY — las pod Warszawą, miejsce masowych egzekucji dokonywanych przez Niemców na polskiej inteligencji i działaczach podziemia (1939–1941, ok. 1700 ofiar). Cmentarz-mauzoleum stał się jednym z najważniejszych miejsc pamięci narodowej. Napis na tablicy — fragment apelu poległych: 'STAWIALIŚMY OPÓR / PRACOWALIŚMY / ŻOŁNIERZE / UMRZEĆ / CIERPIEĆ'. Biała chryzantema — symbol Wszystkich Świętych i pamięci o zmarłych. MOŻLIWY ZWIĄZEK RODZINNY: wycinek zachowany przez Krzysztofa może wskazywać na osobistą więź z Palmirami — wielu członków krakowskiej i warszawskiej inteligencji zginęło tam. Głuchowscy jako rodzina wojskowa/inteligencka byli w kręgu potencjalnych ofiar.",
         "powiazania": ["ARG/V/151"],
-        "stan": "Średni — papier gazetowy, kruchy"
+        "stan": "Średni — papier gazetowy, kruchy",
+        "wycena": "150-400 PLN"
     },
 
     # -- Podseria V/AG: Życie studenckie w Anglii --
@@ -3024,7 +3208,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "Krzysztof jako student szkoły technicznej w Forest Gate, East London. Fee 5/- (pięć szylingów) — opłata studencka. Okres readaptacji cywilnej w ramach PKPR.",
         "powiazania": ["ARG/V/139", "ARG/V/130"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "100-300 PLN"
     },
     {
         "sygn": "ARG/V/139",
@@ -3039,7 +3224,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "Verso biletu studenckiego South West Essex Technical College — klauzula 'This ticket is not transferable' z podpisem Krzysztofa. SWTEC (obecnie South Essex College) w Walthamstow/Dagenham — Krzysztof studiował w ramach programu readaptacji PKPR, który finansował kursy zawodowe i akademickie dla demobilizowanych żołnierzy polskich. Tysiące Polaków zdobywało kwalifikacje w angielskich college'ach (inżynieria, budownictwo, handel). Podpis na verso = jedyny znany autograf Krzysztofa po angielsku (imię: 'Christopher'?).",
         "powiazania": ["ARG/V/138", "ARG/V/123"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "250-800 PLN"
     },
     {
         "sygn": "ARG/V/140",
@@ -3054,7 +3240,8 @@ OBJECTS = [
         "jezyk": "—",
         "kontekst": "PROFETYCZNY RYSUNEK: Krzysztof rysuje żaglowiec w Anglii — kilka lat później emigruje do Brazylii i zakłada Brazylijską Unię Żeglarską (wg autobiogramu z 1995). Pasja morska widoczna już w okresie studenckim. Rysunek wykonany prawdopodobnie w South West Essex Technical College (1947-48) — ćwiczenie z rysunku technicznego, ale temat wybrany z zamiłowania. Detal olinowania wskazuje na znajomość budowy żaglowców.",
         "powiazania": ["ARG/V/138", "ARG/V/80", "ARG/V/166"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "150-400 PLN"
     },
 
     # -- Podseria V/AH: Prasa polonijna --
@@ -3071,7 +3258,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "'Życie' (pełna nazwa: 'Życie — Ludzie, Fakty, Zagadnienia') — polska gazeta wydawana we Włoszech przy 2. Korpusie Polskim gen. Andersa. CMP = Central Mediterranean Forces, poczta polowa sił alianckich w basenie Morza Śródziemnego. Krzysztof czytał tę gazetę jako żołnierz 3 DSK we Włoszech w 1946 roku. Rubryka 'Czytelnicy Piszą' — głosy żołnierzy polskich o codziennych sprawach, tęsknocie za Polską, planach na przyszłość.",
         "powiazania": ["ARG/V/142", "ARG/V/143"],
-        "stan": "Średni — papier gazetowy"
+        "stan": "Średni — papier gazetowy",
+        "wycena": "100-300 PLN"
     },
     {
         "sygn": "ARG/V/142",
@@ -3086,7 +3274,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "'Życie' — polska gazeta wydawana we Włoszech przez/przy 2. Korpusie Polskim gen. Andersa, 1945-1946. '5-ta kolumna' = termin oznaczający wewnętrznego wroga/szpiegostwo — w kontekście 1946 roku dotyczy napięć zimnowojennych i infiltracji komunistycznej. Gazeta informowała polskich żołnierzy o polityce światowej w okresie, gdy decydowały się ich losy: repatriacja do komunistycznej Polski czy emigracja na Zachód. Krzysztof wybrał emigrację.",
         "powiazania": ["ARG/V/141"],
-        "stan": "Średni — papier gazetowy"
+        "stan": "Średni — papier gazetowy",
+        "wycena": "100-300 PLN"
     },
     {
         "sygn": "ARG/V/143",
@@ -3101,7 +3290,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Klaudiusz Hrabyk (1903–1981) — publicysta, pisarz, działacz emigracyjny. W Londynie redagował i współpracował z prasą polonijną. Tytuł 'Smutna, ale pouczająca sprawa' sugeruje analizę jakiegoś incydentu lub konfliktu w środowisku emigracyjnym. Zachowanie wycinka przez Krzysztofa wskazuje na osobiste zainteresowanie tematem. Porównaj z innymi wycinkami prasowymi w kolekcji (ARG/V/141, V/142).",
         "powiazania": ["ARG/V/141", "ARG/V/142"],
-        "stan": "Średni — papier gazetowy, kruchy"
+        "stan": "Średni — papier gazetowy, kruchy",
+        "wycena": "50-150 PLN"
     },
     {
         "sygn": "ARG/V/144",
@@ -3116,7 +3306,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWY DOKUMENT — płk Karol Ziemski 'Wachnowski' (1901–1982), Dowódca Okręgu Warszawa AK, dowodził Grupą 'Północ' (Żoliborz) podczas Powstania Warszawskiego. Ten sam Ziemski podpisał legitymację Krzyża AK Krzysztofa (ARG/V/118) jako Z-ca D-cy Warszawskiego Korpusu AK. Zaświadczenie potwierdza odznaczenie Głuchowskiego Krzyżem Walecznych — najwyższe polskie odznaczenie bojowe za męstwo.",
         "powiazania": ["ARG/V/118", "ARG/V/96", "ARG/V/97"],
-        "stan": "Dobry — tekst czytelny, pieczęć wyraźna"
+        "stan": "Dobry — tekst czytelny, pieczęć wyraźna",
+        "wycena": "1000-2500 PLN"
     },
 
     # -- Podseria V/AI: Gazety --
@@ -3133,7 +3324,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "DATA PRECYZYJNA: 12 kwietnia 1946 — kluczowy moment w losach żołnierzy polskich we Włoszech. Referendum 'ludowe' w Polsce (30.VI.1946) zostanie sfałszowane przez komunistów. 'Michałowicz w Izbie Gmin' = debata w brytyjskim parlamencie o losach polskich żołnierzy. 'Nowa Ofensywa Komunistów' = temat dominujący w prasie emigracyjnej. Krzysztof miał wówczas 19 lat, był żołnierzem 3 DSK — czytając te nagłówki rozważał: wracać do komunistycznej Polski czy emigrować. Wybrał emigrację.",
         "powiazania": ["ARG/V/146"],
-        "stan": "Średni — papier gazetowy, pożółkły"
+        "stan": "Średni — papier gazetowy, pożółkły",
+        "wycena": "100-300 PLN"
     },
     {
         "sygn": "ARG/V/146",
@@ -3148,7 +3340,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "ŻYCIE KULTURALNE ŻOŁNIERZY — 2. Korpus Polski we Włoszech miał rozbudowane życie kulturalne: teatry polowe, pokazy filmowe, koncerty, wydawnictwa. Maurice Chevalier (1888-1972) i Greer Garson (1904-1996) — gwiazdy Hollywood lat 40. 'Trzynastoletni kompozytor' — fascynacja cudownymi dziećmi w muzyce. 'Calopismo atomowe' — refleksja o erze atomowej po Hiroshimie (VIII.1945). Ta strona kulturalna pokazuje, że polscy żołnierze we Włoszech żyli nie tylko wojną — śledzili kulturę światową, czytali recenzje, chodzili do kin polowych.",
         "powiazania": ["ARG/V/145"],
-        "stan": "Średni — papier gazetowy"
+        "stan": "Średni — papier gazetowy",
+        "wycena": "100-300 PLN"
     },
     {
         "sygn": "ARG/V/147",
@@ -3163,7 +3356,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "'VERITAS' — Katolicki Ośrodek Wydawniczy w Londynie, jedna z najważniejszych polskich instytucji wydawniczych na emigracji (od 1947). 'Nowy rok szkolny' — polskie szkoły na emigracji (w Londynie, Paryżu, Ameryce) utrzymywały ciągłość edukacji polskiej. 'Bezatomowa strefa' — kontekst zimnej wojny, ok. 1957-58 (Plan Rapackiego?). 'Wiec w Nairobi' — Kenia, kontekst dekolonizacji Afryki. Strona ogłoszeniowa daje unikalny wgląd w codzienne życie Polonii: uczyli się języków, handlowali, czytali polskie książki.",
         "powiazania": ["ARG/V/145", "ARG/V/146"],
-        "stan": "Średni — papier gazetowy"
+        "stan": "Średni — papier gazetowy",
+        "wycena": "100-300 PLN"
     },
 
     # -- Podseria V/AJ: Korespondencja z instytucjami --
@@ -3180,7 +3374,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "NIEZWYKŁY DOKUMENT — żołnierz pisze do swojego dowódcy z Powstania. Gen. Tadeusz Bór-Komorowski (1895–1966) po kapitulacji Powstania w niewoli niemieckiej, wyzwolony 1945, osiadł w Londynie. H.Q. Polish Forces = Kwatera Główna Polskich Sił Zbrojnych w Londynie. Nr 563 — numer rejestracyjny korespondencji w Polish Institute. Krzysztof jako 18-letni powstaniec walczył pod rozkazami Bora — teraz pisze do niego jako historyk pułku, zbierający materiały o 7 P.Uł. 'Jeleń'. RELACJA ŻOŁNIERZ→GENERAŁ z perspektywy lat — nieoceniony dokument do historii więzi kombatanckich.",
         "powiazania": ["ARG/V/149", "ARG/V/118"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1200-5000 PLN"
     },
     {
         "sygn": "ARG/V/149",
@@ -3195,7 +3390,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "POLISH INSTITUTE AND SIKORSKI MUSEUM (20 Princes Gate, London SW7) — główne archiwum Polskich Sił Zbrojnych na emigracji, założone w 1945. Gen. Janusz Głuchowski (stryj Krzysztofa!) był WSPÓŁZAŁOŻYCIELEM tego Instytutu (potwierdzone w biogramie ARG/II/33). Krzysztof pisał więc do Bora-Komorowskiego na papeterii instytucji współtworzonej przez jego stryja. 'Myszków' — miejscowość w okolicach Częstochowy, ale w kontekście CMF może chodzić o obóz/bazę we Włoszech o tej nazwie, lub Krzysztof pisał z Polski przed wyjazdem. Data 14.VIII.1945 — rok i dwa tygodnie po wybuchu Powstania. 'Pułk 1112' = konspiracyjne oznaczenie 7 P.Uł. Lubelskich w strukturach AK.",
         "powiazania": ["ARG/V/148", "ARG/V/150"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1200-5000 PLN"
     },
     {
         "sygn": "ARG/V/150",
@@ -3210,7 +3406,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "POTWIERDZENIE WSPÓŁPRACY ARCHIWALNEJ — Krzysztof aktywnie przekazywał dokumenty do Polish Institute, instytucji współzałożonej przez jego stryja gen. Janusza. Ta korespondencja (V/148→V/149→V/150) tworzy kompletny łańcuch: żołnierz pisze do dowódcy, dołącza materiały historyczne, instytut potwierdza odbiór. Krzysztof jako żywe ogniwo łączące polową historię 7 P.Uł. z profesjonalnym archiwum. Dokumenty te mogły trafić do zbiorów Instytutu Sikorskiego i być tam do dziś.",
         "powiazania": ["ARG/V/149"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "2500-7500 PLN"
     },
 
     # -- Podseria V/AK: Wspomnienia rękopiśmienne --
@@ -3227,7 +3424,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "WAŻNY DOKUMENT SPOŁECZNY. Wspomnienia pisane z perspektywy emigranta w Brazylii — refleksja nad stosunkami polsko-żydowskimi, opartą na osobistych doświadczeniach z dzieciństwa w Stryju i Krakowie. Nagłówek 'Stosunek do Żydowstwa' — typowe sformułowanie pokolenia Krzysztofa. Krzysztof jako powstaniec AK, jeniec niemiecki, emigrant — miał wielowarstwowe doświadczenie tego tematu. Unikatowe świadectwo.",
         "powiazania": ["ARG/V/152", "ARG/V/153", "ARG/V/154", "ARG/V/155", "ARG/V/156"],
-        "stan": "Średni — rękopis, atrament wyblakły"
+        "stan": "Średni — rękopis, atrament wyblakły",
+        "wycena": "2000-6000 PLN"
     },
     {
         "sygn": "ARG/V/152",
@@ -3242,7 +3440,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "ODKRYCIE RODZINNE — Krzysztof pisze o ojcu STEFANIE GŁUCHOWSKIM w kontekście 1918 roku i Marszałka Piłsudskiego. Stefan (1893–1962, Seria III) brał udział w walkach o niepodległość. Wspomnienia sięgają okresu sprzed narodzin autora (ur. 1926) — oparte na opowieściach rodzinnych. Wątek Piłsudski↔Głuchowscy jest spójny: gen. Janusz (stryj) służył w Legionach Piłsudskiego, w Siódemce Beliny (ARG/II/33). Kraków 1918 — ognisko ruchu niepodległościowego.",
         "powiazania": ["ARG/V/151", "ARG/V/153"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "2000-5000 PLN"
     },
     {
         "sygn": "ARG/V/153",
@@ -3257,7 +3456,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWE WSPOMNIENIA — jedyny znany opis emigracji Krzysztofa do Brazylii z pierwszej ręki. Salvador da Bahia — port przybycia wielu polskich emigrantów do Brazylii. Krzysztof po demobilizacji z PRC (1948) emigrował do Brazylii ok. 1949-50. Trasa prawdopodobna: Anglia → morze → Salvador da Bahia → São Paulo/Rio de Janeiro. 'Początki dla emigracji' — opis pierwszych kroków na nowym kontynencie, poszukiwanie pracy i stabilizacji.",
         "powiazania": ["ARG/V/151", "ARG/V/154", "ARG/V/68"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "1000-3000 PLN"
     },
     {
         "sygn": "ARG/V/154",
@@ -3272,7 +3472,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "CENNE ŹRÓDŁO HISTORYCZNE — dane o skali polskiej emigracji do Brazylii po 1945: '3500 robotników' wskazuje na zorganizowany transport emigracyjny, prawdopodobnie z obozów demobilizacyjnych w Anglii lub Włoszech. Polska emigracja do Brazylii po WWII to słabo udokumentowany temat — wspomnienia Krzysztofa z pierwszej ręki mają wartość archiwalną. Opis warunków bytowych ('chleb', 'kącik z tapetami') — realia polskiego emigranta w tropikalnej Brazylii lat 50.",
         "powiazania": ["ARG/V/153", "ARG/V/155"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "400-1200 PLN"
     },
     {
         "sygn": "ARG/V/155",
@@ -3287,7 +3488,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "PERSPEKTYWA EMIGRANTA NA POLITYKĘ — Radio Wolna Europa (od 1952) i BBC Polish Section były głównymi źródłami niecenzurowanych wiadomości z Polski dla emigrantów. Organizacje polonijne w Brazylii: SPB (Stowarzyszenie Polaków w Brazylii), SOKÓŁ, Związek Polaków. 'Rakowice' — cmentarz Rakowicki w Krakowie, miejsce pochówku rodziny Głuchowskich. Krzysztof z Brazylii śledzi losy ojczyzny przez radio i prasę polonijną (por. ARG/V/141-147).",
         "powiazania": ["ARG/V/154", "ARG/V/156"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "400-1200 PLN"
     },
     {
         "sygn": "ARG/V/156",
@@ -3302,7 +3504,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Ostatnia znana strona wspomnień Krzysztofa — pisanych prawdopodobnie w Brazylii w latach 50.–60. Zamyka cykl narracyjny: dzieciństwo w Krakowie → Powstanie Warszawskie → obozy jenieckie → wyzwolenie → II Korpus we Włoszech → emigracja do Brazylii. Refleksja o tożsamości polskiej na emigracji — temat przewijający się w całym cyklu wspomnień (ARG/V/151-155). Unikatowy dokument osobisty.",
         "powiazania": ["ARG/V/151", "ARG/V/155"],
-        "stan": "Średni — papier pofałdowany, pismo trudno czytelne"
+        "stan": "Średni — papier pofałdowany, pismo trudno czytelne",
+        "wycena": "2000-6000 PLN"
     },
 
     # =====================================================================
@@ -3321,7 +3524,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWY DOKUMENT PAMIĘCI — upamiętnia najkrwawszą akcję 7 P.Uł. AK 'Jeleń' w godzinie 'W' Powstania Warszawskiego (1.VIII.1944, godz. 17:00). Natarcie na gmach Gestapo przy Al. Szucha i Dom Prasy (ul. Marszałkowska 3/5) w WARSZAWIE (NIE w Krakowie!). 36% strat (67 z 187). W tych 5 plutonach służył Krzysztof 'Juraś' Głuchowski — ten dokument jest bezpośrednim świadectwem jego udziału w Powstaniu. Lech Głuchowski (stryj Krzysztofa) dowodził natarciem na Al. Szucha i poległ na Mokotowie 15.IX.1944.",
         "powiazania": ["ARG/V/3"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "500-1200 PLN"
     },
     {
         "sygn": "ARG/VI/2",
@@ -3336,7 +3540,8 @@ OBJECTS = [
         "jezyk": "—",
         "kontekst": "FIZYCZNY ARTEFAKT — nie tylko dokument, ale rzeczywiste odznaczenie bojowe. Krzyż Walecznych z 1920 r. — prawdopodobnie egzemplarz nadany Januszowi Głuchowskiemu za udział w wojnie polsko-bolszewickiej (walki kawaleryjskie 1920). KW nadawany w rodzinie Głuchowskich wielokrotnie: Januszowi (1920/1922), Lechowi (trzykrotnie!), Krzysztofowi (1944). Ten fizyczny egzemplarz zachowany w kolekcji — jedna z najcenniejszych pozycji.",
         "powiazania": ["ARG/II/13", "ARG/V/42"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "5000-12000 PLN"
     },
     {
         "sygn": "ARG/VI/3",
@@ -3351,7 +3556,8 @@ OBJECTS = [
         "jezyk": "—",
         "kontekst": "Elementy umundurowania oficerskiego WP. Temblak oficerski wskazuje na stopień oficerski właściciela. Mogą należeć do gen. Janusza Głuchowskiego (najbardziej prawdopodobne — najwyższy stopniem) lub Stefana. Baretka orderowa wymaga porównania z odznaczeniami rodziny — Janusz miał VM, KW, Legię Honorową, Gwiazdę Rumunii; Stefan — Krzyż Niepodległości, Order Odrodzenia Polski, ZKZ.",
         "powiazania": ["ARG/V/3", "ARG/III/16", "ARG/III/17"],
-        "stan": "Średni — tkaniny częściowo wypłowiałe"
+        "stan": "Średni — tkaniny częściowo wypłowiałe",
+        "wycena": "300-800 PLN"
     },
     {
         "sygn": "ARG/VI/4",
@@ -3366,7 +3572,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "WAŻNE POWIĄZANIE: Album pochodzi z Centrum Łączności WP — tej samej formacji co Święto Łączności w Kinross (ARG/II/55). Gen. Głuchowski jako Dowódca Jednostek Wojsk w Brytanii wizytował jednostki szkoleniowe. Kompania Dowodzenia przygotowała album na pamiątkę wizyty generała na wyszkoleniu. 8.III.1944 — trzy miesiące przed D-Day, intensywny okres szkoleniowy.",
         "powiazania": ["ARG/VI/5", "ARG/VI/6", "ARG/II/55"],
-        "stan": "Dobry — oprawa, kaligrafia czytelna"
+        "stan": "Dobry — oprawa, kaligrafia czytelna",
+        "wycena": "800-3000 PLN"
     },
     {
         "sygn": "ARG/VI/5",
@@ -3381,7 +3588,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Strona albumu (ARG/VI/4) dokumentującego wizytę gen. Głuchowskiego w Centrum Łączności. Zdjęcia pokazują: zaplecze techniczne, szkolenie oficerskie z udziałem generała, formacje paradne. Typowy album żołnierski PSZ — czarny karton, białe podpisy, uporządkowane chronologicznie.",
         "powiazania": ["ARG/VI/4"],
-        "stan": "Średni — fotografie pożółkłe/wyblakłe, podpisy częściowo czytelne"
+        "stan": "Średni — fotografie pożółkłe/wyblakłe, podpisy częściowo czytelne",
+        "wycena": "800-3000 PLN"
     },
     {
         "sygn": "ARG/VI/6",
@@ -3396,7 +3604,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Druga strona albumu (ARG/VI/4). Sceny z życia codziennego: muzyka (gitara) i sport — typowe formy spędzania czasu w jednostkach WP w Wielkiej Brytanii. Fotografie oderwane od kartonu albumu — gorszy stan zachowania niż ARG/VI/5.",
         "powiazania": ["ARG/VI/4"],
-        "stan": "Średni — zdjęcia oderwane od kartonu, pożółkłe"
+        "stan": "Średni — zdjęcia oderwane od kartonu, pożółkłe",
+        "wycena": "800-3000 PLN"
     },
     {
         "sygn": "ARG/VI/7",
@@ -3411,7 +3620,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "DWA POKOLENIA, DWA PUŁKI UŁANÓW — zestawienie nieprzypadkowe: (1) Krzysztof = st.ułan 7 P.Uł. Lubelskich, odznaka nr 34/K z 23.III.1946 (Henstedt, Niemcy — po wojnie). Litera 'K' przy numerze może oznaczać kategorię lub inicjał. (2) Janusz = gen.bryg. z legitymacją 20 P.Uł. im. Króla Jana III Sobieskiego z Rzeszowa, 24.II.1930. 20 P.Uł. stacjonował w Rzeszowie — Janusz jako inspektor kawalerii lub gość honorowy otrzymał prawo noszenia znaku pułkowego. Data 1930 = Janusz już w stopniu gen.bryg. (awans 1928). PATRON: 7 P.Uł. nosił imię gen. Kazimierza Sosnkowskiego — tego samego, który pisał do Janusza (ARG/II/27)! Sosnkowski = Naczelny Wódz PSZ 1943–1944, po wojnie w Kanadzie. Proporczyk pułkowy 7 P.Uł. (dwa czerwone romby/szewrony na białym tle) widoczny też na karcie pułkowej z Henstedt (ARG/III/37).",
         "powiazania": ["ARG/II/8", "ARG/V/54"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "800-2000 PLN"
     },
     {
         "sygn": "ARG/VI/8",
@@ -3426,7 +3636,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Doroczna msza za poległych żołnierzy 7 P.Uł. AK 'Jeleń' — Wilanów, październik 1970, 26 lat po Powstaniu. Groby żołnierzy 'Jelenia' na cmentarzu w Wilanowie — poległych na Sadybie (dzielnica południowej Warszawy). Fakt odprawiania mszy w PRL (1970) świadczy o ODWADZE kombatantów — w komunistycznej Polsce AK było marginalizowane i prześladowane. Restauracja 'Kuźnia' w Wilanowie = miejsce spotkań kombatanckich. Dokument zachowany w kolekcji Krzysztofa (w Brazylii) — ktoś musiał mu go przesłać pocztą.",
         "powiazania": ["ARG/II/8"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "400-1000 PLN"
     },
     {
         "sygn": "ARG/VI/9",
@@ -3441,7 +3652,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Ślad diasporowy — żołnierze 7 P.Uł. rozproszeni po świecie (Chicago, Londyn, Brazylia). Jan Lorens — plutonowy 7 P.Uł., prezes sekcji Koła pułkowego w Chicago, odznaczony KW. Zmarł 28.I.1960 w Chicago. Koło Żołnierzy 7 P.Uł. im. Gen. Sosnkowskiego — organizacja kombatancka podtrzymująca pamięć pułku na emigracji. Nekrolog zachowany przez Krzysztofa — dowód na sieć kontaktów pomiędzy weteranami 'Jelenia' na trzech kontynentach.",
         "powiazania": ["ARG/VI/8"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "500-1200 PLN"
     },
 
     # -- Getto łódzkie --
@@ -3458,7 +3670,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "FASCYNUJĄCY DOKUMENT — gen. Janusz Głuchowski (lub Krzysztof?) posiadał KOMPLETNY ZESTAW walut getta łódzkiego (Litzmannstadt Ghetto, 1940-1944). Waluty gettowe Chaima Rumkowskiego — dziś ekstremalnie rzadkie numizmaty (wartość na aukcjach: kilkanaście-kilkadziesiąt tysięcy złotych za zestaw). Adres '42, Emperors Gate, London SW7' — znany londyński adres gen. Janusza (potwierdzony w Aliens Registration ARG/II/65). Fakt posiadania walut gettowych przez polskiego generała sugeruje, że mógł je zdobyć/otrzymać w czasie wojny lub tuż po niej. List do Ambasady Izraela — próba sprzedaży instytucji muzealnej w Izraelu (1958 = 10 lat po powstaniu Państwa Izrael). Data w katalogu była 18.V.1958, ale na dokumencie widać '13th May' — korekta daty.",
         "powiazania": ["ARG/VI/11", "ARG/VI/12"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "300-1000 PLN"
     },
     {
         "sygn": "ARG/VI/11",
@@ -3473,7 +3686,8 @@ OBJECTS = [
         "jezyk": "niemiecki",
         "kontekst": "AUTENTYCZNE NUMIZMATY GETTA ŁÓDZKIEGO (Litzmannstadt Ghetto, 1940–1944). Bon pocztowy 10 Pf. emitowany przez 'Ältester der Juden' (Chaim Rumkowski) — waluta wewnętrzna getta, używana wyłącznie w obiegu gettowym. 'Postabteilung' = Oddział Pocztowy getta, obsługujący ograniczoną korespondencję. Talon chlebowy na 20 dkg — świadectwo systemu racjonowania żywności w getcie (głodowe racje). Data 17.IV.1942 — rok przed zamknięciem getta i deportacjami do Auschwitz/Chełmna. Koperta z inwentarzem ('Banknoty 10 szt.') potwierdza, że Krzysztof (lub gen. Janusz) przechowywał KOMPLETNY ZESTAW walut gettowych. Wartość kolekcjonerska: bon 10 Pf. = 500-1500 PLN, talon chlebowy = 300-800 PLN. Komplet z proweniencją = wielokrotnie więcej.",
         "powiazania": ["ARG/VI/10", "ARG/VI/12", "ARG/V/160"],
-        "stan": "Średni — papier kruchy"
+        "stan": "Średni — papier kruchy",
+        "wycena": "500-2000 PLN"
     },
     {
         "sygn": "ARG/VI/12",
@@ -3488,7 +3702,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "PARA DOKUMENTÓW: (1) List K. Głuchowskiego z 42 Emperors Gate, London SW7, 18.V.1958 — oferta sprzedaży pełnego zestawu walut i monet getta łódzkiego, opisanych jako 'of great rarity and museum value'; (2) Odpowiedź Ambasady z 22.V.1958 — sugestia Yad Vashem. Fakt że Głuchowski posiadał PEŁNY ZESTAW walut gettowych (por. ARG/VI/10, VI/11) i próbował je sprzedać do instytucji muzealnej w Izraelu, świadczy o świadomości ich wartości historycznej. Zestaw ostatecznie nie został sprzedany — pozostał w kolekcji rodzinnej.",
         "powiazania": ["ARG/VI/10", "ARG/VI/11"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "100-300 PLN"
     },
 
     # -- Fotografie obozowe --
@@ -3505,7 +3720,8 @@ OBJECTS = [
         "jezyk": "—",
         "kontekst": "Prawdopodobna PODRÓŻ SENTYMENTALNA — powrót do miejsc niewoli lata po wojnie. Samochód VW Beetle (Garbus) na jednym zdjęciu wskazuje na lata 50.-60. Wielu byłych jeńców wracało do Niemiec odwiedzić miejsca, w których pracowali i cierpieli. Dorsten (Westfalia) — Stalag VI J, obóz Krzysztofa. Alternatywna interpretacja: zdjęcia z Niemiec z okresu emigracji (tranzyt do Brazylii?).",
         "powiazania": ["ARG/V/9"],
-        "stan": "Średni — małe formaty"
+        "stan": "Średni — małe formaty",
+        "wycena": "200-500 PLN"
     },
 
     # -- Naukowy p19 = duplikat p04 (tablica), pomijam --
@@ -3526,7 +3742,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "DRUGIE KLUCZOWE ŹRÓDŁO — publikowany biogram Krzysztofa z pełną chronologią: AK → Powstanie → Stalag → 3 DSK → studia w Anglii → Brazylia → inżynier. Potwierdza wszystkie odznaczenia i przydział. Kwartalnik Biograficzny Polonii = encyklopedia wybitnych Polaków na emigracji.",
         "powiazania": ["ARG/II/33", "ARG/II/1"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "800-2000 PLN"
     },
 
     # =====================================================================
@@ -3548,7 +3765,8 @@ OBJECTS = [
         "jezyk": "n/a",
         "kontekst": "Beret pancerny gen. Głuchowskiego z okresu służby w Wielkiej Brytanii (1941-1945). Czarne berety w WP wprowadzono ok. 1937-1942 dla jednostek pancernych — nie istniały w I wojnie światowej ani w 1920 r. Głuchowski był Dowódcą JWWB (od IX.1943) i dowódcą Brygady Szkolnej w Szkocji (1941-1943). ŚLAD PO KULI — proweniencja wymaga dalszej kwerendy: możliwe naloty Luftwaffe na bazy w Szkocji, incydent szkoleniowy lub inna sytuacja bojowa. Głuchowski miał trzy Krzyże Walecznych, co świadczy o trzykrotnym wykazaniu się odwagą pod ogniem. Beret ze śladem po kuli — unikatowa relikwia, fizyczny dowód zagrożenia życia generała. Powiązany z albumem 'Żołnierz z Montecassino' z dedykacją gen. Andersa (ARG/II/54).",
         "powiazania": ["ARG/II/54", "ARG/II/48", "ARG/II/49", "ARG/II/50"],
-        "stan": "Ślad po kuli, drobne ubytki — uszkodzenie bojowe"
+        "stan": "Ślad po kuli, drobne ubytki — uszkodzenie bojowe",
+        "wycena": "1200-4000 PLN"
     },
     {
         "sygn": "ARG/II/35",
@@ -3563,7 +3781,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWY DOKUMENT TOŻSAMOŚCI generała II RP. Biuro Personalne M.S.Wojsk. = centrala kadrowa Ministerstwa Spraw Wojskowych, gdzie Głuchowski później (1935-1939) pełnił funkcję I Wiceministra. DOK I = Dowództwo Okręgu Korpusu Nr I w Warszawie — najważniejszy okręg wojskowy II RP. Kontrasygnatariusz: płk Marjan Czerniewski — oficer wyższy MSWojsk. 'Krzyż Walecznych 3×' = trzykrotne odznaczenie za waleczność (potwierdzone w biogramie ARG/II/33). Legitymacje osobiste generałów II RP z fotografią — EKSTREMALNIE RZADKIE na rynku antykwarycznym. Porównywalne: legitymacja gen. Maczka w zbiorach prywatnych — estymacja 5000-15000 PLN.",
         "powiazania": ["ARG/II/18", "ARG/II/19", "ARG/II/34"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1200-4000 PLN"
     },
     {
         "sygn": "ARG/II/36",
@@ -3578,7 +3797,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Adam Piłsudski (1869–1935) — starszy brat Marszałka Józefa Piłsudskiego, inżynier kolejowy. List z 1931 r. do Głuchowskiego (wówczas pułkownika, dowódcy 1. Pułku Ułanów) świadczy o bliskich relacjach Głuchowskiego z rodziną Piłsudskich — naturalnych, biorąc pod uwagę że obaj byli Legionistami z 1914 roku. Autograf Piłsudskiego — wysoka wartość kolekcjonerska.",
         "powiazania": ["ARG/II/17", "ARG/II/1"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1200-5000 PLN"
     },
     {
         "sygn": "ARG/II/37",
@@ -3593,7 +3813,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "SAKRALNY RYTUAŁ EMIGRACYJNY — zbieranie ziemi z miejsc pamięci do przewiezienia na emigrację było głęboko zakorzenioną tradycją polską (por. urna z ziemią polską w Instytucie Sikorskiego w Londynie). TRZY MIEJSCA: (1) WOLA — miejsce RZEŹI WOLI (5-12.VIII.1944), gdzie Niemcy wymordowali ok. 40 000-50 000 cywilów, największa jednorazowa masakra Powstania. (2) AL. SZUCHA — siedziba Gestapo w Warszawie, miejsce tortur i przesłuchań, symbol terroru. (3) POLE MOKOTOWSKIE — miejsce rozstrzeliwań i walk powstańczych. Osoby wymienione z pseudonimami (Zofia Topczyńska 'Władka') — to TOWARZYSZE BRONI Krzysztofa z Plutonu 1112! Gen. Głuchowski dokumentował te miejsca pamięci z Londynu — łącząc Serię II z Serią V.",
         "powiazania": ["ARG/II/40", "ARG/V/9"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1000-3000 PLN"
     },
     {
         "sygn": "ARG/II/38",
@@ -3608,7 +3829,8 @@ OBJECTS = [
         "jezyk": "n/a",
         "kontekst": "Głuchowski jako Zastępca Dowódcy Armii Polskiej w Szkocji odpowiadał za morale i ceremoniał. Szkocja 1941 — okres organizacji polskich sił zbrojnych na Zachodzie po klęsce Francji (1940).",
         "powiazania": ["ARG/II/39", "ARG/II/47"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1000-3000 PLN"
     },
     {
         "sygn": "ARG/II/39",
@@ -3623,7 +3845,8 @@ OBJECTS = [
         "jezyk": "n/a",
         "kontekst": "SZKOŁA PODCHORĄŻYCH PSZ na emigracji w Szkocji (Fife) — kształciła nowe kadry oficerskie na potrzeby planowanego powrotu Wojska Polskiego do walki. Gen. Głuchowski jako Dowódca Brygady Szkolnej (1941-1943) nadzorował szkolenie. Zdjęcie pełnego rocznika — ok. 120 osób — dokumentuje skalę polskiego wysiłku szkoleniowego na emigracji. Po wojnie wielu z tych podchorążych emigrowało do Kanady, USA, Australii i Argentyny.",
         "powiazania": ["ARG/II/38", "ARG/II/47"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1000-3000 PLN"
     },
     {
         "sygn": "ARG/II/40",
@@ -3638,7 +3861,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "ODKRYCIE KLUCZOWE! Napis 'A.K. / DYWIZJON WARSZAWSKI / JELEŃ / POWSTANIE 1944' to GRÓB JEDNOSTKI KRZYSZTOFA — 7 Pułku Ułanów Lubelskich AK 'Jeleń'! Data: 1.VIII.1960 = 16. rocznica wybuchu Powstania Warszawskiego. Gen. Janusz (stryj) dokumentował prace restauracyjne grobu, w którym leżeli towarzysze broni jego bratanka Krzysztofa z Plutonu 1112. 'Tabliczka przeniesiona z Wilanowa' — grób lub pomnik wcześniej istniał w innym miejscu. 'Proporzyk tynkowany' — proporzec pułkowy wmurowany w nagrobek. Dokument łączy Serię II (gen. Janusz) z Serią V (Krzysztof) — stryj opiekował się grobem bratanka's bojowych kolegów.",
         "powiazania": ["ARG/II/37", "ARG/II/41"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1200-4000 PLN"
     },
     {
         "sygn": "ARG/II/41",
@@ -3653,7 +3877,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWY DOKUMENT POWIĄZANY Z KRZYSZTOFEM! PLUTON 1112 = jednostka Krzysztofa w AK (por. ARG/III/7 z napisem 'Juraś / Nr 1112 / Jeleń'). Zidentyfikowani towarzysze broni: Zofia Kopczyńska ps. 'Władka', Józef Palecki ps. 'Ziuk', cpl. Kuleszy (sanitariuszka). Symbol JELENIA na grobie = 7 Pułk Ułanów Lubelskich — potwierdza przynależność unitarną. 'Kobryński' i 'Ostrowski' — pseudonimy poległych powstańców z plutonu 1112. Emil Hause = ojciec poległego 'Ostrowskiego'. Wizyta w 1960 r. — 16 lat po Powstaniu. DLACZEGO W SERII II (gen. Janusza)? Prawdopodobnie Krzysztof przesłał te zdjęcia stryjowi do Londynu. Powinno być powiązane z Serią V.",
         "powiazania": ["ARG/II/37", "ARG/II/40"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "2000-7500 PLN"
     },
     {
         "sygn": "ARG/II/42",
@@ -3668,7 +3893,8 @@ OBJECTS = [
         "jezyk": "n/a",
         "kontekst": "Inspekcje oddziałów — podstawowa funkcja dowódcza Głuchowskiego jako Zastępcy Dowódcy Armii Polskiej. Zdjęcia z inspekcji dokumentują hierarchię i ceremoniał Wojska Polskiego na Uchodźstwie.",
         "powiazania": ["ARG/II/38", "ARG/II/43"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1000-3000 PLN"
     },
     {
         "sygn": "ARG/II/43",
@@ -3683,7 +3909,8 @@ OBJECTS = [
         "jezyk": "n/a",
         "kontekst": "Polskie Siły Zbrojne stacjonowały w Szkocji od 1940 r. — gen. Głuchowski utrzymywał kontakty z lokalnymi władzami brytyjskimi. Lord Provost w pełnym ceremoniale (łańcuch urzędowy) sugeruje oficjalną wizytę państwową. Budynek kamienny o architekturze gotyckiej — prawdopodobnie ratusz (City Chambers) w Dundee, Perth lub Edynburgu. WYMAGA IDENTYFIKACJI osób i miejsca.",
         "powiazania": ["ARG/II/42", "ARG/II/47"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1000-3000 PLN"
     },
     {
         "sygn": "ARG/II/44",
@@ -3698,7 +3925,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Zjazd Harcerzy polskich w Dundee, 6 marca 1945 — ostatnie miesiące wojny. Harcerstwo polskie na emigracji w Szkocji było kluczowym elementem wychowania patriotycznego. Adnotacja 'bez mjra Grażyńskiego (mała obsesja)' sugeruje powtarzające się nieobecności tej osoby na zjazdach. Autor zdjęcia Wł. Przytyś pracował w oficjalnej Czołówce Filmowo-Fotograficznej Dowództwa — jednostce dokumentującej życie Wojska Polskiego w Wielkiej Brytanii. Ppłk Kazimierz Szeszy zidentyfikowany jako 'pierwszy od prawej'.",
         "powiazania": ["ARG/II/45"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1000-3000 PLN"
     },
     {
         "sygn": "ARG/II/45",
@@ -3713,7 +3941,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Ten sam Zjazd Harcerzy co ARG/II/44 — drugie ujęcie: zdjęcie grupowe na schodach. Obecność generałów i wyższych oficerów na zjeździe harcerskim świadczy o randze, jaką polskie dowództwo wojskowe na emigracji nadawało wychowaniu młodzieży. Dundee — jedno z głównych skupisk Polaków w Szkocji. Oficjalna dokumentacja przez Czołówkę Filmowo-Fotograficzną potwierdza znaczenie wydarzenia.",
         "powiazania": ["ARG/II/44"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1000-3000 PLN"
     },
     {
         "sygn": "ARG/II/46",
@@ -3728,7 +3957,8 @@ OBJECTS = [
         "jezyk": "n/a",
         "kontekst": "Kazimierz Gedymin Jurgielewicz (1891–1956) — oficer Wojska Polskiego. Cywilne ubranie sugeruje okres pozasłużbowy lub powojenną demobilizację. Zachowanie portretu w archiwum gen. Głuchowskiego świadczy o bliskiej relacji — prawdopodobnie współpraca w Brygadzie Szkolnej lub dowództwie jednostek w Szkocji (por. ARG/II/47 — Freuchie, Kurs Unitarny). Szkockie tło architektoniczne potwierdza lokalizację w Wielkiej Brytanii.",
         "powiazania": ["ARG/II/47"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1000-3000 PLN"
     },
     {
         "sygn": "ARG/II/47",
@@ -3743,7 +3973,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWY DOKUMENT. Freuchie — wieś w Fife (Szkocja), siedziba polskich jednostek szkoleniowych. Gen. bryg. Janusz Głuchowski pełnił funkcję Dowódcy Brygady Szkolnej (Training Brigade) — potwierdzone tą dedykacją. Kurs Unitarny (Unitary Course) — szkolenie oficerskie unifikujące wiedzę z różnych formacji. 28 podpisów na odwrocie to dokument personalny pozwalający zidentyfikować kadrę oficerską kursu. Dedykacja 'Swemu Dcy' (swojemu dowódcy) świadczy o szacunku i więzi uczniów z generałem. Maj 1942 — okres intensywnego szkolenia WP w Szkocji, przed planowaną inwazją na kontynent. Freuchie jako lokalizacja szkoleniowa — mało znana w historiografii.",
         "powiazania": ["ARG/II/38", "ARG/II/39", "ARG/II/46"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1200-4000 PLN"
     },
     {
         "sygn": "ARG/II/48",
@@ -3758,7 +3989,8 @@ OBJECTS = [
         "jezyk": "n/a",
         "kontekst": "Szkolenie polskich jednostek pancernych w Szkocji — przygotowania do inwazji na kontynent. 1. Dywizja Pancerna gen. Maczka szkoliła się w Szkocji 1942-1944. Głuchowski jako wysoki dowódca wizytował szkolenia.",
         "powiazania": ["ARG/II/34", "ARG/II/49", "ARG/II/50"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1000-3000 PLN"
     },
     {
         "sygn": "ARG/II/49",
@@ -3773,7 +4005,8 @@ OBJECTS = [
         "jezyk": "n/a",
         "kontekst": "15 czerwca 1945 — dwa tygodnie po mianowaniu Głuchowskiego na gen. dywizji (1.VI.1945). Bór-Komorowski jako Naczelny Wódz (od XI 1944) dokonuje inspekcji. Kelso — baza polskich jednostek w Szkocji. Zdjęcie trzech generałów razem — wysokiej rangi dokument historyczny.",
         "powiazania": ["ARG/II/50", "ARG/II/48", "ARG/II/34"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1000-3000 PLN"
     },
     {
         "sygn": "ARG/II/50",
@@ -3788,7 +4021,8 @@ OBJECTS = [
         "jezyk": "n/a",
         "kontekst": "Czołgi Cromwell — podstawowe uzbrojenie polskich jednostek pancernych w 1945. Parada 3. Pułku Pancernego w obecności Naczelnego Wodza to uroczysta demonstracja gotowości bojowej. Jednocześnie — symbolicznie — koniec wojny i początek okresu demobilizacji.",
         "powiazania": ["ARG/II/49", "ARG/II/48"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1000-3000 PLN"
     },
     {
         "sygn": "ARG/II/51",
@@ -3803,7 +4037,8 @@ OBJECTS = [
         "jezyk": "polski (adnotacja)",
         "kontekst": "UNIKALNY FENOMEN KULTUROWY: polska orkiestra dudziarska w Szkocji. L. Sprusiński — Pipe Major (kapelmistrz) orkiestry batalionowej 4. Dywizji Piechoty, 1945 r. Na verso adnotacja: 'Orkiestra L. Sprusińskiego / Baon Handy(?) / H.Q. Dyw. Piech. / 1945' — orkiestra przy kwaterze głównej dywizji. Polskie jednostki w Szkocji tworzyły własne pipe bands na wzór szkocki: polscy żołnierze grający na Great Highland Bagpipe z białymi getrami (spats) i beretami Tam o'Shanter. 4. Dywizja Piechoty stacjonowała w Szkocji 1940-1947 (m.in. w Kinross, Dundee, Perth). Orkiestry dudziarskie towarzyszyły defiladom, mszom polowym i uroczystościom — łączenie polskiej tradycji wojskowej ze szkockim ceremoniałem muzycznym.",
         "powiazania": ["ARG/II/48", "ARG/II/55"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "150-500 PLN"
     },
     {
         "sygn": "ARG/II/52",
@@ -3818,7 +4053,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Bezcenny zestaw dokumentujący trzy odrębne wydarzenia: (1) Zjazd Kawalerzystów w Szkocji, kwiecień 1941 — spotkanie oficerów kawalerii WP, ważne dla podtrzymania tożsamości broni; (2) Powitanie gen. Broniewskiego na dworcu w Szkocji 1945 z udziałem gen. Thorne'a (brytyjski dowódca Scottish Command) — moment polsko-brytyjskiej współpracy; (3) British Linen Bank — szkocka instytucja bankowa, obecność gen. Głuchowskiego może świadczyć o sprawach administracyjnych WP w Szkocji. Portret w gotyckiej bramie — prawdopodobnie kościół lub zamek szkocki, 1941.",
         "powiazania": ["ARG/II/47", "ARG/II/43", "ARG/II/49"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1000-3000 PLN"
     },
     {
         "sygn": "ARG/II/53",
@@ -3833,7 +4069,8 @@ OBJECTS = [
         "jezyk": "n/a",
         "kontekst": "WAŻNE ODKRYCIE: Zdjęcia dokumentują wyzwolenie polskich jeńców wojennych w Holandii 1945. Oznaczenia KGF na ubraniach kobiet wskazują na osoby uwolnione z obozów pracy/jenieckich. Autobus M 489 4153 — brytyjski transport wojskowy używany do ewakuacji wyzwolonych. Czwarte zdjęcie (inspekcja na bruku) pochodzi prawdopodobnie ze Szkocji — inny kontekst niż pozostałe trzy. Pieczęć Wojskowej Sekcji Fotograficznej potwierdza oficjalną dokumentację.",
         "powiazania": ["ARG/II/49", "ARG/II/50", "ARG/V/38"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "400-1000 PLN"
     },
     {
         "sygn": "ARG/II/54",
@@ -3848,7 +4085,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "OBIEKT KLUCZOWY DLA KOLEKCJI. Osobista dedykacja gen. Władysława Andersa — dowódcy polskiego zwycięstwa pod Monte Cassino — dla gen. Głuchowskiego. Dwa najwyższe autorytety Wojska Polskiego na emigracji: Anders (2. Korpus, Włochy) i Głuchowski (JWWB, Wielka Brytania). Dedykacja 'z wyrazami przyjaźni' i 'w hołdzie naszym żołnierzom' — dowód osobistej relacji obu generałów mimo służby na dwóch teatrach wojny. Album wydany w Rzymie 1945 = pierwsze opracowanie fotograficzne bitwy o Monte Cassino. Egzemplarz z dedykacją Andersa — najwyższa kategoria wartości kolekcjonerskiej i historycznej. Autograf Andersa na rynku antykwarycznym: 2000-5000 PLN sam w sobie.",
         "powiazania": ["ARG/II/34", "ARG/II/49", "ARG/II/53"],
-        "stan": "Średni — zażółcenia, grzbiet częściowo oderwany. Dedykacja czytelna."
+        "stan": "Średni — zażółcenia, grzbiet częściowo oderwany. Dedykacja czytelna.",
+        "wycena": "1600-6000 PLN"
     },
     {
         "sygn": "ARG/II/55",
@@ -3863,7 +4101,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Święto Łączności — coroczne święto wojsk łączności WP. Obóz pod Kinross (Szkocja) — miasto w Perth and Kinross, baza polskich jednostek wojskowych. Motocykliści-łącznościowcy (dispatch riders) pełnili kluczową rolę w komunikacji pola walki. Szpaler 16 motocykli = pluton łączności motocyklowej. Kinross leży ok. 30 km na północ od Edynburga — rejon intensywnych stacjonowań WP w Szkocji.",
         "powiazania": ["ARG/II/48", "ARG/II/51"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "400-1000 PLN"
     },
 
     # --- Seria V: Krzysztof Andrzej "Juraś" Głuchowski ---
@@ -3882,7 +4121,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "Krzysztof ('Juraś') Głuchowski — syn ppor. Stanisława Stefana Głuchowskiego i Wandy ps. 'Krysta' (żołnierz Kedywu AK), bratanek gen. Janusza Głuchowskiego. Powstaniec warszawski ps. 'Juraś', jeniec Stalag XI-B Fallingbostel (nr 141009). Po wojnie: 2. Korpus Polski we Włoszech, wykształcenie w Anglii, inżynier, emigracja do Brazylii (Rio de Janeiro). Paszporty brytyjskie dokumentują jego status uchodźcy — świadectwo losu polskiej emigracji wojennej.",
         "powiazania": ["ARG/V/9", "ARG/V/10", "ARG/V/124"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "400-1200 PLN"
     },
 
     # --- GALERIA — dodatkowe materiały ze skanów ---
@@ -3901,7 +4141,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Dokument organizacyjny lub kronikarski z archiwum Głuchowskich. Numerowane paragrafy sugerują oficjalny charakter — raport z działalności organizacji kombatanckiej lub kronika pułkowa.",
         "powiazania": ["ARG/VI/17"],
-        "stan": "Średni — zdjęcie słabej jakości, wymaga lepszego skanu"
+        "stan": "Średni — zdjęcie słabej jakości, wymaga lepszego skanu",
+        "wycena": "200-500 PLN"
     },
     {
         "sygn": "ARG/V/158",
@@ -3916,7 +4157,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWY DOKUMENT PAMIĘCI POWSTAŃCZEJ. Atak na gmach Gestapo przy al. Szucha 25 i Dom Prasy — jedna z najbardziej dramatycznych i krwawych akcji pierwszego dnia Powstania Warszawskiego (godzina 'W' = 17:00). 7 Pułk Ułanów AK 'Jeleń' poniósł ogromne straty: 67 z 187 uczestników poległo (35,8%). Krzysztof 'Juraś' Głuchowski — 18-letni starszy ułan — walczył w tym samym Dywizjonie 'Jeleń', choć nie wiadomo czy w tym konkretnym ataku. Tablica powstała po wojnie — prawdopodobnie umieszczona na budynku, z którego wyruszono do natarcia. '5 plutonów' = pełny Dywizjon. Połącz z: ARG/II/41 (groby z inskrypcją 'JELEŃ'), ARG/V/162 (rozkaz awansu KW za walki w Powstaniu), ARG/VI/20 (nekrologi żołnierzy 'Jelenia').",
         "powiazania": ["ARG/V/9", "ARG/V/10", "ARG/V/162", "ARG/II/41", "ARG/VI/20"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "1000-2500 PLN"
     },
     {
         "sygn": "ARG/VI/16",
@@ -3931,7 +4173,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "List osobisty do 'Jurka' z kręgu znajomych/rodziny Głuchowskich. Wzmianka o Prymasie — typowy temat korespondencji emigracyjnej, gdzie sprawy Kościoła katolickiego w Polsce śledzone z zagranicy miały wymiar zarówno religijny, jak i polityczny. Może dotyczyć Prymasa Wyszyńskiego (uwięzionego 1953-56) lub spraw kościelnych na emigracji.",
         "powiazania": [],
-        "stan": "Średni — zdjęcie słabej jakości"
+        "stan": "Średni — zdjęcie słabej jakości",
+        "wycena": "100-300 PLN"
     },
 
     # === p03 — dokumenty i listy ===
@@ -3948,7 +4191,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Dokument kronikarski z archiwum Głuchowskich. Numerowane pozycje sugerują systematyczny raport — możliwe że kronika 7 Pułku Ułanów AK 'Jeleń' lub sprawozdanie organizacji kombatanckiej. WAŻNE: na tej samej stronie galerii (p03) znajduje się osobny list K.A. Głuchowskiego do Ambasady Izraela z 18.V.1958 o sprzedaży pieniędzy getta łódzkiego — ten list stanowi parę z ARG/VI/12 (odpowiedź Ambasady z 22.V.1958).",
         "powiazania": ["ARG/VI/15"],
-        "stan": "Średni — wymaga lepszego skanu"
+        "stan": "Średni — wymaga lepszego skanu",
+        "wycena": "400-1000 PLN"
     },
     {
         "sygn": "ARG/V/159",
@@ -3963,7 +4207,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "JEDEN Z SERII LISTÓW HANDLOWYCH KRZYSZTOFA. W kolekcji zachowany też WCZEŚNIEJSZY list z 17.XI.1968 (galeria_p03_img04) z innego adresu: '66 Hazlewood Road, London W.12' — do tego samego Col. Bermana w Cleveland OH. W liście z 1968 Krzysztof pisze: 'During my visit to Poland I have seen my uncle Władysław' — wuj miał materiały kolekcjonerskie i prosił o pomoc w ich sprzedaży. Wymienione przedmioty: (1) pierścień srebrno-złoty z getta łódzkiego (Litzmannstadt) datowany 9.III.1942; (2) kompas/monety złocone z getta; (3) potwierdzenia. Na końcu: 'last week I am going for a couple of weeks to Argentina' — Krzysztof podróżował do Argentyny już w 1968! Zmiana adresu z 66 Hazlewood Road (W12, 1968) na 42 Emperors Gate (SW7, 1984) dokumentuje przeprowadzkę. Col. Berman — prawdopodobnie kolekcjoner numizmatów polsko-żydowskich w Cleveland, gdzie duża Polonia i społeczność żydowska.",
         "powiazania": ["ARG/V/157", "ARG/V/160", "ARG/V/166", "ARG/VI/10", "ARG/VI/11"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "300-1000 PLN"
     },
 
     # === p04 — katalog numizmatyczny i listy ===
@@ -3980,7 +4225,8 @@ OBJECTS = [
         "jezyk": "łaciński",
         "kontekst": "Starodruk numizmatyczny — traktat o monetach Hasmoneuszy łączy zainteresowania kolekcjonerskie Krzysztofa z judaistycznymi numizmatami (waluta getta łódzkiego). Monety hasmoneańskie — bite przez Judę Machabeusza i jego następców (167–37 p.n.e.) — cenione przedmioty kolekcjonerskie. Druk łaciński sugeruje wydanie akademickie z XVIII/XIX w. Sam w sobie może mieć wartość antykwaryczną.",
         "powiazania": ["ARG/V/160"],
-        "stan": "Średni — plamy od wilgoci, zagięcia"
+        "stan": "Średni — plamy od wilgoci, zagięcia",
+        "wycena": "150-400 PLN"
     },
     {
         "sygn": "ARG/V/160",
@@ -3995,7 +4241,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "NIEZWYKŁY DOKUMENT. Waluta getta łódzkiego (Litzmannstadt Getto, 1940–44) — monety aluminiowe i banknoty emitowane przez Judenrat pod nadzorem Chaima Rumkowskiego. Kompletne zestawy to dziś jedne z najcenniejszych numizmatów Holokaustu (wycena: 5000-20000 PLN za komplet). List do Ambasady Izraela w 1958 — Krzysztof próbował sprzedać je instytucji muzealnej. Pytanie: czy sprzedał? Jeśli nie — waluta może nadal być w kolekcji lub została sprzedana innemu kolekcjonerowi. Adres Ambasady: 2 Palace Green, W8 — historyczna siedziba ambasady Izraela w Londynie. Ten sam adres Krzysztofa co 26 lat później (list do Bermana, 1984).",
         "powiazania": ["ARG/V/159", "ARG/VI/18", "ARG/V/166"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "100-300 PLN"
     },
 
     # === p05 — nekrologi i wycinki prasowe ===
@@ -4012,7 +4259,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Środowisko emigracji wojskowej prowadziło systematyczną dokumentację obituarną. Gen. Głuchowski (zm. 1964) lub po jego śmierci syn Krzysztof zbierali nekrologi oficerów związanych z 7 Pułkiem Ułanów Lubelskich i szerszym kręgiem kawalerii WP. Odręczne notatki z referencjami ('Życie', 'Thomas 1960') świadczą o aktywnej pracy dokumentacyjnej — nie biernym gromadzeniu wycinków.",
         "powiazania": ["ARG/VI/20"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "100-300 PLN"
     },
     {
         "sygn": "ARG/VI/20",
@@ -4027,7 +4275,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "BEZCENNY ZBIÓR DOKUMENTÓW WSPÓLNOTY WETERANÓW 'JELENIA'. Koło Żołnierzy 7 Pułku Ułanów Lubelskich im. Gen. K. Sosnkowskiego — organizacja weteranów w diasporze (Londyn, Chicago, USA). 7 P.U.L. to pułk gen. Głuchowskiego — dowodził nim w okresie międzywojennym. Patron: Gen. Kazimierz Sosnkowski (1885–1969), Naczelny Wódz PSZ 1943–44. Pchor. Tadeusz Doberski (adwokat, poległ w Powstaniu) — z towarzysz broni Krzysztofa w Dywizjonie 'Jeleń'. Jan Lorens — prezes chicagowskiej sekcji Koła, co potwierdza diasporę weteranów na obu kontynentach. Zawiadomienie o mszy z X.1970 dokumentuje, że 26 lat po Powstaniu żywa wspólnota weteranów nadal organizowała nabożeństwa, składała kwiaty na grobach poległych. Maria Zalewska i Chojnacka — kobiety Dywizjonu, prawdopodobnie sanitariuszki lub łączniczki. Dywizjon 'Jeleń' = konspiracyjna kontynuacja tradycji 7 P.U.L. w AK.",
         "powiazania": ["ARG/V/158", "ARG/V/162", "ARG/VI/19"],
-        "stan": "Średni — pożółkłe, kruche"
+        "stan": "Średni — pożółkłe, kruche",
+        "wycena": "200-600 PLN"
     },
 
     # === p06 — album wojskowy i nekrologi ===
@@ -4044,7 +4293,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Album-dar dla dowódcy — typowa forma wyrazu szacunku w tradycji Wojska Polskiego. Gen. Głuchowski od IX.1943 dowodził JWWB (Jednostkami Wojskowymi w Wielkiej Brytanii), wizytując m.in. Centrum Wyszkolenia Łączności. Data 8.III.1944 potwierdza aktywność dowódczą Głuchowskiego w Szkocji/Anglii. Zdjęcia z 1921 roku dokumentują tradycje pułkowe — toast 'za zdrowie Komendanta' i poranna zbiórka to sceny z życia garnizonu II RP.",
         "powiazania": ["ARG/II/58", "ARG/II/60"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "1600-6000 PLN"
     },
     {
         "sygn": "ARG/VI/21",
@@ -4059,7 +4309,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Walery Iwanowski — mgr inż., dyrektor w Zjednoczeniu Przemysłu Budowlanego, kawaler Orderu Odrodzenia Polski. Fakt zachowania 5 nekrologów w archiwum Głuchowskich świadczy o bliskiej relacji rodzinnej lub zawodowej. Album z img06 z tartanową wstęgą i Orłem Polskim może być albumem fotograficznym gen. Janusza z okresu pobytu w Szkocji (1940-45) — taki sam motyw szkocki jak w dokumentach ARG/II/47 (Freuchie). Powiązanie wymaga dalszego badania.",
         "powiazania": ["ARG/VI/19", "ARG/VI/20", "ARG/II/47"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "100-300 PLN"
     },
 
     # === p07 — album wojskowy ===
@@ -4076,7 +4327,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Album z podpisami — cenny dokument identyfikacyjny. Manewry i ceremonie wojskowe II RP dokumentują strukturę dowodzenia i relacje między oficerami. Podpisy pozwalają na identyfikację osób i wydarzeń historycznych.",
         "powiazania": ["ARG/II/57", "ARG/II/60"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "1600-6000 PLN"
     },
 
     # === p08 — karykatury i album ===
@@ -4093,7 +4345,8 @@ OBJECTS = [
         "jezyk": "n/a",
         "kontekst": "UNIKAT. Oryginał rysunku ołówkowego w kolekcji rodzinnej sportretowanego — wyjątkowa wartość, bo teka wydana zawiera jedynie litografie, a oryginalne rysunki przygotowawcze nie były publikowane. Hertz-Barwiński (aktor, reżyser teatralny, dwukrotnie odznaczony KW) rysował współtowarzyszy broni na pozycjach I Brygady LP na Wołyniu. Fakt posiadania oryginału przez rodzinę Głuchowskich sugeruje bezpośredni dar artysty dla portretowanego oficera.",
         "powiazania": ["ARG/II/1", "ARG/II/2", "ARG/II/36"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "400-1000 PLN"
     },
     {
         "sygn": "ARG/II/60",
@@ -4108,7 +4361,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Album fotograficzny gen. Janusza Głuchowskiego — osobisty zbiór zdjęć z okresu służby w Wojsku Polskim II RP. Zdjęcia grupowe na ciemnym kartonie z podpisami to typowa forma albumu oficerskiego. Kolejne strony albumu: ARG/II/57-58 (wcześniejsze), ARG/II/60 (ta strona). Album stanowi spójną całość dokumentującą karierę wojskową Janusza od porucznika do generała.",
         "powiazania": ["ARG/II/57", "ARG/II/58", "ARG/II/59"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "1600-6000 PLN"
     },
 
     # === p09 — legitymacja wojskowa ===
@@ -4125,7 +4379,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Legitymacja z pieczęcią Szefa Sztabu Głównego — dokument najwyższej rangi identyfikacyjnej w WP II RP. Szefami SG w latach 30. byli m.in. gen. Tadeusz Piskor (1926–31) i gen. Wacław Stachiewicz (1935–39). Wielokrotne przedłużenia wskazują na długotrwałą służbę czynną Głuchowskiego — jako I Wiceminister Spraw Wojskowych (1928–35) i dowódca dywizji kawalerii potrzebował aktualnej legitymacji na najwyższym poziomie autoryzacji.",
         "powiazania": ["ARG/II/1", "ARG/II/2", "ARG/II/36"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "800-2000 PLN"
     },
 
     # === p10 — dyplom Krzyża Legionowego ===
@@ -4142,7 +4397,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Krzyż Legjonowy — odznaczenie wojskowe II RP za służbę w Legionach Polskich 1914–18 (ustawa z 2.VIII.1923, rozporządzenie z 3.VI.1925). Głuchowski jako jeden z 'Siódemki Beliny' (3.VIII.1914) i oficer I Brygady — Nr 115 plasuje go w ścisłej czołówce odznaczonych. Skrót 'I. br. wt.' potwierdza przynależność do I Brygady LP dowodzonej przez Piłsudskiego. Data VI.1925 — dyplom wystawiony niemal natychmiast po wejściu rozporządzenia w życie, co świadczy o priorytetowym traktowaniu weterana Siódemki.",
         "powiazania": ["ARG/II/1", "ARG/II/56", "ARG/II/59", "ARG/II/64"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "4000-12000 PLN"
     },
 
     # === p11 — świadectwo urodzenia ===
@@ -4159,7 +4415,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "DWA ŚWIADECTWA URODZENIA W ZESTAWIE: (1) galeria_p11_img01 — Świadectwo Urodzenia i Chrztu z parafii Wszystkich Świętych, Nr 618/1927, ojciec Stefan; (2) galeria_p11_img02 — Świadectwo Urodzenia z PARAFII W.W. ŚWIĘTYCH (ta sama parafia), Nr 818 r. 1924, na nazwisko 'Krzysztof Andrzej Głuchowski', urodzony dnia 29, miesiąca Listopada, z ojca Stefana Głuchowskiego, z matki [nieczytelne], pieczęć Urzędu Stanu Cywilnego. WAŻNE: Nr 818/1924 może dotyczyć wpisu do metryk parafialnych prowadzonych wstecz, lub innego dziecka z rodziny. Data urodzenia '29 Listopada' zgadza się z datą urodzenia Krzysztofa (29.XI.1926). Różnica numerów (618/1927 vs 818/1924) sugeruje dwa odrębne odpisy metrykalne — możliwe, że jeden z nich był potrzebny do sfałszowania daty na Kennkarte (por. ARG/V/161 — data 1928 zamiast 1926).",
         "powiazania": ["ARG/II/61"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "400-1000 PLN"
     },
 
     # === p12 — dokumenty okupacyjne ===
@@ -4176,7 +4433,8 @@ OBJECTS = [
         "jezyk": "niemiecki, polski",
         "kontekst": "DOKUMENT Z SFAŁSZOWANĄ DATĄ URODZENIA — świadectwo konspiracyjnej ochrony rodziny. Kennkarte podaje rok urodzenia 1928 zamiast prawdziwego 1926 — różnica 2 lat chroniła 17-letniego Krzysztofa przed Arbeitseinsatz (przymusowa praca od 16 r.ż.) i ewentualną łapanką. Rodzina Głuchowskich (ojciec Stefan) musiała przekonać urzędnika stanu cywilnego do wydania sfałszowanego dokumentu — co samo w sobie było aktem oporu. Adres: ul. Pogonowskiego, Warszawa. Wydanie 9.XI.1943 — Krzysztof w tym czasie prawdopodobnie już działał w konspiracji AK (wg biogramu uciekł z domu jesienią 1943 do ZWZ/AK). 9 miesięcy później weźmie udział w Powstaniu Warszawskim jako ułan Dywizjonu 'Jeleń'. PARADOKS: Kennkarte z fałszywymi danymi posłużyła później jako dokument tożsamości jeńca wojennego — w Stalagu XI B figuruje już z poprawną datą 1926. Niezwykle rzadki zachowany egzemplarz Kennkarte zidentyfikowanego powstańca AK z udowodnionym fałszerstwem ochronnym.",
         "powiazania": ["ARG/V/162", "ARG/V/163", "ARG/II/61"],
-        "stan": "Średni — zużycie z użytkowania"
+        "stan": "Średni — zużycie z użytkowania",
+        "wycena": "200-600 PLN"
     },
 
     # === p13 — dokumenty wojskowe AK ===
@@ -4193,7 +4451,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "BEZCENNE DOKUMENTY POWSTAŃCZE. Grupa 'Północ' — jedno ze zgrupowań AK w Powstaniu Warszawskim, operująca na Żoliborzu i okolicach. Rozkaz awansu z pieczęcią Komendanta AK Warszawa — autentyczny dokument konspiracyjny, którego większość została zniszczona podczas kapitulacji lub przechwycona przez Niemców. Krzysztof Głuchowski walczył w 7 P.U.L. AK 'Jeleń' — wg tablicy pamiątkowej (ARG/V/158) z tego samego pułku w natarciu na gmach Gestapo 1.VIII.1944 z 187 powstańców poległo 67. Nagrodzenie KW w IX.1944 — w trakcie trwających walk — świadczy o wyjątkowej odwadze 18-letniego ułana.",
         "powiazania": ["ARG/V/158", "ARG/V/161", "ARG/II/64"],
-        "stan": "Średni — uszkodzenia wojenne, zagniecenia"
+        "stan": "Średni — uszkodzenia wojenne, zagniecenia",
+        "wycena": "400-1000 PLN"
     },
 
     # === p14 — fragmenty notatek ===
@@ -4210,7 +4469,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "WAŻNE ODKRYCIE KATALOGOWE: 3 z 6 zdjęć w tym zestawie to NIE zniszczone fragmenty, lecz alternatywne fotografije dokumentów z Powstania Warszawskiego, które mają swoje osobne wpisy w Serii V (ARG/V/5, V/6, V/7). Prawdopodobnie sfotografowane osobno podczas wstępnej dokumentacji kolekcji (seria 'galeria'), zanim dokonano szczegółowej katalogizacji (seria 'Seria_29z'). Dopisek 'Pawłoś 1942 Krasnoyarsk' na verso (img04) — jeśli poprawnie odczytany — może wskazywać na związek rodziny Głuchowskich z deportacjami sowieckimi (Krasnojarski Kraj był głównym rejonem zsyłek).",
         "powiazania": ["ARG/V/5", "ARG/V/6", "ARG/V/7"],
-        "stan": "Zły (fragmenty img01, img03) / Dobry (img02, img05, img06)"
+        "stan": "Zły (fragmenty img01, img03) / Dobry (img02, img05, img06)",
+        "wycena": "600-1600 PLN"
     },
 
     # === p15 — medal fizyczny ===
@@ -4227,7 +4487,8 @@ OBJECTS = [
         "jezyk": "n/a",
         "kontekst": "UNIKALNE ARTEFAKTY TRÓJWYMIAROWE. Krzyż Walecznych — najważniejsze polskie odznaczenie bojowe, nadawane za męstwo w walce. Inskrypcja 'NA POLU CHWAŁY 1920' identyfikuje ten egzemplarz jako nadany za wojnę polsko-bolszewicką. Gen. Głuchowski — trzykrotny kawalerowie KW — dowodził szwadronu 1 P.U. w bitwach 1920 r., w tym w pościgu za armią Budionnego. Sznur dystynkcyjny oficerski (lanyard z plecionką diamentową) i galon to elementy munduru, które przetrwały wraz z medalem — komplet osobistych pamiątek oficerskich najwyższej wartości muzealnej i sentymentalnej.",
         "powiazania": ["ARG/II/62", "ARG/II/1", "ARG/V/162"],
-        "stan": "Dobry — wstążka lekko wyblakła, lanyard w dobrym stanie"
+        "stan": "Dobry — wstążka lekko wyblakła, lanyard w dobrym stanie",
+        "wycena": "1600-4000 PLN"
     },
 
     # === p16 — dokumenty jenieckie ===
@@ -4244,7 +4505,8 @@ OBJECTS = [
         "jezyk": "niemiecki",
         "kontekst": "Stalag XI B Fallingbostel (NIE Stalag IV-B Mühlberg, jak podawano wcześniej — potwierdzone przez Kriegsgefangenenpost z kolekcji i biogram z 1995 r.). Obóz w Fallingbostel, Dolna Saksonia, mieścił ok. 95 000 jeńców różnych narodowości. Powstańcy warszawscy po kapitulacji (2.X.1944) byli traktowani jako jeńcy wojenni na mocy układu kapitulacyjnego. Krzysztof Głuchowski trafił tam jako 18-letni ułan AK. Karta jeniecka to kluczowy dokument identyfikacyjny — pozwala zweryfikować losy jeńca w niemieckich bazach danych (Arolsen Archives / ITS).",
         "powiazania": ["ARG/V/161", "ARG/V/162", "ARG/V/157"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "500-1500 PLN"
     },
 
     # === WhatsApp_new — Aliens Registration gen. Janusza ===
@@ -4261,7 +4523,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "JEDYNE ZNALEZIONE ZDJĘCIE gen. Głuchowskiego w kolekcji (poza oficjalnymi). Mężczyzna łysy z wąsem. Dokument rejestracji cudzoziemca w Wielkiej Brytanii. Część kompletu: okładka (wa_aliens_reg_cover.jpeg), pieczątki (wa_aliens_reg_stamps.jpeg), zwolnienie (wa_aliens_reg_exempt.jpeg).",
         "powiazania": ["ARG/II/66", "ARG/II/1"],
-        "stan": "Dobry — niebieska sofa w tle, wymaga rembg"
+        "stan": "Dobry — niebieska sofa w tle, wymaga rembg",
+        "wycena": "600-1600 PLN"
     },
     {
         "sygn": "ARG/II/66",
@@ -4276,7 +4539,8 @@ OBJECTS = [
         "jezyk": "angielski",
         "kontekst": "Komplet dokumentu rejestracji cudzoziemca gen. Janusza Głuchowskiego w Wielkiej Brytanii. Nr A 274782. Pieczątki Metropolitan Police potwierdzają ciągłą rejestrację od 1948 do 1986 (38 lat!). Ostateczne zwolnienie z obowiązku rejestracji (EXEMPT FROM REGISTRATION) — prawdopodobnie po uzyskaniu stałego pobytu. Generał, który dowodził dywizją kawalerii i był I Wiceministrem Spraw Wojskowych, musiał się cyklicznie meldować na policji jako 'alien' — wymowny symbol losu polskiej emigracji.",
         "powiazania": ["ARG/II/65"],
-        "stan": "Dobry — niebieska sofa w tle, wymaga rembg"
+        "stan": "Dobry — niebieska sofa w tle, wymaga rembg",
+        "wycena": "800-2000 PLN"
     },
 
     # === WhatsApp_new — Krzyż AK Krzysztofa ===
@@ -4293,7 +4557,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Krzyż AK — odznaczenie za służbę w Armii Krajowej. Podpis gen. Bór-Komorowskiego (Naczelny Wódz) podnosi wartość. Nr 3316. 7 Pułk Ułanów 'Jeleń' — jednostka Powstania Warszawskiego, sektor Mokotów. Komplet z okładką: wa_krzyz_ak_okladka.jpeg (symbol PW).",
         "powiazania": ["ARG/V/165", "ARG/V/3", "ARG/V/9"],
-        "stan": "Dobry — niebieska sofa w tle, wymaga rembg"
+        "stan": "Dobry — niebieska sofa w tle, wymaga rembg",
+        "wycena": "1000-3000 PLN"
     },
     {
         "sygn": "ARG/V/165",
@@ -4308,7 +4573,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Okładka legitymacji Krzyża AK z 7.III.1968 — drugi egzemplarz obok ARG/V/119 (nr 3316). Symbol PW (Polska Walcząca) = kotwica zaprojektowana w 1942 przez harcerza Annę Smoleńską — jeden z najbardziej rozpoznawalnych znaków polskiego oporu. Krzyż AK ustanowiony rozkazem gen. Bora-Komorowskiego 1.VIII.1966 (22. rocznica Godziny 'W'). Nadawany żołnierzom AK z udokumentowaną służbą — Krzysztof miał pełną dokumentację (zaświadczenie, weryfikacja, lista personalna). Zdjęcie na niebieskiej sofie = fotografowane w domu Krzysztofa w Anglii, prawdopodobnie przy dokumentowaniu kolekcji.",
         "powiazania": ["ARG/V/164", "ARG/V/119"],
-        "stan": "Dobry — niebieska sofa w tle, wymaga rembg"
+        "stan": "Dobry — niebieska sofa w tle, wymaga rembg",
+        "wycena": "500-1500 PLN"
     },
 
     # === WhatsApp_new — Weryfikacja AK 1946 ===
@@ -4325,7 +4591,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Dokument weryfikacyjny AK dotyczący plut. NOWAKOWSKIEGO MATEUSZA (rocznik 1926) — NIE Głuchowskiego! Znaleziony w kolekcji Głuchowskich jako dokument porównawczy z tego samego procesu weryfikacyjnego. Ten sam 7 P.Uł.L., ta sama Komisja, ten sam okres (VII.1946). Podpisany przez ppłk. J. Uszyckiego — Przewodniczącego Komisji. Nowakowski — współtowarzysz Krzysztofa z plutonu 1112 (obaj rocznik 1926).",
         "powiazania": ["ARG/V/164"],
-        "stan": "Dobry — niebieska sofa w tle, wymaga rembg"
+        "stan": "Dobry — niebieska sofa w tle, wymaga rembg",
+        "wycena": "1000-2500 PLN"
     },
 
     # === WhatsApp_new — Portret rodzinny ===
@@ -4342,7 +4609,8 @@ OBJECTS = [
         "jezyk": "—",
         "kontekst": "Portret rodzinny — kluczowy dokument genealogiczny. Rodzina Głuchowskich: Marian (ojciec, Seria I) + Maria z Żółkowskich + synowie (Janusz, Stefan, Lech, Krzysztof + ewentualne córki). Strój harcerski jednego z chłopców datuje zdjęcie na po 1916 (powstanie polskiego harcerstwa). Mundur oficera sugeruje okres I wojny lub pierwszych lat II RP. Porównanie twarzy z karykaturą Hertza-Barwińskiego (ARG/II/59) mogłoby pomóc zidentyfikować Janusza na zdjęciu.",
         "powiazania": ["ARG/II/65", "ARG/II/1", "ARG/I/1", "ARG/II/59"],
-        "stan": "Średni — sepia, niebieska sofa w tle (wymaga rembg)"
+        "stan": "Średni — sepia, niebieska sofa w tle (wymaga rembg)",
+        "wycena": "500-1200 PLN"
     },
 
     # === WhatsApp_new — Biogram Krzysztofa 1995 ===
@@ -4359,7 +4627,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWY DOKUMENT ŹRÓDŁOWY — autobiografia napisana przez Krzysztofa na 25 lat przed śmiercią. Weryfikuje fakty: Stalag XI B Fallingbostel (NIE IV-B Mühlberg!), nr jeńca 0-1245, uciekł do AK jesienią 1943 (nie 1942), walczył na Mokotowie i Starówce. Podaje kompletną bibliografię publikacji i archiwaliów (BN Warszawa, Zbiór Rękopisów Nr 13853 — korespondencja z ojcem z Włoch). Adres londyński: 42 Emperors Gate, SW7 — ten sam co na liście do ambasady izraelskiej (ARG/V/159). Rio de Janeiro — ostatni okres życia Krzysztofa przed śmiercią ok. 2020.",
         "powiazania": ["ARG/V/164", "ARG/V/151", "ARG/V/163", "ARG/V/161", "ARG/V/162", "ARG/VI/24", "ARG/VI/25"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "800-2000 PLN"
     },
 
     # === WhatsApp_new — Biogram Lecha 1995 ===
@@ -4376,7 +4645,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "CZWARTY SYN MARIANA: Lech Głuchowski (ok. 1902–15.IX.1944) — brat Janusza (1888) i Stefana (1893), STRYJ Krzysztofa 'Jurasia'. Rotmistrz kawalerii, weteran kampanii wrześniowej (7 P.U.L.), Francji (10. BKP) i Anglii. Wrócił do okupowanej Polski i walczył w AK 'Jeleń'. Poległ na Mokotowie 15 września 1944 w Powstaniu Warszawskim. Odznaczony Krzyżem Virtuti Militari — najwyższe polskie odznaczenie wojskowe. Krzyż AK Nr 1 z podpisem gen. Bora-Komorowskiego. TRZY BRACIA w walce: Janusz (generał PSZ w Anglii), Stefan (AK Żoliborz, Pawiak), Lech (AK Mokotów, poległ). Biogram spisany przez Krzysztofa w tym samym dniu (18.X.1995) co autobiografia i biogram Stefana — systematyczna praca dokumentacyjna w Rio de Janeiro. Dedykacja od Lecha do Stefana zachowana w kolekcji (ARG/VI/28).",
         "powiazania": ["ARG/V/166", "ARG/VI/25", "ARG/I/1"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "5000-12000 PLN"
     },
 
     # === WhatsApp_new — Biogram Stefana 1995 ===
@@ -4393,7 +4663,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWY DOKUMENT GENEALOGICZNY — biogram Stefana spisany przez jego syna Krzysztofa w 1995. Potwierdza: Stefan (1893) i Janusz (1888) to BRACIA — obaj synowie Mariana i Marii z Ziółkowskich. Krzysztof 'Juraś' jest SYNEM Stefana i Wandy z Głuchowskich ps. 'Krysta' (nie Janusza!). ARCHIWA: korespondencja Stefana zdeponowana w BN Warszawa (Zbiór Rękopisów Nr 13853) i w Archiwum PAN przy Rynku Starego Miasta — te zbiory mogą uzupełnić kolekcję! Stefan aresztowany przez Gestapo 18.V.1944, więziony na Pawiaku, przesłuchiwany na Al. Szucha. Zwolniony 29.VII.1944 — 3 dni przed Powstaniem! W AK: z-ca d-cy kompanii w S.O.P. Warszawa-Żoliborz. Krzyż AK nr 3720. Pochowany na Powązkach kw. 99-IV-19.",
         "powiazania": ["ARG/VI/24", "ARG/V/166", "ARG/III/1"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "800-2000 PLN"
     },
 
     # === WhatsApp_new — Kriegsgefangenenpost (przeniesiony z V/170 → III/38 — dot. Stefana) ===
@@ -4410,7 +4681,8 @@ OBJECTS = [
         "jezyk": "niemiecki, polski",
         "kontekst": "Kriegsgefangenenpost — regulaminowa poczta jeniecka. Rückantwortbrief = odpowiedź na list jeńca. Nr jeńca 0-1245 to numer STEFANA (ppor. Stanisław Stefan Głuchowski), co zgadza się z ARG/III/1 (Kriegsgefangenenpost od Stefana z nr 0.1245). Krzysztof (syn) miał inny numer: 141009. Data 5.I.1945 — trzy miesiące przed wyzwoleniem Stalagu XI B (16.IV.1945). Kleczew, pow. Radomsko — gmina w pobliżu Bukowej (majątek rodzinny). Stefan i Krzysztof byli w TYM SAMYM Stalagu XI B Fallingbostel — ojciec w baraku 201/4, syn w innym baraku. Dwa pokolenia jeńców w jednym obozie. PRZENIESIONY z Serii V/170 do III/38 — dokument dotyczy Stefana, nie Krzysztofa.",
         "powiazania": ["ARG/III/1", "ARG/III/5", "ARG/V/163", "ARG/V/166"],
-        "stan": "Średni — niebieska sofa w tle, wymaga rembg"
+        "stan": "Średni — niebieska sofa w tle, wymaga rembg",
+        "wycena": "200-600 PLN"
     },
 
     # === WhatsApp_new — Rękopis wspomnienia ===
@@ -4427,7 +4699,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Krzysztof Głuchowski był aktywnym autorem wspomnień i publikacji historycznych — biogram z 1995 (ARG/V/166) wymienia: artykuły w 'Ułanie Lubelskim' (od 1947), materiały do 'Powstanie Warszawskie' (Borkiewicz), współautorstwo '135 Pluton AK'. Ten rękopis może być brudnopisem jednej z tych publikacji lub niepublikowaną relacją. Archiwum PAN i BN (Zbiór Rękopisów Nr 13853) mają inne rękopisy Krzysztofa — porównanie pisma mogłoby potwierdzić autorstwo.",
         "powiazania": ["ARG/V/166", "ARG/V/151"],
-        "stan": "Średni — pożółkły, zagięcia"
+        "stan": "Średni — pożółkły, zagięcia",
+        "wycena": "1600-5000 PLN"
     },
 
     # === Downloads/gluchowski — Stefan Głuchowski (stefan_001–019) ===
@@ -4444,7 +4717,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Zarządzenie o powołaniu Komisji Dyscyplinarnej dla urzędników m.in. Kancelarii Cywilnej Prezydenta RP — instytucji, w której pracował Stefan Głuchowski. Prezes RM w III.1929 — prof. Kazimierz Bartel (zaufany Piłsudskiego, zamordowany przez Gestapo w 1941). Dokument potwierdza przynależność instytucjonalną Stefana do najwyższego szczebla administracji II RP — Kancelaria Cywilna Prezydenta Mościcki. Stefan musiał być obecny na liście podległych urzędników.",
         "powiazania": ["ARG/III/1", "ARG/III/11", "ARG/III/12"],
-        "stan": "Średni — pożółkły, ślady zginania"
+        "stan": "Średni — pożółkły, ślady zginania",
+        "wycena": "500-1200 PLN"
     },
     {
         "sygn": "ARG/III/11",
@@ -4459,7 +4733,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Medal za Długoletnią Służbę — ustanowiony ustawą z 8.I.1938. Brązowy = 10+ lat nienagannej służby. Stefan pracował w Kancelarii Cywilnej od ok. 1921 — w 1938 miał już 17 lat stażu. Tytuł 'Kierownik Referatu' = stanowisko kierownicze w administracji prezydenckiej. Kancelaria Cywilna Prezydenta RP — najwyższy organ administracji cywilnej II RP, obsługujący prezydenta Ignacego Mościckiego (1926–1939). Stefan był bratem gen. Janusza — obaj na szczytach państwa: jeden wojskowy (I Wiceminister), drugi cywilny (Kancelaria Prezydenta).",
         "powiazania": ["ARG/III/10", "ARG/III/12", "ARG/III/1"],
-        "stan": "Średni — plamy wilgoci u dołu"
+        "stan": "Średni — plamy wilgoci u dołu",
+        "wycena": "500-1500 PLN"
     },
     {
         "sygn": "ARG/III/12",
@@ -4474,7 +4749,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Złoty Krzyż Zasługi — jedno z najwyższych odznaczeń cywilnych II RP, nadawany za wybitne zasługi w służbie państwowej. Data 11.XI.1936 — Święto Niepodległości, tradycyjny dzień nadawania odznaczeń. Prezes RM w XI.1936 = gen. Felicjan Sławoj Składkowski. Stefan Głuchowski = 'Kierownik Referatu Kancelarii Cywilnej Prezydenta Rzeczypospolitej Polskiej' — STANOWISKO KIEROWNICZE w osobistym biurze prezydenta Mościckiego. Bracia Głuchowscy — podwójne szczyty II RP: Janusz jako I Wiceminister Spraw Wojskowych (1935–39), Stefan jako Kierownik w Kancelarii Prezydenta. Rodzina u SAMEGO szczytu państwa.",
         "powiazania": ["ARG/III/11", "ARG/III/10", "ARG/III/19"],
-        "stan": "Dobry — czytelny, ozdobny"
+        "stan": "Dobry — czytelny, ozdobny",
+        "wycena": "500-1500 PLN"
     },
     {
         "sygn": "ARG/III/13",
@@ -4489,7 +4765,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Komisje Kwalifikacyjne oceniały urzędników państwowych II RP pod kątem kwalifikacji zawodowych i służbowych. Zaliczenie do wyższej grupy oznaczało awans płacowy i statusowy. Data 19.XII.1933 z mocą od 1.II.1934 — typowa procedura administracyjna. Potwierdza ciągłość służby Stefana w Kancelarii Prezydenckiej.",
         "powiazania": ["ARG/III/1", "ARG/III/14"],
-        "stan": "Średni — papier pożółkły, naderwany"
+        "stan": "Średni — papier pożółkły, naderwany",
+        "wycena": "200-500 PLN"
     },
     {
         "sygn": "ARG/III/14",
@@ -4504,7 +4781,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Tytuł 'Kierownik Referatu' pozwala datować dokument na okres PRZED 1931 — w późniejszych pismach Stefan jest tytułowany 'Radca Ministerialny' (ARG/III/15, III/17). Ścieżka kariery Stefana: Kierownik Referatu (do ok. 1930) → Radca Ministerialny (od ok. 1931). Papier firmowy Kancelarii Cywilnej Prezydenta RP z nagłówkiem — sam w sobie dokument z najwyższej instytucji II RP.",
         "powiazania": ["ARG/III/13"],
-        "stan": "Średni — pożółkły, naderwany"
+        "stan": "Średni — pożółkły, naderwany",
+        "wycena": "200-500 PLN"
     },
     {
         "sygn": "ARG/III/15",
@@ -4519,7 +4797,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "STEFAN GŁUCHOWSKI UCZESTNIKIEM POLOWANIA PREZYDENCKIEGO! Polowanie hubertusowe w Spale (Św. Hubert = 3 XI, patron myśliwych) — ekskluzywna impreza prezydencka, zarezerwowana dla najbliższego otoczenia prezydenta Mościckiego. Spała — dawna carskie łowisko, po 1918 rezydencja letnia Prezydenta RP. Stefan tytułowany 'Radca Ministerialny' — wyższy stopień urzędniczy niż 'Kierownik Referatu'. Znaczek pamiątkowy 'wydany przez Pana Prezydenta' = osobisty upominek Mościckiego dla uczestników polowania. Potwierdza BLISKI DOSTĘP Stefana do Prezydenta — nie tylko służbowy, ale i towarzyski.",
         "powiazania": ["ARG/III/1", "ARG/III/10", "ARG/III/11", "ARG/III/12"],
-        "stan": "Dobry — czytelny, papier firmowy z nagłówkiem"
+        "stan": "Dobry — czytelny, papier firmowy z nagłówkiem",
+        "wycena": "200-500 PLN"
     },
     {
         "sygn": "ARG/III/16",
@@ -4534,7 +4813,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KRZYŻ NIEPODLEGŁOŚCI — jedno z NAJWYŻSZYCH odznaczeń II RP, nadawane za walkę o niepodległość Polski w latach 1914–1921. Nadawany dekretem Prezydenta RP. Stefan Głuchowski kwalifikował się jako członek PPS i uczestnik walk niepodległościowych. Data 9.XI.1931 = dzień przed Świętem Niepodległości. Stefan odznaczony TEGO SAMEGO DNIA co Order Odrodzenia Polski (ARG/III/17)! Podwójne wyróżnienie w jednym dniu — rzadkość nawet wśród zasłużonych urzędników.",
         "powiazania": ["ARG/III/1", "ARG/III/17", "ARG/III/12", "ARG/VI/25"],
-        "stan": "Dobry — czytelny, pieczęć wyraźna"
+        "stan": "Dobry — czytelny, pieczęć wyraźna",
+        "wycena": "200-500 PLN"
     },
     {
         "sygn": "ARG/III/17",
@@ -4549,7 +4829,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Order Odrodzenia Polski (Polonia Restituta) kl. V — Kawalera. Jedno z NAJWYŻSZYCH odznaczeń cywilnych II RP. Stefan tytułowany 'Radca Ministerialny w Kancelarii Cywilnej Prezydenta RP' — wyższy tytuł niż 'Kierownik Referatu', awans od czasu dyplomu ZKZ (1936). Nadanie 9.XI.1931 = ten sam dzień co Krzyż Niepodległości (ARG/III/16)! ŁAŃCUCH ODZNACZEŃ STEFANA: Srebrny KZ (1929) → Krzyż Niepodległości + Order Odrodzenia Polski (1931) → Złoty KZ (1936) → Brązowy Medal za Długoletnią Służbę (1938). Porównanie z bratem Januszem: obaj odznaczeni najwyżej w swoich sferach — Janusz: VM, KW z 2 okuc., Legia Honorowa; Stefan: Order Odrodzenia Polski, Krzyż Niepodległości, ZKZ.",
         "powiazania": ["ARG/III/12", "ARG/III/16", "ARG/III/19"],
-        "stan": "Dobry — czytelny"
+        "stan": "Dobry — czytelny",
+        "wycena": "200-500 PLN"
     },
     {
         "sygn": "ARG/III/18",
@@ -4564,7 +4845,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Dokumentacja awansów urzędniczych — Stefan przechodził kolejne szczeble kariery w Kancelarii Prezydenta.",
         "powiazania": ["ARG/III/22", "ARG/III/1"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "200-500 PLN"
     },
     {
         "sygn": "ARG/III/19",
@@ -4579,7 +4861,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Srebrny Krzyż Zasługi — PIERWSZE odznaczenie w łańcuchu odznaczeń Stefana. W 1929 Stefan miał tytuł 'Sekretarz' w Kancelarii Cywilnej — najniższy w jego udokumentowanej ścieżce awansów. PEŁNA KARIERA STEFANA: Sekretarz (1929) → Radca Ministerialny (1931) → Kierownik Referatu (1936–38). ODZNACZENIA: Srebrny KZ (1929) → Krzyż Niepodległości + Order Odrodzenia Polski V kl. (9.XI.1931) → Złoty KZ (11.XI.1936) → Brązowy Medal za Długoletnią Służbę (14.V.1938). Prezes RM w III.1929 = prof. Kazimierz Bartel (zamordowany przez Gestapo VII.1941).",
         "powiazania": ["ARG/III/12", "ARG/III/10", "ARG/III/16", "ARG/III/17"],
-        "stan": "Dobry — czytelny"
+        "stan": "Dobry — czytelny",
+        "wycena": "500-1500 PLN"
     },
     {
         "sygn": "ARG/III/20",
@@ -4594,7 +4877,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Część dokumentacji kadrowej Stefana w Kancelarii Cywilnej Prezydenta RP. Stefan pracował tam od 1920/21 r. (por. ARG/III/21 — zatrudnienie od 16.XII.1920, ARG/III/26 — mianowanie Pomocnikiem Referenta 1.I.1922, ARG/III/27 — Medal Dziesięciolecia 1929). Kancelaria Cywilna Prezydenta RP — najważniejszy urząd cywilny w państwie, odpowiednik dzisiejszej Kancelarii Prezydenta. Stefan jako urzędnik tej instytucji miał kontakt z głowami państwa: Piłsudskim (Naczelnik Państwa do 1922), Narutowiczem, Wojciechowskim, Mościckim. Dokumenty kadrowe z lat 1920-1938 tworzą spójny obraz kariery urzędniczej Stefana w jednej instytucji przez 18 lat.",
         "powiazania": ["ARG/III/1"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "500-1200 PLN"
     },
     {
         "sygn": "ARG/III/21",
@@ -4609,7 +4893,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Dokument potwierdza, że Stefan Głuchowski pracował jako 'Pomocnik Referenta' — najniższy szczebel urzędniczy. Służba zaliczona od 16.XII.1920 r. — co oznacza, że Stefan faktycznie rozpoczął pracę jeszcze PRZED formalnym listem zatrudnieniowym z 1.VII.1921 (ARG/III/23), prawdopodobnie na zasadzie wolontariatu lub stażu. To przesuwa początek kariery Stefana o pół roku wcześniej. Naczelnikiem Państwa w 1921 był Józef Piłsudski. Tytuł 'Pomocnik Referenta' odpowiadał kategoriom I-III płac w hierarchii urzędniczej II RP.",
         "powiazania": ["ARG/III/23", "ARG/III/22", "ARG/III/26", "ARG/III/1"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "500-1200 PLN"
     },
     {
         "sygn": "ARG/III/22",
@@ -4624,7 +4909,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Nominacja na VIII stopień służby cywilnej — awans po 5-6 latach służby (od 1920). Prezydent RP w 1926 to Ignacy Mościcki (zaprzysiężony 4.VI.1926). Stopień VIII odpowiadał stanowisku 'Sekretarza' — co potwierdza ARG/III/19 (Srebrny KZ z 1929 adresowany do 'Sekretarza'). Pieczęć lakowa Prezydenta RP nadaje dokumentowi rangę aktu państwowego. Ustawa o służbie cywilnej z 1922 (Dz.U. Nr 21) regulowała hierarchię 12 stopni — VIII to szczebel średni-wyższy. Stefan awansował: Pomocnik Referenta (1920) → urzędnik VIII st.sł. / Sekretarz (1926) → Radca Ministerialny (1931) → Kierownik Referatu (1936–38).",
         "powiazania": ["ARG/III/23", "ARG/III/21", "ARG/III/19", "ARG/III/18", "ARG/III/17"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "1000-3000 PLN"
     },
     {
         "sygn": "ARG/III/23",
@@ -4639,7 +4925,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "NAJWCZEŚNIEJSZY FORMALNY DOKUMENT Stefana Głuchowskiego — zatrudnienie na okres próbny (1 miesiąc: 1.VII–1.VIII.1921) w Kancelarii Cywilnej Naczelnika Państwa. Naczelnikiem był Józef Piłsudski (do 14.XII.1922). Adres Stefana: ul. Słuszewska 2 m.10, Warszawa (Mokotów). Kategoria I płac = najniższa stawka urzędnicza. Zatrudnienie 'na próbę' było standardową praktyką — po pomyślnym okresie próbnym Stefan został 'Pomocnikiem Referenta' (ARG/III/21 potwierdza służbę od 16.XII.1920 — co sugeruje wcześniejszy staż/wolontariat). Od tego dokumentu rozpoczyna się 18-letnia kariera Stefana w Kancelarii: Pomocnik Referenta (1920–21) → urzędnik VIII st.sł. (1926) → Sekretarz (1929) → Radca Ministerialny (1931) → Kierownik Referatu (1936–38). Stefan przetrwał zmianę ustroju: Naczelnik Państwa → Prezydent RP, pracując pod 2 prezydentami (Wojciechowski 1922–26, Mościcki 1926–39).",
         "powiazania": ["ARG/III/21", "ARG/III/22", "ARG/III/26", "ARG/III/24"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "2500-7500 PLN"
     },
     {
         "sygn": "ARG/III/24",
@@ -4654,7 +4941,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Podwyżka z kategorii I (najniższej, przyznanej przy zatrudnieniu 1.VII.1921 — ARG/III/23) do kategorii II od 1.XI.1921 — po zaledwie 4 miesiącach służby. Szybki awans płacowy świadczy o dobrych wynikach pracy lub o rosnących obowiązkach. System kategorii płac urzędników II RP miał ok. 16 szczebli — awans z I na II to nadal niski poziom, ale sam fakt szybkiego przesunięcia jest znaczący.",
         "powiazania": ["ARG/III/23", "ARG/III/21"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "500-1500 PLN"
     },
     {
         "sygn": "ARG/III/25",
@@ -4669,7 +4957,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Pismo z okresu prezydentury Mościckiego (po VI.1926). Związane z regulacją uposażenia po zmianie ustroju — Kancelaria Naczelnika Państwa (Piłsudski) została przekształcona w Kancelarię Prezydenta RP. Stefan kontynuował służbę bez przerwy. Dokument wymaga lepszego zdjęcia — silne uszkodzenia uniemożliwiają pełną transkrypcję.",
         "powiazania": ["ARG/III/22", "ARG/III/1"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "2500-7500 PLN"
     },
     {
         "sygn": "ARG/III/26",
@@ -4684,7 +4973,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Formalne mianowanie na stałe po pomyślnym okresie próbnym. Stefan rozpoczął pracę na próbę 1.VII.1921 (ARG/III/23), a teraz — po 6 miesiącach — otrzymuje stałe stanowisko 'Pomocnika Referenta' od 1.I.1922. Decyzja podjęta 11.XII.1921, pismo wystawione 31.XII.1921. To zamyka okres próbny i otwiera pełną karierę urzędniczą. 'Pomocnik Referenta' = najniższy szczebel hierarchii biurowej, ale w Kancelarii Naczelnika Państwa — to prestiżowa instytucja. Stefan miał wtedy 28 lat (ur. 1893).",
         "powiazania": ["ARG/III/23", "ARG/III/21", "ARG/III/24", "ARG/III/22"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "500-1500 PLN"
     },
     {
         "sygn": "ARG/III/27",
@@ -4699,7 +4989,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Medal Dziesięciolecia Odzyskanej Niepodległości — odznaczenie ustanowione rozporządzeniem Rady Ministrów z 27.IX.1928 (Monitor Polski Nr 237, poz. 543). Nadawany urzędnikom i żołnierzom za zasługi w pierwszym dziesięcioleciu niepodległości (1918–1928). Stefan otrzymał go jako urzędnik Kancelarii Cywilnej z ok. 8-letnim stażem. Medal ten był jednym z najczęściej nadawanych odznaczeń II RP — szacuje się, że przyznano go kilkudziesięciu tysiącom osób. Dla Stefana stanowi kolejne potwierdzenie ciągłości służby państwowej. W chronologii odznaczeń: Medal Dziesięciolecia (1929) → Srebrny KZ (1929) → Krzyż Niepodległości + Order Odrodzenia Polski (1931) → Złoty KZ (1936) → Medal za Długoletnią Służbę (1938).",
         "powiazania": ["ARG/III/19", "ARG/III/10", "ARG/III/16", "ARG/III/12"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-500 PLN"
     },
 
     # === Stefan — dokumenty wojenne i powojenne (stefan_020–031) ===
@@ -4716,7 +5007,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "TRZECI SYN MARIANA GŁUCHOWSKIEGO — Lech Jerzy (2.VI.1902–15.IX.1944), brat Janusza (1888) i Stefana (1893). Bohaterska śmierć: ciężko ranny 15.IX.1944 na ul. Dolnej na Mokotowie, nie chcąc narażać żołnierzy na niebezpieczeństwo ewakuacji pod ostrzałem, odebrał sobie życie. Pośmiertnie awansowany na majora i odznaczony Virtuti Militari. Przejął dowodzenie pułkiem 17.VII.1944 po płk. Veli bek Jedigarze ps. 'Damazy' (ARG/V/170), który tego dnia został oddelegowany poza Warszawę z rozkazem dotarcia do PSZ na Zachodzie. Biogram napisany przez Krzysztofa (syna STEFANA, nie Janusza — korekta genealogiczna) w Rio de Janeiro, 51 lat po śmierci wuja Lecha. Wzmianka o gen. T. Pełczyńskim ps. 'Grzegorz' jako dowódcy. UWAGA: 1944.pl podaje nazwisko panieńskie matki jako 'Ziółkowska', biogram Krzysztofa podaje 'Zielińska' — do weryfikacji.",
         "powiazania": ["ARG/I/1", "ARG/II/1", "ARG/III/1", "ARG/V/1", "ARG/V/170", "ARG/III/33"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "5000-12000 PLN"
     },
     {
         "sygn": "ARG/VI/29",
@@ -4731,7 +5023,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Fotografie znalezione w zbiorze dokumentów Stefana. Mogą przedstawiać groby żołnierzy, miejsca pamięci lub sceny rodzinne. Potrzebne lepsze zdjęcie do identyfikacji osób i miejsc.",
         "powiazania": ["ARG/III/1"],
-        "stan": "Średni — wymaga lepszego zdjęcia"
+        "stan": "Średni — wymaga lepszego zdjęcia",
+        "wycena": "100-300 PLN"
     },
     {
         "sygn": "ARG/III/29",
@@ -4746,7 +5039,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "KLUCZOWA ETYKIETA ARCHIWALNA — opisuje zbiór korespondencji Stefana. Ujawnia: (1) Stefan był w obozach jenieckich w Niemczech 1945–1947 (Stalag XI-B Fallingbostel, Bergen, Oflag II D Gross-Born, Stalag X-B Sandbostel, Oflag X-C Lübeck — łącznie 5 obozów), (2) pisał do brata gen. Janusza w Anglii, (3) po powrocie do Polski (1947) pisał do syna Krzysztofa w Anglii. POTWIERDZONE przez 1944.pl: Krzysztof (Juraś) był SYNEM STEFANA i Wandy z domu Głuchowskiej ps. 'Krysta' (żołnierz Kedywu AK). Dotychczasowy zapis w katalogu ('syn Janusza') był BŁĘDNY — Janusz był WUJEM Krzysztofa, nie ojcem.",
         "powiazania": ["ARG/III/1", "ARG/II/1", "ARG/V/1", "ARG/III/40"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-600 PLN"
     },
     {
         "sygn": "ARG/III/30",
@@ -4761,7 +5055,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Karta przydziału uzupełniająca zaświadczenie AK Nr 2856 (ARG/III/28). Stefan przydzielony do Kwatermistrzostwa Obwodu I (Śródmieście) — odpowiadał za logistykę i zaopatrzenie. Nr rejestru 141009 identyczny z ARG/V/168 — co sugeruje wspólną bazę rejestracyjną AK. 'Radwan' = płk Franciszek Edward Pfeiffer (1895–1964), komendant Obwodu I Śródmieście AK, dowodził ok. 13 000 żołnierzy w Powstaniu. Kwatermistrzostwo to logistyka — Stefan jako doświadczony urzędnik (18 lat w Kancelarii Prezydenta) był idealnym kandydatem na stanowisko kwatermistrzowskie.",
         "powiazania": ["ARG/III/28", "ARG/V/168", "ARG/V/162"],
-        "stan": "Dobry — pieczęć wyraźna"
+        "stan": "Dobry — pieczęć wyraźna",
+        "wycena": "400-1000 PLN"
     },
     {
         "sygn": "ARG/III/31",
@@ -4776,7 +5071,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Weryfikacja służby AK Stefana Głuchowskiego przeprowadzona przez Komisję przy 2. Korpusie PSZ. Płk Józef Uszycki — ten sam oficer który podpisał weryfikację Krzysztofa (ARG/V/169). Proces weryfikacji wymagał zeznań dwóch świadków — oficerów tej samej jednostki. Potwierdza, że Stefan po wyzwoleniu z Oflagu dołączył do PSZ i przeszedł formalną weryfikację swojej służby w AK.",
         "powiazania": ["ARG/V/169", "ARG/III/28", "ARG/III/30", "ARG/V/171"],
-        "stan": "Średni — dokumenty nałożone"
+        "stan": "Średni — dokumenty nałożone",
+        "wycena": "1000-2500 PLN"
     },
     {
         "sygn": "ARG/III/32",
@@ -4791,7 +5087,8 @@ OBJECTS = [
         "jezyk": "niemiecki/polski",
         "kontekst": "Pocztówka jeniecka z Oflagu XVII A (Edelbach/Döllersheim, Austria). UWAGA: wg biogramu 1944.pl Stefan NIE był w Oflagu XVII A — jego trasa jeniecka po Powstaniu to: Stalag XI-B Fallingbostel → Bergen → Oflag II D Gross-Born → Stalag X-B Sandbostel → Oflag X-C Lübeck. Pocztówka mogła zatem należeć do INNEGO jeńca (np. znajomego oficera) i trafić do kolekcji Stefana jako pamiątka. Adresat 'A. Zaleski' — możliwe: August Zaleski (1883–1972), minister/prezydent RP na uchodźstwie, lub inny Zaleski. Nadawca na pocztówce wymaga ponownej identyfikacji — może to nie Stefan. Oflag XVII A przetrzymywał ok. 4500 polskich oficerów 1939–1945.",
         "powiazania": ["ARG/III/28", "ARG/III/30", "ARG/III/40", "ARG/II/69"],
-        "stan": "Średni — stempel częściowo nieczytelny"
+        "stan": "Średni — stempel częściowo nieczytelny",
+        "wycena": "300-1000 PLN"
     },
     {
         "sygn": "ARG/III/33",
@@ -4806,7 +5103,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Notatka potwierdza przyjaźń oficerów 7 P.UŁ.: (1) Płk Veli bek ks. Jedigar ps. 'Damazy' (31.X.1897–13.XII.1971) — Azerbejdżanin szlacheckiego rodu z Kaukazu, dowódca 7 P.UŁ. AK 'Jeleń' od VIII.1940 do 17.VII.1944, oddelegowany poza Warszawę przed Powstaniem, zmarł w Buenos Aires, prochy przeniesione na Cmentarz Tatarski w Warszawie 1990. (2) Por. Janusz Poźniowski — oficer 7 P.UŁ. Spotkanie 'u p. Korwelach' — prawdopodobnie kpt. Korwel z 7 P.UŁ. Notatka skierowana do Krzysztofa (syna Stefana), kolekcjonera dokumentów 7 P.UŁ.",
         "powiazania": ["ARG/V/170", "ARG/III/1", "ARG/V/1"],
-        "stan": "Średni — dolna część nieczytelna"
+        "stan": "Średni — dolna część nieczytelna",
+        "wycena": "500-1500 PLN"
     },
     {
         "sygn": "ARG/III/34",
@@ -4821,7 +5119,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Lista weryfikacyjna żołnierzy AK z 7 P.UŁ. Lubelskich. DWÓCH GŁUCHOWSKICH: Krzysztof (poz. 14, ur. 1926 = Juraś, syn Stefana) i Zbigniew (poz. 8 — KIM JEST? możliwy syn Stefana lub Lecha?). Porównaj z ARG/V/171 (podobna lista). Większość żołnierzy urodzonych 1918–1928 — pokolenie wojenne. Dokument datowany 8.VII.1946 — weryfikacja prowadzona w Henstedt/Niemcy przed demobilizacją PSZ.",
         "powiazania": ["ARG/V/171", "ARG/V/169", "ARG/III/31"],
-        "stan": "Średni — krawędzie uszkodzone"
+        "stan": "Średni — krawędzie uszkodzone",
+        "wycena": "500-1200 PLN"
     },
     {
         "sygn": "ARG/III/35",
@@ -4836,7 +5135,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Inwentaryzacja majątku i dokumentacji 7 P.UŁ. Lubelskich prowadzona we wrześniu 1946 — w ramach przygotowań do demobilizacji PSZ na Zachodzie. Pułk był wówczas w Niemczech (Henstedt). Certyfikat dokumentuje: karty ewidencyjne, akta personalne, rozkazy z 2 Korpusu, pieczęcie — cenny materiał do historii jednostki. Fakt, że te dokumenty trafiły do kolekcji rodziny Głuchowskich, sugeruje że Stefan lub Krzysztof mieli funkcję archiwalną w pułku.",
         "powiazania": ["ARG/III/34", "ARG/III/40", "ARG/V/171"],
-        "stan": "Średni — papier kruchy"
+        "stan": "Średni — papier kruchy",
+        "wycena": "250-800 PLN"
     },
     {
         "sygn": "ARG/III/36",
@@ -4851,7 +5151,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Zbiorowa dedykacja od oficerów dla Stefana — 'uroczemu brykowi' (dosł. uroczemu łobuzowi/psotnikowi) to pieszczotliwy zwrot koleżeński. Wzmianka 'Lechnia' może odnosić się do brata Lecha Głuchowskiego (zdrobniale: Lechnia). Podpisy oficerów z różnych jednostek (8 p.S.K. = 8 Pułk Strzelców Konnych?). Może pochodzić z Oflagu XVII A (oficerowie w niewoli tworzyli silne więzi) lub z Henstedt (po wyzwoleniu). Dokument o wartości sentymentalnej — pokazuje pozycję towarzyską Stefana wśród oficerów.",
         "powiazania": ["ARG/III/32", "ARG/III/40", "ARG/I/6"],
-        "stan": "Dobry — podpisy częściowo nieczytelne"
+        "stan": "Dobry — podpisy częściowo nieczytelne",
+        "wycena": "200-600 PLN"
     },
     {
         "sygn": "ARG/III/37",
@@ -4866,7 +5167,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Karta/wizytówka pułkowa z Henstedt (Szlezwik-Holsztyn, brytyjska strefa okupacyjna Niemiec). Pełna nazwa: 7 Pułk Ułanów Lubelskich im. Generała Broni Kazimierza Sosnkowskiego — pułk nosił imię tego samego Sosnkowskiego, który napisał list do gen. Janusza (ARG/II/27)! Data 23.III.1947 to okres demobilizacji PSZ. Stefan widnieje jako ppor. — potwierdza jego stopień wojskowy (ten sam co na karcie AK). Henstedt było miejscem stacjonowania polskich jednostek przed ich rozwiązaniem. Stefan wkrótce potem wrócił do Polski (wg etykiety ARG/III/29 pisał już z Polski od 1947).",
         "powiazania": ["ARG/III/29", "ARG/III/32", "ARG/II/27", "ARG/III/34"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "600-1600 PLN"
     },
 
     # === Downloads/gluchowski — Varia (varia_002–012, bez duplikatów) ===
@@ -4883,7 +5185,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Album pamiątkowy — dokumentacja grobów i pomników rodzinnych/powstańczych. Zdjęcia z lat 40.-50. mogą dokumentować pochówki z okresu Powstania Warszawskiego lub tuż po wojnie. Możliwe groby: Lech Głuchowski (poległ na Mokotowie 15.IX.1944, pochowany najpierw tymczasowo, potem ekshumowany), lub groby innych członków rodziny na Powązkach. Stefan (1893–1962) pochowany na Powązkach kw. 99-IV-19. Karteczki z opisami wymagają odczytu z oryginału.",
         "powiazania": ["ARG/VI/4"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "1600-6000 PLN"
     },
     {
         "sygn": "ARG/VI/27",
@@ -4898,7 +5201,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "WAŻNE: potwierdza istnienie korespondencji rodzinnej. Listy Stefana z obozu w Niemczech (1945–47) do gen. Janusza w Anglii + listy Stefana z Polski do syna Krzysztofa (1947–49). Dowód na kontakt rodzinny ponad granicami żelaznej kurtyny.",
         "powiazania": ["ARG/II/65", "ARG/III/1", "ARG/V/166"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "200-600 PLN"
     },
     {
         "sygn": "ARG/V/168",
@@ -4913,7 +5217,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Rewers karty AK Krzysztofa Głuchowskiego (awers = ARG/V/162). Przydział: Kwatermistrzostwo Obwodu I Śródmieście, pod dowództwem płk. Franciszka Edwarda Pfeiffera ps. 'Radwan'. Dopisek 'Nr 141009 / Stalag XI B' — numer jeniecki Krzysztofa dodany po Powstaniu. Dokument potwierdzający ciągłość: AK → niewola (Stalag XI B Fallingbostel) → powrót.",
         "powiazania": ["ARG/V/162", "ARG/V/164", "ARG/III/28"],
-        "stan": "Średni — odciski palców, lekko zabrudzone"
+        "stan": "Średni — odciski palców, lekko zabrudzone",
+        "wycena": "400-1000 PLN"
     },
     {
         "sygn": "ARG/V/169",
@@ -4928,7 +5233,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Weryfikacja żołnierzy AK z 7 p.uł. przez Komisję przy 2. Korpusie Polskim we Włoszech/Anglii. Płk J. Uszycki — prawdopodobnie Józef Uszycki, oficer sztabowy 2 Korpusu PSZ. Proces weryfikacji polegał na potwierdzeniu służby konspiracyjnej AK przez dwóch świadków — oficerów tej samej jednostki. Potrzebne do uznania stopni i odznaczeń bojowych przez PSZ na Zachodzie.",
         "powiazania": ["ARG/VI/23", "ARG/V/164", "ARG/V/171"],
-        "stan": "Średni — dokumenty nałożone na zdjęciu"
+        "stan": "Średni — dokumenty nałożone na zdjęciu",
+        "wycena": "1000-2500 PLN"
     },
     {
         "sygn": "ARG/II/69",
@@ -4943,7 +5249,8 @@ OBJECTS = [
         "jezyk": "polski/niemiecki",
         "kontekst": "Oflag XVII A — obóz oficerski w Edelbach/Kaisersteinbruch (Austria), działający 1939–1945. ~170 polskich oficerów wśród ~4500 jeńców (głównie Francuzi i Jugosłowianie). Gen. Janusz Głuchowski NIE był jeńcem — dowodził PSZ w Wielkiej Brytanii. Kartka od jeńca do 'Stasia' (przez adres A. Zaleskiego) — wzmianka o Żoliborzu (dzielnica Głuchowskich!) i 'Janowi' (Janusz?) sugeruje powiązanie z rodziną. Data 15.IX.1942 — trzeci rok niewoli. Zachowanie w archiwum Głuchowskich potwierdza, że nadawca lub adresat był bliski rodzinie. HIPOTEZA: nadawca mógł być towarzyszem broni z kręgu Głuchowskich, piszącym do wspólnego znajomego.",
         "powiazania": ["ARG/II/65"],
-        "stan": "Średni — pożółkła, pismo trudno czytelne"
+        "stan": "Średni — pożółkła, pismo trudno czytelne",
+        "wycena": "600-2000 PLN"
     },
     {
         "sygn": "ARG/V/170",
@@ -4958,7 +5265,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "IDENTYFIKACJA: 'Veli Jocligar' = VELI BEK JEDIGAR (1897–1971) — Azer z Kaukazu (Tekali, Azerbejdżan), muzułmanin, oficer kawalerii WP. Zastępca d-cy 7 p.uł. od 1936, szef sztabu Mazowieckiej Brygady Kawalerii IX.1939, w niewoli zwolniony 1940 (obcokrajowiec). Od VIII.1940 konspiracyjny d-ca 7 p.uł. AK ps. 'Damazy' (kryptonim 'Mazury'). Przyjaciel Bora-Komorowskiego. Emigracja: Argentyna 1949, zm. Buenos Aires 13.XII.1971. por. Janusz Poźniowski — oficer 7 p.uł., do dalszego zbadania. Zebranie 'u p. Korwelach' w Warszawie — spotkanie środowiska pułkowego, dokument pamięci kombatanckiej.",
         "powiazania": ["ARG/V/164", "ARG/V/166", "ARG/V/171"],
-        "stan": "Dobry"
+        "stan": "Dobry",
+        "wycena": "250-800 PLN"
     },
     {
         "sygn": "ARG/III/28",
@@ -4973,7 +5281,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Zaświadczenie wydane 6 DNI PRZED GODZINĄ 'W' (1.VIII.1944). DRAMATYCZNA CHRONOLOGIA: Stefan był ARESZTOWANY przez Gestapo w maju 1944 — więziony na Pawiaku i przesłuchiwany na Alei Szucha (siedzibie Gestapo)! Zwolniony 29.VII.1944 — zaledwie 3 DNI przed Powstaniem! Zaświadczenie AK nr 2856 nosi datę 25.VII.1944 — czyli wydane jeszcze PRZED zwolnieniem z Gestapo (o ile data jest prawidłowa) lub tuż po. 'Radwan' = płk Franciszek Edward Pfeiffer (1895–1964) — legionista, Komendant Obwodu I Śródmieście AK, dowódca ~13 000 żołnierzy w Powstaniu. Ranny 5.VIII.1944. Zmarł w Londynie 13.VI.1964 — 2 DNI PO gen. Januszu Głuchowskim (zm. 11.VI.1964)! Stefan walczył w Powstaniu jako kwatermistrz Obwodu I Śródmieście — po 18 latach doświadczenia w Kancelarii Prezydenta RP idealnie nadawał się do logistyki. Żona Wanda ps. 'Krysta'/'Justyna' (sierż. pchor. Kedyw) nie została zmobilizowana z powodu ran z akcji Wilanów (26.IX.1943).",
         "powiazania": ["ARG/III/1", "ARG/VI/25", "ARG/V/162", "ARG/V/168"],
-        "stan": "Dobry — czytelne, pieczęć wyraźna"
+        "stan": "Dobry — czytelne, pieczęć wyraźna",
+        "wycena": "400-1000 PLN"
     },
     {
         "sygn": "ARG/V/171",
@@ -4988,7 +5297,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Kluczowy dokument zbiorowy: 23 żołnierzy 7 p.uł. AK zweryfikowanych jednocześnie, w tym Krzysztof Głuchowski (poz. 8). Data 8.VII.1946 — rok po wojnie, 2 lata po Powstaniu. Żołnierze urodzeni 1897-1928: pełne spektrum pokoleń. Różne stopnie (st.uł., bomb., pchor.) = różne role w walce. Każde z 23 nazwisk to potencjalna historia do zbadania. Dokument jest cenniejszy niż indywidualne zaświadczenie — obraz CAŁEJ JEDNOSTKI.",
         "powiazania": ["ARG/V/169", "ARG/V/164", "ARG/V/166"],
-        "stan": "Średni — pożółkły, ale czytelny"
+        "stan": "Średni — pożółkły, ale czytelny",
+        "wycena": "1000-2500 PLN"
     },
     {
         "sygn": "ARG/V/172",
@@ -5003,7 +5313,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Kluczowy dokument demobilizacyjny: 1 września 1945 — dokładnie 6 lat po wybuchu II wojny, 7 P.U.L. przekazuje swoje archiwum pułkowe do Bazy Likwidacyjnej PSZ w Anglii. Inwentarz obejmuje rozkazy, karty ewidencyjne oficerów i podoficerów, korespondencję — pełna dokumentacja jednostki od 1943 do 1946. Henstedt (Niemcy, Schleswig-Holstein) — miejsce stacjonowania 7 P.U.L. po zakończeniu wojny, w brytyjskiej strefie okupacyjnej. To właśnie te dokumenty (lub ich kopie) mogły później trafić do archiwum Krzysztofa. Certyfikat dokumentuje KONIEC istnienia 7 P.U.L. jako jednostki czynnej.",
         "powiazania": ["ARG/V/171", "ARG/V/164"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "500-1200 PLN"
     },
     {
         "sygn": "ARG/VI/28",
@@ -5018,7 +5329,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Unikalna dedykacja Lecha do brata Stefana — 'kochany Stefanku, uroczy braciszku i dobry towarzyszu'. Świadectwo ciepłych relacji braterskich. Lech (ok. 1902–1944) poległ na Mokotowie w Powstaniu Warszawskim. Wzmianka '8 p.S.K.' może wskazywać na 8 Pułk Strzelców Konnych lub inną jednostkę kawalerii — Stefan mógł mieć kontakty z różnymi pułkami. Podpisy kolegów oficerskich tworzą grupowy portret środowiska wojskowego II RP. Dokument powstał prawdopodobnie w latach 30., przed wojną.",
         "powiazania": ["ARG/VI/24", "ARG/VI/25"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "200-600 PLN"
     },
     {
         "sygn": "ARG/V/173",
@@ -5033,7 +5345,8 @@ OBJECTS = [
         "jezyk": "polski",
         "kontekst": "Karta pamiątkowa z uroczystości pułkowej w Henstedt (strefa brytyjska Niemiec). 7 Pułk Ułanów Lubelskich im. Gen. Broni Sosnkowskiego. Marzec 1947 — okres przed demobilizacją PSZ na Zachodzie. Henstedt — miejsce stacjonowania polskich jednostek w Niemczech po wojnie.",
         "powiazania": ["ARG/V/171", "ARG/V/172", "ARG/V/164"],
-        "stan": "Średni"
+        "stan": "Średni",
+        "wycena": "600-1600 PLN"
     },
 ]
 
@@ -7415,8 +7728,34 @@ def js_escape(s):
     return str(s).replace("\\", "\\\\").replace("'", "\\'").replace('"', '\\"')
 
 
+# Maps sygnaturas to special (non-series) transcription keys
+SPECIAL_TRANSCRIPTION_MAP = {
+    "ARG/II/10":  "krzyz_legionowy",
+    "ARG/II/54":  "lbr_II_54",
+    "ARG/II/65":  "wa_aliens_reg",
+    "ARG/II/66":  "wa_aliens_reg",
+    "ARG/V/158":  "galeria_tablica_gestapo",
+    "ARG/V/164":  "wa_krzyz_ak",
+    "ARG/V/166":  "wa_biogram_krzysztof",
+    "ARG/VI/1":   "galeria_tablica_gestapo",
+    "ARG/VI/8":   "msza_jelen_1970",
+    "ARG/VI/9":   "nekrolog_lorens",
+    "ARG/VI/10":  "list_ambasada_izrael",
+    "ARG/VI/24":  "wa_biogram_lech",
+    "ARG/VI/25":  "wa_biogram_stefan",
+    "ARG/VI/27":  "wa_etykieta_stefan",
+    "ARG/VI/28":  "wa_dedykacja_lech_stefan",
+}
+
+
 def get_transcription(sygn):
     """Map a sygnatura (e.g. ARG/V/1, ARG/III/3) to a TRANSCRIPTIONS entry."""
+    # 1. Check special (non-series) mappings first
+    if sygn in SPECIAL_TRANSCRIPTION_MAP:
+        special_key = SPECIAL_TRANSCRIPTION_MAP[sygn]
+        if special_key in TRANSCRIPTIONS:
+            return TRANSCRIPTIONS[special_key]
+
     parts = sygn.split("/")
     if len(parts) != 3:
         return None
@@ -7425,13 +7764,31 @@ def get_transcription(sygn):
         num = int(parts[2])
     except ValueError:
         return None
-    key = None
-    if seria == "V":
-        key = f"juras_{num:03d}"
-    elif seria == "III":
-        key = f"stefan_{num:03d}"
-    if key and key in TRANSCRIPTIONS:
+
+    # 2. Standard series mapping
+    series_prefix = {
+        "I":   "marian",
+        "II":  "janusz",
+        "III": "stefan",
+        "V":   "juras",
+        "VI":  "varia",
+    }
+    prefix = series_prefix.get(seria)
+    if not prefix:
+        return None
+
+    key = f"{prefix}_{num:03d}"
+
+    # 3. Direct match on standard key
+    if key in TRANSCRIPTIONS:
         return TRANSCRIPTIONS[key]
+
+    # 4. Suffix variant match (e.g. juras_043_ziemski for juras_043)
+    suffix_prefix = key + "_"
+    for tkey in TRANSCRIPTIONS:
+        if tkey.startswith(suffix_prefix):
+            return TRANSCRIPTIONS[tkey]
+
     return None
 
 
