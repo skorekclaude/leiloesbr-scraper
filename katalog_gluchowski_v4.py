@@ -2981,7 +2981,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/136",
-        "photo": "juras_070_page71.png",
+        "photo": "juras_070_page71.jpeg",
         "tytul": "Kartka artystyczna — linoryt/drzeworyt 'FUNDUSZ INWALIDÓW ARMII KRAJOWEJ', Koło AK Londyn 1984",
         "data": "1984",
         "typ": "druk",
@@ -2996,7 +2996,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/137",
-        "photo": "juras_071_page72.png",
+        "photo": "juras_071_page72.jpeg",
         "tytul": "Wycinek prasowy — fotografia tablicy z Palmirów",
         "data": "lata 50.–60. XX w.",
         "typ": "wycinek",
@@ -3013,7 +3013,7 @@ OBJECTS = [
     # -- Podseria V/AG: Życie studenckie w Anglii --
     {
         "sygn": "ARG/V/138",
-        "photo": "juras_072_page73.png",
+        "photo": "juras_072_page73.jpeg",
         "tytul": "Bilet członkowski South West Essex Technical College, sesja 1947-48",
         "data": "1947–1948",
         "typ": "bilet",
