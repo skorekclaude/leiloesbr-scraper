@@ -3515,7 +3515,7 @@ OBJECTS = [
     # -- Biogramy rodzinne (kontynuacja) --
     {
         "sygn": "ARG/VI/14",
-        "photo": "juras_092_page93.png",
+        "photo": "juras_092_page93.jpeg",
         "tytul": "KWARTALNIK BIOGRAFICZNY POLONII Nr 7 — biogramy Krzysztofa Głuchowskiego i Janusza Głuchowskiego (kontynuacja)",
         "data": "lata 60.–70. XX w.",
         "typ": "biogram",
