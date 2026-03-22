@@ -2652,7 +2652,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/115",
-        "photo": "juras_049_page50.png",
+        "photo": "juras_049_page50.jpeg",
         "tytul": "Wykaz wyposażenia osobistego — str. 2: tabela inspekcyjna (Oporządzenie, Higiena i czystość, Pasy, Uzbrojenie, Inne)",
         "data": "1945–1946",
         "typ": "formularz inspekcyjny",
@@ -2667,7 +2667,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/116",
-        "photo": "juras_050_page51.png",
+        "photo": "juras_050_page51.jpeg",
         "tytul": "Formularz testamentu własnoręcznego — druk wojskowy (Prawo Polskie)",
         "data": "1945–1948",
         "typ": "formularz",
@@ -2682,7 +2682,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/117",
-        "photo": "juras_051_page52.png",
+        "photo": "juras_051_page52.jpeg",
         "tytul": "Formularz testamentu — verso",
         "data": "1945–1948",
         "typ": "formularz",
@@ -2699,7 +2699,7 @@ OBJECTS = [
     # -- Podseria V/Z: Legitymacje Krzyża AK i Odznaki Pamiątkowej AK --
     {
         "sygn": "ARG/V/118",
-        "photo": "juras_052_page53.png",
+        "photo": "juras_052_page53.jpeg",
         "tytul": "Legitymacja Krzyża Armii Krajowej Nr 3316 — ps. 'JURAŚ', 7 P.Uł.Lubel. 'JELEŃ', podpis Ziemski-Wachnowski",
         "data": "7.VII.1968",
         "typ": "leg",
@@ -2714,7 +2714,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/119",
-        "photo": "juras_053_page54.png",
+        "photo": "juras_053_page54.jpeg",
         "tytul": "Legitymacja Krzyża AK — okładka: 'LEGITYMACJA KRZYŻA ARMII KRAJOWEJ Nr. 3316'",
         "data": "1968",
         "typ": "leg",
@@ -2729,7 +2729,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/120",
-        "photo": "juras_054_page55.png",
+        "photo": "juras_054_page55.jpeg",
         "tytul": "Legitymacja Krzyża AK — drugi egzemplarz, identyczna treść, podpis Ziemskiego",
         "data": "7.VII.1968",
         "typ": "leg",
