@@ -10699,6 +10699,7 @@ GALLERY_PHOTOS = [
     # ============================================================
     {
         "file": "gallery/sup_p02_001.jpg",
+        "sekcja": 6,
         "tytul": "Szwadron honorowy 3. Pułku Pancernego — inspekcja Naczelnego Wodza, Kelso",
         "data": "15.VI.1945",
         "osoba": "gen. Tadeusz Bór-Komorowski (Naczelny Wódz)",
@@ -10706,6 +10707,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/sup_p04_004.jpg",
+        "sekcja": 6,
         "tytul": "Bór-Komorowski przy radiostacji polowej na jeepie Willys MB — Kelso",
         "data": "15.VI.1945",
         "osoba": "gen. Tadeusz Bór-Komorowski",
@@ -10713,6 +10715,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/sup_p05_005.jpg",
+        "sekcja": 6,
         "tytul": "Naczelny Wódz na trybunie honorowej z Orłem Białym — Kelso",
         "data": "15.VI.1945",
         "osoba": "gen. Tadeusz Bór-Komorowski",
@@ -10724,6 +10727,7 @@ GALLERY_PHOTOS = [
     # ============================================================
     {
         "file": "gallery/sup_p06_007.jpg",
+        "sekcja": 5,
         "tytul": "Gen. Klimecki, gen. Sikorski i gen. Głuchowski — Szkoła Podchorążych, Szkocja 1941",
         "data": "1941",
         "osoba": "gen. Władysław Sikorski (NW), gen. Tadeusz Klimecki, gen. Janusz Głuchowski",
@@ -10731,6 +10735,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/sup_p07_009.jpg",
+        "sekcja": 5,
         "tytul": "Generał na trybunie — prawdopodobnie gen. Sikorski, Szkocja 1941",
         "data": "1941",
         "osoba": "gen. Władysław Sikorski (?)",
@@ -10742,6 +10747,7 @@ GALLERY_PHOTOS = [
     # ============================================================
     {
         "file": "gallery/sup_p08_010.jpg",
+        "sekcja": 6,
         "tytul": "Gen. Thorn i gen. Anders — uścisk dłoni, odbitka WSF N°9840",
         "data": "ok. 1945",
         "osoba": "gen. Anders, gen. Thorn",
@@ -10753,6 +10759,7 @@ GALLERY_PHOTOS = [
     # ============================================================
     {
         "file": "gallery/sup_p10_012.jpg",
+        "sekcja": 6,
         "tytul": "Inspekcja polowa — prezydent Raczkiewicz w Highlands",
         "data": "1943",
         "osoba": "prez. Władysław Raczkiewicz, gen. Janusz Głuchowski",
@@ -10760,6 +10767,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/sup_p11_013.jpg",
+        "sekcja": 6,
         "tytul": "Prezydent Raczkiewicz z Gwiazdą Orderu — szpaler oficerów",
         "data": "1943",
         "osoba": "prez. Władysław Raczkiewicz, gen. Janusz Głuchowski",
@@ -10767,6 +10775,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/sup_p12_015.jpg",
+        "sekcja": 6,
         "tytul": "Raczkiewicz z oficerami — inspekcja polowa",
         "data": "1943",
         "osoba": "prez. Władysław Raczkiewicz, gen. Janusz Głuchowski",
@@ -10774,6 +10783,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/sup_p13_018.jpg",
+        "sekcja": 6,
         "tytul": "Prezydent Raczkiewicz przyjmuje Lord Provost Edynburga — zdjęcie grupowe",
         "data": "ok. 1943–1944",
         "osoba": "prez. Władysław Raczkiewicz, Lord Provost Edynburga, gen. Janusz Głuchowski",
@@ -10781,6 +10791,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/sup_p14_019.jpg",
+        "sekcja": 6,
         "tytul": "Lord Provost Edynburga z łańcuchem urzędowym — bliższe ujęcie",
         "data": "ok. 1943–1944",
         "osoba": "Lord Provost Edynburga, prez. Raczkiewicz, gen. Głuchowski",
@@ -10792,6 +10803,7 @@ GALLERY_PHOTOS = [
     # ============================================================
     {
         "file": "gallery/sup_p16_021.jpg",
+        "sekcja": 5,
         "tytul": "Głuchowski w Szkole Podchorążych — Szkocja",
         "data": "ok. 1941",
         "osoba": "gen. Janusz Głuchowski",
@@ -10799,6 +10811,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/sup_p17_023.jpg",
+        "sekcja": 5,
         "tytul": "Inspekcja Głuchowskiego na placu — ze stemplem proweniencyjnym",
         "data": "ok. 1941",
         "osoba": "gen. Janusz Głuchowski",
@@ -10806,6 +10819,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/sup_p18_025.jpg",
+        "sekcja": 5,
         "tytul": "Trzy odbitki inspekcyjne — Głuchowski przy samochodzie",
         "data": "ok. 1941",
         "osoba": "gen. Janusz Głuchowski",
@@ -10813,6 +10827,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/sup_p19_027.jpg",
+        "sekcja": 6,
         "tytul": "Gen. Głuchowski i gen. Copański przed defiladą — Kinross 1945",
         "data": "1945",
         "osoba": "gen. Janusz Głuchowski, gen. Stanisław Kopański",
@@ -10824,6 +10839,7 @@ GALLERY_PHOTOS = [
     # ============================================================
     {
         "file": "gallery/sup_p20_030.jpg",
+        "sekcja": 1,
         "tytul": "Promocja w Szkole Podchorążych Kawalerii — Grudziądz 1937",
         "data": "15.X.1937",
         "osoba": "gen. Janusz Głuchowski",
@@ -10835,6 +10851,7 @@ GALLERY_PHOTOS = [
     # ============================================================
     {
         "file": "gallery/sup_p21_032.jpg",
+        "sekcja": 5,
         "tytul": "Oficerowie 10. Brygady Kawalerii w Galashiels — maj 1942",
         "data": "24.V.1942",
         "osoba": "oficerowie 10.B.K.",
@@ -10846,6 +10863,7 @@ GALLERY_PHOTOS = [
     # ============================================================
     {
         "file": "gallery/sup_p22_033.jpg",
+        "sekcja": 5,
         "tytul": "Czołg Cromwell/Centaur — inspekcja formacji pancernej",
         "data": "ok. 1943–1944",
         "osoba": "",
@@ -10857,6 +10875,7 @@ GALLERY_PHOTOS = [
     # ============================================================
     {
         "file": "gallery/sup_p23_034.jpg",
+        "sekcja": 5,
         "tytul": "Inspekcja w pociągach pancernych — czerwiec 1941",
         "data": "VI.1941",
         "osoba": "gen. Janusz Głuchowski (?)",
@@ -10864,6 +10883,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/sup_p24_037.jpg",
+        "sekcja": 5,
         "tytul": "Polski pociąg pancerny na stacji — Szkocja",
         "data": "ok. 1941",
         "osoba": "",
@@ -10875,6 +10895,7 @@ GALLERY_PHOTOS = [
     # ============================================================
     {
         "file": "gallery/sup_p25_038.jpg",
+        "sekcja": 3,
         "tytul": "Oficer na koniu — Latrun, Palestyna 1941 (z dedykacją)",
         "data": "1941",
         "osoba": "gen. Janusz Głuchowski",
@@ -10886,6 +10907,7 @@ GALLERY_PHOTOS = [
     # ============================================================
     {
         "file": "gallery/sup_p26_041.jpg",
+        "sekcja": 7,
         "tytul": "Zjazd Kawalerzystów — przemówienie z podium, marzec 1941",
         "data": "III.1941",
         "osoba": "gen. Janusz Głuchowski",
@@ -10893,6 +10915,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/sup_p27_042.jpg",
+        "sekcja": 7,
         "tytul": "Zjazd Kawalerzystów — 'ja otwieram' — dramatyczne ujęcie",
         "data": "III.1941",
         "osoba": "gen. Janusz Głuchowski",
@@ -10904,6 +10927,7 @@ GALLERY_PHOTOS = [
     # ============================================================
     {
         "file": "gallery/sup_p28_045.jpg",
+        "sekcja": 7,
         "tytul": "Oficerowie na brukowanym placu — ujęcie z góry, WSF N°8857",
         "data": "ok. 1942–1943",
         "osoba": "",
@@ -10911,6 +10935,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/sup_p29_047.jpg",
+        "sekcja": 7,
         "tytul": "Wigilia wojskowa z dekoracjami — WSF N°8892",
         "data": "ok. 1942–1943",
         "osoba": "",
@@ -10922,6 +10947,7 @@ GALLERY_PHOTOS = [
     # ============================================================
     {
         "file": "gallery/sup_p30_048.jpg",
+        "sekcja": 7,
         "tytul": "Procesja Bożego Ciała — Szkocja",
         "data": "ok. 1942–1944",
         "osoba": "gen. Janusz Głuchowski",
@@ -10929,6 +10955,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/sup_p30_049.jpg",
+        "sekcja": 8,
         "tytul": "Spotkanie z kobietami PSK — wnętrze z kominkiem",
         "data": "ok. 1942–1944",
         "osoba": "",
@@ -10940,6 +10967,7 @@ GALLERY_PHOTOS = [
     # ============================================================
     {
         "file": "gallery/v2_p02_001.jpg",
+        "sekcja": 9,
         "tytul": "Wyzwolenie obozu kobiet w Holandii — moment radości, WSF N°3989",
         "data": "12.IV.1945",
         "osoba": "",
@@ -10947,6 +10975,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p02_002.jpg",
+        "sekcja": 9,
         "tytul": "Wyzwolenie — formacja kobiet z flagą na maszcie",
         "data": "12.IV.1945",
         "osoba": "",
@@ -10954,6 +10983,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p02_003.jpg",
+        "sekcja": 9,
         "tytul": "Wyzwolenie — kobiety z obozu i oficerowie, radość",
         "data": "12.IV.1945",
         "osoba": "",
@@ -10961,6 +10991,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p03_004.jpg",
+        "sekcja": 9,
         "tytul": "Wyzwolenie — porucznik (raport komendantki obozu)",
         "data": "12.IV.1945",
         "osoba": "por. Irena Milewska, ppłk Kosnicki",
@@ -10968,6 +10999,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p03_005.jpg",
+        "sekcja": 9,
         "tytul": "Wyzwolenie — sceny z obozu nazajutrz, ciężarówka z numerem 52",
         "data": "13.IV.1945",
         "osoba": "",
@@ -10975,6 +11007,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p03_006.jpg",
+        "sekcja": 9,
         "tytul": "Wyzwolenie — obóz z barkami i Czerwonym Krzyżem",
         "data": "12–13.IV.1945",
         "osoba": "",
@@ -10982,6 +11015,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p03_007.jpg",
+        "sekcja": 9,
         "tytul": "Wyzwolenie — formacja żołnierzy przed barakami",
         "data": "12–13.IV.1945",
         "osoba": "",
@@ -10989,6 +11023,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p04_008.jpg",
+        "sekcja": 9,
         "tytul": "Wyzwolenie — podniesienie flagi (ujęcie z masztem)",
         "data": "12.IV.1945",
         "osoba": "",
@@ -11000,6 +11035,7 @@ GALLERY_PHOTOS = [
     # ============================================================
     {
         "file": "gallery/v2_p05_009.jpg",
+        "sekcja": 6,
         "tytul": "Inspekcja Bóra-Komorowskiego w Kelso — żołnierze przy czołgu, WSF N°4519",
         "data": "15.VI.1945",
         "osoba": "gen. Tadeusz Bór-Komorowski",
@@ -11007,6 +11043,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p05_010.jpg",
+        "sekcja": 6,
         "tytul": "Prezydent Raczkiewicz i oficerowie — Dundee",
         "data": "1944",
         "osoba": "prez. Władysław Raczkiewicz, gen. Janusz Głuchowski",
@@ -11014,6 +11051,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p05_011.jpg",
+        "sekcja": 6,
         "tytul": "Zjazd Klanowy — gen. Głuchowski i ppor. Kazimierz Sabbat (przyszły Prezydent RP), Dundee 6.III.1945",
         "data": "6.III.1945",
         "osoba": "gen. Janusz Głuchowski, ppor. Kazimierz Sabbat (przyszły Prezydent RP 1986–1989)",
@@ -11025,6 +11063,7 @@ GALLERY_PHOTOS = [
     # ============================================================
     {
         "file": "gallery/v2_p06_012.jpg",
+        "sekcja": 6,
         "tytul": "Prezydent Raczkiewicz, Lord Provost i Głuchowski — portret oficjalny",
         "data": "1944",
         "osoba": "prez. Raczkiewicz, Lord Provost, gen. Głuchowski",
@@ -11032,6 +11071,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p06_013.jpg",
+        "sekcja": 6,
         "tytul": "Oficerowie z cywilami — spotkanie protokolarne",
         "data": "ok. 1943–1944",
         "osoba": "",
@@ -11039,6 +11079,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p06_014.jpg",
+        "sekcja": 6,
         "tytul": "Zdjęcie grupowe — delegacja polska i szkocka",
         "data": "ok. 1943–1944",
         "osoba": "",
@@ -11046,6 +11087,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p07_015.jpg",
+        "sekcja": 1,
         "tytul": "Ceremonia sztandarowa — Polska międzywojenna",
         "data": "ok. 1930–1935",
         "osoba": "gen. Janusz Głuchowski",
@@ -11053,6 +11095,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p07_016.jpg",
+        "sekcja": 8,
         "tytul": "Ceremonia odznaczeniowa — Polska międzywojenna",
         "data": "ok. 1930–1935",
         "osoba": "",
@@ -11064,6 +11107,7 @@ GALLERY_PHOTOS = [
     # ============================================================
     {
         "file": "gallery/v2_p08_017.jpg",
+        "sekcja": 7,
         "tytul": "Oficerowie na rynku Forfar — wieża zegarowa, WSF N°8850",
         "data": "ok. 1942–1943",
         "osoba": "",
@@ -11071,6 +11115,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p08_018.jpg",
+        "sekcja": 7,
         "tytul": "Posiłek masowy żołnierzy — Forfar, WSF N°8855",
         "data": "ok. 1942–1943",
         "osoba": "",
@@ -11078,6 +11123,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p08_019.jpg",
+        "sekcja": 7,
         "tytul": "Oficerowie i goście przy stołach — Forfar",
         "data": "ok. 1942–1943",
         "osoba": "",
@@ -11085,6 +11131,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p09_020.jpg",
+        "sekcja": 7,
         "tytul": "Wręczenie odznaczeń — Brygada Szkolna, WSF N°8865",
         "data": "ok. 1942–1943",
         "osoba": "",
@@ -11092,6 +11139,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p09_021.jpg",
+        "sekcja": 7,
         "tytul": "Formacja na ulicy — żołnierze w hełmach, WSF N°8868",
         "data": "ok. 1942–1943",
         "osoba": "",
@@ -11099,6 +11147,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p09_022.jpg",
+        "sekcja": 7,
         "tytul": "Posiłek masowy — perspektywa wzdłuż stołu",
         "data": "ok. 1942–1943",
         "osoba": "",
@@ -11106,6 +11155,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p09_023.jpg",
+        "sekcja": 7,
         "tytul": "Kapelan wojskowy z marynarzem PMW, WSF N°8876",
         "data": "ok. 1942–1943",
         "osoba": "",
@@ -11113,6 +11163,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p10_024.jpg",
+        "sekcja": 7,
         "tytul": "Posiłek masowy — najbardziej czytelny stempel WSF, N°8878",
         "data": "ok. 1942–1943",
         "osoba": "",
@@ -11120,6 +11171,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p10_025.jpg",
+        "sekcja": 7,
         "tytul": "Przemówienie oficera — posiłek Brygady Szkolnej",
         "data": "ok. 1942–1943",
         "osoba": "",
@@ -11127,6 +11179,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p10_026.jpg",
+        "sekcja": 7,
         "tytul": "Zdjęcie grupowe — oficerowie i żołnierze na schodach",
         "data": "ok. 1942–1943",
         "osoba": "",
@@ -11138,6 +11191,7 @@ GALLERY_PHOTOS = [
     # ============================================================
     {
         "file": "gallery/v2_p11_027.jpg",
+        "sekcja": 2,
         "tytul": "Internowani w Rumunii — Băile Herculane, jesień 1939",
         "data": "1939",
         "osoba": "",
@@ -11145,6 +11199,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p11_028.jpg",
+        "sekcja": 6,
         "tytul": "Prezydent Raczkiewicz na polowaniu — Szkocja 1943",
         "data": "1943",
         "osoba": "prez. Władysław Raczkiewicz",
@@ -11152,6 +11207,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p11_029.jpg",
+        "sekcja": 6,
         "tytul": "Raczkiewicz wizytuje obóz — baraki i ciężarówki",
         "data": "ok. 1943",
         "osoba": "prez. Władysław Raczkiewicz",
@@ -11159,6 +11215,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p12_030.jpg",
+        "sekcja": 6,
         "tytul": "Raczkiewicz wizytuje żołnierzy — spotkanie nieformalne",
         "data": "ok. 1943",
         "osoba": "prez. Władysław Raczkiewicz",
@@ -11166,6 +11223,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p12_031.jpg",
+        "sekcja": 6,
         "tytul": "Raczkiewicz w Perth — spotkanie z kobietami",
         "data": "ok. 1943",
         "osoba": "prez. Władysław Raczkiewicz",
@@ -11173,6 +11231,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p12_032.jpg",
+        "sekcja": 6,
         "tytul": "Premier Tomasz Arciszewski z gen. Głuchowskim — wizyta u inwalidów",
         "data": "ok. 1944",
         "osoba": "premier Tomasz Arciszewski, gen. Janusz Głuchowski",
@@ -11180,6 +11239,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p12_033.jpg",
+        "sekcja": 6,
         "tytul": "Premier Arciszewski — wyjście z budynku",
         "data": "ok. 1944",
         "osoba": "premier Tomasz Arciszewski",
@@ -11191,6 +11251,7 @@ GALLERY_PHOTOS = [
     # ============================================================
     {
         "file": "gallery/v2_p14_036.jpg",
+        "sekcja": 8,
         "tytul": "Rozmowa gen. Głuchowskiego z ambasadorem brytyjskim",
         "data": "ok. 1941–1944",
         "osoba": "gen. Janusz Głuchowski",
@@ -11198,6 +11259,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p14_037.jpg",
+        "sekcja": 8,
         "tytul": "Kolacja z ambasadorem brytyjskim",
         "data": "ok. 1941–1944",
         "osoba": "gen. Janusz Głuchowski",
@@ -11205,6 +11267,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p14_038.jpg",
+        "sekcja": 8,
         "tytul": "Procesja wojskowa z Orłem — Centrum Łączności",
         "data": "ok. 1943–1944",
         "osoba": "",
@@ -11212,6 +11275,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p15_039.jpg",
+        "sekcja": 6,
         "tytul": "Święto Łączności — publiczność szkocka, Kinross 1945",
         "data": "1945",
         "osoba": "",
@@ -11219,6 +11283,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p15_040.jpg",
+        "sekcja": 7,
         "tytul": "Podchorążówki — szyk kobiet w mundurach, Kinross",
         "data": "1945",
         "osoba": "",
@@ -11226,6 +11291,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p15_041.jpg",
+        "sekcja": 7,
         "tytul": "Oficerowie w szyku — ceremonia w Kinross",
         "data": "1945",
         "osoba": "",
@@ -11233,6 +11299,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p16_042.jpg",
+        "sekcja": 1,
         "tytul": "Samochód oficjalny z Orłem — najwyższy numer WSF N°9881",
         "data": "ok. 1944–1945",
         "osoba": "",
@@ -11240,6 +11307,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p16_043.jpg",
+        "sekcja": 6,
         "tytul": "Portret cywilny — format 6×6, Głuchowski (?)",
         "data": "lata 50. (?)",
         "osoba": "gen. Janusz Głuchowski (?)",
@@ -11247,6 +11315,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p16_044.jpg",
+        "sekcja": 8,
         "tytul": "Oficerowie przy stole ze sztandarami — spotkanie",
         "data": "ok. 1942–1944",
         "osoba": "gen. Janusz Głuchowski",
@@ -11254,6 +11323,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p16_045.jpg",
+        "sekcja": 8,
         "tytul": "Oficerowie i kobieta na schodach — pocztówka, Reswallie House (?)",
         "data": "ok. 1941–1943",
         "osoba": "gen. Janusz Głuchowski, Maria Głuchowska (?)",
@@ -11261,6 +11331,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p17_046.jpg",
+        "sekcja": 7,
         "tytul": "Oficerowie na schodach kamiennego budynku",
         "data": "ok. 1941–1943",
         "osoba": "",
@@ -11268,6 +11339,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p17_047.jpg",
+        "sekcja": 8,
         "tytul": "Oficerowie przed kamiennym wejściem — bliższe ujęcie",
         "data": "ok. 1941–1943",
         "osoba": "",
@@ -11275,6 +11347,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p17_048.jpg",
+        "sekcja": 8,
         "tytul": "Oficer z dokumentami — portret",
         "data": "ok. 1941–1943",
         "osoba": "",
@@ -11286,6 +11359,7 @@ GALLERY_PHOTOS = [
     # ============================================================
     {
         "file": "gallery/v2_p06_012.jpg",
+        "sekcja": 6,
         "tytul": "North Berwick 12.IX.1944 — Raczkiewicz w obozie PSK, dedykacja Niekraszowej",
         "data": "12.IX.1944",
         "osoba": "prez. Władysław Raczkiewicz, ochotniczka S. Niekraszowa",
@@ -11293,6 +11367,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p12_033.jpg",
+        "sekcja": 6,
         "tytul": "Odznaczenia dla Czechosłowaków — gen. Karel Janoušek, lipiec 1941",
         "data": "VII.1941",
         "osoba": "gen. Karel Janoušek (Czechosłowacja), płk Minikiewicz (+)",
@@ -11300,6 +11375,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p11_027.jpg",
+        "sekcja": 2,
         "tytul": "Internowani w Rumunii — Băile Herculane, jesień 1939",
         "data": "1939",
         "osoba": "",
@@ -11307,6 +11383,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p11_028.jpg",
+        "sekcja": 6,
         "tytul": "Prezydent Raczkiewicz na polowaniu — Highlands 1943",
         "data": "1943",
         "osoba": "prez. Władysław Raczkiewicz",
@@ -11314,6 +11391,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p16_043.jpg",
+        "sekcja": 6,
         "tytul": "Gen. Głuchowski ściska dłoń fotografowi Prytysowi — portret z aparatem",
         "data": "ok. 1943–1945",
         "osoba": "gen. Janusz Głuchowski, fot. Władysław Prytys",
@@ -11321,6 +11399,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p16_042.jpg",
+        "sekcja": 1,
         "tytul": "Oficerowie w mundurach II RP — Polska międzywojenna",
         "data": "ok. 1925–1935",
         "osoba": "",
@@ -11328,6 +11407,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p15_039.jpg",
+        "sekcja": 6,
         "tytul": "Zjazd Klanowy — 80 oficerów na ulicy Dundee, 6.III.1945 (fot. Prytys)",
         "data": "6.III.1945",
         "osoba": "80 oficerów PSZ",
@@ -11335,6 +11415,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p17_046.jpg",
+        "sekcja": 7,
         "tytul": "Szkoccy dudziarze (pipers) — polsko-szkockie braterstwo broni",
         "data": "ok. 1942–1945",
         "osoba": "",
@@ -11342,6 +11423,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/s1_p13_012.jpg",
+        "sekcja": 1,
         "tytul": "Defilada kawalerii z lancami — pogrzeb Marszałka Piłsudskiego, Pole Mokotowskie, maj 1935",
         "data": "17.V.1935",
         "osoba": "Marszałek Józef Piłsudski (pogrzeb)",
@@ -11349,6 +11431,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/s1_p41_040.jpg",
+        "sekcja": 7,
         "tytul": "Ranny oficer na kulach salutuje — WSF N°5829",
         "data": "ok. 1942–1943",
         "osoba": "",
@@ -11356,6 +11439,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/s1_p26_025.jpg",
+        "sekcja": 2,
         "tytul": "Rtm. Tadeusz Łoś — adiutant gen. Głuchowskiego, portret 1940",
         "data": "1940",
         "osoba": "rtm. Tadeusz Łoś",
@@ -11363,6 +11447,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/s1_p34_033.jpg",
+        "sekcja": 1,
         "tytul": "Reprodukcja portretu Marszałka Piłsudskiego — 'NAŚLADOWANIE WZBRONIONE'",
         "data": "ok. 1920–1935",
         "osoba": "Marszałek Józef Piłsudski",
@@ -11370,6 +11455,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/s1_p35_034.jpg",
+        "sekcja": 1,
         "tytul": "Pocztówka patriotyczna — Piłsudski z córkami Wandą i Jadwigą",
         "data": "ok. 1928–1935",
         "osoba": "Marszałek Józef Piłsudski, Wanda Piłsudska, Jadwiga Piłsudska",
@@ -11377,6 +11463,7 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/s2_p14_023.jpg",
+        "sekcja": 10,
         "tytul": "Portret cywilny — Głuchowski po demobilizacji, Londyn, lata 50.",
         "data": "ok. 1950–1960",
         "osoba": "gen. Janusz Głuchowski",
@@ -12080,16 +12167,35 @@ def generate_gallery_html():
             all_serie.add(obj["seria"])
     seria_options = ''.join(f'<option value="{s}">Seria {s}</option>' for s in sorted(all_serie))
 
-    # --- 2. New photos from GALLERY_PHOTOS ---
-    gallery_cards = ""
-    for p in GALLERY_PHOTOS:
-        osoba = p.get("osoba", "")
-        data = p.get("data", "")
-        tytul = p.get("tytul", "")
-        opis = p.get("opis", "")
-        img_path = f"gluchowski_img/{p['file']}"
+    # --- 2. New photos organized in 10 biographical chapters ---
+    CHAPTERS = [
+        (1, "rozdzial-1", "I. Legiony i II Rzeczpospolita (1914\u20131939)", "Od Si\u00f3demki Beliny przez wojn\u0119 1920, Grudzi\u0105dz, po pogrzeb Pi\u0142sudskiego"),
+        (2, "rozdzial-2", "II. Internowanie w Rumunii (1939\u20131940)", "B\u0103ile Herculane \u2014 od wakacji (1926) do internowania (1939)"),
+        (3, "rozdzial-3", "III. Palestyna \u2014 Latrun (1941)", "Ostatni ko\u0144 kawalerii \u2014 dedykacja z obozu w Latrun"),
+        (4, "rozdzial-4", "IV. W drodze \u2014 Yorkshire (V.1941)", "Market Weighton \u2014 jedyny przystanek poza Szkocj\u0105"),
+        (5, "rozdzial-5", "V. Szkocja \u2014 dowodzenie (1941\u20131945)", "Szko\u0142a Podchor\u0105\u017cych, poci\u0105gi pancerne, 10. Brygada Kawalerii"),
+        (6, "rozdzial-6", "VI. Szkocja \u2014 najwy\u017csze w\u0142adze RP", "Sikorski, Anders, B\u00f3r-Komorowski, Raczkiewicz, Arciszewski, Kopa\u0144ski, Sabbat"),
+        (7, "rozdzial-7", "VII. Szkocja \u2014 uroczysto\u015bci wojskowe", "Seria Forfar WSF, Wigilia, Zjazdy, \u015awi\u0119to \u0141\u0105czno\u015bci, defilady"),
+        (8, "rozdzial-8", "VIII. Szkocja \u2014 \u017cycie prywatne", "Maria w tartanie, ogr\u00f3d, Reswallie House, podwieczorki"),
+        (9, "rozdzial-9", "IX. Wyzwolenie \u2014 Holandia (IV.1945)", "8 zdj\u0119\u0107 WSF: od wyzwolenia po flag\u0119. Niemowl\u0119 w ramionach matki."),
+        (10, "rozdzial-10", "X. Po wojnie \u2014 Londyn", "Jedyny powojenny portret genera\u0142a"),
+    ]
 
-        gallery_cards += f'''    <div class="card">
+    gallery_section = ""
+    total_new = 0
+    for ch_num, ch_id, ch_title, ch_desc in CHAPTERS:
+        chapter_photos = [p for p in GALLERY_PHOTOS if p.get("sekcja") == ch_num]
+        if not chapter_photos:
+            continue
+        total_new += len(chapter_photos)
+        cards_html = ""
+        for p in chapter_photos:
+            osoba = p.get("osoba", "")
+            data = p.get("data", "")
+            tytul = p.get("tytul", "")
+            opis = p.get("opis", "")
+            img_path = f"gluchowski_img/{p['file']}"
+            cards_html += f'''    <div class="card">
       <div class="card-img-wrap" data-src="{img_path}" data-title="{escape(tytul)}" onclick="openLightbox(this.dataset.src, this.dataset.title)">
         <img src="{img_path}" alt="{escape(tytul)}" loading="lazy">
       </div>
@@ -12103,20 +12209,50 @@ def generate_gallery_html():
       </div>
     </div>\n'''
 
-    gallery_section = ""
-    if GALLERY_PHOTOS:
-        gallery_section = '<section class="series" id="nowe-fotografie">\n'
-        gallery_section += '  <div class="series-header">\n'
-        gallery_section += '    <div class="series-num">NOWE FOTOGRAFIE</div>\n'
-        gallery_section += '    <h2 class="series-title">Nowe fotografie</h2>\n'
-        gallery_section += '    <p class="series-desc">Dodatkowe zdj\u0119cia rodzinne, wojskowe i uroczysto\u015bci</p>\n'
-        gallery_section += '  </div>\n'
-        gallery_section += '  <div class="cards-grid">\n'
-        gallery_section += gallery_cards
-        gallery_section += '  </div>\n</section>\n'
-        nav_html += '<a href="#nowe-fotografie" class="nav-link">Nowe fotografie (' + str(len(GALLERY_PHOTOS)) + ')</a>\n'
+        gallery_section += f'''<section class="series" id="{ch_id}">
+  <div class="series-header">
+    <div class="series-num">{ch_num}</div>
+    <h2 class="series-title">{ch_title}</h2>
+    <p class="series-desc">{ch_desc}</p>
+    <p class="series-count">{len(chapter_photos)} fotografii</p>
+  </div>
+  <div class="cards-grid">
+{cards_html}  </div>
+</section>\n'''
+        nav_html += f'<a href="#{ch_id}" class="nav-link">{ch_title} ({len(chapter_photos)})</a>\n'
 
-    gallery_count = catalog_photo_count + len(GALLERY_PHOTOS)
+    # Photos without sekcja go to "Inne"
+    unassigned = [p for p in GALLERY_PHOTOS if not p.get("sekcja")]
+    if unassigned:
+        total_new += len(unassigned)
+        cards_html = ""
+        for p in unassigned:
+            img_path = f"gluchowski_img/{p['file']}"
+            cards_html += f'''    <div class="card">
+      <div class="card-img-wrap" data-src="{img_path}" data-title="{escape(p.get('tytul',''))}" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="{img_path}" alt="{escape(p.get('tytul',''))}" loading="lazy">
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">{escape(p.get('tytul',''))}</h3>
+        <div class="card-meta-row">
+          <span class="card-date">{escape(p.get('data',''))}</span>
+          <span class="card-type">{escape(p.get('osoba',''))}</span>
+        </div>
+        <div class="card-field">{escape(p.get('opis',''))}</div>
+      </div>
+    </div>\n'''
+        gallery_section += f'''<section class="series" id="inne-fotografie">
+  <div class="series-header">
+    <div class="series-num">&#8943;</div>
+    <h2 class="series-title">Inne fotografie</h2>
+    <p class="series-count">{len(unassigned)} fotografii</p>
+  </div>
+  <div class="cards-grid">
+{cards_html}  </div>
+</section>\n'''
+        nav_html += f'<a href="#inne-fotografie" class="nav-link">Inne ({len(unassigned)})</a>\n'
+
+    gallery_count = catalog_photo_count + total_new
 
     common_css = _common_css()
     lang_bar = _lang_bar_html()
