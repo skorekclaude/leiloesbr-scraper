@@ -3511,22 +3511,7 @@ OBJECTS = [
     # =====================================================================
     # SERIA VI — VARIA / RODZINA
     # =====================================================================
-    {
-        "sygn": "ARG/VI/1",
-        "photo": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p04_img01.jpeg",
-        "tytul": "Tablica pamiątkowa natarcia 7 P.Uł. AK 'JELEŃ' na gmach Gestapo i Dom Prasy — 1.VIII.1944 godz. 17:00",
-        "data": "1.VIII.1944",
-        "typ": "fotografia tablicy pamiątkowej",
-        "opis_fizyczny": "Fotografia maszynopisu/druku pamiątkowego na białym/kremowym papierze, format ok. 15×15 cm. Tekst maszynowy ułożony centrycznie. Papier lekko pożółkły. Zdjęcie ostre, czytelne.",
-        "opis_tresci": "'Dnia 1.8.1944 r. godz. 17. / z tego domu i okolicznych / ruszyło do natarcia / na gmach Gestapo i Dom Prasy / 5 plutonów / 7 pułku ułanów / AK / «JELEŃ» / z / 187 Powstańców / poległo 67 / Cześć Ich pamięci.' Tekst tablicy upamiętniającej natarcie 5 plutonów 7 Pułku Ułanów AK 'Jeleń' na gmach Gestapo (Al. Szucha) i Dom Prasy w WARSZAWIE w dniu wybuchu Powstania Warszawskiego, o godzinie 'W' (17:00). Z 187 powstańców poległo 67 — ponad jedna trzecia.",
-        "seria": "VI",
-        "tworca": "nieznany (druk pamiątkowy, prawdopodobnie pow. 1945)",
-        "jezyk": "polski",
-        "kontekst": "KLUCZOWY DOKUMENT PAMIĘCI — upamiętnia najkrwawszą akcję 7 P.Uł. AK 'Jeleń' w godzinie 'W' Powstania Warszawskiego (1.VIII.1944, godz. 17:00). Natarcie na gmach Gestapo przy Al. Szucha i Dom Prasy (ul. Marszałkowska 3/5) w WARSZAWIE (NIE w Krakowie!). 36% strat (67 z 187). W tych 5 plutonach służył Krzysztof 'Juraś' Głuchowski — ten dokument jest bezpośrednim świadectwem jego udziału w Powstaniu. Lech Głuchowski (stryj Krzysztofa) dowodził natarciem na Al. Szucha i poległ na Mokotowie 15.IX.1944.",
-        "powiazania": ["ARG/V/3"],
-        "stan": "Dobry",
-        "wycena": "500-1200 PLN"
-    },
+    # ARG/VI/1 USUNIĘTY — duplikat ARG/V/158 (ta sama tablica pamiątkowa Gestapo/Jeleń)
     {
         "sygn": "ARG/VI/2",
         "photo": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p10_img01.jpeg",
@@ -4077,7 +4062,7 @@ OBJECTS = [
         "photo": "lbr_II_54_p01.jpg",
         "tytul": "Album 'Żołnierz z Montecassino' z DEDYKACJĄ GEN. ANDERSA dla gen. Głuchowskiego — Rzym 1945",
         "data": "31.III.1945",
-        "typ": "album fotograficzny",
+        "typ": "druk",
         "opis_fizyczny": "Album fotograficzny w twardej oprawie, papier fotograficzny, wydany przez Oddział Kultury i Prasy 2. Korpusu AP, Rzym 1945. Na stronie tytułowej ODRĘCZNA DEDYKACJA GEN. WŁADYSŁAWA ANDERSA: 'Gł. J. Głuchowskiemu z wyrazami przyjaźni / w hołdzie naszym żołnierzom do Polski / W. Anders / 31.3.45'. Zażółcenia na okładkach, grzbiet częściowo oderwany. 5 zdjęć.",
         "opis_tresci": "'ŻOŁNIERZ Z MONTECASSINO' — album fotograficzny dokumentujący bitwę o Monte Cassino (11-18.V.1944). Wydawca: Oddział Kultury i Prasy 2. Korpusu AP, Rzym 1945. Okładka: tytuł złotymi literami na tle fotografii polnych maków (maki z Monte Cassino = symbol polskiego zwycięstwa). Oprawa lniana, format podłużny. Wnętrze: rozkładane panoramiczne zdjęcia pola walki, żołnierzy w okopach, ruin klasztoru, artylerii w akcji. DEDYKACJA ODRĘCZNA NA STRONIE TYTUŁOWEJ: 'Gł. J. Głuchowskiemu z wyrazami przyjaźni / w naszym(?) bratnich(?) doświadczeń do Polski / W. Anders / 31.3.45' — podpis gen. Władysława Andersa, datowany 31 marca 1945. Dedykacja w ciemnoniebieskim atramencie, pismo wyraźne.",
         "seria": "II",
@@ -6343,14 +6328,7 @@ VALUATIONS = {
     },
 
     # === SERIA VI — VARIA ===
-    "ARG/VI/1": {
-        "wartosc_hist": "★★★",
-        "opis_wartosci": "Fotografia tablicy pamiątkowej akcji 'Jeleń'. Fotografie tablic: 100-300 PLN.",
-        "cena_min": 100,
-        "cena_max": 300,
-        "waluta": "PLN",
-        "rekomendacja": "W zestawie."
-    },
+    # ARG/VI/1 USUNIĘTY — duplikat ARG/V/158
     "ARG/VI/2": {"wartosc_hist": "★★", "opis_wartosci": "Fotografia Krzyża Walecznych. 50-150 PLN.", "cena_min": 50, "cena_max": 150, "waluta": "PLN", "rekomendacja": "W zestawie."},
     "ARG/VI/3": {
         "wartosc_hist": "★★★",
@@ -7737,7 +7715,7 @@ SPECIAL_TRANSCRIPTION_MAP = {
     "ARG/V/158":  "galeria_tablica_gestapo",
     "ARG/V/164":  "wa_krzyz_ak",
     "ARG/V/166":  "wa_biogram_krzysztof",
-    "ARG/VI/1":   "galeria_tablica_gestapo",
+    # ARG/VI/1 usunięty — duplikat ARG/V/158
     "ARG/VI/8":   "msza_jelen_1970",
     "ARG/VI/9":   "nekrolog_lorens",
     "ARG/VI/10":  "list_ambasada_izrael",
