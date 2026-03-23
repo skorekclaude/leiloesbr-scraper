@@ -8432,6 +8432,8 @@ document.addEventListener('DOMContentLoaded', function() {{
     {photo_cards}
 </div>'''
 
+    footer_nav = _footer_html()
+
     html = f'''<!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -10369,6 +10371,8 @@ body.lang-active .card-lang-badge {{ display:inline; }}
 </nav>
 
 {valuation_html}
+
+{footer_nav}
 
 <div class="footer">
   Katalog opracowany metodą muzealną na podstawie bezpośredniej analizy wizualnej dokumentów.<br>
