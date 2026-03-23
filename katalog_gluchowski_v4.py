@@ -10869,7 +10869,7 @@ GALLERY_PHOTOS = [
         "tytul": "Wigilia wojskowa z dekoracjami — WSF N°8892",
         "data": "ok. 1942–1943",
         "osoba": "",
-        "opis": "Wnętrze udekorowane papierowymi ozdobami — zygzaki, wycinanki (polskie tradycje ludowe). Wysoki, łysy generał z odznaczeniami w centrum. Kapelan z białą stułą. Stół zastawiony. Odbitka WSF N°8892. Zamyka serię wigilijną (N°8841, 8857, 8866, 8892)."
+        "opis": "Wnętrze udekorowane papierowymi ozdobami — zygzaki, wycinanki (polskie tradycje ludowe). Wysoki, łysy generał z odznaczeniami w centrum — prawdopodobnie gen. Marian Kukiel, Minister Obrony Narodowej (zidentyfikowany na podstawie porównania z fotografią spotkania z Lord Provost Edynburga, sup_p14_019). Kapelan z białą stułą. Stół zastawiony. Odbitka WSF N°8892. Zamyka serię wigilijną (N°8841, 8857, 8866, 8892)."
     },
 
     # ============================================================
