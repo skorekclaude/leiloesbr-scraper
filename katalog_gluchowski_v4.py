@@ -8533,6 +8533,12 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
 body.lang-js [data-lang] {{ display:none; }}
 body.lang-js [data-lang].lang-visible {{ display:revert; }}
 
+/* PAGE NAV */
+.page-nav {{ display:flex; justify-content:center; gap:0; background:var(--surface); border-bottom:1px solid var(--border); padding:0; }}
+.page-nav-link {{ padding:14px 28px; color:var(--text-dim); text-decoration:none; font-size:0.9em; font-weight:500; border-bottom:3px solid transparent; transition:all .2s; }}
+.page-nav-link:hover {{ color:var(--gold); background:var(--surface2); }}
+.page-nav-link.active {{ color:var(--gold); border-bottom-color:var(--gold); font-weight:600; }}
+
 /* NAV */
 .nav {{ position:sticky; top:38px; z-index:100; background:rgba(12,11,9,.95); backdrop-filter:blur(12px); padding:14px 20px; border-bottom:1px solid var(--border); display:flex; flex-wrap:wrap; gap:8px; justify-content:center; }}
 .nav-link {{ color:var(--text-dim); text-decoration:none; font-size:0.8em; padding:5px 12px; border:1px solid var(--border); border-radius:3px; transition:all .2s; font-weight:500; }}
@@ -8889,6 +8895,12 @@ body.lang-active .card-lang-badge {{ display:inline; }}
   <button class="lang-btn" onclick="switchLang('nl', this)">NL</button>
   <button class="lang-btn" onclick="switchLang('fr', this)">FR</button>
   <button class="lang-btn" onclick="switchLang('yi', this)">YI</button>
+</div>
+
+<div class="page-nav">
+  <a href="katalog_gluchowski_v4.html" class="page-nav-link active">&#128203; Katalog</a>
+  <a href="archiwum.html" class="page-nav-link">&#128247; Archiwum Dokument&oacute;w</a>
+  <a href="galeria.html" class="page-nav-link">&#128444; Galeria Fotografii</a>
 </div>
 
 <div class="header">
@@ -10389,12 +10401,6 @@ body.lang-active .card-lang-badge {{ display:inline; }}
   </div>
 </div>
 
-<div class="tab-nav">
-  <button class="tab-btn active" onclick="switchTab('katalog', this)">&#128218; Katalog</button>
-  <button class="tab-btn" onclick="switchTab('archiwum', this)">&#128247; Archiwum Fotograficzne</button>
-</div>
-
-<div class="tab-content active" id="tab-katalog">
 <nav class="nav">
 <a href="#finding-aid" class="nav-link" style="border-color:var(--gold);color:var(--gold);" data-nav="family">Historia rodziny</a>
 <a href="#indeks-osob" class="nav-link" data-nav="persons">Indeks osób</a>
@@ -10410,11 +10416,6 @@ body.lang-active .card-lang-badge {{ display:inline; }}
 {series_html}
 
 {valuation_html}
-</div>
-
-<div class="tab-content" id="tab-archiwum">
-{photo_archive_html}
-</div>
 
 <div class="footer">
   Katalog opracowany metodą muzealną na podstawie bezpośredniej analizy wizualnej dokumentów.<br>
@@ -10581,15 +10582,6 @@ document.addEventListener('keydown', e => {{
   if(e.key==='0') zoomReset();
 }});
 
-/* Tab switching */
-function switchTab(tabId, btn) {{
-  document.querySelectorAll('.tab-content').forEach(tc => tc.classList.remove('active'));
-  document.querySelectorAll('.tab-btn').forEach(tb => tb.classList.remove('active'));
-  document.getElementById('tab-' + tabId).classList.add('active');
-  btn.classList.add('active');
-  window.scrollTo({{ top: 0, behavior: 'smooth' }});
-}}
-
 /* ─── LANGUAGE SYSTEM ─── */
 const FIELD_LABELS = {{
   pl: {{ opis_fiz:'Opis fizyczny:', tresc:'Treść:', tworca:'Twórca:', jezyk:'Język:', kontekst:'Kontekst:', stan:'Stan:', powiazania:'Powiązania:' }},
@@ -10656,18 +10648,10 @@ function switchLang(lang, btn) {{
   document.documentElement.lang = lang;
 }}
 
-/* Multi-page gallery — scroll to related card */
+/* Scroll to related card */
 function scrollToCard(cardId) {{
   const el = document.getElementById('card-' + cardId);
   if (!el) return;
-  // Ensure the tab containing the card is visible
-  const tabKatalog = document.getElementById('tab-katalog');
-  if (tabKatalog && !tabKatalog.classList.contains('active')) {{
-    document.querySelectorAll('.tab-content').forEach(tc => tc.classList.remove('active'));
-    document.querySelectorAll('.tab-btn').forEach(tb => tb.classList.remove('active'));
-    tabKatalog.classList.add('active');
-    document.querySelector('[onclick*="katalog"]')?.classList.add('active');
-  }}
   el.scrollIntoView({{ behavior:'smooth', block:'center' }});
   el.classList.add('highlight-target');
   setTimeout(() => el.classList.remove('highlight-target'), 3000);
@@ -10704,15 +10688,827 @@ function filterPhotos() {{
     return html
 
 
+# ============================================================================
+# GALERIA FOTOGRAFII — zdjęcia rodzinne, żołnierskie, uroczystości
+# ============================================================================
+GALLERY_PHOTOS = [
+    # Example structure — will be filled with 200+ photos
+    # {
+    #     "file": "gallery/photo_001.jpeg",
+    #     "tytul": "Gen. Janusz Głuchowski na defiladzie, Warszawa 1937",
+    #     "data": "1937",
+    #     "osoba": "Janusz Głuchowski",
+    #     "kategoria": "defilada",    # defilada/portret/uroczystosc/rodzinne/wojskowe
+    #     "seria": "II",
+    #     "opis": "Krótki opis zdjęcia"
+    # },
+]
+
+
+def _common_css():
+    """Return common CSS shared by all pages."""
+    return '''* { margin:0; padding:0; box-sizing:border-box; }
+:root {
+  --bg: #0c0b09;
+  --surface: #141210;
+  --surface2: #1a1816;
+  --border: #2a2520;
+  --border-light: #3a3530;
+  --gold: #c9a96e;
+  --gold-dim: #8a7e6b;
+  --text: #e0d5c1;
+  --text-dim: #8a7e6b;
+  --text-faint: #5a5040;
+  --accent: #a08050;
+  --red: #c45a5a;
+}
+body { background:var(--bg); color:var(--text); font-family:'Source Sans 3',sans-serif; font-weight:400; line-height:1.6; }
+
+/* LANGUAGE BAR */
+.lang-bar { position:sticky; top:0; z-index:200; background:rgba(12,11,9,.98); backdrop-filter:blur(16px); padding:8px 20px; border-bottom:1px solid var(--border); display:flex; gap:0; justify-content:center; align-items:center; }
+.lang-bar .lang-label { font-size:0.7em; color:var(--text-faint); text-transform:uppercase; letter-spacing:2px; margin-right:12px; font-weight:500; }
+.lang-btn { padding:6px 14px; background:transparent; border:1px solid transparent; cursor:pointer; font-size:0.82em; font-family:'Source Sans 3',sans-serif; color:var(--text-dim); transition:all .2s; border-radius:3px; font-weight:500; }
+.lang-btn:hover { color:var(--gold); border-color:var(--border); }
+.lang-btn.active { color:var(--gold); border-color:var(--gold); background:rgba(201,169,110,.08); font-weight:600; }
+[data-lang] { display:none; }
+[data-lang="pl"] { display:revert; }
+body.lang-js [data-lang] { display:none; }
+body.lang-js [data-lang].lang-visible { display:revert; }
+
+/* PAGE NAV */
+.page-nav { display:flex; justify-content:center; gap:0; background:var(--surface); border-bottom:1px solid var(--border); padding:0; }
+.page-nav-link { padding:14px 28px; color:var(--text-dim); text-decoration:none; font-size:0.9em; font-weight:500; border-bottom:3px solid transparent; transition:all .2s; }
+.page-nav-link:hover { color:var(--gold); background:var(--surface2); }
+.page-nav-link.active { color:var(--gold); border-bottom-color:var(--gold); font-weight:600; }
+
+/* HEADER */
+.header { text-align:center; padding:60px 20px 30px; border-bottom:1px solid var(--border); }
+.header h1 { font-family:'Playfair Display',serif; font-size:2.4em; color:var(--gold); letter-spacing:2px; margin-bottom:8px; }
+.header .subtitle { color:var(--text-dim); font-size:1.1em; font-weight:300; }
+
+/* PHOTO ARCHIVE GRID */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    padding: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.photo-card {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background: var(--surface);
+}
+.photo-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,.4);
+    border-color: var(--accent);
+}
+.photo-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+.photo-card .card-info {
+    padding: 8px;
+    font-size: 12px;
+}
+.photo-card .card-sygn {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+    color: var(--gold);
+    font-size: 11px;
+}
+.photo-card .card-title {
+    color: var(--text-dim);
+    margin-top: 4px;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* FILTER BAR */
+.filter-bar {
+    display: flex;
+    gap: 12px;
+    padding: 15px 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin: 20px auto 15px;
+    max-width: 1400px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.filter-bar select, .filter-bar input {
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-size: 14px;
+    background: var(--surface2);
+    color: var(--text);
+    font-family: 'Source Sans 3', sans-serif;
+}
+.filter-bar select:focus, .filter-bar input:focus {
+    outline: none;
+    border-color: var(--gold);
+}
+.photo-count {
+    margin-left: auto;
+    color: var(--text-faint);
+    font-size: 14px;
+}
+
+/* LIGHTBOX */
+.lightbox { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,.95); z-index:9999; justify-content:center; align-items:center; flex-direction:column; }
+.lightbox.active { display:flex; }
+.lightbox img { max-width:90%; max-height:80vh; object-fit:contain; transition:transform .3s; cursor:grab; }
+.lightbox img.notransition { transition:none; }
+.lb-close { position:absolute; top:20px; right:30px; color:#fff; font-size:40px; cursor:pointer; z-index:10001; }
+.lb-title { color:var(--text-dim); margin-top:12px; font-size:0.9em; text-align:center; max-width:80%; }
+.lb-controls { display:flex; gap:8px; margin-bottom:12px; z-index:10001; }
+.lb-btn { background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.2); color:#fff; width:40px; height:40px; border-radius:50%; cursor:pointer; font-size:1.2em; display:flex; align-items:center; justify-content:center; transition:background .2s; }
+.lb-btn:hover { background:rgba(255,255,255,.25); }
+.lb-zoom-info { position:absolute; top:20px; left:50%; transform:translateX(-50%); background:rgba(0,0,0,.7); color:var(--gold); padding:4px 12px; border-radius:4px; font-size:0.85em; opacity:0; transition:opacity .3s; z-index:10002; }
+.lb-zoom-info.visible { opacity:1; }
+
+/* FOOTER */
+.footer { text-align:center; padding:50px 20px; color:var(--text-faint); font-size:0.78em; border-top:1px solid var(--border); line-height:1.8; }
+.footer a { color:var(--gold-dim); text-decoration:none; }
+.footer a:hover { color:var(--gold); }
+
+@media (max-width:600px) {
+  .photo-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; padding: 10px; }
+  .photo-card img { height: 110px; }
+  .filter-bar { padding: 10px; gap: 8px; }
+  .filter-bar select, .filter-bar input { font-size: 13px; padding: 6px 10px; }
+  .page-nav-link { padding:10px 14px; font-size:0.82em; }
+}'''
+
+
+def _lang_bar_html():
+    """Return the language switcher bar HTML."""
+    return '''<div class="lang-bar" id="lang-bar">
+  <span class="lang-label">Język / Language</span>
+  <button class="lang-btn active" onclick="switchLang('pl', this)">PL</button>
+  <button class="lang-btn" onclick="switchLang('en', this)">EN</button>
+  <button class="lang-btn" onclick="switchLang('pt', this)">PT</button>
+  <button class="lang-btn" onclick="switchLang('de', this)">DE</button>
+  <button class="lang-btn" onclick="switchLang('nl', this)">NL</button>
+  <button class="lang-btn" onclick="switchLang('fr', this)">FR</button>
+  <button class="lang-btn" onclick="switchLang('yi', this)">YI</button>
+</div>'''
+
+
+def _page_nav_html(active):
+    """Return page navigation bar. active = 'katalog' | 'archiwum' | 'galeria'."""
+    def cls(page):
+        return ' active' if page == active else ''
+    return f'''<div class="page-nav">
+  <a href="katalog_gluchowski_v4.html" class="page-nav-link{cls('katalog')}">&#128203; Katalog</a>
+  <a href="archiwum.html" class="page-nav-link{cls('archiwum')}">&#128247; Archiwum Dokument&oacute;w</a>
+  <a href="galeria.html" class="page-nav-link{cls('galeria')}">&#128444; Galeria Fotografii</a>
+</div>'''
+
+
+def _lightbox_html():
+    """Return lightbox HTML."""
+    return '''<div class="lightbox" id="lightbox" onclick="handleLightboxClick(event)">
+  <span class="lb-close" onclick="closeLightbox()">&times;</span>
+  <div class="lb-zoom-info" id="lb-zoom-info"></div>
+  <div class="lb-controls">
+    <button class="lb-btn" onclick="zoomOut(event)" title="Pomniejsz (-)">&#x2212;</button>
+    <button class="lb-btn" onclick="rotateCCW(event)" title="Obrot w lewo (Q)">&#x21BA;</button>
+    <button class="lb-btn" onclick="rotateCW(event)" title="Obrot w prawo (E)">&#x21BB;</button>
+    <button class="lb-btn" onclick="zoomIn(event)" title="Powieksz (+)">&#x2b;</button>
+    <button class="lb-btn" onclick="zoomReset(event)" title="Resetuj (0)" style="font-size:1em;">1:1</button>
+  </div>
+  <img id="lb-img" src="" alt="">
+  <div class="lb-title" id="lb-title"></div>
+</div>'''
+
+
+def _lightbox_js():
+    """Return lightbox JavaScript (no script tags)."""
+    return '''let currentRotation = 0;
+let currentZoom = 1;
+let panX = 0, panY = 0;
+let isDragging = false, dragStartX = 0, dragStartY = 0, dragStartPanX = 0, dragStartPanY = 0;
+let zoomInfoTimeout = null;
+let pinchStartDist = 0, pinchStartZoom = 1;
+
+function applyTransform() {
+  const img = document.getElementById('lb-img');
+  img.style.transform = 'translate(' + panX + 'px,' + panY + 'px) rotate(' + currentRotation + 'deg) scale(' + currentZoom + ')';
+}
+
+function showZoomInfo() {
+  const el = document.getElementById('lb-zoom-info');
+  el.textContent = Math.round(currentZoom * 100) + '%';
+  el.classList.add('visible');
+  clearTimeout(zoomInfoTimeout);
+  zoomInfoTimeout = setTimeout(() => el.classList.remove('visible'), 1200);
+}
+
+function openLightbox(src, title) {
+  currentRotation = 0; currentZoom = 1; panX = 0; panY = 0;
+  const img = document.getElementById('lb-img');
+  img.src = src;
+  img.className = '';
+  applyTransform();
+  document.getElementById('lb-title').textContent = title;
+  document.getElementById('lightbox').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('active');
+  document.body.style.overflow = '';
+}
+function rotateCW(e) {
+  e && e.stopPropagation();
+  currentRotation = (currentRotation + 90) % 360;
+  applyTransform();
+}
+function rotateCCW(e) {
+  e && e.stopPropagation();
+  currentRotation = (currentRotation - 90 + 360) % 360;
+  applyTransform();
+}
+function zoomIn(e) {
+  e && e.stopPropagation();
+  currentZoom = Math.min(currentZoom * 1.3, 8);
+  applyTransform(); showZoomInfo();
+}
+function zoomOut(e) {
+  e && e.stopPropagation();
+  currentZoom = Math.max(currentZoom / 1.3, 0.2);
+  applyTransform(); showZoomInfo();
+}
+function zoomReset(e) {
+  e && e.stopPropagation();
+  currentZoom = 1; panX = 0; panY = 0; currentRotation = 0;
+  applyTransform(); showZoomInfo();
+}
+function handleLightboxClick(event) {
+  if (event.target.id === 'lightbox') closeLightbox();
+}
+
+/* Mouse wheel zoom */
+document.getElementById('lightbox').addEventListener('wheel', function(e) {
+  e.preventDefault();
+  if (e.deltaY < 0) { currentZoom = Math.min(currentZoom * 1.15, 8); }
+  else { currentZoom = Math.max(currentZoom / 1.15, 0.2); }
+  applyTransform(); showZoomInfo();
+}, { passive: false });
+
+/* Mouse drag */
+const lbImg = document.getElementById('lb-img');
+lbImg.addEventListener('mousedown', function(e) {
+  if (currentZoom <= 1) return;
+  isDragging = true;
+  dragStartX = e.clientX; dragStartY = e.clientY;
+  dragStartPanX = panX; dragStartPanY = panY;
+  lbImg.classList.add('notransition');
+  e.preventDefault();
+});
+document.addEventListener('mousemove', function(e) {
+  if (!isDragging) return;
+  panX = dragStartPanX + (e.clientX - dragStartX);
+  panY = dragStartPanY + (e.clientY - dragStartY);
+  applyTransform();
+});
+document.addEventListener('mouseup', function() {
+  isDragging = false;
+  lbImg.classList.remove('notransition');
+});
+
+/* Touch pinch zoom + drag */
+document.getElementById('lightbox').addEventListener('touchstart', function(e) {
+  if (e.touches.length === 2) {
+    const dx = e.touches[0].clientX - e.touches[1].clientX;
+    const dy = e.touches[0].clientY - e.touches[1].clientY;
+    pinchStartDist = Math.sqrt(dx*dx + dy*dy);
+    pinchStartZoom = currentZoom;
+    e.preventDefault();
+  } else if (e.touches.length === 1 && currentZoom > 1) {
+    isDragging = true;
+    dragStartX = e.touches[0].clientX; dragStartY = e.touches[0].clientY;
+    dragStartPanX = panX; dragStartPanY = panY;
+    lbImg.classList.add('notransition');
+  }
+}, { passive: false });
+document.getElementById('lightbox').addEventListener('touchmove', function(e) {
+  if (e.touches.length === 2) {
+    e.preventDefault();
+    const dx = e.touches[0].clientX - e.touches[1].clientX;
+    const dy = e.touches[0].clientY - e.touches[1].clientY;
+    const dist = Math.sqrt(dx*dx + dy*dy);
+    const newZoom = pinchStartZoom * (dist / pinchStartDist);
+    currentZoom = Math.max(0.2, Math.min(8, newZoom));
+    applyTransform(); showZoomInfo();
+  } else if (isDragging && e.touches.length === 1) {
+    panX = dragStartPanX + (e.touches[0].clientX - dragStartX);
+    panY = dragStartPanY + (e.touches[0].clientY - dragStartY);
+    applyTransform();
+  }
+}, { passive: false });
+document.getElementById('lightbox').addEventListener('touchend', () => {
+  isDragging = false;
+  lbImg.classList.remove('notransition');
+});
+
+/* Keyboard */
+document.addEventListener('keydown', e => {
+  const lb = document.getElementById('lightbox');
+  if (!lb.classList.contains('active')) return;
+  if(e.key==='Escape') closeLightbox();
+  if(e.key==='e' || e.key==='E' || e.key==='ArrowRight') rotateCW();
+  if(e.key==='q' || e.key==='Q' || e.key==='ArrowLeft') rotateCCW();
+  if(e.key==='+' || e.key==='=') zoomIn();
+  if(e.key==='-' || e.key==='_') zoomOut();
+  if(e.key==='0') zoomReset();
+});'''
+
+
+def _lang_js():
+    """Return language switching JavaScript (no script tags)."""
+    return '''function switchLang(lang, btn) {
+  document.body.classList.add('lang-js');
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+
+  /* Show/hide elements with data-lang using group-based fallback */
+  const allLanged = document.querySelectorAll('[data-lang]');
+  allLanged.forEach(el => el.classList.remove('lang-visible'));
+
+  /* Group by parent */
+  const groups = new Map();
+  allLanged.forEach(el => {
+    const p = el.parentElement;
+    if (!groups.has(p)) groups.set(p, []);
+    groups.get(p).push(el);
+  });
+  groups.forEach(siblings => {
+    let match = siblings.find(el => el.dataset.lang === lang);
+    if (!match) match = siblings.find(el => el.dataset.lang === 'en');
+    if (!match) match = siblings.find(el => el.dataset.lang === 'pl');
+    if (match) match.classList.add('lang-visible');
+  });
+
+  document.documentElement.lang = lang;
+}
+
+(function initLang() {
+  document.body.classList.add('lang-js');
+  const plBtn = document.querySelector('.lang-btn.active');
+  if (plBtn) switchLang('pl', plBtn);
+})();'''
+
+
+def _footer_html():
+    """Return common footer HTML."""
+    return '''<div class="footer">
+  Archiwum Rodziny Głuchowskich &mdash; Katalog Muzealny<br>
+  <a href="katalog_gluchowski_v4.html">Katalog</a> &bull;
+  <a href="archiwum.html">Archiwum Dokumentów</a> &bull;
+  <a href="galeria.html">Galeria Fotografii</a><br>
+  Standard: ISAD(G) / Dublin Core &bull; &copy; 2026
+</div>'''
+
+
+def _is_photo_type(typ):
+    """Check if document type is a photograph (goes to Gallery, not Archive)."""
+    t = typ.lower()
+    return ('foto' in t or t in ('album', 'album fotograficzny', 'album/fotografia'))
+
+
+def generate_archive_html():
+    """Generate docs/archiwum.html — document archive (excludes photographs)."""
+
+    # Build photo cards from OBJECTS — only DOCUMENTS, not photographs
+    photo_cards = ""
+    photo_count = 0
+    all_typy = set()
+    all_serie = set()
+    for obj in OBJECTS:
+        photo = obj.get("photo", "")
+        if not photo:
+            continue
+        # Skip photographs — they go to galeria.html
+        if _is_photo_type(obj.get("typ", "")):
+            continue
+        photo_count += 1
+        sygn = obj["sygn"]
+        title = obj.get("tytul", "")[:60]
+        seria = obj.get("seria", "")
+        typ = obj.get("typ", "")
+        typ_label = DOC_TYPES.get(typ, typ)
+        all_typy.add(typ)
+        all_serie.add(seria)
+        img_path = f"gluchowski_img/{photo}"
+        photo_cards += f'''<div class="photo-card" data-seria="{escape(seria)}" data-typ="{escape(typ)}" data-search="{escape(sygn.lower())} {escape(title.lower())}" data-src="{IMG_DIR}/{photo}" data-title="{escape(obj.get('tytul', ''))}" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="{img_path}" alt="{escape(sygn)}" loading="lazy">
+        <div class="card-info">
+            <div class="card-sygn">{escape(sygn)}</div>
+            <div class="card-title">{escape(title)}</div>
+        </div>
+    </div>\n'''
+
+    seria_options = ''.join(f'<option value="{s}">Seria {s}</option>' for s in sorted(all_serie))
+    typ_options = ''.join(f'<option value="{t}">{escape(DOC_TYPES.get(t, t))}</option>' for t in sorted(all_typy))
+
+    common_css = _common_css()
+    lang_bar = _lang_bar_html()
+    page_nav = _page_nav_html('archiwum')
+    lightbox = _lightbox_html()
+    lightbox_js = _lightbox_js()
+    lang_js = _lang_js()
+    footer = _footer_html()
+
+    html = f'''<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Archiwum Dokumentów — Głuchowscy</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+{common_css}
+</style>
+</head>
+<body>
+
+{lang_bar}
+
+{page_nav}
+
+<div class="header">
+  <h1>ARCHIWUM DOKUMENT&Oacute;W</h1>
+  <div class="subtitle" data-lang="pl">Skany dokumentów, korespondencji i ephemery z Archiwum Rodziny Głuchowskich</div>
+  <div class="subtitle" data-lang="en">Document scans, correspondence and ephemera from the Głuchowski Family Archive</div>
+  <div class="subtitle" data-lang="pt">Fotografias de documentos do Arquivo da Família Głuchowski</div>
+  <div class="subtitle" data-lang="de">Dokumentenfotografien aus dem Archiv der Familie Głuchowski</div>
+  <div class="subtitle" data-lang="nl">Documentfoto's uit het Archief van de Familie Głuchowski</div>
+  <div class="subtitle" data-lang="fr">Photographies de documents de l'Archive de la Famille Głuchowski</div>
+  <div class="subtitle" data-lang="yi">דאָקומענט פאָטאָגראַפיעס פֿון דער גלוכאָווסקי משפּחה אַרכיוו</div>
+</div>
+
+<div class="filter-bar">
+    <select id="filter-seria" onchange="filterPhotos()">
+        <option value="">Wszystkie serie</option>
+        {seria_options}
+    </select>
+    <select id="filter-typ" onchange="filterPhotos()">
+        <option value="">Wszystkie typy</option>
+        {typ_options}
+    </select>
+    <input type="text" id="filter-search" placeholder="Szukaj (sygnatura, tytuł)..." oninput="filterPhotos()">
+    <div class="photo-count" id="photo-count">{photo_count} fotografii</div>
+</div>
+<div class="photo-grid" id="photo-grid">
+    {photo_cards}
+</div>
+
+{footer}
+
+{lightbox}
+
+<script>
+{lightbox_js}
+
+/* Photo grid filtering */
+function filterPhotos() {{
+  const seria = document.getElementById('filter-seria').value;
+  const typ = document.getElementById('filter-typ').value;
+  const search = document.getElementById('filter-search').value.toLowerCase().trim();
+  const cards = document.querySelectorAll('.photo-card');
+  let visible = 0;
+  cards.forEach(card => {{
+    let show = true;
+    if (seria && card.dataset.seria !== seria) show = false;
+    if (typ && card.dataset.typ !== typ) show = false;
+    if (search && card.dataset.search.indexOf(search) === -1) show = false;
+    card.style.display = show ? '' : 'none';
+    if (show) visible++;
+  }});
+  document.getElementById('photo-count').textContent = visible + ' fotografii';
+}}
+
+{lang_js}
+</script>
+
+</body>
+</html>'''
+    return html
+
+
+def generate_gallery_html():
+    """Generate docs/galeria.html — photographs gallery.
+
+    Sources:
+    1. Photographs from OBJECTS (typ containing 'foto', 'album', etc.)
+    2. New photos from GALLERY_PHOTOS (family, military, ceremonies)
+    """
+
+    # Build gallery cards
+    photo_cards = ""
+    all_osoby = set()
+    all_kategorie = set()
+    all_dekady = set()
+    all_serie = set()
+
+    # --- 1. Photographs from catalog OBJECTS ---
+    for obj in OBJECTS:
+        photo = obj.get("photo", "")
+        if not photo:
+            continue
+        if not _is_photo_type(obj.get("typ", "")):
+            continue
+
+        sygn = obj["sygn"]
+        tytul = obj.get("tytul", "")
+        data = obj.get("data", "")
+        seria = obj.get("seria", "")
+        typ = obj.get("typ", "")
+        opis = obj.get("opis_tresci", obj.get("opis_fizyczny", ""))[:200]
+        dekada = (data[:3] + "0") if len(data) >= 4 and data[:3].isdigit() else ""
+        img_path = f"gluchowski_img/{photo}"
+
+        # Map to gallery categories
+        kategoria = "wojskowe"
+        t_low = tytul.lower() + " " + opis.lower()
+        if any(w in t_low for w in ("portret", "zdjęcie", "fotografia grupowa")):
+            kategoria = "portret"
+        elif any(w in t_low for w in ("album",)):
+            kategoria = "album"
+        elif any(w in t_low for w in ("defila", "parad", "rewi")):
+            kategoria = "defilada"
+        elif any(w in t_low for w in ("uroczysto", "ceremon", "msza", "pogrzeb")):
+            kategoria = "uroczystosc"
+        elif any(w in t_low for w in ("rodzin",)):
+            kategoria = "rodzinne"
+
+        if kategoria: all_kategorie.add(kategoria)
+        if dekada: all_dekady.add(dekada)
+        if seria: all_serie.add(seria)
+
+        photo_cards += f'''<div class="gallery-card" data-osoba="" data-kategoria="{escape(kategoria)}" data-dekada="{escape(dekada)}" data-seria="{escape(seria)}" data-search="{escape(tytul.lower())} {escape(sygn.lower())}" data-src="{img_path}" data-title="{escape(tytul)}" data-opis="{escape(opis)}" onclick="openGalleryLightbox(this)">
+        <img src="{img_path}" alt="{escape(tytul)}" loading="lazy">
+        <div class="gallery-info">
+            <div class="gallery-title">{escape(tytul[:80])}</div>
+            <div class="gallery-meta">{escape(data)}{(' · ' + escape(sygn)) if sygn else ''}</div>
+        </div>
+    </div>\n'''
+
+    catalog_photo_count = sum(1 for o in OBJECTS if o.get("photo") and _is_photo_type(o.get("typ", "")))
+
+    # --- 2. New photos from GALLERY_PHOTOS ---
+    for p in GALLERY_PHOTOS:
+        osoba = p.get("osoba", "")
+        kategoria = p.get("kategoria", "")
+        data = p.get("data", "")
+        seria = p.get("seria", "")
+        dekada = (data[:3] + "0") if len(data) >= 4 else ""
+        tytul = p.get("tytul", "")
+        opis = p.get("opis", "")
+        img_path = f"gluchowski_img/{p['file']}"
+
+        if osoba: all_osoby.add(osoba)
+        if kategoria: all_kategorie.add(kategoria)
+        if dekada: all_dekady.add(dekada)
+        if seria: all_serie.add(seria)
+
+        photo_cards += f'''<div class="gallery-card" data-osoba="{escape(osoba)}" data-kategoria="{escape(kategoria)}" data-dekada="{escape(dekada)}" data-seria="{escape(seria)}" data-search="{escape(tytul.lower())} {escape(osoba.lower())}" data-src="{img_path}" data-title="{escape(tytul)}" data-opis="{escape(opis)}" onclick="openGalleryLightbox(this)">
+        <img src="{img_path}" alt="{escape(tytul)}" loading="lazy">
+        <div class="gallery-info">
+            <div class="gallery-title">{escape(tytul)}</div>
+            <div class="gallery-meta">{escape(data)}{(' — ' + escape(osoba)) if osoba else ''}</div>
+        </div>
+    </div>\n'''
+
+    osoba_options = ''.join(f'<option value="{escape(o)}">{escape(o)}</option>' for o in sorted(all_osoby))
+    kat_options = ''.join(f'<option value="{escape(k)}">{escape(k)}</option>' for k in sorted(all_kategorie))
+    dekada_options = ''.join(f'<option value="{d}">{d}s</option>' for d in sorted(all_dekady))
+    seria_options = ''.join(f'<option value="{s}">Seria {s}</option>' for s in sorted(all_serie))
+
+    common_css = _common_css()
+    lang_bar = _lang_bar_html()
+    page_nav = _page_nav_html('galeria')
+    lightbox = _lightbox_html()
+    lightbox_js = _lightbox_js()
+    lang_js = _lang_js()
+    footer = _footer_html()
+
+    gallery_count = catalog_photo_count + len(GALLERY_PHOTOS)
+
+    empty_msg = ""
+    if gallery_count == 0:
+        empty_msg = '''<div style="text-align:center; padding:80px 20px; color:var(--text-dim);">
+  <div style="font-size:3em; margin-bottom:20px;">&#128444;</div>
+  <h2 style="font-family:'Playfair Display',serif; color:var(--gold); margin-bottom:12px;">Galeria w budowie</h2>
+  <p>Kolejne zdjęcia będą dodawane sukcesywnie.</p>
+</div>'''
+
+    html = f'''<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galeria Fotograficzna — Archiwum Głuchowskich</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+{common_css}
+
+/* GALLERY-SPECIFIC STYLES */
+.gallery-grid {{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+    padding: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}}
+.gallery-card {{
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background: var(--surface);
+}}
+.gallery-card:hover {{
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,.4);
+    border-color: var(--accent);
+}}
+.gallery-card img {{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}}
+.gallery-info {{
+    padding: 12px;
+}}
+.gallery-title {{
+    font-size: 0.88em;
+    color: var(--text);
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}}
+.gallery-meta {{
+    font-size: 0.78em;
+    color: var(--text-faint);
+    margin-top: 4px;
+}}
+.lb-opis {{
+    color: var(--text-dim);
+    font-size: 0.85em;
+    margin-top: 6px;
+    text-align: center;
+    max-width: 80%;
+    font-style: italic;
+}}
+@media (max-width:600px) {{
+  .gallery-grid {{ grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; padding: 10px; }}
+  .gallery-card img {{ height: 180px; }}
+}}
+</style>
+</head>
+<body>
+
+{lang_bar}
+
+{page_nav}
+
+<div class="header">
+  <h1>GALERIA FOTOGRAFICZNA</h1>
+  <div class="subtitle" data-lang="pl">Archiwum Rodziny Głuchowskich — zdjęcia rodzinne, żołnierskie, uroczystości</div>
+  <div class="subtitle" data-lang="en">Głuchowski Family Archive — family, military and ceremonial photographs</div>
+  <div class="subtitle" data-lang="pt">Arquivo da Família Głuchowski — fotografias familiares, militares e cerimoniais</div>
+  <div class="subtitle" data-lang="de">Archiv der Familie Głuchowski — Familien-, Militär- und Zeremonienfotos</div>
+  <div class="subtitle" data-lang="nl">Archief van de Familie Głuchowski — familie-, militaire en ceremoniële foto's</div>
+  <div class="subtitle" data-lang="fr">Archive de la Famille Głuchowski — photographies familiales, militaires et cérémonielles</div>
+  <div class="subtitle" data-lang="yi">גלוכאָווסקי משפּחה אַרכיוו — משפּחה, מיליטערישע און צערעמאָניע פאָטאָגראַפיעס</div>
+</div>
+
+{f"""<div class="filter-bar">
+    <select id="filter-osoba" onchange="filterGallery()">
+        <option value="">Wszystkie osoby</option>
+        {osoba_options}
+    </select>
+    <select id="filter-kategoria" onchange="filterGallery()">
+        <option value="">Wszystkie kategorie</option>
+        {kat_options}
+    </select>
+    <select id="filter-dekada" onchange="filterGallery()">
+        <option value="">Wszystkie dekady</option>
+        {dekada_options}
+    </select>
+    <select id="filter-seria-gal" onchange="filterGallery()">
+        <option value="">Wszystkie serie</option>
+        {seria_options}
+    </select>
+    <input type="text" id="filter-search-gal" placeholder="Szukaj..." oninput="filterGallery()">
+    <div class="photo-count" id="gallery-count">{gallery_count} fotografii</div>
+</div>
+<div class="gallery-grid" id="gallery-grid">
+    {photo_cards}
+</div>""" if gallery_count > 0 else ""}
+
+{empty_msg}
+
+{footer}
+
+{lightbox}
+
+<script>
+{lightbox_js}
+
+/* Open lightbox with description */
+function openGalleryLightbox(card) {{
+  openLightbox(card.dataset.src, card.dataset.title);
+  /* Add description below title */
+  var opis = card.dataset.opis;
+  var existing = document.getElementById('lb-opis');
+  if (existing) existing.remove();
+  if (opis) {{
+    var div = document.createElement('div');
+    div.id = 'lb-opis';
+    div.className = 'lb-opis';
+    div.textContent = opis;
+    document.getElementById('lb-title').after(div);
+  }}
+}}
+
+/* Gallery filtering */
+function filterGallery() {{
+  var osoba = document.getElementById('filter-osoba') ? document.getElementById('filter-osoba').value : '';
+  var kat = document.getElementById('filter-kategoria') ? document.getElementById('filter-kategoria').value : '';
+  var dekada = document.getElementById('filter-dekada') ? document.getElementById('filter-dekada').value : '';
+  var seria = document.getElementById('filter-seria-gal') ? document.getElementById('filter-seria-gal').value : '';
+  var search = document.getElementById('filter-search-gal') ? document.getElementById('filter-search-gal').value.toLowerCase().trim() : '';
+  var cards = document.querySelectorAll('.gallery-card');
+  var visible = 0;
+  cards.forEach(function(card) {{
+    var show = true;
+    if (osoba && card.dataset.osoba !== osoba) show = false;
+    if (kat && card.dataset.kategoria !== kat) show = false;
+    if (dekada && card.dataset.dekada !== dekada) show = false;
+    if (seria && card.dataset.seria !== seria) show = false;
+    if (search && card.dataset.search.indexOf(search) === -1) show = false;
+    card.style.display = show ? '' : 'none';
+    if (show) visible++;
+  }});
+  var countEl = document.getElementById('gallery-count');
+  if (countEl) countEl.textContent = visible + ' fotografii';
+}}
+
+{lang_js}
+</script>
+
+</body>
+</html>'''
+    return html
+
+
 if __name__ == "__main__":
     html = generate_html()
     out = os.path.join("docs", "katalog_gluchowski_v4.html")
     with open(out, "w", encoding="utf-8") as f:
         f.write(html)
     print(f"Wygenerowano: {out}")
-    print(f"Jednostek inwentarzowych: {len(OBJECTS)}")
+
+    archive_html = generate_archive_html()
+    out2 = os.path.join("docs", "archiwum.html")
+    with open(out2, "w", encoding="utf-8") as f:
+        f.write(archive_html)
+    print(f"Wygenerowano: {out2}")
+
+    gallery_html = generate_gallery_html()
+    out3 = os.path.join("docs", "galeria.html")
+    with open(out3, "w", encoding="utf-8") as f:
+        f.write(gallery_html)
+    print(f"Wygenerowano: {out3}")
+
+    print(f"\nJednostek inwentarzowych: {len(OBJECTS)}")
+    foto_from_catalog = sum(1 for o in OBJECTS if o.get("photo") and _is_photo_type(o.get("typ", "")))
+    doc_count = sum(1 for o in OBJECTS if o.get("photo") and not _is_photo_type(o.get("typ", "")))
+    print(f"Archiwum dokumentow: {doc_count} skanow")
+    print(f"Galeria fotografii: {foto_from_catalog} z katalogu + {len(GALLERY_PHOTOS)} nowych = {foto_from_catalog + len(GALLERY_PHOTOS)} razem")
     print(f"Serii archiwalnych: {len(SERIES)}")
     for s in SERIES:
         count = len([o for o in OBJECTS if o["seria"] == s["id"]])
         if count:
-            print(f"  Seria {s['id']}: {count} jednostek — {s['tytul']}")
+            try:
+                print(f"  Seria {s['id']}: {count} jednostek -- {s['tytul']}")
+            except UnicodeEncodeError:
+                print(f"  Seria {s['id']}: {count} jednostek")
