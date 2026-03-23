@@ -9163,6 +9163,51 @@ body.lang-active .card-lang-badge {{ display:inline; }}
 </div>
 
 <!-- ============================================================ -->
+<!-- NOWE ODKRYCIA Z ANALIZY FOTOGRAFICZNEJ 2026                  -->
+<!-- ============================================================ -->
+<div class="academic-section" id="odkrycia-fotograficzne">
+  <h2 data-lang="pl">Nowe odkrycia z analizy fotograficznej (marzec 2026)</h2>
+  <h2 data-lang="en">New Discoveries from Photographic Analysis (March 2026)</h2>
+  <p class="acad-subtitle" data-lang="pl">Na podstawie analizy 121 fotografii z kolekcji — 87 nowych obiektów dodanych w marcu 2026</p>
+  <p class="acad-subtitle" data-lang="en">Based on analysis of 121 photographs from the collection — 87 new objects added in March 2026</p>
+
+  <div class="article-proposal">
+    <h4 data-lang="pl">Zidentyfikowane osoby w kolekcji fotograficznej</h4>
+    <h4 data-lang="en">Identified Persons in the Photographic Collection</h4>
+    <div class="ap-thesis" data-lang="pl">
+      Kolekcja fotograficzna dokumentuje <strong>najwyższe władze Rzeczypospolitej Polskiej na uchodźstwie</strong>:<br><br>
+      &#x2022; <strong>Marszałek Józef Piłsudski</strong> — reprodukcja portretu z gabinetu generała + pocztówka z córkami + defilada na pogrzebie (Pole Mokotowskie, 17.V.1935)<br>
+      &#x2022; <strong>Gen. Władysław Sikorski</strong> (Naczelny Wódz, Premier) + <strong>gen. Tadeusz Klimecki</strong> (Szef Sztabu NW) — razem na jednym zdjęciu, Szkoła Podchorążych 1941. Obaj zginęli w katastrofie gibraltarskiej 4.VII.1943<br>
+      &#x2022; <strong>Gen. Władysław Anders</strong> (dowódca 2. Korpusu, bohater Monte Cassino) — uścisk dłoni z gen. Thorn, WSF N°9840<br>
+      &#x2022; <strong>Gen. Tadeusz Bór-Komorowski</strong> (dowódca Powstania Warszawskiego, Naczelny Wódz) — inspekcja 3. Pułku Pancernego w Kelso, 15.VI.1945<br>
+      &#x2022; <strong>Gen. Stanisław Kopański</strong> (bohater Tobruku, Szef Sztabu NW) — z Głuchowskim na trybunie w Kinross 1945<br>
+      &#x2022; <strong>Prezydent Władysław Raczkiewicz</strong> — co najmniej 8 zdjęć z wizyt w Szkocji (Highlands, Dundee, Perth, North Berwick)<br>
+      &#x2022; <strong>Premier Tomasz Arciszewski</strong> — wizyta u inwalidów w Szkocji<br>
+      &#x2022; <strong>Gen. Marian Kukiel</strong> (?) (Minister Obrony Narodowej, dowódca I Korpusu) — hipoteza robocza, „łysy generał" na 7+ zdjęciach WSF<br>
+      &#x2022; <strong>Ppor. Kazimierz Sabbat</strong> — przyszły Prezydent RP na Uchodźstwie (1986–1989), zidentyfikowany na Zjeździe Klanowym, Dundee 6.III.1945<br>
+      &#x2022; <strong>Gen. Karel Janoušek</strong> (czechosłowacki szef lotnictwa) — wręczenie polskich odznaczeń, lipiec 1941<br>
+      &#x2022; <strong>Rtm. Tadeusz Łoś</strong> — adiutant gen. Głuchowskiego, portret z 1940<br>
+      &#x2022; <strong>Por. Irena Milewska</strong> — komendantka obozu PSK w Holandii, raport po wyzwoleniu 12.IV.1945<br>
+      &#x2022; <strong>Fot. Władysław Prytys</strong> — fotograf Czołówki Filmowo-Fotograficznej, zidentyfikowany z aparatem na szyi<br>
+      &#x2022; <strong>Maria z Bukowskich Głuchowska</strong> — żona generała, kraciasta marynarka (tartan), ogród Reswallie House<br>
+      &#x2022; <strong>Kosta Tor...</strong> — nierozwiązana zagadka: oficer na koniu w Latrun (Palestyna), dedykacja dla Głuchowskiego 8.IV.1941
+    </div>
+    <div class="ap-thesis" data-lang="en">
+      The photographic collection documents <strong>the highest authorities of the Polish Republic in exile</strong>:<br><br>
+      &#x2022; <strong>Marshal Józef Piłsudski</strong> — portrait reproduction from the general's office + postcard with daughters + funeral parade (Pole Mokotowskie, 17.V.1935)<br>
+      &#x2022; <strong>Gen. Władysław Sikorski</strong> (Commander-in-Chief, Prime Minister) + <strong>Gen. Tadeusz Klimecki</strong> (Chief of Staff) — together in one photo, Officer Cadet School 1941. Both perished in the Gibraltar disaster 4.VII.1943<br>
+      &#x2022; <strong>Gen. Władysław Anders</strong> (2nd Corps commander, hero of Monte Cassino) — WSF N°9840<br>
+      &#x2022; <strong>Gen. Tadeusz Bór-Komorowski</strong> (Warsaw Uprising commander, C-in-C) — inspection at Kelso, 15.VI.1945<br>
+      &#x2022; <strong>Gen. Stanisław Kopański</strong> (hero of Tobruk, Chief of Staff) — with Głuchowski at Kinross 1945<br>
+      &#x2022; <strong>President Władysław Raczkiewicz</strong> — 8+ photos from visits in Scotland<br>
+      &#x2022; <strong>Prime Minister Tomasz Arciszewski</strong> — visit to invalids in Scotland<br>
+      &#x2022; <strong>2nd Lt. Kazimierz Sabbat</strong> — future President of Poland in Exile (1986–1989), identified at the Clan Gathering, Dundee 6.III.1945<br>
+      &#x2022; <strong>Gen. Karel Janoušek</strong> (Czechoslovak Air Force chief) — Polish-Czechoslovak decorations ceremony, July 1941
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
 <!-- ACADEMIC ARTICLE PROPOSALS                                    -->
 <!-- ============================================================ -->
 <div class="academic-section" id="academic-articles">
