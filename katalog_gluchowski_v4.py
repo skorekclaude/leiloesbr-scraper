@@ -11113,6 +11113,22 @@ def _lang_js():
     if (match) match.classList.add('lang-visible');
   });
 
+  /* Translate field labels on cards */
+  const FIELD_LABELS = {
+    pl: { opis_fiz:'Opis fizyczny:', tresc:'Treść:', tworca:'Twórca:', jezyk:'Język:', kontekst:'Kontekst:', stan:'Stan:', powiazania:'Powiązania:' },
+    en: { opis_fiz:'Physical description:', tresc:'Content:', tworca:'Creator:', jezyk:'Language:', kontekst:'Context:', stan:'Condition:', powiazania:'Related items:' },
+    pt: { opis_fiz:'Descrição física:', tresc:'Conteúdo:', tworca:'Autor:', jezyk:'Idioma:', kontekst:'Contexto:', stan:'Estado:', powiazania:'Itens relacionados:' },
+    de: { opis_fiz:'Physische Beschreibung:', tresc:'Inhalt:', tworca:'Urheber:', jezyk:'Sprache:', kontekst:'Kontext:', stan:'Zustand:', powiazania:'Verwandte Objekte:' },
+    nl: { opis_fiz:'Fysieke beschrijving:', tresc:'Inhoud:', tworca:'Maker:', jezyk:'Taal:', kontekst:'Context:', stan:'Conditie:', powiazania:'Gerelateerde items:' },
+    fr: { opis_fiz:'Description physique:', tresc:'Contenu:', tworca:'Créateur:', jezyk:'Langue:', kontekst:'Contexte:', stan:'État:', powiazania:'Objets liés:' },
+    yi: { opis_fiz:'פֿיזישע באַשרײַבונג:', tresc:'אינהאַלט:', tworca:'שעפֿער:', jezyk:'שפּראַך:', kontekst:'קאָנטעקסט:', stan:'צושטאַנד:', powiazania:'פֿאַרבונדענע:' }
+  };
+  const labels = FIELD_LABELS[lang] || FIELD_LABELS['en'];
+  document.querySelectorAll('[data-label]').forEach(el => {
+    const key = el.dataset.label;
+    if (labels[key]) el.textContent = labels[key];
+  });
+
   document.documentElement.lang = lang;
 }
 
