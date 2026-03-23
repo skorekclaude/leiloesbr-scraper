@@ -10410,10 +10410,7 @@ body.lang-active .card-lang-badge {{ display:inline; }}
 <a href="#conspiracy-note" class="nav-link" style="border-color:var(--accent);color:var(--accent);" data-nav="conspiracy">&#x1F575; Nota konspiracyjna</a>
 <a href="#academic-articles" class="nav-link" data-nav="articles">Artykuły naukowe</a>
 <a href="#valuation" class="nav-link" style="border-color:#c0392b;color:#c0392b;" data-nav="valuation">Wycena</a>
-{nav_html}
 </nav>
-
-{series_html}
 
 {valuation_html}
 
@@ -10843,12 +10840,67 @@ body.lang-js [data-lang].lang-visible { display:revert; }
 .footer a { color:var(--gold-dim); text-decoration:none; }
 .footer a:hover { color:var(--gold); }
 
+/* SERIES */
+.series { max-width:1400px; margin:0 auto; padding:50px 20px 30px; }
+.series-header { margin-bottom:30px; padding-bottom:16px; border-bottom:1px solid var(--border); }
+.series-num { font-family:'JetBrains Mono',monospace; font-size:0.75em; color:var(--gold); letter-spacing:2px; margin-bottom:4px; }
+.series-title { font-family:'Playfair Display',serif; font-size:1.6em; color:var(--text); font-weight:600; margin-bottom:8px; }
+.series-desc { font-size:0.9em; color:var(--text-dim); line-height:1.6; max-width:800px; }
+.series-meta { font-size:0.8em; color:var(--text-faint); margin-top:8px; }
+
+/* CARDS GRID */
+.cards-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(380px, 1fr)); gap:20px; }
+
+/* CARD */
+.card { background:var(--surface); border:1px solid var(--border); border-radius:4px; overflow:hidden; cursor:pointer; transition:all .3s; }
+.card:hover { border-color:var(--accent); transform:translateY(-1px); box-shadow:0 6px 20px rgba(0,0,0,.3); }
+.card-img-wrap { height:260px; overflow:hidden; background:#0a0908; display:flex; align-items:center; justify-content:center; border-bottom:1px solid var(--border); }
+.card-img-wrap img { max-width:100%; max-height:100%; object-fit:contain; }
+.card-body { padding:18px; }
+.card-sygn { font-family:'JetBrains Mono',monospace; font-size:0.7em; color:var(--gold); letter-spacing:1px; margin-bottom:6px; }
+.card-title { font-family:'Playfair Display',serif; font-size:1.05em; color:var(--text); margin-bottom:8px; line-height:1.35; font-weight:600; }
+.card-meta-row { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; padding-bottom:8px; border-bottom:1px solid var(--border); }
+.card-date { font-size:0.85em; color:var(--gold); font-weight:500; }
+.card-type { font-size:0.72em; color:var(--text-faint); background:var(--surface2); padding:2px 8px; border-radius:2px; text-transform:uppercase; letter-spacing:1px; }
+.card-field { font-size:0.82em; color:var(--text-dim); margin-bottom:6px; line-height:1.5; }
+.field-label { color:var(--text-faint); font-weight:500; font-size:0.9em; }
+.card-context { color:var(--accent); font-style:italic; }
+.card-condition { font-size:0.75em; color:var(--text-faint); margin-top:8px; padding-top:6px; border-top:1px solid var(--border); }
+.powiazanie-link { color:var(--gold); text-decoration:none; font-family:'JetBrains Mono',monospace; font-size:0.95em; transition:color .2s; }
+.powiazanie-link:hover { color:var(--accent); text-decoration:underline; }
+.card.highlight-target { border-color:var(--gold) !important; box-shadow:0 0 20px rgba(201,169,110,.3) !important; transition:all .5s; }
+
+/* NAV */
+.nav { position:sticky; top:38px; z-index:100; background:rgba(12,11,9,.95); backdrop-filter:blur(12px); padding:14px 20px; border-bottom:1px solid var(--border); display:flex; flex-wrap:wrap; gap:8px; justify-content:center; }
+.nav-link { color:var(--text-dim); text-decoration:none; font-size:0.8em; padding:5px 12px; border:1px solid var(--border); border-radius:3px; transition:all .2s; font-weight:500; }
+.nav-link:hover { color:var(--gold); border-color:var(--gold); }
+
+/* TRANSCRIPTION PANELS */
+.card-transcription { border-top:1px solid var(--border); margin-top:10px; padding-top:8px; }
+.trans-toggle { cursor:pointer; font-size:0.82em; color:var(--gold); font-weight:500; padding:4px 0; user-select:none; }
+.trans-toggle:hover { color:var(--accent); }
+.trans-content { display:none; padding:10px 0 4px; }
+.card-transcription.open .trans-toggle { color:var(--accent); }
+.card-transcription.open .trans-content { display:block; }
+.trans-meta { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:8px; }
+.trans-badge { font-size:0.72em; background:var(--surface2); border:1px solid var(--border); color:var(--text-dim); padding:2px 8px; border-radius:2px; }
+.trans-field { font-size:0.8em; color:var(--text-dim); margin-bottom:4px; line-height:1.5; }
+.trans-field strong { color:var(--text-faint); }
+.trans-text { font-family:'JetBrains Mono',monospace; font-size:0.78em; color:var(--text); background:var(--surface2); padding:12px; border-radius:4px; margin:8px 0; white-space:pre-wrap; line-height:1.6; max-height:300px; overflow-y:auto; }
+.trans-details { font-size:0.78em; color:var(--text-dim); margin-top:6px; }
+.trans-details strong { color:var(--text-faint); }
+.trans-detail-list { list-style:none; padding:0; margin:4px 0 8px; }
+.trans-detail-list li { padding:2px 0; border-bottom:1px solid rgba(255,255,255,.03); }
+.trans-detail-list li::before { content:'· '; color:var(--gold); }
+
 @media (max-width:600px) {
   .photo-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; padding: 10px; }
   .photo-card img { height: 110px; }
   .filter-bar { padding: 10px; gap: 8px; }
   .filter-bar select, .filter-bar input { font-size: 13px; padding: 6px 10px; }
   .page-nav-link { padding:10px 14px; font-size:0.82em; }
+  .cards-grid { grid-template-columns:1fr; }
+  .series-title { font-size:1.3em; }
 }'''
 
 
@@ -11082,6 +11134,97 @@ def _footer_html():
 </div>'''
 
 
+def _build_series_cards(filter_fn):
+    """Build series sections HTML for objects matching filter_fn(obj) -> bool.
+    Returns (series_html, nav_html, total_count)."""
+    by_series = {}
+    total = 0
+    for obj in OBJECTS:
+        if not filter_fn(obj):
+            continue
+        s = obj["seria"]
+        by_series.setdefault(s, []).append(obj)
+        total += 1
+
+    series_html = ""
+    nav_html = ""
+    for ser in SERIES:
+        sid = ser["id"]
+        items = by_series.get(sid, [])
+        if not items:
+            continue
+        anchor = "seria-" + sid
+        nav_html += '<a href="#' + anchor + '" class="nav-link">Seria ' + sid + ' (' + str(len(items)) + ')</a>\n'
+
+        series_html += '<section class="series" id="' + anchor + '">\n'
+        series_html += '  <div class="series-header">\n'
+        series_html += '    <div class="series-num">SERIA ' + escape(sid) + '</div>\n'
+        series_html += '    <h2 class="series-title">' + escape(ser["tytul"]) + '</h2>\n'
+        series_html += '    <p class="series-desc">' + escape(ser["opis"]) + '</p>\n'
+        series_html += '    <div class="series-meta">' + escape(ser["daty"]) + ' &middot; ' + escape(ser["rozmiar"]) + '</div>\n'
+        series_html += '  </div>\n'
+        series_html += '  <div class="cards-grid">\n'
+
+        for obj in items:
+            typ_label = DOC_TYPES.get(obj["typ"], obj["typ"])
+            powiazania_html = ""
+            if obj.get("powiazania"):
+                link_parts = []
+                for ref in obj["powiazania"]:
+                    safe_ref = ref.replace("/", "-")
+                    link_parts.append('<a href="#card-' + safe_ref + '" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard(\'' + safe_ref + '\')">' + escape(ref) + '</a>')
+                powiazania_html = '<div class="card-field"><span class="field-label" data-label="powiazania">Powi\u0105zania:</span> ' + ", ".join(link_parts) + '</div>'
+
+            trans = get_transcription(obj["sygn"])
+            trans_html = ""
+            if trans:
+                trans_html = '<div class="card-transcription">\n'
+                trans_html += '      <div class="trans-toggle" onclick="event.stopPropagation(); this.parentElement.classList.toggle(\'open\')">\n'
+                trans_html += '        &#9654; Transkrypcja\n'
+                trans_html += '      </div>\n'
+                trans_html += '      <div class="trans-content">\n'
+                trans_html += '        <div class="trans-meta">\n'
+                trans_html += '          <span class="trans-badge">' + escape(trans.get("typ", "")) + '</span>\n'
+                trans_html += '          <span class="trans-badge">' + escape(trans.get("data", "")) + '</span>\n'
+                trans_html += '          <span class="trans-badge">' + escape(trans.get("jezyk", "")) + '</span>\n'
+                trans_html += '        </div>\n'
+                if trans.get("nadawca"):
+                    trans_html += '        <div class="trans-field"><strong>Nadawca:</strong> ' + escape(trans["nadawca"]) + '</div>\n'
+                if trans.get("adresat"):
+                    trans_html += '        <div class="trans-field"><strong>Adresat:</strong> ' + escape(trans["adresat"]) + '</div>\n'
+                trans_html += '        <div class="trans-text">' + escape(trans.get("transkrypcja", "")) + '</div>\n'
+                trans_html += '        ' + generate_trans_details(trans) + '\n'
+                trans_html += '      </div>\n'
+                trans_html += '    </div>'
+
+            card_id = obj["sygn"].replace("/", "-")
+            series_html += '    <div class="card" id="card-' + card_id + '">\n'
+            series_html += '      <div class="card-img-wrap" data-src="' + IMG_DIR + '/' + obj["photo"] + '" data-title="' + escape(obj["tytul"]) + '" onclick="openLightbox(this.dataset.src, this.dataset.title)">\n'
+            series_html += '        <img src="' + IMG_DIR + '/' + obj["photo"] + '" alt="' + escape(obj["tytul"]) + '" loading="lazy">\n'
+            series_html += '      </div>\n'
+            series_html += '      <div class="card-body">\n'
+            series_html += '        <div class="card-sygn">' + escape(obj["sygn"]) + '</div>\n'
+            series_html += '        <h3 class="card-title">' + escape(obj["tytul"]) + '</h3>\n'
+            series_html += '        <div class="card-meta-row">\n'
+            series_html += '          <span class="card-date">' + escape(obj["data"]) + '</span>\n'
+            series_html += '          <span class="card-type">' + escape(typ_label) + '</span>\n'
+            series_html += '        </div>\n'
+            series_html += '        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> ' + escape(obj["opis_fizyczny"]) + '</div>\n'
+            series_html += '        <div class="card-field"><span class="field-label" data-label="tresc">Tre\u015b\u0107:</span> ' + escape(obj["opis_tresci"]) + '</div>\n'
+            series_html += '        <div class="card-field"><span class="field-label" data-label="tworca">Tw\u00f3rca:</span> ' + escape(obj["tworca"]) + '</div>\n'
+            series_html += '        <div class="card-field"><span class="field-label" data-label="jezyk">J\u0119zyk:</span> ' + escape(obj["jezyk"]) + '</div>\n'
+            series_html += '        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> ' + escape(obj["kontekst"]) + '</div>\n'
+            series_html += '        ' + powiazania_html + '\n'
+            series_html += '        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> ' + escape(obj["stan"]) + '</div>\n'
+            series_html += '        ' + trans_html + '\n'
+            series_html += '      </div>\n'
+            series_html += '    </div>\n'
+
+        series_html += '  </div>\n</section>\n'
+
+    return series_html, nav_html, total
+
+
 def _is_photo_type(typ):
     """Check if document type is a photograph (goes to Gallery, not Archive)."""
     t = typ.lower()
@@ -11089,39 +11232,18 @@ def _is_photo_type(typ):
 
 
 def generate_archive_html():
-    """Generate docs/archiwum.html — document archive (excludes photographs)."""
+    """Generate docs/archiwum.html — document archive with full catalog cards (excludes photographs)."""
 
-    # Build photo cards from OBJECTS — only DOCUMENTS, not photographs
-    photo_cards = ""
-    photo_count = 0
-    all_typy = set()
+    series_html, nav_html, doc_count = _build_series_cards(
+        lambda obj: obj.get("photo") and not _is_photo_type(obj.get("typ", ""))
+    )
+
+    # Collect series IDs for filter dropdown
     all_serie = set()
     for obj in OBJECTS:
-        photo = obj.get("photo", "")
-        if not photo:
-            continue
-        # Skip photographs — they go to galeria.html
-        if _is_photo_type(obj.get("typ", "")):
-            continue
-        photo_count += 1
-        sygn = obj["sygn"]
-        title = obj.get("tytul", "")[:60]
-        seria = obj.get("seria", "")
-        typ = obj.get("typ", "")
-        typ_label = DOC_TYPES.get(typ, typ)
-        all_typy.add(typ)
-        all_serie.add(seria)
-        img_path = f"gluchowski_img/{photo}"
-        photo_cards += f'''<div class="photo-card" data-seria="{escape(seria)}" data-typ="{escape(typ)}" data-search="{escape(sygn.lower())} {escape(title.lower())}" data-src="{IMG_DIR}/{photo}" data-title="{escape(obj.get('tytul', ''))}" onclick="openLightbox(this.dataset.src, this.dataset.title)">
-        <img src="{img_path}" alt="{escape(sygn)}" loading="lazy">
-        <div class="card-info">
-            <div class="card-sygn">{escape(sygn)}</div>
-            <div class="card-title">{escape(title)}</div>
-        </div>
-    </div>\n'''
-
+        if obj.get("photo") and not _is_photo_type(obj.get("typ", "")):
+            all_serie.add(obj["seria"])
     seria_options = ''.join(f'<option value="{s}">Seria {s}</option>' for s in sorted(all_serie))
-    typ_options = ''.join(f'<option value="{t}">{escape(DOC_TYPES.get(t, t))}</option>' for t in sorted(all_typy))
 
     common_css = _common_css()
     lang_bar = _lang_bar_html()
@@ -11160,20 +11282,19 @@ def generate_archive_html():
 </div>
 
 <div class="filter-bar">
-    <select id="filter-seria" onchange="filterPhotos()">
+    <select id="filter-seria" onchange="filterCards()">
         <option value="">Wszystkie serie</option>
         {seria_options}
     </select>
-    <select id="filter-typ" onchange="filterPhotos()">
-        <option value="">Wszystkie typy</option>
-        {typ_options}
-    </select>
-    <input type="text" id="filter-search" placeholder="Szukaj (sygnatura, tytuł)..." oninput="filterPhotos()">
-    <div class="photo-count" id="photo-count">{photo_count} fotografii</div>
+    <input type="text" id="filter-search" placeholder="Szukaj (sygnatura, tytuł, treść)..." oninput="filterCards()">
+    <div class="photo-count" id="card-count">{doc_count} dokumentów</div>
 </div>
-<div class="photo-grid" id="photo-grid">
-    {photo_cards}
+
+<div class="nav" id="series-nav">
+{nav_html}
 </div>
+
+{series_html}
 
 {footer}
 
@@ -11182,22 +11303,32 @@ def generate_archive_html():
 <script>
 {lightbox_js}
 
-/* Photo grid filtering */
-function filterPhotos() {{
-  const seria = document.getElementById('filter-seria').value;
-  const typ = document.getElementById('filter-typ').value;
-  const search = document.getElementById('filter-search').value.toLowerCase().trim();
-  const cards = document.querySelectorAll('.photo-card');
-  let visible = 0;
-  cards.forEach(card => {{
-    let show = true;
-    if (seria && card.dataset.seria !== seria) show = false;
-    if (typ && card.dataset.typ !== typ) show = false;
-    if (search && card.dataset.search.indexOf(search) === -1) show = false;
+function scrollToCard(cardId) {{
+  var el = document.getElementById('card-' + cardId);
+  if (!el) return;
+  el.scrollIntoView({{ behavior:'smooth', block:'center' }});
+  el.classList.add('highlight-target');
+  setTimeout(function() {{ el.classList.remove('highlight-target'); }}, 3000);
+}}
+
+function filterCards() {{
+  var seria = document.getElementById('filter-seria').value;
+  var search = document.getElementById('filter-search').value.toLowerCase().trim();
+  var cards = document.querySelectorAll('.card');
+  var visible = 0;
+  cards.forEach(function(card) {{
+    var show = true;
+    var section = card.closest('.series');
+    var sectionSeria = section ? section.id.replace('seria-', '') : '';
+    if (seria && sectionSeria !== seria) show = false;
+    if (search) {{
+      var text = card.textContent.toLowerCase();
+      if (text.indexOf(search) === -1) show = false;
+    }}
     card.style.display = show ? '' : 'none';
     if (show) visible++;
   }});
-  document.getElementById('photo-count').textContent = visible + ' fotografii';
+  document.getElementById('card-count').textContent = visible + ' dokumentów';
 }}
 
 {lang_js}
@@ -11209,93 +11340,62 @@ function filterPhotos() {{
 
 
 def generate_gallery_html():
-    """Generate docs/galeria.html — photographs gallery.
+    """Generate docs/galeria.html — photographs gallery with full catalog cards.
 
     Sources:
-    1. Photographs from OBJECTS (typ containing 'foto', 'album', etc.)
-    2. New photos from GALLERY_PHOTOS (family, military, ceremonies)
+    1. Photographs from OBJECTS (typ containing 'foto', 'album', etc.) — shown as full cards grouped by series
+    2. New photos from GALLERY_PHOTOS (family, military, ceremonies) — shown in a separate section
     """
 
-    # Build gallery cards
-    photo_cards = ""
-    all_osoby = set()
-    all_kategorie = set()
-    all_dekady = set()
+    # --- 1. Build full catalog cards for photograph-type objects ---
+    series_html, nav_html, catalog_photo_count = _build_series_cards(
+        lambda obj: obj.get("photo") and _is_photo_type(obj.get("typ", ""))
+    )
+
+    # Collect series IDs for filter dropdown
     all_serie = set()
-
-    # --- 1. Photographs from catalog OBJECTS ---
     for obj in OBJECTS:
-        photo = obj.get("photo", "")
-        if not photo:
-            continue
-        if not _is_photo_type(obj.get("typ", "")):
-            continue
-
-        sygn = obj["sygn"]
-        tytul = obj.get("tytul", "")
-        data = obj.get("data", "")
-        seria = obj.get("seria", "")
-        typ = obj.get("typ", "")
-        opis = obj.get("opis_tresci", obj.get("opis_fizyczny", ""))[:200]
-        dekada = (data[:3] + "0") if len(data) >= 4 and data[:3].isdigit() else ""
-        img_path = f"gluchowski_img/{photo}"
-
-        # Map to gallery categories
-        kategoria = "wojskowe"
-        t_low = tytul.lower() + " " + opis.lower()
-        if any(w in t_low for w in ("portret", "zdjęcie", "fotografia grupowa")):
-            kategoria = "portret"
-        elif any(w in t_low for w in ("album",)):
-            kategoria = "album"
-        elif any(w in t_low for w in ("defila", "parad", "rewi")):
-            kategoria = "defilada"
-        elif any(w in t_low for w in ("uroczysto", "ceremon", "msza", "pogrzeb")):
-            kategoria = "uroczystosc"
-        elif any(w in t_low for w in ("rodzin",)):
-            kategoria = "rodzinne"
-
-        if kategoria: all_kategorie.add(kategoria)
-        if dekada: all_dekady.add(dekada)
-        if seria: all_serie.add(seria)
-
-        photo_cards += f'''<div class="gallery-card" data-osoba="" data-kategoria="{escape(kategoria)}" data-dekada="{escape(dekada)}" data-seria="{escape(seria)}" data-search="{escape(tytul.lower())} {escape(sygn.lower())}" data-src="{img_path}" data-title="{escape(tytul)}" data-opis="{escape(opis)}" onclick="openGalleryLightbox(this)">
-        <img src="{img_path}" alt="{escape(tytul)}" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">{escape(tytul[:80])}</div>
-            <div class="gallery-meta">{escape(data)}{(' · ' + escape(sygn)) if sygn else ''}</div>
-        </div>
-    </div>\n'''
-
-    catalog_photo_count = sum(1 for o in OBJECTS if o.get("photo") and _is_photo_type(o.get("typ", "")))
+        if obj.get("photo") and _is_photo_type(obj.get("typ", "")):
+            all_serie.add(obj["seria"])
+    seria_options = ''.join(f'<option value="{s}">Seria {s}</option>' for s in sorted(all_serie))
 
     # --- 2. New photos from GALLERY_PHOTOS ---
+    gallery_cards = ""
     for p in GALLERY_PHOTOS:
         osoba = p.get("osoba", "")
-        kategoria = p.get("kategoria", "")
         data = p.get("data", "")
-        seria = p.get("seria", "")
-        dekada = (data[:3] + "0") if len(data) >= 4 else ""
         tytul = p.get("tytul", "")
         opis = p.get("opis", "")
         img_path = f"gluchowski_img/{p['file']}"
 
-        if osoba: all_osoby.add(osoba)
-        if kategoria: all_kategorie.add(kategoria)
-        if dekada: all_dekady.add(dekada)
-        if seria: all_serie.add(seria)
-
-        photo_cards += f'''<div class="gallery-card" data-osoba="{escape(osoba)}" data-kategoria="{escape(kategoria)}" data-dekada="{escape(dekada)}" data-seria="{escape(seria)}" data-search="{escape(tytul.lower())} {escape(osoba.lower())}" data-src="{img_path}" data-title="{escape(tytul)}" data-opis="{escape(opis)}" onclick="openGalleryLightbox(this)">
+        gallery_cards += f'''    <div class="card">
+      <div class="card-img-wrap" data-src="{img_path}" data-title="{escape(tytul)}" onclick="openLightbox(this.dataset.src, this.dataset.title)">
         <img src="{img_path}" alt="{escape(tytul)}" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">{escape(tytul)}</div>
-            <div class="gallery-meta">{escape(data)}{(' — ' + escape(osoba)) if osoba else ''}</div>
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">{escape(tytul)}</h3>
+        <div class="card-meta-row">
+          <span class="card-date">{escape(data)}</span>
+          <span class="card-type">{escape(osoba)}</span>
         </div>
+        <div class="card-field">{escape(opis)}</div>
+      </div>
     </div>\n'''
 
-    osoba_options = ''.join(f'<option value="{escape(o)}">{escape(o)}</option>' for o in sorted(all_osoby))
-    kat_options = ''.join(f'<option value="{escape(k)}">{escape(k)}</option>' for k in sorted(all_kategorie))
-    dekada_options = ''.join(f'<option value="{d}">{d}s</option>' for d in sorted(all_dekady))
-    seria_options = ''.join(f'<option value="{s}">Seria {s}</option>' for s in sorted(all_serie))
+    gallery_section = ""
+    if GALLERY_PHOTOS:
+        gallery_section = '<section class="series" id="nowe-fotografie">\n'
+        gallery_section += '  <div class="series-header">\n'
+        gallery_section += '    <div class="series-num">NOWE FOTOGRAFIE</div>\n'
+        gallery_section += '    <h2 class="series-title">Nowe fotografie</h2>\n'
+        gallery_section += '    <p class="series-desc">Dodatkowe zdj\u0119cia rodzinne, wojskowe i uroczysto\u015bci</p>\n'
+        gallery_section += '  </div>\n'
+        gallery_section += '  <div class="cards-grid">\n'
+        gallery_section += gallery_cards
+        gallery_section += '  </div>\n</section>\n'
+        nav_html += '<a href="#nowe-fotografie" class="nav-link">Nowe fotografie (' + str(len(GALLERY_PHOTOS)) + ')</a>\n'
+
+    gallery_count = catalog_photo_count + len(GALLERY_PHOTOS)
 
     common_css = _common_css()
     lang_bar = _lang_bar_html()
@@ -11304,8 +11404,6 @@ def generate_gallery_html():
     lightbox_js = _lightbox_js()
     lang_js = _lang_js()
     footer = _footer_html()
-
-    gallery_count = catalog_photo_count + len(GALLERY_PHOTOS)
 
     empty_msg = ""
     if gallery_count == 0:
@@ -11324,63 +11422,6 @@ def generate_gallery_html():
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
 <style>
 {common_css}
-
-/* GALLERY-SPECIFIC STYLES */
-.gallery-grid {{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 16px;
-    padding: 20px;
-    max-width: 1400px;
-    margin: 0 auto;
-}}
-.gallery-card {{
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    overflow: hidden;
-    cursor: pointer;
-    transition: transform 0.2s, box-shadow 0.2s;
-    background: var(--surface);
-}}
-.gallery-card:hover {{
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0,0,0,.4);
-    border-color: var(--accent);
-}}
-.gallery-card img {{
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-}}
-.gallery-info {{
-    padding: 12px;
-}}
-.gallery-title {{
-    font-size: 0.88em;
-    color: var(--text);
-    line-height: 1.4;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-}}
-.gallery-meta {{
-    font-size: 0.78em;
-    color: var(--text-faint);
-    margin-top: 4px;
-}}
-.lb-opis {{
-    color: var(--text-dim);
-    font-size: 0.85em;
-    margin-top: 6px;
-    text-align: center;
-    max-width: 80%;
-    font-style: italic;
-}}
-@media (max-width:600px) {{
-  .gallery-grid {{ grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; padding: 10px; }}
-  .gallery-card img {{ height: 180px; }}
-}}
 </style>
 </head>
 <body>
@@ -11400,29 +11441,22 @@ def generate_gallery_html():
   <div class="subtitle" data-lang="yi">גלוכאָווסקי משפּחה אַרכיוו — משפּחה, מיליטערישע און צערעמאָניע פאָטאָגראַפיעס</div>
 </div>
 
-{f"""<div class="filter-bar">
-    <select id="filter-osoba" onchange="filterGallery()">
-        <option value="">Wszystkie osoby</option>
-        {osoba_options}
-    </select>
-    <select id="filter-kategoria" onchange="filterGallery()">
-        <option value="">Wszystkie kategorie</option>
-        {kat_options}
-    </select>
-    <select id="filter-dekada" onchange="filterGallery()">
-        <option value="">Wszystkie dekady</option>
-        {dekada_options}
-    </select>
-    <select id="filter-seria-gal" onchange="filterGallery()">
+<div class="filter-bar">
+    <select id="filter-seria" onchange="filterCards()">
         <option value="">Wszystkie serie</option>
         {seria_options}
     </select>
-    <input type="text" id="filter-search-gal" placeholder="Szukaj..." oninput="filterGallery()">
-    <div class="photo-count" id="gallery-count">{gallery_count} fotografii</div>
+    <input type="text" id="filter-search" placeholder="Szukaj (sygnatura, tytuł, treść)..." oninput="filterCards()">
+    <div class="photo-count" id="card-count">{gallery_count} fotografii</div>
 </div>
-<div class="gallery-grid" id="gallery-grid">
-    {photo_cards}
-</div>""" if gallery_count > 0 else ""}
+
+<div class="nav" id="series-nav">
+{nav_html}
+</div>
+
+{series_html}
+
+{gallery_section}
 
 {empty_msg}
 
@@ -11433,43 +11467,32 @@ def generate_gallery_html():
 <script>
 {lightbox_js}
 
-/* Open lightbox with description */
-function openGalleryLightbox(card) {{
-  openLightbox(card.dataset.src, card.dataset.title);
-  /* Add description below title */
-  var opis = card.dataset.opis;
-  var existing = document.getElementById('lb-opis');
-  if (existing) existing.remove();
-  if (opis) {{
-    var div = document.createElement('div');
-    div.id = 'lb-opis';
-    div.className = 'lb-opis';
-    div.textContent = opis;
-    document.getElementById('lb-title').after(div);
-  }}
+function scrollToCard(cardId) {{
+  var el = document.getElementById('card-' + cardId);
+  if (!el) return;
+  el.scrollIntoView({{ behavior:'smooth', block:'center' }});
+  el.classList.add('highlight-target');
+  setTimeout(function() {{ el.classList.remove('highlight-target'); }}, 3000);
 }}
 
-/* Gallery filtering */
-function filterGallery() {{
-  var osoba = document.getElementById('filter-osoba') ? document.getElementById('filter-osoba').value : '';
-  var kat = document.getElementById('filter-kategoria') ? document.getElementById('filter-kategoria').value : '';
-  var dekada = document.getElementById('filter-dekada') ? document.getElementById('filter-dekada').value : '';
-  var seria = document.getElementById('filter-seria-gal') ? document.getElementById('filter-seria-gal').value : '';
-  var search = document.getElementById('filter-search-gal') ? document.getElementById('filter-search-gal').value.toLowerCase().trim() : '';
-  var cards = document.querySelectorAll('.gallery-card');
+function filterCards() {{
+  var seria = document.getElementById('filter-seria').value;
+  var search = document.getElementById('filter-search').value.toLowerCase().trim();
+  var cards = document.querySelectorAll('.card');
   var visible = 0;
   cards.forEach(function(card) {{
     var show = true;
-    if (osoba && card.dataset.osoba !== osoba) show = false;
-    if (kat && card.dataset.kategoria !== kat) show = false;
-    if (dekada && card.dataset.dekada !== dekada) show = false;
-    if (seria && card.dataset.seria !== seria) show = false;
-    if (search && card.dataset.search.indexOf(search) === -1) show = false;
+    var section = card.closest('.series');
+    var sectionSeria = section ? section.id.replace('seria-', '') : '';
+    if (seria && sectionSeria !== seria) show = false;
+    if (search) {{
+      var text = card.textContent.toLowerCase();
+      if (text.indexOf(search) === -1) show = false;
+    }}
     card.style.display = show ? '' : 'none';
     if (show) visible++;
   }});
-  var countEl = document.getElementById('gallery-count');
-  if (countEl) countEl.textContent = visible + ' fotografii';
+  document.getElementById('card-count').textContent = visible + ' fotografii';
 }}
 
 {lang_js}

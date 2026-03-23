@@ -142,69 +142,67 @@ body.lang-js [data-lang].lang-visible { display:revert; }
 .footer a { color:var(--gold-dim); text-decoration:none; }
 .footer a:hover { color:var(--gold); }
 
+/* SERIES */
+.series { max-width:1400px; margin:0 auto; padding:50px 20px 30px; }
+.series-header { margin-bottom:30px; padding-bottom:16px; border-bottom:1px solid var(--border); }
+.series-num { font-family:'JetBrains Mono',monospace; font-size:0.75em; color:var(--gold); letter-spacing:2px; margin-bottom:4px; }
+.series-title { font-family:'Playfair Display',serif; font-size:1.6em; color:var(--text); font-weight:600; margin-bottom:8px; }
+.series-desc { font-size:0.9em; color:var(--text-dim); line-height:1.6; max-width:800px; }
+.series-meta { font-size:0.8em; color:var(--text-faint); margin-top:8px; }
+
+/* CARDS GRID */
+.cards-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(380px, 1fr)); gap:20px; }
+
+/* CARD */
+.card { background:var(--surface); border:1px solid var(--border); border-radius:4px; overflow:hidden; cursor:pointer; transition:all .3s; }
+.card:hover { border-color:var(--accent); transform:translateY(-1px); box-shadow:0 6px 20px rgba(0,0,0,.3); }
+.card-img-wrap { height:260px; overflow:hidden; background:#0a0908; display:flex; align-items:center; justify-content:center; border-bottom:1px solid var(--border); }
+.card-img-wrap img { max-width:100%; max-height:100%; object-fit:contain; }
+.card-body { padding:18px; }
+.card-sygn { font-family:'JetBrains Mono',monospace; font-size:0.7em; color:var(--gold); letter-spacing:1px; margin-bottom:6px; }
+.card-title { font-family:'Playfair Display',serif; font-size:1.05em; color:var(--text); margin-bottom:8px; line-height:1.35; font-weight:600; }
+.card-meta-row { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; padding-bottom:8px; border-bottom:1px solid var(--border); }
+.card-date { font-size:0.85em; color:var(--gold); font-weight:500; }
+.card-type { font-size:0.72em; color:var(--text-faint); background:var(--surface2); padding:2px 8px; border-radius:2px; text-transform:uppercase; letter-spacing:1px; }
+.card-field { font-size:0.82em; color:var(--text-dim); margin-bottom:6px; line-height:1.5; }
+.field-label { color:var(--text-faint); font-weight:500; font-size:0.9em; }
+.card-context { color:var(--accent); font-style:italic; }
+.card-condition { font-size:0.75em; color:var(--text-faint); margin-top:8px; padding-top:6px; border-top:1px solid var(--border); }
+.powiazanie-link { color:var(--gold); text-decoration:none; font-family:'JetBrains Mono',monospace; font-size:0.95em; transition:color .2s; }
+.powiazanie-link:hover { color:var(--accent); text-decoration:underline; }
+.card.highlight-target { border-color:var(--gold) !important; box-shadow:0 0 20px rgba(201,169,110,.3) !important; transition:all .5s; }
+
+/* NAV */
+.nav { position:sticky; top:38px; z-index:100; background:rgba(12,11,9,.95); backdrop-filter:blur(12px); padding:14px 20px; border-bottom:1px solid var(--border); display:flex; flex-wrap:wrap; gap:8px; justify-content:center; }
+.nav-link { color:var(--text-dim); text-decoration:none; font-size:0.8em; padding:5px 12px; border:1px solid var(--border); border-radius:3px; transition:all .2s; font-weight:500; }
+.nav-link:hover { color:var(--gold); border-color:var(--gold); }
+
+/* TRANSCRIPTION PANELS */
+.card-transcription { border-top:1px solid var(--border); margin-top:10px; padding-top:8px; }
+.trans-toggle { cursor:pointer; font-size:0.82em; color:var(--gold); font-weight:500; padding:4px 0; user-select:none; }
+.trans-toggle:hover { color:var(--accent); }
+.trans-content { display:none; padding:10px 0 4px; }
+.card-transcription.open .trans-toggle { color:var(--accent); }
+.card-transcription.open .trans-content { display:block; }
+.trans-meta { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:8px; }
+.trans-badge { font-size:0.72em; background:var(--surface2); border:1px solid var(--border); color:var(--text-dim); padding:2px 8px; border-radius:2px; }
+.trans-field { font-size:0.8em; color:var(--text-dim); margin-bottom:4px; line-height:1.5; }
+.trans-field strong { color:var(--text-faint); }
+.trans-text { font-family:'JetBrains Mono',monospace; font-size:0.78em; color:var(--text); background:var(--surface2); padding:12px; border-radius:4px; margin:8px 0; white-space:pre-wrap; line-height:1.6; max-height:300px; overflow-y:auto; }
+.trans-details { font-size:0.78em; color:var(--text-dim); margin-top:6px; }
+.trans-details strong { color:var(--text-faint); }
+.trans-detail-list { list-style:none; padding:0; margin:4px 0 8px; }
+.trans-detail-list li { padding:2px 0; border-bottom:1px solid rgba(255,255,255,.03); }
+.trans-detail-list li::before { content:'· '; color:var(--gold); }
+
 @media (max-width:600px) {
   .photo-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; padding: 10px; }
   .photo-card img { height: 110px; }
   .filter-bar { padding: 10px; gap: 8px; }
   .filter-bar select, .filter-bar input { font-size: 13px; padding: 6px 10px; }
   .page-nav-link { padding:10px 14px; font-size:0.82em; }
-}
-
-/* GALLERY-SPECIFIC STYLES */
-.gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 16px;
-    padding: 20px;
-    max-width: 1400px;
-    margin: 0 auto;
-}
-.gallery-card {
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    overflow: hidden;
-    cursor: pointer;
-    transition: transform 0.2s, box-shadow 0.2s;
-    background: var(--surface);
-}
-.gallery-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0,0,0,.4);
-    border-color: var(--accent);
-}
-.gallery-card img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-}
-.gallery-info {
-    padding: 12px;
-}
-.gallery-title {
-    font-size: 0.88em;
-    color: var(--text);
-    line-height: 1.4;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-}
-.gallery-meta {
-    font-size: 0.78em;
-    color: var(--text-faint);
-    margin-top: 4px;
-}
-.lb-opis {
-    color: var(--text-dim);
-    font-size: 0.85em;
-    margin-top: 6px;
-    text-align: center;
-    max-width: 80%;
-    font-style: italic;
-}
-@media (max-width:600px) {
-  .gallery-grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; padding: 10px; }
-  .gallery-card img { height: 180px; }
+  .cards-grid { grid-template-columns:1fr; }
+  .series-title { font-size:1.3em; }
 }
 </style>
 </head>
@@ -239,287 +237,904 @@ body.lang-js [data-lang].lang-visible { display:revert; }
 </div>
 
 <div class="filter-bar">
-    <select id="filter-osoba" onchange="filterGallery()">
-        <option value="">Wszystkie osoby</option>
-        
-    </select>
-    <select id="filter-kategoria" onchange="filterGallery()">
-        <option value="">Wszystkie kategorie</option>
-        <option value="album">album</option><option value="defilada">defilada</option><option value="portret">portret</option><option value="uroczystosc">uroczystosc</option><option value="wojskowe">wojskowe</option>
-    </select>
-    <select id="filter-dekada" onchange="filterGallery()">
-        <option value="">Wszystkie dekady</option>
-        <option value="1920">1920s</option><option value="1940">1940s</option>
-    </select>
-    <select id="filter-seria-gal" onchange="filterGallery()">
+    <select id="filter-seria" onchange="filterCards()">
         <option value="">Wszystkie serie</option>
         <option value="II">Seria II</option><option value="V">Seria V</option><option value="VI">Seria VI</option>
     </select>
-    <input type="text" id="filter-search-gal" placeholder="Szukaj..." oninput="filterGallery()">
-    <div class="photo-count" id="gallery-count">37 fotografii</div>
+    <input type="text" id="filter-search" placeholder="Szukaj (sygnatura, tytuł, treść)..." oninput="filterCards()">
+    <div class="photo-count" id="card-count">37 fotografii</div>
 </div>
-<div class="gallery-grid" id="gallery-grid">
-    <div class="gallery-card" data-osoba="" data-kategoria="wojskowe" data-dekada="" data-seria="II" data-search="fotokopia &#x27;siódemki beliny&#x27; z podpisami uczestników arg/ii/2" data-src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p04_img02.jpeg" data-title="Fotokopia &#x27;Siódemki Beliny&#x27; z podpisami uczestników" data-opis="Fotokopia historycznego zdjęcia &#x27;Siódemki Beliny&#x27; — pierwszego patrolu kawaleryjskiego Legionów Polskich (2–3.VIII.1914). Podpisy uczestników: Belina-Prażmowski (ur. 1888 Ruszkowiec, zm. 1938 Wenecja)" onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p04_img02.jpeg" alt="Fotokopia &#x27;Siódemki Beliny&#x27; z podpisami uczestników" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Fotokopia &#x27;Siódemki Beliny&#x27; z podpisami uczestników</div>
-            <div class="gallery-meta">2–3.VIII.1914 · ARG/II/2</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="wojskowe" data-dekada="" data-seria="II" data-search="fotografia z beliną — plac strzelecki, kraków, ok. 1913 arg/ii/7" data-src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p05_img03.jpeg" data-title="Fotografia z Beliną — Plac Strzelecki, Kraków, ok. 1913" data-opis="KOREKTA: to NIE &#x27;ciemna fotografia oficerów w mundurach&#x27; z lat 30. — to prawdopodobnie fotografia z PLACU STRZELECKIEGO w Krakowie, ok. 1913! Pięciu mężczyzn na ławce. Wg PDF Katalogu Tematycznego na " onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p05_img03.jpeg" alt="Fotografia z Beliną — Plac Strzelecki, Kraków, ok. 1913" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Fotografia z Beliną — Plac Strzelecki, Kraków, ok. 1913</div>
-            <div class="gallery-meta">ok. 1913 · ARG/II/7</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="portret" data-dekada="" data-seria="II" data-search="dyplom krzyża legionowego nr 145 — widok pełny z portretem piłsudskiego obok arg/ii/11" data-src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p06_img02.jpeg" data-title="Dyplom Krzyża Legionowego Nr 145 — widok pełny z portretem Piłsudskiego obok" data-opis="Pełny widok dyplomu Krzyża Legionowego Nr 145 dla płk. Głuchowskiego Janusza z 1.p.uł., nadanego 11.VII.1925 na podstawie uchwały II Zjazdu Legionistów. Obok dyplomu leży oddzielna fotografia portreto" onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p06_img02.jpeg" alt="Dyplom Krzyża Legionowego Nr 145 — widok pełny z portretem Piłsudskiego obok" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Dyplom Krzyża Legionowego Nr 145 — widok pełny z portretem Piłsudskiego obok</div>
-            <div class="gallery-meta">11.VII.1925 · ARG/II/11</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="wojskowe" data-dekada="" data-seria="II" data-search="fotokopia prasowa — śmigły-rydz wręcza sztandar 17 p.uł. arg/ii/22" data-src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p13_img01.jpeg" data-title="Fotokopia prasowa — Śmigły-Rydz wręcza sztandar 17 P.Uł." data-opis="Marszałek Edward Śmigły-Rydz wręcza sztandar 17 Pułku Ułanów Wielkopolskich. Podpisy: d-ca Brygady gen. Janusz Głuchowski, gen. Roman Abraham, gen. Knoll-Kownacki, płk Kowalczewski." onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p13_img01.jpeg" alt="Fotokopia prasowa — Śmigły-Rydz wręcza sztandar 17 P.Uł." loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Fotokopia prasowa — Śmigły-Rydz wręcza sztandar 17 P.Uł.</div>
-            <div class="gallery-meta">ok. 1937 · ARG/II/22</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="portret" data-dekada="" data-seria="II" data-search="portret gen. janusza głuchowskiego w mundurze galowym arg/ii/23" data-src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p13_img02.jpeg" data-title="Portret gen. Janusza Głuchowskiego w mundurze galowym" data-opis="Portret fotograficzny gen. Janusza Głuchowskiego w mundurze galowym z orderami i epoletami. Zdjęcie studyjne. Jedyne zdjęcie portretowe generała w kolekcji." onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p13_img02.jpeg" alt="Portret gen. Janusza Głuchowskiego w mundurze galowym" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Portret gen. Janusza Głuchowskiego w mundurze galowym</div>
-            <div class="gallery-meta">lata 30. XX w. · ARG/II/23</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="portret" data-dekada="" data-seria="V" data-search="fotografia proporca/sztandaru 7 pułku ułanów lubelskich — zaginionego w powstaniu warszawskim arg/v/134" data-src="gluchowski_img/juras_068_page69.jpeg" data-title="Fotografia proporca/sztandaru 7 Pułku Ułanów Lubelskich — ZAGINIONEGO W POWSTANIU WARSZAWSKIM" data-opis="Fotografia proporca/sztandaru 7 Pułku Ułanów Lubelskich &#x27;Jeleń&#x27; — PROPORCZYK ZAGINĄŁ W POWSTANIU WARSZAWSKIM 1944. Zdjęcie jest jedynym zachowanym śladem po oryginalnym sztandarze pułkowym. Sylwetka j" onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/juras_068_page69.jpeg" alt="Fotografia proporca/sztandaru 7 Pułku Ułanów Lubelskich — ZAGINIONEGO W POWSTANIU WARSZAWSKIM" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Fotografia proporca/sztandaru 7 Pułku Ułanów Lubelskich — ZAGINIONEGO W POWSTANI</div>
-            <div class="gallery-meta">przed 1944 · ARG/V/134</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="wojskowe" data-dekada="" data-seria="VI" data-search="tablica pamiątkowa natarcia 7 p.uł. ak &#x27;jeleń&#x27; na gmach gestapo i dom prasy — 1.viii.1944 godz. 17:00 arg/vi/1" data-src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p04_img01.jpeg" data-title="Tablica pamiątkowa natarcia 7 P.Uł. AK &#x27;JELEŃ&#x27; na gmach Gestapo i Dom Prasy — 1.VIII.1944 godz. 17:00" data-opis="&#x27;Dnia 1.8.1944 r. godz. 17. / z tego domu i okolicznych / ruszyło do natarcia / na gmach Gestapo i Dom Prasy / 5 plutonów / 7 pułku ułanów / AK / «JELEŃ» / z / 187 Powstańców / poległo 67 / Cześć Ich " onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p04_img01.jpeg" alt="Tablica pamiątkowa natarcia 7 P.Uł. AK &#x27;JELEŃ&#x27; na gmach Gestapo i Dom Prasy — 1.VIII.1944 godz. 17:00" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Tablica pamiątkowa natarcia 7 P.Uł. AK &#x27;JELEŃ&#x27; na gmach Gestapo i Dom Prasy — 1.</div>
-            <div class="gallery-meta">1.VIII.1944 · ARG/VI/1</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="album" data-dekada="" data-seria="VI" data-search="album fotograficzny — dedykacja od kompanii dowodzenia centrum łączności dla gen. głuchowskiego, 8.iii.1944 arg/vi/4" data-src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p28_img03.jpeg" data-title="Album fotograficzny — dedykacja od Kompanii Dowodzenia CENTRUM ŁĄCZNOŚCI dla gen. Głuchowskiego, 8.III.1944" data-opis="Album upominkowy z dedykacją kaligraficzną: &#x27;Panu Gen. Głuchowskiemu / Dowódcy Jedn. Wojsk w Brytanii / z okazji pobytu / na / Wyszkoleniu / Centrum Łączności / Żołnierze / Kompanii Dowodzenia / z zło" onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p28_img03.jpeg" alt="Album fotograficzny — dedykacja od Kompanii Dowodzenia CENTRUM ŁĄCZNOŚCI dla gen. Głuchowskiego, 8.III.1944" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Album fotograficzny — dedykacja od Kompanii Dowodzenia CENTRUM ŁĄCZNOŚCI dla gen</div>
-            <div class="gallery-meta">8.III.1944 · ARG/VI/4</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="album" data-dekada="" data-seria="VI" data-search="album centrum łączności — strona z 4 zdjęciami: izba, szkolenie, formacja kompanii dowodzenia arg/vi/5" data-src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p28_img01.jpeg" data-title="Album Centrum Łączności — strona z 4 zdjęciami: izba, szkolenie, formacja Kompanii Dowodzenia" data-opis="Strona z 4 fotografiami z życia Centrum Łączności WP: (1) Lewy górny — wnętrze izby/jadalni lub warsztatu łączności; (2) Prawy górny — oficerowie przy szkoleniu/ćwiczeniach, podpis odnosi się do gen. " onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p28_img01.jpeg" alt="Album Centrum Łączności — strona z 4 zdjęciami: izba, szkolenie, formacja Kompanii Dowodzenia" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Album Centrum Łączności — strona z 4 zdjęciami: izba, szkolenie, formacja Kompan</div>
-            <div class="gallery-meta">ok. III.1944 · ARG/VI/5</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="album" data-dekada="" data-seria="VI" data-search="album centrum łączności — strona z 3 zdjęciami: żołnierze z gitarą, sport, życie koszarowe arg/vi/6" data-src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p28_img02.jpeg" data-title="Album Centrum Łączności — strona z 3 zdjęciami: żołnierze z gitarą, sport, życie koszarowe" data-opis="3 fotografie z życia codziennego żołnierzy Centrum Łączności: (1) Grupa żołnierzy z gitarą — scena rozrywkowa/kulturalna, jeden żołnierz gra na gitarze akustycznej; (2) Żołnierze w strojach sportowych" onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p28_img02.jpeg" alt="Album Centrum Łączności — strona z 3 zdjęciami: żołnierze z gitarą, sport, życie koszarowe" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Album Centrum Łączności — strona z 3 zdjęciami: żołnierze z gitarą, sport, życie</div>
-            <div class="gallery-meta">ok. III.1944 · ARG/VI/6</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="wojskowe" data-dekada="1940" data-seria="VI" data-search="trzy fotografie obozowe arg/vi/13" data-src="gluchowski_img/Seria_29z_p09_img01.jpeg" data-title="Trzy fotografie obozowe" data-opis="TRZY FOTOGRAFIE POWOJENNYCH LOKACJI: (1) Budynek fabryczny/przemysłowy z kominem — prawdopodobnie fabryka, przy której Krzysztof pracował jako jeniec w Arbeitskommando. (2) Droga wiejska z samochodem " onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/Seria_29z_p09_img01.jpeg" alt="Trzy fotografie obozowe" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Trzy fotografie obozowe</div>
-            <div class="gallery-meta">1944–1945 · ARG/VI/13</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="album" data-dekada="" data-seria="II" data-search="zestaw fotograficzny — mauzoleum woli, pole mokotowskie, al. szucha — podróż pamięci gen. głuchowskiego arg/ii/37" data-src="gluchowski_img/lbr_II_37_p01.jpg" data-title="Zestaw fotograficzny — Mauzoleum Woli, Pole Mokotowskie, Al. Szucha — podróż pamięci gen. Głuchowskiego" data-opis="DOKUMENTACJA FOTOGRAFICZNA ZBIÓRKI ZIEMI z trzech miejsc martyrologii Warszawy. 5 fotografii na dwóch stronach albumu z MASZYNOWYMI PODPISAMI identyfikującymi: (1) MAUZOLEUM-CMENTARZ NA WOLI — &#x27;grób [" onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/lbr_II_37_p01.jpg" alt="Zestaw fotograficzny — Mauzoleum Woli, Pole Mokotowskie, Al. Szucha — podróż pamięci gen. Głuchowskiego" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Zestaw fotograficzny — Mauzoleum Woli, Pole Mokotowskie, Al. Szucha — podróż pam</div>
-            <div class="gallery-meta">lata 50.–60. XX w. · ARG/II/37</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="wojskowe" data-dekada="1940" data-seria="II" data-search="fotografia — gen. głuchowski wręcza odznaczenia żołnierzom, szkocja 1941 arg/ii/38" data-src="gluchowski_img/lbr_II_38_p01.jpg" data-title="Fotografia — gen. Głuchowski wręcza odznaczenia żołnierzom, Szkocja 1941" data-opis="Gen. Głuchowski podczas przeglądu i uroczystego wręczania odznaczeń szeregowym oficerów i kadetów Wojska Polskiego na emigracji w Szkocji, 1941." onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/lbr_II_38_p01.jpg" alt="Fotografia — gen. Głuchowski wręcza odznaczenia żołnierzom, Szkocja 1941" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Fotografia — gen. Głuchowski wręcza odznaczenia żołnierzom, Szkocja 1941</div>
-            <div class="gallery-meta">1941 · ARG/II/38</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="portret" data-dekada="" data-seria="II" data-search="fotografia — gen. głuchowski wśród oficerów polskich, podchorążówka, szkocja arg/ii/39" data-src="gluchowski_img/lbr_II_39_p01.jpg" data-title="Fotografia — gen. Głuchowski wśród oficerów polskich, Podchorążówka, Szkocja" data-opis="ZDJĘCIE GRUPOWE PODCHORĄŻÓWKI — ok. 120 polskich oficerów i podchorążych w Szkocji. W pierwszym rzędzie (siedzącym): generałowie i wyżsi oficerowie w mundurach garnizonowych z czapkami — w centrum pra" onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/lbr_II_39_p01.jpg" alt="Fotografia — gen. Głuchowski wśród oficerów polskich, Podchorążówka, Szkocja" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Fotografia — gen. Głuchowski wśród oficerów polskich, Podchorążówka, Szkocja</div>
-            <div class="gallery-meta">lata 40. XX w. · ARG/II/39</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="wojskowe" data-dekada="" data-seria="II" data-search="zestaw fotograficzny — restauracja grobu powstańczego, jele, ak 1944 arg/ii/40" data-src="gluchowski_img/lbr_II_40_p01.jpg" data-title="Zestaw fotograficzny — restauracja grobu powstańczego, Jele, AK 1944" data-opis="DOKUMENTACJA REKONSTRUKCJI GROBU 7 P.UŁ. &#x27;JELEŃ&#x27; AK. Podpis u góry: &#x27;1 sierpnia 1960 roku. Pierwsze stadium prac. Dolnej płyty nie widać, ale jest [liczy?] z wykutym napisem, tylko jeszcze nie pomalow" onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/lbr_II_40_p01.jpg" alt="Zestaw fotograficzny — restauracja grobu powstańczego, Jele, AK 1944" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Zestaw fotograficzny — restauracja grobu powstańczego, Jele, AK 1944</div>
-            <div class="gallery-meta">lata 50.–60. XX w. · ARG/II/40</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="album" data-dekada="" data-seria="II" data-search="album pamięci plutonu 1112 — groby powstańców ak, wizyta 14.viii.1960 arg/ii/41" data-src="gluchowski_img/lbr_II_41_p01.jpg" data-title="Album pamięci PLUTONU 1112 — groby powstańców AK, wizyta 14.VIII.1960" data-opis="TRZY FOTOGRAFIE z wizytacji grobów powstańczych 14.VIII.1960: (1) Grupa przy grobie z kwiatami — podpis identyfikuje: &#x27;Stoją: p. Zofia kuzynka, cpl. Kuleszy sanitariuszka z p. Starysła, p. Lebieszowa " onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/lbr_II_41_p01.jpg" alt="Album pamięci PLUTONU 1112 — groby powstańców AK, wizyta 14.VIII.1960" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Album pamięci PLUTONU 1112 — groby powstańców AK, wizyta 14.VIII.1960</div>
-            <div class="gallery-meta">14.VIII.1960 · ARG/II/41</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="wojskowe" data-dekada="" data-seria="II" data-search="fotografia — gen. głuchowski podczas inspekcji oddziału polskich oficerów na emigracji arg/ii/42" data-src="gluchowski_img/lbr_II_42_p01.jpg" data-title="Fotografia — gen. Głuchowski podczas inspekcji oddziału polskich oficerów na emigracji" data-opis="Gen. Głuchowski (w mundurze z orderami, stojący na prawo od centrum) podczas formalnej inspekcji szeregu polskich oficerów na emigracji. Tło: trawnik, drzewa — typowy brytyjski/szkocki krajobraz. Ofic" onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/lbr_II_42_p01.jpg" alt="Fotografia — gen. Głuchowski podczas inspekcji oddziału polskich oficerów na emigracji" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Fotografia — gen. Głuchowski podczas inspekcji oddziału polskich oficerów na emi</div>
-            <div class="gallery-meta">lata 40. XX w. · ARG/II/42</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="wojskowe" data-dekada="" data-seria="II" data-search="gen. głuchowski z brytyjskim lord provostem i polskim dygnitarzem — szkocja arg/ii/43" data-src="gluchowski_img/lbr_II_43_p01.jpg" data-title="Gen. Głuchowski z brytyjskim Lord Provostem i polskim dygnitarzem — Szkocja" data-opis="Czterech mężczyzn na tle kamiennego budynku (architektura gotycka): (1) Z lewej: generał w polskim mundurze z orderami na piersi (prawdopodobnie Głuchowski). (2) Wysoki mężczyzna w ciemnym garniturze " onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/lbr_II_43_p01.jpg" alt="Gen. Głuchowski z brytyjskim Lord Provostem i polskim dygnitarzem — Szkocja" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Gen. Głuchowski z brytyjskim Lord Provostem i polskim dygnitarzem — Szkocja</div>
-            <div class="gallery-meta">lata 40. XX w. · ARG/II/43</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="wojskowe" data-dekada="" data-seria="II" data-search="fotografia — zjazd harcerzy w dundee (szkocja), 6 marca 1945. fot. wł. przytyś arg/ii/44" data-src="gluchowski_img/lbr_II_44_p01.jpg" data-title="Fotografia — Zjazd Harcerzy w Dundee (Szkocja), 6 marca 1945. Fot. Wł. Przytyś" data-opis="Trzech polskich oficerów przed wejściem do budynku z tablicą &#x27;Prices of ADMISSION&#x27; (Lounge or Balcony 1/9, One Block 1/6, Stalls 1/-, Pit 6d) — kino lub teatr w Dundee wynajęty na Zjazd Harcerzy. Gene" onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/lbr_II_44_p01.jpg" alt="Fotografia — Zjazd Harcerzy w Dundee (Szkocja), 6 marca 1945. Fot. Wł. Przytyś" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Fotografia — Zjazd Harcerzy w Dundee (Szkocja), 6 marca 1945. Fot. Wł. Przytyś</div>
-            <div class="gallery-meta">6.III.1945 · ARG/II/44</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="portret" data-dekada="" data-seria="II" data-search="fotografia — zjazd harcerzy w dundee (szkocja), 6 marca 1945 — zdjęcie grupowe. fot. wł. przytyś arg/ii/45" data-src="gluchowski_img/lbr_II_45_p01.jpg" data-title="Fotografia — Zjazd Harcerzy w Dundee (Szkocja), 6 marca 1945 — zdjęcie grupowe. Fot. Wł. Przytyś" data-opis="Duże zdjęcie grupowe na schodach budynku — kilkudziesięciu polskich oficerów i żołnierzy zebranych na Zjeździe Harcerzy w Dundee. W pierwszym rzędzie generałowie w mundurach wyjściowych, w tym gen. Gł" onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/lbr_II_45_p01.jpg" alt="Fotografia — Zjazd Harcerzy w Dundee (Szkocja), 6 marca 1945 — zdjęcie grupowe. Fot. Wł. Przytyś" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Fotografia — Zjazd Harcerzy w Dundee (Szkocja), 6 marca 1945 — zdjęcie grupowe. </div>
-            <div class="gallery-meta">6.III.1945 · ARG/II/45</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="portret" data-dekada="" data-seria="II" data-search="fotografia portretowa — mężczyzna w ubraniu cywilnym na tle szkockiej architektury (identyfikowany jako kazimierz gedymin jurgielewicz, 1891–1956) arg/ii/46" data-src="gluchowski_img/lbr_II_46_p01.jpg" data-title="Fotografia portretowa — mężczyzna w ubraniu cywilnym na tle szkockiej architektury (identyfikowany jako Kazimierz Gedymin Jurgielewicz, 1891–1956)" data-opis="Portret mężczyzny w cywilnym ubraniu (garnitur w jodełkę lub tweed, kamizelka, krawat, poszetka w kieszonce) na tle kamiennych budynków w typowej szkockiej architekturze (Edynburg?). Mężczyzna w wieku" onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/lbr_II_46_p01.jpg" alt="Fotografia portretowa — mężczyzna w ubraniu cywilnym na tle szkockiej architektury (identyfikowany jako Kazimierz Gedymin Jurgielewicz, 1891–1956)" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Fotografia portretowa — mężczyzna w ubraniu cywilnym na tle szkockiej architektu</div>
-            <div class="gallery-meta">lata 40. XX w. · ARG/II/46</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="portret" data-dekada="" data-seria="II" data-search="fotografia dedykacyjna z freuchie (szkocja) — uczniowie kursu unitarnego dla gen. bryg. głuchowskiego janusza, dowódcy brygady szkolnej, 23.v.1942 arg/ii/47" data-src="gluchowski_img/lbr_II_47_p01.jpg" data-title="Fotografia dedykacyjna z Freuchie (Szkocja) — uczniowie Kursu Unitarnego dla gen. bryg. Głuchowskiego Janusza, Dowódcy Brygady Szkolnej, 23.V.1942" data-opis="Zdjęcie grupowe ok. 28 polskich oficerów w battledress, w plenerze (trawnik, drzewa w tle), pozujących w trzech rzędach — klęczący, siedzący, stojący. Jeden oficer trzyma akordeon. Zdjęcie z dedykacją" onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/lbr_II_47_p01.jpg" alt="Fotografia dedykacyjna z Freuchie (Szkocja) — uczniowie Kursu Unitarnego dla gen. bryg. Głuchowskiego Janusza, Dowódcy Brygady Szkolnej, 23.V.1942" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Fotografia dedykacyjna z Freuchie (Szkocja) — uczniowie Kursu Unitarnego dla gen</div>
-            <div class="gallery-meta">23.V.1942 · ARG/II/47</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="wojskowe" data-dekada="" data-seria="II" data-search="fotografia — inspekcja polskich czołgistów w szkoleniu, szkocja, lata 40. arg/ii/48" data-src="gluchowski_img/lbr_II_48_p01.jpg" data-title="Fotografia — inspekcja polskich czołgistów w szkoleniu, Szkocja, lata 40." data-opis="Gen. Głuchowski dokonuje inspekcji polskiej formacji pancernej na poligonie szkoleniowym. Żołnierze w battledress stoją na baczność w szyku przed ciężkimi czołgami (prawdopodobnie Churchill lub Cromwe" onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/lbr_II_48_p01.jpg" alt="Fotografia — inspekcja polskich czołgistów w szkoleniu, Szkocja, lata 40." loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Fotografia — inspekcja polskich czołgistów w szkoleniu, Szkocja, lata 40.</div>
-            <div class="gallery-meta">ok. 1943–1945 · ARG/II/48</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="defilada" data-dekada="" data-seria="II" data-search="fotografia — inspekcja wojskowa w kelso (szkocja), gen. bór-komorowski, głuchowski i mazur, 15 vi 1945 arg/ii/49" data-src="gluchowski_img/lbr_II_49_p01.jpg" data-title="Fotografia — inspekcja wojskowa w Kelso (Szkocja), gen. Bór-Komorowski, Głuchowski i Mazur, 15 VI 1945" data-opis="Inspekcja wojskowa przed paradą pułku w Kelso (Szkocja). Na zdjęciu: gen. Tadeusz Bór-Komorowski (Naczelny Wódz), gen. Głuchowski i gen. Mazur." onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/lbr_II_49_p01.jpg" alt="Fotografia — inspekcja wojskowa w Kelso (Szkocja), gen. Bór-Komorowski, Głuchowski i Mazur, 15 VI 1945" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Fotografia — inspekcja wojskowa w Kelso (Szkocja), gen. Bór-Komorowski, Głuchows</div>
-            <div class="gallery-meta">15.VI.1945 · ARG/II/49</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="defilada" data-dekada="" data-seria="II" data-search="fotografia — gen. bór-komorowski inspekuje polskie czołgi, parada 3. pułku pancernego, 15 vi 1945 arg/ii/50" data-src="gluchowski_img/lbr_II_50_p01.jpg" data-title="Fotografia — gen. Bór-Komorowski inspekuje polskie czołgi, parada 3. Pułku Pancernego, 15 VI 1945" data-opis="SPEKTAKULARNA FOTOGRAFIA: kolumna czołgów Cromwell (widoczny numer taktyczny &#x27;53&#x27; i rejestracja &#x27;TB47&#x27;) przejeżdża drogą wiejską w brytyjskiej prowincji (zielone pola, słup telegraficzny, pagórek w tl" onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/lbr_II_50_p01.jpg" alt="Fotografia — gen. Bór-Komorowski inspekuje polskie czołgi, parada 3. Pułku Pancernego, 15 VI 1945" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Fotografia — gen. Bór-Komorowski inspekuje polskie czołgi, parada 3. Pułku Pance</div>
-            <div class="gallery-meta">15.VI.1945 · ARG/II/50</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="wojskowe" data-dekada="1940" data-seria="II" data-search="fotografia — orkiestra dudziarska l. sprusińskiego, batalion 4. dywizji piechoty, szkocja, 1945 arg/ii/51" data-src="gluchowski_img/lbr_II_51_p01.jpg" data-title="Fotografia — orkiestra dudziarska L. Sprusińskiego, batalion 4. Dywizji Piechoty, Szkocja, 1945" data-opis="Orkiestra dudziarska maszerująca na drodze w Szkocji — 8 muzyków: 4 dudziarzy (pipers) z dudziarstwem szkockim (Great Highland Bagpipe), 2-3 doboszów (bęben wielki i werbel), prowadzeni przez Pipe Maj" onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/lbr_II_51_p01.jpg" alt="Fotografia — orkiestra dudziarska L. Sprusińskiego, batalion 4. Dywizji Piechoty, Szkocja, 1945" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Fotografia — orkiestra dudziarska L. Sprusińskiego, batalion 4. Dywizji Piechoty</div>
-            <div class="gallery-meta">1945 · ARG/II/51</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="portret" data-dekada="1940" data-seria="II" data-search="zestaw 5 fotografii gen. głuchowskiego — zjazd kawalerzystów iv.1941, powitanie gen. broniewskiego 1945, british linen bank, portret. szkocja arg/ii/52" data-src="gluchowski_img/lbr_II_52_p01.jpg" data-title="Zestaw 5 fotografii gen. Głuchowskiego — Zjazd Kawalerzystów IV.1941, powitanie gen. Broniewskiego 1945, British Linen Bank, portret. Szkocja" data-opis="Zestaw 5 fotografii dokumentujących 3 odrębne wydarzenia: (1) &#x27;Zjazd Kawalerzystów, 1941 kwiecień (początek), Szkocja&#x27; — grupa oficerów na schodach kamiennego budynku; (2) &#x27;Powitanie gen. Broniewskieg" onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/lbr_II_52_p01.jpg" alt="Zestaw 5 fotografii gen. Głuchowskiego — Zjazd Kawalerzystów IV.1941, powitanie gen. Broniewskiego 1945, British Linen Bank, portret. Szkocja" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Zestaw 5 fotografii gen. Głuchowskiego — Zjazd Kawalerzystów IV.1941, powitanie </div>
-            <div class="gallery-meta">1941–1945 · ARG/II/52</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="uroczystosc" data-dekada="1940" data-seria="II" data-search="zestaw 4 fotografii — holandia 1945, sceny z obozu polskich żołnierzy po uwolnieniu + inspekcja w szkocji. pieczęć wojskowej sekcji fotograficznej arg/ii/53" data-src="gluchowski_img/lbr_II_53_p01.jpg" data-title="Zestaw 4 fotografii — Holandia 1945, sceny z obozu polskich żołnierzy po uwolnieniu + inspekcja w Szkocji. Pieczęć Wojskowej Sekcji Fotograficznej" data-opis="Zestaw 4 fotografii: (1) Uroczystość/zabawa w obozie pod namiotem z dekoracjami świątecznymi — scena po wyzwoleniu, żołnierze przy stołach; (2) Oficerowie na scenie podczas ceremonii obozowej — mundur" onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/lbr_II_53_p01.jpg" alt="Zestaw 4 fotografii — Holandia 1945, sceny z obozu polskich żołnierzy po uwolnieniu + inspekcja w Szkocji. Pieczęć Wojskowej Sekcji Fotograficznej" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Zestaw 4 fotografii — Holandia 1945, sceny z obozu polskich żołnierzy po uwolnie</div>
-            <div class="gallery-meta">1945 · ARG/II/53</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="album" data-dekada="" data-seria="II" data-search="album &#x27;żołnierz z montecassino&#x27; z dedykacją gen. andersa dla gen. głuchowskiego — rzym 1945 arg/ii/54" data-src="gluchowski_img/lbr_II_54_p01.jpg" data-title="Album &#x27;Żołnierz z Montecassino&#x27; z DEDYKACJĄ GEN. ANDERSA dla gen. Głuchowskiego — Rzym 1945" data-opis="&#x27;ŻOŁNIERZ Z MONTECASSINO&#x27; — album fotograficzny dokumentujący bitwę o Monte Cassino (11-18.V.1944). Wydawca: Oddział Kultury i Prasy 2. Korpusu AP, Rzym 1945. Okładka: tytuł złotymi literami na tle fo" onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/lbr_II_54_p01.jpg" alt="Album &#x27;Żołnierz z Montecassino&#x27; z DEDYKACJĄ GEN. ANDERSA dla gen. Głuchowskiego — Rzym 1945" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Album &#x27;Żołnierz z Montecassino&#x27; z DEDYKACJĄ GEN. ANDERSA dla gen. Głuchowskiego </div>
-            <div class="gallery-meta">31.III.1945 · ARG/II/54</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="wojskowe" data-dekada="1940" data-seria="II" data-search="fotografia — święto łączności, obóz pod kinross (szkocja), 1945. żołnierze-motocykliści łączności w szyku arg/ii/55" data-src="gluchowski_img/lbr_II_55_p01.jpg" data-title="Fotografia — Święto Łączności, obóz pod Kinross (Szkocja), 1945. Żołnierze-motocykliści łączności w szyku" data-opis="Szpaler ok. 16 żołnierzy-motocyklistów przy motocyklach wojskowych (prawdopodobnie Norton 16H lub BSA M20), ustawionych w równej linii. Żołnierze w hełmach stalowych i battledress, stojący na baczność" onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/lbr_II_55_p01.jpg" alt="Fotografia — Święto Łączności, obóz pod Kinross (Szkocja), 1945. Żołnierze-motocykliści łączności w szyku" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Fotografia — Święto Łączności, obóz pod Kinross (Szkocja), 1945. Żołnierze-motoc</div>
-            <div class="gallery-meta">1945 · ARG/II/55</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="wojskowe" data-dekada="" data-seria="V" data-search="tablica pamiątkowa — atak na gmach gestapo 1.viii.1944, 7 p.ul. ak jeleń, 187 powstańców, 67 poległo arg/v/158" data-src="gluchowski_img/galeria/galeria_p02_img03.jpeg" data-title="Tablica pamiątkowa — atak na gmach Gestapo 1.VIII.1944, 7 p.ul. AK Jeleń, 187 powstańców, 67 poległo" data-opis="PEŁNA TRANSKRYPCJA TABLICY: &#x27;Dnia 1.8.1944 r. godz.17. / z tego domu i okolicznych / ruszyło do natarcia / na gmach Gestapo i Dom Prasy / 5 plutonów / 7 pułku ułanów AK / «JELEŃ» / z 187 Powstańców / " onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/galeria/galeria_p02_img03.jpeg" alt="Tablica pamiątkowa — atak na gmach Gestapo 1.VIII.1944, 7 p.ul. AK Jeleń, 187 powstańców, 67 poległo" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Tablica pamiątkowa — atak na gmach Gestapo 1.VIII.1944, 7 p.ul. AK Jeleń, 187 po</div>
-            <div class="gallery-meta">po 1944 · ARG/V/158</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="album" data-dekada="1920" data-seria="II" data-search="album fotograficzny — zbiórki wojskowe 1921 i dedykacja dla gen. głuchowskiego (8.iii.1944) arg/ii/57" data-src="gluchowski_img/galeria/galeria_p06_img01.jpeg" data-title="Album fotograficzny — zbiórki wojskowe 1921 i dedykacja dla gen. Głuchowskiego (8.III.1944)" data-opis="Album ofiarowany gen. Januszowi Głuchowskiemu — Dowódcy Jednostek Wojskowych w Wielkiej Brytanii — przez żołnierzy Kompanii Dozorowania z Centrum Wyszkolenia Łączności, 8 marca 1944 r. Zawiera zdjęcia" onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/galeria/galeria_p06_img01.jpeg" alt="Album fotograficzny — zbiórki wojskowe 1921 i dedykacja dla gen. Głuchowskiego (8.III.1944)" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Album fotograficzny — zbiórki wojskowe 1921 i dedykacja dla gen. Głuchowskiego (</div>
-            <div class="gallery-meta">1921 / 1944 · ARG/II/57</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="album" data-dekada="" data-seria="II" data-search="album — zdjęcia wojskowe z podpisami, manewry i ceremonie arg/ii/58" data-src="gluchowski_img/galeria/galeria_p07_img01.jpeg" data-title="Album — zdjęcia wojskowe z podpisami, manewry i ceremonie" data-opis="Rozbudowana sekcja albumu gen. Głuchowskiego — zdjęcia z manewrów wojskowych, ceremonii i życia garnizonowego z podpisami identyfikującymi osoby i wydarzenia." onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/galeria/galeria_p07_img01.jpeg" alt="Album — zdjęcia wojskowe z podpisami, manewry i ceremonie" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Album — zdjęcia wojskowe z podpisami, manewry i ceremonie</div>
-            <div class="gallery-meta">lata 20.–30. XX w. · ARG/II/58</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="album" data-dekada="" data-seria="II" data-search="album gen. głuchowskiego — strona ze zdjęciami wojskowymi (4 fotografie grupowe) arg/ii/60" data-src="gluchowski_img/galeria/galeria_p08_img02.jpeg" data-title="Album gen. Głuchowskiego — strona ze zdjęciami wojskowymi (4 fotografie grupowe)" data-opis="Strona z albumu gen. Janusza Głuchowskiego — 4 fotografie grupowe z okresu międzywojennego. Zdjęcia przedstawiają grupy żołnierzy na tle budynków koszarowych i w terenie. Podpisy białym atramentem na " onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/galeria/galeria_p08_img02.jpeg" alt="Album gen. Głuchowskiego — strona ze zdjęciami wojskowymi (4 fotografie grupowe)" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Album gen. Głuchowskiego — strona ze zdjęciami wojskowymi (4 fotografie grupowe)</div>
-            <div class="gallery-meta">lata 20.–30. XX w. · ARG/II/60</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="portret" data-dekada="" data-seria="II" data-search="portret rodzinny głuchowskich — zdjęcie studyjne, ok. 1916–1920 arg/ii/67" data-src="gluchowski_img/wa_portret_rodzinny_1920.jpeg" data-title="Portret rodzinny Głuchowskich — zdjęcie studyjne, ok. 1916–1920" data-opis="Portret rodziny Głuchowskich z okresu I wojny światowej lub bezpośrednio po. Oficer w mundurze (siedzący po lewej) — prawdopodobnie Marian Głuchowski (ojciec, Seria I) lub inny mężczyzna z rodziny w m" onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/wa_portret_rodzinny_1920.jpeg" alt="Portret rodzinny Głuchowskich — zdjęcie studyjne, ok. 1916–1920" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Portret rodzinny Głuchowskich — zdjęcie studyjne, ok. 1916–1920</div>
-            <div class="gallery-meta">ok. 1916–1920 · ARG/II/67</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="wojskowe" data-dekada="" data-seria="VI" data-search="zbiór starych fotografii z odręcznymi podpisami — sceny plenerowe arg/vi/29" data-src="gluchowski_img/stefan_021.jpeg" data-title="Zbiór starych fotografii z odręcznymi podpisami — sceny plenerowe" data-opis="Kompozycja złożona z kilku małych fotografii sepiowych i karteczek z opisami. Sceny plenerowe — osoby przy drzewach/pomnikach. Podpisy odręczne na karteczkach opisują osoby lub miejsca. Wymaga lepszeg" onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/stefan_021.jpeg" alt="Zbiór starych fotografii z odręcznymi podpisami — sceny plenerowe" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Zbiór starych fotografii z odręcznymi podpisami — sceny plenerowe</div>
-            <div class="gallery-meta">XX w. · ARG/VI/29</div>
-        </div>
-    </div>
-<div class="gallery-card" data-osoba="" data-kategoria="album" data-dekada="" data-seria="VI" data-search="strona albumu — 3 zdjęcia grobów/pomników z karteczkami opisowymi arg/vi/26" data-src="gluchowski_img/varia_002_album_groby.jpeg" data-title="Strona albumu — 3 zdjęcia grobów/pomników z karteczkami opisowymi" data-opis="Strona z albumu rodzinnego dokumentująca groby i pomniki. Trzy fotografie: krzyż/nagrobek (prawdopodobnie grób powstańczy), grób udekorowany kwiatami (prawdopodobnie pogrzeb lub rocznica), dwie osoby " onclick="openGalleryLightbox(this)">
-        <img src="gluchowski_img/varia_002_album_groby.jpeg" alt="Strona albumu — 3 zdjęcia grobów/pomników z karteczkami opisowymi" loading="lazy">
-        <div class="gallery-info">
-            <div class="gallery-title">Strona albumu — 3 zdjęcia grobów/pomników z karteczkami opisowymi</div>
-            <div class="gallery-meta">lata 40.–50. XX w. · ARG/VI/26</div>
-        </div>
-    </div>
+
+<div class="nav" id="series-nav">
+<a href="#seria-II" class="nav-link">Seria II (28)</a>
+<a href="#seria-V" class="nav-link">Seria V (2)</a>
+<a href="#seria-VI" class="nav-link">Seria VI (7)</a>
 
 </div>
+
+<section class="series" id="seria-II">
+  <div class="series-header">
+    <div class="series-num">SERIA II</div>
+    <h2 class="series-title">Gen. dyw. Janusz Julian Głuchowski (1888–1964)</h2>
+    <p class="series-desc">Siódemka Beliny (2.VIII.1914), twórca i d-ca 7 P.Uł. Lubelskich, gen. bryg. (1927), gen. dyw. (1.VI.1945), I Zastępca Ministra Spraw Wojskowych (1935-1939), Dowódca PSZ w Wielkiej Brytanii (1943-1945). OB PPS od 1905 (17 lat!), ZWC w Liège (współzałożyciel z T. Piskorem), Legiony, wojna 1920, MSWojsk, emigracja w Londynie, współzałożyciel Instytutu Piłsudskiego w Londynie (15.III.1947). Pochowany Brompton Cemetery (#576).</p>
+    <div class="series-meta">1914–1964 &middot; 33 jednostki</div>
+  </div>
+  <div class="cards-grid">
+    <div class="card" id="card-ARG-II-2">
+      <div class="card-img-wrap" data-src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p04_img02.jpeg" data-title="Fotokopia &#x27;Siódemki Beliny&#x27; z podpisami uczestników" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p04_img02.jpeg" alt="Fotokopia &#x27;Siódemki Beliny&#x27; z podpisami uczestników" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/2</div>
+        <h3 class="card-title">Fotokopia &#x27;Siódemki Beliny&#x27; z podpisami uczestników</h3>
+        <div class="card-meta-row">
+          <span class="card-date">2–3.VIII.1914</span>
+          <span class="card-type">Fotokopia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Fotokopia fotografii grupowej na papierze fotograficznym, format ok. 18×24 cm, odręczne podpisy na marginesie</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Fotokopia historycznego zdjęcia &#x27;Siódemki Beliny&#x27; — pierwszego patrolu kawaleryjskiego Legionów Polskich (2–3.VIII.1914). Podpisy uczestników: Belina-Prażmowski (ur. 1888 Ruszkowiec, zm. 1938 Wenecja), Głuchowski (ur. 1888 Bukowa, zm. 1964 Londyn), Grzmot-Skotnicki (zm. IX.1939 pod Tułowicami), Bończa-Karwacki (poległ 1916 Kostiuchnówka — pierwszy z Siódemki), Jabłoński ps. &#x27;Zdzisław&#x27; (~1896, zm. 1920 — najmłodszy, 18 lat!), Hanka-Kulesza (1892 Gandawa, zm. 5.VI.1964 Londyn — 6 dni przed Głuchowskim!), Kmicic-Skrzyński (1893 Odessa, zm. 1972 Manchester — OSTATNI żyjący z Siódemki).</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> nieznany fotograf / uczestnik patrolu</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> IKONOGRAFICZNY DOKUMENT ZAŁOŻYCIELSKI polskiej kawalerii odrodzonej. Patrol Siódemki Beliny (noc 2/3.VIII.1914) — siedmiu kawalerzystów na rozkaz Piłsudskiego przekroczyło granicę rosyjską, otwierając kampanię Legionów — pierwszy regularny oddział polski od Powstania Styczniowego 1863 r. Głuchowski był zastępcą dowódcy patrolu. Identyfikacja uczestników zweryfikowana wg źródeł IPN i jpilsudski.org.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-1" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-1')">ARG/II/1</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Średni, fotokopia wtórna</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-7">
+      <div class="card-img-wrap" data-src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p05_img03.jpeg" data-title="Fotografia z Beliną — Plac Strzelecki, Kraków, ok. 1913" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p05_img03.jpeg" alt="Fotografia z Beliną — Plac Strzelecki, Kraków, ok. 1913" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/7</div>
+        <h3 class="card-title">Fotografia z Beliną — Plac Strzelecki, Kraków, ok. 1913</h3>
+        <div class="card-meta-row">
+          <span class="card-date">ok. 1913</span>
+          <span class="card-type">Fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Fotografia czarno-biała, odbitka na papierze fotograficznym, format ok. 9×12 cm. Pięciu mężczyzn siedzących na ławce przed budynkiem z drzewami. Ubiory: mieszane cywilne i półwojskowe (czapki, marynarki). Jakość słaba — ciemna, wyblakła.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> KOREKTA: to NIE &#x27;ciemna fotografia oficerów w mundurach&#x27; z lat 30. — to prawdopodobnie fotografia z PLACU STRZELECKIEGO w Krakowie, ok. 1913! Pięciu mężczyzn na ławce. Wg PDF Katalogu Tematycznego na odwrocie napis: &#x27;Plac Strzelecki – Kraków, Stawek, Belina, bos..., ini&#x27;. BELINA-PRAŻMOWSKI (Władysław, 1888–1938) — przyszły dowódca Siódemki! Jeśli identyfikacja potwierdzona, jest to JEDYNA ZNANA FOTOGRAFIA przyszłych uczestników Siódemki PRZED wyruszeniem na front (2.VIII.1914).</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> nieznany fotograf</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> —</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Plac Strzelecki w Krakowie — historyczne centrum zbiórek strzeleckich Piłsudskiego. Jeśli odwrót zdjęcia potwierdzi identyfikację &#x27;Belina&#x27;, dokument ma WYJĄTKOWĄ wartość ikonograficzną: ci sami ludzie za kilka miesięcy przekroczą granicę jako Siódemka. Belina widnieje na WYKAZIE ze Stróży 1913 (ARG/II/6) i na fotografii Siódemki (ARG/II/2) — ta sama twarz w cywilu. WYMAGA WERYFIKACJI — odwrót zdjęcia nie jest widoczny na skanie.</div>
+        
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Słaby — ciemna, nieczytelna</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-11">
+      <div class="card-img-wrap" data-src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p06_img02.jpeg" data-title="Dyplom Krzyża Legionowego Nr 145 — widok pełny z portretem Piłsudskiego obok" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p06_img02.jpeg" alt="Dyplom Krzyża Legionowego Nr 145 — widok pełny z portretem Piłsudskiego obok" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/11</div>
+        <h3 class="card-title">Dyplom Krzyża Legionowego Nr 145 — widok pełny z portretem Piłsudskiego obok</h3>
+        <div class="card-meta-row">
+          <span class="card-date">11.VII.1925</span>
+          <span class="card-type">dyplom + fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Kompozycja dwuelementowa: po lewej dyplom Krzyża Legionowego (format ok. A4, druk ozdobny z odręcznymi wpisami), po prawej oddzielna fotografia portretowa w sepii (format ok. 10×15 cm). Fotografia przedstawia oficera w pełnym mundurze galowym z orderami i szablą — najprawdopodobniej Marszałek Józef Piłsudski. Dyplom z wizerunkiem Krzyża Legionowego u góry, poniżej tekst nadania.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Pełny widok dyplomu Krzyża Legionowego Nr 145 dla płk. Głuchowskiego Janusza z 1.p.uł., nadanego 11.VII.1925 na podstawie uchwały II Zjazdu Legionistów. Obok dyplomu leży oddzielna fotografia portretowa w sepii — mężczyzna w mundurze galowym z orderami i szablą (najprawdopodobniej Józef Piłsudski lub sam Janusz Głuchowski w galowym mundurze pułkownika).</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> II Zjazd Legionistów / Komisja Kwalifikacyjna</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Widok pełny dyplomu z ARG/II/10 wraz z portretem. Zestawienie dyplomu legionowego z portretem Piłsudskiego — układ typowy dla pamiątek kombatanckich. Krzyż Legionowy Nr 145 potwierdza udział Janusza w Legionach (Siódemka Beliny, 1914). Portret obok dyplomu to prawdopodobnie sam Piłsudski — patron Legionów i sygnatariusz dyplomu.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-10" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-10')">ARG/II/10</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-22">
+      <div class="card-img-wrap" data-src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p13_img01.jpeg" data-title="Fotokopia prasowa — Śmigły-Rydz wręcza sztandar 17 P.Uł." onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p13_img01.jpeg" alt="Fotokopia prasowa — Śmigły-Rydz wręcza sztandar 17 P.Uł." loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/22</div>
+        <h3 class="card-title">Fotokopia prasowa — Śmigły-Rydz wręcza sztandar 17 P.Uł.</h3>
+        <div class="card-meta-row">
+          <span class="card-date">ok. 1937</span>
+          <span class="card-type">Fotokopia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Fotokopia zdjęcia prasowego, format ok. 18×12 cm, podpisy odręczne na marginesie</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Marszałek Edward Śmigły-Rydz wręcza sztandar 17 Pułku Ułanów Wielkopolskich. Podpisy: d-ca Brygady gen. Janusz Głuchowski, gen. Roman Abraham, gen. Knoll-Kownacki, płk Kowalczewski.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> fotoreporter prasowy</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Ceremonia wojskowa najwyższej rangi — wręczenie sztandaru przez Naczelnego Wodza. Głuchowski jako dowódca Brygady Kawalerii.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-14" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-14')">ARG/II/14</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Średni — fotokopia</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-23">
+      <div class="card-img-wrap" data-src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p13_img02.jpeg" data-title="Portret gen. Janusza Głuchowskiego w mundurze galowym" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p13_img02.jpeg" alt="Portret gen. Janusza Głuchowskiego w mundurze galowym" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/23</div>
+        <h3 class="card-title">Portret gen. Janusza Głuchowskiego w mundurze galowym</h3>
+        <div class="card-meta-row">
+          <span class="card-date">lata 30. XX w.</span>
+          <span class="card-type">Fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Fotografia portretowa studyjna, czarno-biała, odbitka na papierze fotograficznym</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Portret fotograficzny gen. Janusza Głuchowskiego w mundurze galowym z orderami i epoletami. Zdjęcie studyjne. Jedyne zdjęcie portretowe generała w kolekcji.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> atelier fotograficzne (nieznane)</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> —</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Portret oficjalny generała II RP. Widoczne ordery pozwalają na identyfikację: Virtuti Militari (V kl.), Krzyż Niepodległości z Mieczami, Order Odrodzenia Polski, Krzyż Walecznych (4x), Order Korony Rumuńskiej. Na portrecie w mundurze wz.36 z gwiazdkami generalskimi.</div>
+        
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-37">
+      <div class="card-img-wrap" data-src="gluchowski_img/lbr_II_37_p01.jpg" data-title="Zestaw fotograficzny — Mauzoleum Woli, Pole Mokotowskie, Al. Szucha — podróż pamięci gen. Głuchowskiego" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/lbr_II_37_p01.jpg" alt="Zestaw fotograficzny — Mauzoleum Woli, Pole Mokotowskie, Al. Szucha — podróż pamięci gen. Głuchowskiego" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/37</div>
+        <h3 class="card-title">Zestaw fotograficzny — Mauzoleum Woli, Pole Mokotowskie, Al. Szucha — podróż pamięci gen. Głuchowskiego</h3>
+        <div class="card-meta-row">
+          <span class="card-date">lata 50.–60. XX w.</span>
+          <span class="card-type">fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Dwie strony albumu z oryginalnymi fotografiami czarno-białymi, z maszynowymi podpisami. 5 zdjęć.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> DOKUMENTACJA FOTOGRAFICZNA ZBIÓRKI ZIEMI z trzech miejsc martyrologii Warszawy. 5 fotografii na dwóch stronach albumu z MASZYNOWYMI PODPISAMI identyfikującymi: (1) MAUZOLEUM-CMENTARZ NA WOLI — &#x27;grób [Maksymiliana?] Gall Hauser&#x27;. &#x27;Ziemię pobierają: Stanisław Smrtel elb(?), Zofia Topczyńska «Władka», Stanisław Korman&#x27;. (2) AL. SZUCHA — &#x27;krypta... Warszawa trzeba powstać nie pokażemy szlachetności... Ilustrowaną Gazetą Smieci «Mazurstanową»&#x27; — zbiórka ziemi z krypty pod siedzibą Gestapo. (3) POLE MOKOTOWSKIE — &#x27;Urynki ziemię postacie to Bromu Wielkopolskim mimo «Pruni»&#x27;. Osoby widoczne na zdjęciach: kobiety i mężczyźni z naczyniami do zbierania ziemi, na tle pomników i tablic pamiątkowych.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> nieznany fotograf / uczestnicy ceremonii</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> SAKRALNY RYTUAŁ EMIGRACYJNY — zbieranie ziemi z miejsc pamięci do przewiezienia na emigrację było głęboko zakorzenioną tradycją polską (por. urna z ziemią polską w Instytucie Sikorskiego w Londynie). TRZY MIEJSCA: (1) WOLA — miejsce RZEŹI WOLI (5-12.VIII.1944), gdzie Niemcy wymordowali ok. 40 000-50 000 cywilów, największa jednorazowa masakra Powstania. (2) AL. SZUCHA — siedziba Gestapo w Warszawie, miejsce tortur i przesłuchań, symbol terroru. (3) POLE MOKOTOWSKIE — miejsce rozstrzeliwań i walk powstańczych. Osoby wymienione z pseudonimami (Zofia Topczyńska &#x27;Władka&#x27;) — to TOWARZYSZE BRONI Krzysztofa z Plutonu 1112! Gen. Głuchowski dokumentował te miejsca pamięci z Londynu — łącząc Serię II z Serią V.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-40" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-40')">ARG/II/40</a>, <a href="#card-ARG-V-9" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-9')">ARG/V/9</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-38">
+      <div class="card-img-wrap" data-src="gluchowski_img/lbr_II_38_p01.jpg" data-title="Fotografia — gen. Głuchowski wręcza odznaczenia żołnierzom, Szkocja 1941" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/lbr_II_38_p01.jpg" alt="Fotografia — gen. Głuchowski wręcza odznaczenia żołnierzom, Szkocja 1941" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/38</div>
+        <h3 class="card-title">Fotografia — gen. Głuchowski wręcza odznaczenia żołnierzom, Szkocja 1941</h3>
+        <div class="card-meta-row">
+          <span class="card-date">1941</span>
+          <span class="card-type">fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Fotografia czarno-biała, z kolekcji osobistej gen. Głuchowskiego. 2 zdjęcia.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Gen. Głuchowski podczas przeglądu i uroczystego wręczania odznaczeń szeregowym oficerów i kadetów Wojska Polskiego na emigracji w Szkocji, 1941.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> fotograf wojskowy</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> n/a</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Głuchowski jako Zastępca Dowódcy Armii Polskiej w Szkocji odpowiadał za morale i ceremoniał. Szkocja 1941 — okres organizacji polskich sił zbrojnych na Zachodzie po klęsce Francji (1940).</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-39" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-39')">ARG/II/39</a>, <a href="#card-ARG-II-47" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-47')">ARG/II/47</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-39">
+      <div class="card-img-wrap" data-src="gluchowski_img/lbr_II_39_p01.jpg" data-title="Fotografia — gen. Głuchowski wśród oficerów polskich, Podchorążówka, Szkocja" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/lbr_II_39_p01.jpg" alt="Fotografia — gen. Głuchowski wśród oficerów polskich, Podchorążówka, Szkocja" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/39</div>
+        <h3 class="card-title">Fotografia — gen. Głuchowski wśród oficerów polskich, Podchorążówka, Szkocja</h3>
+        <div class="card-meta-row">
+          <span class="card-date">lata 40. XX w.</span>
+          <span class="card-type">fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Oryginalna fotografia wielkoformatowa (ok. 30×20 cm), czarno-biała, profesjonalna. Około 100-120 osób w 6-7 rzędach. Pierwszy rząd siedzi, pozostałe stoją. Oficerowie w mundurach wyjściowych z czapkami garnizonowymi w pierwszym rzędzie, reszta w battledress. Tło: szare niebo, zarys budynku. 2 zdjęcia (awers + rewers/zbliżenie).</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> ZDJĘCIE GRUPOWE PODCHORĄŻÓWKI — ok. 120 polskich oficerów i podchorążych w Szkocji. W pierwszym rzędzie (siedzącym): generałowie i wyżsi oficerowie w mundurach garnizonowych z czapkami — w centrum prawdopodobnie gen. bryg. Głuchowski jako Dowódca Brygady Szkolnej. Pozostali w battledress — podchorążowie i kadra instruktorska. Skala zdjęcia wskazuje na PEŁNY ROCZNIK Szkoły Podchorążych. Lokalizacja: prawdopodobnie Freuchie, Fife (por. ARG/II/47).</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> fotograf wojskowy</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> n/a</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> SZKOŁA PODCHORĄŻYCH PSZ na emigracji w Szkocji (Fife) — kształciła nowe kadry oficerskie na potrzeby planowanego powrotu Wojska Polskiego do walki. Gen. Głuchowski jako Dowódca Brygady Szkolnej (1941-1943) nadzorował szkolenie. Zdjęcie pełnego rocznika — ok. 120 osób — dokumentuje skalę polskiego wysiłku szkoleniowego na emigracji. Po wojnie wielu z tych podchorążych emigrowało do Kanady, USA, Australii i Argentyny.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-38" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-38')">ARG/II/38</a>, <a href="#card-ARG-II-47" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-47')">ARG/II/47</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-40">
+      <div class="card-img-wrap" data-src="gluchowski_img/lbr_II_40_p01.jpg" data-title="Zestaw fotograficzny — restauracja grobu powstańczego, Jele, AK 1944" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/lbr_II_40_p01.jpg" alt="Zestaw fotograficzny — restauracja grobu powstańczego, Jele, AK 1944" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/40</div>
+        <h3 class="card-title">Zestaw fotograficzny — restauracja grobu powstańczego, Jele, AK 1944</h3>
+        <div class="card-meta-row">
+          <span class="card-date">lata 50.–60. XX w.</span>
+          <span class="card-type">fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Strona albumu na szarym kartonie z TRZEMA fotografiami czarno-białymi i szczegółowymi podpisami maszynowymi. Dwie fotografie po lewej (pionowe), jedna po prawej (pozioma). Podpisy maszynowe — jeden u góry, jeden na dole po prawej. Format A4.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> DOKUMENTACJA REKONSTRUKCJI GROBU 7 P.UŁ. &#x27;JELEŃ&#x27; AK. Podpis u góry: &#x27;1 sierpnia 1960 roku. Pierwsze stadium prac. Dolnej płyty nie widać, ale jest [liczy?] z wykutym napisem, tylko jeszcze nie pomalowanym... chodzi aby nie różnić się od całości.&#x27; KLUCZOWA INSKRYPCJA NA GROBIE: &#x27;A.K. / DYWIZJON WARSZAWSKI / JELEŃ / POWSTANIE 1944&#x27;. Trzy fotografie: (1) Grób z kwiatami i wieńcami, widoczna tablica z napisem &#x27;JELEŃ&#x27;. (2) Zbliżenie na tablicę &#x27;A.K. / DYWIZJON WARSZAWSKI / JELEŃ / POWSTANIE 1944&#x27;. (3) Drugi ujęcie z prawej — tabliczka przeniesiona z Wilanowa. Podpis na dole: &#x27;Tabliczka przeniesiona z Wilanowa, gdzie już na indywidualnym nagrobku... proporzyk jest tynkowany, grzebany oręż haftowany siostry.&#x27;</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> nieznany fotograf / rodzina</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> ODKRYCIE KLUCZOWE! Napis &#x27;A.K. / DYWIZJON WARSZAWSKI / JELEŃ / POWSTANIE 1944&#x27; to GRÓB JEDNOSTKI KRZYSZTOFA — 7 Pułku Ułanów Lubelskich AK &#x27;Jeleń&#x27;! Data: 1.VIII.1960 = 16. rocznica wybuchu Powstania Warszawskiego. Gen. Janusz (stryj) dokumentował prace restauracyjne grobu, w którym leżeli towarzysze broni jego bratanka Krzysztofa z Plutonu 1112. &#x27;Tabliczka przeniesiona z Wilanowa&#x27; — grób lub pomnik wcześniej istniał w innym miejscu. &#x27;Proporzyk tynkowany&#x27; — proporzec pułkowy wmurowany w nagrobek. Dokument łączy Serię II (gen. Janusz) z Serią V (Krzysztof) — stryj opiekował się grobem bratanka&#x27;s bojowych kolegów.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-37" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-37')">ARG/II/37</a>, <a href="#card-ARG-II-41" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-41')">ARG/II/41</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-41">
+      <div class="card-img-wrap" data-src="gluchowski_img/lbr_II_41_p01.jpg" data-title="Album pamięci PLUTONU 1112 — groby powstańców AK, wizyta 14.VIII.1960" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/lbr_II_41_p01.jpg" alt="Album pamięci PLUTONU 1112 — groby powstańców AK, wizyta 14.VIII.1960" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/41</div>
+        <h3 class="card-title">Album pamięci PLUTONU 1112 — groby powstańców AK, wizyta 14.VIII.1960</h3>
+        <div class="card-meta-row">
+          <span class="card-date">14.VIII.1960</span>
+          <span class="card-type">album fotograficzny</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Strona albumu na szarym kartonie z TRZEMA fotografiami czarno-białymi (format ok. 6×9 cm każda) i szczegółowymi podpisami maszynowymi pod każdym zdjęciem.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> TRZY FOTOGRAFIE z wizytacji grobów powstańczych 14.VIII.1960: (1) Grupa przy grobie z kwiatami — podpis identyfikuje: &#x27;Stoją: p. Zofia kuzynka, cpl. Kuleszy sanitariuszka z p. Starysła, p. Lebieszowa matka Kobryskiego, Zofia Kopczyńska «Władka», Józef Palecki «Ziuk», PLUTON 1112.&#x27; (2) Kobiety przy tablicy &#x27;A.K. [...] POWSTANIE 1944&#x27;. (3) Płyta nagrobna: &#x27;A. WIELZA / OKUPACJA 1939–1944, POWSTANIE&#x27; z wyrytymi symbolami: praporczyk V.K., rys. JELENIA i KOTWICA. Podpis: &#x27;14.8.1960r. Stoją: Zofia Kopczyńska «Władka», p. Emil Hause ojciec «Ostrowskiego», p. Świejkowska sanitariuszka «Kodzpk» — Osiecczna z 1112 plutonu.&#x27;</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> nieznany fotograf / uczestnicy wizytacji</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> KLUCZOWY DOKUMENT POWIĄZANY Z KRZYSZTOFEM! PLUTON 1112 = jednostka Krzysztofa w AK (por. ARG/III/7 z napisem &#x27;Juraś / Nr 1112 / Jeleń&#x27;). Zidentyfikowani towarzysze broni: Zofia Kopczyńska ps. &#x27;Władka&#x27;, Józef Palecki ps. &#x27;Ziuk&#x27;, cpl. Kuleszy (sanitariuszka). Symbol JELENIA na grobie = 7 Pułk Ułanów Lubelskich — potwierdza przynależność unitarną. &#x27;Kobryński&#x27; i &#x27;Ostrowski&#x27; — pseudonimy poległych powstańców z plutonu 1112. Emil Hause = ojciec poległego &#x27;Ostrowskiego&#x27;. Wizyta w 1960 r. — 16 lat po Powstaniu. DLACZEGO W SERII II (gen. Janusza)? Prawdopodobnie Krzysztof przesłał te zdjęcia stryjowi do Londynu. Powinno być powiązane z Serią V.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-37" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-37')">ARG/II/37</a>, <a href="#card-ARG-II-40" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-40')">ARG/II/40</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-42">
+      <div class="card-img-wrap" data-src="gluchowski_img/lbr_II_42_p01.jpg" data-title="Fotografia — gen. Głuchowski podczas inspekcji oddziału polskich oficerów na emigracji" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/lbr_II_42_p01.jpg" alt="Fotografia — gen. Głuchowski podczas inspekcji oddziału polskich oficerów na emigracji" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/42</div>
+        <h3 class="card-title">Fotografia — gen. Głuchowski podczas inspekcji oddziału polskich oficerów na emigracji</h3>
+        <div class="card-meta-row">
+          <span class="card-date">lata 40. XX w.</span>
+          <span class="card-type">fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Oryginalna fotografia z epoki, czarno-biała. 2 zdjęcia.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Gen. Głuchowski (w mundurze z orderami, stojący na prawo od centrum) podczas formalnej inspekcji szeregu polskich oficerów na emigracji. Tło: trawnik, drzewa — typowy brytyjski/szkocki krajobraz. Oficerowie stoją w szyku, Głuchowski przegląda ich w towarzystwie drugiego oficera. Zdjęcie profesjonalne, dobrze naświetlone.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> fotograf wojskowy</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> n/a</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Inspekcje oddziałów — podstawowa funkcja dowódcza Głuchowskiego jako Zastępcy Dowódcy Armii Polskiej. Zdjęcia z inspekcji dokumentują hierarchię i ceremoniał Wojska Polskiego na Uchodźstwie.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-38" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-38')">ARG/II/38</a>, <a href="#card-ARG-II-43" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-43')">ARG/II/43</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-43">
+      <div class="card-img-wrap" data-src="gluchowski_img/lbr_II_43_p01.jpg" data-title="Gen. Głuchowski z brytyjskim Lord Provostem i polskim dygnitarzem — Szkocja" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/lbr_II_43_p01.jpg" alt="Gen. Głuchowski z brytyjskim Lord Provostem i polskim dygnitarzem — Szkocja" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/43</div>
+        <h3 class="card-title">Gen. Głuchowski z brytyjskim Lord Provostem i polskim dygnitarzem — Szkocja</h3>
+        <div class="card-meta-row">
+          <span class="card-date">lata 40. XX w.</span>
+          <span class="card-type">fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Fotografia czarno-biała, profesjonalna, format ok. 18×24 cm. Czterech mężczyzn przed kamiennym budynkiem (architektura szkocka/gotycka).</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Czterech mężczyzn na tle kamiennego budynku (architektura gotycka): (1) Z lewej: generał w polskim mundurze z orderami na piersi (prawdopodobnie Głuchowski). (2) Wysoki mężczyzna w ciemnym garniturze cywilnym — prawdopodobnie polski dygnitarz cywilny lub Prezydent RP na Uchodźstwie. (3) Oficer w mundurze brytyjskim. (4) Z prawej: mężczyzna w ceremonialnym stroju z łańcuchem urzędowym na szyi — Lord Provost (odpowiednik burmistrza w Szkocji). Na VERSO: stempel &#x27;WOJSKOWA SŁUŻBA FOTOGRAFICZNA / POLISH ARMY FILM UNIT / Foto Service&#x27; — oficjalna fotografia Wojskowej Służby Fotograficznej PSZ, ta sama jednostka co na zdjęciach z Dundee (ARG/II/44-45).</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Wojskowa Służba Fotograficzna / Polish Army Film Unit</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> n/a</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Polskie Siły Zbrojne stacjonowały w Szkocji od 1940 r. — gen. Głuchowski utrzymywał kontakty z lokalnymi władzami brytyjskimi. Lord Provost w pełnym ceremoniale (łańcuch urzędowy) sugeruje oficjalną wizytę państwową. Budynek kamienny o architekturze gotyckiej — prawdopodobnie ratusz (City Chambers) w Dundee, Perth lub Edynburgu. WYMAGA IDENTYFIKACJI osób i miejsca.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-42" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-42')">ARG/II/42</a>, <a href="#card-ARG-II-47" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-47')">ARG/II/47</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-44">
+      <div class="card-img-wrap" data-src="gluchowski_img/lbr_II_44_p01.jpg" data-title="Fotografia — Zjazd Harcerzy w Dundee (Szkocja), 6 marca 1945. Fot. Wł. Przytyś" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/lbr_II_44_p01.jpg" alt="Fotografia — Zjazd Harcerzy w Dundee (Szkocja), 6 marca 1945. Fot. Wł. Przytyś" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/44</div>
+        <h3 class="card-title">Fotografia — Zjazd Harcerzy w Dundee (Szkocja), 6 marca 1945. Fot. Wł. Przytyś</h3>
+        <div class="card-meta-row">
+          <span class="card-date">6.III.1945</span>
+          <span class="card-type">fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Czarno-biała fotografia 11,5 × 8,5 cm. Na odwrocie: stempel CZOŁÓWKI FILMOWO-FOTOGRAFICZNEJ DOWÓDZTWA JEDNOSTEK WOJSK W WIELKIEJ BRYTANJI, pieczęć &#x27;FOT. WŁ. PRZYTYŚ&#x27;, odręczne adnotacje. Pieczęć Kolekcji Głuchowskich. 2 zdjęcia (awers + rewers).</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Trzech polskich oficerów przed wejściem do budynku z tablicą &#x27;Prices of ADMISSION&#x27; (Lounge or Balcony 1/9, One Block 1/6, Stalls 1/-, Pit 6d) — kino lub teatr w Dundee wynajęty na Zjazd Harcerzy. Generał w środku (w płaszczu z orderami) flankowany przez dwóch młodszych oficerów w battledress. Na VERSO PEŁNA ADNOTACJA: &#x27;Zjazd Harcerzy (T[owarzystwo] św[iętego?]) w Dundee / bez mjra Grażyńskiego (mała obrażony(?))&#x27; — następnie: &#x27;(Olenyak 80)&#x27; — i: &#x27;ja, ppor. zastępca przew. Harcerstwo z Londynu&#x27;. Na dole: &#x27;Pierwszy od prawej ppłk. m. Kazimierz Sossay(?)&#x27;, data &#x27;6.3.1945&#x27;. Stempel: CZOŁÓWKA FILMOWO-FOTOGRAFICZNA DOWÓDZTWA JEDNOSTEK WOJSK W WIELKIEJ BRYTANJI, FOT. WŁ. PRZYTYŚ, pieczęć okrągła Kolekcji Głuchowskich.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Wł. Przytyś, Czołówka Filmowo-Fotograficzna Dowództwa Jednostek Wojsk w Wielkiej Brytanii</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Zjazd Harcerzy polskich w Dundee, 6 marca 1945 — ostatnie miesiące wojny. Harcerstwo polskie na emigracji w Szkocji było kluczowym elementem wychowania patriotycznego. Adnotacja &#x27;bez mjra Grażyńskiego (mała obsesja)&#x27; sugeruje powtarzające się nieobecności tej osoby na zjazdach. Autor zdjęcia Wł. Przytyś pracował w oficjalnej Czołówce Filmowo-Fotograficznej Dowództwa — jednostce dokumentującej życie Wojska Polskiego w Wielkiej Brytanii. Ppłk Kazimierz Szeszy zidentyfikowany jako &#x27;pierwszy od prawej&#x27;.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-45" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-45')">ARG/II/45</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-45">
+      <div class="card-img-wrap" data-src="gluchowski_img/lbr_II_45_p01.jpg" data-title="Fotografia — Zjazd Harcerzy w Dundee (Szkocja), 6 marca 1945 — zdjęcie grupowe. Fot. Wł. Przytyś" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/lbr_II_45_p01.jpg" alt="Fotografia — Zjazd Harcerzy w Dundee (Szkocja), 6 marca 1945 — zdjęcie grupowe. Fot. Wł. Przytyś" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/45</div>
+        <h3 class="card-title">Fotografia — Zjazd Harcerzy w Dundee (Szkocja), 6 marca 1945 — zdjęcie grupowe. Fot. Wł. Przytyś</h3>
+        <div class="card-meta-row">
+          <span class="card-date">6.III.1945</span>
+          <span class="card-type">fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Czarno-biała fotografia 11,5 × 8,5 cm. Na odwrocie: stempel CZOŁÓWKI FILMOWO-FOTOGRAFICZNEJ DOWÓDZTWA JEDNOSTEK WOJSK W WIELKIEJ BRYTANJI, pieczęć &#x27;FOT. WŁ. PRZYTYŚ&#x27;, odręczna adnotacja &#x27;Zjazd Harcerzy 6.III (Marzec) 1945 / Dundee&#x27;. 3 zdjęcia (awers + rewers + zbliżenie).</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Duże zdjęcie grupowe na schodach budynku — kilkudziesięciu polskich oficerów i żołnierzy zebranych na Zjeździe Harcerzy w Dundee. W pierwszym rzędzie generałowie w mundurach wyjściowych, w tym gen. Głuchowski w płaszczu. Za nimi kilka rzędów oficerów w battledress. Zdjęcie oficjalne, pozowane.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Wł. Przytyś, Czołówka Filmowo-Fotograficzna Dowództwa Jednostek Wojsk w Wielkiej Brytanii</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Ten sam Zjazd Harcerzy co ARG/II/44 — drugie ujęcie: zdjęcie grupowe na schodach. Obecność generałów i wyższych oficerów na zjeździe harcerskim świadczy o randze, jaką polskie dowództwo wojskowe na emigracji nadawało wychowaniu młodzieży. Dundee — jedno z głównych skupisk Polaków w Szkocji. Oficjalna dokumentacja przez Czołówkę Filmowo-Fotograficzną potwierdza znaczenie wydarzenia.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-44" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-44')">ARG/II/44</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-46">
+      <div class="card-img-wrap" data-src="gluchowski_img/lbr_II_46_p01.jpg" data-title="Fotografia portretowa — mężczyzna w ubraniu cywilnym na tle szkockiej architektury (identyfikowany jako Kazimierz Gedymin Jurgielewicz, 1891–1956)" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/lbr_II_46_p01.jpg" alt="Fotografia portretowa — mężczyzna w ubraniu cywilnym na tle szkockiej architektury (identyfikowany jako Kazimierz Gedymin Jurgielewicz, 1891–1956)" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/46</div>
+        <h3 class="card-title">Fotografia portretowa — mężczyzna w ubraniu cywilnym na tle szkockiej architektury (identyfikowany jako Kazimierz Gedymin Jurgielewicz, 1891–1956)</h3>
+        <div class="card-meta-row">
+          <span class="card-date">lata 40. XX w.</span>
+          <span class="card-type">fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Fotografia portretowa czarno-biała, ok. 7,5 × 5,5 cm. Odręczne oznaczenie ołówkiem na odwrocie (niedostępne w skanie). 1 zdjęcie (tylko awers).</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Portret mężczyzny w cywilnym ubraniu (garnitur w jodełkę lub tweed, kamizelka, krawat, poszetka w kieszonce) na tle kamiennych budynków w typowej szkockiej architekturze (Edynburg?). Mężczyzna w wieku ok. 45-55 lat, z wąsem, włosy zaczesane do tyłu. Pewna poza, elegancki wygląd — prawdopodobnie fotografowany w czasie wolnym od służby. Identyfikacja jako Kazimierz Gedymin Jurgielewicz pochodzi z odręcznej adnotacji na odwrocie (rewers niedostępny w digitalizacji).</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> fotograf nieznany</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> n/a</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Kazimierz Gedymin Jurgielewicz (1891–1956) — oficer Wojska Polskiego. Cywilne ubranie sugeruje okres pozasłużbowy lub powojenną demobilizację. Zachowanie portretu w archiwum gen. Głuchowskiego świadczy o bliskiej relacji — prawdopodobnie współpraca w Brygadzie Szkolnej lub dowództwie jednostek w Szkocji (por. ARG/II/47 — Freuchie, Kurs Unitarny). Szkockie tło architektoniczne potwierdza lokalizację w Wielkiej Brytanii.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-47" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-47')">ARG/II/47</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-47">
+      <div class="card-img-wrap" data-src="gluchowski_img/lbr_II_47_p01.jpg" data-title="Fotografia dedykacyjna z Freuchie (Szkocja) — uczniowie Kursu Unitarnego dla gen. bryg. Głuchowskiego Janusza, Dowódcy Brygady Szkolnej, 23.V.1942" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/lbr_II_47_p01.jpg" alt="Fotografia dedykacyjna z Freuchie (Szkocja) — uczniowie Kursu Unitarnego dla gen. bryg. Głuchowskiego Janusza, Dowódcy Brygady Szkolnej, 23.V.1942" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/47</div>
+        <h3 class="card-title">Fotografia dedykacyjna z Freuchie (Szkocja) — uczniowie Kursu Unitarnego dla gen. bryg. Głuchowskiego Janusza, Dowódcy Brygady Szkolnej, 23.V.1942</h3>
+        <div class="card-meta-row">
+          <span class="card-date">23.V.1942</span>
+          <span class="card-type">fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Fotografia czarno-biała naklejona na tekturę, ok. 14 × 9 cm z szerokim marginesem. Na marginesie odręczna dedykacja kaligraficzna. U góry po bokach: &#x27;Szkocja —&#x27; i &#x27;— Freuchie&#x27;. Pod zdjęciem: &#x27;Swemu Dcy Brygady Szkolnej P.Gen.bryg. Głuchowskiemu Januszowi — uczniowie Kursu Unitarnego — 23.V.1942.&#x27; Na odwrocie ok. 28 podpisów oficerów-uczniów kursu. 4 zdjęcia (awers, zbliżenie zdjęcia, zbliżenie dedykacji, odwrocie z podpisami).</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Zdjęcie grupowe ok. 28 polskich oficerów w battledress, w plenerze (trawnik, drzewa w tle), pozujących w trzech rzędach — klęczący, siedzący, stojący. Jeden oficer trzyma akordeon. Zdjęcie z dedykacją kaligraficzną: &#x27;Swemu Dcy Brygady Szkolnej P.Gen.bryg. Głuchowskiemu Januszowi — uczniowie Kursu Unitarnego — 23.V.1942.&#x27; Lokalizacja: Freuchie, Szkocja. Na odwrocie ok. 28 podpisów uczestników kursu (trudne do odczytania ze względu na zachodzące na siebie podpisy).</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> fotograf wojskowy (nieznany)</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> KLUCZOWY DOKUMENT. Freuchie — wieś w Fife (Szkocja), siedziba polskich jednostek szkoleniowych. Gen. bryg. Janusz Głuchowski pełnił funkcję Dowódcy Brygady Szkolnej (Training Brigade) — potwierdzone tą dedykacją. Kurs Unitarny (Unitary Course) — szkolenie oficerskie unifikujące wiedzę z różnych formacji. 28 podpisów na odwrocie to dokument personalny pozwalający zidentyfikować kadrę oficerską kursu. Dedykacja &#x27;Swemu Dcy&#x27; (swojemu dowódcy) świadczy o szacunku i więzi uczniów z generałem. Maj 1942 — okres intensywnego szkolenia WP w Szkocji, przed planowaną inwazją na kontynent. Freuchie jako lokalizacja szkoleniowa — mało znana w historiografii.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-38" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-38')">ARG/II/38</a>, <a href="#card-ARG-II-39" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-39')">ARG/II/39</a>, <a href="#card-ARG-II-46" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-46')">ARG/II/46</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-48">
+      <div class="card-img-wrap" data-src="gluchowski_img/lbr_II_48_p01.jpg" data-title="Fotografia — inspekcja polskich czołgistów w szkoleniu, Szkocja, lata 40." onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/lbr_II_48_p01.jpg" alt="Fotografia — inspekcja polskich czołgistów w szkoleniu, Szkocja, lata 40." loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/48</div>
+        <h3 class="card-title">Fotografia — inspekcja polskich czołgistów w szkoleniu, Szkocja, lata 40.</h3>
+        <div class="card-meta-row">
+          <span class="card-date">ok. 1943–1945</span>
+          <span class="card-type">fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Czarno-biała fotografia, formacja pancerna na polu treningowym. 3 zdjęcia.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Gen. Głuchowski dokonuje inspekcji polskiej formacji pancernej na poligonie szkoleniowym. Żołnierze w battledress stoją na baczność w szyku przed ciężkimi czołgami (prawdopodobnie Churchill lub Cromwell). Teren piaszczysty/gliniany — poligon ćwiczebny. Oficer salutujący po lewej stronie, dowódca-inspektor w płaszczu przechodzi przed frontem. W tle gąsienice i kadłuby kolejnych czołgów — sugeruje pełną kompanię lub batalion pancerny.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> fotograf wojskowy</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> n/a</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Szkolenie polskich jednostek pancernych w Szkocji — przygotowania do inwazji na kontynent. 1. Dywizja Pancerna gen. Maczka szkoliła się w Szkocji 1942-1944. Głuchowski jako wysoki dowódca wizytował szkolenia.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-34" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-34')">ARG/II/34</a>, <a href="#card-ARG-II-49" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-49')">ARG/II/49</a>, <a href="#card-ARG-II-50" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-50')">ARG/II/50</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-49">
+      <div class="card-img-wrap" data-src="gluchowski_img/lbr_II_49_p01.jpg" data-title="Fotografia — inspekcja wojskowa w Kelso (Szkocja), gen. Bór-Komorowski, Głuchowski i Mazur, 15 VI 1945" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/lbr_II_49_p01.jpg" alt="Fotografia — inspekcja wojskowa w Kelso (Szkocja), gen. Bór-Komorowski, Głuchowski i Mazur, 15 VI 1945" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/49</div>
+        <h3 class="card-title">Fotografia — inspekcja wojskowa w Kelso (Szkocja), gen. Bór-Komorowski, Głuchowski i Mazur, 15 VI 1945</h3>
+        <div class="card-meta-row">
+          <span class="card-date">15.VI.1945</span>
+          <span class="card-type">fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Czarno-biała fotografia z datą 15 czerwca 1945, inspekcja w Kelso. 3 zdjęcia.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Inspekcja wojskowa przed paradą pułku w Kelso (Szkocja). Na zdjęciu: gen. Tadeusz Bór-Komorowski (Naczelny Wódz), gen. Głuchowski i gen. Mazur.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> fotograf wojskowy</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> n/a</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> 15 czerwca 1945 — dwa tygodnie po mianowaniu Głuchowskiego na gen. dywizji (1.VI.1945). Bór-Komorowski jako Naczelny Wódz (od XI 1944) dokonuje inspekcji. Kelso — baza polskich jednostek w Szkocji. Zdjęcie trzech generałów razem — wysokiej rangi dokument historyczny.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-50" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-50')">ARG/II/50</a>, <a href="#card-ARG-II-48" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-48')">ARG/II/48</a>, <a href="#card-ARG-II-34" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-34')">ARG/II/34</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-50">
+      <div class="card-img-wrap" data-src="gluchowski_img/lbr_II_50_p01.jpg" data-title="Fotografia — gen. Bór-Komorowski inspekuje polskie czołgi, parada 3. Pułku Pancernego, 15 VI 1945" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/lbr_II_50_p01.jpg" alt="Fotografia — gen. Bór-Komorowski inspekuje polskie czołgi, parada 3. Pułku Pancernego, 15 VI 1945" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/50</div>
+        <h3 class="card-title">Fotografia — gen. Bór-Komorowski inspekuje polskie czołgi, parada 3. Pułku Pancernego, 15 VI 1945</h3>
+        <div class="card-meta-row">
+          <span class="card-date">15.VI.1945</span>
+          <span class="card-type">fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Czarno-biała fotografia, zmotoryzowana parada polskich czołgów Cromwell. 3 zdjęcia.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> SPEKTAKULARNA FOTOGRAFIA: kolumna czołgów Cromwell (widoczny numer taktyczny &#x27;53&#x27; i rejestracja &#x27;TB47&#x27;) przejeżdża drogą wiejską w brytyjskiej prowincji (zielone pola, słup telegraficzny, pagórek w tle). Po lewej stronie drogi: generałowie i oficerowie obserwują paradę zza kamiennego murku, w tle sztandar z Orłem Polskim. Pierwszy czołg prowadzi kolumnę — za nim widoczne kolejne 3-4 maszyny. Żołnierze w czołgach wyglądają z wież. Ta sama uroczystość co ARG/II/49 — inspekcja w Kelso, 15 czerwca 1945.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> fotograf wojskowy</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> n/a</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Czołgi Cromwell — podstawowe uzbrojenie polskich jednostek pancernych w 1945. Parada 3. Pułku Pancernego w obecności Naczelnego Wodza to uroczysta demonstracja gotowości bojowej. Jednocześnie — symbolicznie — koniec wojny i początek okresu demobilizacji.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-49" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-49')">ARG/II/49</a>, <a href="#card-ARG-II-48" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-48')">ARG/II/48</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-51">
+      <div class="card-img-wrap" data-src="gluchowski_img/lbr_II_51_p01.jpg" data-title="Fotografia — orkiestra dudziarska L. Sprusińskiego, batalion 4. Dywizji Piechoty, Szkocja, 1945" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/lbr_II_51_p01.jpg" alt="Fotografia — orkiestra dudziarska L. Sprusińskiego, batalion 4. Dywizji Piechoty, Szkocja, 1945" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/51</div>
+        <h3 class="card-title">Fotografia — orkiestra dudziarska L. Sprusińskiego, batalion 4. Dywizji Piechoty, Szkocja, 1945</h3>
+        <div class="card-meta-row">
+          <span class="card-date">1945</span>
+          <span class="card-type">fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Czarno-biała fotografia ok. 11,5 × 7,5 cm. Na odwrocie odręczna adnotacja: &#x27;Orkiestra L. Sprusińskiego / Baon... 4 Dyw Piech / 1945&#x27;. 2 zdjęcia (awers + rewers).</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Orkiestra dudziarska maszerująca na drodze w Szkocji — 8 muzyków: 4 dudziarzy (pipers) z dudziarstwem szkockim (Great Highland Bagpipe), 2-3 doboszów (bęben wielki i werbel), prowadzeni przez Pipe Majora. Żołnierze w battledress z białymi getrami (spats) — typowy element stroju orkiestr dudziarskich. Berety szkockie (Tam o&#x27;Shanter). W tle zabudowania koszarowe i zielone tereny. Na odwrocie: &#x27;Orkiestra L. Sprusińskiego / Baon... 4 Dyw Piech / 1945&#x27;.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> fotograf wojskowy (nieznany)</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski (adnotacja)</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> UNIKALNY FENOMEN KULTUROWY: polska orkiestra dudziarska w Szkocji. L. Sprusiński — Pipe Major (kapelmistrz) orkiestry batalionowej 4. Dywizji Piechoty, 1945 r. Na verso adnotacja: &#x27;Orkiestra L. Sprusińskiego / Baon Handy(?) / H.Q. Dyw. Piech. / 1945&#x27; — orkiestra przy kwaterze głównej dywizji. Polskie jednostki w Szkocji tworzyły własne pipe bands na wzór szkocki: polscy żołnierze grający na Great Highland Bagpipe z białymi getrami (spats) i beretami Tam o&#x27;Shanter. 4. Dywizja Piechoty stacjonowała w Szkocji 1940-1947 (m.in. w Kinross, Dundee, Perth). Orkiestry dudziarskie towarzyszyły defiladom, mszom polowym i uroczystościom — łączenie polskiej tradycji wojskowej ze szkockim ceremoniałem muzycznym.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-48" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-48')">ARG/II/48</a>, <a href="#card-ARG-II-55" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-55')">ARG/II/55</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-52">
+      <div class="card-img-wrap" data-src="gluchowski_img/lbr_II_52_p01.jpg" data-title="Zestaw 5 fotografii gen. Głuchowskiego — Zjazd Kawalerzystów IV.1941, powitanie gen. Broniewskiego 1945, British Linen Bank, portret. Szkocja" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/lbr_II_52_p01.jpg" alt="Zestaw 5 fotografii gen. Głuchowskiego — Zjazd Kawalerzystów IV.1941, powitanie gen. Broniewskiego 1945, British Linen Bank, portret. Szkocja" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/52</div>
+        <h3 class="card-title">Zestaw 5 fotografii gen. Głuchowskiego — Zjazd Kawalerzystów IV.1941, powitanie gen. Broniewskiego 1945, British Linen Bank, portret. Szkocja</h3>
+        <div class="card-meta-row">
+          <span class="card-date">1941–1945</span>
+          <span class="card-type">fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Pięć fotografii czarno-białych różnych formatów (od 6 × 8,5 cm do 11,5 × 8,5 cm). Na odwrotach odręczne adnotacje identyfikujące osoby, daty i wydarzenia. 5 zdjęć (awers zestawu + 4 poszczególne zdjęcia + odwroty).</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Zestaw 5 fotografii dokumentujących 3 odrębne wydarzenia: (1) &#x27;Zjazd Kawalerzystów, 1941 kwiecień (początek), Szkocja&#x27; — grupa oficerów na schodach kamiennego budynku; (2) &#x27;Powitanie gen. Broniewskiego w 1945 do Szkocji, na dworcu, przywitki... gen. Thorne&#x27; — oficerowie z naszywkami &#x27;POLAND&#x27; na rękawach witają się na dworcu, gen. Andrew Thorne (brytyjski dowódca Scottish Command) obecny; (3) Gen. Głuchowski z oficerem przed budynkiem British Linen Bank — w mundurze galowym z białymi rękawiczkami, Szkocja; (4) Portret gen. Głuchowskiego w gotyckiej bramie kościoła/zamku, adnotacja: &#x27;Gen. Głuchowski, Szkocja, 1941&#x27;; (5) CEREMONIA ODZNACZENIA — oficer przypina medal/order innemu żołnierzowi, żołnierze z naszywkami &#x27;POLAND&#x27;, ciemne tło — prawdopodobnie nocna ceremonia lub wnętrze.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> fotografowie wojskowi (różni)</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Bezcenny zestaw dokumentujący trzy odrębne wydarzenia: (1) Zjazd Kawalerzystów w Szkocji, kwiecień 1941 — spotkanie oficerów kawalerii WP, ważne dla podtrzymania tożsamości broni; (2) Powitanie gen. Broniewskiego na dworcu w Szkocji 1945 z udziałem gen. Thorne&#x27;a (brytyjski dowódca Scottish Command) — moment polsko-brytyjskiej współpracy; (3) British Linen Bank — szkocka instytucja bankowa, obecność gen. Głuchowskiego może świadczyć o sprawach administracyjnych WP w Szkocji. Portret w gotyckiej bramie — prawdopodobnie kościół lub zamek szkocki, 1941.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-47" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-47')">ARG/II/47</a>, <a href="#card-ARG-II-43" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-43')">ARG/II/43</a>, <a href="#card-ARG-II-49" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-49')">ARG/II/49</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-53">
+      <div class="card-img-wrap" data-src="gluchowski_img/lbr_II_53_p01.jpg" data-title="Zestaw 4 fotografii — Holandia 1945, sceny z obozu polskich żołnierzy po uwolnieniu + inspekcja w Szkocji. Pieczęć Wojskowej Sekcji Fotograficznej" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/lbr_II_53_p01.jpg" alt="Zestaw 4 fotografii — Holandia 1945, sceny z obozu polskich żołnierzy po uwolnieniu + inspekcja w Szkocji. Pieczęć Wojskowej Sekcji Fotograficznej" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/53</div>
+        <h3 class="card-title">Zestaw 4 fotografii — Holandia 1945, sceny z obozu polskich żołnierzy po uwolnieniu + inspekcja w Szkocji. Pieczęć Wojskowej Sekcji Fotograficznej</h3>
+        <div class="card-meta-row">
+          <span class="card-date">1945</span>
+          <span class="card-type">fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Cztery fotografie czarno-białe różnych formatów. Na odwrocie jednej: stempel WOJSKOWEJ SEKCJI FOTOGRAFICZNEJ, numer negatywu N 4013, odręczna adnotacja &#x27;Holandia — 1945 / Sceny z obozu naszych po uwolnieniu&#x27;. 4 zdjęcia.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Zestaw 4 fotografii: (1) Uroczystość/zabawa w obozie pod namiotem z dekoracjami świątecznymi — scena po wyzwoleniu, żołnierze przy stołach; (2) Oficerowie na scenie podczas ceremonii obozowej — mundury z naszywkami &#x27;POLAND&#x27;, nocne/ciemne oświetlenie; (3) Autobus wojskowy M 489 4153 — kobiety w mundurach/kurtkach z oznaczeniami KGF (Kriegsgefangener = jeniec wojenny) podczas wsiadania, w tle motocykl z wózkiem bocznym — SCENA EWAKUACJI WYZWOLONYCH; (4) Oficer w berecie salutujący szpaler żołnierzy w hełmach na brukowanej ulicy szkockiego miasteczka — INNE WYDARZENIE niż 1-3. Na VERSO jednej z fotografii: numer negatywu &#x27;N 4013&#x27;, adnotacja &#x27;JMG Holandia — 1945 / Sceny z obozu naszych po uwolnieniu&#x27;, stempel WOJSKOWEJ SŁUŻBY FOTOGRAFICZNEJ / POLISH ARMY FILM UNIT. &#x27;JMG&#x27; = inicjały Janusza M. Głuchowskiego — zdjęcia z jego archiwum osobistego.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Wojskowa Sekcja Fotograficzna (N 4013)</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> n/a</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> WAŻNE ODKRYCIE: Zdjęcia dokumentują wyzwolenie polskich jeńców wojennych w Holandii 1945. Oznaczenia KGF na ubraniach kobiet wskazują na osoby uwolnione z obozów pracy/jenieckich. Autobus M 489 4153 — brytyjski transport wojskowy używany do ewakuacji wyzwolonych. Czwarte zdjęcie (inspekcja na bruku) pochodzi prawdopodobnie ze Szkocji — inny kontekst niż pozostałe trzy. Pieczęć Wojskowej Sekcji Fotograficznej potwierdza oficjalną dokumentację.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-49" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-49')">ARG/II/49</a>, <a href="#card-ARG-II-50" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-50')">ARG/II/50</a>, <a href="#card-ARG-V-38" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-38')">ARG/V/38</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-54">
+      <div class="card-img-wrap" data-src="gluchowski_img/lbr_II_54_p01.jpg" data-title="Album &#x27;Żołnierz z Montecassino&#x27; z DEDYKACJĄ GEN. ANDERSA dla gen. Głuchowskiego — Rzym 1945" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/lbr_II_54_p01.jpg" alt="Album &#x27;Żołnierz z Montecassino&#x27; z DEDYKACJĄ GEN. ANDERSA dla gen. Głuchowskiego — Rzym 1945" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/54</div>
+        <h3 class="card-title">Album &#x27;Żołnierz z Montecassino&#x27; z DEDYKACJĄ GEN. ANDERSA dla gen. Głuchowskiego — Rzym 1945</h3>
+        <div class="card-meta-row">
+          <span class="card-date">31.III.1945</span>
+          <span class="card-type">album fotograficzny</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Album fotograficzny w twardej oprawie, papier fotograficzny, wydany przez Oddział Kultury i Prasy 2. Korpusu AP, Rzym 1945. Na stronie tytułowej ODRĘCZNA DEDYKACJA GEN. WŁADYSŁAWA ANDERSA: &#x27;Gł. J. Głuchowskiemu z wyrazami przyjaźni / w hołdzie naszym żołnierzom do Polski / W. Anders / 31.3.45&#x27;. Zażółcenia na okładkach, grzbiet częściowo oderwany. 5 zdjęć.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> &#x27;ŻOŁNIERZ Z MONTECASSINO&#x27; — album fotograficzny dokumentujący bitwę o Monte Cassino (11-18.V.1944). Wydawca: Oddział Kultury i Prasy 2. Korpusu AP, Rzym 1945. Okładka: tytuł złotymi literami na tle fotografii polnych maków (maki z Monte Cassino = symbol polskiego zwycięstwa). Oprawa lniana, format podłużny. Wnętrze: rozkładane panoramiczne zdjęcia pola walki, żołnierzy w okopach, ruin klasztoru, artylerii w akcji. DEDYKACJA ODRĘCZNA NA STRONIE TYTUŁOWEJ: &#x27;Gł. J. Głuchowskiemu z wyrazami przyjaźni / w naszym(?) bratnich(?) doświadczeń do Polski / W. Anders / 31.3.45&#x27; — podpis gen. Władysława Andersa, datowany 31 marca 1945. Dedykacja w ciemnoniebieskim atramencie, pismo wyraźne.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Wiktor Ostrowski (red.) / Oddział Kultury i Prasy 2. Korpusu AP</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> OBIEKT KLUCZOWY DLA KOLEKCJI. Osobista dedykacja gen. Władysława Andersa — dowódcy polskiego zwycięstwa pod Monte Cassino — dla gen. Głuchowskiego. Dwa najwyższe autorytety Wojska Polskiego na emigracji: Anders (2. Korpus, Włochy) i Głuchowski (JWWB, Wielka Brytania). Dedykacja &#x27;z wyrazami przyjaźni&#x27; i &#x27;w hołdzie naszym żołnierzom&#x27; — dowód osobistej relacji obu generałów mimo służby na dwóch teatrach wojny. Album wydany w Rzymie 1945 = pierwsze opracowanie fotograficzne bitwy o Monte Cassino. Egzemplarz z dedykacją Andersa — najwyższa kategoria wartości kolekcjonerskiej i historycznej. Autograf Andersa na rynku antykwarycznym: 2000-5000 PLN sam w sobie.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-34" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-34')">ARG/II/34</a>, <a href="#card-ARG-II-49" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-49')">ARG/II/49</a>, <a href="#card-ARG-II-53" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-53')">ARG/II/53</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Średni — zażółcenia, grzbiet częściowo oderwany. Dedykacja czytelna.</div>
+        <div class="card-transcription">
+      <div class="trans-toggle" onclick="event.stopPropagation(); this.parentElement.classList.toggle('open')">
+        &#9654; Transkrypcja
+      </div>
+      <div class="trans-content">
+        <div class="trans-meta">
+          <span class="trans-badge">dedykacja</span>
+          <span class="trans-badge">31.III.1945</span>
+          <span class="trans-badge">pl</span>
+        </div>
+        <div class="trans-field"><strong>Nadawca:</strong> Gen. Władysław Anders</div>
+        <div class="trans-field"><strong>Adresat:</strong> Gen. Janusz Głuchowski</div>
+        <div class="trans-text">Gł. J. Głuchowskiemu z wyrazami przyjaźni
+w hołdzie naszym żołnierzom do Polski
+W. Anders
+31.3.45</div>
+        <div class="trans-details"><strong>Podpisy:</strong><ul class="trans-detail-list"><li>W. Anders</li></ul></div>
+<div class="trans-details"><strong>Osoby:</strong><ul class="trans-detail-list"><li>Władysław Anders</li><li>Janusz Głuchowski</li></ul></div>
+<div class="trans-details"><strong>Znaki szczegolne:</strong><ul class="trans-detail-list"><li>D</li><li>e</li><li>d</li><li>y</li><li>k</li><li>a</li><li>c</li><li>j</li><li>a</li><li> </li><li>o</li><li>d</li><li>r</li><li>ę</li><li>c</li><li>z</li><li>n</li><li>a</li><li> </li><li>n</li><li>a</li><li> </li><li>s</li><li>t</li><li>r</li><li>o</li><li>n</li><li>i</li><li>e</li><li> </li><li>t</li><li>y</li><li>t</li><li>u</li><li>ł</li><li>o</li><li>w</li><li>e</li><li>j</li><li> </li><li>a</li><li>l</li><li>b</li><li>u</li><li>m</li><li>u</li><li> </li><li>&#x27;</li><li>Ż</li><li>o</li><li>ł</li><li>n</li><li>i</li><li>e</li><li>r</li><li>z</li><li> </li><li>z</li><li> </li><li>M</li><li>o</li><li>n</li><li>t</li><li>e</li><li>c</li><li>a</li><li>s</li><li>s</li><li>i</li><li>n</li><li>o</li><li>&#x27;</li><li>.</li><li> </li><li>A</li><li>t</li><li>r</li><li>a</li><li>m</li><li>e</li><li>n</li><li>t</li><li> </li><li>c</li><li>z</li><li>a</li><li>r</li><li>n</li><li>y</li><li>,</li><li> </li><li>p</li><li>i</li><li>s</li><li>m</li><li>o</li><li> </li><li>k</li><li>a</li><li>l</li><li>i</li><li>g</li><li>r</li><li>a</li><li>f</li><li>i</li><li>c</li><li>z</li><li>n</li><li>e</li><li>.</li></ul></div>
+<div class="trans-details"><strong>Kontekst:</strong> Osobista dedykacja gen. Andersa — dowódcy 2. Korpusu Polskiego i zwycięzcy spod Monte Cassino — dla gen. Głuchowskiego, Dowódcy JWWB. Datowana 31 marca 1945, gdy Anders był jeszcze we Włoszech. Dokument przyjaźni dwóch najwyższych generałów polskiej emigracji.</div>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-55">
+      <div class="card-img-wrap" data-src="gluchowski_img/lbr_II_55_p01.jpg" data-title="Fotografia — Święto Łączności, obóz pod Kinross (Szkocja), 1945. Żołnierze-motocykliści łączności w szyku" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/lbr_II_55_p01.jpg" alt="Fotografia — Święto Łączności, obóz pod Kinross (Szkocja), 1945. Żołnierze-motocykliści łączności w szyku" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/55</div>
+        <h3 class="card-title">Fotografia — Święto Łączności, obóz pod Kinross (Szkocja), 1945. Żołnierze-motocykliści łączności w szyku</h3>
+        <div class="card-meta-row">
+          <span class="card-date">1945</span>
+          <span class="card-type">fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Czarno-biała fotografia ok. 11,5 × 8 cm. Na odwrocie odręczna adnotacja: &#x27;Święto Łączności / obóz pod Kinn-Ross / 1945 r.&#x27; 3 zdjęcia (awers + zbliżenie + rewers).</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Szpaler ok. 16 żołnierzy-motocyklistów przy motocyklach wojskowych (prawdopodobnie Norton 16H lub BSA M20), ustawionych w równej linii. Żołnierze w hełmach stalowych i battledress, stojący na baczność przy swoich maszynach. Z lewej strony oficer dokonujący przeglądu. W tle widoczne zabudowania obozowe. Na odwrocie: &#x27;Święto Łączności / obóz pod Kinn-Ross / 1945 r.&#x27;</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> fotograf wojskowy (nieznany)</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Święto Łączności — coroczne święto wojsk łączności WP. Obóz pod Kinross (Szkocja) — miasto w Perth and Kinross, baza polskich jednostek wojskowych. Motocykliści-łącznościowcy (dispatch riders) pełnili kluczową rolę w komunikacji pola walki. Szpaler 16 motocykli = pluton łączności motocyklowej. Kinross leży ok. 30 km na północ od Edynburga — rejon intensywnych stacjonowań WP w Szkocji.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-48" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-48')">ARG/II/48</a>, <a href="#card-ARG-II-51" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-51')">ARG/II/51</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-57">
+      <div class="card-img-wrap" data-src="gluchowski_img/galeria/galeria_p06_img01.jpeg" data-title="Album fotograficzny — zbiórki wojskowe 1921 i dedykacja dla gen. Głuchowskiego (8.III.1944)" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/galeria/galeria_p06_img01.jpeg" alt="Album fotograficzny — zbiórki wojskowe 1921 i dedykacja dla gen. Głuchowskiego (8.III.1944)" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/57</div>
+        <h3 class="card-title">Album fotograficzny — zbiórki wojskowe 1921 i dedykacja dla gen. Głuchowskiego (8.III.1944)</h3>
+        <div class="card-meta-row">
+          <span class="card-date">1921 / 1944</span>
+          <span class="card-type">album fotograficzny</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Album fotograficzny na czarnym kartonie. Strona ze zdjęciami: (1) &#x27;piwa za zdrowie Komendanta 1921&#x27; — grupa żołnierzy przy stole, (2) &#x27;Zbiórka kompanii do raportu Porannego&#x27; — formacja na placu. Strona dedykacyjna (galeria_p06_img02): białe pismo na czarnym kartonie &#x27;Panu Gen. Głuchowskiemu / Dowódcy Jedn. Wojsk w W. Brytanii / w okazji pobytu / w / Centrum Wyszkolenia Łączności / Żołnierze / Kompanii Dozorowania / w/dżęci 8 marca 1944&#x27;. Wklejone małe zdjęcie budynku. 3 zdjęcia.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Album ofiarowany gen. Januszowi Głuchowskiemu — Dowódcy Jednostek Wojskowych w Wielkiej Brytanii — przez żołnierzy Kompanii Dozorowania z Centrum Wyszkolenia Łączności, 8 marca 1944 r. Zawiera zdjęcia wojskowe z 1921 r. (toast za zdrowie Komendanta, poranna zbiórka kompanii). Dedykacja potwierdza, że Głuchowski wizytował jednostki łączności jako Dowódca JWWB.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> żołnierze Kompanii Dozorowania, Centrum Wyszkolenia Łączności</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Album-dar dla dowódcy — typowa forma wyrazu szacunku w tradycji Wojska Polskiego. Gen. Głuchowski od IX.1943 dowodził JWWB (Jednostkami Wojskowymi w Wielkiej Brytanii), wizytując m.in. Centrum Wyszkolenia Łączności. Data 8.III.1944 potwierdza aktywność dowódczą Głuchowskiego w Szkocji/Anglii. Zdjęcia z 1921 roku dokumentują tradycje pułkowe — toast &#x27;za zdrowie Komendanta&#x27; i poranna zbiórka to sceny z życia garnizonu II RP.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-58" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-58')">ARG/II/58</a>, <a href="#card-ARG-II-60" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-60')">ARG/II/60</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Średni</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-58">
+      <div class="card-img-wrap" data-src="gluchowski_img/galeria/galeria_p07_img01.jpeg" data-title="Album — zdjęcia wojskowe z podpisami, manewry i ceremonie" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/galeria/galeria_p07_img01.jpeg" alt="Album — zdjęcia wojskowe z podpisami, manewry i ceremonie" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/58</div>
+        <h3 class="card-title">Album — zdjęcia wojskowe z podpisami, manewry i ceremonie</h3>
+        <div class="card-meta-row">
+          <span class="card-date">lata 20.–30. XX w.</span>
+          <span class="card-type">album fotograficzny</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Strony albumu fotograficznego z podpisanymi zdjęciami wojskowymi — manewry, ceremonie, życie garnizonowe. 6 zdjęć (galeria_p07_img01 przez img06).</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Rozbudowana sekcja albumu gen. Głuchowskiego — zdjęcia z manewrów wojskowych, ceremonii i życia garnizonowego z podpisami identyfikującymi osoby i wydarzenia.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> fotograf wojskowy</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Album z podpisami — cenny dokument identyfikacyjny. Manewry i ceremonie wojskowe II RP dokumentują strukturę dowodzenia i relacje między oficerami. Podpisy pozwalają na identyfikację osób i wydarzeń historycznych.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-57" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-57')">ARG/II/57</a>, <a href="#card-ARG-II-60" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-60')">ARG/II/60</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Średni</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-60">
+      <div class="card-img-wrap" data-src="gluchowski_img/galeria/galeria_p08_img02.jpeg" data-title="Album gen. Głuchowskiego — strona ze zdjęciami wojskowymi (4 fotografie grupowe)" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/galeria/galeria_p08_img02.jpeg" alt="Album gen. Głuchowskiego — strona ze zdjęciami wojskowymi (4 fotografie grupowe)" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/60</div>
+        <h3 class="card-title">Album gen. Głuchowskiego — strona ze zdjęciami wojskowymi (4 fotografie grupowe)</h3>
+        <div class="card-meta-row">
+          <span class="card-date">lata 20.–30. XX w.</span>
+          <span class="card-type">album fotograficzny</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Strona albumu fotograficznego na ciemnym kartonie. 4 fotografie sepiowe/czarno-białe naklejone na stronie, podpisy białym atramentem pod zdjęciami. 4 zdjęcia dokumentacyjne (galeria_p08_img02 przez img05).</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Strona z albumu gen. Janusza Głuchowskiego — 4 fotografie grupowe z okresu międzywojennego. Zdjęcia przedstawiają grupy żołnierzy na tle budynków koszarowych i w terenie. Podpisy białym atramentem na ciemnym tle kartonu albumowego — częściowo czytelne. Zdjęcia dokumentują ćwiczenia wojskowe i ceremonie pułkowe z lat 20.-30. XX wieku.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> fotograf wojskowy</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Album fotograficzny gen. Janusza Głuchowskiego — osobisty zbiór zdjęć z okresu służby w Wojsku Polskim II RP. Zdjęcia grupowe na ciemnym kartonie z podpisami to typowa forma albumu oficerskiego. Kolejne strony albumu: ARG/II/57-58 (wcześniejsze), ARG/II/60 (ta strona). Album stanowi spójną całość dokumentującą karierę wojskową Janusza od porucznika do generała.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-57" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-57')">ARG/II/57</a>, <a href="#card-ARG-II-58" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-58')">ARG/II/58</a>, <a href="#card-ARG-II-59" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-59')">ARG/II/59</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Średni</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-67">
+      <div class="card-img-wrap" data-src="gluchowski_img/wa_portret_rodzinny_1920.jpeg" data-title="Portret rodzinny Głuchowskich — zdjęcie studyjne, ok. 1916–1920" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/wa_portret_rodzinny_1920.jpeg" alt="Portret rodzinny Głuchowskich — zdjęcie studyjne, ok. 1916–1920" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/67</div>
+        <h3 class="card-title">Portret rodzinny Głuchowskich — zdjęcie studyjne, ok. 1916–1920</h3>
+        <div class="card-meta-row">
+          <span class="card-date">ok. 1916–1920</span>
+          <span class="card-type">fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Formalna fotografia rodzinna na kartonie, sepia, format ok. 20×15 cm. Studio fotograficzne. 10 osób w dwóch rzędach: rząd tylny — 4 młodych mężczyzn (w garniturach lub mundurach); rząd przedni siedzący — oficer w mundurze brytyjskim(?) z czapką (lewy), dziewczynka, chłopiec, kobieta w białej bluzce (prawa), chłopiec w stroju harcerskim/skautowskim (skrajnie prawy). Zdjęcie na niebieskiej sofie/tkaninie w tle — wymaga rembg.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Portret rodziny Głuchowskich z okresu I wojny światowej lub bezpośrednio po. Oficer w mundurze (siedzący po lewej) — prawdopodobnie Marian Głuchowski (ojciec, Seria I) lub inny mężczyzna z rodziny w mundurze. Kobieta w bieli — żona (Maria z Żółkowskich?). Młodzi mężczyźni z tyłu mogą obejmować: Janusza (ur. 1888, miałby 28–32 lata), Stefana (ur. 1893, 23–27 lat), Lecha (ur. 1918 — ale zbyt mały). Chłopiec w stroju harcerskim — datowanie po 1916 (harcerstwo polskie). Identyfikacja wymaga porównania z innymi zdjęciami w kolekcji.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> studio fotograficzne (nieznane)</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> —</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Portret rodzinny — kluczowy dokument genealogiczny. Rodzina Głuchowskich: Marian (ojciec, Seria I) + Maria z Żółkowskich + synowie (Janusz, Stefan, Lech, Krzysztof + ewentualne córki). Strój harcerski jednego z chłopców datuje zdjęcie na po 1916 (powstanie polskiego harcerstwa). Mundur oficera sugeruje okres I wojny lub pierwszych lat II RP. Porównanie twarzy z karykaturą Hertza-Barwińskiego (ARG/II/59) mogłoby pomóc zidentyfikować Janusza na zdjęciu.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-65" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-65')">ARG/II/65</a>, <a href="#card-ARG-II-1" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-1')">ARG/II/1</a>, <a href="#card-ARG-I-1" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-I-1')">ARG/I/1</a>, <a href="#card-ARG-II-59" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-59')">ARG/II/59</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Średni — sepia, niebieska sofa w tle (wymaga rembg)</div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+<section class="series" id="seria-V">
+  <div class="series-header">
+    <div class="series-num">SERIA V</div>
+    <h2 class="series-title">St.ul. Krzysztof Andrzej Głuchowski ps. &#x27;Juraś&#x27; (29.XI.1926 – V.2020)</h2>
+    <p class="series-desc">Ur. 29.XI.1926, Warszawa. Przysięga AK 11.V.1942 (15 lat!). Pluton 1112, 7 P.Uł. AK, dywizjon &#x27;Jeleń&#x27;. Obrona Fabryki Kamlera (KG AK), Starówka, ewakuacja kanałami 1.IX.1944, Śródmieście. Jeniec Stalag XI-B Fallingbostel (nr 141009) — ten sam obóz co ojciec! Via Holandia/Belgia/Francja do Włoch, 2 Korpus, Gimnazjum 3 DSK (matura 1946). Emigracja: Anglia → Brazylia (od 1974). Chartered Engineer, publicysta, wydawca bibliofilski. Zm. V.2020, Rio de Janeiro.</p>
+    <div class="series-meta">1941–1968 &middot; 156 jednostek</div>
+  </div>
+  <div class="cards-grid">
+    <div class="card" id="card-ARG-V-134">
+      <div class="card-img-wrap" data-src="gluchowski_img/juras_068_page69.jpeg" data-title="Fotografia proporca/sztandaru 7 Pułku Ułanów Lubelskich — ZAGINIONEGO W POWSTANIU WARSZAWSKIM" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/juras_068_page69.jpeg" alt="Fotografia proporca/sztandaru 7 Pułku Ułanów Lubelskich — ZAGINIONEGO W POWSTANIU WARSZAWSKIM" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/134</div>
+        <h3 class="card-title">Fotografia proporca/sztandaru 7 Pułku Ułanów Lubelskich — ZAGINIONEGO W POWSTANIU WARSZAWSKIM</h3>
+        <div class="card-meta-row">
+          <span class="card-date">przed 1944</span>
+          <span class="card-type">fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Mała fotografia czarno-biała, format ok. 6×5 cm. Przedstawia proporczyk pułkowy z sylwetką jelenia na ciemnym tle. Krawędzie nieregularne — zdjęcie wycięte lub obcięte.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Fotografia proporca/sztandaru 7 Pułku Ułanów Lubelskich &#x27;Jeleń&#x27; — PROPORCZYK ZAGINĄŁ W POWSTANIU WARSZAWSKIM 1944. Zdjęcie jest jedynym zachowanym śladem po oryginalnym sztandarze pułkowym. Sylwetka jelenia skaczącego na ciemnym tle — symbol pułku.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> nieznany</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> —</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> DOKUMENT O WYJĄTKOWEJ WARTOŚCI HISTORYCZNEJ — jedyna znana fotografia proporca/sztandaru 7 Pułku Ułanów Lubelskich AK, który zaginął podczas Powstania Warszawskiego 1944. Sztandary pułkowe były najcenniejszymi symbolami jednostki — ich utrata w boju miała głębokie znaczenie symboliczne. Zachowanie tego zdjęcia przez Krzysztofa świadczy o głębokim przywiązaniu do tradycji pułkowej.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-V-81" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-81')">ARG/V/81</a>, <a href="#card-ARG-V-118" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-118')">ARG/V/118</a>, <a href="#card-ARG-V-97" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-97')">ARG/V/97</a>, <a href="#card-ARG-V-128" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-128')">ARG/V/128</a>, <a href="#card-ARG-VI-3" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-VI-3')">ARG/VI/3</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry — zdjęcie czytelne, kontrast zachowany</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-V-158">
+      <div class="card-img-wrap" data-src="gluchowski_img/galeria/galeria_p02_img03.jpeg" data-title="Tablica pamiątkowa — atak na gmach Gestapo 1.VIII.1944, 7 p.ul. AK Jeleń, 187 powstańców, 67 poległo" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/galeria/galeria_p02_img03.jpeg" alt="Tablica pamiątkowa — atak na gmach Gestapo 1.VIII.1944, 7 p.ul. AK Jeleń, 187 powstańców, 67 poległo" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/158</div>
+        <h3 class="card-title">Tablica pamiątkowa — atak na gmach Gestapo 1.VIII.1944, 7 p.ul. AK Jeleń, 187 powstańców, 67 poległo</h3>
+        <div class="card-meta-row">
+          <span class="card-date">po 1944</span>
+          <span class="card-type">fotografia tablicy</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Fotografia tablicy pamiątkowej upamiętniającej atak na gmach Gestapo w dniu 1 sierpnia 1944. 1 zdjęcie.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> PEŁNA TRANSKRYPCJA TABLICY: &#x27;Dnia 1.8.1944 r. godz.17. / z tego domu i okolicznych / ruszyło do natarcia / na gmach Gestapo i Dom Prasy / 5 plutonów / 7 pułku ułanów AK / «JELEŃ» / z 187 Powstańców / poległo 67 / Cześć Ich pamięci.&#x27; Tablica pamiątkowa upamiętniająca atak 5 plutonów Dywizjonu &#x27;Jeleń&#x27; (7 Pułk Ułanów Lubelskich AK) na gmach Gestapo i Dom Prasy w godzinie &#x27;W&#x27; (17:00, 1 sierpnia 1944). Z 187 powstańców poległo 67 — straty 35,8%. Cel ataku: gmach Gestapo (al. Szucha 25) i Dom Prasy (Marszałkowska 3/5).</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> nieznany</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> KLUCZOWY DOKUMENT PAMIĘCI POWSTAŃCZEJ. Atak na gmach Gestapo przy al. Szucha 25 i Dom Prasy — jedna z najbardziej dramatycznych i krwawych akcji pierwszego dnia Powstania Warszawskiego (godzina &#x27;W&#x27; = 17:00). 7 Pułk Ułanów AK &#x27;Jeleń&#x27; poniósł ogromne straty: 67 z 187 uczestników poległo (35,8%). Krzysztof &#x27;Juraś&#x27; Głuchowski — 18-letni starszy ułan — walczył w tym samym Dywizjonie &#x27;Jeleń&#x27;, choć nie wiadomo czy w tym konkretnym ataku. Tablica powstała po wojnie — prawdopodobnie umieszczona na budynku, z którego wyruszono do natarcia. &#x27;5 plutonów&#x27; = pełny Dywizjon. Połącz z: ARG/II/41 (groby z inskrypcją &#x27;JELEŃ&#x27;), ARG/V/162 (rozkaz awansu KW za walki w Powstaniu), ARG/VI/20 (nekrologi żołnierzy &#x27;Jelenia&#x27;).</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-V-9" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-9')">ARG/V/9</a>, <a href="#card-ARG-V-10" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-10')">ARG/V/10</a>, <a href="#card-ARG-V-162" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-162')">ARG/V/162</a>, <a href="#card-ARG-II-41" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-41')">ARG/II/41</a>, <a href="#card-ARG-VI-20" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-VI-20')">ARG/VI/20</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+        <div class="card-transcription">
+      <div class="trans-toggle" onclick="event.stopPropagation(); this.parentElement.classList.toggle('open')">
+        &#9654; Transkrypcja
+      </div>
+      <div class="trans-content">
+        <div class="trans-meta">
+          <span class="trans-badge">Tablica pamiątkowa / inskrypcja</span>
+          <span class="trans-badge">1.VIII.1944</span>
+          <span class="trans-badge">polski</span>
+        </div>
+        <div class="trans-field"><strong>Nadawca:</strong> brak (tablica upamiętniająca)</div>
+        <div class="trans-field"><strong>Adresat:</strong> brak</div>
+        <div class="trans-text">Dnia 1.8.1944 r. godz. 17.
+z tego domu i okolicznych
+ruszyło do natarcia
+na gmach Gestapo i Dom Prasy
+5 plutonów
+7 pułku ułanów AK
+„JELEŃ&quot;
+z 187 Powstańców
+poległo 67
+Cześć Ich pamięci.</div>
+        <div class="trans-details"><strong>Osoby:</strong><ul class="trans-detail-list"><li>Żołnierze 7 Pułku Ułanów AK «Jeleń»</li><li>187 Powstańców (uczestników natarcia)</li><li>67 poległych</li></ul></div>
+<div class="trans-details"><strong>Znaki szczegolne:</strong><ul class="trans-detail-list"><li>Tablica pamiątkowa z Powstania Warszawskiego</li><li>1 sierpnia 1944 godz. 17:00 — godzina «W», początek Powstania</li><li>Natarcie na gmach Gestapo i Dom Prasy</li><li>5 plutonów 7 Pułku Ułanów AK «Jeleń»</li><li>187 powstańców ruszyło do ataku, 67 poległo (36% strat)</li><li>Papier maszynowy, prawdopodobnie kopia lub druk pamiątkowy</li><li>Tekst ułożony pionowo na kartce</li></ul></div>
+<div class="trans-details"><strong>Kontekst:</strong> Tablica upamiętniająca atak 7 Pułku Ułanów AK «Jeleń» na gmach Gestapo i Dom Prasy w pierwszych minutach Powstania Warszawskiego, 1 sierpnia 1944 o godz. 17:00 (godzina «W»). Z 187 powstańców poległo 67 — ponad jedna trzecia. To ten sam pułk, w którym służyli Krzysztof («Juras») i Stefan Głuchowscy. Dokument łączy kolekcję z najkrwawszymi chwilami Powstania.</div>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="series" id="seria-VI">
+  <div class="series-header">
+    <div class="series-num">SERIA VI</div>
+    <h2 class="series-title">Varia / Rodzina</h2>
+    <p class="series-desc">Dokumenty niemożliwe do jednoznacznego przypisania, album fotograficzny, militaria, biogramy rodzinne.</p>
+    <div class="series-meta">1939–1970 &middot; 14 jednostek</div>
+  </div>
+  <div class="cards-grid">
+    <div class="card" id="card-ARG-VI-1">
+      <div class="card-img-wrap" data-src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p04_img01.jpeg" data-title="Tablica pamiątkowa natarcia 7 P.Uł. AK &#x27;JELEŃ&#x27; na gmach Gestapo i Dom Prasy — 1.VIII.1944 godz. 17:00" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p04_img01.jpeg" alt="Tablica pamiątkowa natarcia 7 P.Uł. AK &#x27;JELEŃ&#x27; na gmach Gestapo i Dom Prasy — 1.VIII.1944 godz. 17:00" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/VI/1</div>
+        <h3 class="card-title">Tablica pamiątkowa natarcia 7 P.Uł. AK &#x27;JELEŃ&#x27; na gmach Gestapo i Dom Prasy — 1.VIII.1944 godz. 17:00</h3>
+        <div class="card-meta-row">
+          <span class="card-date">1.VIII.1944</span>
+          <span class="card-type">fotografia tablicy pamiątkowej</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Fotografia maszynopisu/druku pamiątkowego na białym/kremowym papierze, format ok. 15×15 cm. Tekst maszynowy ułożony centrycznie. Papier lekko pożółkły. Zdjęcie ostre, czytelne.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> &#x27;Dnia 1.8.1944 r. godz. 17. / z tego domu i okolicznych / ruszyło do natarcia / na gmach Gestapo i Dom Prasy / 5 plutonów / 7 pułku ułanów / AK / «JELEŃ» / z / 187 Powstańców / poległo 67 / Cześć Ich pamięci.&#x27; Tekst tablicy upamiętniającej natarcie 5 plutonów 7 Pułku Ułanów AK &#x27;Jeleń&#x27; na gmach Gestapo (Al. Szucha) i Dom Prasy w WARSZAWIE w dniu wybuchu Powstania Warszawskiego, o godzinie &#x27;W&#x27; (17:00). Z 187 powstańców poległo 67 — ponad jedna trzecia.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> nieznany (druk pamiątkowy, prawdopodobnie pow. 1945)</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> KLUCZOWY DOKUMENT PAMIĘCI — upamiętnia najkrwawszą akcję 7 P.Uł. AK &#x27;Jeleń&#x27; w godzinie &#x27;W&#x27; Powstania Warszawskiego (1.VIII.1944, godz. 17:00). Natarcie na gmach Gestapo przy Al. Szucha i Dom Prasy (ul. Marszałkowska 3/5) w WARSZAWIE (NIE w Krakowie!). 36% strat (67 z 187). W tych 5 plutonach służył Krzysztof &#x27;Juraś&#x27; Głuchowski — ten dokument jest bezpośrednim świadectwem jego udziału w Powstaniu. Lech Głuchowski (stryj Krzysztofa) dowodził natarciem na Al. Szucha i poległ na Mokotowie 15.IX.1944.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-V-3" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-3')">ARG/V/3</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+        <div class="card-transcription">
+      <div class="trans-toggle" onclick="event.stopPropagation(); this.parentElement.classList.toggle('open')">
+        &#9654; Transkrypcja
+      </div>
+      <div class="trans-content">
+        <div class="trans-meta">
+          <span class="trans-badge">Tablica pamiątkowa / inskrypcja</span>
+          <span class="trans-badge">1.VIII.1944</span>
+          <span class="trans-badge">polski</span>
+        </div>
+        <div class="trans-field"><strong>Nadawca:</strong> brak (tablica upamiętniająca)</div>
+        <div class="trans-field"><strong>Adresat:</strong> brak</div>
+        <div class="trans-text">Dnia 1.8.1944 r. godz. 17.
+z tego domu i okolicznych
+ruszyło do natarcia
+na gmach Gestapo i Dom Prasy
+5 plutonów
+7 pułku ułanów AK
+„JELEŃ&quot;
+z 187 Powstańców
+poległo 67
+Cześć Ich pamięci.</div>
+        <div class="trans-details"><strong>Osoby:</strong><ul class="trans-detail-list"><li>Żołnierze 7 Pułku Ułanów AK «Jeleń»</li><li>187 Powstańców (uczestników natarcia)</li><li>67 poległych</li></ul></div>
+<div class="trans-details"><strong>Znaki szczegolne:</strong><ul class="trans-detail-list"><li>Tablica pamiątkowa z Powstania Warszawskiego</li><li>1 sierpnia 1944 godz. 17:00 — godzina «W», początek Powstania</li><li>Natarcie na gmach Gestapo i Dom Prasy</li><li>5 plutonów 7 Pułku Ułanów AK «Jeleń»</li><li>187 powstańców ruszyło do ataku, 67 poległo (36% strat)</li><li>Papier maszynowy, prawdopodobnie kopia lub druk pamiątkowy</li><li>Tekst ułożony pionowo na kartce</li></ul></div>
+<div class="trans-details"><strong>Kontekst:</strong> Tablica upamiętniająca atak 7 Pułku Ułanów AK «Jeleń» na gmach Gestapo i Dom Prasy w pierwszych minutach Powstania Warszawskiego, 1 sierpnia 1944 o godz. 17:00 (godzina «W»). Z 187 powstańców poległo 67 — ponad jedna trzecia. To ten sam pułk, w którym służyli Krzysztof («Juras») i Stefan Głuchowscy. Dokument łączy kolekcję z najkrwawszymi chwilami Powstania.</div>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div class="card" id="card-ARG-VI-4">
+      <div class="card-img-wrap" data-src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p28_img03.jpeg" data-title="Album fotograficzny — dedykacja od Kompanii Dowodzenia CENTRUM ŁĄCZNOŚCI dla gen. Głuchowskiego, 8.III.1944" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p28_img03.jpeg" alt="Album fotograficzny — dedykacja od Kompanii Dowodzenia CENTRUM ŁĄCZNOŚCI dla gen. Głuchowskiego, 8.III.1944" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/VI/4</div>
+        <h3 class="card-title">Album fotograficzny — dedykacja od Kompanii Dowodzenia CENTRUM ŁĄCZNOŚCI dla gen. Głuchowskiego, 8.III.1944</h3>
+        <div class="card-meta-row">
+          <span class="card-date">8.III.1944</span>
+          <span class="card-type">Album fotograficzny</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Czarna okładka albumu formatu ok. A5, z białym napisem kaligrafowanym (ręczne litery). Na okładce naklejona mała fotografia budynku koszarowego/szkoleniowego. Oprawa twarda.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Album upominkowy z dedykacją kaligraficzną: &#x27;Panu Gen. Głuchowskiemu / Dowódcy Jedn. Wojsk w Brytanii / z okazji pobytu / na / Wyszkoleniu / Centrum Łączności / Żołnierze / Kompanii Dowodzenia / z złości(?) 8 marca 1944.&#x27; CENTRUM ŁĄCZNOŚCI — jednostka szkoleniowa łączności WP w Wielkiej Brytanii. Na okładce wklejona fotografia budynku.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Żołnierze Kompanii Dowodzenia, Centrum Łączności WP</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> WAŻNE POWIĄZANIE: Album pochodzi z Centrum Łączności WP — tej samej formacji co Święto Łączności w Kinross (ARG/II/55). Gen. Głuchowski jako Dowódca Jednostek Wojsk w Brytanii wizytował jednostki szkoleniowe. Kompania Dowodzenia przygotowała album na pamiątkę wizyty generała na wyszkoleniu. 8.III.1944 — trzy miesiące przed D-Day, intensywny okres szkoleniowy.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-VI-5" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-VI-5')">ARG/VI/5</a>, <a href="#card-ARG-VI-6" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-VI-6')">ARG/VI/6</a>, <a href="#card-ARG-II-55" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-55')">ARG/II/55</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry — oprawa, kaligrafia czytelna</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-VI-5">
+      <div class="card-img-wrap" data-src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p28_img01.jpeg" data-title="Album Centrum Łączności — strona z 4 zdjęciami: izba, szkolenie, formacja Kompanii Dowodzenia" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p28_img01.jpeg" alt="Album Centrum Łączności — strona z 4 zdjęciami: izba, szkolenie, formacja Kompanii Dowodzenia" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/VI/5</div>
+        <h3 class="card-title">Album Centrum Łączności — strona z 4 zdjęciami: izba, szkolenie, formacja Kompanii Dowodzenia</h3>
+        <div class="card-meta-row">
+          <span class="card-date">ok. III.1944</span>
+          <span class="card-type">Album fotograficzny</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Strona albumu na czarnym kartonie, 4 fotografie grupowe naklejone z podpisami białym atramentem.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Strona z 4 fotografiami z życia Centrum Łączności WP: (1) Lewy górny — wnętrze izby/jadalni lub warsztatu łączności; (2) Prawy górny — oficerowie przy szkoleniu/ćwiczeniach, podpis odnosi się do gen. Głuchowskiego i szkolenia; (3) Lewy dolny — formacja Kompanii Dowodzenia w szyku, podpis z datą; (4) Prawy dolny — duża formacja żołnierzy przed koszarami/barakami. Podpisy białym atramentem na czarnym kartonie — częściowo czytelne.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Żołnierze Kompanii Dowodzenia, Centrum Łączności WP</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Strona albumu (ARG/VI/4) dokumentującego wizytę gen. Głuchowskiego w Centrum Łączności. Zdjęcia pokazują: zaplecze techniczne, szkolenie oficerskie z udziałem generała, formacje paradne. Typowy album żołnierski PSZ — czarny karton, białe podpisy, uporządkowane chronologicznie.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-VI-4" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-VI-4')">ARG/VI/4</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Średni — fotografie pożółkłe/wyblakłe, podpisy częściowo czytelne</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-VI-6">
+      <div class="card-img-wrap" data-src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p28_img02.jpeg" data-title="Album Centrum Łączności — strona z 3 zdjęciami: żołnierze z gitarą, sport, życie koszarowe" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p28_img02.jpeg" alt="Album Centrum Łączności — strona z 3 zdjęciami: żołnierze z gitarą, sport, życie koszarowe" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/VI/6</div>
+        <h3 class="card-title">Album Centrum Łączności — strona z 3 zdjęciami: żołnierze z gitarą, sport, życie koszarowe</h3>
+        <div class="card-meta-row">
+          <span class="card-date">ok. III.1944</span>
+          <span class="card-type">Album fotograficzny</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Strona albumu — 3 fotografie (nie 4) luźno ułożone, oderwane od czarnego kartonu. Zdjęcia sepiowane/pożółkłe.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> 3 fotografie z życia codziennego żołnierzy Centrum Łączności: (1) Grupa żołnierzy z gitarą — scena rozrywkowa/kulturalna, jeden żołnierz gra na gitarze akustycznej; (2) Żołnierze w strojach sportowych po ćwiczeniach — scena rekreacyjna; (3) Zdjęcie grupowe żołnierzy w mundurach (ciemniejsze, trudniejsze do odczytu).</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Żołnierze Kompanii Dowodzenia, Centrum Łączności WP</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Druga strona albumu (ARG/VI/4). Sceny z życia codziennego: muzyka (gitara) i sport — typowe formy spędzania czasu w jednostkach WP w Wielkiej Brytanii. Fotografie oderwane od kartonu albumu — gorszy stan zachowania niż ARG/VI/5.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-VI-4" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-VI-4')">ARG/VI/4</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Średni — zdjęcia oderwane od kartonu, pożółkłe</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-VI-13">
+      <div class="card-img-wrap" data-src="gluchowski_img/Seria_29z_p09_img01.jpeg" data-title="Trzy fotografie obozowe" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/Seria_29z_p09_img01.jpeg" alt="Trzy fotografie obozowe" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/VI/13</div>
+        <h3 class="card-title">Trzy fotografie obozowe</h3>
+        <div class="card-meta-row">
+          <span class="card-date">1944–1945</span>
+          <span class="card-type">Fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Trzy małe fotografie czarno-białe (format ok. 6×6 cm każda), naklejone na kartonową stronę albumu. Zdjęcia w dobrej jakości, kontrastowe. Widoczne budynki i ulice — architektura niemiecka/zachodnioniemiecka, okres powojenny (lata 50.-60.).</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> TRZY FOTOGRAFIE POWOJENNYCH LOKACJI: (1) Budynek fabryczny/przemysłowy z kominem — prawdopodobnie fabryka, przy której Krzysztof pracował jako jeniec w Arbeitskommando. (2) Droga wiejska z samochodem (VW Beetle? — lata 50.-60.) i drzewami — okolice Dorsten w Westfalii? (3) Budynek mieszkalny wielorodzinny — typowa zachodnioniemiecka zabudowa powojenna. MOŻLIWA INTERPRETACJA: fotografie zrobione podczas powojennej &#x27;podróży sentymentalnej&#x27; do miejsc niewoli — Dorsten/Fallingbostel/okolic Stalagu.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Krzysztof Głuchowski (?)</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> —</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Prawdopodobna PODRÓŻ SENTYMENTALNA — powrót do miejsc niewoli lata po wojnie. Samochód VW Beetle (Garbus) na jednym zdjęciu wskazuje na lata 50.-60. Wielu byłych jeńców wracało do Niemiec odwiedzić miejsca, w których pracowali i cierpieli. Dorsten (Westfalia) — Stalag VI J, obóz Krzysztofa. Alternatywna interpretacja: zdjęcia z Niemiec z okresu emigracji (tranzyt do Brazylii?).</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-V-9" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-9')">ARG/V/9</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Średni — małe formaty</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-VI-29">
+      <div class="card-img-wrap" data-src="gluchowski_img/stefan_021.jpeg" data-title="Zbiór starych fotografii z odręcznymi podpisami — sceny plenerowe" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/stefan_021.jpeg" alt="Zbiór starych fotografii z odręcznymi podpisami — sceny plenerowe" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/VI/29</div>
+        <h3 class="card-title">Zbiór starych fotografii z odręcznymi podpisami — sceny plenerowe</h3>
+        <div class="card-meta-row">
+          <span class="card-date">XX w.</span>
+          <span class="card-type">fotografie</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Zbiór 3–4 małych fotografii sepiowych na jasnym tle, plus 2 karteczki z maszynopisem/rękopisem. Fotografie pokazują sceny plenerowe — postaci w plenerze, możliwe groby lub pomniki. Podpisy odręczne, częściowo nieczytelne.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Kompozycja złożona z kilku małych fotografii sepiowych i karteczek z opisami. Sceny plenerowe — osoby przy drzewach/pomnikach. Podpisy odręczne na karteczkach opisują osoby lub miejsca. Wymaga lepszego zdjęcia do identyfikacji.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> nieznany</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Fotografie znalezione w zbiorze dokumentów Stefana. Mogą przedstawiać groby żołnierzy, miejsca pamięci lub sceny rodzinne. Potrzebne lepsze zdjęcie do identyfikacji osób i miejsc.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-III-1" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-III-1')">ARG/III/1</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Średni — wymaga lepszego zdjęcia</div>
+        
+      </div>
+    </div>
+    <div class="card" id="card-ARG-VI-26">
+      <div class="card-img-wrap" data-src="gluchowski_img/varia_002_album_groby.jpeg" data-title="Strona albumu — 3 zdjęcia grobów/pomników z karteczkami opisowymi" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/varia_002_album_groby.jpeg" alt="Strona albumu — 3 zdjęcia grobów/pomników z karteczkami opisowymi" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/VI/26</div>
+        <h3 class="card-title">Strona albumu — 3 zdjęcia grobów/pomników z karteczkami opisowymi</h3>
+        <div class="card-meta-row">
+          <span class="card-date">lata 40.–50. XX w.</span>
+          <span class="card-type">album/fotografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Strona albumu (karton szary-brązowy, format ok. A4). Naklejone 3 czarno-białe fotografie (format ok. 6×9 cm każda) i 2 karteczki z odręcznymi opisami. Zdjęcia przedstawiają: (1) krzyż lub nagrobek z tablicą w ogrodzie/parku, (2) grób z kwiatami/wieńcami na cmentarzu, (3) dwie osoby (kobiety?) przy grobie lub pomniku. Karteczki z opisami — pismo odręczne, trudno czytelne na zdjęciu.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Strona z albumu rodzinnego dokumentująca groby i pomniki. Trzy fotografie: krzyż/nagrobek (prawdopodobnie grób powstańczy), grób udekorowany kwiatami (prawdopodobnie pogrzeb lub rocznica), dwie osoby przy pomniku/grobie. Dwie karteczki z odręcznymi opisami identyfikującymi osoby i miejsca — tekst trudny do odczytania z fotografii albumu. Kontekst: dokumentacja grobów bliskich — być może grób Lecha (poległego na Mokotowie 15.IX.1944) lub innych członków rodziny.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> nieznany (rodzina Głuchowskich)</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Album pamiątkowy — dokumentacja grobów i pomników rodzinnych/powstańczych. Zdjęcia z lat 40.-50. mogą dokumentować pochówki z okresu Powstania Warszawskiego lub tuż po wojnie. Możliwe groby: Lech Głuchowski (poległ na Mokotowie 15.IX.1944, pochowany najpierw tymczasowo, potem ekshumowany), lub groby innych członków rodziny na Powązkach. Stefan (1893–1962) pochowany na Powązkach kw. 99-IV-19. Karteczki z opisami wymagają odczytu z oryginału.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-VI-4" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-VI-4')">ARG/VI/4</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Średni</div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 
 
 
@@ -685,43 +1300,32 @@ document.addEventListener('keydown', e => {
   if(e.key==='0') zoomReset();
 });
 
-/* Open lightbox with description */
-function openGalleryLightbox(card) {
-  openLightbox(card.dataset.src, card.dataset.title);
-  /* Add description below title */
-  var opis = card.dataset.opis;
-  var existing = document.getElementById('lb-opis');
-  if (existing) existing.remove();
-  if (opis) {
-    var div = document.createElement('div');
-    div.id = 'lb-opis';
-    div.className = 'lb-opis';
-    div.textContent = opis;
-    document.getElementById('lb-title').after(div);
-  }
+function scrollToCard(cardId) {
+  var el = document.getElementById('card-' + cardId);
+  if (!el) return;
+  el.scrollIntoView({ behavior:'smooth', block:'center' });
+  el.classList.add('highlight-target');
+  setTimeout(function() { el.classList.remove('highlight-target'); }, 3000);
 }
 
-/* Gallery filtering */
-function filterGallery() {
-  var osoba = document.getElementById('filter-osoba') ? document.getElementById('filter-osoba').value : '';
-  var kat = document.getElementById('filter-kategoria') ? document.getElementById('filter-kategoria').value : '';
-  var dekada = document.getElementById('filter-dekada') ? document.getElementById('filter-dekada').value : '';
-  var seria = document.getElementById('filter-seria-gal') ? document.getElementById('filter-seria-gal').value : '';
-  var search = document.getElementById('filter-search-gal') ? document.getElementById('filter-search-gal').value.toLowerCase().trim() : '';
-  var cards = document.querySelectorAll('.gallery-card');
+function filterCards() {
+  var seria = document.getElementById('filter-seria').value;
+  var search = document.getElementById('filter-search').value.toLowerCase().trim();
+  var cards = document.querySelectorAll('.card');
   var visible = 0;
   cards.forEach(function(card) {
     var show = true;
-    if (osoba && card.dataset.osoba !== osoba) show = false;
-    if (kat && card.dataset.kategoria !== kat) show = false;
-    if (dekada && card.dataset.dekada !== dekada) show = false;
-    if (seria && card.dataset.seria !== seria) show = false;
-    if (search && card.dataset.search.indexOf(search) === -1) show = false;
+    var section = card.closest('.series');
+    var sectionSeria = section ? section.id.replace('seria-', '') : '';
+    if (seria && sectionSeria !== seria) show = false;
+    if (search) {
+      var text = card.textContent.toLowerCase();
+      if (text.indexOf(search) === -1) show = false;
+    }
     card.style.display = show ? '' : 'none';
     if (show) visible++;
   });
-  var countEl = document.getElementById('gallery-count');
-  if (countEl) countEl.textContent = visible + ' fotografii';
+  document.getElementById('card-count').textContent = visible + ' fotografii';
 }
 
 function switchLang(lang, btn) {
