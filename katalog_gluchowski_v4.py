@@ -10835,8 +10835,16 @@ body.lang-js [data-lang].lang-visible { display:revert; }
 .lb-zoom-info { position:absolute; top:20px; left:50%; transform:translateX(-50%); background:rgba(0,0,0,.7); color:var(--gold); padding:4px 12px; border-radius:4px; font-size:0.85em; opacity:0; transition:opacity .3s; z-index:10002; }
 .lb-zoom-info.visible { opacity:1; }
 
+/* FOOTER NAV BUTTONS */
+.footer-nav { display:flex; justify-content:center; gap:20px; padding:50px 20px 30px; max-width:1100px; margin:0 auto; flex-wrap:wrap; }
+.footer-btn { display:flex; flex-direction:column; align-items:center; text-decoration:none; padding:28px 24px; background:var(--surface); border:1px solid var(--border); border-radius:8px; flex:1; min-width:240px; max-width:340px; transition:all .3s; }
+.footer-btn:hover { border-color:var(--gold); transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,.3); }
+.footer-btn-icon { font-size:2.2em; margin-bottom:10px; }
+.footer-btn-label { font-family:'Playfair Display',serif; font-size:1.1em; color:var(--gold); font-weight:600; margin-bottom:6px; }
+.footer-btn-desc { font-size:0.8em; color:var(--text-dim); text-align:center; line-height:1.4; }
+
 /* FOOTER */
-.footer { text-align:center; padding:50px 20px; color:var(--text-faint); font-size:0.78em; border-top:1px solid var(--border); line-height:1.8; }
+.footer { text-align:center; padding:30px 20px 50px; color:var(--text-faint); font-size:0.78em; border-top:1px solid var(--border); line-height:1.8; }
 .footer a { color:var(--gold-dim); text-decoration:none; }
 .footer a:hover { color:var(--gold); }
 
@@ -11140,12 +11148,26 @@ def _lang_js():
 
 
 def _footer_html():
-    """Return common footer HTML."""
-    return '''<div class="footer">
+    """Return common footer HTML with navigation buttons."""
+    return '''<div class="footer-nav">
+  <a href="katalog_gluchowski_v4.html" class="footer-btn">
+    <span class="footer-btn-icon">&#128203;</span>
+    <span class="footer-btn-label">Katalog</span>
+    <span class="footer-btn-desc">Historia rodziny, biografia, badania, wycena</span>
+  </a>
+  <a href="archiwum.html" class="footer-btn">
+    <span class="footer-btn-icon">&#128247;</span>
+    <span class="footer-btn-label">Archiwum Dokumentów</span>
+    <span class="footer-btn-desc">276 skanów dokumentów, korespondencji i ephemery</span>
+  </a>
+  <a href="galeria.html" class="footer-btn">
+    <span class="footer-btn-icon">&#128444;</span>
+    <span class="footer-btn-label">Galeria Fotografii</span>
+    <span class="footer-btn-desc">Zdjęcia rodzinne, żołnierskie, uroczystości</span>
+  </a>
+</div>
+<div class="footer">
   Archiwum Rodziny Głuchowskich &mdash; Katalog Muzealny<br>
-  <a href="katalog_gluchowski_v4.html">Katalog</a> &bull;
-  <a href="archiwum.html">Archiwum Dokumentów</a> &bull;
-  <a href="galeria.html">Galeria Fotografii</a><br>
   Standard: ISAD(G) / Dublin Core &bull; &copy; 2026
 </div>'''
 
