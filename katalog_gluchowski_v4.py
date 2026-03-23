@@ -10969,10 +10969,10 @@ GALLERY_PHOTOS = [
     },
     {
         "file": "gallery/v2_p05_011.jpg",
-        "tytul": "Zjazd Klanowy — potrójna proweniencja, plk Głuchowski przy kinie Dundee",
-        "data": "ok. 1942–1944",
-        "osoba": "płk Głuchowski",
-        "opis": "Oficerowie przed kinem w Dundee. Szyld 'Prices of Admission'. Płk Głuchowski zidentyfikowany na rewersie. Zjazd Klanowy (Clan Gathering) — wydarzenie integracyjne polsko-szkockie."
+        "tytul": "Zjazd Klanowy — gen. Głuchowski i ppor. Kazimierz Sabbat (przyszły Prezydent RP), Dundee 6.III.1945",
+        "data": "6.III.1945",
+        "osoba": "gen. Janusz Głuchowski, ppor. Kazimierz Sabbat (przyszły Prezydent RP 1986–1989)",
+        "opis": "ODKRYCIE BIOGRAFICZNE: Na zdjęciu obok gen. Głuchowskiego stoi ppor. Kazimierz Sabbat — przyszły Premier (1976–1986) i Prezydent RP na Uchodźstwie (1986–1989). Sabbat ukończył prawo na UW, służył w 10. Brygadzie Kawalerii Pancernej. Oficerowie przed kinem w Dundee, szyld 'Prices of Admission'. Zjazd Klanowy 6.III.1945. Rewers: 'plk Gluch., Zjazd Klanowy 6.III.1945 Dundee / Pierwszy od prawej ppor. um. Kazimiera Sabat'. POTRÓJNA PROWENIENCJA: stempel fot. Wł. Prytys + stempel Czołówki + stempel Ze Zbiorów Krzysztofa Głuchowskiego."
     },
 
     # ============================================================
@@ -11234,6 +11234,108 @@ GALLERY_PHOTOS = [
         "data": "ok. 1941–1943",
         "osoba": "",
         "opis": "Portret oficera z teczką dokumentów. Prawdopodobnie oficer sztabowy Brygady Szkolnej."
+    },
+
+    # ============================================================
+    # DODATKOWE ZDJĘCIA — odkryte podczas analizy szczegółowej
+    # ============================================================
+    {
+        "file": "gallery/v2_p06_012.jpg",
+        "tytul": "North Berwick 12.IX.1944 — Raczkiewicz w obozie PSK, dedykacja Niekraszowej",
+        "data": "12.IX.1944",
+        "osoba": "prez. Władysław Raczkiewicz, ochotniczka S. Niekraszowa",
+        "opis": "Oficer, Prezydent Raczkiewicz i kobieta w mundurze PSK przed budynkiem z pnączami. Napis na awersie: 'North Berwick 12-IX-1944'. Rewers: 'JWPanu Generałowi na miłe wspomnienie z koncertu, z okazji wizyty p. Prezydenta w Obozie P.S.K. Dn. 12/IV-1944r. Ocl. S. Niekraszowa.' NOWA LOKALIZACJA: North Berwick, East Lothian — jedyne zdjęcie z tego rejonu. 12 września 1944 — Powstanie Warszawskie trwa od 6 tygodni."
+    },
+    {
+        "file": "gallery/v2_p12_033.jpg",
+        "tytul": "Odznaczenia dla Czechosłowaków — gen. Karel Janoušek, lipiec 1941",
+        "data": "VII.1941",
+        "osoba": "gen. Karel Janoušek (Czechosłowacja), płk Minikiewicz (+)",
+        "opis": "ODKRYCIE: Sześciu oficerów na schodach — mundury polskie, czechosłowackie i brytyjskie RAF. Gen. Karel Janoušek — szef lotnictwa czechosłowackiego (Air Vice-Marshal, KBE, CB). Rewers: 'Lipiec 1941. Anglia / obóz lotniczy Czecho-Słowacki / wręczenie polskich odznaczeń Słowakom... gen. Janousek, plk. Minikiewicz (+)'. Płk Minikiewicz poległ po zrobieniu zdjęcia. Polsko-czechosłowacka współpraca wojskowa na jednym zdjęciu."
+    },
+    {
+        "file": "gallery/v2_p11_027.jpg",
+        "tytul": "Internowani w Rumunii — Băile Herculane, jesień 1939",
+        "data": "1939",
+        "osoba": "",
+        "opis": "Grupa polskich oficerów przed pomnikiem Herkulesa w uzdrowisku Băile Herculane, po klęsce wrześniowej. Rewers: 'Baile Herculanum / 1939 r. / Internowani w Rumunii'. Głuchowski przebywał tu od września 1939 — wcześniej bywał na wakacjach (1926). POWIĄZANIE: trzy zdjęcia z tego samego miejsca — 1926 (wakacje), 1939 (internowanie), 1940 (wiosna przed ucieczką)."
+    },
+    {
+        "file": "gallery/v2_p11_028.jpg",
+        "tytul": "Prezydent Raczkiewicz na polowaniu — Highlands 1943",
+        "data": "1943",
+        "osoba": "prez. Władysław Raczkiewicz",
+        "opis": "Grupa ludzi w polu pokrytym paprociami (bracken). Stożkowe wzgórze w tle — typowy szkocki ben. Rewers: '1943 Szkocja / wizyta pres. Raczkiewicza / polow.' Prezydent RP na polowaniu na pardwy (grouse) w Highlands — tradycyjna rozrywka na szkockich posiadłościach."
+    },
+    {
+        "file": "gallery/v2_p16_043.jpg",
+        "tytul": "Gen. Głuchowski ściska dłoń fotografowi Prytysowi — portret z aparatem",
+        "data": "ok. 1943–1945",
+        "osoba": "gen. Janusz Głuchowski, fot. Władysław Prytys",
+        "opis": "ODKRYCIE: Dwóch mężczyzn ściska sobie dłonie. Oficer po lewej — Głuchowski. Młodszy mężczyzna po prawej — uśmiechnięty, na szyi wisi APARAT FOTOGRAFICZNY. To jest Władysław Prytys — fotograf Czołówki Filmowo-Fotograficznej Dowództwa Jednostek Wojsk w Wielkiej Brytanii. Autor wielu zdjęć w kolekcji. Kolekcja Prytysia (20 000 negatywów) jest w IWM Londyn. Metaobraz — fotograf sfotografowany."
+    },
+    {
+        "file": "gallery/v2_p16_042.jpg",
+        "tytul": "Oficerowie w mundurach II RP — Polska międzywojenna",
+        "data": "ok. 1925–1935",
+        "osoba": "",
+        "opis": "Oficerowie w mundurach II RP — rogatywki, pasy oficerskie — stoją przed okazałym budynkiem miejskim. Jeden oficer na pierwszym planie w butach z cholewami. Stempel 'Ze Zbiorów Krzysztofa Głuchowskiego' na pocztówce."
+    },
+    {
+        "file": "gallery/v2_p15_039.jpg",
+        "tytul": "Zjazd Klanowy — 80 oficerów na ulicy Dundee, 6.III.1945 (fot. Prytys)",
+        "data": "6.III.1945",
+        "osoba": "80 oficerów PSZ",
+        "opis": "Zdjęcie grupowe — 80 oficerów na ulicy Dundee. Zabudowa wiktoriańska. Kilka kobiet PSK. Rewers: 'Zjazd Klanowy 6.III (Marzec) 1945. Dundee / Obecnych 80.' Stempel Czołówki fot. Wł. Prytys. To samo wydarzenie co zdjęcie z Sabbatem przy kinie."
+    },
+    {
+        "file": "gallery/v2_p17_046.jpg",
+        "tytul": "Szkoccy dudziarze (pipers) — polsko-szkockie braterstwo broni",
+        "data": "ok. 1942–1945",
+        "osoba": "",
+        "opis": "Pipers w kiltach grają na dudach przed kamiennym budynkiem. Na balkonie obserwatorzy — polscy i szkoccy oficerowie. Symbol integracji polsko-szkockiej — szkocka muzyka na polskiej uroczystości."
+    },
+    {
+        "file": "gallery/s1_p13_012.jpg",
+        "tytul": "Defilada kawalerii z lancami — pogrzeb Marszałka Piłsudskiego, Pole Mokotowskie, maj 1935",
+        "data": "17.V.1935",
+        "osoba": "Marszałek Józef Piłsudski (pogrzeb)",
+        "opis": "PERŁA KOLEKCJI. Kolumna szwoleżerów z lancami z proporczykami defiluje na Polu Mokotowskim przed trumną Marszałka Piłsudskiego. Rewers: 'DEFILADA PRZED TRUMNĄ MARSZAŁKA / MAJ 1935 / POLE MOKOTOWSKIE / SZWOLEŻEROWIE'. Głuchowski jako I Wiceminister MSWojsk stał na trybunie. Piłsudski — człowiek który wysłał Siódemkę Beliny w 1914 — leży w trumnie. Ostatnia wielka defilada konna II RP."
+    },
+    {
+        "file": "gallery/s1_p41_040.jpg",
+        "tytul": "Ranny oficer na kulach salutuje — WSF N°5829",
+        "data": "ok. 1942–1943",
+        "osoba": "",
+        "opis": "NAJSILNIEJSZE EMOCJONALNIE ZDJĘCIE W KOLEKCJI. Ranny oficer na dwóch kulach unosi prawą rękę w salucie. Noga w gipsie. Mundur z odznaczeniami. Za nim polskie orły na ścianie. Oficer po lewej salutuje mu — oddaje honory rannemu. WSF N°5829."
+    },
+    {
+        "file": "gallery/s1_p26_025.jpg",
+        "tytul": "Rtm. Tadeusz Łoś — adiutant gen. Głuchowskiego, portret 1940",
+        "data": "1940",
+        "osoba": "rtm. Tadeusz Łoś",
+        "opis": "Portret młodego oficera z orłami na kołnierzu. Rewers: 'RTM. ŁOŚ TADEUSZ / ADJUTANT / GEN. GŁUCHOWSKIEGO / FOTOGRAFIA Z 1940 R.' Pieczęć Głuchowskiego. Rotmistrz = stopień kawaleryjski odpowiadający kapitanowi. Towarzyszył Głuchowskiemu od Rumunii."
+    },
+    {
+        "file": "gallery/s1_p34_033.jpg",
+        "tytul": "Reprodukcja portretu Marszałka Piłsudskiego — 'NAŚLADOWANIE WZBRONIONE'",
+        "data": "ok. 1920–1935",
+        "osoba": "Marszałek Józef Piłsudski",
+        "opis": "Reprodukcja fotograficzna portretu malarskiego Piłsudskiego. Napis 'NAŚLADOWANIE WZBRONIONE'. Silnie zużyta — wisiała latami na ścianie gabinetu generała. Taśma klejąca na odwrocie. Pęknięcia = lata podróży z Głuchowskim (Warszawa → Rumunia → Palestyna → Szkocja). RELIKWIA — portret Komendanta w gabinecie członka Siódemki Beliny."
+    },
+    {
+        "file": "gallery/s1_p35_034.jpg",
+        "tytul": "Pocztówka patriotyczna — Piłsudski z córkami Wandą i Jadwigą",
+        "data": "ok. 1928–1935",
+        "osoba": "Marszałek Józef Piłsudski, Wanda Piłsudska, Jadwiga Piłsudska",
+        "opis": "Masowa pocztówka patriotyczna II RP. Piłsudski w maciejówce legionowej z dwójką małych córek. Pieczęć 'Ze Zbiorów Krzysztofa Głuchowskiego' na rewersie. POWIĄZANIE: ARG/II/36 — list Adama Piłsudskiego (bratanka Marszałka) do Głuchowskiego. Rodziny Piłsudskich i Głuchowskich były blisko."
+    },
+    {
+        "file": "gallery/s2_p14_023.jpg",
+        "tytul": "Portret cywilny — Głuchowski po demobilizacji, Londyn, lata 50.",
+        "data": "ok. 1950–1960",
+        "osoba": "gen. Janusz Głuchowski",
+        "opis": "Jedyny powojenny portret generała. Profesjonalny portret studyjny w cywilnym garniturze. Siwe falowane włosy, wąsik, mocne rysy. Głuchowski po demobilizacji PSZ — prezes Zrzeszenia Kół Pułkowych Kawalerii (1953–1964), prezes Rady Instytutu Piłsudskiego w Londynie (od 1963). Zmarł 11 czerwca 1964 w Londynie."
     },
 ]
 
