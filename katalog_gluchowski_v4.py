@@ -10649,16 +10649,592 @@ function filterPhotos() {{
 # GALERIA FOTOGRAFII — zdjęcia rodzinne, żołnierskie, uroczystości
 # ============================================================================
 GALLERY_PHOTOS = [
-    # Example structure — will be filled with 200+ photos
-    # {
-    #     "file": "gallery/photo_001.jpeg",
-    #     "tytul": "Gen. Janusz Głuchowski na defiladzie, Warszawa 1937",
-    #     "data": "1937",
-    #     "osoba": "Janusz Głuchowski",
-    #     "kategoria": "defilada",    # defilada/portret/uroczystosc/rodzinne/wojskowe
-    #     "seria": "II",
-    #     "opis": "Krótki opis zdjęcia"
-    # },
+    # ============================================================
+    # SUPPLEMENT — Inspekcja Bóra-Komorowskiego, Kelso 15.VI.1945
+    # ============================================================
+    {
+        "file": "gallery/sup_p02_001.jpg",
+        "tytul": "Szwadron honorowy 3. Pułku Pancernego — inspekcja Naczelnego Wodza, Kelso",
+        "data": "15.VI.1945",
+        "osoba": "gen. Tadeusz Bór-Komorowski (Naczelny Wódz)",
+        "opis": "Szpaler żołnierzy w hełmach stalowych na placu apelowym. Sztandar 3. Pułku Pancernego z numerem i symbolem pancernym w centrum formacji. Oficer z białymi rękawiczkami na pierwszym planie. Odbitka WSF N°4502. Bór-Komorowski objął funkcję NW zaledwie 3 tygodnie wcześniej, po uwolnieniu z niemieckiej niewoli."
+    },
+    {
+        "file": "gallery/sup_p04_004.jpg",
+        "tytul": "Bór-Komorowski przy radiostacji polowej na jeepie Willys MB — Kelso",
+        "data": "15.VI.1945",
+        "osoba": "gen. Tadeusz Bór-Komorowski",
+        "opis": "Dwóch oficerów pochylonych nad sprzętem radiowym rozłożonym na masce jeepa Willys MB. Oficer po lewej w berecie — Bór-Komorowski. Radiostacja polowa z kablami. Tło — szkocka zieleń, lato. Odbitka WSF N°4504."
+    },
+    {
+        "file": "gallery/sup_p05_005.jpg",
+        "tytul": "Naczelny Wódz na trybunie honorowej z Orłem Białym — Kelso",
+        "data": "15.VI.1945",
+        "osoba": "gen. Tadeusz Bór-Komorowski",
+        "opis": "Czterech oficerów na udekorowanej trybunie honorowej. Duży Orzeł Biały w koronie na ciemnym tle, girlandy z zieleni, flaga biało-czerwona. Za nimi kamienny mur szkockiego miasteczka. Odbitka WSF N°4524."
+    },
+
+    # ============================================================
+    # SUPPLEMENT — Gen. Sikorski i gen. Klimecki — ofiary Gibraltaru
+    # ============================================================
+    {
+        "file": "gallery/sup_p06_007.jpg",
+        "tytul": "Gen. Klimecki, gen. Sikorski i gen. Głuchowski — Szkoła Podchorążych, Szkocja 1941",
+        "data": "1941",
+        "osoba": "gen. Władysław Sikorski (NW), gen. Tadeusz Klimecki, gen. Janusz Głuchowski",
+        "opis": "Kilku oficerów w rogatywkach na placu apelowym, w tle szeregi żołnierzy i szkockie wzgórza. Dwóch generałów stoi twarz w twarz. Rewers: '1941r. inspekcje / gn. Klimecki, gn. Sikorski / gen. Głuchowski / Szkoła Podch.' UNIKALNE — Sikorski i Klimecki zginęli razem w katastrofie gibraltarskiej 4.VII.1943. Zdjęcia tych dwóch osób razem są wyjątkowo rzadkie."
+    },
+    {
+        "file": "gallery/sup_p07_009.jpg",
+        "tytul": "Generał na trybunie — prawdopodobnie gen. Sikorski, Szkocja 1941",
+        "data": "1941",
+        "osoba": "gen. Władysław Sikorski (?)",
+        "opis": "Zbliżenie na starszego generała w rogatywce z odznaczeniami, rozmawia z oficerem na polu. Wysoka ranga — liczne barretki i odznaczenia. Kontekst z poprzedniego zdjęcia sugeruje Sikorskiego jako Naczelnego Wodza podczas inspekcji Szkoły Podchorążych."
+    },
+
+    # ============================================================
+    # SUPPLEMENT — Gen. Władysław Anders — bohater Monte Cassino
+    # ============================================================
+    {
+        "file": "gallery/sup_p08_010.jpg",
+        "tytul": "Gen. Thorn i gen. Anders — uścisk dłoni, odbitka WSF N°9840",
+        "data": "ok. 1945",
+        "osoba": "gen. Anders, gen. Thorn",
+        "opis": "Dwóch generałów ściska sobie dłonie w ciemnym wnętrzu. Oficer po lewej — starszy, siwe włosy, laska, liczne barretki (prawdopodobnie gen. Głuchowski lub Thorn). Oficer po prawej — w battledressie z licznymi odznaczeniami, naszywkami. Rewers: 'gła Thorn / i gen Anders' + stempel WSF N°9840. Spotkanie symbolizuje jedność dwóch gałęzi PSZ (Szkocja i Włochy)."
+    },
+
+    # ============================================================
+    # SUPPLEMENT — Prezydent Władysław Raczkiewicz w Szkocji
+    # ============================================================
+    {
+        "file": "gallery/sup_p10_012.jpg",
+        "tytul": "Inspekcja polowa — prezydent Raczkiewicz w Highlands",
+        "data": "1943",
+        "osoba": "prez. Władysław Raczkiewicz, gen. Janusz Głuchowski",
+        "opis": "Grupa oficerów i cywil w ciemnym płaszczu i kapeluszu na otwartym terenie — szkockie Highlands w tle. Cywil to Prezydent RP na Uchodźstwie Władysław Raczkiewicz, otoczony oficerami w mundurach polowych."
+    },
+    {
+        "file": "gallery/sup_p11_013.jpg",
+        "tytul": "Prezydent Raczkiewicz z Gwiazdą Orderu — szpaler oficerów",
+        "data": "1943",
+        "osoba": "prez. Władysław Raczkiewicz, gen. Janusz Głuchowski",
+        "opis": "Szpaler oficerów i żołnierzy na baczność. Cywil w ciemnym płaszczu i kapeluszu z dużym orderem gwiaździstym na piersi (Gwiazda Orderu Odrodzenia Polski lub Order Orła Białego). Kobiety w mundurach PSK w tle. Wzgórza szkockie w oddali. Rewers: 'Gen. Gluch[owski]'."
+    },
+    {
+        "file": "gallery/sup_p12_015.jpg",
+        "tytul": "Raczkiewicz z oficerami — inspekcja polowa",
+        "data": "1943",
+        "osoba": "prez. Władysław Raczkiewicz, gen. Janusz Głuchowski",
+        "opis": "Grupa oficerów i cywil na otwartym terenie. Raczkiewicz w czarnym płaszczu i kapeluszu z profilu. Obok starszy generał z gwiazdą orderu (Głuchowski). Silne cienie — zdjęcie robione w południe."
+    },
+    {
+        "file": "gallery/sup_p13_018.jpg",
+        "tytul": "Prezydent Raczkiewicz przyjmuje Lord Provost Edynburga — zdjęcie grupowe",
+        "data": "ok. 1943–1944",
+        "osoba": "prez. Władysław Raczkiewicz, Lord Provost Edynburga, gen. Janusz Głuchowski",
+        "opis": "Grupowe zdjęcie na schodach monumentalnego kamiennego budynku. Kilkanaście osób: oficerowie, kobiety w mundurach PSK, cywile, duchowny. W centrum Raczkiewicz. Chłopiec w mundurze (junak?). Wizyta protokolarna na poziomie dyplomatycznym. Rewers: 'prezyd. Raczkiewicz przyjmuje / Mayora miasta Edimburgha / w Szkocji'."
+    },
+    {
+        "file": "gallery/sup_p14_019.jpg",
+        "tytul": "Lord Provost Edynburga z łańcuchem urzędowym — bliższe ujęcie",
+        "data": "ok. 1943–1944",
+        "osoba": "Lord Provost Edynburga, prez. Raczkiewicz, gen. Głuchowski",
+        "opis": "Zbliżenie grupy na schodach. Lord Provost w mundurze brytyjskim z ozdobnym łańcuchem urzędowym (Chain of Office). Za nim Lady Provost w eleganckim kapeluszu. Po prawej Głuchowski. Dowód relacji dyplomatycznych między polskim rządem na uchodźstwie a władzami szkockimi."
+    },
+
+    # ============================================================
+    # SUPPLEMENT — Gen. Głuchowski — portrety i inspekcje
+    # ============================================================
+    {
+        "file": "gallery/sup_p16_021.jpg",
+        "tytul": "Głuchowski w Szkole Podchorążych — Szkocja",
+        "data": "ok. 1941",
+        "osoba": "gen. Janusz Głuchowski",
+        "opis": "Trzech oficerów idzie przez podwórze szkockiego miasteczka. Centralny oficer w mundurze galowym z pasem, butami z cholewami, rogatywką generalską — gen. Janusz Głuchowski. Kamienne domy z charakterystycznymi kominami. Rewers: 'Gen. Janusz / Głuchowski / Szkocja / inspekcja w / Szkole / Podchorążych'."
+    },
+    {
+        "file": "gallery/sup_p17_023.jpg",
+        "tytul": "Inspekcja Głuchowskiego na placu — ze stemplem proweniencyjnym",
+        "data": "ok. 1941",
+        "osoba": "gen. Janusz Głuchowski",
+        "opis": "Dwóch oficerów w rogatywkach i płaszczach zimowych idzie między szpalerami żołnierzy na baczność. Trawiasty plac, gołe drzewa, szkocki domek w tle. Format kwadratowy 6×6 cm. Rewers: 'SZKOCJA / Gen. JANUSZ GŁUCHOWSKI / 1. / INSPEKCJA' + pieczęć ZE ZBIORÓW KRZYSZTOFA GŁUCHOWSKIEGO z symbolem ichthys."
+    },
+    {
+        "file": "gallery/sup_p18_025.jpg",
+        "tytul": "Trzy odbitki inspekcyjne — Głuchowski przy samochodzie",
+        "data": "ok. 1941",
+        "osoba": "gen. Janusz Głuchowski",
+        "opis": "Trzy małe odbitki z jednej serii: oficerowie na podwórzu, zbliżenie Głuchowskiego rozmawiającego z oficerem przy samochodzie, Głuchowski przy samochodzie z oficerem trzymającym dokumenty. Rewers jednego: 'Inspekcja moja' — adnotacja w pierwszej osobie, prawdopodobnie ręka samego generała."
+    },
+    {
+        "file": "gallery/sup_p19_027.jpg",
+        "tytul": "Gen. Głuchowski i gen. Copański przed defiladą — Kinross 1945",
+        "data": "1945",
+        "osoba": "gen. Janusz Głuchowski, gen. Stanisław Kopański",
+        "opis": "Dwóch oficerów na trybunie z girlandami, lato. Głuchowski w rogatywce z dużym krzyżem orderu. Drugi generał w berecie, z uśmiechem. Oficer salutuje na dole kadru. Rewers: 'przed defiladą C. I-gor. w Kinross / gen. Głuchowski i gen. Copa[ński] / 1945 r.'"
+    },
+
+    # ============================================================
+    # SUPPLEMENT — Przedwojenna II RP
+    # ============================================================
+    {
+        "file": "gallery/sup_p20_030.jpg",
+        "tytul": "Promocja w Szkole Podchorążych Kawalerii — Grudziądz 1937",
+        "data": "15.X.1937",
+        "osoba": "gen. Janusz Głuchowski",
+        "opis": "Starszy oficer w generalskiej rogatywce wręcza szablę młodszemu oficerowi. Tłum widzów w tle. Na wzgórzu Wieża Klimek — charakterystyczny element krajobrazu Grudziądza. Piaszczysty plac, jesień. Rewers: 'S.P. Kaw. Grudziądz / 1937r / 15.X / Promocja i mianowanie...' Szkoła Podchorążych Kawalerii w Grudziądzu — najważniejsza uczelnia kawaleryjska II RP."
+    },
+
+    # ============================================================
+    # SUPPLEMENT — 10 Brygada Kawalerii / Galashiels
+    # ============================================================
+    {
+        "file": "gallery/sup_p21_032.jpg",
+        "tytul": "Oficerowie 10. Brygady Kawalerii w Galashiels — maj 1942",
+        "data": "24.V.1942",
+        "osoba": "oficerowie 10.B.K.",
+        "opis": "Trzech oficerów w mundurach galowych II RP z rogatywkami, przed witryną sklepu w szkockim miasteczku. Buty z ostrogami, pasy oficerskie, odznaczenia. W szybie sklepu napis 'AUCTIONEERS'. Rewers: 'Oto uczci domapy zamcu (Szkocja) / Galashiels / 24.V.42' + pieczęć ZE ZBIORÓW KRZYSZTOFA GŁUCHOWSKIEGO. 10.B.K. — przyszła 1. Dywizja Pancerna gen. Maczka."
+    },
+
+    # ============================================================
+    # SUPPLEMENT — Czołg / inspekcja pancerna
+    # ============================================================
+    {
+        "file": "gallery/sup_p22_033.jpg",
+        "tytul": "Czołg Cromwell/Centaur — inspekcja formacji pancernej",
+        "data": "ok. 1943–1944",
+        "osoba": "",
+        "opis": "Grupa oficerów i żołnierzy idzie wzdłuż drogi, na której stoi czołg Cromwell lub Centaur. Widać charakterystyczną wieżę z krótkoluowym działem i gąsienice. Na kadłubie litera lub symbol. Gołe drzewa — jesień lub wczesna wiosna."
+    },
+
+    # ============================================================
+    # SUPPLEMENT — Polskie pociągi pancerne w Szkocji
+    # ============================================================
+    {
+        "file": "gallery/sup_p23_034.jpg",
+        "tytul": "Inspekcja w pociągach pancernych — czerwiec 1941",
+        "data": "VI.1941",
+        "osoba": "gen. Janusz Głuchowski (?)",
+        "opis": "Grupa pięciu oficerów na tle stalowej konstrukcji — nitowane blachy pancerne wagonu bojowego. Oficer po lewej w polskiej rogatywce. RZADKI TEMAT: 1. Dywizjon Pociągów Pancernych PSZ patrolował wybrzeże Szkocji w ramach obrony przeciwinwazyjnej. Polacy obsługiwali 3 z 12 pociągów pancernych w całej Wielkiej Brytanii. Rewers: 'Szkocja / inspekcja w pociągach / pancernych czerwiec 1941r.'"
+    },
+    {
+        "file": "gallery/sup_p24_037.jpg",
+        "tytul": "Polski pociąg pancerny na stacji — Szkocja",
+        "data": "ok. 1941",
+        "osoba": "",
+        "opis": "Stacja kolejowa — żołnierze w hełmach Brodie maszerują po peronie między składami. Po lewej opancerzony wagon z nitowanymi blachami. Po prawej parowóz parowy. Semafory kolejowe, słupy telegraficzne. Rewers: 'Polskie pociągi pancerne / w Anglii'. Absolutna rzadkość w ikonografii PSZ."
+    },
+
+    # ============================================================
+    # SUPPLEMENT — Palestyna, Latrun 1941
+    # ============================================================
+    {
+        "file": "gallery/sup_p25_038.jpg",
+        "tytul": "Oficer na koniu — Latrun, Palestyna 1941 (z dedykacją)",
+        "data": "1941",
+        "osoba": "gen. Janusz Głuchowski",
+        "opis": "Oficer na białym/siwym koniu w obozie polowym — namiot wojskowy w tle, suchy krajobraz bliskowschodni, drewniane baraki. Mundur polowy z furażerką, pas Sam Browne. Rewers (POST CARD): dedykacja — 'Szanownym i Miłemu [...] / gen. bryg Januszowi Głuchowskiemu / na pamiątkę wspólnej pracy i służby / w Palestynie 1941'. Głuchowski przebywał w Palestynie w drodze z Rumunii do Szkocji."
+    },
+
+    # ============================================================
+    # SUPPLEMENT — Zjazd Kawalerzyjski, marzec 1941
+    # ============================================================
+    {
+        "file": "gallery/sup_p26_041.jpg",
+        "tytul": "Zjazd Kawalerzystów — przemówienie z podium, marzec 1941",
+        "data": "III.1941",
+        "osoba": "gen. Janusz Głuchowski",
+        "opis": "Scena w sali teatralnej. Na podium oficer przemawia za stołem prezydialnym. Palmy doniczkowe, zasłony, kwiaty. Widok z sali — fotograf siedział wśród publiczności. Rewers: 'Zjazd Kawaler[ystów] / marzec 1941r. / Szkocja'. Ważne wydarzenie integracyjne polskiej kawalerii na emigracji."
+    },
+    {
+        "file": "gallery/sup_p27_042.jpg",
+        "tytul": "Zjazd Kawalerzystów — 'ja otwieram' — dramatyczne ujęcie",
+        "data": "III.1941",
+        "osoba": "gen. Janusz Głuchowski",
+        "opis": "Dramatyczne ujęcie: oficer stoi za stołem prezydialnym, opadające zasłony, smugi światła reflektorów przecinają dym papierosowy. Palma, karafka na stole. Atmosfera filmowa. Rewers: 'Zjazd Kawaler[ystów] / Marzec 1941 / Szkocja / ja otwieram / Gen. JANUSZ GŁUCHOWSKI'. Adnotacja 'ja otwieram' — generał otwierał zjazd."
+    },
+
+    # ============================================================
+    # SUPPLEMENT — Wigilia WSF
+    # ============================================================
+    {
+        "file": "gallery/sup_p28_045.jpg",
+        "tytul": "Oficerowie na brukowanym placu — ujęcie z góry, WSF N°8857",
+        "data": "ok. 1942–1943",
+        "osoba": "",
+        "opis": "Ujęcie z góry. Grupa kilkunastu oficerów w battledressach z beretami otacza centralną postać — cywila w czarnym płaszczu i kapeluszu. Brukowany plac. Jeden z oficerów robi zdjęcie aparatem. Odbitka WSF N°8857."
+    },
+    {
+        "file": "gallery/sup_p29_047.jpg",
+        "tytul": "Wigilia wojskowa z dekoracjami — WSF N°8892",
+        "data": "ok. 1942–1943",
+        "osoba": "",
+        "opis": "Wnętrze udekorowane papierowymi ozdobami — zygzaki, wycinanki (polskie tradycje ludowe). Wysoki, łysy generał z odznaczeniami w centrum. Kapelan z białą stułą. Stół zastawiony. Odbitka WSF N°8892. Zamyka serię wigilijną (N°8841, 8857, 8866, 8892)."
+    },
+
+    # ============================================================
+    # SUPPLEMENT — Procesja i spotkanie z PSK
+    # ============================================================
+    {
+        "file": "gallery/sup_p30_048.jpg",
+        "tytul": "Procesja Bożego Ciała — Szkocja",
+        "data": "ok. 1942–1944",
+        "osoba": "gen. Janusz Głuchowski",
+        "opis": "Oficerowie i żołnierze w uroczystym szyku na tle kwitnących drzew. Prawdopodobnie procesja Bożego Ciała — tradycyjna uroczystość religijna polskich żołnierzy w Szkocji."
+    },
+    {
+        "file": "gallery/sup_p30_049.jpg",
+        "tytul": "Spotkanie z kobietami PSK — wnętrze z kominkiem",
+        "data": "ok. 1942–1944",
+        "osoba": "",
+        "opis": "Wnętrze eleganckiego pokoju z kominkiem. Kobiety w mundurach Pomocniczej Służby Kobiet — jedna w okularach podaje ciasto. Oficer z naszywką POLAND. Na pierwszym planie starszy oficer tyłem (Głuchowski?). Życie towarzyskie Brygady Szkolnej."
+    },
+
+    # ============================================================
+    # V2 — KATEGORIA A: Seria holenderska — wyzwolenie obozu, 12–13.IV.1945
+    # ============================================================
+    {
+        "file": "gallery/v2_p02_001.jpg",
+        "tytul": "Wyzwolenie obozu kobiet w Holandii — moment radości, WSF N°3989",
+        "data": "12.IV.1945",
+        "osoba": "",
+        "opis": "Kobiety w obozie tuż po wyzwoleniu przez Wojsko Polskie. Mieszanka mundurów PSK i ubrań cywilnych, sceny radości. W tle ogrodzenie obozowe. Odbitka WSF. PEŁNA SERIA 8 ZDJĘĆ dokumentująca wyzwolenie obozu kobiet PSK w Holandii — absolutna rzadkość."
+    },
+    {
+        "file": "gallery/v2_p02_002.jpg",
+        "tytul": "Wyzwolenie — formacja kobiet z flagą na maszcie",
+        "data": "12.IV.1945",
+        "osoba": "",
+        "opis": "Ceremonia podniesienia flagi polskiej na maszcie w obozie. Kobiety w mundurach i cywile w szeregu. Baraki obozowe w tle. Dzień po wyzwoleniu."
+    },
+    {
+        "file": "gallery/v2_p02_003.jpg",
+        "tytul": "Wyzwolenie — kobiety z obozu i oficerowie, radość",
+        "data": "12.IV.1945",
+        "osoba": "",
+        "opis": "Grupowe zdjęcie po wyzwoleniu. Kobiety i mężczyźni — mieszanka mundurów wojskowych i ubrań cywilnych. Uśmiechnięte twarze. Drzewa w tle — wiosna w Holandii."
+    },
+    {
+        "file": "gallery/v2_p03_004.jpg",
+        "tytul": "Wyzwolenie — porucznik (raport komendantki obozu)",
+        "data": "12.IV.1945",
+        "osoba": "por. Irena Milewska, ppłk Kosnicki",
+        "opis": "Formacja kobiet-żołnierek. Porucznik składa raport starszemu oficerowi. Rewers: 'N 3997 / Holandia. 12.4.1945 / Raport Komendantki obozu por. Milewska Ireny — ppłkow. Kosnickiemu.' Stempel WSF."
+    },
+    {
+        "file": "gallery/v2_p03_005.jpg",
+        "tytul": "Wyzwolenie — sceny z obozu nazajutrz, ciężarówka z numerem 52",
+        "data": "13.IV.1945",
+        "osoba": "",
+        "opis": "Sceny z dnia po wyzwoleniu. Kobiety w ruchu, ciężarówka z numerem taktycznym 52. Rewers: 'N 4008 / Holandia — 1945 / Sceny z obozu nazajutrz po uwolnieniu'. Stempel WSF."
+    },
+    {
+        "file": "gallery/v2_p03_006.jpg",
+        "tytul": "Wyzwolenie — obóz z barkami i Czerwonym Krzyżem",
+        "data": "12–13.IV.1945",
+        "osoba": "",
+        "opis": "Widok obozu — drewniane baraki, samochód z oznaczeniem Czerwonego Krzyża, tłum cywilów i wojskowych. Wiosenna zieleń. Dokumentacja warunków obozowych."
+    },
+    {
+        "file": "gallery/v2_p03_007.jpg",
+        "tytul": "Wyzwolenie — formacja żołnierzy przed barakami",
+        "data": "12–13.IV.1945",
+        "osoba": "",
+        "opis": "Żołnierze w szyku przed drewnianymi barakami obozowymi. Oficer dokonuje przeglądu. Dokumentacja przejmowania obozu."
+    },
+    {
+        "file": "gallery/v2_p04_008.jpg",
+        "tytul": "Wyzwolenie — podniesienie flagi (ujęcie z masztem)",
+        "data": "12.IV.1945",
+        "osoba": "",
+        "opis": "Ceremonia podniesienia flagi polskiej. Maszt flagowy, żołnierze w hełmach Brodie. WSF N°3998."
+    },
+
+    # ============================================================
+    # V2 — KATEGORIA A cd.: Inspekcja Bóra-Komorowskiego, Raczkiewicz, ceremonie
+    # ============================================================
+    {
+        "file": "gallery/v2_p05_009.jpg",
+        "tytul": "Inspekcja Bóra-Komorowskiego w Kelso — żołnierze przy czołgu, WSF N°4519",
+        "data": "15.VI.1945",
+        "osoba": "gen. Tadeusz Bór-Komorowski",
+        "opis": "Naczelny Wódz gen. Bór-Komorowski dokonuje inspekcji 3. Pułku Pancernego. Słucha założeń do ćwiczeń w strzelaniu czołgów. Pojazd pancerny w tle. Rewers: stempel POLISH MINISTRY, N°4519."
+    },
+    {
+        "file": "gallery/v2_p05_010.jpg",
+        "tytul": "Prezydent Raczkiewicz i oficerowie — Dundee",
+        "data": "1944",
+        "osoba": "prez. Władysław Raczkiewicz, gen. Janusz Głuchowski",
+        "opis": "Portret trzech mężczyzn: Prezydent Raczkiewicz, Lord Provost z łańcuchem, oficer polski. Rewers: 'Szkocja Dundee 1944 r. / pres. Raczkiewicz, Major Edynburga'. Stempel WSF."
+    },
+    {
+        "file": "gallery/v2_p05_011.jpg",
+        "tytul": "Zjazd Klanowy — potrójna proweniencja, plk Głuchowski przy kinie Dundee",
+        "data": "ok. 1942–1944",
+        "osoba": "płk Głuchowski",
+        "opis": "Oficerowie przed kinem w Dundee. Szyld 'Prices of Admission'. Płk Głuchowski zidentyfikowany na rewersie. Zjazd Klanowy (Clan Gathering) — wydarzenie integracyjne polsko-szkockie."
+    },
+
+    # ============================================================
+    # V2 — KATEGORIA A cd.: Ceremonie przedwojenne
+    # ============================================================
+    {
+        "file": "gallery/v2_p06_012.jpg",
+        "tytul": "Prezydent Raczkiewicz, Lord Provost i Głuchowski — portret oficjalny",
+        "data": "1944",
+        "osoba": "prez. Raczkiewicz, Lord Provost, gen. Głuchowski",
+        "opis": "Trzech mężczyzn pozuje do oficjalnego portretu. Cywil z łańcuchem urzędowym (Lord Provost), Raczkiewicz w środku, oficer w mundurze po prawej."
+    },
+    {
+        "file": "gallery/v2_p06_013.jpg",
+        "tytul": "Oficerowie z cywilami — spotkanie protokolarne",
+        "data": "ok. 1943–1944",
+        "osoba": "",
+        "opis": "Grupa oficerów polskich z cywilami szkockimi. Spotkanie dyplomatyczne lub towarzyskie."
+    },
+    {
+        "file": "gallery/v2_p06_014.jpg",
+        "tytul": "Zdjęcie grupowe — delegacja polska i szkocka",
+        "data": "ok. 1943–1944",
+        "osoba": "",
+        "opis": "Duże zdjęcie grupowe na schodach — oficerowie polscy, cywile szkoccy, kobiety. Kontekst dyplomatyczny."
+    },
+    {
+        "file": "gallery/v2_p07_015.jpg",
+        "tytul": "Ceremonia sztandarowa — Polska międzywojenna",
+        "data": "ok. 1930–1935",
+        "osoba": "gen. Janusz Głuchowski",
+        "opis": "Wręczenie lub oddanie honoru sztandarowi pułkowemu. Oficer w białym mundurze galowym z szablą. Tłum, chorągiewki, konie. Prawdopodobnie 1. Pułk Ułanów Legionów. Rewers: stempel 'Ze Zbiorów Krzysztofa Głuchowskiego' na papierze Kodak."
+    },
+    {
+        "file": "gallery/v2_p07_016.jpg",
+        "tytul": "Ceremonia odznaczeniowa — Polska międzywojenna",
+        "data": "ok. 1930–1935",
+        "osoba": "",
+        "opis": "Oficerowie w rogatywkach podczas ceremonii. Tłum widzów, atmosfera uroczysta. II Rzeczpospolita."
+    },
+
+    # ============================================================
+    # V2 — KATEGORIA B: Seria Forfar — Uroczystości Brygady Szkolnej (WSF N°8850–8890)
+    # ============================================================
+    {
+        "file": "gallery/v2_p08_017.jpg",
+        "tytul": "Oficerowie na rynku Forfar — wieża zegarowa, WSF N°8850",
+        "data": "ok. 1942–1943",
+        "osoba": "",
+        "opis": "Trzej oficerowie rozmawiają na rynku Forfar. Wieża zegarowa w tle, szyld 'THE VI[...]'. Forfar — miasto w hrabstwie Angus, 3 mile od Reswallie House. Odbitka WSF N°8850."
+    },
+    {
+        "file": "gallery/v2_p08_018.jpg",
+        "tytul": "Posiłek masowy żołnierzy — Forfar, WSF N°8855",
+        "data": "ok. 1942–1943",
+        "osoba": "",
+        "opis": "Dziesiątki żołnierzy przy zastawionych stołach na świeżym powietrzu. Oficerowie i goście. Uroczystość Brygady Szkolnej w Forfar. Odbitka WSF N°8855."
+    },
+    {
+        "file": "gallery/v2_p08_019.jpg",
+        "tytul": "Oficerowie i goście przy stołach — Forfar",
+        "data": "ok. 1942–1943",
+        "osoba": "",
+        "opis": "Kontynuacja serii. Oficerowie z damami i gośćmi szkockimi. Kwiaty na stołach, uroczysta atmosfera."
+    },
+    {
+        "file": "gallery/v2_p09_020.jpg",
+        "tytul": "Wręczenie odznaczeń — Brygada Szkolna, WSF N°8865",
+        "data": "ok. 1942–1943",
+        "osoba": "",
+        "opis": "Wręczenie odznaczeń na świeżym powietrzu. Oficerowie z białymi pasami ceremonialnymi. Dziecko podglądające z boku. Odbitka WSF N°8865."
+    },
+    {
+        "file": "gallery/v2_p09_021.jpg",
+        "tytul": "Formacja na ulicy — żołnierze w hełmach, WSF N°8868",
+        "data": "ok. 1942–1943",
+        "osoba": "",
+        "opis": "Żołnierze w hełmach Brodie w zwartym szyku na ulicy szkockiego miasteczka. Odbitka WSF N°8868."
+    },
+    {
+        "file": "gallery/v2_p09_022.jpg",
+        "tytul": "Posiłek masowy — perspektywa wzdłuż stołu",
+        "data": "ok. 1942–1943",
+        "osoba": "",
+        "opis": "Perspektywa wzdłuż stołu. Butelki piwa, żołnierze słuchają przemówienia. Kobieta wśród mężczyzn. Seria Forfar."
+    },
+    {
+        "file": "gallery/v2_p09_023.jpg",
+        "tytul": "Kapelan wojskowy z marynarzem PMW, WSF N°8876",
+        "data": "ok. 1942–1943",
+        "osoba": "",
+        "opis": "Kapelan wojskowy z łańcuchem i krzyżem rozmawia z marynarzem Polskiej Marynarki Wojennej. Obecność marynarza PMW wśród wojsk lądowych — dowód integracji formacji. Odbitka WSF N°8876."
+    },
+    {
+        "file": "gallery/v2_p10_024.jpg",
+        "tytul": "Posiłek masowy — najbardziej czytelny stempel WSF, N°8878",
+        "data": "ok. 1942–1943",
+        "osoba": "",
+        "opis": "Kolejne ujęcie posiłku. Rewers z najbardziej czytelnym egzemplarzem stempla: WOJSKOWA / SEKCJA / FOTOGRAFICZNA. Odbitka WSF N°8878."
+    },
+    {
+        "file": "gallery/v2_p10_025.jpg",
+        "tytul": "Przemówienie oficera — posiłek Brygady Szkolnej",
+        "data": "ok. 1942–1943",
+        "osoba": "",
+        "opis": "Oficer wygłasza przemówienie przy zastawionym stole. Żołnierze i goście słuchają. Seria Forfar."
+    },
+    {
+        "file": "gallery/v2_p10_026.jpg",
+        "tytul": "Zdjęcie grupowe — oficerowie i żołnierze na schodach",
+        "data": "ok. 1942–1943",
+        "osoba": "",
+        "opis": "Duże zdjęcie grupowe — oficerowie i żołnierze pozują na schodach kamiennego budynku. Seria Forfar."
+    },
+
+    # ============================================================
+    # V2 — KATEGORIA B cd.: Rumunia, Raczkiewicz, Arciszewski
+    # ============================================================
+    {
+        "file": "gallery/v2_p11_027.jpg",
+        "tytul": "Internowani w Rumunii — Băile Herculane, jesień 1939",
+        "data": "1939",
+        "osoba": "",
+        "opis": "Grupa polskich oficerów przed pomnikiem Herkulesa w uzdrowisku Băile Herculane. Po klęsce wrześniowej 1939. Rewers: 'Baile Herculanum / 1939 r. / Internowani w Rumunii'. Pierwsze miesiące wygnania."
+    },
+    {
+        "file": "gallery/v2_p11_028.jpg",
+        "tytul": "Prezydent Raczkiewicz na polowaniu — Szkocja 1943",
+        "data": "1943",
+        "osoba": "prez. Władysław Raczkiewicz",
+        "opis": "Oficer z karabinem na tle szkockiego pejzażu — łąki, wzgórza. Rewers: 'na polowaniu prezydent Raczkiewicz / Szkocja / 1943 r.'. Polowanie — tradycyjna rozrywka na szkockim dworem, podtrzymywana przez polskie elity na emigracji."
+    },
+    {
+        "file": "gallery/v2_p11_029.jpg",
+        "tytul": "Raczkiewicz wizytuje obóz — baraki i ciężarówki",
+        "data": "ok. 1943",
+        "osoba": "prez. Władysław Raczkiewicz",
+        "opis": "Prezydent w garniturze i kapeluszu spaceruje przez obóz wojskowy. Drewniane baraki, ciężarówki, oficerowie. Krajobraz pasuje do Angus lub Perthshire."
+    },
+    {
+        "file": "gallery/v2_p12_030.jpg",
+        "tytul": "Raczkiewicz wizytuje żołnierzy — spotkanie nieformalne",
+        "data": "ok. 1943",
+        "osoba": "prez. Władysław Raczkiewicz",
+        "opis": "Prezydent wśród żołnierzy w nieformalnej atmosferze. Rozmowy, uśmiechy. Codzienna wizyta głowy państwa w jednostce."
+    },
+    {
+        "file": "gallery/v2_p12_031.jpg",
+        "tytul": "Raczkiewicz w Perth — spotkanie z kobietami",
+        "data": "ok. 1943",
+        "osoba": "prez. Władysław Raczkiewicz",
+        "opis": "Prezydent w tłumie kobiet i oficerów. Nieformalne spotkanie w klubie żołnierskim. Rewers: 'prezydent Racz[kiewicz] / Perth'."
+    },
+    {
+        "file": "gallery/v2_p12_032.jpg",
+        "tytul": "Premier Tomasz Arciszewski z gen. Głuchowskim — wizyta u inwalidów",
+        "data": "ok. 1944",
+        "osoba": "premier Tomasz Arciszewski, gen. Janusz Głuchowski",
+        "opis": "Trzej mężczyźni: Głuchowski z naszywką 'POLAND', Arciszewski z brodą, kobieta PSK. Rewers: 'premier Arciszewski / u Inwalidów w Szkocji (1944?)'. Arciszewski — premier rządu RP na uchodźstwie od XI.1944."
+    },
+    {
+        "file": "gallery/v2_p12_033.jpg",
+        "tytul": "Premier Arciszewski — wyjście z budynku",
+        "data": "ok. 1944",
+        "osoba": "premier Tomasz Arciszewski",
+        "opis": "Arciszewski w płaszczu i kapeluszu wśród żołnierzy z naszywkami 'POLAND'. Swobodna atmosfera. Wizyta premiera RP w jednostkach w Szkocji."
+    },
+
+    # ============================================================
+    # V2 — KATEGORIA C: Pozostałe zdjęcia dokumentalne
+    # ============================================================
+    {
+        "file": "gallery/v2_p14_036.jpg",
+        "tytul": "Rozmowa gen. Głuchowskiego z ambasadorem brytyjskim",
+        "data": "ok. 1941–1944",
+        "osoba": "gen. Janusz Głuchowski",
+        "opis": "Dwaj mężczyźni na kanapie — prywatna rozmowa. Wnętrze z oknami z podziałkami. Rewers (Velox): 'Moja rozmowa z amb. ang.' — zapis w pierwszej osobie, prawdopodobnie Głuchowski."
+    },
+    {
+        "file": "gallery/v2_p14_037.jpg",
+        "tytul": "Kolacja z ambasadorem brytyjskim",
+        "data": "ok. 1941–1944",
+        "osoba": "gen. Janusz Głuchowski",
+        "opis": "Ci sami mężczyźni przy zastawionym stole — srebrne sztućce, świeczniki. Spotkanie dyplomatyczne na najwyższym szczeblu."
+    },
+    {
+        "file": "gallery/v2_p14_038.jpg",
+        "tytul": "Procesja wojskowa z Orłem — Centrum Łączności",
+        "data": "ok. 1943–1944",
+        "osoba": "",
+        "opis": "Uroczystość z godłem Orła Białego. Publiczność szkocka — kobiety i dzieci. Żołnierze polscy wśród cywilów."
+    },
+    {
+        "file": "gallery/v2_p15_039.jpg",
+        "tytul": "Święto Łączności — publiczność szkocka, Kinross 1945",
+        "data": "1945",
+        "osoba": "",
+        "opis": "Uroczystość z godłem Orła Białego. Publiczność szkocka — kobiety i dzieci. Żołnierze polscy wśród cywilów. Rewers: 'Centrum Łączności / Kinross / Święto Łączności / publiczność Szkocka / 1945 r.'. POWIĄZANIE: ARG/II/55 (Święto Łączności, obóz pod Kinross) i ARG/VI/4 (album Centrum Łączności)."
+    },
+    {
+        "file": "gallery/v2_p15_040.jpg",
+        "tytul": "Podchorążówki — szyk kobiet w mundurach, Kinross",
+        "data": "1945",
+        "osoba": "",
+        "opis": "Długi szyk kobiet w mundurach i kapeluszach na placu apelowym. Rewers: 'podchorążówna Centrum Łączności / Kinross'. Kobiety w służbie wojskowej PSZ."
+    },
+    {
+        "file": "gallery/v2_p15_041.jpg",
+        "tytul": "Oficerowie w szyku — ceremonia w Kinross",
+        "data": "1945",
+        "osoba": "",
+        "opis": "Oficerowie w szyku przed budynkiem. Uroczystość Centrum Łączności w Kinross. Seria dokumentująca Święto Łączności."
+    },
+    {
+        "file": "gallery/v2_p16_042.jpg",
+        "tytul": "Samochód oficjalny z Orłem — najwyższy numer WSF N°9881",
+        "data": "ok. 1944–1945",
+        "osoba": "",
+        "opis": "Oficerowie przy oficjalnym samochodzie z godłem Orła i biało-czerwoną chorągiewką. Kamienny budynek. Rewers: N°9881 — najwyższy numer archiwalny w kolekcji."
+    },
+    {
+        "file": "gallery/v2_p16_043.jpg",
+        "tytul": "Portret cywilny — format 6×6, Głuchowski (?)",
+        "data": "lata 50. (?)",
+        "osoba": "gen. Janusz Głuchowski (?)",
+        "opis": "Mężczyzna w garniturze z wąsami i poszetką. Ząbkowane brzegi. Możliwe że Głuchowski. Format kwadratowy 6×6 cm — aparat średnioformatowy."
+    },
+    {
+        "file": "gallery/v2_p16_044.jpg",
+        "tytul": "Oficerowie przy stole ze sztandarami — spotkanie",
+        "data": "ok. 1942–1944",
+        "osoba": "gen. Janusz Głuchowski",
+        "opis": "Trzej mężczyźni przy stole. Dekoracja ze sztandarów z orzelkiem. Głuchowski po prawej (z wąsami). Prawdopodobnie spotkanie organizacji kombatanckiej."
+    },
+    {
+        "file": "gallery/v2_p16_045.jpg",
+        "tytul": "Oficerowie i kobieta na schodach — pocztówka, Reswallie House (?)",
+        "data": "ok. 1941–1943",
+        "osoba": "gen. Janusz Głuchowski, Maria Głuchowska (?)",
+        "opis": "Czterech oficerów i kobieta na schodach kamiennego domu z pnączami. Kobieta to możliwe że Maria Głuchowska. Rewers: pocztówka 'Post Card' bez opisów. Prawdopodobnie Reswallie House."
+    },
+    {
+        "file": "gallery/v2_p17_046.jpg",
+        "tytul": "Oficerowie na schodach kamiennego budynku",
+        "data": "ok. 1941–1943",
+        "osoba": "",
+        "opis": "Grupa oficerów na schodach — szkocki budynek z kamiennymi kolumnami. Atmosfera oficjalna. Prawdopodobnie kwatera dowództwa."
+    },
+    {
+        "file": "gallery/v2_p17_047.jpg",
+        "tytul": "Oficerowie przed kamiennym wejściem — bliższe ujęcie",
+        "data": "ok. 1941–1943",
+        "osoba": "",
+        "opis": "Mniejsza grupa oficerów przed kamiennym portalem z łukiem. Mundury i odznaczenia widoczne. Prawdopodobnie to samo miejsce co poprzednie zdjęcie."
+    },
+    {
+        "file": "gallery/v2_p17_048.jpg",
+        "tytul": "Oficer z dokumentami — portret",
+        "data": "ok. 1941–1943",
+        "osoba": "",
+        "opis": "Portret oficera z teczką dokumentów. Prawdopodobnie oficer sztabowy Brygady Szkolnej."
+    },
 ]
 
 
