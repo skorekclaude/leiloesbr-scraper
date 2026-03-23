@@ -1,0 +1,831 @@
+<div class="chapter" style="font-family: 'Georgia', 'Times New Roman', serif; max-width: 960px; margin: 0 auto; padding: 30px; color: #1a1a1a; line-height: 1.7; background: #fff;">
+
+  <!-- ====== STYL GLOBALNY ====== -->
+  <style>
+    .chapter h1 { font-size: 28px; color: #1a3c5e; border-bottom: 3px solid #1a3c5e; padding-bottom: 10px; margin-top: 0; }
+    .chapter h2 { font-size: 22px; color: #fff; background: #2c5f8a; padding: 10px 18px; border-radius: 4px; margin-top: 40px; }
+    .chapter h3 { font-size: 18px; color: #2c5f8a; border-left: 4px solid #2c5f8a; padding-left: 12px; margin-top: 28px; }
+    .chapter h4 { font-size: 16px; color: #3a7cb8; margin-top: 20px; font-style: italic; }
+    .chapter table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: 14px; }
+    .chapter th { background: #2c5f8a; color: #fff; padding: 10px 14px; text-align: left; font-weight: 600; }
+    .chapter td { padding: 8px 14px; border: 1px solid #ccc; vertical-align: top; }
+    .chapter tr:nth-child(even) td { background: #f4f8fc; }
+    .chapter tr:hover td { background: #e8f0f8; }
+    .chapter .reaction-box { background: #f0f5fa; border: 1px solid #b0c4de; border-left: 5px solid #2c5f8a; padding: 14px 20px; margin: 14px 0; font-family: 'Courier New', monospace; font-size: 15px; line-height: 2; border-radius: 3px; overflow-x: auto; }
+    .chapter .reaction-box .label { font-family: Georgia, serif; font-weight: bold; color: #2c5f8a; font-size: 13px; display: block; margin-bottom: 4px; }
+    .chapter .note-box { background: #fffbe6; border: 1px solid #e6d36c; border-left: 5px solid #d4a800; padding: 12px 18px; margin: 14px 0; border-radius: 3px; font-size: 14px; }
+    .chapter .note-box strong { color: #8a6d00; }
+    .chapter .warn-box { background: #fff0f0; border: 1px solid #e6a0a0; border-left: 5px solid #c0392b; padding: 12px 18px; margin: 14px 0; border-radius: 3px; font-size: 14px; }
+    .chapter .warn-box strong { color: #c0392b; }
+    .chapter .stage-header { background: #e8f0f8; border: 2px solid #2c5f8a; padding: 10px 16px; margin-top: 30px; border-radius: 4px; }
+    .chapter .stage-header span.num { display: inline-block; background: #2c5f8a; color: #fff; width: 32px; height: 32px; text-align: center; line-height: 32px; border-radius: 50%; font-weight: bold; margin-right: 10px; font-size: 15px; }
+    .chapter .stage-header span.title { font-size: 17px; font-weight: bold; color: #1a3c5e; }
+    .chapter .param-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 20px; margin: 10px 0; }
+    .chapter .param-grid .param { background: #f8f8f8; padding: 6px 12px; border-radius: 3px; font-size: 14px; }
+    .chapter .param-grid .param b { color: #2c5f8a; }
+    .chapter .inout-table td:first-child { font-weight: bold; width: 100px; background: #f0f5fa; color: #2c5f8a; }
+    .chapter ul { margin: 8px 0; padding-left: 24px; }
+    .chapter li { margin-bottom: 4px; font-size: 15px; }
+    .chapter .schema-box { background: #f7f7f7; border: 2px solid #aaa; padding: 20px; margin: 16px 0; font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.8; white-space: pre; overflow-x: auto; border-radius: 4px; }
+    .chapter .toc { background: #f4f8fc; border: 1px solid #b0c4de; padding: 16px 24px; margin: 20px 0; border-radius: 4px; }
+    .chapter .toc ol { margin: 8px 0; padding-left: 22px; }
+    .chapter .toc li { font-size: 15px; margin-bottom: 4px; }
+    .chapter .toc a { color: #2c5f8a; text-decoration: none; }
+    .chapter .toc a:hover { text-decoration: underline; }
+  </style>
+
+  <!-- ====== NAGLOWEK ====== -->
+  <h1>Rozdzia&lstrok; 3: Kwas fosforowy(V) &mdash; H<sub>3</sub>PO<sub>4</sub></h1>
+  <p style="font-size: 15px; color: #555; margin-top: -6px;">
+    <strong>Metoda ekstrakcyjna (mokra) &mdash; metoda dwuwodzianowa</strong><br>
+    &Zacute;r&oacute;d&lstrok;o: <em>&bdquo;Wytwarzanie kwasu fosforowego(V) oraz nawoz&oacute;w fosforowych i wielosk&lstrok;adnikowych&rdquo;</em> &mdash; A. Tomczak, MEN/ITeE Radom 2006
+  </p>
+
+  <!-- ====== SPIS TRESCI ====== -->
+  <div class="toc">
+    <strong>Spis tre&sacute;ci rozdzia&lstrok;u:</strong>
+    <ol>
+      <li><a href="#s1">Wprowadzenie</a></li>
+      <li><a href="#s2">Surowce</a></li>
+      <li><a href="#s3">Chemizm procesu &mdash; reakcje chemiczne</a></li>
+      <li><a href="#s4">Szczeg&oacute;&lstrok;owy opis etap&oacute;w procesu</a></li>
+      <li><a href="#s5">Schemat ideowy procesu</a></li>
+      <li><a href="#s6">Produkty uboczne i odpady</a></li>
+      <li><a href="#s7">Materia&lstrok;y konstrukcyjne aparatury</a></li>
+      <li><a href="#s8">Nawozy fosforowe i wielosk&lstrok;adnikowe</a></li>
+      <li><a href="#s9">BHP i ochrona &sacute;rodowiska</a></li>
+      <li><a href="#s10">Parametry procesowe i perspektywy rozwoju</a></li>
+    </ol>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- 1. WPROWADZENIE -->
+  <!-- ============================================================ -->
+  <h2 id="s1">1. Wprowadzenie</h2>
+
+  <h3>Produkt &mdash; kwas ortofosforowy(V)</h3>
+  <p>
+    Kwas ortofosforowy(V), o wzorze <strong>H<sub>3</sub>PO<sub>4</sub></strong>, wytwarzany metod&aogon; ekstrakcyjn&aogon; (EKF &mdash; ekstrakcyjny kwas fosforowy) jest jednym z najwa&zdot;niejszych p&oacute;&lstrok;produkt&oacute;w przemys&lstrok;u chemicznego. Wi&eogon;kszo&sacute;&cacute; &sacute;wiatowej produkcji H<sub>3</sub>PO<sub>4</sub> opiera si&eogon; na <strong>metodzie ekstrakcyjnej dwuwodzianowej (mokrej)</strong>, kt&oacute;ra polega na rozk&lstrok;adzie surowca fosforowego (fosforytu) mocnym kwasem nieorganicznym (H<sub>2</sub>SO<sub>4</sub>) i oddzieleniu soli wapniowych od roztworu H<sub>3</sub>PO<sub>4</sub>.
+  </p>
+  <p>
+    Alternatyw&aogon; jest <strong>metoda termiczna (TKF)</strong> &mdash; dro&zdot;sza, ale daj&aogon;ca czystszy produkt.
+  </p>
+
+  <h3>W&lstrok;a&sacute;ciwo&sacute;ci H<sub>3</sub>PO<sub>4</sub></h3>
+  <table>
+    <tr><th style="width:40%;">W&lstrok;a&sacute;ciwo&sacute;&cacute;</th><th>Warto&sacute;&cacute;</th></tr>
+    <tr><td>Stan skupienia</td><td>Bezbarwne cia&lstrok;o sta&lstrok;e (czysty); st&eogon;&zdot;ony ~80% &mdash; oleista ciecz</td></tr>
+    <tr><td>Temperatura topnienia</td><td>43&deg;C</td></tr>
+    <tr><td>Higroskopijno&sacute;&cacute;</td><td>Silnie higroskopijny, dobrze rozpuszczalny w wodzie</td></tr>
+    <tr><td>Odwadnianie</td><td>H<sub>4</sub>P<sub>2</sub>O<sub>7</sub> (kwas pirofosforowy, t.top. 610&deg;C)</td></tr>
+    <tr><td>Silne ogrzewanie</td><td>HPO<sub>3</sub> (kwas metafosforowy)</td></tr>
+    <tr><td>Sole (3 szeregi)</td><td>Ortofosforany (Na<sub>3</sub>PO<sub>4</sub>), wodoroortofosforany (Na<sub>2</sub>HPO<sub>4</sub>), diwodoroortofosforany (NaH<sub>2</sub>PO<sub>4</sub>)</td></tr>
+  </table>
+
+  <h3>Zastosowania H<sub>3</sub>PO<sub>4</sub></h3>
+  <ul>
+    <li><strong>Nawozy mineralne</strong> &mdash; wi&eogon;kszo&sacute;&cacute; produkcji (superfosfaty, MAP, DAP, NPK)</li>
+    <li>Dodatki paszowe</li>
+    <li>Chemia gospodarcza, sole techniczne</li>
+    <li>Preparaty farmaceutyczne</li>
+    <li>&Sacute;rodki pior&aogon;ce</li>
+    <li>Preparaty do odrdzewiania i usuwania kamienia kot&lstrok;owego</li>
+    <li>Dentystyka</li>
+  </ul>
+
+  <!-- ============================================================ -->
+  <!-- 2. SUROWCE -->
+  <!-- ============================================================ -->
+  <h2 id="s2">2. Surowce</h2>
+
+  <table>
+    <tr>
+      <th>Surowiec</th>
+      <th>Wz&oacute;r / Posta&cacute;</th>
+      <th>Rola w procesie</th>
+      <th>Uwagi</th>
+    </tr>
+    <tr>
+      <td><strong>Fosforyty</strong></td>
+      <td>Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> (z&lstrok;o&zdot;a osadowe)</td>
+      <td>&Zacute;r&oacute;d&lstrok;o fosforu (P<sub>2</sub>O<sub>5</sub>)</td>
+      <td>~30% P<sub>2</sub>O<sub>5</sub>; g&lstrok;&oacute;wne z&lstrok;o&zdot;a: Maroko (60% &sacute;wiat.), USA, Algieria, Tunezja, Chiny; ~80% z kopal&nacute; odkrywkowych; niekt&oacute;re wzbogacone w uran</td>
+    </tr>
+    <tr>
+      <td><strong>Apatyty</strong></td>
+      <td>Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>(F,Cl,OH)</td>
+      <td>&Zacute;r&oacute;d&lstrok;o fosforu (P<sub>2</sub>O<sub>5</sub>)</td>
+      <td>Fluoroapatyt Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F: 42,26% P<sub>2</sub>O<sub>5</sub>, 3,78% F; krystalizuje heksagonalnie; z&lstrok;o&zdot;a: P&oacute;&lstrok;wysep Kola, Hiszpania, Indie</td>
+    </tr>
+    <tr>
+      <td><strong>Kwas siarkowy(VI)</strong></td>
+      <td>H<sub>2</sub>SO<sub>4</sub> (96&ndash;98%)</td>
+      <td>Reagent rozk&lstrok;adaj&aogon;cy fosforyt</td>
+      <td>~50% produkcji siarki (jako H<sub>2</sub>SO<sub>4</sub>) idzie na H<sub>3</sub>PO<sub>4</sub> i nawozy; wst&eogon;pnie rozcieńczany przed dozowaniem</td>
+    </tr>
+    <tr>
+      <td><strong>Woda</strong></td>
+      <td>H<sub>2</sub>O</td>
+      <td>Rozcieńczalnik H<sub>2</sub>SO<sub>4</sub>; przemywanie fosfogipsu</td>
+      <td>Pop&lstrok;uczkowy H<sub>3</sub>PO<sub>4</sub> z przemywania fosfogipsu zastępuje czę&sacute;&cacute; wody (lepsze st&eogon;&zdot;enie EKF)</td>
+    </tr>
+  </table>
+
+  <h3>2.1. Minera&lstrok;y fosforowe &mdash; szczeg&oacute;&lstrok;y</h3>
+
+  <h4>Apatyt &mdash; Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>(F,Cl,OH)</h4>
+  <ul>
+    <li>Fosforan bezwodny, najliczniejsza grupa minera&lstrok;&oacute;w fosforowych</li>
+    <li>Uk&lstrok;ad krystalograficzny: <strong>heksagonalny</strong></li>
+    <li>Postacie kryszta&lstrok;&oacute;w: wyd&lstrok;u&zdot;one s&lstrok;upkowe (do kilkuset kg), igielkowe (najcz&eogon;&sacute;ciej), tabliczkowe</li>
+    <li>Odmiany wg anionu: fluoroapatyt, chloroapatyt, apatyt hydroksylowy, apatyt w&eogon;glanowy</li>
+    <li>Mo&zdot;e zawiera&cacute;: jon w&eogon;glanowy, Na<sub>2</sub>O, Ce<sub>2</sub>O<sub>3</sub> (do 5%), MgO, Fe<sub>2</sub>O<sub>3</sub>, Al<sub>2</sub>O<sub>3</sub></li>
+    <li>&Lstrok;upliwo&sacute;&cacute; wyra&zacute;na, prze&lstrok;am nier&oacute;wny/muszlowy, kruchy, po&lstrok;ysk szklisty</li>
+    <li>Barwy: bia&lstrok;y, zielony, niebieski, &zdot;&oacute;&lstrok;ty, szary, fioletowy, czerwony, bezbarwny</li>
+  </ul>
+
+  <h4>Fosforyty (fosfaty) &mdash; z&lstrok;o&zdot;a osadowe apatytu</h4>
+  <ul>
+    <li>Teoretycznie &gt;50% fosforan&oacute;w, ~30% P<sub>2</sub>O<sub>5</sub></li>
+    <li>Powsta&lstrok;y z wietrzej&aogon;cych ska&lstrok; magmowych</li>
+    <li>Formy: konkrecje (p&lstrok;ytkie morze) lub warstwy (g&lstrok;&eogon;bsze morze)</li>
+    <li>Rozpuszczalno&sacute;&cacute; Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> w wodzie: 0,00486% (20&deg;C) &mdash; bardzo ma&lstrok;a</li>
+    <li><strong>Polska</strong>: niewielkie zasoby ubogich fosforyt&oacute;w (rejon Annopola) &mdash; produkcja oparta na imporcie</li>
+  </ul>
+
+  <h3>2.2. Wst&eogon;pna obr&oacute;bka fosforyt&oacute;w (mielenie)</h3>
+  <ul>
+    <li><strong>Cel</strong>: Zwi&eogon;kszenie powierzchni sumarycznej dla lepszego kontaktu z kwasem &rarr; przyspieszenie reakcji</li>
+    <li><strong>Wymagane rozdrobnienie</strong>: 90% materia&lstrok;u &lt; 0,16 mm (m&aogon;czka fosforytowa)</li>
+    <li><strong>Aparatura</strong>: M&lstrok;yny pier&sacute;cieniowe tr&oacute;jwalcowe; m&lstrok;yny z powietrznym oddzielaniem m&aogon;czki (jednoczesne suszenie &mdash; fosforyty zawieraj&aogon; do 10% wody)</li>
+    <li><strong>Odsiewanie</strong>: sita wibracyjne &mdash; materia&lstrok; grubszy wraca do m&lstrok;yna</li>
+    <li><strong>Transport</strong>: przeno&sacute;nik &sacute;limakowy do w&lstrok;a&sacute;ciwego procesu</li>
+  </ul>
+
+  <h3>2.3. Kwas siarkowy(VI) &mdash; H<sub>2</sub>SO<sub>4</sub></h3>
+  <p>
+    Stosowany w st&eogon;&zdot;eniu 96&ndash;98%, wst&eogon;pnie rozcieńczany. Surowce do produkcji H<sub>2</sub>SO<sub>4</sub>: siarka rodzima, siarczkowe rudy metali nie&zdot;elaznych (Cu, Zn, Pb), siarkowod&oacute;r, piryty, kwasy odpadowe, FeSO<sub>4</sub>.
+  </p>
+  <div class="note-box">
+    <strong>Rozcieńczanie H<sub>2</sub>SO<sub>4</sub>:</strong> Zbiornik wy&lstrok;o&zdot;ony blach&aogon; o&lstrok;owian&aogon; lub winidurem. Kolejno&sacute;&cacute;: <u>najpierw odmierzona ilo&sacute;&cacute; wody, potem H<sub>2</sub>SO<sub>4</sub></u>. Mieszanie spr&eogon;&zdot;onym powietrzem (be&lstrok;kotka). Proces <strong>egzotermiczny</strong> &mdash; cz&eogon;sto potrzebne ch&lstrok;odzenie (w&eogon;&zdot;ownice o&lstrok;owiane). St&eogon;&zdot;enie i temperatura rozcieńczonego kwasu zale&zdot;y od % P w surowcu.
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- 3. CHEMIZM PROCESU -->
+  <!-- ============================================================ -->
+  <h2 id="s3">3. Chemizm procesu &mdash; reakcje chemiczne</h2>
+
+  <h3>3.1. G&lstrok;&oacute;wna reakcja ekstrakcji (metoda dwuwodzianowa)</h3>
+  <div class="reaction-box">
+    <span class="label">Rozk&lstrok;ad fluoroapatytu kwasem siarkowym:</span>
+    Ca<sub>10</sub>F<sub>2</sub>(PO<sub>4</sub>)<sub>6</sub> + 10 H<sub>2</sub>SO<sub>4</sub> + 20 H<sub>2</sub>O &rarr; 6 H<sub>3</sub>PO<sub>4</sub> + 10 CaSO<sub>4</sub>&middot;2H<sub>2</sub>O + 2 HF
+  </div>
+  <div class="reaction-box">
+    <span class="label">Rozk&lstrok;ad fosforanu tr&oacute;jwapniowego (uproszczony zapis):</span>
+    Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> + 3 H<sub>2</sub>SO<sub>4</sub> + 6 H<sub>2</sub>O &rarr; 2 H<sub>3</sub>PO<sub>4</sub> + 3 CaSO<sub>4</sub>&middot;2H<sub>2</sub>O
+  </div>
+  <div class="reaction-box">
+    <span class="label">Udzia&lstrok; P<sub>2</sub>O<sub>5</sub> w apatycie:</span>
+    Ca<sub>10</sub>F<sub>2</sub>(PO<sub>4</sub>)<sub>6</sub> &rarr; 3 P<sub>2</sub>O<sub>5</sub> + CaF<sub>2</sub> + 9 CaO
+  </div>
+
+  <h3>3.2. Reakcje uboczne z zanieczyszczeniami</h3>
+  <div class="reaction-box">
+    CaCO<sub>3</sub> + H<sub>2</sub>SO<sub>4</sub> &rarr; CaSO<sub>4</sub> + CO<sub>2</sub>&uarr; + H<sub>2</sub>O<br>
+    MgCO<sub>3</sub> + H<sub>2</sub>SO<sub>4</sub> &rarr; MgSO<sub>4</sub> + CO<sub>2</sub>&uarr; + H<sub>2</sub>O<br>
+    CaCO<sub>3</sub> + 2 H<sub>3</sub>PO<sub>4</sub> &rarr; Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub>&middot;H<sub>2</sub>O + CO<sub>2</sub>&uarr;
+  </div>
+
+  <h3>3.3. Reakcje fluorowodoru z krzemionk&aogon;</h3>
+  <div class="reaction-box">
+    4 HF + SiO<sub>2</sub> &rarr; SiF<sub>4</sub>&uarr; + 2 H<sub>2</sub>O<br>
+    2 HF + SiF<sub>4</sub> &rarr; H<sub>2</sub>SiF<sub>6</sub>
+  </div>
+
+  <h3>3.4. Odsiarczanie EKF</h3>
+  <div class="reaction-box">
+    Ca<sup>2+</sup> + SO<sub>4</sub><sup>2&minus;</sup> &rarr; CaSO<sub>4</sub>&darr;
+  </div>
+
+  <h3>3.5. Produkcja superfosfatu prostego (reakcje powi&aogon;zane)</h3>
+  <div class="reaction-box">
+    <span class="label">Etap I &mdash; nadmiar H<sub>2</sub>SO<sub>4</sub>, tworzenie H<sub>3</sub>PO<sub>4</sub>:</span>
+    2 Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F + 7 H<sub>2</sub>SO<sub>4</sub> + 3 H<sub>2</sub>O &rarr; 7 CaSO<sub>4</sub> + 3 Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub>&middot;H<sub>2</sub>O + 2 HF
+  </div>
+  <div class="reaction-box">
+    <span class="label">Etap II &mdash; H<sub>3</sub>PO<sub>4</sub> reaguje z nierozlozonym fluoroapatytem:</span>
+    Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F + 7 H<sub>3</sub>PO<sub>4</sub> &rarr; 5 Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub>&middot;H<sub>2</sub>O + HF
+  </div>
+
+  <h3>3.6. Reakcje produkcji nawoz&oacute;w NPK (pulpa MAP)</h3>
+  <div class="reaction-box">
+    H<sub>3</sub>PO<sub>4</sub> + NH<sub>3</sub> &rarr; NH<sub>4</sub>H<sub>2</sub>PO<sub>4</sub> &nbsp;&nbsp;(MAP &mdash; diwodoroortofosforan amonu)<br>
+    NH<sub>4</sub>H<sub>2</sub>PO<sub>4</sub> + NH<sub>3</sub> &rarr; (NH<sub>4</sub>)<sub>2</sub>HPO<sub>4</sub> &nbsp;&nbsp;(DAP &mdash; wodoroortofosforan amonu)<br>
+    H<sub>2</sub>SO<sub>4</sub> + 2 NH<sub>3</sub> &rarr; (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub> &nbsp;&nbsp;(silnie egzotermiczna &mdash; utrzymuje temperatur&eogon;)
+  </div>
+
+  <h3>3.7. Metoda termiczna (TKF) &mdash; dla por&oacute;wnania</h3>
+  <div class="reaction-box">
+    P<sub>4</sub> + 5 O<sub>2</sub> &rarr; 2 P<sub>2</sub>O<sub>5</sub> &nbsp;&nbsp;(spalanie fosforu)<br>
+    P<sub>2</sub>O<sub>5</sub> + H<sub>2</sub>O &rarr; 2 HPO<sub>3</sub> &nbsp;&nbsp;(adsorpcja tlenku)<br>
+    HPO<sub>3</sub> + H<sub>2</sub>O &rarr; H<sub>3</sub>PO<sub>4</sub> &nbsp;&nbsp;(uwodnienie)
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- 4. SZCZEGOLOWY OPIS ETAPOW -->
+  <!-- ============================================================ -->
+  <h2 id="s4">4. Szczeg&oacute;&lstrok;owy opis etap&oacute;w procesu</h2>
+
+  <p style="font-size: 14px; color: #666;">Proces produkcji EKF metod&aogon; ekstrakcyjn&aogon; dwuwodzianow&aogon; obejmuje 15 etap&oacute;w, pogrupowanych w w&eogon;z&lstrok;y technologiczne.</p>
+
+  <!-- === ETAP 1 === -->
+  <div class="stage-header"><span class="num">1</span><span class="title">Mielenie surowc&oacute;w fosforowych</span></div>
+
+  <table class="inout-table">
+    <tr><td>Wej&sacute;cie</td><td>Surowy fosforyt (bry&lstrok;y)</td></tr>
+    <tr><td>Wyj&sacute;cie</td><td>M&aogon;czka fosforytowa (&lt; 0,16 mm)</td></tr>
+  </table>
+
+  <div class="param-grid">
+    <div class="param"><b>Wymagane rozdrobnienie:</b> 90% ziaren &lt; 0,16 mm</div>
+    <div class="param"><b>Wilgotno&sacute;&cacute; surowca:</b> do 10% H<sub>2</sub>O</div>
+  </div>
+
+  <p><strong>Aparatura:</strong></p>
+  <ul>
+    <li><strong>M&lstrok;yny pier&sacute;cieniowe tr&oacute;jwalcowe</strong> &mdash; trzy walce obracaj&aogon; si&eogon; na pier&sacute;cieniu miel&aogon;cym; surowiec podawany od g&oacute;ry jest rozcierany mi&eogon;dzy walcami a pier&sacute;cieniem. Materia&lstrok; zmielony odprowadzany jest do strefy separacji.</li>
+    <li><strong>M&lstrok;yny z powietrznym oddzielaniem m&aogon;czki</strong> &mdash; wewn&aogon;trz m&lstrok;yna strumień powietrza unosi drobne cz&aogon;stki (m&aogon;czk&eogon;) do separatora, jednocze&sacute;nie susz&aogon;c materia&lstrok; (co eliminuje potrzeb&eogon; oddzielnej suszarni). Cz&aogon;stki zbyt du&zdot;e opadaj&aogon; z powrotem do strefy mielenia.</li>
+    <li><strong>Sita wibracyjne</strong> &mdash; do kontroli uziarnienia; materia&lstrok; grubszy zawracany do m&lstrok;yna.</li>
+    <li><strong>Przeno&sacute;nik &sacute;limakowy</strong> &mdash; transport m&aogon;czki do reaktor&oacute;w ekstrakcyjnych.</li>
+  </ul>
+
+  <!-- === ETAP 2 === -->
+  <div class="stage-header"><span class="num">2</span><span class="title">Dozowanie kwasu siarkowego(VI) i pop&lstrok;uczek do reaktor&oacute;w</span></div>
+
+  <table class="inout-table">
+    <tr><td>Wej&sacute;cie</td><td>H<sub>2</sub>SO<sub>4</sub> 96&ndash;98%, woda, pop&lstrok;uczkowe kwasy fosforowe</td></tr>
+    <tr><td>Wyj&sacute;cie</td><td>Rozcieńczony H<sub>2</sub>SO<sub>4</sub> o odpowiednim st&eogon;&zdot;eniu i temperaturze</td></tr>
+  </table>
+
+  <div class="param-grid">
+    <div class="param"><b>St&eogon;&zdot;enie wej&sacute;ciowe:</b> 96&ndash;98% H<sub>2</sub>SO<sub>4</sub></div>
+    <div class="param"><b>Charakter:</b> Proces egzotermiczny &mdash; wymaga ch&lstrok;odzenia!</div>
+  </div>
+
+  <div class="note-box">
+    <strong>Wa&zdot;ne:</strong> Do rozcieńczania najlepiej u&zdot;y&cacute; rozcieńczonego H<sub>3</sub>PO<sub>4</sub> z przemywania fosfogipsu &mdash; uzyskuje si&eogon; bardziej st&eogon;&zdot;ony EKF. Mo&zdot;na te&zdot; dozowa&cacute; kwas pohydrolityczny (odpad z produkcji bieli tytanowej), ale max zanieczyszczeń (Fe+Al+Mg): 0,75 kmol/t 100% H<sub>3</sub>PO<sub>4</sub>.
+  </div>
+
+  <p><strong>Aparatura &mdash; zbiornik rozcieńczaj&aogon;cy:</strong></p>
+  <ul>
+    <li><strong>Korpus:</strong> Zbiornik stalowy wy&lstrok;o&zdot;ony <strong>blach&aogon; o&lstrok;owian&aogon;</strong> lub <strong>winidurem</strong> (twarde PCV) &mdash; odporno&sacute;&cacute; na korozj&eogon; kwasow&aogon;.</li>
+    <li><strong>Be&lstrok;kotka:</strong> Rura doprowadzaj&aogon;ca spr&eogon;&zdot;one powietrze do dna zbiornika &mdash; powietrze wychodz&aogon;c w postaci p&eogon;cherzyk&oacute;w miesza zawarto&sacute;&cacute; (bez element&oacute;w ruchomych).</li>
+    <li><strong>W&eogon;&zdot;ownice o&lstrok;owiane:</strong> Spirale z rur o&lstrok;owianych zanurzone w cieczy &mdash; pe&lstrok;ni&aogon; funkcj&eogon; wymiennika ciep&lstrok;a do odprowadzenia ciep&lstrok;a reakcji egzotermicznej.</li>
+    <li><strong>Kolejno&sacute;&cacute;:</strong> Najpierw odmierzona ilo&sacute;&cacute; wody, <u>potem</u> H<sub>2</sub>SO<sub>4</sub> (nigdy odwrotnie!).</li>
+  </ul>
+
+  <!-- === ETAP 3 === -->
+  <div class="stage-header"><span class="num">3</span><span class="title">Dozowanie surowca fosforowego do reaktor&oacute;w</span></div>
+
+  <table class="inout-table">
+    <tr><td>Wej&sacute;cie</td><td>M&aogon;czka fosforytowa (&lt; 0,16 mm)</td></tr>
+    <tr><td>Wyj&sacute;cie</td><td>Surowiec dozowany do reaktor&oacute;w (sprz&eogon;&zdot;one z dozowaniem H<sub>2</sub>SO<sub>4</sub>)</td></tr>
+  </table>
+
+  <p>
+    Dozowanie m&aogon;czki fosforytowej jest <strong>sprz&eogon;&zdot;one z dozowaniem czystego H<sub>2</sub>SO<sub>4</sub></strong> &mdash; oba strumienie musz&aogon; by&cacute; r&oacute;wnomiernie i proporcjonalnie podawane. R&oacute;wnomierne dozowanie jest kluczowe dla wydajno&sacute;ci procesu ekstrakcji i jako&sacute;ci kryszta&lstrok;&oacute;w fosfogipsu.
+  </p>
+
+  <!-- === ETAP 4 === -->
+  <div class="stage-header"><span class="num">4</span><span class="title">Ekstrakcja (w&eogon;ze&lstrok; ekstrakcji) &mdash; ETAP KLUCZOWY</span></div>
+
+  <table class="inout-table">
+    <tr><td>Wej&sacute;cie</td><td>M&aogon;czka fosforytowa, rozcieńczony H<sub>2</sub>SO<sub>4</sub>, pop&lstrok;uczkowe roztwory H<sub>3</sub>PO<sub>4</sub></td></tr>
+    <tr><td>Wyj&sacute;cie</td><td>Pulpa (zawiesina CaSO<sub>4</sub> w H<sub>3</sub>PO<sub>4</sub>), gazy fluorowe (HF, SiF<sub>4</sub>)</td></tr>
+  </table>
+
+  <div class="reaction-box">
+    <span class="label">Reakcja g&lstrok;&oacute;wna:</span>
+    Ca<sub>10</sub>F<sub>2</sub>(PO<sub>4</sub>)<sub>6</sub> + 10 H<sub>2</sub>SO<sub>4</sub> + 20 H<sub>2</sub>O &rarr; 6 H<sub>3</sub>PO<sub>4</sub> + 10 CaSO<sub>4</sub>&middot;2H<sub>2</sub>O + 2 HF
+  </div>
+
+  <div class="param-grid">
+    <div class="param"><b>Temperatura:</b> 70&ndash;80&deg;C (dihydratowa)</div>
+    <div class="param"><b>Czas przebywania:</b> 4&ndash;8 h</div>
+    <div class="param"><b>Stosunek faza ciek&lstrok;a:sta&lstrok;a:</b> 3:1</div>
+    <div class="param"><b>Krysztaly gipsu:</b> 100&ndash;200 &mu;m</div>
+    <div class="param"><b>Charakter:</b> Egzotermiczny, ch&lstrok;odzenie pr&oacute;&zdot;niowe</div>
+    <div class="param"><b>Nadmiar:</b> H<sub>2</sub>SO<sub>4</sub> (krytyczny parametr)</div>
+  </div>
+
+  <p><strong>Aparatura &mdash; reaktory ekstrakcyjne:</strong></p>
+  <ul>
+    <li><strong>Korpus:</strong> Stalowy zbiornik pokryty warstw&aogon; <strong>gumy</strong> (wygumowany) &mdash; guma chroni stal przed agresywn&aogon; mieszanin&aogon; kwas&oacute;w. Wewn&eogon;trzna powierzchnia wymurowana <strong>kszta&lstrok;tkami kwasoodpornymi</strong> (ceramika odporna na H<sub>2</sub>SO<sub>4</sub>, H<sub>3</sub>PO<sub>4</sub> i HF).</li>
+    <li><strong>Mieszad&lstrok;a:</strong> Ze <strong>stali kwasoodpornej</strong> &mdash; zapewniaj&aogon; ci&aogon;g&lstrok;e, intensywne mieszanie pulpy (utrzymanie zawiesiny fosfogipsu, r&oacute;wnomierny kontakt reagent&oacute;w).</li>
+    <li><strong>Uk&lstrok;ad recyrkulacji:</strong> Du&zdot;y recykling pulpy mi&eogon;dzy reaktorami &mdash; zwi&eogon;ksza czas kontaktu i wydajno&sacute;&cacute;.</li>
+    <li><strong>Pow&oacute;d dob&oacute;r materia&lstrok;&oacute;w:</strong> Jednoczesna obecno&sacute;&cacute; H<sub>2</sub>SO<sub>4</sub>, H<sub>3</sub>PO<sub>4</sub> i HF &mdash; wyj&aogon;tkowo silne dzia&lstrok;anie koroduj&aogon;ce.</li>
+  </ul>
+
+  <div class="note-box">
+    <strong>Czynniki wp&lstrok;ywaj&aogon;ce na wydajno&sacute;&cacute; ekstrakcji:</strong>
+    <ol style="margin: 6px 0 0 0; padding-left: 20px;">
+      <li>Stopień rozdrobnienia surowca</li>
+      <li>R&oacute;wnomierne dozowanie surowc&oacute;w, prawid&lstrok;owa proporcja fosforyt:H<sub>2</sub>SO<sub>4</sub></li>
+      <li>Stabilne parametry (temperatura, nadmiar H<sub>2</sub>SO<sub>4</sub>, st&eogon;&zdot;enie P<sub>2</sub>O<sub>5</sub>)</li>
+      <li>Prawid&lstrok;owa recyrkulacja pulpy</li>
+      <li>Dobre wymieszanie pulpy</li>
+      <li>Sta&lstrok;y poziom pulpy i st&eogon;&zdot;enia CaSO<sub>4</sub> w reaktorach</li>
+      <li>Ci&aogon;g&lstrok;e dozowanie &sacute;rodk&oacute;w przeciwpianowych</li>
+      <li>Stabilno&sacute;&cacute; ruchu ca&lstrok;ej instalacji</li>
+    </ol>
+  </div>
+
+  <!-- === ETAP 5 === -->
+  <div class="stage-header"><span class="num">5</span><span class="title">Ch&lstrok;odzenie pulpy reakcyjnej</span></div>
+
+  <table class="inout-table">
+    <tr><td>Wej&sacute;cie</td><td>Gor&aogon;ca pulpa reakcyjna z reaktor&oacute;w</td></tr>
+    <tr><td>Wyj&sacute;cie</td><td>Sch&lstrok;odzona i zag&eogon;szczona pulpa</td></tr>
+  </table>
+
+  <p><strong>Aparatura &mdash; wyparka adiabatyczna:</strong></p>
+  <ul>
+    <li><strong>Zasada dzia&lstrok;ania:</strong> Pulpa wprowadzana do komory o obni&zdot;onym ci&sacute;nieniu &mdash; cz&eogon;&sacute;&cacute; wody odparowuje (adiabatycznie), co <strong>jednocze&sacute;nie ch&lstrok;odzi</strong> pulp&eogon; i <strong>zag&eogon;szcza</strong> j&aogon;.</li>
+    <li><strong>Korpus:</strong> Stalowy, <strong>wygumowany</strong> (warstwa gumy na wewn&eogon;trznej &sacute;ciance).</li>
+    <li><strong>Wymurowanie:</strong> <strong>Kszta&lstrok;tki kwasoodporne</strong> &mdash; identyczne jak w reaktorach.</li>
+    <li>Opary z wyparki kierowane do uk&lstrok;adu absorpcji gaz&oacute;w fluorowych.</li>
+  </ul>
+
+  <!-- === ETAP 6 === -->
+  <div class="stage-header"><span class="num">6</span><span class="title">Absorpcja gaz&oacute;w fluorowych z w&eogon;z&lstrok;a ekstrakcyjnego</span></div>
+
+  <table class="inout-table">
+    <tr><td>Wej&sacute;cie</td><td>Opary z reaktor&oacute;w: HF, SiF<sub>4</sub>, CO<sub>2</sub>, py&lstrok;y</td></tr>
+    <tr><td>Wyj&sacute;cie</td><td>Oczyszczone gazy &rarr; komin; roztw&oacute;r H<sub>2</sub>SiF<sub>6</sub></td></tr>
+  </table>
+
+  <div class="reaction-box">
+    4 HF + SiO<sub>2</sub> &rarr; SiF<sub>4</sub> + 2 H<sub>2</sub>O<br>
+    2 HF + SiF<sub>4</sub> &rarr; H<sub>2</sub>SiF<sub>6</sub> (kwas heksafluorokrzemowy)
+  </div>
+
+  <p><strong>Aparatura &mdash; absorber fluoru:</strong></p>
+  <ul>
+    <li><strong>Konstrukcja:</strong> Wie&zdot;a absorpcyjna z wype&lstrok;nieniem &mdash; gazy fluorowe przepuszczane przez roztw&oacute;r kwasu heksafluorokrzemowego H<sub>2</sub>SiF<sub>6</sub>.</li>
+    <li><strong>Ciecz absorpcyjna:</strong> Roztw&oacute;r H<sub>2</sub>SiF<sub>6</sub> &mdash; poch&lstrok;ania HF i SiF<sub>4</sub>.</li>
+    <li><strong>Produkt:</strong> St&eogon;&zdot;enie H<sub>2</sub>SiF<sub>6</sub> do 15% &rarr; na wytwórni&eogon; Na<sub>2</sub>SiF<sub>6</sub>; lub 20% &rarr; kwas handlowy.</li>
+    <li>Oczyszczone gazy odprowadzane kominem do atmosfery.</li>
+  </ul>
+
+  <!-- === ETAP 7 === -->
+  <div class="stage-header"><span class="num">7</span><span class="title">Filtracja pulpy (w&eogon;ze&lstrok; filtracji)</span></div>
+
+  <table class="inout-table">
+    <tr><td>Wej&sacute;cie</td><td>Pulpa reakcyjna (zawiesina CaSO<sub>4</sub>&middot;2H<sub>2</sub>O w H<sub>3</sub>PO<sub>4</sub>)</td></tr>
+    <tr><td>Wyj&sacute;cie</td><td>H<sub>3</sub>PO<sub>4</sub> surowy (~25% P<sub>2</sub>O<sub>5</sub>); fosfogips; pop&lstrok;uczkowy H<sub>3</sub>PO<sub>4</sub> (recyrkulacja)</td></tr>
+  </table>
+
+  <p><strong>Aparatura &mdash; filtry:</strong></p>
+  <ul>
+    <li><strong>Typ:</strong> Filtry obrotowe pr&oacute;&zdot;niowe lub filtry ta&sacute;mowe &mdash; du&zdot;a powierzchnia filtracyjna, praca ci&aogon;g&lstrok;a.</li>
+    <li><strong>Zasada dzia&lstrok;ania:</strong> Pulpa podawana na powierzchni&eogon; filtruj&aogon;c&aogon;; pr&oacute;&zdot;nia zasysa faz&eogon; ciek&lstrok;&aogon; (H<sub>3</sub>PO<sub>4</sub>) przez tkanin&eogon; filtracyjn&aogon;, osad fosfogipsu pozostaje na filtrze.</li>
+    <li><strong>Przemywanie:</strong> Fosfogips przemywany <strong>trzykrotnie wod&aogon;</strong> dla odzyskania resztek H<sub>3</sub>PO<sub>4</sub>.</li>
+    <li><strong>Recyrkulacja:</strong> Pop&lstrok;uczkowe roztwory H<sub>3</sub>PO<sub>4</sub> zawracane do w&eogon;z&lstrok;a ekstrakcji.</li>
+    <li><strong>Krysztaly gipsu:</strong> Musz&aogon; osi&aogon;gn&aogon;&cacute; 100&ndash;200 &mu;m, aby filtracja by&lstrok;a skuteczna.</li>
+  </ul>
+
+  <!-- === ETAP 8 === -->
+  <div class="stage-header"><span class="num">8</span><span class="title">Magazynowanie kwasu fosforowego(V) surowego</span></div>
+  <p>
+    Kwas surowy o st&eogon;&zdot;eniu ok. <strong>25% P<sub>2</sub>O<sub>5</sub></strong> kierowany jest do zbiornik&oacute;w magazynowych. Zbiorniki wykonane z materia&lstrok;&oacute;w kwasoodpornych (wygumowane lub wy&lstrok;o&zdot;one tworzywami odpornymi na korozj&eogon;).
+  </p>
+
+  <!-- === ETAP 9 === -->
+  <div class="stage-header"><span class="num">9</span><span class="title">Ewakuacja fosfogipsu</span></div>
+
+  <table class="inout-table">
+    <tr><td>Wej&sacute;cie</td><td>Fosfogips z filtr&oacute;w</td></tr>
+    <tr><td>Wyj&sacute;cie</td><td>Fosfogips na sk&lstrok;adowisku (haldzie)</td></tr>
+  </table>
+
+  <p>
+    Transport <strong>ta&sacute;moci&aogon;giem</strong> na sk&lstrok;adowisko. &Sacute;rednia ilo&sacute;&cacute;: <strong>4&ndash;5 t fosfogipsu (sucha masa) / t 100% H<sub>3</sub>PO<sub>4</sub></strong>. Ponad 95% fosfogipsu trafia na sk&lstrok;adowiska &mdash; bardzo ma&lstrok;e wykorzystanie gospodarcze.
+  </p>
+
+  <!-- === ETAP 10 === -->
+  <div class="stage-header"><span class="num">10</span><span class="title">Zat&eogon;&zdot;anie kwasu surowego (w&eogon;ze&lstrok; zat&eogon;&zdot;ania)</span></div>
+
+  <table class="inout-table">
+    <tr><td>Wej&sacute;cie</td><td>Surowy H<sub>3</sub>PO<sub>4</sub> (~25% P<sub>2</sub>O<sub>5</sub>), para grzewcza</td></tr>
+    <tr><td>Wyj&sacute;cie</td><td>Zat&eogon;&zdot;ony H<sub>3</sub>PO<sub>4</sub> (32&ndash;54% P<sub>2</sub>O<sub>5</sub>), opary fluorowe</td></tr>
+  </table>
+
+  <div class="param-grid">
+    <div class="param"><b>St&eogon;&zdot;enie pocz&aogon;tkowe:</b> ~25% P<sub>2</sub>O<sub>5</sub></div>
+    <div class="param"><b>St&eogon;&zdot;enie ko&nacute;cowe:</b> 32&ndash;54% P<sub>2</sub>O<sub>5</sub></div>
+    <div class="param"><b>Warunki:</b> Praca pod pr&oacute;&zdot;ni&aogon;</b></div>
+    <div class="param"><b>Ogrzewanie:</b> Para wodna</div>
+  </div>
+
+  <p><strong>Aparatura &mdash; wyparki zat&eogon;&zdot;aj&aogon;ce:</strong></p>
+  <ul>
+    <li><strong>Konstrukcja:</strong> Szereg wyparek pr&oacute;&zdot;niowych po&lstrok;&aogon;czonych szeregowo. Ka&zdot;da wyparka sk&lstrok;ada si&eogon; ze stalowego korpusu z komor&aogon; odparowania.</li>
+    <li><strong>Korpus:</strong> Stalowy, <strong>wygumowany</strong> (warstwa gumy chroni&aogon;ca przed korozj&aogon;).</li>
+    <li><strong>Urz&aogon;dzenia wewn&eogon;trzne:</strong> Rurki grzejne, rura przelewowa, przegrody &mdash; wszystkie ze <strong>stali kwasoodpornej</strong>.</li>
+    <li><strong>Wymiennik ciep&lstrok;a:</strong> Podgrzewa kwas par&aogon; przed wprowadzeniem do komory pr&oacute;&zdot;niowej.</li>
+    <li><strong>Zasada dzia&lstrok;ania:</strong> Podgrzany roztw&oacute;r H<sub>3</sub>PO<sub>4</sub> wprowadzany do komory o obni&zdot;onym ci&sacute;nieniu &mdash; nast&eogon;puje <strong>rozpr&eogon;&zdot;anie</strong> i gwa&lstrok;towne odparowanie cz&eogon;&sacute;ci wody. Obni&zdot;one ci&sacute;nienie zmniejsza temperatur&eogon; wrzenia, co ogranicza korozj&eogon;.</li>
+    <li>Opary (zawieraj&aogon;ce zwi&aogon;zki fluoru) kierowane do w&eogon;z&lstrok;a absorpcji.</li>
+  </ul>
+
+  <!-- === ETAP 11 === -->
+  <div class="stage-header"><span class="num">11</span><span class="title">Absorpcja gaz&oacute;w fluorowych z w&eogon;z&lstrok;a zat&eogon;&zdot;ania</span></div>
+  <p>
+    Opary z wyparek zat&eogon;&zdot;aj&aogon;cych zawieraj&aogon; zwi&aogon;zki fluoru (HF, SiF<sub>4</sub>). S&aogon; oczyszczane w <strong>oddzielnym w&eogon;&zacute;le absorpcji</strong> o analogicznej budowie jak w etapie 6 (absorber z roztworem H<sub>2</sub>SiF<sub>6</sub>). Oczyszczone gazy odprowadzane kominem.
+  </p>
+
+  <!-- === ETAP 12 === -->
+  <div class="stage-header"><span class="num">12</span><span class="title">Oczyszczanie EKF ze zwi&aogon;zk&oacute;w fluoru (odfluorowanie)</span></div>
+
+  <table class="inout-table">
+    <tr><td>Wej&sacute;cie</td><td>EKF zat&eogon;&zdot;ony z domieszkami fluoru</td></tr>
+    <tr><td>Wyj&sacute;cie</td><td>EKF odfluorowany; Na<sub>2</sub>SiF<sub>6</sub> (heksafluorokrzemian sodu)</td></tr>
+  </table>
+
+  <p><strong>Dwuetapowe odfluorowanie:</strong></p>
+  <table>
+    <tr><th>Etap</th><th>Metoda</th><th>Mechanizm</th></tr>
+    <tr>
+      <td><strong>1. Etap ekstrakcji</strong></td>
+      <td>Dozowanie &lstrok;ugu sodowego (NaOH) do reaktora</td>
+      <td>Wytr&aogon;cenie fluoru jako <strong>Na<sub>2</sub>SiF<sub>6</sub></strong> (heksafluorokrzemian sodu) &mdash; osa&zdot;a si&eogon; i mo&zdot;e by&cacute; odfiltrowany</td>
+    </tr>
+    <tr>
+      <td><strong>2. Etap zat&eogon;&zdot;ania</strong></td>
+      <td>Dozowanie krzemionki (SiO<sub>2</sub>) do surowego H<sub>3</sub>PO<sub>4</sub></td>
+      <td>Fluor przechodzi do fazy gazowej &rarr; absorpcja w w&eogon;&zacute;le absorpcji (HF + SiO<sub>2</sub> &rarr; SiF<sub>4</sub>)</td>
+    </tr>
+  </table>
+
+  <!-- === ETAP 13 === -->
+  <div class="stage-header"><span class="num">13</span><span class="title">Odsiarczanie EKF (opcjonalne)</span></div>
+
+  <div class="reaction-box">
+    Ca<sup>2+</sup> + SO<sub>4</sub><sup>2&minus;</sup> &rarr; CaSO<sub>4</sub>&darr;
+  </div>
+
+  <p>
+    EKF zawiera ok. <strong>4% siarczan&oacute;w</strong>, co uniemo&zdot;liwia produkcj&eogon; technicznych soli fosforowych. Odsiarczanie wykorzystuje ograniczon&aogon; rozpuszczalno&sacute;&cacute; CaSO<sub>4</sub> w H<sub>3</sub>PO<sub>4</sub> &mdash; dodanie jon&oacute;w Ca<sup>2+</sup> powoduje wytr&aogon;cenie siarczanu wapnia.
+  </p>
+
+  <!-- === ETAP 14 === -->
+  <div class="stage-header"><span class="num">14</span><span class="title">Klarowanie kwasu fosforowego(V) odfluorowanego</span></div>
+
+  <table class="inout-table">
+    <tr><td>Wej&sacute;cie</td><td>Zat&eogon;&zdot;ony H<sub>3</sub>PO<sub>4</sub> (~52% P<sub>2</sub>O<sub>5</sub>) z zawiesinami</td></tr>
+    <tr><td>Wyj&sacute;cie</td><td>Sklarowany kwas fosforowy(V); szlam (recyrkulacja do reaktor&oacute;w)</td></tr>
+  </table>
+
+  <p><strong>Problem:</strong> Zat&eogon;&zdot;ony kwas nie jest klarowny &mdash; zawiera sole nieorganiczne, zawiesiny Ca/Fe/Al, nieprzereagowana krzemionke, kryszta&lstrok;y Na<sub>2</sub>SiF<sub>6</sub>.</p>
+
+  <p><strong>Metody klarowania:</strong></p>
+  <table>
+    <tr><th>Metoda</th><th>Opis</th><th>Czas</th></tr>
+    <tr><td>Naturalna sedymentacja</td><td>Grawitacyjne opadanie zawiesin w odstojnikach</td><td>Kilkana&sacute;cie dni</td></tr>
+    <tr><td>Przyspieszone klarowanie</td><td>Dodatek <strong>flokulanta</strong> &mdash; aglomeracja drobnych cz&aogon;stek w wi&eogon;ksze, &lstrok;atwiej opadaj&aogon;ce</td><td>Kilka godzin</td></tr>
+  </table>
+
+  <p>
+    Zawiesina sp&lstrok;ywa grawitacyjnie do zbiornik&oacute;w magazynowych, gdzie cz&eogon;&sacute;&cacute; soli wytr&aogon;ca si&eogon; i sedymentuje. <strong>Szlam</strong> z dna zbiornika odpompowywany do reaktor&oacute;w (recyrkulacja). Sklarowany kwas kierowany na wydzia&lstrok; nawozowy.
+  </p>
+
+  <!-- === ETAP 15 === -->
+  <div class="stage-header"><span class="num">15</span><span class="title">Magazynowanie kwasu zat&eogon;&zdot;onego</span></div>
+
+  <table class="inout-table">
+    <tr><td>Wej&sacute;cie</td><td>Sklarowany, zat&eogon;&zdot;ony H<sub>3</sub>PO<sub>4</sub></td></tr>
+    <tr><td>Wyj&sacute;cie</td><td>Gotowy produkt (EKF 32&ndash;54% P<sub>2</sub>O<sub>5</sub>) do wysy&lstrok;ki lub dalszego przerobu</td></tr>
+  </table>
+
+  <p>
+    Zbiorniki magazynowe po&lstrok;&aogon;czone ze zbiornikiem rozdzielczym kwasu zat&eogon;&zdot;onego. Po odstawieniu i odprowadzeniu szlamu kwas jest gotowy do wysy&lstrok;ki na rynek lub do dalszego przerobu (np. produkcja nawoz&oacute;w).
+  </p>
+
+  <!-- ============================================================ -->
+  <!-- 5. SCHEMAT PROCESU -->
+  <!-- ============================================================ -->
+  <h2 id="s5">5. Schemat ideowy procesu produkcji H<sub>3</sub>PO<sub>4</sub></h2>
+
+  <div class="schema-box">
+Fosforyt (bry&lstrok;y)
+    |
+    v
+[1. MIELENIE] -----> M&aogon;czka fosforytowa (&lt;0,16 mm)
+                          |
+H<sub>2</sub>SO<sub>4</sub> 96-98%                |
+    |                     |
+    v                     v
+[2. ROZCIENCZANIE] --> [3. DOZOWANIE] --> [4. EKSTRAKCJA (reaktory)]
+    + H<sub>2</sub>O                                    ^           |
+    + pop&lstrok;uczkowy H<sub>3</sub>PO<sub>4</sub>                |           |
+                              recyrkulacja pop&lstrok;uczek    |
+                                                   |           |
+                                              [5. CH&Lstrok;ODZENIE]   |
+                                              (wyparka adiabt.)  |
+                                                         |       |
+                                gazy fluorowe  <---------+       |
+                                    |                            v
+                              [6. ABSORPCJA]              [7. FILTRACJA]
+                                    |                   /       |       \
+                                    v                  v        v        v
+                              H<sub>2</sub>SiF<sub>6</sub>       pop&lstrok;uczkowy   H<sub>3</sub>PO<sub>4</sub>     Fosfogips
+                              (produkt ub.)   H<sub>3</sub>PO<sub>4</sub>       surowy     [9. EWAKUACJA]
+                                              (recyrk.)   ~25% P<sub>2</sub>O<sub>5</sub>        |
+                                                             |              v
+                                                    [8. MAGAZYN]       Sk&lstrok;adowisko
+                                                             |
+                                                             v
+                                                   [10. ZAT&Eogon;&Zdot;ANIE (wyparki pr&oacute;&zdot;niowe)]
+                                                        |               |
+                                                        v               v
+                                                   H<sub>3</sub>PO<sub>4</sub> zat&eogon;&zdot;ony   [11. ABSORPCJA gaz&oacute;w F]
+                                                   32-54% P<sub>2</sub>O<sub>5</sub>
+                                                        |
+                                               [12. ODFLUOROWANIE]
+                                                        |
+                                               [13. ODSIARCZANIE]
+                                                        |
+                                               [14. KLAROWANIE]
+                                                        |
+                                               [15. MAGAZYNOWANIE]
+                                                        |
+                                                        v
+                                                  PRODUKT KONCOWY
+                                                  (EKF 32-54% P<sub>2</sub>O<sub>5</sub>)
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- 6. PRODUKTY UBOCZNE I ODPADY -->
+  <!-- ============================================================ -->
+  <h2 id="s6">6. Produkty uboczne i odpady</h2>
+
+  <h3>6.1. Fosfogips &mdash; g&lstrok;&oacute;wny odpad</h3>
+
+  <table>
+    <tr><th style="width:35%;">Parametr</th><th>Warto&sacute;&cacute;</th></tr>
+    <tr><td>Sk&lstrok;ad g&lstrok;&oacute;wny</td><td>CaSO<sub>4</sub>&middot;2H<sub>2</sub>O (94&ndash;96%)</td></tr>
+    <tr><td>Domieszki</td><td>Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> (1&ndash;3%), CaF<sub>2</sub> (1&ndash;3%), SiO<sub>2</sub> (0,5&ndash;5%)</td></tr>
+    <tr><td>Posta&cacute;</td><td>S&oacute;l krystaliczna, barwa bia&lstrok;o-szara</td></tr>
+    <tr><td>Wilgo&cacute;</td><td>20&ndash;30%</td></tr>
+    <tr><td>pH</td><td>min. 2,6</td></tr>
+    <tr><td>Ilo&sacute;&cacute;</td><td>4&ndash;5 t (sucha masa) / t 100% H<sub>3</sub>PO<sub>4</sub></td></tr>
+    <tr><td>P<sub>2</sub>O<sub>5</sub> ca&lstrok;kowite</td><td>0,6&ndash;2%</td></tr>
+  </table>
+
+  <h4>Metale ci&eogon;&zdot;kie w fosfogipsie</h4>
+  <table>
+    <tr><th>Metal</th><th>Cd</th><th>Cr</th><th>Pb</th><th>Zn</th><th>Cu</th><th>Ni</th><th>Mn</th><th>As</th><th>Hg</th></tr>
+    <tr><td><b>ppm</b></td><td>3&ndash;13</td><td>1&ndash;17</td><td>1&ndash;20</td><td>6&ndash;17</td><td>2&ndash;10</td><td>1&ndash;9</td><td>1&ndash;9</td><td>&lt;1</td><td>&lt;1</td></tr>
+  </table>
+
+  <h4>Wykorzystanie fosfogipsu</h4>
+  <ul>
+    <li>Naw&oacute;z siarczanowy (rejony nieprzemys&lstrok;owe, niskie siarczany w glebie)</li>
+    <li>Pod&lstrok;o&zdot;e pod uprawy pieczarek</li>
+    <li>&Sacute;rodek kondycjonuj&aogon;cy gleb&eogon;</li>
+    <li>Surowiec do mieszanek nawozowych</li>
+    <li>Nawoz&oacute;w zawiesinowych i sta&lstrok;ych (na bazie NH<sub>4</sub>NO<sub>3</sub> lub mocznika)</li>
+    <li>Budownictwo (ograniczone zastosowanie)</li>
+  </ul>
+
+  <div class="warn-box">
+    <strong>Problem &sacute;rodowiskowy:</strong> Ponad 95% fosfogipsu trafia na sk&lstrok;adowiska! Bardzo ma&lstrok;e wykorzystanie gospodarcze. Fosfogips jest odpadem chemicznym zawieraj&aogon;cym metale ci&eogon;&zdot;kie i &sacute;ladowe ilo&sacute;ci substancji promieniotw&oacute;rczych (z fosforyt&oacute;w wzbogaconych w uran).
+  </div>
+
+  <h3>6.2. Zwi&aogon;zki fluoru (produkt uboczny)</h3>
+  <p>
+    Uwalniaj&aogon; si&eogon; podczas ekstrakcji i zat&eogon;&zdot;ania w postaci HF i SiF<sub>4</sub>. Absorpcja w roztworze H<sub>2</sub>SiF<sub>6</sub> (kwas heksafluorokrzemowy). St&eogon;&zdot;enie H<sub>2</sub>SiF<sub>6</sub>: do 15% &rarr; na wytw&oacute;rni&eogon; Na<sub>2</sub>SiF<sub>6</sub>, lub 20% &rarr; kwas handlowy.
+  </p>
+  <h4>Zagospodarowanie zwi&aogon;zk&oacute;w fluoru:</h4>
+  <ul>
+    <li><strong>Kwas fluorowodorowy (HF)</strong> &mdash; trawienie szk&lstrok;a, synteza fluork&oacute;w</li>
+    <li><strong>Kriolit (Na<sub>3</sub>AlF<sub>6</sub>)</strong> &mdash; topnik w przemy&sacute;le szklarskim, aluminiowym, ceramicznym</li>
+    <li><strong>Heksafluorokrzemian sodu (Na<sub>2</sub>SiF<sub>6</sub>)</strong> &mdash; szk&lstrok;o mleczne, emalie, kity, betony kwasoodporne, fluorowanie wody</li>
+  </ul>
+
+  <h3>6.3. &Sacute;cieki</h3>
+  <table>
+    <tr><th>Rodzaj &sacute;ciek&oacute;w</th><th>Sk&lstrok;ad</th><th>Post&eogon;powanie</th></tr>
+    <tr><td>Poch&lstrok;adnicze niezakwaszone</td><td>Czyste, niekwasowe</td><td>Nie wymagaj&aogon; neutralizacji &rarr; kanalizacja</td></tr>
+    <tr><td>Kwasne (z filtracji, absorpcji, zat&eogon;&zdot;ania)</td><td>H<sub>3</sub>PO<sub>4</sub>, H<sub>2</sub>SiF<sub>6</sub></td><td>Oczyszczanie + neutralizacja <strong>mleczkiem wapiennym</strong>; osady na sk&lstrok;adowisko fosfogipsu</td></tr>
+  </table>
+
+  <h3>6.4. Gazy</h3>
+  <p>
+    Z ekstrakcji, filtracji i zat&eogon;&zdot;ania. Sk&lstrok;ad: HF, SiF<sub>4</sub>, H<sub>2</sub>SiF<sub>6</sub>, CO<sub>2</sub>, py&lstrok;y surowc&oacute;w. Kierowane do stacji absorpcji fluoru &rarr; po oczyszczeniu &rarr; komin do atmosfery.
+  </p>
+
+  <!-- ============================================================ -->
+  <!-- 7. MATERIALY KONSTRUKCYJNE -->
+  <!-- ============================================================ -->
+  <h2 id="s7">7. Materia&lstrok;y konstrukcyjne aparatury</h2>
+
+  <div class="note-box">
+    <strong>Og&oacute;lna zasada:</strong> Wszystko co ma kontakt z H<sub>2</sub>SO<sub>4</sub>, H<sub>3</sub>PO<sub>4</sub> i HF musi by&cacute; kwasoodporne. Podstawowe materia&lstrok;y: guma, faolit, teflon, winidur, stal kwasoodporna.
+  </div>
+
+  <table>
+    <tr>
+      <th>Aparat</th>
+      <th>Korpus</th>
+      <th>Wn&eogon;trze / elementy robocze</th>
+      <th>Pow&oacute;d</th>
+    </tr>
+    <tr>
+      <td><strong>Reaktory ekstrakcyjne</strong></td>
+      <td>Stal pokryta warstw&aogon; <strong>gumy</strong>, wymurowane <strong>kszta&lstrok;tkami kwasoodpornymi</strong></td>
+      <td>Mieszad&lstrok;a ze <strong>stali kwasoodpornej</strong></td>
+      <td>Kontakt z H<sub>2</sub>SO<sub>4</sub> + H<sub>3</sub>PO<sub>4</sub> + HF</td>
+    </tr>
+    <tr>
+      <td><strong>Wyparki (zat&eogon;&zdot;anie, adiabatyczne)</strong></td>
+      <td>Stalowy, <strong>wygumowany</strong></td>
+      <td>Rurki grzejne, rura przelewowa, przegrody ze <strong>stali kwasoodpornej</strong></td>
+      <td>Kontakt z gor&aogon;cym H<sub>3</sub>PO<sub>4</sub> + pary fluorowe</td>
+    </tr>
+    <tr>
+      <td><strong>Zbiorniki rozcieńczania H<sub>2</sub>SO<sub>4</sub></strong></td>
+      <td>Wy&lstrok;o&zdot;enie <strong>blach&aogon; o&lstrok;owian&aogon;</strong> lub <strong>winidurem</strong> (PCV) lub teflonem</td>
+      <td>W&eogon;&zdot;ownice ze stali kwasoodpornej lub o&lstrok;owiu</td>
+      <td>Kontakt ze st&eogon;&zdot;onym H<sub>2</sub>SO<sub>4</sub></td>
+    </tr>
+    <tr>
+      <td><strong>Etap rozk&lstrok;adu fosforyt&oacute;w</strong></td>
+      <td>Pokrycie: <strong>guma</strong>, <strong>faolit</strong> (żywica fenolowo-krezolowa z nape&lstrok;niaczem kwasoodpornym) lub <strong>teflon</strong></td>
+      <td>&mdash;</td>
+      <td>HF uwalniaj&aogon;cy si&eogon; obok kwas&oacute;w &mdash; wyj&aogon;tkowa agresywno&sacute;&cacute;</td>
+    </tr>
+  </table>
+
+  <!-- ============================================================ -->
+  <!-- 8. NAWOZY FOSFOROWE I WIELOSKLADNIKOWE -->
+  <!-- ============================================================ -->
+  <h2 id="s8">8. Nawozy fosforowe i wielosk&lstrok;adnikowe</h2>
+
+  <h3>8.1. Rodzaje nawoz&oacute;w fosforowych</h3>
+  <table>
+    <tr><th>Naw&oacute;z</th><th>Sk&lstrok;adnik g&lstrok;&oacute;wny</th><th>Min. P<sub>2</sub>O<sub>5</sub></th></tr>
+    <tr><td>Superfosfat prosty</td><td>Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub> + CaSO<sub>4</sub></td><td>16%</td></tr>
+    <tr><td>Superfosfat wzbogacony</td><td>Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub> + CaSO<sub>4</sub></td><td>25%</td></tr>
+    <tr><td>Superfosfat potr&oacute;jny (TSP)</td><td>Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub> + CaSO<sub>4</sub></td><td>38%</td></tr>
+    <tr><td>Precypitat (dwufosfat)</td><td>CaHPO<sub>4</sub></td><td>38%</td></tr>
+    <tr><td>Fosforyty cz&eogon;&sacute;ciowo roz&lstrok;o&zdot;one</td><td>Ca(H<sub>2</sub>PO<sub>4</sub>)<sub>2</sub> + CaSO<sub>4</sub></td><td>20%</td></tr>
+    <tr><td>Fosforyty mi&eogon;kkie</td><td>Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> + CaCO<sub>3</sub></td><td>25%</td></tr>
+    <tr><td>Termofosfat</td><td>Zasadowy fosforan Ca + krzemian Ca</td><td>25%</td></tr>
+    <tr><td>Fosforan glinowo-wapniowy</td><td>Ortofosforany Al i Ca</td><td>30%</td></tr>
+  </table>
+
+  <h3>8.2. Produkcja superfosfatu &mdash; etapy</h3>
+  <ol>
+    <li><strong>Przygotowanie surowc&oacute;w:</strong> Rozdrobnienie fosforyt&oacute;w do &lt; 0,16 mm</li>
+    <li><strong>Rozcieńczanie i ch&lstrok;odzenie H<sub>2</sub>SO<sub>4</sub>:</strong> Do odpowiedniego st&eogon;&zdot;enia i temperatury (30&ndash;40&deg;C dla fosforyt&oacute;w, 50&ndash;70&deg;C dla apatyt&oacute;w)</li>
+    <li><strong>Zarabianie superfosfatu:</strong> Wymieszanie sk&lstrok;adnik&oacute;w, zapocz&aogon;tkowanie rozk&lstrok;adu</li>
+    <li><strong>Dojrzewanie:</strong> W magazynie, 2&ndash;3 tygodnie &mdash; dokonczenie reakcji</li>
+    <li><strong>Absorpcja gaz&oacute;w fluorowych:</strong> Rozpuszczenie w wodzie &rarr; H<sub>2</sub>SiF<sub>6</sub></li>
+  </ol>
+
+  <p>
+    <strong>Superfosfat wzbogacony/potr&oacute;jny:</strong> Fosforyty rozk&lstrok;adane H<sub>3</sub>PO<sub>4</sub> (min. 50% H<sub>3</sub>PO<sub>4</sub>) zamiast H<sub>2</sub>SO<sub>4</sub> &mdash; mo&zdot;na uzyska&cacute; naw&oacute;z o wysokiej zawarto&sacute;ci P nawet z ubogich fosforyt&oacute;w.
+  </p>
+
+  <h3>8.3. Nawozy wielosk&lstrok;adnikowe NPK</h3>
+
+  <h4>Podzia&lstrok;:</h4>
+  <ul>
+    <li><strong>Mieszane</strong> &mdash; mechaniczne zmieszanie sk&lstrok;adnik&oacute;w</li>
+    <li><strong>Z&lstrok;o&zdot;one (kompleksowe)</strong> &mdash; wytworzone drog&aogon; reakcji chemicznych</li>
+    <li><strong>P&lstrok;ynne</strong> &mdash; klarowne (RSM) i zawiesinowe</li>
+  </ul>
+
+  <h4>Produkcja granulowanych NPK z H<sub>3</sub>PO<sub>4</sub> &mdash; etapy:</h4>
+  <ol>
+    <li><strong>Wytworzenie pulpy MAP</strong> w saturatorze: H<sub>3</sub>PO<sub>4</sub> + NH<sub>3</sub> &rarr; NH<sub>4</sub>H<sub>2</sub>PO<sub>4</sub>; + H<sub>2</sub>SO<sub>4</sub> + 2NH<sub>3</sub> &rarr; (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub></li>
+    <li><strong>Zmieszanie pulpy MAP</strong> z zawrotem + KCl + MgCO<sub>3</sub> + wype&lstrok;niacze + mikroelementy (MnO, ZnO, CuO, Na<sub>2</sub>B<sub>4</sub>O<sub>7</sub>&middot;5H<sub>2</sub>O) w bli&zacute;niaczych <strong>mieszalnikach-granulatorach</strong></li>
+    <li><strong>Suszenie granulatu:</strong> Gor&aogon;ce powietrze + spaliny z gazu ziemnego</li>
+    <li><strong>Sortowanie:</strong> Prawid&lstrok;owa wielko&sacute;&cacute; granul: <strong>2&ndash;5 mm</strong>; za ma&lstrok;e/du&zdot;e &rarr; powr&oacute;t na pocz&aogon;tek</li>
+    <li><strong>Ch&lstrok;odzenie:</strong> Powietrzem</li>
+    <li><strong>Powlekanie:</strong> Natryskiwanie &sacute;rodkiem antyzbrylaj&aogon;cym (np. wodna emulsja parafinowa)</li>
+    <li><strong>Absorpcja opar&oacute;w i py&lstrok;&oacute;w:</strong> Cyklony + p&lstrok;uczki &rarr; ograniczenie emisji NH<sub>3</sub> i py&lstrok;u</li>
+    <li><strong>Magazynowanie</strong> produktu koňcowego</li>
+  </ol>
+
+  <h3>8.4. Powi&aogon;zania surowce &mdash; p&oacute;&lstrok;produkty &mdash; produkty</h3>
+  <table>
+    <tr><th>Surowce</th><th>Proces</th><th>Produkt</th></tr>
+    <tr><td>H<sub>2</sub>SO<sub>4</sub> + fosforyty</td><td>Ekstrakcja</td><td>H<sub>3</sub>PO<sub>4</sub> + H<sub>2</sub>SiF<sub>6</sub></td></tr>
+    <tr><td>H<sub>2</sub>SO<sub>4</sub> + fosforyty</td><td>Zarabianie</td><td>Superfosfat prosty (SSP)</td></tr>
+    <tr><td>H<sub>3</sub>PO<sub>4</sub> + fosforyty</td><td>Rozk&lstrok;ad</td><td>Superfosfat potr&oacute;jny (TSP)</td></tr>
+    <tr><td>NH<sub>3</sub> + H<sub>3</sub>PO<sub>4</sub></td><td>Neutralizacja</td><td>MAP / DAP</td></tr>
+    <tr><td>NH<sub>3</sub> + H<sub>2</sub>SO<sub>4</sub></td><td>Neutralizacja</td><td>Siarczan amonu</td></tr>
+    <tr><td>MAP/DAP + KCl + inne</td><td>Granulacja</td><td>Nawozy kompleksowe NPK</td></tr>
+  </table>
+
+  <!-- ============================================================ -->
+  <!-- 9. BHP I OCHRONA SRODOWISKA -->
+  <!-- ============================================================ -->
+  <h2 id="s9">9. BHP i ochrona &sacute;rodowiska</h2>
+
+  <h3>9.1. Zagro&zdot;enia od zwi&aogon;zk&oacute;w fluoru</h3>
+
+  <table>
+    <tr>
+      <th>Zwi&aogon;zek</th>
+      <th>Zagro&zdot;enia dla zdrowia</th>
+      <th>Inne zagro&zdot;enia</th>
+    </tr>
+    <tr>
+      <td><strong>Fluorowod&oacute;r (HF)</strong></td>
+      <td>
+        <ul style="margin:0; padding-left:16px;">
+          <li>Powa&zdot;ne oparzenia, zapalenie spoj&oacute;wek, mo&zdot;e doprowadzi&cacute; do &sacute;lepoty</li>
+          <li>Uszkadza drogi oddechowe, w&aogon;trob&eogon;, nerki, m&oacute;zg</li>
+          <li>Wypiera wapń z organizmu &rarr; fluoroza</li>
+          <li>Hipokalcemia z t&eogon;&zdot;yczk&aogon;, dzia&lstrok;anie kardiotoksyczne</li>
+        </ul>
+      </td>
+      <td>
+        Truj&aogon;cy dla ryb i planktonu; szkodliwy dla ro&sacute;lin; korozja metali; niszczenie szk&lstrok;a
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Tetrafluorek krzemu (SiF<sub>4</sub>)</strong></td>
+      <td>Dzia&lstrok;a dra&zdot;ni&aogon;co na drogi oddechowe</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td><strong>Kwas heksafluorokrzemowy (H<sub>2</sub>SiF<sub>6</sub>)</strong></td>
+      <td>
+        <ul style="margin:0; padding-left:16px;">
+          <li>Silnie toksyczny</li>
+          <li>Powoduje raka sk&oacute;ry i b&lstrok;on &sacute;luzowych</li>
+          <li>Pary i ciecz dzia&lstrok;aj&aogon; &zdot;r&aogon;co na wszystkie cz&eogon;&sacute;ci cia&lstrok;a</li>
+          <li>Podra&zdot;nienia gard&lstrok;a i p&lstrok;uc, przewlek&lstrok;y nie&zdot;yt krtani &rarr; obrz&eogon;k</li>
+        </ul>
+      </td>
+      <td>&mdash;</td>
+    </tr>
+  </table>
+
+  <h3>9.2. &Sacute;rodki bezpieczeństwa</h3>
+  <ul>
+    <li>Praca w <strong>r&eogon;kawicach gumowych</strong>, <strong>okularach typu &bdquo;gogle&rdquo;</strong>, <strong>fartuchu ochronnym</strong></li>
+    <li>St&eogon;&zdot;one kwasy &mdash; praca pod dygestorium</li>
+    <li>Przestrzeganie regulamin&oacute;w pracowni, przepis&oacute;w BHP i instrukcji ppo&zdot;.</li>
+    <li>Monitoring zanieczyszczeń (szczeg&oacute;lnie zwi&aogon;zki fluoru w gazach odlotowych)</li>
+    <li>&Sacute;rodki przeciwpianowe &mdash; ci&aogon;g&lstrok;e dozowanie (zapobiega pieneniu w reaktorach)</li>
+    <li>Neutralizacja &sacute;ciek&oacute;w kwasnych <strong>mleczkiem wapiennym</strong></li>
+  </ul>
+
+  <h3>9.3. Emisja maksymalna z produkcji nawoz&oacute;w NPK</h3>
+  <table>
+    <tr><th>Zanieczyszczenie</th><th>Emisja maks. [kg/t]</th></tr>
+    <tr><td>Zwi&aogon;zki fluorowe</td><td>0,15</td></tr>
+    <tr><td>Amoniak (NH<sub>3</sub>)</td><td>0,30</td></tr>
+    <tr><td>Tlenki azotu, CO, CO<sub>2</sub></td><td>Parametry nienormowane</td></tr>
+  </table>
+
+  <h3>9.4. Ochrona &sacute;rodowiska &mdash; g&lstrok;&oacute;wne problemy</h3>
+  <ul>
+    <li><strong>Fosfogips:</strong> G&lstrok;&oacute;wny odpad (&gt;95% na sk&lstrok;adowiska), zawiera metale ci&eogon;&zdot;kie, &sacute;ladowe substancje promieniotw&oacute;rcze</li>
+    <li><strong>Gazy fluorowe:</strong> Bardzo niekorzystny wp&lstrok;yw na &sacute;rodowisko &mdash; wymagaj&aogon; dok&lstrok;adnej absorpcji przed emisj&aogon;</li>
+    <li><strong>&Sacute;cieki kwasne:</strong> Wymagaj&aogon; neutralizacji przed odprowadzeniem</li>
+    <li><strong>Py&lstrok;y:</strong> Z mielenia, suszenia &mdash; wymagaj&aogon; odpylania (cyklony, filtry)</li>
+  </ul>
+
+  <!-- ============================================================ -->
+  <!-- 10. PARAMETRY I PERSPEKTYWY -->
+  <!-- ============================================================ -->
+  <h2 id="s10">10. Parametry procesowe i perspektywy rozwoju</h2>
+
+  <h3>10.1. Wska&zacute;niki zu&zdot;ycia surowc&oacute;w i energii</h3>
+  <table>
+    <tr><th>Parametr</th><th>Warto&sacute;&cacute;</th></tr>
+    <tr><td>Surowiec fosforanowy</td><td>2,6&ndash;3,5 t / t P<sub>2</sub>O<sub>5</sub></td></tr>
+    <tr><td>Woda procesowa</td><td>4&ndash;7 m<sup>3</sup> / t P<sub>2</sub>O<sub>5</sub></td></tr>
+    <tr><td>Woda ch&lstrok;odnicza</td><td>100&ndash;150 m<sup>3</sup> / t P<sub>2</sub>O<sub>5</sub></td></tr>
+    <tr><td>Para niskopr&eogon;&zdot;na</td><td>0,5&ndash;2,2 t / t P<sub>2</sub>O<sub>5</sub></td></tr>
+    <tr><td>Energia elektryczna</td><td>120&ndash;180 kWh / t P<sub>2</sub>O<sub>5</sub></td></tr>
+    <tr><td>H<sub>2</sub>SO<sub>4</sub></td><td>2,0&ndash;2,1 t / t H<sub>3</sub>PO<sub>4</sub> (100%)</td></tr>
+    <tr><td>Produkt surowy</td><td>~25% P<sub>2</sub>O<sub>5</sub></td></tr>
+    <tr><td>Produkt zat&eogon;&zdot;ony</td><td>42&ndash;54% P<sub>2</sub>O<sub>5</sub></td></tr>
+    <tr><td>Odpad: fosfogips</td><td>4,6&ndash;5,2 t / t P<sub>2</sub>O<sub>5</sub></td></tr>
+  </table>
+
+  <h3>10.2. Perspektywy rozwoju technologii EKF</h3>
+  <ol>
+    <li>Procesy z <strong>rekrystalizacj&aogon; fosfogipsu</strong> &mdash; wy&zdot;sza wydajno&sacute;&cacute; fosforowa, ni&zdot;sze P<sub>2</sub>O<sub>5</sub> w fosfogipsie</li>
+    <li>Wi&eogon;ksze wykorzystanie fosfogipsu do nawoz&oacute;w azotowo-siarkowych (fosfogips + NH<sub>4</sub>NO<sub>3</sub> lub mocznik)</li>
+    <li>Lepsze wykorzystanie zwi&aogon;zk&oacute;w fluoru z r&oacute;&zdot;nych etap&oacute;w produkcji</li>
+    <li>Tendencja do surowc&oacute;w fosforowych o wy&zdot;szej czysto&sacute;ci (ograniczone zasoby &mdash; w&aogon;tpliwe)</li>
+  </ol>
+
+</div>

@@ -1,0 +1,809 @@
+<div class="chapter" style="font-family: 'Georgia', 'Times New Roman', serif; max-width: 960px; margin: 0 auto; padding: 30px; line-height: 1.7; color: #1a1a1a; background: #fff;">
+
+<!-- ========================== STYLE ========================== -->
+<style>
+  .chapter h1 { font-size: 2em; color: #1a237e; border-bottom: 3px solid #1a237e; padding-bottom: 10px; margin-top: 40px; }
+  .chapter h2 { font-size: 1.5em; color: #283593; border-bottom: 2px solid #c5cae9; padding-bottom: 6px; margin-top: 35px; }
+  .chapter h3 { font-size: 1.25em; color: #3949ab; margin-top: 25px; }
+  .chapter h4 { font-size: 1.1em; color: #5c6bc0; margin-top: 20px; }
+  .chapter table { border-collapse: collapse; width: 100%; margin: 15px 0; font-size: 0.95em; }
+  .chapter th { background: #1a237e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; }
+  .chapter td { padding: 8px 12px; border: 1px solid #c5cae9; }
+  .chapter tr:nth-child(even) { background: #e8eaf6; }
+  .chapter tr:nth-child(odd) { background: #fff; }
+  .chapter .reaction-box { background: #f3e5f5; border-left: 4px solid #7b1fa2; padding: 12px 18px; margin: 12px 0; font-family: 'Consolas', 'Courier New', monospace; font-size: 1.05em; border-radius: 0 6px 6px 0; }
+  .chapter .reaction-box.endo { background: #fff3e0; border-left-color: #e65100; }
+  .chapter .reaction-box.egzo { background: #e8f5e9; border-left-color: #2e7d32; }
+  .chapter .reaction-box.danger { background: #ffebee; border-left-color: #c62828; }
+  .chapter .note-box { background: #e3f2fd; border-left: 4px solid #1565c0; padding: 12px 18px; margin: 12px 0; border-radius: 0 6px 6px 0; }
+  .chapter .warn-box { background: #fff8e1; border-left: 4px solid #f57f17; padding: 12px 18px; margin: 12px 0; border-radius: 0 6px 6px 0; }
+  .chapter .danger-box { background: #ffebee; border-left: 4px solid #c62828; padding: 12px 18px; margin: 12px 0; border-radius: 0 6px 6px 0; }
+  .chapter .schema-box { background: #f5f5f5; border: 1px solid #bdbdbd; padding: 16px; margin: 15px 0; font-family: 'Consolas', 'Courier New', monospace; font-size: 0.9em; white-space: pre; overflow-x: auto; border-radius: 6px; line-height: 1.5; }
+  .chapter .section-num { color: #7b1fa2; font-weight: bold; }
+  .chapter ul { margin: 8px 0; padding-left: 24px; }
+  .chapter li { margin: 4px 0; }
+  .chapter .tag { display: inline-block; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: 600; margin: 0 3px; }
+  .chapter .tag-egzo { background: #c8e6c9; color: #1b5e20; }
+  .chapter .tag-endo { background: #ffe0b2; color: #e65100; }
+  .chapter .tag-cat { background: #e1bee7; color: #6a1b9a; }
+  .chapter .tag-temp { background: #bbdefb; color: #0d47a1; }
+  .chapter .tag-press { background: #b2dfdb; color: #004d40; }
+</style>
+
+<!-- ========================== TYTUL ========================== -->
+<h1>ROZDZIAŁ IV: Metoda Habera-Boscha &mdash; Synteza amoniaku (NH<sub>3</sub>), kwas azotowy (metoda Ostwalda), nawozy azotowe</h1>
+
+<p style="text-align:center; color:#555; font-style:italic; margin-bottom:30px;">
+Kompendium oparte na: H. Życka (MEN/ITE Radom 2006, j.m. 311[31].Z5.04), materiały Z.A. "Puławy" (dr B. Chmiel, dr W. Grzegorczyk), metody technologiczne &mdash; wykład
+</p>
+
+<!-- ========================== 1. WPROWADZENIE ========================== -->
+<h2><span class="section-num">1.</span> Wprowadzenie &mdash; znaczenie amoniaku</h2>
+
+<p>Synteza amoniaku to jeden z najważniejszych procesów w historii chemii przemysłowej. Metoda opracowana przez <strong>Fritza Habera</strong> (laboratoryjnie, 1909) i wdrożona na skalę przemysłową przez <strong>Carla Boscha</strong> (BASF, 1913) zrewolucjonizowała produkcję nawozów sztucznych, a tym samym światowe rolnictwo. Za swoje osiągnięcia obaj naukowcy otrzymali Nagrody Nobla:</p>
+
+<table>
+<tr><th>Laureat</th><th>Rok Nobla</th><th>Wkład</th></tr>
+<tr><td>Fritz Haber</td><td>1918</td><td>Synteza amoniaku z pierwiastków (N<sub>2</sub> + H<sub>2</sub>)</td></tr>
+<tr><td>Carl Bosch</td><td>1931</td><td>Opracowanie metod chemii i techniki wysokich ciśnień</td></tr>
+</table>
+
+<h3>Właściwości amoniaku (NH<sub>3</sub>)</h3>
+<table>
+<tr><th>Właściwość</th><th>Wartość</th></tr>
+<tr><td>Wygląd</td><td>Bezbarwny gaz o ostrej, charakterystycznej woni</td></tr>
+<tr><td>Temperatura topnienia</td><td>&minus;77,7 &deg;C</td></tr>
+<tr><td>Temperatura wrzenia</td><td>&minus;33,4 &deg;C</td></tr>
+<tr><td>Gęstość (war. normalne)</td><td>0,771 g/dm<sup>3</sup></td></tr>
+<tr><td>Gęstość cieczy (p. wrzenia)</td><td>0,682 g/cm<sup>3</sup></td></tr>
+<tr><td>Rozpuszczalność w H<sub>2</sub>O (0 &deg;C)</td><td>1176 obj. NH<sub>3</sub> / 1 obj. H<sub>2</sub>O</td></tr>
+<tr><td>Rozpuszczalność w H<sub>2</sub>O (20 &deg;C)</td><td>702 obj. NH<sub>3</sub> / 1 obj. H<sub>2</sub>O</td></tr>
+<tr><td>Dysocjacja w wodzie</td><td>Słaba zasada, K<sub>d</sub> = 8&times;10<sup>&minus;5</sup>; cząsteczki NH<sub>4</sub>OH <strong>NIE</strong> istnieją</td></tr>
+<tr><td>Granice wybuchowości z powietrzem</td><td>16&ndash;27 % obj. NH<sub>3</sub></td></tr>
+<tr><td>Ciepło parowania</td><td>1,3 kJ/g (doskonały czynnik chłodniczy)</td></tr>
+<tr><td>Właściwości redukujące</td><td>Powyżej 700 &deg;C &mdash; silne (rozkład termiczny z wydzieleniem H<sub>2</sub>)</td></tr>
+<tr><td>Spalanie katalityczne</td><td>W obecności Pt spala się do NO i H<sub>2</sub>O (metoda Ostwalda)</td></tr>
+</table>
+
+<h3>Zastosowania amoniaku</h3>
+<ul>
+<li><strong>~80 %</strong> &mdash; produkcja nawozów sztucznych (saletra amonowa, mocznik, saletrzak, RSM)</li>
+<li>Produkcja NO (półprodukt do HNO<sub>3</sub>) &mdash; metoda Ostwalda</li>
+<li>Czynnik chłodniczy (wypierany przez freony, wraca po odkryciu ich wpływu na ozon)</li>
+<li>Produkcja węglanu sodu (metoda Solvaya)</li>
+<li>Materiały wybuchowe, cyjanowodór (HCN), tkaniny syntetyczne, barwniki</li>
+</ul>
+
+<!-- ========================== 2. SUROWCE ========================== -->
+<h2><span class="section-num">2.</span> Surowce</h2>
+
+<table>
+<tr><th>Surowiec</th><th>Źródło / postać</th><th>Udział w produkcji NH<sub>3</sub></th><th>Szczegóły</th></tr>
+<tr><td><strong>Azot (N<sub>2</sub>)</strong></td><td>Powietrze atmosferyczne</td><td>&mdash;</td><td>Wprowadzany chemicznie przez dopalanie metanu powietrzem (reforming wtórny); alternatywnie: destylacja frakcyjna ciekłego powietrza</td></tr>
+<tr><td><strong>Wodór (H<sub>2</sub>)</strong></td><td>Reforming parowy gazu ziemnego</td><td>~83 % światowej produkcji</td><td>CH<sub>4</sub> + H<sub>2</sub>O &rarr; CO + 3H<sub>2</sub></td></tr>
+<tr><td>H<sub>2</sub> (alternatywnie)</td><td>Półspalanie ciężkich węglowodorów / zgazowanie węgla/koksu</td><td>~16 %</td><td>&mdash;</td></tr>
+<tr><td>H<sub>2</sub> (alternatywnie)</td><td>Elektroliza wody</td><td>~0,5 %</td><td>Duże zużycie energii</td></tr>
+<tr><td><strong>Katalizator syntezy</strong></td><td>Żelazo (Fe z Fe<sub>3</sub>O<sub>4</sub>)</td><td>&mdash;</td><td>Promotory: Al<sub>2</sub>O<sub>3</sub> + K<sub>2</sub>O (3&ndash;7 %), granulki 3&ndash;8 mm</td></tr>
+<tr><td><strong>Gaz syntezowy</strong></td><td>Produkt końcowy oczyszczania</td><td>&mdash;</td><td>75 % obj. H<sub>2</sub> + 25 % obj. N<sub>2</sub> (stosunek 3:1)</td></tr>
+</table>
+
+<!-- ========================== 3. CHEMIZM ========================== -->
+<h2><span class="section-num">3.</span> Chemizm procesu &mdash; wszystkie reakcje</h2>
+
+<h3>3.1. Reakcja główna syntezy amoniaku</h3>
+<div class="reaction-box egzo">
+N<sub>2</sub> + 3H<sub>2</sub> &hArr; 2NH<sub>3</sub> &nbsp;&nbsp;&nbsp; &Delta;H&deg; = &minus;92 kJ/mol
+<span class="tag tag-egzo">EGZOTERMICZNA</span> <span class="tag tag-cat">kat. Fe/K<sub>2</sub>O/Al<sub>2</sub>O<sub>3</sub></span>
+</div>
+<p>Reakcja <strong>odwracalna</strong>, ze zmniejszeniem objętości (4 mole substratów &rarr; 2 mole produktu). Przebiega <strong>bardzo wolno</strong> bez katalizatora.</p>
+
+<h3>3.2. Reforming parowy (I etap)</h3>
+<div class="reaction-box endo">
+CH<sub>4</sub> + H<sub>2</sub>O &rarr; CO + 3H<sub>2</sub> &nbsp;&nbsp;&nbsp; &Delta;H&deg; = +206 kJ/mol
+<span class="tag tag-endo">ENDOTERMICZNA</span> <span class="tag tag-cat">kat. Ni/Al<sub>2</sub>O<sub>3</sub></span>
+</div>
+<div class="reaction-box endo">
+CH<sub>4</sub> + 2H<sub>2</sub>O &hArr; CO<sub>2</sub> + 4H<sub>2</sub> &nbsp;&nbsp;&nbsp; (reakcja równoległa)
+</div>
+
+<h3>3.3. Reforming wtórny &mdash; dopalanie</h3>
+<div class="reaction-box egzo">
+2CH<sub>4</sub> + O<sub>2</sub> &rarr; 2CO + 4H<sub>2</sub> &nbsp;&nbsp;&nbsp; (częściowe spalanie, wprowadzenie N<sub>2</sub> z powietrza)
+</div>
+
+<h3>3.4. Odsiarczanie</h3>
+<div class="reaction-box">
+H<sub>2</sub>S + ZnO &rarr; ZnS + H<sub>2</sub>O &nbsp;&nbsp;&nbsp; (adsorpcja na tlenku cynku, ~350 &deg;C)
+</div>
+
+<h3>3.5. Konwersja tlenku węgla</h3>
+<div class="reaction-box egzo">
+CO + H<sub>2</sub>O &hArr; CO<sub>2</sub> + H<sub>2</sub> &nbsp;&nbsp;&nbsp; &Delta;H&deg; = &minus;41,2 kJ/mol
+<span class="tag tag-egzo">EGZOTERMICZNA</span>
+</div>
+
+<h3>3.6. Metanizacja</h3>
+<div class="reaction-box">
+CO + 3H<sub>2</sub> &rarr; CH<sub>4</sub> + H<sub>2</sub>O<br>
+CO<sub>2</sub> + 4H<sub>2</sub> &rarr; CH<sub>4</sub> + 2H<sub>2</sub>O &nbsp;&nbsp;&nbsp; <span class="tag tag-cat">kat. Ni/Al<sub>2</sub>O<sub>3</sub></span>
+</div>
+
+<h3>3.7. Zatrucie katalizatora parą wodną</h3>
+<div class="reaction-box danger">
+Fe + H<sub>2</sub>O &rarr; FeO + H<sub>2</sub> &nbsp;&nbsp;&nbsp; (FeO nie ma działania katalitycznego)
+</div>
+
+<h3>3.8. Korozja wodorowa &mdash; odwęglenie stali</h3>
+<div class="reaction-box danger">
+Fe<sub>3</sub>C + 2H<sub>2</sub> &rarr; 3Fe + CH<sub>4</sub> &nbsp;&nbsp;&nbsp; (kruchość wodorowa, pękanie korozyjne)
+</div>
+
+<h3>3.9. Usuwanie CO<sub>2</sub> &mdash; absorpcja węglanowa</h3>
+<div class="reaction-box">
+K<sub>2</sub>CO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O &hArr; 2KHCO<sub>3</sub> &nbsp;&nbsp;&nbsp; &Delta;H = &minus;100,5 kJ/mol
+</div>
+
+<!-- ========================== 4. PRZYGOTOWANIE GAZU SYNTEZOWEGO ========================== -->
+<h2><span class="section-num">4.</span> Przygotowanie gazu syntezowego &mdash; etapy szczegółowe</h2>
+
+<div class="note-box">
+<strong>Schemat blokowy:</strong> GAZ ZIEMNY &rarr; Odsiarczanie (ZnO) &rarr; Reforming I (para, Ni) &rarr; Reforming II / Dopalanie (powietrze) &rarr; Konwersja CO (WTK + NTK) &rarr; Usuwanie CO<sub>2</sub> (K<sub>2</sub>CO<sub>3</sub>) &rarr; Metanizacja (Ni) &rarr; <strong>OCZYSZCZONY GAZ SYNTEZOWY</strong>
+</div>
+
+<!-- 4.1 Odsiarczanie -->
+<h3>4.1. Odsiarczanie gazu ziemnego</h3>
+
+<table>
+<tr><th>Parametr</th><th>Wartość</th></tr>
+<tr><td>Cel</td><td>Usunięcie siarki (H<sub>2</sub>S + organiczne związki S) do poziomu &lt; 0,5 mg S/m<sup>3</sup></td></tr>
+<tr><td>Zawartość S na wejściu</td><td>~40 mg S/m<sup>3</sup> (gazociągi PGNiG)</td></tr>
+<tr><td>Zawartość S na wyjściu</td><td><strong>&lt; 0,1 ppm</strong> (&lt; 5 ppm wg norm Z.A. Puławy)</td></tr>
+<tr><td>Temperatura</td><td>~350 &deg;C (maks. 400 &deg;C &mdash; powyżej kraking!)</td></tr>
+<tr><td>Katalizator uwodornienia</td><td>Kobaltowo-molibdenowy (Co-Mo)</td></tr>
+<tr><td>Adsorbent H<sub>2</sub>S</td><td>Tlenek cynku (ZnO)</td></tr>
+</table>
+
+<p><strong>Przebieg:</strong></p>
+<ol>
+<li>Gaz ziemny podgrzany do ~350 &deg;C</li>
+<li>Reaktor z katalizatorem Co-Mo &mdash; uwodornienie organicznych związków siarki do H<sub>2</sub>S</li>
+<li>Adsorbery z ZnO: H<sub>2</sub>S + ZnO &rarr; ZnS + H<sub>2</sub>O</li>
+</ol>
+<div class="warn-box">
+<strong>Dlaczego konieczne:</strong> Siarka <em>zatruwaja</em> (trwale dezaktywuje) katalizatory niklowe reformingu i żelazowe syntezy NH<sub>3</sub>. Wzmaga również korozję aparatury. Wodór do uwodornienia pochodzi z recyrkulacji z węzła syntezy.
+</div>
+
+<!-- 4.2 Reforming pierwotny -->
+<h3>4.2. Reforming pierwotny (I reforming)</h3>
+
+<div class="reaction-box endo">
+CH<sub>4</sub> + H<sub>2</sub>O &rarr; CO + 3H<sub>2</sub> &nbsp;&nbsp;&nbsp; &Delta;H&deg; = +206 kJ/mol <span class="tag tag-endo">ENDOTERMICZNA</span>
+</div>
+
+<h4>Aparatura &mdash; Reformer (piec rurowy)</h4>
+<table>
+<tr><th>Element</th><th>Szczegóły</th></tr>
+<tr><td>Rury katalityczne</td><td>Stop nikiel-chrom (stal żaroodporna); &empty; wewn. ~120 mm, grubość ścianki 15&ndash;20 mm</td></tr>
+<tr><td>Wypełnienie rur</td><td><strong>Katalizator niklowy</strong> (tlenek niklu, NiO) na nośniku glinowym (Al<sub>2</sub>O<sub>3</sub>)</td></tr>
+<tr><td>Obudowa</td><td>Komora wyłożona materiałem termoizolacyjnym</td></tr>
+<tr><td>Ogrzewanie</td><td>Palniki gazowe (gaz ziemny opalowy) w rzędach na kilku wysokościach pieca (ogrzewanie boczne)</td></tr>
+</table>
+
+<h4>Warunki procesowe</h4>
+<table>
+<tr><th>Parametr</th><th>Wartość</th></tr>
+<tr><td>Stosunek para : gaz</td><td><strong>1:3</strong> (H<sub>2</sub>O : CH<sub>4</sub>); wg Puław 2&ndash;4 krotny nadmiar H<sub>2</sub>O</td></tr>
+<tr><td>Podgrzanie wstępne</td><td>500&ndash;600 &deg;C (ciepłem spalin w komorze)</td></tr>
+<tr><td>Temperatura reakcji</td><td><strong>780&ndash;830 &deg;C</strong> (973&ndash;1073 K)</td></tr>
+<tr><td>Ciśnienie</td><td><strong>3,0&ndash;3,5 MPa</strong></td></tr>
+<tr><td>Resztkowy CH<sub>4</sub> na wyjściu</td><td>~14 % (w przeliczeniu na gaz suchy); wg Puław ~8 %</td></tr>
+</table>
+
+<h4>Gospodarka cieplna</h4>
+<ul>
+<li>Ciepło wykorzystane na konwersję = tylko <strong>50&ndash;60 %</strong> całkowitego ciepła spalania</li>
+<li>Reszta ciepła (gorące spaliny) &rarr; sekcja utylizacji: podgrzewanie surowców, wytwarzanie pary wysokociśnieniowej, podgrzewanie wody kotłowej</li>
+<li>Spaliny schłodzone do 180&ndash;250 &deg;C odprowadzane do atmosfery</li>
+</ul>
+
+<div class="warn-box">
+<strong>Depozyty węglowe:</strong> Nadmiar H<sub>2</sub>O (2&ndash;4&times;) zapobiega osadzaniu depozytów C na katalizatorze. Dodatkowo stosuje się dotowanie alkaliami (K) &mdash; promotory zgazowania depozytów.
+</div>
+
+<!-- 4.3 Reforming wtórny -->
+<h3>4.3. Reforming wtórny / Dopalanie (II reforming)</h3>
+
+<p><strong>Cel:</strong> Konwersja resztkowego CH<sub>4</sub> + wprowadzenie stechiometrycznej ilości <strong>azotu</strong> (z powietrza) do gazu syntezowego.</p>
+
+<h4>Aparatura &mdash; Dopalacz</h4>
+<p>Komora z katalizatorem niklowym ułożonym warstwami.</p>
+
+<h4>Przebieg</h4>
+<ol>
+<li>Gaz procesowy z I reformera (~14 % CH<sub>4</sub>) wprowadzony do dopalacza</li>
+<li>Mieszanie ze strumieniem <strong>powietrza</strong> tłoczonego sprężarką pod ciśnieniem <strong>3,16 MPa</strong></li>
+<li>Powietrze ogrzane do <strong>550 &deg;C</strong> w komorze spalin</li>
+<li>Częściowe spalenie podnosi temperaturę do ~<strong>1000 &deg;C</strong></li>
+<li>Doprowadzenie konwersji CH<sub>4</sub> do końca (resztkowy CH<sub>4</sub>: <strong>0,2&ndash;0,4 %</strong>)</li>
+<li>Strumień powietrza wnosi stechiometryczną ilość <strong>N<sub>2</sub></strong></li>
+</ol>
+
+<p>Chłodzenie do ~350 &deg;C w kotłach &mdash; ciepło wykorzystane do produkcji <strong>pary przegrzanej 11,5 MPa / 500 &deg;C</strong>.</p>
+
+<h4>Skład surowego gazu syntezowego (po dopalaniu)</h4>
+<table>
+<tr><th>H<sub>2</sub></th><th>N<sub>2</sub></th><th>CO<sub>2</sub></th><th>CO</th><th>CH<sub>4</sub></th><th>O<sub>2</sub></th></tr>
+<tr><td>40&ndash;56 %</td><td>20&ndash;22 %</td><td>6&ndash;15 %</td><td>10&ndash;16 %</td><td>0,2&ndash;0,4 %</td><td>~0,2 %</td></tr>
+</table>
+
+<!-- 4.4 Konwersja CO -->
+<h3>4.4. Konwersja tlenku węgla (CO)</h3>
+
+<div class="reaction-box egzo">
+CO + H<sub>2</sub>O &hArr; CO<sub>2</sub> + H<sub>2</sub> &nbsp;&nbsp;&nbsp; &Delta;H&deg; = &minus;41,2 kJ/mol <span class="tag tag-egzo">EGZOTERMICZNA</span>
+</div>
+
+<div class="note-box"><strong>UWAGA:</strong> CO jest <strong>trucizną</strong> katalizatora syntezy amoniaku (tworzy połączenia z Fe). Konieczne głębokie usuwanie!</div>
+
+<p>Przebiega w <strong>dwóch etapach</strong> z międzystopniowym chłodzeniem:</p>
+
+<table>
+<tr><th>Parametr</th><th>WTK (wysokotemperaturowa)</th><th>NTK (niskotemperaturowa)</th></tr>
+<tr><td>Temperatura</td><td>280&ndash;450 &deg;C (optymalnie ~400 &deg;C)</td><td>200&ndash;250 &deg;C (optymalnie ~250 &deg;C)</td></tr>
+<tr><td>Ciśnienie</td><td>~3 MPa</td><td>2,93 MPa</td></tr>
+<tr><td>Katalizator</td><td><strong>Fe<sub>2</sub>O<sub>3</sub> + 5% Cr<sub>2</sub>O<sub>3</sub> + K<sub>2</sub>O</strong> (żelazowo-chromowy)</td><td><strong>Cu/ZnO</strong> (miedziowo-cynkowy)</td></tr>
+<tr><td>CO po procesie</td><td>2&ndash;3 %</td><td><strong>0,2&ndash;0,4 %</strong></td></tr>
+<tr><td>Maks. zawartość S w gazie</td><td>&lt; 0,5 g/m<sup>3</sup></td><td>&lt; 10 ppm</td></tr>
+<tr><td>Charakter zatrucia kat.</td><td>Odwracalne</td><td><strong>Nieodwracalne!</strong></td></tr>
+</table>
+
+<p>Po konwersji: chłodzenie w wymiennikach do ~100 &deg;C &mdash; wydzielanie dużej ilości kondensatu procesowego.</p>
+
+<!-- 4.5 Usuwanie CO2 -->
+<h3>4.5. Usuwanie CO<sub>2</sub></h3>
+
+<p>Gaz po konwersji CO zawiera ok. <strong>20 % CO<sub>2</sub></strong> + nadmiarowa para wodna.</p>
+
+<table>
+<tr><th>Parametr</th><th>Wartość</th></tr>
+<tr><td>Metoda</td><td>Absorpcja gorącym roztworem <strong>węglanu potasu (K<sub>2</sub>CO<sub>3</sub>, 25&ndash;35%)</strong> aktywowanym DEA (dietanoloamina, 3%)</td></tr>
+<tr><td>Ciśnienie absorpcji</td><td>2&ndash;3 MPa</td></tr>
+<tr><td>Temperatura absorpcji</td><td>~100 &deg;C (373 K)</td></tr>
+<tr><td>CO<sub>2</sub> po procesie</td><td>&lt; 0,5 % (100&ndash;1000 ppm)</td></tr>
+<tr><td>Regeneracja</td><td>p = atmosferyczne, T = ~120 &deg;C (393 K)</td></tr>
+<tr><td>Zagospodarowanie CO<sub>2</sub></td><td>Częściowo do <strong>produkcji mocznika</strong>, reszta do atmosfery</td></tr>
+</table>
+
+<!-- 4.6 Metanizacja -->
+<h3>4.6. Metanizacja</h3>
+
+<p><strong>Cel:</strong> Usunięcie resztkowych ilości CO i CO<sub>2</sub> &mdash; trucizn katalizatora syntezy NH<sub>3</sub>.</p>
+
+<div class="reaction-box">
+CO + 3H<sub>2</sub> &rarr; CH<sub>4</sub> + H<sub>2</sub>O<br>
+CO<sub>2</sub> + 4H<sub>2</sub> &rarr; CH<sub>4</sub> + 2H<sub>2</sub>O
+</div>
+
+<table>
+<tr><th>Parametr</th><th>Wartość</th></tr>
+<tr><td>Katalizator</td><td>Wysoko-niklowy Ni/Al<sub>2</sub>O<sub>3</sub></td></tr>
+<tr><td>Temperatura</td><td>300&ndash;400 &deg;C (553&ndash;573 K)</td></tr>
+<tr><td>Ciśnienie</td><td>3 MPa</td></tr>
+<tr><td>CO + CO<sub>2</sub> po metanizacji</td><td><strong>&lt; 10 ppm</strong></td></tr>
+<tr><td>CH<sub>4</sub> po metanizacji</td><td>~0,8 %</td></tr>
+</table>
+
+<h4>Skład oczyszczonego gazu syntezowego (ZA Puławy II)</h4>
+<table>
+<tr><th>H<sub>2</sub></th><th>N<sub>2</sub></th><th>CO + CO<sub>2</sub></th><th>CH<sub>4</sub></th><th>Ar + inerty</th></tr>
+<tr><td><strong>74 %</strong></td><td><strong>24 %</strong></td><td>po 10 ppm</td><td>0,8 %</td><td>1,2 %</td></tr>
+</table>
+
+<!-- ========================== 5. WŁAŚCIWA SYNTEZA ========================== -->
+<h2><span class="section-num">5.</span> Właściwa synteza amoniaku</h2>
+
+<!-- 5.1 Sprężanie -->
+<h3>5.1. Sprężanie gazu syntezowego</h3>
+<table>
+<tr><th>Parametr</th><th>Wartość</th></tr>
+<tr><td>Sprężarki</td><td>Odśrodkowe (turbokompresory), wielostopniowe</td></tr>
+<tr><td>Ciśnienie docelowe</td><td><strong>15&ndash;30 MPa</strong> (typowo 21 MPa)</td></tr>
+<tr><td>Napęd</td><td>Turbina parowa zasilana parą przegrzaną z procesu (&gt;100 atm)</td></tr>
+<tr><td>Dodatkowe osuszanie</td><td>Sita molekularne / przemywanie ciekłym NH<sub>3</sub> lub N<sub>2</sub></td></tr>
+</table>
+<p>Sprężony gaz (po odseparowaniu kondensatu) mieszany ze strumieniem <strong>gazu obiegowego</strong> z konwertora syntezy.</p>
+
+<h4>Klasyfikacja instalacji wg ciśnienia</h4>
+<table>
+<tr><th>Typ</th><th>Ciśnienie</th><th>Znaczenie</th></tr>
+<tr><td>Wysokociśnieniowe</td><td>70&ndash;100 MPa</td><td>Historyczne</td></tr>
+<tr><td><strong>Średniociśnieniowe</strong></td><td><strong>20&ndash;30 MPa</strong></td><td><strong>NAJWIĘKSZE ZNACZENIE PRZEMYSŁOWE</strong></td></tr>
+<tr><td>Niskociśnieniowe</td><td>8&ndash;10 MPa</td><td>Nowoczesne</td></tr>
+</table>
+
+<!-- 5.2 Reaktor syntezy -->
+<h3>5.2. Reaktor syntezy (konwerter) &mdash; budowa i działanie</h3>
+
+<div class="reaction-box egzo">
+N<sub>2</sub> + 3H<sub>2</sub> &hArr; 2NH<sub>3</sub> &nbsp;&nbsp;&nbsp; &Delta;H&deg; = &minus;92 kJ/mol
+<br>Warunki: <span class="tag tag-temp">350&ndash;550 &deg;C</span> <span class="tag tag-press">20&ndash;30 MPa</span> <span class="tag tag-cat">kat. Fe/K<sub>2</sub>O/Al<sub>2</sub>O<sub>3</sub>/CaO</span>
+</div>
+
+<h4>Katalizator (kontakt) &mdash; przygotowanie</h4>
+<ol>
+<li>Spalenie czystego żelaza w tlenie &rarr; <strong>Fe<sub>3</sub>O<sub>4</sub></strong></li>
+<li>Zmieszanie Fe<sub>3</sub>O<sub>4</sub> z tlenkiem glinu i tlenkiem potasu (<strong>3&ndash;7 %</strong>)</li>
+<li>Stapianie w <strong>piecu elektrycznym</strong></li>
+<li>Granulki stopu: średnica ziaren <strong>3&ndash;8 mm</strong></li>
+<li>Redukcja Fe<sub>3</sub>O<sub>4</sub> do Fe &mdash; zachodzi <strong>in situ</strong> w reaktorze syntezy</li>
+</ol>
+
+<h4>Mechanizm reakcji na katalizatorze żelazowym</h4>
+<ol>
+<li>N<sub>2</sub> + 2Fe &hArr; 2Fe&ndash;N (adsorpcja dysocjatywna azotu)</li>
+<li>H<sub>2</sub> + 2Fe &hArr; 2Fe&ndash;H (adsorpcja dysocjatywna wodoru)</li>
+<li>N<sub>(ads)</sub> + H<sub>(ads)</sub> &hArr; NH<sub>(ads)</sub></li>
+<li>NH<sub>(ads)</sub> + H<sub>(ads)</sub> &hArr; NH<sub>2(ads)</sub></li>
+<li>NH<sub>2(ads)</sub> + H<sub>(ads)</sub> &hArr; NH<sub>3(ads)</sub></li>
+<li>NH<sub>3(ads)</sub> &hArr; NH<sub>3</sub> (desorpcja produktu)</li>
+</ol>
+
+<h4>Trucizny katalizatora</h4>
+<table>
+<tr><th>Typ</th><th>Substancje</th><th>Skutek</th></tr>
+<tr><td><strong>Trwałe</strong></td><td>H<sub>2</sub>S, węglowodory (oprócz CH<sub>4</sub>)</td><td>Nieodwracalna dezaktywacja</td></tr>
+<tr><td><strong>Przejściowe</strong></td><td>Para wodna (H<sub>2</sub>O)</td><td>Fe + H<sub>2</sub>O &rarr; FeO + H<sub>2</sub>; po oczyszczeniu gazu &mdash; częściowe przywrócenie aktywności</td></tr>
+</table>
+
+<h4>Budowa reaktora radialnego</h4>
+<p>Elementy: (1) kosz z kontaktem, (2) zewnętrzny płaszcz ciśnieniowy, (3) górna warstwa kontaktu, (4) dolna warstwa kontaktu, (5) rury wymiennika ciepła.</p>
+<ul>
+<li>Gaz syntezowy przepływa od osi ku ścianom (przepływ <strong>radialny / promieniowy</strong>)</li>
+<li><strong>Temperatura płaszcza &lt; 100 &deg;C</strong> &mdash; ogranicza korozję wodorową</li>
+<li>Gaz nagrzewany w wymienniku (5) ciepłem gazów poreakcyjnych</li>
+<li>Przepływ przez rurę centralną z perforowaną ścianką &rarr; górna warstwa kontaktu: ~<strong>400 &deg;C</strong></li>
+<li><strong>Regulacja:</strong> Powyżej 500 &deg;C kontakt traci aktywność!</li>
+<li>Chłodzenie międzywarstwowe: <strong>dostrzyk zimnego gazu syntezowego</strong> (quench)</li>
+<li>Zaleta radialnego przepływu: <strong>mniejszy spadek ciśnienia</strong> na złożu niż przy przepływie osiowym</li>
+</ul>
+
+<h4>Korozja wodorowa</h4>
+<div class="danger-box">
+<strong>Poważny problem eksploatacyjny!</strong> H<sub>2</sub> adsorbuje się na powierzchni stali &rarr; dyfunduje w głąb tworzywa &rarr; gromadzenie w sieci krystalicznej &rarr; <strong>kruchość wodorowa</strong> &rarr; pękanie korozyjne. Odwęglenie: Fe<sub>3</sub>C + 2H<sub>2</sub> &rarr; 3Fe + CH<sub>4</sub>. Nasila się ze wzrostem temperatury i ciśnienia.
+</div>
+
+<!-- 5.3 Kondensacja -->
+<h3>5.3. Kondensacja i separacja NH<sub>3</sub></h3>
+
+<p><strong>Wydajność jednego przejścia:</strong> tylko <strong>15&ndash;20 %</strong> gazu przereagowuje do NH<sub>3</sub>.</p>
+<p>Gaz poreakcyjny zawiera <strong>15&ndash;20 % NH<sub>3</sub></strong>.</p>
+
+<p>Separacja:</p>
+<ol>
+<li>Chłodzenie w wymiennikach ciepła</li>
+<li>Chłodnice powietrzne / wodne</li>
+<li>Chłodnice amoniakalne (&minus;10 do &minus;30 &deg;C)</li>
+<li>Separator ciecz-gaz &rarr; <strong>ciekły NH<sub>3</sub></strong> do magazynu</li>
+</ol>
+
+<!-- 5.4 Recyrkulacja -->
+<h3>5.4. Recyrkulacja (obieg kołowy)</h3>
+
+<div class="note-box">
+<strong>Schemat obiegu (metoda Habera-Boscha):</strong><br>
+(1) konwerter syntezowy &rarr; (2) chłodnica wodna &rarr; (3) separator &rarr; (4) kompresor obiegowy &rarr; (5) filtr olejowy &rarr; (6) chłodnica &rarr; (7) wymiennik/oddzielacz NH<sub>3</sub> &rarr; (8) kondensator amoniakalny &rarr; powrót do (1)<br>
+Wejście: gaz świeży (8) &nbsp;|&nbsp; Wyjście: ciekły NH<sub>3</sub> (10) + gaz wydmuchowy
+</div>
+
+<ul>
+<li>Nieprzereagowany gaz po schłodzeniu i wykropleniu NH<sub>3</sub> &rarr; separacja &rarr; zawrócenie do reaktora</li>
+<li>Uzupełnienie strumieniem gazu świeżego</li>
+<li>Całkowita konwersja z recyrkulacją: <strong>97&ndash;98 %</strong></li>
+</ul>
+
+<h4>Gazy obojętne i gaz wydmuchowy</h4>
+<ul>
+<li>Metan i argon wchodzą z gazem świeżym &rarr; gromadzą się w obiegu</li>
+<li>Stałe odprowadzanie strumienia <strong>gazu wydmuchowego (resztkowego)</strong></li>
+<li>Zawartość inertów w pętli: <strong>10&ndash;15 %</strong></li>
+<li>Gaz wydmuchowy (H<sub>2</sub>, N<sub>2</sub>, CH<sub>4</sub>, Ar) po przemyciu wodą (odzysk NH<sub>3</sub>) &rarr; na opał</li>
+<li>Nowe instalacje: <strong>frakcjonowanie membranowe</strong> &mdash; frakcja wodorowa + azotowa zawracana, gaz odpadowy na opał</li>
+</ul>
+
+<!-- ========================== 6. LE CHATELIER ========================== -->
+<h2><span class="section-num">6.</span> Zasada Le Chateliera &mdash; wpływ warunków na syntezę NH<sub>3</sub></h2>
+
+<div class="reaction-box egzo">
+N<sub>2</sub> + 3H<sub>2</sub> &hArr; 2NH<sub>3</sub> &nbsp;&nbsp;&nbsp; &Delta;H&deg; = &minus;92 kJ/mol &nbsp;&nbsp; (4 mole &rarr; 2 mole)
+</div>
+
+<table>
+<tr><th>Czynnik</th><th>Wpływ na równowagę</th><th>Wpływ na kinetykę</th><th>Kompromis przemysłowy</th></tr>
+<tr><td><strong>Temperatura &darr;</strong></td><td>Więcej NH<sub>3</sub> (reakcja egzotermiczna &mdash; przesunięcie w prawo)</td><td>Wolniejsza reakcja</td><td><strong>350&ndash;550 &deg;C</strong> &mdash; wystarczająca szybkość dzięki katalizatorowi Fe</td></tr>
+<tr><td><strong>Ciśnienie &uarr;</strong></td><td>Więcej NH<sub>3</sub> (zmniejszenie objętości: 4 mol &rarr; 2 mol)</td><td>Szybsza reakcja</td><td><strong>20&ndash;30 MPa</strong> &mdash; kompromis koszt aparatury vs. wydajność</td></tr>
+<tr><td><strong>Stężenie substratów &uarr;</strong></td><td>Więcej NH<sub>3</sub></td><td>&mdash;</td><td>Stosunek N<sub>2</sub>:H<sub>2</sub> = <strong>1:3</strong> (stechiometryczny), recyrkulacja</td></tr>
+<tr><td><strong>Usuwanie produktu</strong></td><td>Przesunięcie w prawo</td><td>&mdash;</td><td>Ciągłe wykraplanie NH<sub>3</sub>, obieg kołowy</td></tr>
+</table>
+
+<h4>Zawartość NH<sub>3</sub> w równowadze [%] &mdash; mieszanina stechiometryczna</h4>
+<table>
+<tr><th>Ciśnienie</th><th>200 &deg;C</th><th>300 &deg;C</th><th>400 &deg;C</th><th>500 &deg;C</th><th>600 &deg;C</th></tr>
+<tr><td>1 MPa</td><td>~50 %</td><td>~15 %</td><td>~4 %</td><td>~1 %</td><td>&lt;1 %</td></tr>
+<tr><td>10 MPa</td><td>~80 %</td><td>~55 %</td><td>~25 %</td><td>~10 %</td><td>~4 %</td></tr>
+<tr><td><strong>30 MPa</strong></td><td>~90 %</td><td>~70 %</td><td><strong>~45 %</strong></td><td>~20 %</td><td>~8 %</td></tr>
+<tr><td>60 MPa</td><td>~95 %</td><td>~85 %</td><td>~65 %</td><td>~35 %</td><td>~15 %</td></tr>
+<tr><td>100 MPa</td><td>~98 %</td><td>~92 %</td><td>~80 %</td><td>~55 %</td><td>~30 %</td></tr>
+</table>
+
+<!-- ========================== 7. KATALIZATORY ========================== -->
+<h2><span class="section-num">7.</span> Katalizatory &mdash; zestawienie całego procesu</h2>
+
+<table>
+<tr><th>Etap procesu</th><th>Katalizator</th><th>Nośnik / Promotory / Dodatki</th><th>Temperatura pracy</th></tr>
+<tr><td>Odsiarczanie (uwodornienie)</td><td>Kobaltowo-molibdenowy (Co-Mo)</td><td>&mdash;</td><td>~350 &deg;C</td></tr>
+<tr><td>Adsorpcja H<sub>2</sub>S</td><td>Tlenek cynku (ZnO)</td><td>&mdash;</td><td>~350 &deg;C</td></tr>
+<tr><td>Reforming I i II</td><td>Niklowy (NiO &rarr; Ni)</td><td>Nośnik glinowy Al<sub>2</sub>O<sub>3</sub>; dotowanie alkaliami</td><td>780&ndash;1000 &deg;C</td></tr>
+<tr><td>Konwersja CO &mdash; WTK</td><td>Żelazowo-chromowy (Fe<sub>2</sub>O<sub>3</sub>/Cr<sub>2</sub>O<sub>3</sub>)</td><td>K<sub>2</sub>O</td><td>280&ndash;450 &deg;C</td></tr>
+<tr><td>Konwersja CO &mdash; NTK</td><td>Miedziowo-cynkowy (Cu/ZnO)</td><td>&mdash;</td><td>200&ndash;250 &deg;C</td></tr>
+<tr><td>Metanizacja</td><td>Wysoko-niklowy (Ni)</td><td>Al<sub>2</sub>O<sub>3</sub></td><td>300&ndash;400 &deg;C</td></tr>
+<tr><td><strong>Synteza NH<sub>3</sub></strong></td><td><strong>Żelazo (Fe z Fe<sub>3</sub>O<sub>4</sub>)</strong></td><td><strong>Al<sub>2</sub>O<sub>3</sub> + K<sub>2</sub>O + CaO (3&ndash;7 %); granulki 3&ndash;8 mm</strong></td><td><strong>380&ndash;550 &deg;C</strong></td></tr>
+<tr><td>Utlenianie NH<sub>3</sub> (Ostwald)</td><td>Stop Pt-Rh (93 %/7 %)</td><td>Siatki: drut 0,06&ndash;0,07 mm, 1024 oczka/cm<sup>2</sup></td><td>750&ndash;850 &deg;C</td></tr>
+</table>
+
+<!-- ========================== 8. SCHEMATY ========================== -->
+<h2><span class="section-num">8.</span> Schematy instalacji (ZA Puławy)</h2>
+
+<h3>8.1. Węzeł wytwarzania surowego gazu syntezowego</h3>
+<table>
+<tr><th>Nr</th><th>Aparat</th><th>Funkcja</th></tr>
+<tr><td>1</td><td>Sprężarka powietrza</td><td>Sprężanie powietrza do procesu dopalania</td></tr>
+<tr><td>2</td><td>Wymiennik ciepła</td><td>Podgrzewacz gazu ziemnego i powietrza (odzysk ciepła z gazów spalinowych)</td></tr>
+<tr><td>3</td><td>Reformer</td><td>Rury z kat. Ni + palniki; konwersja parowa CH<sub>4</sub>; T=973&ndash;1073 K</td></tr>
+<tr><td>4</td><td>Dopalacz</td><td>Dopalanie resztkowego CH<sub>4</sub> powietrzem; wprowadzenie N<sub>2</sub></td></tr>
+<tr><td>5</td><td>Chłodnica</td><td>Chłodzenie surowego gazu wodą zmiękczoną</td></tr>
+</table>
+
+<h3>8.2. Kompletna instalacja do produkcji NH<sub>3</sub></h3>
+<table>
+<tr><th>Nr</th><th>Aparat</th><th>Funkcja</th></tr>
+<tr><td>1</td><td>Odsiarczanie gazu</td><td>Usuwanie H<sub>2</sub>S i związków S (&lt; 5 ppm)</td></tr>
+<tr><td>2</td><td>Reformer (konwersja metanu)</td><td>Rury z kat. Ni/Al<sub>2</sub>O<sub>3</sub> + palniki; T=973&ndash;1073 K, p=3&ndash;3,5 MPa</td></tr>
+<tr><td>3</td><td>Dopalacz metanu</td><td>Dopalanie CH<sub>4</sub> powietrzem; wprowadzenie N<sub>2</sub></td></tr>
+<tr><td>4, 5, 6</td><td>Wytwornica i podgrzewacze pary</td><td>Odzysk ciepła; produkcja pary 11,5 MPa / 500 &deg;C</td></tr>
+<tr><td>7, 8</td><td>Konwertory WTKCO</td><td>Wysokotemp. konwersja CO; kat. Fe<sub>2</sub>O<sub>3</sub>/Cr<sub>2</sub>O<sub>3</sub>/K<sub>2</sub>O</td></tr>
+<tr><td>9</td><td>Konwertor NTKCO</td><td>Niskotemp. konwersja CO; kat. Cu/ZnO</td></tr>
+<tr><td>10</td><td>Kolumna absorpcyjna CO<sub>2</sub></td><td>Absorpcja CO<sub>2</sub> w K<sub>2</sub>CO<sub>3</sub> (25&ndash;35 %); p=2&ndash;3 MPa</td></tr>
+<tr><td>11</td><td>Kolumna desorpcyjna</td><td>Regeneracja K<sub>2</sub>CO<sub>3</sub>; uwolnienie CO<sub>2</sub></td></tr>
+<tr><td>12</td><td>Metanizator</td><td>Usuwanie resztek CO/CO<sub>2</sub>; kat. Ni/Al<sub>2</sub>O<sub>3</sub></td></tr>
+<tr><td>13</td><td>Konwertor syntezy NH<sub>3</sub></td><td>Synteza; kat. Fe/Al<sub>2</sub>O<sub>3</sub>/K<sub>2</sub>O/CaO; T=380&ndash;550 &deg;C; p=15&ndash;30 MPa</td></tr>
+<tr><td>14</td><td>Turbosprężarka gazu świeżego</td><td>Sprężanie gazu do ciśnienia syntezy</td></tr>
+<tr><td>15</td><td>Turbosprężarka gazu obiegowego</td><td>Recyrkulacja gazu w obiegu syntezy</td></tr>
+<tr><td>16, 17</td><td>Kocioł parowy i wymiennik</td><td>Produkcja pary z ciepła reakcji syntezy</td></tr>
+<tr><td>18</td><td>Chłodnica powietrzna</td><td>Chłodzenie gazu poreakcyjnego powietrzem</td></tr>
+<tr><td>19, 22</td><td>Oddzielacz amoniaku</td><td>Separacja skroplonego NH<sub>3</sub> z mieszaniny gazowej</td></tr>
+<tr><td>20</td><td>Wymiennik ciepła</td><td>Wymiana ciepła między strumieniami procesowymi</td></tr>
+<tr><td>21</td><td>Chłodnica amoniakalna</td><td>Chłodzenie gazu parującym NH<sub>3</sub></td></tr>
+<tr><td>23</td><td>Rozprężacz ciekłego NH<sub>3</sub></td><td>Redukcja ciśnienia ciekłego amoniaku</td></tr>
+<tr><td>24</td><td>Wymywanie NH<sub>3</sub></td><td>Odzysk NH<sub>3</sub> z gazu wydmuchowego</td></tr>
+<tr><td>25</td><td>Instalacja chłodnicza</td><td>Produkcja zimna do skraplania NH<sub>3</sub></td></tr>
+<tr><td>26</td><td>Turbosprężarka</td><td>Sprężanie gazu w obiegu chłodniczym</td></tr>
+</table>
+
+<h3>8.3. Obieg kołowy syntezy NH<sub>3</sub> (metoda obiegowa)</h3>
+<table>
+<tr><th>Nr</th><th>Aparat</th><th>Funkcja</th></tr>
+<tr><td>1</td><td>Konwertor amoniakalny</td><td>Reaktor syntezy; kat. Fe/Al<sub>2</sub>O<sub>3</sub>/K<sub>2</sub>O/CaO; T=380&ndash;550 &deg;C</td></tr>
+<tr><td>2</td><td>Kondensator wodny</td><td>Kondensacja pary wodnej; chłodzenie wodą</td></tr>
+<tr><td>3</td><td>Oddzielacz ciekłego NH<sub>3</sub></td><td>Separacja skroplonego amoniaku</td></tr>
+<tr><td>4</td><td>Pompa obiegowa</td><td>Recyrkulacja gazu nieskonwertowanego</td></tr>
+<tr><td>5</td><td>Filtr olejowy</td><td>Usuwanie oleju z gazu obiegowego</td></tr>
+<tr><td>6</td><td>Chłodnica</td><td>Chłodzenie gazu obiegowego</td></tr>
+<tr><td>7</td><td>Wymiennik/oddzielacz NH<sub>3</sub></td><td>Dodatkowa separacja NH<sub>3</sub> ciekłego</td></tr>
+<tr><td>8</td><td>Kondensator amoniakalny</td><td>Końcowe skraplanie NH<sub>3</sub></td></tr>
+</table>
+
+<!-- ========================== 9. TYPY REAKTOROW ========================== -->
+<h2><span class="section-num">9.</span> Typy reaktorów syntezy amoniaku</h2>
+
+<h3>9.1. Konwertor TVA (Tennessee Valley Authority)</h3>
+<table>
+<tr><th>Nr</th><th>Element</th><th>Opis</th></tr>
+<tr><td>1</td><td>Katalizator</td><td>Złoże katalityczne Fe z promotorami</td></tr>
+<tr><td>2</td><td>Wymiennik ciepła</td><td>Wymiana ciepła między gazem wejściowym a poreakcyjnym</td></tr>
+<tr><td>3</td><td>Rury wymiennika w złożu</td><td>Zanurzone bezpośrednio w złożu katalizatora &mdash; odbiór ciepła reakcji</td></tr>
+</table>
+<p>Przepływ <strong>osiowy</strong> (z góry na dół) przez złoże z wbudowanym wymiennikiem ciepła.</p>
+
+<h3>9.2. Reaktor z promieniowym (radialnym) przepływem gazu</h3>
+<table>
+<tr><th>Nr</th><th>Element</th><th>Opis</th></tr>
+<tr><td>1</td><td>Katalizator</td><td>Złoże &mdash; gaz przepływa <strong>promieniowo</strong> (radialnie)</td></tr>
+<tr><td>2</td><td>Dopływ zimnego gazu</td><td>Chłodzenie międzywarstwowe &mdash; quench (dostrzyk)</td></tr>
+<tr><td>3</td><td>Płaszcz ciśnieniowy</td><td>Obudowa ciśnieniowa reaktora (temp. &lt; 100 &deg;C)</td></tr>
+<tr><td>4</td><td>Wymiennik ciepła</td><td>Odzyskiwanie ciepła z gazu poreakcyjnego</td></tr>
+<tr><td>5</td><td>Izolacja cieplna</td><td>Ochrona płaszcza ciśnieniowego przed wysoką temperaturą</td></tr>
+</table>
+<div class="note-box"><strong>Zaleta przepływu radialnego:</strong> Mniejszy spadek ciśnienia na złożu niż przy przepływie osiowym &mdash; mniejsze zużycie energii na sprężanie.</div>
+
+<!-- ========================== 10. OSTWALD ========================== -->
+<h2><span class="section-num">10.</span> Produkcja kwasu azotowego HNO<sub>3</sub> &mdash; metoda Ostwalda</h2>
+
+<h3>Właściwości HNO<sub>3</sub></h3>
+<table>
+<tr><th>Właściwość</th><th>Wartość</th></tr>
+<tr><td>Gęstość (stężony)</td><td>1,50 g/cm<sup>3</sup></td></tr>
+<tr><td>Temp. wrzenia</td><td>86 &deg;C</td></tr>
+<tr><td>Charakter</td><td>Mocny kwas (całkowita dysocjacja); silny utleniacz</td></tr>
+<tr><td>Rozkład stężonego kwasu</td><td>4HNO<sub>3</sub> &rarr; 4NO<sub>2</sub> + O<sub>2</sub> + 2H<sub>2</sub>O (brunatne dymy)</td></tr>
+<tr><td>Postać handlowa</td><td>Najczęściej <strong>65 % roztwór</strong></td></tr>
+<tr><td>Zastosowanie</td><td>Saletra amonowa, mat. wybuchowe, barwniki, farmacja, trawienie metali</td></tr>
+</table>
+
+<h3>Trzy etapy metody Ostwalda</h3>
+
+<h4>ETAP 1: Utlenianie NH<sub>3</sub> do NO</h4>
+<div class="reaction-box egzo">
+4NH<sub>3</sub> + 5O<sub>2</sub> &rarr; 4NO + 6H<sub>2</sub>O &nbsp;&nbsp;&nbsp; &Delta;H = &minus;905 kJ/mol <span class="tag tag-egzo">POŻĄDANA</span>
+</div>
+<div class="reaction-box danger">
+4NH<sub>3</sub> + 3O<sub>2</sub> &rarr; 2N<sub>2</sub> + 6H<sub>2</sub>O &nbsp;&nbsp;&nbsp; &Delta;H = &minus;1266 kJ/mol <span style="color:#c62828; font-weight:bold;">NIEPOŻĄDANA</span>
+</div>
+<div class="reaction-box danger">
+4NH<sub>3</sub> + 4O<sub>2</sub> &rarr; 2N<sub>2</sub>O + 6H<sub>2</sub>O &nbsp;&nbsp;&nbsp; (NIEPOŻĄDANA &mdash; N<sub>2</sub>O gaz cieplarniany)
+</div>
+
+<table>
+<tr><th>Parametr</th><th>Wartość</th></tr>
+<tr><td>Katalizator</td><td>Stop <strong>Pt-Rh (93 % / 7 %)</strong>; siatki z drutu 0,06&ndash;0,07 mm; 1024 oczka/cm<sup>2</sup></td></tr>
+<tr><td>Liczba siatek</td><td>2&ndash;4 (więcej przy wyższym ciśnieniu)</td></tr>
+<tr><td>Temperatura siatki</td><td><strong>750&ndash;850 &deg;C</strong> (optimum ~850 &deg;C)</td></tr>
+<tr><td>Czas kontaktu</td><td><strong>&lt; 0,0003 s</strong> (2&ndash;6 &times; 10<sup>&minus;4</sup> s)</td></tr>
+<tr><td>NH<sub>3</sub> w mieszaninie</td><td><strong>10&ndash;12,5 %</strong> (maks. 12 % &mdash; zagrożenie wybuchem!)</td></tr>
+<tr><td>Wydajność do NO</td><td>do <strong>97&ndash;98 %</strong></td></tr>
+</table>
+
+<h4>Warunki ciśnieniowe &mdash; porównanie metod</h4>
+<table>
+<tr><th>Parametr</th><th>Atmosferyczna</th><th>Kombinowana</th><th>Ciśnieniowa</th></tr>
+<tr><td>Ciśnienie utleniania</td><td>atmosf.</td><td>0,2&ndash;0,5 MPa</td><td>0,7&ndash;0,9 MPa</td></tr>
+<tr><td>Temperatura</td><td>810&ndash;850 &deg;C</td><td>870&ndash;890 &deg;C</td><td>920&ndash;940 &deg;C</td></tr>
+<tr><td>Wydajność do NO</td><td>97&ndash;98 %</td><td>96&ndash;96,5 %</td><td>94,5&ndash;95 %</td></tr>
+<tr><td>Straty Pt [g/Mg HNO<sub>3</sub>]</td><td>0,04&ndash;0,05</td><td>0,10&ndash;0,11</td><td>0,25&ndash;0,30</td></tr>
+<tr><td>Czas pracy siatek [mies.]</td><td>8&ndash;12</td><td>4&ndash;6</td><td>1,5&ndash;3</td></tr>
+</table>
+
+<h4>ETAP 2: Utlenianie NO do NO<sub>2</sub></h4>
+<div class="reaction-box egzo">
+2NO + O<sub>2</sub> &rarr; 2NO<sub>2</sub> &nbsp;&nbsp;&nbsp; &Delta;H = &minus;133 kJ/mol
+</div>
+<div class="warn-box">
+<strong>Wyjątek w chemii:</strong> Szybkość utleniania NO do NO<sub>2</sub> <strong>ROŚNIE</strong> z obniżeniem temperatury! Najkorzystniej: obniżona T + zwiększone ciśnienie.
+</div>
+
+<h4>ETAP 3: Absorpcja tlenków azotu w wodzie</h4>
+<div class="reaction-box egzo">
+3NO<sub>2</sub> + H<sub>2</sub>O &hArr; 2HNO<sub>3</sub> + NO &nbsp;&nbsp;&nbsp; &Delta;H = &minus;72 kJ/mol
+</div>
+<ul>
+<li>Kolumny absorpcyjne wielopółkowe z wężownicami chłodzącymi na każdej półce</li>
+<li>Przeciwprąd: woda od góry, gaz od dołu</li>
+<li>Produkt: <strong>40&ndash;50 % HNO<sub>3</sub></strong></li>
+<li>Bielenie: kolumna bieląca &mdash; sprężone powietrze unosi NO<sub>2</sub> (brunatna barwa)</li>
+</ul>
+
+<h4>Zasada umiaru technologicznego (metoda kombinowana 0,4/0,8 MPa)</h4>
+<div class="note-box">
+<strong>Kompromis:</strong> Utlenianie NH<sub>3</sub> przy <strong>0,4 MPa</strong> (mniejsze straty Pt) + absorpcja przy <strong>0,8 MPa</strong> (mniejsze aparaty, większa wydajność). <strong>Najczęściej stosowana metoda.</strong>
+</div>
+
+<h4>Oczyszczanie gazów odlotowych</h4>
+<div class="reaction-box">
+4NO + 4NO<sub>2</sub> + 3CH<sub>4</sub> &rarr; 4N<sub>2</sub> + 3CO<sub>2</sub> + 6H<sub>2</sub>O &nbsp;&nbsp;&nbsp; (katalityczna redukcja metanem)
+</div>
+<p>NO<sub>x</sub> i N<sub>2</sub>O &mdash; emisje z wytwórni HNO<sub>3</sub>. Szkodliwe zwłaszcza dla drzew iglastych.</p>
+
+<!-- ========================== 11. NAWOZY ========================== -->
+<h2><span class="section-num">11.</span> Nawozy azotowe</h2>
+
+<h3>Przegląd nawozów azotowych</h3>
+<table>
+<tr><th>Nawóz</th><th>Wzór</th><th>% azotu</th><th>Forma azotu</th><th>Działanie</th></tr>
+<tr><td><strong>Saletra amonowa</strong></td><td>NH<sub>4</sub>NO<sub>3</sub></td><td>34 %</td><td>azotanowa NO<sub>3</sub><sup>&minus;</sup> + amonowa NH<sub>4</sub><sup>+</sup></td><td>Szybkie (azotanowa) + wolniejsze (amonowa)</td></tr>
+<tr><td>Saletrzak</td><td>NH<sub>4</sub>NO<sub>3</sub> + CaCO<sub>3</sub></td><td>27 %</td><td>j.w. + wypełniacz</td><td>Jak saletra, bezpieczniejszy</td></tr>
+<tr><td><strong>Mocznik</strong></td><td>CO(NH<sub>2</sub>)<sub>2</sub></td><td><strong>46 %</strong></td><td>amidowa NH<sub>2</sub></td><td>Wolne (przemiany w glebie)</td></tr>
+<tr><td>Siarczan(VI) amonu</td><td>(NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub></td><td>20 %</td><td>amonowa NH<sub>4</sub><sup>+</sup></td><td>Wolniejsze</td></tr>
+<tr><td>RSM</td><td>roztwór</td><td>30 %</td><td>azotanowa + amonowa + amidowa</td><td>Mieszane</td></tr>
+</table>
+
+<h3>11.1. Produkcja saletry amonowej (NH<sub>4</sub>NO<sub>3</sub>)</h3>
+
+<div class="reaction-box egzo">
+HNO<sub>3</sub> + NH<sub>3</sub> &rarr; NH<sub>4</sub>NO<sub>3</sub> &nbsp;&nbsp;&nbsp; &Delta;H&deg; = &minus;146 kJ/mol <span class="tag tag-egzo">SILNIE EGZOTERMICZNA</span>
+</div>
+<p>Surowce: gazowy NH<sub>3</sub> + <strong>56 % HNO<sub>3</sub></strong></p>
+
+<div class="danger-box">
+<strong>ZAGROŻENIE WYBUCHEM!</strong> Rozkład termiczny NH<sub>4</sub>NO<sub>3</sub>:<br>
+2NH<sub>4</sub>NO<sub>3</sub> &rarr; 2N<sub>2</sub> + O<sub>2</sub> + 4H<sub>2</sub>O (&Delta;H = &minus;102,9 kJ/mol)<br>
+NH<sub>4</sub>NO<sub>3</sub> &rarr; N<sub>2</sub>O + 2H<sub>2</sub>O (&Delta;H = 39,7 kJ/mol)<br>
+Reakcje egzotermiczne &rarr; nagrzewanie masy &rarr; przyspieszenie &rarr; <strong>EKSPLOZJA</strong><br>
+Przyspieszają rozkład: chlorki, HNO<sub>3</sub>. Spowalniają: amoniak, mocznik, CaCO<sub>3</sub>, MgCO<sub>3</sub>.
+</div>
+
+<h4>4 etapy produkcji</h4>
+<table>
+<tr><th>Etap</th><th>Opis</th><th>Uwagi</th></tr>
+<tr><td><strong>1. Neutralizacja</strong></td><td>Kolumna neutralizacyjna &mdash; utrzymywana pewna ilość roztworu NH<sub>4</sub>NO<sub>3</sub> w obiegu</td><td>NIE wprowadza się NH<sub>3</sub> bezpośrednio do kwasu! (ciepło &rarr; rozkład)</td></tr>
+<tr><td><strong>2. Odparowanie</strong></td><td>Wyparki próżniowe &mdash; usunięcie wody</td><td>&lt; 8 % H<sub>2</sub>O (granulacja mech.) lub &lt; 1 % (granulacja wieżowa)</td></tr>
+<tr><td><strong>3. Granulacja</strong></td><td>Wieżowa (99,5 % NH<sub>4</sub>NO<sub>3</sub>, &gt;180 &deg;C) lub mechaniczna (92&ndash;96 %, bezpieczniejsza)</td><td>Granulacja wieżowa: zagrożenie wybuchem!</td></tr>
+<tr><td><strong>4. Frakcjonowanie</strong></td><td>Sito wibracyjne; chłodnica fluidyzacyjna; bęben pudrujący</td><td>Podziarno + nadziarno &rarr; zawrót</td></tr>
+</table>
+
+<h4>Dodatki stabilizujące (bezpieczeństwo)</h4>
+<div class="reaction-box">
+CaCO<sub>3</sub> + 2NH<sub>4</sub>NO<sub>3</sub> &rarr; Ca(NO<sub>3</sub>)<sub>2</sub> + 2NH<sub>3</sub> + H<sub>2</sub>O + CO<sub>2</sub><br>
+MgCO<sub>3</sub> + 2NH<sub>4</sub>NO<sub>3</sub> &rarr; Mg(NO<sub>3</sub>)<sub>2</sub> + 2NH<sub>3</sub> + H<sub>2</sub>O + CO<sub>2</sub>
+</div>
+<p>Wydzielający się NH<sub>3</sub> hamuje egzotermiczny rozkład NH<sub>4</sub>NO<sub>3</sub>.</p>
+
+<h4>Zasady magazynowania saletry</h4>
+<ul>
+<li>Suche, czyste pomieszczenia; maks. <strong>30 &deg;C</strong></li>
+<li>Worki poziomo, maks. <strong>12 warstw</strong></li>
+<li>Min. 20 cm od ścian, 150 cm od urządzeń grzewczych</li>
+<li>Maks. <strong>300 ton</strong> w jednym pomieszczeniu</li>
+<li>Zakaz: palenia, otwartego ognia, spawania</li>
+<li>Nie przechowywać z: środkami ochrony roślin, tlenkami metali, kwasami, metalami proszkowymi, materiałami palnymi</li>
+</ul>
+
+<h3>11.2. Produkcja mocznika &mdash; CO(NH<sub>2</sub>)<sub>2</sub></h3>
+
+<p>Mocznik &mdash; <strong>46 % azotu</strong> &mdash; najwięcej ze wszystkich nawozów azotowych.</p>
+
+<h4>Reakcja sumaryczna</h4>
+<div class="reaction-box">
+2NH<sub>3</sub> + CO<sub>2</sub> &rarr; NH<sub>2</sub>&ndash;CO&ndash;NH<sub>2</sub> + H<sub>2</sub>O
+</div>
+<p>Warunki: ciśnienie <strong>10&ndash;25 MPa</strong>, temperatura <strong>160&ndash;200 &deg;C</strong>, surowce w fazie ciekłej (w gazowej nie reagują!).<br>
+Surowce: <strong>ciekły NH<sub>3</sub></strong> + <strong>CO<sub>2</sub></strong> (produkt uboczny wytwórni amoniaku).</p>
+
+<h4>Dwa etapy mechanizmu</h4>
+
+<p><strong>1) Powstawanie karbaminianu amonu</strong> (szybka, egzotermiczna, do końca):</p>
+<div class="reaction-box egzo">
+2NH<sub>3</sub> + CO<sub>2</sub> &hArr; NH<sub>2</sub>&ndash;CO&ndash;ONH<sub>4</sub> &nbsp;&nbsp;&nbsp; &Delta;H = &minus;159 kJ
+</div>
+
+<p><strong>2) Dehydratacja karbaminianu</strong> (endotermiczna, NIE do końca):</p>
+<div class="reaction-box endo">
+NH<sub>2</sub>&ndash;CO&ndash;ONH<sub>4</sub> &rarr; NH<sub>2</sub>&ndash;CO&ndash;NH<sub>2</sub> + H<sub>2</sub>O &nbsp;&nbsp;&nbsp; &Delta;H = +26 kJ
+</div>
+<p>Tylko <strong>50 % CO<sub>2</sub></strong> ulega przemianie. Nadmiar NH<sub>3</sub>:CO<sub>2</sub> = <strong>2&ndash;5 razy</strong>.</p>
+
+<h4>Reakcje uboczne</h4>
+<div class="reaction-box danger">
+Biuret (powyżej 200 &deg;C): 2NH<sub>2</sub>&ndash;CO&ndash;NH<sub>2</sub> &hArr; NH<sub>2</sub>&ndash;CO&ndash;NH&ndash;CO&ndash;NH<sub>2</sub> + NH<sub>3</sub> (NIEPOŻĄDANY!)
+</div>
+
+<h4>Zastosowanie mocznika (poza nawozem)</h4>
+<ul>
+<li>Melamina C<sub>3</sub>H<sub>6</sub>N<sub>6</sub> &rarr; żywice syntetyczne, środki ognioochronne</li>
+<li>Żywice mocznikowo-formaldehydowe &rarr; kleje</li>
+<li>Środki farmaceutyczne (neurologia, dermatologia)</li>
+<li>Dodatki do pasz dla bydła; herbicydy</li>
+</ul>
+
+<!-- ========================== 12. PARAMETRY ========================== -->
+<h2><span class="section-num">12.</span> Parametry przemysłowe &mdash; podsumowanie</h2>
+
+<h3>12.1. Synteza amoniaku &mdash; parametry kluczowe</h3>
+<table>
+<tr><th>Parametr</th><th>Wartość</th></tr>
+<tr><td>Temperatura syntezy</td><td>350&ndash;550 &deg;C (optymalnie 400&ndash;500 &deg;C)</td></tr>
+<tr><td>Ciśnienie syntezy</td><td>15&ndash;30 MPa (typowo 20&ndash;30 MPa)</td></tr>
+<tr><td>Stosunek N<sub>2</sub>:H<sub>2</sub></td><td>1:3</td></tr>
+<tr><td>Konwersja jednorazowa</td><td>15&ndash;20 %</td></tr>
+<tr><td>Konwersja z recyrkulacją</td><td><strong>97&ndash;98 %</strong></td></tr>
+<tr><td>Zużycie energii</td><td>28&ndash;32 GJ/t NH<sub>3</sub></td></tr>
+<tr><td>Żywotność katalizatora</td><td>Kilka lat (wymiana przy spadku NH<sub>3</sub> w gazie poreakcyjnym do ~10 %)</td></tr>
+<tr><td>Zawartość inertów w pętli</td><td>10&ndash;15 %</td></tr>
+<tr><td>Ciśnienie gazu ziemnego wejściowego</td><td>3,8 MPa</td></tr>
+<tr><td>Para procesowa</td><td>11,5 MPa / 500 &deg;C</td></tr>
+</table>
+
+<h3>12.2. Czynniki wydajności produkcji NH<sub>3</sub></h3>
+<ol>
+<li>Stopień czystości gazów + stosunek N<sub>2</sub>:H<sub>2</sub> = 1:3</li>
+<li>Aktywność katalizatora (brak trucizn!)</li>
+<li>Optymalna temperatura (350&ndash;550 &deg;C)</li>
+<li>Możliwie wysokie ciśnienie</li>
+<li>Obciążenie reaktora</li>
+<li>Zawartość NH<sub>3</sub> przed i za reaktorem</li>
+</ol>
+
+<h3>12.3. Samowystarczalność energetyczna</h3>
+<div class="note-box">
+Ciepło z etapów procesu &rarr; produkcja <strong>pary przegrzanej wysokociśnieniowej (&gt;100 atm, 11,5 MPa)</strong> &rarr; turbina parowa = główny napęd kompresora gazu syntezowego. Nowoczesne wytwórnie <strong>nie potrzebują energii z zewnątrz</strong> &mdash; oddają nadmiar (para/energia elektryczna).
+</div>
+
+<h3>12.4. Zdolności produkcyjne ZA Puławy</h3>
+<table>
+<tr><th>Produkt</th><th>Roczna zdolność [ton/rok]</th></tr>
+<tr><td>Saletra amonowa ogółem (roztwór)</td><td>1 103 850</td></tr>
+<tr><td>Saletra amonowa granulowana</td><td>919 875</td></tr>
+<tr><td>RSM (roztwór saletrzano-mocznikowy)</td><td>1 000 000</td></tr>
+<tr><td>Mocznik ogółem</td><td>924 000</td></tr>
+<tr><td>Mocznik granulowany</td><td>600 000</td></tr>
+<tr><td>Melamina</td><td>92 000</td></tr>
+<tr><td>Kaprolaktam</td><td>65 000</td></tr>
+<tr><td>Siarczan amonu</td><td>156 000</td></tr>
+<tr><td>Nadtlenek wodoru (100%)</td><td>10 000</td></tr>
+<tr><td>Skroplony CO<sub>2</sub></td><td>74 250</td></tr>
+</table>
+
+<h3>12.5. Wszystkie kluczowe reakcje &mdash; tabela zbiorcza</h3>
+<table>
+<tr><th>Nr</th><th>Reakcja</th><th>Warunki</th><th>&Delta;H</th></tr>
+<tr><td>1</td><td>N<sub>2</sub> + 3H<sub>2</sub> &hArr; 2NH<sub>3</sub></td><td>350&ndash;550 &deg;C, 20&ndash;30 MPa, kat. Fe/K<sub>2</sub>O/Al<sub>2</sub>O<sub>3</sub></td><td>&minus;92 kJ/mol</td></tr>
+<tr><td>2</td><td>CH<sub>4</sub> + H<sub>2</sub>O &rarr; CO + 3H<sub>2</sub></td><td>780&ndash;830 &deg;C, 3&ndash;3,5 MPa, kat. Ni</td><td>+206 kJ/mol</td></tr>
+<tr><td>3</td><td>H<sub>2</sub>S + ZnO &rarr; ZnS + H<sub>2</sub>O</td><td>350 &deg;C</td><td>&mdash;</td></tr>
+<tr><td>4</td><td>CO + H<sub>2</sub>O &rarr; CO<sub>2</sub> + H<sub>2</sub></td><td>WTK 400 &deg;C / NTK 200&ndash;220 &deg;C</td><td>&minus;41,2 kJ/mol</td></tr>
+<tr><td>5</td><td>CO + 3H<sub>2</sub> &rarr; CH<sub>4</sub> + H<sub>2</sub>O</td><td>350 &deg;C, kat. Ni</td><td>&mdash;</td></tr>
+<tr><td>6</td><td>CO<sub>2</sub> + 4H<sub>2</sub> &rarr; CH<sub>4</sub> + 2H<sub>2</sub>O</td><td>350 &deg;C, kat. Ni</td><td>&mdash;</td></tr>
+<tr><td>7</td><td>Fe + H<sub>2</sub>O &rarr; FeO + H<sub>2</sub></td><td>(zatrucie kontaktu)</td><td>&mdash;</td></tr>
+<tr><td>8</td><td>Fe<sub>3</sub>C + 2H<sub>2</sub> &rarr; 3Fe + CH<sub>4</sub></td><td>(korozja wodorowa)</td><td>&mdash;</td></tr>
+<tr><td>9</td><td>4NH<sub>3</sub> + 5O<sub>2</sub> &rarr; 4NO + 6H<sub>2</sub>O</td><td>750&ndash;850 &deg;C, kat. Pt-Rh</td><td>&minus;905 kJ/mol</td></tr>
+<tr><td>10</td><td>4NH<sub>3</sub> + 3O<sub>2</sub> &rarr; 2N<sub>2</sub> + 6H<sub>2</sub>O</td><td>(niepożądana)</td><td>&minus;1266 kJ/mol</td></tr>
+<tr><td>11</td><td>2NO + O<sub>2</sub> &rarr; 2NO<sub>2</sub></td><td>niska temp., wys. ciśn.</td><td>&minus;133 kJ/mol</td></tr>
+<tr><td>12</td><td>3NO<sub>2</sub> + H<sub>2</sub>O &hArr; 2HNO<sub>3</sub> + NO</td><td>niska temp., wys. ciśn.</td><td>&minus;72 kJ/mol</td></tr>
+<tr><td>13</td><td>HNO<sub>3</sub> + NH<sub>3</sub> &rarr; NH<sub>4</sub>NO<sub>3</sub></td><td>&mdash;</td><td>&minus;146 kJ/mol</td></tr>
+<tr><td>14</td><td>2NH<sub>3</sub> + CO<sub>2</sub> &rarr; CO(NH<sub>2</sub>)<sub>2</sub> + H<sub>2</sub>O</td><td>160&ndash;200 &deg;C, 10&ndash;25 MPa</td><td>&mdash;</td></tr>
+<tr><td>15</td><td>2NH<sub>3</sub> + CO<sub>2</sub> &hArr; NH<sub>2</sub>COONH<sub>4</sub></td><td>etap 1 syntezy mocznika</td><td>&minus;159 kJ</td></tr>
+<tr><td>16</td><td>NH<sub>2</sub>COONH<sub>4</sub> &rarr; CO(NH<sub>2</sub>)<sub>2</sub> + H<sub>2</sub>O</td><td>etap 2 (dehydratacja)</td><td>+26 kJ</td></tr>
+<tr><td>17</td><td>4NO + 4NO<sub>2</sub> + 3CH<sub>4</sub> &rarr; 4N<sub>2</sub> + 3CO<sub>2</sub> + 6H<sub>2</sub>O</td><td>oczyszczanie gazów</td><td>&mdash;</td></tr>
+<tr><td>18</td><td>K<sub>2</sub>CO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O &hArr; 2KHCO<sub>3</sub></td><td>absorpcja CO<sub>2</sub></td><td>&minus;100,5 kJ/mol</td></tr>
+<tr><td>19</td><td>CaCO<sub>3</sub> + 2NH<sub>4</sub>NO<sub>3</sub> &rarr; Ca(NO<sub>3</sub>)<sub>2</sub> + 2NH<sub>3</sub> + H<sub>2</sub>O + CO<sub>2</sub></td><td>stabilizacja saletry</td><td>&mdash;</td></tr>
+</table>
+
+<h3>12.6. Produkty uboczne i odpady</h3>
+<table>
+<tr><th>Produkt uboczny</th><th>Źródło</th><th>Zagospodarowanie</th></tr>
+<tr><td>ZnS</td><td>Odsiarczanie (zużyty adsorbent)</td><td>Regeneracja lub utylizacja</td></tr>
+<tr><td>Spaliny (180&ndash;250 &deg;C)</td><td>Piec reformera</td><td>Do atmosfery (po odzysku ciepła)</td></tr>
+<tr><td>Kondensat procesowy</td><td>Po konwersji CO</td><td>Oczyszczanie, odzysk</td></tr>
+<tr><td>CO<sub>2</sub></td><td>Usuwanie CO<sub>2</sub></td><td>Do produkcji mocznika; reszta do atmosfery</td></tr>
+<tr><td>Gaz wydmuchowy (H<sub>2</sub>, N<sub>2</sub>, CH<sub>4</sub>, Ar)</td><td>Obieg syntezy</td><td>Na opał lub frakcjonowanie membranowe</td></tr>
+<tr><td>NO<sub>x</sub> i N<sub>2</sub>O</td><td>Wytwórnia HNO<sub>3</sub></td><td>Redukcja katalityczna (CH<sub>4</sub>)</td></tr>
+<tr><td>Straty platyny</td><td>Siatki Pt-Rh (utlenianie NH<sub>3</sub>)</td><td>Odzysk; wymiana po 1/3 ubytku</td></tr>
+<tr><td>Kondensat NH<sub>4</sub>NO<sub>3</sub> (15&ndash;25 %)</td><td>Opary z produkcji saletry</td><td>Odzysk (ciecz absorpcyjna, nawozy płynne, wymiana jonowa)</td></tr>
+<tr><td>Pył z granulacji</td><td>Produkcja saletry/mocznika</td><td>Cyklony, filtry, skrubery &rarr; zawrót</td></tr>
+<tr><td>Biuret</td><td>Synteza mocznika (&gt;200 &deg;C)</td><td>Niepożądany &mdash; minimalizacja przez kontrolę T</td></tr>
+</table>
+
+<h3>12.7. Powiązania surowcowo-produktowe w przemyśle azotowym</h3>
+<div class="schema-box">Surowce: gaz ziemny, powietrze, woda
+    |
+    v
+Wytwórnia amoniaku ---> NH<sub>3</sub> (techniczny + nawozowy)
+    |---> CO<sub>2</sub> (produkt uboczny) ---> wytwórnia ciekłego CO<sub>2</sub>
+    |---> NH<sub>3</sub> + CO<sub>2</sub> ---> wytwórnia mocznika ---> mocznik nawozowy/techniczny
+    |---> NH<sub>3</sub> + powietrze ---> wytwórnia HNO<sub>3</sub> ---> techniczny HNO<sub>3</sub>
+         |---> HNO<sub>3</sub> + NH<sub>3</sub> ---> saletra amonowa (NH<sub>4</sub>NO<sub>3</sub>)
+         |---> roztwór NH<sub>4</sub>NO<sub>3</sub> + CaCO<sub>3</sub> ---> saletrzak
+         |---> roztwory: RSM, RSA, RMA ---> nawozy płynne</div>
+
+<h3>12.8. Magazynowanie i transport NH<sub>3</sub></h3>
+<table>
+<tr><th>Typ zbiornika</th><th>Temperatura</th><th>Ciśnienie</th><th>Zastosowanie</th></tr>
+<tr><td>Z pełnym chłodzeniem</td><td>~&minus;33 &deg;C</td><td>Atmosferyczne</td><td>Duże ilości; mały wyciek przy awarii</td></tr>
+<tr><td>Bez chłodzenia</td><td>Temp. otoczenia</td><td>Pełne ciśnienie</td><td>Mniejsze zbiorniki</td></tr>
+<tr><td>Kuliste z niepełnym chłodzeniem</td><td>0&ndash;5 &deg;C</td><td>~5 bar</td><td>Rozwiązanie pośrednie</td></tr>
+</table>
+<p>Transport: cysterny samochodowe, kolejowe, statki, rurociągi przesyłowe (ciśnieniowe, bez chłodzenia).</p>
+
+<p style="text-align:center; margin-top:40px; padding-top:20px; border-top:2px solid #1a237e; color:#666; font-size:0.9em;">
+<strong>Koniec rozdziału IV</strong> &mdash; Metoda Habera-Boscha, kwas azotowy (Ostwalda), nawozy azotowe<br>
+Kompilacja ze źródeł: H. Życka (MEN/ITE 2006), materiały Z.A. Puławy, wykład metody technologiczne
+</p>
+
+</div>
