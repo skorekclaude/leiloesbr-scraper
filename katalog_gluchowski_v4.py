@@ -4134,7 +4134,7 @@ OBJECTS = [
         "photo": "galeria/galeria_p02_img03.jpeg",
         "tytul": "Tablica pamiątkowa — atak na gmach Gestapo 1.VIII.1944, 7 p.ul. AK Jeleń, 187 powstańców, 67 poległo",
         "data": "po 1944",
-        "typ": "fotografia tablicy",
+        "typ": "druk/rękopis",
         "opis_fizyczny": "Fotografia tablicy pamiątkowej upamiętniającej atak na gmach Gestapo w dniu 1 sierpnia 1944. 1 zdjęcie.",
         "opis_tresci": "PEŁNA TRANSKRYPCJA TABLICY: 'Dnia 1.8.1944 r. godz.17. / z tego domu i okolicznych / ruszyło do natarcia / na gmach Gestapo i Dom Prasy / 5 plutonów / 7 pułku ułanów AK / «JELEŃ» / z 187 Powstańców / poległo 67 / Cześć Ich pamięci.' Tablica pamiątkowa upamiętniająca atak 5 plutonów Dywizjonu 'Jeleń' (7 Pułk Ułanów Lubelskich AK) na gmach Gestapo i Dom Prasy w godzinie 'W' (17:00, 1 sierpnia 1944). Z 187 powstańców poległo 67 — straty 35,8%. Cel ataku: gmach Gestapo (al. Szucha 25) i Dom Prasy (Marszałkowska 3/5).",
         "seria": "V",
