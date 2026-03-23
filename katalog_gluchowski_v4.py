@@ -731,26 +731,11 @@ OBJECTS = [
         "tworca": "Ministerstwo Spraw Wojskowych / Biuro Personalne",
         "jezyk": "polski",
         "kontekst": "Wpisy w legitymacji z 1930 r. dokumentują karierę Janusza: (1) przeniesienie do dyspozycji Ministra (31.IV.1930), (2) mianowanie na Dowódcę/Komendanta ośrodka szkolenia piechoty (18.IX.1930). Podpisane przez Generała Dywizji (prawdopodobnie Piskor lub Rydz-Śmigły). Pieczęć czerwona Ministerstwa Spraw Wojskowych.",
-        "powiazania": ["ARG/II/31", "ARG/II/32"],
+        "powiazania": ["ARG/II/35", "ARG/II/32"],
         "stan": "Dobry",
         "wycena": "800-2000 PLN"
     },
-    {
-        "sygn": "ARG/II/31",
-        "photo": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p13_img02.jpeg",
-        "tytul": "Legitymacja oficerska — rozkładówka z fotografią i danymi gen. bryg. Głuchowskiego",
-        "data": "6.I.1929",
-        "typ": "legitymacja",
-        "opis_fizyczny": "Rozkładówka legitymacji oficerskiej w twardej oprawie. Lewa strona: fotografia portretowa gen. Głuchowskiego w mundurze galowym z orderami (format ok. 4×6 cm), pod spodem podpis odręczny: 'Janusz Głuchowski / gen. br.' Prawa strona: drukowane rubryki z odręcznymi wpisami danymi personalnymi. Pismo kaligraficzne atramentem.",
-        "opis_tresci": "Dane z legitymacji: 'Imię i nazwisko: Janusz Głuchowski / Stopień wojskowy: Generał bryg. / W stanie: czynnym / D.O.K. I / Przydział: D-two 4. dywizji [?] / Funkcja: Dowódca O.K.I [?] / D-ca 4. dywizji [?] / Stała przynależność: Biuro Personalne M.S.Wojsk.' Na fotografii: Janusz w mundurze galowym z epoletami generała brygady, orderami na piersi (VM, KW, KL, zagraniczne). Podpis pod zdjęciem potwierdza stopień 'gen. br.' JEDYNE ZNANE ZDJĘCIE PORTRETOWE gen. Głuchowskiego w legitymacji wojskowej.",
-        "seria": "II",
-        "tworca": "Wojsko Polskie / Biuro Personalne MSWojsk",
-        "jezyk": "polski",
-        "kontekst": "KLUCZOWY DOKUMENT IKONOGRAFICZNY — jedyne zdjęcie portretowe gen. Głuchowskiego w mundurze galowym z orderami. Legitymacja wystawiona w D.O.K. I (Dowództwo Okręgu Korpusu Nr I — Warszawa). Stopień: generał brygady (mianowany 1927). Przydział: D-two 4 dywizji lub D.O.K. I. Stała przynależność: Biuro Personalne MSWojsk — potwierdza rolę w strukturach ministerstwa. Zdjęcie pokazuje ordery: prawdopodobnie VM (Virtuti Militari), KW (Krzyż Walecznych), KL (Krzyż Legionowy Nr 145), odznaczenia zagraniczne (rumuński, francuski, estoński).",
-        "powiazania": ["ARG/II/30", "ARG/II/32"],
-        "stan": "Dobry",
-        "wycena": "5000-12000 PLN"
-    },
+    # ARG/II/31 USUNIĘTY — duplikat ARG/II/35 (ta sama legitymacja oficerska gen. Głuchowskiego)
     {
         "sygn": "ARG/II/32",
         "photo": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p13_img03.jpeg",
@@ -763,7 +748,7 @@ OBJECTS = [
         "tworca": "Wojsko Polskie / płk SG Marian Czerniewski (wystawiający)",
         "jezyk": "polski",
         "kontekst": "PEŁNA LISTA ODZNACZEŃ Janusza Głuchowskiego wpisana urzędowo: Virtuti Militari (najwyższe polskie odznaczenie wojskowe), Krzyż Walecznych z 2 okuciami (trzykrotnie odznaczony za męstwo!), Złoty Krzyż Zasługi, francuski Krzyż Kawalera Legii Honorowej, rumuński Order Korony Rumunii, estoński Krzyż Komandorski. Wystawiona przez płk SG Mariana Czerniewskiego 6.I.1929. Przedłużana dwukrotnie (1932, 1937) — podpisy generałów dywizji (prawdopodobnie Piskor lub Rydz-Śmigły). Legitymacja ważna aż do 1937 — prawdopodobnie zastąpiona nową przed wojną.",
-        "powiazania": ["ARG/II/30", "ARG/II/31"],
+        "powiazania": ["ARG/II/30", "ARG/II/35"],
         "stan": "Dobry",
         "wycena": "5000-12000 PLN"
     },
@@ -5636,14 +5621,7 @@ VALUATIONS = {
         "waluta": "PLN",
         "rekomendacja": "DESA Unicum (sprzedawać ARG/II/30-32 jako komplet)."
     },
-    "ARG/II/31": {
-        "wartosc_hist": "★★★★",
-        "opis_wartosci": "Legitymacja oficerska — rozkładówka z danymi i zdjęciem. Wliczona w komplet ARG/II/30-32.",
-        "cena_min": 0,
-        "cena_max": 0,
-        "waluta": "PLN",
-        "rekomendacja": "Sprzedawać z ARG/II/30."
-    },
+    # ARG/II/31 usunięty — duplikat ARG/II/35
     "ARG/II/32": {
         "wartosc_hist": "★★★★",
         "opis_wartosci": "Legitymacja oficerska — wpisy służbowe. Wliczona w komplet.",
