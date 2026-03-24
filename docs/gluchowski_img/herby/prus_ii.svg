@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 420" width="300" height="420">
+  <!-- Prus II Wilczekosy - herb Gluchowskich -->
+  <!-- Shield - red field (gules) -->
+  <path d="M150,10 L280,80 L280,280 Q280,370 150,390 Q20,370 20,280 L20,80 Z" fill="#c41e3a" stroke="#222" stroke-width="3"/>
+  <!-- Two wolf scythes (poltorakrzyze) crossed, silver (argent) -->
+  <g stroke="#e0e0e0" stroke-width="10" stroke-linecap="round" fill="none">
+    <!-- Left scythe shaft -->
+    <line x1="105" y1="110" x2="195" y2="310"/>
+    <!-- Left crossbar -->
+    <line x1="105" y1="110" x2="75" y2="145"/>
+    <!-- Right scythe shaft -->
+    <line x1="195" y1="110" x2="105" y2="310"/>
+    <!-- Right crossbar -->
+    <line x1="195" y1="110" x2="225" y2="145"/>
+  </g>
+  <!-- Gold tie at crossing -->
+  <ellipse cx="150" cy="210" rx="14" ry="10" fill="#c9a84c" stroke="#222" stroke-width="1.5"/>
+  <!-- Label -->
+  <text x="150" y="415" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#333" font-style="italic">Prus II (Wilczekosy)</text>
+</svg>
