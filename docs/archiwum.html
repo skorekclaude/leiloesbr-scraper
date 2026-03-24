@@ -216,6 +216,16 @@ body.lang-js [data-lang].lang-visible { display:revert; }
 </head>
 <body>
 
+<div id="auth-gate" style="display:flex;justify-content:center;align-items:center;min-height:100vh;background:#0c0b09;">
+  <div style="text-align:center;padding:40px;">
+    <h1 style="font-family:'Playfair Display',serif;color:#c9a96e;font-size:2em;margin-bottom:8px;">Archiwum Rodziny G&#322;uchowskich</h1>
+    <p style="color:#8a7e6b;margin-bottom:30px;">Dost&#281;p chroniony</p>
+    <input type="password" id="gate-pass" placeholder="Has&#322;o..." style="padding:12px 20px;font-size:16px;border:2px solid #333;background:#1a1a1a;color:#fff;border-radius:6px;width:260px;" onkeypress="if(event.key==='Enter')checkGate()">
+    <button onclick="checkGate()" style="padding:12px 24px;font-size:16px;background:#c9a96e;color:#0c0b09;border:none;border-radius:6px;margin-left:10px;cursor:pointer;font-weight:600;">Wejd&#378;</button>
+    <p id="gate-error" style="color:#c45a5a;margin-top:15px;display:none;">Nieprawid&#322;owe has&#322;o</p>
+  </div>
+</div>
+<div id="auth-content" style="display:none;">
 <div class="lang-bar" id="lang-bar">
   <span class="lang-label">Język / Language</span>
   <button class="lang-btn active" onclick="switchLang('pl', this)">PL</button>
@@ -251,18 +261,19 @@ body.lang-js [data-lang].lang-visible { display:revert; }
 <div class="filter-bar">
     <select id="filter-seria" onchange="filterCards()">
         <option value="">Wszystkie serie</option>
-        <option value="I">Seria I</option><option value="II">Seria II</option><option value="III">Seria III</option><option value="V">Seria V</option><option value="VI">Seria VI</option>
+        <option value="I">Seria I</option><option value="II">Seria II</option><option value="III">Seria III</option><option value="IV">Seria IV</option><option value="V">Seria V</option><option value="VI">Seria VI</option>
     </select>
     <input type="text" id="filter-search" placeholder="Szukaj (sygnatura, tytuł, treść)..." oninput="filterCards()">
-    <div class="photo-count" id="card-count">278 dokumentów</div>
+    <div class="photo-count" id="card-count">290 dokumentów</div>
 </div>
 
 <div class="nav" id="series-nav">
 <a href="#seria-I" class="nav-link">Seria I (6)</a>
-<a href="#seria-II" class="nav-link">Seria II (39)</a>
-<a href="#seria-III" class="nav-link">Seria III (38)</a>
-<a href="#seria-V" class="nav-link">Seria V (180)</a>
-<a href="#seria-VI" class="nav-link">Seria VI (24)</a>
+<a href="#seria-II" class="nav-link">Seria II (42)</a>
+<a href="#seria-III" class="nav-link">Seria III (40)</a>
+<a href="#seria-IV" class="nav-link">Seria IV (3)</a>
+<a href="#seria-V" class="nav-link">Seria V (183)</a>
+<a href="#seria-VI" class="nav-link">Seria VI (25)</a>
 
 </div>
 
@@ -397,7 +408,47 @@ body.lang-js [data-lang].lang-visible { display:revert; }
         <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> TRZECI SYN MARIANA GŁUCHOWSKIEGO — Lech Jerzy (2.VI.1902–15.IX.1944), brat Janusza (1888) i Stefana (1893). Bohaterska śmierć: ciężko ranny 15.IX.1944 na ul. Dolnej na Mokotowie, nie chcąc narażać żołnierzy na niebezpieczeństwo ewakuacji pod ostrzałem, odebrał sobie życie. Pośmiertnie awansowany na majora i odznaczony Virtuti Militari. Przejął dowodzenie pułkiem 17.VII.1944 po płk. Veli bek Jedigarze ps. &#x27;Damazy&#x27; (ARG/V/170), który tego dnia został oddelegowany poza Warszawę z rozkazem dotarcia do PSZ na Zachodzie. Biogram napisany przez Krzysztofa (syna STEFANA, nie Janusza — korekta genealogiczna) w Rio de Janeiro, 51 lat po śmierci wuja Lecha. Wzmianka o gen. T. Pełczyńskim ps. &#x27;Grzegorz&#x27; jako dowódcy. UWAGA: 1944.pl podaje nazwisko panieńskie matki jako &#x27;Ziółkowska&#x27;, biogram Krzysztofa podaje &#x27;Zielińska&#x27; — do weryfikacji.</div>
         <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-I-1" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-I-1')">ARG/I/1</a>, <a href="#card-ARG-II-1" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-1')">ARG/II/1</a>, <a href="#card-ARG-III-1" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-III-1')">ARG/III/1</a>, <a href="#card-ARG-V-1" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-1')">ARG/V/1</a>, <a href="#card-ARG-V-170" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-170')">ARG/V/170</a>, <a href="#card-ARG-III-33" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-III-33')">ARG/III/33</a></div>
         <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
-        
+
+      </div>
+    </div>
+    <div class="card" id="card-ARG-I-7" style="border: 1px dashed var(--gold-dim);">
+      <div class="card-img-wrap" data-src="gluchowski_img/wa_aliens_reg_janusz_photo.jpeg" data-title="Aliens Order 1920 — Certificate of Registration Nr A 271782, gen. Janusz Głuchowski" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/wa_aliens_reg_janusz_photo.jpeg" alt="Aliens Order 1920 — Certificate of Registration Nr A 271782" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/I/7</div>
+        <h3 class="card-title">Aliens Order 1920 — Certificate of Registration Nr A 271782, gen. Janusz Głuchowski, Wielka Brytania 1949–1960</h3>
+        <div class="card-meta-row">
+          <span class="card-date">1949–1960</span>
+          <span class="card-type">dokument imigracyjny</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Książeczka kartonowa ~10x14 cm, 8 stron, fotografia portretowa, stemple Metropolitan Police (1949, 1951, 1956), nadruk Aliens Order 1960 &laquo;Exempt from Registration&raquo;, stan średni (pożółkły, przetarcia na okładce). Dokument wielostronicowy — 4 skany: okładka (wa_aliens_reg_cover.jpeg), strona ze zdjęciem (wa_aliens_reg_janusz_photo.jpeg), stemple (wa_aliens_reg_stamps.jpeg), zwolnienie (wa_aliens_reg_exempt.jpeg).</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Certificate of Registration wydany na podstawie Aliens Order 1920 dla gen. Janusza Głuchowskiego. Nr A 271782. Dane: Polish, born Buchowa, no occupation, married. Adres: Folkestone, potem London W.11. Military Service: Polish Forces Aug 1909, arrived UK 23/9/40, discharged 21/6/49. Army No W/0166, P.5993. Stemple rejestracyjne Metropolitan Police z lat 1949–1956. W 1960 zwolniony z obowiązku rejestracji (Aliens Order 1960).</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Home Office / Metropolitan Police, Wielka Brytania</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> angielski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Kluczowy dokument imigracyjny. Potwierdza datę przybycia Janusza do UK (23.IX.1940 — ewakuacja z Francji), miejsce urodzenia (Buchowa), demobilizację (21.VI.1949). &laquo;No Occupation&raquo; — emerytowany generał dywizji bez pracy cywilnej. Adres na Folkestone sugeruje przejście przez obóz przejściowy dla Polaków.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-1" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-1')">ARG/II/1–32</a>, <a href="#card-ARG-V-177" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-177')">ARG/V/177–178</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Średni</div>
+      </div>
+    </div>
+    <div class="card" id="card-ARG-I-8" style="border: 1px dashed var(--gold-dim);">
+      <div class="card-img-wrap" data-src="gluchowski_img/wa_krzyz_ak_juras.jpeg" data-title="Legitymacja Krzyża Armii Krajowej Nr 3316 — Krzysztof Głuchowski ps. «Juras»" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/wa_krzyz_ak_juras.jpeg" alt="Legitymacja Krzyża Armii Krajowej Nr 3316 — Krzysztof Głuchowski ps. «Juras»" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/I/8</div>
+        <h3 class="card-title">Legitymacja Krzyża Armii Krajowej Nr 3316 — Krzysztof Głuchowski ps. &laquo;Juras&raquo;, Londyn, 7.III.1968</h3>
+        <div class="card-meta-row">
+          <span class="card-date">7.III.1968</span>
+          <span class="card-type">legitymacja odznaczeniowa</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Legitymacja kartonowa składana, okładka z rysunkiem Krzyża AK i symbolem Polski Walczącej, wnętrze wypełnione odręcznie atramentem, podpis K. Ziemski &laquo;Wachnowski&raquo;, stan dobry. Dokument dwustronicowy — 2 skany: okładka (wa_krzyz_ak_okladka.jpeg), wnętrze (wa_krzyz_ak_juras.jpeg).</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Okładka: &laquo;LEGITYMACJA KRZYŻA ARMII KRAJOWEJ Nr 3316&raquo;. Wnętrze: Nazwisko Głuchowski, Imię Krzysztof, Pseudonim &laquo;Juras&raquo;, Przydział: ZWZ, Komp.K, Plut.1112, 7 Pułk Ułan. Lubel. &laquo;Jeleń&raquo;. Odznaczony Krzyżem AK ustanowionym 1.VIII.1966 przez gen. Tadeusza Bora-Komorowskiego. Podpis: K. Ziemski &laquo;Wachnowski&raquo;, Z-ca D-cy W-skierło Korpusu AK. Londyn 7.3.68.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Korpus AK w Londynie, płk Kazimierz Ziemski &laquo;Wachnowski&raquo;</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Krzyż AK ustanowiony w 1966 (22. rocznica Powstania) przez ostatniego dowódcę AK gen. Bora-Komorowskiego. Legitymacja podpisana przez płk. Kazimierza Ziemskiego &laquo;Wachnowskiego&raquo; — zastępcę dowódcy Korpusu AK w Londynie. Nr 3316 — Krzysztof był jednym z tysięcy żołnierzy AK uhonorowanych na emigracji. Potwierdza pseudonim &laquo;Juras&raquo; i przydział do plutonu 1112 kryptonim &laquo;Jeleń&raquo;.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-V-185" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-185')">ARG/V/185</a>, <a href="#card-ARG-IV-6-uz" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-IV-6-uz')">ARG/IV/6</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
       </div>
     </div>
   </div>
@@ -1408,7 +1459,70 @@ this certificate.
         <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Oflag XVII A — obóz oficerski w Edelbach/Kaisersteinbruch (Austria), działający 1939–1945. ~170 polskich oficerów wśród ~4500 jeńców (głównie Francuzi i Jugosłowianie). Gen. Janusz Głuchowski NIE był jeńcem — dowodził PSZ w Wielkiej Brytanii. Kartka od jeńca do &#x27;Stasia&#x27; (przez adres A. Zaleskiego) — wzmianka o Żoliborzu (dzielnica Głuchowskich!) i &#x27;Janowi&#x27; (Janusz?) sugeruje powiązanie z rodziną. Data 15.IX.1942 — trzeci rok niewoli. Zachowanie w archiwum Głuchowskich potwierdza, że nadawca lub adresat był bliski rodzinie. HIPOTEZA: nadawca mógł być towarzyszem broni z kręgu Głuchowskich, piszącym do wspólnego znajomego.</div>
         <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-65" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-65')">ARG/II/65</a></div>
         <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Średni — pożółkła, pismo trudno czytelne</div>
-        
+
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-33-uz" style="border: 1px dashed var(--gold-dim);">
+      <div class="card-img-wrap" data-src="gluchowski_img/varia_009_lista_personalna_7pul.jpeg" data-title="Lista personalna 7 Pułku Ułanów Lubelskich im. Gen. Broni Sosnkowskiego — 23 nazwiska, 5.VII.1946" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/varia_009_lista_personalna_7pul.jpeg" alt="Lista personalna 7 Pułku Ułanów Lubelskich im. Gen. Broni Sosnkowskiego — 23 nazwiska, 5.VII.1946" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/33 · UZUPEŁNIENIE</div>
+        <h3 class="card-title">Lista personalna 7 Pułku Ułanów Lubelskich im. Gen. Broni Sosnkowskiego — 23 nazwiska, 5.VII.1946</h3>
+        <div class="card-meta-row">
+          <span class="card-date">5.VII.1946</span>
+          <span class="card-type">dokument wojskowy / lista personalna</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Maszynopis na papierze urzędowym, 1 strona A4, odręczne adnotacje, pieczęć &laquo;7 Pułk Ułanów Lubelskich&raquo;, stan średni</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Lista 23 żołnierzy 7 Pułku z danymi: nr, stopień, nazwisko, rok urodzenia, przydział, data wstąpienia. Widoczne m.in.: 1. Poliński Mieczysław (st.strz.), 2. Scheda Gustaw (1926), 3. Grabowski Władysław, 4. Bocikowski Władysław (1903, kapr.rez.), 14. Głuchowski Cezary/Krzysztof (1926), 15. Norweski Stefan (1928). Prawdopodobnie &laquo;Głuchowski&raquo; pod nr 14 = Krzysztof.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> 7 Pułk Ułanów Lubelskich im. Gen. Broni Sosnkowskiego</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Oficjalny dokument 7 Pułku Ułanów im. Gen. Sosnkowskiego po wyzwoleniu. Lista z datą 5.VII.1946 — żołnierze zweryfikowani po wojnie w strukturach PSZ na Zachodzie. Krzysztof pod nr 14 miał 20 lat.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-1" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-1')">ARG/II/1</a>, <a href="#card-ARG-V-182-uz" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-182-uz')">ARG/V/182</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Średni</div>
+
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-34-uz" style="border: 1px dashed var(--gold-dim);">
+      <div class="card-img-wrap" data-src="gluchowski_img/varia_010_certyfikat_7pul.jpeg" data-title="Certyfikat/inwentarz Koła Żołnierzy 7 Pułku Ułanów Lubelskich — lista 25 pozycji archiwalnych" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/varia_010_certyfikat_7pul.jpeg" alt="Certyfikat/inwentarz Koła Żołnierzy 7 Pułku Ułanów Lubelskich — lista 25 pozycji archiwalnych" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/34 · UZUPEŁNIENIE</div>
+        <h3 class="card-title">Certyfikat/inwentarz Koła Żołnierzy 7 Pułku Ułanów Lubelskich — lista 25 pozycji archiwalnych</h3>
+        <div class="card-meta-row">
+          <span class="card-date">ok. 1946–1947</span>
+          <span class="card-type">inwentarz archiwalny</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Maszynopis na papierze urzędowym, 1 strona A4, podpis odręczny, stan średni</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Inwentarz materiałów archiwalnych Koła Żołnierzy 7 Pułku. 25 pozycji: rozkazy dzienne pułku (od Nr 1), teczki korespondencji, karty ewidencyjne, karty kwalifikacyjne, koperty, książki, fotografie. Podpisany. Dokument certyfikujący zasób archiwalny pułku po wojnie.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Koło Żołnierzy 7 Pułku Ułanów Lubelskich</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Meta-dokument — inwentarz archiwum pułkowego. Pokazuje jak systematycznie 7 Pułk archiwizował swoją historię po wojnie. Rozkazy dzienne, karty ewidencyjne, fotografie — cały zasób archiwalny jednego pułku. Krzysztof prawdopodobnie współtworzył ten inwentarz.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-33-uz" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-33-uz')">ARG/II/33</a>, <a href="#card-ARG-V-182-uz" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-182-uz')">ARG/V/182</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Średni</div>
+
+      </div>
+    </div>
+    <div class="card" id="card-ARG-II-35-uz" style="border: 1px dashed var(--gold-dim);">
+      <div class="card-img-wrap" data-src="gluchowski_img/varia_012_karta_7pul_henstedt.jpeg" data-title="Karta/zaproszenie 7 Pułku Ułanów Lubelskich im. Gen. Broni Sosnkowskiego — Henstedt, 23.III.1947" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/varia_012_karta_7pul_henstedt.jpeg" alt="Karta/zaproszenie 7 Pułku Ułanów Lubelskich im. Gen. Broni Sosnkowskiego — Henstedt, 23.III.1947" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/II/35 · UZUPEŁNIENIE</div>
+        <h3 class="card-title">Karta/zaproszenie 7 Pułku Ułanów Lubelskich im. Gen. Broni Sosnkowskiego — Henstedt, 23.III.1947</h3>
+        <div class="card-meta-row">
+          <span class="card-date">23.III.1947</span>
+          <span class="card-type">karta okolicznościowa</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Kartonik składany ~12&times;16 cm, nadruk czerwono-biały (barwy pułkowe, godło z dwoma skrzyżowanymi lancami), nadruk maszynowy, stan dobry</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> &laquo;7 Pułk Ułanów Lubelskich im Gen.Broni Sosnkowskiego — Henstedt 23.III.47.&raquo; Na odwrocie odręczny dopisek &laquo;ppor. Głuchowski...&raquo; — Henstedt to miejscowość w Szlezwiku-Holsztynie, baza polskich jednostek po wyzwoleniu.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> 7 Pułk Ułanów Lubelskich</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Henstedt (Szlezwik-Holsztyn) — miejsce stacjonowania 7 Pułku Ułanów po wojnie w brytyjskiej strefie okupacyjnej Niemiec. Karta okolicznościowa (prawdopodobnie Dzień Imienin Pułku lub rocznica bitwy). Godło pułkowe z lancami i barwy biało-czerwone.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-II-33-uz" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-33-uz')">ARG/II/33</a>, <a href="#card-ARG-II-34-uz" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-34-uz')">ARG/II/34</a>, <a href="#card-ARG-V-182-uz" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-182-uz')">ARG/V/182</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+
       </div>
     </div>
   </div>
@@ -2912,6 +3026,161 @@ Komendant Okręgu:
 <div class="trans-details"><strong>Kontekst:</strong> NAJCENNIEJSZY DOKUMENT W NOWEJ SERII. Zaświadczenie Armii Krajowej wystawione ppor. Stanisławowi Stefanowi Głuchowskiemu 25 lipca 1944 — SZEŚĆ DNI przed wybuchem Powstania Warszawskiego. Dokument potwierdza jego przynależność do AK, stopień podporucznika, przydział do Obwodu Śródmieście. Stefan (ps. Radwan) walczył w Powstaniu Warszawskim — przeżył i trafił do obozu jenieckiego w Niemczech (1945-1947).</div>
       </div>
     </div>
+      </div>
+    </div>
+    <div class="card" id="card-ARG-III-10-uz" style="border: 1px dashed var(--gold-dim);">
+      <div class="card-img-wrap" data-src="gluchowski_img/varia_003_etykieta_listy_stefan.jpeg" data-title="Etykieta archiwalna — «Listy ppor. Stefana Głuchowskiego z obozu w Niemczech 1945–1947 do gen. Janusza w Anglii oraz listy Stefana z Polski do syna Krzysztofa 1947–1949»" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/varia_003_etykieta_listy_stefan.jpeg" alt="Etykieta archiwalna — «Listy ppor. Stefana Głuchowskiego z obozu w Niemczech 1945–1947 do gen. Janusza w Anglii oraz listy Stefana z Polski do syna Krzysztofa 1947–1949»" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/III/10 · UZUPEŁNIENIE</div>
+        <h3 class="card-title">Etykieta archiwalna — &laquo;Listy ppor. Stefana Głuchowskiego z obozu w Niemczech 1945–1947 do gen. Janusza w Anglii oraz listy Stefana z Polski do syna Krzysztofa 1947–1949&raquo;</h3>
+        <div class="card-meta-row">
+          <span class="card-date">ok. 1950–1970</span>
+          <span class="card-type">etykieta archiwalna</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Nalepka maszynopisowa na albumie/teczce, papier żółty, ~8&times;5 cm, stan dobry</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Etykieta opisująca zawartość teczki korespondencji: (1) listy ppor. Stefana z obozu jenieckiego do gen. Janusza w Anglii 1945–1947; (2) listy Stefana z Polski do syna Krzysztofa w Anglii 1947–1949. Dwa kierunki korespondencji powojennej rodziny rozbitej między Polskę a emigrację.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Krzysztof Głuchowski (prawdopodobnie)</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Etykieta sporządzona prawdopodobnie przez Krzysztofa — archiwalista systematyzujący korespondencję ojca. Dowodzi, że Stefan i Krzysztof nie wyemigrowali razem — Stefan wrócił do Polski, Krzysztof pojechał na Zachód z II Korpusem/3 DSK.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-III-1" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-III-1')">ARG/III/1</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+
+      </div>
+    </div>
+    <div class="card" id="card-ARG-III-11-uz" style="border: 1px dashed var(--gold-dim);">
+      <div class="card-img-wrap" data-src="gluchowski_img/varia_006_kriegsgef_oflag.jpeg" data-title="Kriegsgefangenenpost — Postkarte z Oflag XVII A, nadawca Zaleski, 18.01.1942" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/varia_006_kriegsgef_oflag.jpeg" alt="Kriegsgefangenenpost — Postkarte z Oflag XVII A, nadawca Zaleski, 18.01.1942" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/III/11 · UZUPEŁNIENIE</div>
+        <h3 class="card-title">Kriegsgefangenenpost — Postkarte z Oflag XVII A, nadawca Zaleski, 18.01.1942</h3>
+        <div class="card-meta-row">
+          <span class="card-date">18.I.1942</span>
+          <span class="card-type">korespondencja jeniecka</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Formularzowa kartka pocztowa Kriegsgefangenenpost, stempel cenzury &laquo;Gepr&uuml;ft 401&raquo;, stempel okrągły Oflag XVII A, odręczny tekst po polsku, stan średni (zagięcia)</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Karta pocztowa jeniecka z Oflag XVII A (Edelbach/D&ouml;llersheim, Austria). Nadawca: Zaleski (imię nieczytelne). Treść odręczna po polsku — osobista korespondencja z obozu. Stempel cenzury &laquo;Gepr&uuml;ft&raquo;.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Zaleski — jeniec wojenny, oficer polski w Oflagu XVII A</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski/niemiecki</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Oflag XVII A — obóz oficerski w Austrii. Karta Kriegsgefangenenpost podlegała cenzurze obozowej (stempel &laquo;Gepr&uuml;ft&raquo;). Zaleski — współtowarzysz broni, korespondencja prawdopodobnie do rodziny Głuchowskich.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-III-1" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-III-1')">ARG/III/1</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Średni</div>
+
+      </div>
+    </div>
+    <div class="card" id="card-ARG-III-12-wa" style="border: 1px dashed var(--gold-dim);">
+      <div class="card-img-wrap" data-src="gluchowski_img/wa_kriegsgefangenenpost.jpeg" data-title="Kriegsgefangenenpost — Halszka Głuchowska z fol. Kliszyn II do Stalagu XI-B" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/wa_kriegsgefangenenpost.jpeg" alt="Kriegsgefangenenpost — Halszka Głuchowska z fol. Kliszyn II do Stalagu XI-B" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/III/12</div>
+        <h3 class="card-title">Kriegsgefangenenpost — Halszka Głuchowska z fol. Kliszyn II, pow. Radomszczański do Stalagu XI-B</h3>
+        <div class="card-meta-row">
+          <span class="card-date">ok. 1941–1945</span>
+          <span class="card-type">korespondencja jeniecka</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Formularz Kriegsgefangenenpost, dwustronny, dane nadawcy po polsku i niemiecku, stempel cenzury, stan średni (zagięcia).</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Nadawca: Głuchowska Halszka, fol. Kliszin II, poczta Rzejowice, pow. Radomszczański, Generalna Gubernio. Adresat: M.-Stammlager XI B (Stalag XI-B, Fallingbostel). NOWA POSTAĆ: Halszka Głuchowska — dotychczas nieznana w archiwum. Folwark Kliszyn w pow. radomszczańskim — okolice Częstochowy, blisko korzeni rodzinnych Głuchowskich.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Halszka Głuchowska</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski/niemiecki</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> ODKRYCIE — Halszka Głuchowska, pisząca z Generalnego Gubernatorstwa do jenieca w Stalagu XI-B. Kim jest? Możliwości: (1) córka Mariana — ta nieznana &laquo;córka żona doktora UJ&raquo;; (2) krewna z linii radomszczańskiej; (3) żona jednego z braci. Folwark Kliszyn pod Rzejowicami — majątek ziemiański, co pasuje do statusu rodziny. Radomszczański = sąsiedztwo pow. częstochowskiego (Marian był komisarzem PON na powiat częstochowski).</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-III-1" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-III-1')">ARG/III/1–9</a>, <a href="#card-ARG-V-174" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-174')">ARG/V/174</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Średni</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="series" id="seria-IV">
+  <div class="series-header">
+    <div class="series-num">SERIA IV</div>
+    <h2 class="series-title">Dokumenty konspiracyjne AK — Obwód Śródmieście</h2>
+    <p class="series-desc">Dokumenty Armii Krajowej: karty przydziałowe, zaświadczenia, formularze weryfikacyjne. Obwód I Śródmieście, Powstanie Warszawskie 1944.</p>
+    <div class="series-meta">1944–1946 &middot; 3 jednostki</div>
+  </div>
+  <div class="cards-grid">
+    <div class="card" id="card-ARG-IV-4-uz" style="border: 1px dashed var(--gold-dim);">
+      <div class="card-img-wrap" data-src="gluchowski_img/varia_004_karta_ak_radwan.jpeg" data-title="Karta przydziałowa AK — Kwatermistrzostwo Obwodu Śródmieście I, pieczęć Dowództwa Obwodu, podpis «Radwan»" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/varia_004_karta_ak_radwan.jpeg" alt="Karta przydziałowa AK — Kwatermistrzostwo Obwodu Śródmieście I, pieczęć Dowództwa Obwodu, podpis «Radwan»" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/IV/4 · UZUPEŁNIENIE</div>
+        <h3 class="card-title">Karta przydziałowa AK — Kwatermistrzostwo Obwodu Śródmieście I, pieczęć Dowództwa Obwodu, podpis &laquo;Radwan&raquo;</h3>
+        <div class="card-meta-row">
+          <span class="card-date">1944</span>
+          <span class="card-type">dokument konspiracyjny</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Kartonik ~8&times;12 cm, pieczęć okrągła czerwona &laquo;Dowództwo Obwodu Śródmieście A.K. Warszawa&raquo;, odręczny podpis &laquo;Radwan&raquo;, stan średni (pożółkły)</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> &laquo;Przydział: Kwatermistrzostwo Obwodu I&raquo; — karta przydziałowa żołnierza AK do służby kwatermistrzowskiej Obwodu Śródmieście. Podpis &laquo;Radwan&raquo; (nie zidentyfikowany — NIE jest to Radosław/Mazurkiewicz). Pieczęć z Orłem.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Dowództwo Obwodu I Śródmieście AK</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Dokument konspiracyjny Armii Krajowej. Obwód I Śródmieście — jeden z głównych obwodów AK w Warszawie. Kwatermistrzostwo = zaopatrzenie i logistyka. Dokument mógł należeć do Stefana Głuchowskiego.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-IV-5-uz" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-IV-5-uz')">ARG/IV/5</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Średni</div>
+
+      </div>
+    </div>
+    <div class="card" id="card-ARG-IV-5-uz" style="border: 1px dashed var(--gold-dim);">
+      <div class="card-img-wrap" data-src="gluchowski_img/varia_005_weryfikacja_ak.jpeg" data-title="Dokumenty weryfikacyjne AK — formularz Komisji Weryfikacyjnej 7 Pułku Ułanów, 1946" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/varia_005_weryfikacja_ak.jpeg" alt="Dokumenty weryfikacyjne AK — formularz Komisji Weryfikacyjnej 7 Pułku Ułanów, 1946" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/IV/5 · UZUPEŁNIENIE</div>
+        <h3 class="card-title">Dokumenty weryfikacyjne AK — formularz Komisji Weryfikacyjnej 7 Pułku Ułanów, 1946</h3>
+        <div class="card-meta-row">
+          <span class="card-date">1946</span>
+          <span class="card-type">dokument urzędowy wojskowy</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Dwa dokumenty maszynopisowe na papierze urzędowym, formularze z odręcznymi wpisami, ~A4, stan średni</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Formularze Komisji Weryfikacyjnej weryfikujące służbę w AK i Powstaniu Warszawskim. Widoczny nagłówek &laquo;7 Pułk Ułanów&raquo; i data 5.VII.1946. Podpis ppłk. Uszycki. Dokument potwierdza przejście z konspiracji AK do regularnej weryfikacji powojennej.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Komisja Weryfikacyjna 7 Pułku Ułanów</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Po wojnie żołnierze AK musieli przejść weryfikację — potwierdzenie stopni i odznaczeń. Weryfikacja przez struktury PSZ na Zachodzie, nie przez komunistyczne władze w Polsce.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-IV-4-uz" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-IV-4-uz')">ARG/IV/4</a>, <a href="#card-ARG-II-1" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-1')">ARG/II/1</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Średni</div>
+
+      </div>
+    </div>
+    <div class="card" id="card-ARG-IV-6-uz" style="border: 1px dashed var(--gold-dim);">
+      <div class="card-img-wrap" data-src="gluchowski_img/varia_008_zaswiadczenie_ak_stefan.jpeg" data-title="Zaświadczenie AK Nr 2856 — ppor. Głuchowski Stanisław Stefan, żołnierz AK, Okręg Warszawski, 25.VII.1944" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/varia_008_zaswiadczenie_ak_stefan.jpeg" alt="Zaświadczenie AK Nr 2856 — ppor. Głuchowski Stanisław Stefan, żołnierz AK, Okręg Warszawski, 25.VII.1944" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/IV/6 · UZUPEŁNIENIE</div>
+        <h3 class="card-title">Zaświadczenie AK Nr 2856 — ppor. Głuchowski Stanisław Stefan, żołnierz AK, Okręg Warszawski, 25.VII.1944</h3>
+        <div class="card-meta-row">
+          <span class="card-date">25.VII.1944</span>
+          <span class="card-type">dokument konspiracyjny</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Legitymacja kartonowa ~10&times;14 cm, nadruk &laquo;ARMIA KRAJOWA / Okręg Warszawski&raquo;, pieczęć okrągła czerwona Dowództwa Obwodu Śródmieście, odręczne wypełnienie, podpis &laquo;Radwan&raquo;, stan dobry</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> &laquo;ARMIA KRAJOWA Okręg Warszawski Nr 2856. Zaświadczam, że ppor. Głuchowski Stanisław Stefan jest żołnierzem A.K. Dnia 25.VII.1944 r. Komendant Okręgu. [podpis] Radwan.&raquo; Pieczęć: Dowództwo Obwodu Śródmieście A.K. Warszawa.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Płk Franciszek Edward Pfeiffer ps. &laquo;Radwan&raquo;, Komendant Obwodu I Śródmieście AK</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> KLUCZOWY DOKUMENT. Wydany 6 DNI PRZED GODZINĄ W (1 sierpnia 1944). Zaświadczenie potwierdzające przynależność Stefana do AK — wydane tuż przed Powstaniem, gdy mobilizowano siły. Podpis &laquo;Radwan&raquo; — Komendant Obwodu Śródmieście. Stefan dostał zaświadczenie tuż przed walką, w której uczestniczył na Starówce z synem Krzysztofem.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-IV-4-uz" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-IV-4-uz')">ARG/IV/4</a>, <a href="#card-ARG-V-182-uz" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-182-uz')">ARG/V/182</a>, <a href="#card-ARG-III-10-uz" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-III-10-uz')">ARG/III/10</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry — wyjątkowo dobrze zachowany jak na dokument konspiracyjny</div>
+
+      </div>
+    </div>
+    <div class="card" id="card-ARG-IV-7" style="border: 1px dashed var(--gold-dim);">
+      <div class="card-img-wrap" data-src="gluchowski_img/wa_weryfikacja_ak_1946.jpeg" data-title="Dokument weryfikacyjny AK — Komisja Weryfikacyjna 7 Pułku Ułanów, 1946" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/wa_weryfikacja_ak_1946.jpeg" alt="Dokument weryfikacyjny AK — Komisja Weryfikacyjna 7 Pułku Ułanów, 1946" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/IV/7</div>
+        <h3 class="card-title">Dokument weryfikacyjny AK — Komisja Weryfikacyjna 7 Pułku Ułanów, podpis ppłk J. Uszycki, 1946</h3>
+        <div class="card-meta-row">
+          <span class="card-date">1946</span>
+          <span class="card-type">dokument wojskowy / weryfikacyjny</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Maszynopis na papierze urzędowym A4, pieczęć &laquo;7 Pułk Ułanów Lubelskich&raquo;, odręczny podpis ppłk Uszycki, adnotacje czerwonym atramentem, stan średni.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Dokument Komisji Weryfikacyjnej AK stwierdzający weryfikację służby żołnierza. Nagłówek &laquo;7 Pułk Ułanów Lubelskich&raquo;. Podpis: J. Uszycki ppłk., Przewodniczący. Data weryfikacji: 12.VI.46. Dotyczy prawdopodobnie Krzysztofa lub Stefana Głuchowskiego.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Komisja Weryfikacyjna 7 Pułku Ułanów Lubelskich, ppłk J. Uszycki</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Weryfikacja służby AK przez struktury PSZ na Zachodzie. Ppłk Uszycki — przewodniczący Komisji Weryfikacyjnej. Dokument potwierdzający stopień i przydział na podstawie rozkazów dowódcy Korpusu.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-IV-4-uz" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-IV-4-uz')">ARG/IV/4–6</a>, <a href="#card-ARG-II-33" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-II-33')">ARG/II/33</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Średni</div>
       </div>
     </div>
   </div>
@@ -9225,6 +9494,149 @@ Rio de Janeiro, 18 października 1995</div>
         <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry &mdash; odbitka czytelna, obr&oacute;cona 90&deg;, stempel fotografa wyra&zacute;ny, notatki na rewersie cz&eogon;&sacute;ciowo nieczytelne</div>
       </div>
     </div>
+    <div class="card" id="card-ARG-V-182-uz" style="border: 1px dashed var(--gold-dim);">
+      <div class="card-img-wrap" data-src="gluchowski_img/varia_001_biogram_lech_dup.jpeg" data-title="Biogram rtm. Lecha Jerzego Głuchowskiego ps. «Jeleń» — maszynopis" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/varia_001_biogram_lech_dup.jpeg" alt="Biogram rtm. Lecha Jerzego Głuchowskiego ps. «Jeleń» — maszynopis" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/182 · UZUPEŁNIENIE</div>
+        <h3 class="card-title">Biogram rtm. Lecha Jerzego Głuchowskiego ps. &laquo;Jeleń&raquo; — maszynopis</h3>
+        <div class="card-meta-row">
+          <span class="card-date">ok. 1960–1970</span>
+          <span class="card-type">dokument maszynopisowy</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Maszynopis na papierze biurowym, 1 strona, ~A4, stan dobry</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Pełny biogram Lecha od urodzenia 1902 do śmierci w Powstaniu 1944. Syn Mariana i Marii z Ziółkowskich. Służba w 7 Pułku Ułanów, kampania wrześniowa, konspiracja AK, ps. &laquo;Jeleń&raquo;. Dowódca dywizjonu w Powstaniu. Poległ lub popełnił samobójstwo 1.IX.1944.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Krzysztof Głuchowski (prawdopodobnie)</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Biogram sporządzony prawdopodobnie przez Krzysztofa dla celów archiwalnych. Kopia — oryginał być może przekazany do archiwów kombatanckich.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-I-6" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-I-6')">ARG/I/6</a>, <a href="#card-ARG-VI-24" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-VI-24')">ARG/VI/24</a>, <a href="#card-ARG-VI-25" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-VI-25')">ARG/VI/25</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+
+      </div>
+    </div>
+    <div class="card" id="card-ARG-V-183-uz" style="border: 1px dashed var(--gold-dim);">
+      <div class="card-img-wrap" data-src="gluchowski_img/varia_007_list_7pul.jpeg" data-title="List ręczny do Krzysztofa — w sprawie 7 Pułku Ułanów, podpisy por. Jedigara i por. Poziomskiego" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/varia_007_list_7pul.jpeg" alt="List ręczny do Krzysztofa — w sprawie 7 Pułku Ułanów, podpisy por. Jedigara i por. Poziomskiego" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/183 · UZUPEŁNIENIE</div>
+        <h3 class="card-title">List ręczny do Krzysztofa — w sprawie 7 Pułku Ułanów, podpisy por. Jedigara i por. Poziomskiego</h3>
+        <div class="card-meta-row">
+          <span class="card-date">ok. 1960–1970</span>
+          <span class="card-type">korespondencja prywatna</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> List odręczny na papierze listowym, 1 strona, atrament czarny, stan dobry</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> &laquo;Drogi Krzysztofie, Posyłam Ci ten list w imieniu mojego Ojca, jako ciekawostkę, ale dotyczącą 7 pułku ułanów. Oto są tam podpisy dwóch oficerów z tego pułku, który poprowadził na z Twoim Ojcem. por Volk Jedigar i por Janusz Poziomski list pisany na zebraniu w Warszawie w domu p. Korwelicich.&raquo;</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> nieznany (syn oficera 7 Pułku)</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Korespondencja do Krzysztofa w sprawie pamiątek 7 Pułku. Por. Jedigar i por. Poziomski — oficerowie 7 Pułku Ułanów Lubelskich. Zebranie w Warszawie u p. Korwelicich — środowisko weteranów 7 Pułku.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-VI-29" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-VI-29')">ARG/VI/29</a>, <a href="#card-ARG-V-182-uz" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-182-uz')">ARG/V/182</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+
+      </div>
+    </div>
+    <div class="card" id="card-ARG-V-184-uz" style="border: 1px dashed var(--gold-dim);">
+      <div class="card-img-wrap" data-src="gluchowski_img/varia_011_dedykacja_lech_stefan.jpeg" data-title="Dedykacja ręczna — «Kochanemu Stefankowi» od towarzyszy broni, ok. 1945" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/varia_011_dedykacja_lech_stefan.jpeg" alt="Dedykacja ręczna — «Kochanemu Stefankowi» od towarzyszy broni, ok. 1945" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/184 · UZUPEŁNIENIE</div>
+        <h3 class="card-title">Dedykacja ręczna — &laquo;Kochanemu Stefankowi&raquo; od towarzyszy broni, ok. 1945</h3>
+        <div class="card-meta-row">
+          <span class="card-date">ok. 1945</span>
+          <span class="card-type">dedykacja / wpis pamiątkowy</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Kartka papieru ~15&times;20 cm, odręczne podpisy atramentem, 6–8 podpisów oficerów, stan średni (pożółkły)</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> &laquo;Kochanemu Stefankowi, wróciwszy brylliśsi i dobremu towarzyszowi broni Hoch! Zdrówka!&raquo; Podpisy: por. 8 p.d.k(?), R. Mojżesz, i inni oficerowie. Dedykacja od kolegów oficerów — gratulacje powrotu z obozu.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Towarzysze broni Stefana Głuchowskiego</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Stefan wrócił z obozu jenieckiego w 1945. Towarzysze broni napisali mu dedykację na powitanie. &laquo;Wróciwszy brylliśsi&raquo; = wróciwszy w świetnym stanie. Ciepły, osobisty dokument koleżeństwa wojskowego.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-III-10-uz" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-III-10-uz')">ARG/III/10</a>, <a href="#card-ARG-IV-6-uz" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-IV-6-uz')">ARG/IV/6</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Średni</div>
+
+      </div>
+    </div>
+    <div class="card" id="card-ARG-V-185" style="border: 1px dashed var(--gold-dim);">
+      <div class="card-img-wrap" data-src="gluchowski_img/wa_biogram_krzysztof_1995.jpeg" data-title="Biogram autobiograficzny — Krzysztof Głuchowski ps. «Juras», Rio de Janeiro, 18.X.1995" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/wa_biogram_krzysztof_1995.jpeg" alt="Biogram autobiograficzny — Krzysztof Głuchowski ps. «Juras», 1995" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/185</div>
+        <h3 class="card-title">Biogram autobiograficzny — Krzysztof Głuchowski ps. &laquo;Juras&raquo;, maszynopis, Rio de Janeiro, 18.X.1995</h3>
+        <div class="card-meta-row">
+          <span class="card-date">18.X.1995</span>
+          <span class="card-type">dokument biograficzny / autobiografia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Maszynopis na papierze biurowym, 1 strona A4, druk komputerowy, stan bardzo dobry.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Pełny autobiogram Krzysztofa: ur. 29.XI.1926 Warszawa, syn Stanisława Stefana i Wandy. Pseudonim &laquo;JURAS&raquo;. Przydział: ZWZ → AK, Komp.K, Plut.1112, 7 Pułk Ułanów Lubelskich krypt. &laquo;Jeleń&raquo;. Powstanie: Starówka, Fabryka Kamlera, kanały, Stalag XI-B Fallingbostel/Dorsten. Po wojnie: II Korpus gen. Andersa, 3 DSK, studia w Anglii, Chartered Engineer, CAV-Lucas (systemy wtryskowe). Kariera: Project Engineer → Coordinator East Europe/Spain → Sales Engineering Manager → transfer do Brazylii (São Paulo, Injek SA). Żona: Ottoni Barbosa. Odznaczenia: Krzyż Walecznych, Krzyż AK Nr 3316, Medal Wojska, British War Medal. Członek: POSK (pierwszy skarbnik), Naczelna Rada ZHP, Zarząd Jedności Polskiej WB, Stow. Techników Polskich, Naczelna Rada Koła AK.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Krzysztof Andrzej Głuchowski</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> KLUCZOWY DOKUMENT — autobiografia Krzysztofa napisana 51 lat po Powstaniu. Jedyne znane źródło łączące pseudonim &laquo;Juras&raquo; z osobą Krzysztofa. Dokument napisany w Rio de Janeiro — potwierdza ścieżkę: Warszawa → Stalag → Włochy → Anglia → Barcelona → Brazylia. Wymienia źródła archiwalne: &laquo;Komplet listów Krzysztofa z Włoch do ojca w Niemczech — w Archiwum Polskiej Akademii Nauk przy Rynku Starego Miasta, Biblioteka Narodowa Zbiór Rękopisów Nr 13853.&raquo;</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-IV-6-uz" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-IV-6-uz')">ARG/IV/6</a>, <a href="#card-ARG-V-180" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-180')">ARG/V/180</a>, <a href="#card-ARG-V-179" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-179')">ARG/V/179</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Bardzo dobry</div>
+      </div>
+    </div>
+    <div class="card" id="card-ARG-V-186" style="border: 1px dashed var(--gold-dim);">
+      <div class="card-img-wrap" data-src="gluchowski_img/wa_biogram_stefan_1995.jpeg" data-title="Biogram — ppor. Stanisław Stefan Głuchowski ps. «Stefan», Rio de Janeiro, 18.X.1995" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/wa_biogram_stefan_1995.jpeg" alt="Biogram — ppor. Stanisław Stefan Głuchowski ps. «Stefan», 1995" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/186</div>
+        <h3 class="card-title">Biogram — ppor. Stanisław Stefan Głuchowski ps. &laquo;Stefan&raquo;, sporządził Krzysztof Głuchowski, Rio de Janeiro, 18.X.1995</h3>
+        <div class="card-meta-row">
+          <span class="card-date">18.X.1995</span>
+          <span class="card-type">dokument biograficzny</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Maszynopis 1 strona A4, druk komputerowy, stan bardzo dobry.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Biogram Stefana: ur. Piotrków, syn Mariana i Marii z Ziółkowskich. Gimnazjum w Łodzi, I Pułkowa Szkoła Podof. POW. W 1917: Wydział Prawa UW + 7 Pułk Ułanów Lubelskich. 1918: Legiony. 1919: Kancelaria Cywilna Prezydenta RP. 1920: front. Po wojnie: uniwersytet, I Pułk Strzelców Podhalańskich Rez.Kaw. Potem Kancelaria Naczelnika Państwa → Kancelaria Cywilna Prezydenta RP (od 1923). 1939: ewakuacja do Rumunii. 1940: konspiracja ZWZ/AK ps. &laquo;Konwent&raquo;. 1943: WSOP Żoliborz. Powstanie: Fabryka Kamlera, Starówka. Stalag XI-B (Fallingbostel, Bergen, Grossborn, Sandbostel, Lubeka). Wrócił do Polski 1947. Zmarł 17.X.1962 Warszawa, pochowany Powązki. Odznaczenia: Krzyż Niepodległości, Order Polonia Restituta, Krzyż Walecznych, Złoty Krzyż Zasługi, Srebrny Krzyż Zasługi, Krzyż AK Nr 3720.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Krzysztof Andrzej Głuchowski</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Biogram sporządzony przez Krzysztofa w Rio. KLUCZOWE: Stefan pracował w Kancelarii Cywilnej Prezydenta RP (Mościcki) — najwyższy urząd cywilny. Wrócił do Polski w 1947 (jako jedyny z rodziny na emigracji). Zmarł w Warszawie 1962 — 18 lat po Powstaniu. Syn Krzysztof napisał biogram 33 lata po śmierci ojca.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-III-10-uz" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-III-10-uz')">ARG/III/10–11</a>, <a href="#card-ARG-IV-4-uz" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-IV-4-uz')">ARG/IV/4–6</a>, <a href="#card-ARG-V-174" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-174')">ARG/V/174</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Bardzo dobry</div>
+      </div>
+    </div>
+    <div class="card" id="card-ARG-V-187" style="border: 1px dashed var(--gold-dim);">
+      <div class="card-img-wrap" data-src="gluchowski_img/wa_biogram_lech_1995.jpeg" data-title="Biogram — rtm./mjr Lech Głuchowski ps. «Jeżycki», Rio de Janeiro, 18.X.1995" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/wa_biogram_lech_1995.jpeg" alt="Biogram — rtm./mjr Lech Głuchowski ps. «Jeżycki», 1995" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/187</div>
+        <h3 class="card-title">Biogram — rtm./mjr Lech Głuchowski ps. &laquo;Jeżycki&raquo;, sporządził Krzysztof Głuchowski, Rio de Janeiro, 18.X.1995</h3>
+        <div class="card-meta-row">
+          <span class="card-date">18.X.1995</span>
+          <span class="card-type">dokument biograficzny</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Maszynopis 1 strona A4, druk komputerowy, stan bardzo dobry.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Biogram Lecha: ur. 1902 Raków pod Częstochową, syn Mariana i Marii z Ziółkowskich. Pseudonim &laquo;Jeżycki&raquo;. POW 1918, kadeci Rawicz, Akademia Kawalerii Bydgoszcz. Służba w 7 Pułku Ułanów, współpraca z wywiadem. AK: krypt. &laquo;Szrelek&raquo; → &laquo;Jeleń&raquo;. 17.VII.1944 objął dowództwo pułku. 1.VIII.1944: Aleje Szucha → Mokotów. 31.VIII objął dowództwo resztek. 1.IX.1944 — poległ. Pochowany Powązki. Pośmiertnie awansowany do stopnia majora. Odznaczenia: Krzyż Virtuti Militari, Krzyż Walecznych, Złoty Krzyż Zasługi z Mieczami, Krzyż AK Nr 1 (specjalna seria z 15.8.67).</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> Krzysztof Andrzej Głuchowski</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Lech miał KRZYŻ AK NR 1 — pierwszy wydany numer w specjalnej serii. To wyjątkowe wyróżnienie. Biogram sporządzony przez bratanka Krzysztofa w Rio, 51 lat po śmierci Lecha w Powstaniu.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-I-6" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-I-6')">ARG/I/6</a>, <a href="#card-ARG-VI-24" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-VI-24')">ARG/VI/24–25</a>, <a href="#card-ARG-V-182-uz" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-182-uz')">ARG/V/182</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Bardzo dobry</div>
+      </div>
+    </div>
+    <div class="card" id="card-ARG-V-188" style="border: 1px dashed var(--gold-dim);">
+      <div class="card-img-wrap" data-src="gluchowski_img/wa_rekopis_wspomnienia.jpeg" data-title="Rękopis wspomnień — pismo odręczne, autor niezidentyfikowany" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/wa_rekopis_wspomnienia.jpeg" alt="Rękopis wspomnień — pismo odręczne, autor niezidentyfikowany" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/188</div>
+        <h3 class="card-title">Rękopis wspomnień — pismo odręczne, autor niezidentyfikowany</h3>
+        <div class="card-meta-row">
+          <span class="card-date">nieustalone</span>
+          <span class="card-type">rękopis / wspomnienia</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Kartka formatu A4, pismo odręczne atramentem niebieskim, tekst ciągły, gęsty, ~40 linii, stan dobry.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Odręczny tekst wspomnień (autor nieustalony). Tekst po polsku, trudny do odczytania ze zdjęcia — wymaga analizy paleograficznej. Prawdopodobnie wspomnienia z okresu wojennego lub powojennego.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> nieustalony</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Rękopis w kolekcji Głuchowskich — prawdopodobnie wspomnienia jednego z członków rodziny (Stefan? Wanda?) lub osoby z kręgu rodzinnego. Wymaga transkrypcji.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-V-185" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-185')">ARG/V/185–187</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+      </div>
+    </div>
   </div>
 </section>
 <section class="series" id="seria-VI">
@@ -9406,7 +9818,7 @@ IM. GEN. K. SOSNKOWSKIEGO</div>
         <div class="card-field"><span class="field-label" data-label="tworca">Tw&oacute;rca:</span> nieznany fotograf (notatki na rewersach: Krzysztof Andrzej G&lstrok;uchowski)</div>
         <div class="card-field"><span class="field-label" data-label="jezyk">J&eogon;zyk:</span> polski (notatki na rewersach)</div>
         <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> KLEJNOT KOLEKCJI. &laquo;Rados&lstrok;aw&raquo; w 1960 &mdash; to komunistyczna Polska. Mazurkiewicz by&lstrok; aresztowany przez UB w 1949, skazany na 10 lat, zrehabilitowany po odwil&zdot;y 1956. Jego obecno&sacute;&cacute; przy mogile AK w 1960 to akt odwagi &mdash; w&lstrok;adze tolerowa&lstrok;y, ale nie popiera&lstrok;y upami&eogon;tnienia Powstania. Zgrupowanie &laquo;Rados&lstrok;aw&raquo; walczy&lstrok;o na Woli (VIII.1944), Starym Mie&sacute;cie i Czerniakowie &mdash; ponios&lstrok;o najci&eogon;&zdot;sze straty w ca&lstrok;ym Powstaniu (ok. 80% stanu). Spotkanie dw&oacute;ch legend: Zgrupowania &laquo;Rados&lstrok;aw&raquo; i Dywizjonu &laquo;Jele&nacute;&raquo;. Krzysztof (ps. &laquo;Jura&sacute;&raquo;) walczy&lstrok; w Plutonie 1112 Dywizjonu &laquo;Jele&nacute;&raquo; &mdash; te zdj&eogon;cia dowodz&aogon;, &zdot;e utrzymywa&lstrok; wi&eogon;zi ze &sacute;rodowiskiem AK przez dekady. Notatki na rewersach &lstrok;&aogon;cz&aogon; Beckenham (bp Rubin, ARG/V/181) z uroczysto&sacute;ciami powsta&nacute;czymi w Warszawie &mdash; Krzysztof &zdot;y&lstrok; mi&eogon;dzy dwoma &sacute;wiatami: emigracj&aogon; londy&nacute;sk&aogon; i pami&eogon;ci&aogon; powstania w Warszawie. Para z zaproszeniem na msz&eogon; &laquo;Jelenia&raquo; w Wilanowie 1970 (ARG/VI/8).</div>
-        <div class="card-field"><span class="field-label" data-label="powiazania">Powi&aogon;zania:</span> <a href="#card-ARG-VI-8" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-VI-8')">ARG/VI/8</a>, <a href="#card-ARG-VI-9" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-VI-9')">ARG/VI/9</a>, <a href="#card-ARG-V-181" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-181')">ARG/V/181</a>, <a href="#card-ARG-VI-24" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-VI-24')">ARG/VI/24</a></div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powi&aogon;zania:</span> <a href="#card-ARG-VI-8" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-VI-8')">ARG/VI/8</a>, <a href="#card-ARG-VI-9" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-VI-9')">ARG/VI/9</a>, <a href="#card-ARG-V-181" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-181')">ARG/V/181</a>, <a href="#card-ARG-VI-24" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-VI-24')">ARG/VI/24</a>, <a href="#card-ARG-VI-25" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-VI-25')">ARG/VI/25</a></div>
         <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry &mdash; odbitki czytelne, papier fotograficzny bez uszkodze&nacute;; notatki atramentowe na rewersach cz&eogon;&sacute;ciowo wyblak&lstrok;e</div>
       </div>
     </div>
@@ -10004,6 +10416,47 @@ Lech       Lochia(?)
     </div>
       </div>
     </div>
+    <div class="card" id="card-ARG-VI-30-uz" style="border: 1px dashed var(--gold-dim);">
+      <div class="card-img-wrap" data-src="gluchowski_img/varia_002_album_groby.jpeg" data-title="Strona albumu — ceremonia pobierania ziemi z miejsc kaźni powstańców warszawskich, ok. 1945–1950" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/varia_002_album_groby.jpeg" alt="Strona albumu — ceremonia pobierania ziemi z miejsc kaźni powstańców warszawskich, ok. 1945–1950" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/VI/30 · UZUPEŁNIENIE</div>
+        <h3 class="card-title">Strona albumu — ceremonia pobierania ziemi z miejsc kaźni powstańców warszawskich, ok. 1945–1950</h3>
+        <div class="card-meta-row">
+          <span class="card-date">ok. 1945–1950</span>
+          <span class="card-type">fotografia albumowa / strona albumu</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Strona albumu fotograficznego, 4 zdjęcia + maszynopisowe podpisy, papier brązowy, stan dobry</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Cztery fotografie z ceremonii pobierania ziemi z miejsc egzekucji powstańców: (1) Mauzoleum-Cmentarz na Woli — Emil Bauer, Stanisława Goettel, Zofia Kopczyńska &laquo;Władka&raquo;, Stanisław Norman; (2) Pole Mokotowskie — Władysława Michrowska matka &laquo;Chroma&raquo;, Hanna Wrańczewska córka &laquo;Wrony&raquo;; (3) Al. Szucha — płk Jan Kamiński ojciec &laquo;Kamienia&raquo;, Jan Żochowski &laquo;Lustrzyciel&raquo;. Pseudonimy: Dąbrowski, Chrom, Wrona, Kamień, Lustrzyciel, Mazur, Władka.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> nieznany fotograf</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Ceremonie pobierania ziemi z miejsc kaźni — rytuał upamiętniający poległych powstańców. Rodziny zbierały ziemię do urn. Dokument łączy nazwiska cywilne z pseudonimami konspiracyjnymi — wyjątkowo rzadkie źródło prosopograficzne.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-V-182-uz" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-182-uz')">ARG/V/182</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+
+      </div>
+    </div>
+    <div class="card" id="card-ARG-VI-31" style="border: 1px dashed var(--gold-dim);">
+      <div class="card-img-wrap" data-src="gluchowski_img/wa_portret_rodzinny_1920.jpeg" data-title="Portret rodzinny Głuchowskich — 9 osób, ok. 1918–1920" onclick="openLightbox(this.dataset.src, this.dataset.title)">
+        <img src="gluchowski_img/wa_portret_rodzinny_1920.jpeg" alt="Portret rodzinny Głuchowskich — 9 osób, ok. 1918–1920" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-sygn">ARG/VI/31</div>
+        <h3 class="card-title">Portret rodzinny Głuchowskich — 9 osób, ok. 1918–1920</h3>
+        <div class="card-meta-row">
+          <span class="card-date">ok. 1918–1920</span>
+          <span class="card-type">fotografia portretowa / grupowa</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Odbitka na kartonie fotograficznym ~20x25 cm, czarno-biała, tonacja sepiowa, stan dobry (lekkie pożółknięcie).</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> Portret 9 osób w dwóch rzędach. Pierwszy rząd: mężczyzna w mundurze wojskowym (Marian lub Stefan Głuchowski), dziewczynka, chłopiec, kobieta w białej bluzce (Maria z Ziółkowskich?), chłopiec w mundurku harcerskim/wojskowym. Drugi rząd: trzech młodzieńców i młoda kobieta. Prawdopodobnie rodzina Mariana Głuchowskiego z czworgiem dzieci (Janusz, Stefan, Lech, córka) oraz krewni. Datowanie na podstawie mundurów — okres I wojny światowej lub wojny polsko-bolszewickiej 1920.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> nieznany fotograf</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> —</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Jeśli identyfikacja poprawna — najstarsze zachowane zdjęcie rodziny Głuchowskich en masse. 9 osób — więcej niż znana czwórka dzieci Mariana, co sugeruje obecność krewnych (Ziółkowscy?). Mundur wojskowy odpowiada okresowi 1918–1920.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powiązania:</span> <a href="#card-ARG-V-174" class="powiazanie-link" onclick="event.stopPropagation(); scrollToCard('ARG-V-174')">ARG/V/174</a></div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> Dobry</div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -10258,5 +10711,18 @@ function switchLang(lang, btn) {
 })();
 </script>
 
+</div><!-- /auth-content -->
+<script>
+function checkGate(){
+  var p=document.getElementById('gate-pass').value;
+  if(p==='Skora@123'){
+    document.getElementById('auth-gate').style.display='none';
+    document.getElementById('auth-content').style.display='block';
+  } else {
+    document.getElementById('gate-error').style.display='block';
+    document.getElementById('gate-pass').value='';
+  }
+}
+</script>
 </body>
 </html>

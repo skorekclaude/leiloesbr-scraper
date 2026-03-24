@@ -216,6 +216,16 @@ body.lang-js [data-lang].lang-visible { display:revert; }
 </head>
 <body>
 
+<div id="auth-gate" style="display:flex;justify-content:center;align-items:center;min-height:100vh;background:#0c0b09;">
+  <div style="text-align:center;padding:40px;">
+    <h1 style="font-family:'Playfair Display',serif;color:#c9a96e;font-size:2em;margin-bottom:8px;">Archiwum Rodziny G&lstrok;uchowskich</h1>
+    <p style="color:#8a7e6b;margin-bottom:30px;">Galeria fotograficzna &mdash; dost&eogon;p chroniony</p>
+    <input type="password" id="gate-pass" placeholder="Has&lstrok;o..." style="padding:12px 20px;font-size:16px;border:2px solid #333;background:#1a1a1a;color:#fff;border-radius:6px;width:260px;" onkeypress="if(event.key==='Enter')checkGate()">
+    <button onclick="checkGate()" style="padding:12px 24px;font-size:16px;background:#c9a96e;color:#0c0b09;border:none;border-radius:6px;margin-left:10px;cursor:pointer;font-weight:600;">Wejd&zacute;</button>
+    <p id="gate-error" style="color:#c45a5a;margin-top:15px;display:none;">Nieprawid&lstrok;owe has&lstrok;o</p>
+  </div>
+</div>
+<div id="auth-content" style="display:none;">
 <div class="lang-bar" id="lang-bar">
   <span class="lang-label">Język / Language</span>
   <button class="lang-btn active" onclick="switchLang('pl', this)">PL</button>
@@ -3491,5 +3501,18 @@ function switchLang(lang, btn) {
 })();
 </script>
 
+</div><!-- /auth-content -->
+<script>
+function checkGate(){
+  var p=document.getElementById('gate-pass').value;
+  if(p==='Skora@123'){
+    document.getElementById('auth-gate').style.display='none';
+    document.getElementById('auth-content').style.display='block';
+  } else {
+    document.getElementById('gate-error').style.display='block';
+    document.getElementById('gate-pass').value='';
+  }
+}
+</script>
 </body>
 </html>
