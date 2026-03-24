@@ -1,0 +1,905 @@
+{
+  "_meta": {
+    "created": "2026-03-24",
+    "description": "Karty ISAD(G) dla obiektów skatalogowanych w sesji 24.03.2026",
+    "batches": [
+      "varia_",
+      "wa_",
+      "stefan_"
+    ],
+    "total_new_cards": 40
+  },
+  "cards": [
+    {
+      "signature": "ARG/IV/40",
+      "filename": "varia_001_biogram_lech.jpeg",
+      "series": "IV",
+      "title_pl": "Biogram rtm./mjr. Lecha Głuchowskiego ps. 'Jeżycki'",
+      "title_en": "Biography of Cpt./Maj. Lech Głuchowski nom de guerre 'Jeżycki'",
+      "date": "ok. 1960–1970",
+      "date_sort": "1965",
+      "type": "maszynopis",
+      "dimensions": "1 k.",
+      "creator": "nieznany",
+      "description_pl": "Biogram maszynopisowy rtm. Lecha Głuchowskiego (1902–1944), ps. 'Jeżycki'. Syn Mariana i Marii z Ziółkowskich. Absolwent kadeckiej szkoły w Rawiczu i Akademii Kawalerii w Bydgoszczy. W konspiracji AK — kryptonim 'Szrelek', potem 'Jeleń' (7 Pułk Ułanów Lubelskich). 17 lipca 1944 objął dowództwo pułku. Poległ na Mokotowie. Pochowany na Powązkach. Pośmiertnie awansowany do stopnia majora. Odznaczony Krzyżem Virtuti Militari. Krzyż AK Nr 1 (!) — pierwszy wydany numer.",
+      "description_en": "Typescript biography of Cpt. Lech Głuchowski (1902–1944), nom de guerre 'Jeżycki'. Son of Marian and Maria née Ziółkowska. Graduate of Rawicz cadet school and Bydgoszcz Cavalry Academy. In AK conspiracy — codename 'Szrelek', then 'Jeleń' (7th Uhlan Regiment). Took command of the regiment on 17 July 1944. Killed in action on Mokotów. Buried at Powązki. Posthumously promoted to Major. Awarded Virtuti Militari Cross. AK Cross No. 1 (!) — the first number ever issued.",
+      "persons": [
+        "Lech Głuchowski",
+        "Marian Głuchowski",
+        "Maria z Ziółkowskich"
+      ],
+      "condition": "dobry, maszynopis czytelny",
+      "valuation_min": 500,
+      "valuation_max": 1200,
+      "valuation_note": "Biogram z wyjątkową informacją — Krzyż AK Nr 1. Wartość dokumentacyjna wysoka.",
+      "valuation_stars": 4,
+      "cross_references": [
+        "ARG/I/6"
+      ]
+    },
+    {
+      "signature": "ARG/VI/70",
+      "filename": "varia_002_album_groby.jpeg",
+      "series": "VI",
+      "title_pl": "Strona albumu — ceremonia pobierania ziemi z miejsc kaźni powstańców",
+      "title_en": "Album page — ceremony of collecting soil from martyrdom sites of insurgents",
+      "date": "ok. 1945–1950",
+      "date_sort": "1947",
+      "type": "fotografia / album",
+      "dimensions": "1 k. albumu, 4 zdjęcia z podpisami maszynopisowymi",
+      "creator": "nieznany",
+      "description_pl": "Strona albumu z 4 fotografiami dokumentującymi ceremonię pobierania ziemi z miejsc kaźni powstańców warszawskich. Lokalizacje: Cmentarz na Woli (mauzoleum ul. Stawki), Pole Mokotowskie, Al. Szucha. Podpisy identyfikują: Emil Bauer (ojciec 'Dąbrowskiego'), Stanisława Goettel (siostra 'Dąbrowskiego'), Zofia Kopczyńska 'Władka', Władysława Michrowska (matka 'Chroma'), Hanna Wrańczewska (córka 'Wrony'), płk Jan Kamiński (ojciec 'Kamienia'), Jan Żochowski 'Lustrzyciel'. Niezwykle rzadki dokument ceremonii upamiętnienia — łączy nazwiska cywilne z pseudonimami konspiracyjnymi.",
+      "description_en": "Album page with 4 photographs documenting the ceremony of collecting soil from martyrdom sites of Warsaw insurgents. Locations: Wola Cemetery, Mokotów Field, Szucha Avenue. Captions identify family members and their conspiratorial pseudonyms.",
+      "persons": [
+        "Emil Bauer",
+        "Dąbrowski (ps.)",
+        "Stanisława Goettel",
+        "Zofia Kopczyńska / Władka",
+        "Władysława Michrowska",
+        "Chrom (ps.)",
+        "Hanna Wrańczewska",
+        "Wrona (ps.)",
+        "Jan Kamiński",
+        "Kamień (ps.)",
+        "Jan Żochowski / Lustrzyciel",
+        "Mazur (ps.)"
+      ],
+      "condition": "dobry, podpisy czytelne",
+      "valuation_min": 1500,
+      "valuation_max": 4000,
+      "valuation_note": "Unikatowa dokumentacja ceremonialna. Łączenie pseudonimów z nazwiskami — wartość badawcza. Fot. powstańcze z identyfikacją: DESA 1000-3000 PLN.",
+      "valuation_stars": 5
+    },
+    {
+      "signature": "ARG/III/45",
+      "filename": "varia_003_etykieta_listy_stefan.jpeg",
+      "series": "III",
+      "title_pl": "Etykieta archiwalna: 'Listy ppor. Stefana z obozu w Niemczech 1945–1947'",
+      "title_en": "Archival label: 'Letters of 2nd Lt. Stefan from POW camp in Germany 1945–1947'",
+      "date": "ok. 1947–1949",
+      "date_sort": "1947",
+      "type": "etykieta archiwalna",
+      "dimensions": "1 k.",
+      "creator": "Krzysztof Głuchowski (?)",
+      "description_pl": "Etykieta opisująca zawartość teczki: 'Listy ppor. Stefana z obozu w Niemczech 1945–1947 do gen. Janusza + listy Stefana z Polski do syna Krzysztofa 1947–1949'. Dokument porządkujący, wskazujący na istnienie korespondencji jeniecko-emigracyjnej.",
+      "persons": [
+        "Stefan Głuchowski",
+        "Janusz Głuchowski",
+        "Krzysztof Głuchowski"
+      ],
+      "condition": "dobry",
+      "valuation_min": 100,
+      "valuation_max": 300,
+      "valuation_note": "Sama etykieta — wartość informacyjna, nie kolekcjonerska.",
+      "valuation_stars": 2
+    },
+    {
+      "signature": "ARG/IV/41",
+      "filename": "varia_004_karta_ak_radwan.jpeg",
+      "series": "IV",
+      "title_pl": "Karta AK — Przydział: Kwatermistrzostwo Obwodu I, pieczęć Obwód Śródmieście, podpis 'Radwan'",
+      "title_en": "AK Assignment Card — Quartermaster's Office, District I, Śródmieście District stamp, signature 'Radwan'",
+      "date": "1944",
+      "date_sort": "1944",
+      "type": "dokument konspiracyjny",
+      "dimensions": "1 k.",
+      "creator": "Dowództwo Obwodu Śródmieście AK",
+      "description_pl": "Karta przydziału AK do Kwatermistrzostwa Obwodu I Śródmieście. Pieczęć: 'Dowództwo Obwodu Śródmieście A.K.' Podpis konspiracyjny: 'Radwan'. Dokument organizacyjny Armii Krajowej z autentyczną pieczęcią.",
+      "persons": [
+        "Stefan Głuchowski",
+        "Radwan (ps.)"
+      ],
+      "condition": "dobry, pieczęć czytelna",
+      "valuation_min": 3000,
+      "valuation_max": 8000,
+      "valuation_note": "Autentyczna pieczęć AK z orłem. Dokumenty AK z pieczęcią: DESA/SDA 3000-10000 PLN.",
+      "valuation_stars": 5,
+      "cross_references": [
+        "ARG/S/028"
+      ]
+    },
+    {
+      "signature": "ARG/IV/42",
+      "filename": "varia_005_weryfikacja_ak.jpeg",
+      "series": "IV",
+      "title_pl": "Dokument weryfikacyjny AK — formularz 1946, 7 Pułk Ułanów",
+      "title_en": "AK Verification Document — 1946 form, 7th Uhlan Regiment",
+      "date": "1946",
+      "date_sort": "1946",
+      "type": "dokument weryfikacyjny",
+      "dimensions": "1 k.",
+      "creator": "Komisja Weryfikacyjna AK",
+      "description_pl": "Formularz weryfikacyjny przynależności do AK. Potwierdza służbę w 7 Pułku Ułanów Lubelskich. Dokument z procedury weryfikacji żołnierzy podziemia po wojnie.",
+      "persons": [
+        "Stefan Głuchowski"
+      ],
+      "condition": "dobry",
+      "valuation_min": 400,
+      "valuation_max": 1000,
+      "valuation_note": "Dokumenty weryfikacyjne AK: 300-800 PLN. Tu: 7 P.Uł. — pełna identyfikacja.",
+      "valuation_stars": 3
+    },
+    {
+      "signature": "ARG/III/46",
+      "filename": "varia_006_kriegsgef_oflag.jpeg",
+      "series": "III",
+      "title_pl": "Kriegsgefangenenpost — Postkarte z Oflag XVII A, 'Za Zaleski'",
+      "title_en": "POW Mail — Postcard from Oflag XVII A, 'Za Zaleski'",
+      "date": "18.01.1942",
+      "date_sort": "1942-01-18",
+      "type": "korespondencja jeniecka",
+      "dimensions": "1 k. pocztówka",
+      "creator": "Za Zaleski (?)",
+      "description_pl": "Kriegsgefangenenpost — kartka pocztowa z Oflag XVII A (Edelbach/Döllersheim, Austria). Nadawca: 'Za Zaleski'. Stempel cenzury jenieckiej. Oflag XVII A — duży obóz oficerów polskich.",
+      "persons": [
+        "Za Zaleski"
+      ],
+      "condition": "dobry, stempel czytelny",
+      "valuation_min": 600,
+      "valuation_max": 1500,
+      "valuation_note": "Kriegsgefangenenpost z Oflagów: 400-1200 PLN. Oflag XVII A dobrze udokumentowany.",
+      "valuation_stars": 3
+    },
+    {
+      "signature": "ARG/V/120",
+      "filename": "varia_007_list_7pul.jpeg",
+      "series": "V",
+      "title_pl": "List ręczny do Krzysztofa — w imieniu ojca, 7 Pułk Ułanów, podpisy oficerów",
+      "title_en": "Handwritten letter to Krzysztof — on behalf of father, 7th Uhlan Regiment, officers' signatures",
+      "date": "ok. 1960–1970",
+      "date_sort": "1965",
+      "type": "korespondencja",
+      "dimensions": "1 k.",
+      "creator": "oficerowie 7 P.Uł.",
+      "description_pl": "List ręczny do Krzysztofa Głuchowskiego 'w imieniu mojego Ojca... 7 pułku ułanów'. Podpisy dwóch oficerów. Korespondencja kombatancka związana z pamięcią o 7 Pułku Ułanów Lubelskich.",
+      "persons": [
+        "Krzysztof Głuchowski"
+      ],
+      "condition": "dobry",
+      "valuation_min": 300,
+      "valuation_max": 800,
+      "valuation_note": "Korespondencja kombatancka: 200-600 PLN.",
+      "valuation_stars": 2
+    },
+    {
+      "signature": "ARG/IV/43",
+      "filename": "varia_008_zaswiadczenie_ak.jpeg",
+      "series": "IV",
+      "title_pl": "Zaświadczenie AK Okręg Warszawski Nr 2856 — ppor. Głuchowski Stanisław Stefan, 25.VII.1944",
+      "title_en": "AK Certificate Warsaw District No. 2856 — 2nd Lt. Głuchowski Stanisław Stefan, 25.VII.1944",
+      "date": "25.VII.1944",
+      "date_sort": "1944-07-25",
+      "type": "dokument konspiracyjny",
+      "dimensions": "1 k.",
+      "creator": "Armia Krajowa, Okręg Warszawski",
+      "description_pl": "ZAŚWIADCZENIE ARMII KRAJOWEJ — wydane 25 LIPCA 1944, SZEŚĆ DNI PRZED POWSTANIEM WARSZAWSKIM! Potwierdza że ppor. Głuchowski Stanisław Stefan jest żołnierzem AK. Podpis konspiracyjny 'Radwan'. Pieczęć z orłem w koronie. Numer 2856. Jeden z najcenniejszych dokumentów w kolekcji — datowany na sam próg Powstania.",
+      "description_en": "HOME ARMY CERTIFICATE — issued 25 JULY 1944, SIX DAYS BEFORE THE WARSAW UPRISING! Confirms 2nd Lt. Głuchowski Stanisław Stefan as AK soldier. Conspiracy signature 'Radwan'. Eagle seal. One of the most valuable documents in the collection.",
+      "persons": [
+        "Stefan Głuchowski",
+        "Radwan (ps.)"
+      ],
+      "condition": "dobry, pieczęć i podpis czytelne",
+      "valuation_min": 8000,
+      "valuation_max": 20000,
+      "valuation_note": "NAJCENNIEJSZY DOKUMENT SERII IV. Zaświadczenie AK z datą 6 dni przed Powstaniem — ekstremalnie rzadkie. Pieczęć AK z orłem. SDA/DESA: zaświadczenia AK 3000-10000 PLN, ale ta data czyni go unikatem.",
+      "valuation_stars": 5,
+      "cross_references": [
+        "ARG/IV/41",
+        "ARG/S/028"
+      ]
+    },
+    {
+      "signature": "ARG/II/60",
+      "filename": "varia_009_lista_personalna.jpeg",
+      "series": "II",
+      "title_pl": "Lista personalna 7 Pułku Ułanów Lubelskich — 23 nazwiska, 5.VII.1946",
+      "title_en": "Personnel list of 7th Uhlan Regiment — 23 names, 5.VII.1946",
+      "date": "5.VII.1946",
+      "date_sort": "1946-07-05",
+      "type": "lista personalna",
+      "dimensions": "1 k.",
+      "creator": "7 Pułk Ułanów Lubelskich",
+      "description_pl": "Lista personalna 7 Pułku Ułanów Lubelskich z datami urodzenia i stopniami — 23 nazwiska. Dokument z weryfikacji powojennej, 5 lipca 1946.",
+      "persons": [],
+      "condition": "dobry",
+      "valuation_min": 800,
+      "valuation_max": 2000,
+      "valuation_note": "Listy personalne pułków: 600-1500 PLN. 23 nazwiska — duża wartość genealogiczna.",
+      "valuation_stars": 4
+    },
+    {
+      "signature": "ARG/II/61",
+      "filename": "varia_010_certyfikat_7pul.jpeg",
+      "series": "II",
+      "title_pl": "Certyfikat/inwentarz Koła Żołnierzy 7 Pułku — lista 25+ pozycji",
+      "title_en": "Certificate/inventory of 7th Uhlan Regiment Veterans' Circle — 25+ items listed",
+      "date": "ok. 1946–1947",
+      "date_sort": "1946",
+      "type": "inwentarz / certyfikat",
+      "dimensions": "1 k.",
+      "creator": "Koło Żołnierzy 7 P.Uł.",
+      "description_pl": "Certyfikat lub inwentarz Koła Żołnierzy 7 Pułku Ułanów Lubelskich. Lista 25+ pozycji: fotografie, koperty, karty ewidencyjne. Dokument organizacyjny środowiska kombatanckiego.",
+      "persons": [],
+      "condition": "dobry",
+      "valuation_min": 400,
+      "valuation_max": 1000,
+      "valuation_note": "Dokumenty kombatanckie: 300-800 PLN.",
+      "valuation_stars": 3
+    },
+    {
+      "signature": "ARG/V/121",
+      "filename": "varia_011_dedykacja_lech.jpeg",
+      "series": "V",
+      "title_pl": "Dedykacja ręczna: 'Kochanemu Stefankowi...' — podpisy oficerów, ok. 1945",
+      "title_en": "Handwritten dedication: 'To dear Stefanek...' — officers' signatures, c. 1945",
+      "date": "ok. 1945",
+      "date_sort": "1945",
+      "type": "dedykacja / ephemera",
+      "dimensions": "1 k.",
+      "creator": "oficerowie",
+      "description_pl": "Dedykacja ręczna: 'Kochanemu Stefankowi, wróciwszy brylisśsi i dobremu towarzyszowi broni' — podpisy oficerów. Dokument koleżeński z wyzwolenia lub demobilizacji.",
+      "persons": [
+        "Stefan Głuchowski"
+      ],
+      "condition": "dobry",
+      "valuation_min": 300,
+      "valuation_max": 800,
+      "valuation_note": "Dedykacje koleżeńskie: 200-500 PLN. Kontekst wyzwolenia podnosi wartość.",
+      "valuation_stars": 2
+    },
+    {
+      "signature": "ARG/II/62",
+      "filename": "varia_012_karta_7pul_henstedt.jpeg",
+      "series": "II",
+      "title_pl": "Karta/zaproszenie 7 Pułku Ułanów Lubelskich im. Gen. Broni Sosnkowskiego — Henstedt, 23.III.47",
+      "title_en": "Card/invitation of 7th Uhlan Regiment named after Gen. Sosnkowski — Henstedt, 23.III.47",
+      "date": "23.III.1947",
+      "date_sort": "1947-03-23",
+      "type": "zaproszenie / karta okolicznościowa",
+      "dimensions": "1 k.",
+      "creator": "7 Pułk Ułanów Lubelskich",
+      "description_pl": "Karta okolicznościowa lub zaproszenie 7 Pułku Ułanów Lubelskich im. Generała Broni Sosnkowskiego. Henstedt (Niemcy), 23 marca 1947. Pułk w strefie brytyjskiej po demobilizacji.",
+      "persons": [
+        "Kazimierz Sosnkowski"
+      ],
+      "condition": "dobry",
+      "valuation_min": 400,
+      "valuation_max": 1000,
+      "valuation_note": "Ephemera pułkowa z okresu emigracji: 300-800 PLN. Patron Sosnkowski.",
+      "valuation_stars": 3
+    },
+    {
+      "signature": "ARG/II/63",
+      "filename": "wa_aliens_reg_01.jpeg",
+      "series": "II",
+      "title_pl": "Aliens Registration Certificate — gen. Janusz Głuchowski, Nr A 271782 (awers)",
+      "title_en": "Aliens Registration Certificate — Gen. Janusz Głuchowski, No. A 271782 (recto)",
+      "date": "25.VI.1949",
+      "date_sort": "1949-06-25",
+      "type": "dokument imigracyjny",
+      "dimensions": "4 strony (karta złożona)",
+      "creator": "Metropolitan Police, Aliens Registration Office, UK",
+      "description_pl": "Brytyjski dowód rejestracji cudzoziemca (Aliens Order 1920) gen. Janusza Głuchowskiego. Nr A 271782. Dane: Polish nationality, ur. Buchowa (Bukowa), żonaty, 'No Occupation'. Służba: Polish Forces Aug 1909 — przybył do UK 23.IX.1940, demobilizowany 21.VI.1949. Army No.: W/0166, P.5993. Adresy w Folkestone i Londynie (W.11). W 1960 zwolniony z rejestracji (Aliens Order 1960 EXEMPT).",
+      "description_en": "British Aliens Registration Certificate for Gen. Janusz Głuchowski. No. A 271782. Key data: arrived UK 23.IX.1940 (evacuation from France), discharged 21.VI.1949. Born Buchowa (family estate). Exempt from registration from 1960.",
+      "persons": [
+        "Janusz Głuchowski",
+        "Maria Głuchowska z Bukowskich"
+      ],
+      "condition": "dobry, stemple czytelne",
+      "valuation_min": 2000,
+      "valuation_max": 5000,
+      "valuation_note": "Aliens Registration generałów polskich: rzadkie. Dokument imigracyjny z pełną historią służby. Spink London: dokumenty emigracyjne oficerów: 1500-4000 GBP.",
+      "valuation_stars": 4,
+      "linked_files": [
+        "wa_aliens_reg_02.jpeg",
+        "wa_aliens_reg_03.jpeg",
+        "wa_aliens_reg_04.jpeg"
+      ]
+    },
+    {
+      "signature": "ARG/V/122",
+      "filename": "wa_biogram_krzysztof.jpeg",
+      "series": "V",
+      "title_pl": "Autobiografia Krzysztofa Głuchowskiego ps. 'JURAS' — Rio de Janeiro, 18.X.1995",
+      "title_en": "Autobiography of Krzysztof Głuchowski nom de guerre 'JURAS' — Rio de Janeiro, 18.X.1995",
+      "date": "18.X.1995",
+      "date_sort": "1995-10-18",
+      "type": "maszynopis / autobiografia",
+      "dimensions": "1+ k.",
+      "creator": "Krzysztof Głuchowski",
+      "description_pl": "Pełna autobiografia napisana przez Krzysztofa Głuchowskiego w Rio de Janeiro. KLUCZOWE ODKRYCIE: pseudonim konspiracyjny = JURAS. Ur. 29.XI.1926 w Warszawie, syn Stanisława Stefana i Wandy z Głuchowskich. Gimnazjum Szkoły Rodziny Wojskowej. W konspiracji od VIII.1941 (ZWZ→AK), kryptonim 'Jeleń', pluton 1112, 7 P.Uł. Lubel. W Powstaniu: barykady Starówka, Fabryka Kamlera na Woli. Kanałami na Czerniaków→Śródmieście→jeniec Stalag XI-B Fallingbostel. Po wojnie: II Korpus Andersa, studia w Anglii (Chartered Engineer), firma CAV-Lucas, potem Brazylia (Injek SA). Żona: Ottoni Barbosa. Członek: ZHP, POSK (pierwszy skarbnik), Koło AK. Odznaczenia: Krzyż Walecznych, Krzyż AK Nr 3316, Medal Wojska, British War Medal.",
+      "description_en": "Full autobiography written by Krzysztof Głuchowski in Rio de Janeiro 1995. KEY DISCOVERY: his conspiracy pseudonym was JURAS. Detailed account of Warsaw Uprising, POW camp, Anders' Army, engineering career in UK and Brazil.",
+      "persons": [
+        "Krzysztof Głuchowski / Juras",
+        "Stefan Głuchowski",
+        "Wanda Głuchowska / Krysta",
+        "Ottoni Barbosa",
+        "Janusz Głuchowski"
+      ],
+      "condition": "dobry, maszynopis czytelny",
+      "valuation_min": 1500,
+      "valuation_max": 3000,
+      "valuation_note": "Autobiografia kombatanta z pełną historią służby, pseudonimem, odznaczeniami. Wartość dokumentacyjna najwyższa — klucz do całego archiwum.",
+      "valuation_stars": 5
+    },
+    {
+      "signature": "ARG/V/123",
+      "filename": "wa_biogram_stefan.jpeg",
+      "series": "V",
+      "title_pl": "Biogram ppor. Stanisława Stefana Głuchowskiego ps. 'STEFAN' — Rio de Janeiro 1995",
+      "title_en": "Biography of 2nd Lt. Stanisław Stefan Głuchowski nom de guerre 'STEFAN' — Rio de Janeiro 1995",
+      "date": "1995",
+      "date_sort": "1995",
+      "type": "maszynopis / biogram",
+      "dimensions": "1+ k.",
+      "creator": "Krzysztof Głuchowski",
+      "description_pl": "Biogram Stefana napisany przez syna Krzysztofa w Rio. Ur. Piotrków, syn Mariana i Marii z Ziółkowskich. Matura w gimnazjum w Łodzi. POW 1917, 7 P.Uł. 1918, studia prawo UW, ochotnik do Legionów 1918, front 1920. Po wojnie: Kancelaria Naczelnika Państwa→Kancelaria Cywilna Prezydenta RP (1923–1939). W konspiracji ZWZ/AK od III.1940, ps. 'Konwent', W.S.O.P. Warszawa-Żoliborz. Fabryka Kamlera, barykady Starówka. Aresztowany→Stalag XI-B: Fallingbostel, Bergen, Grossborn, Sandbostel, Lubeka. Wrócił do Polski 1947. Zmarł 17.X.1962 Warszawa, Powązki. Odznaczenia: Krzyż Niepodległości, Polonia Restituta, Krzyż Walecznych, Złoty i Srebrny Krzyż Zasługi, Krzyż AK Nr 3720.",
+      "persons": [
+        "Stefan Głuchowski",
+        "Marian Głuchowski",
+        "Maria z Ziółkowskich",
+        "Krzysztof Głuchowski"
+      ],
+      "condition": "dobry",
+      "valuation_min": 1000,
+      "valuation_max": 2000,
+      "valuation_note": "Biogram kombatancki z pełną historią. Potwierdza karierę w Kancelarii Prezydenta RP. Wartość genealogiczna.",
+      "valuation_stars": 4
+    },
+    {
+      "signature": "ARG/V/118",
+      "filename": "wa_krzyz_ak_01.jpeg",
+      "series": "V",
+      "title_pl": "Legitymacja Krzyża Armii Krajowej Nr 3316 — Krzysztof Głuchowski ps. 'JURAŚ' (awers)",
+      "title_en": "Home Army Cross Certificate No. 3316 — Krzysztof Głuchowski nom de guerre 'JURAŚ' (recto)",
+      "date": "7.III.1968",
+      "date_sort": "1968-03-07",
+      "type": "legitymacja / odznaczenie",
+      "dimensions": "1 k. złożona",
+      "creator": "Dowódca AK gen. Tadeusz Bór-Komorowski (ustanowienie), Z-ca D-cy Korpusu AK K. Ziemski 'Wachnowski' (podpis)",
+      "description_pl": "Legitymacja Krzyża AK Nr 3316 wydana w Londynie 7.III.1968. Głuchowski Krzysztof, ps. 'Juraś'. Przydział: ZWZ, Komp.V, Plut.III/2 (plut. 1112), 7 Pułk Ułanów Lubelskich 'Jeleń'. Odznaczony Krzyżem AK ustanowionym 1.VIII.1966 przez dowódcę AK gen. Bora-Komorowskiego. Podpis: K. Ziemski 'Wachnowski'.",
+      "persons": [
+        "Krzysztof Głuchowski / Juraś",
+        "Tadeusz Bór-Komorowski",
+        "K. Ziemski / Wachnowski"
+      ],
+      "condition": "dobry",
+      "valuation_min": 4000,
+      "valuation_max": 10000,
+      "valuation_note": "Legitymacja Krzyża AK z pełnymi danymi konspiracyjnymi. SDA/DESA: 3000-8000 PLN. Podpis Wachnowskiego = premium.",
+      "valuation_stars": 5,
+      "note": "Obiekt już w katalogu v4 — weryfikacja danych",
+      "linked_files": [
+        "wa_krzyz_ak_02.jpeg"
+      ]
+    },
+    {
+      "signature": "ARG/VI/71",
+      "filename": "wa_portret_rodzinny.jpeg",
+      "series": "VI",
+      "title_pl": "Portret rodziny Głuchowskich — ok. 1918–1920",
+      "title_en": "Głuchowski family portrait — c. 1918–1920",
+      "date": "ok. 1918–1920",
+      "date_sort": "1919",
+      "type": "fotografia",
+      "dimensions": "1 szt.",
+      "creator": "nieznany fotograf",
+      "description_pl": "Wielki portret rodzinny — 9 osób. Pierwszy rząd: mężczyzna w mundurze, dziewczynka, chłopiec, kobieta, chłopiec w mundurku harcerskim. Drugi rząd: młody mężczyzna, chłopiec, młoda kobieta, młody mężczyzna. Prawdopodobnie rodzina Mariana Głuchowskiego z dziećmi (Janusz, Stefan, Lech, córka?) i krewnymi. Datowanie na podstawie mundurów ~1918–1920.",
+      "persons": [
+        "Marian Głuchowski (?)",
+        "Maria z Ziółkowskich (?)",
+        "Janusz Głuchowski (?)",
+        "Stefan Głuchowski (?)",
+        "Lech Głuchowski (?)"
+      ],
+      "condition": "dobry",
+      "valuation_min": 800,
+      "valuation_max": 2000,
+      "valuation_note": "Portret rodzinny z epoki: 500-1500 PLN. Identyfikacja generała i jego dzieci podnosi wartość.",
+      "valuation_stars": 3
+    },
+    {
+      "signature": "ARG/III/47",
+      "filename": "wa_kriegsgefangenenpost_halszka.jpeg",
+      "series": "III",
+      "title_pl": "Kriegsgefangenenpost — kartka od Halszki Głuchowskiej z fol. Kliszyn do Stalagu XI-B",
+      "title_en": "POW Mail — postcard from Halszka Głuchowska from Kliszyn estate to Stalag XI-B",
+      "date": "ok. 1940–1945",
+      "date_sort": "1942",
+      "type": "korespondencja jeniecka",
+      "dimensions": "1 k. pocztówka",
+      "creator": "Halszka Głuchowska",
+      "description_pl": "Kriegsgefangenenpost — kartka nadana przez Halszkę Głuchowską z folwarku Kliszyn II, poczta Rzejowice, powiat radomszczański, Generalne Gubernatorstwo. Adresat: M.-Stammlager XI B (Stalag XI-B Fallingbostel). NOWA POSTAĆ W ARCHIWUM — Halszka Głuchowska, prawdopodobnie krewna (siostra Stefana? córka Mariana?). Kliszyn/Rzejowice — okolice Radomska, blisko Piotrkowa (miejsca urodzenia Stefana).",
+      "description_en": "POW mail from Halszka Głuchowska from Kliszyn II estate near Radomsko to Stalag XI-B. NEW PERSON discovered — relationship to the family unclear.",
+      "persons": [
+        "Halszka Głuchowska"
+      ],
+      "condition": "dobry, adres czytelny",
+      "valuation_min": 600,
+      "valuation_max": 1500,
+      "valuation_note": "Kriegsgefangenenpost: 400-1200 PLN. Nowa postać — wartość genealogiczna.",
+      "valuation_stars": 3
+    },
+    {
+      "signature": "ARG/IV/44",
+      "filename": "wa_weryfikacja_ak_uszycki.jpeg",
+      "series": "IV",
+      "title_pl": "Dokument weryfikacyjny AK — ppłk Uszycki, 1946",
+      "title_en": "AK Verification Document — Lt.Col. Uszycki, 1946",
+      "date": "1946",
+      "date_sort": "1946",
+      "type": "dokument weryfikacyjny",
+      "dimensions": "1 k.",
+      "creator": "Komisja Weryfikacyjna",
+      "description_pl": "Dokument z procedury weryfikacyjnej AK. Podpis ppłk Uszycki. Formularz potwierdzający przynależność do struktur podziemnych.",
+      "persons": [
+        "Uszycki"
+      ],
+      "condition": "dobry",
+      "valuation_min": 400,
+      "valuation_max": 1000,
+      "valuation_note": "Dokumenty weryfikacyjne: 300-800 PLN.",
+      "valuation_stars": 3
+    },
+    {
+      "signature": "ARG/S/001",
+      "filename": "stefan_001.jpeg",
+      "series": "IV",
+      "title_pl": "Zarządzenie Prezesa Rady Ministrów Nr 3743 — Stefan Głuchowski w Komisji Dyscyplinarnej, 9.III.1929",
+      "title_en": "Prime Minister's Internal Order No. 3743 — Stefan Głuchowski in Disciplinary Commission, 9.III.1929",
+      "date": "9.III.1929",
+      "date_sort": "1929-03-09",
+      "type": "zarządzenie urzędowe",
+      "dimensions": "1 k.",
+      "creator": "Prezes Rady Ministrów",
+      "description_pl": "Zarządzenie Wewnętrzne Nr 3743 Prezesa Rady Ministrów z 9 marca 1929. Lista członków Komisji Dyscyplinarnej. Stefan Głuchowski wymieniony jako 'Referendarz Kancelarii Cywilnej Prezydenta Rzeczypospolitej'. Dokument z pieczęcią Prezydium Rady Ministrów.",
+      "persons": [
+        "Stefan Głuchowski"
+      ],
+      "condition": "dobry",
+      "valuation_min": 1500,
+      "valuation_max": 3000,
+      "valuation_note": "Zarządzenie Prezesa Rady Ministrów z 1929: dokument państwowy najwyższej rangi. Pieczęć Prezydium RM.",
+      "valuation_stars": 4
+    },
+    {
+      "signature": "ARG/S/002",
+      "filename": "stefan_002.jpeg",
+      "series": "IV",
+      "title_pl": "Dyplom — Brązowy Medal za Długoletnią Służbę, Kancelaria Cywilna Prezydenta RP, 14.V.1938",
+      "title_en": "Diploma — Bronze Medal for Long Service, Civil Chancellery of the President, 14.V.1938",
+      "date": "14.V.1938",
+      "date_sort": "1938-05-14",
+      "type": "dyplom / odznaczenie",
+      "dimensions": "1 k.",
+      "creator": "Szef Kancelarii Cywilnej Prezydenta RP",
+      "description_pl": "Dyplom nadania Brązowego Medalu za Długoletnią Służbę dla Stefana Głuchowskiego, Kierownika Referatu w Kancelarii Cywilnej Prezydenta RP. Podpis Szefa Kancelarii. Stefan awansował z referendarza na kierownika referatu — 16 lat służby (1923–1939).",
+      "persons": [
+        "Stefan Głuchowski"
+      ],
+      "condition": "dobry",
+      "valuation_min": 800,
+      "valuation_max": 2000,
+      "valuation_note": "Dyplomy Kancelarii Prezydenta: 600-1500 PLN. Pieczęć urzędowa.",
+      "valuation_stars": 3
+    },
+    {
+      "signature": "ARG/S/003",
+      "filename": "stefan_003.jpeg",
+      "series": "IV",
+      "title_pl": "Złoty Krzyż Zasługi — podpis premiera Sławoja Składkowskiego, 12.XI.1936",
+      "title_en": "Gold Cross of Merit — signed by PM Sławoj Składkowski, 12.XI.1936",
+      "date": "12.XI.1936",
+      "date_sort": "1936-11-12",
+      "type": "dyplom / odznaczenie",
+      "dimensions": "1 k.",
+      "creator": "Prezes Rady Ministrów gen. Felicjan Sławoj Składkowski",
+      "description_pl": "Dokument nadania Złotego Krzyża Zasługi po raz pierwszy Stanisławowi Stefanowi Głuchowskiemu, Kierownikowi Referatu Kancelarii Cywilnej Prezydenta RP, 'za zasługi w służbie państwowej'. Zarządzenie Prezydenta RP z 12 listopada 1936. Podpis: gen. Sławoj Składkowski (ostatni premier II RP). Pieczęć Prezydium Rady Ministrów.",
+      "description_en": "Gold Cross of Merit awarded to Stefan Głuchowski by President's decree, signed by PM Sławoj Składkowski (last PM of interwar Poland).",
+      "persons": [
+        "Stefan Głuchowski",
+        "Felicjan Sławoj Składkowski"
+      ],
+      "condition": "dobry, podpis czytelny",
+      "valuation_min": 2000,
+      "valuation_max": 5000,
+      "valuation_note": "AUTOGRAF PREMIERA SKŁADKOWSKIEGO. Dyplomy ZKZ z podpisem premiera: 1500-4000 PLN. Tu: ostatni premier II RP = premium.",
+      "valuation_stars": 5
+    },
+    {
+      "signature": "ARG/S/006",
+      "filename": "stefan_006.jpeg",
+      "series": "IV",
+      "title_pl": "Zaproszenie Komitetu Krzyża i Medalu Niepodległości — wręczenie Krzyża Niepodległości, 1931",
+      "title_en": "Invitation from Cross and Medal of Independence Committee — awarding of Independence Cross, 1931",
+      "date": "9.XI.1931",
+      "date_sort": "1931-11-09",
+      "type": "zaproszenie / odznaczenie",
+      "dimensions": "1 k.",
+      "creator": "Komitet Krzyża i Medalu Niepodległości",
+      "description_pl": "Zaproszenie dla Stefana Głuchowskiego na uroczystość wręczenia Krzyża Niepodległości, nadanego zarządzeniem Prezydenta RP z 9 listopada 1931. Rewers z podpisem 'Głuchowski'.",
+      "persons": [
+        "Stefan Głuchowski"
+      ],
+      "condition": "dobry",
+      "valuation_min": 600,
+      "valuation_max": 1500,
+      "valuation_note": "Zaproszenia na wręczenie odznaczeń: 400-1000 PLN.",
+      "valuation_stars": 3
+    },
+    {
+      "signature": "ARG/S/007",
+      "filename": "stefan_007.jpeg",
+      "series": "IV",
+      "title_pl": "Order Odrodzenia Polski (Polonia Restituta) — Krzyż Kawalerski dla Stefana, 12.XI.1931",
+      "title_en": "Order of Polonia Restituta — Knight's Cross for Stefan, 12.XI.1931",
+      "date": "12.XI.1931",
+      "date_sort": "1931-11-12",
+      "type": "dyplom orderowy",
+      "dimensions": "1 k.",
+      "creator": "Kanclerz Orderu Odrodzenia Polski",
+      "description_pl": "Dyplom Kanclerza Orderu Odrodzenia Polski nadający Stefanowi Głuchowskiemu Krzyż Kawalerski Orderu Odrodzenia Polski. Stefan wymieniony jako 'Radca Ministerialny w Kancelarii Cywilnej Prezydenta Rzeczypospolitej' — wysoka ranga urzędnicza! Nadanie przez Prezydenta RP 12 listopada 1931.",
+      "description_en": "Chancellor's diploma awarding Stefan Głuchowski the Knight's Cross of the Order of Polonia Restituta. Stefan described as 'Ministerial Counselor' — high civil service rank.",
+      "persons": [
+        "Stefan Głuchowski"
+      ],
+      "condition": "dobry",
+      "valuation_min": 3000,
+      "valuation_max": 8000,
+      "valuation_note": "Dyplom Orderu Polonia Restituta z II RP: 2000-6000 PLN. DESA/SDA: dyplomy orderowe 2500-8000 PLN. Stefan = Radca Ministerialny w Kancelarii Prezydenta.",
+      "valuation_stars": 5
+    },
+    {
+      "signature": "ARG/S/008",
+      "filename": "stefan_008.jpeg",
+      "series": "IV",
+      "title_pl": "Weryfikacja służby wojskowej Stefana — zaliczenie lat 1918–1920",
+      "title_en": "Military service verification — crediting years 1918–1920",
+      "date": "ok. 1922",
+      "date_sort": "1922",
+      "type": "dokument weryfikacyjny",
+      "dimensions": "1 k.",
+      "creator": "Komisja Weryfikacyjna przy Kancelarii Cywilnej",
+      "description_pl": "Komisja Weryfikacyjna zalicza Stefanowi służbę wojskową od 5.XI.1918 do 14.XII.1920 do stażu pracy. Stefan walczył 2 lata — od odzyskania niepodległości do końca wojny polsko-bolszewickiej 1920.",
+      "persons": [
+        "Stefan Głuchowski"
+      ],
+      "condition": "dobry",
+      "valuation_min": 400,
+      "valuation_max": 1000,
+      "valuation_note": "Dokumenty weryfikacyjne służby: 300-800 PLN.",
+      "valuation_stars": 3
+    },
+    {
+      "signature": "ARG/S/010",
+      "filename": "stefan_010.jpeg",
+      "series": "IV",
+      "title_pl": "Srebrny Krzyż Zasługi — Stefan Głuchowski, 1929",
+      "title_en": "Silver Cross of Merit — Stefan Głuchowski, 1929",
+      "date": "1929",
+      "date_sort": "1929",
+      "type": "dyplom / odznaczenie",
+      "dimensions": "1 k.",
+      "creator": "Prezydent RP",
+      "description_pl": "Dyplom nadania Srebrnego Krzyża Zasługi Stefanowi Głuchowskiemu, 1929.",
+      "persons": [
+        "Stefan Głuchowski"
+      ],
+      "condition": "dobry",
+      "valuation_min": 600,
+      "valuation_max": 1500,
+      "valuation_note": "Dyplomy SKZ: 400-1200 PLN.",
+      "valuation_stars": 3
+    },
+    {
+      "signature": "ARG/S/015",
+      "filename": "stefan_015.jpeg",
+      "series": "IV",
+      "title_pl": "Przyjęcie do pracy w Kancelarii Naczelnika Państwa (Piłsudskiego) — 1.VII.1921",
+      "title_en": "Employment at the Chancellery of the Chief of State (Piłsudski) — 1.VII.1921",
+      "date": "1.VII.1921",
+      "date_sort": "1921-07-01",
+      "type": "dokument urzędowy",
+      "dimensions": "1 k.",
+      "creator": "Kancelaria Naczelnika Państwa",
+      "description_pl": "Dokument przyjęcia Stefana Głuchowskiego do pracy w Kancelarii Cywilnej Naczelnika Państwa (Józefa Piłsudskiego) z dniem 1 lipca 1921. Pieczęć z orłem. Początek 18-letniej kariery urzędniczej Stefana (1921–1939).",
+      "description_en": "Stefan's employment document at the Chancellery of the Chief of State (Józef Piłsudski), dated 1 July 1921. Beginning of 18-year civil service career.",
+      "persons": [
+        "Stefan Głuchowski",
+        "Józef Piłsudski"
+      ],
+      "condition": "dobry, pieczęć czytelna",
+      "valuation_min": 4000,
+      "valuation_max": 10000,
+      "valuation_note": "Dokument z Kancelarii NACZELNIKA PAŃSTWA (Piłsudskiego) z 1921! Era Piłsudskiego jako Naczelnika. Dokumenty z tego urzędu: 3000-8000 PLN. Pieczęć z orłem.",
+      "valuation_stars": 5
+    },
+    {
+      "signature": "ARG/S/028",
+      "filename": "stefan_028.jpeg",
+      "series": "IV",
+      "title_pl": "Zaświadczenie AK — ppor. Głuchowski Stanisław Stefan, 25.VII.1944, pieczęć Obwodu Śródmieście, podpis 'Radwan'",
+      "title_en": "AK Certificate — 2nd Lt. Głuchowski Stanisław Stefan, 25.VII.1944, Śródmieście District seal, signature 'Radwan'",
+      "date": "25.VII.1944",
+      "date_sort": "1944-07-25",
+      "type": "dokument konspiracyjny",
+      "dimensions": "1 k.",
+      "creator": "Armia Krajowa, Okręg Warszawski",
+      "description_pl": "Duplikat lub wariant ARG/IV/43 (varia_008). Zaświadczenie AK z 25 lipca 1944.",
+      "persons": [
+        "Stefan Głuchowski",
+        "Radwan (ps.)"
+      ],
+      "condition": "dobry",
+      "valuation_min": 8000,
+      "valuation_max": 20000,
+      "valuation_note": "Patrz ARG/IV/43. Jeśli to osobny egzemplarz — wartość podwojona.",
+      "valuation_stars": 5,
+      "cross_references": [
+        "ARG/IV/43"
+      ],
+      "note": "Możliwy duplikat varia_008 — wymaga fizycznej weryfikacji"
+    },
+    {
+      "signature": "ARG/S/004",
+      "filename": "stefan_004.jpeg",
+      "series": "IV",
+      "title_pl": "Mianowanie na Kierownika referatu w Kancelarii Cywilnej Prezydenta RP — 1.II.1934",
+      "title_en": "Appointment as Head of Section at Civil Chancellery of the President — 1.II.1934",
+      "date": "styczen 1934",
+      "date_sort": "1934-01",
+      "type": "dokument urzedowy / nominacja",
+      "creator": "Dyrektor Kancelarii Cywilnej Prezydenta RP",
+      "description_pl": "Pismo z Kancelarii Cywilnej Prezydenta RP mianujace Stefana Gluchowskiego, radce ministerialnego, na stanowisko Kierownika referatu. Zaszeregowanie do VI-ej grupy uposazenia od 1 lutego 1934.",
+      "persons": [
+        "Stefan Gluchowski"
+      ],
+      "valuation_min": 1000,
+      "valuation_max": 2500,
+      "valuation_stars": 3
+    },
+    {
+      "signature": "ARG/S/005",
+      "filename": "stefan_005.jpeg",
+      "series": "IV",
+      "title_pl": "Ocena sluzbowa Stefana — bardzo dobra za lata 1927-1928",
+      "title_en": "Service evaluation — very good for 1927-1928",
+      "date": "16.III.1930",
+      "date_sort": "1930-03-16",
+      "type": "ocena kwalifikacyjna",
+      "creator": "Szef Kancelarii Cywilnej Prezydenta RP",
+      "description_pl": "Komisja Kwalifikacyjna przy Kancelarii Cywilnej ustalila ogolna ocene sluzby Stefana za lata 1927-1928 jako bardzo dobra.",
+      "persons": [
+        "Stefan Gluchowski"
+      ],
+      "valuation_min": 400,
+      "valuation_max": 1000,
+      "valuation_stars": 2
+    },
+    {
+      "signature": "ARG/S/009",
+      "filename": "stefan_009.jpeg",
+      "series": "IV",
+      "title_pl": "Pismo Kancelarii Cywilnej — dokument sluzbowy Stefana",
+      "title_en": "Civil Chancellery letter — Stefan service document",
+      "date": "ok. 1925-1935",
+      "date_sort": "1930",
+      "type": "dokument urzedowy",
+      "creator": "Kancelaria Cywilna",
+      "description_pl": "Pismo urzedowe Kancelarii Cywilnej do Stefana Gluchowskiego. Zdjecie odwrocone.",
+      "persons": [
+        "Stefan Gluchowski"
+      ],
+      "valuation_min": 400,
+      "valuation_max": 1000,
+      "valuation_stars": 2,
+      "note": "Wymaga ponownego oglądania po rotacji"
+    },
+    {
+      "signature": "ARG/S/011",
+      "filename": "stefan_011.jpeg",
+      "series": "IV",
+      "title_pl": "Ocena kwalifikacyjna Stefana — bardzo dobra za 1924",
+      "title_en": "Qualification review — very good for 1924",
+      "date": "lipiec 1925",
+      "date_sort": "1925-07",
+      "type": "ocena kwalifikacyjna",
+      "creator": "Kancelaria Cywilna Prezydenta RP",
+      "description_pl": "Ocena kwalifikacyjna Stefana za rok 1924. Nota: bardzo dobra. Stefan byl wtedy referentem.",
+      "persons": [
+        "Stefan Gluchowski"
+      ],
+      "valuation_min": 400,
+      "valuation_max": 1000,
+      "valuation_stars": 2
+    },
+    {
+      "signature": "ARG/S/013",
+      "filename": "stefan_013.jpeg",
+      "series": "IV",
+      "title_pl": "Weryfikacja sluzby wojskowej — Kancelaria Naczelnika Panstwa, 4.II.1922 (pieczec z orlem)",
+      "title_en": "Military service verification — Chancellery of Chief of State, 4.II.1922 (eagle seal)",
+      "date": "4.II.1922",
+      "date_sort": "1922-02-04",
+      "type": "dokument weryfikacyjny",
+      "creator": "Kancelaria Cywilna Naczelnika Panstwa",
+      "description_pl": "Kancelaria Cywilna Naczelnika Panstwa, 4 lutego 1922. Stefan = Pomocnik Referenta Kancelarii Cywilnej. Komisja Weryfikacyjna zalicza sluzbe wojskowa od 5.XI.1918 do 14.XII.1920. Pieczec z orlem. Dokument z ery Pilsudskiego jako Naczelnika Panstwa.",
+      "persons": [
+        "Stefan Gluchowski"
+      ],
+      "valuation_min": 1500,
+      "valuation_max": 3000,
+      "valuation_stars": 4,
+      "cross_references": [
+        "ARG/S/008"
+      ]
+    },
+    {
+      "signature": "ARG/S/014",
+      "filename": "stefan_014.jpeg",
+      "series": "IV",
+      "title_pl": "Mianowanie na referendarza w Kancelarii Cywilnej — 20.X.1925",
+      "title_en": "Appointment as Referendary at Civil Chancellery — 20.X.1925",
+      "date": "20.X.1925",
+      "date_sort": "1925-10-20",
+      "type": "nominacja",
+      "creator": "Prezydent RP / Szef Kancelarii Cywilnej",
+      "description_pl": "Prezydent RP mianowal Stefana referendarzem w VIII-ym stopniu sluzby w Kancelarii Cywilnej. Pieczec czerwona z orlem. Pierwszy awans Stefana z pomocnika referenta na referendarza.",
+      "persons": [
+        "Stefan Gluchowski"
+      ],
+      "valuation_min": 800,
+      "valuation_max": 2000,
+      "valuation_stars": 3
+    },
+    {
+      "signature": "ARG/S/016",
+      "filename": "stefan_016.jpeg",
+      "series": "IV",
+      "title_pl": "Przyjecie do sluzby — Kancelaria Naczelnika Panstwa, 30.VII.1921",
+      "title_en": "Employment confirmation — Chancellery of Chief of State, 30.VII.1921",
+      "date": "30.VII.1921",
+      "date_sort": "1921-07-30",
+      "type": "dokument urzedowy",
+      "creator": "Kancelaria Naczelnika Panstwa",
+      "description_pl": "Potwierdzenie przyjecia Stefana do pracy. Pieczec fioletowa okragla. Powiazane z ARG/S/015.",
+      "persons": [
+        "Stefan Gluchowski"
+      ],
+      "valuation_min": 1500,
+      "valuation_max": 3000,
+      "valuation_stars": 4,
+      "cross_references": [
+        "ARG/S/015"
+      ]
+    },
+    {
+      "signature": "ARG/S/017",
+      "filename": "stefan_017.jpeg",
+      "series": "IV",
+      "title_pl": "Ocena kwalifikacyjna — bardzo dobra za okres do VIII.1924",
+      "title_en": "Qualification review — very good through VIII.1924",
+      "date": "25.IX.1924",
+      "date_sort": "1924-09-25",
+      "type": "ocena kwalifikacyjna",
+      "creator": "Kancelaria Cywilna Prezydenta RP",
+      "description_pl": "Ocena kwalifikacyjna za okres do konca sierpnia 1924. Nota: bardzo dobra. Pieczec czerwona z orlem.",
+      "persons": [
+        "Stefan Gluchowski"
+      ],
+      "valuation_min": 400,
+      "valuation_max": 1000,
+      "valuation_stars": 2
+    },
+    {
+      "signature": "ARG/S/018",
+      "filename": "stefan_018.jpeg",
+      "series": "IV",
+      "title_pl": "Pierwsze zatrudnienie Stefana — Kancelaria Cywilna, XII.1918",
+      "title_en": "First employment — Civil Chancellery, XII.1918",
+      "date": "grudzien 1918",
+      "date_sort": "1918-12",
+      "type": "dokument urzedowy",
+      "creator": "Kancelaria Cywilna",
+      "description_pl": "Rewers dokumentu potwierdzajacego przyjecie Stefana jako Pomocnika Referenta Kancelarii Cywilnej w grudniu 1918. NAJSTARSZY DOKUMENT w teczce Stefana — z pierwszych tygodni niepodleglosci! Pieczec fioletowa.",
+      "persons": [
+        "Stefan Gluchowski"
+      ],
+      "valuation_min": 2000,
+      "valuation_max": 5000,
+      "valuation_stars": 5
+    },
+    {
+      "signature": "ARG/S/019",
+      "filename": "stefan_019.jpeg",
+      "series": "IV",
+      "title_pl": "Medal Dziesieciolecia Odzyskanej Niepodleglosci — Stefan Gluchowski",
+      "title_en": "Medal of the 10th Anniversary of Independence — Stefan Gluchowski",
+      "date": "1929",
+      "date_sort": "1929",
+      "type": "dyplom / odznaczenie",
+      "creator": "Szef Kancelarii Cywilnej Prezydenta RP",
+      "description_pl": "Przyznanie prawa do Medalu Dziesieciolecia Odzyskanej Niepodleglosci. Na podstawie rozporzadzenia RM z 27.IX.1928. Pieczec z orlem.",
+      "persons": [
+        "Stefan Gluchowski"
+      ],
+      "valuation_min": 600,
+      "valuation_max": 1500,
+      "valuation_stars": 3
+    },
+    {
+      "signature": "ARG/S/024",
+      "filename": "stefan_024.jpeg",
+      "series": "IV",
+      "title_pl": "Dokumenty weryfikacyjne 7 P.Ul. — wykaz + dokument Dowodcy 3 Korpusu, pplk Uszycki, VII.1946",
+      "title_en": "Verification documents 7th Uhlans — list + 3rd Corps Commander doc, Lt.Col. Uszycki, VII.1946",
+      "date": "6.VII.1946",
+      "date_sort": "1946-07-06",
+      "type": "dokumenty weryfikacyjne (2 na 1 zdjeciu)",
+      "creator": "Dowodca 3 Korpusu / Komisja Weryfikacyjna",
+      "description_pl": "Dwa dokumenty na jednym zdjeciu: (1) Weryfikacja zolnierzy 7 Pulku Ulanow z 6.VII.1946. (2) Dokument Dowodcy 3 Korpusu z podpisem pplk Uszycki.",
+      "persons": [
+        "J. Uszycki"
+      ],
+      "valuation_min": 600,
+      "valuation_max": 1500,
+      "valuation_stars": 3
+    },
+    {
+      "signature": "ARG/S/029",
+      "filename": "stefan_029.jpeg",
+      "series": "II",
+      "title_pl": "WYKAZ PAMIATEK 7 Pulku Ulanow Lubelskich im. Gen. Broni Sosnkowskiego — inwentarz 25+ pozycji",
+      "title_en": "INVENTORY OF MEMORABILIA 7th Uhlan Regiment — 25+ items catalogued",
+      "date": "ok. 1946-1947",
+      "date_sort": "1947",
+      "type": "inwentarz / spis zawartosci",
+      "creator": "7 Pulk Ulanow Lubelskich",
+      "description_pl": "Wykaz pamiatek 7 Pulku Ulanow Lubelskich im. Gen. Broni Sosnkowskiego. Lista 25+ pozycji: rozkazy dzienne polskie (1941-1947), ksiazki ewidencyjne, kroniki, karty kwalifikacyjne, metryki, mapy. SPIS ZAWARTOSCI archiwum pulkowego.",
+      "persons": [],
+      "valuation_min": 1000,
+      "valuation_max": 3000,
+      "valuation_stars": 4
+    }
+  ],
+  "duplicates": {
+    "stefan_012.jpeg": "BLANK",
+    "stefan_012_BLANK.jpeg": "BLANK",
+    "stefan_020.jpeg": "wa_biogram_lech.jpeg",
+    "stefan_021.jpeg": "varia_002_album_groby.jpeg",
+    "stefan_022.jpeg": "varia_003_etykieta_listy_stefan.jpeg",
+    "stefan_023.jpeg": "varia_004_karta_ak_radwan.jpeg",
+    "stefan_025.jpeg": "varia_006_kriegsgef_oflag.jpeg",
+    "stefan_026.jpeg": "varia_007_list_7pul.jpeg",
+    "stefan_027.jpeg": "varia_008_zaswiadczenie_ak.jpeg",
+    "stefan_028.jpeg": "varia_008_zaswiadczenie_ak.jpeg",
+    "stefan_030.jpeg": "varia_011_dedykacja_lech.jpeg",
+    "stefan_031.jpeg": "varia_012_karta_7pul_henstedt.jpeg"
+  },
+  "better_quality_notes": {
+    "stefan_023.jpeg": "Lepsza jakość niż varia_004 — pieczęć AK wyraźniejsza",
+    "stefan_027.jpeg": "Lepsza jakość niż varia_008 — zaświadczenie AK czytelniejsze",
+    "stefan_030.jpeg": "Lepsza jakość niż varia_011 — podpisy oficerów",
+    "stefan_031.jpeg": "Lepsza jakość niż varia_012 — karta 7 Pułku"
+  }
+}

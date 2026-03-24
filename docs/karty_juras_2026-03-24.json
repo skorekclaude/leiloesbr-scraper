@@ -1,0 +1,314 @@
+{
+  "_meta": {
+    "standard": "ISAD(G) 2nd ed.",
+    "batch": "juras_",
+    "total_pages": 92,
+    "description": "Teczka osobista Krzysztofa 'Jurasa' Gluchowskiego — 92 strony dokumentow z lat 1944-1984",
+    "cataloguing_method": "Opis na poziomie jednostki zlozonej (file) z identyfikacja grup tematycznych (sub-items). Analiza wizualna 24 stron probkowych (26%). Bez domyslow — hipotezy oznaczone [?]."
+  },
+  "file_level_description": {
+    "signature": "ARG/V/J",
+    "title_formal": "Teczka osobista st. ul. Krzysztofa Gluchowskiego ps. 'Juras' (nr sluzb. 30043271)",
+    "date_text": "1944–1984, z przewaga lat 1945–1948",
+    "date_iso_start": "1944",
+    "date_iso_end": "1984",
+    "level": "File (jednostka zlozonej)",
+    "extent": "92 karty (skany stron), dokumenty roznego formatu — od pocztowek po formularze A4",
+    "creator": "Krzysztof Gluchowski (1926–ok. 2000), ps. 'Juras', st. ulan / L/Cpl., 7 Pulk Ulanow Lubelskich AK, nastepnie PSZ pod dowodztwem brytyjskim, PRC",
+    "language": ["pl", "en", "it"],
+    "scope_content": "Teczka osobista zolnierza-kombatanta obejmujaca pelna sciezke: Powstanie Warszawskie (1944) — obozy jenieckie (Stalag XI-B) — II Korpus Andersa we Wloszech (3 DSK, 1945-1946) — demobilizacja w Wielkiej Brytanii (PRC Witley Camp, 1946-1948) — zycie emigracyjne (Londyn, do 1984). Zawiera dokumenty wojskowe, edukacyjne, korespondencje, ephemera kombatancka i wycinki prasowe.",
+    "archival_history": "Teczka gromadzona przez Krzysztofa Gluchowskiego na emigracji w Wielkiej Brytanii, nastepnie Brazylii. Przekazana przez rodzine.",
+    "condition": "Rozny — od dobrego (dokumenty urzedowe) do dostatecznego (wycinki prasowe, rekopisy). Niektorych stron krawedzie uszkodzone.",
+    "related_units": ["ARG/V/118 (Legitymacja Krzyz AK Nr 3316)", "ARG/V/122 (Autobiografia Rio 1995)", "ARG/IV/43 (Zaswiadczenie AK 25.VII.1944)"],
+    "valuation_min": 15000,
+    "valuation_max": 40000,
+    "valuation_rationale": "Kompletna teczka osobista zolnierza AK/PSZ z pelna sciezka biograficzna. Swiadectwo dojrzalosci z fotografia, certyfikat PRC, przepustki, korespondencja z obozem Pahiatua (NZ). Sprzedaz jako calosciowy lot. DESA/SDA: teczki kombatanckie AK+emigracja: 8000-25000 PLN. Tu: wyjatkowo kompletna + list z Pahiatua + Znak Polski Walczacej = premium."
+  },
+  "sub_items": [
+    {
+      "group": "A. Korespondencja wojenna i emigracyjna",
+      "pages": "1-3, 10-14",
+      "page_count_est": 8,
+      "date_range": "1946-1947",
+      "document_types": ["korespondencja prywatna", "korespondencja jeniecka (Kriegsgefangenenpost)"],
+      "description": "Listy prywatne — w tym N.Z. AIR MAIL LETTER CARD z obozu polskich dzieci w Pahiatua (Nowa Zelandia) adresowany do st. ul. Gluchowskiego, Polish Forces, C.M.F. 105, ITALIA. List swiateczny 'Kochanie moja Malusko!' z 26.XII.1946.",
+      "key_items": [
+        {
+          "page": 2,
+          "filename": "juras_001_page2.jpeg",
+          "title": "List lotniczy z obozu Pahiatua (NZ) do Krzysztofa we Wloszech",
+          "date": "ok. 1945-1946",
+          "type": "korespondencja prywatna",
+          "notes": "Polish Children's Camp, Pahiatua — oboz 733 polskich dzieci ewakuowanych z ZSRR przez Iran. Adresat: CMF 105 = II Korpus, Wlochy. RARITASOWY dokument.",
+          "valuation_min": 1500,
+          "valuation_max": 4000
+        },
+        {
+          "page": 3,
+          "filename": "juras_002_page3.jpeg",
+          "title": "Kontynuacja listu z Pahiatua — tresc",
+          "date": "ok. 1945-1946",
+          "type": "korespondencja prywatna",
+          "notes": "Naglowek: Polish Children's Camp, Pahiatua. Tresc po polsku."
+        },
+        {
+          "page": 11,
+          "filename": "juras_010_page11.jpeg",
+          "title": "List prywatny Krzysztofa — 'Kochanie moja Malusko!', 26.XII.1946",
+          "date": "26.XII.1946",
+          "type": "korespondencja prywatna",
+          "notes": "List Bozonarodzeniowy. Gesty rekopis po polsku."
+        }
+      ]
+    },
+    {
+      "group": "B. Dokumenty wojskowe PSZ i edukacyjne (Wlochy 1945-1946)",
+      "pages": "4-9, 25, 35-36",
+      "page_count_est": 10,
+      "date_range": "1945-1946",
+      "document_types": ["dokument wojskowy", "legitymacja", "certyfikat / dyplom", "ephemera"],
+      "description": "Przepustki wojskowe (6 Komp. Wartownicza, 3 DSK Gimnazjum/Liceum), swiadectwo liceum i swiadectwo dojrzalosci z Liceum Ogolnoksztalcacego 3 Korpusu (Amendola, Wlochy), autentyczny odpis umowy sluzby nr 30043271.",
+      "key_items": [
+        {
+          "page": 5,
+          "filename": "juras_004_page5.jpeg",
+          "title": "Przepustka — 6 Kompania Wartownicza, 6 Polish Res. Bde WSHOP",
+          "date": "1946",
+          "type": "dokument wojskowy",
+          "notes": "Formularz dwujezyczny PL/EN. Nr 174/196.",
+          "valuation_min": 300,
+          "valuation_max": 800
+        },
+        {
+          "page": 6,
+          "filename": "juras_005_page6.jpeg",
+          "title": "Przepustka — Dow. 3 DSK Gimnazjum i Liceum, kpt. Kapica Jozef",
+          "date": "7.V.1946",
+          "type": "dokument wojskowy",
+          "notes": "Wyjazd do Bari. Podpis Komendanta Gimnazjum i Liceum 3 DSK.",
+          "valuation_min": 300,
+          "valuation_max": 800
+        },
+        {
+          "page": 7,
+          "filename": "juras_006_page7.jpeg",
+          "title": "Swiadectwo Liceum Ogolnoksztalcacego Nr 3 — I Liceum 3 Korpusu",
+          "date": "30.VI.1946",
+          "type": "certyfikat / dyplom",
+          "notes": "Orzel polski. Oceny. Amendola, Italia.",
+          "valuation_min": 800,
+          "valuation_max": 2000
+        },
+        {
+          "page": 8,
+          "filename": "juras_007_page8.jpeg",
+          "title": "Swiadectwo Liceum — strona 2 (przedmioty nadobowiazkowe, promocja)",
+          "date": "30.VI.1946",
+          "type": "certyfikat / dyplom",
+          "notes": "Pieczec M.D. Podpisy: opiekun klasy + dyrektor."
+        },
+        {
+          "page": 26,
+          "filename": "juras_025_page26.jpeg",
+          "title": "Autentyczny odpis umowy sluzby w wojsku stalym — nr 30043271",
+          "date": "ok. 1946",
+          "type": "dokument wojskowy",
+          "notes": "Pelny formularz tabelaryczny ze wszystkimi danymi sluzby.",
+          "valuation_min": 600,
+          "valuation_max": 1500
+        },
+        {
+          "page": 36,
+          "filename": "juras_035_page36.jpeg",
+          "title": "SWIADECTWO DOJRZALOSCI — Krzysztof Gluchowski, ZE ZDJECIEM PORTRETOWYM",
+          "date": "ok. 1947-1948",
+          "type": "certyfikat / dyplom",
+          "notes": "JEDYNE ZNANE ZDJECIE mlodego Krzysztofa w mundurze! Oceny: bardzo dobry, dobry, dostateczny. Komisariat Rzadu RP [?].",
+          "valuation_min": 2000,
+          "valuation_max": 5000
+        }
+      ]
+    },
+    {
+      "group": "C. Dokumenty AK i Misja Likwidacyjna",
+      "pages": "31, 45-46, 55-56",
+      "page_count_est": 6,
+      "date_range": "1944-1946",
+      "document_types": ["dokument konspiracyjny", "zaswiadczenie", "ephemera"],
+      "description": "Pismo Polskiej Wojskowej Misji Likwidacyjnej we Francji o zwrocie dokumentow konspiracyjnych (karta tozsamosci ze szpitala jencow w Dusseldorf-Gerresheim + przepustki z Powstania Warszawskiego z Okregu AK Warszawa). Znak Polski Walczacej (PW). Notatki z numerami spraw AK.",
+      "key_items": [
+        {
+          "page": 31,
+          "filename": "juras_030_page31.jpeg",
+          "title": "Polska Wojskowa Misja Likwidacyjna we Francji — zwrot dokumentow AK Krzysztofa",
+          "date": "po 1.X.1946",
+          "type": "dokument wojskowy",
+          "notes": "Adres: Thetford, Norfolk. Zwrot: karta tozsamosci ze szpitala jencow Dusseldorf-Gerresheim + przepustki z Powstania Warszawskiego wystawione przez Okreg AK Warszawa. Podpis mjr Orgowicz.",
+          "valuation_min": 2000,
+          "valuation_max": 5000
+        },
+        {
+          "page": 56,
+          "filename": "juras_055_page56.jpeg",
+          "title": "Znak Polski Walczacej — tarcza herbowa z kotwica PW na tle muru",
+          "date": "ok. 1944-1945",
+          "type": "ephemera (karta, zaproszenie, menu, bilet)",
+          "notes": "Ikoniczny symbol Powstania Warszawskiego. Odznaka lub druk.",
+          "valuation_min": 500,
+          "valuation_max": 1500
+        }
+      ]
+    },
+    {
+      "group": "D. Dokumenty demobilizacyjne PRC (Wielka Brytania 1946-1948)",
+      "pages": "15-16, 40-42, 50-51, 60-66",
+      "page_count_est": 15,
+      "date_range": "1946-1948",
+      "document_types": ["dokument wojskowy", "dokument imigracyjny", "certyfikat / dyplom"],
+      "description": "Dokumenty z Polish Resettlement Corps: certyfikat PRC (Witley Camp, Surrey, 19.II.1948), brytyjskie przepustki (Army Form B.295, London District), formularz DISCHARGED, pouczenie o testamencie wojskowym (druk PSZ z 1944), dokumenty rejestracyjne.",
+      "key_items": [
+        {
+          "page": 16,
+          "filename": "juras_015_page16.jpeg",
+          "title": "PASS — Army Form B.295, London District, Pte Gluchowski Krzysztof",
+          "date": "ok. 1946-1948",
+          "type": "dokument wojskowy",
+          "notes": "Brytyjski formularz przepustkowy.",
+          "valuation_min": 300,
+          "valuation_max": 800
+        },
+        {
+          "page": 41,
+          "filename": "juras_040_page41.jpeg",
+          "title": "DISCHARGED — dokument demobilizacyjny",
+          "date": "ok. 1946-1948",
+          "type": "dokument wojskowy",
+          "notes": "Duzy stempel DISCHARGED. Wielostronicowy formularz brytyjski.",
+          "valuation_min": 600,
+          "valuation_max": 1500
+        },
+        {
+          "page": 51,
+          "filename": "juras_050_page51.jpeg",
+          "title": "Pouczenie o testamencie wojskowym — druk PSZ/B/DdB/60/M/F-44",
+          "date": "1944",
+          "type": "druk ulotny / afisz",
+          "notes": "7 paragrafow prawa testamentowego. Formularz PSZ z 1944.",
+          "valuation_min": 200,
+          "valuation_max": 500
+        },
+        {
+          "page": 61,
+          "filename": "juras_060_page61.jpeg",
+          "title": "CERTIFICATE — PRC Record Office, Witley Camp, Surrey, 19.II.1948",
+          "date": "19.II.1948",
+          "type": "certyfikat / dyplom",
+          "notes": "Nr 30043271 L/cpl. Gluchowski Krzysztof, enlisted PRC 1.11.46, Polish Forces under British Command 14.7.45-1.11.46. Biuro Ew. P.K.P.",
+          "valuation_min": 800,
+          "valuation_max": 2000
+        }
+      ]
+    },
+    {
+      "group": "E. Ephemera, wizytowki, notatki osobiste",
+      "pages": "4, 21, 46-49",
+      "page_count_est": 8,
+      "date_range": "1944-1950",
+      "document_types": ["ephemera (karta, zaproszenie, menu, bilet)", "rekopis"],
+      "description": "Wizytowka 'H. London, POLACCO' z Bari, notatki osobiste Krzysztofa (numery spraw, daty), formularz rachunkowy/wojskowy.",
+      "key_items": [
+        {
+          "page": 21,
+          "filename": "juras_020_page21.jpeg",
+          "title": "Wizytowka: H. London, POLACCO — Bari, Strada da Gironda",
+          "date": "ok. 1945-1946",
+          "type": "ephemera (karta, zaproszenie, menu, bilet)",
+          "notes": "Kontakt Krzysztofa w Bari. Andrea da Bari #105.",
+          "valuation_min": 50,
+          "valuation_max": 150
+        }
+      ]
+    },
+    {
+      "group": "F. Wycinki prasowe emigracyjne",
+      "pages": "75-82",
+      "page_count_est": 8,
+      "date_range": "1947",
+      "document_types": ["druk ulotny / afisz"],
+      "description": "Wycinki z tygodnika 'Zycie Tygodnia' (kwiecien 1947) — sekcje Muzyka, Teatr, Film, Notatki Wydawnicze. Prasa emigracyjna polska w Wielkiej Brytanii.",
+      "key_items": [
+        {
+          "page": 76,
+          "filename": "juras_075_page76.jpeg",
+          "title": "Wycinek: Zycie Tygodnia, 14 kwiecien 1947 — Felieton Film",
+          "date": "14.IV.1947",
+          "type": "druk ulotny / afisz",
+          "notes": "Prasa emigracyjna polska."
+        }
+      ]
+    },
+    {
+      "group": "G. Wspomnienia rekopismienne i biogramy",
+      "pages": "88-93",
+      "page_count_est": 6,
+      "date_range": "ok. 1950-1984",
+      "document_types": ["rekopis", "biogram / autobiografia"],
+      "description": "Rekopis wspomnien wojennych (fragmenty, strona 5 zachowana). Biogramy z publikacji kombatanckiej z portretami oficerow. Karta Kola AK Londyn 1984 z drzeworytrem Ireny Starkiewicz.",
+      "key_items": [
+        {
+          "page": 71,
+          "filename": "juras_070_page71.jpeg",
+          "title": "Karta Funduszu Inwalidow AK, Kolo AK Londyn 1984 — grafika Ireny Starkiewicz",
+          "date": "1984",
+          "type": "ephemera (karta, zaproszenie, menu, bilet)",
+          "notes": "Drzeworyt wyrozniowy na konkursie 'Armia Krajowa w Sztuce'. 40. rocznica Powstania.",
+          "valuation_min": 200,
+          "valuation_max": 600
+        },
+        {
+          "page": 91,
+          "filename": "juras_090_page91.jpeg",
+          "title": "Rekopis wspomnien wojennych — strona 5",
+          "date": "ok. 1950-1970",
+          "type": "rekopis",
+          "notes": "Wspomnienia obozowe lub wojenne. Fragment.",
+          "valuation_min": 300,
+          "valuation_max": 800
+        },
+        {
+          "page": 93,
+          "filename": "juras_092_page93.jpeg",
+          "title": "Biogramy z publikacji kombatanckiej — portrety oficerow",
+          "date": "ok. 1960-1984",
+          "type": "biogram / autobiografia",
+          "notes": "Wydruk z publikacji. Dwa portrety z opisami sluzby."
+        }
+      ]
+    },
+    {
+      "group": "H. Strony nieoglądane (wymagają przeglądu)",
+      "pages": "9, 12-14, 17-19, 22-24, 27-29, 32-34, 37-39, 43-44, 47-49, 52-54, 57-59, 62-64, 67-69, 72-74, 77-79, 83-89",
+      "page_count_est": 50,
+      "description": "Strony nieobejrzane w tej sesji. Na podstawie probek: prawdopodobnie dalsze dokumenty wojskowe, korespondencja, formulerze, wycinki prasowe. Wymagaja systematycznego przegladu w kolejnej sesji (max 3-4 zdjecia na raz).",
+      "status": "pending_review"
+    }
+  ],
+  "persons_identified": [
+    "Krzysztof Gluchowski ps. 'Juras' (nr 30043271, st. ul. / L/Cpl.)",
+    "kpt. Kapica Jozef (Komendant Gimnazjum i Liceum 3 DSK)",
+    "mjr Fr. Orgowicz (Przewodniczacy Komisji Weryfikacyjnej, Misja Likwidacyjna Francja)",
+    "H. London (Polak w Bari, 'POLACCO')",
+    "Irena Starkiewicz (graficzka, Kolo AK Londyn)"
+  ],
+  "places_identified": [
+    "Pahiatua, Nowa Zelandia (Polish Children's Camp)",
+    "Amendola, Wlochy (baza RAF / Liceum 3 Korpusu)",
+    "Bari, Wlochy (CMF 105, II Korpus Andersa)",
+    "56 Rue St. Philippe, Francja (Misja Likwidacyjna)",
+    "Thetford, Norfolk, Anglia (adres Krzysztofa)",
+    "25 Rodney Airfield F/2/205, Thetford (adres Krzysztofa)",
+    "Witley Camp, Godalming, Surrey (PRC Record Office)",
+    "London District (przepustki)",
+    "Dusseldorf-Gerresheim (szpital jencow)"
+  ]
+}

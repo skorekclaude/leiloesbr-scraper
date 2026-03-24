@@ -1,0 +1,4065 @@
+{
+  "_meta": {
+    "collection": "Archiwum Rodziny Głuchowskich (ARG)",
+    "created": "2026-03-24",
+    "total_objects": 476,
+    "series": {
+      "I": "Dokumenty osobiste i legitymacje (do 1939)",
+      "II": "Fotografie i dokumenty gen. Janusza Głuchowskiego",
+      "III": "Korespondencja wojenna i jeniecka (1939-1945)",
+      "IV": "Dokumenty konspiracyjne AK i Powstanie Warszawskie",
+      "V": "Varia — dokumenty różne, emigracja, ephemera",
+      "VI": "Fotografie — portrety, grupy, wydarzenia"
+    },
+    "naming_convention": "ARG_{seria}_{numer}_{strona}.jpeg — np. ARG_V_174_awers.jpeg",
+    "statuses": [
+      "catalogued",
+      "uncatalogued",
+      "pending_review"
+    ],
+    "workflow": "1. Dodaj plik do gluchowski_img/ 2. Dodaj wpis do REGISTRY.json 3. Uruchom generator kart",
+    "catalogued": 435,
+    "uncatalogued": 0,
+    "last_scan": "2026-03-24",
+    "duplicate": 41,
+    "last_update": "2026-03-24"
+  },
+  "objects": [
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p04_img01.jpeg",
+      "signature": "REF/KN/04",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 185981,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p06_img01.jpeg",
+      "signature": "REF/KN/06",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 265816,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p06_img02.jpeg",
+      "signature": "REF/KN/06",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 145987,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p09_img01.jpeg",
+      "signature": "ARG/II/26",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 413250
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p10_img01.jpeg",
+      "signature": "REF/KN/10",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 195101,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p13_img01.jpeg",
+      "signature": "REF/KN/13",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 248482,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p13_img02.jpeg",
+      "signature": "REF/KN/13",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 237374,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p13_img03.jpeg",
+      "signature": "REF/KN/13",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 306839,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p14_img01.jpeg",
+      "signature": "REF/KN/14",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 379251,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p14_img02.jpeg",
+      "signature": "REF/KN/14",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 418027,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p14_img03.jpeg",
+      "signature": "REF/KN/14",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 417433,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p17_img01.jpeg",
+      "signature": "REF/KN/17",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 274051,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p17_img02.jpeg",
+      "signature": "REF/KN/17",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 182197,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p17_img03.jpeg",
+      "signature": "REF/KN/17",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 253137,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p19_img01.jpeg",
+      "signature": "REF/KN/19",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 187989,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p20_img01.jpeg",
+      "signature": "REF/KN/20",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 185868,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p21_img01.jpeg",
+      "signature": "REF/KN/21",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 197391,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p23_img01.jpeg",
+      "signature": "REF/KN/23",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 165526,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p23_img02.jpeg",
+      "signature": "REF/KN/23",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 229374,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p23_img03.jpeg",
+      "signature": "REF/KN/23",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 260169,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p23_img04.jpeg",
+      "signature": "REF/KN/23",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 249997,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p24_img01.jpeg",
+      "signature": "REF/KN/24",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 224814,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p24_img02.jpeg",
+      "signature": "REF/KN/24",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 273241,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p25_img01.jpeg",
+      "signature": "REF/KN/25",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 166499,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p26_img01.jpeg",
+      "signature": "REF/KN/26",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 255596,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p26_img02.jpeg",
+      "signature": "REF/KN/26",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 307902,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p27_img01.jpeg",
+      "signature": "REF/KN/27",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 194223,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p27_img02.jpeg",
+      "signature": "REF/KN/27",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 226956,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p28_img01.jpeg",
+      "signature": "REF/KN/28",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 284862,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p28_img02.jpeg",
+      "signature": "REF/KN/28",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 113881,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p28_img03.jpeg",
+      "signature": "REF/KN/28",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 159609,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p02_img01.jpeg",
+      "signature": "REF/KT/02",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 79157,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p02_img02.jpeg",
+      "signature": "REF/KT/02",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 67995,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p02_img03.jpeg",
+      "signature": "ARG/I/2",
+      "series": "I",
+      "status": "catalogued",
+      "size_bytes": 45540
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p03_img01.jpeg",
+      "signature": "REF/KT/03",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 53526,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p03_img02.jpeg",
+      "signature": "ARG/I/4",
+      "series": "I",
+      "status": "catalogued",
+      "size_bytes": 50880
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p04_img01.jpeg",
+      "signature": "REF/KT/04",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 108788,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p04_img02.jpeg",
+      "signature": "REF/KT/04",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 92354,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p05_img01.jpeg",
+      "signature": "ARG/II/3",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 106979
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p05_img02.jpeg",
+      "signature": "REF/KT/05",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 61980,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p05_img03.jpeg",
+      "signature": "REF/KT/05",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 60458,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p05_img04.jpeg",
+      "signature": "REF/KT/05",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 66209,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p05_img05.jpeg",
+      "signature": "ARG/II/5",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 100765
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p06_img01.jpeg",
+      "signature": "ARG/II/6",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 33986
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p06_img02.jpeg",
+      "signature": "ARG/II/13",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 79502
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p07_img01.jpeg",
+      "signature": "ARG/II/14",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 47082
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p07_img02.jpeg",
+      "signature": "REF/KT/07",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 89651,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p08_img01.jpeg",
+      "signature": "REF/KT/08",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 140753,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p08_img02.jpeg",
+      "signature": "REF/KT/08",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 38317,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p09_img01.jpeg",
+      "signature": "REF/KT/09",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 52563,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p09_img02.jpeg",
+      "signature": "ARG/II/18",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 64048
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p10_img01.jpeg",
+      "signature": "ARG/II/19",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 64162
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p11_img01.jpeg",
+      "signature": "REF/KT/11",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 80069,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p12_img01.jpeg",
+      "signature": "ARG/II/8",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 44197
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p12_img02.jpeg",
+      "signature": "REF/KT/12",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 55378,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p12_img03.jpeg",
+      "signature": "ARG/II/12",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 55026
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p13_img01.jpeg",
+      "signature": "REF/KT/13",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 89843,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p13_img02.jpeg",
+      "signature": "REF/KT/13",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 46647,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p13_img03.jpeg",
+      "signature": "ARG/II/21",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 51380
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p14_img01.jpeg",
+      "signature": "ARG/II/24",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 64396
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p15_img01.jpeg",
+      "signature": "REF/KT/15",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 102634,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p15_img02.jpeg",
+      "signature": "REF/KT/15",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 81980,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Kolekcja_Gluchowski_Katalog_Tematyczny_p15_img03.jpeg",
+      "signature": "REF/KT/15",
+      "series": "REF",
+      "status": "catalogued",
+      "size_bytes": 55026,
+      "note": "Skan z katalogu naukowego PDF — obiekty juz skatalogowane w odpowiednich seriach ARG"
+    },
+    {
+      "filename": "Seria_29z_p02_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 150887,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p02_img02.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 151630,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p03_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 151291,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p03_img02.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 140726,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p04_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 166167,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p04_img02.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 151301,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p05_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 132496,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p05_img02.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 131911,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p06_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 105264,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p06_img02.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 117142,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p07_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 181035,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p07_img02.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 150330,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p08_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 172735,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p08_img02.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 146683,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p09_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 103909,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p10_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 168639,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p10_img02.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 198704,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p11_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 122564,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p11_img02.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 207156,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p12_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 177443,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p12_img02.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 237300,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p13_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 220819,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p13_img02.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 199321,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p13_img03.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 201916,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p13_img04.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 196602,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p14_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 259054,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p14_img02.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 194930,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p14_img03.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 185719,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p15_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 169414,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p15_img02.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 212366,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p15_img03.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 170336,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p16_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 202782,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p16_img02.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 197772,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p17_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 209339,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p17_img02.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 160336,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p18_img01.jpeg",
+      "signature": "ARG/V/20",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 244961
+    },
+    {
+      "filename": "Seria_29z_p18_img02.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 255846,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p19_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 193295,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p19_img02.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 233540,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p20_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 205455,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p20_img02.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 182683,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p21_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 157976,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p22_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 72767,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p22_img02.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 81664,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p23_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 92131,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p23_img02.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 100581,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p24_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 161349,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p25_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 130758,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p26_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 203241,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p27_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 132615,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p28_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 144473,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p28_img02.jpeg",
+      "signature": "ARG/V/51",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 124607
+    },
+    {
+      "filename": "Seria_29z_p29_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 128742,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p29_img02.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 127794,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p30_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 148002,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p31_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 124630,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p32_img01.jpeg",
+      "signature": "ARG/V/58",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 192604
+    },
+    {
+      "filename": "Seria_29z_p32_img02.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 227573,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p32_img03.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 168035,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p32_img04.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 229599,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p32_img05.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 220948,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p33_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 236414,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p34_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 213196,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p35_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 172174,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p36_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 112621,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "Seria_29z_p37_img01.jpeg",
+      "signature": "ARG/III/S29",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 140323,
+      "parent_file": "Seria 29z — dokumenty wojenne i powojenne"
+    },
+    {
+      "filename": "WhatsApp_.jpeg",
+      "signature": null,
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 675407,
+      "notes": "Duplicate of wa_* series (same photo session, unprocessed originals)"
+    },
+    {
+      "filename": "WhatsApp_07.44.19.jpeg",
+      "signature": null,
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 481149,
+      "notes": "Duplicate of wa_* series (same photo session, unprocessed originals)"
+    },
+    {
+      "filename": "WhatsApp_07.44.37.jpeg",
+      "signature": null,
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 383059,
+      "notes": "Duplicate of wa_* series (same photo session, unprocessed originals)"
+    },
+    {
+      "filename": "WhatsApp_07.44.54.jpeg",
+      "signature": null,
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 596917,
+      "notes": "Duplicate of wa_* series (same photo session, unprocessed originals)"
+    },
+    {
+      "filename": "WhatsApp_07.45.09.jpeg",
+      "signature": null,
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 532076,
+      "notes": "Duplicate of wa_* series (same photo session, unprocessed originals)"
+    },
+    {
+      "filename": "WhatsApp_07.45.22.jpeg",
+      "signature": null,
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 890428,
+      "notes": "Duplicate of wa_* series (same photo session, unprocessed originals)"
+    },
+    {
+      "filename": "WhatsApp_07.45.35.jpeg",
+      "signature": null,
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 1247606,
+      "notes": "Duplicate of wa_* series (same photo session, unprocessed originals)"
+    },
+    {
+      "filename": "WhatsApp_07.45.56.jpeg",
+      "signature": null,
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 590961,
+      "notes": "Duplicate of wa_* series (same photo session, unprocessed originals)"
+    },
+    {
+      "filename": "WhatsApp_07.46.11.jpeg",
+      "signature": null,
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 591243,
+      "notes": "Duplicate of wa_* series (same photo session, unprocessed originals)"
+    },
+    {
+      "filename": "WhatsApp_07.46.34.jpeg",
+      "signature": null,
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 1101612,
+      "notes": "Duplicate of wa_* series (same photo session, unprocessed originals)"
+    },
+    {
+      "filename": "WhatsApp_07.46.45.jpeg",
+      "signature": null,
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 961889,
+      "notes": "Duplicate of wa_* series (same photo session, unprocessed originals)"
+    },
+    {
+      "filename": "WhatsApp_07.46.57.jpeg",
+      "signature": null,
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 797550,
+      "notes": "Duplicate of wa_* series (same photo session, unprocessed originals)"
+    },
+    {
+      "filename": "WhatsApp_07.47.10.jpeg",
+      "signature": null,
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 411307,
+      "notes": "Duplicate of wa_* series (same photo session, unprocessed originals)"
+    },
+    {
+      "filename": "WhatsApp_07.47.20.jpeg",
+      "signature": null,
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 675407,
+      "notes": "Duplicate of wa_* series (same photo session, unprocessed originals)"
+    },
+    {
+      "filename": "juras_001_page2.jpeg",
+      "signature": "ARG/V/66",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 247181
+    },
+    {
+      "filename": "juras_001_page2.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 829124,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 2",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_002_page3.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 406728,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 3",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_002_page3.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1438269,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 3",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_003_page4.jpeg",
+      "signature": "ARG/V/68",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 456411
+    },
+    {
+      "filename": "juras_003_page4.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1496256,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 4",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_004_page5.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 168034,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 5",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_004_page5.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 553140,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 5",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_005_page6.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 143403,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 6",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_005_page6.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 520814,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 6",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_006_page7.jpeg",
+      "signature": "ARG/V/71",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 304817
+    },
+    {
+      "filename": "juras_006_page7.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 996587,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 7",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_007_page8.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 145045,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 8",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_007_page8.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 608247,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 8",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_008_page9.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 396784,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 9",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_008_page9.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1288389,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 9",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_009_page10.jpeg",
+      "signature": "ARG/V/74",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 306763
+    },
+    {
+      "filename": "juras_009_page10.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1009068,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 10",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_010_page11.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 337761,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 11",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_010_page11.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1092283,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 11",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_011_page12.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 359327,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 12",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_011_page12.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1190952,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 12",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_012_page13.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 331896,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 13",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_012_page13.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1180336,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 13",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_013_page14.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 314288,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 14",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_013_page14.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1032235,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 14",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_014_page15.jpeg",
+      "signature": "ARG/V/79",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 143349
+    },
+    {
+      "filename": "juras_014_page15.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 450940,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 15",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_015_page16.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 188858,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 16",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_015_page16.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 653855,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 16",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_016_page17.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 257397,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 17",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_016_page17.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 890953,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 17",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_017_page18.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 116832,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 18",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_017_page18.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 368817,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 18",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_018_page19.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 119729,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 19",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_018_page19.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 405516,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 19",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_019_page20.jpeg",
+      "signature": "ARG/V/84",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 134800
+    },
+    {
+      "filename": "juras_019_page20.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 474549,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 20",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_020_page21.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 90891,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 21",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_020_page21.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 290264,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 21",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_021_page22.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 351453,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 22",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_021_page22.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1456836,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 22",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_022_page23.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 260235,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 23",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_022_page23.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1070932,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 23",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_023_page24.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 153474,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 24",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_023_page24.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 544189,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 24",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_024_page25.jpeg",
+      "signature": "ARG/V/89",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 414078
+    },
+    {
+      "filename": "juras_024_page25.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1380652,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 25",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_025_page26.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 414583,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 26",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_025_page26.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1492343,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 26",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_026_page27.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 224021,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 27",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_026_page27.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 876779,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 27",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_027_page28.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 204666,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 28",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_027_page28.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 799387,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 28",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_028_page29.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 419251,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 29",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_028_page29.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1548777,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 29",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_029_page30.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 374202,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 30",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_029_page30.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1369587,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 30",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_030_page31.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 147911,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 31",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_030_page31.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 482644,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 31",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_031_page32.jpeg",
+      "signature": "ARG/V/96",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 196472
+    },
+    {
+      "filename": "juras_031_page32.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 824650,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 32",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_032_page33.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 157721,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 33",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_032_page33.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 604656,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 33",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_033_page34.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 209757,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 34",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_033_page34.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 776690,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 34",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_034_page35.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 179712,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 35",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_034_page35.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 675755,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 35",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_035_page36.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 375654,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 36",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_035_page36.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1354974,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 36",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_036_page37.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 313891,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 37",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_036_page37.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1091364,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 37",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_037_page38.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 306860,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 38",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_037_page38.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1039810,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 38",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_038_page39.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 331185,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 39",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_038_page39.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1258407,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 39",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_039_page40.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 336984,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 40",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_039_page40.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1168126,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 40",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_040_page41.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 310263,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 41",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_040_page41.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1084086,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 41",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_041_page42.jpeg",
+      "signature": "ARG/V/106",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 364191
+    },
+    {
+      "filename": "juras_041_page42.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1239039,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 42",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_042_page43.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 283271,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 43",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_042_page43.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1226682,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 43",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_043_page44.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 398802,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 44",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_043_page44.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1353283,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 44",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_044_page45.jpeg",
+      "signature": "ARG/V/109",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 88126
+    },
+    {
+      "filename": "juras_044_page45.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 280859,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 45",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_045_page46.jpeg",
+      "signature": "ARG/V/110",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 353225
+    },
+    {
+      "filename": "juras_045_page46.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1180257,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 46",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_046_page47.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 264148,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 47",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_046_page47.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 937773,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 47",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_047_page48.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 339973,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 48",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_047_page48.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1156098,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 48",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_048_page49.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 246969,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 49",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_048_page49.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 802423,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 49",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_049_page50.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 295768,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 50",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_049_page50.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1016816,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 50",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_050_page51.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 300951,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 51",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_050_page51.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1119003,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 51",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_051_page52.jpeg",
+      "signature": "ARG/V/116",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 366750
+    },
+    {
+      "filename": "juras_051_page52.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1352777,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 52",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_052_page53.jpeg",
+      "signature": "ARG/V/117",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 285771
+    },
+    {
+      "filename": "juras_052_page53.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 919943,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 53",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_053_page54.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 186976,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 54",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_053_page54.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 543061,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 54",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_054_page55.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 302125,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 55",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_054_page55.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 974392,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 55",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_055_page56.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 55359,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 56",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_055_page56.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 171107,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 56",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_056_page57.jpeg",
+      "signature": "ARG/V/121",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 271488
+    },
+    {
+      "filename": "juras_056_page57.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 934539,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 57",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_057_page58.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 244773,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 58",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_057_page58.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1016174,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 58",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_058_page59.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 230966,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 59",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_058_page59.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1009178,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 59",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_059_page60.jpeg",
+      "signature": "ARG/V/124",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 20234
+    },
+    {
+      "filename": "juras_059_page60.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 58330,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 60",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_060_page61.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 256350,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 61",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_060_page61.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1100940,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 61",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_061_page62.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 19679,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 62",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_061_page62.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 55499,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 62",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_062_page63.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 209439,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 63",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_062_page63.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 691816,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 63",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_063_page64.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 241884,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 64",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_063_page64.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 863500,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 64",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_064_page65.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 462469,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 65",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_064_page65.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1548877,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 65",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_065_page66.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 325149,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 66",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_065_page66.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1358907,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 66",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_066_page67.jpeg",
+      "signature": "ARG/V/131",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 500323
+    },
+    {
+      "filename": "juras_066_page67.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1762543,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 67",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_067_page68.jpeg",
+      "signature": "ARG/V/132",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 338911
+    },
+    {
+      "filename": "juras_067_page68.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1293272,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 68",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_068_page69.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 145959,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 69",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_068_page69.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 501798,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 69",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_069_page70.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 212122,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 70",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_069_page70.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 762188,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 70",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_070_page71.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 182894,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 71",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_070_page71.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 571798,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 71",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_071_page72.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 349750,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 72",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_071_page72.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1308217,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 72",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_072_page73.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 132799,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 73",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_072_page73.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 434139,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 73",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_073_page74.jpeg",
+      "signature": "ARG/V/138",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 115510
+    },
+    {
+      "filename": "juras_073_page74.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 422754,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 74",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_074_page75.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 177850,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 75",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_074_page75.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 602022,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 75",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_075_page76.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 462428,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 76",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_075_page76.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1597941,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 76",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_076_page77.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 252299,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 77",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_076_page77.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1016131,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 77",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_077_page78.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 362061,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 78",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_077_page78.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1225241,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 78",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_078_page79.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 357313,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 79",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_078_page79.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1175214,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 79",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_079_page80.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 424030,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 80",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_079_page80.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1473129,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 80",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_080_page81.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 534069,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 81",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_080_page81.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1898669,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 81",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_081_page82.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 743378,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 82",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_081_page82.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 2613171,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 82",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_082_page83.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 212477,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 83",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_082_page83.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 679369,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 83",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_083_page84.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 351093,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 84",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_083_page84.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1238169,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 84",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_084_page85.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 258712,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 85",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_084_page85.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1070607,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 85",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_085_page86.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 380569,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 86",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_085_page86.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1425359,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 86",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_086_page87.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 366294,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 87",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_086_page87.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1459953,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 87",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_087_page88.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 372344,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 88",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_087_page88.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1504291,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 88",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_088_page89.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 401927,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 89",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_088_page89.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1535062,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 89",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_089_page90.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 378647,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 90",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_089_page90.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1509066,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 90",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_090_page91.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 380288,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 91",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_090_page91.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1452628,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 91",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_091_page92.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 441332,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 92",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_091_page92.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1486274,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 92",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_092_page93.jpeg",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 327170,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 93",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "juras_092_page93.png",
+      "signature": "ARG/V/J",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 1119655,
+      "title_pl": "Teczka osobista Krzysztofa Jurasa Gluchowskiego — strona 93",
+      "parent_file": "ARG/V/J (teczka osobista)"
+    },
+    {
+      "filename": "lbr_II_34_p01.jpg",
+      "signature": "ARG/II/34",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 275852,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_34_p02.jpg",
+      "signature": "ARG/II/34",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 196884,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_34_p03.jpg",
+      "signature": "ARG/II/34",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 98345,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_34_p04.jpg",
+      "signature": "ARG/II/34",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 125352,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_34_p05.jpg",
+      "signature": "ARG/II/34",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 95149,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_35_p01.jpg",
+      "signature": "ARG/II/35",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 351488,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_35_p02.jpg",
+      "signature": "ARG/II/35",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 166422,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_35_p03.jpg",
+      "signature": "ARG/II/35",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 139438,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_35_p04.jpg",
+      "signature": "ARG/II/35",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 156601,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_35_p05.jpg",
+      "signature": "ARG/II/35",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 176261,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_36_p01.jpg",
+      "signature": "ARG/II/36",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 331557,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_36_p02.jpg",
+      "signature": "ARG/II/36",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 134957,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_36_p03.jpg",
+      "signature": "ARG/II/36",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 159357,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_36_p04.jpg",
+      "signature": "ARG/II/36",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 86451,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_37_p01.jpg",
+      "signature": "ARG/II/37",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 274586,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_37_p02.jpg",
+      "signature": "ARG/II/37",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 157229,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_37_p03.jpg",
+      "signature": "ARG/II/37",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 150817,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_37_p04.jpg",
+      "signature": "ARG/II/37",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 119168,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_37_p05.jpg",
+      "signature": "ARG/II/37",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 161651,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_38_p01.jpg",
+      "signature": "ARG/II/38",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 325503,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_38_p02.jpg",
+      "signature": "ARG/II/38",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 151424,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_39_p01.jpg",
+      "signature": "ARG/II/39",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 336171,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_39_p02.jpg",
+      "signature": "ARG/II/39",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 106698,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_40_p01.jpg",
+      "signature": "ARG/II/40",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 382757,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_40_p02.jpg",
+      "signature": "ARG/II/40",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 156540,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_41_p01.jpg",
+      "signature": "ARG/II/41",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 359340,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_41_p02.jpg",
+      "signature": "ARG/II/41",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 136512,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_42_p01.jpg",
+      "signature": "ARG/II/42",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 433609,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_42_p02.jpg",
+      "signature": "ARG/II/42",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 135532,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_43_p01.jpg",
+      "signature": "ARG/II/43",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 310037,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_43_p02.jpg",
+      "signature": "ARG/II/43",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 169082,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_43_p03.jpg",
+      "signature": "ARG/II/43",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 175529,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_44_p01.jpg",
+      "signature": "ARG/II/44",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 342181,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_44_p02.jpg",
+      "signature": "ARG/II/44",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 96032,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_45_p01.jpg",
+      "signature": "ARG/II/45",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 361689,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_45_p02.jpg",
+      "signature": "ARG/II/45",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 150131,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_45_p03.jpg",
+      "signature": "ARG/II/45",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 80462,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_46_p01.jpg",
+      "signature": "ARG/II/46",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 257550,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_47_p01.jpg",
+      "signature": "ARG/II/47",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 353668,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_47_p02.jpg",
+      "signature": "ARG/II/47",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 182970,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_47_p03.jpg",
+      "signature": "ARG/II/47",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 116284,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_47_p04.jpg",
+      "signature": "ARG/II/47",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 172594,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_48_p01.jpg",
+      "signature": "ARG/II/48",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 331760,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_48_p02.jpg",
+      "signature": "ARG/II/48",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 199680,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_48_p03.jpg",
+      "signature": "ARG/II/48",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 104645,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_49_p01.jpg",
+      "signature": "ARG/II/49",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 432525,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_49_p02.jpg",
+      "signature": "ARG/II/49",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 181254,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_49_p03.jpg",
+      "signature": "ARG/II/49",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 114106,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_50_p01.jpg",
+      "signature": "ARG/II/50",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 331733,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_50_p02.jpg",
+      "signature": "ARG/II/50",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 196646,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_50_p03.jpg",
+      "signature": "ARG/II/50",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 107856,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_51_p01.jpg",
+      "signature": "ARG/II/51",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 291764,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_51_p02.jpg",
+      "signature": "ARG/II/51",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 151356,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_52_p01.jpg",
+      "signature": "ARG/II/52",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 265898,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_52_p02.jpg",
+      "signature": "ARG/II/52",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 147820,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_52_p03.jpg",
+      "signature": "ARG/II/52",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 144788,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_52_p04.jpg",
+      "signature": "ARG/II/52",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 139328,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_52_p05.jpg",
+      "signature": "ARG/II/52",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 131215,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_53_p01.jpg",
+      "signature": "ARG/II/53",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 324585,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_53_p02.jpg",
+      "signature": "ARG/II/53",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 125738,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_53_p03.jpg",
+      "signature": "ARG/II/53",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 123378,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_53_p04.jpg",
+      "signature": "ARG/II/53",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 121907,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_54_p01.jpg",
+      "signature": "ARG/II/54",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 458932,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_54_p02.jpg",
+      "signature": "ARG/II/54",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 81766,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_54_p03.jpg",
+      "signature": "ARG/II/54",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 227335,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_54_p04.jpg",
+      "signature": "ARG/II/54",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 162960,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_54_p05.jpg",
+      "signature": "ARG/II/54",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 236004,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_55_p01.jpg",
+      "signature": "ARG/II/55",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 266564,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_55_p02.jpg",
+      "signature": "ARG/II/55",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 170343,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_II_55_p03.jpg",
+      "signature": "ARG/II/55",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 95584,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_V_157_p01.jpg",
+      "signature": "ARG/V/157",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 349976,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_V_157_p02.jpg",
+      "signature": "ARG/V/157",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 152040,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_V_158_p01.jpg",
+      "signature": "ARG/V/158",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 462883,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_V_158_p02.jpg",
+      "signature": "ARG/V/158",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 177825,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_V_158_p03.jpg",
+      "signature": "ARG/V/158",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 145277,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_V_158_p04.jpg",
+      "signature": "ARG/V/158",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 199181,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "lbr_V_158_p05.jpg",
+      "signature": "ARG/V/158",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 97738,
+      "note": "Skan z aukcji leiloesbr — obiekt juz skatalogowany w katalogu v4"
+    },
+    {
+      "filename": "nowe_akwaforta_lazienki.jpeg",
+      "signature": "ARG/V/130",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 163865,
+      "title_pl": "Akwaforta — widok Lazienek Krolewskich [?]"
+    },
+    {
+      "filename": "nowe_albumik_okladka.jpeg",
+      "signature": "ARG/V/131",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 77529,
+      "title_pl": "Album leporello 'Wskrzeszone Zabytki Dawnej Warszawy' — okladka"
+    },
+    {
+      "filename": "nowe_albumik_tyl.jpeg",
+      "signature": "ARG/V/131",
+      "series": "",
+      "status": "catalogued",
+      "size_bytes": 84065,
+      "title_pl": "Album leporello 'Wskrzeszone Zabytki' — tyl okladki"
+    },
+    {
+      "filename": "nowe_albumik_wnetrze.jpeg",
+      "signature": "ARG/V/131",
+      "series": "",
+      "status": "catalogued",
+      "size_bytes": 116939,
+      "title_pl": "Album leporello 'Wskrzeszone Zabytki' — wnetrze: Palac w Lazienkach, Teatr Narodowy, Palac Staszica, Palac Pod Blacha"
+    },
+    {
+      "filename": "nowe_association_awers.jpeg",
+      "signature": "ARG/V/132",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 70639,
+      "title_pl": "Membership Card — Association of Friends of Polish Patients in Mental Hospitals, Mr. K. Gluchowski, Nr 358, 1957"
+    },
+    {
+      "filename": "nowe_association_rewers.jpeg",
+      "signature": "ARG/V/132",
+      "series": "",
+      "status": "catalogued",
+      "size_bytes": 76483,
+      "title_pl": "Membership Card — rewers"
+    },
+    {
+      "filename": "nowe_eada_barcelona.jpeg",
+      "signature": "ARG/V/133",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 77867,
+      "title_pl": "Zaswiadczenie EADA Barcelona — Krzysztof Andrzej Gluchowski, kurs nr 181, luty 1972"
+    },
+    {
+      "filename": "nowe_jelen_awersy.jpeg",
+      "signature": "ARG/VI/75",
+      "series": "VI",
+      "status": "catalogued",
+      "size_bytes": 120801,
+      "title_pl": "Zestaw 6 fotografii — uroczystosc przy mogile Dywizjonu 'Jelen', ok. 1960"
+    },
+    {
+      "filename": "nowe_jelen_rewersy.jpeg",
+      "signature": "ARG/VI/75",
+      "series": "",
+      "status": "catalogued",
+      "size_bytes": 71227,
+      "title_pl": "Zestaw 6 fotografii — rewersy z notatkami"
+    },
+    {
+      "filename": "nowe_quittung_awers.jpeg",
+      "signature": "ARG/III/50",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 76569,
+      "title_pl": "Quittung / pokwitowanie z Netzschkau — ostrzezenie o karze za nieautoryzowane przyjmowanie wsparcia"
+    },
+    {
+      "filename": "nowe_quittung_rewers.jpeg",
+      "signature": "ARG/III/50",
+      "series": "",
+      "status": "catalogued",
+      "size_bytes": 90983,
+      "title_pl": "Quittung Netzschkau — rewers"
+    },
+    {
+      "filename": "nowe_rubin_beckenham.jpeg",
+      "signature": "ARG/VI/76",
+      "series": "VI",
+      "status": "catalogued",
+      "size_bytes": 138490,
+      "title_pl": "Fotografia grupowa — spotkanie Polakow w Beckenham, ok. 1950-1960"
+    },
+    {
+      "filename": "nowe_skarb_danuta.jpeg",
+      "signature": "ARG/V/134",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 84487,
+      "title_pl": "Skarb Narodowy — wkladka na rok 1952, Nr 5086, Seria B, Krzysztof Gluchowski, 42a Emperors Gate SW7"
+    },
+    {
+      "filename": "nowe_skarb_krzysztof.jpeg",
+      "signature": "ARG/V/135",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 80253,
+      "title_pl": "Legitymacja Skarbu Narodowego Nr 001704, Klasa G + wkladka 1953 na Danute Gluchowska"
+    },
+    {
+      "filename": "nowe_stefan_polowanie.jpeg",
+      "signature": "ARG/VI/77",
+      "series": "VI",
+      "status": "catalogued",
+      "size_bytes": 131775,
+      "title_pl": "Fotografia Stefana Gluchowskiego na polowaniu — podpis Krzysztofa: 'Jeden z uczni Dziadka Ziolkowskiego. Moj Ojciec Stefan Gluchowski na polowaniu.'"
+    },
+    {
+      "filename": "stefan_001.jpeg",
+      "signature": "ARG/S/001",
+      "series": "IV",
+      "status": "catalogued",
+      "size_bytes": 604467,
+      "title_pl": "Zarządzenie Prezesa Rady Ministrów Nr 3743 — Stefan Głuchowski w Komisji Dyscyplinarnej, 9.III.1929",
+      "date_sort": "1929-03-09",
+      "valuation_min": 1500,
+      "valuation_max": 3000
+    },
+    {
+      "filename": "stefan_002.jpeg",
+      "signature": "ARG/S/002",
+      "series": "IV",
+      "status": "catalogued",
+      "size_bytes": 484767,
+      "title_pl": "Dyplom — Brązowy Medal za Długoletnią Służbę, Kancelaria Cywilna Prezydenta RP, 14.V.1938",
+      "date_sort": "1938-05-14",
+      "valuation_min": 800,
+      "valuation_max": 2000
+    },
+    {
+      "filename": "stefan_003.jpeg",
+      "signature": "ARG/S/003",
+      "series": "IV",
+      "status": "catalogued",
+      "size_bytes": 825501,
+      "title_pl": "Złoty Krzyż Zasługi — podpis premiera Sławoja Składkowskiego, 12.XI.1936",
+      "date_sort": "1936-11-12",
+      "valuation_min": 2000,
+      "valuation_max": 5000
+    },
+    {
+      "filename": "stefan_004.jpeg",
+      "signature": "ARG/S/004",
+      "series": "IV",
+      "status": "catalogued",
+      "size_bytes": 572007,
+      "title_pl": "Mianowanie na Kierownika referatu w Kancelarii Cywilnej Prezydenta RP — 1.II.1934",
+      "date_sort": "1934-01",
+      "valuation_min": 1000,
+      "valuation_max": 2500
+    },
+    {
+      "filename": "stefan_005.jpeg",
+      "signature": "ARG/S/005",
+      "series": "IV",
+      "status": "catalogued",
+      "size_bytes": 457104,
+      "title_pl": "Ocena sluzbowa Stefana — bardzo dobra za lata 1927-1928",
+      "date_sort": "1930-03-16",
+      "valuation_min": 400,
+      "valuation_max": 1000
+    },
+    {
+      "filename": "stefan_006.jpeg",
+      "signature": "ARG/S/006",
+      "series": "IV",
+      "status": "catalogued",
+      "size_bytes": 302708,
+      "title_pl": "Zaproszenie Komitetu Krzyża i Medalu Niepodległości — wręczenie Krzyża Niepodległości, 1931",
+      "date_sort": "1931-11-09",
+      "valuation_min": 600,
+      "valuation_max": 1500
+    },
+    {
+      "filename": "stefan_007.jpeg",
+      "signature": "ARG/S/007",
+      "series": "IV",
+      "status": "catalogued",
+      "size_bytes": 1072942,
+      "title_pl": "Order Odrodzenia Polski (Polonia Restituta) — Krzyż Kawalerski dla Stefana, 12.XI.1931",
+      "date_sort": "1931-11-12",
+      "valuation_min": 3000,
+      "valuation_max": 8000
+    },
+    {
+      "filename": "stefan_008.jpeg",
+      "signature": "ARG/S/008",
+      "series": "IV",
+      "status": "catalogued",
+      "size_bytes": 691089,
+      "title_pl": "Weryfikacja służby wojskowej Stefana — zaliczenie lat 1918–1920",
+      "date_sort": "1922",
+      "valuation_min": 400,
+      "valuation_max": 1000
+    },
+    {
+      "filename": "stefan_009.jpeg",
+      "signature": "ARG/S/009",
+      "series": "IV",
+      "status": "catalogued",
+      "size_bytes": 680117,
+      "title_pl": "Pismo Kancelarii Cywilnej — dokument sluzbowy Stefana",
+      "date_sort": "1930",
+      "valuation_min": 400,
+      "valuation_max": 1000
+    },
+    {
+      "filename": "stefan_010.jpeg",
+      "signature": "ARG/S/010",
+      "series": "IV",
+      "status": "catalogued",
+      "size_bytes": 458507,
+      "title_pl": "Srebrny Krzyż Zasługi — Stefan Głuchowski, 1929",
+      "date_sort": "1929",
+      "valuation_min": 600,
+      "valuation_max": 1500
+    },
+    {
+      "filename": "stefan_011.jpeg",
+      "signature": "ARG/S/011",
+      "series": "IV",
+      "status": "catalogued",
+      "size_bytes": 672359,
+      "title_pl": "Ocena kwalifikacyjna Stefana — bardzo dobra za 1924",
+      "date_sort": "1925-07",
+      "valuation_min": 400,
+      "valuation_max": 1000
+    },
+    {
+      "filename": "stefan_012.jpeg",
+      "signature": null,
+      "series": "VI",
+      "status": "duplicate",
+      "size_bytes": 39020,
+      "duplicate_of": "BLANK"
+    },
+    {
+      "filename": "stefan_012_BLANK.jpeg",
+      "signature": null,
+      "series": "VI",
+      "status": "duplicate",
+      "size_bytes": 743137,
+      "notes": "blank page",
+      "duplicate_of": "BLANK"
+    },
+    {
+      "filename": "stefan_013.jpeg",
+      "signature": "ARG/S/013",
+      "series": "IV",
+      "status": "catalogued",
+      "size_bytes": 753273,
+      "title_pl": "Weryfikacja sluzby wojskowej — Kancelaria Naczelnika Panstwa, 4.II.1922 (pieczec z orlem)",
+      "date_sort": "1922-02-04",
+      "valuation_min": 1500,
+      "valuation_max": 3000
+    },
+    {
+      "filename": "stefan_014.jpeg",
+      "signature": "ARG/S/014",
+      "series": "IV",
+      "status": "catalogued",
+      "size_bytes": 534132,
+      "title_pl": "Mianowanie na referendarza w Kancelarii Cywilnej — 20.X.1925",
+      "date_sort": "1925-10-20",
+      "valuation_min": 800,
+      "valuation_max": 2000
+    },
+    {
+      "filename": "stefan_015.jpeg",
+      "signature": "ARG/S/015",
+      "series": "IV",
+      "status": "catalogued",
+      "size_bytes": 626026,
+      "title_pl": "Przyjęcie do pracy w Kancelarii Naczelnika Państwa (Piłsudskiego) — 1.VII.1921",
+      "date_sort": "1921-07-01",
+      "valuation_min": 4000,
+      "valuation_max": 10000
+    },
+    {
+      "filename": "stefan_016.jpeg",
+      "signature": "ARG/S/016",
+      "series": "IV",
+      "status": "catalogued",
+      "size_bytes": 793625,
+      "title_pl": "Przyjecie do sluzby — Kancelaria Naczelnika Panstwa, 30.VII.1921",
+      "date_sort": "1921-07-30",
+      "valuation_min": 1500,
+      "valuation_max": 3000
+    },
+    {
+      "filename": "stefan_017.jpeg",
+      "signature": "ARG/S/017",
+      "series": "IV",
+      "status": "catalogued",
+      "size_bytes": 865916,
+      "title_pl": "Ocena kwalifikacyjna — bardzo dobra za okres do VIII.1924",
+      "date_sort": "1924-09-25",
+      "valuation_min": 400,
+      "valuation_max": 1000
+    },
+    {
+      "filename": "stefan_018.jpeg",
+      "signature": "ARG/S/018",
+      "series": "IV",
+      "status": "catalogued",
+      "size_bytes": 668031,
+      "title_pl": "Pierwsze zatrudnienie Stefana — Kancelaria Cywilna, XII.1918",
+      "date_sort": "1918-12",
+      "valuation_min": 2000,
+      "valuation_max": 5000
+    },
+    {
+      "filename": "stefan_019.jpeg",
+      "signature": "ARG/S/019",
+      "series": "IV",
+      "status": "catalogued",
+      "size_bytes": 492986,
+      "title_pl": "Medal Dziesieciolecia Odzyskanej Niepodleglosci — Stefan Gluchowski",
+      "date_sort": "1929",
+      "valuation_min": 600,
+      "valuation_max": 1500
+    },
+    {
+      "filename": "stefan_020.jpeg",
+      "signature": "ARG/I/5",
+      "series": "I",
+      "status": "duplicate",
+      "size_bytes": 893138,
+      "notes": "duplicate of wa_biogram_lech_1995",
+      "duplicate_of": "wa_biogram_lech.jpeg"
+    },
+    {
+      "filename": "stefan_021.jpeg",
+      "signature": null,
+      "series": "VI",
+      "status": "duplicate",
+      "size_bytes": 647897,
+      "notes": "duplicate of wa_biogram_krzysztof_1995",
+      "duplicate_of": "varia_002_album_groby.jpeg"
+    },
+    {
+      "filename": "stefan_022.jpeg",
+      "signature": null,
+      "series": "VI",
+      "status": "duplicate",
+      "size_bytes": 219054,
+      "notes": "duplicate of wa_biogram_stefan_1995",
+      "duplicate_of": "varia_003_etykieta_listy_stefan.jpeg"
+    },
+    {
+      "filename": "stefan_023.jpeg",
+      "signature": null,
+      "series": "VI",
+      "status": "duplicate",
+      "size_bytes": 353738,
+      "duplicate_of": "varia_004_karta_ak_radwan.jpeg"
+    },
+    {
+      "filename": "stefan_024.jpeg",
+      "signature": "ARG/S/024",
+      "series": "IV",
+      "status": "catalogued",
+      "size_bytes": 532698,
+      "title_pl": "Dokumenty weryfikacyjne 7 P.Ul. — wykaz + dokument Dowodcy 3 Korpusu, pplk Uszycki, VII.1946",
+      "date_sort": "1946-07-06",
+      "valuation_min": 600,
+      "valuation_max": 1500
+    },
+    {
+      "filename": "stefan_025.jpeg",
+      "signature": null,
+      "series": "VI",
+      "status": "duplicate",
+      "size_bytes": 348560,
+      "notes": "duplicate of varia_006_kriegsgef",
+      "duplicate_of": "varia_006_kriegsgef_oflag.jpeg"
+    },
+    {
+      "filename": "stefan_026.jpeg",
+      "signature": null,
+      "series": "VI",
+      "status": "duplicate",
+      "size_bytes": 216627,
+      "notes": "duplicate of varia_007_list_7pul",
+      "duplicate_of": "varia_007_list_7pul.jpeg"
+    },
+    {
+      "filename": "stefan_027.jpeg",
+      "signature": null,
+      "series": "VI",
+      "status": "duplicate",
+      "size_bytes": 498421,
+      "notes": "duplicate of varia_008_zaswiadczenie_ak (better crop in varia)",
+      "duplicate_of": "varia_008_zaswiadczenie_ak.jpeg"
+    },
+    {
+      "filename": "stefan_028.jpeg",
+      "signature": "ARG/S/028",
+      "series": "IV",
+      "status": "catalogued",
+      "size_bytes": 658611,
+      "notes": "duplicate of varia_009_lista_personalna",
+      "title_pl": "Zaświadczenie AK — ppor. Głuchowski Stanisław Stefan, 25.VII.1944, pieczęć Obwodu Śródmieście, podpis 'Radwan'",
+      "date_sort": "1944-07-25",
+      "valuation_min": 8000,
+      "valuation_max": 20000
+    },
+    {
+      "filename": "stefan_029.jpeg",
+      "signature": "ARG/S/029",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 823189,
+      "notes": "duplicate of varia_011_dedykacja",
+      "title_pl": "WYKAZ PAMIATEK 7 Pulku Ulanow Lubelskich im. Gen. Broni Sosnkowskiego — inwentarz 25+ pozycji",
+      "date_sort": "1947",
+      "valuation_min": 1000,
+      "valuation_max": 3000
+    },
+    {
+      "filename": "stefan_030.jpeg",
+      "signature": null,
+      "series": "VI",
+      "status": "duplicate",
+      "size_bytes": 470439,
+      "notes": "duplicate of varia_012_karta_7pul",
+      "duplicate_of": "varia_011_dedykacja_lech.jpeg"
+    },
+    {
+      "filename": "stefan_031.jpeg",
+      "signature": null,
+      "series": "VI",
+      "status": "duplicate",
+      "size_bytes": 320330,
+      "duplicate_of": "varia_012_karta_7pul_henstedt.jpeg"
+    },
+    {
+      "filename": "varia_001_biogram_lech_dup.jpeg",
+      "signature": "ARG/IV/40",
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 536311,
+      "duplicate_of": "varia_001_biogram_lech.jpeg"
+    },
+    {
+      "filename": "varia_002_album_groby.jpeg",
+      "signature": "ARG/VI/70",
+      "series": "VI",
+      "status": "catalogued",
+      "size_bytes": 1008269,
+      "title_pl": "Strona albumu — ceremonia pobierania ziemi z miejsc kaźni powstańców",
+      "date_sort": "1947",
+      "valuation_min": 1500,
+      "valuation_max": 4000
+    },
+    {
+      "filename": "varia_003_etykieta_listy_stefan.jpeg",
+      "signature": "ARG/III/45",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 343705,
+      "title_pl": "Etykieta archiwalna: 'Listy ppor. Stefana z obozu w Niemczech 1945–1947'",
+      "date_sort": "1947",
+      "valuation_min": 100,
+      "valuation_max": 300
+    },
+    {
+      "filename": "varia_004_karta_ak_radwan.jpeg",
+      "signature": "ARG/IV/41",
+      "series": "IV",
+      "status": "catalogued",
+      "size_bytes": 390640,
+      "title_pl": "Karta AK — Przydział: Kwatermistrzostwo Obwodu I, pieczęć Obwód Śródmieście, podpis 'Radwan'",
+      "date_sort": "1944",
+      "valuation_min": 3000,
+      "valuation_max": 8000
+    },
+    {
+      "filename": "varia_005_weryfikacja_ak.jpeg",
+      "signature": "ARG/IV/42",
+      "series": "IV",
+      "status": "catalogued",
+      "size_bytes": 690681,
+      "title_pl": "Dokument weryfikacyjny AK — formularz 1946, 7 Pułk Ułanów",
+      "date_sort": "1946",
+      "valuation_min": 400,
+      "valuation_max": 1000
+    },
+    {
+      "filename": "varia_006_kriegsgef_oflag.jpeg",
+      "signature": "ARG/III/46",
+      "series": "III",
+      "status": "catalogued",
+      "size_bytes": 816554,
+      "title_pl": "Kriegsgefangenenpost — Postkarte z Oflag XVII A, 'Za Zaleski'",
+      "date_sort": "1942-01-18",
+      "valuation_min": 600,
+      "valuation_max": 1500
+    },
+    {
+      "filename": "varia_007_list_7pul.jpeg",
+      "signature": "ARG/V/120",
+      "series": "V",
+      "status": "catalogued",
+      "size_bytes": 435079,
+      "title_pl": "List ręczny do Krzysztofa — w imieniu ojca, 7 Pułk Ułanów, podpisy oficerów",
+      "date_sort": "1965",
+      "valuation_min": 300,
+      "valuation_max": 800
+    },
+    {
+      "filename": "varia_008_zaswiadczenie_ak_stefan.jpeg",
+      "signature": "ARG/IV/43",
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 552838,
+      "duplicate_of": "varia_008_zaswiadczenie_ak.jpeg"
+    },
+    {
+      "filename": "varia_009_lista_personalna_7pul.jpeg",
+      "signature": "ARG/II/60",
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 808985,
+      "duplicate_of": "varia_009_lista_personalna.jpeg"
+    },
+    {
+      "filename": "varia_010_certyfikat_7pul.jpeg",
+      "signature": "ARG/II/61",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 955112,
+      "title_pl": "Certyfikat/inwentarz Koła Żołnierzy 7 Pułku — lista 25+ pozycji",
+      "date_sort": "1946",
+      "valuation_min": 400,
+      "valuation_max": 1000
+    },
+    {
+      "filename": "varia_011_dedykacja_lech_stefan.jpeg",
+      "signature": "ARG/V/121",
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 484509,
+      "duplicate_of": "varia_011_dedykacja_lech.jpeg"
+    },
+    {
+      "filename": "varia_012_karta_7pul_henstedt.jpeg",
+      "signature": "ARG/II/62",
+      "series": "II",
+      "status": "catalogued",
+      "size_bytes": 379429,
+      "title_pl": "Karta/zaproszenie 7 Pułku Ułanów Lubelskich im. Gen. Broni Sosnkowskiego — Henstedt, 23.III.47",
+      "date_sort": "1947-03-23",
+      "valuation_min": 400,
+      "valuation_max": 1000
+    },
+    {
+      "filename": "wa_aliens_reg_cover.jpeg",
+      "signature": "ARG/II/63",
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 532076,
+      "duplicate_of": "wa_aliens_reg_01.jpeg"
+    },
+    {
+      "filename": "wa_aliens_reg_exempt.jpeg",
+      "signature": "ARG/II/63",
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 383059,
+      "duplicate_of": "wa_aliens_reg_01.jpeg (strona exempt)"
+    },
+    {
+      "filename": "wa_aliens_reg_janusz_photo.jpeg",
+      "signature": "ARG/II/63",
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 596917,
+      "duplicate_of": "wa_aliens_reg_01.jpeg (zdjecie)"
+    },
+    {
+      "filename": "wa_aliens_reg_stamps.jpeg",
+      "signature": "ARG/II/63",
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 481149,
+      "duplicate_of": "wa_aliens_reg_01.jpeg (stemple)"
+    },
+    {
+      "filename": "wa_biogram_krzysztof_1995.jpeg",
+      "signature": "ARG/V/122",
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 1101612,
+      "duplicate_of": "wa_biogram_krzysztof.jpeg"
+    },
+    {
+      "filename": "wa_biogram_lech_1995.jpeg",
+      "signature": "ARG/IV/40",
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 961889,
+      "duplicate_of": "wa_biogram_lech.jpeg"
+    },
+    {
+      "filename": "wa_biogram_stefan_1995.jpeg",
+      "signature": "ARG/V/123",
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 797550,
+      "duplicate_of": "wa_biogram_stefan.jpeg"
+    },
+    {
+      "filename": "wa_kriegsgefangenenpost.jpeg",
+      "signature": "ARG/III/47",
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 394363,
+      "duplicate_of": "wa_kriegsgefangenenpost_halszka.jpeg"
+    },
+    {
+      "filename": "wa_krzyz_ak_juras.jpeg",
+      "signature": "ARG/V/118",
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 890428,
+      "duplicate_of": "wa_krzyz_ak_01.jpeg"
+    },
+    {
+      "filename": "wa_krzyz_ak_okladka.jpeg",
+      "signature": "ARG/V/118",
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 202023,
+      "duplicate_of": "wa_krzyz_ak_01.jpeg (okladka)"
+    },
+    {
+      "filename": "wa_portret_rodzinny_1920.jpeg",
+      "signature": "ARG/VI/71",
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 591243,
+      "duplicate_of": "wa_portret_rodzinny.jpeg"
+    },
+    {
+      "filename": "wa_rekopis_wspomnienia.jpeg",
+      "signature": "ARG/V/121",
+      "series": null,
+      "status": "catalogued",
+      "size_bytes": 675407,
+      "note": "rekopis wspomnien"
+    },
+    {
+      "filename": "wa_weryfikacja_ak_1946.jpeg",
+      "signature": "ARG/IV/44",
+      "series": null,
+      "status": "duplicate",
+      "size_bytes": 590961,
+      "duplicate_of": "wa_weryfikacja_ak_uszycki.jpeg"
+    }
+  ]
+}
