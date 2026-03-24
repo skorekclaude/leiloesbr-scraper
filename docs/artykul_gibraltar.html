@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gibraltar w tle — gen. Głuchowski między Sikorskim a Klimeckim</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0a0a;
+  --surface: #141414;
+  --border: #252525;
+  --text: #dddad5;
+  --text-dim: #7a7a7a;
+  --gold: #c9a84c;
+  --red: #c0392b;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:var(--bg); color:var(--text); font-family:'EB Garamond',serif; line-height:1.9; }
+
+.top-nav {
+  position:sticky; top:0; z-index:100;
+  background:rgba(10,10,10,.95); backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--border);
+  padding:10px 20px; display:flex; justify-content:space-between; align-items:center;
+}
+.top-nav a { color:var(--text-dim); text-decoration:none; font-family:'Inter',sans-serif; font-size:.8em; }
+.top-nav a:hover { color:var(--gold); }
+
+/* LANG SWITCHER */
+.lang-bar {
+  display:flex; justify-content:center; gap:8px; padding:12px 20px;
+  font-family:'Inter',sans-serif; font-size:.75em;
+}
+.lang-btn {
+  background:transparent; border:1px solid var(--border); color:var(--text-dim);
+  padding:4px 12px; border-radius:4px; cursor:pointer; font-size:1em;
+}
+.lang-btn.active, .lang-btn:hover { border-color:var(--gold); color:var(--gold); }
+
+article { max-width:720px; margin:0 auto; padding:60px 24px 80px; }
+
+.article-header { text-align:center; margin-bottom:50px; padding-bottom:40px; border-bottom:1px solid var(--border); }
+.article-journal { font-family:'Inter',sans-serif; font-size:.72em; letter-spacing:.15em; text-transform:uppercase; color:var(--gold); }
+.article-title { font-size:clamp(1.6em,4vw,2.4em); font-weight:700; margin:16px 0 12px; line-height:1.25; }
+.article-subtitle { font-size:1.15em; font-style:italic; color:var(--text-dim); margin-bottom:20px; }
+.article-author { font-family:'Inter',sans-serif; font-size:.85em; color:var(--text-dim); }
+.article-meta { font-family:'Inter',sans-serif; font-size:.75em; color:var(--text-dim); margin-top:8px; }
+
+h2 { font-size:1.4em; color:var(--gold); margin:40px 0 16px; font-weight:600; }
+p { margin-bottom:1.3em; font-size:1.08em; text-align:justify; hyphens:auto; }
+p.num { text-indent:0; }
+.num-tag { font-family:'Inter',sans-serif; font-weight:600; color:var(--gold); margin-right:6px; }
+
+blockquote {
+  border-left:3px solid var(--border); padding:12px 20px; margin:20px 0;
+  font-style:italic; color:var(--text-dim);
+}
+blockquote .source { display:block; font-style:normal; font-size:.85em; margin-top:6px; }
+
+.timeline {
+  background:var(--surface); border:1px solid var(--border); border-radius:8px;
+  padding:24px; margin:30px 0; font-family:'Inter',sans-serif; font-size:.88em;
+}
+.timeline h4 { color:var(--gold); margin-bottom:12px; font-size:.9em; letter-spacing:.05em; }
+.tl-row { display:flex; gap:16px; margin-bottom:8px; padding-bottom:8px; border-bottom:1px solid rgba(255,255,255,.04); }
+.tl-date { min-width:120px; color:var(--gold); font-weight:500; white-space:nowrap; }
+.tl-event { color:var(--text); }
+.tl-row.highlight { background:rgba(192,57,43,.12); border-radius:4px; padding:8px; border-bottom:none; }
+
+sup { color:var(--gold); cursor:pointer; font-size:.8em; }
+.footnote-ref { font-size:.82em; vertical-align:super; color:var(--gold); text-decoration:none; }
+.footnotes { margin-top:50px; padding-top:30px; border-top:1px solid var(--border); }
+.footnotes h2 { font-size:1.1em; margin-bottom:16px; }
+.footnotes ol { padding-left:20px; }
+.footnotes li { font-size:.88em; color:var(--text-dim); margin-bottom:10px; line-height:1.6; }
+
+.bibliography { margin-top:50px; padding-top:30px; border-top:1px solid var(--border); }
+.bibliography h2 { font-size:1.1em; margin-bottom:16px; }
+.bib-entry { font-size:.9em; margin-bottom:6px; padding-left:24px; text-indent:-24px; }
+
+.footer-nav {
+  display:flex; gap:12px; justify-content:center; flex-wrap:wrap;
+  padding:40px 20px; margin-top:40px; border-top:1px solid var(--border);
+}
+.footer-nav a {
+  display:inline-block; padding:12px 24px; border:1px solid var(--border);
+  border-radius:6px; color:var(--text-dim); text-decoration:none;
+  font-family:'Inter',sans-serif; font-size:.85em; transition:all .2s;
+}
+.footer-nav a:hover { border-color:var(--gold); color:var(--gold); }
+
+[data-lang] { display:none; }
+[data-lang="pl"] { display:block; }
+span[data-lang] { display:none; }
+span[data-lang="pl"] { display:inline; }
+</style>
+</head>
+<body>
+
+<nav class="top-nav">
+  <a href="katalog_gluchowski_v4.html">&larr; Katalog</a>
+  <a href="galeria.html">Galeria &rarr;</a>
+</nav>
+
+<div class="lang-bar">
+  <button class="lang-btn active" onclick="setLang('pl')">PL</button>
+  <button class="lang-btn" onclick="setLang('en')">EN</button>
+  <button class="lang-btn" onclick="setLang('pt')">PT</button>
+  <button class="lang-btn" onclick="setLang('de')">DE</button>
+</div>
+
+<article>
+
+<div class="article-header">
+  <div class="article-journal" data-lang="pl">Esej &zacute;r&oacute;d&lstrok;oznawczy &middot; Archiwum Rodziny G&lstrok;uchowskich</div>
+  <div class="article-journal" data-lang="en">Source Essay &middot; G&lstrok;uchowski Family Archive</div>
+  <div class="article-journal" data-lang="pt">Ensaio documental &middot; Arquivo da Fam&iacute;lia G&lstrok;uchowski</div>
+  <div class="article-journal" data-lang="de">Quellenessay &middot; Archiv der Familie G&lstrok;uchowski</div>
+
+  <h1 class="article-title" data-lang="pl">Gibraltar w tle</h1>
+  <h1 class="article-title" data-lang="en">Gibraltar in the Background</h1>
+  <h1 class="article-title" data-lang="pt">Gibraltar ao fundo</h1>
+  <h1 class="article-title" data-lang="de">Gibraltar im Hintergrund</h1>
+
+  <div class="article-subtitle" data-lang="pl">Genera&lstrok; G&lstrok;uchowski mi&eogon;dzy Sikorskim a Klimeckim. Jedno zdj&eogon;cie, trzy losy, pytanie bez odpowiedzi.</div>
+  <div class="article-subtitle" data-lang="en">General G&lstrok;uchowski between Sikorski and Klimecki. One photograph, three fates, a question without an answer.</div>
+  <div class="article-subtitle" data-lang="pt">General G&lstrok;uchowski entre Sikorski e Klimecki. Uma fotografia, tr&ecirc;s destinos, uma pergunta sem resposta.</div>
+  <div class="article-subtitle" data-lang="de">General G&lstrok;uchowski zwischen Sikorski und Klimecki. Ein Foto, drei Schicksale, eine Frage ohne Antwort.</div>
+
+  <div class="article-author">Marek Skonieczny</div>
+  <div class="article-meta" data-lang="pl">Marzec 2026 &middot; Na podstawie kolekcji ARG (311 jednostek) i &zacute;r&oacute;de&lstrok; publicznych</div>
+  <div class="article-meta" data-lang="en">March 2026 &middot; Based on the ARG collection (311 items) and public sources</div>
+  <div class="article-meta" data-lang="pt">Mar&ccedil;o 2026 &middot; Com base na cole&ccedil;&atilde;o ARG (311 unidades) e fontes p&uacute;blicas</div>
+  <div class="article-meta" data-lang="de">M&auml;rz 2026 &middot; Auf Grundlage der ARG-Sammlung (311 Einheiten) und &ouml;ffentlicher Quellen</div>
+</div>
+
+<!-- ============ POLSKI ============ -->
+
+<div data-lang="pl">
+
+<h2>I.</h2>
+
+<p class="num"><span class="num-tag">1.</span>Zdj&eogon;cie jest ma&lstrok;e. Dziewi&eogon;&cacute; na dwana&sacute;cie centymetr&oacute;w. Czarno-bia&lstrok;e. Na rewersie kto&sacute; napisa&lstrok; o&lstrok;&oacute;wkiem: &bdquo;1941r. inspekcje / gn. Klimecki, gn. Sikorski / gen. G&lstrok;uchowski / Szko&lstrok;a Podch.&rdquo;</p>
+
+<p class="num"><span class="num-tag">2.</span>Trzech genera&lstrok;&oacute;w stoi na placu apelowym. W tle szeregi &zdot;o&lstrok;nierzy i szkockie wzg&oacute;rza. Dw&oacute;ch z nich rozmawia twarz&aogon; w twarz. Trzeci stoi obok.</p>
+
+<p class="num"><span class="num-tag">3.</span>Dw&oacute;ch z nich nie prze&zdot;yje dw&oacute;ch lat.</p>
+
+<p class="num"><span class="num-tag">4.</span>W&lstrok;adys&lstrok;aw Sikorski &mdash; Naczelny W&oacute;dz i Premier Rz&aogon;du RP na Uchod&zacute;stwie. Tadeusz Klimecki &mdash; Szef Sztabu Naczelnego Wodza. Obaj zgin&aogon; 4 lipca 1943 roku, gdy ich Liberator wpad&lstrok; do morza szesna&sacute;cie sekund po starcie z Gibraltaru.</p>
+
+<p class="num"><span class="num-tag">5.</span>Trzeci &mdash; Janusz G&lstrok;uchowski &mdash; prze&zdot;y&lstrok; jeszcze dwadzie&sacute;cia jeden lat. Zmar&lstrok; w Londynie. Pochowany na cmentarzu Brompton, gr&oacute;b 576.</p>
+
+<p class="num"><span class="num-tag">6.</span>To zdj&eogon;cie le&zdot;a&lstrok;o w teczce przez osiemdziesi&aogon;t pi&eogon;&cacute; lat.</p>
+
+<h2>II.</h2>
+
+<p class="num"><span class="num-tag">7.</span>Fakty s&aogon; takie. W pa&zacute;dzierniku 1941 roku G&lstrok;uchowski dosta&lstrok; dowodzenie Brygad&aogon; Szkoln&aogon; w Szkocji. Szko&lstrok;a Podchor&aogon;&zdot;ych, poci&aogon;gi pancerne, m&lstrok;odzi ch&lstrok;opcy z ca&lstrok;ej Polski ucz&aogon;cy si&eogon; by&cacute; oficerami na obczy&zacute;nie.</p>
+
+<p class="num"><span class="num-tag">8.</span>Sikorski przyje&zdot;d&zdot;a&lstrok; do Szkocji na inspekcje. Klimecki mu towarzyszy&lstrok;. G&lstrok;uchowski ich podejmowa&lstrok;. Zdj&eogon;cie pochodzi z jednej z takich wizyt.</p>
+
+<p class="num"><span class="num-tag">9.</span>13 marca 1943 roku Sikorski po raz ostatni wizytuje wojska polskie w Szkocji.</p>
+
+<p class="num"><span class="num-tag">10.</span>W kwietniu wybucha sprawa Katynia. Niemcy og&lstrok;aszaj&aogon; odkrycie masy grobowej 22 tysi&eogon;cy polskich oficer&oacute;w. Sikorski &zdot;&aogon;da &sacute;ledztwa Czerwonego Krzy&zdot;a. Stalin zrywa stosunki dyplomatyczne z rz&aogon;dem polskim. Churchill ka&zdot;e Polakom milcze&cacute;.</p>
+
+<p class="num"><span class="num-tag">11.</span>Sikorski nie milczy.</p>
+
+<p class="num"><span class="num-tag">12.</span>4 lipca 1943 &mdash; Gibraltar. Liberator AL523. Start o 23:07. Szesna&sacute;cie sekund p&oacute;&zacute;niej samolot wpada do morza, pi&eogon;&cacute;set pi&eogon;&cacute;dziesi&aogon;t metr&oacute;w od brzegu. Szesna&sacute;cie os&oacute;b ginie. Prze&zdot;ywa pilot &mdash; Czech Eduard Prchal.</p>
+
+<p class="num"><span class="num-tag">13.</span>Prchal mia&lstrok; na sobie kamizelk&eogon; ratunkow&aogon;, kt&oacute;r&aogon; &mdash; jak twierdzi&lstrok; &mdash; nigdy nie za&lstrok;o&zdot;y&lstrok;.</p>
+
+<h2>III.</h2>
+
+<p class="num"><span class="num-tag">14.</span>Kim Philby &mdash; Harold Adrian Russell Philby &mdash; w 1943 roku kierowa&lstrok; kontrwywiadem MI6 na P&oacute;&lstrok;wyspie Iberyjskim. Jego &bdquo;rejon&rdquo; obejmowa&lstrok;: Hiszpani&eogon;, Portugali&eogon;, Madryt, Lizbon&eogon;, Tanger. I Gibraltar.</p>
+
+<p class="num"><span class="num-tag">15.</span>By&lstrok; sowieckim szpiegiem od 1934 roku.</p>
+
+<p class="num"><span class="num-tag">16.</span>W tym samym dniu, 4 lipca 1943, na lotnisku w Gibraltarze sta&lstrok; samolot ambasadora ZSRR Iwana Majskiego. Majski wraca&lstrok; z Waszyngtonu do Moskwy. Jego maszyna parkowa&lstrok;a obok Liberatora Sikorskiego.</p>
+
+<p class="num"><span class="num-tag">17.</span>Szef kontrwywiadu &mdash; sowiecki agent. Ambasador ZSRR &mdash; fizycznie obecny. Ochrona na lotnisku &mdash; kt&oacute;r&aogon; odtajniony brytyjski dokument z 1969 roku opisuje jako &bdquo;casual.&rdquo;</p>
+
+<p class="num"><span class="num-tag">18.</span>Dokumenty brytyjskiego &sacute;ledztwa s&aogon; utajnione do roku 2050.</p>
+
+<p class="num"><span class="num-tag">19.</span>Sto siedem lat po wydarzeniu.</p>
+
+<h2>IV.</h2>
+
+<p class="num"><span class="num-tag">20.</span>We wrze&sacute;niu 1943 roku &mdash; dwa miesi&aogon;ce po katastrofie &mdash; genera&lstrok; Janusz G&lstrok;uchowski obejmuje dowodzenie wszystkimi polskimi jednostkami wojskowymi w Wielkiej Brytanii.</p>
+
+<p class="num"><span class="num-tag">21.</span>Pierwszy list w nowej roli jest datowany 14 wrze&sacute;nia 1943 roku. Zachowa&lstrok; si&eogon; w kolekcji jako ARG/II/24. Kto&sacute; pisze do niego: &bdquo;Szanowny Panie Generale!&rdquo;</p>
+
+<p class="num"><span class="num-tag">22.</span>Sze&sacute;&cacute; dni p&oacute;&zacute;niej, 20 wrze&sacute;nia, dow&oacute;dca 3 Pu&lstrok;ku Piechoty Legion&oacute;w wr&eogon;cza mu odznak&eogon; pu&lstrok;kow&aogon;. To rytualne uznanie nowej w&lstrok;adzy.</p>
+
+<p class="num"><span class="num-tag">23.</span>G&lstrok;uchowski nie jest podejrzany o nic. Jest &sacute;wiadkiem.</p>
+
+<p class="num"><span class="num-tag">24.</span>By&lstrok; tam. W Szkocji. Przyjmowa&lstrok; Sikorskiego na inspekcjach. Raportowa&lstrok; do Klimeckiego. A potem, po ich &sacute;mierci, przej&aogon;&lstrok; dowodzenie.</p>
+
+<h2>V.</h2>
+
+<p class="num"><span class="num-tag">25.</span>W 1947 roku G&lstrok;uchowski wsp&oacute;&lstrok;za&lstrok;o&zdot;y&lstrok; Instytut Pi&lstrok;sudskiego w Londynie. Przekaza&lstrok; instytucji swoje akta s&lstrok;u&zdot;bowe. Dzi&sacute; le&zdot;&aogon; jako Zesp&oacute;&lstrok; 70 &mdash; dziewi&eogon;&cacute; jednostek archiwalnych.</p>
+
+<p class="num"><span class="num-tag">26.</span>Jednostka 1: &bdquo;&Zdot;yciorys, rozkazy, nominacje, dokumenty osobiste (kalendarze, notatnik, listy), broszury, wycinki z gazet. 1916&ndash;1964.&rdquo;</p>
+
+<p class="num"><span class="num-tag">27.</span>Kalendarze. Notatnik. 1916&ndash;1964.</p>
+
+<p class="num"><span class="num-tag">28.</span>Czy genera&lstrok; zapisa&lstrok; co&sacute; w lipcu 1943 roku?</p>
+
+<p class="num"><span class="num-tag">29.</span>Jednostka 6: &bdquo;Raporty, sprawozdania ze Sztabu G&lstrok;&oacute;wnego, zapisy rozm&oacute;w, wiersze. 1940&ndash;1945.&rdquo;</p>
+
+<p class="num"><span class="num-tag">30.</span>Raporty ze Sztabu G&lstrok;&oacute;wnego. Sztabu, kt&oacute;rego szefem by&lstrok; Klimecki.</p>
+
+<p class="num"><span class="num-tag">31.</span>Zapisy rozm&oacute;w.</p>
+
+<p class="num"><span class="num-tag">32.</span>Z kim?</p>
+
+<h2>VI.</h2>
+
+<p class="num"><span class="num-tag">33.</span>Dwadzie&sacute;cia jeden lat po katastrofie genera&lstrok; Kazimierz Sosnkowski pisze do G&lstrok;uchowskiego list z farmy w Arundel, prowincja Quebec. Jest 28 maja 1964 roku. Sosnkowski ma 78 lat.</p>
+
+<p class="num"><span class="num-tag">34.</span>&bdquo;Kochany Generale&rdquo; &mdash; zaczyna.</p>
+
+<p class="num"><span class="num-tag">35.</span>Do listu do&lstrok;&aogon;cza dwie strony zatytu&lstrok;owane &bdquo;Pro Memoria&rdquo; &mdash; list&eogon; 24 spraw, kt&oacute;rymi si&eogon; jednocze&sacute;nie zajmuje. Pozycja 19: &bdquo;21. rocznica &sacute;mierci gen. Sikorskiego (Chicago).&rdquo;</p>
+
+<p class="num"><span class="num-tag">36.</span>Po dwudziestu jeden latach Sikorski nadal jest spraw&aogon;.</p>
+
+<p class="num"><span class="num-tag">37.</span>G&lstrok;uchowski zmar&lstrok; czterna&sacute;cie dni po otrzymaniu tego listu.</p>
+
+<h2>VII.</h2>
+
+<p class="num"><span class="num-tag">38.</span>Instytut Pami&eogon;ci Narodowej prowadzi&lstrok; &sacute;ledztwo w sprawie katastrofy gibraltarskiej w latach 2008&ndash;2013. Ekshumowano Sikorskiego, Klimeckiego, Mareckiego i Ponikiawskiego. Wykonano sekcj&eogon; zw&lstrok;ok po 65 latach.</p>
+
+<p class="num"><span class="num-tag">39.</span>Wynik: obra&zdot;enia wielonarz&aogon;dowe, zgodne z katastrof&aogon; lotnicza. Mo&zdot;liwe utonięcie jako dodatkowa przyczyna. Wykluczono: uduszenie, postrza&lstrok;, uk&lstrok;ucie, otrucie.</p>
+
+<p class="num"><span class="num-tag">40.</span>W grudniu 2013 roku IPN umorzy&lstrok; spraw&eogon;. Uzasadnienie: &bdquo;Dowody nie pozwalaj&aogon; ani potwierdzi&cacute;, ani wykluczy&cacute; tezy o sabota&zdot;u.&rdquo;</p>
+
+<p class="num"><span class="num-tag">41.</span>Nie pozwalaj&aogon; potwierdzi&cacute;.</p>
+
+<p class="num"><span class="num-tag">42.</span>Nie pozwalaj&aogon; wykluczy&cacute;.</p>
+
+<h2>VIII.</h2>
+
+<p class="num"><span class="num-tag">43.</span>Cztery miesi&aogon;ce po &sacute;mierci Sikorskiego, w listopadzie 1943, Churchill i Roosevelt spotykaj&aogon; si&eogon; ze Stalinem w Teheranie. Ustalaj&aogon;, &zdot;e wschodnia Polska &mdash; Lw&oacute;w, Wilno, Grodno &mdash; przejdzie do Zwi&aogon;zku Radzieckiego.</p>
+
+<p class="num"><span class="num-tag">44.</span>&Zdot;aden p&oacute;&zacute;niejszy polski przyw&oacute;dca nie mia&lstrok; takiej pozycji jak Sikorski. &Zdot;aden nie rozmawia&lstrok; z Churchillem na ty. &Zdot;aden nie mia&lstrok; odwagi &zdot;&aogon;da&cacute; od Stalina odpowiedzialno&sacute;ci za Katy&nacute;.</p>
+
+<p class="num"><span class="num-tag">45.</span>Po Sikorskim Polsk&eogon; mo&zdot;na by&lstrok;o odda&cacute;.</p>
+
+<h2>IX.</h2>
+
+<p class="num"><span class="num-tag">46.</span>Zdj&eogon;cie le&zdot;y przede mn&aogon;. Dziewi&eogon;&cacute; na dwana&sacute;cie centymetr&oacute;w. Trzech genera&lstrok;&oacute;w. Szkockie wzg&oacute;rza. Rok 1941.</p>
+
+<p class="num"><span class="num-tag">47.</span>Nie wiem, o czym rozmawiali tego dnia. Nie wiem, czy Sikorski zapyta&lstrok; G&lstrok;uchowskiego o podchor&aogon;&zdot;ych. Nie wiem, czy Klimecki &zdot;artowa&lstrok; z czegokolwiek.</p>
+
+<p class="num"><span class="num-tag">48.</span>Wiem, &zdot;e w Zespole 70, jednostka 1, le&zdot;y notatnik genera&lstrok;a G&lstrok;uchowskiego. 1916&ndash;1964. Nikt go nie przebada&lstrok; pod k&aogon;tem Gibraltaru.</p>
+
+<p class="num"><span class="num-tag">49.</span>Wiem, &zdot;e w jednostce 6 le&zdot;&aogon; zapisy rozm&oacute;w ze Sztabu G&lstrok;&oacute;wnego. Sztabu Klimeckiego.</p>
+
+<p class="num"><span class="num-tag">50.</span>Wiem, &zdot;e dokumenty brytyjskie b&eogon;d&aogon; utajnione jeszcze dwadzie&sacute;cia cztery lata.</p>
+
+<p class="num"><span class="num-tag">51.</span>W tym samym archiwum &mdash; w Instytucie Pi&lstrok;sudskiego w Londynie, kt&oacute;ry G&lstrok;uchowski wsp&oacute;&lstrok;za&lstrok;o&zdot;y&lstrok; &mdash; le&zdot;y Zesp&oacute;&lstrok; 17. Archiwum Ludwika Kmicic-Skrzy&nacute;skiego. Drugiego kawalerzysty Si&oacute;demki Beliny. Wspomnienia nagrywane dla Radia Wolna Europa w 1964 roku.</p>
+
+<p class="num"><span class="num-tag">52.</span>I le&zdot;y Zesp&oacute;&lstrok; 19. Archiwum Sosnkowskiego. 33 jednostki. Korespondencja &sacute;ci&sacute;le tajna z dow&oacute;dcami. 1944.</p>
+
+<p class="num"><span class="num-tag">53.</span>Wszystko jest w jednym budynku. W Londynie.</p>
+
+<p class="num"><span class="num-tag">54.</span>Trzeba tylko otworzy&cacute; teczk&eogon;.</p>
+
+</div>
+
+<!-- ============ ENGLISH ============ -->
+
+<div data-lang="en">
+
+<h2>I.</h2>
+
+<p class="num"><span class="num-tag">1.</span>The photograph is small. Nine by twelve centimeters. Black and white. On the reverse, someone wrote in pencil: &ldquo;1941. inspections / Gen. Klimecki, Gen. Sikorski / Gen. G&lstrok;uchowski / Officer Cadet School.&rdquo;</p>
+
+<p class="num"><span class="num-tag">2.</span>Three generals stand on a parade ground. Behind them, ranks of soldiers and Scottish hills. Two of them are talking face to face. The third stands beside them.</p>
+
+<p class="num"><span class="num-tag">3.</span>Two of them will not survive two years.</p>
+
+<p class="num"><span class="num-tag">4.</span>W&lstrok;adys&lstrok;aw Sikorski &mdash; Commander-in-Chief and Prime Minister of the Polish Government-in-Exile. Tadeusz Klimecki &mdash; Chief of the General Staff. Both died on July 4, 1943, when their Liberator plunged into the sea sixteen seconds after takeoff from Gibraltar.</p>
+
+<p class="num"><span class="num-tag">5.</span>The third &mdash; Janusz G&lstrok;uchowski &mdash; lived another twenty-one years. Died in London. Buried at Brompton Cemetery, grave 576.</p>
+
+<p class="num"><span class="num-tag">6.</span>This photograph lay in a folder for eighty-five years.</p>
+
+<h2>II.</h2>
+
+<p class="num"><span class="num-tag">7.</span>The facts are these. In October 1941, G&lstrok;uchowski was given command of the Training Brigade in Scotland. Officer Cadet School, armored trains, young men from all over Poland learning to be officers in exile.</p>
+
+<p class="num"><span class="num-tag">8.</span>Sikorski came to Scotland for inspections. Klimecki accompanied him. G&lstrok;uchowski received them. The photograph comes from one of these visits.</p>
+
+<p class="num"><span class="num-tag">9.</span>On March 13, 1943, Sikorski visited Polish troops in Scotland for the last time.</p>
+
+<p class="num"><span class="num-tag">10.</span>In April the Katy&nacute; affair erupts. Germany announces the discovery of mass graves containing 22,000 Polish officers. Sikorski demands a Red Cross investigation. Stalin severs diplomatic relations with the Polish government. Churchill tells the Poles to be silent.</p>
+
+<p class="num"><span class="num-tag">11.</span>Sikorski does not fall silent.</p>
+
+<p class="num"><span class="num-tag">12.</span>July 4, 1943 &mdash; Gibraltar. Liberator AL523. Takeoff at 23:07. Sixteen seconds later the plane hits the water, five hundred and fifty meters from shore. Sixteen people die. The pilot survives &mdash; Czech airman Eduard Prchal.</p>
+
+<p class="num"><span class="num-tag">13.</span>Prchal was wearing a life jacket he claimed he never put on.</p>
+
+<h2>III.</h2>
+
+<p class="num"><span class="num-tag">14.</span>Kim Philby &mdash; Harold Adrian Russell Philby &mdash; in 1943 ran MI6 counter-intelligence for the Iberian Peninsula. His &ldquo;region&rdquo; covered: Spain, Portugal, Madrid, Lisbon, Tangier. And Gibraltar.</p>
+
+<p class="num"><span class="num-tag">15.</span>He had been a Soviet spy since 1934.</p>
+
+<p class="num"><span class="num-tag">16.</span>That same day, July 4, 1943, the plane of Soviet Ambassador Ivan Maisky stood on the Gibraltar airfield. Maisky was returning from Washington to Moscow. His aircraft was parked next to Sikorski&rsquo;s Liberator.</p>
+
+<p class="num"><span class="num-tag">17.</span>The head of counter-intelligence &mdash; a Soviet agent. The USSR ambassador &mdash; physically present. Airfield security &mdash; described in a declassified 1969 British document as &ldquo;casual.&rdquo;</p>
+
+<p class="num"><span class="num-tag">18.</span>British investigation documents are classified until the year 2050.</p>
+
+<p class="num"><span class="num-tag">19.</span>One hundred and seven years after the event.</p>
+
+<h2>IV.</h2>
+
+<p class="num"><span class="num-tag">20.</span>In September 1943 &mdash; two months after the crash &mdash; General Janusz G&lstrok;uchowski takes command of all Polish military units in Great Britain.</p>
+
+<p class="num"><span class="num-tag">21.</span>The first letter in his new role is dated September 14, 1943. It survives in the collection as ARG/II/24. Someone writes to him: &ldquo;Dear General!&rdquo;</p>
+
+<p class="num"><span class="num-tag">22.</span>Six days later, on September 20, the commander of the 3rd Infantry Regiment of the Legions presents him with a regimental badge. A ritual recognition of new authority.</p>
+
+<p class="num"><span class="num-tag">23.</span>G&lstrok;uchowski is not a suspect. He is a witness.</p>
+
+<p class="num"><span class="num-tag">24.</span>He was there. In Scotland. He received Sikorski during inspections. He reported to Klimecki. And then, after their deaths, he took command.</p>
+
+<h2>V.</h2>
+
+<p class="num"><span class="num-tag">25.</span>In 1947, G&lstrok;uchowski co-founded the Pi&lstrok;sudski Institute in London. He gave the institution his service records. Today they lie as Collection 70 &mdash; nine archival units.</p>
+
+<p class="num"><span class="num-tag">26.</span>Unit 1: &ldquo;Biography, orders, nominations, personal documents (calendars, notebook, letters), brochures, press clippings. 1916&ndash;1964.&rdquo;</p>
+
+<p class="num"><span class="num-tag">27.</span>Calendars. A notebook. 1916&ndash;1964.</p>
+
+<p class="num"><span class="num-tag">28.</span>Did the general write anything in July 1943?</p>
+
+<p class="num"><span class="num-tag">29.</span>Unit 6: &ldquo;Reports, briefings from the General Staff, records of conversations, poems. 1940&ndash;1945.&rdquo;</p>
+
+<p class="num"><span class="num-tag">30.</span>Reports from the General Staff. The staff whose chief was Klimecki.</p>
+
+<p class="num"><span class="num-tag">31.</span>Records of conversations.</p>
+
+<p class="num"><span class="num-tag">32.</span>With whom?</p>
+
+<h2>VI.</h2>
+
+<p class="num"><span class="num-tag">33.</span>Twenty-one years after the crash, General Kazimierz Sosnkowski writes to G&lstrok;uchowski from his farm in Arundel, Quebec province. It is May 28, 1964. Sosnkowski is 78 years old.</p>
+
+<p class="num"><span class="num-tag">34.</span>&ldquo;Dear General&rdquo; &mdash; he begins.</p>
+
+<p class="num"><span class="num-tag">35.</span>Attached are two pages titled &ldquo;Pro Memoria&rdquo; &mdash; a list of 24 matters he is simultaneously handling. Item 19: &ldquo;21st anniversary of the death of Gen. Sikorski (Chicago).&rdquo;</p>
+
+<p class="num"><span class="num-tag">36.</span>After twenty-one years, Sikorski is still an active matter.</p>
+
+<p class="num"><span class="num-tag">37.</span>G&lstrok;uchowski died fourteen days after receiving this letter.</p>
+
+<h2>VII.</h2>
+
+<p class="num"><span class="num-tag">38.</span>The Institute of National Remembrance investigated the Gibraltar crash between 2008 and 2013. They exhumed Sikorski, Klimecki, Marecki and Ponikiewski. Autopsies were performed sixty-five years later.</p>
+
+<p class="num"><span class="num-tag">39.</span>Result: multi-organ injuries consistent with an air crash. Possible drowning as an additional cause. Ruled out: strangulation, shooting, stabbing, poisoning.</p>
+
+<p class="num"><span class="num-tag">40.</span>In December 2013 the IPN closed the case. Justification: &ldquo;The evidence allows neither confirmation nor exclusion of the sabotage thesis.&rdquo;</p>
+
+<p class="num"><span class="num-tag">41.</span>Cannot confirm.</p>
+
+<p class="num"><span class="num-tag">42.</span>Cannot exclude.</p>
+
+<h2>VIII.</h2>
+
+<p class="num"><span class="num-tag">43.</span>Four months after Sikorski&rsquo;s death, in November 1943, Churchill and Roosevelt meet Stalin in Tehran. They agree that eastern Poland &mdash; Lw&oacute;w, Wilno, Grodno &mdash; will pass to the Soviet Union.</p>
+
+<p class="num"><span class="num-tag">44.</span>No subsequent Polish leader had Sikorski&rsquo;s standing. None spoke to Churchill as an equal. None had the courage to demand Stalin answer for Katy&nacute;.</p>
+
+<p class="num"><span class="num-tag">45.</span>After Sikorski, Poland could be given away.</p>
+
+<h2>IX.</h2>
+
+<p class="num"><span class="num-tag">46.</span>The photograph lies before me. Nine by twelve centimeters. Three generals. Scottish hills. The year 1941.</p>
+
+<p class="num"><span class="num-tag">47.</span>I do not know what they discussed that day. I do not know if Sikorski asked G&lstrok;uchowski about the cadets. I do not know if Klimecki joked about anything.</p>
+
+<p class="num"><span class="num-tag">48.</span>I know that in Collection 70, Unit 1, lies General G&lstrok;uchowski&rsquo;s notebook. 1916&ndash;1964. No one has examined it with Gibraltar in mind.</p>
+
+<p class="num"><span class="num-tag">49.</span>I know that Unit 6 contains records of conversations with the General Staff. Klimecki&rsquo;s staff.</p>
+
+<p class="num"><span class="num-tag">50.</span>I know that British documents will remain classified for another twenty-four years.</p>
+
+<p class="num"><span class="num-tag">51.</span>In the same archive &mdash; at the Pi&lstrok;sudski Institute in London, which G&lstrok;uchowski co-founded &mdash; lies Collection 17. The archive of Ludwik Kmicic-Skrzy&nacute;ski. The second cavalryman of Belina&rsquo;s Seven. Memoirs recorded for Radio Free Europe in 1964.</p>
+
+<p class="num"><span class="num-tag">52.</span>And Collection 19. Sosnkowski&rsquo;s archive. 33 units. Top-secret correspondence with commanders. 1944.</p>
+
+<p class="num"><span class="num-tag">53.</span>Everything is in one building. In London.</p>
+
+<p class="num"><span class="num-tag">54.</span>Someone just needs to open the folder.</p>
+
+</div>
+
+<!-- ============ PORTUGUÊS ============ -->
+
+<div data-lang="pt">
+
+<h2>I.</h2>
+
+<p class="num"><span class="num-tag">1.</span>A fotografia &eacute; pequena. Nove por doze cent&iacute;metros. Preto e branco. No verso, algu&eacute;m escreveu a l&aacute;pis: &ldquo;1941. inspe&ccedil;&otilde;es / Gen. Klimecki, Gen. Sikorski / Gen. G&lstrok;uchowski / Escola de Cadetes.&rdquo;</p>
+
+<p class="num"><span class="num-tag">2.</span>Tr&ecirc;s generais est&atilde;o numa pra&ccedil;a de armas. Atr&aacute;s deles, fileiras de soldados e colinas escocesas. Dois conversam frente a frente. O terceiro est&aacute; ao lado.</p>
+
+<p class="num"><span class="num-tag">3.</span>Dois deles n&atilde;o sobreviver&atilde;o dois anos.</p>
+
+<p class="num"><span class="num-tag">4.</span>W&lstrok;adys&lstrok;aw Sikorski &mdash; Comandante-em-Chefe e Primeiro-Ministro do Governo Polon&ecirc;s no Ex&iacute;lio. Tadeusz Klimecki &mdash; Chefe do Estado-Maior. Ambos morreram em 4 de julho de 1943, quando seu Liberator mergulhou no mar dezesseis segundos ap&oacute;s a decolagem de Gibraltar.</p>
+
+<p class="num"><span class="num-tag">5.</span>O terceiro &mdash; Janusz G&lstrok;uchowski &mdash; viveu mais vinte e um anos. Morreu em Londres. Enterrado no Cemit&eacute;rio de Brompton, t&uacute;mulo 576.</p>
+
+<p class="num"><span class="num-tag">6.</span>Esta fotografia ficou numa pasta por oitenta e cinco anos.</p>
+
+<p class="num"><span class="num-tag">11.</span>Sikorski n&atilde;o se cala.</p>
+
+<p class="num"><span class="num-tag">13.</span>Prchal usava um colete salva-vidas que &mdash; segundo ele &mdash; nunca vestiu.</p>
+
+<p class="num"><span class="num-tag">15.</span>Era espi&atilde;o sovi&eacute;tico desde 1934.</p>
+
+<p class="num"><span class="num-tag">23.</span>G&lstrok;uchowski n&atilde;o &eacute; suspeito. &Eacute; testemunha.</p>
+
+<p class="num"><span class="num-tag">28.</span>O general escreveu algo em julho de 1943?</p>
+
+<p class="num"><span class="num-tag">32.</span>Com quem?</p>
+
+<p class="num"><span class="num-tag">45.</span>Depois de Sikorski, a Pol&ocirc;nia podia ser entregue.</p>
+
+<p class="num"><span class="num-tag">54.</span>Basta abrir a pasta.</p>
+
+</div>
+
+<!-- ============ DEUTSCH ============ -->
+
+<div data-lang="de">
+
+<h2>I.</h2>
+
+<p class="num"><span class="num-tag">1.</span>Das Foto ist klein. Neun mal zw&ouml;lf Zentimeter. Schwarz-wei&szlig;. Auf der R&uuml;ckseite hat jemand mit Bleistift geschrieben: &bdquo;1941. Inspektionen / Gen. Klimecki, Gen. Sikorski / Gen. G&lstrok;uchowski / Kadettenschule.&ldquo;</p>
+
+<p class="num"><span class="num-tag">2.</span>Drei Gener&auml;le stehen auf einem Appellplatz. Im Hintergrund Soldatenreihen und schottische H&uuml;gel. Zwei von ihnen sprechen von Angesicht zu Angesicht. Der Dritte steht daneben.</p>
+
+<p class="num"><span class="num-tag">3.</span>Zwei von ihnen werden keine zwei Jahre &uuml;berleben.</p>
+
+<p class="num"><span class="num-tag">11.</span>Sikorski schweigt nicht.</p>
+
+<p class="num"><span class="num-tag">13.</span>Prchal trug eine Schwimmweste, die er &mdash; wie er behauptete &mdash; nie angezogen hatte.</p>
+
+<p class="num"><span class="num-tag">15.</span>Er war seit 1934 sowjetischer Spion.</p>
+
+<p class="num"><span class="num-tag">19.</span>Hundertsieben Jahre nach dem Ereignis.</p>
+
+<p class="num"><span class="num-tag">23.</span>G&lstrok;uchowski ist kein Verd&auml;chtiger. Er ist ein Zeuge.</p>
+
+<p class="num"><span class="num-tag">28.</span>Hat der General im Juli 1943 etwas notiert?</p>
+
+<p class="num"><span class="num-tag">32.</span>Mit wem?</p>
+
+<p class="num"><span class="num-tag">45.</span>Nach Sikorski konnte man Polen verschenken.</p>
+
+<p class="num"><span class="num-tag">54.</span>Man muss nur die Mappe &ouml;ffnen.</p>
+
+</div>
+
+</article>
+
+<div class="footer-nav">
+  <a href="katalog_gluchowski_v4.html" data-lang="pl">&#8592; Katalog</a>
+  <a href="katalog_gluchowski_v4.html" data-lang="en">&#8592; Catalog</a>
+  <a href="archiwum.html" data-lang="pl">Archiwum dokument&oacute;w</a>
+  <a href="archiwum.html" data-lang="en">Document archive</a>
+  <a href="galeria.html" data-lang="pl">Galeria fotografii</a>
+  <a href="galeria.html" data-lang="en">Photo gallery</a>
+</div>
+
+<script>
+function setLang(lang) {
+  document.querySelectorAll('[data-lang]').forEach(function(el) {
+    el.style.display = 'none';
+  });
+  document.querySelectorAll('[data-lang="' + lang + '"]').forEach(function(el) {
+    el.style.display = el.tagName === 'SPAN' ? 'inline' : 'block';
+  });
+  document.querySelectorAll('.lang-btn').forEach(function(btn) {
+    btn.classList.toggle('active', btn.textContent.trim() === lang.toUpperCase());
+  });
+}
+</script>
+
+</body>
+</html>
