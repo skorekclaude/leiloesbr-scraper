@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Korespondencja — Archiwum Rodziny G&#322;uchowskich</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+:root {
+  --bg: #0c0b09;
+  --surface: #141210;
+  --surface2: #1a1816;
+  --border: #2a2520;
+  --border-light: #3a3530;
+  --gold: #c9a96e;
+  --gold-dim: #8a7e6b;
+  --text: #e0d5c1;
+  --text-dim: #8a7e6b;
+  --text-faint: #5a5040;
+  --accent: #a08050;
+  --red: #c45a5a;
+  --ink: #7a9bb5;
+  --pencil: #b8a88a;
+  --censor: #c45a5a;
+}
+body { background:var(--bg); color:var(--text); font-family:'Source Sans 3',sans-serif; font-weight:400; line-height:1.6; }
+
+/* LANGUAGE BAR */
+.lang-bar { position:sticky; top:0; z-index:200; background:rgba(12,11,9,.98); backdrop-filter:blur(16px); padding:8px 20px; border-bottom:1px solid var(--border); display:flex; gap:0; justify-content:center; align-items:center; }
+.lang-bar .lang-label { font-size:0.7em; color:var(--text-faint); text-transform:uppercase; letter-spacing:2px; margin-right:12px; font-weight:500; }
+.lang-btn { padding:6px 14px; background:transparent; border:1px solid transparent; cursor:pointer; font-size:0.82em; font-family:'Source Sans 3',sans-serif; color:var(--text-dim); transition:all .2s; border-radius:3px; font-weight:500; }
+.lang-btn:hover { color:var(--gold); border-color:var(--border); }
+.lang-btn.active { color:var(--gold); border-color:var(--gold); background:rgba(201,169,110,.08); font-weight:600; }
+
+/* PAGE NAV */
+.page-nav { display:flex; justify-content:center; gap:0; background:var(--surface); border-bottom:1px solid var(--border); padding:0; }
+.page-nav-link { padding:14px 28px; color:var(--text-dim); text-decoration:none; font-size:0.9em; font-weight:500; border-bottom:3px solid transparent; transition:all .2s; }
+.page-nav-link:hover { color:var(--gold); background:var(--surface2); }
+.page-nav-link.active { color:var(--gold); border-bottom-color:var(--gold); font-weight:600; }
+
+/* HEADER */
+.header { text-align:center; padding:60px 20px 30px; border-bottom:1px solid var(--border); }
+.header h1 { font-family:'Playfair Display',serif; font-size:2.4em; color:var(--gold); letter-spacing:2px; margin-bottom:8px; }
+.header .subtitle { color:var(--text-dim); font-size:1.1em; font-weight:300; margin-bottom:16px; }
+.header .stats { display:flex; gap:30px; justify-content:center; flex-wrap:wrap; margin-top:20px; }
+.stat { text-align:center; }
+.stat-num { font-family:'Playfair Display',serif; font-size:2em; color:var(--gold); display:block; }
+.stat-label { font-size:0.75em; color:var(--text-faint); text-transform:uppercase; letter-spacing:1px; }
+
+/* TIMELINE */
+.timeline { position:relative; max-width:1200px; margin:40px auto; padding:0 20px; }
+.timeline::before { content:''; position:absolute; left:50%; top:0; bottom:0; width:2px; background:var(--border); transform:translateX(-50%); }
+.tl-era { position:relative; margin-bottom:40px; }
+.tl-era-marker { position:absolute; left:50%; transform:translateX(-50%); width:16px; height:16px; border-radius:50%; background:var(--gold); border:3px solid var(--bg); z-index:2; }
+.tl-era-label { text-align:center; font-family:'Playfair Display',serif; font-size:1.3em; color:var(--gold); padding:8px 0 20px; margin-top:-4px; }
+.tl-era-desc { text-align:center; color:var(--text-dim); font-size:0.85em; max-width:600px; margin:0 auto 20px; }
+@media (max-width:768px) {
+  .timeline::before { left:20px; }
+  .tl-era-marker { left:20px; }
+  .tl-era-label { text-align:left; padding-left:44px; }
+  .tl-era-desc { text-align:left; margin-left:44px; }
+}
+
+/* FILTER BAR */
+.filter-bar { display:flex; gap:12px; padding:15px 20px; background:var(--surface); border:1px solid var(--border); border-radius:8px; margin:20px auto 15px; max-width:1400px; flex-wrap:wrap; align-items:center; }
+.filter-bar select, .filter-bar input { padding:8px 12px; border:1px solid var(--border); border-radius:4px; font-size:14px; background:var(--surface2); color:var(--text); font-family:'Source Sans 3',sans-serif; }
+.filter-bar select:focus, .filter-bar input:focus { outline:none; border-color:var(--gold); }
+.letter-count { margin-left:auto; color:var(--text-faint); font-size:14px; }
+
+/* SECTION */
+.section { max-width:1400px; margin:0 auto; padding:50px 20px 30px; }
+.section-header { margin-bottom:30px; padding-bottom:16px; border-bottom:1px solid var(--border); }
+.section-num { font-family:'JetBrains Mono',monospace; font-size:0.75em; color:var(--gold); letter-spacing:2px; margin-bottom:4px; }
+.section-title { font-family:'Playfair Display',serif; font-size:1.6em; color:var(--text); font-weight:600; margin-bottom:8px; }
+.section-desc { font-size:0.9em; color:var(--text-dim); line-height:1.6; max-width:800px; }
+.section-meta { font-size:0.8em; color:var(--text-faint); margin-top:8px; }
+
+/* CARDS GRID */
+.cards-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(420px, 1fr)); gap:20px; }
+
+/* LETTER CARD */
+.card { background:var(--surface); border:1px solid var(--border); border-radius:4px; overflow:hidden; transition:all .3s; }
+.card:hover { border-color:var(--accent); transform:translateY(-1px); box-shadow:0 6px 20px rgba(0,0,0,.3); }
+.card-img-wrap { height:260px; overflow:hidden; background:#0a0908; display:flex; align-items:center; justify-content:center; border-bottom:1px solid var(--border); cursor:pointer; }
+.card-img-wrap img { max-width:100%; max-height:100%; object-fit:contain; }
+.card-body { padding:18px; }
+.card-sygn { font-family:'JetBrains Mono',monospace; font-size:0.7em; color:var(--gold); letter-spacing:1px; margin-bottom:6px; }
+.card-title { font-family:'Playfair Display',serif; font-size:1.05em; color:var(--text); margin-bottom:8px; line-height:1.35; font-weight:600; }
+.card-meta-row { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; padding-bottom:8px; border-bottom:1px solid var(--border); }
+.card-date { font-size:0.85em; color:var(--gold); font-weight:500; }
+.card-type { font-size:0.72em; color:var(--text-faint); background:var(--surface2); padding:2px 8px; border-radius:2px; text-transform:uppercase; letter-spacing:1px; }
+
+/* LETTER-SPECIFIC: ROUTE */
+.card-route { display:flex; align-items:center; gap:8px; margin-bottom:10px; font-size:0.82em; }
+.card-route-from { color:var(--ink); font-weight:500; }
+.card-route-arrow { color:var(--text-faint); font-size:1.2em; }
+.card-route-to { color:var(--pencil); font-weight:500; }
+.card-route-place { color:var(--text-faint); font-size:0.9em; }
+
+/* LETTER-SPECIFIC: BADGES */
+.card-badges { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:10px; }
+.badge { font-size:0.7em; padding:2px 8px; border-radius:2px; text-transform:uppercase; letter-spacing:1px; border:1px solid; }
+.badge-handwritten { color:var(--pencil); border-color:var(--pencil); background:rgba(184,168,138,.08); }
+.badge-typed { color:var(--text-dim); border-color:var(--border); }
+.badge-censored { color:var(--censor); border-color:var(--censor); background:rgba(196,90,90,.08); }
+.badge-envelope { color:var(--gold-dim); border-color:var(--gold-dim); }
+.badge-kriegsgef { color:#7ab87a; border-color:#7ab87a; background:rgba(122,184,122,.08); }
+.badge-postcard { color:var(--ink); border-color:var(--ink); background:rgba(122,155,181,.08); }
+
+/* STANDARD FIELDS */
+.card-field { font-size:0.82em; color:var(--text-dim); margin-bottom:6px; line-height:1.5; }
+.field-label { color:var(--text-faint); font-weight:500; font-size:0.9em; }
+.card-context { color:var(--accent); font-style:italic; }
+.card-condition { font-size:0.75em; color:var(--text-faint); margin-top:8px; padding-top:6px; border-top:1px solid var(--border); }
+
+/* TRANSCRIPTION PANEL */
+.card-transcription { border-top:1px solid var(--border); margin-top:10px; padding-top:8px; }
+.trans-toggle { cursor:pointer; font-size:0.82em; color:var(--gold); font-weight:500; padding:4px 0; user-select:none; }
+.trans-toggle:hover { color:var(--accent); }
+.trans-content { display:none; padding:10px 0 4px; }
+.card-transcription.open .trans-toggle { color:var(--accent); }
+.card-transcription.open .trans-content { display:block; }
+.trans-text { font-family:'JetBrains Mono',monospace; font-size:0.78em; color:var(--text); background:var(--surface2); padding:12px; border-radius:4px; margin:8px 0; white-space:pre-wrap; line-height:1.6; max-height:300px; overflow-y:auto; }
+
+/* CROSS-REFERENCES */
+.powiazanie-link { color:var(--gold); text-decoration:none; font-family:'JetBrains Mono',monospace; font-size:0.95em; transition:color .2s; }
+.powiazanie-link:hover { color:var(--accent); text-decoration:underline; }
+.card.highlight-target { border-color:var(--gold) !important; box-shadow:0 0 20px rgba(201,169,110,.3) !important; transition:all .5s; }
+
+/* LIGHTBOX */
+.lightbox { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,.95); z-index:9999; justify-content:center; align-items:center; flex-direction:column; }
+.lightbox.active { display:flex; }
+.lightbox img { max-width:90%; max-height:80vh; object-fit:contain; }
+.lb-close { position:absolute; top:20px; right:30px; color:#fff; font-size:40px; cursor:pointer; z-index:10001; }
+.lb-title { color:var(--text-dim); margin-top:12px; font-size:0.9em; text-align:center; max-width:80%; }
+
+/* FOOTER NAV */
+.footer-nav { display:flex; justify-content:center; gap:20px; padding:50px 20px 30px; max-width:1100px; margin:0 auto; flex-wrap:wrap; }
+.footer-btn { display:flex; flex-direction:column; align-items:center; text-decoration:none; padding:28px 24px; background:var(--surface); border:1px solid var(--border); border-radius:8px; flex:1; min-width:200px; max-width:280px; transition:all .3s; }
+.footer-btn:hover { border-color:var(--gold); transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,.3); }
+.footer-btn-icon { font-size:2.2em; margin-bottom:10px; }
+.footer-btn-label { font-family:'Playfair Display',serif; font-size:1.1em; color:var(--gold); font-weight:600; margin-bottom:6px; }
+.footer-btn-desc { font-size:0.8em; color:var(--text-dim); text-align:center; line-height:1.4; }
+
+/* FOOTER */
+.footer { text-align:center; padding:30px 20px 50px; color:var(--text-faint); font-size:0.78em; border-top:1px solid var(--border); line-height:1.8; }
+.footer a { color:var(--gold-dim); text-decoration:none; }
+.footer a:hover { color:var(--gold); }
+
+@media (max-width:600px) {
+  .cards-grid { grid-template-columns:1fr; }
+  .section-title { font-size:1.3em; }
+  .filter-bar { padding:10px; gap:8px; }
+  .page-nav-link { padding:10px 14px; font-size:0.82em; }
+  .header h1 { font-size:1.6em; }
+  .card-route { flex-wrap:wrap; }
+}
+</style>
+</head>
+<body>
+
+<!-- AUTH GATE -->
+<div id="auth-gate" style="display:flex;justify-content:center;align-items:center;min-height:100vh;background:#0c0b09;">
+  <div style="text-align:center;padding:40px;">
+    <h1 style="font-family:'Playfair Display',serif;color:#c9a96e;font-size:2em;margin-bottom:8px;">Archiwum Rodziny G&#322;uchowskich</h1>
+    <p style="color:#8a7e6b;margin-bottom:30px;">Korespondencja &mdash; dost&#281;p chroniony</p>
+    <input type="password" id="gate-pass" placeholder="Has&#322;o..." style="padding:12px 20px;font-size:16px;border:2px solid #333;background:#1a1a1a;color:#fff;border-radius:6px;width:260px;" onkeypress="if(event.key==='Enter')checkGate()">
+    <button onclick="checkGate()" style="padding:12px 24px;font-size:16px;background:#c9a96e;color:#0c0b09;border:none;border-radius:6px;margin-left:10px;cursor:pointer;font-weight:600;">Wejd&#378;</button>
+    <p id="gate-error" style="color:#c45a5a;margin-top:15px;display:none;">Nieprawid&#322;owe has&#322;o</p>
+  </div>
+</div>
+
+<!-- CONTENT -->
+<div id="auth-content" style="display:none;">
+
+<!-- LANGUAGE BAR -->
+<div class="lang-bar">
+  <span class="lang-label">J&#281;zyk / Language</span>
+  <button class="lang-btn active" onclick="switchLang('pl')">PL</button>
+  <button class="lang-btn" onclick="switchLang('en')">EN</button>
+</div>
+
+<!-- PAGE NAV -->
+<nav class="page-nav">
+  <a class="page-nav-link" href="katalog_gluchowski_v4.html">Katalog</a>
+  <a class="page-nav-link" href="archiwum.html">Archiwum</a>
+  <a class="page-nav-link" href="galeria.html">Galeria</a>
+  <a class="page-nav-link active" href="korespondencja.html">Korespondencja</a>
+</nav>
+
+<!-- HEADER -->
+<div class="header">
+  <h1 data-lang="pl" class="lang-visible">Korespondencja</h1>
+  <h1 data-lang="en">Correspondence</h1>
+  <p class="subtitle" data-lang="pl" style="display:block">Listy, kartki pocztowe i telegramy Rodziny G&#322;uchowskich<br>1939&ndash;1984 &bull; 5 kontynent&oacute;w &bull; 4 pokolenia</p>
+  <p class="subtitle" data-lang="en">Letters, postcards and telegrams of the G&#322;uchowski Family<br>1939&ndash;1984 &bull; 5 continents &bull; 4 generations</p>
+  <div class="stats">
+    <div class="stat"><span class="stat-num" id="total-count">0</span><span class="stat-label" data-lang="pl" class="lang-visible">list&oacute;w</span><span class="stat-label" data-lang="en">letters</span></div>
+    <div class="stat"><span class="stat-num">42</span><span class="stat-label" data-lang="pl" class="lang-visible">lat</span><span class="stat-label" data-lang="en">years</span></div>
+    <div class="stat"><span class="stat-num">5</span><span class="stat-label" data-lang="pl" class="lang-visible">kontynent&oacute;w</span><span class="stat-label" data-lang="en">continents</span></div>
+  </div>
+</div>
+
+<!-- FILTER BAR -->
+<div class="filter-bar">
+  <select id="filter-era" onchange="filterLetters()">
+    <option value="">Wszystkie okresy</option>
+    <option value="era-1">I. Wojna i niewola (1939&ndash;1945)</option>
+    <option value="era-2">II. Wyzwolenie i rozproszenie (1945&ndash;1947)</option>
+    <option value="era-3">III. Emigracja (1947&ndash;1984)</option>
+    <option value="era-4">IV. Pami&#281;&#263; (1984&ndash;2020)</option>
+  </select>
+  <select id="filter-sender" onchange="filterLetters()">
+    <option value="">Wszyscy nadawcy</option>
+    <option value="stefan">Stanis&#322;aw Stefan</option>
+    <option value="krzysztof">Krzysztof &bdquo;Juras&rdquo;</option>
+    <option value="janusz">gen. Janusz</option>
+    <option value="halszka">Halszka</option>
+    <option value="wanda">Wanda</option>
+    <option value="inni">Inni</option>
+  </select>
+  <select id="filter-type" onchange="filterLetters()">
+    <option value="">Wszystkie typy</option>
+    <option value="list-reczny">List r&#281;czny</option>
+    <option value="list-maszynowy">List maszynowy</option>
+    <option value="kartka-pocztowa">Kartka pocztowa</option>
+    <option value="kriegsgefangenenpost">Kriegsgefangenenpost</option>
+    <option value="telegram">Telegram</option>
+    <option value="koperta">Koperta</option>
+  </select>
+  <input type="text" id="filter-search" placeholder="Szukaj..." oninput="filterLetters()" style="flex:1;min-width:160px;">
+  <span class="letter-count" id="letter-count">0 list&oacute;w</span>
+</div>
+
+<!-- ======================== -->
+<!-- ERA I: WOJNA I NIEWOLA   -->
+<!-- ======================== -->
+<div class="section" id="era-1">
+  <div class="section-header">
+    <div class="section-num">BLOK I</div>
+    <div class="section-title">Wojna i niewola (1939&ndash;1945)</div>
+    <div class="section-desc">Korespondencja jeniecka z oboz&oacute;w: Stalag XI-B Fallingbostel, Oflag XVII A, Oflag II C Woldenberg. Kartki przez Czerwony Krzy&#380;, cenzurowane, z ograniczeniem do 25 s&#322;&oacute;w. Listy Halszki z folwarku Kliszyn do m&#281;&#380;a w obozie.</div>
+    <div class="section-meta" id="era-1-count">0 jednostek</div>
+  </div>
+  <div class="cards-grid" id="era-1-grid">
+    <!-- CARDS WILL BE INSERTED HERE -->
+    <div class="card" data-era="era-1" data-sender="halszka" data-type="kriegsgefangenenpost" id="card-placeholder-1">
+      <div class="card-body">
+        <div class="card-sygn">ARG/III/K-001</div>
+        <div class="card-title">Kriegsgefangenenpost &mdash; Halszka G&#322;uchowska do Stalagu XI-B</div>
+        <div class="card-meta-row">
+          <span class="card-date">18.I.1942</span>
+          <span class="card-type">kriegsgefangenenpost</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">Halszka G&#322;uchowska</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Stefan G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">fol. Kliszyn II, p. Rzejowice, pow. Radomszcza&#324;ski</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">M.-Stammlager XI B, Fallingbostel</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-kriegsgef">Kriegsgef.</span>
+          <span class="badge badge-handwritten">r&#281;czny</span>
+          <span class="badge badge-censored">cenzura</span>
+        </div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> Kartka jeniecka, formularz Kriegsgefangenenpost, papier &#380;&oacute;&#322;tawy, pismo odr&#281;czne atramentem, format ok. 15&times;10 cm. Stempel cenzury obozowej.</div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Tre&#347;&#263;:</span> Kartka wys&#322;ana z folwarku Kliszyn przez Halszk&#281; G&#322;uchowsk&#261; do m&#281;&#380;a/krewnego w Stalagu XI-B. Tre&#347;&#263; ograniczona regulaminem obozowym.</div>
+        <div class="card-field"><span class="field-label" data-label="tworca">Tw&oacute;rca:</span> Halszka G&#322;uchowska</div>
+        <div class="card-field"><span class="field-label" data-label="jezyk">J&#281;zyk:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> Korespondencja jeniecka podlega&#322;a &#347;cis&#322;ej cenzurze. Formularz Kriegsgefangenenpost by&#322; jedyn&#261; dozwolon&#261; form&#261; kontaktu. Kliszyn &mdash; folwark w pow. radomszcza&#324;skim, siedziba rodziny G&#322;uchowskich w Generalnym Gubernatorstwie.</div>
+        <div class="card-field"><span class="field-label" data-label="powiazania">Powi&#261;zania:</span> <a class="powiazanie-link" href="galeria.html#card-ARG-III-37">ARG/III/37</a></div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Dobry</div>
+      </div>
+    </div>
+    <!-- More cards to be added as letters are photographed -->
+  </div>
+</div>
+
+<!-- ============================== -->
+<!-- ERA II: WYZWOLENIE I ROZPROSZENIE -->
+<!-- ============================== -->
+<div class="section" id="era-2">
+  <div class="section-header">
+    <div class="section-num">BLOK II</div>
+    <div class="section-title">Wyzwolenie i rozproszenie (1945&ndash;1947)</div>
+    <div class="section-desc">Listy z II Korpusu (W&#322;ochy), Henstedt, ob&oacute;z Pahiatua (Nowa Zelandia). Pierwsze listy po wyzwoleniu &mdash; poszukiwanie rodziny, demobilizacja, decyzja: wr&oacute;ci&#263; czy zosta&#263;.</div>
+    <div class="section-meta" id="era-2-count">0 jednostek</div>
+  </div>
+  <div class="cards-grid" id="era-2-grid">
+    <!-- CARDS WILL BE INSERTED HERE -->
+  </div>
+</div>
+
+<!-- ========================== -->
+<!-- ERA III: EMIGRACJA         -->
+<!-- ========================== -->
+<div class="section" id="era-3">
+  <div class="section-header">
+    <div class="section-num">BLOK III</div>
+    <div class="section-title">Emigracja (1947&ndash;1984)</div>
+    <div class="section-desc">Korespondencja emigracyjna: Londyn, Rio de Janeiro, Barcelona. Listy gen. Janusza z Instytutu Pi&#322;sudskiego, korespondencja Krzysztofa z CAV-Lucas, listy &#347;rodowiskowe 7 Pu&#322;ku U&#322;an&oacute;w Lubelskich. Sosnkowski, Bor-Komorowski, Ko&#322;o AK.</div>
+    <div class="section-meta" id="era-3-count">0 jednostek</div>
+  </div>
+  <div class="cards-grid" id="era-3-grid">
+    <!-- CARDS WILL BE INSERTED HERE -->
+  </div>
+</div>
+
+<!-- ========================== -->
+<!-- ERA IV: PAMIEC             -->
+<!-- ========================== -->
+<div class="section" id="era-4">
+  <div class="section-header">
+    <div class="section-num">BLOK IV</div>
+    <div class="section-title">Pami&#281;&#263; (1984&ndash;2020)</div>
+    <div class="section-desc">Listy Krzysztofa do instytucji (IPN, MPW, Archiwum Emigranta), korespondencja z historykami, biogramy pisane w Rio 1995. Krzysztof jako depozytariusz pami&#281;ci rodzinnej.</div>
+    <div class="section-meta" id="era-4-count">0 jednostek</div>
+  </div>
+  <div class="cards-grid" id="era-4-grid">
+    <!-- CARDS WILL BE INSERTED HERE -->
+  </div>
+</div>
+
+<!-- METHODOLOGY NOTE -->
+<div class="section" style="max-width:800px;">
+  <div class="section-header">
+    <div class="section-title">Nota metodologiczna</div>
+  </div>
+  <div style="font-size:0.85em;color:var(--text-dim);line-height:1.7;">
+    <p>Opis na poziomie jednostki inwentarzowej wed&#322;ug standardu ISAD(G) / Dublin Core, rozszerzony o pola epistolarne. Ka&#380;dy list stanowi osobn&#261; kart&#281; katalogowow&#261; z identyfikacj&#261; nadawcy, adresata, miejsca nadania i odbioru, typu pisma, j&#281;zyka, obecno&#347;ci cenzury oraz stanu zachowania koperty.</p>
+    <p style="margin-top:10px;">Transkrypcje sporz&#261;dzane wy&#322;&#261;cznie na podstawie analizy wizualnej fotografii &mdash; bez domys&#322;&oacute;w i interpolacji. Fragmenty nieczytelne oznaczane jako <code>[nieczytelne]</code>, fragmenty zacenzurowane jako <code>[cenzura]</code>.</p>
+    <p style="margin-top:10px;"><strong>S&#322;ownik kontrolowany typ&oacute;w:</strong> list r&#281;czny, list maszynowy, kartka pocztowa, Kriegsgefangenenpost, telegram, koperta, za&#322;&#261;cznik</p>
+    <p style="margin-top:10px;"><strong>Sygnatury:</strong> ARG/{seria}/K-{numer} &mdash; gdzie K oznacza korespondencj&#281;. Serie: III (niewola), V (Krzysztof), II (gen. Janusz), VI (varia/rodzina)</p>
+  </div>
+</div>
+
+<!-- FOOTER NAV -->
+<div class="footer-nav">
+  <a href="katalog_gluchowski_v4.html" class="footer-btn">
+    <div class="footer-btn-icon">&#128218;</div>
+    <div class="footer-btn-label">Katalog</div>
+    <div class="footer-btn-desc">Historia, biografia, wycena</div>
+  </a>
+  <a href="archiwum.html" class="footer-btn">
+    <div class="footer-btn-icon">&#128451;</div>
+    <div class="footer-btn-label">Archiwum</div>
+    <div class="footer-btn-desc">276 skan&oacute;w dokument&oacute;w</div>
+  </a>
+  <a href="galeria.html" class="footer-btn">
+    <div class="footer-btn-icon">&#128247;</div>
+    <div class="footer-btn-label">Galeria</div>
+    <div class="footer-btn-desc">Fotografie wojskowe i rodzinne</div>
+  </a>
+</div>
+
+<div class="footer">
+  Archiwum Rodziny G&#322;uchowskich (ARG) &bull; Standard ISAD(G) rozszerzony o pola epistolarne<br>
+  Materia&#322;y niepublikowane &bull; Dost&#281;p wy&#322;&#261;cznie dla instytucji i partner&oacute;w badawczych<br>
+  <a href="mailto:skorek2000@yahoo.com">kontakt</a>
+</div>
+
+</div><!-- /auth-content -->
+
+<!-- SCRIPTS -->
+<script>
+// AUTH
+function checkGate(){
+  var p=document.getElementById('gate-pass').value;
+  if(p==='Skora@123'){
+    document.getElementById('auth-gate').style.display='none';
+    document.getElementById('auth-content').style.display='block';
+    updateCounts();
+  } else {
+    document.getElementById('gate-error').style.display='block';
+    document.getElementById('gate-pass').value='';
+  }
+}
+
+// LANGUAGE
+var currentLang = 'pl';
+function switchLang(lang) {
+  currentLang = lang;
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  document.querySelectorAll('[data-lang]').forEach(el => {
+    el.style.display = el.getAttribute('data-lang') === lang ? '' : 'none';
+  });
+}
+
+// FILTERING
+function filterLetters() {
+  var era = document.getElementById('filter-era').value;
+  var sender = document.getElementById('filter-sender').value;
+  var type = document.getElementById('filter-type').value;
+  var search = document.getElementById('filter-search').value.toLowerCase();
+  var visible = 0;
+
+  document.querySelectorAll('.card').forEach(function(card) {
+    var show = true;
+    if (era && card.getAttribute('data-era') !== era) show = false;
+    if (sender && card.getAttribute('data-sender') !== sender) show = false;
+    if (type && card.getAttribute('data-type') !== type) show = false;
+    if (search && !card.textContent.toLowerCase().includes(search)) show = false;
+    card.style.display = show ? '' : 'none';
+    if (show) visible++;
+  });
+
+  document.getElementById('letter-count').textContent = visible + ' list' + (visible === 1 ? '' : 'ów');
+}
+
+// COUNTS
+function updateCounts() {
+  var total = document.querySelectorAll('.card').length;
+  document.getElementById('total-count').textContent = total;
+  document.getElementById('letter-count').textContent = total + ' listów';
+  ['era-1','era-2','era-3','era-4'].forEach(function(id) {
+    var n = document.querySelectorAll('#' + id + '-grid .card').length;
+    var el = document.getElementById(id + '-count');
+    if (el) el.textContent = n + ' jednostek';
+  });
+}
+
+// LIGHTBOX
+var lb = null;
+function openLightbox(src, title) {
+  if (!lb) {
+    lb = document.createElement('div');
+    lb.className = 'lightbox';
+    lb.innerHTML = '<span class="lb-close">&times;</span><img><div class="lb-title"></div>';
+    lb.querySelector('.lb-close').onclick = function() { lb.classList.remove('active'); };
+    lb.onclick = function(e) { if (e.target === lb) lb.classList.remove('active'); };
+    document.body.appendChild(lb);
+  }
+  lb.querySelector('img').src = src;
+  lb.querySelector('.lb-title').textContent = title || '';
+  lb.classList.add('active');
+}
+
+// TRANSCRIPTION TOGGLE
+document.addEventListener('click', function(e) {
+  var toggle = e.target.closest('.trans-toggle');
+  if (toggle) {
+    toggle.closest('.card-transcription').classList.toggle('open');
+  }
+});
+
+// INIT
+document.addEventListener('DOMContentLoaded', function() {
+  updateCounts();
+});
+</script>
+
+</body>
+</html>
