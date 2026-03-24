@@ -69,16 +69,16 @@ SERIES = [
     {
         "id": "III",
         "tytul": "Ppor. Stanisław Stefan Głuchowski (1893–1962)",
-        "opis": "Ur. 1.V.1893, Bukowa. Ppor. rez. kawalerii, leg. AK nr 2856, ps. 'Stefan'. Od 1923 w Kancelarii Cywilnej Prezydenta RP (do 1939). Aresztowany przez Gestapo 18.V.1944, Pawiak, zwolniony 29.VII.1944 (2 dni przed Powstaniem!). AK — Kwatermistrzostwo I Obwodu 'Radwan', Śródmieście. Jeniec Stalag XI-B Fallingbostel (nr 1245). Zm. 17.X.1962, Warszawa, pochowany Powązki.",
+        "opis": "Ur. 1.V.1893, Bukowa. Ppor. rez. kawalerii, leg. AK nr 2856, ps. 'Stefan'. Żona: Wanda Bronisława z domu Głuchowska (1901–1976, ur. Łódź, córka Bronisława i Jadwigi z Zembrzuskich), ps. 'Krysta'/'Justyna' — farmaceutka, Kedyw, oddział DYSK, Akcja Wilanów (IX.1943), ranna. Syn: Krzysztof 'Juraś' (1926–2020). Brat żony: ppor. Włodzimierz Głuchowski 'Tomaszewski' (1904–1977), farmaceuta, Fort Sokolnicki, Żoliborz. Od 1923 w Kancelarii Cywilnej Prezydenta RP (do 1939), towarzyszył Prezydentowi Mościckiemu do granicy rumuńskiej IX.1939. Aresztowany przez Gestapo 18.V.1944, Pawiak + przesłuchania al. Szucha, zwolniony 29.VII.1944 (3 dni przed Powstaniem!). AK — Kwatermistrzostwo I Obwodu 'Radwan', Śródmieście. Jeniec: Fallingbostel, Bergen, Gross-Born, Sandbostel, Lübeck (nr 1245). Wrócił do Polski 1947. Zm. 17.X.1962, Warszawa, pochowany Powązki (kw. 99-IV-19). Wanda po wojnie aresztowana przez UB, odbudowała aptekę, dyrektorka do emerytury.",
         "daty": "1944–1945",
         "rozmiar": "6 jednostek"
     },
     {
         "id": "IV",
-        "tytul": "Lech Głuchowski ps. 'Jeżycki' (1900–1944)",
-        "opis": "Poległ w Powstaniu Warszawskim 15.IX.1944. Brak bezpośrednich dokumentów w kolekcji — wspominany w korespondencji.",
-        "daty": "—",
-        "rozmiar": "—"
+        "tytul": "Rtm. Lech Jerzy Głuchowski ps. 'Jeżycki' (1902–1944)",
+        "opis": "Ur. 2.VI.1902, Raków k. Częstochowy. Rtm. rez. kawalerii, d-ca 1. szwadronu dyw. 'Jeleń' (7 P.Uł. AK). Walki: Śródmieście, Mokotów, Sadyba, szturm na al. Szucha. 15.IX.1944 — ciężko ranny na ul. Dolnej, popełnił samobójstwo by żołnierze nie ryzykowali życia próbując go ewakuować pod ogniem. Akt heroizmu. Virtuti Militari V kl. (pośm.), Krzyż Walecznych, Złoty Krzyż Zasługi z Mieczami, Krzyż AK. Pochowany Powązki (kw. 99-I-27). Brak bezpośrednich dokumentów w kolekcji — wspominany w korespondencji i nekrologach.",
+        "daty": "1902–1944",
+        "rozmiar": "wzm."
     },
     {
         "id": "V",
@@ -3674,6 +3674,23 @@ OBJECTS = [
         "powiazania": ["ARG/VI/10", "ARG/VI/11"],
         "stan": "Dobry",
         "wycena": "100-300 PLN"
+    },
+    {
+        "sygn": "ARG/VI/13",
+        "photo": "gallery/nowe_p31_001.jpg",
+        "photo2": "gallery/nowe_p31_002.jpg",
+        "tytul": "Quittung Nr. 6054 \u2014 pokwitowanie zapomogi dla Abrama Knopnickiego, getto \u0141\u00f3d\u017a (Litzmannstadt), podpis Ch. Rumkowskiego",
+        "data": "1940\u20131944",
+        "typ": "dokument okupacyjny",
+        "opis_fizyczny": "Dwustronna kartka z\u0105bkowana, ok. 5\u00d79 cm. Awers: ostrze\u017cenie dwuj\u0119zyczne (niem./jidysz) drukowane. Rewers: formularz wype\u0142niony odr\u0119cznie atramentem z nadrukiem instytucjonalnym. Stan: \u015bredni \u2014 papier kruchy, kraw\u0119dzie z\u0105bkowane (odcinek z talonu).",
+        "opis_tresci": "AWERS: 'Warnung! / \u05d5\u05d5\u05d0\u05b8\u05e8\u05e0\u05d5\u05e0\u05d2! \u2014 Die unberechtigte Annahme der Unterst\u00fctzung wird strengstens bestraft.' (Nieuprawnione przyjmowanie zapomogi b\u0119dzie surowo karane.) REWERS: 'Quittung Nr. 6054 / Nr. 27 / K. Nr. 1024 / Hausausgaben f\u00fcr Monat [?]' Odr\u0119cznie: 'Knopnicki Abram / Hamburger 65/7' (= ul. Lutomierska 65, m.7 w getcie \u0142\u00f3dzkim). 'fak. 1 Pf.' Podpis drukowany: '(-) Ch. Rumkowski / d. Aelteste der Juden / in Litzmannstadt-Getto / Unterst\u00fctzungs-Abteil.'",
+        "seria": "VI",
+        "tworca": "\u00c4ltester der Juden in Litzmannstadt / Chaim Rumkowski",
+        "jezyk": "niemiecki, jidysz",
+        "kontekst": "POKWITOWANIE ZAPOMOGI Z GETTA \u0141\u00d3DZKIEGO Z PODPISEM CHAIMA RUMKOWSKIEGO (1877\u20131944). Rumkowski \u2014 mianowany przez Niemc\u00f3w Prze\u0142o\u017cony Starsze\u0144stwa \u017byd\u00f3w (Juden\u00e4ltester) \u2014 zarz\u0105dza\u0142 gettem jako quasi-autonomicznym organizmem. Budowa\u0142 system pracy przymusowej wierz\u0105c \u017ce 'ocalenie przez prac\u0119' uratuje cz\u0119\u015b\u0107 mieszka\u0144c\u00f3w. Podpisywa\u0142 listy deportacyjne do Che\u0142mna i Auschwitz. W sierpniu 1944 sam zosta\u0142 deportowany i zgin\u0105\u0142 w Auschwitz. Beneficjent: Abram Knopnicki, Hamburger Str. 65/7 (= Lutomierska 65/7, centrum getta). Zapomoga 1 marki \u2014 minimalna kwota, \u015bwiadcz\u0105ca o skrajnej biedzie beneficjenta. Hamburger Str. (Lutomierska) to g\u0119sta zabudowa w sercu getta \u0142\u00f3dzkiego. Los Knopnickiego nieznany \u2014 wymaga kwerendy w bazie Lodz-Names (USHMM/Yad Vashem, ~200 000 nazwisk mieszka\u0144c\u00f3w getta). REKOMENDACJA: dokument powinien trafi\u0107 do instytucji memorialnej (POLIN, Yad Vashem, USHMM) \u2014 nie na wolny rynek.",
+        "powiazania": ["ARG/VI/10", "ARG/VI/11", "ARG/VI/12", "ARG/V/160"],
+        "stan": "\u015aredni \u2014 papier kruchy",
+        "wycena": "3000-8000 PLN"
     },
 
     # -- Fotografie obozowe --
@@ -11581,6 +11598,40 @@ GALLERY_PHOTOS = [
         "data": "ok. 1950–1960",
         "osoba": "gen. Janusz Głuchowski",
         "opis": "Jedyny powojenny portret generała. Profesjonalny portret studyjny w cywilnym garniturze. Siwe falowane włosy, wąsik, mocne rysy. Głuchowski po demobilizacji PSZ — prezes Zrzeszenia Kół Pułkowych Kawalerii (1953–1964), prezes Rady Instytutu Piłsudskiego w Londynie (od 1963). Zmarł 11 czerwca 1964 w Londynie."
+    },
+
+    # ============================================================
+    # UZUPEŁNIENIE III — MARZEC 2026 (z nowego PDF)
+    # ============================================================
+
+    # FOTOGRAFIA: Wizyta bp Rubina, Beckenham 1963
+    {
+        "file": "gallery/nowe_p37_001.jpg",
+        "sekcja": 10,
+        "tytul": "Wizyta biskupa Władysława Rubina — Beckenham, 1963",
+        "data": "1963",
+        "osoba": "bp Władysław Rubin (przyszły kardynał), polonia londyńska",
+        "opis": "Grupowe zdjęcie ok. 20 osób z duchownymi przed budynkiem przy 40 Foxgrove Avenue, Beckenham. W centrum bp Władysław Rubin (1917–1990) — żołnierz Armii Andersa, uczestnik kampanii włoskiej, późniejszy Sekretarz Generalny Synodu Biskupów przy Watykanie (1967–1979), kardynał mianowany przez Jana Pawła II (1979). Bliski współpracownik Karola Wojtyły. Fotograf: Universal Photo Service — Wl. Bernarski, London W.11. Wycena: 500–2000 PLN."
+    },
+
+    # FOTOKOPIA: Stefan Głuchowski na polowaniu — jedyne zdjęcie ojca Krzysztofa
+    {
+        "file": "gallery/nowe_p38_001.jpg",
+        "sekcja": 1,
+        "tytul": "Stefan Głuchowski na polowaniu — jedyna znana fotografia ojca Krzysztofa",
+        "data": "ok. 1910–1925",
+        "osoba": "Stefan Głuchowski (ojciec Krzysztofa Andrzeja)",
+        "opis": "Fotokopia z maszynopisowym podpisem Krzysztofa Andrzeja: 'Jeden z uczni Dziadka Ziółkowskiego. Mój Ojciec Stefan Głuchowski na polowaniu.' Nr archiwalny III. Mężczyzna w zimowym futrze i kaszkiecie myśliwskim ze strzelbą przy nodze, oparty o drzewo w śniegu. JEDYNA ZNANA FOTOGRAFIA ojca Krzysztofa. Stefan — brakujące ogniwo genealogii: Marian (PON 1914) → Janusz (generał) → Stefan (ojciec Krzysztofa) → Krzysztof (AK, Powstanie). Wycena: 300–800 PLN."
+    },
+
+    # 6 FOTOGRAFII: Uroczystość przy mogile Jelenia, Radosław, 1 VIII 1960
+    {
+        "file": "gallery/nowe_p41_002.jpg",
+        "sekcja": 7,
+        "tytul": "Uroczystość przy mogile AK Dywizjonu 'Jeleń' — płk Radosław składa wieniec, 1 VIII 1960",
+        "data": "1 VIII 1960",
+        "osoba": "płk Jan Mazurkiewicz 'Radosław', kombatanci 7 P.Uł. AK",
+        "opis": "Komplet 6 fotografii z 16. rocznicy Powstania Warszawskiego przy mogile Dywizjonu AK 'Jeleń'. Sceny: mogiła z tablicą 'AK DYWIZJON WARSZAWSKI JELEŃ POWSTANIE 1944', harcerze w warcie, duchowny błogosławiący, tłum uczestników, Radosław składa wieniec pod obeliskiem AK. Rewersy z opisami: 'pod Obeliskiem AK składa wieniec RADOSŁAW', 'Groby Jółki Porzeki', 'Zdjęcia robi mjr. Wtody — Sław Kulena — D-ca Batl. 36 P.P. Legji Akademickiej'. Jan Mazurkiewicz 'Radosław' (1896–1988) — dowódca Zgrupowania Radosław, legenda Powstania. Aresztowany przez UB, skazany, zrehabilitowany. Wycena: 3000–8000 PLN."
     },
 ]
 
