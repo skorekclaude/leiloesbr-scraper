@@ -9888,6 +9888,11 @@ body.lang-active .card-lang-badge {{ display:inline; }}
   <div class="fa-section">
     <h3 class="fa-section-title" data-lang="pl">Chronologia &mdash; historia rodziny w dokumentach</h3>
     <h3 class="fa-section-title" data-lang="en">Chronology &mdash; family history through documents</h3>
+    <h3 class="fa-section-title" data-lang="pt">Cronologia &mdash; hist&oacute;ria da fam&iacute;lia atrav&eacute;s de documentos</h3>
+    <h3 class="fa-section-title" data-lang="de">Chronologie &mdash; Familiengeschichte in Dokumenten</h3>
+    <h3 class="fa-section-title" data-lang="nl">Chronologie &mdash; familiegeschiedenis in documenten</h3>
+    <h3 class="fa-section-title" data-lang="fr">Chronologie &mdash; histoire familiale &agrave; travers les documents</h3>
+    <h3 class="fa-section-title" data-lang="yi">כראָנאָלאָגיע &mdash; משפּחה געשיכטע אין דאָקומענטן</h3>
     <div class="timeline">
 
       <div class="tl-era">Początki (1867&ndash;1904)</div>
@@ -10354,8 +10359,20 @@ body.lang-active .card-lang-badge {{ display:inline; }}
 <!-- BIOGRAFIA                                                      -->
 <!-- ============================================================ -->
 <div class="bio-section" id="biografia">
-  <h2 class="bio-main-title">Biografia rodziny Gluchowskich</h2>
-  <p class="bio-subtitle">Piec losow w jednym Powstaniu &mdash; saga oparta na dokumentach z kolekcji prywatnej i relacji Archiwum Historii Mowionej</p>
+  <h2 class="bio-main-title" data-lang="pl">Biografia rodziny G&lstrok;uchowskich</h2>
+  <h2 class="bio-main-title" data-lang="en">Biography of the G&lstrok;uchowski Family</h2>
+  <h2 class="bio-main-title" data-lang="pt">Biografia da Fam&iacute;lia G&lstrok;uchowski</h2>
+  <h2 class="bio-main-title" data-lang="de">Biografie der Familie G&lstrok;uchowski</h2>
+  <h2 class="bio-main-title" data-lang="nl">Biografie van de Familie G&lstrok;uchowski</h2>
+  <h2 class="bio-main-title" data-lang="fr">Biographie de la Famille G&lstrok;uchowski</h2>
+  <h2 class="bio-main-title" data-lang="yi">ביאָגראַפֿיע פֿון דער גלוכאָווסקי משפּחה</h2>
+  <p class="bio-subtitle" data-lang="pl">Pi&eogon;&cacute; los&oacute;w w jednym Powstaniu &mdash; saga oparta na dokumentach z kolekcji prywatnej i relacji Archiwum Historii M&oacute;wionej</p>
+  <p class="bio-subtitle" data-lang="en">Five fates in one Uprising &mdash; a saga based on private collection documents and Oral History Archives</p>
+  <p class="bio-subtitle" data-lang="pt">Cinco destinos em uma Insurrei&ccedil;&atilde;o &mdash; uma saga baseada em documentos da cole&ccedil;&atilde;o privada e Arquivo de Hist&oacute;ria Oral</p>
+  <p class="bio-subtitle" data-lang="de">F&uuml;nf Schicksale in einem Aufstand &mdash; eine Saga auf Grundlage privater Sammlungsdokumente und des Oral-History-Archivs</p>
+  <p class="bio-subtitle" data-lang="nl">Vijf lotgevallen in &eacute;&eacute;n Opstand &mdash; een saga gebaseerd op documenten uit de priv&eacute;collectie en het Oral History Archief</p>
+  <p class="bio-subtitle" data-lang="fr">Cinq destins dans une Insurrection &mdash; une saga fond&eacute;e sur les documents de la collection priv&eacute;e et les Archives d&rsquo;Histoire Orale</p>
+  <p class="bio-subtitle" data-lang="yi">פֿינף גורלות אין איין אויפֿשטאַנד &mdash; אַ סאַגאַ באַזירט אויף דאָקומענטן פֿון דער פּריוואַטער זאַמלונג</p>
 
   <div class="bio-chapter" onclick="this.classList.toggle('open')">
     <div class="bio-chapter-title">&#9654; Prolog: Patriarcha z Bukowej</div>
@@ -11767,14 +11784,27 @@ def _lang_bar_html():
 
 
 def _page_nav_html(active):
-    """Return page navigation bar. active = 'katalog' | 'archiwum' | 'galeria'."""
-    def cls(page):
-        return ' active' if page == active else ''
-    return f'''<div class="page-nav">
-  <a href="katalog_gluchowski_v4.html" class="page-nav-link{cls('katalog')}">&#128203; Katalog</a>
-  <a href="archiwum.html" class="page-nav-link{cls('archiwum')}">&#128247; Archiwum Dokument&oacute;w</a>
-  <a href="galeria.html" class="page-nav-link{cls('galeria')}">&#128444; Galeria Fotografii</a>
-</div>'''
+    """Return page navigation bar with 7-language labels. active = 'katalog' | 'archiwum' | 'galeria'."""
+    labels = {
+        'katalog': {
+            'pl': 'Katalog', 'en': 'Catalog', 'pt': 'Cat\u00e1logo', 'de': 'Katalog',
+            'nl': 'Catalogus', 'fr': 'Catalogue', 'yi': '\u05e7\u05d0\u05b7\u05d8\u05d0\u05b7\u05dc\u05d0\u05b8\u05d2'
+        },
+        'archiwum': {
+            'pl': 'Archiwum', 'en': 'Archive', 'pt': 'Arquivo', 'de': 'Archiv',
+            'nl': 'Archief', 'fr': 'Archives', 'yi': '\u05d0\u05b7\u05e8\u05db\u05d9\u05d5\u05d5'
+        },
+        'galeria': {
+            'pl': 'Galeria', 'en': 'Gallery', 'pt': 'Galeria', 'de': 'Galerie',
+            'nl': 'Galerij', 'fr': 'Galerie', 'yi': '\u05d2\u05d0\u05b7\u05dc\u05e2\u05e8\u05d9\u05e2'
+        }
+    }
+    nav_links = ""
+    for page, href in [('katalog', 'katalog_gluchowski_v4.html'), ('archiwum', 'archiwum.html'), ('galeria', 'galeria.html')]:
+        cls = ' active' if page == active else ''
+        spans = ' '.join('<span data-lang="' + lang + '">' + text + '</span>' for lang, text in labels[page].items())
+        nav_links += '  <a href="' + href + '" class="page-nav-link' + cls + '">' + spans + '</a>\n'
+    return '<div class="page-nav">\n' + nav_links + '</div>'
 
 
 def _lightbox_html():
@@ -11988,26 +12018,63 @@ def _lang_js():
 
 
 def _footer_html():
-    """Return common footer HTML with navigation buttons."""
-    return '''<div class="footer-nav">
-  <a href="katalog_gluchowski_v4.html" class="footer-btn">
-    <span class="footer-btn-icon">&#128203;</span>
-    <span class="footer-btn-label">Katalog</span>
-    <span class="footer-btn-desc">Historia rodziny, biografia, badania, wycena</span>
-  </a>
-  <a href="archiwum.html" class="footer-btn">
-    <span class="footer-btn-icon">&#128247;</span>
-    <span class="footer-btn-label">Archiwum Dokumentów</span>
-    <span class="footer-btn-desc">276 skanów dokumentów, korespondencji i ephemery</span>
-  </a>
-  <a href="galeria.html" class="footer-btn">
-    <span class="footer-btn-icon">&#128444;</span>
-    <span class="footer-btn-label">Galeria Fotografii</span>
-    <span class="footer-btn-desc">Zdjęcia rodzinne, żołnierskie, uroczystości</span>
-  </a>
-</div>
+    """Return common footer HTML with navigation buttons in 7 languages."""
+    footer_data = [
+        ("katalog_gluchowski_v4.html", {
+            "pl": ("Katalog", "Historia rodziny, biografia, badania, wycena"),
+            "en": ("Catalog", "Family history, biography, research, valuation"),
+            "pt": ("Cat\u00e1logo", "Hist\u00f3ria da fam\u00edlia, biografia, pesquisa, avalia\u00e7\u00e3o"),
+            "de": ("Katalog", "Familiengeschichte, Biografie, Forschung, Bewertung"),
+            "nl": ("Catalogus", "Familiegeschiedenis, biografie, onderzoek, taxatie"),
+            "fr": ("Catalogue", "Histoire familiale, biographie, recherche, estimation"),
+            "yi": ("\u05e7\u05d0\u05b7\u05d8\u05d0\u05b7\u05dc\u05d0\u05b8\u05d2", "\u05de\u05e9\u05e4\u05bc\u05d7\u05d4 \u05d2\u05e2\u05e9\u05d9\u05db\u05d8\u05e2, \u05d1\u05d9\u05d0\u05b8\u05d2\u05e8\u05d0\u05b7\u05e4\u05d9\u05e2, \u05e4\u05bf\u05d0\u05b8\u05e8\u05e9\u05d5\u05e0\u05d2"),
+        }),
+        ("archiwum.html", {
+            "pl": ("Archiwum", "276 skan\u00f3w dokument\u00f3w, korespondencji i ephemery"),
+            "en": ("Archive", "276 scans of documents, correspondence and ephemera"),
+            "pt": ("Arquivo", "276 digitaliza\u00e7\u00f5es de documentos e correspond\u00eancia"),
+            "de": ("Archiv", "276 Scans von Dokumenten, Korrespondenz und Ephemera"),
+            "nl": ("Archief", "276 scans van documenten, correspondentie en efemera"),
+            "fr": ("Archives", "276 num\u00e9risations de documents, correspondance et \u00e9ph\u00e9m\u00e8res"),
+            "yi": ("\u05d0\u05b7\u05e8\u05db\u05d9\u05d5\u05d5", "276 \u05e1\u05e7\u05d0\u05b7\u05e0\u05e1 \u05e4\u05bf\u05d5\u05df \u05d3\u05d0\u05b8\u05e7\u05d5\u05de\u05e2\u05e0\u05d8\u05df"),
+        }),
+        ("galeria.html", {
+            "pl": ("Galeria", "Zdj\u0119cia rodzinne, \u017co\u0142nierskie, uroczysto\u015bci"),
+            "en": ("Gallery", "Family, military and ceremony photographs"),
+            "pt": ("Galeria", "Fotografias familiares, militares e cerim\u00f4nias"),
+            "de": ("Galerie", "Familien-, Milit\u00e4r- und Zeremonienfotos"),
+            "nl": ("Galerij", "Familie-, militaire en ceremoni\u00ebfoto's"),
+            "fr": ("Galerie", "Photos familiales, militaires et de c\u00e9r\u00e9monies"),
+            "yi": ("\u05d2\u05d0\u05b7\u05dc\u05e2\u05e8\u05d9\u05e2", "\u05de\u05e9\u05e4\u05bc\u05d7\u05d4, \u05de\u05d9\u05dc\u05d9\u05d8\u05e2\u05e8\u05d9\u05e9\u05e2 \u05d0\u05d5\u05df \u05e6\u05e2\u05e8\u05e2\u05de\u05d0\u05b8\u05e0\u05d9\u05e2 \u05e4\u05bf\u05d0\u05b8\u05d8\u05d0\u05b8\u05e1"),
+        }),
+    ]
+    btns = ""
+    for href, langs in footer_data:
+        labels = ""
+        descs = ""
+        for lang, (label, desc) in langs.items():
+            labels += f'<span data-lang="{lang}">{label}</span>'
+            descs += f'<span data-lang="{lang}">{desc}</span>'
+        btns += f'''  <a href="{href}" class="footer-btn">
+    <span class="footer-btn-label">{labels}</span>
+    <span class="footer-btn-desc">{descs}</span>
+  </a>\n'''
+
+    footer_text = {
+        "pl": "Archiwum Rodziny G\u0142uchowskich &mdash; Katalog Muzealny",
+        "en": "G\u0142uchowski Family Archive &mdash; Museum Catalog",
+        "pt": "Arquivo da Fam\u00edlia G\u0142uchowski &mdash; Cat\u00e1logo Museol\u00f3gico",
+        "de": "Archiv der Familie G\u0142uchowski &mdash; Museumskatalog",
+        "nl": "Archief van de Familie G\u0142uchowski &mdash; Museumcatalogus",
+        "fr": "Archives de la Famille G\u0142uchowski &mdash; Catalogue mus\u00e9al",
+        "yi": "\u05d2\u05dc\u05d5\u05db\u05d0\u05b8\u05d5\u05d5\u05e1\u05e7\u05d9 \u05de\u05e9\u05e4\u05bc\u05d7\u05d4 \u05d0\u05b7\u05e8\u05db\u05d9\u05d5\u05d5 &mdash; \u05de\u05d5\u05d6\u05d9\u05d9 \u05e7\u05d0\u05b7\u05d8\u05d0\u05b7\u05dc\u05d0\u05b8\u05d2",
+    }
+    ft_spans = ''.join(f'<span data-lang="{l}">{t}</span>' for l, t in footer_text.items())
+
+    return f'''<div class="footer-nav">
+{btns}</div>
 <div class="footer">
-  Archiwum Rodziny Głuchowskich &mdash; Katalog Muzealny<br>
+  {ft_spans}<br>
   Standard: ISAD(G) / Dublin Core &bull; &copy; 2026
 </div>'''
 
