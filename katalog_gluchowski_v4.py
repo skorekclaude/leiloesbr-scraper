@@ -9220,15 +9220,41 @@ body.lang-active .card-lang-badge {{ display:inline; }}
   <div class="article-proposal" style="border-left:3px solid var(--gold);padding-left:20px;">
     <h4 data-lang="pl">&bdquo;Pi&eogon;&cacute; pokole&nacute;, jedna teczka &mdash; jak czyta&cacute; archiwum rodzinne&rdquo;</h4>
     <h4 data-lang="en">&ldquo;Five Generations, One Folder &mdash; How to Read a Family Archive&rdquo;</h4>
+    <h4 data-lang="pt">&ldquo;Cinco gera&ccedil;&otilde;es, uma pasta &mdash; como ler um arquivo familiar&rdquo;</h4>
+    <h4 data-lang="de">&bdquo;F&uuml;nf Generationen, eine Mappe &mdash; wie man ein Familienarchiv liest&ldquo;</h4>
+    <h4 data-lang="nl">&ldquo;Vijf generaties, &eacute;&eacute;n map &mdash; hoe een familiearchief te lezen&rdquo;</h4>
+    <h4 data-lang="fr">&laquo; Cinq g&eacute;n&eacute;rations, un dossier &mdash; comment lire une archive familiale &raquo;</h4>
+    <h4 data-lang="yi">&bdquo;פֿינף דורות, איין טעקע &mdash; ווי צו לייענען אַ משפּחה אַרכיוו&ldquo;</h4>
     <div class="ap-meta">
       <span class="ap-badge ap-type" data-lang="pl">esej archiwoznawczy</span>
       <span class="ap-badge ap-type" data-lang="en">archival essay</span>
-      <span class="ap-badge" style="background:rgba(46,204,113,.15);color:#2ecc71;">otwarty dost&eogon;p</span>
+      <span class="ap-badge ap-type" data-lang="pt">ensaio arquiv&iacute;stico</span>
+      <span class="ap-badge ap-type" data-lang="de">Archivessay</span>
+      <span class="ap-badge ap-type" data-lang="nl">archiefessay</span>
+      <span class="ap-badge ap-type" data-lang="fr">essai archivistique</span>
+      <span class="ap-badge ap-type" data-lang="yi">אַרכיוו עסיי</span>
+      <span class="ap-badge" style="background:rgba(46,204,113,.15);color:#2ecc71;" data-lang="pl">otwarty dost&eogon;p</span>
+      <span class="ap-badge" style="background:rgba(46,204,113,.15);color:#2ecc71;" data-lang="en">open access</span>
+      <span class="ap-badge" style="background:rgba(46,204,113,.15);color:#2ecc71;" data-lang="pt">acesso aberto</span>
+      <span class="ap-badge" style="background:rgba(46,204,113,.15);color:#2ecc71;" data-lang="de">offener Zugang</span>
+      <span class="ap-badge" style="background:rgba(46,204,113,.15);color:#2ecc71;" data-lang="nl">open toegang</span>
+      <span class="ap-badge" style="background:rgba(46,204,113,.15);color:#2ecc71;" data-lang="fr">acc&egrave;s libre</span>
+      <span class="ap-badge" style="background:rgba(46,204,113,.15);color:#2ecc71;" data-lang="yi">פֿרײַער צוטריט</span>
     </div>
     <div class="ap-thesis" data-lang="pl">311 dokument&oacute;w. Pi&eogon;&cacute; os&oacute;b. Trzy pokolenia. Cztery kontynenty. Jak z&nbsp;jednej teczki wy&lstrok;ania si&eogon; historia Polski XX wieku &mdash; od Organizacji Bojowej PPS w&nbsp;1905 przez Si&oacute;demk&eogon; Beliny, Powstanie Warszawskie, ob&oacute;z jeniecki, po emigracj&eogon; w&nbsp;Rio de Janeiro.</div>
     <div class="ap-thesis" data-lang="en">311 documents. Five people. Three generations. Four continents. How the history of 20th century Poland emerges from a single folder &mdash; from the PPS Combat Organization in 1905 through Belina&rsquo;s Seven, the Warsaw Uprising, a POW camp, to emigration in Rio de Janeiro.</div>
+    <div class="ap-thesis" data-lang="pt">311 documentos. Cinco pessoas. Tr&ecirc;s gera&ccedil;&otilde;es. Quatro continentes. Como a hist&oacute;ria da Pol&ocirc;nia do s&eacute;culo XX emerge de uma &uacute;nica pasta &mdash; da Organiza&ccedil;&atilde;o de Combate PPS em 1905 at&eacute; a emigra&ccedil;&atilde;o no Rio de Janeiro.</div>
+    <div class="ap-thesis" data-lang="de">311 Dokumente. F&uuml;nf Personen. Drei Generationen. Vier Kontinente. Wie die Geschichte Polens im 20. Jahrhundert aus einer einzigen Mappe hervorgeht &mdash; von der Kampforganisation PPS 1905 &uuml;ber den Warschauer Aufstand bis zur Emigration nach Rio de Janeiro.</div>
+    <div class="ap-thesis" data-lang="nl">311 documenten. Vijf personen. Drie generaties. Vier continenten. Hoe de geschiedenis van 20e-eeuws Polen uit &eacute;&eacute;n map tevoorschijn komt &mdash; van de PPS-strijdorganisatie in 1905 tot de emigratie naar Rio de Janeiro.</div>
+    <div class="ap-thesis" data-lang="fr">311 documents. Cinq personnes. Trois g&eacute;n&eacute;rations. Quatre continents. Comment l&rsquo;histoire de la Pologne du XXe si&egrave;cle &eacute;merge d&rsquo;un seul dossier &mdash; de l&rsquo;Organisation de Combat PPS en 1905 &agrave; l&rsquo;&eacute;migration &agrave; Rio de Janeiro.</div>
+    <div class="ap-thesis" data-lang="yi">311 דאָקומענטן. פֿינף מענטשן. דרײַ דורות. פֿיר קאָנטינענטן. ווי די געשיכטע פֿון 20סטן י&quot;ה פּוילן קומט אַרויס פֿון איין טעקע &mdash; פֿון דער PPS קאַמף-אָרגאַניזאַציע אין 1905 ביז דער עמיגראַציע אין ריאָ דע זשאַניירא.</div>
     <a class="ap-link" href="artykul_piec_pokolen_teczka.html" data-lang="pl">Czytaj esej</a>
     <a class="ap-link" href="artykul_piec_pokolen_teczka.html" data-lang="en">Read essay</a>
+    <a class="ap-link" href="artykul_piec_pokolen_teczka.html" data-lang="pt">Ler ensaio</a>
+    <a class="ap-link" href="artykul_piec_pokolen_teczka.html" data-lang="de">Essay lesen</a>
+    <a class="ap-link" href="artykul_piec_pokolen_teczka.html" data-lang="nl">Essay lezen</a>
+    <a class="ap-link" href="artykul_piec_pokolen_teczka.html" data-lang="fr">Lire l&rsquo;essai</a>
+    <a class="ap-link" href="artykul_piec_pokolen_teczka.html" data-lang="yi">לייענען עסיי</a>
   </div>
 
   <!-- ARTYKUŁ 1: REGULARNE WOJSKO -->
