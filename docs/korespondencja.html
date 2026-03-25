@@ -107,6 +107,16 @@ body { background:var(--bg); color:var(--text); font-family:'Source Sans 3',sans
 .badge-envelope { color:var(--gold-dim); border-color:var(--gold-dim); }
 .badge-kriegsgef { color:#7ab87a; border-color:#7ab87a; background:rgba(122,184,122,.08); }
 .badge-postcard { color:var(--ink); border-color:var(--ink); background:rgba(122,155,181,.08); }
+.badge-air-letter { color:#88b8d8; border-color:#88b8d8; background:rgba(136,184,216,.08); }
+.badge-telegram { color:#e8c84a; border-color:#e8c84a; background:rgba(232,200,74,.08); }
+.badge-itinerarium { color:#d4a0d4; border-color:#d4a0d4; background:rgba(212,160,212,.08); }
+.badge-dokument { color:#b8b8b8; border-color:#b8b8b8; background:rgba(184,184,184,.08); }
+.badge-pasek { color:#7ab87a; border-color:#7ab87a; background:rgba(122,184,122,.08); }
+
+/* HIGHLIGHT CARD — exceptional value */
+.card.card-highlight { border-color:var(--gold) !important; box-shadow:0 0 12px rgba(201,169,110,.15); }
+.card.card-highlight:hover { box-shadow:0 0 24px rgba(201,169,110,.25); }
+.card-value-note { font-size:0.75em; color:var(--gold); font-style:italic; margin-top:6px; padding-top:6px; border-top:1px solid var(--border); }
 
 /* STANDARD FIELDS */
 .card-field { font-size:0.82em; color:var(--text-dim); margin-bottom:6px; line-height:1.5; }
@@ -218,6 +228,11 @@ body { background:var(--bg); color:var(--text); font-family:'Source Sans 3',sans
     <option value="janusz">gen. Janusz</option>
     <option value="halszka">Halszka</option>
     <option value="wanda">Wanda</option>
+    <option value="przybyszewski">kpt. Przybyszewski</option>
+    <option value="ostrowski">Zygmunt Ostrowski</option>
+    <option value="kaminski">Janusz Kami&#324;ski</option>
+    <option value="krahelski">Lech Krahelski</option>
+    <option value="marian">Marian</option>
     <option value="inni">Inni</option>
   </select>
   <select id="filter-type" onchange="filterLetters()">
@@ -226,7 +241,9 @@ body { background:var(--bg); color:var(--text); font-family:'Source Sans 3',sans
     <option value="list-maszynowy">List maszynowy</option>
     <option value="kartka-pocztowa">Kartka pocztowa</option>
     <option value="kriegsgefangenenpost">Kriegsgefangenenpost</option>
+    <option value="air-letter">Air Letter</option>
     <option value="telegram">Telegram</option>
+    <option value="itinerarium">Itinerarium</option>
     <option value="koperta">Koperta</option>
   </select>
   <input type="text" id="filter-search" placeholder="Szukaj..." oninput="filterLetters()" style="flex:1;min-width:160px;">
@@ -245,7 +262,7 @@ body { background:var(--bg); color:var(--text); font-family:'Source Sans 3',sans
   </div>
   <div class="cards-grid" id="era-1-grid">
     <!-- CARDS WILL BE INSERTED HERE -->
-    <div class="card" data-era="era-1" data-sender="halszka" data-type="kriegsgefangenenpost" id="card-placeholder-1">
+    <div class="card" data-era="era-1" data-sender="halszka" data-type="kriegsgefangenenpost" id="card-ARG-III-K-001">
       <div class="card-body">
         <div class="card-sygn">ARG/III/K-001</div>
         <div class="card-title">Kriegsgefangenenpost &mdash; Halszka G&#322;uchowska do Stalagu XI-B</div>
@@ -292,7 +309,971 @@ body { background:var(--bg); color:var(--text); font-family:'Source Sans 3',sans
     <div class="section-meta" id="era-2-count">0 jednostek</div>
   </div>
   <div class="cards-grid" id="era-2-grid">
-    <!-- CARDS WILL BE INSERTED HERE -->
+
+    <!-- ARG/V/201 — kpt. Jan Przybyszewski -->
+    <div class="card" data-era="era-2" data-sender="przybyszewski" data-type="list-reczny" id="card-ARG-V-201">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/201</div>
+        <div class="card-title">List kpt. Jana Przybyszewskiego do Krzysztofa G&#322;uchowskiego</div>
+        <div class="card-meta-row">
+          <span class="card-date">15.IX.1945</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">kpt. Jan Przybyszewski</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">Reims, Francja</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Opis fizyczny:</span> 1 arkusz dwustronnie. Atrament niebiesko-szary. Korespondencja prywatna, list odr&#281;czny.</div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> S&#322;u&#380;ba wartownicza pod Amerykanami. Ankieta repatriacyjna &mdash; 30% za powrotem do Kraju. Brat w okolicach Hamburga.</div>
+        <div class="card-field"><span class="field-label">Tw&oacute;rca:</span> kpt. Jan Przybyszewski</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label">Kontekst:</span> Jedno z pierwszych &#347;wiadectw nastoj&oacute;w repatriacyjnych w&#347;r&oacute;d &#380;o&#322;nierzy polskich we Francji po zako&#324;czeniu dzia&#322;a&#324; wojennych.</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-203">ARG/V/203</a>, <a class="powiazanie-link" href="#card-ARG-V-212a">ARG/V/212a</a></div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Dostateczny</div>
+        <div class="card-transcription">
+          <div class="trans-toggle">&#9654; Transkrypcja</div>
+          <div class="trans-content">
+            <div class="trans-text">&bdquo;Ostatnio przeprowadzono u nas ankiet&#281; kto chce w ci&#261;gu najbli&#380;szych 30 dni wr&oacute;ci&#263; do Kraju. Za powrotem wypowiedzia&#322;o si&#281; 30%.&rdquo;</div>
+          </div>
+        </div>
+        <div class="card-value-note">Wycena: 150&ndash;300 aukcyjnie / 300&ndash;500 w kolekcji</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/202a — Zygmunt Ostrowski (1) -->
+    <div class="card" data-era="era-2" data-sender="ostrowski" data-type="list-reczny" id="card-ARG-V-202a">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/202a</div>
+        <div class="card-title">List Zygmunta Ostrowskiego do Krzysztofa G&#322;uchowskiego (1 z 2)</div>
+        <div class="card-meta-row">
+          <span class="card-date">30.XII.1945</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">Zygmunt Ostrowski</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">CMF (Central Mediterranean Forces)</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Opis fizyczny:</span> 1 arkusz kremowy, foxing (plamy). Korespondencja prywatna.</div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Ojciec w Lubece, pyta o Matk&#281;. Grupa &bdquo;Choroby 2&rdquo; (15 pp. AK), Szko&#322;a Podchor&#261;&#380;ych.</div>
+        <div class="card-field"><span class="field-label">Tw&oacute;rca:</span> Zygmunt Ostrowski</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-202b">ARG/V/202b</a> (para)</div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Dostateczny (foxing)</div>
+        <div class="card-transcription">
+          <div class="trans-toggle">&#9654; Transkrypcja (fragment)</div>
+          <div class="trans-content">
+            <div class="trans-text">&bdquo;Czy ma Pan wiadomo&#347;ci o Matce?&rdquo;</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ARG/V/202b — Zygmunt Ostrowski (2) -->
+    <div class="card" data-era="era-2" data-sender="ostrowski" data-type="list-reczny" id="card-ARG-V-202b">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/202b</div>
+        <div class="card-title">List Zygmunta Ostrowskiego do Krzysztofa G&#322;uchowskiego (2 z 2)</div>
+        <div class="card-meta-row">
+          <span class="card-date">16.III.1946</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">Zygmunt Ostrowski</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">CMF (Central Mediterranean Forces)</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Opis fizyczny:</span> 1 arkusz jasnoniebieski. Korespondencja prywatna.</div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Ma&#322;a matura. List od Ojca Krzysztofa, oferuje opiek&#281;.</div>
+        <div class="card-field"><span class="field-label">Tw&oacute;rca:</span> Zygmunt Ostrowski</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-202a">ARG/V/202a</a> (para)</div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Dobry</div>
+        <div class="card-transcription">
+          <div class="trans-toggle">&#9654; Transkrypcja (fragment)</div>
+          <div class="trans-content">
+            <div class="trans-text">&bdquo;Prosz&#281; mnie traktowa&#263; jako swego starego koleg&#281;&rdquo;</div>
+          </div>
+        </div>
+        <div class="card-value-note">Wycena pary 202a&ndash;b: 250&ndash;450 aukcyjnie / 400&ndash;700 w kolekcji</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/203 — Itinerarium wojenne -->
+    <div class="card card-highlight" data-era="era-2" data-sender="krzysztof" data-type="itinerarium" id="card-ARG-V-203">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/203</div>
+        <div class="card-title">Itinerarium wojenne Krzysztofa G&#322;uchowskiego</div>
+        <div class="card-meta-row">
+          <span class="card-date">1945&ndash;1947</span>
+          <span class="card-type">itinerarium</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+          <span class="badge badge-itinerarium">itinerarium</span>
+        </div>
+        <div class="card-field"><span class="field-label">Opis fizyczny:</span> 1 arkusz w linie z zeszytu, dwustronnie. Atrament fioletowy + o&#322;&oacute;wek.</div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263; (awers):</span> Trasa: Warszawa 5.X.1944 &rarr; O&#380;ar&oacute;w &rarr; Fallingbostel (Stalag XI-B) &rarr; Dorsten &rarr; D&uuml;sseldorf &rarr; Reims &rarr; Troyes &rarr; Pary&#380; &rarr; Marsylia &rarr; Genova &rarr; Neapol &rarr; Liverpool &rarr; Bodney &rarr; London.</div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263; (rewers):</span> Notatki z fizyki, lista: &bdquo;Aparat fotograficzny&#10003;, Buty&#10003;, Zegarek&#10003;, Rowerek, pami&#261;tk&#281; dla Gosi.&rdquo;</div>
+        <div class="card-field"><span class="field-label">Tw&oacute;rca:</span> Krzysztof G&#322;uchowski</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label">Kontekst:</span> WYBITNY EKSPONAT &mdash; centralny dokument wystawowy. Jedyna znana rekonstrukcja pe&#322;nej trasy wojennej Krzysztofa od Powstania Warszawskiego przez niewol&#281; do emigracji.</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-201">ARG/V/201</a>, <a class="powiazanie-link" href="#card-ARG-V-212a">ARG/V/212a</a></div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Dostateczny</div>
+        <div class="card-value-note">&#9733; Wyj&#261;tkowa warto&#347;&#263; &mdash; Wycena: 800&ndash;1500 aukcyjnie / 1500&ndash;2500 w kolekcji</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/204 — [Nadawca niepewny] PLACEHOLDER -->
+    <div class="card" data-era="era-2" data-sender="inni" data-type="list-reczny" id="card-ARG-V-204">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/204</div>
+        <div class="card-title">List [nadawca niepewny] do Krzysztofa G&#322;uchowskiego</div>
+        <div class="card-meta-row">
+          <span class="card-date">I.1946</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">[Nadawca niepewny]</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">Farnham</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Korespondencja prywatna. Szczeg&oacute;&#322;y do uzupe&#322;nienia po pe&#322;nej transkrypcji.</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Do oceny</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/205a — Jan Skrobecki (1) PLACEHOLDER -->
+    <div class="card" data-era="era-2" data-sender="inni" data-type="list-reczny" id="card-ARG-V-205a">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/205a</div>
+        <div class="card-title">List Jana Skrobeckiego do Krzysztofa G&#322;uchowskiego (1 z 2)</div>
+        <div class="card-meta-row">
+          <span class="card-date">I.1946</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">Jan Skrobecki</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">CMF 125</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Korespondencja prywatna. Szczeg&oacute;&#322;y do uzupe&#322;nienia po pe&#322;nej transkrypcji.</div>
+        <div class="card-field"><span class="field-label">Tw&oacute;rca:</span> Jan Skrobecki</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-205b">ARG/V/205b</a></div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Do oceny</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/205b — Jan Skrobecki (2) PLACEHOLDER -->
+    <div class="card" data-era="era-2" data-sender="inni" data-type="list-reczny" id="card-ARG-V-205b">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/205b</div>
+        <div class="card-title">List Jana Skrobeckiego do Krzysztofa G&#322;uchowskiego (2 z 2)</div>
+        <div class="card-meta-row">
+          <span class="card-date">IV.1946</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">Jan Skrobecki</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">CMF 125</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Korespondencja prywatna. Szczeg&oacute;&#322;y do uzupe&#322;nienia po pe&#322;nej transkrypcji.</div>
+        <div class="card-field"><span class="field-label">Tw&oacute;rca:</span> Jan Skrobecki</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-205a">ARG/V/205a</a></div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Do oceny</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/206 — Tadeusz Bystydżeński PLACEHOLDER -->
+    <div class="card" data-era="era-2" data-sender="inni" data-type="list-reczny" id="card-ARG-V-206">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/206</div>
+        <div class="card-title">List Tadeusza Bystyd&#380;e&#324;skiego do Krzysztofa G&#322;uchowskiego</div>
+        <div class="card-meta-row">
+          <span class="card-date">II.1946</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">Tadeusz Bystyd&#380;e&#324;ski</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">CMF 154</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Korespondencja prywatna. Szczeg&oacute;&#322;y do uzupe&#322;nienia po pe&#322;nej transkrypcji.</div>
+        <div class="card-field"><span class="field-label">Tw&oacute;rca:</span> Tadeusz Bystyd&#380;e&#324;ski</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Do oceny</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/207a — Janusz Kamiński (1 z 3) -->
+    <div class="card card-highlight" data-era="era-2" data-sender="kaminski" data-type="list-reczny" id="card-ARG-V-207a">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/207a</div>
+        <div class="card-title">List Janusza Kami&#324;skiego do Krzysztofa G&#322;uchowskiego (1 z 3)</div>
+        <div class="card-meta-row">
+          <span class="card-date">19.IX.1946</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">Janusz Kami&#324;ski</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">Brownings Camp</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Instrukcja konspiracji pocztowej: pisa&#263; przez wuja W&#322;odka, &bdquo;bezpiecznie dostarczy&#261; Pani Wandzie.&rdquo; Pami&#281;ta Krzysztofa jako ch&#322;opca.</div>
+        <div class="card-field"><span class="field-label">Tw&oacute;rca:</span> Janusz Kami&#324;ski</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label">Kontekst:</span> Cz&#281;&#347;&#263; tr&oacute;jki list&oacute;w Kami&#324;skiego &mdash; najcenniejszy zesp&oacute;&#322; korespondencji w kolekcji. Dokumentuje konspiracj&#281; pocztow&#261;, represje UB i deportacj&#281; Wandy do ZSRR.</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-207b">ARG/V/207b</a>, <a class="powiazanie-link" href="#card-ARG-V-207c">ARG/V/207c</a></div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Dobry</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/207b — Janusz Kamiński (2 z 3) -->
+    <div class="card card-highlight" data-era="era-2" data-sender="kaminski" data-type="list-reczny" id="card-ARG-V-207b">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/207b</div>
+        <div class="card-title">List Janusza Kami&#324;skiego do Krzysztofa G&#322;uchowskiego (2 z 3)</div>
+        <div class="card-meta-row">
+          <span class="card-date">28.X.1946</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">Janusz Kami&#324;ski</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">Brownings Camp</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> MAREK ARESZTOWANY PRZEZ UB 9.IX.1946 &mdash; zwolniony. Wanda prowadzi aptek&#281; &mdash; &bdquo;nie czuje si&#281; zbyt bezpieczona w Warszawie.&rdquo; Gen. Janusz z &#380;on&#261; odwiedzili ob&oacute;z.</div>
+        <div class="card-field"><span class="field-label">Tw&oacute;rca:</span> Janusz Kami&#324;ski</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label">Kontekst:</span> Kluczowy dokument o represjach UB wobec rodziny. Aresztowanie Marka i sytuacja Wandy w powojennej Warszawie.</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-207a">ARG/V/207a</a>, <a class="powiazanie-link" href="#card-ARG-V-207c">ARG/V/207c</a></div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Dobry</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/207c — Janusz Kamiński (3 z 3) -->
+    <div class="card card-highlight" data-era="era-2" data-sender="kaminski" data-type="list-reczny" id="card-ARG-V-207c">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/207c</div>
+        <div class="card-title">List Janusza Kami&#324;skiego do Krzysztofa G&#322;uchowskiego (3 z 3) &mdash; DEPORTACJA WANDY</div>
+        <div class="card-meta-row">
+          <span class="card-date">5.II.[1947]</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">Janusz Kami&#324;ski</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">Brownings Camp</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Deportacja Wandy do ZSRR. Wanda przy aptece &mdash; r&oacute;g Kruczej i Ho&#380;ej, tam gdzie by&#322;a cukiernia Paciorkowskiego. Adres kontaktowy: Sta&#347;ka Armatysowa, ul. &#379;wirki 1d m.12. Wanda by&#322;a aresztowana, wywieziona do Rosji, siedzia&#322;a w obozie w Rembertowie &mdash; na pewno pod obserwacj&#261;.</div>
+        <div class="card-field"><span class="field-label">Tw&oacute;rca:</span> Janusz Kami&#324;ski</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label">Kontekst:</span> NAJCENNIEJSZY LIST W KOLEKCJI (w tr&oacute;jce 207a&ndash;c). Jedyny znany dokument opisuj&#261;cy deportacj&#281; Wandy do ZSRR i jej powrotny pobyt w obozie w Rembertowie. Instrukcja konspiracyjna przekazywania korespondencji.</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-207a">ARG/V/207a</a>, <a class="powiazanie-link" href="#card-ARG-V-207b">ARG/V/207b</a></div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Dobry</div>
+        <div class="card-transcription">
+          <div class="trans-toggle">&#9654; Transkrypcja (fragment)</div>
+          <div class="trans-content">
+            <div class="trans-text">&bdquo;Wanda prosi by&#263; przytuli&#263; do serca Krzysia &mdash; mieszka przy aptece, kt&oacute;r&#261; z wielkim nak&#322;adem wysi&#322;ku odbudowa&#322;a &mdash; r&oacute;g Kruczej i Ho&#380;ej, tam gdzie by&#322;a cukiernia Paciorkowskiego.&rdquo;
+
+&bdquo;P. Wanda by&#322;a aresztowana, wywieziona do Rosji, potem siedzia&#322;a w obozie w Rembertowie&hellip; napewno jest pod obserwacj&#261;.&rdquo;</div>
+          </div>
+        </div>
+        <div class="card-value-note">&#9733;&#9733;&#9733; Wycena tr&oacute;jki 207a&ndash;c: 2000&ndash;3500 aukcyjnie / 3000&ndash;5000 w kolekcji</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/208a — Kobieta [Walia] (1) PLACEHOLDER -->
+    <div class="card" data-era="era-2" data-sender="inni" data-type="list-reczny" id="card-ARG-V-208a">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/208a</div>
+        <div class="card-title">List kobiety [Walia] do Krzysztofa G&#322;uchowskiego (1 z 2)</div>
+        <div class="card-meta-row">
+          <span class="card-date">X.1946</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">Kobieta [nieznana]</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">Abergavenny, Walia</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Korespondencja prywatna. Szczeg&oacute;&#322;y do uzupe&#322;nienia po pe&#322;nej transkrypcji.</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-208b">ARG/V/208b</a></div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Do oceny</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/208b — Kobieta [Walia] (2) PLACEHOLDER -->
+    <div class="card" data-era="era-2" data-sender="inni" data-type="list-reczny" id="card-ARG-V-208b">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/208b</div>
+        <div class="card-title">List kobiety [Walia] do Krzysztofa G&#322;uchowskiego (2 z 2)</div>
+        <div class="card-meta-row">
+          <span class="card-date">X.1946</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">Kobieta [nieznana]</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">Abergavenny, Walia</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Korespondencja prywatna. Szczeg&oacute;&#322;y do uzupe&#322;nienia po pe&#322;nej transkrypcji.</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-208a">ARG/V/208a</a></div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Do oceny</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/209 — Józef Dynowski PLACEHOLDER -->
+    <div class="card" data-era="era-2" data-sender="inni" data-type="list-reczny" id="card-ARG-V-209">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/209</div>
+        <div class="card-title">List J&oacute;zefa Dynowskiego do Krzysztofa G&#322;uchowskiego</div>
+        <div class="card-meta-row">
+          <span class="card-date">X.1946</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">J&oacute;zef Dynowski</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">Witley Camp</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Korespondencja prywatna. Szczeg&oacute;&#322;y do uzupe&#322;nienia po pe&#322;nej transkrypcji.</div>
+        <div class="card-field"><span class="field-label">Tw&oacute;rca:</span> J&oacute;zef Dynowski</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Do oceny</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/210a — Koło b. Żołnierzy AK (1) PLACEHOLDER -->
+    <div class="card" data-era="era-2" data-sender="inni" data-type="list-reczny" id="card-ARG-V-210a">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/210a</div>
+        <div class="card-title">List Ko&#322;a b. &#379;o&#322;nierzy AK do Krzysztofa G&#322;uchowskiego (1 z 2)</div>
+        <div class="card-meta-row">
+          <span class="card-date">XI.1946</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">Ko&#322;o b. &#379;o&#322;nierzy AK</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">Londyn SW5</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Korespondencja &#347;rodowiskowa. Szczeg&oacute;&#322;y do uzupe&#322;nienia po pe&#322;nej transkrypcji.</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-210b">ARG/V/210b</a></div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Do oceny</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/210b — Koło b. Żołnierzy AK (2) PLACEHOLDER -->
+    <div class="card" data-era="era-2" data-sender="inni" data-type="list-reczny" id="card-ARG-V-210b">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/210b</div>
+        <div class="card-title">List Ko&#322;a b. &#379;o&#322;nierzy AK do Krzysztofa G&#322;uchowskiego (2 z 2)</div>
+        <div class="card-meta-row">
+          <span class="card-date">XII.1946</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">Ko&#322;o b. &#379;o&#322;nierzy AK</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">Londyn SW5</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Korespondencja &#347;rodowiskowa. Szczeg&oacute;&#322;y do uzupe&#322;nienia po pe&#322;nej transkrypcji.</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-210a">ARG/V/210a</a></div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Do oceny</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/211a — Lech Krahelski (1 z 2) -->
+    <div class="card" data-era="era-2" data-sender="krahelski" data-type="air-letter" id="card-ARG-V-211a">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/211a</div>
+        <div class="card-title">Air Letter Lecha Krahelskiego do Krzysztofa G&#322;uchowskiego (1 z 2)</div>
+        <div class="card-meta-row">
+          <span class="card-date">9.VIII.1945</span>
+          <span class="card-type">air letter</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">Lech Krahelski</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">CMF 153</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">Liceum 3 DSK</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-air-letter">air letter</span>
+          <span class="badge badge-handwritten">r&#281;czny</span>
+          <span class="badge badge-envelope">koperta</span>
+        </div>
+        <div class="card-field"><span class="field-label">Opis fizyczny:</span> Air Letter z kopert&#261; Army Form W.3077. Najwcze&#347;niejszy list do Krzysztofa w Liceum 3 DSK.</div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Podchor&#261;&#380;&oacute;wka: &bdquo;Moim zdaniem warto.&rdquo;</div>
+        <div class="card-field"><span class="field-label">Tw&oacute;rca:</span> Lech Krahelski</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-211b">ARG/V/211b</a> (para)</div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Dobry</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/211b — Lech Krahelski (2 z 2) -->
+    <div class="card card-highlight" data-era="era-2" data-sender="krahelski" data-type="air-letter" id="card-ARG-V-211b">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/211b</div>
+        <div class="card-title">Air Letter Lecha Krahelskiego do Krzysztofa G&#322;uchowskiego (2 z 2) &mdash; RYSUNEK JELENIA</div>
+        <div class="card-meta-row">
+          <span class="card-date">27.VIII.1945</span>
+          <span class="card-type">air letter</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">Lech Krahelski</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">CMF 153</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-air-letter">air letter</span>
+          <span class="badge badge-handwritten">r&#281;czny</span>
+          <span class="badge badge-envelope">koperta</span>
+          <span class="badge badge-censored">cenzura 564</span>
+        </div>
+        <div class="card-field"><span class="field-label">Opis fizyczny:</span> Air Letter z kopert&#261;, stemple PP 122, cenzura 564. Zawiera odr&#281;czny rysunek odznaki 7 P.U&#322;. Lubelskich (jele&#324;) &mdash; jedyny rysunek w kolekcji.</div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> &bdquo;Na&#322;&#281;cz nie odda&#322; Barwy.&rdquo; Prosi o samouczek angielskiego.</div>
+        <div class="card-field"><span class="field-label">Tw&oacute;rca:</span> Lech Krahelski</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label">Kontekst:</span> Odr&#281;czny rysunek odznaki 7 Pu&#322;ku U&#322;an&oacute;w Lubelskich (jele&#324;) jest unikatem w kolekcji. Jedyny element ikonograficzny w ca&#322;ym zbiorze korespondencji.</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-211a">ARG/V/211a</a> (para)</div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Dobry</div>
+        <div class="card-value-note">&#9733; Wycena pary 211a&ndash;b: 1000&ndash;1800 aukcyjnie / 1500&ndash;2500 w kolekcji</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/212a — "Eudziu" (1) PLACEHOLDER -->
+    <div class="card" data-era="era-2" data-sender="inni" data-type="list-reczny" id="card-ARG-V-212a">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/212a</div>
+        <div class="card-title">List &bdquo;Eudziu&rdquo; do Krzysztofa G&#322;uchowskiego (1 z 2)</div>
+        <div class="card-meta-row">
+          <span class="card-date">II.1947</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">&bdquo;Eudziu&rdquo;</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">Bodney</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Korespondencja prywatna. Szczeg&oacute;&#322;y do uzupe&#322;nienia po pe&#322;nej transkrypcji.</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-212b">ARG/V/212b</a>, <a class="powiazanie-link" href="#card-ARG-V-201">ARG/V/201</a></div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Do oceny</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/212b — "Eudziu" (2) PLACEHOLDER -->
+    <div class="card" data-era="era-2" data-sender="inni" data-type="list-reczny" id="card-ARG-V-212b">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/212b</div>
+        <div class="card-title">List &bdquo;Eudziu&rdquo; do Krzysztofa G&#322;uchowskiego (2 z 2)</div>
+        <div class="card-meta-row">
+          <span class="card-date">IV.1947</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">&bdquo;Eudziu&rdquo;</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">Bodney</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Korespondencja prywatna. Szczeg&oacute;&#322;y do uzupe&#322;nienia po pe&#322;nej transkrypcji.</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-212a">ARG/V/212a</a></div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Do oceny</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/213a — W. Tudek (1) PLACEHOLDER -->
+    <div class="card" data-era="era-2" data-sender="inni" data-type="list-reczny" id="card-ARG-V-213a">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/213a</div>
+        <div class="card-title">List W. Tudka do Krzysztofa G&#322;uchowskiego (1 z 2)</div>
+        <div class="card-meta-row">
+          <span class="card-date">II.1947</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">W. Tudek</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">High Wycombe</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Korespondencja prywatna. Szczeg&oacute;&#322;y do uzupe&#322;nienia po pe&#322;nej transkrypcji.</div>
+        <div class="card-field"><span class="field-label">Tw&oacute;rca:</span> W. Tudek</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-213b">ARG/V/213b</a></div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Do oceny</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/213b — W. Tudek (2) PLACEHOLDER -->
+    <div class="card" data-era="era-2" data-sender="inni" data-type="list-reczny" id="card-ARG-V-213b">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/213b</div>
+        <div class="card-title">List W. Tudka do Krzysztofa G&#322;uchowskiego (2 z 2)</div>
+        <div class="card-meta-row">
+          <span class="card-date">II.1947</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">W. Tudek</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">Sudbury</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Korespondencja prywatna. Szczeg&oacute;&#322;y do uzupe&#322;nienia po pe&#322;nej transkrypcji.</div>
+        <div class="card-field"><span class="field-label">Tw&oacute;rca:</span> W. Tudek</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-213a">ARG/V/213a</a></div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Do oceny</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/214a — [unknown] (1) PLACEHOLDER -->
+    <div class="card" data-era="era-2" data-sender="inni" data-type="list-reczny" id="card-ARG-V-214a">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/214a</div>
+        <div class="card-title">List [nadawca nieznany] do Krzysztofa G&#322;uchowskiego (1 z 2)</div>
+        <div class="card-meta-row">
+          <span class="card-date">[1946&ndash;1947]</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">[Nadawca nieznany]</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Korespondencja prywatna. Nadawca i szczeg&oacute;&#322;y do identyfikacji.</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-214b">ARG/V/214b</a></div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Do oceny</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/214b — [unknown] (2) PLACEHOLDER -->
+    <div class="card" data-era="era-2" data-sender="inni" data-type="list-reczny" id="card-ARG-V-214b">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/214b</div>
+        <div class="card-title">List [nadawca nieznany] do Krzysztofa G&#322;uchowskiego (2 z 2)</div>
+        <div class="card-meta-row">
+          <span class="card-date">[1946&ndash;1947]</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">[Nadawca nieznany]</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Korespondencja prywatna. Nadawca i szczeg&oacute;&#322;y do identyfikacji.</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-214a">ARG/V/214a</a></div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Do oceny</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/215 — Leszek Dębski PLACEHOLDER -->
+    <div class="card" data-era="era-2" data-sender="inni" data-type="list-reczny" id="card-ARG-V-215">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/215</div>
+        <div class="card-title">List Leszka D&#281;bskiego do Krzysztofa G&#322;uchowskiego</div>
+        <div class="card-meta-row">
+          <span class="card-date">[1947]</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">Leszek D&#281;bski</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">Coventry</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Korespondencja prywatna. Szczeg&oacute;&#322;y do uzupe&#322;nienia po pe&#322;nej transkrypcji.</div>
+        <div class="card-field"><span class="field-label">Tw&oacute;rca:</span> Leszek D&#281;bski</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Do oceny</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/216a — Marian z Coventry (1 z 6) -->
+    <div class="card" data-era="era-2" data-sender="marian" data-type="list-reczny" id="card-ARG-V-216a">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/216a</div>
+        <div class="card-title">List Mariana z Coventry do Krzysztofa G&#322;uchowskiego (1 z 6)</div>
+        <div class="card-meta-row">
+          <span class="card-date">27.IX.1947</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">Marian</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">Coventry</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Praca w Constructional Engineers, zarobki 4-6-2.</div>
+        <div class="card-field"><span class="field-label">Tw&oacute;rca:</span> Marian</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-216b">ARG/V/216b</a>&ndash;<a class="powiazanie-link" href="#card-ARG-V-216-tel">216-tel</a> (seria)</div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Dobry</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/216b — Marian z Coventry (2 z 6) — PASEK WYPŁATY -->
+    <div class="card" data-era="era-2" data-sender="marian" data-type="list-reczny" id="card-ARG-V-216b">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/216b</div>
+        <div class="card-title">List Mariana z Coventry (2 z 6) &mdash; PASEK WYP&#321;ATY</div>
+        <div class="card-meta-row">
+          <span class="card-date">2.X.1947</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">Marian</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">Coventry</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+          <span class="badge badge-pasek">pasek wyp&#322;aty</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> PASEK WYP&#321;ATY: 44 godz. &times; 1s 11&frac12;d = 4-6-2 brutto, netto 3-17-1. Ojciec oferuje grunty.</div>
+        <div class="card-field"><span class="field-label">Tw&oacute;rca:</span> Marian</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label">Kontekst:</span> Unikalny dokument p&#322;acowy polskiego robotnika w powojennej Anglii. Pasek wyp&#322;aty jako za&#322;&#261;cznik do listu &mdash; &#347;wiadectwo warunk&oacute;w pracy emigrant&oacute;w.</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-216a">ARG/V/216a</a> (seria)</div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Dobry</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/216c — Marian (3 z 6) -->
+    <div class="card" data-era="era-2" data-sender="marian" data-type="list-reczny" id="card-ARG-V-216c">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/216c</div>
+        <div class="card-title">List Mariana do Krzysztofa G&#322;uchowskiego (3 z 6)</div>
+        <div class="card-meta-row">
+          <span class="card-date">22.X.1947</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">Marian</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> &bdquo;Spagetowo&rdquo;</div>
+        <div class="card-field"><span class="field-label">Tw&oacute;rca:</span> Marian</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-216a">ARG/V/216a</a> (seria)</div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Dobry</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/216d — Marian (4 z 6) -->
+    <div class="card" data-era="era-2" data-sender="marian" data-type="list-reczny" id="card-ARG-V-216d">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/216d</div>
+        <div class="card-title">List Mariana do Krzysztofa G&#322;uchowskiego (4 z 6)</div>
+        <div class="card-meta-row">
+          <span class="card-date">26.X.1947</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">Marian</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Harcerstwo Krzysztofa, ksi&#261;&#380;ka chemii &rarr; Czechowicz&oacute;wna Maryla, Warszawa, ul. Che&#322;mska 12/15.</div>
+        <div class="card-field"><span class="field-label">Tw&oacute;rca:</span> Marian</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-216a">ARG/V/216a</a> (seria)</div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Dobry</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/216e — Marian (5 z 6) -->
+    <div class="card" data-era="era-2" data-sender="marian" data-type="list-reczny" id="card-ARG-V-216e">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/216e</div>
+        <div class="card-title">List Mariana do Krzysztofa G&#322;uchowskiego (5 z 6)</div>
+        <div class="card-meta-row">
+          <span class="card-date">20.XI.1947</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">Marian</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Ko&#322;o AK, Jurek Sidorow, polska rodzina w Coventry.</div>
+        <div class="card-field"><span class="field-label">Tw&oacute;rca:</span> Marian</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-216a">ARG/V/216a</a> (seria)</div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Dobry</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/216-tel — TELEGRAM na 21. urodziny -->
+    <div class="card card-highlight" data-era="era-2" data-sender="marian" data-type="telegram" id="card-ARG-V-216-tel">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/216-tel</div>
+        <div class="card-title">Telegram na 21. urodziny Krzysztofa G&#322;uchowskiego</div>
+        <div class="card-meta-row">
+          <span class="card-date">29.XI.1947</span>
+          <span class="card-type">telegram</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">Marian</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">&mdash;</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">c/o Mrs Whittle, 12 Kenilworth Ave, Walthamstow E17</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-telegram">telegram</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Telegram urodzinowy na 21. urodziny Krzysztofa. POTWIERDZA prawdziw&#261; dat&#281; urodzin: 29.XI.1926 (vs fa&#322;szywa Kennkarte 1928).</div>
+        <div class="card-field"><span class="field-label">Tw&oacute;rca:</span> Marian</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-field card-context"><span class="field-label">Kontekst:</span> Kluczowy dokument genealogiczny &mdash; potwierdza rzeczywist&#261; dat&#281; urodzin Krzysztofa G&#322;uchowskiego (29.XI.1926), fa&#322;szowan&#261; na Kennkarte jako 1928. Adres docelowy (c/o Mrs Whittle, Walthamstow E17) dokumentuje pierwsze lokum cywilne Krzysztofa w Anglii.</div>
+        <div class="card-field"><span class="field-label">Powi&#261;zania:</span> <a class="powiazanie-link" href="#card-ARG-V-216a">ARG/V/216a</a>&ndash;<a class="powiazanie-link" href="#card-ARG-V-216e">216e</a> (seria)</div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Dobry</div>
+        <div class="card-value-note">&#9733; Wycena serii 216 (a&ndash;tel): 2500&ndash;4000 aukcyjnie / 3500&ndash;5500 w kolekcji</div>
+      </div>
+    </div>
+
+    <!-- ARG/V/217 — "Ciotka Kochana" PLACEHOLDER -->
+    <div class="card" data-era="era-2" data-sender="inni" data-type="list-reczny" id="card-ARG-V-217">
+      <div class="card-body">
+        <div class="card-sygn">ARG/V/217</div>
+        <div class="card-title">List &bdquo;Ciotka Kochana&rdquo; do Krzysztofa G&#322;uchowskiego</div>
+        <div class="card-meta-row">
+          <span class="card-date">IV.1947</span>
+          <span class="card-type">list r&#281;czny</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-from">&bdquo;Ciotka Kochana&rdquo;</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-to">Krzysztof G&#322;uchowski</span>
+        </div>
+        <div class="card-route">
+          <span class="card-route-place">[Anglia]</span>
+          <span class="card-route-arrow">&rarr;</span>
+          <span class="card-route-place">&mdash;</span>
+        </div>
+        <div class="card-badges">
+          <span class="badge badge-handwritten">r&#281;czny</span>
+        </div>
+        <div class="card-field"><span class="field-label">Tre&#347;&#263;:</span> Korespondencja prywatna. Szczeg&oacute;&#322;y do uzupe&#322;nienia po pe&#322;nej transkrypcji.</div>
+        <div class="card-field"><span class="field-label">J&#281;zyk:</span> polski</div>
+        <div class="card-condition"><span class="field-label">Stan:</span> Do oceny</div>
+      </div>
+    </div>
+
   </div>
 </div>
 
