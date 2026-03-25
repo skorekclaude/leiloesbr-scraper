@@ -402,7 +402,27 @@ body.lang-active .card-lang-badge { display:inline; }
   .tab-btn { padding: 10px 14px; font-size: 13px; }
   .filter-bar { padding: 10px; gap: 8px; }
   .filter-bar select, .filter-bar input { font-size: 13px; padding: 6px 10px; }
+  .places-grid { grid-template-columns:1fr; }
+  .place-card { min-width:0; }
 }
+
+/* PLACES MAP */
+.places-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(300px,1fr)); gap:14px; }
+.places-country-group { margin-bottom:30px; }
+.places-country-label { display:flex; align-items:center; gap:10px; margin-bottom:14px; padding:8px 16px; background:var(--surface2); border-left:3px solid var(--gold); font-family:'Playfair Display',serif; font-size:1.05em; color:var(--gold); letter-spacing:1px; }
+.places-country-label .country-flag { font-size:1.2em; }
+.place-card { background:var(--surface); border:1px solid var(--border); border-radius:4px; padding:14px 16px; transition:all .3s; position:relative; overflow:hidden; }
+.place-card:hover { border-color:var(--accent); transform:translateY(-1px); box-shadow:0 4px 16px rgba(0,0,0,.3); }
+.place-card::before { content:''; position:absolute; top:0; left:0; width:3px; height:100%; background:var(--gold); opacity:0; transition:opacity .3s; }
+.place-card:hover::before { opacity:1; }
+.place-card .place-name { font-family:'Playfair Display',serif; font-size:0.95em; color:var(--text); font-weight:600; margin-bottom:4px; }
+.place-card .place-region { font-size:0.68em; color:var(--gold); text-transform:uppercase; letter-spacing:2px; margin-bottom:6px; font-weight:600; }
+.place-card .place-desc { font-size:0.8em; color:var(--text-dim); line-height:1.55; margin-bottom:6px; }
+.place-card .place-period { font-family:'JetBrains Mono',monospace; font-size:0.72em; color:var(--text-faint); }
+.place-card .place-docs { font-family:'JetBrains Mono',monospace; font-size:0.68em; color:var(--text-faint); margin-top:4px; }
+.places-legend { display:flex; flex-wrap:wrap; gap:12px; margin-top:20px; padding:12px 16px; background:var(--surface); border:1px solid var(--border); border-radius:4px; font-size:0.78em; color:var(--text-dim); }
+.places-legend-item { display:flex; align-items:center; gap:6px; }
+.places-legend-dot { width:10px; height:10px; border-radius:50%; border:1px solid var(--border); }
 </style>
 </head>
 <body>
@@ -3861,10 +3881,363 @@ body.lang-active .card-lang-badge { display:inline; }
       <span data-lang="yi">&#8594; עפֿן עדות אויף 1944.pl</span>
     </a></p>
   </div>
+
+<!-- MAPA MIEJSC — GEOGRAFIA RODZINY -->
+<div class="fa-section" id="mapa-miejsc">
+  <h3 class="fa-section-title">
+    <span data-lang="pl">Mapa miejsc &mdash; geografia rodziny G&lstrok;uchowskich</span>
+    <span data-lang="en">Map of Places &mdash; Geography of the G&lstrok;uchowski Family</span>
+  </h3>
+  <p style="font-size:0.82em;color:var(--text-faint);margin-bottom:20px;">
+    <span data-lang="pl">30+ lokalizacji w 8 krajach &mdash; od Bukowej pod Piotrkowem po Rio de Janeiro. Miejsca z korespondencji, dokument&oacute;w jenieckich, akt emigracyjnych i relacji ustnych.</span>
+    <span data-lang="en">30+ locations across 8 countries &mdash; from Bukowa near Piotrk&oacute;w to Rio de Janeiro. Places from correspondence, POW documents, emigration records and oral testimonies.</span>
+  </p>
+
+  <!-- POLSKA -->
+  <div class="places-country-group">
+    <div class="places-country-label"><span class="country-flag">&#127477;&#127473;</span> <span data-lang="pl">POLSKA (przed wojn&aogon; i po)</span><span data-lang="en">POLAND (pre-war and post-war)</span></div>
+    <div class="places-grid">
+
+      <div class="place-card">
+        <div class="place-name">Warszawa</div>
+        <div class="place-region"><span data-lang="pl">Mazowsze</span><span data-lang="en">Masovia</span></div>
+        <div class="place-desc">
+          <span data-lang="pl">Dom rodzinny przy &Lstrok;azienkach, Kancelaria Prezydenta RP (Janusz), Powstanie Warszawskie 1944 (Stefan, Krzysztof ps. &bdquo;Juras&rdquo;), apteka Wandy na rogu Kruczej/Ho&zdot;ej.</span>
+          <span data-lang="en">Family home near &Lstrok;azienki, President&rsquo;s Chancellery (Janusz), Warsaw Uprising 1944 (Stefan, Krzysztof &ldquo;Juras&rdquo;), Wanda&rsquo;s pharmacy at Krucza/Ho&zdot;a corner.</span>
+        </div>
+        <div class="place-period">1888&ndash;1944</div>
+        <div class="place-docs">ARG/II/63, ARG/III/136&ndash;208</div>
+      </div>
+
+      <div class="place-card">
+        <div class="place-name">Bukowa k. Piotrkowa</div>
+        <div class="place-region"><span data-lang="pl">&Lstrok;&oacute;dzkie</span><span data-lang="en">&Lstrok;&oacute;d&zacute; region</span></div>
+        <div class="place-desc">
+          <span data-lang="pl">Maj&aogon;tek rodzinny G&lstrok;uchowskich &mdash; punkt wyj&sacute;cia rodu, ziemia szlachecka.</span>
+          <span data-lang="en">G&lstrok;uchowski family estate &mdash; ancestral seat, noble land.</span>
+        </div>
+        <div class="place-period">XIX w.</div>
+        <div class="place-docs">ARG/I</div>
+      </div>
+
+      <div class="place-card">
+        <div class="place-name">Cz&eogon;stochowa</div>
+        <div class="place-region"><span data-lang="pl">&Sacute;l&aogon;sk / Ma&lstrok;opolska</span><span data-lang="en">Silesia / Lesser Poland</span></div>
+        <div class="place-desc">
+          <span data-lang="pl">Siedziba PON &mdash; Marian G&lstrok;uchowski komisarz na powiat cz&eogon;stochowski, legitymacja nr 2.</span>
+          <span data-lang="en">PON headquarters &mdash; Marian G&lstrok;uchowski, commissioner for Cz&eogon;stochowa district, membership card No. 2.</span>
+        </div>
+        <div class="place-period">1867&ndash;1930s</div>
+        <div class="place-docs">ARG/I/1</div>
+      </div>
+
+      <div class="place-card">
+        <div class="place-name">Kliszyn, pow. Radomszcza&nacute;ski</div>
+        <div class="place-region"><span data-lang="pl">&Lstrok;&oacute;dzkie</span><span data-lang="en">&Lstrok;&oacute;d&zacute; region</span></div>
+        <div class="place-desc">
+          <span data-lang="pl">Folwark Halszki G&lstrok;uchowskiej &mdash; adres nadawczy Kriegsgefangenenpost, listy z niewoli.</span>
+          <span data-lang="en">Halszka G&lstrok;uchowska&rsquo;s farmstead &mdash; sender address on Kriegsgefangenenpost, letters from captivity.</span>
+        </div>
+        <div class="place-period">1940&ndash;1945</div>
+        <div class="place-docs">ARG/III/136&ndash;139</div>
+      </div>
+
+      <div class="place-card">
+        <div class="place-name">Mi&nacute;sk Mazowiecki</div>
+        <div class="place-region"><span data-lang="pl">Mazowsze</span><span data-lang="en">Masovia</span></div>
+        <div class="place-desc">
+          <span data-lang="pl">Zebranie rodzinne po powrocie brata autorki listu 208a z Moskwy (6&frac12; roku wi&eogon;zienia).</span>
+          <span data-lang="en">Family gathering after the return of letter 208a author&rsquo;s brother from Moscow (6&frac12; years of imprisonment).</span>
+        </div>
+        <div class="place-period">po 1956</div>
+        <div class="place-docs">ARG/III/208a</div>
+      </div>
+
+      <div class="place-card">
+        <div class="place-name">Rembert&oacute;w</div>
+        <div class="place-region"><span data-lang="pl">Warszawa-wsch&oacute;d</span><span data-lang="en">Warsaw-east</span></div>
+        <div class="place-desc">
+          <span data-lang="pl">Ob&oacute;z po deportacji Wandy &mdash; punkt tranzytowy po Powstaniu.</span>
+          <span data-lang="en">Camp after Wanda&rsquo;s deportation &mdash; transit point after the Uprising.</span>
+        </div>
+        <div class="place-period">1944&ndash;1945</div>
+        <div class="place-docs">ARG/III</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NIEMCY -->
+  <div class="places-country-group">
+    <div class="places-country-label"><span class="country-flag">&#127465;&#127466;</span> <span data-lang="pl">NIEMCY (niewola)</span><span data-lang="en">GERMANY (captivity)</span></div>
+    <div class="places-grid">
+
+      <div class="place-card">
+        <div class="place-name">Fallingbostel (Stalag XI-B)</div>
+        <div class="place-region">Niedersachsen</div>
+        <div class="place-desc">
+          <span data-lang="pl">G&lstrok;&oacute;wny ob&oacute;z jeniecki &mdash; Stefan i Krzysztof G&lstrok;uchowscy jako je&nacute;cy wojenni po Powstaniu Warszawskim.</span>
+          <span data-lang="en">Main POW camp &mdash; Stefan and Krzysztof G&lstrok;uchowski as prisoners of war after the Warsaw Uprising.</span>
+        </div>
+        <div class="place-period">X.1944 &ndash; IV.1945</div>
+        <div class="place-docs">ARG/III/136&ndash;139</div>
+      </div>
+
+      <div class="place-card">
+        <div class="place-name">Dorsten &rarr; Gerresheim &rarr; D&uuml;sseldorf</div>
+        <div class="place-region">Nordrhein-Westfalen</div>
+        <div class="place-desc">
+          <span data-lang="pl">Trasa jeniecka Krzysztofa &mdash; komanda robocze, etapy mi&eogon;dzy obozami.</span>
+          <span data-lang="en">Krzysztof&rsquo;s POW route &mdash; labor details, stages between camps.</span>
+        </div>
+        <div class="place-period">1944&ndash;1945</div>
+        <div class="place-docs">ARG/III</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FRANCJA -->
+  <div class="places-country-group">
+    <div class="places-country-label"><span class="country-flag">&#127467;&#127479;</span> <span data-lang="pl">FRANCJA (droga do wolno&sacute;ci)</span><span data-lang="en">FRANCE (road to freedom)</span></div>
+    <div class="places-grid">
+
+      <div class="place-card">
+        <div class="place-name">Reims</div>
+        <div class="place-region">Champagne</div>
+        <div class="place-desc">
+          <span data-lang="pl">Kwatera Eisenhowera &mdash; punkt ankietowy (30% Polak&oacute;w), Przybyszewski, decyzja o dalszej drodze.</span>
+          <span data-lang="en">Eisenhower&rsquo;s HQ &mdash; screening point (30% Poles), Przybyszewski, decision on onward route.</span>
+        </div>
+        <div class="place-period">V.1945</div>
+        <div class="place-docs">ARG/III/208</div>
+      </div>
+
+      <div class="place-card">
+        <div class="place-name">Troyes</div>
+        <div class="place-region">Champagne</div>
+        <div class="place-desc">
+          <span data-lang="pl">Janek &mdash; s&lstrok;u&zdot;ba pod Amerykanami, etap tranzytowy po wyzwoleniu.</span>
+          <span data-lang="en">Janek &mdash; service under the Americans, transit stage after liberation.</span>
+        </div>
+        <div class="place-period">1945</div>
+        <div class="place-docs">ARG/III</div>
+      </div>
+
+      <div class="place-card">
+        <div class="place-name">Pary&zdot; &rarr; Marsylia</div>
+        <div class="place-region"><span data-lang="pl">Trasa na po&lstrok;udnie</span><span data-lang="en">Southern route</span></div>
+        <div class="place-desc">
+          <span data-lang="pl">Trasa Krzysztofa do W&lstrok;och &mdash; przez Francj&eogon; do II Korpusu PSZ.</span>
+          <span data-lang="en">Krzysztof&rsquo;s route to Italy &mdash; through France to the II Polish Corps.</span>
+        </div>
+        <div class="place-period">1945</div>
+        <div class="place-docs">ARG/III</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- WLOCHY -->
+  <div class="places-country-group">
+    <div class="places-country-label"><span class="country-flag">&#127470;&#127481;</span> <span data-lang="pl">W&Lstrok;OCHY (II Korpus)</span><span data-lang="en">ITALY (II Polish Corps)</span></div>
+    <div class="places-grid">
+
+      <div class="place-card">
+        <div class="place-name">CMF (Central Mediterranean Forces)</div>
+        <div class="place-region"><span data-lang="pl">Po&lstrok;udniowe W&lstrok;ochy</span><span data-lang="en">Southern Italy</span></div>
+        <div class="place-desc">
+          <span data-lang="pl">Krahelski, Ostrowski, Skrobecki &mdash; sie&cacute; oficer&oacute;w II Korpusu, korespondencja wojskowa.</span>
+          <span data-lang="en">Krahelski, Ostrowski, Skrobecki &mdash; II Corps officer network, military correspondence.</span>
+        </div>
+        <div class="place-period">1945&ndash;1946</div>
+        <div class="place-docs">ARG/III/158&ndash;181</div>
+      </div>
+
+      <div class="place-card">
+        <div class="place-name">Amendola &rarr; Neapol</div>
+        <div class="place-region">Puglia / Campania</div>
+        <div class="place-desc">
+          <span data-lang="pl">Stacje Krzysztofa &mdash; przerzut z Francji, organizacja transportu do Wielkiej Brytanii.</span>
+          <span data-lang="en">Krzysztof&rsquo;s stations &mdash; transfer from France, organizing transport to Great Britain.</span>
+        </div>
+        <div class="place-period">1945&ndash;1946</div>
+        <div class="place-docs">ARG/III</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- WIELKA BRYTANIA -->
+  <div class="places-country-group">
+    <div class="places-country-label"><span class="country-flag">&#127468;&#127463;</span> <span data-lang="pl">WIELKA BRYTANIA (emigracja)</span><span data-lang="en">GREAT BRITAIN (emigration)</span></div>
+    <div class="places-grid">
+
+      <div class="place-card">
+        <div class="place-name">Bodney Airfield F/105, Norfolk</div>
+        <div class="place-region">East Anglia</div>
+        <div class="place-desc">
+          <span data-lang="pl">Stacja Krzysztofa od IX.1946 &mdash; ob&oacute;z PKPR na byłym lotnisku RAF.</span>
+          <span data-lang="en">Krzysztof&rsquo;s station from IX.1946 &mdash; PKPR camp at former RAF airfield.</span>
+        </div>
+        <div class="place-period">IX.1946</div>
+        <div class="place-docs">ARG/III/182&ndash;190</div>
+      </div>
+
+      <div class="place-card">
+        <div class="place-name">Brownings Camp, Billingshurst, Sussex</div>
+        <div class="place-region">South East England</div>
+        <div class="place-desc">
+          <span data-lang="pl">Kami&nacute;ski &mdash; konspiracja pocztowa, przesy&lstrok;ki mi&eogon;dzy obozami.</span>
+          <span data-lang="en">Kami&nacute;ski &mdash; postal conspiracy, parcels between camps.</span>
+        </div>
+        <div class="place-period">1946&ndash;1947</div>
+        <div class="place-docs">ARG/III/190&ndash;195</div>
+      </div>
+
+      <div class="place-card">
+        <div class="place-name">Witley Camp, Surrey</div>
+        <div class="place-region">South East England</div>
+        <div class="place-desc">
+          <span data-lang="pl">Dynowski, PKPR &mdash; 40 mil od Londynu, w&eogon;ze&lstrok; korespondencyjny.</span>
+          <span data-lang="en">Dynowski, PKPR &mdash; 40 miles from London, correspondence hub.</span>
+        </div>
+        <div class="place-period">1946&ndash;1947</div>
+        <div class="place-docs">ARG/III</div>
+      </div>
+
+      <div class="place-card">
+        <div class="place-name">Coventry (Keresley Hostel)</div>
+        <div class="place-region">West Midlands</div>
+        <div class="place-desc">
+          <span data-lang="pl">Marian, D&eogon;bski &mdash; Constructional Engineers, praca w przemy&sacute;le budowlanym.</span>
+          <span data-lang="en">Marian, D&eogon;bski &mdash; Constructional Engineers, work in construction industry.</span>
+        </div>
+        <div class="place-period">1947&ndash;1948</div>
+        <div class="place-docs">ARG/III/195&ndash;200</div>
+      </div>
+
+      <div class="place-card">
+        <div class="place-name">Abergavenny, Walia</div>
+        <div class="place-region">Wales</div>
+        <div class="place-desc">
+          <span data-lang="pl">Kobieta z list&oacute;w 208a&ndash;b &mdash; &bdquo;Kr&oacute;lowa Wiktoria&rdquo;, ob&oacute;z kobiecy.</span>
+          <span data-lang="en">Woman from letters 208a&ndash;b &mdash; &ldquo;Queen Victoria&rdquo;, women&rsquo;s camp.</span>
+        </div>
+        <div class="place-period">1947&ndash;1948</div>
+        <div class="place-docs">ARG/III/208a&ndash;b</div>
+      </div>
+
+      <div class="place-card">
+        <div class="place-name">High Wycombe</div>
+        <div class="place-region">Buckinghamshire</div>
+        <div class="place-desc">
+          <span data-lang="pl">Tudek &mdash; ob&oacute;z studencki, przygotowanie do studi&oacute;w.</span>
+          <span data-lang="en">Tudek &mdash; student camp, preparation for university studies.</span>
+        </div>
+        <div class="place-period">1947</div>
+        <div class="place-docs">ARG/III</div>
+      </div>
+
+      <div class="place-card">
+        <div class="place-name">Sudbury, Suffolk</div>
+        <div class="place-region">East Anglia</div>
+        <div class="place-desc">
+          <span data-lang="pl">Tudek, PKPR &mdash; pomoc z Cambridge, kontakty akademickie.</span>
+          <span data-lang="en">Tudek, PKPR &mdash; assistance from Cambridge, academic contacts.</span>
+        </div>
+        <div class="place-period">1947&ndash;1948</div>
+        <div class="place-docs">ARG/III</div>
+      </div>
+
+      <div class="place-card">
+        <div class="place-name">Walthamstow E17, London</div>
+        <div class="place-region">North East London</div>
+        <div class="place-desc">
+          <span data-lang="pl">Mrs Whittle &mdash; Krzysztof od XI.1947, pierwsze cywilne lokum na emigracji.</span>
+          <span data-lang="en">Mrs Whittle &mdash; Krzysztof from XI.1947, first civilian lodging in emigration.</span>
+        </div>
+        <div class="place-period">XI.1947+</div>
+        <div class="place-docs">ARG/III/200+</div>
+      </div>
+
+      <div class="place-card">
+        <div class="place-name">55 Bolton Gardens SW5, London</div>
+        <div class="place-region">South Kensington</div>
+        <div class="place-desc">
+          <span data-lang="pl">Ko&lstrok;o AK &mdash; siedziba organizacji kombatanckiej, spotkania &sacute;rodowiska londy&nacute;skiego.</span>
+          <span data-lang="en">Home Army Circle &mdash; veterans&rsquo; organization headquarters, London &eacute;migr&eacute; gatherings.</span>
+        </div>
+        <div class="place-period">1946+</div>
+        <div class="place-docs">ARG/III</div>
+      </div>
+
+      <div class="place-card">
+        <div class="place-name">238 King Street W6, London</div>
+        <div class="place-region">Hammersmith</div>
+        <div class="place-desc">
+          <span data-lang="pl">Instytut Pi&lstrok;sudskiego &mdash; wsp&oacute;&lstrok;za&lstrok;o&zdot;ony przez gen. Janusza G&lstrok;uchowskiego.</span>
+          <span data-lang="en">Pi&lstrok;sudski Institute &mdash; co-founded by Gen. Janusz G&lstrok;uchowski.</span>
+        </div>
+        <div class="place-period">1947+</div>
+        <div class="place-docs">ARG/II/63</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- INNE -->
+  <div class="places-country-group">
+    <div class="places-country-label"><span class="country-flag">&#127758;</span> <span data-lang="pl">INNE KRAJE</span><span data-lang="en">OTHER COUNTRIES</span></div>
+    <div class="places-grid">
+
+      <div class="place-card">
+        <div class="place-name">Jerozolima</div>
+        <div class="place-region"><span data-lang="pl">Palestyna / Izrael</span><span data-lang="en">Palestine / Israel</span></div>
+        <div class="place-desc">
+          <span data-lang="pl">Siostra autorki listu 208a &mdash; emigracja bliskowschodnia, kontakt listowny.</span>
+          <span data-lang="en">Sister of letter 208a author &mdash; Middle Eastern emigration, postal contact.</span>
+        </div>
+        <div class="place-period">po 1945</div>
+        <div class="place-docs">ARG/III/208a</div>
+      </div>
+
+      <div class="place-card">
+        <div class="place-name">Moskwa</div>
+        <div class="place-region"><span data-lang="pl">ZSRR</span><span data-lang="en">USSR</span></div>
+        <div class="place-desc">
+          <span data-lang="pl">Brat autorki listu 208a &mdash; 6&frac12; roku wi&eogon;zienia, deportacja sowiecka.</span>
+          <span data-lang="en">Brother of letter 208a author &mdash; 6&frac12; years of imprisonment, Soviet deportation.</span>
+        </div>
+        <div class="place-period">~1945&ndash;1956</div>
+        <div class="place-docs">ARG/III/208a</div>
+      </div>
+
+      <div class="place-card">
+        <div class="place-name">Rio de Janeiro</div>
+        <div class="place-region"><span data-lang="pl">Brazylia</span><span data-lang="en">Brazil</span></div>
+        <div class="place-desc">
+          <span data-lang="pl">Krzysztof G&lstrok;uchowski od 1974 &mdash; ostatni rozdzia&lstrok; emigracji, &sacute;mier&cacute; 2020.</span>
+          <span data-lang="en">Krzysztof G&lstrok;uchowski from 1974 &mdash; final chapter of emigration, death 2020.</span>
+        </div>
+        <div class="place-period">1974&ndash;2020</div>
+        <div class="place-docs">ARG/IV</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LEGENDA -->
+  <div class="places-legend">
+    <span data-lang="pl" style="font-weight:600;color:var(--gold);">Legenda:</span>
+    <span data-lang="en" style="font-weight:600;color:var(--gold);">Legend:</span>
+    <div class="places-legend-item"><span class="places-legend-dot" style="background:#c45a5a;"></span> <span data-lang="pl">Wojna / niewola</span><span data-lang="en">War / captivity</span></div>
+    <div class="places-legend-item"><span class="places-legend-dot" style="background:var(--gold);"></span> <span data-lang="pl">Dom rodzinny</span><span data-lang="en">Family home</span></div>
+    <div class="places-legend-item"><span class="places-legend-dot" style="background:#5a8a5a;"></span> <span data-lang="pl">Emigracja</span><span data-lang="en">Emigration</span></div>
+    <div class="places-legend-item"><span class="places-legend-dot" style="background:var(--accent);"></span> <span data-lang="pl">Instytucje</span><span data-lang="en">Institutions</span></div>
+  </div>
+
+</div><!-- /mapa-miejsc -->
+
 </div>
 
 <nav class="nav">
 <a href="#finding-aid" class="nav-link" style="border-color:var(--gold);color:var(--gold);" data-nav="family"><span data-lang="pl">Historia rodziny</span><span data-lang="en">Family history</span><span data-lang="pt">História da família</span><span data-lang="de">Familiengeschichte</span><span data-lang="nl">Familiegeschiedenis</span><span data-lang="fr">Histoire familiale</span><span data-lang="yi">משפּחה געשיכטע</span></a>
+<a href="#mapa-miejsc" class="nav-link" data-nav="places"><span data-lang="pl">Mapa miejsc</span><span data-lang="en">Places map</span><span data-lang="pt">Mapa de lugares</span><span data-lang="de">Ortskarte</span><span data-lang="nl">Plaatsenkaart</span><span data-lang="fr">Carte des lieux</span><span data-lang="yi">מאַפּע פֿון ערטער</span></a>
 <a href="#indeks-osob" class="nav-link" data-nav="persons"><span data-lang="pl">Indeks osób</span><span data-lang="en">Persons index</span><span data-lang="pt">Índice de pessoas</span><span data-lang="de">Personenindex</span><span data-lang="nl">Personenindex</span><span data-lang="fr">Index des personnes</span><span data-lang="yi">פּערזאָנען אינדעקס</span></a>
 <a href="#biografia" class="nav-link" data-nav="bio"><span data-lang="pl">Biografia</span><span data-lang="en">Biography</span><span data-lang="pt">Biografia</span><span data-lang="de">Biografie</span><span data-lang="nl">Biografie</span><span data-lang="fr">Biographie</span><span data-lang="yi">ביאָגראַפֿיע</span></a>
 <a href="#academic-articles" class="nav-link" data-nav="research"><span data-lang="pl">Badania</span><span data-lang="en">Research</span><span data-lang="pt">Pesquisa</span><span data-lang="de">Forschung</span><span data-lang="nl">Onderzoek</span><span data-lang="fr">Recherche</span><span data-lang="yi">פֿאָרשונג</span></a>
