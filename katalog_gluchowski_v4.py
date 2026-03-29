@@ -93,7 +93,7 @@ SERIES = [
     {
         "id": "V",
         "tytul": "St.ul. Krzysztof Andrzej Głuchowski ps. 'Juraś' (29.XI.1926 – V.2020)",
-        "opis": "Ur. 29.XI.1926, Warszawa. Syn Stefana (Stanisława) i Wandy Głuchowskich, bratanek gen. dyw. Janusza Głuchowskiego. Przysięga AK 11.V.1942 (15 lat!). Pluton 1112, 7 P.Uł. AK, dywizjon 'Jeleń'. Obrona Fabryki Kamlera (KG AK), Starówka, ewakuacja kanałami 1.IX.1944, Śródmieście. Jeniec Stalag XI-B Fallingbostel (nr 141009) — ten sam obóz co ojciec Stefan (nr 1245). Via Holandia/Belgia/Francja do Włoch, 2 Korpus, Gimnazjum 3 DSK (matura 1946). Emigracja: Anglia → Brazylia (od 1974). Chartered Engineer, publicysta, wydawca bibliofilski. Zm. V.2020, Rio de Janeiro.",
+        "opis": "Ur. 29.XI.1926, Warszawa. Syn Stefana (Stanisława) i Wandy Głuchowskich, bratanek gen. dyw. Janusza Głuchowskiego. Przysięga AK 11.V.1942 (15 lat!). Pluton 1112, 7 P.Uł. AK, dywizjon 'Jeleń'. Obrona Fabryki Kamlera (KG AK), Starówka, ewakuacja kanałami 1.IX.1944, Śródmieście. Jeniec Stalag XI-B Fallingbostel (nr 141009) — ten sam obóz co ojciec Stefan (nr 1245). Via Holandia/Belgia/Francja do Włoch, 2 Korpus, Gimnazjum 3 DSK (matura 9.II.1946). Emigracja: Anglia (Bodney Airfield, Norfolk) → Brazylia (od 1974, Rio de Janeiro). Chartered Engineer, publicysta, wydawca bibliofilski. Autor: 'Akcja Wilanów' (Muzeum Pałacu w Wilanowie, 2011) — SAM JEST ŹRÓDŁEM HISTORYCZNYM. Zm. V.2020, Rio de Janeiro.",
         "daty": "1941–1968",
         "rozmiar": "156 jednostek"
     },
@@ -10842,7 +10842,7 @@ body.lang-active .card-lang-badge {{ display:inline; }}
     <div class="ap-novelty" data-lang="nl"><strong>Nieuw:</strong> Reconstructie van een familie waarin ALLE volwassen leden in het verzet vochten. Moeder-saboteur, vader-kwartiermeester, zoon-opstandeling — drie vormen van verzet in één huishouden.</div>
     <div class="ap-novelty" data-lang="fr"><strong>Nouveauté :</strong> Reconstitution d'une famille dont TOUS les membres adultes ont combattu dans la clandestinité. Mère-saboteuse, père-intendant, fils-insurgé — trois formes de résistance dans un même foyer.</div>
     <div class="ap-novelty" data-lang="yi"><strong>נײַיקייט:</strong> רעקאָנסטרוקציע פֿון אַ משפּחה וווּ אַלע דערוואַקסענע מיטגלידער האָבן געקעמפֿט אין אונטערגרונט.</div>
-    <div class="ap-sources">Źródła / Sources: ARG/III/28, ARG/V/158, ARG/V/161, ARG/V/174&ndash;238 (49 listów 1946&ndash;1948), ARG/V/207c (deportacja), portal 1944.pl</div>
+    <div class="ap-sources">Źródła / Sources: ARG/III/28, ARG/V/158, ARG/V/161, ARG/V/174&ndash;238 (49 listów 1946&ndash;1948), ARG/V/207c (deportacja), portal 1944.pl, K.A. Głuchowski <em>Akcja Wilanów</em> (Muzeum Pałacu w Wilanowie, 2011) &mdash; sam Krzysztof jest źródłem historycznym!</div>
     <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="pl"><span class="lock-icon">🔒</span>Czytaj pełny artykuł</a>
     <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="en"><span class="lock-icon">🔒</span>Read full article</a>
     <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="pt"><span class="lock-icon">🔒</span>Leia o artigo completo</a>
@@ -10886,7 +10886,7 @@ body.lang-active .card-lang-badge {{ display:inline; }}
     <div class="ap-novelty" data-lang="nl"><strong>Nieuw:</strong> Identificatie van privédocumenten die Collectie 70 AANVULLEN — waaronder een brief van Maarschalk Śmigły-Rydz (ARG/II/14), een decoratiedecreet uit 1925 en wensen van Gen. Sosnkowski. Methode: stuk-voor-stuk vergelijking.</div>
     <div class="ap-novelty" data-lang="fr"><strong>Nouveauté :</strong> Identification de documents privés qui COMPLÈTENT le Fonds 70 — dont une lettre du Maréchal Śmigły-Rydz (ARG/II/14), un décret de décoration de 1925 et des vœux du gén. Sosnkowski. Méthodologie : comparaison pièce par pièce.</div>
     <div class="ap-novelty" data-lang="yi"><strong>נײַיקייט:</strong> אידענטיפֿיצירונג פֿון פּריוואַטע דאָקומענטן וואָס דערגענצן זאַמלונג 70 — אַרײַנגערעכנט אַ בריוו פֿון מאַרשאַל שמיגלי-ריידז (ARG/II/14).</div>
-    <div class="ap-sources">Źródła / Sources: ARG/II/1–68, Zespół 70 / Collection 70 (Instytut Piłsudskiego, Londyn)</div>
+    <div class="ap-sources">Źródła / Sources: ARG/II/1–68, Zespół 70 / Collection 70 (Instytut Piłsudskiego, Londyn &mdash; 9 jedn., 0.15 mb, 1916&ndash;1964), Zespół 17 (Kmicic-Skrzyński, 8 jedn.), Zespół 19 (Sosnkowski, 33 jedn.)</div>
     <a class="ap-link" href="artykul_belina_instytut.html" data-lang="pl"><span class="lock-icon">🔒</span>Czytaj pełny artykuł</a>
     <a class="ap-link" href="artykul_belina_instytut.html" data-lang="en"><span class="lock-icon">🔒</span>Read full article</a>
     <a class="ap-link" href="artykul_belina_instytut.html" data-lang="pt"><span class="lock-icon">🔒</span>Leia o artigo completo</a>
@@ -11222,7 +11222,7 @@ body.lang-active .card-lang-badge {{ display:inline; }}
       <div class="person-card">
         <div class="pc-category">SIÓDEMKA BELINY</div>
         <div class="pc-name">Uczestnicy pierwszego patrolu (2.VIII.1914)</div>
-        <div class="pc-desc">Podpisy na fotokopii: Władysław <strong>Belina-Prażmowski</strong> (d-ca), Janusz <strong>Głuchowski</strong>, Zygmunt <strong>Grzmot-Skotnicki</strong>, Stanisław <strong>Karnacki</strong>, Stefan Hanka <strong>Kulesza</strong>, Zdzisław <strong>Jabłoński</strong>, Antoni <strong>Bończa</strong>. Siedmiu kawalerzystów, którzy rozpoczęli kampanię Legionów.</div>
+        <div class="pc-desc">Patrol 2&ndash;3.VIII.1914: Władysław <strong>Belina-Prażmowski</strong> (d-ca, 1888&ndash;1938), Janusz <strong>Głuchowski</strong> (1888&ndash;1964), Stanisław <strong>Grzmot-Skotnicki</strong> (1894&ndash;&dagger;1939), Zygmunt <strong>Karwacki</strong> ps. Bończa (1893&ndash;&dagger;1916 Kostiuchnówka), Stefan Hanka <strong>Kulesza</strong> (1892&ndash;1964), Antoni <strong>Jabłoński</strong> ps. Zdzisław (1896&ndash;&dagger;1920), Ludwik <strong>Kmicic-Skrzyński</strong> (1893&ndash;1972, ostatni żyjący, ekshumowany 2023). Trasa: Oleandry &rarr; Kocmyrzów &rarr; Jędrzejów &rarr; Skrzeszowice. Źródło: research PAI III.2026, Wikipedia.</div>
         <div class="pc-docs">ARG/II/2</div>
       </div>
 
@@ -11458,7 +11458,7 @@ body.lang-active .card-lang-badge {{ display:inline; }}
       <div class="tl-event">
         <div class="tl-date">2&ndash;3.VIII.1914</div>
         <div class="tl-body">
-          <strong>&laquo;Siódemka Beliny&raquo; &mdash; pierwszy patrol kawalerii odrodzonej.</strong> Janusz Głuchowski jako jeden z siedmiu kawalerzystów pod dowództwem Władysława Beliny-Prażmowskiego przekracza granicę rosyjską. Fotokopia z podpisami wszystkich siedmiu: Belina-Prażmowski, Głuchowski, Grzmot-Skotnicki, Karnacki, Hanka Kulesza, Jabłoński, Bończa. Biogram WBH nr 76/45 (24.V.1937) potwierdza: &laquo;patrol kawaleryjski 2.VIII.1914 do Krakowa i na Kielce, ZS Oleandry.&raquo;
+          <strong>&laquo;Siódemka Beliny&raquo; &mdash; pierwszy patrol kawalerii odrodzonej.</strong> W nocy z 2 na 3 sierpnia 1914 roku siedmiu ułanów pod dowództwem Beliny-Prażmowskiego przekroczyło granicę rosyjską pod Kocmyrzowem. Wyruszyli dwiema bryczkami z Oleandów &mdash; konie dostali dopiero w Skrzeszowicach (majątek Kleszczyńskich). Trasa: Kocmyrzów &rarr; Goszyce &rarr; Jędrzejów &rarr; Słomniki &rarr; Prandocin &rarr; Skrzeszowice. Skład: Belina-Prażmowski (d-ca), Głuchowski, Stanisław Grzmot-Skotnicki (&dagger;1939 Bzura), Zygmunt Karwacki ps. Bończa (&dagger;1916 Kostiuchnówka), Hanka Kulesza, Antoni Jabłoński ps. Zdzisław (&dagger;1920), Ludwik Kmicic-Skrzyński (ostatni żyjący, ekshumowany 2023 Białystok). Troje zginęło w walce. Piłsudski na pożegnanie: &laquo;Choć będziecie wisieć, spełnicie pięknie żołnierski obowiązek, ale historia o was nie zapomni.&raquo;
           <div class="tl-docs">ARG/II/1, II/2</div>
         </div>
       </div>
