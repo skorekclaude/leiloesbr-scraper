@@ -5499,7 +5499,7 @@ OBJECTS = [
     # ── Teczka "WCZESNE LISTY 1946" — originals_201_217 (68 skanów, 29.III.2026) ──
     {
         "sygn": "ARG/V/201",
-        "photo": "20260324_1734023118815046489450273_rot.jpg",
+        "photo": "originals_201_217/20260324_1734023118815046489450273_rot.jpg",
         "tytul": "List z Reims — wieści z Francji, adres cioci Stawki",
         "data": "1.IX.1945",
         "typ": "list",
@@ -5515,7 +5515,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/202a",
-        "photo": "20260324_1735536699334025058410662_rot.jpg",
+        "photo": "originals_201_217/20260324_1735536699334025058410662_rot.jpg",
         "tytul": "List 'Józefa P.S.' — wieści rodzinne, cukiernia",
         "data": "ok. 1946",
         "typ": "list",
@@ -5531,7 +5531,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/202b",
-        "photo": "20260324_1735536699334025058410662_rot.jpg",
+        "photo": "originals_201_217/20260324_1735536699334025058410662_rot.jpg",
         "tytul": "List do 'Pana Wincentego' — życzenia noworoczne",
         "data": "8.I.1946",
         "typ": "list",
@@ -5547,7 +5547,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/203",
-        "photo": "20260324_1737405609298741604113920_rot.jpg",
+        "photo": "originals_201_217/20260324_1737405609298741604113920_rot.jpg",
         "tytul": "Itinerarium wojenne Krzysztofa — od Warszawy do Bodney",
         "data": "1944-1947",
         "typ": "notatka",
@@ -5563,7 +5563,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/203b",
-        "photo": "20260324_1737523898938794945732458_rot.jpg",
+        "photo": "originals_201_217/20260324_1737523898938794945732458_rot.jpg",
         "tytul": "Notatki z fizyki — Gimnazjum 3 DSK",
         "data": "1945-1946",
         "typ": "notatka",
@@ -5579,7 +5579,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/204",
-        "photo": "20260324_1744295990070507963308681_rot.jpg",
+        "photo": "originals_201_217/20260324_1744295990070507963308681_rot.jpg",
         "tytul": "List pchr. Tadeusza Bystydżeńskiego z CMF 154 — adres Janusza",
         "data": "5.IX.1946",
         "typ": "list",
@@ -5595,7 +5595,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/205",
-        "photo": "20260324_1746587960714446524300966_rot.jpg",
+        "photo": "originals_201_217/20260324_1746587960714446524300966_rot.jpg",
         "tytul": "List — fotografie i Gen. Strelczyński",
         "data": "ok. 1946",
         "typ": "list",
@@ -5611,7 +5611,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/206a",
-        "photo": "20260324_1748223633272231402712281_rot.jpg",
+        "photo": "originals_201_217/20260324_1748223633272231402712281_rot.jpg",
         "tytul": "List z CMF Polish Forces 125 — wieści z Włoch, demobilizacja",
         "data": "24.I.1946",
         "typ": "list",
@@ -5627,7 +5627,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/206b",
-        "photo": "20260324_1811564265226715002790673_rot.jpg",
+        "photo": "originals_201_217/20260324_1811564265226715002790673_rot.jpg",
         "tytul": "List 'Słobusia K.' — decyzje o wyjeździe, Bolonia",
         "data": "16.IV.1946",
         "typ": "list",
@@ -5643,7 +5643,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/207a",
-        "photo": "20260324_1813377748033720388689926_rot.jpg",
+        "photo": "originals_201_217/20260324_1813377748033720388689926_rot.jpg",
         "tytul": "List Janusza Ramińskiego (I) — wieści o Wandzie, Brownings Camp",
         "data": "19.IX.1946",
         "typ": "list",
@@ -5659,7 +5659,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/207b",
-        "photo": "20260324_1820364793131874182220755_rot.jpg",
+        "photo": "originals_201_217/20260324_1820364793131874182220755_rot.jpg",
         "tytul": "List Ramińskiego (II) — aresztowanie Marka przez Bezpiekę",
         "data": "28.X.1946",
         "typ": "list",
@@ -5675,7 +5675,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/207c",
-        "photo": "20260324_1822041488787664254964651_rot.jpg",
+        "photo": "originals_201_217/20260324_1822041488787664254964651_rot.jpg",
         "tytul": "List Ramińskiego (III) — apteka Wandy, deportacja do Rosji, ciotka Staśka",
         "data": "5.II.1947",
         "typ": "list",
@@ -5691,7 +5691,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/208",
-        "photo": "20260324_1824362851036695023960408_rot.jpg",
+        "photo": "originals_201_217/20260324_1824362851036695023960408_rot.jpg",
         "tytul": "List 'Czesława J.' z obozu w Walii — Abergavenny, Austriacy",
         "data": "19.I.1946",
         "typ": "list",
@@ -5707,7 +5707,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/209a",
-        "photo": "20260324_1830495153922272646142757_rot.jpg",
+        "photo": "originals_201_217/20260324_1830495153922272646142757_rot.jpg",
         "tytul": "Pismo Koła b. Żołnierzy AK w Anglii (I) — weryfikacja, 99 Bolton Gardens",
         "data": "26.XI.1946",
         "typ": "dokument",
@@ -5723,7 +5723,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/209b",
-        "photo": "20260324_183114744385205056489880_rot.jpg",
+        "photo": "originals_201_217/20260324_183114744385205056489880_rot.jpg",
         "tytul": "Pismo Koła AK (II) — ponaglenie o weryfikację",
         "data": "7.XII.1946",
         "typ": "dokument",
@@ -5739,7 +5739,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/210",
-        "photo": "20260324_1846103943755353550147081_rot.jpg",
+        "photo": "originals_201_217/20260324_1846103943755353550147081_rot.jpg",
         "tytul": "List Józka Szymczaka z Witley Camp — powstaniec z Powązek Dworcowych",
         "data": "30.X.1946",
         "typ": "list",
@@ -5755,7 +5755,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/211a",
-        "photo": "20260324_1931188855098837933167592_rot.jpg",
+        "photo": "originals_201_217/20260324_1931188855098837933167592_rot.jpg",
         "tytul": "List Krahelskiego 'Leszka' z CMF 153 — kursy motorowe, podchorążówka",
         "data": "9.VIII.1945",
         "typ": "list",
@@ -5771,7 +5771,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/211b",
-        "photo": "20260324_1949561247533166282117318_rot.jpg",
+        "photo": "originals_201_217/20260324_1949561247533166282117318_rot.jpg",
         "tytul": "List Krahelskiego z RYSUNKIEM JELENIA — symbol 7 P.Uł. Lubelskich",
         "data": "29.VII.1945",
         "typ": "list",
@@ -5787,7 +5787,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/212a",
-        "photo": "20260324_1938481997225877696633528_rot.jpg",
+        "photo": "originals_201_217/20260324_1938481997225877696633528_rot.jpg",
         "tytul": "List Jaśka Leoniuka z Troyes (I) — paczka, ul. Reina 33",
         "data": "12.IX.1945",
         "typ": "list",
@@ -5803,7 +5803,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/212b",
-        "photo": "20260324_194747769693003963708055_rot.jpg",
+        "photo": "originals_201_217/20260324_194747769693003963708055_rot.jpg",
         "tytul": "List Jaśka Leoniuka z Troyes (II) — paczka z ubraniami, 2000 fr.",
         "data": "15.IX.1945",
         "typ": "list",
@@ -5819,7 +5819,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/213a",
-        "photo": "20260324_1847475149231012056091582_rot.jpg",
+        "photo": "originals_201_217/20260324_1847475149231012056091582_rot.jpg",
         "tytul": "List Tudka z High Wycombe — niewola pod Wiedniem i Berlinem",
         "data": "3.II.1947",
         "typ": "list",
@@ -5835,7 +5835,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/213b",
-        "photo": "20260324_1848331174709311799573626_rot.jpg",
+        "photo": "originals_201_217/20260324_1848331174709311799573626_rot.jpg",
         "tytul": "List Tudka z Sudbury — PKPR, R.A.S.T., 120 warszawiaków, Cambridge",
         "data": "29.II.1949",
         "typ": "list",
@@ -5851,7 +5851,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/214",
-        "photo": "20260324_1944201555232293354009694_rot.jpg",
+        "photo": "originals_201_217/20260324_1944201555232293354009694_rot.jpg",
         "tytul": "List pośrednika z Bodney (I) — list polecony od Mamusi",
         "data": "9.II.1947",
         "typ": "list",
@@ -5867,7 +5867,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/215",
-        "photo": "20260324_1944532316727053919767412_rot.jpg",
+        "photo": "originals_201_217/20260324_1944532316727053919767412_rot.jpg",
         "tytul": "List pośrednika z Bodney (II) — stypendium Erentz, kondolencje/gratulacje",
         "data": "13.IX.1947",
         "typ": "list",
@@ -5883,7 +5883,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/216a",
-        "photo": "20260324_1951432003337347692313312_rot.jpg",
+        "photo": "originals_201_217/20260324_1951432003337347692313312_rot.jpg",
         "tytul": "List Dębskiego 'Koniusia' — mundury, adres Keresley Hostel",
         "data": "ok. IX.1947",
         "typ": "list",
@@ -5899,7 +5899,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/216b",
-        "photo": "20260324_1943446872492370937293977_rot.jpg",
+        "photo": "originals_201_217/20260324_1943446872492370937293977_rot.jpg",
         "tytul": "List Mariana — zjazd, 11 5 KDP, Lucy",
         "data": "ok. 1947",
         "typ": "list",
@@ -5915,7 +5915,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/217",
-        "photo": "20260324_202251559105698915618559_rot.jpg",
+        "photo": "originals_201_217/20260324_202251559105698915618559_rot.jpg",
         "tytul": "Notatka Wandy (matki) — 'Kochany mój drogi Krzysztofku'",
         "data": "ok. 1946-1947",
         "typ": "list",
@@ -5931,7 +5931,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/218a",
-        "photo": "20260324_195422208538623440374049_rot.jpg",
+        "photo": "originals_201_217/20260324_195422208538623440374049_rot.jpg",
         "tytul": "List Dębskiego z Coventry (I) — Constructional Engineers, zarobki",
         "data": "27.IX.1947",
         "typ": "list",
@@ -5947,7 +5947,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/218b",
-        "photo": "20260324_2013095723694821932849249_rot.jpg",
+        "photo": "originals_201_217/20260324_2013095723694821932849249_rot.jpg",
         "tytul": "List Dębskiego z Coventry (II) — 'materyjał na to i na owszem'",
         "data": "22.X.1947",
         "typ": "list",
@@ -5963,7 +5963,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/218c",
-        "photo": "20260324_2014558418007150941536046_rot.jpg",
+        "photo": "originals_201_217/20260324_2014558418007150941536046_rot.jpg",
         "tytul": "List Dębskiego z Coventry (III) — Krzysztof 'zapisał się do kasarni', Maryla Czechowiczówna",
         "data": "26.X.1947",
         "typ": "list",
@@ -5979,7 +5979,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/218d",
-        "photo": "20260324_2019567151651057515116939_rot.jpg",
+        "photo": "originals_201_217/20260324_2019567151651057515116939_rot.jpg",
         "tytul": "List Dębskiego z Coventry (IV) — Koło AK, Jurci Fiodorow, Lucy, Kanter",
         "data": "30.XI.1947",
         "typ": "list",
@@ -5995,7 +5995,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/219",
-        "photo": "20260324_1951557834011221288322562_rot.jpg",
+        "photo": "originals_201_217/20260324_1951557834011221288322562_rot.jpg",
         "tytul": "Notatka — stypendium, posada w ambasadzie, zegareczek",
         "data": "ok. 1947",
         "typ": "notatka",
@@ -6011,7 +6011,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/220",
-        "photo": "20260324_2017411238673017510091570_rot.jpg",
+        "photo": "originals_201_217/20260324_2017411238673017510091570_rot.jpg",
         "tytul": "TELEGRAM na 21. urodziny Krzysztofa — Marian + C, Keresley/Walthamstow",
         "data": "ok. XI.1950",
         "typ": "telegram",
@@ -6027,7 +6027,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/221",
-        "photo": "20260324_2025263641023544026398253_rot.jpg",
+        "photo": "originals_201_217/20260324_2025263641023544026398253_rot.jpg",
         "tytul": "Okładka teczki — 'WCZESNE LISTY 1946'",
         "data": "b.d.",
         "typ": "teczka",
@@ -12615,7 +12615,12 @@ GALLERY_PHOTOS = [
         "osoba": "płk Jan Mazurkiewicz 'Radosław', kombatanci 7 P.Uł. AK",
         "opis": "Komplet 6 fotografii z 16. rocznicy Powstania Warszawskiego przy mogile Dywizjonu AK 'Jeleń'. Sceny: mogiła z tablicą 'AK DYWIZJON WARSZAWSKI JELEŃ POWSTANIE 1944', harcerze w warcie, duchowny błogosławiący, tłum uczestników, Radosław składa wieniec pod obeliskiem AK. Rewersy z opisami: 'pod Obeliskiem AK składa wieniec RADOSŁAW', 'Groby Jółki Porzeki', 'Zdjęcia robi mjr. Wtody — Sław Kulena — D-ca Batl. 36 P.P. Legji Akademickiej'. Jan Mazurkiewicz 'Radosław' (1896–1988) — dowódca Zgrupowania Radosław, legenda Powstania. Aresztowany przez UB, skazany, zrehabilitowany. Wycena: 3000–8000 PLN."
     },
-    # ── Listy Wandy 1946-1948 (listy_wanda_2.pdf, V/222-238) ──
+]
+
+
+_REMOVED_PAI_GALLERY_ENTRIES = [
+    # PAI merge bug: these 17 OBJECTS entries (V/222-238) were mistakenly placed in GALLERY_PHOTOS.
+    # They already exist in OBJECTS. Removed 2026-03-28 by CC.
     {
         "sygn": "ARG/V/222", "tytul": "Liścik Wandy — 'Synku Malutki!'",
         "data": "b.d.", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
