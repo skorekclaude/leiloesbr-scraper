@@ -10778,28 +10778,28 @@ body.lang-active .card-lang-badge {{ display:inline; }}
           <div class="ft-docs" data-lang="en">Documents: ARG/II/1&ndash;32</div>
         </div>
         <div class="ft-person">
-          <div class="ft-name">Ppor. Stanisław Stefan Głuchowski</div>
+          <div class="ft-name">Ppor. Stanisław Stefan Głuchowski ps. &laquo;Stefan&raquo;</div>
           <div class="ft-dates">1893 &ndash; 1962</div>
-          <div class="ft-role" data-lang="pl">Oficer 7 P.Uł. Jeniec Stalag XI B (Fallingbostel), nr 0.1245 / 0.1845. Żona: Zofia (Zocha), ul. Pułaskiej, Kleczew, pow. Radomsko.</div>
-          <div class="ft-role" data-lang="en">Officer, 7th Uhlan Regiment. POW at Stalag XI B (Fallingbostel), no. 0.1245 / 0.1845. Wife: Zofia (Zocha), ul. Pułaskiej, Kleczew, Radomsko district.</div>
-          <div class="ft-role" data-lang="pt">Oficial do 7º Regimento de Ulanos. Prisioneiro de guerra no Stalag XI B (Fallingbostel), nº 0.1245. Esposa: Zofia (Zocha).</div>
-          <div class="ft-role" data-lang="de">Offizier im 7. Ulanen-Regiment. Kriegsgefangener im Stalag XI B (Fallingbostel), Nr. 0.1245 / 0.1845. Ehefrau: Zofia (Zocha).</div>
-          <div class="ft-role" data-lang="nl">Officier bij het 7e Ulanen-Regiment. Krijgsgevangene in Stalag XI B (Fallingbostel), nr. 0.1245 / 0.1845. Echtgenote: Zofia (Zocha).</div>
-          <div class="ft-role" data-lang="fr">Officier du 7e Régiment d'Uhlans. Prisonnier de guerre au Stalag XI B (Fallingbostel), nº 0.1245 / 0.1845. Épouse : Zofia (Zocha).</div>
-          <div class="ft-role" data-lang="yi">אָפֿיציר אין 7טן אולאַנען-רעגימענט. קריגס-געפֿאַנגענער אין שטאַלאַג XI B (פֿאַלינגבאָסטעל), נומער 0.1245.</div>
-          <div class="ft-docs" data-lang="pl">Dokumenty: ARG/III/1&ndash;9</div>
-          <div class="ft-docs" data-lang="en">Documents: ARG/III/1&ndash;9</div>
+          <div class="ft-role" data-lang="pl">OJCIEC KRZYSZTOFA. Kancelaria Cywilna Prezydenta RP (1923&ndash;1939). AK &mdash; Kwatermistrzostwo I Obwodu &laquo;Radwan&raquo;. Aresztowany Gestapo 18.V.1944, Pawiak, zwolniony 29.VII.44 (3 dni przed Powstaniem!). Jeniec: Fallingbostel, Bergen, Lübeck (nr 1245). Wrócił do Polski 1947 (nie wpuszczono do Anglii). Żona: <strong>Wanda</strong> (sierż. pchor. Kedyw AK, ps. Krysta/Justyna, farmaceutka). Zm. 17.X.1962, Powązki.</div>
+          <div class="ft-role" data-lang="en">FATHER OF KRZYSZTOF. Civil Chancellery of the President of Poland (1923&ndash;1939). AK &mdash; Quartermaster, 1st District &laquo;Radwan&raquo;. Arrested by Gestapo 18.V.1944, Pawiak, released 29.VII.44 (3 days before Uprising!). POW: Fallingbostel, Bergen, Lübeck (no. 1245). Returned to Poland 1947 (denied entry to England). Wife: <strong>Wanda</strong> (Staff Sgt. Kedyw AK, codename Krysta/Justyna, pharmacist). D. 17.X.1962, Powązki Cemetery.</div>
+          <div class="ft-role" data-lang="pt">PAI DE KRZYSZTOF. Chancelaria Civil do Presidente da Polônia (1923&ndash;1939). AK &mdash; Intendência do 1º Distrito. Preso pela Gestapo 18.V.1944, Pawiak, solto 29.VII.44. Prisioneiro: Fallingbostel, Bergen, Lübeck (nº 1245). Retornou à Polônia 1947. Esposa: <strong>Wanda</strong> (sargento Kedyw AK, farmacêutica).</div>
+          <div class="ft-role" data-lang="de">VATER VON KRZYSZTOF. Zivilkanzlei des Präsidenten Polens (1923&ndash;1939). AK &mdash; Quartiermeister, 1. Bezirk &laquo;Radwan&raquo;. Verhaftet durch Gestapo 18.V.1944, Pawiak, freigelassen 29.VII.44. Kriegsgefangener: Fallingbostel, Bergen, Lübeck (Nr. 1245). Rückkehr nach Polen 1947. Ehefrau: <strong>Wanda</strong> (Feldwebel Kedyw AK, Apothekerin).</div>
+          <div class="ft-role" data-lang="nl">VADER VAN KRZYSZTOF. Civiele Kanselarij van de President van Polen (1923&ndash;1939). AK &mdash; Kwartiermeester. Gearresteerd door Gestapo 18.V.1944, Pawiak, vrijgelaten 29.VII.44. Krijgsgevangene: Fallingbostel, Bergen, Lübeck (nr. 1245). Teruggekeerd naar Polen 1947. Echtgenote: <strong>Wanda</strong> (sergeant Kedyw AK, apotheker).</div>
+          <div class="ft-role" data-lang="fr">PÈRE DE KRZYSZTOF. Chancellerie Civile du Président de la Pologne (1923&ndash;1939). AK &mdash; Intendance du 1er District. Arrêté par la Gestapo 18.V.1944, Pawiak, libéré 29.VII.44. Prisonnier : Fallingbostel, Bergen, Lübeck (nº 1245). Retour en Pologne 1947. Épouse : <strong>Wanda</strong> (sergent Kedyw AK, pharmacienne).</div>
+          <div class="ft-role" data-lang="yi">פֿאָטער פֿון קשיסטאָף. ציווילע קאַנצלאַריע פֿון דער פּרעזידענט פֿון פּוילן (1923&ndash;1939). AK &mdash; קוואַרטירמײַסטער. אַרעסטירט דורך געסטאַפּאָ. קריגס-געפֿאַנגענער: פֿאַלינגבאָסטעל, בערגן, ליובעק. צוריקקומען קיין פּוילן 1947.</div>
+          <div class="ft-docs" data-lang="pl">Dokumenty: ARG/III/1&ndash;38</div>
+          <div class="ft-docs" data-lang="en">Documents: ARG/III/1&ndash;38</div>
         </div>
         <div class="ft-person ft-deceased">
-          <div class="ft-name">Lech Głuchowski ps. &laquo;Jeżycki&raquo;</div>
-          <div class="ft-dates">1900 &ndash; &dagger; 15.IX.1944</div>
-          <div class="ft-role" data-lang="pl">Poległ w Powstaniu Warszawskim. Wspomniany w listach.</div>
-          <div class="ft-role" data-lang="en">Killed in the Warsaw Uprising. Mentioned in correspondence.</div>
-          <div class="ft-role" data-lang="pt">Morto na Insurreição de Varsóvia. Mencionado na correspondência.</div>
-          <div class="ft-role" data-lang="de">Gefallen im Warschauer Aufstand. Erwähnt in Briefen.</div>
-          <div class="ft-role" data-lang="nl">Gesneuveld in de Opstand van Warschau. Vermeld in correspondentie.</div>
-          <div class="ft-role" data-lang="fr">Tombé dans l'Insurrection de Varsovie. Mentionné dans la correspondance.</div>
-          <div class="ft-role" data-lang="yi">געפֿאַלן אין דער וואַרשעווער אויפֿשטאַנד. דערמאָנט אין בריוו.</div>
+          <div class="ft-name">Rtm. Lech Jerzy Głuchowski ps. &laquo;Jeżycki&raquo;</div>
+          <div class="ft-dates">1902 &ndash; &dagger; 15.IX.1944</div>
+          <div class="ft-role" data-lang="pl">D-ca 1. szwadronu dywizjonu &laquo;Jeleń&raquo; (7 P.Uł. AK). Ciężko ranny ul. Dolna (Mokotów) &mdash; popełnił samobójstwo by żołnierze nie ryzykowali ewakuacji pod ogniem. Virtuti Militari V kl. (pośm.).</div>
+          <div class="ft-role" data-lang="en">Commander, 1st Squadron, &laquo;Jeleń&raquo; Division (7th Uhlan Regt. AK). Seriously wounded on Dolna St. (Mokotów) &mdash; took his own life so soldiers wouldn't risk evacuation under fire. Virtuti Militari V class (posthumous).</div>
+          <div class="ft-role" data-lang="pt">Comandante do 1º Esquadrão, Divisão &laquo;Jeleń&raquo; (7º Reg. Ulanos AK). Gravemente ferido na rua Dolna (Mokotów) &mdash; suicidou-se para que soldados não arriscassem evacuação. Virtuti Militari V classe (póstumo).</div>
+          <div class="ft-role" data-lang="de">Kommandeur, 1. Schwadron, Division &laquo;Jeleń&raquo; (7. Ulanen-Regt. AK). Schwer verwundet in der Dolna-Straße (Mokotów) &mdash; nahm sich das Leben, damit Soldaten keine Evakuierung unter Feuer riskierten. Virtuti Militari V. Klasse (posthum).</div>
+          <div class="ft-role" data-lang="nl">Commandant, 1e Eskadron, Divisie &laquo;Jeleń&raquo; (7e Ulanen-Regt. AK). Zwaargewond in de Dolna-straat (Mokotów) &mdash; pleegde zelfmoord zodat soldaten geen evacuatie onder vuur zouden riskeren. Virtuti Militari V klasse (postuum).</div>
+          <div class="ft-role" data-lang="fr">Commandant, 1er Escadron, Division &laquo;Jeleń&raquo; (7e Rég. Uhlans AK). Grièvement blessé rue Dolna (Mokotów) &mdash; s'est donné la mort pour que les soldats ne risquent pas l'évacuation sous le feu. Virtuti Militari Ve classe (posthume).</div>
+          <div class="ft-role" data-lang="yi">קאָמאַנדיר, 1סטע עסקאַדראָן, דיוויזיע &laquo;יעלען&raquo; (7טע אולאַנען-רעגימענט AK). שווער פֿאַרוואונדעט אין דאָלנאַ-גאַס (מאָקאָטאָוו) &mdash; האָט זיך אומגעבראַכט כדי סאָלדאַטן זאָלן ניט ריזיקירן עוואַקואַציע אונטער פֿײַער.</div>
           <div class="ft-docs">&mdash;</div>
         </div>
       </div>
@@ -10855,7 +10855,7 @@ body.lang-active .card-lang-badge {{ display:inline; }}
       <div class="person-card">
         <div class="pc-category">RODZINA</div>
         <div class="pc-name">Zofia (Zocha) Głuchowska</div>
-        <div class="pc-desc">Żona Stanisława Stefana. Adres wojenny: ul. Pułaskiej, Kleczew, gmina Brzezówce, powiat Radomsko (GG). Później: ul. Howe-Monatkiego, Częstochowa. Adresatka kartek jenieckich ojca.</div>
+        <div class="pc-desc">Krewna Stefana (matka? siostra? — NIE żona; żoną Stefana była Wanda). Adres wojenny: ul. Pułaskiej, Kleczew, gmina Brzezówce, powiat Radomsko (GG). Później: ul. Howe-Monatkiego, Częstochowa. Adresatka kartek jenieckich Stefana ze Stalagu — prawdopodobnie z powodów konspiracyjnych (Wanda pod obserwacją).</div>
         <div class="pc-docs">ARG/III/1, III/2, III/5</div>
       </div>
 
@@ -11255,7 +11255,7 @@ body.lang-active .card-lang-badge {{ display:inline; }}
       <div class="tl-event tl-highlight">
         <div class="tl-date">14.X.1944</div>
         <div class="tl-body">
-          <strong>&laquo;Droga Zocha! Jestem w oflagu, Krzysztof w Stalagu...&raquo;</strong> Pierwsza kartka Stanisława Stefana z M.-Stammlager XI B (Fallingbostel). Nr jeniecki: 0.1245. Pisze do żony Zofii w Kleczewie. Wie, że syn Krzysztof (nr 141009) jest w innym obozie. Adresat: ul. Pułaskiej, Kleczew, gmina Brzezówce, powiat Radomsko, Generalgouvernement. Stempel: 20.10.44.
+          <strong>&laquo;Droga Zocha! Jestem w oflagu, Krzysztof w Stalagu...&raquo;</strong> Pierwsza kartka Stanisława Stefana z M.-Stammlager XI B (Fallingbostel). Nr jeniecki: 0.1245. Pisze do Zofii w Kleczewie (krewna &mdash; NIE żona; żoną Stefana była Wanda, która była pod obserwacją UB). Wie, że syn Krzysztof (nr 141009) jest w innym obozie. Adresat: ul. Pułaskiej, Kleczew, gmina Brzezówce, powiat Radomsko, Generalgouvernement. Stempel: 20.10.44.
           <div class="tl-docs">ARG/III/1, III/2</div>
         </div>
       </div>
