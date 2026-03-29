@@ -5364,7 +5364,7 @@ OBJECTS = [
         "tworca": "Wanda Głuchowska",
         "jezyk": "polski",
         "kontekst": "13 sierpnia 1946. Wanda (żona gen. Janusza, matka Krzysztofa) pisze z Łodzi. Ostatni list Krzysztofa DO rodziców z Powstania: ARG/V/6 ('Dotychczas żyję i jestem cały'). Od tego momentu — 2 lata ciszy. Apteka na Kruczej/Hożej (dawna cukiernia Paciorkowskiego). Wanda była aresztowana i wywieziona do Rosji, obóz w Rembertowie — ale o tym nie pisze. Krzysztof odpowie z Bodney (ARG/V/79 — Wigilia 46, ARG/V/83 — kartka świąteczna). List ciotki z IX.1944 (ARG/V/5) to ostatni kontakt rodziny przed rozdzieleniem.",
-        "powiazania": ["ARG/V/174", "ARG/V/176", "ARG/V/6", "ARG/V/5", "ARG/V/79", "ARG/V/83", "ARG/V/182", "ARG/V/183"],
+        "powiazania": ["ARG/V/174", "ARG/V/176", "ARG/V/6", "ARG/V/5", "ARG/V/76", "ARG/V/77", "ARG/V/78", "ARG/V/79", "ARG/V/83", "ARG/V/182", "ARG/V/183"],
         "stan": "Dobry",
         "wycena": "800-1500 PLN"
     },
@@ -5380,7 +5380,7 @@ OBJECTS = [
         "tworca": "Henryk Łabędzki",
         "jezyk": "polski",
         "kontekst": "25 sierpnia 1946. Łabędzki przebywa w Genewie, pośredniczy między Wandą a Krzysztofem. Trzecia niezależna droga pocztowa (obok Flejszera przez Paryż i Kamińskiego przez Sussex). Informacja o ustawie dotyczącej powrotu urzędników — nacisk komunistycznych władz na emigrację. Aresztowanie aptekarza Bukowskiego — element represji wobec przedwojennej inteligencji.",
-        "powiazania": ["ARG/V/174", "ARG/V/175", "ARG/V/177"],
+        "powiazania": ["ARG/V/174", "ARG/V/175", "ARG/V/177", "ARG/V/76", "ARG/V/79"],
         "stan": "Dobry",
         "wycena": "400-800 PLN"
     },
@@ -5412,7 +5412,7 @@ OBJECTS = [
         "tworca": "nieznany",
         "jezyk": "polski",
         "kontekst": "Krótki bilecik przekazujący wiadomości od Wandy — prawdopodobnie przez okazyjnego podróżnego. Informacja o aresztowaniu stryjka Krzysztofa — element powojennych represji wobec rodzin wojskowych. Anonimowość nadawcy — środek ostrożności.",
-        "powiazania": ["ARG/V/175", "ARG/V/177"],
+        "powiazania": ["ARG/V/175", "ARG/V/177", "ARG/V/28", "ARG/V/76", "ARG/V/79"],
         "stan": "Dobry",
         "wycena": "200-400 PLN"
     },
@@ -5476,7 +5476,7 @@ OBJECTS = [
         "tworca": "Wanda Głuchowska",
         "jezyk": "polski",
         "kontekst": "Grudzień 1946. Wanda pisze bezpośrednio — nie przez Paryż ani Genewę. Przełom w korespondencji. Matka tęskni za synem — pyta o wzrost, wagę, barki. Relacjonuje życie powojennej Warszawy: apteka, podróże, życie towarzyskie. Wzmianka o stryjkach — prawdopodobnie represjonowani.",
-        "powiazania": ["ARG/V/177", "ARG/V/183"],
+        "powiazania": ["ARG/V/177", "ARG/V/183", "ARG/V/76", "ARG/V/77", "ARG/V/78", "ARG/V/79", "ARG/V/28"],
         "stan": "Dobry",
         "wycena": "800-1500 PLN"
     },
@@ -5492,7 +5492,7 @@ OBJECTS = [
         "tworca": "Wanda Głuchowska",
         "jezyk": "polski",
         "kontekst": "Lipiec 1946 — chronologicznie NAJWCZEŚNIEJSZY list Wandy w kolekcji. Piszę go PO nawiązaniu kontaktu przez Flejszera/Łabędzkiego. Lista cen — bezcenny dokument ekonomiczny powojennej Warszawy. Dolar 700 zł (spadł z 1400 dwa tygodnie wcześniej). Pytania matki o papierosy i alkohol — syn ma 18 lat i jest żołnierzem.",
-        "powiazania": ["ARG/V/175", "ARG/V/182"],
+        "powiazania": ["ARG/V/175", "ARG/V/182", "ARG/V/76", "ARG/V/77", "ARG/V/78", "ARG/V/79", "ARG/V/28"],
         "stan": "Dobry",
         "wycena": "1000-2000 PLN"
     },
