@@ -851,3 +851,11 @@ Częściowo czytelny. "tu masz przekąskę... uroczystości... Podolsicm... Poł
   UWAGA: miejsce urodzenia "Varsava" vs "Tarnów" w Carte de Rapatrié — do weryfikacji
 - Tablica przeliczników miar — druk z Pay Booka (nie wymaga transkrypcji)
 - Air Letter do CMF 105 Italy — gęsty tekst, do odczytu w następnej sesji
+
+### Kolejna seria odczytów (48 z 68 obejrzanych):
+- V/210 Dynowski: Poczta Dworcowa w Powstaniu, Lamsdorf→Markt Pongau→Amerykanie 12.V, 16 Pomorska Bryg., Witley=PKPR
+- V/211a Krahelski "Leszek": kurs motorowy, Nelli nad morzem, podchorążówka?, Army Form W.3077
+- V/211a koperta: "Written in polish" — dla cenzury, Gimnazjum 3 DSK klasa IV
+- NOWY: Jasiek/Leoniuk z Troyes (12.IV.45): z Jurkiem, u państwa Kołacz, paczka, "piszę na kolanie"
+  — ulica Roma 93, prawdopodobnie V/205 lub V/214-215 (brakujące sygnatury)
+- V/216b Marian: spotkanie 18 żołnierzy + "7 małpek" z II 5 KDP, prezes Kapitan, V-prezes Decka Skotnik
