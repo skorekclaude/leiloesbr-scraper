@@ -13763,7 +13763,11 @@ def generate_archive_html():
 {page_nav}
 
 <div class="header">
-  <h1>ARCHIWUM DOKUMENT&Oacute;W</h1>
+  <div class="header-crests">
+    <img src="gluchowski_img/herb_prus_II.svg" alt="h. Prus II" class="header-crest-img" title="Prus II (Wilczekosy)">
+    <h1>ARCHIWUM DOKUMENT&Oacute;W</h1>
+    <img src="gluchowski_img/herb_doliwa.svg" alt="h. Doliwa" class="header-crest-img" title="Doliwa (Zembrzuscy)">
+  </div>
   <div class="subtitle" data-lang="pl">Skany dokumentów, korespondencji i ephemery z Archiwum Rodziny Głuchowskich</div>
   <div class="subtitle" data-lang="en">Document scans, correspondence and ephemera from the Głuchowski Family Archive</div>
   <div class="subtitle" data-lang="pt">Fotografias de documentos do Arquivo da Família Głuchowski</div>
@@ -13864,12 +13868,16 @@ def generate_correspondence_html():
 {page_nav}
 
 <div class="header">
-<h1 class="main-title">
-<span data-lang="pl">Korespondencja rodziny Głuchowskich</span>
-<span data-lang="en">Głuchowski Family Correspondence</span>
-<span data-lang="pt">Correspondência da família Głuchowski</span>
-<span data-lang="de">Korrespondenz der Familie Głuchowski</span>
-</h1>
+<div class="header-crests">
+  <img src="gluchowski_img/herb_prus_II.svg" alt="h. Prus II" class="header-crest-img" title="Prus II (Wilczekosy)">
+  <h1 class="main-title">
+  <span data-lang="pl">Korespondencja rodziny Głuchowskich</span>
+  <span data-lang="en">Głuchowski Family Correspondence</span>
+  <span data-lang="pt">Correspondência da família Głuchowski</span>
+  <span data-lang="de">Korrespondenz der Familie Głuchowski</span>
+  </h1>
+  <img src="gluchowski_img/herb_doliwa.svg" alt="h. Doliwa" class="header-crest-img" title="Doliwa (Zembrzuscy)">
+</div>
 <p class="subtitle">
 <span data-lang="pl">Listy 1944–1948 &bull; 6 dróg konspiracyjnych &bull; Matka i syn rozdzieleni wojną</span>
 <span data-lang="en">Letters 1944–1948 &bull; 6 clandestine routes &bull; Mother and son separated by war</span>
@@ -14036,7 +14044,11 @@ def generate_gallery_html():
 {page_nav}
 
 <div class="header">
-  <h1>GALERIA FOTOGRAFICZNA</h1>
+  <div class="header-crests">
+    <img src="gluchowski_img/herb_prus_II.svg" alt="h. Prus II" class="header-crest-img" title="Prus II (Wilczekosy)">
+    <h1>GALERIA FOTOGRAFICZNA</h1>
+    <img src="gluchowski_img/herb_doliwa.svg" alt="h. Doliwa" class="header-crest-img" title="Doliwa (Zembrzuscy)">
+  </div>
   <div class="subtitle" data-lang="pl">Archiwum Rodziny Głuchowskich — zdjęcia rodzinne, żołnierskie, uroczystości</div>
   <div class="subtitle" data-lang="en">Głuchowski Family Archive — family, military and ceremonial photographs</div>
   <div class="subtitle" data-lang="pt">Arquivo da Família Głuchowski — fotografias familiares, militares e cerimoniais</div>
