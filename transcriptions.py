@@ -4574,6 +4574,55 @@ W. 1/12 46 r.""",
         ],
         "kontekst": "Grudzień 1946. Wanda wylicza poległych kolegów syna — Josiek na Starówce, Kosterlitz, 'prawie wszyscy wyginęli.' Matka nie widziała 18-letniego syna od ewakuacji z Warszawy (1944). Pytanie 'ile masz wzrostu' — nie wie jak wygląda jej dorosły syn."
     },
+
+    "juras_178": {
+        "typ": "list",
+        "data": "ok. 1946",
+        "jezyk": "pl",
+        "nadawca": "nieznany",
+        "adresat": "Krzysztof Głuchowski",
+        "transkrypcja": """Drogi Krysiu! Od Matki Twojej z Warszawy przesyłam Ci najserdeczniejsze pozdrowienia. Matka Twoja ma aptekę w Warszawie i nieźle jej się powodzi. Tylko, że jeden z Twoich stryjków jest zaaresztowany.
+
+Pozdrowienia przesyłam
+[podpis nieczytelny]""",
+        "osoby": ["Wanda Głuchowska", "Krzysztof Głuchowski"],
+        "znaki_szczegolne": [
+            "Bilecik — mały karteczek ok. 8×12 cm",
+            "Podpis nieczytelny — pośrednik anonimowy",
+            "Wzmianka o aresztowaniu stryjka"
+        ],
+        "kontekst": "Anonimowy bilecik z pozdrowieniami od Wandy. Pośrednik — prawdopodobnie okazyjny podróżny. Stryjek aresztowany — represje."
+    },
+
+    "juras_179": {
+        "typ": "list",
+        "data": "12.X.1946",
+        "jezyk": "pl",
+        "nadawca": "Henryk Łabędzki",
+        "adresat": "Krzysztof Głuchowski",
+        "transkrypcja": """Genewa, 12 paźdz. 1946
+
+Szanowny Panie!
+
+Potwierdzam odbiór listu Pana z 23 września b.r. i odpowiadam również z poważnym opóźnieniem, gdyż dotychczas leżałem w szpitalu w Zurichu i przytem nic nie widziałem, po operacji ocznej.
+
+Odnośnie pieniędzy przesyłam Panu przy niniejszym trzy funty, załączone w kopertę, i proszę Pana w Jego interesie o odwrotne potwierdzenie odbioru wymienionej sumy. Po otrzymaniu potwierdzenia przyślę Panu jeszcze dwukrotnie takie same sumy w pewnych odstępach czasu.
+
+Co dotyczy korespondencji zechce Pan na wymieniony adres przesyłać listy, które następnie będą przesłane do kraju.
+
+Ja osobiście wracam jutro do kraju i w ciągu najbliższych dni osobiście porozumiem się z Mamusią Pana.
+
+Łączę pozdrowienia i życzenia pomyślnej nauki
+H. Łabędzki""",
+        "osoby": ["Henryk Łabędzki", "Krzysztof Głuchowski", "Wanda Głuchowska", "Jules Schwob"],
+        "znaki_szczegolne": [
+            "Operacja oczna w Zurychu",
+            "3 funty w kopercie — pomoc finansowa",
+            "Wraca do Polski — 'osobiście porozumiem się z Mamusią'",
+            "Adres: Jules Schwob, Quai Charles Page 37, Genève"
+        ],
+        "kontekst": "Łabędzki wraca do komunistycznej Polski z Genewy. Obiecuje osobisty kontakt z Wandą. Pieniądze dla Krzysztofa — realna pomoc."
+    },
 }
 
 # ═══════════════════════════════════════════════════════════════

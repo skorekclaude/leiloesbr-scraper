@@ -5400,6 +5400,38 @@ OBJECTS = [
         "stan": "Niekompletny — brak pierwszej strony",
         "wycena": "600-1200 PLN"
     },
+    {
+        "sygn": "ARG/V/178",
+        "photo": "list5_p15.png",
+        "tytul": "Bilecik od nieznajomego nadawcy — pozdrowienia od Wandy i wieść o aresztowaniu stryjka",
+        "data": "b.d. [ok. 1946]",
+        "typ": "list",
+        "opis_fizyczny": "Mały karteczek (ok. 8×12 cm), atrament, pismo odręczne. Podpis nieczytelny.",
+        "opis_tresci": "Anonimowy nadawca przekazuje pozdrowienia od Wandy Głuchowskiej z Warszawy. Informuje: matka ma aptekę w Warszawie, 'nieźle jej się powodzi.' Ale: 'jeden z Twoich stryjków jest zaaresztowany.' Podpis nieczytelny — pośrednik konspiracyjny.",
+        "seria": "V",
+        "tworca": "nieznany",
+        "jezyk": "polski",
+        "kontekst": "Krótki bilecik przekazujący wiadomości od Wandy — prawdopodobnie przez okazyjnego podróżnego. Informacja o aresztowaniu stryjka Krzysztofa — element powojennych represji wobec rodzin wojskowych. Anonimowość nadawcy — środek ostrożności.",
+        "powiazania": ["ARG/V/175", "ARG/V/177"],
+        "stan": "Dobry",
+        "wycena": "200-400 PLN"
+    },
+    {
+        "sygn": "ARG/V/179",
+        "photo": "list5_p16.png",
+        "tytul": "List Henryka Łabędzkiego (II) do Krzysztofa — 3 funty i powrót do kraju",
+        "data": "12.X.1946",
+        "typ": "list",
+        "opis_fizyczny": "1 arkusz, atrament. Pismo odręczne Łabędzkiego. Miejsce: Genewa.",
+        "opis_tresci": "Łabędzki potwierdza odbiór listu Krzysztofa z 23 września. Był w szpitalu w Zurychu — operacja oczna. Przesyła 3 funty w kopercie, obiecuje kolejne dwie transze. Korespondencję kierować pod adres Jules Schwob, Genewa. Wraca jutro do kraju — 'osobiście porozumiem się z Mamusią Pana.'",
+        "seria": "V",
+        "tworca": "Henryk Łabędzki",
+        "jezyk": "polski",
+        "kontekst": "Październik 1946. Łabędzki wraca do Polski z Genewy — odważna decyzja, biorąc pod uwagę represje wobec osób z kontaktami na Zachodzie. Obiecuje osobisty kontakt z Wandą. Trzy funty w kopercie — realna pomoc finansowa. Droga pocztowa nadal przez Schwob w Genewie.",
+        "powiazania": ["ARG/V/176", "ARG/V/180"],
+        "stan": "Dobry",
+        "wycena": "400-800 PLN"
+    },
 ]
 
 # ============================================================================
