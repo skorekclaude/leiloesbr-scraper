@@ -5294,6 +5294,416 @@ Opracowanie: sesja katalogowa 24.III.2026 | Opisy na podstawie analizy wizualnej
         "kontekst": "List Cioci Kochanej"
     },
 
+    # listy_wanda_2.pdf
+
+    "juras_218": {
+        "typ": "list",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "transkrypcja": """...napisz, to mu oddam list. Kłodzio jest gdzieś pod Paryżem chodzi na akademię szlak
+pięknych, na zapisy literackie. Symusiu napisz mi czy dostałaś pieniądze dałam 50 dolarów
+do Szwajcarii, — nie mogę zaszyć obaw co do tego czy ci przesłe ale ciekawa jestem ile
+funków to jest i jaką tu ma walutę siłę Kapota. Myślę że w najbliższym czasie będzie ktoś co
+ci zawiezie znów list, gdzie mógł wziąć swobodnie odpowiedź, proszę cię tego rynku napisz
+mi wszystko dokładnie z jakich funduszów teraz żyjesz i jakie masz możliwości, na
+przyszłość. Tylko jedyną napisz też o cioci Hance dlaczego tak jest, jak jest, co robi...""",
+        "kontekst": "Fragment listu (brak daty)"
+    },
+
+    "juras_219": {
+        "typ": "list",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "transkrypcja": """Penley, 9.I.1948.
+Panie Krzysztofie!
+Przyjechałam niedawno do Anglii, a ponieważ w Polsce bardzo często przebywałam z Jego
+rodziną, może Pan zechce zobaczyć się ze mną, aby dowiedzieć się szczegółów.
+My znamy się jeszcze z Warszawy. Często przychodziłam do Państwa na Żoliborz, i
+przeważnie reperowałam tam Pana garderobę. Obecnie jestem razem z mężem na terenie
+trzeciego szpitala wojennego.
+
+Łasijam pozdrowienia
+Hanna Flejsner<BRTAG>(Janina Ryszewska)
+Przesyłam Panu najserdeczniejsze pozdrowienia oraz (mego późniejsze) życzenia z okazji
+Nowego Roku
+H. Flejsner""",
+        "kontekst": "Penley, 9.I.1948"
+    },
+
+    "juras_220": {
+        "typ": "list",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "transkrypcja": """SERENA HÔTEL-PENSION, NORRMALMSTORG 4, STOCKHOLM den 23.2. 1947
+Wielce szanowny Panie – Pozwalam sobie zwrócić do Sz. Pana z polecenia Pani Wandy, z
+którą żyjemy ostatnio bardzo blisko, jako że jest ona najbliższą znajomą mojej najlepszej
+przyjaciół Stefanów Jezierskich. Pani Wanda odwanyła Imienne temu Aptekę na rogu
+Kruczej [...] w zburzonym domu, z którego zostały tylko mury. [...] wybudowała sobie pani
+Wanda antresolę [...] „bocianie gniazdo" gdzie mieszka [...] Jedyną jej największą troską to
+brak wiadomości o synu [...]
+prosiła mnie abym napisała do Pana [...] Jak jej chłopiec się wodzi, czego żyje, czy ją tczy [...]
+jakie jego plany na przyszłość i czy radzi ją z Panem, jako jego najbliższym opiekunem. [...]
+Pozatem miałam Państwu jeszcze podać krótko wiadomość o panu Stanisławie Bukowskim,
+który rok temu zdali zarekwirowany [...]
+Maria Grafowa.""",
+        "kontekst": "Sztokholm, 23.II.1947"
+    },
+
+    "juras_221": {
+        "typ": "list",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "transkrypcja": """Jerzy Graff<BRTAG>Londyn 26/4 47<BRTAG>27, Crespigny Rd. N.W.4<BRTAG>tel.
+Hendon 2725
+Szanowny Panie,
+Z polecenia Pani Wandy Głuchowskiej przywiozłem paczkę dla p. Krzysztofa Głuchowskiego.
+Ponieważ nie posiadam numeru telefonu Sz. Pana, uprzejmie proszę o skomunikowanie się
+ze mną telefonicznie każdego dnia do godz 9³⁰ rano, lub o godz. 7 wieczorem.
+Zaznaczam że pozostanę w Londynie ok. 1 tygodnia. –
+
+Z poważaniem<BRTAG>[podpis]""",
+        "kontekst": "Londyn, 26.IV.1947"
+    },
+
+    "juras_222": {
+        "typ": "list",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "transkrypcja": """Synku Malutki!
+Dostałam 
+dwa 
+Twoje 
+listy, 
+dzień 
+po 
+dniu.<BRTAG>Odpiszę 
+w 
+najbliższych
+dniach<BRTAG>a dziś do serca Cię tulę
+Wawa""",
+        "kontekst": "Liścik (brak daty)"
+    },
+
+    "juras_223": {
+        "typ": "list",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "transkrypcja": """Młody Głuchowski<BRTAG>wizje p. Janowy dn. 20/- 47.
+Synku Kochany!
+Tak czekam na wiadomości od Ciebie. Pisz koniecznie na adres paryski. U nas bez zmian.
+Czy dostałeś przesyłkę? Ściskam Was wszystkich b. b. serdecznie [...] ja dobrze do ucałuj.
+Wawa
+[Na 
+odwrocie 
+adres:]<BRTAG>Krzysztof 
+Głuchowski<BRTAG>25 
+Bodney 
+Airfield
+P/105<BRTAG>Thetford – Norfolk""",
+        "kontekst": "ok. 20.-.1947"
+    },
+
+    "juras_224": {
+        "typ": "list",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "transkrypcja": """W-wa 13.I.1947 r.
+Synisku Mój Malutki!
+Dostałam list od Sofki [...] chcę ci wysłać trochę zdjęć [...] Tak czekam listu od Ciebie,
+synku. – Ja na okres wiatreczny wyjechałam z W-wy [...] z Wandą S. [...] Na Żoliborzu [...]
+zjechało aż 5-iu panów – Szumark, Patek, 3 panów Korbolskich. [...] Paniunk upadł i złamał
+obie ręki i pękła aż w 4-ech miejscach. [...]
+U mnie na mojej antresoli coraz przyjemniej [...] Mamy tu już dwa spania, stolik okrągły, 2
+kresła, lustro, dywanik a ostatnio [...] radio i dwie śliczne przysułki. [...]
+Wawa""",
+        "kontekst": "Warszawa, 13.I.1947"
+    },
+
+    "juras_225": {
+        "typ": "list",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "transkrypcja": """W. 19.XII.46 r.
+Kochany Synu!
+[...] wybieram się do Marysi R. do Leśniarówki i następnie do Wrocławia i do Łodzi – jadę
+razem z Wandą S. [...]
+Krysiuku jeśli Malek nie wróci do żony to staraj się go skomunikować z Bronkiem [...]
+Przecie byli w wielkiej przyjaźni. [...]
+Synecku malutki! Takin bardzo ciekawa czy paczki doszły do Ciebie [...] przesłam Ci
+kalendarzyk żeby mu posłał tylko Krysiuku nalep, bo mi kleja zabrakło [...] jeśli będzie się do
+
+Ciebie wracać ktokolwiek z rodziny Klendjana to możesz mieć do nich zaufanie i nie unikaj
+kontaktu z nimi.
+Ściskam mocno, mocno Twoja matka""",
+        "kontekst": "Warszawa, 19.XII.1946"
+    },
+
+    "juras_226": {
+        "typ": "list",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "transkrypcja": """Krysieku Kochany! Zrobiłam aż już taka prawdziwa histeryczka, wprost z apteki nie chce mi
+się wychodzić, bo zdaje mi się że właśnie jak wyjdę list od Ciebie przyjdzie. – Tak Synecku
+jesteś jedyną wygraną pozycją w moim życiu i to wygraną podwójnie, bo po pierwne to że
+wogóle istniejesz, a po drugie że powstanie czy inne katastrofy nie zabrało mi Ciebie. [...]
+Kocham Cię Malutki i tęsknię za Tobą. A jak pomyślę sobie że świat tak prachtonie i już do
+mnie nie wróci to obraca mi się krojc. [...] Wczoraj spotkałam P. Hygrosierorcz z jednym z
+synistki pod rękę i wiec Synecku wprost fizycznie poczułam zazdrość [...]
+W. 9/III 47r. Wawa""",
+        "kontekst": "Warszawa, 9.III.1947"
+    },
+
+    "juras_227": {
+        "typ": "list",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "transkrypcja": """W-wa 10/II -47
+Synku Kochany! List Twój z 19-go dostałam. Malutki pisz do mnie częściej. U nas bez zmian.
+– straszne mrozy. [...] Czy dostałeś moskotki wysłane lotem przez Szwedów było ich
+kilkanaście?
+Wawa
+---
+Krysieku Kochany! [...] koło Norfolk góra Londonu się ukazała – że ciągle się martwię czy Ci
+tam nie jest zimno. – U nas wielkie mrozy, ale węgla jest dość [...] pojechałam do Łozi to
+przez dwa dni apteka była zamknięta, bo ja nie mogłam wrócić bo pociągi i autobusy nie
+mog [...] Posyłam Ci znaczki [...] Wszystkie zdjęcia robione na ślubie Adasia [...] Adaś
+obecnie jest nadleśniczym w Ostromecku koło Torunia. – Synecku moly pisz i nie jedź do
+Argentyny [...]
+Wawa""",
+        "kontekst": "Warszawa, 10.II.1947 + list bez daty"
+    },
+
+    "juras_228": {
+        "typ": "list",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "transkrypcja": """Synku Kochany! Pytam czy dostałam list z 16.I. Otóż Synku listów od Ciebie dostałam pięć z
+22.X.46r. z 25.XI.46r. 19.I.47. 5.II.23.I [...] Czytam je tam jakie raz myślce i będę Ci chciała
+odpowiedzieć na wszystkie zasadne w nich pytania. –
+[O zdjęciach:] zdjęć się naliniarlo, bo istrawda było ine darzio, bo przecień oprócz naszych
+była cała skrzynia fotografji Stanki, ale synecku się w tak opłakanym stanie [...] Dach był
+przecie zerwany, więc przez kilka miesięcy woda zalewała wszystko.
+[O kolegach:] Jakoś synecku do tej pory nie zdosarann się nie dowiedzieć [...]
+[O lekarstwach:] Żusofnylisin proszek [...] wyślij na adres Stawki Żwirki 1 d. mieszkania 12 –
+Łódź.
+[O domu na Żoliborzu:] Jak widzisz na zdjęciu dom stoi, ale [...] Dach został zerwany a desci
+i śnieg [...] Ciotka Halenkę w okresie kiedy ja jeszcze byłam w więzieniu (7 miesięcy) zrobiła
+umowę [...]
+[O meblach:] Fotel mahoniowy, sofecka mahoniowe [...] Twoja Biblioteka [...] ani porcelany,
+ani garderoi ani recy osobistych nie się nie uralowało [...]
+Przyjaźnicn Twoja jest [...] Warszawa 5.VI.42
+
+Wawa W. 19/II 47r.""",
+        "kontekst": "Warszawa, 19.II.1947"
+    },
+
+    "juras_229": {
+        "typ": "list",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "transkrypcja": """W. 18/III.47r.
+Syneku Kochany! Dziś w dziś B.B.C. mówi o tych którzy nie zapisali się do Korpsu
+przysposobienia lub nie wracają do Kraju [...] właśnie nie rozumiem co z Tobą. Właściwie co
+skłania Cię do tego żeby jechać [...] w tak daleki świat. [...]
+proszę Cię ureguluj swoje sprawy w naszej placówce [...] metryki twoje [...] więc koniecznie
+ureguluj te sprawy. –
+[O pieniądzach:] na wszystkie strony kombinuję jakby tu zrobić żeby [...] przesłać Ci trochę
+gotówki. [...]
+[O towarach na sprzedaż:] krawaty z prawdziwego milanowskiego jedwabiu [...] szaliki i
+chusteczki [...] kapcie 3½ m. [...] O bardzo pięknym wronie, ręczenie malowanym [...]
+Pororum się w tej sprawie z Kłodkiem on ma rodzinę w Anglji [...]
+[O Stefku:] Pisałeś Synku że Stefek zdecydował się wracać, ja myślę że pewnie dobrze robi
+[...] los tych wszystkich wymigrców to jest lepiej być z nami. –
+Tulę Cię Synku do serca i mocno całuję Wawa""",
+        "kontekst": "Warszawa, 18.III.1947"
+    },
+
+    "juras_230": {
+        "typ": "list",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "transkrypcja": """Synku! Jesteś już dorosłym mężczyzną a ja ciągle nie mogę się z tym pogodzić [...] Pisałeś mi
+że nie zakochałeś się jeszcze, oczywiście jak wszystkie matki i ja chciałabym jak najdalej ten
+moment odsunąć [...]
+Synecku piszen że korespondujez z czterema Dziewczynkami – napisz mi jakie i kto one [...]
+Wczoraj byłam w teatrze i tam spotkałam pp. Piałkow i Violett. Violett straciła matkę a dom
+ich dostał zepsutie rozbity [...]
+Na Skaryszce powoleli zaczynają się ekshumacje [...]
+[...] Krysieku apteka natomiast jest b. b. przyjemna, jasna i zupełnie estetyceme, i b. ją lubię
+[...]
+[...] antresola jest b. przyjemna i jest mi tu b. dobrze [...]
+[O planach syna:] jeśli chodziostujo wyzen [...] raczej studiował w Anglji [...] ale jeśli ta
+Argutyna to mi zupełnie mi odpowiacle [...]
+19.IV.47r. [...] Posyłam Ci 2 chusteczki. Jest to czysty jedwab. Milanówek – ręczne
+malowanie. Cena 1 sztuki 400 zł [...]
+
+Wawa""",
+        "kontekst": "Warszawa (wielostronicowy, bez jednolitej"
+    },
+
+    "juras_231": {
+        "typ": "list",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "transkrypcja": """W. 30/III 47r.
+Kochany Synku! [...] Jeśli Ci napisałam że nie przedstawiam tych wartości jakie
+przedstawiają inne matki, to dlatego że tych wartości istholie nie mami [...] nie Ciebie, a
+siebie winię. – [...] a że nie jesteśmy razem toć tylko losowi urgan. [...]
+Dzięki Bogu że skończyła się zima. [...]
+[O poszukiwaniu syna po wojnie:] Jakiś rok temu był na Żoliborzu jakiś chłopiec [...] i
+opowiadał że [...] byłeś bardzo zdepresjonowany. – To pewno był okres francuski. – [...]
+dopiero [...] spotkałam jedną panią która była sekretarką w Grenobli i zapowniła mnie że [...]
+pisała listy uczniów do Gimnazjum i że Twoje nazwisko tam było. To był pierwszy ślad że
+żyjesz. –
+Krysieku patrzę na wszystkie posiadane fotografie Twoje [...] masz b. smutny wyraz twarzy –
+martui mnie to bardzo [...]
+[O kontaktach:] posyłam ci adres p. Kirkora [...] który jakoby decyduje o [...] stypudiojach
+[...] p. Bronisław Chrerpińskiego, on jest przecier prezesem związku Polaków [...]
+Wawa""",
+        "kontekst": "Warszawa, 30.III.1947"
+    },
+
+    "juras_232": {
+        "typ": "list",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "transkrypcja": """Drogi Kochany Synku!
+Święta się zbliżają i znów jesteśmy daleko od Siebie. [...] znów tylko w pośpiechu [...] Mocno
+mocno całuję Cię i tulę do sana i życzę Ci Wesołych Świąt
+Wawa
+W 31/III 47r.
+---
+Bardzo chciałabym widzieć dokładnie kiedy ojciec kupuje i jaką drogą [...] Dobraby było
+żeby Stefek [...] Mocno całuję Wawa.""",
+        "kontekst": "Życzenia wielkanocne, 31.III.1947 +"
+    },
+
+    "juras_233": {
+        "typ": "list",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "transkrypcja": """Warszawa, 4/IV.47r.
+Najdroższe moje Dziecko.
+Wielki Piątek [...] Stanelka z całą rotyji pojechała wczoraj do Kożnicy, bo doktor Hance
+zalecił koniecznie wyjazd na 2 miesiące. [...]
+Józek już pojechał, był kilka dni w Warinwie, ale [...] wybrał sobie w niedzielę ugotowało bię
+zupi z pomilorów z panki amerykańskiej, tak że [...] pradie prytomnośó Trocii [...]
+Ostatnio jest konserwatorem rynku w Kazimierzu z ramienia ministerstwa [...] Możliwe że
+dostanie pozwolenie na wysyłkę swoich medali [...] I „Majdanek" II „Bolesław Chrobry" i III
+– plakietka [...] robione jeszcze w okresie okupacji niemieckiej.
+Maznie porsiałam Ci baraneczka. [...]
+Wawa""",
+        "kontekst": "Warszawa, 4.IV.1947"
+    },
+
+    "juras_234": {
+        "typ": "list",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "transkrypcja": """Łódź 8.IV.47r.
+Najdroższe moje Krysiulko!
+A więc na święta zjechałam do Łodzi. [...] Cały dzień spędziliśmy w domu. [...] był i baranek i
+babki i wiśodek [...] Tylko nas była taka mała garstka [...]
+Włodeczek miał co oglądać [medale Józka] – Bardzo mu się podobały [...] Włodek jest w
+wielkiej przyjaźni numizmatycznej z dyrektorem mennicy p. Toleckim [...]
+Włodek b. jest przygnębiony tą chorobą Ludki [...] położenie jest beznadziejne [...]
+Na moji dzień Ewa zrobiła mi wielką przyjemność [...] przygotowała wannę gorącej wody i
+wykąpałam się [...]
+9/IV. Dziś raciuko przyjechałam autobusem do Warszawy [...] pojechać na Powązki, koło dris
+imieniny Babci. – [...] z myślą o Tobie postawiłam niebieską cynerarię [...]
+Wawa.
+Synku jakie Ty marki zbierasz, czy tylko stemplowane, czy też mogę być i niestemplowane?
+–""",
+        "kontekst": "Łódź, 8-9.IV.1947"
+    },
+
+    "juras_235": {
+        "typ": "list",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "transkrypcja": """W-wa 11/IV 1947r.
+Synku Mój Malutki!
+Zbliżają się Twoje imieniny, życzę Ci więc dziecisko jaknajwięcej jasnych i promiennych
+chwil w życiu i do serca Cię tulę. [...]
+Ten przedświąteczny okres, kiedy dostałam kilka listów jeden po drugim był dla mnie b.
+regiśtiwy [...] Synecku a już najwięcej – Dziękuję Ci za ten list z Niemiec. [...]
+12/IV [...] Pierone wiadomości dotarły do minie dopiero jesienią – był to list od Stefka
+wysłany przez jakiegoś powracającego oficera.
+13/IV Dowiedziałam się że żyjesz. [...]
+Wawa
+Czy masz jakiś adres w Londynie gdzie mogna by coś przesłać, może Cioci Marysi? [...]
+Operacja jej [...] była miesiąc temu, ale [...] do tej pory jeszcze jest chora.
+Wawa""",
+        "kontekst": "Warszawa, 11-13.IV.1947"
+    },
+
+    "juras_236": {
+        "typ": "list",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "transkrypcja": """W. 15.IV.47r.
+Synku Drogi!
+Wczoraj dostałam Twój list z Longbridge [...] Bardzo ucieszyłam się nim [...]
+[O pieniądzach:] ja napewno będę Ci mogła jakoś przekazać trochę groszy [...] przeciętne
+stypendium wynosi do funtów miesięcznie [...] jest tu naprzykład jedna starsza Pani której
+wnuk chce przesyłać 10 funtów miesięcznie [...]
+[...] bardzo chciała żebyś nawiązał kontakt z p. Bronisławem Chełerpińskim [...] albo Janusz
+Rowiński [...]
+O Synku mój dzięki Bogu że ta Argentyna nie jest taką uko dwoalnicj bo tak mnie to
+przerażało –
+[...] Krysieniujalt imieninowy upominek mam dla Ciebie aparat fotograficzny. – [...] Jest to
+niemiecki. Włodek go kupował i uwara go za dobry. Nie jest Leika ale w tym typie. [...]
+Wysłałam [...] trochę pisanek [...]
+Wawa""",
+        "kontekst": "Warszawa, 15.IV.1947"
+    },
+
+    "juras_237": {
+        "typ": "list",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "transkrypcja": """W. 16.IV.47r.
+Krysieku Synecku Mój!
+U nas jest w cołej pełni wiosna, bardzo ciepło się zrobiło. [...] kto wejdzie do apteki to [...]
+Wszyscy się dopytują o Was obydwuch – kiedy wracacie. –
+[...] Stefan Keropiński [...] opowiadał mi o sonier Zygmuncie. Niestety biedaczysko jest
+chory i siedzi w Salatoriun na Dolnym Śląsku [...]
+[...] Tadeun Buranowski jest w Londynie – p. Zagiełkowski jest również w Londynie. [...]
+Boranowska Hala zginęła w pociągu [...] z Pruszkowa do obozów, podczas nalotu
+aljanckiego. –
+[...] Zaczynam żyć pod wrażeniem ewenalnego powrotu ojca [...] Mam już [...] 3 tomy
+„Popiołów" [...] oddałam do reperacji koparai ten na którym sypiał ojciec jeszcze w
+barakach. [...]
+Synecku a dla Ciebie – mam [...] śliczne plumeau [...]
+Dostałam dziś nacanki od Janeczki [...]""",
+        "kontekst": "Warszawa, 16.IV.1947"
+    },
+
+    "juras_238": {
+        "typ": "list",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "transkrypcja": """W. 17.IV – 47r.
+Krychu Kochany!
+Dziś dostałam pierwszy list przesłany normalną pocztą od ojca. Pisze mi że ma zamiar w
+końce kwietnia wrócić do Kraju. [...] sprawa pełnomocnictwa od ciotki na dom [...] ojciec w
+liście pyta jakie artykuły aptekarskie są w Kraju potrzebne [...] przesyłam Tobie dzieciako
+spis, a Ty bądź tak dobry i prześlij ojcu. –
+[...] przesyłam zdjęcie dziadka z ojcem [...] robione w listopadzie 1944 w Krakowie. [...]
+Wawa
+SPIS LEKARSTW (45 pozycji):<BRTAG>1) Campolon 2 i 5, 2) Testoviron 10 mg i 25 mg, 3)
+Cortison 10 mg, 4) Cibasol tabl., 5) Lacarnol amp., 6) Pyramidon pulv., 7) Eshetonin tabl., 8)
+Euphyllin ampułki i pulv., 9) Tonophosphan „forte", 10) Pilocarpin pulv., 11) Papaverin
+pulv., 12) Pereninyl „forte", 13) Proluton 20 mg 5 mg, 14) Felamin, 15) Iminol, 16)
+Bronchisan, 17) Calcium Sandoz, 18) Jod-Calcium-Diuretin, 19) Calcium Diuretin, 20)
+Diacolin pulv. i tabl., 21) Adalin tabl., 22) Butolate, 23) Hegeminal, 24) Coramin amp 5 cc i
+pryguel, 25) Cardianol pulv., 26) Cebion 5 i 2 amp., 27) Progynon 10 i 50 tys. jednostek, 28)
+Dolantin amp., 29) Eldoform, 30) Euflawin, 31) Ewin tabl. i amp., 32) Yatren Casein, 33)
+Carostidin, 34) Lutren 5 mg amp., 35) Noralgin amp/tabl./pulv./eliksir, 36) Paralin amp., 37)
+Sympatol liq., 38) Thyreoidee tabl., 39) Thyroxin, 40) Validol, 41) Vogin""",
+        "kontekst": "Warszawa, 17.IV.1947"
+    },
+
 }
 
 # ═══════════════════════════════════════════════════════════════
