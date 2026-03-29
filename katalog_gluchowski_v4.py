@@ -12212,6 +12212,196 @@ GALLERY_PHOTOS = [
         "osoba": "płk Jan Mazurkiewicz 'Radosław', kombatanci 7 P.Uł. AK",
         "opis": "Komplet 6 fotografii z 16. rocznicy Powstania Warszawskiego przy mogile Dywizjonu AK 'Jeleń'. Sceny: mogiła z tablicą 'AK DYWIZJON WARSZAWSKI JELEŃ POWSTANIE 1944', harcerze w warcie, duchowny błogosławiący, tłum uczestników, Radosław składa wieniec pod obeliskiem AK. Rewersy z opisami: 'pod Obeliskiem AK składa wieniec RADOSŁAW', 'Groby Jółki Porzeki', 'Zdjęcia robi mjr. Wtody — Sław Kulena — D-ca Batl. 36 P.P. Legji Akademickiej'. Jan Mazurkiewicz 'Radosław' (1896–1988) — dowódca Zgrupowania Radosław, legenda Powstania. Aresztowany przez UB, skazany, zrehabilitowany. Wycena: 3000–8000 PLN."
     },
+    # ── Korespondencja 1946-1948 (listy_wanda_2.pdf) ──────────────
+    {
+        "sygn": "ARG/V/218", "tytul": "Fragment listu (brak daty)",
+        "data": "b.d.", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny.",
+        "opis_tresci": "Fragment listu (brak daty)",
+        "kontekst": "Korespondencja rodzinna 1946-1948, zbiór listy_wanda_2.pdf",
+        "powiazania": ["ARG/V/175", "ARG/V/182"], "stan": "Dobry", "wycena": "400-1000 PLN"
+    },
+    {
+        "sygn": "ARG/V/219", "tytul": "Penley, 9.I.1948",
+        "data": "9.I.1948", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny.",
+        "opis_tresci": "Penley, 9.I.1948",
+        "kontekst": "Korespondencja rodzinna 1946-1948, zbiór listy_wanda_2.pdf",
+        "powiazania": ["ARG/V/175", "ARG/V/182"], "stan": "Dobry", "wycena": "400-1000 PLN"
+    },
+    {
+        "sygn": "ARG/V/220", "tytul": "Sztokholm, 23.II.1947",
+        "data": "23.II.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny.",
+        "opis_tresci": "Sztokholm, 23.II.1947",
+        "kontekst": "Korespondencja rodzinna 1946-1948, zbiór listy_wanda_2.pdf",
+        "powiazania": ["ARG/V/175", "ARG/V/182"], "stan": "Dobry", "wycena": "400-1000 PLN"
+    },
+    {
+        "sygn": "ARG/V/221", "tytul": "Londyn, 26.IV.1947",
+        "data": "26.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny.",
+        "opis_tresci": "Londyn, 26.IV.1947",
+        "kontekst": "Korespondencja rodzinna 1946-1948, zbiór listy_wanda_2.pdf",
+        "powiazania": ["ARG/V/175", "ARG/V/182"], "stan": "Dobry", "wycena": "400-1000 PLN"
+    },
+    {
+        "sygn": "ARG/V/222", "tytul": "Liścik (brak daty)",
+        "data": "b.d.", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny.",
+        "opis_tresci": "Liścik (brak daty)",
+        "kontekst": "Korespondencja rodzinna 1946-1948, zbiór listy_wanda_2.pdf",
+        "powiazania": ["ARG/V/175", "ARG/V/182"], "stan": "Dobry", "wycena": "400-1000 PLN"
+    },
+    {
+        "sygn": "ARG/V/223", "tytul": "ok. 20.-.1947",
+        "data": "b.d.", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny.",
+        "opis_tresci": "ok. 20.-.1947",
+        "kontekst": "Korespondencja rodzinna 1946-1948, zbiór listy_wanda_2.pdf",
+        "powiazania": ["ARG/V/175", "ARG/V/182"], "stan": "Dobry", "wycena": "400-1000 PLN"
+    },
+    {
+        "sygn": "ARG/V/224", "tytul": "Warszawa, 13.I.1947",
+        "data": "13.I.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny.",
+        "opis_tresci": "Warszawa, 13.I.1947",
+        "kontekst": "Korespondencja rodzinna 1946-1948, zbiór listy_wanda_2.pdf",
+        "powiazania": ["ARG/V/175", "ARG/V/182"], "stan": "Dobry", "wycena": "400-1000 PLN"
+    },
+    {
+        "sygn": "ARG/V/225", "tytul": "Warszawa, 19.XII.1946",
+        "data": "19.XII.1946", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny.",
+        "opis_tresci": "Warszawa, 19.XII.1946",
+        "kontekst": "Korespondencja rodzinna 1946-1948, zbiór listy_wanda_2.pdf",
+        "powiazania": ["ARG/V/175", "ARG/V/182"], "stan": "Dobry", "wycena": "400-1000 PLN"
+    },
+    {
+        "sygn": "ARG/V/226", "tytul": "Warszawa, 9.III.1947",
+        "data": "9.III.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny.",
+        "opis_tresci": "Warszawa, 9.III.1947",
+        "kontekst": "Korespondencja rodzinna 1946-1948, zbiór listy_wanda_2.pdf",
+        "powiazania": ["ARG/V/175", "ARG/V/182"], "stan": "Dobry", "wycena": "400-1000 PLN"
+    },
+    {
+        "sygn": "ARG/V/227", "tytul": "Warszawa, 10.II.1947 + list bez daty",
+        "data": "10.II.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny.",
+        "opis_tresci": "Warszawa, 10.II.1947 + list bez daty",
+        "kontekst": "Korespondencja rodzinna 1946-1948, zbiór listy_wanda_2.pdf",
+        "powiazania": ["ARG/V/175", "ARG/V/182"], "stan": "Dobry", "wycena": "400-1000 PLN"
+    },
+    {
+        "sygn": "ARG/V/228", "tytul": "Warszawa, 19.II.1947",
+        "data": "19.II.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny.",
+        "opis_tresci": "Warszawa, 19.II.1947",
+        "kontekst": "Korespondencja rodzinna 1946-1948, zbiór listy_wanda_2.pdf",
+        "powiazania": ["ARG/V/175", "ARG/V/182"], "stan": "Dobry", "wycena": "400-1000 PLN"
+    },
+    {
+        "sygn": "ARG/V/229", "tytul": "Warszawa, 18.III.1947",
+        "data": "18.III.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny.",
+        "opis_tresci": "Warszawa, 18.III.1947",
+        "kontekst": "Korespondencja rodzinna 1946-1948, zbiór listy_wanda_2.pdf",
+        "powiazania": ["ARG/V/175", "ARG/V/182"], "stan": "Dobry", "wycena": "400-1000 PLN"
+    },
+    {
+        "sygn": "ARG/V/230", "tytul": "Warszawa (wielostronicowy, bez jednolitej",
+        "data": "b.d.", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny.",
+        "opis_tresci": "Warszawa (wielostronicowy, bez jednolitej",
+        "kontekst": "Korespondencja rodzinna 1946-1948, zbiór listy_wanda_2.pdf",
+        "powiazania": ["ARG/V/175", "ARG/V/182"], "stan": "Dobry", "wycena": "400-1000 PLN"
+    },
+    {
+        "sygn": "ARG/V/231", "tytul": "Warszawa, 30.III.1947",
+        "data": "30.III.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny.",
+        "opis_tresci": "Warszawa, 30.III.1947",
+        "kontekst": "Korespondencja rodzinna 1946-1948, zbiór listy_wanda_2.pdf",
+        "powiazania": ["ARG/V/175", "ARG/V/182"], "stan": "Dobry", "wycena": "400-1000 PLN"
+    },
+    {
+        "sygn": "ARG/V/232", "tytul": "Życzenia wielkanocne, 31.III.1947 +",
+        "data": "31.III.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny.",
+        "opis_tresci": "Życzenia wielkanocne, 31.III.1947 +",
+        "kontekst": "Korespondencja rodzinna 1946-1948, zbiór listy_wanda_2.pdf",
+        "powiazania": ["ARG/V/175", "ARG/V/182"], "stan": "Dobry", "wycena": "400-1000 PLN"
+    },
+    {
+        "sygn": "ARG/V/233", "tytul": "Warszawa, 4.IV.1947",
+        "data": "4.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny.",
+        "opis_tresci": "Warszawa, 4.IV.1947",
+        "kontekst": "Korespondencja rodzinna 1946-1948, zbiór listy_wanda_2.pdf",
+        "powiazania": ["ARG/V/175", "ARG/V/182"], "stan": "Dobry", "wycena": "400-1000 PLN"
+    },
+    {
+        "sygn": "ARG/V/234", "tytul": "Łódź, 8-9.IV.1947",
+        "data": "9.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny.",
+        "opis_tresci": "Łódź, 8-9.IV.1947",
+        "kontekst": "Korespondencja rodzinna 1946-1948, zbiór listy_wanda_2.pdf",
+        "powiazania": ["ARG/V/175", "ARG/V/182"], "stan": "Dobry", "wycena": "400-1000 PLN"
+    },
+    {
+        "sygn": "ARG/V/235", "tytul": "Warszawa, 11-13.IV.1947",
+        "data": "13.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny.",
+        "opis_tresci": "Warszawa, 11-13.IV.1947",
+        "kontekst": "Korespondencja rodzinna 1946-1948, zbiór listy_wanda_2.pdf",
+        "powiazania": ["ARG/V/175", "ARG/V/182"], "stan": "Dobry", "wycena": "400-1000 PLN"
+    },
+    {
+        "sygn": "ARG/V/236", "tytul": "Warszawa, 15.IV.1947",
+        "data": "15.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny.",
+        "opis_tresci": "Warszawa, 15.IV.1947",
+        "kontekst": "Korespondencja rodzinna 1946-1948, zbiór listy_wanda_2.pdf",
+        "powiazania": ["ARG/V/175", "ARG/V/182"], "stan": "Dobry", "wycena": "400-1000 PLN"
+    },
+    {
+        "sygn": "ARG/V/237", "tytul": "Warszawa, 16.IV.1947",
+        "data": "16.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny.",
+        "opis_tresci": "Warszawa, 16.IV.1947",
+        "kontekst": "Korespondencja rodzinna 1946-1948, zbiór listy_wanda_2.pdf",
+        "powiazania": ["ARG/V/175", "ARG/V/182"], "stan": "Dobry", "wycena": "400-1000 PLN"
+    },
+    {
+        "sygn": "ARG/V/238", "tytul": "Warszawa, 17.IV.1947",
+        "data": "17.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny.",
+        "opis_tresci": "Warszawa, 17.IV.1947",
+        "kontekst": "Korespondencja rodzinna 1946-1948, zbiór listy_wanda_2.pdf",
+        "powiazania": ["ARG/V/175", "ARG/V/182"], "stan": "Dobry", "wycena": "400-1000 PLN"
+    },
 ]
 
 
