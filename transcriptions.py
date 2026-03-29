@@ -1613,8 +1613,9 @@ Greta Garbo (?), aktor teatralny, postać]""",
     },
 
     # ═══════════════════════════════════════════════════════════════
-    # juras_088-090 — Kontynuacja listu (strony 3, 4, 5)
-    # Część tego samego listu co juras_010 (list wigilijny)
+    # juras_088-090 — Memorandum polityczne (strony 3, 4, 5)
+    # NIE jest kontynuacją listu wigilijnego (juras_010) — reklasyfikacja PAI III.2026
+    # Apel do emigracji polskiej, Żelazna kurtyna, ustawy imigracyjne USA
     # ═══════════════════════════════════════════════════════════════
     "juras_088": {
         "typ": "Memorandum polityczne — apel do emigracji polskiej",
