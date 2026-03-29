@@ -86,9 +86,9 @@ SERIES = [
     {
         "id": "IV",
         "tytul": "Rtm. Lech Jerzy Głuchowski ps. 'Jeżycki' (1902–1944)",
-        "opis": "Ur. 2.VI.1902, Raków k. Częstochowy. Rtm. rez. kawalerii, d-ca 1. szwadronu dyw. 'Jeleń' (7 P.Uł. AK). Walki: Śródmieście, Mokotów, Sadyba, szturm na al. Szucha. 15.IX.1944 — ciężko ranny na ul. Dolnej, popełnił samobójstwo by żołnierze nie ryzykowali życia próbując go ewakuować pod ogniem. Akt heroizmu. Virtuti Militari V kl. (pośm.), Krzyż Walecznych, Złoty Krzyż Zasługi z Mieczami, Krzyż AK. Pochowany Powązki (kw. 99-I-27). Brak bezpośrednich dokumentów w kolekcji — wspominany w korespondencji i nekrologach.",
-        "daty": "1902–1944",
-        "rozmiar": "wzm."
+        "opis": "Ur. 2.VI.1902, Raków k. Częstochowy. Rtm. rez. kawalerii, d-ca 1. szwadronu dyw. 'Jeleń' (7 P.Uł. AK). Walki: Śródmieście, Mokotów, Sadyba, szturm na al. Szucha. 15.IX.1944 — ciężko ranny na ul. Dolnej, popełnił samobójstwo by żołnierze nie ryzykowali życia próbując go ewakuować pod ogniem. Akt heroizmu. Virtuti Militari V kl. (pośm.), Krzyż Walecznych, Złoty Krzyż Zasługi z Mieczami, Krzyż AK. Pochowany Powązki (kw. 99-I-27).",
+        "daty": "1918–1944",
+        "rozmiar": "2 jednostki"
     },
     {
         "id": "V",
@@ -4637,7 +4637,7 @@ OBJECTS = [
         "typ": "maszynopis",
         "opis_fizyczny": "Maszynopis A4, jedna pełna strona. Nagłówek: 'ROTMISTRZ LECH GŁUCHOWSKI PSEUDONIM «IŻYCKI»'. Podpis: 'Przygotował Krzysztof Głuchowski / Rio de Janeiro, 18 października 1995'. Dwa bloki: biografia narracyjna (~25 linii) + bibliografia (16 pozycji). Na dole przypis gwiazdkowy o gen. Januszu.",
         "opis_tresci": "Biogram Lecha Głuchowskiego (ur. ok. 1902 w Rakowcu, syn Mariana Głuchowskiego i Marty z Żółkiewskich). W 1918 roku miał 16 lat — uczestnik P.W. (pracy wolnościowej?). Szkoły średnie w Radomsku. Ukończył Akademię Rolniczą w Bydgoszczy (ok. 1932). We IX.1939 zmobilizowany do 7 P.U.L., kampania wrześniowa, walki nad Pilicą. We Francji — 10. Brygada Kawalerii Pancernej. W Anglii — AK kryptonim 'Jeleń', konspiracja w Londynie. Wrócił do okupowanej Polski. W 1944 dowódca plutonu/kompanii Dywizjon 'Jeleń' na Al. Szucha, następnie w grupie powstańczej na Mokotowie. 15 września 1944 — poległ w obronie pozycji na Mokotowie. Pochowany na cmentarzu parafialnym (tymczasowo), potem ekshumowany do grobu rodzinnego na cmentarzu na Powązkach(?). Awansowany do stopnia majora (pośmiertnie?). Odznaczenia: Krzyż Virtuti Militari, Krzyż Walecznych (×3), Złoty Krzyż Zasługi z Mieczami, Medal Wojska, Krzyż Armii Krajowej (Nr 1 specjalna seria z 6,67 kolejnych podpisem gen. Bora-Komorowskiego i Prezydenta RP). Bibliografia: 16 pozycji, w tym Bellona (Londyn 1953), Borkiewicz 'Powstanie Warszawskie' (1957), 'Łam i Lubelscy' (Londyn 1969), Żołnierze Mokotowa 1944 (MON 1971), 135 Pluton AK (1994), Dziennik Polski (Londyn, 5 not 1991-92). Archiwum: BN Warszawa, Zbiór Rękopisów Nr 13853. Przypis: '*Później I wice minister Spraw Wojskowych, i dowódca Jednostek Wojska w Wielkiej Brytanii, generał dywizji' — dot. gen. Janusza.",
-        "seria": "VI",
+        "seria": "IV",
         "tworca": "Krzysztof Głuchowski",
         "jezyk": "polski",
         "kontekst": "CZWARTY SYN MARIANA: Lech Głuchowski (ok. 1902–15.IX.1944) — brat Janusza (1888) i Stefana (1893), STRYJ Krzysztofa 'Jurasia'. Rotmistrz kawalerii, weteran kampanii wrześniowej (7 P.U.L.), Francji (10. BKP) i Anglii. Wrócił do okupowanej Polski i walczył w AK 'Jeleń'. Poległ na Mokotowie 15 września 1944 w Powstaniu Warszawskim. Odznaczony Krzyżem Virtuti Militari — najwyższe polskie odznaczenie wojskowe. Krzyż AK Nr 1 z podpisem gen. Bora-Komorowskiego. TRZY BRACIA w walce: Janusz (generał PSZ w Anglii), Stefan (AK Żoliborz, Pawiak), Lech (AK Mokotów, poległ). Biogram spisany przez Krzysztofa w tym samym dniu (18.X.1995) co autobiografia i biogram Stefana — systematyczna praca dokumentacyjna w Rio de Janeiro. Dedykacja od Lecha do Stefana zachowana w kolekcji (ARG/VI/28).",
@@ -5321,7 +5321,7 @@ OBJECTS = [
         "typ": "dedykacja",
         "opis_fizyczny": "Dedykacja odręczna atramentem na odwrocie fotografii lub na kartce papieru, format ~12×15 cm. Pismo kaligraficzne (Lech), pod spodem 6-7 podpisów kolegów oficerskich. Papier pożółkły, atrament brązowiejący.",
         "opis_tresci": "'Kochanemu Stefankowi, uroczemu braciszkowi i dobremu towarzyszowi / Lech    Lochia(?)'. Poniżej podpisy kolegów oficerskich, w tym wzmianka '8 p.S.K.' (8 Pułk Strzelców Konnych?). Kilka podpisów nieczytelnych — kaligraficzne, z parafami. Jeden podpis zawiera 'Meguriński(?)', inny 'Jakub Morawski(?)' i 'Waszelski(?)'. Dedykacja grupowa — prawdopodobnie z okazji spotkania oficerskiego.",
-        "seria": "VI",
+        "seria": "IV",
         "tworca": "Lech Głuchowski i koledzy oficerscy",
         "jezyk": "polski",
         "kontekst": "Unikalna dedykacja Lecha do brata Stefana — 'kochany Stefanku, uroczy braciszku i dobry towarzyszu'. Świadectwo ciepłych relacji braterskich. Lech (ok. 1902–1944) poległ na Mokotowie w Powstaniu Warszawskim. Wzmianka '8 p.S.K.' może wskazywać na 8 Pułk Strzelców Konnych lub inną jednostkę kawalerii — Stefan mógł mieć kontakty z różnymi pułkami. Podpisy kolegów oficerskich tworzą grupowy portret środowiska wojskowego II RP. Dokument powstał prawdopodobnie w latach 30., przed wojną.",
