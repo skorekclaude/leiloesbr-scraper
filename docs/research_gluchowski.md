@@ -879,3 +879,13 @@ Do zrobienia: pełne mapowanie + linkowanie w generatorze.
 - V/213a Tudek z High Wycombe: uwolniony 24.IV.45 Berlin, Taranto, Rzym, studia. Podpis W.T. Tudek
 - NOWY: list z Sudbury 29.II.49(?): PKPR, odwołania, R.A.S.T. 120 warszawiaków, Cambridge
   — prawdopodobnie brakująca sygnatura (V/214 lub V/215)
+
+### Bodney — listy od pośrednika (9.II.47 + 13.IX.47):
+- Ktoś z Bodney otwiera listy Krzysztofa i przesyła dalej (Krzysztof wyjechał)
+- "Oba od Mamusi" — listy Wandy nadal przychodzą na Bodney
+- Gratulacje za stypendium Erentz
+- "Napisz Mamusi by zmieniła adresate"
+- Janusz Klepser w szpitalu
+- Labour Exchange 806 — zaświadczenie o pracy
+- Humor: "kondolencje z okazji urodzenia córki — trupem jeszcze nie jestem"
+- Prawdopodobnie V/214 lub V/215 lub nowe sygnatury do nadania
