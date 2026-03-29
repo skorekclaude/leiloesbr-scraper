@@ -8397,7 +8397,7 @@ function checkValPass() {{
 }}
 document.addEventListener('DOMContentLoaded', function() {{
   var inp = document.getElementById('val-pass');
-  if (inp) inp.addEventListener('keypress', function(e) {{
+  if (inp) inp.addEventListener('keydown', function(e) {{
     if (e.key === 'Enter') checkValPass();
   }});
 }});
@@ -10592,6 +10592,7 @@ function openLightbox(src, title) {{
   currentRotation = 0; currentZoom = 1; panX = 0; panY = 0;
   const img = document.getElementById('lb-img');
   img.src = src;
+  img.alt = title;
   img.className = '';
   applyTransform();
   document.getElementById('lb-title').textContent = title;
@@ -11923,6 +11924,7 @@ function openLightbox(src, title) {
   currentRotation = 0; currentZoom = 1; panX = 0; panY = 0;
   const img = document.getElementById('lb-img');
   img.src = src;
+  img.alt = title;
   img.className = '';
   applyTransform();
   document.getElementById('lb-title').textContent = title;
