@@ -6780,8 +6780,488 @@ co u Ciebie Tychar[?], a pre-""",
         "kontekst": "List Jaśka Leoniuka z Troyes (Francja), wrzesień 1945. Polacy pracujący we Francji po wojnie — stosunek władz 'zmienił się na lepsze'. Jaśko i Jurek razem. Pyta o Krzysztofa. Kontynuacja w V/212b."
     },
 
+    # ARG/V/212b -- List Jaska Leoniuka z Troyes (II)
+    "juras_212b": {
+        "typ": "List odreczny",
+        "data": "15.IX.1945[?]",
+        "jezyk": "polski",
+        "nadawca": "Jasek Leoniuk",
+        "adresat": "Krzysztof Gluchowski",
+        "strony": ["originals_201_217/20260324_194747769693003963708055_rot.jpg"],
+        "transkrypcja": """[Lewa kartka:]
+na granatowo ize duro kolegow
+wyjechalo do kraju, wszystko po sla-
+wieniu. Ja dostalem list z Kraju,
+rodzina zyje. Na tym Koniec, bo
+musze isc na sluzbe, czekami na
+odpowiedzi. Sciska Cie
+
+Janek
+
+[Prawa kartka:]
+                Drogi Krysiu!    Troyes 15.IX '45[?]
+
+List Twoj otrzymalem za ktory
+bardzo dziekuje. Przyjechali on na czas,
+bo wybieralam sie do Ciebie dajmeno[?]
+po pierwsyem. To u Ciebie slychac no-
+wego, czy otrzymales paczke? Za
+nieco cos piszke[?] kabanory[?], pod
+kuruzutel[?], i kursule sielnigk[?] i krawat[?]
+W wypadku gdyby paczka zginela,
+to jest ona ozaczone[?] na poczcie
+w cenie 2000 Fr. Spodnie nie bucty[?]-
+nie miema gdzie, ale postaram
+sie kupic, za firek[?] od Bogdana.
+Dostane od niego 1000 fr. gdyz do-
+lary dawno sprzedat[?] w tej cenie.
+Spodnie bede kupowal[?] okolo
+700 fr. (prawie nowe, lub nowe). Ubrau
+postalyze[?] za premiumdarystyjem[?] nas""",
+        "pieczecie": [],
+        "podpisy": ["Janek (Leoniuk)"],
+        "osoby": ["Jasek/Janek Leoniuk (nadawca, Troyes)", "Krzysztof Gluchowski (adresat)", "Bogdan (wspomniany)"],
+        "znaki_szczegolne": [
+            "Paczka z ubraniami za 2000 fr. -- pomoc materialna",
+            "Dolary sprzedane -- wymiana walut wsrod emigrantow",
+            "Spodnie za 700 fr. -- ceny we Francji 1945",
+            "Koledzy wyjezdzaja do Kraju -- repatriacja"
+        ],
+        "kontekst": "Kontynuacja korespondencji z Troyes. Jasek wysyla Krzysztofowi paczke z ubraniami (kabanory, koszule, krawat). Ceny: paczka ubezpieczona na 2000 fr., spodnie ~700 fr. Koledzy wyjezdzaja do kraju -- repatriacja trwa."
+    },
+
+    # ARG/V/213a -- List Tudka z High Wycombe
+    "juras_213a": {
+        "typ": "List odreczny",
+        "data": "3.II.1947",
+        "jezyk": "polski",
+        "nadawca": "Tudek",
+        "adresat": "Krzysztof Gluchowski",
+        "strony": ["originals_201_217/20260324_1847475149231012056091582_rot.jpg"],
+        "transkrypcja": """High Wycombe 3 II '47r.
+
+Kochany Krzysiu!
+
+Z wielka radoscia dowiedzialem sie, ze
+zipen[?] i jest[es?] rozumni jake[?] fa na
+tej 'woldonej' wyspie. Donosi mi
+o tym wuj Totis[?], ktory widzial
+sie z Twoja ciamami[?] w Warszawie
+i blisa data na Twoj obeny[?] adres.
+Dowiedzialem sie rowno,z[?] ze zamierzasz
+wyjechal do Trypolifimy[?] i dumowi[?] Twoja
+posela[?], soly[?] klep[?] Staniszuwa nie robi[?],
+jesli nie wladz[?] kiedys warunkow
+do nawej[?] wracal do Kraju. Jestem
+bardzo ciekawy pline kuzles[?] i co robisz
+podczas kich[?] oblysich[?] siedem lut[?]
+ja od wrzesnia 1939-go do grudnia
+1944 bylem w Warszawie, nastepnie
+od grudzien 1944 do komica wojny
+pod Wiednia a pierwy pod Berlinem""",
+        "pieczecie": [],
+        "podpisy": ["Tudek"],
+        "osoby": ["Tudek (nadawca, High Wycombe)", "Krzysztof Gluchowski (adresat)", "Wuj Totis[?] (posrednik)"],
+        "znaki_szczegolne": [
+            "High Wycombe -- miasto w Buckinghamshire, baza RAF/polskie osrodki",
+            "Tudek w Warszawie 1939-1944, potem pod Wiedniem i Berlinem",
+            "Wuj widzial sie z rodzina Krzysztofa w Warszawie",
+            "Pismo czytelne, atrament niebieski"
+        ],
+        "kontekst": "Luty 1947. Tudek (kolega z Warszawy?) pisze z High Wycombe. Byl w Warszawie 1939-1944, potem walczyl pod Wiedniem i Berlinem. Wuj Totis posredniczy -- widzial sie z rodzina Krzysztofa w Warszawie i przekazal adres."
+    },
+
+    # ARG/V/213b -- List Tudka z Sudbury -- PKPR, R.A.S.T.
+    "juras_213b": {
+        "typ": "List odreczny",
+        "data": "29.II.1947[?]",
+        "jezyk": "polski",
+        "nadawca": "Tudek",
+        "adresat": "Krzysztof Gluchowski",
+        "strony": ["originals_201_217/20260324_1848331174709311799573626_rot.jpg"],
+        "transkrypcja": """Sudbury 29. II. 47[?].
+
+Drogi Krysiu!
+
+Dziekuje Ci za odpowiedzi, ktora otrzymalem
+w blisz[?] naszego przenoszenia w St. Johns do
+nowego oboru chudnokniaje[?]. Jest un Sudbury,
+dbs. znajduje co o 3 mile od miasteczka,
+doblednego[?] zwor wlasnych mal nie na i schody[?]
+innej lokomosci[?]. Koszulik naklukowane na was[?]
+burde typan[?], gdzie[?] zamiast 12 miesiace w 8
+gdyznie jest niezabezp[ieczaj?]oce, te ku dolszejewan[?]
+moznahy[?] umrec z glodu. Ale i moy[?] mie[?] od
+dzisiaj wpisy do P.K.P.R., ale z niewiadamyld[?]
+blizej prowodlaw[?] zostala odrodzona[?]. Jest nas
+tu z wszystkich dwiedzy[?], ugro[?] glówne[?] gdzie[?]
+chcie[?] wszeprzaie[?] do P.R.P.R. natomiast 2/3 prosila
+o odwolenie. Ja rownisz jestem w lej grupe[?]
+obecnie wraz z inzeni dyrektorjag[?] wspadkow
+mozliwosci oplawy[?] i nieuy[?] entygrojac[?] i prowadz[?].
+Ostatnio jest[?] mozliwosci dostania sie do
+Londyn na R.A.S.T. gdzie[?] 120 naszypartner[?]
+szpadowi[?] prowadka i prawdopodobaltie narze-
+dzimgi[?] masa 150[?] oburom[?], hody[?] uczic[?]
+sie fajpiolesza, a od poiniedzu[?]ko[?] moge sie
+naprawic najtrudcy[?] z mat. ksiki, slom
+i slowowi. Dobrze rowniez olszymac[?] pannie i
+szpitalnego Cambridge.
+
+Co Stydwi[?] w tebie, jak Ci idzie nauka i""",
+        "pieczecie": [],
+        "podpisy": ["Tudek"],
+        "osoby": ["Tudek (nadawca, Sudbury)", "Krzysztof Gluchowski (adresat)"],
+        "znaki_szczegolne": [
+            "Sudbury -- przeniesienie z St. Johns",
+            "PKPR -- Polski Korpus Przysposobienia i Rozmieszczenia",
+            "R.A.S.T. -- kurs w Londynie, 120 uczestnikow",
+            "150 obcokrajowcow -- Cambridge",
+            "2/3 prosilo o odwolenie z PKPR"
+        ],
+        "kontekst": "Tudek przeniesiony z St. Johns do Sudbury. Opisuje warunki (zamkniete, 3 mile od miasta, brak transportu). Wpisy do PKPR. Kurs R.A.S.T. w Londynie dla 120 osob. 2/3 zolnierzy prosi o odwolanie -- niechec do PKPR."
+    },
+
+    # ARG/V/214 -- List posrednika z Bodney (I) -- list polecony od Mamusi
+    "juras_214": {
+        "typ": "List odreczny",
+        "data": "9.II.1947[?]",
+        "jezyk": "polski",
+        "nadawca": "Nieustalony (posrednik z Bodney)",
+        "adresat": "Krzysztof Gluchowski",
+        "strony": ["originals_201_217/20260324_1944201555232293354009694_rot.jpg"],
+        "transkrypcja": """Bodney 9. II. 47[?]
+
+Kochany Krzysiu!
+
+Przed chwila odebralem z po-
+czty list polecony dla Ciebie
+(od Mamusi) i wysylajac go,
+przy okazji -- pisze troszke.
+Zasadniczo nie wiem jaki orabic,
+bo list ten jest otworamy (obozn[?]
+si, ze jest bos[?] w srodku) -- i nie
+wiem czy go doslyc[?], czy odklac[?]
+i dolopno wladac w koperte
+do Ciebie! Chyba zrole to ostar-
+nie -- uwylo[?] ze man do mnie
+na tyle zaufania, ze mie
+posodzisz mnie oto ze wya[?]
+
+Wczoraj odbylo sie tu zebra-
+niu Kola (ja na minie jednak-
+nie bylem, bo nie zaprostan[?]
+ale obdalem ponedaycs poleg[?]""",
+        "pieczecie": [],
+        "podpisy": [],
+        "osoby": ["Posrednik z Bodney (nadawca)", "Krzysztof Gluchowski (adresat)", "Mamusia (Wanda Gluchowska -- nadawca listu poleconego)"],
+        "znaki_szczegolne": [
+            "LIST POLECONY OD MAMUSI przekazany przez posrednika",
+            "Bodney Airfield -- baza RAF, oboz polski",
+            "List otwarty -- posrednik zastanawia sie czy doklac koperte",
+            "Zebranie Kola -- organizacja zolnierska na Bodney"
+        ],
+        "kontekst": "Posrednik z Bodney przekazuje Krzysztofowi list polecony od matki (Wandy). List przyszedl otwarty -- posrednik zastanawia sie nad etyka dalszego przekazywania. Wspomniane zebranie Kola na Bodney."
+    },
+
+    # ARG/V/215 -- List posrednika z Bodney (II) -- stypendium Erentz
+    "juras_215": {
+        "typ": "List odreczny",
+        "data": "13.IX.1947[?]",
+        "jezyk": "polski",
+        "nadawca": "Nieustalony (posrednik z Bodney)",
+        "adresat": "Krzysztof Gluchowski",
+        "strony": ["originals_201_217/20260324_1944532316727053919767412_rot.jpg"],
+        "transkrypcja": """Bodney 13. IX. 47
+
+Drogi Krzysiu!
+
+Zasyłam Ci serdeczne gratulacje
+z okazji otrzymania stypendium
+Erentz -- to bylo jasne, ze Ty go
+dostaniesz i odram[?] nie twierdzisz --
+Poza listem do Ciebie od Litegyo[?],
+wystalem jeszcze 2 (oba od Mamusi)
+takowze, nie odklejajac ale ze
+porada poczumeista naklejajac
+nowej adres. Tak lepie[?].
+Napisz Mamusi by zwierla[?]
+adreatke[?] przy wysylaniu gazet
+bo przyklodnaz[?] tutaj nadal
+-- zupelnie niepotrzebnie!
+
+Janusz Klepesz wrocil prost[?]
+chory ze szpitala i cufa[?] sie
+dosc dobrze, natomiast Koptek
+i Janusz zostali tam nadal.""",
+        "pieczecie": [],
+        "podpisy": [],
+        "osoby": ["Posrednik z Bodney (nadawca)", "Krzysztof Gluchowski (adresat)", "Mamusia (Wanda)", "Janusz Klepesz (chory)", "Koptek", "Janusz"],
+        "znaki_szczegolne": [
+            "STYPENDIUM ERENTZ -- Krzysztof je otrzymal!",
+            "Dwa listy od Mamusi przekazane dalej",
+            "Rada: niech Mamusia zmieni adres na gazetach",
+            "Janusz Klepesz chory, ze szpitala",
+            "Bodney wrzesien 1947"
+        ],
+        "kontekst": "Posrednik gratuluje Krzysztofowi stypendium Erentz. Przekazuje 2 listy od Wandy. Radzi zmienic adres na gazetach (przychodza na Bodney, niepotrzebnie). Janusz Klepesz wrócil ze szpitala."
+    },
+
+    # ARG/V/216a -- List Debskiego 'Koniusia' -- mundury, Keresley Hostel
+    "juras_216a": {
+        "typ": "List odreczny",
+        "data": "ok. 1947",
+        "jezyk": "polski",
+        "nadawca": "Debski 'Koniuś'",
+        "adresat": "Krzysztof Gluchowski",
+        "strony": ["originals_201_217/20260324_1952556443212415006740829.jpg"],
+        "transkrypcja": """[tekst obrócony -- czytany od dolu do gory:]
+efekt to olize. uczni[?] imp[?]
+stanu 'koniec' a eseno Koncu[?]
+dane 'party' do Ciebie.
+i ide do tego operanta. Ak-
+i poniec że lerivie 14 luty[?]
+dr. pna M.[?] chyba podany 4
+5 lit. postde otecou(usi 292975)
+Ciebie jo otoonji do otecanie[?]
+(osoba po Irrancji) do II korp.
+placowej. 9 Band Re caly sa
+dla mnie po 2 (łyniatecenie[?])
+kaldego. Bo dobri[?] Padlcunin[?]
+
+No to rocy
+Korny
+zainy mnie serdeczna
+pozdrowienie
+Marian""",
+        "pieczecie": [],
+        "podpisy": ["Koniuś (Dębski)", "Marian"],
+        "osoby": ["Debski Koniuś (nadawca)", "Marian (wspolnadawca)", "Krzysztof Gluchowski (adresat)"],
+        "znaki_szczegolne": [
+            "Tekst obrócony -- czytany od dolu",
+            "Numer 292975 -- identyfikator?",
+            "Marian przesyla pozdrowienia -- ten sam co u Krahelskiego?",
+            "Wspomina II Korpus i Francje"
+        ],
+        "kontekst": "List Debskiego z pozdrowieniam od Mariana. Tekst obrócony, trudny do odczytu. Wspomina II Korpus i Francje."
+    },
+
+    # ARG/V/216b -- List Mariana -- zjazd, 11 5 KDP, Lucy
+    "juras_216b": {
+        "typ": "List odreczny",
+        "data": "ok. 1947",
+        "jezyk": "polski",
+        "nadawca": "Marian",
+        "adresat": "Krzysztof Gluchowski",
+        "strony": ["originals_201_217/20260324_1943446872492370937293977_rot.jpg"],
+        "transkrypcja": """i wszystkie papierzy Heckorii[?])
+obelaych byto 18 (dlingsza[?]
+7 maszyn' -- 11 5 KDP). Prze-
+sesem wybreno owy wstine[?]
+Kapt Inui[?], V-przesem -- Wocke[?]
+Skolosikim[?] a serzem Sektecurm[?]
+Kogos z 5-ej.
+
+Janusz ani Wojtek, jeszcze
+sie ospitola nie wrocili i jest im
+dosliwie sam i nudze sie
+okrobenie.
+
+Lucy -- przysila przeprosiny
+(na 10 stronicach). Poza tym
+nic nowego. Muszie wrocic sialo-
+fóm z podtrazemiymi dayoma[?]
+-- powod znany...
+
+Koniuś
+zalytem serdeczne
+pozdrowienie
+Marian""",
+        "pieczecie": [],
+        "podpisy": ["Koniuś", "Marian"],
+        "osoby": ["Marian (nadawca)", "Krzysztof Gluchowski (adresat)", "Janusz (w szpitalu)", "Wojtek (w szpitalu)", "Lucy (przysyla przeprosiny)", "Kapt. Inui[?] (wybrany przesem)"],
+        "znaki_szczegolne": [
+            "11 5 KDP -- 11 kompania 5 Kresowej Dywizji Piechoty",
+            "18 osob na zjeżdzie",
+            "Lucy przysyla przeprosiny na 10 stronach!",
+            "Janusz i Wojtek w szpitalu",
+            "Podpisy Koniusia i Mariana"
+        ],
+        "kontekst": "List Mariana o zjezdzie organizacyjnym (18 osob, 7 maszyn, 11 5 KDP). Wybrali zarząd. Janusz i Wojtek w szpitalu. Lucy przesyla 10-stronicowe przeprosiny. Podpisany przez Koniusia i Mariana."
+    },
+
+    # ARG/V/218a -- List Debskiego z Coventry (I) -- Constructional Engineers
+    "juras_218a": {
+        "typ": "List odreczny",
+        "data": "27.9.1947[?]",
+        "jezyk": "polski",
+        "nadawca": "Debski (Koniuś)",
+        "adresat": "Krzysztof Gluchowski",
+        "strony": ["originals_201_217/20260324_195422208538623440374049_rot.jpg"],
+        "transkrypcja": """Coventry, 27. 9. 47.
+
+Drogi Krzysiu!
+
+W pierwszym rzedzie materialow[?] Cie
+podkuszic[?] za to, ze nie odpowiedziales
+na moj list z 13 b.m. pisany jeszcze
+z Bodney Airfield. 15 b.m. dostalem
+Twoj telegram (z 13) i od sam pominne[?]
+na poczt[e?]. Lego jednak jeszcze nie bylo
+jest i w ciagu z najblizszych dni -- dapoki[?]
+nie wyjasnieni[?].
+
+Mieszkam w hostelu dosc dobrze
+urzadzonym i jedynym moze bolesnie[?]
+jest brak towarzystwa gdyz poradtike[?]
+Kieletowi i Antkim w hostelu oraz
+kilku podchodrazejnim[?] w pracy mioma[?]
+my tu do kogo obdimaci[?]. Reszta
+towarzystwa jest bowiem wiova[?], ale pod
+typu 'tary z boku' i 'podrygca wrosnieki[?]
+ghekliowya[?] drolemo golne treba i gali[?]
+nie lubio. Jeli Ci wiadomo odumyj jam[?]""",
+        "pieczecie": [],
+        "podpisy": ["Koniuś (Dębski)"],
+        "osoby": ["Debski Koniuś (nadawca, Coventry)", "Krzysztof Gluchowski (adresat)", "Kielet (kolega w hostelu)", "Antek (kolega w hostelu)"],
+        "znaki_szczegolne": [
+            "Coventry -- Debski przeniesiony z Bodney",
+            "Hostel dla Polakow -- Keresley Hostel?",
+            "Brak towarzystwa -- tylko kilku Polakow",
+            "Telegram od Krzysztofa z 13 wrzesnia"
+        ],
+        "kontekst": "Wrzesien 1947. Debski przeniesiony z Bodney Airfield do Coventry. Mieszka w hostelu, brak towarzystwa polskiego -- tylko Kielet, Antek i kilku podchorazych. Czeka na telegram od Krzysztofa."
+    },
+
+    # ARG/V/218b -- List Debskiego z Coventry (II) -- 'materyjal na to i na owszem'
+    "juras_218b": {
+        "typ": "List odreczny",
+        "data": "22.10.1947[?]",
+        "jezyk": "polski",
+        "nadawca": "Debski (Koniuś)",
+        "adresat": "Krzysztof Gluchowski",
+        "strony": ["originals_201_217/20260324_2013095723694821932849249_rot.jpg"],
+        "transkrypcja": """Coventry 22. 10. 47
+
+Kochany Krzysiu!
+
+Slomia to trochy i jeszes[?] ale znow
+mi takie wrazenie -- widzialem jes
+gorse! Co z Ciebie wyrosnie -- zobaczymy.
+
+Dobre, ze pamietain o moich spra-
+wach, postaraj sie jednak umi misc
+na[?] 'na glowie' ma i zacac jeli-
+mopfrodlej[?]! Nien jeli jest!
+
+U mnie takin 'z tym co i
+ownern' spragestovo i mie zanosi sie
+na popracz z mojej wylicumi wi-
+my, bo materyał 'na to' i na --
+ownern 'jest pierwszorzedny i wlosni[?]
+i jaksciosa...
+
+W Koidelom jedneli wypodło[?]
+co zamordazmayn[?]...""",
+        "pieczecie": [],
+        "podpisy": ["Koniuś"],
+        "osoby": ["Debski Koniuś (nadawca)", "Krzysztof Gluchowski (adresat)"],
+        "znaki_szczegolne": [
+            "Coventry, 22.X.1947",
+            "Ton serdeczno-zartobliwy: 'Co z Ciebie wyrosnie -- zobaczymy'",
+            "'Materyjal na to i na owszem jest pierwszorzedny'",
+            "Debski o swoich sprawach -- praca?"
+        ],
+        "kontekst": "Październik 1947. Debski pisze z humorem -- komentuje przyszlosc Krzysztofa. Wspomina swoje sprawy zawodowe ('materyjal pierwszorzedny')."
+    },
+
+    # ARG/V/218c -- List Debskiego z Coventry (III) -- Maryla Czechowiczowna
+    "juras_218c": {
+        "typ": "List odreczny",
+        "data": "26.10.1947[?]",
+        "jezyk": "polski",
+        "nadawca": "Debski (Koniuś)",
+        "adresat": "Krzysztof Gluchowski",
+        "strony": ["originals_201_217/20260324_2014558418007150941536046_rot.jpg"],
+        "transkrypcja": """Coventry 26. 10. 47
+
+Drogi Krzysiu!
+
+Wielka niespodzianka bylo dla
+mnie to, ze zapisales sie do kasarni
+i jest[es?] juz miedzy 'drabniami
+z drabinimi' (to drugie wazniejsze!)
+Mysliz, ze ile na tym nie wyjedizes
+bo panna oporo nowych 'trasy' a
+moze bgdni miedzy mimi mas
+interesujacego...
+
+Dziekuje ze tojez 'zaduost' 'posd
+pos rejganeli -- i bez dresti'
+wierze, ze w pars dni dostane
+list od tego 'chrzesty-debelin'!
+
+Tek, tek! To samo nas uszzy!
+Je te bobe miegramotny i oko lego
+nie sie nie uczyc (w tym beamsie[?]
+do konca zycia nie bede umial""",
+        "pieczecie": [],
+        "podpisy": ["Koniuś"],
+        "osoby": ["Debski Koniuś (nadawca)", "Krzysztof Gluchowski (adresat)"],
+        "znaki_szczegolne": [
+            "Coventry, 26.X.1947",
+            "Krzysztof 'zapisal sie do kasarni' -- szkola/kurs?",
+            "'Drabnie z drabiniami' -- zartobliwy ton o kobietach?",
+            "Debski o nauce -- 'nie bede umial do konca zycia'"
+        ],
+        "kontekst": "Debski reaguje z humorem na wiadomosc ze Krzysztof 'zapisal sie do kasarni'. Zartuje o 'drabniach' i o wlasnym braku wyksztalcenia."
+    },
+
+    # ARG/V/218d -- List Debskiego z Coventry (IV) -- Kolo AK, Jurci Fiodorow
+    "juras_218d": {
+        "typ": "List odreczny",
+        "data": "30.11.1947[?]",
+        "jezyk": "polski",
+        "nadawca": "Debski (Koniuś)",
+        "adresat": "Krzysztof Gluchowski",
+        "strony": ["originals_201_217/20260324_2019567151651057515116939_rot.jpg"],
+        "transkrypcja": """Coventry 30. 11. 47
+
+Kochany Krzysiu!
+
+Musisz mi nanblizszej przy
+najblizszym sproebenim i
+najchoudzij[?] ordynesnym[?]
+sposobem ze to, ze jestem taki
+'jesulła' i Twoj list lety
+juz u mnie ok. 1 i typodam[?]
+aczkolwisz na odpowiedzi!
+
+Z Kolem AK nie juz nie[?]
+zalatwiaj, gdyz przewody
+z nimi dosc obfiwne korres-
+pondencje i slem sobie wszystko
+'poring' i natomiast ciekawe[?]
+jestem czy wydrosi to
+ksiazke swojej 'kochany
+Marylu' ?
+
+Leszek otrzymalem -- nudzi[?]""",
+        "pieczecie": [],
+        "podpisy": ["Koniuś"],
+        "osoby": ["Debski Koniuś (nadawca)", "Krzysztof Gluchowski (adresat)", "Leszek (Krahelski -- wspomniany)", "Maryla (kochana Krzysztofa?)"],
+        "znaki_szczegolne": [
+            "Coventry, 30.XI.1947",
+            "KOLO AK -- Debski prowadzi korespondencje z Kolem",
+            "'Kochana Marylu' -- Krzysztof ma dziewczyne?",
+            "Leszek (Krahelski) -- 'nudzi'",
+            "Debski przeprasza za opoznienie w odpowiedzi"
+        ],
+        "kontekst": "Listopad 1947. Debski pisze o Kole AK (prowadzi korespondencje, radzi Krzysztofowi nie zalatwiać). Pyta o 'kochana Maryle' -- Krzysztof ma dziewczyne? Wspomina Leszka (Krahelskiego)."
+    },
+
     # ═══════════════════════════════════════════════════════════════
-    # SERIA II — Gen. dyw. Janusz Julian Głuchowski (1888–1964)
+    # SERIA II — Gen. dyw. Janusz Julian Głuchowski (1888-1964)
     # ═══════════════════════════════════════════════════════════════
 
     # ARG/II/14 — List odręczny Śmigłego-Rydza do Głuchowskiego
