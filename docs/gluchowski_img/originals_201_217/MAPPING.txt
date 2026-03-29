@@ -1,0 +1,64 @@
+# Mapowanie skanów do sygnatur ARG/V/201-217
+# Sporządzone: 29.III.2026, CC ◈
+# Na podstawie przeglądu 68 skanów
+
+# ARG/V/201 — Przybyszewski (Reims IX.1945)
+20260324_1734023118815046489450273_rot.jpg = ARG/V/201 str1+2
+
+# ARG/V/202a+b — Ostrowski (CMF XII.1945 + III.1946)
+20260324_1735536699334025058410662_rot.jpg = ARG/V/202a+b (dwa listy na jednym zdjęciu)
+
+# ARG/V/203 — Itinerarium wojenne
+20260324_1737405609298741604113920_rot.jpg = ARG/V/203 awers (trasa wojenna)
+20260324_1737523898938794945732458_rot.jpg = ARG/V/203 rewers (fizyka + lista zakupów)
+
+# ARG/V/204 — Bystydżeński (CMF II.1946)
+20260324_1744295990070507963308681_rot.jpg = ARG/V/204 str1
+20260324_1744447885278667721344626_rot.jpg = ARG/V/204 str2
+
+# ARG/V/206a — Skrobecki I (CMF I.1946, winieta 5 KDP)
+20260324_1748223633272231402712281_rot.jpg = ARG/V/206a str1 (z choinką)
+20260324_1748393457577342016932967_rot.jpg = ARG/V/206a str2
+
+# ARG/V/206b — Skrobecki II (CMF IV.1946)
+20260324_1811564265226715002790673_rot.jpg = ARG/V/206b str1
+20260324_1812283986668741005308062_rot.jpg = ARG/V/206b str2
+20260324_1812482047227086750234489_rot.jpg = ARG/V/206b str3 (podpis)
+
+# ARG/V/207a — Kamiński I (Sussex IX.1946)
+20260324_1813377748033720388689926_rot.jpg = ARG/V/207a str1+lewy
+20260324_182144755126888373657104_rot.jpg = ARG/V/207a str2
+
+# ARG/V/207b — Kamiński II (Sussex X.1946, aresztowanie Marka)
+20260324_1820364793131874182220755_rot.jpg = ARG/V/207b str1
+
+# ARG/V/207c — Kamiński III (Sussex II.1947, deportacja Wandy)
+20260324_1822041488787664254964651_rot.jpg = ARG/V/207c str1
+20260324_1822163349745685618915122_rot.jpg = ARG/V/207c str2
+
+# ARG/V/209a-b — Koło AK / "Koniuś" (Coventry III.1947)
+20260324_2019567151651057515116939_rot.jpg = ARG/V/209a str1
+20260324_2020073107005955523696645_rot.jpg = ARG/V/209a str2
+20260324_2020198660936674232951228_rot.jpg = ARG/V/209a str3
+20260324_2020315865127870863085229_rot.jpg = ARG/V/209a str4 (podpis Koniuś)
+
+# ARG/V/209b — maszynopis Koło AK
+20260324_1830495153922272646142757_rot.jpg = ARG/V/209b (maszynopis, Bolton Gardens)
+
+# Niezidentyfikowane — "Drogi Krzysiu" (Anglia, kartki, Londyn vs Paryż)
+20260324_1826286265276449028045345_rot.jpg = NIEZIDENT. str1-2
+20260324_1826455881177859022258876_rot.jpg = NIEZIDENT. str3-4
+20260324_1824362851036695023960408_rot.jpg = NIEZIDENT. str5-6
+20260324_1824565385114302861659081_rot.jpg = NIEZIDENT. str7-8
+
+# ARG/V/211a-b — Krahelski (Air Letter, CMF VIII.1945)
+20260324_1747117747872852747606443_rot.jpg = ARG/V/211 (obrócony 180°!)
+
+# Bilecik "Kochany mój śliczny Krzysztofku"
+20260324_202251559105698915618559_rot.jpg = bilecik (Ciocia?)
+20260324_2023121369666364563710064_rot.jpg = bilecik kontynuacja
+
+# Okładka teczki
+20260324_2025263641023544026398253_rot.jpg = OKŁADKA "WCZESNE LISTY 1946"
+
+# Reszta — koperty, tylne strony, duplikaty — do identyfikacji
