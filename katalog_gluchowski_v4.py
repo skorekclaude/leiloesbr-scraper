@@ -9862,6 +9862,7 @@ body.lang-active .card-lang-badge {{ display:inline; }}
   <a href="katalog_gluchowski_v4.html" class="page-nav-link active">&#128203; Katalog</a>
   <a href="archiwum.html" class="page-nav-link">&#128247; Archiwum Dokument&oacute;w</a>
   <a href="galeria.html" class="page-nav-link">&#128444; Galeria Fotografii</a>
+  <a href="korespondencja.html" class="page-nav-link">&#9993; Listy</a>
 </div>
 
 <div class="header">
@@ -13281,6 +13282,15 @@ def _footer_html():
             "nl": ("Galerij", "Familie-, militaire en ceremoni\u00ebfoto's"),
             "fr": ("Galerie", "Photos familiales, militaires et de c\u00e9r\u00e9monies"),
             "yi": ("\u05d2\u05d0\u05b7\u05dc\u05e2\u05e8\u05d9\u05e2", "\u05de\u05e9\u05e4\u05bc\u05d7\u05d4, \u05de\u05d9\u05dc\u05d9\u05d8\u05e2\u05e8\u05d9\u05e9\u05e2 \u05d0\u05d5\u05df \u05e6\u05e2\u05e8\u05e2\u05de\u05d0\u05b8\u05e0\u05d9\u05e2 \u05e4\u05bf\u05d0\u05b8\u05d8\u05d0\u05b8\u05e1"),
+        }),
+        ("korespondencja.html", {
+            "pl": ("Listy", "Korespondencja 1944\u20131948 \u2014 6 dr\u00f3g konspiracyjnych"),
+            "en": ("Letters", "Correspondence 1944\u20131948 \u2014 6 clandestine routes"),
+            "pt": ("Cartas", "Correspond\u00eancia 1944\u20131948 \u2014 6 rotas clandestinas"),
+            "de": ("Briefe", "Korrespondenz 1944\u20131948 \u2014 6 konspirative Wege"),
+            "nl": ("Brieven", "Correspondentie 1944\u20131948 \u2014 6 geheime routes"),
+            "fr": ("Lettres", "Correspondance 1944\u20131948 \u2014 6 voies clandestines"),
+            "yi": ("\u05d1\u05e8\u05d9\u05d5\u05d5", "\u05e7\u05d0\u05b8\u05e8\u05e2\u05e1\u05e4\u05bc\u05d0\u05b8\u05e0\u05d3\u05e2\u05e0\u05e5 1944\u20131948"),
         }),
     ]
     btns = ""
