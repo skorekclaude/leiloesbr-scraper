@@ -390,30 +390,23 @@ DOSKONAŁY FOTOGRAF ZNAJDUJE: Się W Rojno "E" Casymaker, Kornice""",
         "jezyk": "polski",
         "nadawca": "Krzysztof Głuchowski",
         "adresat": "Matka (Kochana moja Mateczko!)",
-        "transkrypcja": """24 . XII . 1946.
+        "transkrypcja": """24-XII-1946r.
 
-Kochana moja Mateczko!
+Kochana moja Mateńko!
 
-Od dłuży. Tobą. Odezwali[?] się...
-bądźmy o Tobą, którzy[?] listu...
-ofiaryw Patki. ktoze[?] j[?] i...
-na ten [?] kro, Myślam[?] było[?] lepszej[?]
-uwać[?] bos... nie... dosięg na [?]...
+Myślę o Tobie. Ciekawy jestem gdzie w tej chwili jesteś. Wiem że i Ty Mateńko myślisz o nas obu. Myślami więc jesteśmy wszyscy troje razem, choć dzielą nas góry, rzeki i morza.
 
-dał Mattoni w dz. 2 XII osta bcc
-więc dalszm[?]... Onu mi
-[?] Rudenkil[?]...
-kolejno adesenry[?] dane była ogółal[?]
-badanie ... zdawcze blogi... ktoze[?]
-budowani [?] tego krogu...
-[...tekst bardzo trudny do odczytu...]
+List Mateńki z dn. 2-XII otrzymałem już kilka dni temu. Chcę nań odpisać. Przede wszystkim odpowiadam na pytania:
 
-W końcowej części listu wymienione są punkty 1), 2), 3)
-z prośbami/pytaniami do matki.
+Typ szkoły do której chodzę jest ogólnokształcący. Zdałem obecnie z wynikiem dostatecznym do klasy drugiej liceum matematyczno-fizycznego. Poziom szkoły jest wysoki. Do dużej matury pozostało mi od 6 do 8 miesięcy.
 
-...Rozdelej(?) kupić... [?] między nami boty obchodzisz
-...na... Bartłomiej[?]... trochy braki [?] się miałeś
-...żałowwali[?]...""",
+Mieszkam w obozie, gdzie mieści się nasza szkoła adres jej Mateńka zna. W baraku jest nas dwudziestu. Jest w baraku czysto.
+
+Klimat nie przeszkadza mi zupełnie. Poprzednio byłem w górach gdzie był też ostry klimat, więc zmiana nie była taka straszna.
+
+Ciepłych rzeczy do ubrania mam dosyć a nawet sporo. Również i bieliznę mam ciepłą wełnianą. Ubrań mam aż trzy w tym jedno zupełnie eleganckie.
+
+[strony 2-4 — kontynuacja w juras_011-014]""",
         "pieczecie": [],
         "podpisy": ["Krzysztof (domyślnie — list do matki)"],
         "osoby": ["Krzysztof Głuchowski (nadawca)", "Matka Głuchowska (adresatka)", "Mattoni (?)", "Rudenko (?)"],
