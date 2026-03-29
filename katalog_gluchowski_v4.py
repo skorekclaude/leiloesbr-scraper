@@ -30,7 +30,16 @@ FONDS = {
     "skrot": "ARG",
     "daty_skrajne": "1867–1964",
     "rozmiar": "ok. 236 fotografii dokumentów, korespondencji, fotografii i ephemery",
-    "tworca": "Rodzina Głuchowskich h. Głuchowski (linia częstochowsko-warszawska)",
+    "tworca": "Rodzina Głuchowskich herbu Prus II (linia częstochowsko-warszawska)",
+    "heraldyka": (
+        "HERALDYKA RODZINY:\n"
+        "  Głuchowski — h. Prus II (Wilczekosy). Stara rodzina mazowiecka z Głuchowa. Legitymowana w Królestwie Polskim 1836-1862.\n"
+        "  Żółkowska (Maria, matka Mariana?) — h. Lubicz lub Bończa. Ród hetmana Żółkiewskiego.\n"
+        "  Zdanowska (Maria, matka gen. Janusza) — h. Belina. Z ziemi dobrzyńskiej, wsi Zdanów.\n"
+        "  Zembrzuska (Wanda, żona Stefana, matka Krzysztofa) — h. Doliwa. Szlachta mazowiecka z Zembrzusa Wielkiego.\n"
+        "  Bukowska (Maria, żona gen. Janusza) — herb nieustalony.\n"
+        "  Źródło: Niesiecki 'Herbarz Polski' (Głuchowski h. Prus II i Radwan); research M. Głuchowskiego III.2026."
+    ),
     "historia_zespolu": (
         "Zespół obejmuje dokumenty pięciu pokoleń rodziny Głuchowskich — od działalności "
         "niepodległościowej Mariana Głuchowskiego w PON (1914) przez generalską karierę "
@@ -9781,6 +9790,20 @@ body.lang-active .card-lang-badge {{ display:inline; }}
 .ft-person.ft-founder {{ border-color:var(--accent); }}
 .ft-person.ft-protagonist {{ border-color:var(--gold); background:var(--surface2); }}
 .ft-person.ft-deceased {{ opacity:0.7; }}
+/* HERALDIC TABLE */
+.heraldic-table {{ width:100%; border-collapse:collapse; margin:16px 0; font-size:0.85em; }}
+.heraldic-table th {{ background:var(--surface2); color:var(--gold); padding:10px 12px; text-align:left; font-weight:600; letter-spacing:1px; font-size:0.8em; text-transform:uppercase; border-bottom:2px solid var(--gold); }}
+.heraldic-table td {{ padding:10px 12px; border-bottom:1px solid var(--border); color:var(--text-dim); vertical-align:middle; }}
+.heraldic-table tr:hover {{ background:var(--surface2); }}
+.ht-herb-img {{ width:36px; height:auto; }}
+.ht-herb-text {{ font-size:1.4em; color:var(--gold); text-align:center; }}
+.heraldic-source {{ font-size:0.75em; color:var(--text-faint); font-style:italic; margin-top:8px; }}
+
+.ft-herb {{ text-align:center; margin-bottom:8px; }}
+.ft-herb-img {{ width:42px; height:auto; opacity:0.8; margin:0 4px; filter:drop-shadow(0 0 4px rgba(212,175,55,0.25)); }}
+.ft-herb-img.ft-herb-faded {{ opacity:0.4; filter:grayscale(0.6) drop-shadow(0 0 4px rgba(212,175,55,0.15)); }}
+.ft-herb-label {{ font-family:'JetBrains Mono',monospace; font-size:0.65em; color:var(--accent); letter-spacing:1px; margin-bottom:4px; text-transform:uppercase; }}
+.ft-spouse {{ font-size:0.78em; color:var(--text-dim); margin-bottom:6px; font-style:italic; }}
 .ft-name {{ font-family:'Playfair Display',serif; font-size:1em; color:var(--text); margin-bottom:4px; font-weight:600; }}
 .ft-dates {{ font-size:0.8em; color:var(--gold); margin-bottom:6px; }}
 .ft-role {{ font-size:0.8em; color:var(--text-dim); line-height:1.5; margin-bottom:6px; }}
@@ -10733,6 +10756,50 @@ body.lang-active .card-lang-badge {{ display:inline; }}
   <p class="fa-subtitle" data-lang="en">Reconstruction of the family's history based on documents in the collection</p>
 
   <!-- DRZEWO GENEALOGICZNE -->
+  <!-- HERALDYKA RODZINY -->
+  <div class="fa-section">
+    <h3 class="fa-section-title" data-lang="pl">Heraldyka rodziny</h3>
+    <h3 class="fa-section-title" data-lang="en">Family Heraldry</h3>
+    <table class="heraldic-table">
+      <thead>
+        <tr>
+          <th data-lang="pl">Herb</th><th data-lang="en">Arms</th>
+          <th data-lang="pl">Nazwa</th><th data-lang="en">Name</th>
+          <th data-lang="pl">Nosiciel w rodzinie</th><th data-lang="en">Bearer in family</th>
+          <th data-lang="pl">Region</th><th data-lang="en">Region</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="gluchowski_img/herb_prus_II.svg" class="ht-herb-img" alt="Prus II"></td>
+          <td><strong>Prus II</strong> (Wilczekosy)</td>
+          <td>Marian, Janusz, Stefan, Lech, Krzysztof &mdash; linia ojcowska</td>
+          <td>Mazowsze, Chełmińska, Piotrków</td>
+        </tr>
+        <tr>
+          <td><img src="gluchowski_img/herb_doliwa.svg" class="ht-herb-img" alt="Doliwa"></td>
+          <td><strong>Doliwa</strong></td>
+          <td>Wanda z Zembrzuskich (żona Stefana, matka Krzysztofa)</td>
+          <td>Zembrzus Wielki, pow. przasnyski</td>
+        </tr>
+        <tr>
+          <td class="ht-herb-text">&#9733;</td>
+          <td><strong>Belina</strong></td>
+          <td>Maria Zdanowska (matka gen. Janusza)</td>
+          <td>ziemia dobrzyńska, Zdanów</td>
+        </tr>
+        <tr>
+          <td class="ht-herb-text">&#9733;</td>
+          <td><strong>Lubicz / Bończa</strong></td>
+          <td>Marta z Żółkowskich (matka Stefana i Lecha)</td>
+          <td>ród hetmana Żółkiewskiego</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="heraldic-source" data-lang="pl">Źródło: Niesiecki <em>Herbarz Polski</em> (Głuchowski h. Prus II i Radwan); research M. Głuchowskiego, III.2026.</p>
+    <p class="heraldic-source" data-lang="en">Source: Niesiecki <em>Herbarz Polski</em> (Głuchowski arms: Prus II and Radwan); research by M. Głuchowski, III.2026.</p>
+  </div>
+
   <div class="fa-section">
     <h3 class="fa-section-title" data-lang="pl">Drzewo rodziny</h3>
     <h3 class="fa-section-title" data-lang="en">Family Tree</h3>
@@ -10744,14 +10811,17 @@ body.lang-active .card-lang-badge {{ display:inline; }}
     <div class="family-tree">
       <div class="ft-generation">
         <div class="ft-person ft-founder">
+          <div class="ft-herb"><img src="gluchowski_img/herb_prus_II.svg" alt="h. Prus II" class="ft-herb-img" title="herb Prus II (Wilczekosy)"></div>
           <div class="ft-name">Marian (Marjan) Głuchowski</div>
-          <div class="ft-dates" data-lang="pl">ur. 1867 &ndash; zm. po 1914</div>
+          <div class="ft-herb-label">h. Prus II</div>
+          <div class="ft-dates" data-lang="pl">ur. 1867 &ndash; zm. 20.VI.1924</div>
           <div class="ft-dates" data-lang="en">b. 1867 &ndash; d. after 1914</div>
           <div class="ft-dates" data-lang="pt">n. 1867 &ndash; f. após 1914</div>
           <div class="ft-dates" data-lang="de">geb. 1867 &ndash; gest. nach 1914</div>
           <div class="ft-dates" data-lang="nl">geb. 1867 &ndash; overl. na 1914</div>
           <div class="ft-dates" data-lang="fr">né 1867 &ndash; décédé après 1914</div>
           <div class="ft-dates" data-lang="yi">געב. 1867 &ndash; gest. נאָך 1914</div>
+          <div class="ft-spouse">&#9829; Maria z Żółkowskich <span class="ft-herb-label">h. Lubicz</span></div>
           <div class="ft-role" data-lang="pl">Komisarz PON na powiat częstochowski. Legitymacja nr 2 &mdash; jeden z założycieli.</div>
           <div class="ft-role" data-lang="en">Commissioner of the Polish National Organization (PON) for the Częstochowa district. Membership card no. 2 &mdash; one of the founders.</div>
           <div class="ft-role" data-lang="pt">Comissário da Organização Nacional Polonesa (PON) para o distrito de Częstochowa. Carteira nº 2 &mdash; um dos fundadores.</div>
@@ -10771,8 +10841,11 @@ body.lang-active .card-lang-badge {{ display:inline; }}
       <div class="ft-connector">&darr;</div>
       <div class="ft-generation ft-gen-siblings">
         <div class="ft-person">
+          <div class="ft-herb"><img src="gluchowski_img/herb_prus_II.svg" alt="h. Prus II" class="ft-herb-img" title="herb Prus II (Wilczekosy)"></div>
           <div class="ft-name">Gen. dyw. Janusz Julian Głuchowski</div>
+          <div class="ft-herb-label">h. Prus II</div>
           <div class="ft-dates">1888 &ndash; 1964</div>
+          <div class="ft-spouse">&#9829; Maria z Bukowskich</div>
           <div class="ft-role" data-lang="pl">Siódemka Beliny. Twórca 7 P.Uł. I Zastępca Min. Spraw Wojskowych. D-ca PSZ w UK. Companion of the Order of the Bath (C.B.). Współzałożyciel Instytutu Piłsudskiego w Londynie.</div>
           <div class="ft-role" data-lang="en">Belina's Seven. Founder of the 7th Uhlan Regiment. 1st Deputy Minister of Military Affairs. Commander of Polish Armed Forces in the UK. Companion of the Order of the Bath (C.B.). Co-founder of the Piłsudski Institute in London.</div>
           <div class="ft-role" data-lang="pt">Os Sete de Belina. Fundador do 7º Regimento de Ulanos. 1º Vice-Ministro da Guerra. Comandante das Forças Armadas Polonesas no Reino Unido. Cofundador do Instituto Piłsudski em Londres.</div>
@@ -10784,8 +10857,11 @@ body.lang-active .card-lang-badge {{ display:inline; }}
           <div class="ft-docs" data-lang="en">Documents: ARG/II/1&ndash;32</div>
         </div>
         <div class="ft-person">
+          <div class="ft-herb"><img src="gluchowski_img/herb_prus_II.svg" alt="h. Prus II" class="ft-herb-img" title="herb Prus II (Wilczekosy)"><img src="gluchowski_img/herb_doliwa.svg" alt="h. Doliwa" class="ft-herb-img" title="herb Doliwa (Zembrzuscy — ród żony Wandy)"></div>
           <div class="ft-name">Ppor. Stanisław Stefan Głuchowski ps. &laquo;Stefan&raquo;</div>
+          <div class="ft-herb-label">h. Prus II</div>
           <div class="ft-dates">1893 &ndash; 1962</div>
+          <div class="ft-spouse">&#9829; <strong>Wanda z Zembrzuskich</strong> <span class="ft-herb-label">h. Doliwa</span> &mdash; sierż. pchor. Kedyw AK ps. Krysta</div>
           <div class="ft-role" data-lang="pl">OJCIEC KRZYSZTOFA. Kancelaria Cywilna Prezydenta RP (1923&ndash;1939). AK &mdash; Kwatermistrzostwo I Obwodu &laquo;Radwan&raquo;. Aresztowany Gestapo 18.V.1944, Pawiak, zwolniony 29.VII.44 (3 dni przed Powstaniem!). Jeniec: Fallingbostel, Bergen, Lübeck (nr 1245). Wrócił do Polski 1947 (nie wpuszczono do Anglii). Żona: <strong>Wanda</strong> (sierż. pchor. Kedyw AK, ps. Krysta/Justyna, farmaceutka). Zm. 17.X.1962, Powązki.</div>
           <div class="ft-role" data-lang="en">FATHER OF KRZYSZTOF. Civil Chancellery of the President of Poland (1923&ndash;1939). AK &mdash; Quartermaster, 1st District &laquo;Radwan&raquo;. Arrested by Gestapo 18.V.1944, Pawiak, released 29.VII.44 (3 days before Uprising!). POW: Fallingbostel, Bergen, Lübeck (no. 1245). Returned to Poland 1947 (denied entry to England). Wife: <strong>Wanda</strong> (Staff Sgt. Kedyw AK, codename Krysta/Justyna, pharmacist). D. 17.X.1962, Powązki Cemetery.</div>
           <div class="ft-role" data-lang="pt">PAI DE KRZYSZTOF. Chancelaria Civil do Presidente da Polônia (1923&ndash;1939). AK &mdash; Intendência do 1º Distrito. Preso pela Gestapo 18.V.1944, Pawiak, solto 29.VII.44. Prisioneiro: Fallingbostel, Bergen, Lübeck (nº 1245). Retornou à Polônia 1947. Esposa: <strong>Wanda</strong> (sargento Kedyw AK, farmacêutica).</div>
@@ -10797,7 +10873,9 @@ body.lang-active .card-lang-badge {{ display:inline; }}
           <div class="ft-docs" data-lang="en">Documents: ARG/III/1&ndash;38</div>
         </div>
         <div class="ft-person ft-deceased">
+          <div class="ft-herb"><img src="gluchowski_img/herb_prus_II.svg" alt="h. Prus II" class="ft-herb-img ft-herb-faded" title="herb Prus II (Wilczekosy)"></div>
           <div class="ft-name">Rtm. Lech Jerzy Głuchowski ps. &laquo;Jeżycki&raquo;</div>
+          <div class="ft-herb-label">h. Prus II</div>
           <div class="ft-dates">1902 &ndash; &dagger; 15.IX.1944</div>
           <div class="ft-role" data-lang="pl">D-ca 1. szwadronu dywizjonu &laquo;Jeleń&raquo; (7 P.Uł. AK). Ciężko ranny ul. Dolna (Mokotów) &mdash; popełnił samobójstwo by żołnierze nie ryzykowali ewakuacji pod ogniem. Virtuti Militari V kl. (pośm.).</div>
           <div class="ft-role" data-lang="en">Commander, 1st Squadron, &laquo;Jeleń&raquo; Division (7th Uhlan Regt. AK). Seriously wounded on Dolna St. (Mokotów) &mdash; took his own life so soldiers wouldn't risk evacuation under fire. Virtuti Militari V class (posthumous).</div>
@@ -10818,7 +10896,9 @@ body.lang-active .card-lang-badge {{ display:inline; }}
       <div class="ft-connector" data-lang="yi">&darr; זון פֿון סטאַניסוואַוו סטעפֿאַן</div>
       <div class="ft-generation">
         <div class="ft-person ft-protagonist">
+          <div class="ft-herb"><img src="gluchowski_img/herb_prus_II.svg" alt="h. Prus II" class="ft-herb-img" title="herb Prus II (po mieczu — Głuchowscy)"><img src="gluchowski_img/herb_doliwa.svg" alt="h. Doliwa" class="ft-herb-img" title="herb Doliwa (po kądzieli — Zembrzuscy)"></div>
           <div class="ft-name">St.uł. Krzysztof Andrzej Głuchowski ps. &laquo;Juras&raquo;</div>
+          <div class="ft-herb-label">h. Prus II / Doliwa</div>
           <div class="ft-dates" data-lang="pl">ur. 29.XI.1926, Warszawa</div>
           <div class="ft-dates" data-lang="en">b. 29.XI.1926, Warsaw</div>
           <div class="ft-dates" data-lang="pt">n. 29.XI.1926, Varsóvia</div>
