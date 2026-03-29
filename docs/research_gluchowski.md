@@ -874,3 +874,8 @@ juras_085 → ARG/V/55 (notatka odręczna)
 Metoda: keyword matching (≥2 wspólne słowa 4+ znaków).
 22 listów bez transkrypcji — ale wiele MA transkrypcje pod innymi kluczami.
 Do zrobienia: pełne mapowanie + linkowanie w generatorze.
+
+### Pozostałe skany (kontynuacja):
+- V/213a Tudek z High Wycombe: uwolniony 24.IV.45 Berlin, Taranto, Rzym, studia. Podpis W.T. Tudek
+- NOWY: list z Sudbury 29.II.49(?): PKPR, odwołania, R.A.S.T. 120 warszawiaków, Cambridge
+  — prawdopodobnie brakująca sygnatura (V/214 lub V/215)
