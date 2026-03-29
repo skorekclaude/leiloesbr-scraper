@@ -406,7 +406,21 @@ Klimat nie przeszkadza mi zupełnie. Poprzednio byłem w górach gdzie był też
 
 Ciepłych rzeczy do ubrania mam dosyć a nawet sporo. Również i bieliznę mam ciepłą wełnianą. Ubrań mam aż trzy w tym jedno zupełnie eleganckie.
 
-[strony 2-4 — kontynuacja w juras_011-014]""",
+[Strona 2:]
+
+Pod tym względem zupełnie się Matuś nie potrzebuje martwić. Np. mam dwie pary butów i dwie pary półbucików.
+
+Papierosów nie palę. Pijałem tylko Ojcu. Alkohol piję tylko wtedy, gdy jest jakaś przygrywka, ale nie ciągnie mnie do tego.
+
+Z zębami gorzej, gdyż nie mam zupełnie wewnętrznych od wewnątrz. Jeden wyrwałem pół roku temu (prawy, dolny, pierwszy trzonowy). Obecnie mam bardzo popsute oba przedtrzonowe górne. Będę starał się je leczyć.
+
+Z językiem tak sobie. Wprawdzie znam z angielskiego b. dobrze, ale rozmawiać jeszcze nie mogę, ani czytać książek. Mówię jako tako natomiast biegle po włosku.
+
+Wódka fucha już nie jest na dawnej posadzie, ale w dalszym ciągu pracuje w tym samym biurze.
+
+Co do towarzystwa to femmel nie może być liczony w ogóle. Jest dobrym kolegą i też współmilczkiem, ale jest dość ograniczony. Zresztą o takie towarzystwo jak jego mi nie chodzi. Chodzi mi przede wszystkim o towarzystwo kobiece, a na drugim miejscu kulturalne i inteligentne. Kolegów mam dosyć. Żyję przecież z nimi. Życie zbiorowe jest dobre ale w miarę.
+
+[strony 3-4 — do uzupełnienia]""",
         "pieczecie": [],
         "podpisy": ["Krzysztof (domyślnie — list do matki)"],
         "osoby": ["Krzysztof Głuchowski (nadawca)", "Matka Głuchowska (adresatka)", "Mattoni (?)", "Rudenko (?)"],
