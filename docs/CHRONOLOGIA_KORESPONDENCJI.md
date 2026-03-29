@@ -3,7 +3,7 @@
 ## Synteza CC ◈ — 29 marca 2026
 
 ### Kontekst
-Krzysztof Głuchowski (ur. 29.XI.1926) — syn gen. Janusza i Wandy. Powstaniec warszawski ps. "Juraś", pluton 1112, 7 Pułk Ułanów Lubelskich (kryptonim "Jeleń"). Po Powstaniu — jeniec Stalag XI B (nr 141009). Wyzwolony IV.1945. Przez Francję i Włochy do Anglii (Bodney Airfield). Matka Wanda w Warszawie — aresztowana, wywieziona do Rosji, obóz Rembertów.
+Krzysztof Głuchowski (ur. 29.XI.1926) — syn Stefana (Stanisława) i Wandy Głuchowskich, bratanek gen. dyw. Janusza Głuchowskiego. Powstaniec warszawski ps. "Juraś", pluton 1112, 7 Pułk Ułanów Lubelskich (kryptonim "Jeleń"). Po Powstaniu — jeniec Stalag XI B (nr 141009). Wyzwolony IV.1945. Przez Francję i Włochy do Anglii (Bodney Airfield). Ojciec Stefan — jeniec Fallingbostel/Bergen/Lübeck (nr 1245), wrócił do Polski 1947 (nie wpuszczono do Anglii). Matka Wanda w Warszawie — aresztowana, wywieziona do Rosji, obóz Rembertów. Stryj gen. Janusz w Londynie — GOC Polish Troops in Great Britain.
 
 ### Chronologia
 

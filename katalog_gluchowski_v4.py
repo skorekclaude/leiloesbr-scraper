@@ -69,7 +69,7 @@ SERIES = [
     {
         "id": "III",
         "tytul": "Ppor. Stanisław Stefan Głuchowski (1893–1962)",
-        "opis": "Ur. 1.V.1893, Bukowa. Ppor. rez. kawalerii, leg. AK nr 2856, ps. 'Stefan'. Żona: Wanda Bronisława z domu Głuchowska (1901–1976, ur. Łódź, córka Bronisława i Jadwigi z Zembrzuskich), ps. 'Krysta'/'Justyna' — farmaceutka, Kedyw, oddział DYSK, Akcja Wilanów (IX.1943), ranna. Syn: Krzysztof 'Juraś' (1926–2020). Brat żony: ppor. Włodzimierz Głuchowski 'Tomaszewski' (1904–1977), farmaceuta, Fort Sokolnicki, Żoliborz. Od 1923 w Kancelarii Cywilnej Prezydenta RP (do 1939), towarzyszył Prezydentowi Mościckiemu do granicy rumuńskiej IX.1939. Aresztowany przez Gestapo 18.V.1944, Pawiak + przesłuchania al. Szucha, zwolniony 29.VII.1944 (3 dni przed Powstaniem!). AK — Kwatermistrzostwo I Obwodu 'Radwan', Śródmieście. Jeniec: Fallingbostel, Bergen, Gross-Born, Sandbostel, Lübeck (nr 1245). Wrócił do Polski 1947. Zm. 17.X.1962, Warszawa, pochowany Powązki (kw. 99-IV-19). Wanda po wojnie aresztowana przez UB, odbudowała aptekę, dyrektorka do emerytury.",
+        "opis": "Ur. 1.V.1893, Bukowa. Ppor. rez. kawalerii, leg. AK nr 2856, ps. 'Stefan'. Żona: Wanda Bronisława z domu Głuchowska (1901–1976, ur. Łódź, córka Bronisława i Jadwigi z Zembrzuskich), ps. 'Krysta'/'Justyna' — farmaceutka, Kedyw, oddział DYSK, Akcja Wilanów (IX.1943), ranna. Syn: Krzysztof 'Juraś' (1926–2020). Brat żony: ppor. Włodzimierz Głuchowski 'Tomaszewski' (1904–1977), farmaceuta, Fort Sokolnicki, Żoliborz. Od 1923 w Kancelarii Cywilnej Prezydenta RP (do 1939), towarzyszył Prezydentowi Mościckiemu do granicy rumuńskiej IX.1939. Aresztowany przez Gestapo 18.V.1944, Pawiak + przesłuchania al. Szucha, zwolniony 29.VII.1944 (3 dni przed Powstaniem!). AK — Kwatermistrzostwo I Obwodu 'Radwan', Śródmieście. Jeniec: Fallingbostel, Bergen, Gross-Born, Sandbostel, Lübeck (nr 1245). Wrócił do Polski 1947 (nie wpuszczono go do Anglii, gdzie przebywał syn Krzysztof). Zm. 17.X.1962, Warszawa, pochowany Powązki (kw. 99-IV-19). Wanda po wojnie aresztowana przez UB, odbudowała aptekę, dyrektorka do emerytury.",
         "daty": "1944–1945",
         "rozmiar": "6 jednostek"
     },
@@ -83,7 +83,7 @@ SERIES = [
     {
         "id": "V",
         "tytul": "St.ul. Krzysztof Andrzej Głuchowski ps. 'Juraś' (29.XI.1926 – V.2020)",
-        "opis": "Ur. 29.XI.1926, Warszawa. Przysięga AK 11.V.1942 (15 lat!). Pluton 1112, 7 P.Uł. AK, dywizjon 'Jeleń'. Obrona Fabryki Kamlera (KG AK), Starówka, ewakuacja kanałami 1.IX.1944, Śródmieście. Jeniec Stalag XI-B Fallingbostel (nr 141009) — ten sam obóz co ojciec! Via Holandia/Belgia/Francja do Włoch, 2 Korpus, Gimnazjum 3 DSK (matura 1946). Emigracja: Anglia → Brazylia (od 1974). Chartered Engineer, publicysta, wydawca bibliofilski. Zm. V.2020, Rio de Janeiro.",
+        "opis": "Ur. 29.XI.1926, Warszawa. Syn Stefana (Stanisława) i Wandy Głuchowskich, bratanek gen. dyw. Janusza Głuchowskiego. Przysięga AK 11.V.1942 (15 lat!). Pluton 1112, 7 P.Uł. AK, dywizjon 'Jeleń'. Obrona Fabryki Kamlera (KG AK), Starówka, ewakuacja kanałami 1.IX.1944, Śródmieście. Jeniec Stalag XI-B Fallingbostel (nr 141009) — ten sam obóz co ojciec Stefan (nr 1245). Via Holandia/Belgia/Francja do Włoch, 2 Korpus, Gimnazjum 3 DSK (matura 1946). Emigracja: Anglia → Brazylia (od 1974). Chartered Engineer, publicysta, wydawca bibliofilski. Zm. V.2020, Rio de Janeiro.",
         "daty": "1941–1968",
         "rozmiar": "156 jednostek"
     },
@@ -5363,7 +5363,7 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Wanda Głuchowska",
         "jezyk": "polski",
-        "kontekst": "13 sierpnia 1946. Wanda (żona gen. Janusza, matka Krzysztofa) pisze z Łodzi. Ostatni list Krzysztofa DO rodziców z Powstania: ARG/V/6 ('Dotychczas żyję i jestem cały'). Od tego momentu — 2 lata ciszy. Apteka na Kruczej/Hożej (dawna cukiernia Paciorkowskiego). Wanda była aresztowana i wywieziona do Rosji, obóz w Rembertowie — ale o tym nie pisze. Krzysztof odpowie z Bodney (ARG/V/79 — Wigilia 46, ARG/V/83 — kartka świąteczna). List ciotki z IX.1944 (ARG/V/5) to ostatni kontakt rodziny przed rozdzieleniem.",
+        "kontekst": "13 sierpnia 1946. Wanda (żona Stefana Głuchowskiego, matka Krzysztofa) pisze z Łodzi. Ostatni list Krzysztofa DO rodziców z Powstania: ARG/V/6 ('Dotychczas żyję i jestem cały'). Od tego momentu — 2 lata ciszy. Apteka na Kruczej/Hożej (dawna cukiernia Paciorkowskiego). Wanda była aresztowana i wywieziona do Rosji, obóz w Rembertowie — ale o tym nie pisze. Krzysztof odpowie z Bodney (ARG/V/79 — Wigilia 46, ARG/V/83 — kartka świąteczna). List ciotki z IX.1944 (ARG/V/5) to ostatni kontakt rodziny przed rozdzieleniem.",
         "powiazania": ["ARG/V/174", "ARG/V/176", "ARG/V/6", "ARG/V/5", "ARG/V/76", "ARG/V/77", "ARG/V/78", "ARG/V/79", "ARG/V/83", "ARG/V/182", "ARG/V/183"],
         "stan": "Dobry",
         "wycena": "800-1500 PLN"
@@ -6149,7 +6149,7 @@ OBJECTS = [
         "photo": "wanda2/p38.jpg", "jezyk": "polski",
         "opis_fizyczny": "1 kartka + dopisek, pismo odręczne Wandy. Atrament niebieski. Data: 'W 31/III 47r.' Podpis: 'Mocno mocno całuję Cię i tulę do sana' + 'Wawa'.",
         "opis_tresci": "Życzenia wielkanocne. 'Święta się zbliżają i znów jesteśmy daleko od Siebie.' Pisane 'znów tylko w pośpiechu'. Dopisek po kresce: pytania o zakupy ojca i drogę przesyłki. Prośba o kontakt ze Stefkiem. Drugie Święta z rzędu bez syna — pierwsze (Boże Narodzenie 1946) opisane w V/76-79 i V/182.",
-        "kontekst": "Wielkanoc 1947 wypada 6 kwietnia. List pisany tydzień wcześniej — Wanda się spieszy. Porównaj V/76-79 (Wigilia 1946): 'Myślami jesteśmy wszyscy troje razem'. Teraz — rezygnacja: 'znów daleko'. Ojciec (gen. Janusz) w Londynie — kupuje towary do wysłania.",
+        "kontekst": "Wielkanoc 1947 wypada 6 kwietnia. List pisany tydzień wcześniej — Wanda się spieszy. Porównaj V/76-79 (Wigilia 1946): 'Myślami jesteśmy wszyscy troje razem'. Teraz — rezygnacja: 'znów daleko'. Ojciec Stefan wraca do Polski z niewoli/emigracji (nie wpuszczono go do Anglii).",
         "powiazania": ["ARG/V/76", "ARG/V/182", "ARG/V/233", "ARG/V/234"],
         "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "500-1000 PLN"
     },
@@ -6208,8 +6208,8 @@ OBJECTS = [
         "data": "17.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p52.jpg", "jezyk": "polski",
         "opis_fizyczny": "2 strony + spis lekarstw (45 pozycji). Pismo odręczne Wandy. Atrament niebieski. Data: 'W. 17.IV — 47r.' Podpis: 'Wawa'. Załącznik: spis lekarstw w formie numerowanej listy.",
-        "opis_tresci": "Ojciec (gen. Janusz) pisze normalną pocztą — wraca do kraju pod koniec kwietnia. Sprawa pełnomocnictwa od ciotki na dom. Wanda prosi syna o przekazanie ojcu spisu lekarstw potrzebnych w aptece. SPIS 45 LEKARSTW: Campolon, Testoviron, Cortison, Cibasol, Lacarnol, Pyramidon, Euphyllin, Tonophosphan, Pilocarpin, Papaverin, Calcium Sandoz, Adalin, Coramin, Dolantin, Euflawin, Thyreoidee, Validol i inne. Posyła zdjęcie dziadka z ojcem 'robione w listopadzie 1944 w Krakowie'.",
-        "kontekst": "Ostatni list w zbiorze chronologicznie. Spis 45 lekarstw — bezcenny dokument historyczno-farmaceutyczny: dokumentuje braki lekowe w powojennej Polsce. Cortison (1947 — zaledwie 2 lata po odkryciu!), Testoviron, Pyramidon — kluczowe leki epoki. Farmaceutka z DYSK do końca jest farmaceutką. Zdjęcie z XI.1944 w Krakowie — gen. Janusz po Powstaniu, jeszcze przed ewakuacją na Zachód.",
+        "opis_tresci": "Ojciec (Stefan/Stanisław Głuchowski) pisze normalną pocztą — wraca do kraju pod koniec kwietnia. Sprawa pełnomocnictwa od ciotki na dom. Wanda prosi syna o przekazanie ojcu spisu lekarstw potrzebnych w aptece. SPIS 45 LEKARSTW: Campolon, Testoviron, Cortison, Cibasol, Lacarnol, Pyramidon, Euphyllin, Tonophosphan, Pilocarpin, Papaverin, Calcium Sandoz, Adalin, Coramin, Dolantin, Euflawin, Thyreoidee, Validol i inne. Posyła zdjęcie dziadka z ojcem 'robione w listopadzie 1944 w Krakowie'.",
+        "kontekst": "Ostatni list w zbiorze chronologicznie. Spis 45 lekarstw — bezcenny dokument historyczno-farmaceutyczny: dokumentuje braki lekowe w powojennej Polsce. Cortison (1947 — zaledwie 2 lata po odkryciu!), Testoviron, Pyramidon — kluczowe leki epoki. Farmaceutka z DYSK do końca jest farmaceutką. Stefan (ojciec) wraca do Polski z niewoli/emigracji — nie wpuszczono go do Anglii, gdzie był syn Krzysztof. Zdjęcie z XI.1944 w Krakowie — Stefan po Powstaniu.",
         "powiazania": ["ARG/V/237", "ARG/V/175", "ARG/V/207c", "ARG/V/76"],
         "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "1000-2500 PLN"
     },
@@ -12958,7 +12958,7 @@ _REMOVED_PAI_GALLERY_ENTRIES_ARCHIVED = [
         "data": "17.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p52.jpg", "jezyk": "polski",
         "opis_fizyczny": "List odręczny Wandy, atrament, papier pożółkły.",
-        "opis_tresci": "Ojciec (gen. Janusz) wraca do kraju. Spis 45 lekarstw potrzebnych w aptece — dokument farmaceutyczny.",
+        "opis_tresci": "Ojciec (Stefan/Stanisław) wraca do kraju. Spis 45 lekarstw potrzebnych w aptece — dokument farmaceutyczny.",
         "kontekst": "Korespondencja Wandy Głuchowskiej (sierż. pchor. Kedyw AK, ps. Krysta) do syna Krzysztofa w Anglii. Konspiracyjna poczta lub bezpośrednia. Źródło: listy_wanda_2.pdf.",
         "powiazania": ["ARG/V/175", "ARG/V/182", "ARG/V/183", "ARG/V/207c"],
         "stan": "Dobry", "wycena": "400-1500 PLN"
