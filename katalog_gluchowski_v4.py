@@ -10950,6 +10950,29 @@ body.lang-active .card-lang-badge {{ display:inline; }}
     <div class="ap-sources">Źródła / Sources: ARG — fotografia sup_p06_007, Zespół 70 Instytutu Piłsudskiego, Zespół 6 Instytutu Sikorskiego</div>
   </div>
 
+  <!-- ARTYKUŁ 9: PIĘĆ POKOLEŃ — OTWARTY DOSTĘP -->
+  <div class="article-proposal" style="border-left:3px solid #2ecc71;padding-left:20px;">
+    <h4 data-lang="pl">„Pięć pokoleń, jedna teczka &mdash; jak czytać archiwum rodzinne"</h4>
+    <h4 data-lang="en">"Five Generations, One Folder &mdash; How to Read a Family Archive"</h4>
+    <h4 data-lang="pt">"Cinco Gerações, Uma Pasta &mdash; Como Ler um Arquivo Familiar"</h4>
+    <div class="ap-meta">
+      <span class="ap-badge ap-type" data-lang="pl">esej archiwoznawczy</span>
+      <span class="ap-badge ap-type" data-lang="en">archival essay</span>
+      <span class="ap-badge" style="background:rgba(46,204,113,.15);color:#2ecc71;">OTWARTY DOSTĘP / OPEN ACCESS</span>
+      <span class="ap-badge">Archeion</span>
+      <span class="ap-badge">Teki Archiwalne</span>
+    </div>
+    <div class="ap-thesis" data-lang="pl">373 dokumenty. Pięć osób. Trzy pokolenia. Cztery kontynenty. Jak z jednej teczki wyłania się historia Polski XX wieku &mdash; od Organizacji Bojowej PPS w 1905 przez Siódemkę Beliny, Powstanie Warszawskie, obóz jeniecki, po emigrację w Rio de Janeiro. Archiwum Rodziny Głuchowskich (ARG) to nie zbiór dokumentów &mdash; to pięć biografii splecionych w jedną opowieść o wojnie, rozłące i listach pisanych przez sześć konspiracyjnych dróg przez pół Europy.</div>
+    <div class="ap-thesis" data-lang="en">373 documents. Five people. Three generations. Four continents. How one folder reveals the history of 20th-century Poland &mdash; from the PPS Combat Organisation in 1905 through Belina's Seven, the Warsaw Uprising, POW camps, to emigration in Rio de Janeiro. The Głuchowski Family Archive (ARG) is not a collection of documents &mdash; it is five biographies woven into one story of war, separation, and letters sent through six clandestine routes across half of Europe.</div>
+    <div class="ap-thesis" data-lang="pt">373 documentos. Cinco pessoas. Três gerações. Quatro continentes. Como uma pasta revela a história da Polônia do século XX &mdash; da Organização de Combate do PPS em 1905 pelos Sete de Belina, a Insurreição de Varsóvia, campos de prisioneiros, até a emigração no Rio de Janeiro.</div>
+    <div class="ap-novelty" data-lang="pl"><strong>Nowość:</strong> Pierwszy kompleksowy opis prywatnego archiwum rodzinnego obejmującego 5 pokoleń (1867&ndash;2020) w standardzie ISAD(G)/Dublin Core. Kompletna dokumentacja proweniencji: od PON (1914) przez Kancelarię Prezydenta RP, Kedyw AK, Stalag XI-B, Gimnazjum 3 DSK po Brazylię. Każdy dokument powiązany z kontekstem historycznym. 175 transkrypcji, 85 listów z polami epistolarnymi, 4 herby, drzewo genealogiczne z dwoma małżeństwami, 6 dróg konspiracyjnych Wandy. Komplementarny do Zespołu 70 Instytutu Piłsudskiego w Londynie (9 jedn.). Krzysztof Głuchowski &mdash; sam jest źródłem historycznym (autor <em>Akcja Wilanów</em>, Muzeum Pałacu w Wilanowie, 2011).</div>
+    <div class="ap-novelty" data-lang="en"><strong>Novelty:</strong> First comprehensive description of a private family archive spanning 5 generations (1867&ndash;2020) in ISAD(G)/Dublin Core standard. Complete provenance documentation: from PON (1914) through the Presidential Chancellery, AK Kedyw, Stalag XI-B, 3rd Carpathian Division School to Brazil. 175 transcriptions, 85 letters with epistolary fields, 4 coats of arms, genealogical tree with two marriages, 6 clandestine postal routes. Complementary to Collection 70 at the Piłsudski Institute London. Krzysztof Głuchowski is himself a historical source (author of <em>Akcja Wilanów</em>, 2011).</div>
+    <div class="ap-sources">Źródła / Sources: ARG/I&ndash;VI (373 jedn.), Zespół 70 Instytutu Piłsudskiego (9 jedn.), RESEARCH_HISTORYCZNY.md (637 linii, 9 rozdziałów), 175 transkrypcji, K.A. Głuchowski <em>Akcja Wilanów</em> (2011)</div>
+    <a class="ap-link" href="RESEARCH_HISTORYCZNY.html" style="border-color:#2ecc71;color:#2ecc71;" data-lang="pl">&#128366; Czytaj &mdash; otwarty dostęp</a>
+    <a class="ap-link" href="RESEARCH_HISTORYCZNY.html" style="border-color:#2ecc71;color:#2ecc71;" data-lang="en">&#128366; Read &mdash; open access</a>
+    <a class="ap-link" href="RESEARCH_HISTORYCZNY.html" style="border-color:#2ecc71;color:#2ecc71;" data-lang="pt">&#128366; Leia &mdash; acesso aberto</a>
+  </div>
+
 </div>
 
 <!-- ============================================================ -->
