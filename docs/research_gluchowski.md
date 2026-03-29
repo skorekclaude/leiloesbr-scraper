@@ -859,3 +859,18 @@ Częściowo czytelny. "tu masz przekąskę... uroczystości... Podolsicm... Poł
 - NOWY: Jasiek/Leoniuk z Troyes (12.IV.45): z Jurkiem, u państwa Kołacz, paczka, "piszę na kolanie"
   — ulica Roma 93, prawdopodobnie V/205 lub V/214-215 (brakujące sygnatury)
 - V/216b Marian: spotkanie 18 żołnierzy + "7 małpek" z II 5 KDP, prezes Kapitan, V-prezes Decka Skotnik
+
+### Automatyczne mapowanie juras → ARG/V (częściowe):
+juras_010 → ARG/V/76 (list Wigilia — potwierdzone)
+juras_004 → ARG/V/70 (przepustka)
+juras_006 → ARG/V/88 (świadectwo Bodney)
+juras_008 → ARG/V/74 (obóz Lammie)
+juras_024 → ARG/V/90 (PKPR druk)
+juras_025 → ARG/V/91 (umowa służby)
+juras_026 → ARG/V/92 (wyciąg La Courtine)
+juras_037 → ARG/V/103 (Discharge Certificate)
+juras_085 → ARG/V/55 (notatka odręczna)
+
+Metoda: keyword matching (≥2 wspólne słowa 4+ znaków).
+22 listów bez transkrypcji — ale wiele MA transkrypcje pod innymi kluczami.
+Do zrobienia: pełne mapowanie + linkowanie w generatorze.
