@@ -3763,7 +3763,7 @@ OBJECTS = [
         "kontekst": "Beret pancerny gen. Głuchowskiego z okresu służby w Wielkiej Brytanii (1941-1945). Czarne berety w WP wprowadzono ok. 1937-1942 dla jednostek pancernych — nie istniały w I wojnie światowej ani w 1920 r. Głuchowski był Dowódcą JWWB (od IX.1943) i dowódcą Brygady Szkolnej w Szkocji (1941-1943). ŚLAD PO KULI — proweniencja wymaga dalszej kwerendy: możliwe naloty Luftwaffe na bazy w Szkocji, incydent szkoleniowy lub inna sytuacja bojowa. Głuchowski miał trzy Krzyże Walecznych, co świadczy o trzykrotnym wykazaniu się odwagą pod ogniem. Beret ze śladem po kuli — unikatowa relikwia, fizyczny dowód zagrożenia życia generała. Powiązany z albumem 'Żołnierz z Montecassino' z dedykacją gen. Andersa (ARG/II/54).",
         "powiazania": ["ARG/II/54", "ARG/II/48", "ARG/II/49", "ARG/II/50"],
         "stan": "Ślad po kuli, drobne ubytki — uszkodzenie bojowe",
-        "wycena": "1200-4000 PLN"
+        "wycena": "5000-15000 PLN"
     },
     {
         "sygn": "ARG/II/35",
@@ -7986,9 +7986,9 @@ VALUATIONS = {
     # === NOWE OBIEKTY Z AUKCJI (2026-03-21) ===
     "ARG/II/34": {
         "wartosc_hist": "★★★★★",
-        "opis_wartosci": "Beret pancerny WP ze śladem po kuli, z kolekcji gen. Głuchowskiego. Militaria z uszkodzeniem bojowym + proweniencja generała = najwyższa kategoria. Na aukcji w Brazylii: 2800 BRL (~2500 PLN). W Polsce: berety wojskowe WWII 500-2000 PLN, ze śladem po kuli i proweniencją generalską: 3000-6000 PLN.",
-        "cena_min": 3000,
-        "cena_max": 6000,
+        "opis_wartosci": "Beret pancerny WP ze śladem po kuli, z kolekcji gen. dyw. Głuchowskiego (I Wiceminister Spraw Wojskowych). Militaria z uszkodzeniem bojowym + proweniencja generała = najwyższa kategoria. Berety WP WWII: 500-2000 PLN (standard), 2000-5000 PLN (z proweniencją oficera). Ze śladem po kuli + proweniencja I Wiceministra + trzy KW = unikat. DESA Unicum militaria z proweniencją generalską: 5000-15000 PLN. Aukcja Brazylia: 2800 BRL.",
+        "cena_min": 5000,
+        "cena_max": 15000,
         "waluta": "PLN",
         "rekomendacja": "Nie sprzedawać. Relikwia bojowa."
     },
