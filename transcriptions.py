@@ -864,28 +864,31 @@ płk.dypl.""",
         "nadawca": "Administracja wojskowa",
         "adresat": "Żołnierz PSZ / PKPR",
         "strony": ["juras_028_page29.png", "juras_029_page30.png"],
-        "transkrypcja": """KWESTIONARIUSZ OSOBISTY
-POUFNE
+        "transkrypcja": """KWESTIONARIUSZ OSOBISTY    QUESTIONNAIRE FOR POLISH RECORDS    POUFNE
 
-[Formularz z rubrykami:]
-1. Nazwisko i imię
-2. Stopień wojskowy (Wydział)
-3. Data urodzenia
-4. Miejsce urodzenia
-5. Obywatelstwo
-6. Nr Kont[o] Narodowego Wydz.[iału]
-7. Zawód [...]
-8. Stan Rodzinny [...]
-9. Języki [...]
-10. Stopień wykształcenia cywilnego
-11. Opiniana
-12. [...]
+A. DANE OSOBISTE:
+1. Nazwisko / Imiona
+2a. Imię Ojca / Panieńskie Nazwisko Matki
+4. Mężczyzna / Kobieta
+5. Stopień Wojskowy: Polski / Brytyjski / Kod
+6. Nr Ewidencyjny/Wojsk.: Polski / Brytyjski
+7. Stosunek do Służby Wojskowej / Kod
+8. Data Urodzenia (Dzień/Miesiąc/Rok) / Miejsce Urodzenia i Kraj
+9. Obywatelstwo
+10. Kawaler/Panna / Żonaty/Zamężna / Rozwiedziony/na / Wdowiec/wa / Ilość Dzieci
+11. Kategoria Zdrowia
+12. Czy jesteś Członkiem Stowarzyszenia Polskich Kombatantów
+13. Podaj numer twego koła Stowarzyszenia Polskich Kombatantów
+14. Nr poczty polowej oddziału
+15. Prywatny stały Adres
 
-[Strona 2 — rewers:]
-II. PETYCJE, NAMOWY itp. [...]
-30. Jaka praca w przeszłości [...]
-30. Gdyby każdy po demobilizacji [...]
-[...dalsze rubryki...]""",
+B. WYKSZTAŁCENIE CYWILNE:
+16. Podaj datę opuszczenia ostatniej szkoły lub uczelni wyższej
+    [Tabela: Nazwa szkoły | Przedmiot główny | Uzyskane świadectwo | Uczęszczał od-do]
+17. Kursy dokształcające
+    [Tabela: Czego uczył się | Nazwa kursu i instytucji | Uzyskane świadectwo | Czas]
+
+[Formularz niewypełniony]""",
         "pieczecie": [],
         "podpisy": [],
         "osoby": [],
@@ -909,35 +912,42 @@ II. PETYCJE, NAMOWY itp. [...]
         "nadawca": "Dział Oświaty, Komitet Koordynacyjny (?)",
         "adresat": "Głuchowski Krzysztof",
         "transkrypcja": """DZIAŁ OŚWIATY
-PAŃSTWOWEJ ORGANIZACJI WYCHOWANIA FIZYCZNEGO
-I PRZYSPOSOBIENIA WOJSKOWEGO (?)
-KOMITET KOORDYNACYJNY
+Komitetu dla Spraw Oświaty Polaków w W. Brytanii
+TYMCZASOWEGO KOMITETU TREASURY DLA SPRAW POLSKICH
+
+KOMISJA EGZAMINACYJNA
 
 ŚWIADECTWO DOJRZAŁOŚCI
 
 Głuchowski     Krzysztof
-(nazwisko)     (imię)
+(imię i nazwisko)
 
-ur. 19 [...]26
-[...] mężczyzna [...] wyznania [...]
-
-po zdaniu egzaminu dojrzałości
-z wynikiem [...] otrzymuje
-świadectwo [...]
+urodzony d. dnia 29 miesiąca listopada
+roku 1926 w m. Hamrawa
+województwa Warszawskiego
+wyznania rzym.-kat.
+po ukończeniu nauki w Gimnazjum
 
 [ZDJĘCIE — fotografia portretowa Krzysztofa Głuchowskiego:
 młody mężczyzna, ciemne włosy, wąska twarz, poważny wyraz]
 
-za zgodność [...] wydania [...]
+z Liceum S.W.P.N.
+do którego był przyjęty w 1945 roku
+zdawał w terminie 16 Lipca 1947
 
-OCENY:
-z religii:                 dobry
-z języka polskiego:        dostateczny [?]
-z języka angielskiego:     dostateczny
-z historii:                dostateczny [?]
-z [...]                    dostateczny
-z matematyki:              dobry [?]
-[...dalsze oceny...]""",
+zwyczajny egzamin dojrzałości wydziału matematyczno-fizycznego
+wobec Komisji Egzaminacyjnej, powołanej Komitet do Spraw Oświaty
+Polaków w W. Brytanii pismem
+L.dz. II/10/05/97 dnia 4 Lipca 1947r. otrzymuję następujące
+oceny ostateczne z przedmiotów egzaminacyjnych:
+
+z religii:                              dobry
+z języka polskiego:                     bardzo dobry
+z języka łacińskiego:                   —
+z języka angielskiego:                  dobry
+z historii wraz z nauką o Polsce współczesnej: dostateczny
+z matematyki:                           dobry
+z fizyki wraz z chemią:                 dostateczny""",
         "pieczecie": ["Pieczęć Działu Oświaty"],
         "podpisy": ["Podpisy komisji egzaminacyjnej"],
         "osoby": ["Krzysztof Głuchowski (ur. 1926, maturzysta)"],
@@ -961,36 +971,39 @@ z matematyki:              dobry [?]
         "jezyk": "polski",
         "nadawca": "Komisja Egzaminacyjna",
         "adresat": "Głuchowski Krzysztof-Andrzej",
-        "transkrypcja": """[Komisja Egzaminacyjna]
+        "transkrypcja": """[Strona 2 Świadectwa Dojrzałości — verso]
 
-Pan/i otrzymał jako ocenione oceny na kanach [?]
-następujący bodzik i przedmiot [?]:
+Poza tym uzyskał jako ostatnie oceny roczne w klasach I-III
+(lub odpowiednie oceny na egzaminie wstępnym do wymienionego liceum)
+z przedmiotów następujących:
 
-w kursie:
-z książek:                dostateczny
-z popr. [...] część:      dobry
-Głuchowski Andrzej Krzysztof-Andrzej  [sławnie ?] wyraz: [...] edu
+z biologii:                    dostateczny
+z propedeutyki filozofii:      dobry
+z zagadnień życia współczesnego: dobry
+z ćwiczeń cielesnych:          dobry
 
-za cześć do dyplomu [...] 2a [?] [...] roku
-
-Komisja Egzaminacyjna w składzie:
-Nr 24  Kwalif. Każgolie
+Komisja Egzaminacyjna uznała Głuchowskiego Krzysztofa
+za dojrzałego do studiów wyższych i wydaje niniejsze świadectwo.
+Bodney, Anglia dnia 16 Lipca 1947 roku.
+Nr 29
 
 PRZEWODNICZĄCY
 KOMISJI EGZAMINACYJNEJ
-inżpr.[?] M. Pucka [?]
+mgr D. Raciborski
+
+[pieczęć okrągła — I POLSKIE LICEUM... M.P.]
 
 CZŁONKOWIE
 KOMISJI EGZAMINACYJNEJ:
-[podpis 1] Wyrwal [?]
-[podpis 2] Szmatki [?]
-[podpis 3] Proszki [?]
-[podpis 4] Kiosk al.[?]
-[podpis 5] [nieczytelny]
-[podpis 6] [nieczytelny]
-[podpis 7] Harney [?] Price [?]
-
-[pieczęć okrągła — M.P.]""",
+[podpis 1] K. [nieczytelny]
+[podpis 2] A. Amara
+[podpis 3] J. Turczyk
+[podpis 4] G.H. Fink R.
+[podpis 5] J.S. Eddy B.Sc(hons)
+[podpis 6] Kleyszolski
+[podpis 7] Fm. Mirowski F.
+[podpis 8] Wodziński W.
+[podpis 9] Henry Piotrkó""",
         "pieczecie": ["Pieczęć okrągła komisji egzaminacyjnej (M.P.)"],
         "podpisy": ["Przewodniczący komisji + 7 członków"],
         "osoby": ["Krzysztof-Andrzej Głuchowski (egzaminowany)"],
@@ -1013,26 +1026,30 @@ KOMISJI EGZAMINACYJNEJ:
         "jezyk": "angielski",
         "nadawca": "Polish Resettlement Corps, Record Office, Witley Camp",
         "adresat": "Głuchowski Krzysztof",
-        "transkrypcja": """DISCHARGE CERTIFICATE
+        "transkrypcja": """DISCHARGE CERTIFICATE.    Army Form B108J
+(If this Certificate is lost no duplicate can be obtained.)
 
-1. Army No.: 3004271
-2. Rank: Pte. [Private]
-3. Surname: GŁUCHOWSKI
-4. Christian Names: KRZYSZTOF
-5. Date of discharge: 31 OCT 1948
-6. [...]
-7. Service: 1 [year]
-8. [...] 365 [days]  2 mentions [?]
-9. [...]
-10. [...]
-11. Campaigns and Military Conduct: [...]
-12. Medals: [...]
+1. Army No.: 30043271
+2. Surname: GŁUCHOWSKI
+3. First Names: KRZYSZTOF
+4. Effective Date of Discharge: 31 OCT 1948
+5. Corps from which Discharged: P.R.C.
+6. Rank on Discharge: L/Cpl. (Lance Corporal)
+7. Service with the Colours: Years 3, Days —
+8. Service on Class W(T) Reserve: Years —, 363 Days, 2
+9. Total Service: [puste]
+10. Cause of Discharge: K.R. 3097 para XIX(b) His services being no
+    longer required on completion of contract
+11. Campaigns and Military Conduct: Service Abroad
+12. Medals: [puste]
+13. Military Conduct: [puste]
 
 50748
 
-[podpis oficera]
+[podpis] A. Montwice [?]
+Signature and Rank, Officer i/c Records.
 
-Signature: [podpis Głuchowskiego]
+Date: 31 OCT 1948
 
 [Pieczątka:]
 POLISH RESETTLEMENT CORPS
@@ -1130,7 +1147,7 @@ CONDITION ON TRANSFER TO RESERVE: [puste]""",
 
 MEDICAL CLASSIFICATION:
 Category: A1
-Date: 10.12.45, 25.12.45 [?]
+Date: 10.11.45
 
 PRESCRIPTION FOR GLASSES: [puste]
 
@@ -1139,11 +1156,11 @@ S.P.E. / S.P.T. [daty]
 
 PROTECTIVE INOCULATIONS:
 T.A.B. [tyfus-paratyfus]:
-  Dates: [...] 1945
+  Dates: 1945
   [wpisy medyczne z datami]
 
 Name of Vaccine: T.A.B.
-Army Form: [...] T.P.9""",
+Army Form: T.P.9""",
         "pieczecie": [],
         "podpisy": ["Podpisy lekarzy wojskowych"],
         "osoby": ["Krzysztof Głuchowski"],
