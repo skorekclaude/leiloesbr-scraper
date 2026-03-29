@@ -6208,6 +6208,579 @@ z[?] przem[?] w czarnom[?] wypiera [?] w a dalins [?]""",
     },
 
     # ═══════════════════════════════════════════════════════════════
+    # SERIA V — Priorytet 3: Listy kolegów (V/201-218)
+    # ═══════════════════════════════════════════════════════════════
+
+    # ARG/V/202a — List 'Józefa P.S.' — wieści rodzinne
+    "juras_202a": {
+        "typ": "List odręczny",
+        "data": "ok. 1946",
+        "jezyk": "polski",
+        "nadawca": "Józef P.S.",
+        "adresat": "Krzysztof Głuchowski",
+        "strony": ["originals_201_217/20260324_1735536699334025058410662_rot.jpg"],
+        "transkrypcja": """[Kartka niebieska — lewa strona:]
+[?] Polish Forces [?]
+Polish Forces NAAFI[?]
+
+[?] Styczeń 1946[?]
+
+Kochany Panie Rudy[?]:
+
+W pierwszych dniach piszę do Pana [?] o kilku
+[?] do Anglii. Jak dno. Pana pozdać[?] z
+tego[?] [?] postanowieniom.
+Właśnie tedeś[?] Podstyriąd[?] i z przyjemnością
+być odeślę[?] poruszona[?] czeka i pozostałe słoniecz[?]
+Siostra jest dość[?]. Ogłoś jedną do obsługiwanej[?]
+olśnie sprawie[?].
+[...] [nieczytelne] [?] Wskazując fajne[?] sprzedą
+na biela[?] całkiem[?] Sobieskiego bońdo tu konneksjach[?]
+przesyłam wsłodze[?] cenę, czer o boskie listonosz ciągle
+dalej czytanie[?]
+
+Pani Kroplidłą[?] pomiesi[?] pył[?] Pana tu bowd-
+ś dość wol[?] fajnie jest jelo na ulicznikowi
+[...]  fajne o do dostwier co dobrami z fajne[?]
+w fajnie przyleci[?] ku do Pana w Anglii we
+w [nieczytelne dalszy tekst]
+
+Ściskaj a zawięziś[?]
+
+[podpis nieczytelny]
+
+[Kartka kremowa — prawa strona:]
+[?] Polish [?] Szpital[?]
+Polish Forces CMF 112[?]                   Gdynia [?] 12. 46[?]
+
+Panie Krzysztofie[?],
+
+Upozostałem się do pis[?] [?] do nikogo
+3 DSK[?], a poza mogą[?] informacyj nic
+[nieczytelne]
+
+Pana Kraińskiego[?] znasz pewnie[?] w mańka Wion[?]
+[?] [?] stru o edice[?] [?] [?] cukierki[?]
+jabłko ciasteczka dlatego dać! Pan tu Wil[?].
+
+Ja dośliźnie do ze mnych [?] rozmawiać nai[?]
+Podleśnym[?] Morg[?] i szprę obudzi! C. [?]
+downy[?] z bodu[?] Podleśn[?].
+
+J olacy obnaj[?] Pola rozmawiasz[?] Pan
+przystrzelonymi[?] życiem[?] z zaparciem[?] narzuca
+ich najbujacz[?] podwołań[?] o odzieżowo.
+
+[Łącze?] nowy niśri dkien[?]
+
+A. Wólanow[?]
+
+P.S. z polowy[?] za ze sobaz[?] kolon[?].""",
+        "pieczecie": [],
+        "podpisy": ["Józef P.S. (?)", "A. Wólanow[?]"],
+        "osoby": ["Józef P.S. (nadawca)", "Krzysztof Głuchowski (adresat)", "A. Wólanow[?]"],
+        "znaki_szczegolne": [
+            "DWA LISTY na jednym skanie — kartka niebieska i kremowa",
+            "CMF 112 — Central Mediterranean Forces",
+            "Wymieniony 3 DSK (Dywizja Strzelców Karpackich)",
+            "Pismo trudne do odczytu — wymaga HTR"
+        ],
+        "kontekst": "Dwa listy sfotografowane razem na jednym skanie. Korespondencja z kolegami z wojska (CMF, 3 DSK). Odczyt wysoce niepewny — pismo odręczne, atrament wyblakły."
+    },
+
+    # ARG/V/202b — List do 'Pana Wincentego' — życzenia noworoczne
+    "juras_202b": {
+        "typ": "List odręczny",
+        "data": "8.I.1946",
+        "jezyk": "polski",
+        "nadawca": "P.J. Wilczem (?)",
+        "adresat": "Pan Wincenty",
+        "strony": ["originals_201_217/20260324_1735536699334025058410662_rot.jpg"],
+        "transkrypcja": """[Na tym samym skanie co V/202a — kartka kremowa, prawa strona]
+[Transkrypcja łączona z V/202a — patrz juras_202a]""",
+        "pieczecie": [],
+        "podpisy": [],
+        "osoby": ["P.J. Wilczem[?] (nadawca)", "Pan Wincenty (adresat)"],
+        "znaki_szczegolne": [
+            "Na tym samym skanie co V/202a",
+            "Życzenia noworoczne 8.I.1946"
+        ],
+        "kontekst": "Noworoczna korespondencja 1946. Dwie jednostki sfotografowane razem na jednym skanie — patrz juras_202a."
+    },
+
+    # ARG/V/205 — List — fotografie i Gen. Strelczyński
+    "juras_205": {
+        "typ": "List odręczny",
+        "data": "ok. I.1946[?]",
+        "jezyk": "polski",
+        "nadawca": "Nieustalony",
+        "adresat": "Krzysztof Głuchowski",
+        "strony": ["originals_201_217/20260324_1746587960714446524300966_rot.jpg"],
+        "transkrypcja": """[nagłówek nieczytelny — tekst odwrócony u góry]
+kochani najlepsi[?] [nieczytelne] serdeczn[ie?]
+
+[?] I. [?]
+
+z przybyciem tam dłuszej[?], że jeszcze
+nie przynosili ciężki[?] brogi[?], a ó ciupki[?]
+z tego[?] mierem powole kochani o Waszym
+przeniesieniu do Żimarzynu[?]. Zaidy[?] tylko
+tu przyjdą, to zaraz dam polok[?]
+odkąd bożek tu P[an] znalazłem w pólnocym[?]
+Odbłononym[?] chustik[?] do 15-ty id. Galeria[?]
+byłem u pole Stóleckiego[?].
+
+W Londynie chciałem być u Gen. Strelczyńskiego
+świstowi[?] mierrze Kelepcin[?] nagrodzon[?] z prośbę
+o rządfundowani[e?] do mnie celi[?] i kiedyś mają
+priklu[?]. Przypuszczam[?] tu List[?] nie  nic wobec
+nikogo, gdzie[?] niedotkniętem rospostroich[?]
+Co odpiksie[?] w dno. Jadąc że niesłusano[?]
+wspatrzę[?], a Januszowi bardzo prosy o przybych[ie?]
+nic zbieranych fotografij. Jednak to bordowe[?]
+to bardzo też porcy[?] o[?] przysłaniu do 25 ka[?].
+
+Przy robotomidni[?] do Pocz[ty?] kochani[?]""",
+        "pieczecie": [],
+        "podpisy": [],
+        "osoby": ["Nadawca nieustalony", "Gen. Strelczyński (wspomniany)", "Janusz (wspomniany — gen. Głuchowski?)"],
+        "znaki_szczegolne": [
+            "Wspomina Gen. Strelczyńskiego — wizyta w Londynie",
+            "Januszowi prosi o przysłanie fotografii — gen. Głuchowski?",
+            "Wymiana fotografii między żołnierzami",
+            "Pismo trudne — wymaga HTR"
+        ],
+        "kontekst": "List od niezidentyfikowanego kolegi. Wspomina wizytę u Gen. Strelczyńskiego w Londynie i prośbę o fotografie od Janusza (prawdopodobnie gen. Głuchowskiego). Dokumentacja wymiany fotografii w środowisku PSZ."
+    },
+
+    # ARG/V/206a — List z CMF Polish Forces 125
+    "juras_206a": {
+        "typ": "List odręczny",
+        "data": "24.I.1946",
+        "jezyk": "polski",
+        "nadawca": "Nieustalony (podpis 'G...')",
+        "adresat": "Krzysztof Głuchowski",
+        "strony": ["originals_201_217/20260324_1748223633272231402712281_rot.jpg"],
+        "transkrypcja": """C.M.F. Polish Forces 125
+24/I 46
+
+Kochany Krzysiu!
+
+Otrzymałem Twój list poleca, bo
+dopiero po powrocie z ćwczeń[?]
+tygo dniowego[?] w poniedziałek 21/I
+10 jutro mniej dość[?] na tydzień
+prz ćwiczeniu[?] do Bolonii[?]. Poza
+tożłam[?] że subiektywu boletou Toyot[?]
+to lista informacja fajne[?] podołaniu[?]
+wiadomości o „ufaniu mas[?]". Ogarzni[?]
+nie damy letnim obroty[?], bo[?] każd tyło[?],
+bo Jaśki i Leszakóch[?] bo tańczek i ka-
+dudzi[?] — ok chwiłowe nadzieję mieniem że
+plany roboczenie się w czego, w reszta
+kursami warantu[?] ich finiszem.
+Toteż jeszcze wielki[?] zwolni[?] no
+tu pojad[?] do klarine[?] ale na Polary[?]
+leczo[?] kilka tysię[cy?] i zwolnienie
+more następne w bardzie[?] wam obiąt[?]
+tu podchol[e?] — w reszta oba[?]. Cu pal[?]
+1945 – na Paprozka – osiem miozn[?]
+ty – o wczoraj którogo nie wydał[?] jeszcze[?]
+od roku. Osiem roturmam olma[?]""",
+        "pieczecie": [],
+        "podpisy": ["G... (podpis nieczytelny)"],
+        "osoby": ["Nadawca G... (nieustalony)", "Krzysztof Głuchowski (adresat)", "Jaśko (wspomniany)", "Leszek (wspomniany)"],
+        "znaki_szczegolne": [
+            "Logo choinka (5 KDP?) na papierze",
+            "CMF Polish Forces 125 — Włochy",
+            "Data 24.I.1946 — demobilizacja i reorganizacja 2 Korpusu",
+            "Wspomina ćwiczenia w Bolonii",
+            "Wspomina Jaśka i Leszka — koledzy z jednostki"
+        ],
+        "kontekst": "Styczeń 1946, CMF (Włochy). Nadawca opisuje demobilizację i reorganizację 2 Korpusu Polskiego. Logo 5 KDP na papierze. Wspomina ćwiczenia tygodniowe i plany zwolnień."
+    },
+
+    # ARG/V/206b — List 'Słobusia K.' — decyzje o wyjeździe, Bolonia
+    "juras_206b": {
+        "typ": "List odręczny",
+        "data": "16.IV.1946",
+        "jezyk": "polski",
+        "nadawca": "Słobuś K.",
+        "adresat": "Krzysztof Głuchowski",
+        "strony": ["originals_201_217/20260324_1811564265226715002790673_rot.jpg"],
+        "transkrypcja": """16/IV '46.
+
+Kochany Krzysztofku!
+
+Bardzo niestanowieńi[e?]
+Ty olecisz Korzył władn[ie?]
+Życie nie wyjeżdżali
+w końce srypt[?]. Żałuję
+że nie mocy dla Nas
+uszczyc Występka[?], ale
+nie wybędno owi wyjdę.
+Tak ka władek[?] ktoś[?]
+by nieusty olecis w
+Stosunki[?] dla Nas dom.
+Coprawda to i ja bę-
+dę unoś „republice" Pola[?]""",
+        "pieczecie": [],
+        "podpisy": ["Słobuś K."],
+        "osoby": ["Słobuś K. (nadawca — bliski znajomy)", "Krzysztof Głuchowski (adresat)"],
+        "znaki_szczegolne": [
+            "Kwiecień 1946 — decyzje o wyjeździe",
+            "Nadawca zna Krzysztofa bardzo blisko ('Krzysztofku')",
+            "Temat: emigracja vs. pozostanie"
+        ],
+        "kontekst": "Kwiecień 1946. Nadawca zna Krzysztofa bardzo blisko. Temat listu: decyzje o wyjeździe i emigracji — kluczowy moment w życiu żołnierzy PSZ."
+    },
+
+    # ARG/V/207a — List Janusza Ramińskiego (I) — wieści o Wandzie
+    "juras_207a": {
+        "typ": "List odręczny",
+        "data": "19.IX.1946",
+        "jezyk": "polski",
+        "nadawca": "Janusz Ramiński",
+        "adresat": "Krzysztof Głuchowski",
+        "strony": ["originals_201_217/20260324_1813377748033720388689926_rot.jpg"],
+        "transkrypcja": """[Strona 1 — niebieska kartka lewa:]
+Szlachetna Pani Mandzie[?] okocen[?] moim Pol[?]
+Bulwą[?] pola[?] wszet[?]. Tu jest nie pracyw[?]
+Co bli dzieje[?] z p. Stefanem Panem
+Ojcem — od dłuższego czasu nie mam
+od niego nic o nim wiadomości[?] czy
+jest nadal w Niemczech[?] czy zdążył
+bodnej[?] co do Anglii.
+Istnieje mało co znaczy Pamiętn[?] z
+Pana jakoś 10-11 letniego chłopca Mam[?]
+wrazenia[?] że jest Pan w siódło Mego wnuczka[?]
+typu — co jest 1927 rocznik ale
+nie to myślę[?].
+Brodziszu[?] chciał sprawić Pan bo
+gdy[?] Panie Krzyśko nie jest Pan bydnie
+i w dłubiąc[?] w czasie zakażone[?] nich-może[?]
+proszę zmi[?] zamówide[?] o postarow[?] o[?]
+Panina[?] Komunikatów[?]
+
+Każdy[?] wcielmni[?] ze List [?]
+o mnie nie zapomniał[?].
+
+Janusz Ramiński
+
+[Strona 2 — kremowa kartka prawa:]
+                    Brownings Camp
+                    Billingshurst
+                    Sussex
+                    19/9 1946
+
+Kochany Panie Krysiu.
+
+Bardzo mnie ucieszyć List Pana
+i wiadomość że jest Pan jeszcze[?] w Anglii,
+a do tego nowy ów[?], co jest najlepsze
+z tego co mógłby Pan zrobić.
+
+Ostatnie wiadomości o Matce Pana
+należały od mojgo syna Marka. Ty
+ostatnie wiadomości przesłał Panu pan
+Janusz. Bezpiecznie znacie[?] to oby pisz[?]-
+my na aptekę w Łodzi[?] żebyś Marka
+to przede[?] to dlatego (mama odziumierz[?]
+o nagrommi[?] lęgu porodź[?]). Matka Pana
+Pyta Pan czy poroty uprować[?] do
+Matki i czy podaj[?] adres na Bodney.
+Na myślę najbardziej przejście[?]
+niech w Łodzi — użyj Matka coś miesiąc[?]
+stałan rolaną[?] — nim ich bieprzeczenia[?]""",
+        "pieczecie": [],
+        "podpisy": ["Janusz Ramiński"],
+        "osoby": [
+            "Janusz Ramiński (nadawca, Brownings Camp, Sussex)",
+            "Krzysztof Głuchowski (adresat)",
+            "Wanda Głuchowska (Matka — apteka)",
+            "Stefan Głuchowski (Pan Ojciec — brak wiadomości)",
+            "Marek (syn Ramińskiego — pośrednik)"
+        ],
+        "znaki_szczegolne": [
+            "Brownings Camp, Billingshurst, Sussex — obóz polski",
+            "Ramiński pamięta Krzysztofa jako 10-11 letniego chłopca ('rocznik 1927')",
+            "Pyta o Stefana ('od dłuższego czasu nie mam o nim wiadomości')",
+            "Apteka Wandy — przekazanie wiadomości przez Marka",
+            "Rada: pisać na adres Bodney",
+            "List dwustronny na niebieskiej i kremowej kartce"
+        ],
+        "kontekst": "Wrzesień 1946. Ramiński w Brownings Camp (obóz polski w Sussex) pośredniczy między Krzysztofem a rodziną w Polsce. Zna rodzinę od lat — pamięta Krzysztofa jako chłopca. Pyta o Stefana (brak wiadomości). Wanda prowadzi aptekę."
+    },
+
+    # ARG/V/207b — List Ramińskiego (II) — aresztowanie Marka
+    "juras_207b": {
+        "typ": "List odręczny",
+        "data": "28.X.1946",
+        "jezyk": "polski",
+        "nadawca": "Janusz Ramiński",
+        "adresat": "Krzysztof Głuchowski",
+        "strony": ["originals_201_217/20260324_1820364793131874182220755_rot.jpg"],
+        "transkrypcja": """Brownings Camp
+Billingshurst
+Sussex
+28/10/'46.
+
+Kochany Panie Krzysiu.
+
+Marek został aresztowany przez
+Bezpiekę 9 września i bardzo bij[?] z tego
+powodu markotau[?].
+
+Ale dzisiaj dostałem od niego
+list z 16 paźdz. że znów jest na wol-
+ności i udało mu bij fymi[?] razen
+wykręcić. Nie wiem niestymcji[?] z ja-
+kiego powodu i co od niego chcieli.
+
+Jeśli pitre — rzecz[?] bij znów pewnie[?].
+
+Marek pnia[?] mi wiadomość o Panu,
+(które mu postałem) przekazał Matce
+Pana. Niestety nie podaje żadnych
+dodatkowych wiadomości tylko aby
+Pan pisał jaknajprędzej na adros""",
+        "pieczecie": [],
+        "podpisy": ["Janusz Ramiński"],
+        "osoby": [
+            "Janusz Ramiński (nadawca)",
+            "Krzysztof Głuchowski (adresat)",
+            "Marek Ramiński (aresztowany przez Bezpiekę 9.IX.1946)",
+            "Wanda Głuchowska (Matka Pana — przekazano wiadomości)"
+        ],
+        "znaki_szczegolne": [
+            "MAREK ARESZTOWANY PRZEZ BEZPIEKĘ 9 WRZEŚNIA 1946!",
+            "Zwolniony — list z 16.X potwierdzający wolność",
+            "Bezpieka = UB (Urząd Bezpieczeństwa)",
+            "Marek przekazał wiadomości od Krzysztofa Matce (Wandzie)",
+            "Brownings Camp, 28.X.1946"
+        ],
+        "kontekst": "KLUCZOWY: aresztowanie syna Ramińskiego (Marka) przez UB 9.IX.1946 — świadectwo represji wobec pośredników w korespondencji z emigracją. Marek wypuszczony (list z 16.X). Ramiński nie wie za co aresztowano. Marek zdążył wcześniej przekazać wiadomości Wandzie."
+    },
+
+    # ARG/V/208 — List 'Czesława J.' z obozu w Walii
+    "juras_208": {
+        "typ": "List odręczny",
+        "data": "ok. 1946",
+        "jezyk": "polski",
+        "nadawca": "Czesław J.",
+        "adresat": "Krzysztof Głuchowski",
+        "strony": ["originals_201_217/20260324_1824362851036695023960408_rot.jpg"],
+        "transkrypcja": """[Lewa kartka:]
+52
+
+to Stochłowe Łorew[?] i oddo[?]—
+sić[?] na ushinwał[?] nie uzlodayn[?]
+a przez poganiową opo[?] oddo[?]
+uwszystka[?] jesarśćisz[?] jest us
+jedme polebini[?] tu olna osa
+wrocił by Gdyńsk[?] razjędr[?].
+Zbaprólu[?] Pan be[?] ów szniesz[?]
+od o gazet[?] bez N. Chrop[?]
+jest i nieistonami. Panim[?]
+łowaj skatlujaj[?] się w ogólnym
+opr[?] unig C jeśmni[?] ko A.K.N[?].pl[?]
+jużka[?] za olody[?]. Być W.D.kobap[?]
+plus w ajhonania minik[?] wa
+[?] upoślenie przygrowak[?] łaps[?]
+a pruszk, babien osz c I d[?]
+Świdczki[?] uż aw oficerskie[?]
+proda[?] tu my uzgadla pru-
+[nieczytelne]
+
+[Prawa kartka:]
+                        18. X. 46[?]
+
+Drogi mój Krzysiu!
+
+Upewni[?] się w rozumiam forji[?]
+kochani[?]. Win[?] chyba robi[?] co za
+moim czasu[?] reble[?] w Łągó[?]. Solidy[?]
+rozumiesz potaje[?] co[?] i [?] [?]
+a doby uwydziła[?] w Gale Gwi[?].
+Wiedy[?] moty jeszcze mity obwata[?]
+stabucki[?] Polsce a Linia[?] dlatego[?]
+wada[?] nic[?] ty, no[?] list do obody[?]
+więci[?] pamięci[?] do jasałełem[?]. O
+po bu[?] tumilek[?], a chrzestne[?]
+ponytnik[?] nie[?] go[?] rusło[?] Sofon[?]
+boku[?], kol ze wołoni[?] ofkolina[?]
+inna miasfomaist[?]. Widocz-
+nami[?] moty muta. Port[?] moj[?]""",
+        "pieczecie": [],
+        "podpisy": ["Czesław J."],
+        "osoby": ["Czesław J. (nadawca)", "Krzysztof Głuchowski (adresat)"],
+        "znaki_szczegolne": [
+            "Data 18.X.1946[?]",
+            "Dwie kartki sfotografowane razem",
+            "Pismo BARDZO trudne do odczytu",
+            "Wspomina AK",
+            "Wymaga profesjonalnego HTR"
+        ],
+        "kontekst": "List Czesława J. do Krzysztofa. Pismo niezwykle trudne do odczytu — transkrypcja orientacyjna. Wymaga profesjonalnego narzędzia HTR."
+    },
+
+    # ARG/V/211a — List Krahelskiego 'Leszka' z CMF 153
+    "juras_211a": {
+        "typ": "List odręczny",
+        "data": "9.VIII.1946[?]",
+        "jezyk": "polski",
+        "nadawca": "Plut. pchor. Krahelski Lech (Leszek)",
+        "adresat": "Krzysztof Głuchowski",
+        "strony": ["originals_201_217/20260324_1931188855098837933167592_rot.jpg"],
+        "transkrypcja": """plut. pchor. Krahelski Lech.              9 VIII 46[?]
+Polish Forces. C.M.F. 153.
+
+Kochany Krzysiu!
+
+U nas wszystko jest teraz takie same jak było
+przedtem. Właściwie nie ma żadnych zmian,
+chyba to tylko, że jestem więcej zapety[?] jako
+brygato donos[?] na kursie motorowym, co
+mnie zupełnie nie bawi, ze względu na to że już
+kilka takich kursów odrobiałem. Mihi[?] więcejchat
+i mieszła[?] obecnie nad morzem. By-
+łem u niego w niedzielę i wyborowi się[?]
+znowu jest dla mnie i serdeczny.
+
+Jeżeli[?] być mogi[?] przyjechar na sobotę i nie-
+dzielę, jak to znaczy wiele raki[?], to przyjedzii[?]
+bo tam musi być Ci trochę nudno. Okre-
+ślić[?] mia[?] też nic specjalnego ale zawsze
+coś można zagadek[?].
+
+Przyjechał teraz Jurekc[?] Major nie
+stety nie jest tu. Widuję się z nim co
+drugi dzień, ale on jest tam zupełnie
+temu i to jest niewiele.
+
+Napisz mi jak Ci tam iść w szkole i
+czy wybierasz się na podchorążówkę. Moim
+zdaniem warto.
+
+Marian przesyła Ci pozdrowienie, ja mam
+nadzieję, że jeszcze do nas napiszesz.
+
+Ściskam        Leszek""",
+        "pieczecie": [],
+        "podpisy": ["Leszek (Krahelski Lech)"],
+        "osoby": [
+            "Plut. pchor. Krahelski Lech / Leszek (nadawca, CMF 153)",
+            "Krzysztof Głuchowski (adresat)",
+            "Jurek Major (wspomniany)",
+            "Marian (przesyła pozdrowienia)",
+            "Mihi[?] (mieszka nad morzem)"
+        ],
+        "znaki_szczegolne": [
+            "CMF 153 — Włochy",
+            "Kursy motorowe — szkolenie żołnierzy",
+            "Pyta o podchorążówkę — doradza Krzysztofowi",
+            "Marian przesyła pozdrowienia — ten sam co w V/211b i V/216b?",
+            "Pismo czytelne, atrament niebieski"
+        ],
+        "kontekst": "List Krahelskiego (plut. pchor., CMF 153) do Krzysztofa. Sierpień 1946 — Krahelski na kursach motorowych, radzi Krzysztofowi iść na podchorążówkę. Ton koleżeński, serdeczny. Marian przesyła pozdrowienia."
+    },
+
+    # ARG/V/211b — List Krahelskiego z RYSUNKIEM JELENIA
+    "juras_211b": {
+        "typ": "List odręczny z rysunkiem",
+        "data": "29.VIII.1946[?]",
+        "jezyk": "polski",
+        "nadawca": "Plut. pchor. Krahelski Lech (Leszek)",
+        "adresat": "Krzysztof Głuchowski",
+        "strony": ["originals_201_217/20260324_1949561247533166282117318_rot.jpg"],
+        "transkrypcja": """plut. pchor. Krahelski Lech.     29. VIII. 46[?]
+Polish Forces. P.M.F.[?] 153
+
+Kochany Krzysiu!
+
+U nas nie wionpa[?] Nie zandz[?] olwa
+cmdżo[?] mie[?] jub[?] w dalszych wzglę-
+du. Dobra[?] moje zaś ile ostrzejsza napręd[?]
+dy nie [?] masz miejsce jakiegoś[?]
+dls mnie ikon[?] o kole[?] więzności[?]
+około[?] napokora[?]. Idzie również to
+ma[?] pracędy[?] i dwóch[?] po miodycin tu[?]
+[?] fajna nie każdzio się na dóbr[?]
+był fajma[?] ale[?] nie od[?] i wta-
+takidajko[?] długi kolakjce[?] „Jeleń" ry-
+sujs[?] „ponirzej" kto mogę to przysłac też
+doli(?) Kraków. też[?] jest Moreygo[?]
+Ferencie[?] omi moisi[?]. Tum to nieco[?]
+dalanym zieja[?] musialem[?] się co wyjat-
+kono[?]  bazek[?].
+
+Wiem podobizszie ze napisziesz do mnie,
+ho napywną[?] kurga waw av Grobni[?] i
+jebróta[?].
+
+Pozdrowienia od Mariana,
+Polski olkóam[?]
+
+Leszek
+
+[RYSUNEK — jeleń narysowany ołówkiem, pod spodem tekst:]
+(propozycja bys[?] doable
+pomnik[?] ile stary[?] nie rozpoznaj[?]
+aby i obronie[?] odkazano[?] myśl mi[?] pon-
+nowy/dolejaj[?] chca nie olni[?]
+K[?])""",
+        "pieczecie": [],
+        "podpisy": ["Leszek"],
+        "osoby": ["Krahelski Lech (nadawca)", "Krzysztof Głuchowski (adresat)", "Marian (pozdrowienia)"],
+        "znaki_szczegolne": [
+            "RYSUNEK JELENIA — symbol 7 Pułku Ułanów Lubelskich!",
+            "Wspomina 'kolakjce[?] Jeleń' -- kryptonim pułku",
+            "Propozycja pomnika? — pod rysunkiem",
+            "Marian ponownie przesyła pozdrowienia",
+            "Unikat — rysunek jelenia w liście żołnierskim"
+        ],
+        "kontekst": "List z rysunkiem jelenia — symbolu 7 Pułku Ułanów Lubelskich «Jeleń». Krahelski rysuje jelenia i wspomina kolekcję/projekt związany z pułkiem. Unikatowy dokument łączący korespondencję z ikonografią pułkową."
+    },
+
+    # ARG/V/212a — List Jaśka Leoniuka z Troyes (I)
+    "juras_212a": {
+        "typ": "List odręczny",
+        "data": "12.IX.1945[?]",
+        "jezyk": "polski",
+        "nadawca": "Jaśko Leoniuk",
+        "adresat": "Krzysztof Głuchowski",
+        "strony": ["originals_201_217/20260324_1938481997225877696633528_rot.jpg"],
+        "transkrypcja": """Troyes 12. IX '45[?].
+
+Drogi Krysiu!
+
+Przepraszam Cię bardzo, że
+tak długo nie odpisywałem
+na doli[?] Twój list Który otrzy-
+małem dopiero 30. VIII b.r., ale
+wierz mi że to nie moja wina.
+My f.j. Jurek i ja z znajduje-
+my[?] z powrotem w Troyes i pra-
+cujemy tak jak na początku. Sto-
+sunek władz zwierchnik do
+nas pracowników, zmienił się
+z umienię[?] na lepsze. Mimo to
+nie ciekawy zamimam porostki[?] tu
+na zimę. Krysiek napisz nam
+co u Ciebie Tychar[?], a pre-""",
+        "pieczecie": [],
+        "podpisy": ["Jaśko (Leoniuk)"],
+        "osoby": ["Jaśko Leoniuk (nadawca, Troyes, Francja)", "Jurek (kolega w Troyes)", "Krzysztof Głuchowski (adresat)"],
+        "znaki_szczegolne": [
+            "Troyes (Francja) — Polacy pracujący we Francji po wojnie",
+            "Wrzesień 1945 — poprawa stosunków z pracodawcami",
+            "Jurek i Jaśko razem w Troyes",
+            "Pismo czytelne, ołówek na żółtawym papierze"
+        ],
+        "kontekst": "List Jaśka Leoniuka z Troyes (Francja), wrzesień 1945. Polacy pracujący we Francji po wojnie — stosunek władz 'zmienił się na lepsze'. Jaśko i Jurek razem. Pyta o Krzysztofa. Kontynuacja w V/212b."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
     # SERIA II — Gen. dyw. Janusz Julian Głuchowski (1888–1964)
     # ═══════════════════════════════════════════════════════════════
 
