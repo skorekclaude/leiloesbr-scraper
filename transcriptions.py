@@ -1032,38 +1032,38 @@ WITLEY CAMP
 2                                    3
 (1) SOLDIER'S NAME and DESCRIPTION on ATTESTATION.
 
-Army Number: 14161026 [?]
+Army Number: 14161026 [nieczytelne]
 Surname (in capitals): GŁUCHOWSKI
 Christian Names: KRZYSZTOF
 Date of Birth: 19. 11. 19[20/26?]
-[...] Polish
+[puste] Polish
 Place of    In or near the town of
-Birth:      [...] ber zawar [Brzeżany?]
-            In the county [...]
-Trade on Enlistment: [...]
+Birth:      [puste] ber zawar [Brzeżany?]
+            In the county [puste]
+Trade on Enlistment: [puste]
 
-Nationality of Father at birth: [...] Polnish [?]
-Nationality of Mother at birth: Izyni - Kat [?]
-Religious Denomination: [...]
-Approved Society: [...]
-Membership No.: [...]
-Enlisted at [...] On the [...] Naib.Ib.[?]
+Nationality of Father at birth: [puste] Polnish [nieczytelne]
+Nationality of Mother at birth: Izyni - Kat [nieczytelne]
+Religious Denomination: [puste]
+Approved Society: [puste]
+Membership No.: [puste]
+Enlisted at [puste] On the [puste] Naib.Ib.[nieczytelne]
 Regular Army □   Supplementary Reserve □
-[...] Strike out those inapplicable [...]
+[puste] Strike out those inapplicable [puste]
 For ... years with the Colours and ... years in the
 Reserve.
 Signature of Soldier: [podpis] Głuchowski
 Date: 20. X. 1945
 
 [OPIS FIZYCZNY — strona 3:]
-Height: 170 [?]   ins. Weight: 50 [?] lbs.
-Maximum Chest: [...] ins. Complexion: [...]
-Markings: [...] Hair: I. Kaita [?] Eye: I. Kloma [?]
-Distinctive Marks and Minor Defects: [...]
+Height: 170 [nieczytelne]   ins. Weight: 50 [nieczytelne] lbs.
+Maximum Chest: [puste] ins. Complexion: [puste]
+Markings: [puste] Hair: I. Kaita [nieczytelne] Eye: I. Kloma [nieczytelne]
+Distinctive Marks and Minor Defects: [puste]
 
                     DISCHARGED
 
-CONDITION ON TRANSFER TO RESERVE: [...]""",
+CONDITION ON TRANSFER TO RESERVE: [puste]""",
         "pieczecie": ["Stempel DISCHARGED (duży, niebieski)"],
         "podpisy": ["Podpis Krzysztofa Głuchowskiego (20.X.1945)"],
         "osoby": ["Krzysztof Głuchowski (nr 14161026?, ur. 19.11, miejsce: Brzeżany?)"],
