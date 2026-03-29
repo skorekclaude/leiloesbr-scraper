@@ -8287,6 +8287,19 @@ SPECIAL_TRANSCRIPTION_MAP = {
     "ARG/V/53":   "juras_053",
     "ARG/V/54":   "juras_054",
     "ARG/V/60":   "juras_059",
+    # ── Sygnatury z literami (standard mapping nie obsługuje) ──
+    "ARG/V/202a":  "juras_202a",
+    "ARG/V/202b":  "juras_202b",
+    "ARG/V/206a":  "juras_206a",
+    "ARG/V/206b":  "juras_206b",
+    "ARG/V/207a":  "juras_207a",
+    "ARG/V/207b":  "juras_207b",
+    "ARG/V/209a":  "juras_209a",
+    "ARG/V/209b":  "juras_209b",
+    "ARG/V/211a":  "juras_211a",
+    "ARG/V/211b":  "juras_211b",
+    "ARG/V/213a":  "juras_213a",
+    "ARG/V/216b":  "juras_216b",
 }
 
 
