@@ -901,3 +901,21 @@ Do zrobienia: pełne mapowanie + linkowanie w generatorze.
 - Krahelski "Leszek" rysuje jelenia — symbol 7 P.Uł.
 - Koperta: Poczta Polowa 122, cenzura 564, 31.VIII.45
 - "Written in polish" — dla cenzury wojskowej
+
+### Finalne odczyty sesji 29.III:
+- Dębski (Coventry) 22.X.47: humor o "materyjale na to i na owszem", opera
+- Dębski 26.X.47: "zapisujesz się do nasom" — Krzysztof dołącza do organizacji
+- Krahelski 211b: RYSUNEK JELENIA — potwierdzone
+- Listy z Bodney: pośrednik przekazuje listy od Wandy, stypendium Erentz
+- Jasiek/Leoniuk z Troyes: paczka z ubraniami, państwo Kołacz
+- List z Sudbury 1949: PKPR, odwołania, Cambridge, R.A.S.T.
+- Tudek z High Wycombe: uwolniony Berlin IV.45, Taranto, Rzym
+
+### PODSUMOWANIE SESJI — kolekcja Głuchowskich:
+- 68/68 skanów obejrzanych (100%)
+- 28 nowych jednostek dodanych do katalogu
+- 28 transkrypcji + wycen
+- 86/86 transkrypcji zmapowanych juras→ARG/V
+- 47 podlinkowanych w generatorze HTML
+- Odkrycia: Tarnów, pieczęć AK, Koniuś=Dębski, rysunek jelenia
+- Seria V: 201 jednostek | Cała kolekcja: 340 | Wycena: 254-653k PLN
