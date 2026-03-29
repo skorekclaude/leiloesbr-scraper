@@ -10540,8 +10540,8 @@ body.lang-active .card-lang-badge {{ display:inline; }}
   <h3 class="showcase-title" data-lang="en">10 documents that tell the whole story</h3>
   <div class="showcase-grid">
 
-    <div class="showcase-card" data-src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p01_img01.jpeg" onclick="openLightbox(this.dataset.src, 'Siódemka Beliny — fotokopia z podpisami (1914)')">
-      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p01_img01.jpeg" alt="Siódemka Beliny" loading="lazy">
+    <div class="showcase-card" data-src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p04_img02.jpeg" onclick="openLightbox(this.dataset.src, 'Siódemka Beliny — fotokopia z podpisami (1914)')">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p04_img02.jpeg" alt="Siódemka Beliny" loading="lazy">
       <div class="showcase-label">
         <span class="showcase-sygn">ARG/II/2</span>
         <span class="showcase-desc" data-lang="pl">Siódemka Beliny &mdash; 7 ułanów, którzy rozpoczęli Legiony</span>
