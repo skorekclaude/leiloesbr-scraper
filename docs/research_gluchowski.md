@@ -919,3 +919,13 @@ Do zrobienia: pełne mapowanie + linkowanie w generatorze.
 - 47 podlinkowanych w generatorze HTML
 - Odkrycia: Tarnów, pieczęć AK, Koniuś=Dębski, rysunek jelenia
 - Seria V: 201 jednostek | Cała kolekcja: 340 | Wycena: 254-653k PLN
+
+### V/60 — Esej o rocznicy Powstania (1.VIII.1945, godz. 15:30)
+- St.uł. Krzysztof Głuchowski, CMF 152, Gimnazjum
+- "Rok temu już od piętnastu minut walczyliśmy"
+- Napisany DOKŁADNIE rok po Powstaniu, o godzinie wybuchu (15:30→17:00 = godzina W)
+- 3.000.000 — prawdopodobnie straty/ofiary
+- Krytyka: Czerwona Armia nie pomogła, Hitler zniszczył Warszawę
+- "Duch powstańczy był i będzie świetny"
+- Podpis: K. (Krzysztof)
+- Częściowo odczytany — pismo młodzieńcze, emocjonalne, pełne skreśleń
