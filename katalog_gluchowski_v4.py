@@ -7597,6 +7597,90 @@ VALUATIONS = {
         "waluta": "PLN",
         "rekomendacja": "W zestawie z kartami pamiątkowymi pułku."
     },
+    # === KORESPONDENCJA 1946 — Wanda, Flejszer, Łabędzki, Schwok ===
+    "ARG/V/174": {
+        "wartosc_hist": "★★★★",
+        "opis_wartosci": "List żołnierza PSZ nawiązujący kontakt matka-syn po 2 latach rozłąki. Konspiracyjna droga pocztowa przez Paryż. Korespondencja wojskowa + rodzinna 1946: 300-800 PLN. Kontekst historyczny (cenzura, kanały konspiracyjne) podnosi wartość.",
+        "cena_min": 400,
+        "cena_max": 800,
+        "waluta": "PLN",
+        "rekomendacja": "W zestawie z całą korespondencją 1946 (ARG/V/174-183). Razem znacznie więcej niż osobno."
+    },
+    "ARG/V/175": {
+        "wartosc_hist": "★★★★★",
+        "opis_wartosci": "PIERWSZY list matki do syna po 2 latach rozłąki wojennej. 'Drogi Kochany Synku!' Ogromna wartość emocjonalna i dokumentacyjna. Listy matek do żołnierzy PSZ: 400-1200 PLN. Tu: PIERWSZY kontakt = wartość wyjątkowa. Wzmianka o aptece na Kruczej/Hożej.",
+        "cena_min": 800,
+        "cena_max": 1500,
+        "waluta": "PLN",
+        "rekomendacja": "Kluczowy dokument kolekcji. Nie sprzedawać osobno — serce zestawu korespondencji 1946."
+    },
+    "ARG/V/176": {
+        "wartosc_hist": "★★★★",
+        "opis_wartosci": "List z Genewy — trzecia droga konspiracyjna. Pieniądze, fotografie, informacja o represjach (Bukowski aresztowany). Korespondencja zagraniczna 1946: 300-600 PLN. Kontekst polityczny (ustawa o powrocie urzędników) dodaje wartość.",
+        "cena_min": 400,
+        "cena_max": 800,
+        "waluta": "PLN",
+        "rekomendacja": "W zestawie z korespondencją Schwok (ARG/V/180-181)."
+    },
+    "ARG/V/177": {
+        "wartosc_hist": "★★★★★",
+        "opis_wartosci": "List Wandy z listą poległych kolegów syna. 'Prawie wszyscy wyginęli.' Josiek, Kosterlitz, Starówka. Niekompletny (brak str. 1) ale poruszający. Zdrobnienie 'Krysieńku' — matka nie widziała syna 2 lata. Pytanie o wzrost. Listy z relacją strat wojennych: 500-1500 PLN.",
+        "cena_min": 600,
+        "cena_max": 1200,
+        "waluta": "PLN",
+        "rekomendacja": "Mimo niekompletności — jeden z najważniejszych listów w kolekcji. 'Prawie wszyscy wyginęli' — zdanie epoki."
+    },
+    "ARG/V/178": {
+        "wartosc_hist": "★★",
+        "opis_wartosci": "Anonimowy bilecik z pozdrowieniami od Wandy. Krótki, bez daty. Wzmianka o aresztowaniu stryjka. Bileciki okazyjne: 100-300 PLN.",
+        "cena_min": 200,
+        "cena_max": 400,
+        "waluta": "PLN",
+        "rekomendacja": "W zestawie z korespondencją 1946."
+    },
+    "ARG/V/179": {
+        "wartosc_hist": "★★★",
+        "opis_wartosci": "Drugi list Łabędzkiego — operacja oczna w Zurychu, 3 funty, powrót do Polski. Korespondencja zagraniczna z transferem pieniędzy: 300-600 PLN.",
+        "cena_min": 400,
+        "cena_max": 800,
+        "waluta": "PLN",
+        "rekomendacja": "W zestawie z Łabędzki I (ARG/V/176) i Schwok (ARG/V/180-181)."
+    },
+    "ARG/V/180": {
+        "wartosc_hist": "★★★",
+        "opis_wartosci": "List Rose Schwok z Genewy — 6 funtów, łańcuch pocztowy. Korespondencja zagraniczna: 200-500 PLN.",
+        "cena_min": 300,
+        "cena_max": 600,
+        "waluta": "PLN",
+        "rekomendacja": "W zestawie z Schwok II i Łabędzkim."
+    },
+    "ARG/V/181": {
+        "wartosc_hist": "★★★",
+        "opis_wartosci": "Schwok II — rada o bezpośredniej poczcie. Nazwisko panieńskie Zimnowoda. 200-500 PLN.",
+        "cena_min": 300,
+        "cena_max": 600,
+        "waluta": "PLN",
+        "rekomendacja": "W zestawie z Schwok I."
+    },
+    "ARG/V/182": {
+        "wartosc_hist": "★★★★★",
+        "opis_wartosci": "Pierwszy BEZPOŚREDNI list Wandy (nie przez pośredników). Przełom w korespondencji. Święta 1946 — 'znów nie będziemy razem.' Relacja o rodzinie Węgiernowskich, pytanie o wzrost i barki syna. Listy matek bezpośrednie z Polski: 600-1500 PLN.",
+        "cena_min": 800,
+        "cena_max": 1500,
+        "waluta": "PLN",
+        "rekomendacja": "Razem z ARG/V/175 i V/183 — trójka najcenniejszych listów Wandy."
+    },
+    "ARG/V/183": {
+        "wartosc_hist": "★★★★★",
+        "opis_wartosci": "NAJDŁUŻSZY list Wandy — 4 strony. 8 pytań matki (papierosy, alkohol, zęby, język). CENY WARSZAWY VII.1946: cukier 180, masło 480, dolar 700 zł, buty oficerskie 40 tys. Bezcenny dokument ekonomiczny + emocjonalny. Listy z danymi cenowymi: 800-2000 PLN.",
+        "cena_min": 1000,
+        "cena_max": 2000,
+        "waluta": "PLN",
+        "rekomendacja": "Najcenniejszy list w zestawie. Ceny Warszawy 1946 — źródło historyczne. Nie sprzedawać osobno."
+    },
+    # === ZESTAW KORESPONDENCJI 1946 ===
+    # ARG/V/174-183 razem: 10 listów, 4 nadawców, 3 drogi konspiracyjne
+    # Wycena zestawu: 8000-15000 PLN (suma osobno ~5200-9700, ale zestaw = premia 50-80%)
     # === SERIA II — brakujące ===
     "ARG/II/57": {
         "wartosc_hist": "★★★",
