@@ -13027,10 +13027,14 @@ def _page_nav_html(active):
         'galeria': {
             'pl': 'Galeria', 'en': 'Gallery', 'pt': 'Galeria', 'de': 'Galerie',
             'nl': 'Galerij', 'fr': 'Galerie', 'yi': '\u05d2\u05d0\u05b7\u05dc\u05e2\u05e8\u05d9\u05e2'
+        },
+        'korespondencja': {
+            'pl': 'Listy', 'en': 'Letters', 'pt': 'Cartas', 'de': 'Briefe',
+            'nl': 'Brieven', 'fr': 'Lettres', 'yi': '\u05d1\u05e8\u05d9\u05d5\u05d5'
         }
     }
     nav_links = ""
-    for page, href in [('katalog', 'katalog_gluchowski_v4.html'), ('archiwum', 'archiwum.html'), ('galeria', 'galeria.html')]:
+    for page, href in [('katalog', 'katalog_gluchowski_v4.html'), ('archiwum', 'archiwum.html'), ('galeria', 'galeria.html'), ('korespondencja', 'korespondencja.html')]:
         cls = ' active' if page == active else ''
         spans = ' '.join('<span data-lang="' + lang + '">' + text + '</span>' for lang, text in labels[page].items())
         nav_links += '  <a href="' + href + '" class="page-nav-link' + cls + '">' + spans + '</a>\n'
@@ -13515,6 +13519,70 @@ function filterCards() {{
     return html
 
 
+def generate_correspondence_html():
+    """Generate docs/korespondencja.html — letters/correspondence chronologically."""
+
+    series_html, nav_html, doc_count = _build_series_cards(
+        lambda obj: obj.get("typ", "").lower() in ("list", "pocztówka", "bilecik", "aerogram")
+    )
+
+    common_css = _common_css()
+    lang_bar = _lang_bar_html()
+    page_nav = _page_nav_html('korespondencja')
+    lightbox = _lightbox_html()
+    lightbox_js = _lightbox_js()
+    lang_js = _lang_js()
+    footer = _footer_html()
+
+    html = f'''<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Korespondencja — Listy rodziny Głuchowskich 1944-1948</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+{common_css}
+</style>
+</head>
+<body>
+
+{lang_bar}
+
+{page_nav}
+
+<div class="header">
+<h1 class="main-title">
+<span data-lang="pl">Korespondencja rodziny Głuchowskich</span>
+<span data-lang="en">Głuchowski Family Correspondence</span>
+<span data-lang="pt">Correspondência da família Głuchowski</span>
+<span data-lang="de">Korrespondenz der Familie Głuchowski</span>
+</h1>
+<p class="subtitle">
+<span data-lang="pl">Listy 1944–1948 &bull; 6 dróg konspiracyjnych &bull; Matka i syn rozdzieleni wojną</span>
+<span data-lang="en">Letters 1944–1948 &bull; 6 clandestine routes &bull; Mother and son separated by war</span>
+</p>
+<p class="counter">{doc_count}</p>
+</div>
+
+{nav_html}
+
+{series_html}
+
+{footer}
+
+{lightbox}
+
+<script>
+{lightbox_js}
+{lang_js}
+</script>
+
+</body>
+</html>'''
+    return html
+
+
 def generate_gallery_html():
     """Generate docs/galeria.html — photographs gallery with full catalog cards.
 
@@ -13740,6 +13808,12 @@ if __name__ == "__main__":
     with open(out2, "w", encoding="utf-8") as f:
         f.write(archive_html)
     print(f"Wygenerowano: {out2}")
+
+    corr_html = generate_correspondence_html()
+    out4 = os.path.join("docs", "korespondencja.html")
+    with open(out4, "w", encoding="utf-8") as f:
+        f.write(corr_html)
+    print(f"Wygenerowano: {out4}")
 
     gallery_html = generate_gallery_html()
     out3 = os.path.join("docs", "galeria.html")
