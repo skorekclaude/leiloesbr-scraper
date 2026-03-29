@@ -827,3 +827,12 @@ Częściowo czytelny. "tu masz przekąskę... uroczystości... Podolsicm... Poł
 - WNIOSEK: numery w transcriptions.py to numery stron oryginalnego PDFu
   katalogu naukowego, NIE sygnatury archiwalne ARG/V/
 - Potrzebna tabela mapowania: numer strony PDF → sygnatura → plik skanu
+
+### Sesja 29.III — odczyty ze skanów (technika: 3-4× upscale + autocontrast + binaryzacja)
+- V/6 (list z Powstania): pełny odczyt "Dotychczas żyję i jestem czysty choć trochę raniony"
+- V/9 (bilet jeńca): Stalag XI B, nr 141009 — pełny
+- V/40 (Card of Identity): pełny odczyt EN+PL, Düsseldorf 25.IV.1945
+- V/203 (itinerarium): 4 nazwy poprawione (Barletta, Grotta Mare, Monteluce, Pedaso)
+- V/76-79 (list Wigilii): str 1+2+4 od Marka, str 3 częściowo odczytana (pani Joanna, 40£, Bolonia)
+- Papeteria Emil Schröder & Co — list Bogdany z 25.V.1945, tuż po wyzwoleniu
+- Wspomnienia Krzysztofa o dzieciństwie i Powstaniu — widziałem ale zbyt trudne pismo
