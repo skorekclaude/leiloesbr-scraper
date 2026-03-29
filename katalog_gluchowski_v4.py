@@ -5368,6 +5368,22 @@ OBJECTS = [
         "stan": "Dobry",
         "wycena": "800-1500 PLN"
     },
+    {
+        "sygn": "ARG/V/176",
+        "photo": "labedzki_list1_p7.png",
+        "tytul": "List Henryka Łabędzkiego do Krzysztofa Głuchowskiego — pieniądze i wieści od matki",
+        "data": "25.VIII.1946",
+        "typ": "list",
+        "opis_fizyczny": "1 arkusz, dwustronnie, atrament czarny. Pismo odręczne, pochyłe, czytelne. Podpis: 'Łabędzki Henryk'. Miejsce: Genewa.",
+        "opis_tresci": "Łabędzki przekazuje list od Wandy oraz 2 fotografie. Wanda prosi o przesyłanie synowi pieniędzy. Łabędzki informuje: w Polsce ustawa nakazuje byłym urzędnikom państwowym powrót pod groźbą utraty emerytury. Aptekarz Bukowski od trzech miesięcy w więzieniu — przyczyna nieznana. Adres korespondencyjny: Jules Schwob, Quai Charles Page 37, Genève. Łabędzki osobiście zawiezie odpowiedź do Warszawy.",
+        "seria": "V",
+        "tworca": "Henryk Łabędzki",
+        "jezyk": "polski",
+        "kontekst": "25 sierpnia 1946. Łabędzki przebywa w Genewie, pośredniczy między Wandą a Krzysztofem. Trzecia niezależna droga pocztowa (obok Flejszera przez Paryż i Kamińskiego przez Sussex). Informacja o ustawie dotyczącej powrotu urzędników — nacisk komunistycznych władz na emigrację. Aresztowanie aptekarza Bukowskiego — element represji wobec przedwojennej inteligencji.",
+        "powiazania": ["ARG/V/174", "ARG/V/175", "ARG/V/177"],
+        "stan": "Dobry",
+        "wycena": "400-800 PLN"
+    },
 ]
 
 # ============================================================================

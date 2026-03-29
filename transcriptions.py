@@ -4508,6 +4508,41 @@ Wandy
         ],
         "kontekst": "Pierwszy znany list Wandy Głuchowskiej do syna Krzysztofa na emigracji. Wanda — żona gen. Janusza Głuchowskiego, matka Krzysztofa. Aresztowana po wojnie, wywieziona do Rosji, obóz w Rembertowie — ale w tym liście o represjach nie pisze. Odbudowała aptekę w Warszawie na rogu Kruczej i Hożej. List szedł konspiracyjną drogą przez Paryż."
     },
+
+    "juras_176": {
+        "typ": "list",
+        "data": "25.VIII.1946",
+        "jezyk": "pl",
+        "nadawca": "Henryk Łabędzki",
+        "adresat": "Krzysztof Głuchowski",
+        "transkrypcja": """Szanowny Panie Krzysztofie!
+
+Matka Pana, pani Wanda wręczyła mi list, celem przesłania Panu. Jednocześnie prosiła mnie o przesłanie Panu co pewien czas pieniędzy, by Pan nie był skrępowany zanadto w swoich wydatkach. Zechce Pan wobec tego podać mi odwrotną pocztą, jak mam ten przekaz uskutecznić, a niezwłocznie tak postąpię.
+
+Niezależnie od tego zechce Pan zakomunikować ojcu swemu w imieniu p. Wandy, że w Polsce wydano ustawę, iż wszyscy co byli urzędnicy państwowi są obowiązani w ciągu krótkiego czasu (jeszcze jakieś 2 miesiące) wrócić do kraju i zameldować swoje przybycie, pod groźbą całkowitej utraty praw do ewentualnej emerytury. Prócz tego prosiła p. Wanda o zakomunikowanie, że aptekarz Bukowski od trzech miesięcy siedzi w więzieniu. Przyczyna aresztowania bliżej nieznana.
+
+Załączam również 2 fotografie które p. Wanda mi wręczyła.
+
+Odpowiedzi na przyszłość zechce Pan kierować pod adresem:
+Jules Schwob, Genève, Suisse
+Quai Charles Page 37.
+
+W Genewie przebywam od 2–3 tygodni i o ile odpowiedź od Pana nadejdzie do tego czasu, osobiście ją zawiozę do W-wy; o ile później, zostanie przesłana matce przez wyżej wymienioną osobę.
+
+Łączę pozdrowienia
+Łabędzki Henryk
+
+Genewa, 25 sierpnia 1946""",
+        "osoby": ["Henryk Łabędzki", "Wanda Głuchowska", "Krzysztof Głuchowski", "Jules Schwob", "Bukowski (aptekarz)"],
+        "znaki_szczegolne": [
+            "Trzecia droga pocztowa: Genewa (Schwob) → Warszawa",
+            "Wzmianka o ustawie nakazującej powrót urzędników",
+            "Aresztowanie aptekarza Bukowskiego",
+            "2 fotografie załączone przez Wandę (niezidentyfikowane)",
+            "Pismo pochyłe, atrament czarny"
+        ],
+        "kontekst": "Łabędzki pośredniczy z Genewy. Ustawa o powrocie urzędników — komunistyczny nacisk na emigrację. Bukowski aresztowany — represje wobec inteligencji. Droga pocztowa przez Jules Schwob (Genewa) — niezależna od kanału paryskiego (Goldman)."
+    },
 }
 
 # ═══════════════════════════════════════════════════════════════
