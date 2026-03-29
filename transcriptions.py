@@ -4779,6 +4779,498 @@ Cukier 180 zł. Masło 480. Mąka pszenna 90 zł. Bułka biała kajzerka 5 zł. 
         ],
         "kontekst": "Lipiec 1946 — chronologicznie NAJWCZEŚNIEJSZY list Wandy. Bezcenny dokument: ceny, kursy walut, warunki życia w Warszawie. Matka czyta listy syna 'po kilka razy dziennie.' 8 pytań — od szkoły przez papierosy po zęby. Wzmianka o Losi Kl. i Starówce — ktoś kto ich uratował w Powstaniu."
     },
+
+    "juras_201": {
+        "typ": "list",
+        "data": "",
+        "jezyk": "pl",
+        "transkrypcja": """Reims, 15.IX.1945 → Krzysztof Głuchowski (CMF, Włochy) | 1 arkusz, dwustronnie, atrament niebiesko-szary
+Reims, 15.IX.45.
+Panie Krzysiu!
+Dziękuję uprzejmie za otrzymany list, który sprawił mi wielką radość. Ucieszyłem się, 
+dowiedziawszy się, że Pan dotarł do swego oddziału. Jak się Pan powodzi? Jak jest z 
+nożką? Czy klimat odpowiada? Co porabiają d[...]? Jakie są proszę [...] Nawiązałem 
+kontakt z bratem, który eme[?] przebywa w okoliczy Hamburga. Do Rot. Borowskiego 
+pisać nie mogę, gdyż ten nie posiada
+adresu wojskowego. Pisałem na adres Gerersheim, lecz listy wróciły. Obecnie 
+otrzymuję listy od brata. Pragnę go odwiedzić, poczem wyruszę w dalszą podróż. 
+Sądzę, że wkrótce się zobaczymy. Co słychać o powrocie do Kraju? Jestem nadal w 
+Reims. Powodzi mi się dobrze. Nie będę się rozwodziś, gdyż praca moja jest Panu 
+dostatecznie znana. Amerykanie przystąpili do przesłuchany[?] samolotów A.j.[?] na 
+system zimowy. Otwarci[?] pogłoski, że oddziały wartownicze pozostaną do wiosny.
+Inna plotka głosi że przeniosą nas na teren Niemiec, by tam pełnić służbę. Krótkich 
+chwil można zauważyć wielcy ruch na terenie Francji. Jednym słowem Francja 
+obudziła się z letargu. Obrady[?] żywnościowe i tekstylne napełniają się towarami. 
+Skocki[?] chlebowe zniesiono zostaną w przyszłym miesiącu. Ostatnio przeprowadzono
+ 
+u nas ankietę kto chce w ciągu najbliższych 30 dni wrócić do Kraju. Za powrotem 
+wypowiedziało się 30%. Amerykanie wyrazili swoje zdziwienie. Co porabia ppor. 
+Domyśli[?]?
+W przyszłym tygodniu wybieram się do Paryża, by uzyskać zezwolenia na przejazd do 
+Niemiec. Panie Krzysiu!! Nie będę Pana zamęczał, gdyż będzie Pan miał trudności w 
+odcyfrowaniu mego pisma, dlatego kończę rozsyłając moc uścisków i serdeczny 
+żołnierski uścisk dłoni
+Kpt Przybyszewski Jan.""",
+        "kontekst": "List kpt. Jana Przybyszewskiego"
+    },
+
+    "juras_202a": {
+        "typ": "list",
+        "data": "",
+        "jezyk": "pl",
+        "transkrypcja": """CMF, 30.XII.1945 → Krzysztof Głuchowski (Liceum 3 DSK) | Nagłówek: Stw. Ostrowski Zygmunt / Polish Forces CMF 
+16633/2
+Wp. 30.XII.45.
+Panie Krzysztofie!
+Dowiedziałem się iż jest Pan w Liceum 3 DSK, o sposób przypadkowy informowano też
+ 
+mnie, iż Ojciec Pana jest w Lubece.
+Panie Krzysztofie proszę przesłać mi adres Ojca i parę słów o sobie. Ja pragnę 
+wiedzieć, jakim samolotem[?] dostał się Pan do Włoch, czy ma Pan wiadomości o 
+Matce?
+Ja dostałem się do niewoli niemieckiej po kapitulacji O-y[?] z grupą... Choroby 2" (15 
+pp.), obecnie jestem w Szkole Podchorążych.
+Z okazji Nowego Roku przesyłam Panu najserdeczniejsze życzenia a w szczególności 
+osiągnięcia jak najlepszych rezultatów w Liceum.
+Łączę mocy uścisk dłoni
+Z. Ostrowski
+P.S. B[ardzo] załóżmy[?] mi na adresie Ojca.""",
+        "kontekst": "List stw. Zygmunta Ostrowskiego (I)"
+    },
+
+    "juras_202b": {
+        "typ": "list",
+        "data": "",
+        "jezyk": "pl",
+        "transkrypcja": """CMF, 16.III.1946 → Krzysztof Głuchowski | Nagłówek: U.S. Podch. stw. Ostrowski Zygmunt / Polish Forces CMF 16633/2
+Wp. 16.III.1946r.
+Drogi Panie Kolego!
+W poprzednim liście pisał mi Pan, iż w lutym zdaje Pan małą maturę. Jak się Panu 
+powiedło? Czy mogę pogratulować?
+Obecnie ukończyliśmy Podchorążówkę i z przyjemnością Pana odwiedzę, 
+porozmawiamy sobie o wszystkim obszernie, tematów jest dużo... Obecnie jestem 
+b[ardzo] skorowany[?], okres egzaminów...
+Wczoraj otrzymałem list od Pańskiego Ojca, sprawił mi dużą radość... Nawiązanie 
+kontaktu po koszmarnych przeżyciach ostatnich czasów, nawet w drodze listownej 
+daje dużą satysfakcję...
+Panie Krzysztofie, ponieważ jest Pan na terenie Włoch sam, Ojciec jest od Pana 
+stosunkowo daleko, proszę przyjąć do wiadomości iż opiekuję się[?] b. mało[?], i żebym
+ 
+mógł być Panu w czynnościach pomocny. Proszę mnie traktować jako swego starego 
+kolegę, czuję do Pana dużo sympatji i życzliwości.
+Oczekuję na odpowiedź.
+Zygmunt Ostrowski""",
+        "kontekst": "List u.s. podch. Zygmunta Ostrowskiego (II)"
+    },
+
+    "juras_203": {
+        "typ": "list",
+        "data": "",
+        "jezyk": "pl",
+        "transkrypcja": """1944–1947 | Krzysztof Głuchowski | 1 arkusz w linie, atrament fioletowy + ołówek
+AWERS — Lista miejscowości z datami
+Warszawa 5-X-1944 ✓
+Ożarów 5-7-X-1944 ✓
+Ożarów – Fallingbostel 7–9-X-1944
+— Fallingbostel 9–
+Fallingbostel – Dorsten 24–27 X 1944
+Dorsten 22-X — XI 1944 ✓
+Glagbach XI – 1944 II 1945 ✓
+Gerresheim  / Düsseldorf 
+✓
+✓
+Düsseldorf – Reims [strzałka, "H.D."]
+Reims  / Troyes  / Paryż  1
+✓
+✓
+✱
+[...] Sorgue / Avignon / Marsylia ✓
+S. Remo 9 VII / Genova 10 VII / Forlì 11 VII
+S. Giorgio 12 VII / M. Rubiano 13 VII — Ancona
+Petritoli — Giulianova / Amendola
+Rzym  28-VII-1945
+✱
+Amendola 1-XI-1945
+Forlì / Bologna / Ferrara / Rovigo / Padova / Mestre / Treviso / Vittorio Veneto
+[Prawa kolumna:] Pescara, Bevi, Trento, Gallipoli, Trani, Bievtitte[?], Vittorio, Belluno,
+ 
+Bolzano, Amendola, Asotte Mare[?] , S. Benedetto , Meldola , Ravenna — 
+✓
+✓
+✓
+Pedaso(?) 33., Montelice[?], Este , Wenecja , Martinsicuro, Civitanova, Rzym, 
+✓
+✓
+Neapol [podkreślony], Liverpool, Brandon, Bodney, London , Welton, Thetford, 
+✱
+Ingham, Reading...
+[Marginesy:] Horsham, Worcester, Longbridge, Norwich, Swaffham, Liphook / London
+ 
+– Gravesend – Dover – Boulogne – Etaples – Stella Plage – Dover – Ramsgate / Witley – 
+Oxford – Loughborough – Leicester – Brighton – Maidenhead / [...] Ameryka
+REWERS — Notatki z fizyki, Liceum 3 DSK
+L = F·s·cosα
+Ek = mv²/2    Ep = mgh
+Moc... 1 HP = 736 Watt, 1 kWh = ...
+[Rysunek geometryczny — prostopadłościan z wektorami]
+BB'/AB = tgα... tg = α
+p = α·K... α = P/R
+Wyznaczenie modułu Younga
+l cm, s cm², F kg, Δl... A = Δl/l, E = F/σ
+n = 1000, V = 80 m/s, h = 2...
+g·t... Vt = at, S = gt²/2
+S = at²/2, V = at, 80 m/s... g = 981
+h = ½ Vt[?]
+[Na dole — lista osobista:]
+Aparat fotograficzny  / Buty  / Zegarek / Rowerek  / ...pamiątkę dla Gosi
+✓
+✓
+✓
+[Prawy górny róg:] Ozdobny rysunek geometryczny — trzy koła wpisane w trójkąt 
+odwrócony, gęsto zakreskowane.""",
+        "kontekst": "Itinerarium wojenne (awers) + notatki z fizyki (rewers)"
+    },
+
+    "juras_204": {
+        "typ": "list",
+        "data": "",
+        "jezyk": "pl",
+        "transkrypcja": """CMF 154/12, 5.II.1946 → Krzysztof Głuchowski | 1 kartka, dwustronnie, atrament czarny
+Kochany Krzysiu!
+Przepraszam Cię za dość długą zwłokę w odpowiedzi na Twój list, a mianowice mi list 
+ale właściwie kilka słów. W przyszłości postaram się, iż napiszę obszerniej. W 
+pierwszym rzędzie przesyłam Ci adres Januma[Janusza?], o który prosiłeś: R.J. Pol. 
+Forc. CMF 460. U mnie stara bieda. Zapewne wiesz od Leszka, że jestem na służbie 
+wartowniczej. Pracy nie mam dużo, co traci dzień służba. Wyobraź sobie, że dziś 
+otrzymałem list od Jurka i to jest z terenu „Italii"
+Nic wiem co mu strzeliło do głowy, żeby wyjechać z Anglii, gdyż w dodatku musi[ał] 
+studiować. Piszan[?] aby Ci opisać nasze przeżycia w Niemczech.
+Na dnie[?] było przejść i ociało[?] byłoby napisanie[?], aby to wszystko opisać, a Sam 
+widzisz na jakich warunkach piszę. Przy najbliższej jeśli[?] okazji podzielimy się 
+wrażeniami.
+Tymczasem ściskam Cię
+Tadek
+d. 5/II.46""",
+        "kontekst": "List pdo. Tadeusza Bystydżeńskiego"
+    },
+
+    "juras_206a": {
+        "typ": "list",
+        "data": "",
+        "jezyk": "pl",
+        "transkrypcja": """CMF 125 (5 KDP), 22.I.1946 → Krzysztof Głuchowski | Winieta: choinka na tarczy biało-czerwonej
+C.M.F. Polsh Forces 125 — 22/I.46
+[Winieta 5. Kresowej Dywizji Piechoty]
+Kochany Krzysiu!
+U nas wszystko jest takie same, jak było przedtem. Właściwie nie ma żadnych zmian 
+chyba to tylko, że jestem więcej zajęty jako wykładowca na kursie motorowym, co 
+mnie zupełnie nie bawi, ze względu na to, że już kilka takich kursów odmawiałem[?]. 
+Nelli wyjechał i mieszka obecnie nad morzem. Byłem u niego w niedzielę i wybieram 
+się znowu. Jest dla mnie b. serdeczny.
+[...] Podchorążowie Biglasek[?] i Kossalsk[?] otoczył[?] zapytujem nie to w 7. P. 
+Ułanów. [...]
+Czy dostam[?] dostałeś uwierzytelnione odpisy tych świadczeń[?], o które mię prosił. 
+Zrobiłem to i wysłałem na drugi dzień po Twoim odjezdzie do gimnazjum z pocztą 
+służbową.
+Ściskam Cię serdecznie
+wt swoje Joanna Skrobecki""",
+        "kontekst": "List Jana Skrobeckiego (I) — winieta 5 KDP"
+    },
+
+    "juras_206b": {
+        "typ": "list",
+        "data": "",
+        "jezyk": "pl",
+        "transkrypcja": """CMF (5 KDP), 16.IV.1946 → Krzysztof Głuchowski i Janusz
+16/IV 46.
+Kochany Krzysztofie!
+Bardzo nieswetułem[?] mi[?] decyzji Nowych[?] władz byciu nie wyjeżdżać[?] w czas 
+synu[?]. Żałuję że nie mogę dla Was uczynić wszystku[?], ale nie wypada mi wpływ 
+bać[?] na władze Pólk[?] by zmienić decyzji w stosunku do Was dwóch[?]. [...]
+Mam nadzieję że odwiedzenne mnie później wykorzyst- uje z profuli widzimi[?] na / 
+byle nie 28/ü bo mnie nie będzie/. Życzę Wam serdecznie Kochani chłopcy Tobie i 
+Januszowi żakoń[?] mielnia[?] i fest Wielkanocnych Świąt, mele szczęścia.
+Świąteczni życzeń i pozdrowień. Decyzja Twoja Krzysztofie co do wszystko tych 
+wysiłku w nauce podoba mi się. Masz wrodzone zdolności i warto je wykorzystać przy 
+zdobywaniu wiedzy.
+Ściskam Cię serdecznie jako też Janusza
+Skrobecki.""",
+        "kontekst": "List Jana Skrobeckiego (II)"
+    },
+
+    "juras_207a": {
+        "typ": "list",
+        "data": "",
+        "jezyk": "pl",
+        "transkrypcja": """Brownings Camp, Billingshurst, Sussex, 19.IX.1946 → Krzysztof Głuchowski (Bodney) | 2 karty jasnoniebieskie
+Brownings Camp / Billingshurst / Sussex / 19.9.1946.
+Kochany Panie Krzysiu.
+Bardzo mnie ucieszył list Pana i wiadomość że jest Pan już w Anglii, a do tego uczy się,
+ 
+co jest najlepsze z tego co mógłby Pan robić.
+Ostatnią wiadomość o Matce Pana miałem od swego syna Marka. Tę ostatnią 
+wiadomość przesłał Panu pan Janusz. Oczywiście znaczy to oby[?] poszedł na aptekę w
+ 
+Łodzi. Jeśli Marek to pisał to dlatego /moim zdaniem/ że o napisanie tego prosiła 
+Matka Pana.
+Pytam Pan czy pisał wprost do Matki i czy podał adres na Bodney.
+Na moje wyczucie lepiej pisać do osób w Łodzi — wuja Włodka czy innego członka 
+rodziny — oni już bezpiecznie dostarczą Pani Wandzie. Adres musi być Bodney, 
+nigdz[ie] nie inny.
+Co się dzieje z p. Stefanem — Pana Ojcem — od dłuższego czasu nie mam od niego ani
+ 
+o nim wiadomości. Czy jest nadal w Niemczech, czy zdołał dostać się do Anglii?
+Istotnie mało się znamy. Pamiętam Pana jako 10–11 letniego chłopca. Mam wrażenie, 
+że jest Pan w wieku mego starszego syna — on jest 1927 rocznik, ale może się mylę.
+Bardzo bym chciał poznać Pana bliżej Panie Krzysiu, więc jeśli Pan będzie w Londynie 
+w czasie jakiegoś week-endu, proszę mnie zawiadomić, a postaram się z Panem 
+skontaktować.
+Dziękuję serdecznie za list i proszę o mnie nie zapominać!
+Janusz Kamiński""",
+        "kontekst": "List Janusza Kamińskiego (I) — konspiracja pocztowa"
+    },
+
+    "juras_207b": {
+        "typ": "list",
+        "data": "",
+        "jezyk": "pl",
+        "transkrypcja": """Brownings Camp, 28.X.1946 → Krzysztof Głuchowski | 1 kartka jasnoniebieska, dwustronnie
+Brownings Camp / Billingshurst / Sussex / 28/10/46.
+Kochany Panie Krzysiu.
+Marek został aresztowany przez Bezpiekę 9 września i bardzo się z tego powodu 
+martwiłem.
+Ale dzisiaj dostałem od niego list z 16 paźdz. że znów jest na wolności i udało mu się 
+tym razem wykręcić. Nie wiem oczywiście z jakiego powodu i co od niego chcieli.
+Jeśli pisze — cześć[?] się znów pewnie. Marek pisze że wiadomości o Panu, /które mu 
+posłałem/ przekazał Matce Pana. Niestety nie podaje żadnych dodatkowych 
+wiadomości tyle aby Pan pisał jak najczęściej na adres
+Pani Staśki, który Pan zapewno ma.
+Co u Pana słychać: Jak się Panu powodzi, i jak idzie nauka.
+Wiem, że Matka Pana prowadzi aptekę i daje się na wolnej czy Kruczej w 
+odrestaurowanym budynku.
+Jest Jej podobno ciężko i nie czuje się zbyt bezpieczona w Warszawie.
+Kilka tygodni temu p. Janusz z żoną byli w naszym obozie i rozmawialiśmy o Panu.
+Serdeczne pozdrowienia Twój i uściski rozsyłam
+Janusz Kamiński
+Czy ma Pan wiadomości od Ojca. Czy przyjechał[?].""",
+        "kontekst": "List Janusza Kamińskiego (II) — aresztowanie Marka"
+    },
+
+    "juras_209a": {
+        "typ": "list",
+        "data": "",
+        "jezyk": "pl",
+        "transkrypcja": """55 Bolton Gardens, Londyn SW5, 26.XI.1946 → St. Uł. Głuchowski, 25 Bodney Airfield F/105 | Maszynopis
+TERENOWE KOŁO B. ŻOŁNIERZY AK
+W ANGLII
+55, Bolton Gardens
+London SW 5
+L.dz. 403/Sekr/46
+Londyn 26.11.46.
+St. Uł. Głuchowski Krzysztof
+25, Boaney Airfield
+F/105
+Thetford — Norfolk
+W odpowiedzi na list Kolegi z dnia 20.10.46., zawiadamiam, że przed wstąpieniem do 
+Koła b. Żołnierzy AK, należy przeprowadzić weryfikację przebiegu służby, w AK. W 
+tym celu proszę zwrócić się do Komisji Weryfikacyjnej II Korpusu — adres:
+Polish Camp Wynstay — Park, Ruabon n/Chester.
+Po przeprowadzeniu weryfikacji proszę do nas napisać ponownie, wtedy prześlemy 
+Koledze deklarację członkowską, statut Koła, oraz wszelkie informacje dot. 
+działalności i organizacji Koła.
+Z koleżeńskimi pozdrowieniami
+Sekretarz
+z.u. J. Więckowski""",
+        "kontekst": "Pismo Koła b. Żołnierzy AK w Anglii (I)"
+    },
+
+    "juras_209b": {
+        "typ": "list",
+        "data": "",
+        "jezyk": "pl",
+        "transkrypcja": """Londyn, 7.XII.1946 → Stquł. Głuchowski, 25 Bodney Airfield/F/105 | Maszynopis
+Terenowe Koło b. Żołnierzy A.K. w Anglii
+L.Dz. 555/Sekr/46
+Londyn 7 grudnia 46r.
+W poprzedniej swej kartce z dn. 20.X.46 nie podał Kolega żadnych danych o swej 
+weryfikacji stąd to nieporozumienie.
+W załączeniu przesyłam statut Koła oraz deklarację na członka Koła z prośbą o 
+dokładne wypełnienie tej ostatniej o ile Kolega zechce przystąpić do naszego Koła.
+Z koleżeńskim pozdrowieniem
+Sekretarz z.u. J. Więckowski""",
+        "kontekst": "Pismo Koła b. Żołnierzy AK w Anglii (II)"
+    },
+
+    "juras_210": {
+        "typ": "list",
+        "data": "",
+        "jezyk": "pl",
+        "transkrypcja": """Witley Camp, 30.X.1946 → Krzysztof Głuchowski (Bodney) | 1 kartka, dwustronnie, atrament fioletowy
+Witley Camp / 30.10.46.
+Drogi Krzysiu!
+Z wielką radością dowiedziałem się że jesteś w Anglii. Adres Twój podał mi Krzysz Sz. 
+Bardzo ciekawy jestem jak przeszedłeś Powstanie. W jakich obozach byłeś w niewoli, 
+gdzie się obracałeś we Włoszech i ostatecznie kiedy przyjechałeś do W. Brytanii. 
+Napisz mi co robisz obecnie i jak sobie ułożyłeś tu życie.
+Ja podczas Powstania prawie cały czas byłem na Poczcie Dworcowej. Byłem ranny, 
+lecz obecnie jestem zupełnie zdrowy. Ze znajomych widuję tu tylko Ciocię Z. Horyńską
+ 
+i Renę B. Odwiedzili mnie[?] w szpitalu. Leżałem na Marszałkowskiej pod 8. Po 
+kapitulacji dostałem się przez Lamsdorf do VII Stalagu do Markt-pongau. 12 maja 
+oswobodzili nas Amerykanie. Do Włoch przyjechałem w sierpniu 1945 i tam zostałem 
+przydzielony do 16 Pomorskiej Brygady Piech. Jedyną osobą jaką spotkałem w II 
+Korpusie był Bysiek Żukowski, kolega Lenka. Przyjechał on do Italii prosto z Polski w 
+45 roku i wiele mi opowiadał o wszystkich i o stosunkach panujących obecnie w Kraju.
+Drogi Krzysiu jeśli byś miał być w Londynie i chciał mnie zobaczyć to daj mi znać. 
+Znajduję się obecnie w Witley camp o 40 mil od Londynu. Jest to główne biuro P.K.P.R.
+ 
+Odpisz mi w każdym razie prędko.
+Kończę i ściskam Cię mocno
+Józek Dynowski""",
+        "kontekst": "List Józka Dynowskiego — Poczta Dworcowa"
+    },
+
+    "juras_211a": {
+        "typ": "list",
+        "data": "",
+        "jezyk": "pl",
+        "transkrypcja": """CMF 153, 9.VIII.1945 (plut. pchor. Krahelski Lech. / Polish Forces. C.M.F. 153. — 9.VIII.45.
+Kochany Krzysiu!
+U nas wszystko jest takie same, jak było przedtem. Właściwie nie ma żadnych zmian 
+chyba to tylko, że jestem więcej zajęty jako wykładowca na kursie motorowym, co 
+mnie zupełnie nie bawi, ze względu na to, że już kilka takich kursów odmawiałem[?]. 
+Nelli wyjechał i mieszka obecnie nad morzem. Byłem u niego w niedzielę i wybieram 
+się znowu. Jest dla mnie b. serdeczny.
+Jeśli byś mógł przyjechać na sobotę i niedzielę, jak to zresztą wielu robi, to przyjedź bo
+ 
+tam musi być Ci trochę nudno. U nas też nie ma nic specjalnego ale zawsze coś można 
+urządzić.
+Przyjechał teraz jeszcze Jurek Mayer niestety nie jest tu. Widuję się z nim co drugi 
+dzień, ale on jak tam zupełnie sam[?] i to jest niewesołe.
+Napisz mi jak Ci tam leci w szkole i czy wybierasz się na podchorążówkę. Moim 
+zdaniem warto.
+Marian przesyła Ci pozdrowienia, ja mam nadzieję, że jeszcze do nas napiszesz.
+Ściskam
+Lesiek""",
+        "kontekst": "Air Letter Krahelskiego (I)"
+    },
+
+    "juras_211b": {
+        "typ": "list",
+        "data": "",
+        "jezyk": "pl",
+        "transkrypcja": """CMF 153 / Poczta Polowa 122, 27.VIII.1945 (stemple 28+31.VIII.45, cenzura 564) → Gimnazjum 3 DSK (klasa IV)
+plut. pchor. Krahelski Lech. / Polish Forces, C.M.F. 153. — 27.VIII.45
+Kochany Krzysiu!
+U nas nic nowego. Jak zwykle stara bieda, nic ciekawego się nie dzieje. Dobrze wiesz 
+jak to wszystko wygląda. Czy nie masz możności zdobycia dla mnie tam w szkole 
+samouczka języka angielskiego. Jeśli możesz, to mi przyślij. Pozatem mógłbyś nas 
+kiedyś odwiedzić, tylko zdaje się za dobrze Ci się tam powodzi i już nie potrzebujesz 
+starych kolegów.
+„Jelenia" rysuję poniżej, nie mogę Ci przysłać szablonu, bo mam tylko jeden, a 
+Nałęcz jeszcze mi mojej Barwy nie oddał. W dalszym ciągu uważam, że to wyjątkowy 
+bałen[?].
+[RYSUNEK: odręczna sylwetka jelenia z porożem — odznaka 7 P.Uł. Lubelskich]
+/powinien być trochę ciemny, ale inaczej nie mogłem dokładnie odrysować, rysuję po 
+zewnętrznej stronie linii. L.J./
+Mam nadzieję że napiszesz do mnie, bo napewno nowego się coś u Ciebie uzbierało.
+Przesyłam pozdrowienie od Mariana, Ciebie ściskam
+Lesiek""",
+        "kontekst": "Air Letter Krahelskiego (II) — RYSUNEK JELENIA"
+    },
+
+    "juras_213a": {
+        "typ": "list",
+        "data": "",
+        "jezyk": "pl",
+        "transkrypcja": """High Wycombe, 3.II.1947 → Krzysztof Głuchowski | 1 kartka, dwustronnie, atrament fioletowy
+High Wycombe 3.II.47r.
+Kochany Krzysiu!
+Z wielką radością dowiedziałem się, że żyjesz i jesteś również jak ja na tej „wybornej" 
+wyspie. Doniósł mi o tem mój Tatuś, który widział się z Twoją Mamunią w Warszawie i 
+która dała mu Twój obecny adres.
+Dowiedziałem się również, że zamierzasz wyjechać do Argentyny i Mamusia Twoja 
+prosiła, długi[?] tego gd[?]-uprzednia nie wolni[?]: jeśli nie możliwe[?] tutaj warunków 
+do nauki wrucać do Kraju.
+Bardzo ciekawy jestem gdzie byłeś i co robiłeś podczas tych długich ciężkich lat. Ja od 
+września 1939r. do grudnia 1944 byłem na Węgrzech, następnie od grudnia 1944 do 
+końca wojny siedziałem w niemieckiej niewoli najpierw pod Wiedniem a poźniej pod 
+Berlinem. Uwolniony zostałem nie, rosjan[?] 25 kwietnia 45r. a następnie siedziałem ci
+ 
+do miesiąca[?] w Berlinie /w ros. a poźniej ameryk. Zonie/. W końcu miesiąca[?] 45r. 
+wyjechałem do Włoch gdzie początkowo siedziałem pod Taranto — a od grudnia 45r. 
+do października u.r. z przerwami wakacyjnymi w Rzymie gdzie studiowałem chemie. 
+Od listopada u.r. do dnia dzisiejszy ciężko w chłodniskim[?] obozie niedaleko 
+Londynu /2 g. jazdy koleją/ w High Wycombe. [...]
+Całuję Cię serdecznie
+W. Tudek.""",
+        "kontekst": "List W. Tudka (I) — ARGENTYNA"
+    },
+
+    "juras_216b": {
+        "typ": "list",
+        "data": "",
+        "jezyk": "pl",
+        "transkrypcja": """Coventry, 2.X.1947 → Krzysztof Głuchowski | 4 kartki
+Coventry 2.10.47
+Kochany Krzysiu!
+[...] Ok, że Kosio dostał Stypendium! W przyszłości jak będziecie inżynierami chyba 
+weźmiecie prostego Kolegę do pracy — co? [...]
+dzisiaj dostałem pierwszą wypłatę /za końce ubiegłego tygodnia/ oto jak wygląda 
+rachunek:
+44 godz. a 1-11½ ......... 4-6-2
+— Insurance /ubezpieczenie/ ... 3s 8d
+Hospital .......................... 4d
+Income tax /podatki/ .......... 6d[?]
+Nett Wages   3.17.1.
+Podobnie będzie do grudnia — potem zobaczymy!
+[...] Co słychać u Twoich rodziców? U mnie /tzn. u ojca/ wszystko w porządku, chcą 
+żebym wracał i obiecują mi grunki na wiosnę w ja jednak otwarcie napisałem [...]
+Ściskam Cię
+Marian
+ARG/V/216-tel — Telegram na 21. urodziny
+Keresley → Walthamstow E17, 29.XI.1947 | Formularz GPO, paski teleksowe
+KRZYSZTOF GLUCHOWSKI C/O MRS WHITTLE 12
+KENILWORTH AVE WALTHAMSTOW LONDON-E 17 =
+ZOKAZJI UKONCZENIA 21 LAT SERD UCZNE ZYCZENIA
+MARIAN + C
+[Stempel: WALTHAMSTOW E17 — 29 NOV 47]
+[Nadanie: E D 40 11.50 KERESLEY 19]""",
+        "kontekst": "List Mariana (II) — PASEK WYPŁATY"
+    },
+
+    "juras_217": {
+        "typ": "list",
+        "data": "",
+        "jezyk": "pl",
+        "transkrypcja": """24.IV.1947 → Krzysztof Głuchowski i Janusz | 2 kartki kremowe, atrament niebieski
+24.IV.47r.
+Kochany i miły Krzysztofku!
+Dziękuję Ci za pamięć i miłe liściki, które otrzymaliśmy. Cierzy[?] się bardzo, że 
+jesteście razem z Januszem. Cokolwiek Was w ewolucji[?] czasem rozdzieliło — to 
+zawsze Tęczę[?] Was będą przejście wspólnie ogółki[?], a najradośniejsze rasy i wierzę
+ 
+Julkę w Wany[?] wierną przyjażni[?] o czem obadwaj wiecie. Cos Was znów złączy 
+razem — ustępujcie sobie nawzajem, bo wysiłek jednej strony na nic się nie zda. Dobra
+ 
+wola utrzymania najlepszego stosunku i harmonii musi być obustronna. Zresztą 
+wierzę, że będzie Wam z sobą dobrze i trochę rodzinnie.
+Miło mi, że bądą się teraz troszyłą i myślatą o Was razem. Napiw Krysieńku miły jak Ci
+ 
+klimat służy? Jaką macie pogodę? Czy są pomarańcze? /To najbardziej interesuje 
+Hanię/ Czy stołujecie się u tej Wronki u której mieszkacie? co jadacie na śniad[anie], 
+obiady i kol[ację]? Czy macie ubrania, obuwie, pościel, i bieliznę? Ciekawam co Ci 
+poradzi mij Janusiu, bo ja na Waszym miejsc kończyłabym liceum — jeśliw są po temu 
+warunki.
+Czy Ty lub Januszek widział się z gen. Rakowskim [...]
+Całuję Cię Krysieńku mocno i serdecznie
+„Kochajcie się"
+Ciotka Kochana.
+ARCHIWUM RODZINY GŁUCHOWSKICH — Transkrypcje korespondencji ARG/V/201–217
+Opracowanie: sesja katalogowa 24.III.2026 | Opisy na podstawie analizy wizualnej fotografii""",
+        "kontekst": "List „Cioci Kochanej""
+    },
+
 }
 
 # ═══════════════════════════════════════════════════════════════
