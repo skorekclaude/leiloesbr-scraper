@@ -818,3 +818,12 @@ Częściowo czytelny. "tu masz przekąskę... uroczystości... Podolsicm... Poł
 - Nowe (juras_174-183, 201-217) mapują się 1:1
 - Do zrobienia: tabela mapowania juras_NNN → ARG/V/NNN → plik.jpeg
 - 51 niepełnych transkrypcji, 497 nieczytelnych miejsc
+
+### POTWIERDZENIE: mapowanie juras_NNN ≠ ARG/V/NNN ≠ skan
+- juras_006 w transcriptions = świadectwo szkolne (Liceum 3 DSK)
+- Skan p24_img02 (przypisany do ARG/V/6) = list z Powstania VIII.1944
+- juras_010 w transcriptions = list Wigilia 1946 (ARG/V/76-79)
+- juras_040 w transcriptions = Pay Book (NIE Card of Identity V/40)
+- WNIOSEK: numery w transcriptions.py to numery stron oryginalnego PDFu
+  katalogu naukowego, NIE sygnatury archiwalne ARG/V/
+- Potrzebna tabela mapowania: numer strony PDF → sygnatura → plik skanu
