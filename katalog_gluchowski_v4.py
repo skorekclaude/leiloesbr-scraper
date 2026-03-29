@@ -30,7 +30,17 @@ FONDS = {
     "skrot": "ARG",
     "daty_skrajne": "1867–1964",
     "rozmiar": "ok. 236 fotografii dokumentów, korespondencji, fotografii i ephemery",
-    "tworca": "Rodzina Głuchowskich h. Głuchowski (linia częstochowsko-warszawska)",
+    "tworca": "Rodzina Głuchowskich herbu Prus II (linia częstochowsko-warszawska)",
+    "heraldyka": (
+        "HERALDYKA RODZINY:\n"
+        "  Głuchowski — h. Prus II (Wilczekosy). Stara rodzina mazowiecka z Głuchowa. Legitymowana w Królestwie Polskim 1836-1862.\n"
+        "  Zdanowska (Maria, I° żona Mariana, matka Janusza) — h. Belina. Z ziemi dobrzyńskiej, wsi Zdanów.\n"
+        "  Żółkowska (Marta, II° żona Mariana, matka Stefana i Lecha) — h. Lubicz/Bończa. Ród hetmana Żółkiewskiego.\n"
+        "  Zembrzuska (Wanda, żona Stefana, matka Krzysztofa) — h. Doliwa. Szlachta mazowiecka z Zembrzusa Wielkiego.\n"
+        "  Bukowska (Maria, żona gen. Janusza) — herb nieustalony.\n"
+        "  UWAGA: Marian = Maciej (podwójne imię). Kwartalnik Biogr. Polonii podaje 'Maciej', biogramy Krzysztofa — 'Marian'. Bukowa pow. piotrkowski = ta sama miejscowość.\n"
+        "  Źródło: Niesiecki 'Herbarz Polski' (Głuchowski h. Prus II i Radwan); research M. Głuchowskiego III.2026."
+    ),
     "historia_zespolu": (
         "Zespół obejmuje dokumenty pięciu pokoleń rodziny Głuchowskich — od działalności "
         "niepodległościowej Mariana Głuchowskiego w PON (1914) przez generalską karierę "
@@ -54,8 +64,8 @@ FONDS = {
 SERIES = [
     {
         "id": "I",
-        "tytul": "Marian Głuchowski (1867–1924)",
-        "opis": "Członek Rady PON nr 2, Komisarz na powiat częstochowski. Organizator PPS. Dokumenty z Polskiej Organizacji Narodowej 1914.",
+        "tytul": "Marian (Maciej) Głuchowski (1867–1924)",
+        "opis": "Marian Maciej Głuchowski h. Prus II. Członek Rady PON nr 2, Komisarz na powiat częstochowski. Dwie żony: I° Maria Zdanowska h. Belina (syn: Janusz, 1888), II° Marta z Żółkowskich h. Lubicz (synowie: Stefan, 1893; Lech, 1902). Uwaga: w Kwartalniku Biograficznym Polonii podany jako 'Maciej' — prawdopodobnie podwójne imię Marian Maciej.",
         "daty": "1914",
         "rozmiar": "4 jednostki"
     },
@@ -69,21 +79,21 @@ SERIES = [
     {
         "id": "III",
         "tytul": "Ppor. Stanisław Stefan Głuchowski (1893–1962)",
-        "opis": "Ur. 1.V.1893, Bukowa. Ppor. rez. kawalerii, leg. AK nr 2856, ps. 'Stefan'. Żona: Wanda Bronisława z domu Głuchowska (1901–1976, ur. Łódź, córka Bronisława i Jadwigi z Zembrzuskich), ps. 'Krysta'/'Justyna' — farmaceutka, Kedyw, oddział DYSK, Akcja Wilanów (IX.1943), ranna. Syn: Krzysztof 'Juraś' (1926–2020). Brat żony: ppor. Włodzimierz Głuchowski 'Tomaszewski' (1904–1977), farmaceuta, Fort Sokolnicki, Żoliborz. Od 1923 w Kancelarii Cywilnej Prezydenta RP (do 1939), towarzyszył Prezydentowi Mościckiemu do granicy rumuńskiej IX.1939. Aresztowany przez Gestapo 18.V.1944, Pawiak + przesłuchania al. Szucha, zwolniony 29.VII.1944 (3 dni przed Powstaniem!). AK — Kwatermistrzostwo I Obwodu 'Radwan', Śródmieście. Jeniec: Fallingbostel, Bergen, Gross-Born, Sandbostel, Lübeck (nr 1245). Wrócił do Polski 1947. Zm. 17.X.1962, Warszawa, pochowany Powązki (kw. 99-IV-19). Wanda po wojnie aresztowana przez UB, odbudowała aptekę, dyrektorka do emerytury.",
+        "opis": "Ur. 1.V.1893, Bukowa. Ppor. rez. kawalerii, leg. AK nr 2856, ps. 'Stefan'. Żona: Wanda Bronisława z domu Głuchowska (1901–1976, ur. Łódź, córka Bronisława i Jadwigi z Zembrzuskich), ps. 'Krysta'/'Justyna' — farmaceutka, Kedyw, oddział DYSK, Akcja Wilanów (IX.1943), ranna. Syn: Krzysztof 'Juraś' (1926–2020). Brat żony: ppor. Włodzimierz Głuchowski 'Tomaszewski' (1904–1977), farmaceuta, Fort Sokolnicki, Żoliborz. Od 1923 w Kancelarii Cywilnej Prezydenta RP (do 1939), towarzyszył Prezydentowi Mościckiemu do granicy rumuńskiej IX.1939. Aresztowany przez Gestapo 18.V.1944, Pawiak + przesłuchania al. Szucha, zwolniony 29.VII.1944 (3 dni przed Powstaniem!). AK — Kwatermistrzostwo I Obwodu 'Radwan', Śródmieście. Jeniec: Fallingbostel, Bergen, Gross-Born, Sandbostel, Lübeck (nr 1245). Wrócił do Polski 1947 (nie wpuszczono go do Anglii, gdzie przebywał syn Krzysztof). Zm. 17.X.1962, Warszawa, pochowany Powązki (kw. 99-IV-19). Wanda po wojnie aresztowana przez UB, odbudowała aptekę, dyrektorka do emerytury.",
         "daty": "1944–1945",
         "rozmiar": "6 jednostek"
     },
     {
         "id": "IV",
         "tytul": "Rtm. Lech Jerzy Głuchowski ps. 'Jeżycki' (1902–1944)",
-        "opis": "Ur. 2.VI.1902, Raków k. Częstochowy. Rtm. rez. kawalerii, d-ca 1. szwadronu dyw. 'Jeleń' (7 P.Uł. AK). Walki: Śródmieście, Mokotów, Sadyba, szturm na al. Szucha. 15.IX.1944 — ciężko ranny na ul. Dolnej, popełnił samobójstwo by żołnierze nie ryzykowali życia próbując go ewakuować pod ogniem. Akt heroizmu. Virtuti Militari V kl. (pośm.), Krzyż Walecznych, Złoty Krzyż Zasługi z Mieczami, Krzyż AK. Pochowany Powązki (kw. 99-I-27). Brak bezpośrednich dokumentów w kolekcji — wspominany w korespondencji i nekrologach.",
-        "daty": "1902–1944",
-        "rozmiar": "wzm."
+        "opis": "Ur. 2.VI.1902, Raków k. Częstochowy. Rtm. rez. kawalerii, d-ca 1. szwadronu dyw. 'Jeleń' (7 P.Uł. AK). Walki: Śródmieście, Mokotów, Sadyba, szturm na al. Szucha. 15.IX.1944 — ciężko ranny na ul. Dolnej, popełnił samobójstwo by żołnierze nie ryzykowali życia próbując go ewakuować pod ogniem. Akt heroizmu. Virtuti Militari V kl. (pośm.), Krzyż Walecznych, Złoty Krzyż Zasługi z Mieczami, Krzyż AK. Pochowany Powązki (kw. 99-I-27).",
+        "daty": "1918–1944",
+        "rozmiar": "2 jednostki"
     },
     {
         "id": "V",
         "tytul": "St.ul. Krzysztof Andrzej Głuchowski ps. 'Juraś' (29.XI.1926 – V.2020)",
-        "opis": "Ur. 29.XI.1926, Warszawa. Przysięga AK 11.V.1942 (15 lat!). Pluton 1112, 7 P.Uł. AK, dywizjon 'Jeleń'. Obrona Fabryki Kamlera (KG AK), Starówka, ewakuacja kanałami 1.IX.1944, Śródmieście. Jeniec Stalag XI-B Fallingbostel (nr 141009) — ten sam obóz co ojciec! Via Holandia/Belgia/Francja do Włoch, 2 Korpus, Gimnazjum 3 DSK (matura 1946). Emigracja: Anglia → Brazylia (od 1974). Chartered Engineer, publicysta, wydawca bibliofilski. Zm. V.2020, Rio de Janeiro.",
+        "opis": "Ur. 29.XI.1926, Warszawa. Syn Stefana (Stanisława) i Wandy Głuchowskich, bratanek gen. dyw. Janusza Głuchowskiego. Przysięga AK 11.V.1942 (15 lat!). Pluton 1112, 7 P.Uł. AK, dywizjon 'Jeleń'. Obrona Fabryki Kamlera (KG AK), Starówka, ewakuacja kanałami 1.IX.1944, Śródmieście. Jeniec Stalag XI-B Fallingbostel (nr 141009) — ten sam obóz co ojciec Stefan (nr 1245). Via Holandia/Belgia/Francja do Włoch, 2 Korpus, Gimnazjum 3 DSK (matura 1946). Emigracja: Anglia → Brazylia (od 1974). Chartered Engineer, publicysta, wydawca bibliofilski. Zm. V.2020, Rio de Janeiro.",
         "daty": "1941–1968",
         "rozmiar": "156 jednostek"
     },
@@ -220,7 +230,7 @@ OBJECTS = [
         "wycena": "600-1600 PLN"
     },
     {
-        "sygn": "ARG/I/5",
+        "sygn": "ARG/I/5", "sygn_k": "ARG/I/K-001",
         "photo": "Kolekcja_Gluchowski_Katalog_Tematyczny_p03_img02.jpeg",
         "tytul": "Koperta urzędowa PON + Karta Polowa Legionów",
         "data": "1914–1918",
@@ -230,6 +240,7 @@ OBJECTS = [
         "seria": "I",
         "tworca": "PON / Legiony Polskie",
         "jezyk": "polski / niemiecki",
+        "nadawca": "PON / Legiony Polskie",
         "kontekst": "Koperta urzędowa PON potwierdza funkcję komisarza. Karta Polowa Legionów to standardowy formularz korespondencji z frontu I wojny.",
         "powiazania": ["ARG/I/1", "ARG/I/3"],
         "stan": "Średni, koperta pożółkła",
@@ -290,7 +301,7 @@ OBJECTS = [
         "wycena": "300-800 PLN"
     },
     {
-        "sygn": "ARG/II/4",
+        "sygn": "ARG/II/4", "sygn_k": "ARG/II/K-001",
         "photo": "Kolekcja_Gluchowski_Katalog_Tematyczny_p05_img01.jpeg",
         "tytul": "List pożegnalny gen. Dąbkowskiego — pochwała pracy Głuchowskiego w Centrum",
         "data": "1.VII.1928 (?)",
@@ -300,6 +311,7 @@ OBJECTS = [
         "seria": "II",
         "tworca": "Gen. Dąbkowski (?), Dowódca 4 Dywizji Piechoty",
         "jezyk": "polski",
+        "nadawca": "Gen. Dąbkowski (?), Dowódca 4 Dywizji Piechoty", "adresat": "Gen. Janusz Głuchowski", "droga_pocztowa": "poczta dyplomatyczna / oficjalna",
         "kontekst": "KOREKTA: To NIE jest papier Inspektoratu Armii Sosnkowskiego, lecz Dowódcy 4 Dywizji Piechoty z Częstochowy. List chwali pracę Głuchowskiego w 'Centrum' — prawdopodobnie Centrum Wyszkolenia Piechoty lub Centrum Wyższych Studiów Wojskowych, którym Głuchowski kierował w 1930–1933. 'Atmosfera radości pracy' — rzadki osobisty komplement w korespondencji wojskowej.",
         "powiazania": ["ARG/II/3"],
         "stan": "Dobry",
@@ -456,7 +468,7 @@ OBJECTS = [
 
     # -- Podseria II/D: Kariera ministerialna --
     {
-        "sygn": "ARG/II/14",
+        "sygn": "ARG/II/14", "sygn_k": "ARG/II/K-002",
         "photo": "Kolekcja_Gluchowski_Katalog_Tematyczny_p06_img02.jpeg",
         "tytul": "List odręczny Śmigłego-Rydza do Głuchowskiego",
         "data": "ok. 1935–1939",
@@ -466,6 +478,7 @@ OBJECTS = [
         "seria": "II",
         "tworca": "Marsz. Edward Śmigły-Rydz (?)",
         "jezyk": "polski",
+        "nadawca": "Marsz. Edward Śmigły-Rydz (?)", "adresat": "Gen. Janusz Głuchowski", "droga_pocztowa": "poczta dyplomatyczna / oficjalna",
         "kontekst": "Korespondencja prywatna z Naczelnym Wodzem II RP. Świadczy o osobistych relacjach Głuchowskiego z najwyższym dowództwem.",
         "powiazania": ["ARG/II/17"],
         "stan": "Dobry",
@@ -570,7 +583,7 @@ OBJECTS = [
 
     # -- Podseria II/E: Korespondencja i fotokopie --
     {
-        "sygn": "ARG/II/21",
+        "sygn": "ARG/II/21", "sygn_k": "ARG/II/K-003",
         "photo": "Kolekcja_Gluchowski_Katalog_Tematyczny_p11_img01.jpeg",
         "tytul": "List prywatny do Pułkownika Głuchowskiego (1925)",
         "data": "4.VIII.1925",
@@ -580,6 +593,7 @@ OBJECTS = [
         "seria": "II",
         "tworca": "nieznany nadawca",
         "jezyk": "polski",
+        "nadawca": "nieznany nadawca", "adresat": "Gen. Janusz Głuchowski", "droga_pocztowa": "poczta dyplomatyczna / oficjalna",
         "kontekst": "Korespondencja prywatna na papierze z monogramem — świadczy o kręgu towarzyskim wyższej kadry oficerskiej.",
         "powiazania": [],
         "stan": "Dobry",
@@ -620,7 +634,7 @@ OBJECTS = [
 
     # -- Podseria II/F: PSZ na Zachodzie --
     {
-        "sygn": "ARG/II/24",
+        "sygn": "ARG/II/24", "sygn_k": "ARG/II/K-004",
         "photo": "Kolekcja_Gluchowski_Katalog_Tematyczny_p13_img03.jpeg",
         "tytul": "List do Generała — Londyn 14.IX.1943",
         "data": "14.IX.1943",
@@ -630,6 +644,7 @@ OBJECTS = [
         "seria": "II",
         "tworca": "nieznany nadawca",
         "jezyk": "polski",
+        "nadawca": "nieznany nadawca", "miejsce_nadania": "Londyn", "droga_pocztowa": "poczta dyplomatyczna / oficjalna",
         "kontekst": "Głuchowski po 1939 internowany w Rumunii, dotarł do Palestyny (X.1940), potem Londyn (II.1941). Od III.1941 generał do dyspozycji Naczelnego Wodza. Od X.1941 dowodził Brygadą Szkolną w Szkocji. Od IX.1943 — Dowódca Polskich Jednostek Wojskowych w Wielkiej Brytanii. List z 14.IX.1943 datowany tuż po objęciu tego kluczowego stanowiska.",
         "powiazania": ["ARG/II/25"],
         "stan": "Dobry",
@@ -670,7 +685,7 @@ OBJECTS = [
 
     # -- Podseria II/G: Emigracja i dokumenty późne --
     {
-        "sygn": "ARG/II/27",
+        "sygn": "ARG/II/27", "sygn_k": "ARG/II/K-005",
         "photo": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p09_img01.jpeg",
         "tytul": "List gen. Kazimierza Sosnkowskiego z Kanady do gen. Głuchowskiego — 28 V 1964, Arundel, P.Qué.",
         "data": "28.V.1964",
@@ -680,6 +695,7 @@ OBJECTS = [
         "seria": "II",
         "tworca": "Gen. broni Kazimierz Sosnkowski (1885–1969)",
         "jezyk": "polski",
+        "nadawca": "Gen. broni Kazimierz Sosnkowski (1885–1969)", "adresat": "Gen. Janusz Głuchowski", "miejsce_nadania": "Arundel, Québec, Kanada", "droga_pocztowa": "poczta dyplomatyczna / oficjalna",
         "kontekst": "Gen. Kazimierz Sosnkowski — Naczelny Wódz PSZ (VII.1943 – IX.1944), najwyższej rangi żyjący generał polski w 1964. Od XI.1944 na emigracji w Kanadzie (farma w Arundel, Quebec). List pisany 14 dni przed śmiercią Głuchowskiego (zm. 11.VI.1964) — jedno z OSTATNICH pism Sosnkowskiego do przyjaciela. 51-letni łuk relacji: egzamin ZWC w Stróżach (1913) → KW jako minister (1922) → zaświadczenie OB PPS (1935) → list z Kanady (1964). Piąty dokument Sosnkowskiego w kolekcji. Sosnkowski pisał o patrolu Beliny do człowieka, który w tym patrolu UCZESTNICZYŁ — jeden z Siódemki. DOKUMENT EKSTREMALNIE RZADKI — autograf Naczelnego Wodza z okresu kanadyjskiego, prywatna korespondencja.",
         "powiazania": ["ARG/II/3", "ARG/II/4", "ARG/II/28", "ARG/II/29"],
         "stan": "Dobry",
@@ -823,7 +839,7 @@ OBJECTS = [
         "wycena": "300-800 PLN"
     },
     {
-        "sygn": "ARG/III/4",
+        "sygn": "ARG/III/4", "sygn_k": "ARG/III/K-001",
         "photo": "Seria_29z_p07_img02.jpeg",
         "tytul": "List ojca do syna — rewers",
         "data": "XI.1944",
@@ -833,6 +849,7 @@ OBJECTS = [
         "seria": "III",
         "tworca": "Stanisław Stefan Głuchowski",
         "jezyk": "polski",
+        "nadawca": "Stanisław Stefan Głuchowski", "adresat": "Krzysztof Głuchowski", "miejsce_nadania": "obóz jeniecki (Stalag)", "droga_pocztowa": "Kriegsgefangenenpost (poczta jenieckia z cenzurą)",
         "kontekst": "NIEZWYKLE INTYMNY LIST z obozu jenieckiego (XI.1944). Stefan-jeniec pisze do Krzysztofa-jeńca o losach rozrzuconej rodziny: (1) Babcia zmarła 29.IX w 'Willi B. Maciejskiej' — pochowana W OGRODZIE (nie na cmentarzu — czas wojenny!), (2) 'Mamusia' (żona Wanda?) ze Stenią i Andrzejem z córeczkami mieszka w Częstochowie, ul. Hoene-Wrońskiego 12 — adres KONKRETNY, weryfikowalny, (3) Halszka i Irka w 'Klerinie' (Clermont-Ferrand? Francja?), (4) 'Ciocia Ircha' pośredniczy w wiadomościach, (5) adresy podawane po NIEMIECKU: 'Kreis Radomsko', 'Tschenstochau' — realność GG. Podpis 'Stefanek' (nie 'Stefan') = czułość ojcowska. List pisany 38 DNI po otrzymaniu odpowiedzi — tempo poczty jenieckiej. Korespondencja OJCIEC↔SYN między dwoma Stalagami (Stefan w XI-B Fallingbostel, Krzysztof w XI-B Bergen — TEN SAM obóz, różne Kommandos!).",
         "powiazania": ["ARG/III/3"],
         "stan": "Średni — pismo ołówkowe, wyblakłe",
@@ -887,7 +904,7 @@ OBJECTS = [
         "wycena": "500-1200 PLN"
     },
     {
-        "sygn": "ARG/III/8",
+        "sygn": "ARG/III/8", "sygn_k": "ARG/III/K-002",
         "photo": "Seria_29z_p02_img02.jpeg",
         "tytul": "List obozowy do Krysiu — 16.X.1944, monotonia, Stryj",
         "data": "16.X.1944",
@@ -897,6 +914,7 @@ OBJECTS = [
         "seria": "III",
         "tworca": "Stanisław Stefan Głuchowski",
         "jezyk": "polski",
+        "nadawca": "Stanisław Stefan Głuchowski", "droga_pocztowa": "Kriegsgefangenenpost (poczta jenieckia z cenzurą)",
         "kontekst": "List z 16.X.1944 — napisany zaledwie 14 dni po kapitulacji Powstania. 'Krysiu' — zdrobnienie, prawdopodobnie zwrot do Krystyny/Christyny (siostry? kuzynki?). Wzmianka o 'Stryju' = gen. Janusz (który w tym czasie był już w Wielkiej Brytanii). 'Monotonia rutyn' — opis pierwszych dni w obozie jenieckim. Papier w kratkę = zeszyt zdobyty w obozie.",
         "powiazania": ["ARG/III/1"],
         "stan": "Słaby — zniszczony, ubytki",
@@ -991,7 +1009,7 @@ OBJECTS = [
 
     # -- Podseria V/B: Powstanie Warszawskie --
     {
-        "sygn": "ARG/V/5",
+        "sygn": "ARG/V/5", "sygn_k": "ARG/V/K-001",
         "photo": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p24_img01.jpeg",
         "tytul": "List od ciotki do Krzysztofa — 'Krychu! Wszyscy jesteśmy zdrowi' — 24.IX.1944, ostatnie dni Powstania",
         "data": "24.IX.1944",
@@ -1001,13 +1019,14 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Ciotka (prawdopodobnie siostra Stefana lub Mariana)",
         "jezyk": "polski",
+        "nadawca": "Ciotka (prawdopodobnie siostra Stefana lub Mariana)", "adresat": "Krzysztof Głuchowski",
         "kontekst": "NIEZWYKŁY DOKUMENT — list od ciotki do Krzysztofa z 24.IX.1944 = 8 DNI PRZED KAPITULACJĄ POWSTANIA. Autorka donosi: 'Wszyscy jesteśmy zdrowi', 'Nasze domy stoją chociaż pocharatane' — rodzina przeżyła bombardowania. Wspomina 'pannę Zosię' (Zofia Kopczyńska 'Władka' z plutonu 1112? por. ARG/II/41) i 'p. Stanisztkę'. Wzmianka o 'ciotce Świdce w aptece' sugeruje, że część rodziny schroniła się w aptece (typowe schronienie podczas walk). List dostarczony przez łączników między rejonami walczącej Warszawy.",
         "powiazania": ["ARG/V/6", "ARG/II/41"],
         "stan": "Średni — papier polowy, ołówek czytelny",
         "wycena": "300-800 PLN"
     },
     {
-        "sygn": "ARG/V/6",
+        "sygn": "ARG/V/6", "sygn_k": "ARG/V/K-002",
         "photo": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p24_img02.jpeg",
         "tytul": "List Krzysztofa do rodziców z Powstania — 'Dotychczas żyję i jestem cały' — Warszawa, 26.VIII.1944",
         "data": "26.VIII.1944",
@@ -1017,6 +1036,7 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Krzysztof Andrzej Głuchowski",
         "jezyk": "polski",
+        "nadawca": "Krzysztof Andrzej Głuchowski", "adresat": "Rodzina Głuchowskich",
         "kontekst": "NAJCENNIEJSZY DOKUMENT KOLEKCJI. List 17-latka z walczącej Warszawy do rodziców — 26 dni po wybuchu Powstania. Krzysztof raportuje: (1) 'Dotychczas żyję, jestem cały choć nieco zarysiony' — lekko ranny; (2) Stracili porucznika Jerzego + 13 ludzi od granatu — ciężkie straty; (3) Zginął sierżant B. + kolejnych 2; (4) 'Ze stryjem nie byłem od początku' — STRYJ = wuj ze strony ojca = prawdopodobnie Lech Głuchowski (1900–1944), brat Stefana, który ZGINĄŁ W 1944; (5) 'O naszych na Żoliborzu nie wiem' — Żoliborz był odcięty od reszty walczącego miasta. List z oblężonego miasta — jeden z najrzadszych typów dokumentów powstańczych.",
         "powiazania": ["ARG/V/5", "ARG/V/7", "ARG/V/39"],
         "stan": "Średni — ołówek, kruchy papier",
@@ -1123,7 +1143,7 @@ OBJECTS = [
 
     # -- Podseria V/D: Korespondencja obozowa --
     {
-        "sygn": "ARG/V/13",
+        "sygn": "ARG/V/13", "sygn_k": "ARG/V/K-003",
         "photo": "Seria_29z_p03_img02.jpeg",
         "tytul": "List Krzysztofa z obozu — nr 141009",
         "data": "1944–1945",
@@ -1133,6 +1153,7 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Krzysztof Andrzej Głuchowski",
         "jezyk": "polski",
+        "nadawca": "Krzysztof Andrzej Głuchowski", "adresat": "rodzina / bliscy", "miejsce_nadania": "obóz jeniecki (Stalag)", "droga_pocztowa": "Kriegsgefangenenpost (poczta jenieckia z cenzurą)",
         "kontekst": "List do ojca Stefana — pisany na kartonie ołówkiem w typowych warunkach obozowych. Krzysztof podaje swój numer 141009 w Stalag XI B Fallingbostel i prosi o wysyłanie listów 'w kilku egzemplarzach' — świadomy, że korespondencja jeniecka często giła. Wzmianka o 'Westhofalii' (Westfalii?) sugeruje, że Krzysztof był wcześniej w innym obozie (Stalag VI J Dorsten w Westfalii — por. ARG/V/14) i został przeniesiony do XI B. 'Trzymamy się do końca!' — motto jenieckiej solidarności AK. Data 21.VIII.1944 sugeruje, że list pisany zaledwie 3 tygodnie po kapitulacji Powstania (2.X.1944 — ALE data 21.VIII jest WCZEŚNIEJSZA niż kapitulacja — do weryfikacji). Porównaj z fizycznym nieśmiertelnikiem 'Stalag XI B / 141009' (ARG/V/163).",
         "powiazania": ["ARG/V/9", "ARG/V/14", "ARG/V/163"],
         "stan": "Średni",
@@ -1171,7 +1192,7 @@ OBJECTS = [
         "wycena": "200-500 PLN"
     },
     {
-        "sygn": "ARG/V/16",
+        "sygn": "ARG/V/16", "sygn_k": "ARG/V/K-004",
         "photo": "Seria_29z_p06_img01.jpeg",
         "tytul": "List z obozu do stryja generała — 19.X.1944",
         "data": "19.X.1944",
@@ -1181,6 +1202,7 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Krzysztof Andrzej Głuchowski",
         "jezyk": "polski",
+        "nadawca": "Krzysztof Andrzej Głuchowski", "adresat": "Gen. dyw. Janusz Głuchowski (stryj)", "miejsce_nadania": "obóz jeniecki (Stalag)", "droga_pocztowa": "Kriegsgefangenenpost (poczta jenieckia z cenzurą)",
         "kontekst": "LIST 18-LETNIEGO JEŃCA DO STRYJA-GENERAŁA. Krzysztof (18 lat, st. uł., Stalag VI J Dorsten) pisze do gen. Janusza Głuchowskiego ('Stryju') i jego żony ('Ciociu') — prawdopodobnie do Londynu. Data: 19.X.1944 — zaledwie 17 dni po kapitulacji Powstania (2.X.1944). ŻABIKOWO = obóz karny/przejściowy pod Poznaniem (Żabikowo/Luboń), przez który przechodzili jeńcy z Powstania w drodze do Stalagów. 'BB chowany żyje' — informacja o przeżyciu kogoś bliskiego. Cenzura obozowa zakreśliła fragment — prawdopodobnie informacje wojskowe lub lokalizacyjne. Podpis 'Krzysztof' — intymny, nie formalny. Ten list łączy TRZY SERIE: V (Krzysztof), II (gen. Janusz — adresat), III (Stefan — wspomniany jako ojciec).",
         "powiazania": ["ARG/V/17"],
         "stan": "Średni",
@@ -1203,7 +1225,7 @@ OBJECTS = [
         "wycena": "150-400 PLN"
     },
     {
-        "sygn": "ARG/V/18",
+        "sygn": "ARG/V/18", "sygn_k": "ARG/V/K-005",
         "photo": "Seria_29z_p08_img01.jpeg",
         "tytul": "List do ojca Stefana z obozu — 'Kochany Tatuśku!' — szczegółowy opis życia obozowego, XI.1944",
         "data": "XI.1944",
@@ -1213,13 +1235,14 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Krzysztof Andrzej Głuchowski",
         "jezyk": "polski",
+        "nadawca": "Krzysztof Andrzej Głuchowski", "adresat": "Stefan Głuchowski (ojciec)", "miejsce_nadania": "obóz jeniecki (Stalag)", "droga_pocztowa": "Kriegsgefangenenpost (poczta jenieckia z cenzurą)",
         "kontekst": "List syn→ojciec między obozami jenieckimi. Koperta (ARG/V/19) potwierdza adresata: ppor. Stefan Głuchowski, nr 01245, Stalag XI B. Gęsty, szczegółowy opis codzienności obozowej — typowy dla korespondencji KGF, gdzie limity słów zmuszały do pisania drobnym pismem. Wzruszający ton — 'Kochany Tatuśku' — 18-letni chłopiec pisze do ojca w innym obozie.",
         "powiazania": ["ARG/V/19"],
         "stan": "Średni — pismo ołówkowe częściowo zatarte",
         "wycena": "200-600 PLN"
     },
     {
-        "sygn": "ARG/V/19",
+        "sygn": "ARG/V/19", "sygn_k": "ARG/V/K-006",
         "photo": "Seria_29z_p08_img02.jpeg",
         "tytul": "Koperta Kriegsgefangenenpost — Krzysztof do Stefana",
         "data": "7.XI.1944",
@@ -1229,6 +1252,7 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Krzysztof Andrzej Głuchowski",
         "jezyk": "niemiecki / francuski",
+        "nadawca": "Krzysztof Andrzej Głuchowski", "adresat": "rodzina / bliscy", "miejsce_nadania": "obóz jeniecki (Stalag)", "droga_pocztowa": "Kriegsgefangenenpost (poczta jenieckia z cenzurą)",
         "kontekst": "Koperta jenieckiego listu SYN→OJCIEC z 7.XI.1944. Krzysztof (st.ułan, Stalag XI-B) pisze do Stefana (ppor., nr jeńca 01245, Stalag XI-B Bergen). PARADOKS: obaj w TYM SAMYM Stalagu XI-B, ale w różnych Arbeitskommandos — stąd korespondencja pocztowa zamiast kontaktu osobistego! Nr cenzora '27' = jeden z kilkudziesięciu cenzorów w obozie. Formularz z nadrukiem 'Besetztes Gebiet / Südfrankreich' (Terytorium okupowane / Południowa Francja) — to formularz uniwersalny z poleceniem 'skreślić co nie dotyczy', niekoniecznie oznacza lokalizację nadawcy. Bergen = dzielnica Celle w Dolnej Saksonii, blisko Bergen-Belsen. Stalag XI-B Fallingbostel (z filią w Bergen) mieścił ponad 90 000 jeńców różnych narodowości. List dokumentuje JEDYNY znany kontakt ojca z synem w niewoli — obaj wzięci do niewoli po Powstaniu Warszawskim (X.1944).",
         "powiazania": ["ARG/III/3", "ARG/V/18"],
         "stan": "Średni",
@@ -1481,7 +1505,7 @@ OBJECTS = [
 
     # -- Podseria V/G: Wyzwolenie i repatriacja --
     {
-        "sygn": "ARG/V/35",
+        "sygn": "ARG/V/35", "sygn_k": "ARG/V/K-007",
         "photo": "Seria_29z_p17_img01.jpeg",
         "tytul": "List do rodziny — 6.VII.1945 — wieści o Bogdanie, nie pisze o warunkach",
         "data": "6.VII.1945",
@@ -1491,13 +1515,14 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Krzysztof Andrzej Głuchowski",
         "jezyk": "polski",
+        "nadawca": "Krzysztof Andrzej Głuchowski", "adresat": "Rodzina Głuchowskich",
         "kontekst": "List z 6.VII.1945 (po wyzwoleniu). 'Bogdan' — prawdopodobnie towarzysz z obozu lub z 2. Korpusu. 'Gieressik' — nierozpoznana nazwa (obóz? miejscowość w Niemczech?). 'Olimpijskie wysiłki' — sport uprawiany po wyzwoleniu (Krzysztof był sportowcem — później założył Brazilian Sailing Union). 'Babcia do Polski' — babcia planowała powrót (większość rodziny ostatecznie nie wróciła). Krzysztof świadomie cenzuruje informacje o warunkach — nie chce martwić rodziny.",
         "powiazania": ["ARG/V/36"],
         "stan": "Dobry",
         "wycena": "200-600 PLN"
     },
     {
-        "sygn": "ARG/V/36",
+        "sygn": "ARG/V/36", "sygn_k": "ARG/V/K-008",
         "photo": "Seria_29z_p18_img02.jpeg",
         "tytul": "List z Düsseldorfu po wyzwoleniu — 2.VI.1945",
         "data": "2.VI.1945",
@@ -1507,13 +1532,14 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Krzysztof Andrzej Głuchowski",
         "jezyk": "polski",
+        "nadawca": "Krzysztof Andrzej Głuchowski", "adresat": "rodzina / bliscy", "miejsce_nadania": "Düsseldorf / Hilden bei Düsseldorf",
         "kontekst": "KLUCZOWA RELACJA — pisana 9 dni po wyzwoleniu, do stryja-generała i ciotki. Zawiera szczegółowy opis walk, kapitulacji, transportu do obozu. Wyzwolony 24.V.1945 przez wojska USA.",
         "powiazania": ["ARG/V/21", "ARG/V/37"],
         "stan": "Dobry",
         "wycena": "300-1000 PLN"
     },
     {
-        "sygn": "ARG/V/37",
+        "sygn": "ARG/V/37", "sygn_k": "ARG/V/K-009",
         "photo": "Seria_29z_p17_img02.jpeg",
         "tytul": "List na papeterii Emil Schröder & Co — Düsseldorf",
         "data": "23.II.1945",
@@ -1523,13 +1549,14 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Krzysztof Andrzej Głuchowski",
         "jezyk": "polski",
+        "nadawca": "Krzysztof Andrzej Głuchowski", "adresat": "rodzina / bliscy", "miejsce_nadania": "Düsseldorf / Hilden bei Düsseldorf",
         "kontekst": "Recykling papeterii niemieckiej — typowe dla Displaced Persons. Fabryka w Grafenbergu mogła być miejscem pracy przymusowej.",
         "powiazania": ["ARG/V/36", "ARG/V/38"],
         "stan": "Dobry",
         "wycena": "100-300 PLN"
     },
     {
-        "sygn": "ARG/V/38",
+        "sygn": "ARG/V/38", "sygn_k": "ARG/V/K-010",
         "photo": "Seria_29z_p19_img01.jpeg",
         "tytul": "List Krzysztofa z Hilden bei Düsseldorf — wieści o Stryju w Edynburgu (2.VI.1945)",
         "data": "2.VI.1945",
@@ -1539,6 +1566,7 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Krzysztof Andrzej Głuchowski",
         "jezyk": "polski",
+        "nadawca": "Krzysztof Andrzej Głuchowski", "adresat": "rodzina / bliscy", "miejsce_nadania": "Düsseldorf / Hilden bei Düsseldorf", "droga_pocztowa": "Kriegsgefangenenpost (poczta jenieckia z cenzurą)",
         "kontekst": "KLUCZOWY DOKUMENT — pierwszy list po wyzwoleniu! Data skorygowana z '2.II.1945' na '2.VI.1945' (Krzysztof jest już wolny, w Hilden bei Düsseldorf). Dowiaduje się, że stryj gen. Janusz jest w Edynburgu (Szkocja) — tam stacjonowały polskie siły zbrojne. Nie ma wieści o ojcu Stefanie (który był w Stalagu XI B Fallingbostel — ok. 300 km na północ). Hilden leży 15 km od Düsseldorfu — Krzysztof prawdopodobnie wyzwolony przez wojska alianckie w rejonie Nadrenii. Papeteria Emil Schröder (ARG/V/37, V/39) pochodzi z pobliskiego Düsseldorfu-Grafenbergu.",
         "powiazania": ["ARG/V/37"],
         "stan": "Średni",
@@ -1771,7 +1799,7 @@ OBJECTS = [
         "wycena": "200-500 PLN"
     },
     {
-        "sygn": "ARG/V/53",
+        "sygn": "ARG/V/53", "sygn_k": "ARG/V/K-011",
         "photo": "Seria_29z_p26_img01.jpeg",
         "tytul": "List Krzysztofa z Paryża — Caserne Bessines, do bliskich",
         "data": "ok. VI–VII.1945",
@@ -1781,6 +1809,7 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Krzysztof Andrzej Głuchowski",
         "jezyk": "polski",
+        "nadawca": "Krzysztof Andrzej Głuchowski", "adresat": "rodzina / bliscy", "miejsce_nadania": "Paryż, Caserne Bessines",
         "kontekst": "List z okresu repatriacji (VI–VII.1945), kiedy Krzysztof przebywał w Caserne Bessines w Paryżu (St. Ouen). Ppor. Radomyski Janusz (ur. 1922) — towarzysz Krzysztofa, ten sam świadek, który poświadczył jego służbę AK (por. ARG/V/41). 'Krusio' — familijne zdrobnienie imienia Krzysztof. Poprzednia data '3.II.1944' była błędna — treść jednoznacznie wskazuje na okres po wyzwoleniu.",
         "powiazania": [],
         "stan": "Dobry",
@@ -2003,7 +2032,7 @@ OBJECTS = [
 
     # -- Podseria V/L: Korespondencja (aerogramy, listy) --
     {
-        "sygn": "ARG/V/67",
+        "sygn": "ARG/V/67", "sygn_k": "ARG/V/K-012",
         "photo": "juras_001_page2.jpeg",
         "tytul": "Aerogram do Głuchowskiego — CMF 3 DSK, Włochy",
         "data": "1945–1946",
@@ -2013,13 +2042,14 @@ OBJECTS = [
         "seria": "V",
         "tworca": "nadawca z Nowej Zelandii",
         "jezyk": "polski",
+        "nadawca": "nadawca z Nowej Zelandii", "adresat": "Krzysztof Głuchowski", "miejsce_nadania": "Włochy (CMF — Central Mediterranean Forces)", "droga_pocztowa": "poczta wojskowa (Polish Forces / CMF)",
         "kontekst": "CMF = Central Mediterranean Forces. Korespondencja z diasporą polską — Polacy osiedleni w Nowej Zelandii (obozy uchodźcze w Pahiatua).",
         "powiazania": ["ARG/V/68"],
         "stan": "Średni — pożółkły",
         "wycena": "200-500 PLN"
     },
     {
-        "sygn": "ARG/V/68",
+        "sygn": "ARG/V/68", "sygn_k": "ARG/V/K-013",
         "photo": "juras_002_page3.jpeg",
         "tytul": "List ręczny z Bahia/Salvador, Brazylia — korespondencja rodzinna",
         "data": "lata 50. XX w.",
@@ -2029,6 +2059,7 @@ OBJECTS = [
         "seria": "V",
         "tworca": "krewny / znajomy z Brazylii",
         "jezyk": "polski",
+        "nadawca": "krewny / znajomy z Brazylii", "adresat": "Krzysztof Głuchowski", "miejsce_nadania": "Bahia/Salvador, Brazylia",
         "kontekst": "Ślad diaspory polskiej w Brazylii — bahijska Polonia. Krzysztof wyemigrował do Brazylii, ten list mógł być od niego lub do niego.",
         "powiazania": ["ARG/V/67", "ARG/V/153"],
         "stan": "Średni",
@@ -2155,7 +2186,7 @@ OBJECTS = [
 
     # -- Podseria V/P: Korespondencja osobista --
     {
-        "sygn": "ARG/V/76",
+        "sygn": "ARG/V/76", "sygn_k": "ARG/V/K-014",
         "photo": "juras_010_page11.jpeg",
         "tytul": "List do matki — 'Kochana moja Matenko!' — Wigilia 24.XII.1946, str. 1",
         "data": "24.XII.1946",
@@ -2165,13 +2196,14 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Krzysztof Andrzej Głuchowski",
         "jezyk": "polski",
+        "nadawca": "Krzysztof Andrzej Głuchowski", "adresat": "Wanda Głuchowska (matka)", "miejsce_nadania": "Włochy (2 Korpus PSZ)",
         "kontekst": "Wigilia 1946 — druga po wojnie. Krzysztof w jednostce 2. Korpusu Polskiego we Włoszech lub już w Anglii (demobilizacja). 'Matenko' = czuła forma 'Mamo'. Pisze do matki (żony Stefana Głuchowskiego) w Polsce. 'Tatuś' = Stefan Głuchowski (ojciec). List o niezwykłej wartości emocjonalnej — 20-latek, Powstaniec Warszawski, teraz na obczyźnie, w Wigilię zwraca się do matki. Komplet 4 stron (V/76-79) stanowi jeden z najcenniejszych dokumentów osobistych kolekcji.",
         "powiazania": ["ARG/V/77", "ARG/V/78", "ARG/V/79"],
         "stan": "Dobry",
         "wycena": "300-800 PLN"
     },
     {
-        "sygn": "ARG/V/77",
+        "sygn": "ARG/V/77", "sygn_k": "ARG/V/K-015",
         "photo": "juras_011_page12.jpeg",
         "tytul": "List do matki — Wigilia 24.XII.1946, str. 2",
         "data": "24.XII.1946",
@@ -2181,13 +2213,14 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Krzysztof Andrzej Głuchowski",
         "jezyk": "polski",
+        "nadawca": "Krzysztof Andrzej Głuchowski", "adresat": "Wanda Głuchowska (matka)", "miejsce_nadania": "Włochy (2 Korpus PSZ)", "droga_pocztowa": "Kriegsgefangenenpost (poczta jenieckia z cenzurą)",
         "kontekst": "Druga strona listu wigilijnego z 24.XII.1946. Krzysztof (20 lat) pisze do matki — Wandy z domu Głuchowskiej ps. 'Krysta' (sierż. pchor. Kedyw AK), która jest w Polsce. To TRZECIA Wigilia z rzędu poza domem: 1944 (Stalag XI-B), 1945 (Włochy, 3 DSK), 1946 (Włochy lub Niemcy). List jest częścią serii 4 stron (ARG/V/76–79) — gęste pismo świadczy o silnej potrzebie kontaktu. Kontekst polityczny: w XII.1946 komuniści umacniają władzę w Polsce (referendum sfałszowane VI.1946), Krzysztof prawdopodobnie już wie, że nie wróci. Matka Wanda była ranna w akcji Kedywu w Wilanowie (26.IX.1943) — tęsknota syna za matką-bohaterką.",
         "powiazania": ["ARG/V/76", "ARG/V/78", "ARG/V/79", "ARG/III/4"],
         "stan": "Dobry",
         "wycena": "200-600 PLN"
     },
     {
-        "sygn": "ARG/V/78",
+        "sygn": "ARG/V/78", "sygn_k": "ARG/V/K-016",
         "photo": "juras_012_page13.jpeg",
         "tytul": "List do matki — Wigilia 24.XII.1946, str. 3 (wspomnienia z 1945)",
         "data": "24.XII.1946",
@@ -2197,13 +2230,14 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Krzysztof Andrzej Głuchowski",
         "jezyk": "polski",
+        "nadawca": "Krzysztof Andrzej Głuchowski", "adresat": "Wanda Głuchowska (matka)", "miejsce_nadania": "Włochy (2 Korpus PSZ)",
         "kontekst": "Retrospekcja — rok wcześniej (1945) Krzysztof był jeszcze blisko Polski, teraz daleko. Emocjonalny kontrast.",
         "powiazania": ["ARG/V/76", "ARG/V/77", "ARG/V/79"],
         "stan": "Dobry",
         "wycena": "100-300 PLN"
     },
     {
-        "sygn": "ARG/V/79",
+        "sygn": "ARG/V/79", "sygn_k": "ARG/V/K-017",
         "photo": "juras_013_page14.jpeg",
         "tytul": "List do matki — Wigilia 24.XII.1946, str. 4 (sytuacja emigrantów)",
         "data": "24.XII.1946",
@@ -2213,6 +2247,7 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Krzysztof Andrzej Głuchowski",
         "jezyk": "polski",
+        "nadawca": "Krzysztof Andrzej Głuchowski", "adresat": "Wanda Głuchowska (matka)", "miejsce_nadania": "Włochy (2 Korpus PSZ)",
         "kontekst": "Refleksja 20-latka nad losem emigranta — nie wie jeszcze, że do Polski nie wróci. Kontekst polityczny: powojenna sytuacja Polaków za granicą.",
         "powiazania": ["ARG/V/76", "ARG/V/77", "ARG/V/78"],
         "stan": "Dobry",
@@ -3347,7 +3382,7 @@ OBJECTS = [
 
     # -- Podseria V/AJ: Korespondencja z instytucjami --
     {
-        "sygn": "ARG/V/148",
+        "sygn": "ARG/V/148", "sygn_k": "ARG/V/K-018",
         "photo": "juras_082_page83.jpeg",
         "tytul": "Aerogram do gen. Bora-Komorowskiego — HQ Polish Forces, ENGLAND",
         "data": "lata 40.–50. XX w.",
@@ -3357,13 +3392,14 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Krzysztof Andrzej Głuchowski",
         "jezyk": "polski",
+        "nadawca": "Krzysztof Andrzej Głuchowski", "adresat": "rodzina / bliscy", "droga_pocztowa": "poczta wojskowa (Polish Forces / CMF)",
         "kontekst": "NIEZWYKŁY DOKUMENT — żołnierz pisze do swojego dowódcy z Powstania. Gen. Tadeusz Bór-Komorowski (1895–1966) po kapitulacji Powstania w niewoli niemieckiej, wyzwolony 1945, osiadł w Londynie. H.Q. Polish Forces = Kwatera Główna Polskich Sił Zbrojnych w Londynie. Nr 563 — numer rejestracyjny korespondencji w Polish Institute. Krzysztof jako 18-letni powstaniec walczył pod rozkazami Bora — teraz pisze do niego jako historyk pułku, zbierający materiały o 7 P.Uł. 'Jeleń'. RELACJA ŻOŁNIERZ→GENERAŁ z perspektywy lat — nieoceniony dokument do historii więzi kombatanckich.",
         "powiazania": ["ARG/V/149", "ARG/V/118"],
         "stan": "Dobry",
         "wycena": "1200-5000 PLN"
     },
     {
-        "sygn": "ARG/V/149",
+        "sygn": "ARG/V/149", "sygn_k": "ARG/V/K-019",
         "photo": "juras_083_page84.jpeg",
         "tytul": "Treść aerogramu — list nr 563, historia Pułku 1112, Polish Institute",
         "data": "lata 40.–50. XX w.",
@@ -3373,6 +3409,7 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Krzysztof Andrzej Głuchowski",
         "jezyk": "polski",
+        "nadawca": "Krzysztof Andrzej Głuchowski", "adresat": "rodzina / bliscy", "miejsce_nadania": "Włochy (CMF — Central Mediterranean Forces)", "droga_pocztowa": "konspiracyjna",
         "kontekst": "POLISH INSTITUTE AND SIKORSKI MUSEUM (20 Princes Gate, London SW7) — główne archiwum Polskich Sił Zbrojnych na emigracji, założone w 1945. Gen. Janusz Głuchowski (stryj Krzysztofa!) był WSPÓŁZAŁOŻYCIELEM tego Instytutu (potwierdzone w biogramie ARG/II/33). Krzysztof pisał więc do Bora-Komorowskiego na papeterii instytucji współtworzonej przez jego stryja. 'Myszków' — miejscowość w okolicach Częstochowy, ale w kontekście CMF może chodzić o obóz/bazę we Włoszech o tej nazwie, lub Krzysztof pisał z Polski przed wyjazdem. Data 14.VIII.1945 — rok i dwa tygodnie po wybuchu Powstania. 'Pułk 1112' = konspiracyjne oznaczenie 7 P.Uł. Lubelskich w strukturach AK.",
         "powiazania": ["ARG/V/148", "ARG/V/150"],
         "stan": "Dobry",
@@ -3628,7 +3665,7 @@ OBJECTS = [
 
     # -- Getto łódzkie --
     {
-        "sygn": "ARG/VI/10",
+        "sygn": "ARG/VI/10", "sygn_k": "ARG/VI/K-001",
         "photo": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p17_img01.jpeg",
         "tytul": "List K. Głuchowskiego do Ambasady Izraela — oferta sprzedaży walut i monet getta łódzkiego, 13.V.1958",
         "data": "13.V.1958",
@@ -3638,6 +3675,7 @@ OBJECTS = [
         "seria": "VI",
         "tworca": "K. Głuchowski (prawdopodobnie gen. Janusz — adres Emperors Gate = jego londyński adres)",
         "jezyk": "angielski",
+        "nadawca": "K. Głuchowski (prawdopodobnie gen. Janusz — adres Emperors Gate = jego londyński adres)", "miejsce_nadania": "Londyn",
         "kontekst": "FASCYNUJĄCY DOKUMENT — gen. Janusz Głuchowski (lub Krzysztof?) posiadał KOMPLETNY ZESTAW walut getta łódzkiego (Litzmannstadt Ghetto, 1940-1944). Waluty gettowe Chaima Rumkowskiego — dziś ekstremalnie rzadkie numizmaty (wartość na aukcjach: kilkanaście-kilkadziesiąt tysięcy złotych za zestaw). Adres '42, Emperors Gate, London SW7' — znany londyński adres gen. Janusza (potwierdzony w Aliens Registration ARG/II/65). Fakt posiadania walut gettowych przez polskiego generała sugeruje, że mógł je zdobyć/otrzymać w czasie wojny lub tuż po niej. List do Ambasady Izraela — próba sprzedaży instytucji muzealnej w Izraelu (1958 = 10 lat po powstaniu Państwa Izrael). Data w katalogu była 18.V.1958, ale na dokumencie widać '13th May' — korekta daty.",
         "powiazania": ["ARG/VI/11", "ARG/VI/12"],
         "stan": "Dobry",
@@ -3660,7 +3698,7 @@ OBJECTS = [
         "wycena": "500-2000 PLN"
     },
     {
-        "sygn": "ARG/VI/12",
+        "sygn": "ARG/VI/12", "sygn_k": "ARG/VI/K-002",
         "photo": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p17_img03.jpeg",
         "tytul": "Odpowiedź Ambasady Izraela w Londynie — sugestia kontaktu z Yad Vashem w sprawie walut gettowych, 22.V.1958",
         "data": "22.V.1958",
@@ -3670,6 +3708,7 @@ OBJECTS = [
         "seria": "VI",
         "tworca": "Ambasada Izraela w Londynie",
         "jezyk": "angielski",
+        "nadawca": "Ambasada Izraela w Londynie", "miejsce_nadania": "Londyn",
         "kontekst": "PARA DOKUMENTÓW: (1) List K. Głuchowskiego z 42 Emperors Gate, London SW7, 18.V.1958 — oferta sprzedaży pełnego zestawu walut i monet getta łódzkiego, opisanych jako 'of great rarity and museum value'; (2) Odpowiedź Ambasady z 22.V.1958 — sugestia Yad Vashem. Fakt że Głuchowski posiadał PEŁNY ZESTAW walut gettowych (por. ARG/VI/10, VI/11) i próbował je sprzedać do instytucji muzealnej w Izraelu, świadczy o świadomości ich wartości historycznej. Zestaw ostatecznie nie został sprzedany — pozostał w kolekcji rodzinnej.",
         "powiazania": ["ARG/VI/10", "ARG/VI/11"],
         "stan": "Dobry",
@@ -3753,7 +3792,7 @@ OBJECTS = [
         "kontekst": "Beret pancerny gen. Głuchowskiego z okresu służby w Wielkiej Brytanii (1941-1945). Czarne berety w WP wprowadzono ok. 1937-1942 dla jednostek pancernych — nie istniały w I wojnie światowej ani w 1920 r. Głuchowski był Dowódcą JWWB (od IX.1943) i dowódcą Brygady Szkolnej w Szkocji (1941-1943). ŚLAD PO KULI — proweniencja wymaga dalszej kwerendy: możliwe naloty Luftwaffe na bazy w Szkocji, incydent szkoleniowy lub inna sytuacja bojowa. Głuchowski miał trzy Krzyże Walecznych, co świadczy o trzykrotnym wykazaniu się odwagą pod ogniem. Beret ze śladem po kuli — unikatowa relikwia, fizyczny dowód zagrożenia życia generała. Powiązany z albumem 'Żołnierz z Montecassino' z dedykacją gen. Andersa (ARG/II/54).",
         "powiazania": ["ARG/II/54", "ARG/II/48", "ARG/II/49", "ARG/II/50"],
         "stan": "Ślad po kuli, drobne ubytki — uszkodzenie bojowe",
-        "wycena": "1200-4000 PLN"
+        "wycena": "5000-15000 PLN"
     },
     {
         "sygn": "ARG/II/35",
@@ -3772,7 +3811,7 @@ OBJECTS = [
         "wycena": "1200-4000 PLN"
     },
     {
-        "sygn": "ARG/II/36",
+        "sygn": "ARG/II/36", "sygn_k": "ARG/II/K-006",
         "photo": "lbr_II_36_p01.jpg",
         "tytul": "List rękopiśmienny Adama Piłsudskiego do gen. Głuchowskiego",
         "data": "1931",
@@ -3782,6 +3821,7 @@ OBJECTS = [
         "seria": "II",
         "tworca": "Adam Piłsudski",
         "jezyk": "polski",
+        "nadawca": "Adam Piłsudski", "adresat": "Gen. Janusz Głuchowski", "droga_pocztowa": "poczta dyplomatyczna / oficjalna",
         "kontekst": "Adam Piłsudski (1869–1935) — starszy brat Marszałka Józefa Piłsudskiego, inżynier kolejowy. List z 1931 r. do Głuchowskiego (wówczas pułkownika, dowódcy 1. Pułku Ułanów) świadczy o bliskich relacjach Głuchowskiego z rodziną Piłsudskich — naturalnych, biorąc pod uwagę że obaj byli Legionistami z 1914 roku. Autograf Piłsudskiego — wysoka wartość kolekcjonerska.",
         "powiazania": ["ARG/II/17", "ARG/II/1"],
         "stan": "Dobry",
@@ -4627,7 +4667,7 @@ OBJECTS = [
         "typ": "maszynopis",
         "opis_fizyczny": "Maszynopis A4, jedna pełna strona. Nagłówek: 'ROTMISTRZ LECH GŁUCHOWSKI PSEUDONIM «IŻYCKI»'. Podpis: 'Przygotował Krzysztof Głuchowski / Rio de Janeiro, 18 października 1995'. Dwa bloki: biografia narracyjna (~25 linii) + bibliografia (16 pozycji). Na dole przypis gwiazdkowy o gen. Januszu.",
         "opis_tresci": "Biogram Lecha Głuchowskiego (ur. ok. 1902 w Rakowcu, syn Mariana Głuchowskiego i Marty z Żółkiewskich). W 1918 roku miał 16 lat — uczestnik P.W. (pracy wolnościowej?). Szkoły średnie w Radomsku. Ukończył Akademię Rolniczą w Bydgoszczy (ok. 1932). We IX.1939 zmobilizowany do 7 P.U.L., kampania wrześniowa, walki nad Pilicą. We Francji — 10. Brygada Kawalerii Pancernej. W Anglii — AK kryptonim 'Jeleń', konspiracja w Londynie. Wrócił do okupowanej Polski. W 1944 dowódca plutonu/kompanii Dywizjon 'Jeleń' na Al. Szucha, następnie w grupie powstańczej na Mokotowie. 15 września 1944 — poległ w obronie pozycji na Mokotowie. Pochowany na cmentarzu parafialnym (tymczasowo), potem ekshumowany do grobu rodzinnego na cmentarzu na Powązkach(?). Awansowany do stopnia majora (pośmiertnie?). Odznaczenia: Krzyż Virtuti Militari, Krzyż Walecznych (×3), Złoty Krzyż Zasługi z Mieczami, Medal Wojska, Krzyż Armii Krajowej (Nr 1 specjalna seria z 6,67 kolejnych podpisem gen. Bora-Komorowskiego i Prezydenta RP). Bibliografia: 16 pozycji, w tym Bellona (Londyn 1953), Borkiewicz 'Powstanie Warszawskie' (1957), 'Łam i Lubelscy' (Londyn 1969), Żołnierze Mokotowa 1944 (MON 1971), 135 Pluton AK (1994), Dziennik Polski (Londyn, 5 not 1991-92). Archiwum: BN Warszawa, Zbiór Rękopisów Nr 13853. Przypis: '*Później I wice minister Spraw Wojskowych, i dowódca Jednostek Wojska w Wielkiej Brytanii, generał dywizji' — dot. gen. Janusza.",
-        "seria": "VI",
+        "seria": "IV",
         "tworca": "Krzysztof Głuchowski",
         "jezyk": "polski",
         "kontekst": "CZWARTY SYN MARIANA: Lech Głuchowski (ok. 1902–15.IX.1944) — brat Janusza (1888) i Stefana (1893), STRYJ Krzysztofa 'Jurasia'. Rotmistrz kawalerii, weteran kampanii wrześniowej (7 P.U.L.), Francji (10. BKP) i Anglii. Wrócił do okupowanej Polski i walczył w AK 'Jeleń'. Poległ na Mokotowie 15 września 1944 w Powstaniu Warszawskim. Odznaczony Krzyżem Virtuti Militari — najwyższe polskie odznaczenie wojskowe. Krzyż AK Nr 1 z podpisem gen. Bora-Komorowskiego. TRZY BRACIA w walce: Janusz (generał PSZ w Anglii), Stefan (AK Żoliborz, Pawiak), Lech (AK Mokotów, poległ). Biogram spisany przez Krzysztofa w tym samym dniu (18.X.1995) co autobiografia i biogram Stefana — systematyczna praca dokumentacyjna w Rio de Janeiro. Dedykacja od Lecha do Stefana zachowana w kolekcji (ARG/VI/28).",
@@ -5311,7 +5351,7 @@ OBJECTS = [
         "typ": "dedykacja",
         "opis_fizyczny": "Dedykacja odręczna atramentem na odwrocie fotografii lub na kartce papieru, format ~12×15 cm. Pismo kaligraficzne (Lech), pod spodem 6-7 podpisów kolegów oficerskich. Papier pożółkły, atrament brązowiejący.",
         "opis_tresci": "'Kochanemu Stefankowi, uroczemu braciszkowi i dobremu towarzyszowi / Lech    Lochia(?)'. Poniżej podpisy kolegów oficerskich, w tym wzmianka '8 p.S.K.' (8 Pułk Strzelców Konnych?). Kilka podpisów nieczytelnych — kaligraficzne, z parafami. Jeden podpis zawiera 'Meguriński(?)', inny 'Jakub Morawski(?)' i 'Waszelski(?)'. Dedykacja grupowa — prawdopodobnie z okazji spotkania oficerskiego.",
-        "seria": "VI",
+        "seria": "IV",
         "tworca": "Lech Głuchowski i koledzy oficerscy",
         "jezyk": "polski",
         "kontekst": "Unikalna dedykacja Lecha do brata Stefana — 'kochany Stefanku, uroczy braciszku i dobry towarzyszu'. Świadectwo ciepłych relacji braterskich. Lech (ok. 1902–1944) poległ na Mokotowie w Powstaniu Warszawskim. Wzmianka '8 p.S.K.' może wskazywać na 8 Pułk Strzelców Konnych lub inną jednostkę kawalerii — Stefan mógł mieć kontakty z różnymi pułkami. Podpisy kolegów oficerskich tworzą grupowy portret środowiska wojskowego II RP. Dokument powstał prawdopodobnie w latach 30., przed wojną.",
@@ -5337,7 +5377,7 @@ OBJECTS = [
     },
     # ── Korespondencja 1946 (transkrypcje_listow_1946.pdf) ──────────────
     {
-        "sygn": "ARG/V/174",
+        "sygn": "ARG/V/174", "sygn_k": "ARG/V/K-020",
         "photo": "wanda_list1_str1.png",
         "tytul": "List sierż.-mgr. Aleksandra Flejszera do Krzysztofa Głuchowskiego — pośrednictwo pocztowe matki",
         "data": "3.VIII.1946",
@@ -5347,13 +5387,14 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Aleksander Flejszer",
         "jezyk": "polski",
+        "nadawca": "Aleksander Flejszer", "adresat": "Krzysztof Głuchowski", "miejsce_nadania": "obóz jeniecki (Stalag)", "droga_pocztowa": "Kriegsgefangenenpost (poczta jenieckia z cenzurą)",
         "kontekst": "Sierpień 1946. Krzysztof (lat 18) służy w Polish Forces C.M.F. 105 we Włoszech (por. ARG/V/67 — aerogram CMF). Matka Wanda jest w Łodzi/Warszawie — komunikacja z synem możliwa tylko przez konspiracyjne kanały pocztowe (Paryż). Flejszer to farmaceuta, przedwojenny pracownik apteki wuja Krzysztofa. List dokumentuje mechanizm korespondencji rodzinnej w warunkach powojennej cenzury. Krzysztof trafił do niewoli z Powstania (ARG/V/6, ARG/V/9), potem przez Stalag do Włoch i Anglii (ARG/V/27, ARG/V/87-88 Bodney).",
         "powiazania": ["ARG/V/175", "ARG/V/176", "ARG/V/67", "ARG/V/6", "ARG/V/9", "ARG/V/87"],
         "stan": "Dobry",
         "wycena": "400-800 PLN"
     },
     {
-        "sygn": "ARG/V/175",
+        "sygn": "ARG/V/175", "sygn_k": "ARG/V/K-021",
         "photo": "wanda_list1_str1.png",
         "tytul": "List Wandy Głuchowskiej do syna Krzysztofa — 'Drogi Kochany Synku!'",
         "data": "13.VIII.1946",
@@ -5363,13 +5404,14 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Wanda Głuchowska",
         "jezyk": "polski",
-        "kontekst": "13 sierpnia 1946. Wanda (żona gen. Janusza, matka Krzysztofa) pisze z Łodzi. Ostatni list Krzysztofa DO rodziców z Powstania: ARG/V/6 ('Dotychczas żyję i jestem cały'). Od tego momentu — 2 lata ciszy. Apteka na Kruczej/Hożej (dawna cukiernia Paciorkowskiego). Wanda była aresztowana i wywieziona do Rosji, obóz w Rembertowie — ale o tym nie pisze. Krzysztof odpowie z Bodney (ARG/V/79 — Wigilia 46, ARG/V/83 — kartka świąteczna). List ciotki z IX.1944 (ARG/V/5) to ostatni kontakt rodziny przed rozdzieleniem.",
+        "nadawca": "Wanda Głuchowska", "adresat": "Wanda Głuchowska (matka)",
+        "kontekst": "13 sierpnia 1946. Wanda (żona Stefana Głuchowskiego, matka Krzysztofa) pisze z Łodzi. Ostatni list Krzysztofa DO rodziców z Powstania: ARG/V/6 ('Dotychczas żyję i jestem cały'). Od tego momentu — 2 lata ciszy. Apteka na Kruczej/Hożej (dawna cukiernia Paciorkowskiego). Wanda była aresztowana i wywieziona do Rosji, obóz w Rembertowie — ale o tym nie pisze. Krzysztof odpowie z Bodney (ARG/V/79 — Wigilia 46, ARG/V/83 — kartka świąteczna). List ciotki z IX.1944 (ARG/V/5) to ostatni kontakt rodziny przed rozdzieleniem.",
         "powiazania": ["ARG/V/174", "ARG/V/176", "ARG/V/6", "ARG/V/5", "ARG/V/76", "ARG/V/77", "ARG/V/78", "ARG/V/79", "ARG/V/83", "ARG/V/182", "ARG/V/183"],
         "stan": "Dobry",
         "wycena": "800-1500 PLN"
     },
     {
-        "sygn": "ARG/V/176",
+        "sygn": "ARG/V/176", "sygn_k": "ARG/V/K-022",
         "photo": "labedzki_list1_p7.png",
         "tytul": "List Henryka Łabędzkiego do Krzysztofa Głuchowskiego — pieniądze i wieści od matki",
         "data": "25.VIII.1946",
@@ -5379,13 +5421,14 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Henryk Łabędzki",
         "jezyk": "polski",
+        "nadawca": "Henryk Łabędzki", "adresat": "Krzysztof Głuchowski", "miejsce_nadania": "Brownings Camp, Sussex", "droga_pocztowa": "droga genewska (Schwok/Łabędzki)",
         "kontekst": "25 sierpnia 1946. Łabędzki przebywa w Genewie, pośredniczy między Wandą a Krzysztofem. Trzecia niezależna droga pocztowa (obok Flejszera przez Paryż i Kamińskiego przez Sussex). Informacja o ustawie dotyczącej powrotu urzędników — nacisk komunistycznych władz na emigrację. Aresztowanie aptekarza Bukowskiego — element represji wobec przedwojennej inteligencji.",
         "powiazania": ["ARG/V/174", "ARG/V/175", "ARG/V/177", "ARG/V/76", "ARG/V/79"],
         "stan": "Dobry",
         "wycena": "400-800 PLN"
     },
     {
-        "sygn": "ARG/V/177",
+        "sygn": "ARG/V/177", "sygn_k": "ARG/V/K-023",
         "photo": "wanda_list2_p12.png",
         "tytul": "List Wandy Głuchowskiej do syna Krzysztofa — 'Krysieńku' (niekompletny, brak początku)",
         "data": "1.XII.1946",
@@ -5395,13 +5438,14 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Wanda Głuchowska",
         "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska", "adresat": "Wanda Głuchowska (matka)", "miejsce_nadania": "Warszawa",
         "kontekst": "1 grudnia 1946, Warszawa. Drugi zachowany list Wandy. Poruszający dokument strat wojennych — Wanda wylicza poległych kolegów syna: Josiek (Starówka), Kosterlitz, 'prawie wszyscy wyginęli.' Zdrobnienie 'Krysieńku' i pytanie o wzrost — matka nie widziała syna od 2 lat, on ma 18 lat i jest żołnierzem w Anglii. Plakietka Batorego — próba zachowania polskości na emigracji.",
         "powiazania": ["ARG/V/175", "ARG/V/176"],
         "stan": "Niekompletny — brak pierwszej strony",
         "wycena": "600-1200 PLN"
     },
     {
-        "sygn": "ARG/V/178",
+        "sygn": "ARG/V/178", "sygn_k": "ARG/V/K-024",
         "photo": "list5_p15.png",
         "tytul": "Bilecik od nieznajomego nadawcy — pozdrowienia od Wandy i wieść o aresztowaniu stryjka",
         "data": "b.d. [ok. 1946]",
@@ -5411,13 +5455,14 @@ OBJECTS = [
         "seria": "V",
         "tworca": "nieznany",
         "jezyk": "polski",
+        "nadawca": "nieznany", "adresat": "Wanda Głuchowska (matka)",
         "kontekst": "Krótki bilecik przekazujący wiadomości od Wandy — prawdopodobnie przez okazyjnego podróżnego. Informacja o aresztowaniu stryjka Krzysztofa — element powojennych represji wobec rodzin wojskowych. Anonimowość nadawcy — środek ostrożności.",
         "powiazania": ["ARG/V/175", "ARG/V/177", "ARG/V/28", "ARG/V/76", "ARG/V/79"],
         "stan": "Dobry",
         "wycena": "200-400 PLN"
     },
     {
-        "sygn": "ARG/V/179",
+        "sygn": "ARG/V/179", "sygn_k": "ARG/V/K-025",
         "photo": "list5_p16.png",
         "tytul": "List Henryka Łabędzkiego (II) do Krzysztofa — 3 funty i powrót do kraju",
         "data": "12.X.1946",
@@ -5427,13 +5472,14 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Henryk Łabędzki",
         "jezyk": "polski",
+        "nadawca": "Henryk Łabędzki", "adresat": "Krzysztof Głuchowski", "droga_pocztowa": "droga genewska (Schwok/Łabędzki)",
         "kontekst": "Październik 1946. Łabędzki wraca do Polski z Genewy — odważna decyzja, biorąc pod uwagę represje wobec osób z kontaktami na Zachodzie. Obiecuje osobisty kontakt z Wandą. Trzy funty w kopercie — realna pomoc finansowa. Droga pocztowa nadal przez Schwob w Genewie.",
         "powiazania": ["ARG/V/176", "ARG/V/180"],
         "stan": "Dobry",
         "wycena": "400-800 PLN"
     },
     {
-        "sygn": "ARG/V/180",
+        "sygn": "ARG/V/180", "sygn_k": "ARG/V/K-026",
         "photo": "schwok_list1_p20.png",
         "tytul": "List Rose Schwok do Krzysztofa — 6 funtów od Łabędzkiego",
         "data": "21.X.1946",
@@ -5443,13 +5489,14 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Rose Schwok",
         "jezyk": "polski",
+        "nadawca": "Rose Schwok", "adresat": "Krzysztof Głuchowski", "droga_pocztowa": "droga genewska (Schwok/Łabędzki)",
         "kontekst": "Schwok to szwagierka Łabędzkiego, mieszka w Genewie. Pośredniczka w kanale pocztowym i finansowym. Łańcuch: Krzysztof → Schwok (Genewa) → brat Schwok → Łabędzki (Polska) → Wanda.",
         "powiazania": ["ARG/V/179", "ARG/V/181"],
         "stan": "Dobry",
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/181",
+        "sygn": "ARG/V/181", "sygn_k": "ARG/V/K-027",
         "photo": "schwok_list2_p22.png",
         "tytul": "List Rose Schwok (II) do Krzysztofa — ostatnie 3 funty i rada o poczcie",
         "data": "3.XI.1946",
@@ -5459,13 +5506,14 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Rose Schwok",
         "jezyk": "polski",
+        "nadawca": "Rose Schwok", "adresat": "Krzysztof Głuchowski", "droga_pocztowa": "droga genewska (Schwok/Łabędzki)",
         "kontekst": "Listopad 1946. Schwok sugeruje bezpośrednią korespondencję Anglia→Polska. To ważna informacja — oznacza, że cenzura pocztowa nie blokuje listów z Zachodu, choć ich treść jest prawdopodobnie czytana. Nazwisko panieńskie 'Zimnowoda' — rodzina żydowska.",
         "powiazania": ["ARG/V/180", "ARG/V/182"],
         "stan": "Dobry",
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/182",
+        "sygn": "ARG/V/182", "sygn_k": "ARG/V/K-028",
         "photo": "wanda_list3_p25.png",
         "tytul": "List Wandy do Krzysztofa — bezpośrednio z Warszawy, Święta 1946",
         "data": "13.XII.1946",
@@ -5475,13 +5523,14 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Wanda Głuchowska",
         "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska", "adresat": "Wanda Głuchowska (matka)", "droga_pocztowa": "droga genewska (Schwok/Łabędzki)",
         "kontekst": "Grudzień 1946. Wanda pisze bezpośrednio — nie przez Paryż ani Genewę. Przełom w korespondencji. Matka tęskni za synem — pyta o wzrost, wagę, barki. Relacjonuje życie powojennej Warszawy: apteka, podróże, życie towarzyskie. Wzmianka o stryjkach — prawdopodobnie represjonowani.",
         "powiazania": ["ARG/V/177", "ARG/V/183", "ARG/V/76", "ARG/V/77", "ARG/V/78", "ARG/V/79", "ARG/V/28"],
         "stan": "Dobry",
         "wycena": "800-1500 PLN"
     },
     {
-        "sygn": "ARG/V/183",
+        "sygn": "ARG/V/183", "sygn_k": "ARG/V/K-029",
         "photo": "wanda_list4_p31.png",
         "tytul": "List Wandy do Krzysztofa — 'Moje Drogie Kochane Dziecko!' z cenami Warszawy",
         "data": "2.VII.1946",
@@ -5491,6 +5540,7 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Wanda Głuchowska",
         "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska", "adresat": "Wanda Głuchowska (matka)", "droga_pocztowa": "droga genewska (Schwok/Łabędzki)",
         "kontekst": "Lipiec 1946 — chronologicznie NAJWCZEŚNIEJSZY list Wandy w kolekcji. Piszę go PO nawiązaniu kontaktu przez Flejszera/Łabędzkiego. Lista cen — bezcenny dokument ekonomiczny powojennej Warszawy. Dolar 700 zł (spadł z 1400 dwa tygodnie wcześniej). Pytania matki o papierosy i alkohol — syn ma 18 lat i jest żołnierzem.",
         "powiazania": ["ARG/V/175", "ARG/V/182", "ARG/V/76", "ARG/V/77", "ARG/V/78", "ARG/V/79", "ARG/V/28"],
         "stan": "Dobry",
@@ -5498,8 +5548,8 @@ OBJECTS = [
     },
     # ── Teczka "WCZESNE LISTY 1946" — originals_201_217 (68 skanów, 29.III.2026) ──
     {
-        "sygn": "ARG/V/201",
-        "photo": "20260324_1734023118815046489450273_rot.jpg",
+        "sygn": "ARG/V/201", "sygn_k": "ARG/V/K-030",
+        "photo": "originals_201_217/20260324_1734023118815046489450273_rot.jpg",
         "tytul": "List z Reims — wieści z Francji, adres cioci Stawki",
         "data": "1.IX.1945",
         "typ": "list",
@@ -5508,14 +5558,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "nieustalony",
         "jezyk": "polski",
+        "nadawca": "nieustalony", "adresat": "Krzysztof Głuchowski", "miejsce_nadania": "Reims, Francja",
         "kontekst": "Wrzesień 1945. Adres Stanki Armatysowej (ul. Żwirki 1 d m.12) potwierdza się w liście Kamińskiego V/207c. Stanka = pośredniczka pocztowa między Polską a emigracją.",
         "powiazania": ["ARG/V/207c", "ARG/V/202a", "ARG/V/67"],
         "stan": "Dostateczny — papier pożółkły, trudne pismo",
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/202a",
-        "photo": "20260324_1735536699334025058410662_rot.jpg",
+        "sygn": "ARG/V/202a", "sygn_k": "ARG/V/K-031",
+        "photo": "originals_201_217/20260324_1735536699334025058410662_rot.jpg",
         "tytul": "List 'Józefa P.S.' — wieści rodzinne, cukiernia",
         "data": "ok. 1946",
         "typ": "list",
@@ -5524,14 +5575,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Józef P.S. (nieustalony)",
         "jezyk": "polski",
+        "nadawca": "Józef P.S. (nieustalony)", "adresat": "Krzysztof Głuchowski",
         "kontekst": "Wzmianka o cukierni może dotyczyć cukierni Paciorkowskiego (róg Kruczej/Hożej), gdzie potem Wanda otworzyła aptekę.",
         "powiazania": ["ARG/V/202b", "ARG/V/175"],
         "stan": "Dobry",
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/202b",
-        "photo": "20260324_1735536699334025058410662_rot.jpg",
+        "sygn": "ARG/V/202b", "sygn_k": "ARG/V/K-032",
+        "photo": "originals_201_217/20260324_1735536699334025058410662_rot.jpg",
         "tytul": "List do 'Pana Wincentego' — życzenia noworoczne",
         "data": "8.I.1946",
         "typ": "list",
@@ -5540,6 +5592,7 @@ OBJECTS = [
         "seria": "V",
         "tworca": "P.J. Wilczem (?)",
         "jezyk": "polski",
+        "nadawca": "P.J. Wilczem (?)", "adresat": "Krzysztof Głuchowski",
         "kontekst": "Noworoczna korespondencja 1946. Dwie jednostki sfotografowane razem na jednym skanie.",
         "powiazania": ["ARG/V/202a"],
         "stan": "Dobry",
@@ -5547,7 +5600,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/203",
-        "photo": "20260324_1737405609298741604113920_rot.jpg",
+        "photo": "originals_201_217/20260324_1737405609298741604113920_rot.jpg",
         "tytul": "Itinerarium wojenne Krzysztofa — od Warszawy do Bodney",
         "data": "1944-1947",
         "typ": "notatka",
@@ -5563,7 +5616,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/203b",
-        "photo": "20260324_1737523898938794945732458_rot.jpg",
+        "photo": "originals_201_217/20260324_1737523898938794945732458_rot.jpg",
         "tytul": "Notatki z fizyki — Gimnazjum 3 DSK",
         "data": "1945-1946",
         "typ": "notatka",
@@ -5578,8 +5631,8 @@ OBJECTS = [
         "wycena": "200-500 PLN"
     },
     {
-        "sygn": "ARG/V/204",
-        "photo": "20260324_1744295990070507963308681_rot.jpg",
+        "sygn": "ARG/V/204", "sygn_k": "ARG/V/K-033",
+        "photo": "originals_201_217/20260324_1744295990070507963308681_rot.jpg",
         "tytul": "List pchr. Tadeusza Bystydżeńskiego z CMF 154 — adres Janusza",
         "data": "5.IX.1946",
         "typ": "list",
@@ -5588,14 +5641,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Tadeusz Bystydżeński",
         "jezyk": "polski",
+        "nadawca": "Tadeusz Bystydżeński", "adresat": "Krzysztof Głuchowski", "miejsce_nadania": "Włochy (CMF — Central Mediterranean Forces)", "droga_pocztowa": "poczta wojskowa (Polish Forces / CMF)",
         "kontekst": "Wrzesień 1946. Sieć korespondencji żołnierskiej — wzajemne podawanie adresów. Bystydżeński w CMF 154, Janusz w CMF 460.",
         "powiazania": ["ARG/V/201", "ARG/V/202a", "ARG/V/206a"],
         "stan": "Dobry",
         "wycena": "200-400 PLN"
     },
     {
-        "sygn": "ARG/V/205",
-        "photo": "20260324_1746587960714446524300966_rot.jpg",
+        "sygn": "ARG/V/205", "sygn_k": "ARG/V/K-034",
+        "photo": "originals_201_217/20260324_1746587960714446524300966_rot.jpg",
         "tytul": "List — fotografie i Gen. Strelczyński",
         "data": "ok. 1946",
         "typ": "list",
@@ -5604,14 +5658,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "nieustalony",
         "jezyk": "polski",
+        "nadawca": "nieustalony", "adresat": "Krzysztof Głuchowski",
         "kontekst": "Korespondencja dotycząca wymiany fotografii między żołnierzami — cenne ze względu na dokumentację fotograficzną PSZ.",
         "powiazania": ["ARG/V/204"],
         "stan": "Dostateczny — trudne pismo",
         "wycena": "200-400 PLN"
     },
     {
-        "sygn": "ARG/V/206a",
-        "photo": "20260324_1748223633272231402712281_rot.jpg",
+        "sygn": "ARG/V/206a", "sygn_k": "ARG/V/K-035",
+        "photo": "originals_201_217/20260324_1748223633272231402712281_rot.jpg",
         "tytul": "List z CMF Polish Forces 125 — wieści z Włoch, demobilizacja",
         "data": "24.I.1946",
         "typ": "list",
@@ -5620,14 +5675,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "nieustalony (podpis 'G...')",
         "jezyk": "polski",
+        "nadawca": "nieustalony (podpis 'G...')", "adresat": "Krzysztof Głuchowski", "miejsce_nadania": "Włochy (CMF — Central Mediterranean Forces)", "droga_pocztowa": "poczta wojskowa (Polish Forces / CMF)",
         "kontekst": "Styczeń 1946, CMF (Włochy). Demobilizacja i reorganizacja 2 Korpusu Polskiego. Logo 5 KDP na papierze.",
         "powiazania": ["ARG/V/206b", "ARG/V/204"],
         "stan": "Dobry",
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/206b",
-        "photo": "20260324_1811564265226715002790673_rot.jpg",
+        "sygn": "ARG/V/206b", "sygn_k": "ARG/V/K-036",
+        "photo": "originals_201_217/20260324_1811564265226715002790673_rot.jpg",
         "tytul": "List 'Słobusia K.' — decyzje o wyjeździe, Bolonia",
         "data": "16.IV.1946",
         "typ": "list",
@@ -5636,14 +5692,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Słobuś K. (nieustalony, bliska rodzina?)",
         "jezyk": "polski",
+        "nadawca": "Słobuś K. (nieustalony, bliska rodzina?)", "adresat": "Krzysztof Głuchowski",
         "kontekst": "Kwiecień 1946. Nadawca zna Krzysztofa bardzo blisko ('Krzysztofku', 'chłopcy'). Wspomina Janusza — prawdopodobnie krewny lub bliski przyjaciel gen. Głuchowskiego.",
         "powiazania": ["ARG/V/206a", "ARG/V/175"],
         "stan": "Dobry",
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/207a",
-        "photo": "20260324_1813377748033720388689926_rot.jpg",
+        "sygn": "ARG/V/207a", "sygn_k": "ARG/V/K-037",
+        "photo": "originals_201_217/20260324_1813377748033720388689926_rot.jpg",
         "tytul": "List Janusza Ramińskiego (I) — wieści o Wandzie, Brownings Camp",
         "data": "19.IX.1946",
         "typ": "list",
@@ -5652,14 +5709,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Janusz Ramiński",
         "jezyk": "polski",
+        "nadawca": "Janusz Ramiński", "adresat": "Krzysztof Głuchowski", "miejsce_nadania": "Brownings Camp, Sussex", "droga_pocztowa": "droga przez Sussex (Ramiński, Brownings Camp)",
         "kontekst": "Wrzesień 1946. Ramiński w Brownings Camp (obóz polski w Sussex) — pośredniczy między Krzysztofem a rodziną w Polsce. Zna Matkę (Wandę) i Marka.",
         "powiazania": ["ARG/V/207b", "ARG/V/207c", "ARG/V/174", "ARG/V/175", "ARG/V/176"],
         "stan": "Dobry",
         "wycena": "400-800 PLN"
     },
     {
-        "sygn": "ARG/V/207b",
-        "photo": "20260324_1820364793131874182220755_rot.jpg",
+        "sygn": "ARG/V/207b", "sygn_k": "ARG/V/K-038",
+        "photo": "originals_201_217/20260324_1820364793131874182220755_rot.jpg",
         "tytul": "List Ramińskiego (II) — aresztowanie Marka przez Bezpiekę",
         "data": "28.X.1946",
         "typ": "list",
@@ -5668,14 +5726,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Janusz Ramiński",
         "jezyk": "polski",
+        "nadawca": "Janusz Ramiński", "adresat": "Krzysztof Głuchowski", "miejsce_nadania": "Brownings Camp, Sussex", "droga_pocztowa": "droga przez Sussex (Ramiński, Brownings Camp)",
         "kontekst": "Jesień 1946. KLUCZOWE: aresztowanie Marka przez UB 9.IX.1946 — świadectwo represji. Apteka Wandy na Kruczej potwierdzona. 'P. Janusz i żona' = gen. Głuchowski z żoną w Sussex?",
         "powiazania": ["ARG/V/207a", "ARG/V/207c", "ARG/V/175", "ARG/V/182", "ARG/V/28"],
         "stan": "Dobry",
         "wycena": "500-1000 PLN"
     },
     {
-        "sygn": "ARG/V/207c",
-        "photo": "20260324_1822041488787664254964651_rot.jpg",
+        "sygn": "ARG/V/207c", "sygn_k": "ARG/V/K-039",
+        "photo": "originals_201_217/20260324_1822041488787664254964651_rot.jpg",
         "tytul": "List Ramińskiego (III) — apteka Wandy, deportacja do Rosji, ciotka Staśka",
         "data": "5.II.1947",
         "typ": "list",
@@ -5684,14 +5743,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Janusz Ramiński",
         "jezyk": "polski",
+        "nadawca": "Janusz Ramiński", "adresat": "Wanda Głuchowska (matka)", "droga_pocztowa": "droga przez Sussex (Ramiński, Brownings Camp)",
         "kontekst": "KLUCZOWY DOKUMENT — potwierdza: (1) aptekę Wandy na rogu Królewskiej i Hożej, (2) deportację Stanki do Rosji i obóz w Rembertowie, (3) odbudowę cukierni Pasankowskiego jako apteki. Apteka potwierdzona trzeci raz (V/175, 182, 207c).",
         "powiazania": ["ARG/V/207a", "ARG/V/207b", "ARG/V/175", "ARG/V/182", "ARG/V/177", "ARG/V/28"],
         "stan": "Dobry",
         "wycena": "600-1200 PLN"
     },
     {
-        "sygn": "ARG/V/208",
-        "photo": "20260324_1824362851036695023960408_rot.jpg",
+        "sygn": "ARG/V/208", "sygn_k": "ARG/V/K-040",
+        "photo": "originals_201_217/20260324_1824362851036695023960408_rot.jpg",
         "tytul": "List 'Czesława J.' z obozu w Walii — Abergavenny, Austriacy",
         "data": "19.I.1946",
         "typ": "list",
@@ -5700,6 +5760,7 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Czesław J. (nieustalony)",
         "jezyk": "polski",
+        "nadawca": "Czesław J. (nieustalony)", "adresat": "Krzysztof Głuchowski", "miejsce_nadania": "obóz jeniecki (Stalag)",
         "kontekst": "Styczeń 1946. Obóz w Walii z internowanymi — mieszany z Austriakami. 'Obaj Januszowie' = dwóch Januszów w kręgu. 'Wandy' = matka? '10' = powtarzający się kryptonim/żart w korespondencji.",
         "powiazania": ["ARG/V/207a", "ARG/V/206a"],
         "stan": "Dostateczny — drobne pismo",
@@ -5707,7 +5768,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/209a",
-        "photo": "20260324_1830495153922272646142757_rot.jpg",
+        "photo": "originals_201_217/20260324_1830495153922272646142757_rot.jpg",
         "tytul": "Pismo Koła b. Żołnierzy AK w Anglii (I) — weryfikacja, 99 Bolton Gardens",
         "data": "26.XI.1946",
         "typ": "dokument",
@@ -5723,7 +5784,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/209b",
-        "photo": "20260324_183114744385205056489880_rot.jpg",
+        "photo": "originals_201_217/20260324_183114744385205056489880_rot.jpg",
         "tytul": "Pismo Koła AK (II) — ponaglenie o weryfikację",
         "data": "7.XII.1946",
         "typ": "dokument",
@@ -5738,8 +5799,8 @@ OBJECTS = [
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/210",
-        "photo": "20260324_1846103943755353550147081_rot.jpg",
+        "sygn": "ARG/V/210", "sygn_k": "ARG/V/K-041",
+        "photo": "originals_201_217/20260324_1846103943755353550147081_rot.jpg",
         "tytul": "List Józka Szymczaka z Witley Camp — powstaniec z Powązek Dworcowych",
         "data": "30.X.1946",
         "typ": "list",
@@ -5748,14 +5809,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Józek Szymczak",
         "jezyk": "polski",
+        "nadawca": "Józek Szymczak", "adresat": "Krzysztof Głuchowski", "miejsce_nadania": "obóz jeniecki (Stalag)", "droga_pocztowa": "Kriegsgefangenenpost (poczta jenieckia z cenzurą)",
         "kontekst": "Powstaniec z Powązek Dworcowych, ranny, Stalag VII Markt-Pongau (Salzburg). Uwolniony 12.V.45 przez Amerykanów. 16 Pomorska Brygada Piech. Witley Camp = PKPR (Polski Komitet Przesiedleńczy). Byrek Żukowski przyjechał prosto z Polski w 1945.",
         "powiazania": ["ARG/V/203", "ARG/V/9", "ARG/V/6"],
         "stan": "Dobry",
         "wycena": "400-800 PLN"
     },
     {
-        "sygn": "ARG/V/211a",
-        "photo": "20260324_1931188855098837933167592_rot.jpg",
+        "sygn": "ARG/V/211a", "sygn_k": "ARG/V/K-042",
+        "photo": "originals_201_217/20260324_1931188855098837933167592_rot.jpg",
         "tytul": "List Krahelskiego 'Leszka' z CMF 153 — kursy motorowe, podchorążówka",
         "data": "9.VIII.1945",
         "typ": "list",
@@ -5764,14 +5826,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Krahelski Lech ('Leszek')",
         "jezyk": "polski",
+        "nadawca": "Krahelski Lech ('Leszek')", "adresat": "Krzysztof Głuchowski", "miejsce_nadania": "Włochy (CMF — Central Mediterranean Forces)", "droga_pocztowa": "poczta wojskowa (Polish Forces / CMF)",
         "kontekst": "Sierpień 1945, CMF 153. Krahelski = autor rysunku jelenia (V/211b). Bliski przyjaciel Krzysztofa. Miki, Totuś, Jurek Mayer, Marian — krąg towarzyski. Koperty Air Letter z Pocztą Polową 122, cenzura 564.",
         "powiazania": ["ARG/V/211b", "ARG/V/87", "ARG/V/203"],
         "stan": "Dobry",
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/211b",
-        "photo": "20260324_1949561247533166282117318_rot.jpg",
+        "sygn": "ARG/V/211b", "sygn_k": "ARG/V/K-043",
+        "photo": "originals_201_217/20260324_1949561247533166282117318_rot.jpg",
         "tytul": "List Krahelskiego z RYSUNKIEM JELENIA — symbol 7 P.Uł. Lubelskich",
         "data": "29.VII.1945",
         "typ": "list",
@@ -5780,14 +5843,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Krahelski Lech ('Leszek')",
         "jezyk": "polski",
+        "nadawca": "Krahelski Lech ('Leszek')", "adresat": "Krzysztof Głuchowski",
         "kontekst": "RYSUNEK JELENIA — symbol 7 Pułku Ułanów Lubelskich, narysowany z pamięci. Potwierdza przynależność do 7 P.Uł. (por. ARG/III/7, ARG/V/118). Koperta z cenzurą 564 i 'Written in polish' — wymóg brytyjski.",
         "powiazania": ["ARG/V/211a", "ARG/III/7", "ARG/V/118"],
         "stan": "Dobry — rysunek czytelny",
         "wycena": "500-1000 PLN"
     },
     {
-        "sygn": "ARG/V/212a",
-        "photo": "20260324_1938481997225877696633528_rot.jpg",
+        "sygn": "ARG/V/212a", "sygn_k": "ARG/V/K-044",
+        "photo": "originals_201_217/20260324_1938481997225877696633528_rot.jpg",
         "tytul": "List Jaśka Leoniuka z Troyes (I) — paczka, ul. Reina 33",
         "data": "12.IX.1945",
         "typ": "list",
@@ -5796,14 +5860,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Jasiek Leoniuk (= Krzysztof Bogdan Leoniuk)",
         "jezyk": "polski",
+        "nadawca": "Jasiek Leoniuk (= Krzysztof Bogdan Leoniuk)", "adresat": "rodzina / bliscy", "miejsce_nadania": "Troyes, Francja",
         "kontekst": "Wrzesień 1945, Troyes (Francja). Leoniuk pracuje z Jurkiem przy Amerykanach. Ul. Reina 33 = nieustalony adres w Troyes? Rachunek z Paryża — finanse żołnierskie.",
         "powiazania": ["ARG/V/212b", "ARG/V/201"],
         "stan": "Dostateczny — ołówek, blady",
         "wycena": "200-400 PLN"
     },
     {
-        "sygn": "ARG/V/212b",
-        "photo": "20260324_194747769693003963708055_rot.jpg",
+        "sygn": "ARG/V/212b", "sygn_k": "ARG/V/K-045",
+        "photo": "originals_201_217/20260324_194747769693003963708055_rot.jpg",
         "tytul": "List Jaśka Leoniuka z Troyes (II) — paczka z ubraniami, 2000 fr.",
         "data": "15.IX.1945",
         "typ": "list",
@@ -5812,14 +5877,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Jasiek Leoniuk",
         "jezyk": "polski",
+        "nadawca": "Jasiek Leoniuk", "adresat": "Krzysztof Głuchowski", "miejsce_nadania": "Troyes, Francja",
         "kontekst": "Dokumentuje warunki materialne — ceny ubrań we Francji 1945. 2000 fr. za paczkę, 700 fr. za spodnie. Bogdan = pośrednik finansowy.",
         "powiazania": ["ARG/V/212a"],
         "stan": "Dostateczny",
         "wycena": "200-400 PLN"
     },
     {
-        "sygn": "ARG/V/213a",
-        "photo": "20260324_1847475149231012056091582_rot.jpg",
+        "sygn": "ARG/V/213a", "sygn_k": "ARG/V/K-046",
+        "photo": "originals_201_217/20260324_1847475149231012056091582_rot.jpg",
         "tytul": "List Tudka z High Wycombe — niewola pod Wiedniem i Berlinem",
         "data": "3.II.1947",
         "typ": "list",
@@ -5828,14 +5894,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Tudek (Tadeusz?)",
         "jezyk": "polski",
+        "nadawca": "Tudek (Tadeusz?)", "adresat": "Krzysztof Głuchowski", "miejsce_nadania": "High Wycombe",
         "kontekst": "Luty 1947. Tudek — służba 1939-1944, niewola niemiecka (Wiedeń → Berlin), uwolniony 25.IV.1945. WP piechota pod Taranto. High Wycombe = obóz demobilizacyjny k. Londynu. Ten sam Tudek co w V/213b (Sudbury).",
         "powiazania": ["ARG/V/213b", "ARG/V/203", "ARG/V/210"],
         "stan": "Dobry",
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/213b",
-        "photo": "20260324_1848331174709311799573626_rot.jpg",
+        "sygn": "ARG/V/213b", "sygn_k": "ARG/V/K-047",
+        "photo": "originals_201_217/20260324_1848331174709311799573626_rot.jpg",
         "tytul": "List Tudka z Sudbury — PKPR, R.A.S.T., 120 warszawiaków, Cambridge",
         "data": "29.II.1949",
         "typ": "list",
@@ -5844,14 +5911,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Tudek (Tadeusz?)",
         "jezyk": "polski",
+        "nadawca": "Tudek (Tadeusz?)", "adresat": "Krzysztof Głuchowski", "miejsce_nadania": "Sudbury",
         "kontekst": "Luty 1949. PKPR = Polski Komitet Przesiedleńczy. R.A.S.T. = obóz/organizacja z 120 warszawiakami. Cambridge — możliwość nauki. Data 29.II.1949 problematyczna (1949 nie jest przestępny) — prawdopodobnie 28.II.1949.",
         "powiazania": ["ARG/V/213a", "ARG/V/210"],
         "stan": "Dobry",
         "wycena": "200-400 PLN"
     },
     {
-        "sygn": "ARG/V/214",
-        "photo": "20260324_1944201555232293354009694_rot.jpg",
+        "sygn": "ARG/V/214", "sygn_k": "ARG/V/K-048",
+        "photo": "originals_201_217/20260324_1944201555232293354009694_rot.jpg",
         "tytul": "List pośrednika z Bodney (I) — list polecony od Mamusi",
         "data": "9.II.1947",
         "typ": "list",
@@ -5860,14 +5928,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "nieustalony (pośrednik z Bodney)",
         "jezyk": "polski",
+        "nadawca": "nieustalony (pośrednik z Bodney)", "adresat": "Krzysztof Głuchowski", "miejsce_nadania": "Bodney Airfield, Norfolk",
         "kontekst": "Luty 1947. Krzysztof nie jest już na Bodney — ktoś przesyła mu listy. Listy od Wandy nadal przychodzą na stary adres (Bodney). Pośrednik otwiera koperty — humorystyczny dylemat.",
         "powiazania": ["ARG/V/215", "ARG/V/175", "ARG/V/87"],
         "stan": "Dobry",
         "wycena": "200-400 PLN"
     },
     {
-        "sygn": "ARG/V/215",
-        "photo": "20260324_1944532316727053919767412_rot.jpg",
+        "sygn": "ARG/V/215", "sygn_k": "ARG/V/K-049",
+        "photo": "originals_201_217/20260324_1944532316727053919767412_rot.jpg",
         "tytul": "List pośrednika z Bodney (II) — stypendium Erentz, kondolencje/gratulacje",
         "data": "13.IX.1947",
         "typ": "list",
@@ -5876,14 +5945,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "nieustalony (pośrednik z Bodney)",
         "jezyk": "polski",
+        "nadawca": "nieustalony (pośrednik z Bodney)", "adresat": "Krzysztof Głuchowski", "miejsce_nadania": "Bodney Airfield, Norfolk",
         "kontekst": "Wrzesień 1947. Stypendium Erentz przyznane Krzysztofowi. Labour Exchange 806 = zaświadczenie o pracy (demobilizacja). Humor żołnierski: 'kondolencje z okazji urodzenia córki' + 'trupem nie jestem'.",
         "powiazania": ["ARG/V/214", "ARG/V/175"],
         "stan": "Dobry",
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/216a",
-        "photo": "20260324_1951432003337347692313312_rot.jpg",
+        "sygn": "ARG/V/216a", "sygn_k": "ARG/V/K-050",
+        "photo": "originals_201_217/20260324_1951432003337347692313312_rot.jpg",
         "tytul": "List Dębskiego 'Koniusia' — mundury, adres Keresley Hostel",
         "data": "ok. IX.1947",
         "typ": "list",
@@ -5892,14 +5962,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "M.P.R. Dębski ('Koniuś')",
         "jezyk": "polski",
+        "nadawca": "M.P.R. Dębski ('Koniuś')", "adresat": "Krzysztof Głuchowski",
         "kontekst": "IDENTYFIKACJA: Koniuś = M.P.R. (Justin Piotr Robert) Dębski. Demobilizacja — żołnierze dostają mundury cywilne. Humor: 'przeklina na czym świat stoi'. Keresley Hostel, Coventry = obóz przesiedleńczy.",
         "powiazania": ["ARG/V/216b", "ARG/V/218a"],
         "stan": "Dobry",
         "wycena": "200-400 PLN"
     },
     {
-        "sygn": "ARG/V/216b",
-        "photo": "20260324_1943446872492370937293977_rot.jpg",
+        "sygn": "ARG/V/216b", "sygn_k": "ARG/V/K-051",
+        "photo": "originals_201_217/20260324_1943446872492370937293977_rot.jpg",
         "tytul": "List Mariana — zjazd, 11 5 KDP, Lucy",
         "data": "ok. 1947",
         "typ": "list",
@@ -5908,14 +5979,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Marian (= Dębski?)",
         "jezyk": "polski",
+        "nadawca": "Marian (= Dębski?)", "adresat": "Krzysztof Głuchowski",
         "kontekst": "Zjazd kombatancki 11 5 KDP. 'Marian' = prawdopodobnie Dębski pisujący pod drugim imieniem. Lucy = znajoma.",
         "powiazania": ["ARG/V/216a", "ARG/V/218a"],
         "stan": "Dobry",
         "wycena": "200-400 PLN"
     },
     {
-        "sygn": "ARG/V/217",
-        "photo": "20260324_202251559105698915618559_rot.jpg",
+        "sygn": "ARG/V/217", "sygn_k": "ARG/V/K-052",
+        "photo": "originals_201_217/20260324_202251559105698915618559_rot.jpg",
         "tytul": "Notatka Wandy (matki) — 'Kochany mój drogi Krzysztofku'",
         "data": "ok. 1946-1947",
         "typ": "list",
@@ -5924,14 +5996,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Wanda Głuchowska",
         "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska", "adresat": "Wanda Głuchowska (matka)",
         "kontekst": "Notatka matki, prawdopodobnie dołączona do listu przesłanego przez pośrednika (V/214). Wanda cieszy się z nauki syna, wspomina Janusza (gen. Głuchowskiego), prosi by 'trzymali się razem'. Poruszający, osobisty dokument rozłąki rodzinnej.",
         "powiazania": ["ARG/V/175", "ARG/V/177", "ARG/V/214", "ARG/V/5"],
         "stan": "Dobry — mały skrawek, czytelny",
         "wycena": "500-1000 PLN"
     },
     {
-        "sygn": "ARG/V/218a",
-        "photo": "20260324_195422208538623440374049_rot.jpg",
+        "sygn": "ARG/V/218a", "sygn_k": "ARG/V/K-053",
+        "photo": "originals_201_217/20260324_195422208538623440374049_rot.jpg",
         "tytul": "List Dębskiego z Coventry (I) — Constructional Engineers, zarobki",
         "data": "27.IX.1947",
         "typ": "list",
@@ -5940,14 +6013,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "M.P.R. Dębski ('Koniuś' / 'Marian')",
         "jezyk": "polski",
+        "nadawca": "M.P.R. Dębski ('Koniuś' / 'Marian')", "adresat": "Krzysztof Głuchowski", "miejsce_nadania": "Coventry",
         "kontekst": "Wrzesień 1947. Dębski po demobilizacji pracuje fizycznie w Coventry (Constructional Engineers). Zarobki 4-6-2 tygodniowo = ok. 4 funty 6 szylingów. Dokument warunków ekonomicznych polskich emigrantów.",
         "powiazania": ["ARG/V/216a", "ARG/V/218b", "ARG/V/218c", "ARG/V/218d"],
         "stan": "Dobry",
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/218b",
-        "photo": "20260324_2013095723694821932849249_rot.jpg",
+        "sygn": "ARG/V/218b", "sygn_k": "ARG/V/K-054",
+        "photo": "originals_201_217/20260324_2013095723694821932849249_rot.jpg",
         "tytul": "List Dębskiego z Coventry (II) — 'materyjał na to i na owszem'",
         "data": "22.X.1947",
         "typ": "list",
@@ -5956,14 +6030,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "M.P.R. Dębski ('Koniuś')",
         "jezyk": "polski",
+        "nadawca": "M.P.R. Dębski ('Koniuś')", "adresat": "Krzysztof Głuchowski", "miejsce_nadania": "Coventry",
         "kontekst": "Październik 1947. Humor żołnierski — 'na to i na owszem'. Dębski adaptuje się do życia cywilnego.",
         "powiazania": ["ARG/V/218a", "ARG/V/218c"],
         "stan": "Dobry",
         "wycena": "200-400 PLN"
     },
     {
-        "sygn": "ARG/V/218c",
-        "photo": "20260324_2014558418007150941536046_rot.jpg",
+        "sygn": "ARG/V/218c", "sygn_k": "ARG/V/K-055",
+        "photo": "originals_201_217/20260324_2014558418007150941536046_rot.jpg",
         "tytul": "List Dębskiego z Coventry (III) — Krzysztof 'zapisał się do kasarni', Maryla Czechowiczówna",
         "data": "26.X.1947",
         "typ": "list",
@@ -5972,14 +6047,15 @@ OBJECTS = [
         "seria": "V",
         "tworca": "M.P.R. Dębski ('Koniuś' / 'Marian')",
         "jezyk": "polski",
+        "nadawca": "M.P.R. Dębski ('Koniuś' / 'Marian')", "adresat": "Krzysztof Głuchowski", "miejsce_nadania": "Coventry",
         "kontekst": "Październik 1947. WAŻNY ADRES: Czechowiczówna Maryla, Warszawa, ul. Chełmska 12 m 15 — książka do chemii wysyłana do Polski. Pośrednictwo Krzysztofa w kontaktach emigracja→Warszawa.",
         "powiazania": ["ARG/V/218a", "ARG/V/218b", "ARG/V/218d"],
         "stan": "Dobry",
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/218d",
-        "photo": "20260324_2019567151651057515116939_rot.jpg",
+        "sygn": "ARG/V/218d", "sygn_k": "ARG/V/K-056",
+        "photo": "originals_201_217/20260324_2019567151651057515116939_rot.jpg",
         "tytul": "List Dębskiego z Coventry (IV) — Koło AK, Jurci Fiodorow, Lucy, Kanter",
         "data": "30.XI.1947",
         "typ": "list",
@@ -5988,6 +6064,7 @@ OBJECTS = [
         "seria": "V",
         "tworca": "M.P.R. Dębski ('Koniuś' / 'Marian')",
         "jezyk": "polski",
+        "nadawca": "M.P.R. Dębski ('Koniuś' / 'Marian')", "adresat": "Krzysztof Głuchowski", "miejsce_nadania": "Coventry",
         "kontekst": "Listopad 1947. Ostatni list Dębskiego w teczce. Krąg: Kanter, Danusia, Lucy, Lenko, Jolund, Marek (z płytami!). Jurci Fiodorow = rosyjski arystokrata z kieleckiego — koloryt emigracji. Dębski aktywny w Kole AK.",
         "powiazania": ["ARG/V/218a", "ARG/V/218b", "ARG/V/218c", "ARG/V/209a"],
         "stan": "Dobry",
@@ -5995,7 +6072,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/219",
-        "photo": "20260324_1951557834011221288322562_rot.jpg",
+        "photo": "originals_201_217/20260324_1951557834011221288322562_rot.jpg",
         "tytul": "Notatka — stypendium, posada w ambasadzie, zegareczek",
         "data": "ok. 1947",
         "typ": "notatka",
@@ -6010,8 +6087,8 @@ OBJECTS = [
         "wycena": "200-400 PLN"
     },
     {
-        "sygn": "ARG/V/220",
-        "photo": "20260324_2017411238673017510091570_rot.jpg",
+        "sygn": "ARG/V/220", "sygn_k": "ARG/V/K-057",
+        "photo": "originals_201_217/20260324_2017411238673017510091570_rot.jpg",
         "tytul": "TELEGRAM na 21. urodziny Krzysztofa — Marian + C, Keresley/Walthamstow",
         "data": "ok. XI.1950",
         "typ": "telegram",
@@ -6020,6 +6097,7 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Marian Dębski ('Koniuś') + C",
         "jezyk": "polski (transliteracja telegraficzna)",
+        "nadawca": "Marian Dębski ('Koniuś') + C", "adresat": "Krzysztof Głuchowski", "miejsce_nadania": "Londyn",
         "kontekst": "KLUCZOWY DOKUMENT: (1) 21. urodziny Krzysztofa → ur. ok. XI.1929. (2) Nowy adres: c/o Mrs Whittle, 12 Kenilworth Ave, Walthamstow, London E 17. (3) Nadawca z Keresley = Dębski z Coventry. (4) 'C' = żona/partnerka Mariana. Telegram jako forma — rzadkość w kolekcji.",
         "powiazania": ["ARG/V/218a", "ARG/V/216a"],
         "stan": "Dobry — formularz czytelny",
@@ -6027,7 +6105,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/221",
-        "photo": "20260324_2025263641023544026398253_rot.jpg",
+        "photo": "originals_201_217/20260324_2025263641023544026398253_rot.jpg",
         "tytul": "Okładka teczki — 'WCZESNE LISTY 1946'",
         "data": "b.d.",
         "typ": "teczka",
@@ -6040,6 +6118,246 @@ OBJECTS = [
         "powiazania": ["ARG/V/201", "ARG/V/220"],
         "stan": "Dobry",
         "wycena": "100-200 PLN"
+    },
+    # ── Listy Wandy 1946-1948 (listy_wanda_2.pdf, V/222-238) ──
+    # Opisy profesjonalne ISAD(G)/Dublin Core — CC ◈, 29.III.2026
+    {
+        "sygn": "ARG/V/222", "sygn_k": "ARG/V/K-058", "tytul": "'Synku Malutki!' — najkrótszy liścik Wandy",
+        "data": "b.d. [ok. I-III.1947]", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p9.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "konspiracyjna — droga paryska (Goldman) lub bezpośrednia",
+        "opis_fizyczny": "1 kartka, pismo odręczne Wandy — pochyłe, drobne. Atrament niebieski. Papier pożółkły. Bez koperty. Podpis: 'Wawa'.",
+        "opis_tresci": "Najkrótszy list w całym zbiorze — zaledwie kilka zdań. Wanda potwierdza odbiór dwóch listów od syna: 'Dostałam dwa Twoje listy, dzień po dniu.' Obiecuje odpowiedź 'w najbliższych dniach'. Kończy: 'a dziś do serca Cię tulę'. Zdrobnienie 'Synku Malutki' — najczulsze ze wszystkich zwrotów Wandy.",
+        "kontekst": "Datowanie przybliżone na podstawie pozycji w zbiorze i kontekstu (po nawiązaniu regularnej korespondencji). Liścik pisany w pośpiechu — Wanda prowadzi aptekę na Kruczej/Hożej, czas jest luksusem. Droga konspiracyjna nieustalona.",
+        "powiazania": ["ARG/V/175", "ARG/V/226", "ARG/V/183"],
+        "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "500-1000 PLN"
+    },
+    {
+        "sygn": "ARG/V/223", "sygn_k": "ARG/V/K-059", "tytul": "Kartka Wandy — 'Pisz koniecznie na adres paryski'",
+        "data": "ok. 20.-.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p10.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "konspiracyjna — droga paryska (Goldman) lub bezpośrednia",
+        "opis_fizyczny": "1 kartka dwustronnie, pismo odręczne Wandy. Atrament niebieski. Na odwrocie adres: 'Krzysztof Głuchowski, 25 Bodney Airfield P/105, Thetford — Norfolk'. Nagłówek: 'Młody Głuchowski, wizje p. Janowy dn. 20/- 47'. Podpis: 'Wawa'.",
+        "opis_tresci": "Krótka kartka — Wanda czeka na wiadomości. Prosi syna: 'Pisz koniecznie na adres paryski.' Pyta o przesyłkę. Informacja o stanie spraw: 'U nas bez zmian.' Adres na odwrocie potwierdza lokalizację syna: Bodney Airfield, baza RAF w Norfolk.",
+        "kontekst": "Datowanie z nagłówka: '20/- 47' — dzień 20., miesiąc nieczytelny, rok 1947. Adres paryski = droga przez Goldmana (1 rue du Docteur Labbé, Paris 20e). Bodney Airfield — baza RAF używana przez Polish Resettlement Corps po wojnie.",
+        "powiazania": ["ARG/V/174", "ARG/V/175", "ARG/V/182"],
+        "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "400-800 PLN"
+    },
+    {
+        "sygn": "ARG/V/224", "sygn_k": "ARG/V/K-060", "tytul": "List Wandy — antresola apteki: meble, radio, życie codzienne",
+        "data": "13.I.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p12.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "konspiracyjna — nieustalona (prawdop. droga paryska lub genewska)",
+        "opis_fizyczny": "2 strony, pismo odręczne Wandy. Atrament niebieski. Papier w linie. Data: 'W-wa 13.I.1947 r.' Podpis: 'Wawa'.",
+        "opis_tresci": "List o życiu codziennym na antresoli apteki. Wanda opisuje umeblowanie: 'dwa spania, stolik okrągły, 2 kresła, lustro, dywanik' — a ostatnio radio i 'dwie śliczne przysułki'. Wspomina list od Sofki, chce wysłać zdjęcia. Na Żoliborzu 'zjechało aż 5-iu panów' — Szumark, Patek, trzej Korbolscy. Paniunk upadł i złamał obie ręce 'i pękła aż w 4-ech miejscach'.",
+        "kontekst": "Styczeń 1947. Antresola apteki na rogu Kruczej i Hożej (dawna cukiernia Paciorkowskiego) — Wanda mieszka i pracuje w jednym miejscu. Urządzanie antresoli — stopniowe przywracanie normalności po obozie w Rembertowie. Wymienieni Szumark, Patek, Korbolscy — prawdopodobnie sąsiedzi z Żoliborza wracający po wojnie.",
+        "powiazania": ["ARG/V/175", "ARG/V/207c", "ARG/V/220", "ARG/V/228"],
+        "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "600-1200 PLN"
+    },
+    {
+        "sygn": "ARG/V/225", "sygn_k": "ARG/V/K-061", "tytul": "List Wandy — przed Świętami, rady o kontaktach",
+        "data": "19.XII.1946", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p14.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "konspiracyjna — nieustalona (prawdop. droga paryska lub genewska)",
+        "opis_fizyczny": "2 strony, pismo odręczne Wandy. Atrament niebieski. Data: 'W. 19.XII.46 r.' Podpis: 'Ściskam mocno, mocno Twoja matka'.",
+        "opis_tresci": "Najwcześniejszy list w zbiorze 2 — grudzień 1946. Wanda wyjeżdża z Warszawy z Wandą S.: do Marysi R. w Leśniarówce, potem Wrocław i Łódź. Rady o Malku: 'staraj się go skommunikować z Bronkiem — przecie byli w wielkiej przyjaźni.' Pyta o paczki. Prosi o naklejenie znaczka na kalendarzyk — 'bo mi kleja zabrakło'. O rodzinie Klendjana: 'możesz mieć do nich zaufanie'.",
+        "kontekst": "19 grudnia 1946 — 5 dni przed Wigilią. Seria wyjazdów: Leśniarówka (Marysia R.), Wrocław, Łódź. Porównaj: Wigilia Krzysztofa (ARG/V/76-79) pisana tego samego tygodnia. Wanda i syn piszą do siebie nie wiedząc nawzajem o swoich listach. Malek, Bronek — prawdopodobnie kuzyni lub przyjaciele z Żoliborza.",
+        "powiazania": ["ARG/V/76", "ARG/V/177", "ARG/V/182"],
+        "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "600-1200 PLN"
+    },
+    {
+        "sygn": "ARG/V/226", "sygn_k": "ARG/V/K-062", "tytul": "'Jesteś jedyną wygraną w moim życiu' — list Wandy",
+        "data": "9.III.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p16.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "konspiracyjna — nieustalona (prawdop. droga paryska lub genewska)",
+        "opis_fizyczny": "2 strony, pismo odręczne Wandy — emocjonalne, miejscami niestaranne. Atrament niebieski. Data: 'W. 9/III 47r.' Podpis: 'Wawa'.",
+        "opis_tresci": "Najemocjonalniejszy list w zbiorze. Wanda wyznaje: 'Jesteś jedyną wygraną pozycją w moim życiu i to wygraną podwójnie, bo po pierwne to że wogóle istniejesz, a po drugie że powstanie czy inne katastrofy nie zabrało mi Ciebie.' Nie chce wychodzić z apteki — boi się, że list od syna przyjdzie pod jej nieobecność. Spotyka na ulicy panią z synem pod rękę: 'wprost fizycznie poczułam zazdrość'.",
+        "kontekst": "9 marca 1947. Kluczowy list dla artykułu o DYSK — głos matki-żołnierza. Wanda (sierż. pchor. Kedyw AK) nie pisze jako kombatantka lecz jako matka, która straciła prawie wszystkich. Porównaj V/177: 'prawie wszyscy wyginęli'. 'Jedyna wygrana' — syn Krzysztof jest jedynym co jej zostało z przedwojennego życia.",
+        "powiazania": ["ARG/V/175", "ARG/V/177", "ARG/V/183", "ARG/V/231"],
+        "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "800-2000 PLN"
+    },
+    {
+        "sygn": "ARG/V/227", "sygn_k": "ARG/V/K-063", "tytul": "List Wandy — surowa zima, mrozy, znaczki dla syna",
+        "data": "10.II.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p18.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "konspiracyjna — nieustalona (prawdop. droga paryska lub genewska)",
+        "opis_fizyczny": "2 strony (dwa fragmenty, prawdopodobnie różne daty), pismo odręczne Wandy. Atrament niebieski. Data: 'W-wa 10/II -47'. Podpis: 'Wawa'.",
+        "opis_tresci": "Dwa fragmenty listowe. Pierwszy: prośba o częstsze pisanie, 'straszne mrozy', pytanie o moskotki wysłane lotem przez Szwedów. Drugi: martwi się o zimno w Norfolk, 'u nas wielkie mrozy ale węgla jest dość'. Dwudniowe zamknięcie apteki — Wanda utknęła w Łodzi, pociągi i autobusy nie kursowały. Posyła znaczki i zdjęcia ze ślubu Adasia (nadleśniczy w Ostromecku koło Torunia). Prosi: 'nie jedź do Argentyny'.",
+        "kontekst": "Luty 1947 — najsroższa zima stulecia w Europie. Paraliż komunikacyjny potwierdza się historycznie. Apteka zamknięta 2 dni = strata dochodu. Moskotki lotem przez Szwedów — droga sztokholmska (Grafowa). Argentyna — syn rozważa emigrację, matka jest przeciwna.",
+        "powiazania": ["ARG/V/220", "ARG/V/236", "ARG/V/234"],
+        "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "600-1200 PLN"
+    },
+    {
+        "sygn": "ARG/V/228", "sygn_k": "ARG/V/K-064", "tytul": "List Wandy 4 strony — zniszczenia domu, fotografie, meble",
+        "data": "19.II.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p20.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "konspiracyjna lub bezpośrednia poczta anglo-polska",
+        "opis_fizyczny": "4 strony (najdłuższy w okresie II.1947), pismo odręczne Wandy. Atrament niebieski. Data: 'W. 19/II 47r.' Podpis: 'Wawa'.",
+        "opis_tresci": "Najdłuższy list z lutego. Wanda wylicza 5 listów od syna z datami. Inwentaryzacja zniszczeń domu na Żoliborzu: dach zerwany, woda zalewała skrzynie z fotografiami — 'zdjęć się naliniarlo w opłakanym stanie'. Ocalały meble: fotel mahoniowy, sofka. Stracone: porcelana, garderoba, rzeczy osobiste, biblioteka Krzysztofa. O okresie więzienia: 'kiedy ja jeszcze byłam w więzieniu (7 miesięcy)' — Wanda po raz pierwszy wspomina uwięzienie. Ciotka Halenka podpisała umowę w jej nieobecności.",
+        "kontekst": "Kluczowy list dla dokumentacji strat wojennych. '7 miesięcy' więzienia — nowy szczegół chronologiczny (nie podany w V/207c). Dach zerwany po Powstaniu, zniszczone fotografie rodzinne — nieodwracalne straty. Dom na Żoliborzu = dom przedwojenny Głuchowskich. Porównaj V/207c (Ramiński potwierdza aresztowanie).",
+        "powiazania": ["ARG/V/207c", "ARG/V/175", "ARG/V/177", "ARG/V/224"],
+        "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "800-2000 PLN"
+    },
+    {
+        "sygn": "ARG/V/229", "sygn_k": "ARG/V/K-065", "tytul": "List Wandy — BBC o Polakach, krawaty jedwabne, Argentyna",
+        "data": "18.III.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p25.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "konspiracyjna lub bezpośrednia poczta anglo-polska",
+        "opis_fizyczny": "3-4 strony, pismo odręczne Wandy. Atrament niebieski. Data: 'W. 18/III.47r.' Podpis: 'Tulę Cię Synku do serca i mocno całuję Wawa'.",
+        "opis_tresci": "BBC informuje o losie Polaków z Polish Resettlement Corps. Wanda nie rozumie planów syna: 'co skłania Cię do tego żeby jechać w tak daleki świat'. Prosi o uregulowanie metryk w 'naszej placówce'. Kombinuje z przesyłaniem pieniędzy. Wymienia towary na sprzedaż: krawaty z milanowskiego jedwabiu, szaliki, chusteczki, kapcie, 'piękny wron ręcznie malowany'. Radzi kontaktować się z Kłodkiem — 'on ma rodzinę w Anglji'. O Stefku — syn decyduje się wrócić do kraju: 'los tych wszystkich emigrantów — lepiej być z nami'.",
+        "kontekst": "18 marca 1947. BBC World Service jako jedyne źródło informacji w powojennej Polsce. Wanda-farmaceutka staje się Wandą-handlarką: jedwab milanowski, ręczne malunki — barter i handel jako strategia przetrwania. Krawaty na eksport do Anglii — konspiracyjna poczta służy też do przesyłania towarów.",
+        "powiazania": ["ARG/V/175", "ARG/V/236", "ARG/V/174", "ARG/V/230"],
+        "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "600-1500 PLN"
+    },
+    {
+        "sygn": "ARG/V/230", "sygn_k": "ARG/V/K-066", "tytul": "List Wandy — pytania o dziewczyny, apteka, ekshumacje na Skaryszewskiej",
+        "data": "ok. III-IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p29.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "konspiracyjna lub bezpośrednia poczta anglo-polska",
+        "opis_fizyczny": "3-4 strony, pismo odręczne Wandy. Atrament niebieski. Data: '[19.IV.47r.]' na końcu fragmentu. Podpis: 'Wawa'.",
+        "opis_tresci": "Matka pyta o życie uczuciowe 20-latka: 'korespondujez z czterema Dziewczynkami — napisz mi jakie i kto one'. Przyznaje: 'chciałabym jak najdalej ten moment odsunąć'. O aptece: 'b. b. przyjemna, jasna i zupełnie estetycznie, i b. ją lubię'. Antresola: 'b. przyjemna i jest mi tu b. dobrze'. Spotkała pp. Piałkow i Violett w teatrze — Violett straciła matkę, dom rozbity. Na Skaryszewskiej 'powoleli zaczynają się ekshumacje'. Posyła 2 chusteczki z czystego jedwabiu, milanówek, 'ręczne malowanie, cena 1 sztuki 400 zł'.",
+        "kontekst": "Wielowątkowy list: życie uczuciowe syna, apteka, teatr (Warszawa wraca do życia kulturalnego), ekshumacje na Skaryszewskiej (ofiary Powstania). Jedwabne chusteczki z cenami — Wanda organizuje handel na odległość. Apteka opisana pozytywnie — kontrast z V/228 (zniszczenia domu).",
+        "powiazania": ["ARG/V/224", "ARG/V/226", "ARG/V/229", "ARG/V/235"],
+        "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "600-1500 PLN"
+    },
+    {
+        "sygn": "ARG/V/231", "sygn_k": "ARG/V/K-067", "tytul": "'Pierwszy ślad że żyjesz' — jak Wanda szukała syna",
+        "data": "30.III.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p34.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "konspiracyjna lub bezpośrednia poczta anglo-polska",
+        "opis_fizyczny": "3-4 strony, pismo odręczne Wandy. Atrament niebieski. Data: 'W. 30/III 47r.' Podpis: 'Wawa'.",
+        "opis_tresci": "List o poszukiwaniu syna po wojnie. 'Jakiś rok temu był na Żoliborzu jakiś chłopiec' — opowiadał że Krzysztof był 'bardzo zdepresjonowany' (okres francuski). Potem Wanda 'spotkałam jedną panią która była sekretarką w Grenobli' — ta potwierdziła że nazwisko Krzysztofa było na liście uczniów Gimnazjum. 'To był pierwszy ślad że żyjesz.' Wanda patrzy na fotografie syna: 'masz b. smutny wyraz twarzy — martui mnie to bardzo'. Posyła adres p. Kirkora (stypendia) i Bronisława Cherpińskiego (prezes związku Polaków). Samokrytyka matki: 'nie Ciebie, a siebie winię'.",
+        "kontekst": "Kluczowy list — jedyny opis procesu szukania. Rok ciszy (IX.1944-VIII.1946), potem strzępy informacji: chłopiec na Żoliborzu, sekretarka z Grenobla. Grenobla = szkoła polska we Francji (liceum 3 DSK). 'Pierwszy ślad' = przełom po 2 latach niepewności. Kirkor, Cherpiński — emigracyjne struktury stypendialne.",
+        "powiazania": ["ARG/V/175", "ARG/V/177", "ARG/V/226", "ARG/V/6"],
+        "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "1000-2500 PLN"
+    },
+    {
+        "sygn": "ARG/V/232", "sygn_k": "ARG/V/K-068", "tytul": "Życzenia wielkanocne Wandy — 'znów jesteśmy daleko'",
+        "data": "31.III.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p38.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "bezpośrednia poczta anglo-polska (od wiosny 1947)",
+        "opis_fizyczny": "1 kartka + dopisek, pismo odręczne Wandy. Atrament niebieski. Data: 'W 31/III 47r.' Podpis: 'Mocno mocno całuję Cię i tulę do sana' + 'Wawa'.",
+        "opis_tresci": "Życzenia wielkanocne. 'Święta się zbliżają i znów jesteśmy daleko od Siebie.' Pisane 'znów tylko w pośpiechu'. Dopisek po kresce: pytania o zakupy ojca i drogę przesyłki. Prośba o kontakt ze Stefkiem. Drugie Święta z rzędu bez syna — pierwsze (Boże Narodzenie 1946) opisane w V/76-79 i V/182.",
+        "kontekst": "Wielkanoc 1947 wypada 6 kwietnia. List pisany tydzień wcześniej — Wanda się spieszy. Porównaj V/76-79 (Wigilia 1946): 'Myślami jesteśmy wszyscy troje razem'. Teraz — rezygnacja: 'znów daleko'. Ojciec Stefan wraca do Polski z niewoli/emigracji (nie wpuszczono go do Anglii).",
+        "powiazania": ["ARG/V/76", "ARG/V/182", "ARG/V/233", "ARG/V/234"],
+        "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "500-1000 PLN"
+    },
+    {
+        "sygn": "ARG/V/233", "sygn_k": "ARG/V/K-069", "tytul": "List Wandy z Wielkiego Piątku — Józek konserwator, medale",
+        "data": "4.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p40.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "bezpośrednia poczta anglo-polska (od wiosny 1947)",
+        "opis_fizyczny": "2 strony, pismo odręczne Wandy. Atrament niebieski. Data: 'Warszawa, 4/IV.47r.' (Wielki Piątek). Podpis: 'Wawa'.",
+        "opis_tresci": "Wielki Piątek 1947. Stanelka z rodziną wyjechała do Kożnicy na 2 miesiące (doktor Hance zalecił). Józek — konserwator rynku w Kazimierzu z ramienia ministerstwa. Kilka dni w Warszawie, zatrucie: 'ugotowało się zupy z pomidorów z paszki amerykańskiej' — prawie stracił przytomność. Możliwe pozwolenie na wysyłkę medali: 'Majdanek', 'Bolesław Chrobry' i plakietka — 'robione jeszcze w okresie okupacji niemieckiej'. Wanda posyła baraneczka wielkanocnego.",
+        "kontekst": "Józek = prawdopodobnie Józef, kuzyn lub przyjaciel, artysta-konserwator w Kazimierzu Dolnym. Medale robione w okresie okupacji — unikatowe dzieła konspiracyjnej sztuki medalierskiej. 'Majdanek' — medal upamiętniający obóz, tworzony jeszcze pod okupacją. Paczki amerykańskie (UNRRA) — standard żywnościowy powojennej Polski.",
+        "powiazania": ["ARG/V/232", "ARG/V/234", "ARG/V/224"],
+        "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "600-1200 PLN"
+    },
+    {
+        "sygn": "ARG/V/234", "sygn_k": "ARG/V/K-070", "tytul": "List Wandy z Łodzi — Wielkanoc, kąpiel jako luksus, Powązki",
+        "data": "8-9.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p42.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "bezpośrednia poczta anglo-polska (od wiosny 1947)",
+        "opis_fizyczny": "2 strony, pismo odręczne Wandy, dwie daty: 'Łódź 8.IV.47r.' i '9/IV'. Atrament niebieski. Podpis: 'Wawa'. Dopisek o znaczkach na końcu.",
+        "opis_tresci": "Wielkanoc w Łodzi u rodziny. 'Był i baranek i babki i wiśodek' — ale 'nas była taka mała garstka'. Włodeczek ogląda medale Józka — 'b. mu się podobały'. Włodek w przyjaźni z dyrektorem mennicy p. Toleckim (numizmatyka). Ludka chora — 'położenie beznadziejne'. Prezent od Ewy: 'przygotowała wannę gorącej wody i wykąpałam się' — kąpiel jako wielki luksus. 9 kwietnia — powrót autobusem do Warszawy. Na Powązkach (imieniny Babci) Wanda stawia 'z myślą o Tobie niebieską cynerarię'. Pytanie: 'jakie Ty marki zbierasz — stemplowane czy niestemplowane?'",
+        "kontekst": "Wielkanoc 1947 (6.IV). Kąpiel w wannie jako luksus — dokumentuje realia powojennej Polski (brak ciepłej wody, brak opału). Powązki z myślą o synu — grób babci łączy pokolenia. Cyneraria (Senecio cineraria) — symbolika pamięci. Włodek i mennica — koneksje numizmatyczne.",
+        "powiazania": ["ARG/V/232", "ARG/V/233", "ARG/V/227"],
+        "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "600-1500 PLN"
+    },
+    {
+        "sygn": "ARG/V/235", "sygn_k": "ARG/V/K-071", "tytul": "List Wandy — życzenia imieninowe, 'jak dowiedziałam się że żyjesz'",
+        "data": "11-13.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p46.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "bezpośrednia poczta anglo-polska (od wiosny 1947)",
+        "opis_fizyczny": "3 strony, pismo odręczne Wandy, trzy daty: '11/IV 1947r.', '12/IV', '13/IV'. Atrament niebieski. Podpis: 'Wawa'.",
+        "opis_tresci": "Życzenia na imieniny Krzysztofa (23 kwietnia — św. Wojciech): 'życzę Ci dziecisko jaknajwięcej jasnych i promiennych chwil w życiu'. Dzień 12: 'Pierone wiadomości dotarły do mnie dopiero jesienią — był to list od Stefka wysłany przez jakiegoś powracającego oficera.' Dzień 13: 'Dowiedziałam się że żyjesz.' Chronologia odzyskiwania kontaktu — poszukiwanie syna trwało od jesieni 1945 do lata 1946. Pytanie o adres w Londynie — 'może Cioci Marysi?' Ciotka po operacji, ciągle chora.",
+        "kontekst": "Wielodniowy list pisany w trzech odsłonach (11-13 kwietnia). Uzupełnia chronologię z V/231: jesień 1945 — list od Stefka (pierwsza wiadomość), potem sekretarka z Grenobla, wreszcie regularny kontakt (VIII.1946). Imieniny Krzysztofa — matka przygotowuje życzenia z 12-dniowym wyprzedzeniem (czas przesyłki przez konspiracyjne kanały).",
+        "powiazania": ["ARG/V/231", "ARG/V/226", "ARG/V/175", "ARG/V/236"],
+        "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "600-1500 PLN"
+    },
+    {
+        "sygn": "ARG/V/236", "sygn_k": "ARG/V/K-072", "tytul": "List Wandy — Argentyna odpada, aparat fotograficzny na imieniny",
+        "data": "15.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p48.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "bezpośrednia poczta anglo-polska (od wiosny 1947)",
+        "opis_fizyczny": "2 strony, pismo odręczne Wandy. Atrament niebieski. Data: 'W. 15.IV.47r.' Podpis: 'Wawa'.",
+        "opis_tresci": "List z Longbridge — Wanda odbiera list syna (Krzysztof zmienił lokalizację). Ulga: 'dzięki Bogu że ta Argentyna nie jest taką' — plan emigracji do Argentyny odpada. O pieniądzach: 'przeciętne stypendium wynosi do funtów miesięcznie', zna starszą panią której wnuk przesyła 10 funtów. Prosi o kontakt z Bronisławem Chełerpińskim i Januszem Rowińskim. Prezent imieninowy: 'aparat fotograficzny — jest to niemiecki. Włodek go kupował i uważa go za dobry. Nie jest Leika ale w tym typie.' Wysłała pisanki wielkanocne.",
+        "kontekst": "15 kwietnia — tydzień przed imieninami syna. Argentyna jako alternatywa emigracyjna dla żołnierzy PSZ — wielu Polaków emigrowało do Buenos Aires. Wanda jest przeciwna. Aparat fotograficzny 'typu Leica' — drogie urządzenie, kupione przez Włodka (numizmatyka, mennica, zasobny). Chełerpiński, Rowiński — emigracyjne kontakty stypendialne.",
+        "powiazania": ["ARG/V/227", "ARG/V/235", "ARG/V/229"],
+        "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "600-1500 PLN"
+    },
+    {
+        "sygn": "ARG/V/237", "sygn_k": "ARG/V/K-073", "tytul": "List Wandy — wiosna w Warszawie, ojciec wraca, kanapa",
+        "data": "16.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p50.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "bezpośrednia poczta anglo-polska (od wiosny 1947)",
+        "opis_fizyczny": "2-3 strony, pismo odręczne Wandy. Atrament niebieski. Data: 'W. 16.IV.47r.' Podpis: 'Wawa' (brak widocznego na skanie).",
+        "opis_tresci": "Wiosna w Warszawie: 'bardzo ciepło się zrobiło'. W aptece wszyscy pytają: 'kiedy wracacie' — o Krzysztofie i gen. Januszu. Stefan Keropiński opowiada o chorym Zygmuncie — sanatorium na Dolnym Śląsku. Tadeusz Buranowski i Zagiełkowski w Londynie. Hala Boranowska 'zginęła w pociągu z Pruszkowa do obozów, podczas nalotu aljanckiego' — ofiara transportu z Powstania. Wanda przygotowuje się na powrót ojca: kanapa do naprawy ('ta na której sypiał ojciec jeszcze w barakach'), 3 tomy 'Popiołów' Żeromskiego, plumeau dla syna.",
+        "kontekst": "Wiosna 1947 — Wanda żyje oczekiwaniem na powrót gen. Janusza. Kanapa 'z baraków' — prawdopodobnie z kwater w Szkocji lub z mieszkania sprzed Powstania. 'Popiołów' Żeromskiego — symboliczny wybór lektury na powrót generała. Hala Boranowska — kolejna ofiara z kręgu znajomych, nalot aliancki na transport z Pruszkowa (VIII-IX.1944).",
+        "powiazania": ["ARG/V/238", "ARG/V/228", "ARG/V/177"],
+        "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "600-1500 PLN"
+    },
+    {
+        "sygn": "ARG/V/238", "sygn_k": "ARG/V/K-074", "tytul": "List Wandy — ojciec wraca, SPIS 45 LEKARSTW",
+        "data": "17.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p52.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "bezpośrednia poczta anglo-polska (od wiosny 1947)",
+        "opis_fizyczny": "2 strony + spis lekarstw (45 pozycji). Pismo odręczne Wandy. Atrament niebieski. Data: 'W. 17.IV — 47r.' Podpis: 'Wawa'. Załącznik: spis lekarstw w formie numerowanej listy.",
+        "opis_tresci": "Ojciec (Stefan/Stanisław Głuchowski) pisze normalną pocztą — wraca do kraju pod koniec kwietnia. Sprawa pełnomocnictwa od ciotki na dom. Wanda prosi syna o przekazanie ojcu spisu lekarstw potrzebnych w aptece. SPIS 45 LEKARSTW: Campolon, Testoviron, Cortison, Cibasol, Lacarnol, Pyramidon, Euphyllin, Tonophosphan, Pilocarpin, Papaverin, Calcium Sandoz, Adalin, Coramin, Dolantin, Euflawin, Thyreoidee, Validol i inne. Posyła zdjęcie dziadka z ojcem 'robione w listopadzie 1944 w Krakowie'.",
+        "kontekst": "Ostatni list w zbiorze chronologicznie. Spis 45 lekarstw — bezcenny dokument historyczno-farmaceutyczny: dokumentuje braki lekowe w powojennej Polsce. Cortison (1947 — zaledwie 2 lata po odkryciu!), Testoviron, Pyramidon — kluczowe leki epoki. Farmaceutka z DYSK do końca jest farmaceutką. Stefan (ojciec) wraca do Polski z niewoli/emigracji — nie wpuszczono go do Anglii, gdzie był syn Krzysztof. Zdjęcie z XI.1944 w Krakowie — Stefan po Powstaniu.",
+        "powiazania": ["ARG/V/237", "ARG/V/175", "ARG/V/207c", "ARG/V/76"],
+        "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "1000-2500 PLN"
     },
 ]
 
@@ -7804,9 +8122,9 @@ VALUATIONS = {
     # === NOWE OBIEKTY Z AUKCJI (2026-03-21) ===
     "ARG/II/34": {
         "wartosc_hist": "★★★★★",
-        "opis_wartosci": "Beret pancerny WP ze śladem po kuli, z kolekcji gen. Głuchowskiego. Militaria z uszkodzeniem bojowym + proweniencja generała = najwyższa kategoria. Na aukcji w Brazylii: 2800 BRL (~2500 PLN). W Polsce: berety wojskowe WWII 500-2000 PLN, ze śladem po kuli i proweniencją generalską: 3000-6000 PLN.",
-        "cena_min": 3000,
-        "cena_max": 6000,
+        "opis_wartosci": "Beret pancerny WP ze śladem po kuli, z kolekcji gen. dyw. Głuchowskiego (I Wiceminister Spraw Wojskowych). Militaria z uszkodzeniem bojowym + proweniencja generała = najwyższa kategoria. Berety WP WWII: 500-2000 PLN (standard), 2000-5000 PLN (z proweniencją oficera). Ze śladem po kuli + proweniencja I Wiceministra + trzy KW = unikat. DESA Unicum militaria z proweniencją generalską: 5000-15000 PLN. Aukcja Brazylia: 2800 BRL.",
+        "cena_min": 5000,
+        "cena_max": 15000,
         "waluta": "PLN",
         "rekomendacja": "Nie sprzedawać. Relikwia bojowa."
     },
@@ -8654,6 +8972,10 @@ SPECIAL_TRANSCRIPTION_MAP = {
     "ARG/VI/25":  "wa_biogram_stefan",
     "ARG/VI/27":  "wa_etykieta_stefan",
     "ARG/VI/28":  "wa_dedykacja_lech_stefan",
+    # ── Seria II — transkrypcje PAI (29.III.2026) ──
+    "ARG/II/14":  "janusz_014",
+    "ARG/II/27":  "janusz_027",
+    "ARG/II/36":  "janusz_036",
     # ── Mapowanie automatyczne juras→ARG/V (29.III.2026) ──
     "ARG/V/67":   "juras_001",
     "ARG/V/69":   "juras_003",
@@ -8728,10 +9050,15 @@ def get_transcription(sygn):
     if len(parts) != 3:
         return None
     seria = parts[1]
-    try:
-        num = int(parts[2])
-    except ValueError:
+    num_str = parts[2]  # e.g. "206b", "43", "218d"
+
+    # Parse numeric part and optional letter suffix
+    import re as _re
+    m = _re.match(r"(\d+)([a-z]?)", num_str)
+    if not m:
         return None
+    num = int(m.group(1))
+    suffix = m.group(2)  # "" or "a", "b", "c", "d"
 
     # 2. Standard series mapping
     series_prefix = {
@@ -8744,6 +9071,16 @@ def get_transcription(sygn):
     prefix = series_prefix.get(seria)
     if not prefix:
         return None
+
+    # Try with suffix first (e.g. juras_206b), then without (juras_206)
+    if suffix:
+        key_with_suffix = f"{prefix}_{num:03d}{suffix}"
+        if key_with_suffix in TRANSCRIPTIONS:
+            return TRANSCRIPTIONS[key_with_suffix]
+        # Also try non-zero-padded: juras_206b
+        key_nopad = f"{prefix}_{num}{suffix}"
+        if key_nopad in TRANSCRIPTIONS:
+            return TRANSCRIPTIONS[key_nopad]
 
     key = f"{prefix}_{num:03d}"
 
@@ -8988,6 +9325,45 @@ def generate_html():
     <li><strong>Allegro archiwum</strong> — leg. Krzyz Walecznych: 135.50 PLN (2017, cena detaliczna).</li>
     <li><strong>Mnoznik archiwum</strong>: kompletne archiwa rodzinne z proweniencja = 1.5x-3x (typowe), do 5x (wybitne osoby). Tu: general + Siodemka Beliny + I Wiceminister + AK + Powstanie = mnoznik 2-3x uzasadniony.</li>
   </ul>
+  <h4 style="font-size:1.5em; color:var(--gold); margin:40px 0 10px; font-family:'Playfair Display',serif;">WYCENA NIEZALE&#379;NA (PAI)</h4>
+  <p style="color:var(--text-faint); font-size:0.82em; margin-bottom:16px;">Niezale&#380;na wycena przeprowadzona przez PAI (Personal AI), 29.III.2026. Metodologia: kategoriami, nie jednostkowo.</p>
+
+  <table style="width:100%; border-collapse:collapse; margin:16px 0; font-size:0.85em;">
+    <thead>
+      <tr style="border-bottom:2px solid var(--gold);">
+        <th style="text-align:left; padding:8px; color:var(--gold);">Kategoria</th>
+        <th style="text-align:right; padding:8px; color:var(--gold);">Min (PLN)</th>
+        <th style="text-align:right; padding:8px; color:var(--gold);">Max (PLN)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px; color:var(--text-dim);">A. Dokumenty najwy&#380;szej warto&#347;ci (10 unikat&oacute;w)</td><td style="text-align:right; padding:8px;">62 000</td><td style="text-align:right; padding:8px;">126 000</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px; color:var(--text-dim);">B. Fotografie (124 szt.)</td><td style="text-align:right; padding:8px;">41 000</td><td style="text-align:right; padding:8px;">110 000</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px; color:var(--text-dim);">C. Korespondencja (85 szt.)</td><td style="text-align:right; padding:8px;">42 000</td><td style="text-align:right; padding:8px;">88 000</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px; color:var(--text-dim);">D. Eseje i r&#281;kopisy</td><td style="text-align:right; padding:8px;">7 000</td><td style="text-align:right; padding:8px;">18 000</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px; color:var(--text-dim);">E. Artefakty fizyczne (beret, odznaczenia)</td><td style="text-align:right; padding:8px;">18 000</td><td style="text-align:right; padding:8px;">63 000</td></tr>
+      <tr style="border-top:2px solid var(--gold); font-weight:600;"><td style="padding:8px; color:var(--gold);">RAZEM (pojedynczo)</td><td style="text-align:right; padding:8px; color:var(--gold);">170 000</td><td style="text-align:right; padding:8px; color:var(--gold);">405 000</td></tr>
+    </tbody>
+  </table>
+
+  <div class="val-summary" style="margin:20px 0;">
+    <div class="val-summary-card"><div class="val-summary-label">PAI: sprzeda&#380; detaliczna</div><div class="val-summary-value">170 000&ndash;405 000 PLN</div></div>
+    <div class="val-summary-card"><div class="val-summary-label">PAI: sprzeda&#380; instytucjonalna</div><div class="val-summary-value">280 000&ndash;520 000 PLN</div></div>
+    <div class="val-summary-card val-highlight"><div class="val-summary-label">PAI: ubezpieczenie</div><div class="val-summary-value">450 000&ndash;650 000 PLN</div></div>
+  </div>
+
+  <div style="background:var(--surface2); border:1px solid var(--border); border-radius:6px; padding:20px; margin:20px 0;">
+    <h5 style="color:var(--gold); margin-bottom:10px;">Por&oacute;wnanie dw&oacute;ch wycen</h5>
+    <table style="width:100%; border-collapse:collapse; font-size:0.85em;">
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:6px; color:var(--text-faint); width:200px;"></td><td style="padding:6px; color:var(--gold); font-weight:600;">CC (394 poz. jednostkowo)</td><td style="padding:6px; color:var(--accent); font-weight:600;">PAI (kategoriami)</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:6px; color:var(--text-faint);">Suma min</td><td style="padding:6px;">270 490 PLN</td><td style="padding:6px;">170 000 PLN</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:6px; color:var(--text-faint);">Suma max</td><td style="padding:6px;">690 280 PLN</td><td style="padding:6px;">405 000 PLN</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:6px; color:var(--text-faint);">Instytucjonalna</td><td style="padding:6px;">100 000&ndash;450 000 PLN</td><td style="padding:6px;">280 000&ndash;520 000 PLN</td></tr>
+      <tr><td style="padding:6px; color:var(--text-faint);">Ubezpieczenie</td><td style="padding:6px;">&mdash;</td><td style="padding:6px;">450 000&ndash;650 000 PLN</td></tr>
+    </table>
+    <p style="font-size:0.78em; color:var(--text-faint); margin-top:10px; font-style:italic;">CC wycena jest wy&#380;sza bo liczy 394 pozycji jednostkowo (w tym setki drobnych po 100-500 PLN). PAI wycenia kategoriami i dodaje artefakty fizyczne + mno&#380;nik kompletno&#347;ci archiwum.</p>
+  </div>
+
   <h4 style="font-size:1.5em; color:var(--gold); margin:40px 0 10px; font-family:'Playfair Display',serif;">STRATEGIA SPRZEDAZY</h4>
   <p style="color:var(--text-dim); font-size:0.9em; margin-bottom:30px;">Pelna mapa instytucji, budzetow, sposobow zakupu i rekomendacji — oparta na researchu rynku aukcyjnego i muzealnego 2024-2026.</p>
 
@@ -9477,6 +9853,8 @@ body {{ background:var(--bg); color:var(--text); font-family:'Source Sans 3',san
 .header {{ text-align:center; padding:80px 20px 40px; border-bottom:1px solid var(--border); }}
 .header .institution {{ font-size:0.75em; letter-spacing:4px; text-transform:uppercase; color:var(--text-faint); margin-bottom:12px; }}
 .header h1 {{ font-family:'Playfair Display',serif; font-size:2.6em; color:var(--gold); letter-spacing:2px; margin-bottom:8px; }}
+.header-crests {{ display:flex; align-items:center; justify-content:center; gap:20px; }}
+.header-crest-img {{ width:70px; height:auto; opacity:0.85; filter:drop-shadow(0 0 8px rgba(212,175,55,0.3)); }}
 .header .subtitle {{ color:var(--text-dim); font-size:1.15em; font-weight:300; }}
 .header .dates {{ color:var(--gold-dim); font-size:1.3em; font-weight:300; margin-top:6px; letter-spacing:3px; }}
 .header .stats {{ color:var(--text-faint); font-size:0.85em; margin-top:16px; }}
@@ -9618,6 +9996,21 @@ body.lang-active .card-lang-badge {{ display:inline; }}
 .ft-person.ft-founder {{ border-color:var(--accent); }}
 .ft-person.ft-protagonist {{ border-color:var(--gold); background:var(--surface2); }}
 .ft-person.ft-deceased {{ opacity:0.7; }}
+/* HERALDIC TABLE */
+.heraldic-table {{ width:100%; border-collapse:collapse; margin:16px 0; font-size:0.85em; }}
+.heraldic-table th {{ background:var(--surface2); color:var(--gold); padding:10px 12px; text-align:left; font-weight:600; letter-spacing:1px; font-size:0.8em; text-transform:uppercase; border-bottom:2px solid var(--gold); }}
+.heraldic-table td {{ padding:10px 12px; border-bottom:1px solid var(--border); color:var(--text-dim); vertical-align:middle; }}
+.heraldic-table tr:hover {{ background:var(--surface2); }}
+.ht-herb-img {{ width:36px; height:auto; }}
+.ht-herb-text {{ font-size:1.4em; color:var(--gold); text-align:center; }}
+.heraldic-source {{ font-size:0.75em; color:var(--text-faint); font-style:italic; margin-top:8px; }}
+.card-epistolary {{ border-left:2px solid var(--accent); padding-left:8px; margin-left:4px; }}
+
+.ft-herb {{ text-align:center; margin-bottom:8px; }}
+.ft-herb-img {{ width:42px; height:auto; opacity:0.8; margin:0 4px; filter:drop-shadow(0 0 4px rgba(212,175,55,0.25)); }}
+.ft-herb-img.ft-herb-faded {{ opacity:0.4; filter:grayscale(0.6) drop-shadow(0 0 4px rgba(212,175,55,0.15)); }}
+.ft-herb-label {{ font-family:'JetBrains Mono',monospace; font-size:0.65em; color:var(--accent); letter-spacing:1px; margin-bottom:4px; text-transform:uppercase; }}
+.ft-spouse {{ font-size:0.78em; color:var(--text-dim); margin-bottom:6px; font-style:italic; }}
 .ft-name {{ font-family:'Playfair Display',serif; font-size:1em; color:var(--text); margin-bottom:4px; font-weight:600; }}
 .ft-dates {{ font-size:0.8em; color:var(--gold); margin-bottom:6px; }}
 .ft-role {{ font-size:0.8em; color:var(--text-dim); line-height:1.5; margin-bottom:6px; }}
@@ -9873,6 +10266,7 @@ body.lang-active .card-lang-badge {{ display:inline; }}
   <a href="katalog_gluchowski_v4.html" class="page-nav-link active">&#128203; Katalog</a>
   <a href="archiwum.html" class="page-nav-link">&#128247; Archiwum Dokument&oacute;w</a>
   <a href="galeria.html" class="page-nav-link">&#128444; Galeria Fotografii</a>
+  <a href="korespondencja.html" class="page-nav-link">&#9993; Listy</a>
 </div>
 
 <div class="header">
@@ -9883,7 +10277,11 @@ body.lang-active .card-lang-badge {{ display:inline; }}
   <div class="institution" data-lang="nl">Museumcatalogus</div>
   <div class="institution" data-lang="fr">Catalogue Muséal</div>
   <div class="institution" data-lang="yi">מוזעאום קאַטאַלאָג</div>
-  <h1>ARCHIWUM RODZINY GŁUCHOWSKICH</h1>
+  <div class="header-crests">
+    <img src="gluchowski_img/herb_prus_II.svg" alt="Herb Prus II (Wilczekosy)" class="header-crest-img" title="Prus II (Wilczekosy)">
+    <h1>ARCHIWUM RODZINY GŁUCHOWSKICH</h1>
+    <img src="gluchowski_img/herb_doliwa.svg" alt="Herb Doliwa (Zembrzuscy)" class="header-crest-img" title="Doliwa (Zembrzuscy — ród matki Wandy)">
+  </div>
   <div class="subtitle" data-lang="pl">Dokumenty, korespondencja, fotografie i ephemera</div>
   <div class="subtitle" data-lang="en">Documents, correspondence, photographs and ephemera</div>
   <div class="subtitle" data-lang="pt">Documentos, correspondência, fotografias e efêmeros</div>
@@ -10437,14 +10835,14 @@ body.lang-active .card-lang-badge {{ display:inline; }}
     <div class="ap-thesis" data-lang="nl">Stelling: De rol van vrouwen in Kedyw AK aan de hand van één familie — Wanda, schuilnaam "Krysta"/"Justyna" (sergeant, DYSK-eenheid). Gewond bij sabotageactie in Wilanów, 26.IX.1943. Echtgenoot Stefan gearresteerd door Gestapo V.1944, zoon Krzysztof in Peloton 1112.</div>
     <div class="ap-thesis" data-lang="fr">Thèse : Le rôle des femmes au Kedyw AK à travers une famille — Wanda, nom de code « Krysta »/« Justyna » (sergent, unité DYSK). Blessée dans une action de sabotage à Wilanów, 26.IX.1943. Mari Stefan arrêté par la Gestapo V.1944, fils Krzysztof au Peloton 1112.</div>
     <div class="ap-thesis" data-lang="yi">טעזע: די ראָלע פֿון פֿרויען אין קעדיוו AK דורך איין משפּחה — וואַנדאַ, דעקנאָמען „קריסטאַ"/„יוסטינאַ". פֿאַרוווּנדעט אין סאַבאָטאַזש-אַקציע אין וויִלאַנאָוו, 26.IX.1943.</div>
-    <div class="ap-novelty" data-lang="pl"><strong>Nowość:</strong> Rekonstrukcja losów rodziny, w której WSZYSCY dorośli członkowie walczyli w konspiracji. Matka-dywersantka, ojciec-kwatermistrz, syn-powstaniec — trzy różne formy oporu w jednym gospodarstwie domowym.</div>
-    <div class="ap-novelty" data-lang="en"><strong>Novelty:</strong> Reconstruction of a family in which ALL adult members fought in the underground. Mother-saboteur, father-quartermaster, son-insurgent — three different forms of resistance in one household.</div>
+    <div class="ap-novelty" data-lang="pl"><strong>Nowość:</strong> Rekonstrukcja losów rodziny, w której WSZYSCY dorośli członkowie walczyli w konspiracji. Matka-dywersantka, ojciec-kwatermistrz, syn-powstaniec, stryj-generał — CZTERY formy oporu. Po wojnie: piąta forma — konspiracja pocztowa Wandy (6 dróg przez Europę do syna w Anglii). 49 nowych źródeł z listów 1946–1948 (ARG/V/174–238).</div>
+    <div class="ap-novelty" data-lang="en"><strong>Novelty:</strong> Reconstruction of a family in which ALL adult members fought in the underground. Mother-saboteur, father-quartermaster, son-insurgent, uncle-general — FOUR forms of resistance. After the war: a fifth form — Wanda's clandestine postal network (6 routes across Europe to reach her son in England). 49 new first-person sources from 1946–1948 letters (ARG/V/174–238).</div>
     <div class="ap-novelty" data-lang="pt"><strong>Novidade:</strong> Reconstrução de uma família em que TODOS os membros adultos combateram na clandestinidade. Mãe-sabotadora, pai-intendente, filho-insurgente — três formas diferentes de resistência num só lar.</div>
     <div class="ap-novelty" data-lang="de"><strong>Neuheit:</strong> Rekonstruktion einer Familie, in der ALLE erwachsenen Mitglieder im Untergrund kämpften. Mutter-Saboteurin, Vater-Quartiermeister, Sohn-Aufständischer — drei Widerstandsformen in einem Haushalt.</div>
     <div class="ap-novelty" data-lang="nl"><strong>Nieuw:</strong> Reconstructie van een familie waarin ALLE volwassen leden in het verzet vochten. Moeder-saboteur, vader-kwartiermeester, zoon-opstandeling — drie vormen van verzet in één huishouden.</div>
     <div class="ap-novelty" data-lang="fr"><strong>Nouveauté :</strong> Reconstitution d'une famille dont TOUS les membres adultes ont combattu dans la clandestinité. Mère-saboteuse, père-intendant, fils-insurgé — trois formes de résistance dans un même foyer.</div>
     <div class="ap-novelty" data-lang="yi"><strong>נײַיקייט:</strong> רעקאָנסטרוקציע פֿון אַ משפּחה וווּ אַלע דערוואַקסענע מיטגלידער האָבן געקעמפֿט אין אונטערגרונט.</div>
-    <div class="ap-sources">Źródła / Sources: ARG/III/28, ARG/V/158, ARG/V/161, portal 1944.pl</div>
+    <div class="ap-sources">Źródła / Sources: ARG/III/28, ARG/V/158, ARG/V/161, ARG/V/174&ndash;238 (49 listów 1946&ndash;1948), ARG/V/207c (deportacja), portal 1944.pl</div>
     <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="pl"><span class="lock-icon">🔒</span>Czytaj pełny artykuł</a>
     <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="en"><span class="lock-icon">🔒</span>Read full article</a>
     <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="pt"><span class="lock-icon">🔒</span>Leia o artigo completo</a>
@@ -10474,10 +10872,10 @@ body.lang-active .card-lang-badge {{ display:inline; }}
       <span class="ap-badge">Teki Archiwalne</span>
       <span class="ap-badge">Archeion</span>
     </div>
-    <div class="ap-thesis" data-lang="pl">Teza: Porównanie kolekcji prywatnej (ARG, 314 jedn.) z Zespołem 70 w Instytucie Piłsudskiego w Londynie. Gen. Janusz Głuchowski (1888–1964) — jeden z „Siódemki Beliny" (2.VIII.1914), twórca 7 P.Uł. Lubelskich, I Zastępca Ministra Spraw Wojskowych (1935–1939), D-ca PSZ w UK, współzałożyciel Instytutu Piłsudskiego w Londynie (15.III.1947).</div>
-    <div class="ap-thesis" data-lang="en">Thesis: Comparison of the private collection (ARG, 314 items) with Collection 70 at the Piłsudski Institute in London. Gen. Janusz Głuchowski (1888–1964) — one of "Belina's Seven" (2.VIII.1914), founder of the 7th Uhlan Regiment, 1st Deputy Minister of Military Affairs (1935–1939), Commander of the Polish Armed Forces in the UK, co-founder of the Piłsudski Institute in London (15.III.1947).</div>
-    <div class="ap-thesis" data-lang="pt">Tese: Comparação da coleção privada (ARG, 314 un.) com o Acervo 70 no Instituto Piłsudski de Londres. Gen. Janusz Głuchowski (1888–1964) — um dos "Sete de Belina", fundador do 7º Regimento de Ulanos, 1º Vice-Ministro da Guerra (1935–1939), cofundador do Instituto Piłsudski em Londres.</div>
-    <div class="ap-thesis" data-lang="de">These: Vergleich der Privatsammlung (ARG, 314 Einh.) mit Bestand 70 im Piłsudski-Institut London. Gen. Janusz Głuchowski (1888–1964) — einer von „Belinas Sieben", Gründer des 7. Ulanen-Regiments, Erster Stellvertretender Kriegsminister (1935–1939), Mitbegründer des Piłsudski-Instituts in London.</div>
+    <div class="ap-thesis" data-lang="pl">Teza: Porównanie kolekcji prywatnej (ARG, 373 jedn.) z Zespołem 70 w Instytucie Piłsudskiego w Londynie. Gen. Janusz Głuchowski (1888–1964) — jeden z „Siódemki Beliny" (2.VIII.1914), twórca 7 P.Uł. Lubelskich, I Zastępca Ministra Spraw Wojskowych (1935–1939), D-ca PSZ w UK, współzałożyciel Instytutu Piłsudskiego w Londynie (15.III.1947).</div>
+    <div class="ap-thesis" data-lang="en">Thesis: Comparison of the private collection (ARG, 373 items) with Collection 70 at the Piłsudski Institute in London. Gen. Janusz Głuchowski (1888–1964) — one of "Belina's Seven" (2.VIII.1914), founder of the 7th Uhlan Regiment, 1st Deputy Minister of Military Affairs (1935–1939), Commander of the Polish Armed Forces in the UK, co-founder of the Piłsudski Institute in London (15.III.1947).</div>
+    <div class="ap-thesis" data-lang="pt">Tese: Comparação da coleção privada (ARG, 373 un.) com o Acervo 70 no Instituto Piłsudski de Londres. Gen. Janusz Głuchowski (1888–1964) — um dos "Sete de Belina", fundador do 7º Regimento de Ulanos, 1º Vice-Ministro da Guerra (1935–1939), cofundador do Instituto Piłsudski em Londres.</div>
+    <div class="ap-thesis" data-lang="de">These: Vergleich der Privatsammlung (ARG, 373 Einh.) mit Bestand 70 im Piłsudski-Institut London. Gen. Janusz Głuchowski (1888–1964) — einer von „Belinas Sieben", Gründer des 7. Ulanen-Regiments, Erster Stellvertretender Kriegsminister (1935–1939), Mitbegründer des Piłsudski-Instituts in London.</div>
     <div class="ap-thesis" data-lang="nl">Stelling: Vergelijking van de privécollectie (ARG, 314 eenh.) met Collectie 70 in het Piłsudski-Instituut Londen. Gen. Janusz Głuchowski (1888–1964) — een van „Belina's Zeven", stichter van het 7e Ulanen-Regiment, Eerste Plaatsvervangend Minister van Oorlog (1935–1939), medeoprichter van het Piłsudski-Instituut in Londen.</div>
     <div class="ap-thesis" data-lang="fr">Thèse : Comparaison de la collection privée (ARG, 314 unités) avec le Fonds 70 de l'Institut Piłsudski de Londres. Le gén. Janusz Głuchowski (1888–1964) — un des « Sept de Belina », fondateur du 7e Régiment d'Uhlans, Premier Sous-Ministre de la Guerre (1935–1939), cofondateur de l'Institut Piłsudski de Londres.</div>
     <div class="ap-thesis" data-lang="yi">טעזע: פֿאַרגלײַך פֿון דער פּריוואַטער זאַמלונג (ARG, 314 אייניקייטן) מיט זאַמלונג 70 אין פּיווסודסקי-אינסטיטוט אין לאָנדאָן. גענ. יאַנוש גלוכאָווסקי (1888–1964) — איינער פֿון „בעלינאַס זיבן", גרינדער פֿון 7טן אולאַנען-רעגימענט.</div>
@@ -10565,6 +10963,50 @@ body.lang-active .card-lang-badge {{ display:inline; }}
   <p class="fa-subtitle" data-lang="en">Reconstruction of the family's history based on documents in the collection</p>
 
   <!-- DRZEWO GENEALOGICZNE -->
+  <!-- HERALDYKA RODZINY -->
+  <div class="fa-section">
+    <h3 class="fa-section-title" data-lang="pl">Heraldyka rodziny</h3>
+    <h3 class="fa-section-title" data-lang="en">Family Heraldry</h3>
+    <table class="heraldic-table">
+      <thead>
+        <tr>
+          <th data-lang="pl">Herb</th><th data-lang="en">Arms</th>
+          <th data-lang="pl">Nazwa</th><th data-lang="en">Name</th>
+          <th data-lang="pl">Nosiciel w rodzinie</th><th data-lang="en">Bearer in family</th>
+          <th data-lang="pl">Region</th><th data-lang="en">Region</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="gluchowski_img/herb_prus_II.svg" class="ht-herb-img" alt="Prus II"></td>
+          <td><strong>Prus II</strong> (Wilczekosy)</td>
+          <td>Marian, Janusz, Stefan, Lech, Krzysztof &mdash; linia ojcowska</td>
+          <td>Mazowsze, Chełmińska, Piotrków</td>
+        </tr>
+        <tr>
+          <td><img src="gluchowski_img/herb_doliwa.svg" class="ht-herb-img" alt="Doliwa"></td>
+          <td><strong>Doliwa</strong></td>
+          <td>Wanda z Zembrzuskich (żona Stefana, matka Krzysztofa)</td>
+          <td>Zembrzus Wielki, pow. przasnyski</td>
+        </tr>
+        <tr>
+          <td class="ht-herb-text">&#9733;</td>
+          <td><strong>Belina</strong></td>
+          <td>Maria Zdanowska &mdash; I° żona Mariana (syn: Janusz, 1888)</td>
+          <td>ziemia dobrzyńska, Zdanów</td>
+        </tr>
+        <tr>
+          <td class="ht-herb-text">&#9733;</td>
+          <td><strong>Lubicz / Bończa</strong></td>
+          <td>Marta z Żółkowskich &mdash; II° żona Mariana (synowie: Stefan, 1893; Lech, 1902)</td>
+          <td>ród hetmana Żółkiewskiego</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="heraldic-source" data-lang="pl">Źródło: Niesiecki <em>Herbarz Polski</em> (Głuchowski h. Prus II i Radwan); research M. Głuchowskiego, III.2026.</p>
+    <p class="heraldic-source" data-lang="en">Source: Niesiecki <em>Herbarz Polski</em> (Głuchowski arms: Prus II and Radwan); research by M. Głuchowski, III.2026.</p>
+  </div>
+
   <div class="fa-section">
     <h3 class="fa-section-title" data-lang="pl">Drzewo rodziny</h3>
     <h3 class="fa-section-title" data-lang="en">Family Tree</h3>
@@ -10576,15 +11018,19 @@ body.lang-active .card-lang-badge {{ display:inline; }}
     <div class="family-tree">
       <div class="ft-generation">
         <div class="ft-person ft-founder">
-          <div class="ft-name">Marian (Marjan) Głuchowski</div>
-          <div class="ft-dates" data-lang="pl">ur. 1867 &ndash; zm. po 1914</div>
+          <div class="ft-herb"><img src="gluchowski_img/herb_prus_II.svg" alt="h. Prus II" class="ft-herb-img" title="herb Prus II (Wilczekosy)"></div>
+          <div class="ft-name">Marian (Maciej) Głuchowski</div>
+          <div class="ft-herb-label">h. Prus II</div>
+          <div class="ft-dates" data-lang="pl">ur. 1867, Sycanów &ndash; zm. 20.VI.1924, Warszawa</div>
           <div class="ft-dates" data-lang="en">b. 1867 &ndash; d. after 1914</div>
           <div class="ft-dates" data-lang="pt">n. 1867 &ndash; f. após 1914</div>
           <div class="ft-dates" data-lang="de">geb. 1867 &ndash; gest. nach 1914</div>
           <div class="ft-dates" data-lang="nl">geb. 1867 &ndash; overl. na 1914</div>
           <div class="ft-dates" data-lang="fr">né 1867 &ndash; décédé après 1914</div>
           <div class="ft-dates" data-lang="yi">געב. 1867 &ndash; gest. נאָך 1914</div>
-          <div class="ft-role" data-lang="pl">Komisarz PON na powiat częstochowski. Legitymacja nr 2 &mdash; jeden z założycieli.</div>
+          <div class="ft-spouse">I&#176; &#9829; Maria Zdanowska <span class="ft-herb-label">h. Belina</span> (syn: Janusz)</div>
+          <div class="ft-spouse">II&#176; &#9829; Marta z Żółkowskich <span class="ft-herb-label">h. Lubicz</span> (synowie: Stefan, Lech)</div>
+          <div class="ft-role" data-lang="pl">Komisarz PON na powiat częstochowski. Legitymacja nr 2 &mdash; jeden z założycieli. Pochowany Powązki.</div>
           <div class="ft-role" data-lang="en">Commissioner of the Polish National Organization (PON) for the Częstochowa district. Membership card no. 2 &mdash; one of the founders.</div>
           <div class="ft-role" data-lang="pt">Comissário da Organização Nacional Polonesa (PON) para o distrito de Częstochowa. Carteira nº 2 &mdash; um dos fundadores.</div>
           <div class="ft-role" data-lang="de">Kommissar der Polnischen Nationalorganisation (PON) für den Kreis Częstochowa. Mitgliedsausweis Nr. 2 &mdash; einer der Gründer.</div>
@@ -10603,8 +11049,12 @@ body.lang-active .card-lang-badge {{ display:inline; }}
       <div class="ft-connector">&darr;</div>
       <div class="ft-generation ft-gen-siblings">
         <div class="ft-person">
+          <div class="ft-herb"><img src="gluchowski_img/herb_prus_II.svg" alt="h. Prus II" class="ft-herb-img" title="herb Prus II (Wilczekosy)"></div>
           <div class="ft-name">Gen. dyw. Janusz Julian Głuchowski</div>
-          <div class="ft-dates">1888 &ndash; 1964</div>
+          <div class="ft-herb-label">h. Prus II</div>
+          <div class="ft-dates">ur. 19.VI.1888, Bukowa &ndash; zm. 11.VI.1964, Londyn</div>
+          <div class="ft-spouse" style="font-size:0.7em;color:var(--text-faint);">syn z I° małżeństwa (matka: Maria Zdanowska h. Belina)</div>
+          <div class="ft-spouse">&#9829; Maria z Bukowskich</div>
           <div class="ft-role" data-lang="pl">Siódemka Beliny. Twórca 7 P.Uł. I Zastępca Min. Spraw Wojskowych. D-ca PSZ w UK. Companion of the Order of the Bath (C.B.). Współzałożyciel Instytutu Piłsudskiego w Londynie.</div>
           <div class="ft-role" data-lang="en">Belina's Seven. Founder of the 7th Uhlan Regiment. 1st Deputy Minister of Military Affairs. Commander of Polish Armed Forces in the UK. Companion of the Order of the Bath (C.B.). Co-founder of the Piłsudski Institute in London.</div>
           <div class="ft-role" data-lang="pt">Os Sete de Belina. Fundador do 7º Regimento de Ulanos. 1º Vice-Ministro da Guerra. Comandante das Forças Armadas Polonesas no Reino Unido. Cofundador do Instituto Piłsudski em Londres.</div>
@@ -10616,28 +11066,35 @@ body.lang-active .card-lang-badge {{ display:inline; }}
           <div class="ft-docs" data-lang="en">Documents: ARG/II/1&ndash;32</div>
         </div>
         <div class="ft-person">
-          <div class="ft-name">Ppor. Stanisław Stefan Głuchowski</div>
-          <div class="ft-dates">1893 &ndash; 1962</div>
-          <div class="ft-role" data-lang="pl">Oficer 7 P.Uł. Jeniec Stalag XI B (Fallingbostel), nr 0.1245 / 0.1845. Żona: Zofia (Zocha), ul. Pułaskiej, Kleczew, pow. Radomsko.</div>
-          <div class="ft-role" data-lang="en">Officer, 7th Uhlan Regiment. POW at Stalag XI B (Fallingbostel), no. 0.1245 / 0.1845. Wife: Zofia (Zocha), ul. Pułaskiej, Kleczew, Radomsko district.</div>
-          <div class="ft-role" data-lang="pt">Oficial do 7º Regimento de Ulanos. Prisioneiro de guerra no Stalag XI B (Fallingbostel), nº 0.1245. Esposa: Zofia (Zocha).</div>
-          <div class="ft-role" data-lang="de">Offizier im 7. Ulanen-Regiment. Kriegsgefangener im Stalag XI B (Fallingbostel), Nr. 0.1245 / 0.1845. Ehefrau: Zofia (Zocha).</div>
-          <div class="ft-role" data-lang="nl">Officier bij het 7e Ulanen-Regiment. Krijgsgevangene in Stalag XI B (Fallingbostel), nr. 0.1245 / 0.1845. Echtgenote: Zofia (Zocha).</div>
-          <div class="ft-role" data-lang="fr">Officier du 7e Régiment d'Uhlans. Prisonnier de guerre au Stalag XI B (Fallingbostel), nº 0.1245 / 0.1845. Épouse : Zofia (Zocha).</div>
-          <div class="ft-role" data-lang="yi">אָפֿיציר אין 7טן אולאַנען-רעגימענט. קריגס-געפֿאַנגענער אין שטאַלאַג XI B (פֿאַלינגבאָסטעל), נומער 0.1245.</div>
-          <div class="ft-docs" data-lang="pl">Dokumenty: ARG/III/1&ndash;9</div>
-          <div class="ft-docs" data-lang="en">Documents: ARG/III/1&ndash;9</div>
+          <div class="ft-herb"><img src="gluchowski_img/herb_prus_II.svg" alt="h. Prus II" class="ft-herb-img" title="herb Prus II (Wilczekosy)"><img src="gluchowski_img/herb_doliwa.svg" alt="h. Doliwa" class="ft-herb-img" title="herb Doliwa (Zembrzuscy — ród żony Wandy)"></div>
+          <div class="ft-name">Ppor. Stanisław Stefan Głuchowski ps. &laquo;Stefan&raquo;</div>
+          <div class="ft-herb-label">h. Prus II</div>
+          <div class="ft-dates">ur. 1.V.1893, Bukowa &ndash; zm. 17.X.1962, Warszawa</div>
+          <div class="ft-spouse" style="font-size:0.7em;color:var(--text-faint);">syn z II° małżeństwa (matka: Marta z Żółkowskich h. Lubicz)</div>
+          <div class="ft-spouse">&#9829; <strong>Wanda z Zembrzuskich</strong> <span class="ft-herb-label">h. Doliwa</span> (1901&ndash;1976) &mdash; mgr farm. UJK Lwów, sierż. pchor. Kedyw AK ps. Krysta/Justyna</div>
+          <div class="ft-role" data-lang="pl">OJCIEC KRZYSZTOFA. Kancelaria Cywilna Prezydenta RP (1923&ndash;1939). AK &mdash; Kwatermistrzostwo I Obwodu &laquo;Radwan&raquo;. Aresztowany Gestapo 18.V.1944, Pawiak, zwolniony 29.VII.44 (3 dni przed Powstaniem!). Jeniec: Fallingbostel, Bergen, Lübeck (nr 1245). Wrócił do Polski 1947 (nie wpuszczono do Anglii). Żona: <strong>Wanda</strong> (sierż. pchor. Kedyw AK, ps. Krysta/Justyna, farmaceutka). Zm. 17.X.1962, Powązki.</div>
+          <div class="ft-role" data-lang="en">FATHER OF KRZYSZTOF. Civil Chancellery of the President of Poland (1923&ndash;1939). AK &mdash; Quartermaster, 1st District &laquo;Radwan&raquo;. Arrested by Gestapo 18.V.1944, Pawiak, released 29.VII.44 (3 days before Uprising!). POW: Fallingbostel, Bergen, Lübeck (no. 1245). Returned to Poland 1947 (denied entry to England). Wife: <strong>Wanda</strong> (Staff Sgt. Kedyw AK, codename Krysta/Justyna, pharmacist). D. 17.X.1962, Powązki Cemetery.</div>
+          <div class="ft-role" data-lang="pt">PAI DE KRZYSZTOF. Chancelaria Civil do Presidente da Polônia (1923&ndash;1939). AK &mdash; Intendência do 1º Distrito. Preso pela Gestapo 18.V.1944, Pawiak, solto 29.VII.44. Prisioneiro: Fallingbostel, Bergen, Lübeck (nº 1245). Retornou à Polônia 1947. Esposa: <strong>Wanda</strong> (sargento Kedyw AK, farmacêutica).</div>
+          <div class="ft-role" data-lang="de">VATER VON KRZYSZTOF. Zivilkanzlei des Präsidenten Polens (1923&ndash;1939). AK &mdash; Quartiermeister, 1. Bezirk &laquo;Radwan&raquo;. Verhaftet durch Gestapo 18.V.1944, Pawiak, freigelassen 29.VII.44. Kriegsgefangener: Fallingbostel, Bergen, Lübeck (Nr. 1245). Rückkehr nach Polen 1947. Ehefrau: <strong>Wanda</strong> (Feldwebel Kedyw AK, Apothekerin).</div>
+          <div class="ft-role" data-lang="nl">VADER VAN KRZYSZTOF. Civiele Kanselarij van de President van Polen (1923&ndash;1939). AK &mdash; Kwartiermeester. Gearresteerd door Gestapo 18.V.1944, Pawiak, vrijgelaten 29.VII.44. Krijgsgevangene: Fallingbostel, Bergen, Lübeck (nr. 1245). Teruggekeerd naar Polen 1947. Echtgenote: <strong>Wanda</strong> (sergeant Kedyw AK, apotheker).</div>
+          <div class="ft-role" data-lang="fr">PÈRE DE KRZYSZTOF. Chancellerie Civile du Président de la Pologne (1923&ndash;1939). AK &mdash; Intendance du 1er District. Arrêté par la Gestapo 18.V.1944, Pawiak, libéré 29.VII.44. Prisonnier : Fallingbostel, Bergen, Lübeck (nº 1245). Retour en Pologne 1947. Épouse : <strong>Wanda</strong> (sergent Kedyw AK, pharmacienne).</div>
+          <div class="ft-role" data-lang="yi">פֿאָטער פֿון קשיסטאָף. ציווילע קאַנצלאַריע פֿון דער פּרעזידענט פֿון פּוילן (1923&ndash;1939). AK &mdash; קוואַרטירמײַסטער. אַרעסטירט דורך געסטאַפּאָ. קריגס-געפֿאַנגענער: פֿאַלינגבאָסטעל, בערגן, ליובעק. צוריקקומען קיין פּוילן 1947.</div>
+          <div class="ft-docs" data-lang="pl">Dokumenty: ARG/III/1&ndash;38</div>
+          <div class="ft-docs" data-lang="en">Documents: ARG/III/1&ndash;38</div>
         </div>
         <div class="ft-person ft-deceased">
-          <div class="ft-name">Lech Głuchowski ps. &laquo;Jeżycki&raquo;</div>
-          <div class="ft-dates">1900 &ndash; &dagger; 15.IX.1944</div>
-          <div class="ft-role" data-lang="pl">Poległ w Powstaniu Warszawskim. Wspomniany w listach.</div>
-          <div class="ft-role" data-lang="en">Killed in the Warsaw Uprising. Mentioned in correspondence.</div>
-          <div class="ft-role" data-lang="pt">Morto na Insurreição de Varsóvia. Mencionado na correspondência.</div>
-          <div class="ft-role" data-lang="de">Gefallen im Warschauer Aufstand. Erwähnt in Briefen.</div>
-          <div class="ft-role" data-lang="nl">Gesneuveld in de Opstand van Warschau. Vermeld in correspondentie.</div>
-          <div class="ft-role" data-lang="fr">Tombé dans l'Insurrection de Varsovie. Mentionné dans la correspondance.</div>
-          <div class="ft-role" data-lang="yi">געפֿאַלן אין דער וואַרשעווער אויפֿשטאַנד. דערמאָנט אין בריוו.</div>
+          <div class="ft-herb"><img src="gluchowski_img/herb_prus_II.svg" alt="h. Prus II" class="ft-herb-img ft-herb-faded" title="herb Prus II (Wilczekosy)"></div>
+          <div class="ft-name">Rtm. Lech Jerzy Głuchowski ps. &laquo;Jeżycki&raquo;</div>
+          <div class="ft-herb-label">h. Prus II</div>
+          <div class="ft-dates">ur. 2.VI.1902, Raków &ndash; &dagger; 15.IX.1944, Mokotów</div>
+          <div class="ft-spouse" style="font-size:0.7em;color:var(--text-faint);">syn z II° małżeństwa (matka: Marta z Żółkowskich h. Lubicz). W stefan_020 jako &laquo;Uciech&raquo; — błąd odczytu (99% = ta sama osoba: ten sam rok, pseudonim, ojciec, jednostka).</div>
+          <div class="ft-role" data-lang="pl">D-ca 1. szwadronu dywizjonu &laquo;Jeleń&raquo; (7 P.Uł. AK). Ciężko ranny ul. Dolna (Mokotów) &mdash; popełnił samobójstwo by żołnierze nie ryzykowali ewakuacji pod ogniem. Virtuti Militari V kl. (pośm.).</div>
+          <div class="ft-role" data-lang="en">Commander, 1st Squadron, &laquo;Jeleń&raquo; Division (7th Uhlan Regt. AK). Seriously wounded on Dolna St. (Mokotów) &mdash; took his own life so soldiers wouldn't risk evacuation under fire. Virtuti Militari V class (posthumous).</div>
+          <div class="ft-role" data-lang="pt">Comandante do 1º Esquadrão, Divisão &laquo;Jeleń&raquo; (7º Reg. Ulanos AK). Gravemente ferido na rua Dolna (Mokotów) &mdash; suicidou-se para que soldados não arriscassem evacuação. Virtuti Militari V classe (póstumo).</div>
+          <div class="ft-role" data-lang="de">Kommandeur, 1. Schwadron, Division &laquo;Jeleń&raquo; (7. Ulanen-Regt. AK). Schwer verwundet in der Dolna-Straße (Mokotów) &mdash; nahm sich das Leben, damit Soldaten keine Evakuierung unter Feuer riskierten. Virtuti Militari V. Klasse (posthum).</div>
+          <div class="ft-role" data-lang="nl">Commandant, 1e Eskadron, Divisie &laquo;Jeleń&raquo; (7e Ulanen-Regt. AK). Zwaargewond in de Dolna-straat (Mokotów) &mdash; pleegde zelfmoord zodat soldaten geen evacuatie onder vuur zouden riskeren. Virtuti Militari V klasse (postuum).</div>
+          <div class="ft-role" data-lang="fr">Commandant, 1er Escadron, Division &laquo;Jeleń&raquo; (7e Rég. Uhlans AK). Grièvement blessé rue Dolna (Mokotów) &mdash; s'est donné la mort pour que les soldats ne risquent pas l'évacuation sous le feu. Virtuti Militari Ve classe (posthume).</div>
+          <div class="ft-role" data-lang="yi">קאָמאַנדיר, 1סטע עסקאַדראָן, דיוויזיע &laquo;יעלען&raquo; (7טע אולאַנען-רעגימענט AK). שווער פֿאַרוואונדעט אין דאָלנאַ-גאַס (מאָקאָטאָוו) &mdash; האָט זיך אומגעבראַכט כדי סאָלדאַטן זאָלן ניט ריזיקירן עוואַקואַציע אונטער פֿײַער.</div>
           <div class="ft-docs">&mdash;</div>
         </div>
       </div>
@@ -10650,7 +11107,9 @@ body.lang-active .card-lang-badge {{ display:inline; }}
       <div class="ft-connector" data-lang="yi">&darr; זון פֿון סטאַניסוואַוו סטעפֿאַן</div>
       <div class="ft-generation">
         <div class="ft-person ft-protagonist">
+          <div class="ft-herb"><img src="gluchowski_img/herb_prus_II.svg" alt="h. Prus II" class="ft-herb-img" title="herb Prus II (po mieczu — Głuchowscy)"><img src="gluchowski_img/herb_doliwa.svg" alt="h. Doliwa" class="ft-herb-img" title="herb Doliwa (po kądzieli — Zembrzuscy)"></div>
           <div class="ft-name">St.uł. Krzysztof Andrzej Głuchowski ps. &laquo;Juras&raquo;</div>
+          <div class="ft-herb-label">h. Prus II / Doliwa</div>
           <div class="ft-dates" data-lang="pl">ur. 29.XI.1926, Warszawa</div>
           <div class="ft-dates" data-lang="en">b. 29.XI.1926, Warsaw</div>
           <div class="ft-dates" data-lang="pt">n. 29.XI.1926, Varsóvia</div>
@@ -10693,7 +11152,7 @@ body.lang-active .card-lang-badge {{ display:inline; }}
       <div class="person-card">
         <div class="pc-category">RODZINA</div>
         <div class="pc-name">Zofia (Zocha) Głuchowska</div>
-        <div class="pc-desc">Żona Stanisława Stefana. Adres wojenny: ul. Pułaskiej, Kleczew, gmina Brzezówce, powiat Radomsko (GG). Później: ul. Howe-Monatkiego, Częstochowa. Adresatka kartek jenieckich ojca.</div>
+        <div class="pc-desc">Prawdopodobnie siostra Stefana i Lecha — córka Mariana (Macieja), NIE żona (żoną Stefana była Wanda). Adres wojenny: ul. Pułaskiej, Kleczew, gm. Brzezówce, pow. Radomsko (GG) — ten sam region co ojciec Marian (komisarz PON okręg Częstochowa). Później: ul. Howe-Monatkiego, Częstochowa. Adresatka kartek jenieckich Stefana — pisał do niej zamiast do Wandy (Wanda pod obserwacją UB w Warszawie).</div>
         <div class="pc-docs">ARG/III/1, III/2, III/5</div>
       </div>
 
@@ -11093,7 +11552,7 @@ body.lang-active .card-lang-badge {{ display:inline; }}
       <div class="tl-event tl-highlight">
         <div class="tl-date">14.X.1944</div>
         <div class="tl-body">
-          <strong>&laquo;Droga Zocha! Jestem w oflagu, Krzysztof w Stalagu...&raquo;</strong> Pierwsza kartka Stanisława Stefana z M.-Stammlager XI B (Fallingbostel). Nr jeniecki: 0.1245. Pisze do żony Zofii w Kleczewie. Wie, że syn Krzysztof (nr 141009) jest w innym obozie. Adresat: ul. Pułaskiej, Kleczew, gmina Brzezówce, powiat Radomsko, Generalgouvernement. Stempel: 20.10.44.
+          <strong>&laquo;Droga Zocha! Jestem w oflagu, Krzysztof w Stalagu...&raquo;</strong> Pierwsza kartka Stanisława Stefana z M.-Stammlager XI B (Fallingbostel). Nr jeniecki: 0.1245. Pisze do Zofii w Kleczewie (krewna &mdash; NIE żona; żoną Stefana była Wanda, która była pod obserwacją UB). Wie, że syn Krzysztof (nr 141009) jest w innym obozie. Adresat: ul. Pułaskiej, Kleczew, gmina Brzezówce, powiat Radomsko, Generalgouvernement. Stempel: 20.10.44.
           <div class="tl-docs">ARG/III/1, III/2</div>
         </div>
       </div>
@@ -11179,7 +11638,7 @@ body.lang-active .card-lang-badge {{ display:inline; }}
       <div class="tl-event">
         <div class="tl-date">26.X.1946</div>
         <div class="tl-body">
-          <strong>Zaświadczenie płk. Ziemskiego.</strong> Wentorf pod Hamburgiem. &laquo;Jako b. Dowódca Grupy PÓŁNOC w Powstaniu Warszawskim zaświadczam, że GŁUCHOWSKI Krzysztof, ur. 1928, pseudonim Juras, walczył w Obronie Starego Miasta w Plutonie 1112, awansowany do stopnia starszego strzelca, oraz odznaczony KRZYŻEM WALECZNYCH.&raquo; Pieczęć: Komisja Likwidacyjna Żołnierzy Armii Krajowej.
+          <strong>Zaświadczenie płk. Ziemskiego.</strong> Wentorf pod Hamburgiem. &laquo;Jako b. Dowódca Grupy PÓŁNOC w Powstaniu Warszawskim zaświadczam, że GŁUCHOWSKI Krzysztof, ur. 1928 [sic &mdash; data fałszywa z Kennkarte; rzeczywisty rok ur. 1926], pseudonim Juras, walczył w Obronie Starego Miasta w Plutonie 1112, awansowany do stopnia starszego strzelca, oraz odznaczony KRZYŻEM WALECZNYCH.&raquo; Pieczęć: Komisja Likwidacyjna Żołnierzy Armii Krajowej.
           <div class="tl-docs">ARG/V/43</div>
         </div>
       </div>
@@ -11271,8 +11730,8 @@ body.lang-active .card-lang-badge {{ display:inline; }}
     <h4 style="color:var(--gold);font-size:0.85em;margin:20px 0 10px;letter-spacing:1px;">KORESPONDENCJA JENIECKIA &mdash; STALAG XI-B, VI/3, OFLAG XVII-A</h4>
     <div class="connections-grid">
       <div class="conn-item">
-        <div class="conn-arrow">Stefan (ojciec) &rarr; Zofia (żona)</div>
-        <div class="conn-detail">Kriegsgefangenenpost z Stalagu XI B do Kleczewa, pow. Radomsko. Od X.1944. ARG/III/1&ndash;5</div>
+        <div class="conn-arrow">Stefan (ojciec) &rarr; Zofia (krewna)</div>
+        <div class="conn-detail">Kriegsgefangenenpost z Stalagu XI B do Kleczewa, pow. Radomsko. Od X.1944. Zofia &mdash; NIE żona (żoną była Wanda, pod obserwacją UB). ARG/III/1&ndash;5</div>
       </div>
       <div class="conn-item">
         <div class="conn-arrow">Stefan &harr; Krzysztof</div>
@@ -11284,7 +11743,7 @@ body.lang-active .card-lang-badge {{ display:inline; }}
       </div>
       <div class="conn-item">
         <div class="conn-arrow">Stefan &rarr; Zofia &laquo;Zocha&raquo;</div>
-        <div class="conn-detail">&laquo;Numer Krzysztofa 141009&raquo; &mdash; ojciec podaje żonie numer jeniecki syna (30.X.1944). ARG/III/4</div>
+        <div class="conn-detail">&laquo;Numer Krzysztofa 141009&raquo; &mdash; ojciec podaje krewnej numer jeniecki syna (30.X.1944). ARG/III/4</div>
       </div>
       <div class="conn-item">
         <div class="conn-arrow">Stefan &rarr; Krzysztof &laquo;Krysiu&raquo;</div>
@@ -11368,6 +11827,38 @@ body.lang-active .card-lang-badge {{ display:inline; }}
       </div>
     </div>
 
+    <h4 style="color:var(--gold);font-size:0.85em;margin:20px 0 10px;letter-spacing:1px;">6 DRÓG KONSPIRACYJNYCH WANDY &mdash; MATKA SZUKA SYNA (1946&ndash;1948)</h4>
+    <div class="connections-grid">
+      <div class="conn-item">
+        <div class="conn-arrow">Wanda (W-wa) &rarr; Krzysztof (Anglia) [droga paryska]</div>
+        <div class="conn-detail">Przez Goldmana, 1 rue du Docteur Labbé, Paris 20e. ARG/V/174&ndash;175</div>
+      </div>
+      <div class="conn-item">
+        <div class="conn-arrow">Wanda &harr; Krzysztof [droga genewska]</div>
+        <div class="conn-detail">Przez Schwoka/Łabędzkiego, Quai Charles Page 37, Genewa. Pieniądze + fotografie. ARG/V/176, V/180, V/181</div>
+      </div>
+      <div class="conn-item">
+        <div class="conn-arrow">Ramiński (Sussex) &rarr; Krzysztof</div>
+        <div class="conn-detail">Brownings Camp, Billingshurst. Potwierdza deportację Wandy do Rosji. ARG/V/207a&ndash;207c</div>
+      </div>
+      <div class="conn-item">
+        <div class="conn-arrow">Grafowa (Sztokholm) &rarr; Krzysztof</div>
+        <div class="conn-detail">Serena Hôtel-Pension, Norrmalmstorg 4. Apteka z &laquo;bocianiem gniazdem&raquo;. ARG/V/220</div>
+      </div>
+      <div class="conn-item">
+        <div class="conn-arrow">Flejsner (Penley, Walia) &rarr; Krzysztof</div>
+        <div class="conn-detail">Znała rodzinę z Żoliborza. &laquo;Pisać powinien Pan nie podając ani miejsca pobytu, ani daty.&raquo; ARG/V/219</div>
+      </div>
+      <div class="conn-item">
+        <div class="conn-arrow">Graff (Londyn) &rarr; Krzysztof</div>
+        <div class="conn-detail">27 Crespigny Rd NW4. Przywiózł paczkę od Wandy. ARG/V/221</div>
+      </div>
+      <div class="conn-item">
+        <div class="conn-arrow">Wanda &rarr; Krzysztof [bezpośrednio, 17 listów]</div>
+        <div class="conn-detail">&laquo;Jesteś jedyną wygraną w moim życiu.&raquo; &laquo;Pierwszy ślad że żyjesz.&raquo; Spis 45 lekarstw. ARG/V/222&ndash;238</div>
+      </div>
+    </div>
+
     <h4 style="color:var(--gold);font-size:0.85em;margin:20px 0 10px;letter-spacing:1px;">EMIGRACJA &mdash; LONDYN, BRAZYLIA, CLEVELAND, IZRAEL</h4>
     <div class="connections-grid">
       <div class="conn-item">
@@ -11419,7 +11910,7 @@ body.lang-active .card-lang-badge {{ display:inline; }}
     <div class="bio-chapter-date">1867 &mdash; 1924</div>
     <div class="bio-chapter-body">
       <p>Wszystko zaczyna sie w majatku Bukowa pod Piotrkowem Trybunalskim, gdzie Marian Nepomucen Gluchowski herbu Prus II wychowuje synow na Polakow &mdash; w kraju, ktorego na mapie nie ma.</p>
-      <p>Marian Gluchowski urodzil sie w 1867 roku w Sycanowie, w regionie sieradzkim. Byl aktywista PPS, pracownikiem samorzadowym, naczelnikiem wydzialu. Z zona Maria z Ziolkowskich mial trzech synow: Janusza, Stefana i Lecha. Wszyscy trzej pojda do wojska. Dwoch przezyje. Jeden odbierze sobie zycie na barykadzie, zeby nie narazac swoich zolnierzy.</p>
+      <p>Marian (Maciej) Gluchowski urodzil sie w 1867 roku w Sycanowie, w regionie sieradzkim. Byl aktywista PPS, pracownikiem samorzadowym, naczelnikiem wydzialu. Z pierwsza zona Maria Zdanowska herbu Belina mial syna Janusza (1888). Z druga zona Marta z Zolkowskich herbu Lubicz &mdash; synow Stefana (1893) i Lecha (1902). Wszyscy trzej pojda do wojska. Dwoch przezyje. Jeden odbierze sobie zycie na barykadzie, zeby nie narazac swoich zolnierzy.</p>
       <p>Marian zmarl 20 czerwca 1924 roku w Warszawie. Pochowan na Powazkach.</p>
       <p><strong>Pieciu czlonkow rodziny walczylo w Powstaniu Warszawskim:</strong> gen. dyw. Janusz Julian Gluchowski (1888-1964), ppor. Stanislaw Stefan Gluchowski (1893-1962), sierz. pchor. Wanda Bronislawa Gluchowska &bdquo;Justyna&rdquo; (1901-1976), rtm. Lech Jerzy Gluchowski &bdquo;Jezycki&rdquo; (1902-1944), st.ul. Krzysztof Gluchowski &bdquo;Juras&rdquo; (1926-2020).</p>
     </div>
@@ -11505,7 +11996,7 @@ body.lang-active .card-lang-badge {{ display:inline; }}
   <div class="bio-chapter" onclick="this.classList.toggle('open')">
     <div class="bio-chapter-title">&#9654; Epilog: Drzewo, ktore nie padlo</div>
     <div class="bio-chapter-body">
-      <p>Piec czlonkow jednej rodziny w Powstaniu Warszawskim. General, urzednik prezydenta, farmaceutka-dywersantka, rotmistrz i chlopiec-wartownik. Trzy pokolenia. Jeden herb: Prus II.</p>
+      <p>Piec czlonkow jednej rodziny w Powstaniu Warszawskim. General, urzednik prezydenta, farmaceutka-dywersantka, rotmistrz i chlopiec-wartownik. Trzy pokolenia. Dwa herby: Prus II i Doliwa. Dwie linie krwi z jednego pnia.</p>
       <p>Lech zginal na Sadybie, wrzesien 1944. Stefan wrocil z niewoli do PRL-u, 1947 &mdash; zmarl w Warszawie, 1962. Wanda prowadzilaapteke do emerytury mimo 30% inwalidztwa &mdash; zmarlw 1976. Janusz zalozyl Instytut Pilsudskiego w Londynie i zmarl w 1964. Krzysztof dotarl najdalej &mdash; do Rio de Janeiro &mdash; i zyl najdluzej.</p>
       <p>W Instytucie Pilsudskiego w Londynie lezy <strong>Zespol nr 70: Archiwum Janusza Gluchowskiego</strong> &mdash; lustrzane odbicie tej kolekcji.</p>
       <p>A na Powazkach, w kwaterze 99, leza obok siebie: Lech (I-27), Wanda (IV-19) i Stefan. Rodzina znow razem.</p>
@@ -12625,7 +13116,12 @@ GALLERY_PHOTOS = [
         "osoba": "płk Jan Mazurkiewicz 'Radosław', kombatanci 7 P.Uł. AK",
         "opis": "Komplet 6 fotografii z 16. rocznicy Powstania Warszawskiego przy mogile Dywizjonu AK 'Jeleń'. Sceny: mogiła z tablicą 'AK DYWIZJON WARSZAWSKI JELEŃ POWSTANIE 1944', harcerze w warcie, duchowny błogosławiący, tłum uczestników, Radosław składa wieniec pod obeliskiem AK. Rewersy z opisami: 'pod Obeliskiem AK składa wieniec RADOSŁAW', 'Groby Jółki Porzeki', 'Zdjęcia robi mjr. Wtody — Sław Kulena — D-ca Batl. 36 P.P. Legji Akademickiej'. Jan Mazurkiewicz 'Radosław' (1896–1988) — dowódca Zgrupowania Radosław, legenda Powstania. Aresztowany przez UB, skazany, zrehabilitowany. Wycena: 3000–8000 PLN."
     },
-    # ── Listy Wandy 1946-1948 (listy_wanda_2.pdf, V/222-238) ──
+]
+
+
+_REMOVED_PAI_GALLERY_ENTRIES_ARCHIVED = [
+    # ARCHIVED: These entries were moved to OBJECTS where they belong. Kept as reference only.
+    # They already exist in OBJECTS. Removed 2026-03-28 by CC.
     {
         "sygn": "ARG/V/222", "tytul": "Liścik Wandy — 'Synku Malutki!'",
         "data": "b.d.", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
@@ -12791,7 +13287,7 @@ GALLERY_PHOTOS = [
         "data": "17.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p52.jpg", "jezyk": "polski",
         "opis_fizyczny": "List odręczny Wandy, atrament, papier pożółkły.",
-        "opis_tresci": "Ojciec (gen. Janusz) wraca do kraju. Spis 45 lekarstw potrzebnych w aptece — dokument farmaceutyczny.",
+        "opis_tresci": "Ojciec (Stefan/Stanisław) wraca do kraju. Spis 45 lekarstw potrzebnych w aptece — dokument farmaceutyczny.",
         "kontekst": "Korespondencja Wandy Głuchowskiej (sierż. pchor. Kedyw AK, ps. Krysta) do syna Krzysztofa w Anglii. Konspiracyjna poczta lub bezpośrednia. Źródło: listy_wanda_2.pdf.",
         "powiazania": ["ARG/V/175", "ARG/V/182", "ARG/V/183", "ARG/V/207c"],
         "stan": "Dobry", "wycena": "400-1500 PLN"
@@ -12840,6 +13336,8 @@ body.lang-js [data-lang].lang-visible { display:revert; }
 .header { text-align:center; padding:60px 20px 30px; border-bottom:1px solid var(--border); }
 .header h1 { font-family:'Playfair Display',serif; font-size:2.4em; color:var(--gold); letter-spacing:2px; margin-bottom:8px; }
 .header .subtitle { color:var(--text-dim); font-size:1.1em; font-weight:300; }
+.header-crests { display:flex; align-items:center; justify-content:center; gap:20px; }
+.header-crest-img { width:70px; height:auto; opacity:0.85; filter:drop-shadow(0 0 8px rgba(212,175,55,0.3)); }
 
 /* PHOTO ARCHIVE GRID */
 .photo-grid {
@@ -12964,6 +13462,7 @@ body.lang-js [data-lang].lang-visible { display:revert; }
 .card-img-wrap img { max-width:100%; max-height:100%; object-fit:contain; }
 .card-body { padding:18px; }
 .card-sygn { font-family:'JetBrains Mono',monospace; font-size:0.7em; color:var(--gold); letter-spacing:1px; margin-bottom:6px; }
+.card-sygn-k { color:var(--accent); font-size:0.9em; margin-left:6px; opacity:0.7; }
 .card-title { font-family:'Playfair Display',serif; font-size:1.05em; color:var(--text); margin-bottom:8px; line-height:1.35; font-weight:600; }
 .card-meta-row { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; padding-bottom:8px; border-bottom:1px solid var(--border); }
 .card-date { font-size:0.85em; color:var(--gold); font-weight:500; }
@@ -13293,6 +13792,15 @@ def _footer_html():
             "fr": ("Galerie", "Photos familiales, militaires et de c\u00e9r\u00e9monies"),
             "yi": ("\u05d2\u05d0\u05b7\u05dc\u05e2\u05e8\u05d9\u05e2", "\u05de\u05e9\u05e4\u05bc\u05d7\u05d4, \u05de\u05d9\u05dc\u05d9\u05d8\u05e2\u05e8\u05d9\u05e9\u05e2 \u05d0\u05d5\u05df \u05e6\u05e2\u05e8\u05e2\u05de\u05d0\u05b8\u05e0\u05d9\u05e2 \u05e4\u05bf\u05d0\u05b8\u05d8\u05d0\u05b8\u05e1"),
         }),
+        ("korespondencja.html", {
+            "pl": ("Listy", "Korespondencja 1944\u20131948 \u2014 6 dr\u00f3g konspiracyjnych"),
+            "en": ("Letters", "Correspondence 1944\u20131948 \u2014 6 clandestine routes"),
+            "pt": ("Cartas", "Correspond\u00eancia 1944\u20131948 \u2014 6 rotas clandestinas"),
+            "de": ("Briefe", "Korrespondenz 1944\u20131948 \u2014 6 konspirative Wege"),
+            "nl": ("Brieven", "Correspondentie 1944\u20131948 \u2014 6 geheime routes"),
+            "fr": ("Lettres", "Correspondance 1944\u20131948 \u2014 6 voies clandestines"),
+            "yi": ("\u05d1\u05e8\u05d9\u05d5\u05d5", "\u05e7\u05d0\u05b8\u05e8\u05e2\u05e1\u05e4\u05bc\u05d0\u05b8\u05e0\u05d3\u05e2\u05e0\u05e5 1944\u20131948"),
+        }),
     ]
     btns = ""
     for href, langs in footer_data:
@@ -13394,7 +13902,10 @@ def _build_series_cards(filter_fn):
             series_html += '        <img src="' + IMG_DIR + '/' + obj["photo"] + '" alt="' + escape(obj["tytul"]) + '" loading="lazy">\n'
             series_html += '      </div>\n'
             series_html += '      <div class="card-body">\n'
-            series_html += '        <div class="card-sygn">' + escape(obj["sygn"]) + '</div>\n'
+            sygn_display = escape(obj["sygn"])
+            if obj.get("sygn_k"):
+                sygn_display += ' <span class="card-sygn-k">' + escape(obj["sygn_k"]) + '</span>'
+            series_html += '        <div class="card-sygn">' + sygn_display + '</div>\n'
             series_html += '        <h3 class="card-title">' + escape(obj["tytul"]) + '</h3>\n'
             series_html += '        <div class="card-meta-row">\n'
             series_html += '          <span class="card-date">' + escape(obj["data"]) + '</span>\n'
@@ -13403,6 +13914,19 @@ def _build_series_cards(filter_fn):
             series_html += '        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> ' + escape(obj["opis_fizyczny"]) + '</div>\n'
             series_html += '        <div class="card-field"><span class="field-label" data-label="tresc">Tre\u015b\u0107:</span> ' + escape(obj["opis_tresci"]) + '</div>\n'
             series_html += '        <div class="card-field"><span class="field-label" data-label="tworca">Tw\u00f3rca:</span> ' + escape(obj["tworca"]) + '</div>\n'
+            # Epistolary fields (ISAD(G) extension for correspondence)
+            if obj.get("nadawca"):
+                series_html += '        <div class="card-field card-epistolary"><span class="field-label" data-label="nadawca">Nadawca:</span> ' + escape(obj["nadawca"]) + '</div>\n'
+            if obj.get("adresat"):
+                series_html += '        <div class="card-field card-epistolary"><span class="field-label" data-label="adresat">Adresat:</span> ' + escape(obj["adresat"]) + '</div>\n'
+            if obj.get("miejsce_nadania"):
+                series_html += '        <div class="card-field card-epistolary"><span class="field-label" data-label="miejsce">Miejsce nadania:</span> ' + escape(obj["miejsce_nadania"]) + '</div>\n'
+            if obj.get("droga_pocztowa"):
+                series_html += '        <div class="card-field card-epistolary"><span class="field-label" data-label="droga">Droga pocztowa:</span> ' + escape(obj["droga_pocztowa"]) + '</div>\n'
+            if obj.get("cenzura"):
+                series_html += '        <div class="card-field card-epistolary"><span class="field-label" data-label="cenzura">Cenzura:</span> ' + escape(obj["cenzura"]) + '</div>\n'
+            if obj.get("koperta"):
+                series_html += '        <div class="card-field card-epistolary"><span class="field-label" data-label="koperta">Koperta:</span> ' + escape(obj["koperta"]) + '</div>\n'
             series_html += '        <div class="card-field"><span class="field-label" data-label="jezyk">J\u0119zyk:</span> ' + escape(obj["jezyk"]) + '</div>\n'
             series_html += '        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> ' + escape(obj["kontekst"]) + '</div>\n'
             series_html += '        ' + powiazania_html + '\n'
@@ -13462,7 +13986,11 @@ def generate_archive_html():
 {page_nav}
 
 <div class="header">
-  <h1>ARCHIWUM DOKUMENT&Oacute;W</h1>
+  <div class="header-crests">
+    <img src="gluchowski_img/herb_prus_II.svg" alt="h. Prus II" class="header-crest-img" title="Prus II (Wilczekosy)">
+    <h1>ARCHIWUM DOKUMENT&Oacute;W</h1>
+    <img src="gluchowski_img/herb_doliwa.svg" alt="h. Doliwa" class="header-crest-img" title="Doliwa (Zembrzuscy)">
+  </div>
   <div class="subtitle" data-lang="pl">Skany dokumentów, korespondencji i ephemery z Archiwum Rodziny Głuchowskich</div>
   <div class="subtitle" data-lang="en">Document scans, correspondence and ephemera from the Głuchowski Family Archive</div>
   <div class="subtitle" data-lang="pt">Fotografias de documentos do Arquivo da Família Głuchowski</div>
@@ -13534,7 +14062,7 @@ def generate_correspondence_html():
     """Generate docs/korespondencja.html — letters/correspondence chronologically."""
 
     series_html, nav_html, doc_count = _build_series_cards(
-        lambda obj: obj.get("typ", "").lower() in ("list", "pocztówka", "bilecik", "aerogram")
+        lambda obj: obj.get("typ", "").lower() in ("list", "pocztówka", "bilecik", "aerogram", "koperta", "telegram")
     )
 
     common_css = _common_css()
@@ -13563,12 +14091,16 @@ def generate_correspondence_html():
 {page_nav}
 
 <div class="header">
-<h1 class="main-title">
-<span data-lang="pl">Korespondencja rodziny Głuchowskich</span>
-<span data-lang="en">Głuchowski Family Correspondence</span>
-<span data-lang="pt">Correspondência da família Głuchowski</span>
-<span data-lang="de">Korrespondenz der Familie Głuchowski</span>
-</h1>
+<div class="header-crests">
+  <img src="gluchowski_img/herb_prus_II.svg" alt="h. Prus II" class="header-crest-img" title="Prus II (Wilczekosy)">
+  <h1 class="main-title">
+  <span data-lang="pl">Korespondencja rodziny Głuchowskich</span>
+  <span data-lang="en">Głuchowski Family Correspondence</span>
+  <span data-lang="pt">Correspondência da família Głuchowski</span>
+  <span data-lang="de">Korrespondenz der Familie Głuchowski</span>
+  </h1>
+  <img src="gluchowski_img/herb_doliwa.svg" alt="h. Doliwa" class="header-crest-img" title="Doliwa (Zembrzuscy)">
+</div>
 <p class="subtitle">
 <span data-lang="pl">Listy 1944–1948 &bull; 6 dróg konspiracyjnych &bull; Matka i syn rozdzieleni wojną</span>
 <span data-lang="en">Letters 1944–1948 &bull; 6 clandestine routes &bull; Mother and son separated by war</span>
@@ -13735,7 +14267,11 @@ def generate_gallery_html():
 {page_nav}
 
 <div class="header">
-  <h1>GALERIA FOTOGRAFICZNA</h1>
+  <div class="header-crests">
+    <img src="gluchowski_img/herb_prus_II.svg" alt="h. Prus II" class="header-crest-img" title="Prus II (Wilczekosy)">
+    <h1>GALERIA FOTOGRAFICZNA</h1>
+    <img src="gluchowski_img/herb_doliwa.svg" alt="h. Doliwa" class="header-crest-img" title="Doliwa (Zembrzuscy)">
+  </div>
   <div class="subtitle" data-lang="pl">Archiwum Rodziny Głuchowskich — zdjęcia rodzinne, żołnierskie, uroczystości</div>
   <div class="subtitle" data-lang="en">Głuchowski Family Archive — family, military and ceremonial photographs</div>
   <div class="subtitle" data-lang="pt">Arquivo da Família Głuchowski — fotografias familiares, militares e cerimoniais</div>

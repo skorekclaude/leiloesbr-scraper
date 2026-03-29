@@ -27,6 +27,8 @@ body { background:var(--bg); color:var(--text); font-family:'Source Sans 3',sans
 .header { text-align:center; padding:80px 20px 40px; border-bottom:1px solid var(--border); }
 .header .institution { font-size:0.75em; letter-spacing:4px; text-transform:uppercase; color:var(--text-faint); margin-bottom:12px; }
 .header h1 { font-family:'Playfair Display',serif; font-size:2.6em; color:var(--gold); letter-spacing:2px; margin-bottom:8px; }
+.header-crests { display:flex; align-items:center; justify-content:center; gap:20px; }
+.header-crest-img { width:70px; height:auto; opacity:0.85; filter:drop-shadow(0 0 8px rgba(212,175,55,0.3)); }
 .header .subtitle { color:var(--text-dim); font-size:1.15em; font-weight:300; }
 .header .dates { color:var(--gold-dim); font-size:1.3em; font-weight:300; margin-top:6px; letter-spacing:3px; }
 .header .stats { color:var(--text-faint); font-size:0.85em; margin-top:16px; }
@@ -168,6 +170,21 @@ body.lang-active .card-lang-badge { display:inline; }
 .ft-person.ft-founder { border-color:var(--accent); }
 .ft-person.ft-protagonist { border-color:var(--gold); background:var(--surface2); }
 .ft-person.ft-deceased { opacity:0.7; }
+/* HERALDIC TABLE */
+.heraldic-table { width:100%; border-collapse:collapse; margin:16px 0; font-size:0.85em; }
+.heraldic-table th { background:var(--surface2); color:var(--gold); padding:10px 12px; text-align:left; font-weight:600; letter-spacing:1px; font-size:0.8em; text-transform:uppercase; border-bottom:2px solid var(--gold); }
+.heraldic-table td { padding:10px 12px; border-bottom:1px solid var(--border); color:var(--text-dim); vertical-align:middle; }
+.heraldic-table tr:hover { background:var(--surface2); }
+.ht-herb-img { width:36px; height:auto; }
+.ht-herb-text { font-size:1.4em; color:var(--gold); text-align:center; }
+.heraldic-source { font-size:0.75em; color:var(--text-faint); font-style:italic; margin-top:8px; }
+.card-epistolary { border-left:2px solid var(--accent); padding-left:8px; margin-left:4px; }
+
+.ft-herb { text-align:center; margin-bottom:8px; }
+.ft-herb-img { width:42px; height:auto; opacity:0.8; margin:0 4px; filter:drop-shadow(0 0 4px rgba(212,175,55,0.25)); }
+.ft-herb-img.ft-herb-faded { opacity:0.4; filter:grayscale(0.6) drop-shadow(0 0 4px rgba(212,175,55,0.15)); }
+.ft-herb-label { font-family:'JetBrains Mono',monospace; font-size:0.65em; color:var(--accent); letter-spacing:1px; margin-bottom:4px; text-transform:uppercase; }
+.ft-spouse { font-size:0.78em; color:var(--text-dim); margin-bottom:6px; font-style:italic; }
 .ft-name { font-family:'Playfair Display',serif; font-size:1em; color:var(--text); margin-bottom:4px; font-weight:600; }
 .ft-dates { font-size:0.8em; color:var(--gold); margin-bottom:6px; }
 .ft-role { font-size:0.8em; color:var(--text-dim); line-height:1.5; margin-bottom:6px; }
@@ -423,6 +440,7 @@ body.lang-active .card-lang-badge { display:inline; }
   <a href="katalog_gluchowski_v4.html" class="page-nav-link active">&#128203; Katalog</a>
   <a href="archiwum.html" class="page-nav-link">&#128247; Archiwum Dokument&oacute;w</a>
   <a href="galeria.html" class="page-nav-link">&#128444; Galeria Fotografii</a>
+  <a href="korespondencja.html" class="page-nav-link">&#9993; Listy</a>
 </div>
 
 <div class="header">
@@ -433,7 +451,11 @@ body.lang-active .card-lang-badge { display:inline; }
   <div class="institution" data-lang="nl">Museumcatalogus</div>
   <div class="institution" data-lang="fr">Catalogue Muséal</div>
   <div class="institution" data-lang="yi">מוזעאום קאַטאַלאָג</div>
-  <h1>ARCHIWUM RODZINY GŁUCHOWSKICH</h1>
+  <div class="header-crests">
+    <img src="gluchowski_img/herb_prus_II.svg" alt="Herb Prus II (Wilczekosy)" class="header-crest-img" title="Prus II (Wilczekosy)">
+    <h1>ARCHIWUM RODZINY GŁUCHOWSKICH</h1>
+    <img src="gluchowski_img/herb_doliwa.svg" alt="Herb Doliwa (Zembrzuscy)" class="header-crest-img" title="Doliwa (Zembrzuscy — ród matki Wandy)">
+  </div>
   <div class="subtitle" data-lang="pl">Dokumenty, korespondencja, fotografie i ephemera</div>
   <div class="subtitle" data-lang="en">Documents, correspondence, photographs and ephemera</div>
   <div class="subtitle" data-lang="pt">Documentos, correspondência, fotografias e efêmeros</div>
@@ -442,13 +464,13 @@ body.lang-active .card-lang-badge { display:inline; }
   <div class="subtitle" data-lang="fr">Documents, correspondance, photographies et éphémérides</div>
   <div class="subtitle" data-lang="yi">דאָקומענטן, קאָרעספּאָנדענץ, פאָטאָגראַפיעס און עפעמעראַ</div>
   <div class="dates">1867 — 2020</div>
-  <div class="stats" data-lang="pl">356 jednostek inwentarzowych &bull; 5 serii archiwalnych &bull; 5 pokoleń</div>
-  <div class="stats" data-lang="en">356 inventory units &bull; 5 archival series &bull; 5 generations</div>
-  <div class="stats" data-lang="pt">356 unidades de inventário &bull; 5 séries arquivísticas &bull; 5 gerações</div>
-  <div class="stats" data-lang="de">356 Inventareinheiten &bull; 5 Archivserien &bull; 5 Generationen</div>
-  <div class="stats" data-lang="nl">356 inventariseenheden &bull; 5 archiefreeksen &bull; 5 generaties</div>
-  <div class="stats" data-lang="fr">356 unités d'inventaire &bull; 5 séries archivistiques &bull; 5 générations</div>
-  <div class="stats" data-lang="yi">356 אינוונטאַר איינהייטן &bull; 5 אַרכיוו סעריעס &bull; 5 דורות</div>
+  <div class="stats" data-lang="pl">373 jednostek inwentarzowych &bull; 6 serii archiwalnych &bull; 5 pokoleń</div>
+  <div class="stats" data-lang="en">373 inventory units &bull; 6 archival series &bull; 5 generations</div>
+  <div class="stats" data-lang="pt">373 unidades de inventário &bull; 6 séries arquivísticas &bull; 5 gerações</div>
+  <div class="stats" data-lang="de">373 Inventareinheiten &bull; 6 Archivserien &bull; 5 Generationen</div>
+  <div class="stats" data-lang="nl">373 inventariseenheden &bull; 6 archiefreeksen &bull; 5 generaties</div>
+  <div class="stats" data-lang="fr">373 unités d'inventaire &bull; 6 séries archivistiques &bull; 5 générations</div>
+  <div class="stats" data-lang="yi">373 אינוונטאַר איינהייטן &bull; 6 אַרכיוו סעריעס &bull; 5 דורות</div>
 </div>
 
 <div class="provenance">
@@ -987,14 +1009,14 @@ body.lang-active .card-lang-badge { display:inline; }
     <div class="ap-thesis" data-lang="nl">Stelling: De rol van vrouwen in Kedyw AK aan de hand van één familie — Wanda, schuilnaam "Krysta"/"Justyna" (sergeant, DYSK-eenheid). Gewond bij sabotageactie in Wilanów, 26.IX.1943. Echtgenoot Stefan gearresteerd door Gestapo V.1944, zoon Krzysztof in Peloton 1112.</div>
     <div class="ap-thesis" data-lang="fr">Thèse : Le rôle des femmes au Kedyw AK à travers une famille — Wanda, nom de code « Krysta »/« Justyna » (sergent, unité DYSK). Blessée dans une action de sabotage à Wilanów, 26.IX.1943. Mari Stefan arrêté par la Gestapo V.1944, fils Krzysztof au Peloton 1112.</div>
     <div class="ap-thesis" data-lang="yi">טעזע: די ראָלע פֿון פֿרויען אין קעדיוו AK דורך איין משפּחה — וואַנדאַ, דעקנאָמען „קריסטאַ"/„יוסטינאַ". פֿאַרוווּנדעט אין סאַבאָטאַזש-אַקציע אין וויִלאַנאָוו, 26.IX.1943.</div>
-    <div class="ap-novelty" data-lang="pl"><strong>Nowość:</strong> Rekonstrukcja losów rodziny, w której WSZYSCY dorośli członkowie walczyli w konspiracji. Matka-dywersantka, ojciec-kwatermistrz, syn-powstaniec — trzy różne formy oporu w jednym gospodarstwie domowym.</div>
-    <div class="ap-novelty" data-lang="en"><strong>Novelty:</strong> Reconstruction of a family in which ALL adult members fought in the underground. Mother-saboteur, father-quartermaster, son-insurgent — three different forms of resistance in one household.</div>
+    <div class="ap-novelty" data-lang="pl"><strong>Nowość:</strong> Rekonstrukcja losów rodziny, w której WSZYSCY dorośli członkowie walczyli w konspiracji. Matka-dywersantka, ojciec-kwatermistrz, syn-powstaniec, stryj-generał — CZTERY formy oporu. Po wojnie: piąta forma — konspiracja pocztowa Wandy (6 dróg przez Europę do syna w Anglii). 49 nowych źródeł z listów 1946–1948 (ARG/V/174–238).</div>
+    <div class="ap-novelty" data-lang="en"><strong>Novelty:</strong> Reconstruction of a family in which ALL adult members fought in the underground. Mother-saboteur, father-quartermaster, son-insurgent, uncle-general — FOUR forms of resistance. After the war: a fifth form — Wanda's clandestine postal network (6 routes across Europe to reach her son in England). 49 new first-person sources from 1946–1948 letters (ARG/V/174–238).</div>
     <div class="ap-novelty" data-lang="pt"><strong>Novidade:</strong> Reconstrução de uma família em que TODOS os membros adultos combateram na clandestinidade. Mãe-sabotadora, pai-intendente, filho-insurgente — três formas diferentes de resistência num só lar.</div>
     <div class="ap-novelty" data-lang="de"><strong>Neuheit:</strong> Rekonstruktion einer Familie, in der ALLE erwachsenen Mitglieder im Untergrund kämpften. Mutter-Saboteurin, Vater-Quartiermeister, Sohn-Aufständischer — drei Widerstandsformen in einem Haushalt.</div>
     <div class="ap-novelty" data-lang="nl"><strong>Nieuw:</strong> Reconstructie van een familie waarin ALLE volwassen leden in het verzet vochten. Moeder-saboteur, vader-kwartiermeester, zoon-opstandeling — drie vormen van verzet in één huishouden.</div>
     <div class="ap-novelty" data-lang="fr"><strong>Nouveauté :</strong> Reconstitution d'une famille dont TOUS les membres adultes ont combattu dans la clandestinité. Mère-saboteuse, père-intendant, fils-insurgé — trois formes de résistance dans un même foyer.</div>
     <div class="ap-novelty" data-lang="yi"><strong>נײַיקייט:</strong> רעקאָנסטרוקציע פֿון אַ משפּחה וווּ אַלע דערוואַקסענע מיטגלידער האָבן געקעמפֿט אין אונטערגרונט.</div>
-    <div class="ap-sources">Źródła / Sources: ARG/III/28, ARG/V/158, ARG/V/161, portal 1944.pl</div>
+    <div class="ap-sources">Źródła / Sources: ARG/III/28, ARG/V/158, ARG/V/161, ARG/V/174&ndash;238 (49 listów 1946&ndash;1948), ARG/V/207c (deportacja), portal 1944.pl</div>
     <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="pl"><span class="lock-icon">🔒</span>Czytaj pełny artykuł</a>
     <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="en"><span class="lock-icon">🔒</span>Read full article</a>
     <a class="ap-link" href="artykul_dysk_wanda.html" data-lang="pt"><span class="lock-icon">🔒</span>Leia o artigo completo</a>
@@ -1024,10 +1046,10 @@ body.lang-active .card-lang-badge { display:inline; }
       <span class="ap-badge">Teki Archiwalne</span>
       <span class="ap-badge">Archeion</span>
     </div>
-    <div class="ap-thesis" data-lang="pl">Teza: Porównanie kolekcji prywatnej (ARG, 314 jedn.) z Zespołem 70 w Instytucie Piłsudskiego w Londynie. Gen. Janusz Głuchowski (1888–1964) — jeden z „Siódemki Beliny" (2.VIII.1914), twórca 7 P.Uł. Lubelskich, I Zastępca Ministra Spraw Wojskowych (1935–1939), D-ca PSZ w UK, współzałożyciel Instytutu Piłsudskiego w Londynie (15.III.1947).</div>
-    <div class="ap-thesis" data-lang="en">Thesis: Comparison of the private collection (ARG, 314 items) with Collection 70 at the Piłsudski Institute in London. Gen. Janusz Głuchowski (1888–1964) — one of "Belina's Seven" (2.VIII.1914), founder of the 7th Uhlan Regiment, 1st Deputy Minister of Military Affairs (1935–1939), Commander of the Polish Armed Forces in the UK, co-founder of the Piłsudski Institute in London (15.III.1947).</div>
-    <div class="ap-thesis" data-lang="pt">Tese: Comparação da coleção privada (ARG, 314 un.) com o Acervo 70 no Instituto Piłsudski de Londres. Gen. Janusz Głuchowski (1888–1964) — um dos "Sete de Belina", fundador do 7º Regimento de Ulanos, 1º Vice-Ministro da Guerra (1935–1939), cofundador do Instituto Piłsudski em Londres.</div>
-    <div class="ap-thesis" data-lang="de">These: Vergleich der Privatsammlung (ARG, 314 Einh.) mit Bestand 70 im Piłsudski-Institut London. Gen. Janusz Głuchowski (1888–1964) — einer von „Belinas Sieben", Gründer des 7. Ulanen-Regiments, Erster Stellvertretender Kriegsminister (1935–1939), Mitbegründer des Piłsudski-Instituts in London.</div>
+    <div class="ap-thesis" data-lang="pl">Teza: Porównanie kolekcji prywatnej (ARG, 373 jedn.) z Zespołem 70 w Instytucie Piłsudskiego w Londynie. Gen. Janusz Głuchowski (1888–1964) — jeden z „Siódemki Beliny" (2.VIII.1914), twórca 7 P.Uł. Lubelskich, I Zastępca Ministra Spraw Wojskowych (1935–1939), D-ca PSZ w UK, współzałożyciel Instytutu Piłsudskiego w Londynie (15.III.1947).</div>
+    <div class="ap-thesis" data-lang="en">Thesis: Comparison of the private collection (ARG, 373 items) with Collection 70 at the Piłsudski Institute in London. Gen. Janusz Głuchowski (1888–1964) — one of "Belina's Seven" (2.VIII.1914), founder of the 7th Uhlan Regiment, 1st Deputy Minister of Military Affairs (1935–1939), Commander of the Polish Armed Forces in the UK, co-founder of the Piłsudski Institute in London (15.III.1947).</div>
+    <div class="ap-thesis" data-lang="pt">Tese: Comparação da coleção privada (ARG, 373 un.) com o Acervo 70 no Instituto Piłsudski de Londres. Gen. Janusz Głuchowski (1888–1964) — um dos "Sete de Belina", fundador do 7º Regimento de Ulanos, 1º Vice-Ministro da Guerra (1935–1939), cofundador do Instituto Piłsudski em Londres.</div>
+    <div class="ap-thesis" data-lang="de">These: Vergleich der Privatsammlung (ARG, 373 Einh.) mit Bestand 70 im Piłsudski-Institut London. Gen. Janusz Głuchowski (1888–1964) — einer von „Belinas Sieben", Gründer des 7. Ulanen-Regiments, Erster Stellvertretender Kriegsminister (1935–1939), Mitbegründer des Piłsudski-Instituts in London.</div>
     <div class="ap-thesis" data-lang="nl">Stelling: Vergelijking van de privécollectie (ARG, 314 eenh.) met Collectie 70 in het Piłsudski-Instituut Londen. Gen. Janusz Głuchowski (1888–1964) — een van „Belina's Zeven", stichter van het 7e Ulanen-Regiment, Eerste Plaatsvervangend Minister van Oorlog (1935–1939), medeoprichter van het Piłsudski-Instituut in Londen.</div>
     <div class="ap-thesis" data-lang="fr">Thèse : Comparaison de la collection privée (ARG, 314 unités) avec le Fonds 70 de l'Institut Piłsudski de Londres. Le gén. Janusz Głuchowski (1888–1964) — un des « Sept de Belina », fondateur du 7e Régiment d'Uhlans, Premier Sous-Ministre de la Guerre (1935–1939), cofondateur de l'Institut Piłsudski de Londres.</div>
     <div class="ap-thesis" data-lang="yi">טעזע: פֿאַרגלײַך פֿון דער פּריוואַטער זאַמלונג (ARG, 314 אייניקייטן) מיט זאַמלונג 70 אין פּיווסודסקי-אינסטיטוט אין לאָנדאָן. גענ. יאַנוש גלוכאָווסקי (1888–1964) — איינער פֿון „בעלינאַס זיבן", גרינדער פֿון 7טן אולאַנען-רעגימענט.</div>
@@ -1115,6 +1137,50 @@ body.lang-active .card-lang-badge { display:inline; }
   <p class="fa-subtitle" data-lang="en">Reconstruction of the family's history based on documents in the collection</p>
 
   <!-- DRZEWO GENEALOGICZNE -->
+  <!-- HERALDYKA RODZINY -->
+  <div class="fa-section">
+    <h3 class="fa-section-title" data-lang="pl">Heraldyka rodziny</h3>
+    <h3 class="fa-section-title" data-lang="en">Family Heraldry</h3>
+    <table class="heraldic-table">
+      <thead>
+        <tr>
+          <th data-lang="pl">Herb</th><th data-lang="en">Arms</th>
+          <th data-lang="pl">Nazwa</th><th data-lang="en">Name</th>
+          <th data-lang="pl">Nosiciel w rodzinie</th><th data-lang="en">Bearer in family</th>
+          <th data-lang="pl">Region</th><th data-lang="en">Region</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="gluchowski_img/herb_prus_II.svg" class="ht-herb-img" alt="Prus II"></td>
+          <td><strong>Prus II</strong> (Wilczekosy)</td>
+          <td>Marian, Janusz, Stefan, Lech, Krzysztof &mdash; linia ojcowska</td>
+          <td>Mazowsze, Chełmińska, Piotrków</td>
+        </tr>
+        <tr>
+          <td><img src="gluchowski_img/herb_doliwa.svg" class="ht-herb-img" alt="Doliwa"></td>
+          <td><strong>Doliwa</strong></td>
+          <td>Wanda z Zembrzuskich (żona Stefana, matka Krzysztofa)</td>
+          <td>Zembrzus Wielki, pow. przasnyski</td>
+        </tr>
+        <tr>
+          <td class="ht-herb-text">&#9733;</td>
+          <td><strong>Belina</strong></td>
+          <td>Maria Zdanowska &mdash; I° żona Mariana (syn: Janusz, 1888)</td>
+          <td>ziemia dobrzyńska, Zdanów</td>
+        </tr>
+        <tr>
+          <td class="ht-herb-text">&#9733;</td>
+          <td><strong>Lubicz / Bończa</strong></td>
+          <td>Marta z Żółkowskich &mdash; II° żona Mariana (synowie: Stefan, 1893; Lech, 1902)</td>
+          <td>ród hetmana Żółkiewskiego</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="heraldic-source" data-lang="pl">Źródło: Niesiecki <em>Herbarz Polski</em> (Głuchowski h. Prus II i Radwan); research M. Głuchowskiego, III.2026.</p>
+    <p class="heraldic-source" data-lang="en">Source: Niesiecki <em>Herbarz Polski</em> (Głuchowski arms: Prus II and Radwan); research by M. Głuchowski, III.2026.</p>
+  </div>
+
   <div class="fa-section">
     <h3 class="fa-section-title" data-lang="pl">Drzewo rodziny</h3>
     <h3 class="fa-section-title" data-lang="en">Family Tree</h3>
@@ -1126,15 +1192,19 @@ body.lang-active .card-lang-badge { display:inline; }
     <div class="family-tree">
       <div class="ft-generation">
         <div class="ft-person ft-founder">
-          <div class="ft-name">Marian (Marjan) Głuchowski</div>
-          <div class="ft-dates" data-lang="pl">ur. 1867 &ndash; zm. po 1914</div>
+          <div class="ft-herb"><img src="gluchowski_img/herb_prus_II.svg" alt="h. Prus II" class="ft-herb-img" title="herb Prus II (Wilczekosy)"></div>
+          <div class="ft-name">Marian (Maciej) Głuchowski</div>
+          <div class="ft-herb-label">h. Prus II</div>
+          <div class="ft-dates" data-lang="pl">ur. 1867, Sycanów &ndash; zm. 20.VI.1924, Warszawa</div>
           <div class="ft-dates" data-lang="en">b. 1867 &ndash; d. after 1914</div>
           <div class="ft-dates" data-lang="pt">n. 1867 &ndash; f. após 1914</div>
           <div class="ft-dates" data-lang="de">geb. 1867 &ndash; gest. nach 1914</div>
           <div class="ft-dates" data-lang="nl">geb. 1867 &ndash; overl. na 1914</div>
           <div class="ft-dates" data-lang="fr">né 1867 &ndash; décédé après 1914</div>
           <div class="ft-dates" data-lang="yi">געב. 1867 &ndash; gest. נאָך 1914</div>
-          <div class="ft-role" data-lang="pl">Komisarz PON na powiat częstochowski. Legitymacja nr 2 &mdash; jeden z założycieli.</div>
+          <div class="ft-spouse">I&#176; &#9829; Maria Zdanowska <span class="ft-herb-label">h. Belina</span> (syn: Janusz)</div>
+          <div class="ft-spouse">II&#176; &#9829; Marta z Żółkowskich <span class="ft-herb-label">h. Lubicz</span> (synowie: Stefan, Lech)</div>
+          <div class="ft-role" data-lang="pl">Komisarz PON na powiat częstochowski. Legitymacja nr 2 &mdash; jeden z założycieli. Pochowany Powązki.</div>
           <div class="ft-role" data-lang="en">Commissioner of the Polish National Organization (PON) for the Częstochowa district. Membership card no. 2 &mdash; one of the founders.</div>
           <div class="ft-role" data-lang="pt">Comissário da Organização Nacional Polonesa (PON) para o distrito de Częstochowa. Carteira nº 2 &mdash; um dos fundadores.</div>
           <div class="ft-role" data-lang="de">Kommissar der Polnischen Nationalorganisation (PON) für den Kreis Częstochowa. Mitgliedsausweis Nr. 2 &mdash; einer der Gründer.</div>
@@ -1153,8 +1223,12 @@ body.lang-active .card-lang-badge { display:inline; }
       <div class="ft-connector">&darr;</div>
       <div class="ft-generation ft-gen-siblings">
         <div class="ft-person">
+          <div class="ft-herb"><img src="gluchowski_img/herb_prus_II.svg" alt="h. Prus II" class="ft-herb-img" title="herb Prus II (Wilczekosy)"></div>
           <div class="ft-name">Gen. dyw. Janusz Julian Głuchowski</div>
-          <div class="ft-dates">1888 &ndash; 1964</div>
+          <div class="ft-herb-label">h. Prus II</div>
+          <div class="ft-dates">ur. 19.VI.1888, Bukowa &ndash; zm. 11.VI.1964, Londyn</div>
+          <div class="ft-spouse" style="font-size:0.7em;color:var(--text-faint);">syn z I° małżeństwa (matka: Maria Zdanowska h. Belina)</div>
+          <div class="ft-spouse">&#9829; Maria z Bukowskich</div>
           <div class="ft-role" data-lang="pl">Siódemka Beliny. Twórca 7 P.Uł. I Zastępca Min. Spraw Wojskowych. D-ca PSZ w UK. Companion of the Order of the Bath (C.B.). Współzałożyciel Instytutu Piłsudskiego w Londynie.</div>
           <div class="ft-role" data-lang="en">Belina's Seven. Founder of the 7th Uhlan Regiment. 1st Deputy Minister of Military Affairs. Commander of Polish Armed Forces in the UK. Companion of the Order of the Bath (C.B.). Co-founder of the Piłsudski Institute in London.</div>
           <div class="ft-role" data-lang="pt">Os Sete de Belina. Fundador do 7º Regimento de Ulanos. 1º Vice-Ministro da Guerra. Comandante das Forças Armadas Polonesas no Reino Unido. Cofundador do Instituto Piłsudski em Londres.</div>
@@ -1166,28 +1240,35 @@ body.lang-active .card-lang-badge { display:inline; }
           <div class="ft-docs" data-lang="en">Documents: ARG/II/1&ndash;32</div>
         </div>
         <div class="ft-person">
-          <div class="ft-name">Ppor. Stanisław Stefan Głuchowski</div>
-          <div class="ft-dates">1893 &ndash; 1962</div>
-          <div class="ft-role" data-lang="pl">Oficer 7 P.Uł. Jeniec Stalag XI B (Fallingbostel), nr 0.1245 / 0.1845. Żona: Zofia (Zocha), ul. Pułaskiej, Kleczew, pow. Radomsko.</div>
-          <div class="ft-role" data-lang="en">Officer, 7th Uhlan Regiment. POW at Stalag XI B (Fallingbostel), no. 0.1245 / 0.1845. Wife: Zofia (Zocha), ul. Pułaskiej, Kleczew, Radomsko district.</div>
-          <div class="ft-role" data-lang="pt">Oficial do 7º Regimento de Ulanos. Prisioneiro de guerra no Stalag XI B (Fallingbostel), nº 0.1245. Esposa: Zofia (Zocha).</div>
-          <div class="ft-role" data-lang="de">Offizier im 7. Ulanen-Regiment. Kriegsgefangener im Stalag XI B (Fallingbostel), Nr. 0.1245 / 0.1845. Ehefrau: Zofia (Zocha).</div>
-          <div class="ft-role" data-lang="nl">Officier bij het 7e Ulanen-Regiment. Krijgsgevangene in Stalag XI B (Fallingbostel), nr. 0.1245 / 0.1845. Echtgenote: Zofia (Zocha).</div>
-          <div class="ft-role" data-lang="fr">Officier du 7e Régiment d'Uhlans. Prisonnier de guerre au Stalag XI B (Fallingbostel), nº 0.1245 / 0.1845. Épouse : Zofia (Zocha).</div>
-          <div class="ft-role" data-lang="yi">אָפֿיציר אין 7טן אולאַנען-רעגימענט. קריגס-געפֿאַנגענער אין שטאַלאַג XI B (פֿאַלינגבאָסטעל), נומער 0.1245.</div>
-          <div class="ft-docs" data-lang="pl">Dokumenty: ARG/III/1&ndash;9</div>
-          <div class="ft-docs" data-lang="en">Documents: ARG/III/1&ndash;9</div>
+          <div class="ft-herb"><img src="gluchowski_img/herb_prus_II.svg" alt="h. Prus II" class="ft-herb-img" title="herb Prus II (Wilczekosy)"><img src="gluchowski_img/herb_doliwa.svg" alt="h. Doliwa" class="ft-herb-img" title="herb Doliwa (Zembrzuscy — ród żony Wandy)"></div>
+          <div class="ft-name">Ppor. Stanisław Stefan Głuchowski ps. &laquo;Stefan&raquo;</div>
+          <div class="ft-herb-label">h. Prus II</div>
+          <div class="ft-dates">ur. 1.V.1893, Bukowa &ndash; zm. 17.X.1962, Warszawa</div>
+          <div class="ft-spouse" style="font-size:0.7em;color:var(--text-faint);">syn z II° małżeństwa (matka: Marta z Żółkowskich h. Lubicz)</div>
+          <div class="ft-spouse">&#9829; <strong>Wanda z Zembrzuskich</strong> <span class="ft-herb-label">h. Doliwa</span> (1901&ndash;1976) &mdash; mgr farm. UJK Lwów, sierż. pchor. Kedyw AK ps. Krysta/Justyna</div>
+          <div class="ft-role" data-lang="pl">OJCIEC KRZYSZTOFA. Kancelaria Cywilna Prezydenta RP (1923&ndash;1939). AK &mdash; Kwatermistrzostwo I Obwodu &laquo;Radwan&raquo;. Aresztowany Gestapo 18.V.1944, Pawiak, zwolniony 29.VII.44 (3 dni przed Powstaniem!). Jeniec: Fallingbostel, Bergen, Lübeck (nr 1245). Wrócił do Polski 1947 (nie wpuszczono do Anglii). Żona: <strong>Wanda</strong> (sierż. pchor. Kedyw AK, ps. Krysta/Justyna, farmaceutka). Zm. 17.X.1962, Powązki.</div>
+          <div class="ft-role" data-lang="en">FATHER OF KRZYSZTOF. Civil Chancellery of the President of Poland (1923&ndash;1939). AK &mdash; Quartermaster, 1st District &laquo;Radwan&raquo;. Arrested by Gestapo 18.V.1944, Pawiak, released 29.VII.44 (3 days before Uprising!). POW: Fallingbostel, Bergen, Lübeck (no. 1245). Returned to Poland 1947 (denied entry to England). Wife: <strong>Wanda</strong> (Staff Sgt. Kedyw AK, codename Krysta/Justyna, pharmacist). D. 17.X.1962, Powązki Cemetery.</div>
+          <div class="ft-role" data-lang="pt">PAI DE KRZYSZTOF. Chancelaria Civil do Presidente da Polônia (1923&ndash;1939). AK &mdash; Intendência do 1º Distrito. Preso pela Gestapo 18.V.1944, Pawiak, solto 29.VII.44. Prisioneiro: Fallingbostel, Bergen, Lübeck (nº 1245). Retornou à Polônia 1947. Esposa: <strong>Wanda</strong> (sargento Kedyw AK, farmacêutica).</div>
+          <div class="ft-role" data-lang="de">VATER VON KRZYSZTOF. Zivilkanzlei des Präsidenten Polens (1923&ndash;1939). AK &mdash; Quartiermeister, 1. Bezirk &laquo;Radwan&raquo;. Verhaftet durch Gestapo 18.V.1944, Pawiak, freigelassen 29.VII.44. Kriegsgefangener: Fallingbostel, Bergen, Lübeck (Nr. 1245). Rückkehr nach Polen 1947. Ehefrau: <strong>Wanda</strong> (Feldwebel Kedyw AK, Apothekerin).</div>
+          <div class="ft-role" data-lang="nl">VADER VAN KRZYSZTOF. Civiele Kanselarij van de President van Polen (1923&ndash;1939). AK &mdash; Kwartiermeester. Gearresteerd door Gestapo 18.V.1944, Pawiak, vrijgelaten 29.VII.44. Krijgsgevangene: Fallingbostel, Bergen, Lübeck (nr. 1245). Teruggekeerd naar Polen 1947. Echtgenote: <strong>Wanda</strong> (sergeant Kedyw AK, apotheker).</div>
+          <div class="ft-role" data-lang="fr">PÈRE DE KRZYSZTOF. Chancellerie Civile du Président de la Pologne (1923&ndash;1939). AK &mdash; Intendance du 1er District. Arrêté par la Gestapo 18.V.1944, Pawiak, libéré 29.VII.44. Prisonnier : Fallingbostel, Bergen, Lübeck (nº 1245). Retour en Pologne 1947. Épouse : <strong>Wanda</strong> (sergent Kedyw AK, pharmacienne).</div>
+          <div class="ft-role" data-lang="yi">פֿאָטער פֿון קשיסטאָף. ציווילע קאַנצלאַריע פֿון דער פּרעזידענט פֿון פּוילן (1923&ndash;1939). AK &mdash; קוואַרטירמײַסטער. אַרעסטירט דורך געסטאַפּאָ. קריגס-געפֿאַנגענער: פֿאַלינגבאָסטעל, בערגן, ליובעק. צוריקקומען קיין פּוילן 1947.</div>
+          <div class="ft-docs" data-lang="pl">Dokumenty: ARG/III/1&ndash;38</div>
+          <div class="ft-docs" data-lang="en">Documents: ARG/III/1&ndash;38</div>
         </div>
         <div class="ft-person ft-deceased">
-          <div class="ft-name">Lech Głuchowski ps. &laquo;Jeżycki&raquo;</div>
-          <div class="ft-dates">1900 &ndash; &dagger; 15.IX.1944</div>
-          <div class="ft-role" data-lang="pl">Poległ w Powstaniu Warszawskim. Wspomniany w listach.</div>
-          <div class="ft-role" data-lang="en">Killed in the Warsaw Uprising. Mentioned in correspondence.</div>
-          <div class="ft-role" data-lang="pt">Morto na Insurreição de Varsóvia. Mencionado na correspondência.</div>
-          <div class="ft-role" data-lang="de">Gefallen im Warschauer Aufstand. Erwähnt in Briefen.</div>
-          <div class="ft-role" data-lang="nl">Gesneuveld in de Opstand van Warschau. Vermeld in correspondentie.</div>
-          <div class="ft-role" data-lang="fr">Tombé dans l'Insurrection de Varsovie. Mentionné dans la correspondance.</div>
-          <div class="ft-role" data-lang="yi">געפֿאַלן אין דער וואַרשעווער אויפֿשטאַנד. דערמאָנט אין בריוו.</div>
+          <div class="ft-herb"><img src="gluchowski_img/herb_prus_II.svg" alt="h. Prus II" class="ft-herb-img ft-herb-faded" title="herb Prus II (Wilczekosy)"></div>
+          <div class="ft-name">Rtm. Lech Jerzy Głuchowski ps. &laquo;Jeżycki&raquo;</div>
+          <div class="ft-herb-label">h. Prus II</div>
+          <div class="ft-dates">ur. 2.VI.1902, Raków &ndash; &dagger; 15.IX.1944, Mokotów</div>
+          <div class="ft-spouse" style="font-size:0.7em;color:var(--text-faint);">syn z II° małżeństwa (matka: Marta z Żółkowskich h. Lubicz). W stefan_020 jako &laquo;Uciech&raquo; — błąd odczytu (99% = ta sama osoba: ten sam rok, pseudonim, ojciec, jednostka).</div>
+          <div class="ft-role" data-lang="pl">D-ca 1. szwadronu dywizjonu &laquo;Jeleń&raquo; (7 P.Uł. AK). Ciężko ranny ul. Dolna (Mokotów) &mdash; popełnił samobójstwo by żołnierze nie ryzykowali ewakuacji pod ogniem. Virtuti Militari V kl. (pośm.).</div>
+          <div class="ft-role" data-lang="en">Commander, 1st Squadron, &laquo;Jeleń&raquo; Division (7th Uhlan Regt. AK). Seriously wounded on Dolna St. (Mokotów) &mdash; took his own life so soldiers wouldn't risk evacuation under fire. Virtuti Militari V class (posthumous).</div>
+          <div class="ft-role" data-lang="pt">Comandante do 1º Esquadrão, Divisão &laquo;Jeleń&raquo; (7º Reg. Ulanos AK). Gravemente ferido na rua Dolna (Mokotów) &mdash; suicidou-se para que soldados não arriscassem evacuação. Virtuti Militari V classe (póstumo).</div>
+          <div class="ft-role" data-lang="de">Kommandeur, 1. Schwadron, Division &laquo;Jeleń&raquo; (7. Ulanen-Regt. AK). Schwer verwundet in der Dolna-Straße (Mokotów) &mdash; nahm sich das Leben, damit Soldaten keine Evakuierung unter Feuer riskierten. Virtuti Militari V. Klasse (posthum).</div>
+          <div class="ft-role" data-lang="nl">Commandant, 1e Eskadron, Divisie &laquo;Jeleń&raquo; (7e Ulanen-Regt. AK). Zwaargewond in de Dolna-straat (Mokotów) &mdash; pleegde zelfmoord zodat soldaten geen evacuatie onder vuur zouden riskeren. Virtuti Militari V klasse (postuum).</div>
+          <div class="ft-role" data-lang="fr">Commandant, 1er Escadron, Division &laquo;Jeleń&raquo; (7e Rég. Uhlans AK). Grièvement blessé rue Dolna (Mokotów) &mdash; s'est donné la mort pour que les soldats ne risquent pas l'évacuation sous le feu. Virtuti Militari Ve classe (posthume).</div>
+          <div class="ft-role" data-lang="yi">קאָמאַנדיר, 1סטע עסקאַדראָן, דיוויזיע &laquo;יעלען&raquo; (7טע אולאַנען-רעגימענט AK). שווער פֿאַרוואונדעט אין דאָלנאַ-גאַס (מאָקאָטאָוו) &mdash; האָט זיך אומגעבראַכט כדי סאָלדאַטן זאָלן ניט ריזיקירן עוואַקואַציע אונטער פֿײַער.</div>
           <div class="ft-docs">&mdash;</div>
         </div>
       </div>
@@ -1200,7 +1281,9 @@ body.lang-active .card-lang-badge { display:inline; }
       <div class="ft-connector" data-lang="yi">&darr; זון פֿון סטאַניסוואַוו סטעפֿאַן</div>
       <div class="ft-generation">
         <div class="ft-person ft-protagonist">
+          <div class="ft-herb"><img src="gluchowski_img/herb_prus_II.svg" alt="h. Prus II" class="ft-herb-img" title="herb Prus II (po mieczu — Głuchowscy)"><img src="gluchowski_img/herb_doliwa.svg" alt="h. Doliwa" class="ft-herb-img" title="herb Doliwa (po kądzieli — Zembrzuscy)"></div>
           <div class="ft-name">St.uł. Krzysztof Andrzej Głuchowski ps. &laquo;Juras&raquo;</div>
+          <div class="ft-herb-label">h. Prus II / Doliwa</div>
           <div class="ft-dates" data-lang="pl">ur. 29.XI.1926, Warszawa</div>
           <div class="ft-dates" data-lang="en">b. 29.XI.1926, Warsaw</div>
           <div class="ft-dates" data-lang="pt">n. 29.XI.1926, Varsóvia</div>
@@ -1243,7 +1326,7 @@ body.lang-active .card-lang-badge { display:inline; }
       <div class="person-card">
         <div class="pc-category">RODZINA</div>
         <div class="pc-name">Zofia (Zocha) Głuchowska</div>
-        <div class="pc-desc">Żona Stanisława Stefana. Adres wojenny: ul. Pułaskiej, Kleczew, gmina Brzezówce, powiat Radomsko (GG). Później: ul. Howe-Monatkiego, Częstochowa. Adresatka kartek jenieckich ojca.</div>
+        <div class="pc-desc">Prawdopodobnie siostra Stefana i Lecha — córka Mariana (Macieja), NIE żona (żoną Stefana była Wanda). Adres wojenny: ul. Pułaskiej, Kleczew, gm. Brzezówce, pow. Radomsko (GG) — ten sam region co ojciec Marian (komisarz PON okręg Częstochowa). Później: ul. Howe-Monatkiego, Częstochowa. Adresatka kartek jenieckich Stefana — pisał do niej zamiast do Wandy (Wanda pod obserwacją UB w Warszawie).</div>
         <div class="pc-docs">ARG/III/1, III/2, III/5</div>
       </div>
 
@@ -1643,7 +1726,7 @@ body.lang-active .card-lang-badge { display:inline; }
       <div class="tl-event tl-highlight">
         <div class="tl-date">14.X.1944</div>
         <div class="tl-body">
-          <strong>&laquo;Droga Zocha! Jestem w oflagu, Krzysztof w Stalagu...&raquo;</strong> Pierwsza kartka Stanisława Stefana z M.-Stammlager XI B (Fallingbostel). Nr jeniecki: 0.1245. Pisze do żony Zofii w Kleczewie. Wie, że syn Krzysztof (nr 141009) jest w innym obozie. Adresat: ul. Pułaskiej, Kleczew, gmina Brzezówce, powiat Radomsko, Generalgouvernement. Stempel: 20.10.44.
+          <strong>&laquo;Droga Zocha! Jestem w oflagu, Krzysztof w Stalagu...&raquo;</strong> Pierwsza kartka Stanisława Stefana z M.-Stammlager XI B (Fallingbostel). Nr jeniecki: 0.1245. Pisze do Zofii w Kleczewie (krewna &mdash; NIE żona; żoną Stefana była Wanda, która była pod obserwacją UB). Wie, że syn Krzysztof (nr 141009) jest w innym obozie. Adresat: ul. Pułaskiej, Kleczew, gmina Brzezówce, powiat Radomsko, Generalgouvernement. Stempel: 20.10.44.
           <div class="tl-docs">ARG/III/1, III/2</div>
         </div>
       </div>
@@ -1729,7 +1812,7 @@ body.lang-active .card-lang-badge { display:inline; }
       <div class="tl-event">
         <div class="tl-date">26.X.1946</div>
         <div class="tl-body">
-          <strong>Zaświadczenie płk. Ziemskiego.</strong> Wentorf pod Hamburgiem. &laquo;Jako b. Dowódca Grupy PÓŁNOC w Powstaniu Warszawskim zaświadczam, że GŁUCHOWSKI Krzysztof, ur. 1928, pseudonim Juras, walczył w Obronie Starego Miasta w Plutonie 1112, awansowany do stopnia starszego strzelca, oraz odznaczony KRZYŻEM WALECZNYCH.&raquo; Pieczęć: Komisja Likwidacyjna Żołnierzy Armii Krajowej.
+          <strong>Zaświadczenie płk. Ziemskiego.</strong> Wentorf pod Hamburgiem. &laquo;Jako b. Dowódca Grupy PÓŁNOC w Powstaniu Warszawskim zaświadczam, że GŁUCHOWSKI Krzysztof, ur. 1928 [sic &mdash; data fałszywa z Kennkarte; rzeczywisty rok ur. 1926], pseudonim Juras, walczył w Obronie Starego Miasta w Plutonie 1112, awansowany do stopnia starszego strzelca, oraz odznaczony KRZYŻEM WALECZNYCH.&raquo; Pieczęć: Komisja Likwidacyjna Żołnierzy Armii Krajowej.
           <div class="tl-docs">ARG/V/43</div>
         </div>
       </div>
@@ -1821,8 +1904,8 @@ body.lang-active .card-lang-badge { display:inline; }
     <h4 style="color:var(--gold);font-size:0.85em;margin:20px 0 10px;letter-spacing:1px;">KORESPONDENCJA JENIECKIA &mdash; STALAG XI-B, VI/3, OFLAG XVII-A</h4>
     <div class="connections-grid">
       <div class="conn-item">
-        <div class="conn-arrow">Stefan (ojciec) &rarr; Zofia (żona)</div>
-        <div class="conn-detail">Kriegsgefangenenpost z Stalagu XI B do Kleczewa, pow. Radomsko. Od X.1944. ARG/III/1&ndash;5</div>
+        <div class="conn-arrow">Stefan (ojciec) &rarr; Zofia (krewna)</div>
+        <div class="conn-detail">Kriegsgefangenenpost z Stalagu XI B do Kleczewa, pow. Radomsko. Od X.1944. Zofia &mdash; NIE żona (żoną była Wanda, pod obserwacją UB). ARG/III/1&ndash;5</div>
       </div>
       <div class="conn-item">
         <div class="conn-arrow">Stefan &harr; Krzysztof</div>
@@ -1834,7 +1917,7 @@ body.lang-active .card-lang-badge { display:inline; }
       </div>
       <div class="conn-item">
         <div class="conn-arrow">Stefan &rarr; Zofia &laquo;Zocha&raquo;</div>
-        <div class="conn-detail">&laquo;Numer Krzysztofa 141009&raquo; &mdash; ojciec podaje żonie numer jeniecki syna (30.X.1944). ARG/III/4</div>
+        <div class="conn-detail">&laquo;Numer Krzysztofa 141009&raquo; &mdash; ojciec podaje krewnej numer jeniecki syna (30.X.1944). ARG/III/4</div>
       </div>
       <div class="conn-item">
         <div class="conn-arrow">Stefan &rarr; Krzysztof &laquo;Krysiu&raquo;</div>
@@ -1918,6 +2001,38 @@ body.lang-active .card-lang-badge { display:inline; }
       </div>
     </div>
 
+    <h4 style="color:var(--gold);font-size:0.85em;margin:20px 0 10px;letter-spacing:1px;">6 DRÓG KONSPIRACYJNYCH WANDY &mdash; MATKA SZUKA SYNA (1946&ndash;1948)</h4>
+    <div class="connections-grid">
+      <div class="conn-item">
+        <div class="conn-arrow">Wanda (W-wa) &rarr; Krzysztof (Anglia) [droga paryska]</div>
+        <div class="conn-detail">Przez Goldmana, 1 rue du Docteur Labbé, Paris 20e. ARG/V/174&ndash;175</div>
+      </div>
+      <div class="conn-item">
+        <div class="conn-arrow">Wanda &harr; Krzysztof [droga genewska]</div>
+        <div class="conn-detail">Przez Schwoka/Łabędzkiego, Quai Charles Page 37, Genewa. Pieniądze + fotografie. ARG/V/176, V/180, V/181</div>
+      </div>
+      <div class="conn-item">
+        <div class="conn-arrow">Ramiński (Sussex) &rarr; Krzysztof</div>
+        <div class="conn-detail">Brownings Camp, Billingshurst. Potwierdza deportację Wandy do Rosji. ARG/V/207a&ndash;207c</div>
+      </div>
+      <div class="conn-item">
+        <div class="conn-arrow">Grafowa (Sztokholm) &rarr; Krzysztof</div>
+        <div class="conn-detail">Serena Hôtel-Pension, Norrmalmstorg 4. Apteka z &laquo;bocianiem gniazdem&raquo;. ARG/V/220</div>
+      </div>
+      <div class="conn-item">
+        <div class="conn-arrow">Flejsner (Penley, Walia) &rarr; Krzysztof</div>
+        <div class="conn-detail">Znała rodzinę z Żoliborza. &laquo;Pisać powinien Pan nie podając ani miejsca pobytu, ani daty.&raquo; ARG/V/219</div>
+      </div>
+      <div class="conn-item">
+        <div class="conn-arrow">Graff (Londyn) &rarr; Krzysztof</div>
+        <div class="conn-detail">27 Crespigny Rd NW4. Przywiózł paczkę od Wandy. ARG/V/221</div>
+      </div>
+      <div class="conn-item">
+        <div class="conn-arrow">Wanda &rarr; Krzysztof [bezpośrednio, 17 listów]</div>
+        <div class="conn-detail">&laquo;Jesteś jedyną wygraną w moim życiu.&raquo; &laquo;Pierwszy ślad że żyjesz.&raquo; Spis 45 lekarstw. ARG/V/222&ndash;238</div>
+      </div>
+    </div>
+
     <h4 style="color:var(--gold);font-size:0.85em;margin:20px 0 10px;letter-spacing:1px;">EMIGRACJA &mdash; LONDYN, BRAZYLIA, CLEVELAND, IZRAEL</h4>
     <div class="connections-grid">
       <div class="conn-item">
@@ -1969,7 +2084,7 @@ body.lang-active .card-lang-badge { display:inline; }
     <div class="bio-chapter-date">1867 &mdash; 1924</div>
     <div class="bio-chapter-body">
       <p>Wszystko zaczyna sie w majatku Bukowa pod Piotrkowem Trybunalskim, gdzie Marian Nepomucen Gluchowski herbu Prus II wychowuje synow na Polakow &mdash; w kraju, ktorego na mapie nie ma.</p>
-      <p>Marian Gluchowski urodzil sie w 1867 roku w Sycanowie, w regionie sieradzkim. Byl aktywista PPS, pracownikiem samorzadowym, naczelnikiem wydzialu. Z zona Maria z Ziolkowskich mial trzech synow: Janusza, Stefana i Lecha. Wszyscy trzej pojda do wojska. Dwoch przezyje. Jeden odbierze sobie zycie na barykadzie, zeby nie narazac swoich zolnierzy.</p>
+      <p>Marian (Maciej) Gluchowski urodzil sie w 1867 roku w Sycanowie, w regionie sieradzkim. Byl aktywista PPS, pracownikiem samorzadowym, naczelnikiem wydzialu. Z pierwsza zona Maria Zdanowska herbu Belina mial syna Janusza (1888). Z druga zona Marta z Zolkowskich herbu Lubicz &mdash; synow Stefana (1893) i Lecha (1902). Wszyscy trzej pojda do wojska. Dwoch przezyje. Jeden odbierze sobie zycie na barykadzie, zeby nie narazac swoich zolnierzy.</p>
       <p>Marian zmarl 20 czerwca 1924 roku w Warszawie. Pochowan na Powazkach.</p>
       <p><strong>Pieciu czlonkow rodziny walczylo w Powstaniu Warszawskim:</strong> gen. dyw. Janusz Julian Gluchowski (1888-1964), ppor. Stanislaw Stefan Gluchowski (1893-1962), sierz. pchor. Wanda Bronislawa Gluchowska &bdquo;Justyna&rdquo; (1901-1976), rtm. Lech Jerzy Gluchowski &bdquo;Jezycki&rdquo; (1902-1944), st.ul. Krzysztof Gluchowski &bdquo;Juras&rdquo; (1926-2020).</p>
     </div>
@@ -2055,7 +2170,7 @@ body.lang-active .card-lang-badge { display:inline; }
   <div class="bio-chapter" onclick="this.classList.toggle('open')">
     <div class="bio-chapter-title">&#9654; Epilog: Drzewo, ktore nie padlo</div>
     <div class="bio-chapter-body">
-      <p>Piec czlonkow jednej rodziny w Powstaniu Warszawskim. General, urzednik prezydenta, farmaceutka-dywersantka, rotmistrz i chlopiec-wartownik. Trzy pokolenia. Jeden herb: Prus II.</p>
+      <p>Piec czlonkow jednej rodziny w Powstaniu Warszawskim. General, urzednik prezydenta, farmaceutka-dywersantka, rotmistrz i chlopiec-wartownik. Trzy pokolenia. Dwa herby: Prus II i Doliwa. Dwie linie krwi z jednego pnia.</p>
       <p>Lech zginal na Sadybie, wrzesien 1944. Stefan wrocil z niewoli do PRL-u, 1947 &mdash; zmarl w Warszawie, 1962. Wanda prowadzilaapteke do emerytury mimo 30% inwalidztwa &mdash; zmarlw 1976. Janusz zalozyl Instytut Pilsudskiego w Londynie i zmarl w 1964. Krzysztof dotarl najdalej &mdash; do Rio de Janeiro &mdash; i zyl najdluzej.</p>
       <p>W Instytucie Pilsudskiego w Londynie lezy <strong>Zespol nr 70: Archiwum Janusza Gluchowskiego</strong> &mdash; lustrzane odbicie tej kolekcji.</p>
       <p>A na Powazkach, w kwaterze 99, leza obok siebie: Lech (I-27), Wanda (IV-19) i Stefan. Rodzina znow razem.</p>
@@ -2122,22 +2237,22 @@ body.lang-active .card-lang-badge { display:inline; }
 <div class="val-summary">
   <div class="val-summary-card">
     <div class="val-summary-label">Suma jednostkowa (min)</div>
-    <div class="val-summary-value">268,490 PLN</div>
-    <div class="val-summary-note">~67122 EUR</div>
+    <div class="val-summary-value">270,490 PLN</div>
+    <div class="val-summary-note">~67622 EUR</div>
   </div>
   <div class="val-summary-card">
     <div class="val-summary-label">Suma jednostkowa (max)</div>
-    <div class="val-summary-value">681,280 PLN</div>
-    <div class="val-summary-note">~170320 EUR</div>
+    <div class="val-summary-value">690,280 PLN</div>
+    <div class="val-summary-note">~172570 EUR</div>
   </div>
   <div class="val-summary-card val-highlight">
     <div class="val-summary-label">Sprzedaz en bloc muzeum (min)</div>
-    <div class="val-summary-value">107,396 PLN</div>
+    <div class="val-summary-value">108,196 PLN</div>
     <div class="val-summary-note">~40% sumy &mdash; rabat hurtowy</div>
   </div>
   <div class="val-summary-card val-highlight">
     <div class="val-summary-label">Sprzedaz en bloc muzeum (max)</div>
-    <div class="val-summary-value">476,895 PLN</div>
+    <div class="val-summary-value">483,195 PLN</div>
     <div class="val-summary-note">~70% sumy &mdash; optymistyczny scenariusz</div>
   </div>
 </div>
@@ -2180,6 +2295,12 @@ body.lang-active .card-lang-badge { display:inline; }
   <div class="val-top-lot-title">List gen. Kazimierza Sosnkowskiego z Kanady do gen. Głuchowskiego — 28 V 1964, Arundel, P.Qué.</div>
   <div class="val-top-lot-price">5,000 — 15,000 PLN</div>
   <div class="val-top-lot-why">LIST GEN. KAZIMIERZA SOSNKOWSKIEGO Z KANADY do gen. Głuchowskiego — &#x27;Kochany Januszu&#x27;. Autograf Naczelnego Wodza PSZ z okresu kanadyjskiego (Arundel, QC). Korespondencja Sosnkowski-Głuchowski na aukcj</div>
+</div>
+<div class="val-top-lot">
+  <div class="val-top-lot-sygn">ARG/II/34</div>
+  <div class="val-top-lot-title">Czarny beret pancerny Wojska Polskiego ze śladem po kuli — z kolekcji gen. Głuchowskiego</div>
+  <div class="val-top-lot-price">5,000 — 15,000 PLN</div>
+  <div class="val-top-lot-why">Beret pancerny WP ze śladem po kuli, z kolekcji gen. dyw. Głuchowskiego (I Wiceminister Spraw Wojskowych). Militaria z uszkodzeniem bojowym + proweniencja generała = najwyższa kategoria. Berety WP WWI</div>
 </div>
 <div class="val-top-lot">
   <div class="val-top-lot-sygn">ARG/II/8</div>
@@ -2229,18 +2350,12 @@ body.lang-active .card-lang-badge { display:inline; }
   <div class="val-top-lot-price">4,000 — 10,000 PLN</div>
   <div class="val-top-lot-why">PRZYDZIAŁ AK — Kwatermistrzostwo Obwodu Śródmieście, pieczęć &#x27;DOWÓDZTWO OBWODU ŚRÓDMIEŚCIE A.K. Warszawa&#x27;. Pseudonim konspiracyjny: RADWAN. Nr 141002. Dokumenty AK z autentyczną pieczęcią: 3000-10000 </div>
 </div>
-<div class="val-top-lot">
-  <div class="val-top-lot-sygn">ARG/II/54</div>
-  <div class="val-top-lot-title">Album &#x27;Żołnierz z Montecassino&#x27; z DEDYKACJĄ GEN. ANDERSA dla gen. Głuchowskiego — Rzym 1945</div>
-  <div class="val-top-lot-price">4,000 — 10,000 PLN</div>
-  <div class="val-top-lot-why">Album &#x27;Żołnierz z Montecassino&#x27; z OSOBISTĄ DEDYKACJĄ GEN. ANDERSA (31.III.1945). Album sam: 1000-2000 PLN. Autograf Andersa: 2000-5000 PLN. Dedykacja osobista dla generała = BEZCENNE. Razem: 4000-8000</div>
-</div>
 
   </div>
 </div>
 
 <div class="val-section">
-  <div class="val-section-title">Seria I — Marian Głuchowski (1867–1924) (szacunek: 7,000 — 15,700 PLN)</div>
+  <div class="val-section-title">Seria I — Marian (Maciej) Głuchowski (1867–1924) (szacunek: 7,000 — 15,700 PLN)</div>
   <table class="val-table">
     <thead><tr><th>Sygn.</th><th>Wart.</th><th>Cena (PLN)</th><th>Uzasadnienie</th><th>Rekomendacja</th></tr></thead>
     <tbody><tr>
@@ -2289,7 +2404,7 @@ body.lang-active .card-lang-badge { display:inline; }
   </table>
 </div>
 <div class="val-section">
-  <div class="val-section-title">Seria II — Gen. dyw. Janusz Julian Głuchowski (1888–1964) (szacunek: 100,850 — 253,900 PLN)</div>
+  <div class="val-section-title">Seria II — Gen. dyw. Janusz Julian Głuchowski (1888–1964) (szacunek: 102,850 — 262,900 PLN)</div>
   <table class="val-table">
     <thead><tr><th>Sygn.</th><th>Wart.</th><th>Cena (PLN)</th><th>Uzasadnienie</th><th>Rekomendacja</th></tr></thead>
     <tbody><tr>
@@ -2519,8 +2634,8 @@ body.lang-active .card-lang-badge { display:inline; }
 <tr>
   <td class="val-sygn">ARG/II/34</td>
   <td class="val-stars">★★★★★</td>
-  <td class="val-price val-price-high">3,000 — 6,000</td>
-  <td class="val-desc">Beret pancerny WP ze śladem po kuli, z kolekcji gen. Głuchowskiego. Militaria z uszkodzeniem bojowym + proweniencja generała = najwyższa kategoria. Na</td>
+  <td class="val-price val-price-high">5,000 — 15,000</td>
+  <td class="val-desc">Beret pancerny WP ze śladem po kuli, z kolekcji gen. dyw. Głuchowskiego (I Wiceminister Spraw Wojskowych). Militaria z uszkodzeniem bojowym + prowenie</td>
   <td class="val-rec">Nie sprzedawać. Relikwia bojowa.</td>
 </tr>
 <tr>
@@ -3031,7 +3146,28 @@ body.lang-active .card-lang-badge { display:inline; }
   </table>
 </div>
 <div class="val-section">
-  <div class="val-section-title">Seria V — St.ul. Krzysztof Andrzej Głuchowski ps. &#x27;Juraś&#x27; (29.XI.1926 – V.2020) (szacunek: 90,650 — 232,350 PLN)</div>
+  <div class="val-section-title">Seria IV — Rtm. Lech Jerzy Głuchowski ps. &#x27;Jeżycki&#x27; (1902–1944) (szacunek: 300 — 1,000 PLN)</div>
+  <table class="val-table">
+    <thead><tr><th>Sygn.</th><th>Wart.</th><th>Cena (PLN)</th><th>Uzasadnienie</th><th>Rekomendacja</th></tr></thead>
+    <tbody><tr>
+  <td class="val-sygn">ARG/VI/24</td>
+  <td class="val-stars">★★★★</td>
+  <td class="val-price">200 — 600</td>
+  <td class="val-desc">Biogram rtm. Lecha Głuchowskiego (1995) — poległy w Powstaniu. Biogramy poległych powstańców: 200-600 PLN. Napisany przez bratanka (Krzysztofa).</td>
+  <td class="val-rec">W zestawie z biogramami Krzysztofa i Stefana.</td>
+</tr>
+<tr>
+  <td class="val-sygn">ARG/VI/28</td>
+  <td class="val-stars">★★★</td>
+  <td class="val-price">100 — 400</td>
+  <td class="val-desc">Varia rodzinna. Materiały rodzinne: 100-400 PLN.</td>
+  <td class="val-rec">W zestawie z materiałami rodzinnymi.</td>
+</tr>
+</tbody>
+  </table>
+</div>
+<div class="val-section">
+  <div class="val-section-title">Seria V — St.ul. Krzysztof Andrzej Głuchowski ps. &#x27;Juraś&#x27; (29.XI.1926 – V.2020) (szacunek: 99,550 — 250,250 PLN)</div>
   <table class="val-table">
     <thead><tr><th>Sygn.</th><th>Wart.</th><th>Cena (PLN)</th><th>Uzasadnienie</th><th>Rekomendacja</th></tr></thead>
     <tbody><tr>
@@ -4553,11 +4689,130 @@ body.lang-active .card-lang-badge { display:inline; }
   <td class="val-desc">Graff z Londynu — paczka od Wandy. 300-600 PLN.</td>
   <td class="val-rec">Kanał londyński.</td>
 </tr>
+<tr>
+  <td class="val-sygn">ARG/V/222</td>
+  <td class="val-stars">★★★★★</td>
+  <td class="val-price">500 — 1,000</td>
+  <td class="val-desc">Synku Malutki! Najkrótszy i najczulszy liścik Wandy. 500-1000 PLN.</td>
+  <td class="val-rec">Emocjonalnie bezcenny.</td>
+</tr>
+<tr>
+  <td class="val-sygn">ARG/V/223</td>
+  <td class="val-stars">★★★★</td>
+  <td class="val-price">400 — 800</td>
+  <td class="val-desc">Wanda — tak czekam na Twój list. Bodney. 400-800 PLN.</td>
+  <td class="val-rec">W zestawie listów Wandy.</td>
+</tr>
+<tr>
+  <td class="val-sygn">ARG/V/224</td>
+  <td class="val-stars">★★★★</td>
+  <td class="val-price">400 — 800</td>
+  <td class="val-desc">Życie na antresoli apteki — meble, radio. Warszawa I.1947. 400-800 PLN.</td>
+  <td class="val-rec">Dokument życia codziennego.</td>
+</tr>
+<tr>
+  <td class="val-sygn">ARG/V/225</td>
+  <td class="val-stars">★★★★</td>
+  <td class="val-price">400 — 800</td>
+  <td class="val-desc">Najwcześniejszy list w zbiorze — XII.1946. 400-800 PLN.</td>
+  <td class="val-rec">Chronologicznie pierwszy.</td>
+</tr>
+<tr>
+  <td class="val-sygn">ARG/V/226</td>
+  <td class="val-stars">★★★★★</td>
+  <td class="val-price">800 — 1,500</td>
+  <td class="val-desc">Jesteś jedyną wygraną w moim życiu. Najemocjonalniejszy list. 800-1500 PLN.</td>
+  <td class="val-rec">Nie sprzedawać osobno.</td>
+</tr>
+<tr>
+  <td class="val-sygn">ARG/V/227</td>
+  <td class="val-stars">★★★★</td>
+  <td class="val-price">400 — 800</td>
+  <td class="val-desc">Surowa zima 1947, problemy komunikacyjne. 400-800 PLN.</td>
+  <td class="val-rec">Dokument pogodowy/historyczny.</td>
+</tr>
+<tr>
+  <td class="val-sygn">ARG/V/228</td>
+  <td class="val-stars">★★★★★</td>
+  <td class="val-price">800 — 1,500</td>
+  <td class="val-desc">4 strony — zniszczenia domu po Powstaniu. 800-1500 PLN.</td>
+  <td class="val-rec">Dokument zniszczeń wojennych.</td>
+</tr>
+<tr>
+  <td class="val-sygn">ARG/V/229</td>
+  <td class="val-stars">★★★★</td>
+  <td class="val-price">500 — 1,000</td>
+  <td class="val-desc">4 strony — BBC o Polakach, plany przesyłek. 500-1000 PLN.</td>
+  <td class="val-rec">BBC jako źródło informacji.</td>
+</tr>
+<tr>
+  <td class="val-sygn">ARG/V/230</td>
+  <td class="val-stars">★★★★</td>
+  <td class="val-price">500 — 1,000</td>
+  <td class="val-desc">4 strony — pytania o dziewczyny syna. 500-1000 PLN.</td>
+  <td class="val-rec">Życie prywatne.</td>
+</tr>
+<tr>
+  <td class="val-sygn">ARG/V/231</td>
+  <td class="val-stars">★★★★★</td>
+  <td class="val-price">800 — 1,500</td>
+  <td class="val-desc">4 strony — Pierwszy ślad że żyjesz. Jak Wanda dowiedziała się że syn przeżył. 800-1500 PLN.</td>
+  <td class="val-rec">Kluczowy dokument emocjonalny.</td>
+</tr>
+<tr>
+  <td class="val-sygn">ARG/V/232</td>
+  <td class="val-stars">★★★</td>
+  <td class="val-price">300 — 600</td>
+  <td class="val-desc">Życzenia wielkanocne. 300-600 PLN.</td>
+  <td class="val-rec">W zestawie.</td>
+</tr>
+<tr>
+  <td class="val-sygn">ARG/V/233</td>
+  <td class="val-stars">★★★</td>
+  <td class="val-price">400 — 800</td>
+  <td class="val-desc">Wielki Piątek — Józek artysta-konserwator. 400-800 PLN.</td>
+  <td class="val-rec">Życie kulturalne powojennej Warszawy.</td>
+</tr>
+<tr>
+  <td class="val-sygn">ARG/V/234</td>
+  <td class="val-stars">★★★★</td>
+  <td class="val-price">500 — 1,000</td>
+  <td class="val-desc">Wielkanoc w Łodzi — kąpiel w wannie jako luksus. 500-1000 PLN.</td>
+  <td class="val-rec">Dokument warunków życia.</td>
+</tr>
+<tr>
+  <td class="val-sygn">ARG/V/235</td>
+  <td class="val-stars">★★★★</td>
+  <td class="val-price">400 — 800</td>
+  <td class="val-desc">Życzenia imieninowe — wspomnienia z najstarszego. 400-800 PLN.</td>
+  <td class="val-rec">Osobiste.</td>
+</tr>
+<tr>
+  <td class="val-sygn">ARG/V/236</td>
+  <td class="val-stars">★★★★</td>
+  <td class="val-price">500 — 1,000</td>
+  <td class="val-desc">Argentyna odpada — ulga matki. Aparat niemiecki jako prezent. 500-1000 PLN.</td>
+  <td class="val-rec">Emigracja — decyzje.</td>
+</tr>
+<tr>
+  <td class="val-sygn">ARG/V/237</td>
+  <td class="val-stars">★★★★</td>
+  <td class="val-price">500 — 1,000</td>
+  <td class="val-desc">Wiosna w Warszawie — ojciec wraca, kanapa, przygotowania. 500-1000 PLN.</td>
+  <td class="val-rec">Powrót ojca z emigracji.</td>
+</tr>
+<tr>
+  <td class="val-sygn">ARG/V/238</td>
+  <td class="val-stars">★★★★★</td>
+  <td class="val-price">800 — 2,000</td>
+  <td class="val-desc">Ojciec wraca — SPIS 45 LEKARSTW. Bezcenny dokument farmaceutyczny. 800-2000 PLN.</td>
+  <td class="val-rec">Spis lekarstw — źródło historyczno-medyczne.</td>
+</tr>
 </tbody>
   </table>
 </div>
 <div class="val-section">
-  <div class="val-section-title">Seria VI — Varia / Rodzina (szacunek: 9,150 — 24,950 PLN)</div>
+  <div class="val-section-title">Seria VI — Varia / Rodzina (szacunek: 8,850 — 23,950 PLN)</div>
   <table class="val-table">
     <thead><tr><th>Sygn.</th><th>Wart.</th><th>Cena (PLN)</th><th>Uzasadnienie</th><th>Rekomendacja</th></tr></thead>
     <tbody><tr>
@@ -4722,13 +4977,6 @@ body.lang-active .card-lang-badge { display:inline; }
   <td class="val-rec">W zestawie z materiałami rodzinnymi.</td>
 </tr>
 <tr>
-  <td class="val-sygn">ARG/VI/24</td>
-  <td class="val-stars">★★★★</td>
-  <td class="val-price">200 — 600</td>
-  <td class="val-desc">Biogram rtm. Lecha Głuchowskiego (1995) — poległy w Powstaniu. Biogramy poległych powstańców: 200-600 PLN. Napisany przez bratanka (Krzysztofa).</td>
-  <td class="val-rec">W zestawie z biogramami Krzysztofa i Stefana.</td>
-</tr>
-<tr>
   <td class="val-sygn">ARG/VI/25</td>
   <td class="val-stars">★★★★★</td>
   <td class="val-price">300 — 800</td>
@@ -4756,13 +5004,6 @@ body.lang-active .card-lang-badge { display:inline; }
   <td class="val-desc">Varia rodzinna. Materiały rodzinne: 100-400 PLN.</td>
   <td class="val-rec">W zestawie z materiałami rodzinnymi.</td>
 </tr>
-<tr>
-  <td class="val-sygn">ARG/VI/28</td>
-  <td class="val-stars">★★★</td>
-  <td class="val-price">100 — 400</td>
-  <td class="val-desc">Varia rodzinna. Materiały rodzinne: 100-400 PLN.</td>
-  <td class="val-rec">W zestawie z materiałami rodzinnymi.</td>
-</tr>
 </tbody>
   </table>
 </div>
@@ -4779,6 +5020,45 @@ body.lang-active .card-lang-badge { display:inline; }
     <li><strong>Allegro archiwum</strong> — leg. Krzyz Walecznych: 135.50 PLN (2017, cena detaliczna).</li>
     <li><strong>Mnoznik archiwum</strong>: kompletne archiwa rodzinne z proweniencja = 1.5x-3x (typowe), do 5x (wybitne osoby). Tu: general + Siodemka Beliny + I Wiceminister + AK + Powstanie = mnoznik 2-3x uzasadniony.</li>
   </ul>
+  <h4 style="font-size:1.5em; color:var(--gold); margin:40px 0 10px; font-family:'Playfair Display',serif;">WYCENA NIEZALE&#379;NA (PAI)</h4>
+  <p style="color:var(--text-faint); font-size:0.82em; margin-bottom:16px;">Niezale&#380;na wycena przeprowadzona przez PAI (Personal AI), 29.III.2026. Metodologia: kategoriami, nie jednostkowo.</p>
+
+  <table style="width:100%; border-collapse:collapse; margin:16px 0; font-size:0.85em;">
+    <thead>
+      <tr style="border-bottom:2px solid var(--gold);">
+        <th style="text-align:left; padding:8px; color:var(--gold);">Kategoria</th>
+        <th style="text-align:right; padding:8px; color:var(--gold);">Min (PLN)</th>
+        <th style="text-align:right; padding:8px; color:var(--gold);">Max (PLN)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px; color:var(--text-dim);">A. Dokumenty najwy&#380;szej warto&#347;ci (10 unikat&oacute;w)</td><td style="text-align:right; padding:8px;">62 000</td><td style="text-align:right; padding:8px;">126 000</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px; color:var(--text-dim);">B. Fotografie (124 szt.)</td><td style="text-align:right; padding:8px;">41 000</td><td style="text-align:right; padding:8px;">110 000</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px; color:var(--text-dim);">C. Korespondencja (85 szt.)</td><td style="text-align:right; padding:8px;">42 000</td><td style="text-align:right; padding:8px;">88 000</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px; color:var(--text-dim);">D. Eseje i r&#281;kopisy</td><td style="text-align:right; padding:8px;">7 000</td><td style="text-align:right; padding:8px;">18 000</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px; color:var(--text-dim);">E. Artefakty fizyczne (beret, odznaczenia)</td><td style="text-align:right; padding:8px;">18 000</td><td style="text-align:right; padding:8px;">63 000</td></tr>
+      <tr style="border-top:2px solid var(--gold); font-weight:600;"><td style="padding:8px; color:var(--gold);">RAZEM (pojedynczo)</td><td style="text-align:right; padding:8px; color:var(--gold);">170 000</td><td style="text-align:right; padding:8px; color:var(--gold);">405 000</td></tr>
+    </tbody>
+  </table>
+
+  <div class="val-summary" style="margin:20px 0;">
+    <div class="val-summary-card"><div class="val-summary-label">PAI: sprzeda&#380; detaliczna</div><div class="val-summary-value">170 000&ndash;405 000 PLN</div></div>
+    <div class="val-summary-card"><div class="val-summary-label">PAI: sprzeda&#380; instytucjonalna</div><div class="val-summary-value">280 000&ndash;520 000 PLN</div></div>
+    <div class="val-summary-card val-highlight"><div class="val-summary-label">PAI: ubezpieczenie</div><div class="val-summary-value">450 000&ndash;650 000 PLN</div></div>
+  </div>
+
+  <div style="background:var(--surface2); border:1px solid var(--border); border-radius:6px; padding:20px; margin:20px 0;">
+    <h5 style="color:var(--gold); margin-bottom:10px;">Por&oacute;wnanie dw&oacute;ch wycen</h5>
+    <table style="width:100%; border-collapse:collapse; font-size:0.85em;">
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:6px; color:var(--text-faint); width:200px;"></td><td style="padding:6px; color:var(--gold); font-weight:600;">CC (394 poz. jednostkowo)</td><td style="padding:6px; color:var(--accent); font-weight:600;">PAI (kategoriami)</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:6px; color:var(--text-faint);">Suma min</td><td style="padding:6px;">270 490 PLN</td><td style="padding:6px;">170 000 PLN</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:6px; color:var(--text-faint);">Suma max</td><td style="padding:6px;">690 280 PLN</td><td style="padding:6px;">405 000 PLN</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:6px; color:var(--text-faint);">Instytucjonalna</td><td style="padding:6px;">100 000&ndash;450 000 PLN</td><td style="padding:6px;">280 000&ndash;520 000 PLN</td></tr>
+      <tr><td style="padding:6px; color:var(--text-faint);">Ubezpieczenie</td><td style="padding:6px;">&mdash;</td><td style="padding:6px;">450 000&ndash;650 000 PLN</td></tr>
+    </table>
+    <p style="font-size:0.78em; color:var(--text-faint); margin-top:10px; font-style:italic;">CC wycena jest wy&#380;sza bo liczy 394 pozycji jednostkowo (w tym setki drobnych po 100-500 PLN). PAI wycenia kategoriami i dodaje artefakty fizyczne + mno&#380;nik kompletno&#347;ci archiwum.</p>
+  </div>
+
   <h4 style="font-size:1.5em; color:var(--gold); margin:40px 0 10px; font-family:'Playfair Display',serif;">STRATEGIA SPRZEDAZY</h4>
   <p style="color:var(--text-dim); font-size:0.9em; margin-bottom:30px;">Pelna mapa instytucji, budzetow, sposobow zakupu i rekomendacji — oparta na researchu rynku aukcyjnego i muzealnego 2024-2026.</p>
 
@@ -5201,6 +5481,10 @@ document.addEventListener('DOMContentLoaded', function() {
   <a href="galeria.html" class="footer-btn">
     <span class="footer-btn-label"><span data-lang="pl">Galeria</span><span data-lang="en">Gallery</span><span data-lang="pt">Galeria</span><span data-lang="de">Galerie</span><span data-lang="nl">Galerij</span><span data-lang="fr">Galerie</span><span data-lang="yi">גאַלעריע</span></span>
     <span class="footer-btn-desc"><span data-lang="pl">Zdjęcia rodzinne, żołnierskie, uroczystości</span><span data-lang="en">Family, military and ceremony photographs</span><span data-lang="pt">Fotografias familiares, militares e cerimônias</span><span data-lang="de">Familien-, Militär- und Zeremonienfotos</span><span data-lang="nl">Familie-, militaire en ceremoniëfoto's</span><span data-lang="fr">Photos familiales, militaires et de cérémonies</span><span data-lang="yi">משפּחה, מיליטערישע און צערעמאָניע פֿאָטאָס</span></span>
+  </a>
+  <a href="korespondencja.html" class="footer-btn">
+    <span class="footer-btn-label"><span data-lang="pl">Listy</span><span data-lang="en">Letters</span><span data-lang="pt">Cartas</span><span data-lang="de">Briefe</span><span data-lang="nl">Brieven</span><span data-lang="fr">Lettres</span><span data-lang="yi">בריוו</span></span>
+    <span class="footer-btn-desc"><span data-lang="pl">Korespondencja 1944–1948 — 6 dróg konspiracyjnych</span><span data-lang="en">Correspondence 1944–1948 — 6 clandestine routes</span><span data-lang="pt">Correspondência 1944–1948 — 6 rotas clandestinas</span><span data-lang="de">Korrespondenz 1944–1948 — 6 konspirative Wege</span><span data-lang="nl">Correspondentie 1944–1948 — 6 geheime routes</span><span data-lang="fr">Correspondance 1944–1948 — 6 voies clandestines</span><span data-lang="yi">קאָרעספּאָנדענץ 1944–1948</span></span>
   </a>
 </div>
 <div class="footer">

@@ -1613,8 +1613,9 @@ Greta Garbo (?), aktor teatralny, postać]""",
     },
 
     # ═══════════════════════════════════════════════════════════════
-    # juras_088-090 — Kontynuacja listu (strony 3, 4, 5)
-    # Część tego samego listu co juras_010 (list wigilijny)
+    # juras_088-090 — Memorandum polityczne (strony 3, 4, 5)
+    # NIE jest kontynuacją listu wigilijnego (juras_010) — reklasyfikacja PAI III.2026
+    # Apel do emigracji polskiej, Żelazna kurtyna, ustawy imigracyjne USA
     # ═══════════════════════════════════════════════════════════════
     "juras_088": {
         "typ": "Memorandum polityczne — apel do emigracji polskiej",
@@ -3672,7 +3673,7 @@ od różnego wydarzenia w dzień rewolucyjnym do
 dnia koniec[?] wiernie i 1918 roku, nasze podst[awy?] [polit?]-""",
         "pieczecie": [],
         "podpisy": [],
-        "osoby": ["Marszałek (Józef Piłsudski)", "Stefan Głuchowski (?)"],
+        "osoby": ["Gen. Janusz Głuchowski (stryj autora)", "Marszałek Józef Piłsudski"],
         "znaki_szczegolne": [
             "Nagłówek: 'gen. Głuch.' — wspomnienia o karierze Gen. Janusza Głuchowskiego",
             "'Pragnę przedstawić pokrótce Karierę stryja' — Krzysztof pisze o STRYJU (nie ojcu!)",
@@ -4048,7 +4049,7 @@ Ja nadstawiałem się w boju strzeleckim[?] podaniem[?], w jedne[?]...""",
             "Forma 'Odkowań' — forma 'Srodolski' — nazwy kompanii/ugrupowań?",
             "Skan z Seria_29z_p32_img01 (Exercise Book)"
         ],
-        "kontekst": "Esej szkolny napisany 23 sierpnia 1945 — dokładnie rok i 23 dni po wybuchu Powstania. Krzysztof, wówczas 19-letni uczeń Gimnazjum 3 DSK we Włoszech, wybrał temat 'Moja najciekawsza przygoda' i opisał swoje przeżycia z 1 sierpnia 1944. Relacja z pierwszej ręki: placówka 1112, 28 żołnierzy, 8 petard szkolnych, zbiórka o 15:00, fabryka mebli jako punkt wyjścia. Dokument o wyjątkowej wartości historycznej — bezpośrednie świadectwo nastolatka-powstańca."
+        "kontekst": "Esej szkolny napisany 23 sierpnia 1945 — dokładnie rok i 23 dni po wybuchu Powstania. Krzysztof, wówczas 19-letni uczeń Gimnazjum 3 DSK we Włoszech, wybrał temat 'Moja najciekawsza przygoda' i opisał swoje przeżycia z 1 sierpnia 1944. Relacja z pierwszej ręki: pluton 1112, 28 żołnierzy, 2 R.K.M. (ręczne karabiny maszynowe), zbiórka o 15:00 w fabryce mebli na Belwederskiej/Pięknej. Spr. oficer Jerzy Konieczny jako dowódca. Dokument o wyjątkowej wartości historycznej — bezpośrednie świadectwo nastolatka-powstańca."
     },
 
     # ═══════════════════════════════════════════════════════════════
