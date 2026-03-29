@@ -7847,6 +7847,116 @@ VALUATIONS = {
     # === ZESTAW KORESPONDENCJI 1946 ===
     # ARG/V/174-183 razem: 10 listów, 4 nadawców, 3 drogi konspiracyjne
     # Wycena zestawu: 8000-15000 PLN (suma osobno ~5200-9700, ale zestaw = premia 50-80%)
+    # === KORESPONDENCJA 1945-1947 (ARG/V/201-217) ===
+    "ARG/V/201": {
+        "wartosc_hist": "★★★",
+        "opis_wartosci": "List żołnierza PSZ z Reims, IX.1945. Ankieta o powrocie do kraju (30%). Korespondencja żołnierska: 200-500 PLN.",
+        "cena_min": 300, "cena_max": 600, "waluta": "PLN",
+        "rekomendacja": "W zestawie z korespondencją 1945-47."
+    },
+    "ARG/V/202a": {
+        "wartosc_hist": "★★★",
+        "opis_wartosci": "Ostrowski szuka ojca Krzysztofa. Relacja Powstanie→CMF. 200-500 PLN.",
+        "cena_min": 300, "cena_max": 600, "waluta": "PLN",
+        "rekomendacja": "W parze z 202b."
+    },
+    "ARG/V/202b": {
+        "wartosc_hist": "★★★★",
+        "opis_wartosci": "Ostrowski oferuje opiekę 18-latkowi. 'Proszę mnie traktować jako swego starego kolegę.' Poruszający. 300-600 PLN.",
+        "cena_min": 300, "cena_max": 600, "waluta": "PLN",
+        "rekomendacja": "W parze z 202a."
+    },
+    "ARG/V/203": {
+        "wartosc_hist": "★★★★★",
+        "opis_wartosci": "ITINERARIUM — kompletna trasa wojenna Warszawa→Bodney na jednej kartce + fizyka + 'pamiątkę dla Gosi.' BEZCENNY. 800-2000 PLN.",
+        "cena_min": 800, "cena_max": 2000, "waluta": "PLN",
+        "rekomendacja": "Jeden z najcenniejszych dokumentów w kolekcji. Nie sprzedawać osobno."
+    },
+    "ARG/V/204": {
+        "wartosc_hist": "★★",
+        "opis_wartosci": "Bystydżeński — służba wartownicza, podaje adresy. 200-400 PLN.",
+        "cena_min": 200, "cena_max": 400, "waluta": "PLN",
+        "rekomendacja": "W zestawie."
+    },
+    "ARG/V/206a": {
+        "wartosc_hist": "★★★",
+        "opis_wartosci": "Winieta 5 KDP z choinką. List + insygnia dywizyjne. 300-600 PLN.",
+        "cena_min": 300, "cena_max": 600, "waluta": "PLN",
+        "rekomendacja": "Winieta podnosi wartość."
+    },
+    "ARG/V/206b": {
+        "wartosc_hist": "★★★",
+        "opis_wartosci": "Skrobecki II — Wielkanoc, życzenia. 200-400 PLN.",
+        "cena_min": 200, "cena_max": 400, "waluta": "PLN",
+        "rekomendacja": "W parze z 206a."
+    },
+    "ARG/V/207a": {
+        "wartosc_hist": "★★★★",
+        "opis_wartosci": "Kamiński I — czwarta droga konspiracyjna (Sussex). Wieści o Wandzie. 400-800 PLN.",
+        "cena_min": 400, "cena_max": 800, "waluta": "PLN",
+        "rekomendacja": "Tryptyk Kamińskiego (207a-c) — razem 1500-3000 PLN."
+    },
+    "ARG/V/207b": {
+        "wartosc_hist": "★★★★★",
+        "opis_wartosci": "Kamiński II — aresztowanie syna Marka przez Bezpiekę. Apteka Wandy na Kruczej. 500-1000 PLN.",
+        "cena_min": 500, "cena_max": 1000, "waluta": "PLN",
+        "rekomendacja": "Tryptyk Kamińskiego."
+    },
+    "ARG/V/207c": {
+        "wartosc_hist": "★★★★★",
+        "opis_wartosci": "KLUCZOWY: deportacja Wandy do Rosji + Rembertów. Jedyne pisemne świadectwo. 600-1200 PLN.",
+        "cena_min": 600, "cena_max": 1200, "waluta": "PLN",
+        "rekomendacja": "Najważniejszy dokument historyczny w kolekcji obok itinerarium."
+    },
+    "ARG/V/209a": {
+        "wartosc_hist": "★★★",
+        "opis_wartosci": "Pismo Koła AK — maszynopis oficjalny. 300-600 PLN.",
+        "cena_min": 300, "cena_max": 600, "waluta": "PLN",
+        "rekomendacja": "W parze z 209b."
+    },
+    "ARG/V/209b": {
+        "wartosc_hist": "★★★",
+        "opis_wartosci": "Koło AK pismo II — weryfikacja. 300-600 PLN.",
+        "cena_min": 300, "cena_max": 600, "waluta": "PLN",
+        "rekomendacja": "W parze z 209a."
+    },
+    "ARG/V/210": {
+        "wartosc_hist": "★★",
+        "opis_wartosci": "Dynowski z Witley Camp. 200-400 PLN.",
+        "cena_min": 200, "cena_max": 400, "waluta": "PLN",
+        "rekomendacja": "W zestawie."
+    },
+    "ARG/V/211a": {
+        "wartosc_hist": "★★★",
+        "opis_wartosci": "Air Letter z CMF — formularz Army Form W.3077. 200-500 PLN.",
+        "cena_min": 200, "cena_max": 500, "waluta": "PLN",
+        "rekomendacja": "W parze z 211b."
+    },
+    "ARG/V/211b": {
+        "wartosc_hist": "★★★★",
+        "opis_wartosci": "RYSUNEK JELENIA — symbol 7 P.Uł. Potwierdza przynależność. 400-800 PLN.",
+        "cena_min": 400, "cena_max": 800, "waluta": "PLN",
+        "rekomendacja": "Jeleń = kryptonim jednostki AK Krzysztofa. Ikonograficznie ważne."
+    },
+    "ARG/V/213a": {
+        "wartosc_hist": "★★★",
+        "opis_wartosci": "List z High Wycombe — emigracja do Argentyny. 300-600 PLN.",
+        "cena_min": 300, "cena_max": 600, "waluta": "PLN",
+        "rekomendacja": "Kontekst emigracji żołnierzy PSZ do Ameryki Południowej."
+    },
+    "ARG/V/216b": {
+        "wartosc_hist": "★★★",
+        "opis_wartosci": "List z paskiem wypłaty — dokument ekonomiczny. 300-600 PLN.",
+        "cena_min": 300, "cena_max": 600, "waluta": "PLN",
+        "rekomendacja": "Pasek wypłaty podnosi wartość — źródło o warunkach materialnych."
+    },
+    "ARG/V/217": {
+        "wartosc_hist": "★★",
+        "opis_wartosci": "List 'Cioci Kochanej' — rodzina. 200-400 PLN.",
+        "cena_min": 200, "cena_max": 400, "waluta": "PLN",
+        "rekomendacja": "Korespondencja rodzinna."
+    },
+    # === ZESTAW 201-217: 18 jednostek, ~6000-12000 PLN osobno, zestaw 10000-18000 PLN ===
     # === SERIA II — brakujące ===
     "ARG/II/57": {
         "wartosc_hist": "★★★",
