@@ -426,7 +426,17 @@ Co do tego że niewdzięczna Mama może sypać głowę popiołem, to znów mylis
 
 Przesyłkę dostałem, ale proszę Cię Mateńko nie przysyłaj mi więcej, gdyż mam ich dosyć. Zresztą dostałem 9 zł co odpowiada mojej półtora miesięcznej pensji. A co nie jest wcale wielką sumą. Zresztą po przeliczeniu powinienem od nich dostać 12 zł
 
-[strona 3 — do uzupełnienia]""",
+[Strona 3 — częściowo odczytana z enhancowanego skanu:]
+
+aż 3£ kontaktu, ta cała opłata, a przyszły, pręd[?], dobrą. Mam oszczędzoną[?] 40£ (Długi tera[?], że nie pola[?]). Nie pomyślisz ni się mądrzyć. Dotąd nie wręczyli bo i dalej się żąd[?]. Jak dotąd to i nadal tak w Bolonii.
+
+12) z panią Joanną korespondentką.
+
+Oto moje krótkie odpowiedzi na wszystkie pytania.
+
+Obecną sytuac — tros[?]. Na Ubigily[?] byłem w mi[?], dostatem bilet na przejazd. Będziecie[?] klinem[?], nabite[?], dnia twarma[?], niebą[?], porusznałaż[?] i studjem. Kierunek na kochane[?]. Mam jeszcze dorzucić pienię[dzy], wsz[ystko] będą do 2 gniazda[?]. Obiecuję robić dobrze. Darzy[?] Boga piękn[ie] stare i mają intr[es?].
+
+A propos korespondencję, ma Mateńka pozdrowić od komendy[?], jest to moja korespondentka z Italii. Pisz[e] ona [do] Mateńki od raz[u] pozdrowić i powiedzieć że bardzo ona Mateńkę [każd]ni[?] jest miota[?]. Bardzo [...] kocha owa Mateńkę [...] jest moja[?]. Bardzo [miła?] [...] i każda... ja [...] korespondentką. Kupię[?] [...]""",
         "pieczecie": [],
         "podpisy": ["Krzysztof (domyślnie — list do matki)"],
         "osoby": ["Krzysztof Głuchowski (nadawca)", "Matka Głuchowska (adresatka)", "Mattoni (?)", "Rudenko (?)"],
