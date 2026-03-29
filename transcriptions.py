@@ -1617,65 +1617,111 @@ Greta Garbo (?), aktor teatralny, postać]""",
     # Część tego samego listu co juras_010 (list wigilijny)
     # ═══════════════════════════════════════════════════════════════
     "juras_088": {
-        "typ": "List odręczny — strona 3 (kontynuacja listu wigilijnego?)",
-        "data": "ok. 1946-1948",
+        "typ": "Memorandum polityczne — apel do emigracji polskiej",
+        "data": "ok. 1950-te",
         "jezyk": "polski",
-        "nadawca": "Krzysztof Głuchowski",
-        "adresat": "Matka lub krewna",
+        "nadawca": "Krzysztof Głuchowski (lub Stefan/Janusz Głuchowski)",
+        "adresat": "Emigracja polska / diaspora",
         "strony": ["juras_088_page89.png", "juras_089_page90.png", "juras_090_page91.png"],
         "transkrypcja": """[Strona 3:]
-Obudziwsz zachodzić [?] dawnie list konigby [?] a das
-i razumiaz [?] Trzecii Artuzowi [?] a lekarzer[?] za ni
-łagoanisz [?] na to bawienin tajini łedifego[?] dze li
-Wyraz prazcisz[?] na te abrótki[?]
-Łabidz postnał[?] na te obrólki viachomik[?] crasleną
-A olm ubrzś lizgafani[?] à vadkimie
-A racz wezs odeż slabzśn[?] i acz cażówy unazwał[?]
-na sodstoi à topasiesie[?] odzablenio [?] kedy umazali
-obrażeń[?] à bracz yepz wiechomiki ożóy unatchi
-na sodlidn[?] è topasiesie[?]
-[...dalszy tekst bardzo trudny do odczytu...]
+Obecnie zachodzi, muszę się skarżyć i ani
+z ruchami Rządu Rzeczyposp[olitej] z Londynu, ani nie
+zapewnia nas do [?] wojska Polskiego.
+
+Wzór[?] powiedzieć!
+Krytykę komisji mi na drobne!
+
+Z te[?] ustawy amerykańskie, [?] ostatnio,
+to pod tym względem ci [na]większe.
+
+Na mocy jednej ustawy amerykańs[kiej] melduje na te-
+ren Niemiec 2500 Ochotników z ponad uchodźców
+z poza „Żelaznej kurtyny" do [służby?] [?] [werbunek?]
+
+Bo oddali[?] o fałszywym [?]. —
+                                         Ktoś mógłby tu [?]
+na mocy tej ustawy imigranci od 18-35 lat
+do służby w korpach amer. Czy ja [?] dos, czy
+nie chce, czy [?] ja ustawy do emigracji [?],
+legalnej by zawiodło; czy zamierza kiedyś ubiegać
+się o obywatelstwo amerykańskie, czy też nie.
+
+Na ostatni[?] również muszę[?] zachodzę dobrze
+nas [?] ogony, wszak na [?] Kon[?], jedno jest
+ma [?] dzieło widoczne całego świata, a
+następnie koniecnym[?] która prowadzą [?]
+do „Osady" [?]. Nieraz czyta wzrost t.zw. [?]—
 
 [Strona 4:]
-woska wybuchwość[?] i na zamóst ciągle polu-
-łojeq[?] obsa odazwać à Krakow latuba sa-
-doiąwsz ogólniej — imi brosś chochych polsiy
-ewa i był[?] obozznali[?] a coi[?] bos
-zakażcnie [?] bo łaś[?] duszczu[?] uniechsrż[?] koirzy[?] ej sa
-wołóliamy[?] à pnzec[?] mie olósko[?] i igel[?] opzwat[?]
-Poliszm otom[?] mozłdoy[?] ratlosik[?] praztany[?] Polszym
-obroziw[?] à przesz wie udsi[?] o igel opzwat[?]
-różni je potrzeb redsistm[?] — Polszym
-dawy à pokószy è adja ciartónin[?] redsistm[?]
-ceni i podłuzy bri do udoó paeszy pochożysz[?]
-ado podolec ta b[?] wierchnie oho[?] opej[?]
-[...tekst trudny do odczytu — drobne odręczne pismo...]
+[?] „uciśnionych"; a na Zachodzie ciągle pomi-
+nięta[?] Aby dogadanie[?] z Kremlem końcem na-
+rodów oddalonych z niołu[?].
+
+Nie gnijà również myśleć o [?] Narodu
+Polskiego [?] narzędzie[?] porodzie[?] polityczne
+doradcy[?]; z porodó być mówić o tych sprawach,
+trzeba ani [?], ani patrzenie[?] sytuacja
+nie jest dostatnia[?]?
+
+'I jednak!'
+
+Osoba[?] i ty starsi na emigracji [?]
+[?] Polskiego; czy to wśród partji politycznych,
+czy to wśród organizacji społecznych, których
+zagadnienia Narodu Polskiego nie [?].
+Dlaczego?
+
+Bo organu[?] wszyscy ze sto [?], że jest
+nie porozumienie[?] obecnie nad tó [?], [?]
+[?] byli nadżywę[?], że [?] koś[?] i i
+[?] nieprawdopodobne zupełnie i jest i to[?]
+[może?] nie oczekujemy powrotku[?] Psychicznego[?],
+i natchni[ął?] [?] tu [?] [?]—
 
 [Strona 5:]
-Kochane bodno mocka zagasty[?] na bos wazoble
-długyéy ogólnie[?] — imi brosś chochych polsiy
-dolchossé imi birsły odeznołej a coi[?] bos
-zakćnie bo łaś[?] duszczu[?] uniechsny[?] koirzy ej sa
-wołóliamy à k. [?] duszczu sółoboem[?] koirzy[?] ej sa
+Która będzie mogła narazić na nas nadcho-
+dzących wydarzeń — inni będą [?] forty
+[?]; inni będą decydowali o nasz los
+nás, o na Polskiejm[?] społeczeństw[ie], który i jak
+wiadomo, nigdy nie, [mają?] racji. —
 
-Wśdzisz [?] je grosse rechnistro[?] — Polszym
-dawy à pobójszty [?] poczty [?] solńce przescisz[?] co
-nie i otolosił[?] co izzy odsętgim[?] czy usczci
-i nastrzk[?] — łu nadzieliom, łu odsętgim[?] czy usczci
-i nastrya— [?] kieohialsz miusić prałze fraiscy[?] i  por.[?]
-inż odpowiedzialność na Dóp Nfrancra[?]""",
+Kiedy, na [?] nasze[?] [?] ulegnie napra-
+wę wobec [?] niebezpieczeństwa. — Polacy
+muszą [?] jedności i obliczu niebezpieczeństwa.
+
+[Żeby?] także, ów [?] zachodnie będą musiały
+robili[?] całe sprawy, o jednym i tych celou i na
+[?] zatknie będzie wolności uparolowanych[?] na-
+PolsCe[?].
+
+Dlatego postawiłem sobie memoriał do Was
+[?].
+
+Dlatego, że nam [?], że należy do reko-
+lekcji, która [?]. Być może że i tych [?]
+przedstawi[eni]e obejdą[?] [?] [?].
+
+Ale ten wyraz na tó [?] czy polityce, czy [?]-
+[?]; czy rzeczywis[tości], czy obywatel, czy nawet
+[?] — Polszczyk[?] musisz podjąć pracę i prz-
+yjąć odpowiedzialność za losy Narodu.""",
         "pieczecie": [],
         "podpisy": [],
-        "osoby": ["Krzysztof Głuchowski (nadawca)", "Matka/krewna (adresatka)"],
+        "osoby": ["Krzysztof Głuchowski (lub Stefan/Janusz Głuchowski) — autor memorandum"],
         "znaki_szczegolne": [
-            "Pismo BARDZO drobne, atramentem, niezwykle trudne do odczytu",
-            "3 strony gęsto zapisanego listu",
-            "Wymieniony Kraków — miejsce w Polsce",
-            "Ton emocjonalny — tęsknota za rodziną i Polską",
-            "Wymaga profesjonalnej transkrypcji (Transkribus/HTR)",
-            "Charakter pisma spójny z listem wigilijnym (juras_010-014)"
+            "MEMORANDUM POLITYCZNE — nie list osobisty! (poprzednia transkrypcja błędna)",
+            "Skan obrócony o 270° — tekst napisany pionowo na kartkach",
+            "Krytyka Rządu RP na Uchodźstwie z Londynu",
+            "Omówienie ustaw amerykańskich o imigracji — 2500 ochotników",
+            "Wspomniana 'Żelazna kurtyna' — kontekst zimnowojennej",
+            "Werbunek imigrantów 18-35 lat do służby w korpusach amerykańskich",
+            "Kwestia obywatelstwa amerykańskiego dla Polaków",
+            "Krytyka braku jedności emigracji polskiej",
+            "Apel końcowy: 'Polak musisz podjąć pracę i przyjąć odpowiedzialność za losy Narodu'",
+            "'Dlatego postawiłem sobie memoriał do Was' — dokument adresowany do organizacji",
+            "Strony numerowane 3, 4, 5 — istniały wcześniejsze strony (1-2)"
         ],
-        "kontekst": "Kolejne strony listu odręcznego. Pismo niezwykle drobne i trudne do odczytu — wymaga profesjonalnego narzędzia do rozpoznawania pisma ręcznego (HTR). Wspomniany Kraków sugeruje, że nadawca pisze o rodzinie w Polsce."
+        "kontekst": "Memorandum polityczne (strony 3-5, brak stron 1-2) adresowane do polskiej emigracji. Autor krytykuje bierność Rządu RP z Londynu i brak jedności wśród organizacji emigracyjnych. Omawia amerykańskie ustawy imigracyjne i rekrutację uchodźców zza Żelaznej kurtyny do służby wojskowej w USA. Kończy apelem o podjęcie odpowiedzialności za losy Narodu. Datowanie: lata 50-te (kontekst zimnowojennej, ustawy imigracyjne USA, Żelazna kurtyna). Charakter pisma sugeruje Krzysztofa, ale ton i wiedza polityczna mogą wskazywać na gen. Janusza."
     },
 
     # ═══════════════════════════════════════════════════════════════
@@ -1688,70 +1734,144 @@ inż odpowiedzialność na Dóp Nfrancra[?]""",
         "nadawca": "Kwartalnik Biograficzny Polonii",
         "adresat": "—",
         "strony": ["juras_091_page92.png", "juras_092_page93.png"],
-        "transkrypcja": """[Strona z biogramami — 2 wpisy z fotografiami:]
+        "transkrypcja": """[Strona 1 — biogramy po angielsku, Nr 7:]
 
-Nr 7.                                                    Nr 7.
-
-GŁUCHOWSKI JULIUSZ, gen. bryg. ur. 06.08.1888
-[zm.] 11.1964 Londyn. Lt.-General. Studied in the Poli-
-tical Science[?] at Liège Belgium. Founder of the "Ac-
-tive Armed Group" in 1909. In 1912 he graduated in
-Legions' Officiers course [...] Polish Legions' Associate [...]
-In the "Outi" Crisis of 1917. He was a member of the
-[...] organized in Germany, Between 1918-1920 he com-
-manded the 3rd Lancers Regiment [...] He was trans-
-ferred [...] and continuing officer, the 4th Cavalry Division [...] he comman-
-ded the 1st Cavalry Brigade [...] shortly, Cavalry Division [...] He
-was 1st Cavalry major-general in 1927 [...]
-1935; 1st Vice-Minister of Military Affairs 1935-1939 [...] He was Spe-
-cial Commander [...] 1939 [...]
-France, Chief of the Polish French [...] Commit-
-tee 1939. He erected Polish Forces Abroad[...] Romani 1940-1941 [...]
-G.O.C. Polish Training Centre 1940-41; G.O.C. [...]
-Great Britain and Scotland 1941-1943; GOC Polish Troops in
-Scotland, promoted lieutenant-general [...] 1943; Senior
-Commanding Officer [...] 1945; After demobilisation he
-stayed in London, where he was a founder of [...] Association [...]
-co-founder of the [...] Association [...] He Ge-
-neral [...] 1963 chairman [...] He
-was also [...] Inspector of the [...] Polish Br-
-Institute in London, [...] author of numerous articles [...]
-in London [...] He was a [...]
-[...]
-[...] French Legion of Honour [...] Class [...] Romanian
-[...] Cross of Merit (2x), British Order [...] the Bath [...] Crown
-of Romania (II class), Latvia Order of the Bear [...] Class [...]
+GŁUCHOWSKI Janusz Julian (06.08.1888 estate of Bukowa in the Piotrkowski
+County – 11.06.1964 London) Lt.-General. Studied at the Polytechnic
+of Liège in Belgium. Founder of the Liège branch of the "Active Armed
+Struggle Association" in 1909. In 1912 he graduated in Stróże near Cracow
+from the officers' course of the Riflemen's Association. 1914-1917 he was
+a member of the Polish Legions and took part in the whole campaign fought
+by the 1st Brigade. After the "Oath Crisis" in 1917, he was interned in
+Beniaminów, then he was transferred to the prison of Werl in Germany.
+Between 1918-1920 he was the organiser and commanding officer of the 3rd
+Lancers Regiment, renamed the 7th Lublin Lancers Regiment. 1920-1924 he
+commanded the 1st Cavalry Brigade and shortly the 4th Cavalry Division.
+He was promoted major-general in 1927. Commandant of the Academy of War
+Studies 1930-1933; GOC X Military District of Przemyśl 1933-1935; 1st
+Vice-Minister of Military Affairs 1935-1939. After the September Campaign,
+he reached France through Romania. He was Special G.O.C. Officer to the
+Polish Commander-in-Chief in 1940-1941; GOC Training Brigade in Scotland
+1941-1943; GOC Polish Troops in Great Britain, promoted lieut.-general
+in 1945. After demobilisation he settled in London, where he was a founder
+and chairman of the Generals, Colonels and Senior Commanding Officers
+Association. He was co-founder of the Regimental Association of the 1st
+Belina Lancers; founder member and from 1963 chairman of the Council of
+the Piłsudski Institute in London; Inspector of Training of the "Pogoń"
+Youth Brigade. He was the author of numerous articles published in
+"Belinak" in London. Decorations: Order of Virtuti Militari (V class),
+Cross of Valour (3x), Gold Cross of Merit (2x), British Order of Bath
+(III class), French Legion d'Honneur (III class), the Estonian Order of
+Freedom (II class), Latvian Order of the Conquerer of the Bear (II class),
+Crown of Romania (II class), Star of Romania (II class), Hungarian Cross
+for Merit (II class).
 
 [FOTO: Portret gen. Głuchowskiego w mundurze — starszy mężczyzna, dystyngowany]
 
 ───────────────────────────────────
 
-GROCHOBIŃSKI CZESŁAW, ur. 07.12.1906 Baranowicze, aktor. Education
-Poznań school [...] Actor in theaters [...] 1929-39. He acted [...] Great Britain since 1943. Member [...]
-[...] Polish [...] Theatre [...] London [...] His acted on stage [...] Part in Royal
-Command Performance from 1945 [...] and American films [...] He excelled in
-[...] Polish [...] British Actors' Equity Association
-[...] Z.A.S.P. "Syren" and [...]
+GROCHOBIŃSKI Czesław (born 07.12.1906 Baranowicze) actor. Education
+grammar school. Actor in theatres of Warsaw, Wilno, Cracow and Poznań
+1929-39. He has lived in Great Britain since 1943. Member of the Polish
+Air Force Theatre Group. Has acted on stage, in films, on television and
+radio from 1945 till present day. He took part in a Royal Command
+Performance in the Victoria Theatre in 1951. He has acted in many British
+and American films, as well as in the Polish emigre theatre. ZASP,
+"Syrena" and "Proarte". Member of the Association of Polish Artists of
+the Stage in London, British Actors Equity Association.
+
+[FOTO: Portret Grochobińskiego]
+
+═══════════════════════════════════
+
+[Strona 2 — biogramy po polsku, Nr 7:]
+
+GŁUCHOWSKI Janusz Julian, generał dywizji, ur. 6 sierpnia 1888
+w majątku Bukowa (pow. piotrkowski), zm. 11 czerwca 1964 w Londynie.
+Syn Macieja i Marii Zdanowskiej. Studia na politechnice w Liège (Belgia).
+Założył oddział Związku Walki Czynnej w Liège (1909). W 1912 ukończył
+oficerski kurs Związku Strzeleckiego w Stróży pod Krakowem. W latach
+1914-1917 w Legionach Polskich (czteroletni szlak kampanii I Brygady).
+Po kryzysie przysięgowym w 1917 internowany w Beniaminowie (twierdza
+Werl). Organizator i dowódca 3 Pułku Ułanów, a następnie 7 Pułku Ułanów
+Lubelskich i I Brygady Kawalerii (1920-1924), generał brygady 1927.
+Komendant Wyższych Studiów Wojskowych 1930-1933; DOK X Przemyśl 1933-
+1935; I wiceminister Spraw Wojskowych 1935-1939. Po kampanii wrześniowej
+przeszedł przez Rumunię do Francji i następnie do Anglii. (1940-41) —
+Specjalny Oficer do dyspozycji Naczelnego Wodza; (1941-43) GOC Brygady
+Szkolnej w Szkocji; GOC Polish Troops in Great Britain, promowany do
+generała dywizji w 1945. Po demobilizacji osiedlił się w Londynie.
+Założyciel i prezes Związku Kół Pułkowych Kawalerii 1953-1964; inicjator
+i prezes Koła Generałów i Pułkowników b. Wyższych Dowództw; współzałożyciel
+i od 1963 przewodniczący Rady Instytutu J. Piłsudskiego w Londynie; prezes
+Koła 7. Pułku Ułanów; członek Rady Naczelnej Ligi Niepodległości Polski;
+inspektor wyszkolenia brygady drużyn «Pogoń». Autor licznych artykułów
+opublikowanych w «Belinaku» w Londynie.
+Odznaczenia: Virtuti Militari (V), Krzyż Niepodległości z Mieczami,
+Order Odrodzenia Polski (III), Walecznych (3x), Złoty Krzyż Zasługi (2x),
+Order Łaźni (III), Legia Honorowa (III), estoński Order Krzyża Wolności (II),
+łotewski Order Pogromcy Niedźwiedzia, Korona Rumunii (II), Gwiazda
+Rumunii (II), węgierski Krzyż Zasługi (II).
+
+(źr.: Arch. KBFP; Cygon W.K. Słownik biograficzny oficerów Legionów
+Polskich, Warszawa 1992, s. 54; Kto jest kim. Generałowie z Kartotekami,
+Warszawa 1999, s. 131-142.)
+
+[FOTO: Portret gen. Głuchowskiego — zdjęcie w mundurze z odznaczeniami]
+
+───────────────────────────────────
+
+GŁUCHOWSKI Krzysztof, inżynier, ur. 29 listopada 1926 Warszawa, syn
+Stanisława (Stefana) i Wandy Głuchowskiej. Żołnierz ZWZ, a następnie
+Armii Krajowej (Kompania Kadeci, 17 Pułku Ułanów Lubelskich AK
+1943-1944). Uczestnik Powstania Warszawskiego. AK i Delegatury Rządu
+na Kraj, a następnie Dowództwa Okręgu Warszawskiego. Po kapitulacji
+w niewoli w Fallingbostel i Dorsten, a następnie w München Gladbach.
+7 Pułk Ułanów Lubelskich 1945. Studia inżynierskie w Londynie,
+inżynier (specjalista od systemów wychładzających). Stanowisko
+pracownicze w Hiszpanii i Brazylii. Od 1978 odpowiedzialny w CAV —
+firmy Francji Feria i Pola. Po przejściu na emeryturę osiedla się
+w Brazylii. Autor licznych artykułów w prasie polonijnej,
+w «Dzienniku Polskim» (Londyn). Członek Rady Instytutu im. Piłsudskiego,
+członek Zarządu Polskiego Ośrodka Społeczno-Kulturalnego w Londynie.
+
+[FOTO: Portret Krzysztofa Głuchowskiego w okularach]
+
+───────────────────────────────────
+
+GROCHOBIŃSKI Czesław, aktor, ur. 7 grudnia 1906 w Baranowiczach,
+syn Franciszka i Marii Otałowicz. Wykształcenie średnie. Aktor teatralny
+w Warszawie, Wilnie, Krakowie i Poznaniu 1926-1939. W Wielkiej Brytanii
+od 1943. Członek Lotniczego Ośrodka Teatralnego w Londynie. Aktor
+teatralny, filmowy, telewizyjny i radiowy od 1945. Brał udział w Royal
+Command Performance w Victoria Theatre 1951. Grał w wielu angielskich
+i amerykańskich filmach. Aktor Teatru Polskiego ZASP i teatru «Syrena»
+oraz Pro Arte. Członek Związku Artystów Scen Polskich w Londynie,
+Stowarzyszenia Lotników Polskich w Londynie, British Actors Equity
+Association.
 
 [FOTO: Portret Grochobińskiego]""",
         "pieczecie": [],
         "podpisy": [],
         "osoby": [
-            "Gen. dyw. Janusz Julian Głuchowski (ur. 06.08.1888 Bukowa, zm. 11.06.1964 Londyn) — generał dywizji",
-            "Czesław Grochobiński (ur. 07.12.1906 Baranowicze) — aktor"
+            "Gen. dyw. Janusz Julian Głuchowski (ur. 06.08.1888 Bukowa pow. piotrkowski, zm. 11.06.1964 Londyn) — syn Macieja i Marii Zdanowskiej",
+            "Krzysztof Głuchowski (ur. 29.11.1926 Warszawa) — inżynier, syn Stefana i Wandy",
+            "Czesław Grochobiński (ur. 07.12.1906 Baranowicze) — aktor, syn Franciszka i Marii Otałowicz"
         ],
         "znaki_szczegolne": [
-            "KLUCZOWY DOKUMENT BIOGRAFICZNY — potwierdza tożsamość Generała",
-            "Gen. Juliusz Głuchowski: ur. 06.08.1888, zm. XI.1964 Londyn",
-            "Kariera: Legiony 1909-1912, 3. Pułk Ułanów, 1. Brygada Kawalerii",
-            "I Zastępca Ministra Spraw Wojskowych 1935-1939!",
-            "GOC Polish Training Centre 1940-41, GOC Polish Troops Scotland 1941-43",
-            "Odznaczenia: Legion Honorowy (fr.), Order Łaźni (bryt.), Korona Rumunii, Order Łotwy",
-            "Po demobilizacji — Londyn, założyciel organizacji kombatanckich, inspektor",
-            "FOTO w mundurze — dystyngowany starszy oficer",
-            "Sąsiedni biogram: Czesław Grochobiński — aktor, też Londyn"
+            "KLUCZOWY DOKUMENT — 3 biogramy: gen. Janusz, Krzysztof, Grochobiński",
+            "Dwujęzyczne (EN/PL) — strona 1 po angielsku, strona 2 po polsku",
+            "BIOGRAM KRZYSZTOFA — potwierdza: ZWZ/AK, Kompania Kadeci, 17 PUL, Powstanie",
+            "Krzysztof: niewola w Fallingbostel, Dorsten, München Gladbach; ucieczka",
+            "Krzysztof: inżynier systemów wychładzających, Hiszpania, Brazylia, CAV",
+            "Gen. Janusz: Związek Walki Czynnej 1909, I Brygada Legionów 1914-17",
+            "Gen. Janusz: I wiceminister Spraw Wojskowych 1935-1939",
+            "Gen. Janusz: GOC Polish Troops in Great Britain, gen. dyw. 1945",
+            "Odznaczenia gen. Janusza: VM (V), KN z Mieczami, Order Łaźni (III), Legia Honorowa (III)",
+            "Źródło: Arch. KBFP; Cygon W.K. Słownik biogr. oficerów Legionów, 1992",
+            "3 FOTO: gen. Janusz w mundurze, Krzysztof w okularach, Grochobiński"
         ],
-        "kontekst": "Biogram z Kwartalnika Biograficznego Polonii. POTWIERDZA: Gen. dyw. Janusz Julian Głuchowski (1888-1964) — jedna z najważniejszych postaci polskiego wychodźstwa wojskowego. I Zastępca Ministra Spraw Wojskowych przed wojną, dowódca jednostek polskich w Szkocji, po wojnie aktywny w Londynie. BRAT Stefana Głuchowskiego (urzędnika Kancelarii Cywilnej Prezydenta RP). Krzysztof to SYN STEFANA."
+        "kontekst": "Kwartalnik Biograficzny Polonii, Nr 7. TRZY biogramy: (1) Gen. dyw. Janusz Julian Głuchowski (1888-1964) — legionista, dowódca 7 PUŁ, I wiceminister SW, GOC w Szkocji i W. Brytanii. (2) Krzysztof Głuchowski (ur. 1926) — syn Stefana, żołnierz AK/Powstaniec, inżynier w Brazylii, działacz POSK i Instytutu Piłsudskiego. (3) Czesław Grochobiński — aktor polski w Londynie. Biogram Krzysztofa POTWIERDZA: ur. 1926 (nie 1928!), syn STEFANA (nie Janusza), ZWZ → AK → Kompania Kadeci 17 PUL → Powstanie → niewola → 7 PUL 1945 → Londyn → Brazylia."
     },
 
     # ═══════════════════════════════════════════════════════════════
@@ -3526,39 +3646,43 @@ POLISH INSTITUTE AND SIKORSKI MUSEUM
         "jezyk": "polski",
         "nadawca": "Krzysztof Głuchowski (?)",
         "adresat": "notatki własne / wspomnienia",
-        "transkrypcja": """[...] Ojczyzny
+        "transkrypcja": """                                        1
+                    gen. Głuch.
 
-Pragnę przedstawić [opis?] [...] Kiedat[?]
-[...] [St.] Marszałka [...] na [...]
-[...] w [...] gdzie [...] Marszałka na [...]
-[...] generał [...] [rajony?] [...]
-moje [...] na [...] co [...]
+Pragnę przedstawić pokrótce Karierę
+stryja St. Marszałka ze szczególnym naciskiem
+Służby w Kawalerii. Stryjo[?] Marszałka i przedsta-
+wić [tu?] dzieje jak oficer. Pragnę poznać karierę [?]
+naszej Matki[?], jak bardzo szybko sam sobie [kasę?]-
+rię prowadzić de Ko[?].
+Było ze tego powody.
 
-[...] ze 100
-[...] to [...] [...]
+Pamiętam powodów jest kilka, ze od wielu lat
+angażował świadomości w mieście i w wszystko
+Co lat Marszałka — lat Piłsud[skiego], dawno właściwie
+prawo.
 
-[Dwa?] [...] posiadały [...] [plk?] [...] od [...]
-[...] [...]
-[...] w [...] i w [...]
-[...] [piłka?] [polu?] [...]
-— i Polska kogo — [...] nie jest [...] dnia
-[...] a [...] bo u [...] [...]
+„Bitwa [Cóże?]" „Orzysz" to jest raczej dość
+znane, a było to [wiąże?] bardziej czę i ciężko obej-
+muje i główną [?] ku manewrowi, nasze zwycięskie
+marsze.
 
-[...] bo [...] byli [...] [dalekich] polityków
-
-od Marszałka [...] w [...] [...]
-po tej pierwszej walcze[niu] w 1918 [...] [kupił?] polsk[ie]""",
+Ciągle powodów jest kilka, i [Morowie?] podwody
+od różnego wydarzenia w dzień rewolucyjnym do
+dnia koniec[?] wiernie i 1918 roku, nasze podst[awy?] [polit?]-""",
         "pieczecie": [],
         "podpisy": [],
         "osoby": ["Marszałek (Józef Piłsudski)", "Stefan Głuchowski (?)"],
         "znaki_szczegolne": [
-            "Wspomnienia o Marszałku Piłsudskim i wydarzeniach z 1918 roku",
-            "Pismo odręczne atramentem na kremowym papierze",
-            "Wiele fragmentów nieczytelnych — wyblakły atrament",
-            "Wspomina 'Pierwszą walkę w 1918' — odzyskanie niepodległości",
-            "Kontekst: rodzina Głuchowskich i Piłsudski — Siódemka Beliny"
+            "Nagłówek: 'gen. Głuch.' — wspomnienia o karierze Gen. Janusza Głuchowskiego",
+            "'Pragnę przedstawić pokrótce Karierę stryja' — Krzysztof pisze o STRYJU (nie ojcu!)",
+            "Nacisk na służbę w Kawalerii i związek z Marszałkiem Piłsudskim",
+            "Wspomina Bitwę pod Orzyszem (1914/1920?) — manewry kawaleryjskie",
+            "Odniesienie do 1918 roku — odzyskanie niepodległości",
+            "Pismo odręczne atramentem na kremowym papierze, wyblakłe",
+            "Strona numerowana '1' — istniała dalsza część"
         ],
-        "kontekst": "Fragment wspomnień dotyczących Marszałka Piłsudskiego i wydarzeń z 1918 roku — odzyskania niepodległości. Gen. Janusz Głuchowski był jednym z Siódemki Beliny (1914) i bliskim współpracownikiem Piłsudskiego. Rękopis prawdopodobnie sporządzony przez Krzysztofa na podstawie opowieści rodzinnych lub jako próba spisania historii rodziny."
+        "kontekst": "Rękopis wspomnień Krzysztofa o karierze stryja — gen. Janusza Głuchowskiego. Krzysztof podkreśla kawaleryjski charakter służby stryja i jego związki z Marszałkiem Piłsudskim. Wspomina 'Bitwę pod Orzyszem' i wydarzenia 1918 roku. WAŻNE: Krzysztof nazywa Janusza 'stryjem' — potwierdza, że jest synem STEFANA (brata Janusza). Nagłówek 'gen. Głuch.' i numeracja '1' sugerują, że to początek dłuższego tekstu o historii rodziny."
     },
 
     # ═══════════════════════════════════════════════════════════════
@@ -3874,49 +3998,55 @@ P.O.R.B. 35
         "transkrypcja": """Zadanie Klasowe No 1                    23 VIII 45r.
 
 Tematy:
-1) Tragiczne widmo — fenho [Szekspir?/Wyspiański?]
-2) Klawisze (kości z ogniskami)
+1) Tragiczne widmo: fenho (fenho Montyken[?])
+2) Klawisze (kości i zagadki)
 3) Moja najciekawsza przygoda.
 
 [Uczeń wybrał temat 3]
 
-Gdy [myślę] o moich przygodach, biorę poważnie [...]. W kształ-
-cie ich bo jedna z moich większych przygód. Było to moim pierw-
-szym [przeżyciem] [dwóch] lat już [...]
+3. Gdy myślę to moich przygodach, biorę poważnie te. W każd-
+ej[?] razie było to jedną z moich większych przygód. Potem miałem, muszę
+uczciwie dodać, ale ja jednak nie upadła na mnie takiego wra-
+żenia.
 
-Było to dnia 1 sierpnia 1944r. w Warszawie. Armia Kra-
-jowa przygotowywała się do [walki]. Pamiętam [jak] [...] i do-
-bry [...] w moim [oddziale]. Pamiętam najdokładniej.
+Było to dnia 1 Sierpnia 1944 roku — w Warszawie. Armia Kra-
+jowa przygotowywała się na koncentrację. Patrzejąc placówki i daw-
+niej bawiliśmy się w nasz[e] przesłać czujnością.
 
-Moja placówka miał numer 1112. Był [ok.] 16 [ludzi] [...]
-umundurowanych. [...] w [blokach/blankietach] [...]
-na ostatnich chwili moja placówka przeniesiona została do fabryki
-mebli przy ul. [Pięknej?]. O godzinie 15:00.
+Nasz pluton miał numer 1112. Był osiem[?]/jedenastu[?] jeden-
+nastu uzbrojonych żołnierzy[?]. „Falk"[?]: PP. kilku [w] bluzie mundurach.
 
-O[koło] godziny 16:30 po ukonczeniu bram — [...] w [...]
-jako do boju [...]  — obowiązki [...] bram [...]
-[w bloku.] [w] fabryki, oficerzy fabryki [...]
-[...] obudzony. [Spr.?] Jerzy [Konieczn?] [...]
-[...] Podtem [...]
+Umieszczenie naszego plutonu przeniesiono wreszcie w fabrykę
+mebli, tyi[?] ul. Belwed[erska?]/Piękna, o godzinie 15:00.
 
-[...] w [...] było możliwości, [...] po warunki AK
-[...] przystali. Składała się z 28 dwóch [żołnierzy] i jednego [...]
-[...] karabinów z 8 szkolny[mi] petardami. [Amunicja?] [...]
-było. Rozkaz [komunikować] [...]  ludzi co [byli] za [...]
+Około godziny 16:30 po otrzymaniu rozkazu — aparat[?] na Bole[sław?]
+Śl[?] do broni chodziliśmy — chodziliśmy cały łanem szturmowym[?]
+[mieliśmy?] tej fabrykę; ogień fabryki [?] budynki były w otoczeniu[?]
+naszego obsuchy[?]. Spr. oficer Jerzego Konieczn[y] (Warzon.?), rozejdawali
+się. Podtem kontowaliśmy[?], forma „Odkowan[ie?]": forma — Srodolski[?].
 
-Ja nadstawiałem [...] w [...]""",
+Było nas dwudziestu osiem. Uzbrojenie: jako na warunki AK —
+średnie i dobre. Składało się z 2 dwóch R.K.M., osiem[?] jedenastu sztuk,
+z nich karabinów w strzela podschodząc. Amunicji do potrzebności prawie nie
+było. Rozkaz komunikować — nam było, żebyś[my] na Belweder[?] (granaty
+podejśli[?]).
+
+Ja nadstawiałem się w boju strzeleckim[?] podaniem[?], w jedne[?]...""",
         "pieczecie": [],
         "podpisy": [],
-        "osoby": ["Krzysztof Głuchowski", "Spr. Jerzy Konieczny (?)"],
+        "osoby": ["Krzysztof Głuchowski", "Spr. Jerzy Konieczny (oficer)"],
         "znaki_szczegolne": [
             "BEZCENNA RELACJA Z PIERWSZEJ RĘKI — 19-letni powstaniec pisze o 1.VIII.1944",
             "Zadanie klasowe w Gimnazjum 3 DSK we Włoszech, rok po Powstaniu",
-            "Placówka nr 1112 — ten sam numer batalionu potwierdzony w innych dokumentach",
-            "28 żołnierzy, 8 petard szkolnych — skromne uzbrojenie",
-            "Fabryka mebli przy ul. Pięknej (?) — punkt zborny przed godziną W",
-            "Godzina 15:00 — zbiórka, 16:30 — przygotowania do walki",
-            "Pismo atramentem na papierze liniowanym (EXERCISE BOOK)",
-            "Wiele fragmentów trudnych do odczytania — pismo drobne, gęste"
+            "EXERCISE BOOK — okładka: 'Gimnazjum 3 DSK, St.uł. Głuchowski Krzysztof, Zadania Klasowe z języka polskiego'",
+            "Pluton nr 1112 — potwierdzony w innych dokumentach",
+            "28 żołnierzy, uzbrojenie: 2 R.K.M. (ręczne karabiny maszynowe), kilkanaście karabinów",
+            "Amunicji 'do potrzebności prawie nie było'",
+            "Fabryka mebli przy ul. Belwederskiej/Pięknej — punkt zborny",
+            "Godzina 15:00 — koncentracja, 16:30 — otrzymanie rozkazu do walki",
+            "Spr. oficer Jerzy Konieczny — dowódca na miejscu",
+            "Forma 'Odkowań' — forma 'Srodolski' — nazwy kompanii/ugrupowań?",
+            "Skan z Seria_29z_p32_img01 (Exercise Book)"
         ],
         "kontekst": "Esej szkolny napisany 23 sierpnia 1945 — dokładnie rok i 23 dni po wybuchu Powstania. Krzysztof, wówczas 19-letni uczeń Gimnazjum 3 DSK we Włoszech, wybrał temat 'Moja najciekawsza przygoda' i opisał swoje przeżycia z 1 sierpnia 1944. Relacja z pierwszej ręki: placówka 1112, 28 żołnierzy, 8 petard szkolnych, zbiórka o 15:00, fabryka mebli jako punkt wyjścia. Dokument o wyjątkowej wartości historycznej — bezpośrednie świadectwo nastolatka-powstańca."
     },
@@ -3992,50 +4122,52 @@ K.""",
         "adresat": "Nauczyciel języka polskiego, Gimnazjum 3 DSK",
         "transkrypcja": """St.uł. Krzysztof Głuchowski         Mp. 3 VIII '45r.
 Polish Forces CMF 152
-Gimnazjum 3DSK
+Gimnazjum 3DSK.
 
 Lektura.
 
 Czytam artykuły różnych ludzi o Powsta-
-niu Warszawskim... Porównuję [je] bo artykuły ludzi, którzy
-nie byli w nim [nie brali?] udziału. [Wejście?] się [w niuanse?] rze-
-czy w Warszawie. Wydaje [się?] [...] o [...] [wszystkim?] [...]
-nie mieli, Warszaw[a] [...] o pracy [...] artystycznego, ale
-nie twórczej i informacji. W Warszawie [...]
-[...] Armia Krajowa posiadała swoją organizaj[cję]
-i dolne społeczne. To nie był[y?] [...] sobie [...]
-[...] [spontanicznie] chcący do [walki] — to był żołnierz,
-który w ciężkich [warunkach] [...] [przygotow-]
-ał się, i [mundur?] [...] prac[ował] do Powstania.
-Warszawskiej Armii [...] tylko [spotykali?] [ludzi?]
-[wiadomy?] był pod każdym względem. Z [każdej strony?] [...]
+niu Warszawskim. Porównuję je bo artykuły ludzi, którzy
+nie brali w nim udziału. Wyjść ci nie rozumieją istoty
+rzeczy w Warszawie. Wydaje się mówić o bohaterstwie py-
+taniu[?] ludzi w Warszawie, znaleźć o pracy, o organizacji. A poco[?]
+jest to dużo ważniejsze. W Warszawie wspaniale wal-
+czyła Armia, Armia która posiadała swoją organizację
+i dobre społeczne[?]. To nie byli, ci sobie prostacze[?], któ-
+ry spontanicznie chcący do walce — to był żołnierz,
+który w ciężkich warunkach okupacji i nieustająco przygoto-
+wał się, mozolną pracę podzieloną do Powstania.
+Warszawskiej Armii brakowało tylko sprzętu[?] — odpo-
+wiadalny[ch] na[?] pod każdym względem. — Z kompasem[?].
 
-Czytaj[ąc] jeden z artykuł[ów] p. Nowakowskiego
-[...] — [między?] [...] danymi. Chłodnym [warszaw?]
-przyszli do Powstania [...] nie [walczyli?] o [...]  ale [...] pan
-Nowakowski nie [pisał?] [tak]. [P. Nowakowski?] [uważa?] [...]
-[...] nie [współuczestnik?]; że właśnie [ludzie?] [...]
-[...]  z żołnierzy Armii Krajowej. Pluton[ów] które
-miały nasze [wyznac?][zone?] [zadani?]a w plana[ch] opanowa[nia]
-Warszawy.
+Czytając jeden z artykułów p. Nowakowskiego —
+spotkać się ze słowami „Głuchowscy wszyscy
+pośli do Powstania i [walki] o kraj". Widocznie pan
+Nowakowski nie pisał to[?]. Pan Głuchowski[?] wielka
+praca konspiracyjna; że właśnie Głuchowscy byli
+jednym[i] z żołnierzy Armii Krajowej. Plutonem, który
+miał swoje wyznaczone zadania w planie opanowa-
+nia Warszawy.
 
-W Warszawie, [w] tych chwilach [...] [na] [...]
-[...] szalona [wymiana?] wielka, [...] praca
-organizacyjna i [zakończona?] [...]  — [...] Polacy. —
+W Warszawie, trochę dmusze[?] na szalkę na dorobek
+detali — obroty[?] wykonała wielka, największą[?] była praca
+organizacyjna: obronna a ludna — jej też Polacy. —
 
 K.""",
         "pieczecie": [],
         "podpisy": ["K. (Krzysztof Głuchowski)"],
-        "osoby": ["Krzysztof Głuchowski", "p. Nowakowski (autor artykułów)"],
+        "osoby": ["Krzysztof Głuchowski", "p. Nowakowski (autor artykułów)", "rodzina Głuchowskich"],
         "znaki_szczegolne": [
             "Esej krytyczny — powstaniec polemizuje z publicystami, którzy nie walczyli",
-            "Wspomina p. Nowakowskiego — prawdopodobnie Tadeusz Nowakowski (pisarz emigracyjny)",
-            "Podkreśla profesjonalizm AK: 'to nie byli spontanicznie chcący do walki — to był żołnierz'",
-            "Krytykuje autorów piszących o Powstaniu bez osobistego udziału",
-            "Wspomina plany opanowania Warszawy i organizację plutonów AK",
-            "Nagłówek: Polish Forces CMF 152, Gimnazjum 3DSK"
+            "GŁUCHOWSCY WYMIENIENI Z NAZWISKA — Nowakowski pisał o nich: 'Głuchowscy wszyscy pośli do Powstania'",
+            "Krzysztof odpowiada: Głuchowscy nie byli spontanicznymi ochotnikami — byli żołnierzami AK",
+            "'To nie byli ci sobie prostacze, którzy spontanicznie chcący do walce — to był żołnierz'",
+            "'Plutonem, który miał swoje wyznaczone zadania w planie opanowania Warszawy'",
+            "'W ciężkich warunkach okupacji nieustająco przygotowywał się, mozolną pracę podzieloną'",
+            "Nagłówek: Polish Forces CMF 152, Gimnazjum 3DSK",
+            "Skan z Seria_29z_p34_img01 (Exercise Book)"
         ],
-        "kontekst": "Esej analityczny napisany 3 sierpnia 1945. 19-letni Krzysztof czyta artykuły o Powstaniu i polemizuje z autorami, którzy nie brali w nim udziału. Broni profesjonalizmu Armii Krajowej — podkreśla, że żołnierze AK nie byli spontanicznym tłumem, lecz wyszkolonymi żołnierzami z planami i organizacją. Krytykuje p. Nowakowskiego (prawdopodobnie Tadeusza Nowakowskiego, pisarza emigracyjnego) za błędne przedstawienie motywacji powstańców. Fascynujący dokument — głos 19-latka, który SAM walczył, wobec publicystów, którzy PISALI o walce."
+        "kontekst": "Esej analityczny napisany 3 sierpnia 1945. 19-letni Krzysztof czyta artykuły o Powstaniu i polemizuje z autorami, którzy nie brali w nim udziału. KLUCZOWE ODKRYCIE: cytuje p. Nowakowskiego, który WYMIENIŁ GŁUCHOWSKICH Z NAZWISKA — 'Głuchowscy wszyscy pośli do Powstania i walki o kraj'. Krzysztof broni honoru rodziny: Głuchowscy nie byli spontanicznymi ochotnikami, ale żołnierzami AK z wyznaczonymi zadaniami w planie opanowania Warszawy. Podkreśla profesjonalizm: 'to nie byli ci sobie prostacze — to był żołnierz, który w ciężkich warunkach okupacji nieustająco przygotowywał się'. Fascynujący dokument — głos 19-latka, który SAM walczył, wobec publicystów, którzy PISALI o walce."
     },
 
     # ═══════════════════════════════════════════════════════════════
@@ -5756,6 +5888,159 @@ Dolantin amp., 29) Eldoform, 30) Euflawin, 31) Ewin tabl. i amp., 32) Yatren Cas
 Carostidin, 34) Lutren 5 mg amp., 35) Noralgin amp/tabl./pulv./eliksir, 36) Paralin amp., 37)
 Sympatol liq., 38) Thyreoidee tabl., 39) Thyroxin, 40) Validol, 41) Vogin""",
         "kontekst": "Warszawa, 17.IV.1947"
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # SERIA II — Gen. dyw. Janusz Julian Głuchowski (1888–1964)
+    # ═══════════════════════════════════════════════════════════════
+
+    # ARG/II/14 — List odręczny Śmigłego-Rydza do Głuchowskiego
+    "janusz_014": {
+        "typ": "List odręczny",
+        "data": "30.XII.1919",
+        "jezyk": "polski",
+        "nadawca": "Generał-porucznik [Edward Śmigły-Rydz?]",
+        "adresat": "Major Głuchowski",
+        "strony": ["Kolekcja_Gluchowski_Katalog_Tematyczny_p06_img02.jpeg"],
+        "transkrypcja": """Warszawa, dn. 30 Grudnia 1919[?]
+
+Do
+J.W.P. Majora Głuchowskiego
+
+Korpus Oficerski Ministerstwa Wojny
+przysłał zaproszenie dla mnie i oficerów
+artylerii obozujących[?] w Kursarni[?] na poranek noworoczny w
+Zamku.
+Ze mej strony proszę Pana Majora
+o przybycie na Zamek wraz z pozostałymi oficerami pułku o godz.[?]
+dn. 1 Stycznia 1919[sic? 1920?] roku.
+
+[podpis nieczytelny]
+Generał – porucznik[?]""",
+        "pieczecie": [],
+        "podpisy": ["Generał-porucznik [podpis nieczytelny — Śmigły-Rydz?]"],
+        "osoby": ["Maj. Janusz Głuchowski (adresat)", "Generał-porucznik [Śmigły-Rydz?] (nadawca)"],
+        "znaki_szczegolne": [
+            "AUTOGRAF GENERAŁA — zaproszenie na poranek noworoczny na Zamku Królewskim",
+            "Data 30.XII.1919 — poranek noworoczny na 1.I.1920",
+            "Głuchowski jako Major — przed awansem na pułkownika",
+            "Zamek Królewski w Warszawie — siedziba władz państwowych",
+            "Korpus Oficerski Ministerstwa Wojny — najwyższy szczebel",
+            "UWAGA: Katalog datuje ten list na 1935-1939, ale data na dokumencie wygląda na 1919. Do weryfikacji"
+        ],
+        "kontekst": "Zaproszenie na poranek noworoczny na Zamku Królewskim w Warszawie. Nadawca — generał-porucznik (podpis trudny do odczytu, katalog identyfikuje jako Śmigłego-Rydza). Głuchowski nosi stopień majora, co odpowiada okresowi 1918-1920 (dowódca 3/7 Pułku Ułanów). UWAGA: data na dokumencie (30.XII.1919) nie zgadza się z datowaniem katalogowym (ok. 1935-1939) — wymaga weryfikacji. Jeśli data 1919 jest poprawna, nadawcą może być inny generał."
+    },
+
+    # ARG/II/27 — List gen. Sosnkowskiego z Kanady
+    "janusz_027": {
+        "typ": "List maszynopisowy z odręcznym podpisem",
+        "data": "28.V.1964",
+        "jezyk": "polski",
+        "nadawca": "Gen. broni Kazimierz Sosnkowski",
+        "adresat": "Gen. dyw. Janusz Głuchowski",
+        "strony": ["Kolekcja_Gluchowski_KATALOG_NAUKOWY_p09_img01.jpeg"],
+        "transkrypcja": """Kochany Januszu,
+
+Twój list z dnia 18-go maja (polecony, ale nie listonosz) otrzymałem
+dopiero [?] temu, po przyjeździe do Kanady. Odwlekałem z trochę odpowiedzią
+na list, bo chciałem zebrać parę informacyj[?] i [nieczytelne].
+
+[...] kto przedwojennych, kto ma dziś Gazetę haków[?] nikt, ani niektó-
+rych[?] poszukiwanych. Poruszyło mnie[?] wielce podrzuconym,
+że dywizja naszych polskich pod[?] Łosicach. [nieczytelne] poza osiągnięć-
+mi, na Komorowski[?][?] Pana Prezydenta Barfasya[?] [?]. List z Londynu od
+Generała w Liście pochwytnych[?] pismo na dwie strony[?] — [nieczytelne]
+jako jedna biała nieprzystępna piśma, a ta dawana pisałem miesiąc temu
+
+Bardzo zmartwia mnie wiadomość o chorowaniu sytuacji p[ułkownika?][nieczytelne]-
+wskiego. [?] Pan go proszę [?] bardzo serdecznie[?] pozdrawiam.
+
+Prosiło mnie o przysłonięcie[?] „trudu swojej" matki[?]. Poprawa
+własna[?], że nie dla chcenia[?]. Rzeczywiście od hr[abiego?] Stefana de Roz-
+niatowskiego[?] z Austrii[?], nic przeczytane [nieczytelne]
+Pragmatyczni, udało stało[?] złożonego[?] wyboru p[ułkowni?]ko[nieczytelne]-
+ czego[?], cała[?] mała dóbr[?] świata[?] 500 abonnés[?]. Ale było tylko jednego[?]
+artykuł[?] poświęcony przeżyciach[?]. Aby wyciągnąć coś do obiegu (przecież
+wydawcy tylko fragmenty i materiały, które dóbr stanie się wystawionych przeżyć) zawarli
+ szczególnie wyjaśnień dotyczyło sprzed i wydarzeń.
+
+Prosiłem o przypadku[?] lepiej z patrolu Beliny. Ale wiesz mi powiem-
+my[?]. Jadzio każden[?] chciwy z mamy godnej z wyrozmaiłem.
+
+[podpis odręczny]
+Kazimierz Sosnkowski
+
+Arundel, P.Qué.
+28 maja 1964.""",
+        "pieczecie": [],
+        "podpisy": ["Kazimierz Sosnkowski (podpis odręczny)"],
+        "osoby": [
+            "Gen. broni Kazimierz Sosnkowski (1885–1969) — nadawca, Naczelny Wódz PSZ 1943-44",
+            "Gen. dyw. Janusz Głuchowski — adresat",
+            "Hrabia Stefan de Rozniatowski[?] (wspomniany)"
+        ],
+        "znaki_szczegolne": [
+            "AUTOGRAF NACZELNEGO WODZA PSZ — list prywatny 'Kochany Januszu'",
+            "Arundel, Province de Québec — Sosnkowski na emigracji w Kanadzie",
+            "28 maja 1964 — 7 miesięcy przed śmiercią Janusza (11.VI.1964 Londyn)",
+            "Wspomina patrol Beliny — Siódemka z 2.VIII.1914",
+            "Maszynopis z odręcznym podpisem — Sosnkowski miał 78 lat",
+            "UWAGA: obraz mały, tekst środkowy trudny do odczytu — wymaga weryfikacji z oryginałem",
+            "Porównanie z ARG/II/28-29 (Pro memoria) — ten sam okres korespondencji"
+        ],
+        "kontekst": "List prywatny gen. Sosnkowskiego do gen. Głuchowskiego, pisany z Arundel w Quebeku 28 maja 1964 — zaledwie kilka miesięcy przed śmiercią Janusza. Sosnkowski (Naczelny Wódz PSZ 1943-44, OB PPS, towarzysz z Legionów) wspomina patrol Beliny i prosi o informacje. Ekstremalnie rzadki autograf — korespondencja Sosnkowski-Głuchowski nieznana na rynku aukcyjnym."
+    },
+
+    # ARG/II/36 — List Adama Piłsudskiego do płk. Głuchowskiego
+    "janusz_036": {
+        "typ": "List odręczny na papeterii z monogramem",
+        "data": "17.VIII.1931",
+        "jezyk": "polski",
+        "nadawca": "Adam Piłsudski",
+        "adresat": "Płk. Janusz Głuchowski",
+        "strony": ["lbr_II_36_p01.jpg", "lbr_II_36_p02.jpg", "lbr_II_36_p03.jpg", "lbr_II_36_p04.jpg"],
+        "transkrypcja": """17/8 '31.
+
+Szanowny Panie Pułkowniku!
+
+Zwracam się do Sz. Pana z
+uprzejmą prośbą o pana[?], czy nie
+mógłbym otrzymać 2 par koni
+do ćwiczenia wogóle[?] dość czasu, bo
+jutka[?] samu[?].
+
+W tej chwili otrzymałam[sic] zawia-
+domienie iż wagon 12 myśli[?]
+jest na st. Morena i że na-
+tychmiast wszedł[?] musi być
+zebrany.
+
+O ile jest to możliwe proszę będę
+o odpowiedź przez ordynansa.
+
+Łączę wyrazie[?] pozdrowienia[?]
+
+A. Piłsudski
+
+[Na kopercie/odwrocie:]
+Wielmożny Pan
+Pułkownik J. Głuchowski""",
+        "pieczecie": [],
+        "podpisy": ["A. Piłsudski (podpis odręczny)"],
+        "osoby": [
+            "Adam Piłsudski (brat Marszałka Józefa Piłsudskiego) — nadawca",
+            "Płk. Janusz Głuchowski — adresat"
+        ],
+        "znaki_szczegolne": [
+            "AUTOGRAF BRATA MARSZAŁKA PIŁSUDSKIEGO",
+            "Papeteria z wytłoczonym monogramem 'P' (niebieskim) — Piłsudscy",
+            "Data: 17 sierpnia 1931",
+            "Dotyczy koni do ćwiczeń — kontekst kawaleryjski",
+            "Stacja Morena — wagon z końmi",
+            "Koperta zaadresowana: 'Wielmożny Pan Pułkownik J. Głuchowski'",
+            "4 skany: list, zbliżenie podpisu, monogram P, koperta"
+        ],
+        "kontekst": "List Adama Piłsudskiego (1869-1935), starszego brata Marszałka Józefa Piłsudskiego, do płk. Głuchowskiego. Adam prosi o użyczenie 2 par koni do ćwiczeń i informuje o wagonie na stacji Morena. Kontekst kawaleryjski — Głuchowski jako dowódca I Brygady Kawalerii (1920-1924) i komendant Wyższych Studiów Wojskowych (1930-1933) dysponował końmi służbowymi. Monogram 'P' na papeterii potwierdza proweniencję od rodziny Piłsudskich."
     },
 
 }

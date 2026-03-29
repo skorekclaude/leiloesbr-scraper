@@ -8702,6 +8702,10 @@ SPECIAL_TRANSCRIPTION_MAP = {
     "ARG/V/53":   "juras_053",
     "ARG/V/54":   "juras_054",
     "ARG/V/60":   "juras_059",
+    # ── Seria II — nowe transkrypcje (29.III.2026) ──
+    "ARG/II/14":  "janusz_014",
+    "ARG/II/27":  "janusz_027",
+    "ARG/II/36":  "janusz_036",
 }
 
 
