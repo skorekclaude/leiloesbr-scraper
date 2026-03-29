@@ -1586,3 +1586,41 @@ Treść: Wspomina o stukturalnej kolekcji, "jedynego chłopca Mamusi", "od 1927 
 1. **Gimnazjum i Liceum 3 DSK, klasa IV** (1945)
 2. **25 Rodney Airfield, Nr 105** (= RAF Bodney) (1946)
 3. **c/o Mrs Whittle, 12 Kenilworth Ave, Walthamstow, London E 17** (~1950)
+
+## PODSUMOWANIE SESJI 28-29.III.2026 — KOŃCOWE
+
+### Kolekcja
+- 356 obiektów (było 311)
+- 398 wycen (komplet)
+- 107 transkrypcji
+- 112 skanów (68 originals + 44 wanda2)
+- Wartość: 268-681 tys. PLN
+
+### Nowe źródła dodane
+- listy_wanda_2.pdf: 21 listów (V/218-238)
+- transkrypcje_listow_1946.pdf: 10 listów (V/174-183)
+- ARG_V_Transkrypcje_korespondencji.pdf: 18 listów (V/201-217)
+- PAI dodała 12 nowych wpisów (V/203b-V/221)
+
+### Odkrycia
+1. Kamiński → RAMIŃSKI (PAI zweryfikowała podpis)
+2. Dynowski → SZYMCZAK (powstaniec z Powązek)
+3. Koniuś = Justin Piotr Robert DĘBSKI, Keresley Hostel, Coventry
+4. Apteka Wandy: róg KRUCZEJ i Hożej (nie Królewskiej), 4× potwierdzone
+5. Deportacja Wandy: aresztowana → Rosja → obóz Rembertów (V/207c)
+6. Tarnów jako miejsce urodzenia Krzysztofa (Carte de Rapatrié)
+7. 6 dróg konspiracyjnych: Paryż, Genewa, Sussex, Sztokholm, Penley, Londyn
+8. Pieczęć AK + awans st.uł. + KH ×3 (5.IX.44)
+9. Przepustka Jednorazowa KWO AK (29.IX.44)
+10. Zdjęcie Krzysztofa w mundurze (świadectwo gimnazjum)
+11. "Jesteś jedyną wygraną w moim życiu" — Wanda
+12. Spis 45 lekarstw — farmaceutka do końca
+13. "Aby żyć trzeba mieć więcej szczęścia niż rozumu" — Krzysztof, Wigilia 46
+
+### Artykuły rozszerzone
+- DYSK — 49 nowych źródeł pierwszoosobowych, czwarta forma oporu
+
+### CC + PAI — pierwsza wspólna praca
+- CC: katalogowanie, wyceny, powiązania, commitowanie
+- PAI: odczyt skanów, enhancowanie, identyfikacja nadawców
+- PAI ma teraz auth GitHub — może push'ować samodzielnie
