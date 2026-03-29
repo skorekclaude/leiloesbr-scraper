@@ -4575,6 +4575,38 @@ W. 1/12 46 r.""",
         "kontekst": "Grudzień 1946. Wanda wylicza poległych kolegów syna — Josiek na Starówce, Kosterlitz, 'prawie wszyscy wyginęli.' Matka nie widziała 18-letniego syna od ewakuacji z Warszawy (1944). Pytanie 'ile masz wzrostu' — nie wie jak wygląda jej dorosły syn."
     },
 
+    # ── Korespondencja 1945-1947 (starszy PDF) ──────────────────
+
+    "juras_207c": {
+        "typ": "list",
+        "data": "5.II.1947",
+        "jezyk": "pl",
+        "nadawca": "Janusz Kamiński",
+        "adresat": "Krzysztof Głuchowski",
+        "transkrypcja": """Brownings Camp, Billingshurst, Sussex, 5/II/46 [prawdopodobnie 1947]
+
+Kochany Panie Krzysiu.
+
+Niezmiernie mi przykro, że nasze spotkanie w Londynie nie doszło do skutku.
+
+Z listu żony, pisanego 25/I br. przepisuję ustęp dotyczący Pana Matki:
+
+'Wanda prosi być przytulić do serca Krzysia — bardzo się ponieważ w W-wie — mieszka przy aptece, którą z wielkim nakładem wysiłku i pieniędzy odbudowała (tylko parter rogowy w zupełnie zrujnowanym domu), na razie idzie stało. To tam gdzie poprzednio była cukiernia Paciorkowskiego — róg Kruczej i Hożej!'
+
+Adres cioci Staśki: Staśka Armatysowa, ul. Żwirki 1 d m 12.
+
+Tak p. Wanda była aresztowana, wywieziona do Rosji, potem siedziała w obozie w Rembertowie. Ale to dawne czasy, teraz nie powinno Jej nic grozić. Ale napewno jest pod obserwacją, i lepiej do Niej wprost nie pisywać! Najlepiej do p. Staśki!
+
+Oddany Janusz K.""",
+        "osoby": ["Janusz Kamiński", "Wanda Głuchowska", "Krzysztof Głuchowski", "Staśka Armatysowa"],
+        "znaki_szczegolne": [
+            "KLUCZOWY: deportacja Wandy do Rosji + obóz Rembertów",
+            "Apteka róg Kruczej i Hożej — trzecie potwierdzenie",
+            "Wanda pod obserwacją"
+        ],
+        "kontekst": "Najważniejszy dokument o represjach wobec Wandy Głuchowskiej. Jedyne pisemne potwierdzenie deportacji do Rosji i obozu w Rembertowie."
+    },
+
     "juras_178": {
         "typ": "list",
         "data": "ok. 1946",
