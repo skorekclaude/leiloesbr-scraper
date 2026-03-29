@@ -263,7 +263,7 @@ OBJECTS = [
         "seria": "II",
         "tworca": "Wojskowe Biuro Historyczne",
         "jezyk": "polski",
-        "kontekst": "WBH wydawało biogramy dla oficerów-legionistów w ramach dokumentowania czynu zbrojnego. Potwierdza przynależność do 'Siódemki Beliny' — pierwszego patrolu kawaleryjskiego Legionów. 'ZWC w Liège' = Związek Walki Czynnej — Głuchowski współzałożył tę organizację w Belgii razem z Tadeuszem Piskorem podczas studiów na Politechnice w Liège (~1907-1909). 'OB PPS' = Organizacja Bojowa PPS — Głuchowski wstąpił w 1905 r., mając zaledwie 17 lat.",
+        "kontekst": "WBH wydawało biogramy dla oficerów-legionistów w ramach dokumentowania czynu zbrojnego. Potwierdza przynależność do 'Siódemki Beliny' — pierwszego patrolu kawaleryjskiego Legionów (noc 2/3.VIII.1914, Kocmyrzów). 'ZWC w Liège' = Związek Walki Czynnej — Głuchowski współzałożył tę organizację w Belgii z Tadeuszem Piskorem (~1907-1909) podczas studiów na Politechnice w Liège (kierunek nieznany). 'OB PPS' = Organizacja Bojowa PPS — Głuchowski wstąpił w 1905 r. (17 lat), został RANNY W RĘKĘ podczas napadu na urząd gminny pod Częstochową (pl.wikipedia.org/wiki/Janusz_Głuchowski). Syn Mariana Głuchowskiego (komisarza PON, ARG/I) i Marii z Ziółkowskich. Biogram WBH: sygn. I.480-101-200 w zasobie Centralnego Archiwum Wojskowego.",
         "powiazania": ["ARG/II/2", "ARG/II/4"],
         "stan": "Dobry",
         "wycena": "400-1000 PLN"
@@ -279,7 +279,7 @@ OBJECTS = [
         "seria": "II",
         "tworca": "nieznany fotograf / uczestnik patrolu",
         "jezyk": "polski",
-        "kontekst": "IKONOGRAFICZNY DOKUMENT ZAŁOŻYCIELSKI polskiej kawalerii odrodzonej. Patrol Siódemki Beliny (noc 2/3.VIII.1914) — siedmiu kawalerzystów na rozkaz Piłsudskiego przekroczyło granicę rosyjską, otwierając kampanię Legionów — pierwszy regularny oddział polski od Powstania Styczniowego 1863 r. Głuchowski był zastępcą dowódcy patrolu. Identyfikacja uczestników zweryfikowana wg źródeł IPN i jpilsudski.org.",
+        "kontekst": "IKONOGRAFICZNY DOKUMENT ZAŁOŻYCIELSKI polskiej kawalerii odrodzonej. Patrol Siódemki Beliny (noc 2/3.VIII.1914) — siedmiu ułanów na rozkaz Piłsudskiego przekroczyło granicę rosyjską pod Kocmyrzowem, otwierając kampanię Legionów. Patrol wyruszył BRYCZKAMI (nie konno!), konie otrzymali dopiero w majątku Kleszczyńskich w Skrzeszowicach. Głuchowski był zastępcą dowódcy patrolu. Losy Siódemki: 3 polegli (Karwacki 1916 Kostiuchnówka, Jabłoński 1920 wojna bolszewicka, Grzmot-Skotnicki 1939 Bzura); Belina zm. 1938 Wenecja (przed wojną); 3 na emigracji (Głuchowski Londyn zm. 1964, Hanka-Kulesza Londyn zm. 1964, Kmicic-Skrzyński Manchester zm. 1972 — ostatni żyjący, ekshumowany 2023 i pochowany w Białymstoku). Por. Zespół 70 Instytutu Piłsudskiego w Londynie = Archiwum Janusza Głuchowskiego (9 jedn., 0.15 mb). Źródło: pl.wikipedia.org/wiki/Ułańska_siódemka",
         "powiazania": ["ARG/II/1"],
         "stan": "Średni, fotokopia wtórna",
         "wycena": "1200-4000 PLN"
@@ -479,7 +479,7 @@ OBJECTS = [
         "tworca": "Marsz. Edward Śmigły-Rydz (?)",
         "jezyk": "polski",
         "nadawca": "Marsz. Edward Śmigły-Rydz (?)", "adresat": "Gen. Janusz Głuchowski", "droga_pocztowa": "poczta dyplomatyczna / oficjalna",
-        "kontekst": "Korespondencja prywatna z Naczelnym Wodzem II RP. Świadczy o osobistych relacjach Głuchowskiego z najwyższym dowództwem.",
+        "kontekst": "UWAGA: Transkrypcja (janusz_014) wykazuje datę 30.XII.1919 i tytuł 'Major' — co odpowiada okresowi 1918-1920 (Głuchowski jako dowódca 3/7 P.Uł. w stopniu majora). Zaproszenie na poranek noworoczny na Zamku Królewskim w Warszawie od generała-porucznika. Identyfikacja nadawcy jako Śmigłego-Rydza wymaga weryfikacji — podpis trudny do odczytu. Jeśli data 1919 jest poprawna, datowanie katalogowe 1935-39 jest BŁĘDNE.",
         "powiazania": ["ARG/II/17"],
         "stan": "Dobry",
         "wycena": "1000-4000 PLN"
@@ -559,7 +559,7 @@ OBJECTS = [
         "seria": "II",
         "tworca": "Prezydent RP / MSWojsk",
         "jezyk": "polski",
-        "kontekst": "SZCZYT KARIERY — I Zastępca Ministra Spraw Wojskowych = druga osoba w resorcie obrony II RP. Stanowisko kluczowe w przygotowaniach do wojny. Na tym stanowisku Głuchowski wydał rozkazy tworzące Dowództwo Obrony Warszawy (gen. Czuma) we wrześniu 1939 oraz nakazał ewakuację pilotów do Rumunii.",
+        "kontekst": "SZCZYT KARIERY — I Zastępca Ministra Spraw Wojskowych (mianowany 5.X.1935) = druga osoba w resorcie obrony II RP. I Wiceminister odpowiadał za: organizację pokojową armii, szkolenie, wychowanie, dyscyplinę. Pod jego dowództwem: Departamenty Piechoty, Kawalerii, Artylerii, Poborowy; Dowództwa Lotnictwa, Saperów, Broni Pancernej, Łączności, Żandarmerii, Taborów. Na tym stanowisku Głuchowski wydał rozkazy tworzące Dowództwo Obrony Warszawy (gen. Czuma) we wrześniu 1939 oraz nakazał ewakuację pilotów do Rumunii. Poprzednicy na stanowisku: gen. Fabrycy, gen. Konarzewski, gen. Majewski. Źródło: pl.wikipedia.org/wiki/Ministerstwo_Spraw_Wojskowych",
         "powiazania": ["ARG/II/18"],
         "stan": "Dobry",
         "wycena": "2500-7500 PLN"
@@ -645,7 +645,7 @@ OBJECTS = [
         "tworca": "nieznany nadawca",
         "jezyk": "polski",
         "nadawca": "nieznany nadawca", "miejsce_nadania": "Londyn", "droga_pocztowa": "poczta dyplomatyczna / oficjalna",
-        "kontekst": "Głuchowski po 1939 internowany w Rumunii, dotarł do Palestyny (X.1940), potem Londyn (II.1941). Od III.1941 generał do dyspozycji Naczelnego Wodza. Od X.1941 dowodził Brygadą Szkolną w Szkocji. Od IX.1943 — Dowódca Polskich Jednostek Wojskowych w Wielkiej Brytanii. List z 14.IX.1943 datowany tuż po objęciu tego kluczowego stanowiska.",
+        "kontekst": "Głuchowski po 1939 internowany w Rumunii (Baile Herculane), uciekł, dotarł do Palestyny (X.1940, por. foto z Latrun ARG/II), potem Londyn (I.1941). 21.III.1941: generał do zleceń Naczelnego Wodza. X.1941: dowódca Brygady Szkolnej w Szkocji. 23.IX.1943: Dowódca Jednostek Wojska w Wielkiej Brytanii (wszystkie polskie jednostki w W. Brytanii oprócz 1. Sam. Brygady Spadochronowej). List z 14.IX.1943 datowany tuż PRZED objęciem tego stanowiska. We IX.1945 zdymisjonowany za ostrą krytykę reżimu sowieckiego i obronę praw byłych jeńców AK.",
         "powiazania": ["ARG/II/25"],
         "stan": "Dobry",
         "wycena": "600-2000 PLN"
@@ -3822,7 +3822,7 @@ OBJECTS = [
         "tworca": "Adam Piłsudski",
         "jezyk": "polski",
         "nadawca": "Adam Piłsudski", "adresat": "Gen. Janusz Głuchowski", "droga_pocztowa": "poczta dyplomatyczna / oficjalna",
-        "kontekst": "Adam Piłsudski (1869–1935) — starszy brat Marszałka Józefa Piłsudskiego, inżynier kolejowy. List z 1931 r. do Głuchowskiego (wówczas pułkownika, dowódcy 1. Pułku Ułanów) świadczy o bliskich relacjach Głuchowskiego z rodziną Piłsudskich — naturalnych, biorąc pod uwagę że obaj byli Legionistami z 1914 roku. Autograf Piłsudskiego — wysoka wartość kolekcjonerska.",
+        "kontekst": "Adam Piłsudski (1869-1935) -- starszy brat Marszalka Jozefa Pilsudskiego. List z 17.VIII.1931 na papeterii z wytloczonym monogramem 'P' (niebieski, gotycki). Tresc: prosba o 2 pary koni do cwiczen + informacja o wagonie na stacji Morena. Kontekst kawaleryjski -- Gluchowski (wowczas plk, Komendant CWSW od 4.VI.1930) dysponowal konmi sluzbowymi. Koperta zaadresowana: 'Wielmozny Pan Pulkownik J. Gluchowski'. Autograf brata Marszalka na papeterii rodzinnej Pilsudskich -- wysoka wartosc kolekcjonerska. Zrodlo: transkrypcja janusz_036.",
         "powiazania": ["ARG/II/17", "ARG/II/1"],
         "stan": "Dobry",
         "wycena": "1200-5000 PLN"
