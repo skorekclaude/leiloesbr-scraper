@@ -836,3 +836,10 @@ Częściowo czytelny. "tu masz przekąskę... uroczystości... Podolsicm... Poł
 - V/76-79 (list Wigilii): str 1+2+4 od Marka, str 3 częściowo odczytana (pani Joanna, 40£, Bolonia)
 - Papeteria Emil Schröder & Co — list Bogdany z 25.V.1945, tuż po wyzwoleniu
 - Wspomnienia Krzysztofa o dzieciństwie i Powstaniu — widziałem ale zbyt trudne pismo
+
+### Kolejne odczyty:
+- Pieczęć AK + awans Krzysztofa na st.ułana + KH ×3 (5.IX.44, podpis Kamiński)
+- Przepustka Jednorazowa Specjalna KWO AK (29.IX.44, płk Kachnowski)
+- Pamiętnik Krzysztofa — Gladbach, £4000, "mieś marzenie"
+- List Bogdany na papeterii Emil Schröder (25.V.45)
+- Wspomnienia o dzieciństwie i Powstaniu — zbyt trudne pismo
