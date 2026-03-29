@@ -4915,13 +4915,13 @@ Rzym  28-VII-1945
 ✱
 Amendola 1-XI-1945
 Forlì / Bologna / Ferrara / Rovigo / Padova / Mestre / Treviso / Vittorio Veneto
-[Prawa kolumna:] Pescara, Bevi, Trento, Gallipoli, Trani, Bievtitte[?], Vittorio, Belluno,
+[Prawa kolumna:] Pescara, Bevi, Trento, Gallipoli, Trani, Barletta, Vittorio, Belluno,
  
-Bolzano, Amendola, Asotte Mare[?] , S. Benedetto , Meldola , Ravenna — 
+Bolzano, Amendola, Grotta Mare , S. Benedetto , Meldola , Ravenna — 
 ✓
 ✓
 ✓
-Pedaso(?) 33., Montelice[?], Este , Wenecja , Martinsicuro, Civitanova, Rzym, 
+Pedaso, Monteluce, Este , Wenecja , Martinsicuro, Civitanova, Rzym, 
 ✓
 ✓
 Neapol [podkreślony], Liverpool, Brandon, Bodney, London , Welton, Thetford, 
