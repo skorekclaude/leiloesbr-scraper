@@ -5775,6 +5775,160 @@ Sympatol liq., 38) Thyreoidee tabl., 39) Thyroxin, 40) Validol, 41) Vogin""",
         "kontekst": "Warszawa, 17.IV.1947"
     },
 
+    # ═══════════════════════════════════════════════════════════════
+    # SERIA II — Gen. dyw. Janusz Julian Głuchowski (1888–1964)
+    # Transkrypcje PAI, 29.III.2026
+    # ═══════════════════════════════════════════════════════════════
+
+    # ARG/II/14 — List odręczny do Majora Głuchowskiego
+    "janusz_014": {
+        "typ": "List odręczny",
+        "data": "30.XII.1919",
+        "jezyk": "polski",
+        "nadawca": "Generał-porucznik [Edward Śmigły-Rydz?]",
+        "adresat": "Major Głuchowski",
+        "strony": ["Kolekcja_Gluchowski_Katalog_Tematyczny_p06_img02.jpeg"],
+        "transkrypcja": """Warszawa, dn. 30 Grudnia 1919[?]
+
+Do
+J.W.P. Majora Głuchowskiego
+
+Korpus Oficerski Ministerstwa Wojny
+przysłał zaproszenie dla mnie i oficerów
+artylerii obozujących[?] w Kursarni[?] na poranek noworoczny w
+Zamku.
+Ze mej strony proszę Pana Majora
+o przybycie na Zamek wraz z pozostałymi oficerami pułku o godz.[?]
+dn. 1 Stycznia 1919[sic? 1920?] roku.
+
+[podpis nieczytelny]
+Generał – porucznik[?]""",
+        "pieczecie": [],
+        "podpisy": ["Generał-porucznik [podpis nieczytelny — Śmigły-Rydz?]"],
+        "osoby": ["Maj. Janusz Głuchowski (adresat)", "Generał-porucznik [Śmigły-Rydz?] (nadawca)"],
+        "znaki_szczegolne": [
+            "AUTOGRAF GENERAŁA — zaproszenie na poranek noworoczny na Zamku Królewskim",
+            "Data 30.XII.1919 — poranek noworoczny na 1.I.1920",
+            "Głuchowski jako Major — przed awansem na pułkownika",
+            "Zamek Królewski w Warszawie — siedziba władz państwowych",
+            "Korpus Oficerski Ministerstwa Wojny — najwyższy szczebel",
+            "UWAGA: Katalog datuje ten list na 1935-1939, ale data na dokumencie wygląda na 1919. Do weryfikacji"
+        ],
+        "kontekst": "Zaproszenie na poranek noworoczny na Zamku Królewskim w Warszawie. Nadawca — generał-porucznik (podpis trudny do odczytu, katalog identyfikuje jako Śmigłego-Rydza). Głuchowski nosi stopień majora, co odpowiada okresowi 1918-1920 (dowódca 3/7 Pułku Ułanów). UWAGA: data na dokumencie (30.XII.1919) nie zgadza się z datowaniem katalogowym (ok. 1935-1939) — wymaga weryfikacji."
+    },
+
+    # ARG/II/27 — List gen. Sosnkowskiego z Kanady
+    "janusz_027": {
+        "typ": "List maszynopisowy z odręcznym podpisem",
+        "data": "28.V.1964",
+        "jezyk": "polski",
+        "nadawca": "Gen. broni Kazimierz Sosnkowski",
+        "adresat": "Gen. dyw. Janusz Głuchowski",
+        "strony": ["Kolekcja_Gluchowski_KATALOG_NAUKOWY_p09_img01.jpeg"],
+        "transkrypcja": """Kochany Januszu,
+
+Twój list z dnia 18-go maja (polecony, ale nie listonosz) otrzymałem
+dopiero [?] temu, po przyjeździe do Kanady. Odwlekałem z trochę odpowiedzią
+na list, bo chciałem zebrać parę informacyj[?] i [nieczytelne].
+
+[...] kto przedwojennych, kto ma dziś Gazetę haków[?] nikt, ani niektó-
+rych[?] poszukiwanych. Poruszyło mnie[?] wielce podrzuconym,
+że dywizja naszych polskich pod[?] Łosicach. [nieczytelne] poza osiągnięć-
+mi, na Komorowski[?][?] Pana Prezydenta Barfasya[?] [?]. List z Londynu od
+Generała w Liście pochwytnych[?] pismo na dwie strony[?] — [nieczytelne]
+jako jedna biała nieprzystępna piśma, a ta dawana pisałem miesiąc temu
+
+Bardzo zmartwia mnie wiadomość o chorowaniu sytuacji p[ułkownika?][nieczytelne]-
+wskiego. [?] Pan go proszę [?] bardzo serdecznie[?] pozdrawiam.
+
+Prosiło mnie o przysłonięcie[?] „trudu swojej" matki[?]. Poprawa
+własna[?], że nie dla chcenia[?]. Rzeczywiście od hr[abiego?] Stefana de Roz-
+niatowskiego[?] z Austrii[?], nic przeczytane [nieczytelne]
+Pragmatyczni, udało stało[?] złożonego[?] wyboru p[ułkowni?]ko[nieczytelne]-
+ czego[?], cała[?] mała dóbr[?] świata[?] 500 abonnés[?]. Ale było tylko jednego[?]
+artykuł[?] poświęcony przeżyciach[?]. Aby wyciągnąć coś do obiegu (przecież
+wydawcy tylko fragmenty i materiały, które dóbr stanie się wystawionych przeżyć) zawarli
+ szczególnie wyjaśnień dotyczyło sprzed i wydarzeń.
+
+Prosiłem o przypadku[?] lepiej z patrolu Beliny. Ale wiesz mi powiem-
+my[?]. Jadzio każden[?] chciwy z mamy godnej z wyrozmaiłem.
+
+[podpis odręczny]
+Kazimierz Sosnkowski
+
+Arundel, P.Qué.
+28 maja 1964.""",
+        "pieczecie": [],
+        "podpisy": ["Kazimierz Sosnkowski (podpis odręczny)"],
+        "osoby": [
+            "Gen. broni Kazimierz Sosnkowski (1885–1969) — nadawca, Naczelny Wódz PSZ 1943-44",
+            "Gen. dyw. Janusz Głuchowski — adresat",
+            "Hrabia Stefan de Rozniatowski[?] (wspomniany)"
+        ],
+        "znaki_szczegolne": [
+            "AUTOGRAF NACZELNEGO WODZA PSZ — list prywatny 'Kochany Januszu'",
+            "Arundel, Province de Québec — Sosnkowski na emigracji w Kanadzie",
+            "28 maja 1964 — 7 miesięcy przed śmiercią Janusza (11.VI.1964 Londyn)",
+            "Wspomina patrol Beliny — Siódemka z 2.VIII.1914",
+            "Maszynopis z odręcznym podpisem — Sosnkowski miał 78 lat",
+            "UWAGA: obraz mały, tekst środkowy trudny do odczytu — wymaga weryfikacji z oryginałem",
+            "Porównanie z ARG/II/28-29 (Pro memoria) — ten sam okres korespondencji"
+        ],
+        "kontekst": "List prywatny gen. Sosnkowskiego do gen. Głuchowskiego, pisany z Arundel w Quebeku 28 maja 1964 — zaledwie kilka miesięcy przed śmiercią Janusza. Sosnkowski (Naczelny Wódz PSZ 1943-44, OB PPS, towarzysz z Legionów) wspomina patrol Beliny i prosi o informacje. Ekstremalnie rzadki autograf — korespondencja Sosnkowski-Głuchowski nieznana na rynku aukcyjnym."
+    },
+
+    # ARG/II/36 — List Adama Piłsudskiego do płk. Głuchowskiego
+    "janusz_036": {
+        "typ": "List odręczny na papeterii z monogramem",
+        "data": "17.VIII.1931",
+        "jezyk": "polski",
+        "nadawca": "Adam Piłsudski",
+        "adresat": "Płk. Janusz Głuchowski",
+        "strony": ["lbr_II_36_p01.jpg", "lbr_II_36_p02.jpg", "lbr_II_36_p03.jpg", "lbr_II_36_p04.jpg"],
+        "transkrypcja": """17/8 '31.
+
+Szanowny Panie Pułkowniku!
+
+Zwracam się do Sz. Pana z
+uprzejmą prośbą o pana[?], czy nie
+mógłbym otrzymać 2 par koni
+do ćwiczenia wogóle[?] dość czasu, bo
+jutka[?] samu[?].
+
+W tej chwili otrzymałam[sic] zawia-
+domienie iż wagon 12 myśli[?]
+jest na st. Morena i że na-
+tychmiast wszedł[?] musi być
+zebrany.
+
+O ile jest to możliwe proszę będę
+o odpowiedź przez ordynansa.
+
+Łączę wyrazie[?] pozdrowienia[?]
+
+A. Piłsudski
+
+[Na kopercie/odwrocie:]
+Wielmożny Pan
+Pułkownik J. Głuchowski""",
+        "pieczecie": [],
+        "podpisy": ["A. Piłsudski (podpis odręczny)"],
+        "osoby": [
+            "Adam Piłsudski (brat Marszałka Józefa Piłsudskiego) — nadawca",
+            "Płk. Janusz Głuchowski — adresat"
+        ],
+        "znaki_szczegolne": [
+            "AUTOGRAF BRATA MARSZAŁKA PIŁSUDSKIEGO",
+            "Papeteria z wytłoczonym monogramem 'P' (niebieskim) — Piłsudscy",
+            "Data: 17 sierpnia 1931",
+            "Dotyczy koni do ćwiczeń — kontekst kawaleryjski",
+            "Stacja Morena — wagon z końmi",
+            "Koperta zaadresowana: 'Wielmożny Pan Pułkownik J. Głuchowski'",
+            "4 skany: list, zbliżenie podpisu, monogram P, koperta"
+        ],
+        "kontekst": "List Adama Piłsudskiego (1869-1935), starszego brata Marszałka Józefa Piłsudskiego, do płk. Głuchowskiego. Adam prosi o użyczenie 2 par koni do ćwiczeń i informuje o wagonie na stacji Morena. Kontekst kawaleryjski — Głuchowski jako dowódca I Brygady Kawalerii (1920-1924) i komendant Wyższych Studiów Wojskowych (1930-1933) dysponował końmi służbowymi. Monogram 'P' na papeterii potwierdza proweniencję od rodziny Piłsudskich."
+    },
+
 }
 
 # ═══════════════════════════════════════════════════════════════

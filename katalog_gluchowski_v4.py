@@ -8904,6 +8904,10 @@ SPECIAL_TRANSCRIPTION_MAP = {
     "ARG/VI/25":  "wa_biogram_stefan",
     "ARG/VI/27":  "wa_etykieta_stefan",
     "ARG/VI/28":  "wa_dedykacja_lech_stefan",
+    # ── Seria II — transkrypcje PAI (29.III.2026) ──
+    "ARG/II/14":  "janusz_014",
+    "ARG/II/27":  "janusz_027",
+    "ARG/II/36":  "janusz_036",
     # ── Mapowanie automatyczne juras→ARG/V (29.III.2026) ──
     "ARG/V/67":   "juras_001",
     "ARG/V/69":   "juras_003",
