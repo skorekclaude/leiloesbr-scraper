@@ -6057,6 +6057,10 @@ OBJECTS = [
         "sygn": "ARG/V/222", "tytul": "'Synku Malutki!' — najkrótszy liścik Wandy",
         "data": "b.d. [ok. I-III.1947]", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p9.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "konspiracyjna — droga paryska (Goldman) lub bezpośrednia",
         "opis_fizyczny": "1 kartka, pismo odręczne Wandy — pochyłe, drobne. Atrament niebieski. Papier pożółkły. Bez koperty. Podpis: 'Wawa'.",
         "opis_tresci": "Najkrótszy list w całym zbiorze — zaledwie kilka zdań. Wanda potwierdza odbiór dwóch listów od syna: 'Dostałam dwa Twoje listy, dzień po dniu.' Obiecuje odpowiedź 'w najbliższych dniach'. Kończy: 'a dziś do serca Cię tulę'. Zdrobnienie 'Synku Malutki' — najczulsze ze wszystkich zwrotów Wandy.",
         "kontekst": "Datowanie przybliżone na podstawie pozycji w zbiorze i kontekstu (po nawiązaniu regularnej korespondencji). Liścik pisany w pośpiechu — Wanda prowadzi aptekę na Kruczej/Hożej, czas jest luksusem. Droga konspiracyjna nieustalona.",
@@ -6067,6 +6071,10 @@ OBJECTS = [
         "sygn": "ARG/V/223", "tytul": "Kartka Wandy — 'Pisz koniecznie na adres paryski'",
         "data": "ok. 20.-.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p10.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "konspiracyjna — droga paryska (Goldman) lub bezpośrednia",
         "opis_fizyczny": "1 kartka dwustronnie, pismo odręczne Wandy. Atrament niebieski. Na odwrocie adres: 'Krzysztof Głuchowski, 25 Bodney Airfield P/105, Thetford — Norfolk'. Nagłówek: 'Młody Głuchowski, wizje p. Janowy dn. 20/- 47'. Podpis: 'Wawa'.",
         "opis_tresci": "Krótka kartka — Wanda czeka na wiadomości. Prosi syna: 'Pisz koniecznie na adres paryski.' Pyta o przesyłkę. Informacja o stanie spraw: 'U nas bez zmian.' Adres na odwrocie potwierdza lokalizację syna: Bodney Airfield, baza RAF w Norfolk.",
         "kontekst": "Datowanie z nagłówka: '20/- 47' — dzień 20., miesiąc nieczytelny, rok 1947. Adres paryski = droga przez Goldmana (1 rue du Docteur Labbé, Paris 20e). Bodney Airfield — baza RAF używana przez Polish Resettlement Corps po wojnie.",
@@ -6077,6 +6085,10 @@ OBJECTS = [
         "sygn": "ARG/V/224", "tytul": "List Wandy — antresola apteki: meble, radio, życie codzienne",
         "data": "13.I.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p12.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "konspiracyjna — nieustalona (prawdop. droga paryska lub genewska)",
         "opis_fizyczny": "2 strony, pismo odręczne Wandy. Atrament niebieski. Papier w linie. Data: 'W-wa 13.I.1947 r.' Podpis: 'Wawa'.",
         "opis_tresci": "List o życiu codziennym na antresoli apteki. Wanda opisuje umeblowanie: 'dwa spania, stolik okrągły, 2 kresła, lustro, dywanik' — a ostatnio radio i 'dwie śliczne przysułki'. Wspomina list od Sofki, chce wysłać zdjęcia. Na Żoliborzu 'zjechało aż 5-iu panów' — Szumark, Patek, trzej Korbolscy. Paniunk upadł i złamał obie ręce 'i pękła aż w 4-ech miejscach'.",
         "kontekst": "Styczeń 1947. Antresola apteki na rogu Kruczej i Hożej (dawna cukiernia Paciorkowskiego) — Wanda mieszka i pracuje w jednym miejscu. Urządzanie antresoli — stopniowe przywracanie normalności po obozie w Rembertowie. Wymienieni Szumark, Patek, Korbolscy — prawdopodobnie sąsiedzi z Żoliborza wracający po wojnie.",
@@ -6087,6 +6099,10 @@ OBJECTS = [
         "sygn": "ARG/V/225", "tytul": "List Wandy — przed Świętami, rady o kontaktach",
         "data": "19.XII.1946", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p14.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "konspiracyjna — nieustalona (prawdop. droga paryska lub genewska)",
         "opis_fizyczny": "2 strony, pismo odręczne Wandy. Atrament niebieski. Data: 'W. 19.XII.46 r.' Podpis: 'Ściskam mocno, mocno Twoja matka'.",
         "opis_tresci": "Najwcześniejszy list w zbiorze 2 — grudzień 1946. Wanda wyjeżdża z Warszawy z Wandą S.: do Marysi R. w Leśniarówce, potem Wrocław i Łódź. Rady o Malku: 'staraj się go skommunikować z Bronkiem — przecie byli w wielkiej przyjaźni.' Pyta o paczki. Prosi o naklejenie znaczka na kalendarzyk — 'bo mi kleja zabrakło'. O rodzinie Klendjana: 'możesz mieć do nich zaufanie'.",
         "kontekst": "19 grudnia 1946 — 5 dni przed Wigilią. Seria wyjazdów: Leśniarówka (Marysia R.), Wrocław, Łódź. Porównaj: Wigilia Krzysztofa (ARG/V/76-79) pisana tego samego tygodnia. Wanda i syn piszą do siebie nie wiedząc nawzajem o swoich listach. Malek, Bronek — prawdopodobnie kuzyni lub przyjaciele z Żoliborza.",
@@ -6097,6 +6113,10 @@ OBJECTS = [
         "sygn": "ARG/V/226", "tytul": "'Jesteś jedyną wygraną w moim życiu' — list Wandy",
         "data": "9.III.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p16.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "konspiracyjna — nieustalona (prawdop. droga paryska lub genewska)",
         "opis_fizyczny": "2 strony, pismo odręczne Wandy — emocjonalne, miejscami niestaranne. Atrament niebieski. Data: 'W. 9/III 47r.' Podpis: 'Wawa'.",
         "opis_tresci": "Najemocjonalniejszy list w zbiorze. Wanda wyznaje: 'Jesteś jedyną wygraną pozycją w moim życiu i to wygraną podwójnie, bo po pierwne to że wogóle istniejesz, a po drugie że powstanie czy inne katastrofy nie zabrało mi Ciebie.' Nie chce wychodzić z apteki — boi się, że list od syna przyjdzie pod jej nieobecność. Spotyka na ulicy panią z synem pod rękę: 'wprost fizycznie poczułam zazdrość'.",
         "kontekst": "9 marca 1947. Kluczowy list dla artykułu o DYSK — głos matki-żołnierza. Wanda (sierż. pchor. Kedyw AK) nie pisze jako kombatantka lecz jako matka, która straciła prawie wszystkich. Porównaj V/177: 'prawie wszyscy wyginęli'. 'Jedyna wygrana' — syn Krzysztof jest jedynym co jej zostało z przedwojennego życia.",
@@ -6107,6 +6127,10 @@ OBJECTS = [
         "sygn": "ARG/V/227", "tytul": "List Wandy — surowa zima, mrozy, znaczki dla syna",
         "data": "10.II.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p18.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "konspiracyjna — nieustalona (prawdop. droga paryska lub genewska)",
         "opis_fizyczny": "2 strony (dwa fragmenty, prawdopodobnie różne daty), pismo odręczne Wandy. Atrament niebieski. Data: 'W-wa 10/II -47'. Podpis: 'Wawa'.",
         "opis_tresci": "Dwa fragmenty listowe. Pierwszy: prośba o częstsze pisanie, 'straszne mrozy', pytanie o moskotki wysłane lotem przez Szwedów. Drugi: martwi się o zimno w Norfolk, 'u nas wielkie mrozy ale węgla jest dość'. Dwudniowe zamknięcie apteki — Wanda utknęła w Łodzi, pociągi i autobusy nie kursowały. Posyła znaczki i zdjęcia ze ślubu Adasia (nadleśniczy w Ostromecku koło Torunia). Prosi: 'nie jedź do Argentyny'.",
         "kontekst": "Luty 1947 — najsroższa zima stulecia w Europie. Paraliż komunikacyjny potwierdza się historycznie. Apteka zamknięta 2 dni = strata dochodu. Moskotki lotem przez Szwedów — droga sztokholmska (Grafowa). Argentyna — syn rozważa emigrację, matka jest przeciwna.",
@@ -6117,6 +6141,10 @@ OBJECTS = [
         "sygn": "ARG/V/228", "tytul": "List Wandy 4 strony — zniszczenia domu, fotografie, meble",
         "data": "19.II.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p20.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "konspiracyjna lub bezpośrednia poczta anglo-polska",
         "opis_fizyczny": "4 strony (najdłuższy w okresie II.1947), pismo odręczne Wandy. Atrament niebieski. Data: 'W. 19/II 47r.' Podpis: 'Wawa'.",
         "opis_tresci": "Najdłuższy list z lutego. Wanda wylicza 5 listów od syna z datami. Inwentaryzacja zniszczeń domu na Żoliborzu: dach zerwany, woda zalewała skrzynie z fotografiami — 'zdjęć się naliniarlo w opłakanym stanie'. Ocalały meble: fotel mahoniowy, sofka. Stracone: porcelana, garderoba, rzeczy osobiste, biblioteka Krzysztofa. O okresie więzienia: 'kiedy ja jeszcze byłam w więzieniu (7 miesięcy)' — Wanda po raz pierwszy wspomina uwięzienie. Ciotka Halenka podpisała umowę w jej nieobecności.",
         "kontekst": "Kluczowy list dla dokumentacji strat wojennych. '7 miesięcy' więzienia — nowy szczegół chronologiczny (nie podany w V/207c). Dach zerwany po Powstaniu, zniszczone fotografie rodzinne — nieodwracalne straty. Dom na Żoliborzu = dom przedwojenny Głuchowskich. Porównaj V/207c (Ramiński potwierdza aresztowanie).",
@@ -6127,6 +6155,10 @@ OBJECTS = [
         "sygn": "ARG/V/229", "tytul": "List Wandy — BBC o Polakach, krawaty jedwabne, Argentyna",
         "data": "18.III.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p25.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "konspiracyjna lub bezpośrednia poczta anglo-polska",
         "opis_fizyczny": "3-4 strony, pismo odręczne Wandy. Atrament niebieski. Data: 'W. 18/III.47r.' Podpis: 'Tulę Cię Synku do serca i mocno całuję Wawa'.",
         "opis_tresci": "BBC informuje o losie Polaków z Polish Resettlement Corps. Wanda nie rozumie planów syna: 'co skłania Cię do tego żeby jechać w tak daleki świat'. Prosi o uregulowanie metryk w 'naszej placówce'. Kombinuje z przesyłaniem pieniędzy. Wymienia towary na sprzedaż: krawaty z milanowskiego jedwabiu, szaliki, chusteczki, kapcie, 'piękny wron ręcznie malowany'. Radzi kontaktować się z Kłodkiem — 'on ma rodzinę w Anglji'. O Stefku — syn decyduje się wrócić do kraju: 'los tych wszystkich emigrantów — lepiej być z nami'.",
         "kontekst": "18 marca 1947. BBC World Service jako jedyne źródło informacji w powojennej Polsce. Wanda-farmaceutka staje się Wandą-handlarką: jedwab milanowski, ręczne malunki — barter i handel jako strategia przetrwania. Krawaty na eksport do Anglii — konspiracyjna poczta służy też do przesyłania towarów.",
@@ -6137,6 +6169,10 @@ OBJECTS = [
         "sygn": "ARG/V/230", "tytul": "List Wandy — pytania o dziewczyny, apteka, ekshumacje na Skaryszewskiej",
         "data": "ok. III-IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p29.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "konspiracyjna lub bezpośrednia poczta anglo-polska",
         "opis_fizyczny": "3-4 strony, pismo odręczne Wandy. Atrament niebieski. Data: '[19.IV.47r.]' na końcu fragmentu. Podpis: 'Wawa'.",
         "opis_tresci": "Matka pyta o życie uczuciowe 20-latka: 'korespondujez z czterema Dziewczynkami — napisz mi jakie i kto one'. Przyznaje: 'chciałabym jak najdalej ten moment odsunąć'. O aptece: 'b. b. przyjemna, jasna i zupełnie estetycznie, i b. ją lubię'. Antresola: 'b. przyjemna i jest mi tu b. dobrze'. Spotkała pp. Piałkow i Violett w teatrze — Violett straciła matkę, dom rozbity. Na Skaryszewskiej 'powoleli zaczynają się ekshumacje'. Posyła 2 chusteczki z czystego jedwabiu, milanówek, 'ręczne malowanie, cena 1 sztuki 400 zł'.",
         "kontekst": "Wielowątkowy list: życie uczuciowe syna, apteka, teatr (Warszawa wraca do życia kulturalnego), ekshumacje na Skaryszewskiej (ofiary Powstania). Jedwabne chusteczki z cenami — Wanda organizuje handel na odległość. Apteka opisana pozytywnie — kontrast z V/228 (zniszczenia domu).",
@@ -6147,6 +6183,10 @@ OBJECTS = [
         "sygn": "ARG/V/231", "tytul": "'Pierwszy ślad że żyjesz' — jak Wanda szukała syna",
         "data": "30.III.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p34.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "konspiracyjna lub bezpośrednia poczta anglo-polska",
         "opis_fizyczny": "3-4 strony, pismo odręczne Wandy. Atrament niebieski. Data: 'W. 30/III 47r.' Podpis: 'Wawa'.",
         "opis_tresci": "List o poszukiwaniu syna po wojnie. 'Jakiś rok temu był na Żoliborzu jakiś chłopiec' — opowiadał że Krzysztof był 'bardzo zdepresjonowany' (okres francuski). Potem Wanda 'spotkałam jedną panią która była sekretarką w Grenobli' — ta potwierdziła że nazwisko Krzysztofa było na liście uczniów Gimnazjum. 'To był pierwszy ślad że żyjesz.' Wanda patrzy na fotografie syna: 'masz b. smutny wyraz twarzy — martui mnie to bardzo'. Posyła adres p. Kirkora (stypendia) i Bronisława Cherpińskiego (prezes związku Polaków). Samokrytyka matki: 'nie Ciebie, a siebie winię'.",
         "kontekst": "Kluczowy list — jedyny opis procesu szukania. Rok ciszy (IX.1944-VIII.1946), potem strzępy informacji: chłopiec na Żoliborzu, sekretarka z Grenobla. Grenobla = szkoła polska we Francji (liceum 3 DSK). 'Pierwszy ślad' = przełom po 2 latach niepewności. Kirkor, Cherpiński — emigracyjne struktury stypendialne.",
@@ -6157,6 +6197,10 @@ OBJECTS = [
         "sygn": "ARG/V/232", "tytul": "Życzenia wielkanocne Wandy — 'znów jesteśmy daleko'",
         "data": "31.III.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p38.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "bezpośrednia poczta anglo-polska (od wiosny 1947)",
         "opis_fizyczny": "1 kartka + dopisek, pismo odręczne Wandy. Atrament niebieski. Data: 'W 31/III 47r.' Podpis: 'Mocno mocno całuję Cię i tulę do sana' + 'Wawa'.",
         "opis_tresci": "Życzenia wielkanocne. 'Święta się zbliżają i znów jesteśmy daleko od Siebie.' Pisane 'znów tylko w pośpiechu'. Dopisek po kresce: pytania o zakupy ojca i drogę przesyłki. Prośba o kontakt ze Stefkiem. Drugie Święta z rzędu bez syna — pierwsze (Boże Narodzenie 1946) opisane w V/76-79 i V/182.",
         "kontekst": "Wielkanoc 1947 wypada 6 kwietnia. List pisany tydzień wcześniej — Wanda się spieszy. Porównaj V/76-79 (Wigilia 1946): 'Myślami jesteśmy wszyscy troje razem'. Teraz — rezygnacja: 'znów daleko'. Ojciec Stefan wraca do Polski z niewoli/emigracji (nie wpuszczono go do Anglii).",
@@ -6167,6 +6211,10 @@ OBJECTS = [
         "sygn": "ARG/V/233", "tytul": "List Wandy z Wielkiego Piątku — Józek konserwator, medale",
         "data": "4.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p40.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "bezpośrednia poczta anglo-polska (od wiosny 1947)",
         "opis_fizyczny": "2 strony, pismo odręczne Wandy. Atrament niebieski. Data: 'Warszawa, 4/IV.47r.' (Wielki Piątek). Podpis: 'Wawa'.",
         "opis_tresci": "Wielki Piątek 1947. Stanelka z rodziną wyjechała do Kożnicy na 2 miesiące (doktor Hance zalecił). Józek — konserwator rynku w Kazimierzu z ramienia ministerstwa. Kilka dni w Warszawie, zatrucie: 'ugotowało się zupy z pomidorów z paszki amerykańskiej' — prawie stracił przytomność. Możliwe pozwolenie na wysyłkę medali: 'Majdanek', 'Bolesław Chrobry' i plakietka — 'robione jeszcze w okresie okupacji niemieckiej'. Wanda posyła baraneczka wielkanocnego.",
         "kontekst": "Józek = prawdopodobnie Józef, kuzyn lub przyjaciel, artysta-konserwator w Kazimierzu Dolnym. Medale robione w okresie okupacji — unikatowe dzieła konspiracyjnej sztuki medalierskiej. 'Majdanek' — medal upamiętniający obóz, tworzony jeszcze pod okupacją. Paczki amerykańskie (UNRRA) — standard żywnościowy powojennej Polski.",
@@ -6177,6 +6225,10 @@ OBJECTS = [
         "sygn": "ARG/V/234", "tytul": "List Wandy z Łodzi — Wielkanoc, kąpiel jako luksus, Powązki",
         "data": "8-9.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p42.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "bezpośrednia poczta anglo-polska (od wiosny 1947)",
         "opis_fizyczny": "2 strony, pismo odręczne Wandy, dwie daty: 'Łódź 8.IV.47r.' i '9/IV'. Atrament niebieski. Podpis: 'Wawa'. Dopisek o znaczkach na końcu.",
         "opis_tresci": "Wielkanoc w Łodzi u rodziny. 'Był i baranek i babki i wiśodek' — ale 'nas była taka mała garstka'. Włodeczek ogląda medale Józka — 'b. mu się podobały'. Włodek w przyjaźni z dyrektorem mennicy p. Toleckim (numizmatyka). Ludka chora — 'położenie beznadziejne'. Prezent od Ewy: 'przygotowała wannę gorącej wody i wykąpałam się' — kąpiel jako wielki luksus. 9 kwietnia — powrót autobusem do Warszawy. Na Powązkach (imieniny Babci) Wanda stawia 'z myślą o Tobie niebieską cynerarię'. Pytanie: 'jakie Ty marki zbierasz — stemplowane czy niestemplowane?'",
         "kontekst": "Wielkanoc 1947 (6.IV). Kąpiel w wannie jako luksus — dokumentuje realia powojennej Polski (brak ciepłej wody, brak opału). Powązki z myślą o synu — grób babci łączy pokolenia. Cyneraria (Senecio cineraria) — symbolika pamięci. Włodek i mennica — koneksje numizmatyczne.",
@@ -6187,6 +6239,10 @@ OBJECTS = [
         "sygn": "ARG/V/235", "tytul": "List Wandy — życzenia imieninowe, 'jak dowiedziałam się że żyjesz'",
         "data": "11-13.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p46.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "bezpośrednia poczta anglo-polska (od wiosny 1947)",
         "opis_fizyczny": "3 strony, pismo odręczne Wandy, trzy daty: '11/IV 1947r.', '12/IV', '13/IV'. Atrament niebieski. Podpis: 'Wawa'.",
         "opis_tresci": "Życzenia na imieniny Krzysztofa (23 kwietnia — św. Wojciech): 'życzę Ci dziecisko jaknajwięcej jasnych i promiennych chwil w życiu'. Dzień 12: 'Pierone wiadomości dotarły do mnie dopiero jesienią — był to list od Stefka wysłany przez jakiegoś powracającego oficera.' Dzień 13: 'Dowiedziałam się że żyjesz.' Chronologia odzyskiwania kontaktu — poszukiwanie syna trwało od jesieni 1945 do lata 1946. Pytanie o adres w Londynie — 'może Cioci Marysi?' Ciotka po operacji, ciągle chora.",
         "kontekst": "Wielodniowy list pisany w trzech odsłonach (11-13 kwietnia). Uzupełnia chronologię z V/231: jesień 1945 — list od Stefka (pierwsza wiadomość), potem sekretarka z Grenobla, wreszcie regularny kontakt (VIII.1946). Imieniny Krzysztofa — matka przygotowuje życzenia z 12-dniowym wyprzedzeniem (czas przesyłki przez konspiracyjne kanały).",
@@ -6197,6 +6253,10 @@ OBJECTS = [
         "sygn": "ARG/V/236", "tytul": "List Wandy — Argentyna odpada, aparat fotograficzny na imieniny",
         "data": "15.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p48.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "bezpośrednia poczta anglo-polska (od wiosny 1947)",
         "opis_fizyczny": "2 strony, pismo odręczne Wandy. Atrament niebieski. Data: 'W. 15.IV.47r.' Podpis: 'Wawa'.",
         "opis_tresci": "List z Longbridge — Wanda odbiera list syna (Krzysztof zmienił lokalizację). Ulga: 'dzięki Bogu że ta Argentyna nie jest taką' — plan emigracji do Argentyny odpada. O pieniądzach: 'przeciętne stypendium wynosi do funtów miesięcznie', zna starszą panią której wnuk przesyła 10 funtów. Prosi o kontakt z Bronisławem Chełerpińskim i Januszem Rowińskim. Prezent imieninowy: 'aparat fotograficzny — jest to niemiecki. Włodek go kupował i uważa go za dobry. Nie jest Leika ale w tym typie.' Wysłała pisanki wielkanocne.",
         "kontekst": "15 kwietnia — tydzień przed imieninami syna. Argentyna jako alternatywa emigracyjna dla żołnierzy PSZ — wielu Polaków emigrowało do Buenos Aires. Wanda jest przeciwna. Aparat fotograficzny 'typu Leica' — drogie urządzenie, kupione przez Włodka (numizmatyka, mennica, zasobny). Chełerpiński, Rowiński — emigracyjne kontakty stypendialne.",
@@ -6207,6 +6267,10 @@ OBJECTS = [
         "sygn": "ARG/V/237", "tytul": "List Wandy — wiosna w Warszawie, ojciec wraca, kanapa",
         "data": "16.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p50.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "bezpośrednia poczta anglo-polska (od wiosny 1947)",
         "opis_fizyczny": "2-3 strony, pismo odręczne Wandy. Atrament niebieski. Data: 'W. 16.IV.47r.' Podpis: 'Wawa' (brak widocznego na skanie).",
         "opis_tresci": "Wiosna w Warszawie: 'bardzo ciepło się zrobiło'. W aptece wszyscy pytają: 'kiedy wracacie' — o Krzysztofie i gen. Januszu. Stefan Keropiński opowiada o chorym Zygmuncie — sanatorium na Dolnym Śląsku. Tadeusz Buranowski i Zagiełkowski w Londynie. Hala Boranowska 'zginęła w pociągu z Pruszkowa do obozów, podczas nalotu aljanckiego' — ofiara transportu z Powstania. Wanda przygotowuje się na powrót ojca: kanapa do naprawy ('ta na której sypiał ojciec jeszcze w barakach'), 3 tomy 'Popiołów' Żeromskiego, plumeau dla syna.",
         "kontekst": "Wiosna 1947 — Wanda żyje oczekiwaniem na powrót gen. Janusza. Kanapa 'z baraków' — prawdopodobnie z kwater w Szkocji lub z mieszkania sprzed Powstania. 'Popiołów' Żeromskiego — symboliczny wybór lektury na powrót generała. Hala Boranowska — kolejna ofiara z kręgu znajomych, nalot aliancki na transport z Pruszkowa (VIII-IX.1944).",
@@ -6217,6 +6281,10 @@ OBJECTS = [
         "sygn": "ARG/V/238", "tytul": "List Wandy — ojciec wraca, SPIS 45 LEKARSTW",
         "data": "17.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p52.jpg", "jezyk": "polski",
+        "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
+        "adresat": "Krzysztof Głuchowski (st.uł., Bodney Airfield / Longbridge, Anglia)",
+        "miejsce_nadania": "Warszawa, apteka róg Kruczej i Hożej",
+        "droga_pocztowa": "bezpośrednia poczta anglo-polska (od wiosny 1947)",
         "opis_fizyczny": "2 strony + spis lekarstw (45 pozycji). Pismo odręczne Wandy. Atrament niebieski. Data: 'W. 17.IV — 47r.' Podpis: 'Wawa'. Załącznik: spis lekarstw w formie numerowanej listy.",
         "opis_tresci": "Ojciec (Stefan/Stanisław Głuchowski) pisze normalną pocztą — wraca do kraju pod koniec kwietnia. Sprawa pełnomocnictwa od ciotki na dom. Wanda prosi syna o przekazanie ojcu spisu lekarstw potrzebnych w aptece. SPIS 45 LEKARSTW: Campolon, Testoviron, Cortison, Cibasol, Lacarnol, Pyramidon, Euphyllin, Tonophosphan, Pilocarpin, Papaverin, Calcium Sandoz, Adalin, Coramin, Dolantin, Euflawin, Thyreoidee, Validol i inne. Posyła zdjęcie dziadka z ojcem 'robione w listopadzie 1944 w Krakowie'.",
         "kontekst": "Ostatni list w zbiorze chronologicznie. Spis 45 lekarstw — bezcenny dokument historyczno-farmaceutyczny: dokumentuje braki lekowe w powojennej Polsce. Cortison (1947 — zaledwie 2 lata po odkryciu!), Testoviron, Pyramidon — kluczowe leki epoki. Farmaceutka z DYSK do końca jest farmaceutką. Stefan (ojciec) wraca do Polski z niewoli/emigracji — nie wpuszczono go do Anglii, gdzie był syn Krzysztof. Zdjęcie z XI.1944 w Krakowie — Stefan po Powstaniu.",
@@ -9799,6 +9867,7 @@ body.lang-active .card-lang-badge {{ display:inline; }}
 .ht-herb-img {{ width:36px; height:auto; }}
 .ht-herb-text {{ font-size:1.4em; color:var(--gold); text-align:center; }}
 .heraldic-source {{ font-size:0.75em; color:var(--text-faint); font-style:italic; margin-top:8px; }}
+.card-epistolary {{ border-left:2px solid var(--accent); padding-left:8px; margin-left:4px; }}
 
 .ft-herb {{ text-align:center; margin-bottom:8px; }}
 .ft-herb-img {{ width:42px; height:auto; opacity:0.8; margin:0 4px; filter:drop-shadow(0 0 4px rgba(212,175,55,0.25)); }}
@@ -13704,6 +13773,19 @@ def _build_series_cards(filter_fn):
             series_html += '        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> ' + escape(obj["opis_fizyczny"]) + '</div>\n'
             series_html += '        <div class="card-field"><span class="field-label" data-label="tresc">Tre\u015b\u0107:</span> ' + escape(obj["opis_tresci"]) + '</div>\n'
             series_html += '        <div class="card-field"><span class="field-label" data-label="tworca">Tw\u00f3rca:</span> ' + escape(obj["tworca"]) + '</div>\n'
+            # Epistolary fields (ISAD(G) extension for correspondence)
+            if obj.get("nadawca"):
+                series_html += '        <div class="card-field card-epistolary"><span class="field-label" data-label="nadawca">Nadawca:</span> ' + escape(obj["nadawca"]) + '</div>\n'
+            if obj.get("adresat"):
+                series_html += '        <div class="card-field card-epistolary"><span class="field-label" data-label="adresat">Adresat:</span> ' + escape(obj["adresat"]) + '</div>\n'
+            if obj.get("miejsce_nadania"):
+                series_html += '        <div class="card-field card-epistolary"><span class="field-label" data-label="miejsce">Miejsce nadania:</span> ' + escape(obj["miejsce_nadania"]) + '</div>\n'
+            if obj.get("droga_pocztowa"):
+                series_html += '        <div class="card-field card-epistolary"><span class="field-label" data-label="droga">Droga pocztowa:</span> ' + escape(obj["droga_pocztowa"]) + '</div>\n'
+            if obj.get("cenzura"):
+                series_html += '        <div class="card-field card-epistolary"><span class="field-label" data-label="cenzura">Cenzura:</span> ' + escape(obj["cenzura"]) + '</div>\n'
+            if obj.get("koperta"):
+                series_html += '        <div class="card-field card-epistolary"><span class="field-label" data-label="koperta">Koperta:</span> ' + escape(obj["koperta"]) + '</div>\n'
             series_html += '        <div class="card-field"><span class="field-label" data-label="jezyk">J\u0119zyk:</span> ' + escape(obj["jezyk"]) + '</div>\n'
             series_html += '        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> ' + escape(obj["kontekst"]) + '</div>\n'
             series_html += '        ' + powiazania_html + '\n'
