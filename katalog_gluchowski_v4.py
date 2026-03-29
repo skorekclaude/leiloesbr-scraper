@@ -5384,6 +5384,22 @@ OBJECTS = [
         "stan": "Dobry",
         "wycena": "400-800 PLN"
     },
+    {
+        "sygn": "ARG/V/177",
+        "photo": "wanda_list2_p12.png",
+        "tytul": "List Wandy Głuchowskiej do syna Krzysztofa — 'Krysieńku' (niekompletny, brak początku)",
+        "data": "1.XII.1946",
+        "typ": "list",
+        "opis_fizyczny": "2 luźne kartki, atrament ciemny, papier pomarszczony. Pismo odręczne Wandy. Podpis: 'Wandy'. Data: 'W. 1/12 46 r.' (Warszawa). UWAGA: brak pierwszej strony — list zaczyna się od środka zdania.",
+        "opis_tresci": "List niekompletny — brak początku (pierwsza kartka zaginęła lub nie sfotografowana). Zachowana część: ktoś [ciotka?] jest w Krynicy u doktora stosującego nowe metody. Wanda informuje o losach kolegów Krzysztofa ze szkoły powszechnej: Josiek zginął na Starówce, ojczka nie ma, Kosterlitz nie żyje, prawie wszyscy wyginęli. Pani Londyńszczerowa szuka informacji. Wanda tęskni: 'Jak bardzo jestem Ciebie ciekawa, Krysieńku — przecież już jesteś dorosłym mężczyzną.' Pytanie o plakietkę Batorego i wzrost syna.",
+        "seria": "V",
+        "tworca": "Wanda Głuchowska",
+        "jezyk": "polski",
+        "kontekst": "1 grudnia 1946, Warszawa. Drugi zachowany list Wandy. Poruszający dokument strat wojennych — Wanda wylicza poległych kolegów syna: Josiek (Starówka), Kosterlitz, 'prawie wszyscy wyginęli.' Zdrobnienie 'Krysieńku' i pytanie o wzrost — matka nie widziała syna od 2 lat, on ma 18 lat i jest żołnierzem w Anglii. Plakietka Batorego — próba zachowania polskości na emigracji.",
+        "powiazania": ["ARG/V/175", "ARG/V/176"],
+        "stan": "Niekompletny — brak pierwszej strony",
+        "wycena": "600-1200 PLN"
+    },
 ]
 
 # ============================================================================

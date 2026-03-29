@@ -4543,6 +4543,37 @@ Genewa, 25 sierpnia 1946""",
         ],
         "kontekst": "Łabędzki pośredniczy z Genewy. Ustawa o powrocie urzędników — komunistyczny nacisk na emigrację. Bukowski aresztowany — represje wobec inteligencji. Droga pocztowa przez Jules Schwob (Genewa) — niezależna od kanału paryskiego (Goldman)."
     },
+
+    "juras_177": {
+        "typ": "list",
+        "data": "1.XII.1946",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "adresat": "Krzysztof Głuchowski",
+        "transkrypcja": """[POCZĄTEK LISTU BRAKUJE — pierwsza strona zaginęła]
+
+...jest w Krynicy, gdzie jest jeszcze jakiś doktór, który stosuje nowe metody, u nas dotąd nie stosowane.
+
+Krysieńku czy czasem nie słyszałeś nic o Twoim Rodzeństwiem — Josiek zginął na Starówce, a ojczka — nie ma. Kosterlitz — również że nie żyje. Pani Londyńszczerowa miota się w rozpaczy, żeby coś o niej się dowiedzieć. Wogóle jeśli chodzi o Twoich kolegów ze szkoły powszechnej, to prawie wszyscy wyginęli.
+
+Jak bardzo jestem Ciebie ciekawa, Krysieńku — przecież już jesteś dorosłym mężczyzną. Pewnego spotkanego młodego mężczyznę przyjmiesz w myśli z Tobą od serca całuję i ściskam serdecznie mocno
+
+Wandy
+
+Swego czasu posłałam Ci plakietkę Batorego. Czy ją dostałeś i ile masz wzrostu? Napisz mi.
+
+W. 1/12 46 r.""",
+        "osoby": ["Wanda Głuchowska", "Krzysztof Głuchowski", "Josiek", "Kosterlitz", "Pani Londyńszczerowa"],
+        "znaki_szczegolne": [
+            "NIEKOMPLETNY — brak pierwszej strony",
+            "Zdrobnienie 'Krysieńku'",
+            "Lista poległych kolegów ze szkoły powszechnej",
+            "Pytanie o wzrost syna — matka nie widziała go 2 lata",
+            "Plakietka Batorego — symbol polskości",
+            "Papier pomarszczony, atrament ciemny"
+        ],
+        "kontekst": "Grudzień 1946. Wanda wylicza poległych kolegów syna — Josiek na Starówce, Kosterlitz, 'prawie wszyscy wyginęli.' Matka nie widziała 18-letniego syna od ewakuacji z Warszawy (1944). Pytanie 'ile masz wzrostu' — nie wie jak wygląda jej dorosły syn."
+    },
 }
 
 # ═══════════════════════════════════════════════════════════════
