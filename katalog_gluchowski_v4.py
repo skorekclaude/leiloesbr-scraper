@@ -12614,6 +12614,178 @@ GALLERY_PHOTOS = [
         "osoba": "płk Jan Mazurkiewicz 'Radosław', kombatanci 7 P.Uł. AK",
         "opis": "Komplet 6 fotografii z 16. rocznicy Powstania Warszawskiego przy mogile Dywizjonu AK 'Jeleń'. Sceny: mogiła z tablicą 'AK DYWIZJON WARSZAWSKI JELEŃ POWSTANIE 1944', harcerze w warcie, duchowny błogosławiący, tłum uczestników, Radosław składa wieniec pod obeliskiem AK. Rewersy z opisami: 'pod Obeliskiem AK składa wieniec RADOSŁAW', 'Groby Jółki Porzeki', 'Zdjęcia robi mjr. Wtody — Sław Kulena — D-ca Batl. 36 P.P. Legji Akademickiej'. Jan Mazurkiewicz 'Radosław' (1896–1988) — dowódca Zgrupowania Radosław, legenda Powstania. Aresztowany przez UB, skazany, zrehabilitowany. Wycena: 3000–8000 PLN."
     },
+    # ── Listy Wandy 1946-1948 (listy_wanda_2.pdf, V/222-238) ──
+    {
+        "sygn": "ARG/V/222", "tytul": "Liścik Wandy — 'Synku Malutki!'",
+        "data": "b.d.", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p9.jpg", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny Wandy, atrament, papier pożółkły.",
+        "opis_tresci": "Najkrótszy list. 'Dostałam dwa Twoje listy, dzień po dniu. Odpiszę.'",
+        "kontekst": "Korespondencja Wandy Głuchowskiej (sierż. pchor. Kedyw AK, ps. Krysta) do syna Krzysztofa w Anglii. Konspiracyjna poczta lub bezpośrednia. Źródło: listy_wanda_2.pdf.",
+        "powiazania": ["ARG/V/175", "ARG/V/182", "ARG/V/183", "ARG/V/207c"],
+        "stan": "Dobry", "wycena": "400-1500 PLN"
+    },
+    {
+        "sygn": "ARG/V/223", "tytul": "List Wandy — 'Synku Kochany, tak czekam na Twój list'",
+        "data": "ok. 20.-.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p10.jpg", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny Wandy, atrament, papier pożółkły.",
+        "opis_tresci": "Adres: 25 Bodney Airfield, Thetford, Norfolk.",
+        "kontekst": "Korespondencja Wandy Głuchowskiej (sierż. pchor. Kedyw AK, ps. Krysta) do syna Krzysztofa w Anglii. Konspiracyjna poczta lub bezpośrednia. Źródło: listy_wanda_2.pdf.",
+        "powiazania": ["ARG/V/175", "ARG/V/182", "ARG/V/183", "ARG/V/207c"],
+        "stan": "Dobry", "wycena": "400-1500 PLN"
+    },
+    {
+        "sygn": "ARG/V/224", "tytul": "List Wandy — życie na antresoli apteki, meble, radio",
+        "data": "13.I.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p12.jpg", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny Wandy, atrament, papier pożółkły.",
+        "opis_tresci": "Antresola apteki na Żoliborzu. Meble, radio, codzienność powojennej Warszawy.",
+        "kontekst": "Korespondencja Wandy Głuchowskiej (sierż. pchor. Kedyw AK, ps. Krysta) do syna Krzysztofa w Anglii. Konspiracyjna poczta lub bezpośrednia. Źródło: listy_wanda_2.pdf.",
+        "powiazania": ["ARG/V/175", "ARG/V/182", "ARG/V/183", "ARG/V/207c"],
+        "stan": "Dobry", "wycena": "400-1500 PLN"
+    },
+    {
+        "sygn": "ARG/V/225", "tytul": "List Wandy — najwcześniejszy w zbiorze 2",
+        "data": "19.XII.1946", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p14.jpg", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny Wandy, atrament, papier pożółkły.",
+        "opis_tresci": "Rada o kontaktach. Przed Świętami.",
+        "kontekst": "Korespondencja Wandy Głuchowskiej (sierż. pchor. Kedyw AK, ps. Krysta) do syna Krzysztofa w Anglii. Konspiracyjna poczta lub bezpośrednia. Źródło: listy_wanda_2.pdf.",
+        "powiazania": ["ARG/V/175", "ARG/V/182", "ARG/V/183", "ARG/V/207c"],
+        "stan": "Dobry", "wycena": "400-1500 PLN"
+    },
+    {
+        "sygn": "ARG/V/226", "tytul": "List Wandy — 'Jesteś jedyną wygraną w moim życiu'",
+        "data": "9.III.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p16.jpg", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny Wandy, atrament, papier pożółkły.",
+        "opis_tresci": "Najemocjonalniejszy list. Matka-dywersantka do syna-żołnierza.",
+        "kontekst": "Korespondencja Wandy Głuchowskiej (sierż. pchor. Kedyw AK, ps. Krysta) do syna Krzysztofa w Anglii. Konspiracyjna poczta lub bezpośrednia. Źródło: listy_wanda_2.pdf.",
+        "powiazania": ["ARG/V/175", "ARG/V/182", "ARG/V/183", "ARG/V/207c"],
+        "stan": "Dobry", "wycena": "400-1500 PLN"
+    },
+    {
+        "sygn": "ARG/V/227", "tytul": "List Wandy — surowa zima 1947",
+        "data": "10.II.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p18.jpg", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny Wandy, atrament, papier pożółkły.",
+        "opis_tresci": "Problemy komunikacyjne w zimie.",
+        "kontekst": "Korespondencja Wandy Głuchowskiej (sierż. pchor. Kedyw AK, ps. Krysta) do syna Krzysztofa w Anglii. Konspiracyjna poczta lub bezpośrednia. Źródło: listy_wanda_2.pdf.",
+        "powiazania": ["ARG/V/175", "ARG/V/182", "ARG/V/183", "ARG/V/207c"],
+        "stan": "Dobry", "wycena": "400-1500 PLN"
+    },
+    {
+        "sygn": "ARG/V/228", "tytul": "List Wandy 4 strony — zniszczenia domu po Powstaniu",
+        "data": "19.II.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p20.jpg", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny Wandy, atrament, papier pożółkły.",
+        "opis_tresci": "Opis zniszczeń domu rodzinnego. 4 strony.",
+        "kontekst": "Korespondencja Wandy Głuchowskiej (sierż. pchor. Kedyw AK, ps. Krysta) do syna Krzysztofa w Anglii. Konspiracyjna poczta lub bezpośrednia. Źródło: listy_wanda_2.pdf.",
+        "powiazania": ["ARG/V/175", "ARG/V/182", "ARG/V/183", "ARG/V/207c"],
+        "stan": "Dobry", "wycena": "400-1500 PLN"
+    },
+    {
+        "sygn": "ARG/V/229", "tytul": "List Wandy 4 strony — BBC o Polakach za granicą",
+        "data": "18.III.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p25.jpg", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny Wandy, atrament, papier pożółkły.",
+        "opis_tresci": "BBC jako źródło informacji. Plany przesyłania towarów.",
+        "kontekst": "Korespondencja Wandy Głuchowskiej (sierż. pchor. Kedyw AK, ps. Krysta) do syna Krzysztofa w Anglii. Konspiracyjna poczta lub bezpośrednia. Źródło: listy_wanda_2.pdf.",
+        "powiazania": ["ARG/V/175", "ARG/V/182", "ARG/V/183", "ARG/V/207c"],
+        "stan": "Dobry", "wycena": "400-1500 PLN"
+    },
+    {
+        "sygn": "ARG/V/230", "tytul": "List Wandy 4 strony — pytania o dziewczyny syna",
+        "data": "ok. III.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p29.jpg", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny Wandy, atrament, papier pożółkły.",
+        "opis_tresci": "Matka pyta o życie uczuciowe 20-latka.",
+        "kontekst": "Korespondencja Wandy Głuchowskiej (sierż. pchor. Kedyw AK, ps. Krysta) do syna Krzysztofa w Anglii. Konspiracyjna poczta lub bezpośrednia. Źródło: listy_wanda_2.pdf.",
+        "powiazania": ["ARG/V/175", "ARG/V/182", "ARG/V/183", "ARG/V/207c"],
+        "stan": "Dobry", "wycena": "400-1500 PLN"
+    },
+    {
+        "sygn": "ARG/V/231", "tytul": "List Wandy 4 strony — 'Pierwszy ślad że żyjesz'",
+        "data": "30.III.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p34.jpg", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny Wandy, atrament, papier pożółkły.",
+        "opis_tresci": "Jak Wanda dowiedziała się że syn przeżył wojnę. Kirkor, stypendia.",
+        "kontekst": "Korespondencja Wandy Głuchowskiej (sierż. pchor. Kedyw AK, ps. Krysta) do syna Krzysztofa w Anglii. Konspiracyjna poczta lub bezpośrednia. Źródło: listy_wanda_2.pdf.",
+        "powiazania": ["ARG/V/175", "ARG/V/182", "ARG/V/183", "ARG/V/207c"],
+        "stan": "Dobry", "wycena": "400-1500 PLN"
+    },
+    {
+        "sygn": "ARG/V/232", "tytul": "Życzenia wielkanocne Wandy",
+        "data": "31.III.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p38.jpg", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny Wandy, atrament, papier pożółkły.",
+        "opis_tresci": "Pisane w pośpiechu przed Świętami.",
+        "kontekst": "Korespondencja Wandy Głuchowskiej (sierż. pchor. Kedyw AK, ps. Krysta) do syna Krzysztofa w Anglii. Konspiracyjna poczta lub bezpośrednia. Źródło: listy_wanda_2.pdf.",
+        "powiazania": ["ARG/V/175", "ARG/V/182", "ARG/V/183", "ARG/V/207c"],
+        "stan": "Dobry", "wycena": "400-1500 PLN"
+    },
+    {
+        "sygn": "ARG/V/233", "tytul": "List Wandy Wielki Piątek — Józek artysta-konserwator",
+        "data": "4.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p40.jpg", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny Wandy, atrament, papier pożółkły.",
+        "opis_tresci": "Wielki Piątek. Józek w Krakowie.",
+        "kontekst": "Korespondencja Wandy Głuchowskiej (sierż. pchor. Kedyw AK, ps. Krysta) do syna Krzysztofa w Anglii. Konspiracyjna poczta lub bezpośrednia. Źródło: listy_wanda_2.pdf.",
+        "powiazania": ["ARG/V/175", "ARG/V/182", "ARG/V/183", "ARG/V/207c"],
+        "stan": "Dobry", "wycena": "400-1500 PLN"
+    },
+    {
+        "sygn": "ARG/V/234", "tytul": "List Wandy z Łodzi — Wielkanoc, kąpiel jako luksus",
+        "data": "8-9.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p42.jpg", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny Wandy, atrament, papier pożółkły.",
+        "opis_tresci": "Wielkanoc w Łodzi u rodziny. Kąpiel w wannie jako rzadki luksus.",
+        "kontekst": "Korespondencja Wandy Głuchowskiej (sierż. pchor. Kedyw AK, ps. Krysta) do syna Krzysztofa w Anglii. Konspiracyjna poczta lub bezpośrednia. Źródło: listy_wanda_2.pdf.",
+        "powiazania": ["ARG/V/175", "ARG/V/182", "ARG/V/183", "ARG/V/207c"],
+        "stan": "Dobry", "wycena": "400-1500 PLN"
+    },
+    {
+        "sygn": "ARG/V/235", "tytul": "List Wandy — życzenia imieninowe, wspomnienia",
+        "data": "11-13.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p46.jpg", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny Wandy, atrament, papier pożółkły.",
+        "opis_tresci": "Życzenia imieninowe. Wspomnienie najstarszych czasów.",
+        "kontekst": "Korespondencja Wandy Głuchowskiej (sierż. pchor. Kedyw AK, ps. Krysta) do syna Krzysztofa w Anglii. Konspiracyjna poczta lub bezpośrednia. Źródło: listy_wanda_2.pdf.",
+        "powiazania": ["ARG/V/175", "ARG/V/182", "ARG/V/183", "ARG/V/207c"],
+        "stan": "Dobry", "wycena": "400-1500 PLN"
+    },
+    {
+        "sygn": "ARG/V/236", "tytul": "List Wandy — Argentyna odpada, aparat niemiecki",
+        "data": "15.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p48.jpg", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny Wandy, atrament, papier pożółkły.",
+        "opis_tresci": "Ulga że Argentyna odpada. Prezent imieninowy — niemiecki aparat fotograficzny.",
+        "kontekst": "Korespondencja Wandy Głuchowskiej (sierż. pchor. Kedyw AK, ps. Krysta) do syna Krzysztofa w Anglii. Konspiracyjna poczta lub bezpośrednia. Źródło: listy_wanda_2.pdf.",
+        "powiazania": ["ARG/V/175", "ARG/V/182", "ARG/V/183", "ARG/V/207c"],
+        "stan": "Dobry", "wycena": "400-1500 PLN"
+    },
+    {
+        "sygn": "ARG/V/237", "tytul": "List Wandy — wiosna w Warszawie, ojciec wraca",
+        "data": "16.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p50.jpg", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny Wandy, atrament, papier pożółkły.",
+        "opis_tresci": "Wiosna. Przygotowania na powrót ojca — kanapa, pościel.",
+        "kontekst": "Korespondencja Wandy Głuchowskiej (sierż. pchor. Kedyw AK, ps. Krysta) do syna Krzysztofa w Anglii. Konspiracyjna poczta lub bezpośrednia. Źródło: listy_wanda_2.pdf.",
+        "powiazania": ["ARG/V/175", "ARG/V/182", "ARG/V/183", "ARG/V/207c"],
+        "stan": "Dobry", "wycena": "400-1500 PLN"
+    },
+    {
+        "sygn": "ARG/V/238", "tytul": "List Wandy — ojciec wraca, SPIS 45 LEKARSTW",
+        "data": "17.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
+        "photo": "wanda2/p52.jpg", "jezyk": "polski",
+        "opis_fizyczny": "List odręczny Wandy, atrament, papier pożółkły.",
+        "opis_tresci": "Ojciec (gen. Janusz) wraca do kraju. Spis 45 lekarstw potrzebnych w aptece — dokument farmaceutyczny.",
+        "kontekst": "Korespondencja Wandy Głuchowskiej (sierż. pchor. Kedyw AK, ps. Krysta) do syna Krzysztofa w Anglii. Konspiracyjna poczta lub bezpośrednia. Źródło: listy_wanda_2.pdf.",
+        "powiazania": ["ARG/V/175", "ARG/V/182", "ARG/V/183", "ARG/V/207c"],
+        "stan": "Dobry", "wycena": "400-1500 PLN"
+    },
+
 ]
 
 
