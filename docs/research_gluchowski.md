@@ -843,3 +843,11 @@ Częściowo czytelny. "tu masz przekąskę... uroczystości... Podolsicm... Poł
 - Pamiętnik Krzysztofa — Gladbach, £4000, "mieś marzenie"
 - List Bogdany na papeterii Emil Schröder (25.V.45)
 - Wspomnienia o dzieciństwie i Powstaniu — zbyt trudne pismo
+
+### Dalsze odczyty:
+- Carte de Rapatrié: ur. 29.XI.1926 Tarnów, matka Wanda, Centre d'Orsay 27.VI.1945, nr 1492839
+- Notatki z adresami Paryża: Ambasada RP, Konsulat, YMCA, PCK + wizytówka Henri Kołacz (malarz, Troyes)
+- Świadectwo ukończenia gimnazjum ze ZDJĘCIEM Krzysztofa w mundurze! 9.II.1946, ekstern
+  UWAGA: miejsce urodzenia "Varsava" vs "Tarnów" w Carte de Rapatrié — do weryfikacji
+- Tablica przeliczników miar — druk z Pay Booka (nie wymaga transkrypcji)
+- Air Letter do CMF 105 Italy — gęsty tekst, do odczytu w następnej sesji
