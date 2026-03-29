@@ -38,3 +38,8 @@ nul
 C:*
 python
 docs/gluchowski_img/originals_backup/
+
+# Large image backups (not used in HTML)
+docs/gluchowski_img/listy_orig/
+docs/gluchowski_img/listy_crops/
+docs/gluchowski_img/originals_backup/
