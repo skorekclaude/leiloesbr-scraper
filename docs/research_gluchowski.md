@@ -889,3 +889,15 @@ Do zrobienia: pełne mapowanie + linkowanie w generatorze.
 - Labour Exchange 806 — zaświadczenie o pracy
 - Humor: "kondolencje z okazji urodzenia córki — trupem jeszcze nie jestem"
 - Prawdopodobnie V/214 lub V/215 lub nowe sygnatury do nadania
+
+### Identyfikacja "Koniuś" = Justin Piotr Robert DĘBSKI
+- Adres: Keresley Hostel, Brandfield Rd., Coventry, Warwickshire
+- Podpis "Koniuś" = M.P.R. (Justin Piotr Robert) Dębski
+- V/209a to NIE pismo Koła AK — to list Dębskiego z Coventry!
+- Lista mundurów: gatki, koszula, krawat, kapelusz "sierej"
+- "Przeklina na czym świat stoi" — humor żołnierski
+
+### V/211b — RYSUNEK JELENIA
+- Krahelski "Leszek" rysuje jelenia — symbol 7 P.Uł.
+- Koperta: Poczta Polowa 122, cenzura 564, 31.VIII.45
+- "Written in polish" — dla cenzury wojskowej
