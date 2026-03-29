@@ -8967,10 +8967,15 @@ def get_transcription(sygn):
     if len(parts) != 3:
         return None
     seria = parts[1]
-    try:
-        num = int(parts[2])
-    except ValueError:
+    num_str = parts[2]  # e.g. "206b", "43", "218d"
+
+    # Parse numeric part and optional letter suffix
+    import re as _re
+    m = _re.match(r"(\d+)([a-z]?)", num_str)
+    if not m:
         return None
+    num = int(m.group(1))
+    suffix = m.group(2)  # "" or "a", "b", "c", "d"
 
     # 2. Standard series mapping
     series_prefix = {
@@ -8983,6 +8988,16 @@ def get_transcription(sygn):
     prefix = series_prefix.get(seria)
     if not prefix:
         return None
+
+    # Try with suffix first (e.g. juras_206b), then without (juras_206)
+    if suffix:
+        key_with_suffix = f"{prefix}_{num:03d}{suffix}"
+        if key_with_suffix in TRANSCRIPTIONS:
+            return TRANSCRIPTIONS[key_with_suffix]
+        # Also try non-zero-padded: juras_206b
+        key_nopad = f"{prefix}_{num}{suffix}"
+        if key_nopad in TRANSCRIPTIONS:
+            return TRANSCRIPTIONS[key_nopad]
 
     key = f"{prefix}_{num:03d}"
 
