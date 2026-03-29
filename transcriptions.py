@@ -5894,6 +5894,323 @@ Sympatol liq., 38) Thyreoidee tabl., 39) Thyroxin, 40) Validol, 41) Vogin""",
     # SERIA II — Gen. dyw. Janusz Julian Głuchowski (1888–1964)
     # ═══════════════════════════════════════════════════════════════
 
+    # ═══════════════════════════════════════════════════════════════
+    # SERIA V — Priorytet 2: Korespondencja jeniecka / wojenna
+    # ═══════════════════════════════════════════════════════════════
+
+    # ARG/V/13 — List Krzysztofa z obozu — nr 141009
+    "juras_013": {
+        "typ": "List z obozu jenieckiego",
+        "data": "21.X.1944",
+        "jezyk": "polski",
+        "nadawca": "Krzysztof Głuchowski (nr 141009)",
+        "adresat": "Ojciec (Stefan Głuchowski)",
+        "strony": ["Seria_29z_p03_img02.jpeg"],
+        "transkrypcja": """Kochany Tatusiu! Wyjechałem z [nieczytelne]
+podróż podobnie do Westfalii. Myślę
+że panno[?] tu niedługo [nieczytelne] pomieszczeni[?]
+Głód jest[?] [nieczytelne] jedzenie napływa[?]. Od [nieczytelne]
+dostałem tylko [?] kaszę. Mój numer jest
+141009 (jest dotąd XIB) Plany do Francji
+w kilku egzemplarzach myśl[?] [nieczytelne]
+dopiero[?]. Całej Victorii b[ardzo?] [nieczytelne]
+i myślę że nie niedługo[?]
+21.X.44. [nieczytelne]
+[nieczytelne] p. Ratkowsk[iego?]
+i ojcowi z 7 p.uł. [?]
+
+Trzymamy się do końca!""",
+        "pieczecie": [],
+        "podpisy": [],
+        "osoby": ["Krzysztof Głuchowski (nr jeniecki 141009)", "Stefan Głuchowski (adresat — ojciec)", "p. Ratkowski[?] (wspomniany)"],
+        "znaki_szczegolne": [
+            "NR JENIECKI 141009 — potwierdza numer z innych dokumentów",
+            "Stalag XI B — obóz w Fallingbostel",
+            "Data 21.X.1944 — 3 tygodnie po kapitulacji Starówki",
+            "'Trzymamy się do końca!' — 18-letni jeniec",
+            "Pismo ołówkowe na kartonie, stan średni — trudne do odczytu",
+            "Wspomina plany do Francji — ewakuacja?",
+            "Głód w obozie — 'dostałem tylko kaszę'"
+        ],
+        "kontekst": "Pierwszy list Krzysztofa z obozu jenieckiego Stalag XI B (Fallingbostel), datowany 21.X.1944 — zaledwie 3 tygodnie po kapitulacji Starówki. 18-letni jeniec nr 141009 pisze do ojca (też jeniec, nr 01245). Pismo ołówkowe na kartonie, bardzo trudne do odczytu. Kończy heroicznym 'Trzymamy się do końca!'"
+    },
+
+    # ARG/V/16 — List z obozu do stryja generała — 19.X.1944
+    "juras_016": {
+        "typ": "Formularz Kriegsgefangenenlager",
+        "data": "19.X.1944",
+        "jezyk": "polski / niemiecki",
+        "nadawca": "St.uł. Krzysztof Głuchowski (nr 141009, M.-Stammlager XI B)",
+        "adresat": "General Janusz Głuchowski, London, Polish War's Office, ENGLAND",
+        "strony": ["Seria_29z_p06_img01.jpeg"],
+        "transkrypcja": """Kriegsgefangenenlager                  Datum 19 - X - 1944
+
+Kochany Stryju i Cioci! Jesteśmy dumni[?] wciąż w obie[?]
+w obozie[?]. Niestety nie mam  Od Babci (Hotel[?] Wanda[?] i W[nieczytelne])
+który[a?] był[a?] na Żoliborzu ostatni[e] wiadomości dostałem dnia 24/IX[?]. Dwunastu[?]
+porobiton[?] się po Kapit[ulacji?] łekcji[?] gdzie zabrano aby dowieźli[?] nas [do?]
+[nieczytelne] Stryj Lech poległ 15-tego [na] Mokotowie. [ZAKREŚLONE/OCENZUROWANE] Będziemy żyć[?]
+[nieczytelne] Pacho[?] prosi Stryja i Ciocię[?] [nieczytelne]
+i [nieczytelne] łagier — paczki. Całuję bardzo kocham mocno Krzysztof""",
+        "pieczecie": ["Stempel PASSED XII (cenzura brytyjska)"],
+        "podpisy": ["Krzysztof"],
+        "osoby": [
+            "Krzysztof Głuchowski (nadawca, jeniec nr 141009)",
+            "Gen. Janusz Głuchowski (adresat — stryj w Londynie)",
+            "Ciocia (żona gen. Janusza)",
+            "Babcia (Hotel[?], Żoliborz)",
+            "Rtm. Lech Głuchowski — POLEGŁ 15-tego na Mokotowie!"
+        ],
+        "znaki_szczegolne": [
+            "KLUCZOWY DOKUMENT — pierwsza wzmianka o ŚMIERCI LECHA: 'Stryj Lech poległ 15-tego Mokotowie'",
+            "Potwierdza datę śmierci Lecha: 15.IX.1944 na Mokotowie",
+            "Krzysztof pisze DO STRYJA generała w Londynie — potwierdza relację rodzinną",
+            "Babcia na Żoliborzu — nieznany dotąd szczegół genealogiczny",
+            "Fragment OCENZUROWANY (zakreślony czarnym) — informacja wojskowa?",
+            "Formularz Kriegsgefangenenlager z datą ręczną 19.X.1944",
+            "Stempel PASSED XII — cenzura brytyjska po stronie odbiorcy",
+            "Trójjęzyczny: formularz niem., adres ang., treść pol."
+        ],
+        "kontekst": "List z obozu jenieckiego do gen. Janusza Głuchowskiego w Londynie, 19.X.1944. NAJWAŻNIEJSZY DOKUMENT JENIECKI W KOLEKCJI — zawiera pierwszą wiadomość o śmierci rtm. Lecha Głuchowskiego na Mokotowie 15.IX.1944. Krzysztof nazywa Janusza 'Stryjem' — potwierdza relację bratanek-stryj. Wspomina babcię na Żoliborzu. Fragment ocenzurowany przez obóz (informacja wojskowa?)."
+    },
+
+    # ARG/V/18 — List do ojca Stefana z obozu — 'Kochany Tatuśku!', XI.1944
+    "juras_018": {
+        "typ": "List jeniecki dwustronny na formularzu",
+        "data": "XI.1944",
+        "jezyk": "polski",
+        "nadawca": "Krzysztof Głuchowski (jeniec)",
+        "adresat": "Ppor. Stefan Głuchowski (jeniec nr 01245, Stalag XI B Bergen)",
+        "strony": ["Seria_29z_p08_img01.jpeg"],
+        "transkrypcja": """Kochany Tatuśku! Jest mi[?] już rad[?] dla tu czemu[?]
+[za?] dawać[?] [?] tu duże[?]. Mamy [?] [?] i [?]
+dolar już[?] ajenci i[?] zamojo[?] rata
+dom opr[?] ajent[?] ma czat[?] [nieczytelne] Ojciem
+jak o ojce[?] opiekł[?] ogród[?] [nieczytelne] Bydło[?]
+jest o opl[?] [?] około[?] czy[?] [do] doplat-
+[?] jest [?] tak[?] 25[?] centy[?] pokań(?) co wielk [nieczytelne]
+12 jest roje[?] po opis[?] daleki[?] Mimy[?] kto[?]
+[nieczytelne dalszy tekst — pismo bardzo gęste, ołówkowe, częściowo zatarte]
+
+[...] i dużo[?]. Coś[?] o rodzonej[?] byli[?]
+siłą[?] nie naszej[?] fajnie[?] do czeka[?] głód[?] na
+nas[?] nagminy[?] na potrzeba[?] przez tu na
+razów[?] [nieczytelne]
+[...] w Polskę[?] o Bożena[?] Upadała[?] dal[?] dłu[?]g
+
+[...] a[?] my mirzio[?] do domu naprzód[?] a potem w
+ile[?] medyczni[?] na do pewnie[?] lub Obóz jest[?]
+[?] i dobrze[?]. Najmariam[?] daleka[?] ale[?] [nieczytelne]
+reszta[?] książkę[?] Bazylko[?]. Siren[?] w osobowi[?] całych[?]
+I[?] Iren[?] badanie[?] [do?] pomiaru[?] Sluszny[?] [?] i każdej[?]
+w Mon[?] Teren[?] dawno[?] wto[?] nim radziwiłł(?)n[?]
+kiedyś[?] Poli Maryśko[?] główko[?] adres[?] Krustofd[?] [nieczytelne]""",
+        "pieczecie": ["Détachez le long du pointillé / Hier abtrennen! (nadruk formularza)"],
+        "podpisy": [],
+        "osoby": ["Krzysztof Głuchowski (nadawca)", "Stefan Głuchowski (adresat — ojciec, jeniec nr 01245)"],
+        "znaki_szczegolne": [
+            "'Kochany Tatuśku!' — 18-letni syn pisze do ojca w innym obozie",
+            "Pismo ołówkowe BARDZO gęste, częściowo zatarte — wymaga profesjonalnego HTR",
+            "Formularz z linią odcinania (niem./franc.)",
+            "Rozłożony list dwustronny, format ok. A4",
+            "Wiele fragmentów nieczytelnych — stan średni",
+            "Koperta: ARG/V/19"
+        ],
+        "kontekst": "List syn→ojciec między obozami jenieckimi (XI.1944). Krzysztof (18 lat) pisze do Stefana (jeniec nr 01245, Stalag XI B Bergen). Pismo ołówkowe, niezwykle gęste — transkrypcja wysoce niepewna. Wymaga profesjonalnego narzędzia HTR (Transkribus). Koperta zachowana osobno (ARG/V/19)."
+    },
+
+    # ARG/V/19 — Koperta Kriegsgefangenenpost — Krzysztof do Stefana
+    "juras_019": {
+        "typ": "Koperta-formularz Kriegsgefangenenpost",
+        "data": "7.XI.1944",
+        "jezyk": "niemiecki / francuski",
+        "nadawca": "Krzysztof Głuchowski (jeniec)",
+        "adresat": "Ppor. Stefan Głuchowski (nr 01245, Stalag XI B, Bergen)",
+        "strony": ["Seria_29z_p08_img02.jpeg"],
+        "transkrypcja": """[STRONA ADRESOWA:]
+Kriegsgefangenenpost
+Correspondance des prisonnier de guerre
+
+An: ppor. Stefan Głuchow[ski]
+Gefangenennummer: 01245
+Empfangsort: Stalag XI B
+Straße: Bergen
+
+[Stempel okrągły:] -7.11.44 -6N
+[Stempel prostokątny:] 27 Geprüft [cenzura]
+
+Besetztes Gebiet | Südfrankreich
+Territoire occupé | France méridionale
+Nichtzutreffendes streichen / Biffer les mentions inutiles
+
+Gebührenfrei! Franc de port!
+
+[STRONA NADAWCY — odwrócona:]
+Deutschland (Allemagne)
+Lager-Bezeichnung: [nieczytelne]
+Gefangenennummer: [nr Krzysztofa]
+Vor- und Zuname: [Głuchowski Krzysztof]
+Absender:
+
+M. St.""",
+        "pieczecie": ["27 Geprüft (cenzura obozowa)", "Datownik okrągły 7.11.44"],
+        "podpisy": [],
+        "osoby": ["Krzysztof Głuchowski (nadawca)", "Ppor. Stefan Głuchowski (adresat, nr 01245)"],
+        "znaki_szczegolne": [
+            "KOPERTA JENIECA DO JENIECA — syn do ojca w tym samym Stalagu!",
+            "Stefan = ppor. (porucznik) — potwierdza stopień oficerski",
+            "Numer jeniecki Stefana: 01245 — niski numer = wcześniej wzięty do niewoli",
+            "Stempel 27 Geprüft = cenzor nr 27",
+            "Datownik 7.XI.1944 — dopełnia list ARG/V/18",
+            "Dwujęzyczny formularz niem./franc.",
+            "M. St. — Mannschafts-Stammlager?"
+        ],
+        "kontekst": "Koperta jenieckiego listu Krzysztofa do ojca Stefana (ARG/V/18). Obaj w Stalagu XI B, ale Stefan w podlagierze Bergen (nr 01245), Krzysztof pod innym numerem (141009). Stempel cenzury 27 Geprüft i datownik 7.XI.1944. Formularz dwujęzyczny (niem./franc.) z nadrukiem 'Besetztes Gebiet/Territoire occupé'."
+    },
+
+    # ARG/V/38 — List Krzysztofa z Hilden bei Düsseldorf — wieści o Stryju w Edynburgu
+    "juras_038": {
+        "typ": "List odręczny",
+        "data": "2.VI.1945",
+        "jezyk": "polski",
+        "nadawca": "Krzysztof Głuchowski",
+        "adresat": "Rodzina / Ciotka",
+        "strony": ["Seria_29z_p19_img01.jpeg"],
+        "transkrypcja": """[przekreślone:] Czysz[?] w Ilangu[?] ja tu  [?]
+1.II '45 ustała[?] [nieczytelne] strzelano[?] godne[?] wszystk[ie?] na Śląch[?].
+Dostanie się do apteki, a w jej prawi[e]
+[nieczytelne] [nieczytelne] [zniszczenie?]
+[nieczytelne] Jest tutaj w Hilden pod
+Düsseldorf[em] Phon[?] [?] i w[?] ustalano[?]-
+tam i dowiedziałem się od Niego że Stryj
+jest w Edynburgu. Pań[?] podpatkowanie[?]
+ma[?] w najbliższ[ym?] [nieczytelne] przegrupowani[e?]
+obóz o polskich Janów w[spółpracuj?ą?]cych do [kraju?]
+go mamy zwol[nieni?] z pułtania[?] pytanie co będzii[e?]
+dalej nie wiem. O Ojcu obecnie nic nie wi[em].
+Chrystus[ie?] [jak?] jak najszybciej zobaczyli z
+Ciotką[?] co Stryjan[?] Narzeczy[?] Całuję mocno
+
+2/VI '45
+
+Krzysztof""",
+        "pieczecie": [],
+        "podpisy": ["Krzysztof"],
+        "osoby": [
+            "Krzysztof Głuchowski (nadawca)",
+            "Gen. Janusz Głuchowski ('Stryj jest w Edynburgu')",
+            "Stefan Głuchowski ('O Ojcu obecnie nic nie wiem')",
+            "Ciotka (adresatka?)"
+        ],
+        "znaki_szczegolne": [
+            "LOKALIZACJA: Hilden pod Düsseldorfem — wyzwolony jeniec",
+            "Data 2.VI.1945 — miesiąc po kapitulacji Niemiec",
+            "'Stryj jest w Edynburgu' — potwierdza gen. Janusza w Szkocji",
+            "'O Ojcu obecnie nic nie wiem' — Stefan jeszcze w niewoli/zagubiony",
+            "Obóz przegrupowania polskich żołnierzy",
+            "Pytanie 'co będzie dalej' — niepewność o przyszłość",
+            "Papier zniszczony, ubytki na brzegach, atrament niebieski"
+        ],
+        "kontekst": "List wyzwolonego jenieca z Hilden pod Düsseldorfem, datowany 2.VI.1945 — miesiąc po kapitulacji. Krzysztof dowiedział się, że stryj gen. Janusz jest w Edynburgu, ale o ojcu Stefanie 'obecnie nic nie wie'. Pisze o przegrupowaniu obozu polskich żołnierzy. Dokument ilustruje chaos pierwszych tygodni po wyzwoleniu — żołnierze szukają rodzin rozrzuconych po Europie."
+    },
+
+    # ARG/V/77 — List do matki — Wigilia 24.XII.1946, str. 2
+    "juras_077": {
+        "typ": "List odręczny — str. 2 listu wigilijnego",
+        "data": "24.XII.1946",
+        "jezyk": "polski",
+        "nadawca": "Krzysztof Głuchowski",
+        "adresat": "Wanda Głuchowska (matka)",
+        "strony": ["juras_011_page12.jpeg"],
+        "transkrypcja": """[...] tak[?] w ogólnym ustaleniu jest Anglia
+na co[?] ile dalszy[?] Zachęcaj[?] mu[?] też[?]. Gdy[?] wiem, daw
+i[?] u Ciebie jest dużo[?] inaczej[?]. Byli Polacy bo
+w Filipinach nie do Anglii[?] jest oficjal-
+nie[?] już w kolejcy[?] nie i Filipiny[?] oficjal[?]
+w ogóle[?] dom[?] Korowaj[?] nie wiem[?]
+właśnie[?] on odwag[?] przyjaznie[?]
+[nieczytelne — pismo bardzo gęste i drobne]
+
+[...] Polkownik[?] grize[?] fajka[?] znakomit[y?] w str.
+F3[?] regularnie kto nie w obiekcj(?) moimi
+zaczynaj[?] i kiedzy[?] się wciąż[?] nie
+[nieczytelne]
+
+[...] tata[?] pojazd[?] fajno w nie korzysta[?] dość[?]
+ale[?] że dalszej szypy panu i[?] a dopa[?]-
+[?] na
+o ile do nas tego w[?] upraszali i coś[?] wiem[?]
+to[?] nie spał[?] dobrze o tak daleko[?] to
+[?] się Ojciec Puls[?] Guty[?] Alutij[?] albo[?]
+na dole[?] tyle co[?] dadzą[?] wszelako[?] i dalszych[?]
+nie sami[?] [?] tutaj? i idgałkiem[?]
+[nieczytelne — końcówka strony]""",
+        "pieczecie": [],
+        "podpisy": [],
+        "osoby": ["Krzysztof Głuchowski (nadawca)", "Wanda Głuchowska (adresatka — matka)"],
+        "znaki_szczegolne": [
+            "Wigilia 1946 — 20-letni żołnierz pisze do matki w Warszawie",
+            "Strona 2 listu cztrostronicowego (str. 1 = ARG/V/76, str. 3 = V/78, str. 4 = V/79)",
+            "Pismo BARDZO drobne i gęste — skan mały, odczyt wysoce niepewny",
+            "Wspomina Anglię, Filipiny — sytuacja emigrantów polskich",
+            "Wspomina Ojca — Stefan Głuchowski (repatriacja?)",
+            "Wymaga profesjonalnego HTR (Transkribus) i skanu w wyższej rozdzielczości"
+        ],
+        "kontekst": "Strona 2 wigilijnego listu do matki Wandy (24.XII.1946). Krzysztof pisze z Anglii — opisuje sytuację Polaków na emigracji (Filipiny, Anglia). Pismo niezwykle drobne, skan w niskiej rozdzielczości — transkrypcja wysoce niepewna. Pełny list: str. 1 (V/76), str. 2 (V/77), str. 3 (V/78), str. 4 (V/79)."
+    },
+
+    # ARG/V/79 — List do matki — Wigilia 24.XII.1946, str. 4 (sytuacja emigrantów)
+    "juras_079": {
+        "typ": "List odręczny — str. 4 listu wigilijnego",
+        "data": "24.XII.1946",
+        "jezyk": "polski",
+        "nadawca": "Krzysztof Głuchowski",
+        "adresat": "Wanda Głuchowska (matka)",
+        "strony": ["juras_013_page14.jpeg"],
+        "transkrypcja": """[...] ist[?] Grabowska tu minie specjalnie[?]
+i[?] ogi[?] zaklejonych[?] Pani[?] wszyst[?]
+Kieda[?] (Popo[?] nie o to[?] co[?] tamte[?]) bo[?] po
+stanie[?] w ten wymach[?]. Dlatego czek żeby[?] no
+o dalej [?] jąć[?] dobl[?] to jest[?] na dachy[?]
+do[?] przejm[?] samol[?]. Wigorek[?]
+
+Od Stryja dużej[?] informacje[?] nie
+mający[?] chwiów[?].
+
+Czesto nie dupli[?] [?]na[?]
+o lepina[?] wsłać[?] prawdopodob[?] Przy[?] nie[?]
+żołnierz[?], wobec[?] jest[?] koniecz[nia?] udział[?] posta-
+wili[?] niie[?] widoczniii[?] udział[?] które jest[?]
+nie swoby[?] kompo[?] na domy[?] warto być[?] do
+i o pięć[?]. Następuje[?] więce[?] zwarta[?] że[?]
+[nieczytelne]
+
+[...] że dalszego[?] ich dalj(?) [nieczytelne] pragnącemu[?]
+o zapowiedzianej[?] się podwod[?] w[?] pul[?] co[?] mają[?]
+prezen(?)wiosna[?] pomi[?] pracę[?] jest a[?] mi[?] moja
+zwolnioni[?] Bezliwy[?] emisi[?] pozycje[?] wszech[?] nai[?]
+i[?] o bożen Pasfra(?) [?] i przech[?] jak[?]
+na krytma[?] obronu Pacfory[?] o[?] i dalin [?]
+wiosna[?] Bandung[?] widwn[?] się patrzy[?] na
+z[?] przem[?] w czarnom[?] wypiera [?] w a dalins [?]""",
+        "pieczecie": [],
+        "podpisy": [],
+        "osoby": ["Krzysztof Głuchowski (nadawca)", "Wanda Głuchowska (adresatka)", "Grabowska (wspomniana)", "Stryj (gen. Janusz Głuchowski)"],
+        "znaki_szczegolne": [
+            "Strona 4 (ostatnia) listu wigilijnego 24.XII.1946",
+            "'Od Stryja dużej informacje nie mające' — brak wieści od gen. Janusza",
+            "Pismo BARDZO drobne — skan w niskiej rozdzielczości",
+            "Odczyt wysoce niepewny — wymaga HTR",
+            "Wspomina Grabowską — nieznana postać",
+            "Kontekst: sytuacja emigrantów, demobilizacja, przyszłość"
+        ],
+        "kontekst": "Ostatnia strona (4 z 4) wigilijnego listu Krzysztofa do matki Wandy, 24.XII.1946. Wspomina stryja gen. Janusza (brak informacji od niego), Grabowską, sytuację emigrantów. Pismo niezwykle drobne, skan zbyt mały dla rzetelnego odczytu — transkrypcja orientacyjna, wymaga weryfikacji z oryginałem."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # SERIA II — Gen. dyw. Janusz Julian Głuchowski (1888–1964)
+    # ═══════════════════════════════════════════════════════════════
+
     # ARG/II/14 — List odręczny Śmigłego-Rydza do Głuchowskiego
     "janusz_014": {
         "typ": "List odręczny",
