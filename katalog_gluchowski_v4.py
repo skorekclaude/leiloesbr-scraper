@@ -10630,6 +10630,24 @@ body.lang-active .card-lang-badge {{ display:inline; }}
       </div>
     </div>
 
+    <div class="showcase-card" data-src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p04_img01.jpeg" onclick="openLightbox(this.dataset.src, 'Dyplom Orderu Korony Rumunii — podpis króla Ferdynanda I (1922)')">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p04_img01.jpeg" alt="Order Korony Rumunii" loading="lazy">
+      <div class="showcase-label">
+        <span class="showcase-sygn">ARG/II/16</span>
+        <span class="showcase-desc" data-lang="pl">Order Korony Rumunii &mdash; podpis króla Ferdynanda I, kaligrafowany dyplom</span>
+        <span class="showcase-desc" data-lang="en">Order of the Crown of Romania &mdash; signed by King Ferdinand I</span>
+      </div>
+    </div>
+
+    <div class="showcase-card" data-src="gluchowski_img/Seria_29z_p02_img01.jpeg" onclick="openLightbox(this.dataset.src, 'Esej szkolny — Moja najciekawsza przygoda (1945)')">
+      <img src="gluchowski_img/Seria_29z_p02_img01.jpeg" alt="Esej o Powstaniu" loading="lazy">
+      <div class="showcase-label">
+        <span class="showcase-sygn">ARG/V/59</span>
+        <span class="showcase-desc" data-lang="pl">&laquo;Moja najciekawsza przygoda&raquo; &mdash; 19-latek opisuje Godzinę W</span>
+        <span class="showcase-desc" data-lang="en">"My most interesting adventure" &mdash; 19-year-old describes Hour W</span>
+      </div>
+    </div>
+
   </div>
 </div>
 
