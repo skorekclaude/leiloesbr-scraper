@@ -8335,7 +8335,30 @@ VALUATIONS = {
         "cena_min": 200, "cena_max": 400, "waluta": "PLN",
         "rekomendacja": "Korespondencja rodzinna."
     },
-    # === ZESTAW 201-217: 18 jednostek, ~6000-12000 PLN osobno, zestaw 10000-18000 PLN ===
+        # === KORESPONDENCJA 1946-1948 (listy_wanda_2.pdf, ARG/V/218-238) ===
+    "ARG/V/218": {"wartosc_hist": "★★", "opis_wartosci": "Fragment listu, nadawca nieznany. 200-400 PLN.", "cena_min": 200, "cena_max": 400, "waluta": "PLN", "rekomendacja": "W zestawie."},
+    "ARG/V/219": {"wartosc_hist": "★★★", "opis_wartosci": "Flejsner z Penley — znała rodzinę z Żoliborza. Pośredniczka konspiracyjna. 300-600 PLN.", "cena_min": 300, "cena_max": 600, "waluta": "PLN", "rekomendacja": "Kanał pocztowy Walia."},
+    "ARG/V/220": {"wartosc_hist": "★★★★", "opis_wartosci": "Grafowa ze Sztokholmu — apteka z bocianiem gniazdem na antresoli. Droga Sztokholm. 400-800 PLN.", "cena_min": 400, "cena_max": 800, "waluta": "PLN", "rekomendacja": "Szósta droga konspiracyjna."},
+    "ARG/V/221": {"wartosc_hist": "★★★", "opis_wartosci": "Graff z Londynu — paczka od Wandy. 300-600 PLN.", "cena_min": 300, "cena_max": 600, "waluta": "PLN", "rekomendacja": "Kanał londyński."},
+    "ARG/V/222": {"wartosc_hist": "★★★★★", "opis_wartosci": "Synku Malutki! Najkrótszy i najczulszy liścik Wandy. 500-1000 PLN.", "cena_min": 500, "cena_max": 1000, "waluta": "PLN", "rekomendacja": "Emocjonalnie bezcenny."},
+    "ARG/V/223": {"wartosc_hist": "★★★★", "opis_wartosci": "Wanda — tak czekam na Twój list. Bodney. 400-800 PLN.", "cena_min": 400, "cena_max": 800, "waluta": "PLN", "rekomendacja": "W zestawie listów Wandy."},
+    "ARG/V/224": {"wartosc_hist": "★★★★", "opis_wartosci": "Życie na antresoli apteki — meble, radio. Warszawa I.1947. 400-800 PLN.", "cena_min": 400, "cena_max": 800, "waluta": "PLN", "rekomendacja": "Dokument życia codziennego."},
+    "ARG/V/225": {"wartosc_hist": "★★★★", "opis_wartosci": "Najwcześniejszy list w zbiorze — XII.1946. 400-800 PLN.", "cena_min": 400, "cena_max": 800, "waluta": "PLN", "rekomendacja": "Chronologicznie pierwszy."},
+    "ARG/V/226": {"wartosc_hist": "★★★★★", "opis_wartosci": "Jesteś jedyną wygraną w moim życiu. Najemocjonalniejszy list. 800-1500 PLN.", "cena_min": 800, "cena_max": 1500, "waluta": "PLN", "rekomendacja": "Nie sprzedawać osobno."},
+    "ARG/V/227": {"wartosc_hist": "★★★★", "opis_wartosci": "Surowa zima 1947, problemy komunikacyjne. 400-800 PLN.", "cena_min": 400, "cena_max": 800, "waluta": "PLN", "rekomendacja": "Dokument pogodowy/historyczny."},
+    "ARG/V/228": {"wartosc_hist": "★★★★★", "opis_wartosci": "4 strony — zniszczenia domu po Powstaniu. 800-1500 PLN.", "cena_min": 800, "cena_max": 1500, "waluta": "PLN", "rekomendacja": "Dokument zniszczeń wojennych."},
+    "ARG/V/229": {"wartosc_hist": "★★★★", "opis_wartosci": "4 strony — BBC o Polakach, plany przesyłek. 500-1000 PLN.", "cena_min": 500, "cena_max": 1000, "waluta": "PLN", "rekomendacja": "BBC jako źródło informacji."},
+    "ARG/V/230": {"wartosc_hist": "★★★★", "opis_wartosci": "4 strony — pytania o dziewczyny syna. 500-1000 PLN.", "cena_min": 500, "cena_max": 1000, "waluta": "PLN", "rekomendacja": "Życie prywatne."},
+    "ARG/V/231": {"wartosc_hist": "★★★★★", "opis_wartosci": "4 strony — Pierwszy ślad że żyjesz. Jak Wanda dowiedziała się że syn przeżył. 800-1500 PLN.", "cena_min": 800, "cena_max": 1500, "waluta": "PLN", "rekomendacja": "Kluczowy dokument emocjonalny."},
+    "ARG/V/232": {"wartosc_hist": "★★★", "opis_wartosci": "Życzenia wielkanocne. 300-600 PLN.", "cena_min": 300, "cena_max": 600, "waluta": "PLN", "rekomendacja": "W zestawie."},
+    "ARG/V/233": {"wartosc_hist": "★★★", "opis_wartosci": "Wielki Piątek — Józek artysta-konserwator. 400-800 PLN.", "cena_min": 400, "cena_max": 800, "waluta": "PLN", "rekomendacja": "Życie kulturalne powojennej Warszawy."},
+    "ARG/V/234": {"wartosc_hist": "★★★★", "opis_wartosci": "Wielkanoc w Łodzi — kąpiel w wannie jako luksus. 500-1000 PLN.", "cena_min": 500, "cena_max": 1000, "waluta": "PLN", "rekomendacja": "Dokument warunków życia."},
+    "ARG/V/235": {"wartosc_hist": "★★★★", "opis_wartosci": "Życzenia imieninowe — wspomnienia z najstarszego. 400-800 PLN.", "cena_min": 400, "cena_max": 800, "waluta": "PLN", "rekomendacja": "Osobiste."},
+    "ARG/V/236": {"wartosc_hist": "★★★★", "opis_wartosci": "Argentyna odpada — ulga matki. Aparat niemiecki jako prezent. 500-1000 PLN.", "cena_min": 500, "cena_max": 1000, "waluta": "PLN", "rekomendacja": "Emigracja — decyzje."},
+    "ARG/V/237": {"wartosc_hist": "★★★★", "opis_wartosci": "Wiosna w Warszawie — ojciec wraca, kanapa, przygotowania. 500-1000 PLN.", "cena_min": 500, "cena_max": 1000, "waluta": "PLN", "rekomendacja": "Powrót ojca z emigracji."},
+    "ARG/V/238": {"wartosc_hist": "★★★★★", "opis_wartosci": "Ojciec wraca — SPIS 45 LEKARSTW. Bezcenny dokument farmaceutyczny. 800-2000 PLN.", "cena_min": 800, "cena_max": 2000, "waluta": "PLN", "rekomendacja": "Spis lekarstw — źródło historyczno-medyczne."},
+    # === ZESTAW 218-238: 21 listów, osobno ~10000-18000 PLN, zestaw 15000-25000 PLN ===
+# === ZESTAW 201-217: 18 jednostek, ~6000-12000 PLN osobno, zestaw 10000-18000 PLN ===
     # === SERIA II — brakujące ===
     "ARG/II/57": {
         "wartosc_hist": "★★★",
