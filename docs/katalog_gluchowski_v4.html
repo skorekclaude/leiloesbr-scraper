@@ -27,7 +27,8 @@ body { background:var(--bg); color:var(--text); font-family:'Source Sans 3',sans
 .header { text-align:center; padding:80px 20px 40px; border-bottom:1px solid var(--border); }
 .header .institution { font-size:0.75em; letter-spacing:4px; text-transform:uppercase; color:var(--text-faint); margin-bottom:12px; }
 .header h1 { font-family:'Playfair Display',serif; font-size:2.6em; color:var(--gold); letter-spacing:2px; margin-bottom:8px; }
-.header-crest { font-size:0.85em; opacity:0.7; vertical-align:middle; margin:0 8px; }
+.header-crests { display:flex; align-items:center; justify-content:center; gap:20px; }
+.header-crest-img { width:70px; height:auto; opacity:0.85; filter:drop-shadow(0 0 8px rgba(212,175,55,0.3)); }
 .header .subtitle { color:var(--text-dim); font-size:1.15em; font-weight:300; }
 .header .dates { color:var(--gold-dim); font-size:1.3em; font-weight:300; margin-top:6px; letter-spacing:3px; }
 .header .stats { color:var(--text-faint); font-size:0.85em; margin-top:16px; }
@@ -435,7 +436,11 @@ body.lang-active .card-lang-badge { display:inline; }
   <div class="institution" data-lang="nl">Museumcatalogus</div>
   <div class="institution" data-lang="fr">Catalogue Muséal</div>
   <div class="institution" data-lang="yi">מוזעאום קאַטאַלאָג</div>
-  <h1><span class="header-crest">&#9876;</span> ARCHIWUM RODZINY GŁUCHOWSKICH <span class="header-crest">&#9876;</span></h1>
+  <div class="header-crests">
+    <img src="gluchowski_img/herb_prus_II.svg" alt="Herb Prus II (Wilczekosy)" class="header-crest-img" title="Prus II (Wilczekosy)">
+    <h1>ARCHIWUM RODZINY GŁUCHOWSKICH</h1>
+    <img src="gluchowski_img/herb_doliwa.svg" alt="Herb Doliwa (Zembrzuscy)" class="header-crest-img" title="Doliwa (Zembrzuscy — ród matki Wandy)">
+  </div>
   <div class="subtitle" data-lang="pl">Dokumenty, korespondencja, fotografie i ephemera</div>
   <div class="subtitle" data-lang="en">Documents, correspondence, photographs and ephemera</div>
   <div class="subtitle" data-lang="pt">Documentos, correspondência, fotografias e efêmeros</div>
