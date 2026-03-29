@@ -5335,6 +5335,39 @@ OBJECTS = [
         "stan": "Średni",
         "wycena": "600-1600 PLN"
     },
+    # ── Korespondencja 1946 (transkrypcje_listow_1946.pdf) ──────────────
+    {
+        "sygn": "ARG/V/174",
+        "photo": "wanda_list1_str1.png",
+        "tytul": "List sierż.-mgr. Aleksandra Flejszera do Krzysztofa Głuchowskiego — pośrednictwo pocztowe matki",
+        "data": "3.VIII.1946",
+        "typ": "list",
+        "opis_fizyczny": "1 arkusz, dwustronnie, atrament. Nagłówek drukowany: 'Sierż.-mgr. Aleksander Flejszer, Polish Forces, C.M.F. 509.' Pismo odręczne, czytelne.",
+        "opis_tresci": "Flejszer pisze na prośbę Wandy Głuchowskiej (matki Krzysztofa), przekazaną przez żonę Flejszera z Łodzi. Podaje konspiracyjną drogę pocztową: listy przez Władysława Goldmana w Paryżu (1 rue du Docteur Labbé, Paris 20e). Informuje o rodzinie Gruchowskich w Łodzi — Ludmiła choruje na płuca, córka Irusia po doktoracie. Przed wojną Flejszer pracował w aptece Włodzimierza Gruchowskiego.",
+        "seria": "V",
+        "tworca": "Aleksander Flejszer",
+        "jezyk": "polski",
+        "kontekst": "Sierpień 1946. Krzysztof (lat 18) służy w Polish Forces C.M.F. 105 we Włoszech. Matka Wanda jest w Łodzi/Warszawie — komunikacja z synem możliwa tylko przez konspiracyjne kanały pocztowe (Paryż). Flejszer to farmaceuta, przedwojenny pracownik apteki wuja Krzysztofa. List dokumentuje mechanizm korespondencji rodzinnej w warunkach powojennej cenzury.",
+        "powiazania": ["ARG/V/175", "ARG/V/176"],
+        "stan": "Dobry",
+        "wycena": "400-800 PLN"
+    },
+    {
+        "sygn": "ARG/V/175",
+        "photo": "wanda_list1_str1.png",
+        "tytul": "List Wandy Głuchowskiej do syna Krzysztofa — 'Drogi Kochany Synku!'",
+        "data": "13.VIII.1946",
+        "typ": "list",
+        "opis_fizyczny": "1 arkusz papier w linie, dwustronnie, atrament niebieski. Pismo odręczne Wandy — pochyłe, czytelne. Podpis: 'Wandy'. Data: 'Ł. 13/VIII 46 r.' (Łódź).",
+        "opis_tresci": "Pierwszy znany list Wandy do syna na emigracji. Czeka na znak życia. Relacjonuje nowości rodzinne: Grażynka z rodziną odebrana przez wuja Karika, mąż Grażynki pojechał do Prus Wschodnich jako inspektor rolny, wuj Karik w Łodzi u Sławki, u Witoldów wielkie nieszczęście — ciotka ciężko chora na płuca. Wanda informuje: 'Ja jestem zdrowa i otworzyłam aptekę na drugiej stronie, tam gdzie była Cysia Cukiernia.' Komora zniszczona, ale dolne sklepienie ocalało. Kończy: 'Synku Kochany napisz do mnie choćby kilka słów i całuję Cię.'",
+        "seria": "V",
+        "tworca": "Wanda Głuchowska",
+        "jezyk": "polski",
+        "kontekst": "13 sierpnia 1946. Wanda Głuchowska (żona gen. Janusza, matka Krzysztofa) pisze z Łodzi do 18-letniego syna we Włoszech. Wanda odbudowała aptekę w Warszawie na rogu Kruczej i Hożej (dawna cukiernia Paciorkowskiego). Była aresztowana i wywieziona do Rosji, potem obóz w Rembertowie — ale w tym liście o tym nie pisze. List szedł konspiracyjną drogą przez Paryż. Dokument o ogromnej wartości emocjonalnej — matka i syn rozdzieleni wojną, on żołnierz PSZ, ona w komunistycznej Polsce.",
+        "powiazania": ["ARG/V/174", "ARG/V/176"],
+        "stan": "Dobry",
+        "wycena": "800-1500 PLN"
+    },
 ]
 
 # ============================================================================

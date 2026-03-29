@@ -4439,6 +4439,75 @@ Lech       Lochia(?)
         ],
         "kontekst": "Unikalna dedykacja Lecha Głuchowskiego do brata Stefana — świadectwo ciepłych relacji braterskich w okresie międzywojennym. Lech (ok. 1902–1944) poległ na Mokotowie w Powstaniu Warszawskim. Wzmianka '8 p.S.K.' może wskazywać na 8 Pułk Strzelców Konnych lub inną formację kawalerii. Dedykacja grupowa z podpisami kolegów oficerskich — portret środowiska wojskowego II RP."
     },
+
+    # ── Korespondencja 1946 ─────────────────────────────────────────
+
+    "juras_174": {
+        "typ": "list",
+        "data": "3.VIII.1946",
+        "jezyk": "pl",
+        "nadawca": "Aleksander Flejszer",
+        "adresat": "Krzysztof Głuchowski",
+        "transkrypcja": """Sierż.-mgr. Aleksander Flejszer, Polish Forces, C.M.F. 509.
+M.p., dn. 3/8/46 r.
+
+Szanowny Panie!
+
+Otrzymałem list z miasta Łodzi od mojej żony. W liście tym żona prosi mnie, w imieniu matki Pańskiej, Pani Wandy, o skomunikowanie się z Panem, podając mi adres Pana — C.M.F. 105.
+
+Matka Pańska serdecznie Pana pozdrawia i prosi Pana o napisanie do niej kilku słów. Pisać powinien Pan nie podając ani miejsca pobytu, ani daty. List ten proszę wysłać na następujący adres:
+
+Władysław Goldman,
+1 rue du Docteur Labbé,
+Paris 20e,
+France
+
+Stamtąd list zostanie skierowany do mojej żony, która przyjaźni się z Panią Wandą i bodaj codziennie ją widuje. Tą drogą ja komunikuję się z żoną i listy z jednej i drugiej strony przychodzą. Do wybuchu wojny ja pracowałem w aptece Włodzimierza Gruchowskiego.
+
+Gruchowscy wszyscy żyją i mieszkają w Łodzi: Pani Ludmiła od czasu do czasu choruje na płuca, a córka ich — Irusia — jest po doktoracie.
+
+Bardzo byłbym rad, gdybym od Pana otrzymał kilka słów.
+
+Przesyłam serdeczne pozdrowienia
+A. Flejszer""",
+        "osoby": ["Aleksander Flejszer", "Wanda Głuchowska", "Krzysztof Głuchowski", "Władysław Goldman", "Ludmiła Gruchowska", "Irusia Gruchowska", "Włodzimierz Gruchowski"],
+        "znaki_szczegolne": [
+            "Nagłówek drukowany z danymi wojskowymi",
+            "Konspiracyjna droga pocztowa: CMF → Paryż (Goldman) → Łódź → Wanda",
+            "Wzmianka o aptece Gruchowskiego — przedwojenny kontekst zawodowy"
+        ],
+        "kontekst": "Sierpień 1946. Flejszer pośredniczy w nawiązaniu kontaktu między Wandą (Łódź/Warszawa) a Krzysztofem (Włochy). Droga pocztowa: żołnierz → Paryż (Goldman) → żona Flejszera (Łódź) → Wanda. Pisanie bez podawania miejsca i daty — środek ostrożności wobec cenzury komunistycznej."
+    },
+
+    "juras_175": {
+        "typ": "list",
+        "data": "13.VIII.1946",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "adresat": "Krzysztof Głuchowski",
+        "transkrypcja": """Drogi Kochany Synku!
+
+Czekam od Ciebie znaku życia, ale jak dotąd bezowocnie. —
+
+U nas w rodzinie trochę nowości, bo Grażynę z rodziną wuj Karik nareszcie odebrał do nas. Grażynka urocze dziecko u matki, to znaczy na Żoliborzu, a mąż jej pojechał do Prus Wschodnich objąć posadę inspektora rolnego. Wuj Karik jeszcze się nie ustalił; a na razie jest w Łodzi, bo tam mieszka Sławka. U Witoldów wielkie nieszczęście, bo ciotka b. ciężko na płuca.
+
+Ja jestem zdrowa i otworzyłam aptekę na drugiej stronie, tam gdzie była Cysia Cukiernia. Komora jest zupełnie zniszczona, ale dolne sklepienie i dolne [są tu?].
+
+Synku Kochany napisz do mnie choćby kilka słów i całuję Cię
+
+Wandy
+
+Ł. 13/VIII 46 r.""",
+        "osoby": ["Wanda Głuchowska", "Krzysztof Głuchowski", "Grażyna", "Karik (wuj)", "Sławka", "Witoldowie"],
+        "znaki_szczegolne": [
+            "Pismo odręczne Wandy — atrament niebieski, papier w linie",
+            "Podpis 'Wandy' (dopełniacz — 'od Wandy')",
+            "Data 'Ł.' = Łódź",
+            "Wzmianka o aptece na rogu Kruczej i Hożej (dawna cukiernia Paciorkowskiego/Cysia)",
+            "Fragment nieczytelny: 'ale dolne sklepienie i dolne [są tu?]'"
+        ],
+        "kontekst": "Pierwszy znany list Wandy Głuchowskiej do syna Krzysztofa na emigracji. Wanda — żona gen. Janusza Głuchowskiego, matka Krzysztofa. Aresztowana po wojnie, wywieziona do Rosji, obóz w Rembertowie — ale w tym liście o represjach nie pisze. Odbudowała aptekę w Warszawie na rogu Kruczej i Hożej. List szedł konspiracyjną drogą przez Paryż."
+    },
 }
 
 # ═══════════════════════════════════════════════════════════════
