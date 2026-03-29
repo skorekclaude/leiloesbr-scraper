@@ -177,6 +177,19 @@ body.lang-active .card-lang-badge { display:inline; }
 .heraldic-table tr:hover { background:var(--surface2); }
 .ht-herb-img { width:36px; height:auto; }
 .ht-herb-text { font-size:1.4em; color:var(--gold); text-align:center; }
+/* SHOWCASE — 10 najciekawszych */
+.showcase-section { margin:40px 0; }
+.showcase-title { font-family:'Playfair Display',serif; font-size:1.4em; color:var(--gold); text-align:center; margin-bottom:20px; }
+.showcase-grid { display:grid; grid-template-columns:repeat(3, 1fr); gap:16px; max-width:1100px; margin:0 auto; }
+@media (max-width:800px) { .showcase-grid { grid-template-columns:repeat(2, 1fr); } }
+@media (max-width:500px) { .showcase-grid { grid-template-columns:1fr; } }
+.showcase-card { position:relative; overflow:hidden; border-radius:4px; border:1px solid var(--border); cursor:pointer; transition:all .3s; background:var(--surface); }
+.showcase-card:hover { border-color:var(--gold); transform:translateY(-2px); box-shadow:0 4px 16px rgba(212,175,55,.15); }
+.showcase-card img { width:100%; height:220px; object-fit:cover; display:block; }
+.showcase-label { padding:8px 10px; }
+.showcase-sygn { font-family:'JetBrains Mono',monospace; font-size:0.65em; color:var(--gold); letter-spacing:1px; display:block; margin-bottom:3px; }
+.showcase-desc { font-size:0.75em; color:var(--text-dim); line-height:1.4; display:block; }
+
 .heraldic-source { font-size:0.75em; color:var(--text-faint); font-style:italic; margin-top:8px; }
 .card-epistolary { border-left:2px solid var(--accent); padding-left:8px; margin-left:4px; }
 
@@ -533,6 +546,105 @@ body.lang-active .card-lang-badge { display:inline; }
   <p data-lang="fr">Variable — de bon (documents officiels, diplômes) à mauvais (correspondance de campagne, cartes de prisonniers). Certaines pièces montrent des dommages de guerre, des rousseurs et du papier fragile. Globalement : bon pour une collection privée conservée 75+ ans en climat subtropical.</p>
   <p data-lang="nl">Wisselend — van goed (officiële documenten, diploma's) tot slecht (veldcorrespondentie, krijgsgevangenkaarten). Sommige stukken vertonen oorlogsschade, foxing en broos papier. Over het geheel: goed voor een particuliere collectie, 75+ jaar bewaard in subtropisch klimaat.</p>
   <p data-lang="yi">פֿאַרשידנאַרטיק — פֿון גוט (אָפֿיציעלע דאָקומענטן, דיפּלאָמען) ביז שלעכט (פֿעלד-קאָרעספּאָנדענץ, קריגס-געפֿאַנגענע קאַרטן). אינסגעזאַמט: גוט פֿאַר אַ פּריוואַטע קאָלעקציע, 75+ יאָר באַוואַרנט אין סובטראָפּיש קלימאַט.</p>
+</div>
+
+<!-- 10 NAJCIEKAWSZYCH DOKUMENTÓW — WIZYTÓWKA KOLEKCJI -->
+<div class="showcase-section">
+  <h3 class="showcase-title" data-lang="pl">10 dokument&oacute;w kt&oacute;re opowiadaj&aogon; całą historię</h3>
+  <h3 class="showcase-title" data-lang="en">10 documents that tell the whole story</h3>
+  <div class="showcase-grid">
+
+    <div class="showcase-card" data-src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p01_img01.jpeg" onclick="openLightbox(this.dataset.src, 'Siódemka Beliny — fotokopia z podpisami (1914)')">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p01_img01.jpeg" alt="Siódemka Beliny" loading="lazy">
+      <div class="showcase-label">
+        <span class="showcase-sygn">ARG/II/2</span>
+        <span class="showcase-desc" data-lang="pl">Siódemka Beliny &mdash; 7 ułanów, którzy rozpoczęli Legiony</span>
+        <span class="showcase-desc" data-lang="en">Belina's Seven &mdash; 7 lancers who began the Legions</span>
+      </div>
+    </div>
+
+    <div class="showcase-card" data-src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p23_img02.jpeg" onclick="openLightbox(this.dataset.src, 'Kennkarte — fałszywa data urodzenia (1943)')">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p23_img02.jpeg" alt="Kennkarte" loading="lazy">
+      <div class="showcase-label">
+        <span class="showcase-sygn">ARG/V/1</span>
+        <span class="showcase-desc" data-lang="pl">Kennkarte &mdash; 17-latek sfałszował datę by uniknąć pracy przymusowej</span>
+        <span class="showcase-desc" data-lang="en">Kennkarte &mdash; 17-year-old forged his date to avoid forced labour</span>
+      </div>
+    </div>
+
+    <div class="showcase-card" data-src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p23_img04.jpeg" onclick="openLightbox(this.dataset.src, 'Legitymacja AK — ps. Juraś, pluton 1112 (1944)')">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p23_img04.jpeg" alt="Legitymacja AK" loading="lazy">
+      <div class="showcase-label">
+        <span class="showcase-sygn">ARG/V/3</span>
+        <span class="showcase-desc" data-lang="pl">Legitymacja AK &mdash; ps. &laquo;Juraś&raquo;, pluton 1112, 7 P.Uł.</span>
+        <span class="showcase-desc" data-lang="en">AK ID card &mdash; codename "Juraś", platoon 1112</span>
+      </div>
+    </div>
+
+    <div class="showcase-card" data-src="gluchowski_img/Seria_29z_p06_img01.jpeg" onclick="openLightbox(this.dataset.src, 'List z obozu do stryja generała — Stryj Lech poległ (1944)')">
+      <img src="gluchowski_img/Seria_29z_p06_img01.jpeg" alt="List jeniecki" loading="lazy">
+      <div class="showcase-label">
+        <span class="showcase-sygn">ARG/V/16</span>
+        <span class="showcase-desc" data-lang="pl">&laquo;Stryj Lech poległ 15-tego na Mokotowie&raquo; &mdash; jeniec do generała</span>
+        <span class="showcase-desc" data-lang="en">"Uncle Lech fell on the 15th at Mokotów" &mdash; POW to general</span>
+      </div>
+    </div>
+
+    <div class="showcase-card" data-src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p06_img02.jpeg" onclick="openLightbox(this.dataset.src, 'List Śmigłego-Rydza — zaproszenie na Zamek Królewski (1919)')">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_Katalog_Tematyczny_p06_img02.jpeg" alt="List Śmigłego-Rydza" loading="lazy">
+      <div class="showcase-label">
+        <span class="showcase-sygn">ARG/II/14</span>
+        <span class="showcase-desc" data-lang="pl">List generała-porucznika &mdash; zaproszenie na Zamek Królewski</span>
+        <span class="showcase-desc" data-lang="en">Lieutenant-General's letter &mdash; invitation to the Royal Castle</span>
+      </div>
+    </div>
+
+    <div class="showcase-card" data-src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p09_img01.jpeg" onclick="openLightbox(this.dataset.src, 'List Sosnkowskiego — Kochany Januszu (1964)')">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p09_img01.jpeg" alt="List Sosnkowskiego" loading="lazy">
+      <div class="showcase-label">
+        <span class="showcase-sygn">ARG/II/27</span>
+        <span class="showcase-desc" data-lang="pl">&laquo;Kochany Januszu&raquo; &mdash; Sosnkowski z Kanady, 7 mies. przed śmiercią</span>
+        <span class="showcase-desc" data-lang="en">"Dear Janusz" &mdash; Sosnkowski from Canada, 7 months before death</span>
+      </div>
+    </div>
+
+    <div class="showcase-card" data-src="gluchowski_img/wanda2/p16.jpg" onclick="openLightbox(this.dataset.src, 'List Wandy — Jesteś jedyną wygraną w moim życiu (1947)')">
+      <img src="gluchowski_img/wanda2/p16.jpg" alt="List Wandy" loading="lazy">
+      <div class="showcase-label">
+        <span class="showcase-sygn">ARG/V/226</span>
+        <span class="showcase-desc" data-lang="pl">&laquo;Jesteś jedyną wygraną w moim życiu&raquo; &mdash; matka do syna</span>
+        <span class="showcase-desc" data-lang="en">"You are the only prize in my life" &mdash; mother to son</span>
+      </div>
+    </div>
+
+    <div class="showcase-card" data-src="gluchowski_img/lbr_II_34_p01.jpg" onclick="openLightbox(this.dataset.src, 'Beret pancerny ze śladem po kuli')">
+      <img src="gluchowski_img/lbr_II_34_p01.jpg" alt="Beret ze śladem po kuli" loading="lazy">
+      <div class="showcase-label">
+        <span class="showcase-sygn">ARG/II/34</span>
+        <span class="showcase-desc" data-lang="pl">Beret pancerny generała &mdash; ze śladem po kuli</span>
+        <span class="showcase-desc" data-lang="en">General's panzer beret &mdash; with bullet trace</span>
+      </div>
+    </div>
+
+    <div class="showcase-card" data-src="gluchowski_img/lbr_II_36_p01.jpg" onclick="openLightbox(this.dataset.src, 'List Adama Piłsudskiego — monogram P (1931)')">
+      <img src="gluchowski_img/lbr_II_36_p01.jpg" alt="List Piłsudskiego" loading="lazy">
+      <div class="showcase-label">
+        <span class="showcase-sygn">ARG/II/36</span>
+        <span class="showcase-desc" data-lang="pl">Adam Piłsudski &mdash; brat Marszałka, monogram &laquo;P&raquo;</span>
+        <span class="showcase-desc" data-lang="en">Adam Piłsudski &mdash; Marshal's brother, monogram "P"</span>
+      </div>
+    </div>
+
+    <div class="showcase-card" data-src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p17_img03.jpeg" onclick="openLightbox(this.dataset.src, 'Ambasada Izraela — waluty gettowe, Yad Vashem (1958)')">
+      <img src="gluchowski_img/Kolekcja_Gluchowski_KATALOG_NAUKOWY_p17_img03.jpeg" alt="Ambasada Izraela" loading="lazy">
+      <div class="showcase-label">
+        <span class="showcase-sygn">ARG/VI/12</span>
+        <span class="showcase-desc" data-lang="pl">Ambasada Izraela &mdash; waluty getta łódzkiego, sugestia Yad Vashem</span>
+        <span class="showcase-desc" data-lang="en">Embassy of Israel &mdash; Łódź ghetto currency, Yad Vashem suggestion</span>
+      </div>
+    </div>
+
+  </div>
 </div>
 
 <div class="methodology">
