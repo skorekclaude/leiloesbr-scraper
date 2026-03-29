@@ -9097,6 +9097,164 @@ def get_transcription(sygn):
     return None
 
 
+# ═══════════════════════════════════════════════════════════════
+# AUTO-TRANSLATION PL→EN for titles and document types
+# ═══════════════════════════════════════════════════════════════
+
+_TITLE_DICT = {
+    "List odręczny": "Handwritten letter",
+    "List": "Letter",
+    "list": "letter",
+    "Koperta": "Envelope",
+    "koperta": "envelope",
+    "Fotokopia": "Photocopy",
+    "fotokopia": "photocopy",
+    "Fotografia": "Photograph",
+    "fotografia": "photograph",
+    "Portret": "Portrait",
+    "portret": "portrait",
+    "Dyplom": "Diploma",
+    "dyplom": "diploma",
+    "Legitymacja": "Identity card",
+    "legitymacja": "identity card",
+    "Zaświadczenie": "Certificate",
+    "zaświadczenie": "certificate",
+    "Rozkaz": "Order",
+    "rozkaz": "order",
+    "Pismo": "Letter/document",
+    "pismo": "letter/document",
+    "Biogram": "Biographical note",
+    "biogram": "biographical note",
+    "Kriegsgefangenenpost": "POW mail",
+    "Dekret": "Decree",
+    "dekret": "decree",
+    "Akt mianowania": "Appointment act",
+    "Notatka": "Note",
+    "notatka": "note",
+    "Życzenia": "Greetings",
+    "życzenia": "greetings",
+    "Zaproszenie": "Invitation",
+    "zaproszenie": "invitation",
+    "Propusk": "Pass/permit",
+    "Adres iluminowany": "Illuminated address",
+    "Beret": "Beret",
+    "beret": "beret",
+    "Siódemki Beliny": "Belina's Seven",
+    "Siódemka Beliny": "Belina's Seven",
+    "Śmigłego-Rydza": "Śmigły-Rydz",
+    "gen. Głuchowskiego": "Gen. Głuchowski",
+    "płk. Głuchowskiego": "Col. Głuchowski",
+    "do Głuchowskiego": "to Głuchowski",
+    "do gen. Głuchowskiego": "to Gen. Głuchowski",
+    "Krzysztofa Głuchowskiego": "Krzysztof Głuchowski",
+    "Stefana Głuchowskiego": "Stefan Głuchowski",
+    "z podpisami uczestników": "with participants' signatures",
+    "z obozu": "from POW camp",
+    "z Kanady": "from Canada",
+    "do matki": "to mother",
+    "do ojca": "to father",
+    "do syna": "to son",
+    "do stryja": "to uncle",
+    "do generała": "to the General",
+    "Pułkownika": "Colonel",
+    "pułkownika": "colonel",
+    "Generała": "General",
+    "generała": "general",
+    "Marszałka": "Marshal",
+    "Prezydenta RP": "President of Poland",
+    "Krzyża Walecznych": "Cross of Valour",
+    "Krzyża Zasługi": "Cross of Merit",
+    "Krzyża Legionowego": "Legion Cross",
+    "Złotego Krzyża Zasługi": "Gold Cross of Merit",
+    "Srebrnego Krzyża Zasługi": "Silver Cross of Merit",
+    "Brązowego Medalu": "Bronze Medal",
+    "za Długoletnią Służbę": "for Long Service",
+    "Orderu Odrodzenia Polski": "Order of Polonia Restituta",
+    "Virtuti Militari": "Virtuti Militari",
+    "Krzyża Niepodległości": "Cross of Independence",
+    "Korony Rumunii": "Crown of Romania",
+    "Gwiazdy Rumunii": "Star of Romania",
+    "Legią Honorową": "Legion of Honour",
+    "Legii Honorowej": "Legion of Honour",
+    "Powstania Warszawskiego": "Warsaw Uprising",
+    "Powstanie Warszawskie": "Warsaw Uprising",
+    "Armii Krajowej": "Home Army",
+    "Kancelarii Cywilnej": "Civil Chancellery",
+    "I Wiceministra Spraw Wojskowych": "1st Deputy Minister of Military Affairs",
+    "Ministerstwa Spraw Wojskowych": "Ministry of Military Affairs",
+    "Instytutu Piłsudskiego": "Piłsudski Institute",
+    "Polskich Sił Zbrojnych": "Polish Armed Forces",
+    "w mundurze": "in uniform",
+    "w mundurze galowym": "in dress uniform",
+    "Wigilia": "Christmas Eve",
+    "Sosnkowskiego": "Sosnkowski",
+    "Adama Piłsudskiego": "Adam Piłsudski",
+    "Króla Rumunii": "King of Romania",
+    "na generała brygady": "to Brigadier General",
+    "na I Wiceministra": "as 1st Deputy Minister",
+    "Ambasady Izraela": "Embassy of Israel",
+    "w Londynie": "in London",
+    "w Warszawie": "in Warsaw",
+    "w Krakowie": "in Krakow",
+    "w Szkocji": "in Scotland",
+    "w Anglii": "in England",
+    "w Niemczech": "in Germany",
+    "w Rumunii": "in Romania",
+    "w Palestynie": "in Palestine",
+    "w Brazylii": "in Brazil",
+    "w Canadzie": "in Canada",
+    "w Coventry": "in Coventry",
+    "Akt mianowania na": "Appointment as",
+    "gen. Kazimierza": "Gen. Kazimierz",
+    "gen. Janusza": "Gen. Janusz",
+    "gen. bryg.": "Brig. Gen.",
+    "gen. dyw.": "Maj. Gen.",
+    "ppor.": "2nd Lt.",
+    "plk.": "Col.",
+    "plut. pchor.": "Cpl. OC",
+    "rtm.": "Cpt. (Cavalry)",
+    "mjr.": "Maj.",
+    "płk.": "Col.",
+    "odpowiedź": "reply",
+    "Odpowiedź": "Reply",
+    "rewers": "reverse",
+    "awers": "obverse",
+    "str.": "p.",
+    "prywatny": "private",
+    "urzędowy": "official",
+    "odręczny": "handwritten",
+}
+
+_DOC_TYPES_EN = {
+    "list": "Letter",
+    "kartka": "Postcard",
+    "koperta": "Envelope",
+    "dokument wojskowy": "Military document",
+    "dokument urzędowy": "Official document",
+    "dyplom": "Diploma",
+    "legitymacja": "Identity card",
+    "fotografia": "Photograph",
+    "fotokopia": "Photocopy",
+    "militaria": "Militaria",
+    "druk okolicznościowy": "Commemorative print",
+    "maszynopis": "Typescript",
+    "rękopis": "Manuscript",
+    "album": "Album",
+    "karykatura": "Caricature",
+    "mapa": "Map",
+    "plakat": "Poster",
+}
+
+
+def _translate_title(pl_title):
+    """Translate a Polish title to English using dictionary substitution."""
+    en = pl_title
+    # Sort by length descending to replace longer phrases first
+    for pl, eng in sorted(_TITLE_DICT.items(), key=lambda x: -len(x[0])):
+        en = en.replace(pl, eng)
+    return en
+
+
 def generate_trans_details(trans):
     """Generate HTML for pieczecie, podpisy, osoby, znaki_szczegolne, kontekst."""
     parts = []
@@ -9178,24 +9336,26 @@ def generate_html():
     </div>'''
 
             card_id = obj["sygn"].replace("/", "-")
+            title_en = _translate_title(obj["tytul"])
+            typ_en = _DOC_TYPES_EN.get(obj["typ"], obj["typ"])
             series_html += f'''    <div class="card" id="card-{card_id}">
       <div class="card-img-wrap" data-src="{IMG_DIR}/{obj["photo"]}" data-title="{escape(obj["tytul"])}" onclick="openLightbox(this.dataset.src, this.dataset.title)">
         <img src="{IMG_DIR}/{obj["photo"]}" alt="{escape(obj["tytul"])}" loading="lazy">
       </div>
       <div class="card-body">
         <div class="card-sygn">{escape(obj["sygn"])}</div>
-        <h3 class="card-title">{escape(obj["tytul"])}</h3>
+        <h3 class="card-title"><span data-lang="pl">{escape(obj["tytul"])}</span><span data-lang="en">{escape(title_en)}</span></h3>
         <div class="card-meta-row">
           <span class="card-date">{escape(obj["data"])}</span>
-          <span class="card-type">{escape(typ_label)}</span>
+          <span class="card-type"><span data-lang="pl">{escape(typ_label)}</span><span data-lang="en">{escape(typ_en)}</span></span>
         </div>
-        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> {escape(obj["opis_fizyczny"])}</div>
-        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> {escape(obj["opis_tresci"])}</div>
+        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> <span data-lang="pl">{escape(obj["opis_fizyczny"])}</span></div>
+        <div class="card-field"><span class="field-label" data-label="tresc">Treść:</span> <span data-lang="pl">{escape(obj["opis_tresci"])}</span></div>
         <div class="card-field"><span class="field-label" data-label="tworca">Twórca:</span> {escape(obj["tworca"])}</div>
         <div class="card-field"><span class="field-label" data-label="jezyk">Język:</span> {escape(obj["jezyk"])}</div>
-        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> {escape(obj["kontekst"])}</div>
+        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> <span data-lang="pl">{escape(obj["kontekst"])}</span></div>
         {powiazania_html}
-        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> {escape(obj["stan"])}</div>
+        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> <span data-lang="pl">{escape(obj["stan"])}</span></div>
         {trans_html}
       </div>
     </div>\n'''
@@ -12222,13 +12382,13 @@ document.addEventListener('keydown', e => {{
 
 /* ─── LANGUAGE SYSTEM ─── */
 const FIELD_LABELS = {{
-  pl: {{ opis_fiz:'Opis fizyczny:', tresc:'Treść:', tworca:'Twórca:', jezyk:'Język:', kontekst:'Kontekst:', stan:'Stan:', powiazania:'Powiązania:' }},
-  en: {{ opis_fiz:'Physical description:', tresc:'Content:', tworca:'Creator:', jezyk:'Language:', kontekst:'Context:', stan:'Condition:', powiazania:'Related items:' }},
-  pt: {{ opis_fiz:'Descrição física:', tresc:'Conteúdo:', tworca:'Autor:', jezyk:'Idioma:', kontekst:'Contexto:', stan:'Estado:', powiazania:'Itens relacionados:' }},
-  de: {{ opis_fiz:'Physische Beschreibung:', tresc:'Inhalt:', tworca:'Urheber:', jezyk:'Sprache:', kontekst:'Kontext:', stan:'Zustand:', powiazania:'Verwandte Objekte:' }},
-  nl: {{ opis_fiz:'Fysieke beschrijving:', tresc:'Inhoud:', tworca:'Maker:', jezyk:'Taal:', kontekst:'Context:', stan:'Conditie:', powiazania:'Gerelateerde items:' }},
-  fr: {{ opis_fiz:'Description physique:', tresc:'Contenu:', tworca:'Créateur:', jezyk:'Langue:', kontekst:'Contexte:', stan:'État:', powiazania:'Objets liés:' }},
-  yi: {{ opis_fiz:'פֿיזישע באַשרײַבונג:', tresc:'אינהאַלט:', tworca:'שעפֿער:', jezyk:'שפּראַך:', kontekst:'קאָנטעקסט:', stan:'צושטאַנד:', powiazania:'פֿאַרבונדענע:' }}
+  pl: {{ opis_fiz:'Opis fizyczny:', tresc:'Treść:', tworca:'Twórca:', jezyk:'Język:', kontekst:'Kontekst:', stan:'Stan:', powiazania:'Powiązania:', nadawca:'Nadawca:', adresat:'Adresat:', miejsce:'Miejsce nadania:', droga:'Droga pocztowa:', cenzura:'Cenzura:', koperta:'Koperta:' }},
+  en: {{ opis_fiz:'Physical description:', tresc:'Content:', tworca:'Creator:', jezyk:'Language:', kontekst:'Context:', stan:'Condition:', powiazania:'Related items:', nadawca:'Sender:', adresat:'Recipient:', miejsce:'Place of dispatch:', droga:'Postal route:', cenzura:'Censorship:', koperta:'Envelope:' }},
+  pt: {{ opis_fiz:'Descrição física:', tresc:'Conteúdo:', tworca:'Autor:', jezyk:'Idioma:', kontekst:'Contexto:', stan:'Estado:', powiazania:'Itens relacionados:', nadawca:'Remetente:', adresat:'Destinatário:', miejsce:'Local de envio:', droga:'Via postal:', cenzura:'Censura:', koperta:'Envelope:' }},
+  de: {{ opis_fiz:'Physische Beschreibung:', tresc:'Inhalt:', tworca:'Urheber:', jezyk:'Sprache:', kontekst:'Kontext:', stan:'Zustand:', powiazania:'Verwandte Objekte:', nadawca:'Absender:', adresat:'Empfänger:', miejsce:'Versandort:', droga:'Postweg:', cenzura:'Zensur:', koperta:'Umschlag:' }},
+  nl: {{ opis_fiz:'Fysieke beschrijving:', tresc:'Inhoud:', tworca:'Maker:', jezyk:'Taal:', kontekst:'Context:', stan:'Conditie:', powiazania:'Gerelateerde items:', nadawca:'Afzender:', adresat:'Ontvanger:', miejsce:'Verzendplaats:', droga:'Postroute:', cenzura:'Censuur:', koperta:'Envelop:' }},
+  fr: {{ opis_fiz:'Description physique:', tresc:'Contenu:', tworca:'Créateur:', jezyk:'Langue:', kontekst:'Contexte:', stan:'État:', powiazania:'Objets liés:', nadawca:'Expéditeur:', adresat:'Destinataire:', miejsce:"Lieu d'envoi:", droga:'Voie postale:', cenzura:'Censure:', koperta:'Enveloppe:' }},
+  yi: {{ opis_fiz:'פֿיזישע באַשרײַבונג:', tresc:'אינהאַלט:', tworca:'שעפֿער:', jezyk:'שפּראַך:', kontekst:'קאָנטעקסט:', stan:'צושטאַנד:', powiazania:'פֿאַרבונדענע:', nadawca:'שיקער:', adresat:'באַקומער:', miejsce:'אָרט:', droga:'פּאָסטוועג:', cenzura:'צענזור:', koperta:'קאָנווערט:' }}
 }};
 
 const LANG_NAMES = {{ pl:'Polski', en:'English', pt:'Português', de:'Deutsch', nl:'Nederlands', fr:'Français', yi:'ייִדיש' }};
@@ -13761,13 +13921,13 @@ def _lang_js():
 
   /* Translate field labels on cards */
   const FIELD_LABELS = {
-    pl: { opis_fiz:'Opis fizyczny:', tresc:'Treść:', tworca:'Twórca:', jezyk:'Język:', kontekst:'Kontekst:', stan:'Stan:', powiazania:'Powiązania:' },
-    en: { opis_fiz:'Physical description:', tresc:'Content:', tworca:'Creator:', jezyk:'Language:', kontekst:'Context:', stan:'Condition:', powiazania:'Related items:' },
-    pt: { opis_fiz:'Descrição física:', tresc:'Conteúdo:', tworca:'Autor:', jezyk:'Idioma:', kontekst:'Contexto:', stan:'Estado:', powiazania:'Itens relacionados:' },
-    de: { opis_fiz:'Physische Beschreibung:', tresc:'Inhalt:', tworca:'Urheber:', jezyk:'Sprache:', kontekst:'Kontext:', stan:'Zustand:', powiazania:'Verwandte Objekte:' },
-    nl: { opis_fiz:'Fysieke beschrijving:', tresc:'Inhoud:', tworca:'Maker:', jezyk:'Taal:', kontekst:'Context:', stan:'Conditie:', powiazania:'Gerelateerde items:' },
-    fr: { opis_fiz:'Description physique:', tresc:'Contenu:', tworca:'Créateur:', jezyk:'Langue:', kontekst:'Contexte:', stan:'État:', powiazania:'Objets liés:' },
-    yi: { opis_fiz:'פֿיזישע באַשרײַבונג:', tresc:'אינהאַלט:', tworca:'שעפֿער:', jezyk:'שפּראַך:', kontekst:'קאָנטעקסט:', stan:'צושטאַנד:', powiazania:'פֿאַרבונדענע:' }
+    pl: { opis_fiz:'Opis fizyczny:', tresc:'Treść:', tworca:'Twórca:', jezyk:'Język:', kontekst:'Kontekst:', stan:'Stan:', powiazania:'Powiązania:', nadawca:'Nadawca:', adresat:'Adresat:', miejsce:'Miejsce nadania:', droga:'Droga pocztowa:', cenzura:'Cenzura:', koperta:'Koperta:' },
+    en: { opis_fiz:'Physical description:', tresc:'Content:', tworca:'Creator:', jezyk:'Language:', kontekst:'Context:', stan:'Condition:', powiazania:'Related items:', nadawca:'Sender:', adresat:'Recipient:', miejsce:'Place of dispatch:', droga:'Postal route:', cenzura:'Censorship:', koperta:'Envelope:' },
+    pt: { opis_fiz:'Descrição física:', tresc:'Conteúdo:', tworca:'Autor:', jezyk:'Idioma:', kontekst:'Contexto:', stan:'Estado:', powiazania:'Itens relacionados:', nadawca:'Remetente:', adresat:'Destinatário:', miejsce:'Local de envio:', droga:'Via postal:', cenzura:'Censura:', koperta:'Envelope:' },
+    de: { opis_fiz:'Physische Beschreibung:', tresc:'Inhalt:', tworca:'Urheber:', jezyk:'Sprache:', kontekst:'Kontext:', stan:'Zustand:', powiazania:'Verwandte Objekte:', nadawca:'Absender:', adresat:'Empfänger:', miejsce:'Versandort:', droga:'Postweg:', cenzura:'Zensur:', koperta:'Umschlag:' },
+    nl: { opis_fiz:'Fysieke beschrijving:', tresc:'Inhoud:', tworca:'Maker:', jezyk:'Taal:', kontekst:'Context:', stan:'Conditie:', powiazania:'Gerelateerde items:', nadawca:'Afzender:', adresat:'Ontvanger:', miejsce:'Verzendplaats:', droga:'Postroute:', cenzura:'Censuur:', koperta:'Envelop:' },
+    fr: { opis_fiz:'Description physique:', tresc:'Contenu:', tworca:'Créateur:', jezyk:'Langue:', kontekst:'Contexte:', stan:'État:', powiazania:'Objets liés:', nadawca:'Expéditeur:', adresat:'Destinataire:', miejsce:'Lieu d\'envoi:', droga:'Voie postale:', cenzura:'Censure:', koperta:'Enveloppe:' },
+    yi: { opis_fiz:'פֿיזישע באַשרײַבונג:', tresc:'אינהאַלט:', tworca:'שעפֿער:', jezyk:'שפּראַך:', kontekst:'קאָנטעקסט:', stan:'צושטאַנד:', powiazania:'פֿאַרבונדענע:', nadawca:'שיקער:', adresat:'באַקומער:', miejsce:'אָרט:', droga:'פּאָסטוועג:', cenzura:'צענזור:', koperta:'קאָנווערט:' }
   };
   const labels = FIELD_LABELS[lang] || FIELD_LABELS['en'];
   document.querySelectorAll('[data-label]').forEach(el => {
@@ -13920,6 +14080,8 @@ def _build_series_cards(filter_fn):
                 trans_html += '    </div>'
 
             card_id = obj["sygn"].replace("/", "-")
+            title_en = _translate_title(obj["tytul"])
+            typ_en = _DOC_TYPES_EN.get(obj["typ"], obj["typ"])
             series_html += '    <div class="card" id="card-' + card_id + '">\n'
             series_html += '      <div class="card-img-wrap" data-src="' + IMG_DIR + '/' + obj["photo"] + '" data-title="' + escape(obj["tytul"]) + '" onclick="openLightbox(this.dataset.src, this.dataset.title)">\n'
             series_html += '        <img src="' + IMG_DIR + '/' + obj["photo"] + '" alt="' + escape(obj["tytul"]) + '" loading="lazy">\n'
@@ -13929,13 +14091,13 @@ def _build_series_cards(filter_fn):
             if obj.get("sygn_k"):
                 sygn_display += ' <span class="card-sygn-k">' + escape(obj["sygn_k"]) + '</span>'
             series_html += '        <div class="card-sygn">' + sygn_display + '</div>\n'
-            series_html += '        <h3 class="card-title">' + escape(obj["tytul"]) + '</h3>\n'
+            series_html += '        <h3 class="card-title"><span data-lang="pl">' + escape(obj["tytul"]) + '</span><span data-lang="en">' + escape(title_en) + '</span></h3>\n'
             series_html += '        <div class="card-meta-row">\n'
             series_html += '          <span class="card-date">' + escape(obj["data"]) + '</span>\n'
-            series_html += '          <span class="card-type">' + escape(typ_label) + '</span>\n'
+            series_html += '          <span class="card-type"><span data-lang="pl">' + escape(typ_label) + '</span><span data-lang="en">' + escape(typ_en) + '</span></span>\n'
             series_html += '        </div>\n'
-            series_html += '        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> ' + escape(obj["opis_fizyczny"]) + '</div>\n'
-            series_html += '        <div class="card-field"><span class="field-label" data-label="tresc">Tre\u015b\u0107:</span> ' + escape(obj["opis_tresci"]) + '</div>\n'
+            series_html += '        <div class="card-field"><span class="field-label" data-label="opis_fiz">Opis fizyczny:</span> <span data-lang="pl">' + escape(obj["opis_fizyczny"]) + '</span></div>\n'
+            series_html += '        <div class="card-field"><span class="field-label" data-label="tresc">Tre\u015b\u0107:</span> <span data-lang="pl">' + escape(obj["opis_tresci"]) + '</span></div>\n'
             series_html += '        <div class="card-field"><span class="field-label" data-label="tworca">Tw\u00f3rca:</span> ' + escape(obj["tworca"]) + '</div>\n'
             # Epistolary fields (ISAD(G) extension for correspondence)
             if obj.get("nadawca"):
@@ -13951,9 +14113,9 @@ def _build_series_cards(filter_fn):
             if obj.get("koperta"):
                 series_html += '        <div class="card-field card-epistolary"><span class="field-label" data-label="koperta">Koperta:</span> ' + escape(obj["koperta"]) + '</div>\n'
             series_html += '        <div class="card-field"><span class="field-label" data-label="jezyk">J\u0119zyk:</span> ' + escape(obj["jezyk"]) + '</div>\n'
-            series_html += '        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> ' + escape(obj["kontekst"]) + '</div>\n'
+            series_html += '        <div class="card-field card-context"><span class="field-label" data-label="kontekst">Kontekst:</span> <span data-lang="pl">' + escape(obj["kontekst"]) + '</span></div>\n'
             series_html += '        ' + powiazania_html + '\n'
-            series_html += '        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> ' + escape(obj["stan"]) + '</div>\n'
+            series_html += '        <div class="card-condition"><span class="field-label" data-label="stan">Stan:</span> <span data-lang="pl">' + escape(obj["stan"]) + '</span></div>\n'
             series_html += '        ' + trans_html + '\n'
             series_html += '      </div>\n'
             series_html += '    </div>\n'
