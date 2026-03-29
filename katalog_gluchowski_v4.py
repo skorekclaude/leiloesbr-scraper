@@ -5347,8 +5347,8 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Aleksander Flejszer",
         "jezyk": "polski",
-        "kontekst": "Sierpień 1946. Krzysztof (lat 18) służy w Polish Forces C.M.F. 105 we Włoszech. Matka Wanda jest w Łodzi/Warszawie — komunikacja z synem możliwa tylko przez konspiracyjne kanały pocztowe (Paryż). Flejszer to farmaceuta, przedwojenny pracownik apteki wuja Krzysztofa. List dokumentuje mechanizm korespondencji rodzinnej w warunkach powojennej cenzury.",
-        "powiazania": ["ARG/V/175", "ARG/V/176"],
+        "kontekst": "Sierpień 1946. Krzysztof (lat 18) służy w Polish Forces C.M.F. 105 we Włoszech (por. ARG/V/67 — aerogram CMF). Matka Wanda jest w Łodzi/Warszawie — komunikacja z synem możliwa tylko przez konspiracyjne kanały pocztowe (Paryż). Flejszer to farmaceuta, przedwojenny pracownik apteki wuja Krzysztofa. List dokumentuje mechanizm korespondencji rodzinnej w warunkach powojennej cenzury. Krzysztof trafił do niewoli z Powstania (ARG/V/6, ARG/V/9), potem przez Stalag do Włoch i Anglii (ARG/V/27, ARG/V/87-88 Bodney).",
+        "powiazania": ["ARG/V/175", "ARG/V/176", "ARG/V/67", "ARG/V/6", "ARG/V/9", "ARG/V/87"],
         "stan": "Dobry",
         "wycena": "400-800 PLN"
     },
@@ -5363,8 +5363,8 @@ OBJECTS = [
         "seria": "V",
         "tworca": "Wanda Głuchowska",
         "jezyk": "polski",
-        "kontekst": "13 sierpnia 1946. Wanda Głuchowska (żona gen. Janusza, matka Krzysztofa) pisze z Łodzi do 18-letniego syna we Włoszech. Wanda odbudowała aptekę w Warszawie na rogu Kruczej i Hożej (dawna cukiernia Paciorkowskiego). Była aresztowana i wywieziona do Rosji, potem obóz w Rembertowie — ale w tym liście o tym nie pisze. List szedł konspiracyjną drogą przez Paryż. Dokument o ogromnej wartości emocjonalnej — matka i syn rozdzieleni wojną, on żołnierz PSZ, ona w komunistycznej Polsce.",
-        "powiazania": ["ARG/V/174", "ARG/V/176"],
+        "kontekst": "13 sierpnia 1946. Wanda (żona gen. Janusza, matka Krzysztofa) pisze z Łodzi. Ostatni list Krzysztofa DO rodziców z Powstania: ARG/V/6 ('Dotychczas żyję i jestem cały'). Od tego momentu — 2 lata ciszy. Apteka na Kruczej/Hożej (dawna cukiernia Paciorkowskiego). Wanda była aresztowana i wywieziona do Rosji, obóz w Rembertowie — ale o tym nie pisze. Krzysztof odpowie z Bodney (ARG/V/79 — Wigilia 46, ARG/V/83 — kartka świąteczna). List ciotki z IX.1944 (ARG/V/5) to ostatni kontakt rodziny przed rozdzieleniem.",
+        "powiazania": ["ARG/V/174", "ARG/V/176", "ARG/V/6", "ARG/V/5", "ARG/V/79", "ARG/V/83", "ARG/V/182", "ARG/V/183"],
         "stan": "Dobry",
         "wycena": "800-1500 PLN"
     },
