@@ -5500,7 +5500,7 @@ OBJECTS = [
     {
         "sygn": "ARG/V/201", "tytul": "List kpt. Jana Przybyszewskiego — Reims, wieści z Francji",
         "data": "15.IX.1945", "typ": "list", "seria": "V", "tworca": "Jan Przybyszewski",
-        "photo": "", "jezyk": "polski",
+        "photo": "originals_201_217/20260324_1734023118815046489450273_rot.jpg", "jezyk": "polski",
         "opis_fizyczny": "1 arkusz, dwustronnie, atrament niebiesko-szary.",
         "opis_tresci": "Przybyszewski z Reims. Pyta o nożkę Krzysztofa i klimat. Nawiązał kontakt z bratem w Hamburgu. Ankieta o powrocie do Kraju — 30% za, Amerykanie zdziwieni. Kartki chlebowe zniesione. Wybiera się do Paryża po zezwolenie na przejazd do Niemiec.",
         "kontekst": "Wrzesień 1945 — miesiące po wojnie. Przybyszewski w oddziałach wartowniczych pod Amerykanami we Francji. Krzysztof w CMF we Włoszech. 30% za powrotem do komunistycznej Polski.",
@@ -5509,7 +5509,7 @@ OBJECTS = [
     {
         "sygn": "ARG/V/202a", "tytul": "List stw. Zygmunta Ostrowskiego (I) — szuka ojca Krzysztofa",
         "data": "30.XII.1945", "typ": "list", "seria": "V", "tworca": "Zygmunt Ostrowski",
-        "photo": "", "jezyk": "polski",
+        "photo": "originals_201_217/20260324_1735536699334025058410662_rot.jpg", "jezyk": "polski",
         "opis_fizyczny": "1 kartka, nagłówek: 'Stw. Ostrowski Zygmunt / Polish Forces CMF 16633/2'.",
         "opis_tresci": "Ostrowski w Szkole Podchorążych. Pyta o adres ojca Krzysztofa (w Lubece). Pyta czy Krzysztof ma wiadomości o Matce. Sam dostał się do niewoli po kapitulacji.",
         "kontekst": "Sylwester 1945. Ostrowski i Krzysztof — towarzysze z Powstania (pluton 1112). Wzmianka o ojcu (gen. Janusz) w Lubece i Wandzie w Polsce.",
@@ -5527,7 +5527,7 @@ OBJECTS = [
     {
         "sygn": "ARG/V/203", "tytul": "Itinerarium wojenne Krzysztofa — od Warszawy do Bodney + notatki z fizyki",
         "data": "1944-1947", "typ": "notatka", "seria": "V", "tworca": "Krzysztof Głuchowski",
-        "photo": "", "jezyk": "polski",
+        "photo": "originals_201_217/20260324_1737405609298741604113920_rot.jpg", "jezyk": "polski",
         "opis_fizyczny": "1 arkusz w linie, dwustronnie. Atrament fioletowy + ołówek.",
         "opis_tresci": "AWERS: pełna trasa wojenna: Warszawa→Ożarów→Fallingbostel→Dorsten→Gerresheim→Reims→Marsylia→Włochy (CMF)→Bodney→Londyn. Lista miast z datami i ptaszkami. REWERS: notatki z fizyki (moduł Younga, moc, energia kinetyczna) + lista zakupów: 'aparat fotograficzny, buty, zegarek, rowerek, pamiątkę dla Gosi.'",
         "kontekst": "BEZCENNY DOKUMENT — kompletny szlak wojenny Krzysztofa od Powstania (V.1944) przez obozy jenieckie do Włoch i Anglii. Notatki z fizyki = nauka w Liceum 3 DSK. 'Pamiątka dla Gosi' — osobisty szczegół.",
@@ -5536,7 +5536,7 @@ OBJECTS = [
     {
         "sygn": "ARG/V/204", "tytul": "List pdo. Tadeusza Bystydżeńskiego — wiadomości z CMF",
         "data": "5.II.1946", "typ": "list", "seria": "V", "tworca": "Tadeusz Bystydżeński",
-        "photo": "", "jezyk": "polski",
+        "photo": "originals_201_217/20260324_1744295990070507963308681_rot.jpg", "jezyk": "polski",
         "opis_fizyczny": "1 kartka, dwustronnie, atrament czarny.",
         "opis_tresci": "Bystydżeński na służbie wartowniczej. Podaje adres Janusza. Jurek wyjechał z Anglii do Włoch — zaskoczenie. Pisze: 'dużo byłoby napisania aby to wszystko opisać.'",
         "kontekst": "Luty 1946. Sieć korespondencji żołnierskiej — wzajemne podawanie adresów, utrzymywanie kontaktu.",
@@ -5545,7 +5545,7 @@ OBJECTS = [
     {
         "sygn": "ARG/V/206a", "tytul": "List Jana Skrobeckiego (I) — winieta 5 KDP",
         "data": "22.I.1946", "typ": "list", "seria": "V", "tworca": "Jan Skrobecki",
-        "photo": "", "jezyk": "polski",
+        "photo": "originals_201_217/20260324_1748223633272231402712281_rot.jpg", "jezyk": "polski",
         "opis_fizyczny": "Papier z winietą 5 Kresowej Dywizji Piechoty (choinka na tarczy biało-czerwonej).",
         "opis_tresci": "Skrobecki wykładowca na kursie motorowym. Nelli wyjechał nad morze. Pytanie o 7 Pułk Ułanów. Wysłał uwierzytelnione odpisy.",
         "kontekst": "Styczeń 1946, CMF. Winieta 5 KDP — dokument z insygniami dywizyjnymi.",
@@ -5554,7 +5554,7 @@ OBJECTS = [
     {
         "sygn": "ARG/V/206b", "tytul": "List Jana Skrobeckiego (II) — do Krzysztofa i Janusza",
         "data": "16.IV.1946", "typ": "list", "seria": "V", "tworca": "Jan Skrobecki",
-        "photo": "", "jezyk": "polski",
+        "photo": "originals_201_217/20260324_1811564265226715002790673_rot.jpg", "jezyk": "polski",
         "opis_fizyczny": "Kartka, atrament.",
         "opis_tresci": "Drugi list Skrobeckiego do Krzysztofa.",
         "kontekst": "Kwiecień 1946, CMF.",
@@ -5563,7 +5563,7 @@ OBJECTS = [
     {
         "sygn": "ARG/V/207a", "tytul": "List Janusza Kamińskiego (I) — konspiracja pocztowa, wieści o Wandzie",
         "data": "19.IX.1946", "typ": "list", "seria": "V", "tworca": "Janusz Kamiński",
-        "photo": "", "jezyk": "polski",
+        "photo": "originals_201_217/20260324_1813377748033720388689926_rot.jpg", "jezyk": "polski",
         "opis_fizyczny": "2 karty jasnoniebieskie. Brownings Camp, Billingshurst, Sussex.",
         "opis_tresci": "Kamiński pośredniczy w kontakcie z Wandą. Ostatnia wiadomość o matce od syna Marka. 'Lepiej pisać do osób w Łodzi — wuja Włodka.' Adres musi być Bodney, nigdzie indziej. Pyta o naukę.",
         "kontekst": "Wrzesień 1946. Czwarta droga pocztowa (obok Paryża, Genewy, bezpośredniej). Kamiński w obozie w Sussex — sieć kontaktów emigracyjnych. Wanda prowadzi aptekę.",
@@ -5573,7 +5573,7 @@ OBJECTS = [
     {
         "sygn": "ARG/V/207b", "tytul": "List Kamińskiego (II) — aresztowanie Marka, wieści od Wandy",
         "data": "XI.1946", "typ": "list", "seria": "V", "tworca": "Janusz Kamiński",
-        "photo": "", "jezyk": "polski",
+        "photo": "originals_201_217/20260324_1820364793131874182220755_rot.jpg", "jezyk": "polski",
         "opis_fizyczny": "Kartka jasnoniebieska, dwustronnie.",
         "opis_tresci": "Marek (syn Kamińskiego) aresztowany i zwolniony. Przekazał wiadomości o Krzysztofie matce. Wanda prowadzi aptekę na Kruczej/Hożej. 'Jest Jej podobno ciężko i nie czuje się zbyt bezpieczona w Warszawie.' Pisać przez ciotkę Staśkę.",
         "kontekst": "Jesień 1946. Aresztowania w Polsce — nawet syn Kamińskiego. Wanda pod obserwacją. Apteka na rogu Kruczej i Hożej — potwierdzenie z listów Wandy (ARG/V/175, 182).",
@@ -5583,7 +5583,7 @@ OBJECTS = [
     {
         "sygn": "ARG/V/207c", "tytul": "List Kamińskiego (III) — deportacja Wandy do Rosji, apteka na Kruczej",
         "data": "5.II.1947", "typ": "list", "seria": "V", "tworca": "Janusz Kamiński",
-        "photo": "", "jezyk": "polski",
+        "photo": "originals_201_217/20260324_1822041488787664254964651_rot.jpg", "jezyk": "polski",
         "opis_fizyczny": "1 kartka jasnoniebieska, dwustronnie.",
         "opis_tresci": "Przepisuje ustęp z listu żony: 'Wanda prosi przytulić do serca Krzysia.' Apteka na rogu Kruczej i Hożej (dawna cukiernia Paciorkowskiego). Wanda była aresztowana, wywieziona do Rosji, potem obóz w Rembertowie. 'Teraz nie powinno Jej nic grozić — ale jest pod obserwacją.' Adres ciotki Staśki Armatysowej: ul. Żwirki 1d m.12.",
         "kontekst": "KLUCZOWY DOKUMENT — potwierdza deportację Wandy do Rosji i obóz w Rembertowie. Jedyne pisemne świadectwo represji wobec Wandy Głuchowskiej. Ciotka Staśka jako pośredniczka pocztowa. Apteka potwierdzona trzeci raz (ARG/V/175, 182, 207c).",
@@ -5593,7 +5593,7 @@ OBJECTS = [
     {
         "sygn": "ARG/V/209a", "tytul": "Pismo Koła b. Żołnierzy AK w Anglii (I)",
         "data": "ok. 1946-1947", "typ": "dokument", "seria": "V", "tworca": "Koło b. Żołnierzy AK",
-        "photo": "", "jezyk": "polski",
+        "photo": "originals_201_217/20260324_2019567151651057515116939_rot.jpg", "jezyk": "polski",
         "opis_fizyczny": "Pismo oficjalne.",
         "opis_tresci": "Pismo organizacji kombatanckiej AK w Anglii.",
         "kontekst": "Organizacja życia kombatanckiego na emigracji.",
@@ -5602,7 +5602,7 @@ OBJECTS = [
     {
         "sygn": "ARG/V/209b", "tytul": "Pismo Koła b. Żołnierzy AK w Anglii (II)",
         "data": "ok. 1946-1947", "typ": "dokument", "seria": "V", "tworca": "Koło b. Żołnierzy AK",
-        "photo": "", "jezyk": "polski",
+        "photo": "originals_201_217/20260324_1830495153922272646142757_rot.jpg", "jezyk": "polski",
         "opis_fizyczny": "Pismo oficjalne.",
         "opis_tresci": "Drugie pismo Koła AK.",
         "kontekst": "Organizacja kombatancka.",
@@ -5611,7 +5611,7 @@ OBJECTS = [
     {
         "sygn": "ARG/V/210", "tytul": "List Józka Dynowskiego — Poczta Dworcowa",
         "data": "ok. 1946", "typ": "list", "seria": "V", "tworca": "Józek Dynowski",
-        "photo": "", "jezyk": "polski",
+        "photo": "originals_201_217/20260324_1737405609298741604113920_rot.jpg", "jezyk": "polski",
         "opis_fizyczny": "List.",
         "opis_tresci": "List od Józka Dynowskiego.",
         "kontekst": "Korespondencja żołnierska.",
@@ -5620,7 +5620,7 @@ OBJECTS = [
     {
         "sygn": "ARG/V/211a", "tytul": "Air Letter Krahelskiego (I) — z CMF do Liceum 3 DSK",
         "data": "9.VIII.1945", "typ": "list", "seria": "V", "tworca": "Krahelski",
-        "photo": "", "jezyk": "polski",
+        "photo": "originals_201_217/20260324_1931188855098837933167592_rot.jpg", "jezyk": "polski",
         "opis_fizyczny": "Air Letter, CMF 153.",
         "opis_tresci": "List lotniczy z CMF do szkoły (Liceum 3 DSK, klasa IV).",
         "kontekst": "Sierpień 1945 — pierwsze miesiące po wojnie. Krzysztof w Liceum 3 DSK.",
@@ -5629,7 +5629,7 @@ OBJECTS = [
     {
         "sygn": "ARG/V/211b", "tytul": "Air Letter Krahelskiego (II) — RYSUNEK JELENIA",
         "data": "ok. 1945-1946", "typ": "list", "seria": "V", "tworca": "Krahelski",
-        "photo": "", "jezyk": "polski",
+        "photo": "originals_201_217/20260324_1949561247533166282117318_rot.jpg", "jezyk": "polski",
         "opis_fizyczny": "Air Letter z rysunkiem jelenia.",
         "opis_tresci": "Drugi Air Letter z rysunkiem JELENIA — symbol 7 Pułku Ułanów Lubelskich. Kryptonim 'Jeleń' = jednostka Krzysztofa w AK.",
         "kontekst": "Rysunek jelenia potwierdza przynależność do 7 P.Uł. — kryptonim 'Jeleń' (por. ARG/III/7, ARG/V/118).",
@@ -5638,7 +5638,7 @@ OBJECTS = [
     {
         "sygn": "ARG/V/213a", "tytul": "List W. Tudka (I) — ARGENTYNA",
         "data": "ok. 1947", "typ": "list", "seria": "V", "tworca": "W. Tudek",
-        "photo": "", "jezyk": "polski",
+        "photo": "originals_201_217/20260324_1848013971721794622694713_rot.jpg", "jezyk": "polski",
         "opis_fizyczny": "List z Argentyny.",
         "opis_tresci": "List od Tudka z Argentyny — emigracja żołnierzy PSZ do Ameryki Południowej.",
         "kontekst": "Argentyna jako cel emigracji — Krzysztof ostatecznie wyemigruje do Brazylii (por. ARG/V/153-156).",
@@ -5647,7 +5647,7 @@ OBJECTS = [
     {
         "sygn": "ARG/V/216b", "tytul": "List Mariana (II) — z paskiem wypłaty",
         "data": "ok. 1946-1947", "typ": "list", "seria": "V", "tworca": "Marian",
-        "photo": "", "jezyk": "polski",
+        "photo": "originals_201_217/20260324_1943446872492370937293977_rot.jpg", "jezyk": "polski",
         "opis_fizyczny": "List z dołączonym paskiem wypłaty.",
         "opis_tresci": "List od Mariana z paskiem wypłaty — dokument ekonomiczny życia żołnierzy PSZ.",
         "kontekst": "Pasek wypłaty — bezcenny dokument warunków materialnych żołnierzy polskich na Zachodzie.",
@@ -5656,7 +5656,7 @@ OBJECTS = [
     {
         "sygn": "ARG/V/217", "tytul": "List 'Cioci Kochanej' — rodzina",
         "data": "ok. 1946-1947", "typ": "list", "seria": "V", "tworca": "nieznana ('Ciocia')",
-        "photo": "", "jezyk": "polski",
+        "photo": "originals_201_217/20260324_2023121369666364563710064_rot.jpg", "jezyk": "polski",
         "opis_fizyczny": "List rodzinny.",
         "opis_tresci": "List od 'Cioci Kochanej' — rodzinna korespondencja.",
         "kontekst": "Korespondencja rodzinna — sieć opieki nad 18-letnim Krzysztofem na emigracji.",
