@@ -4623,6 +4623,130 @@ H. Łabędzki""",
         ],
         "kontekst": "Łabędzki wraca do komunistycznej Polski z Genewy. Obiecuje osobisty kontakt z Wandą. Pieniądze dla Krzysztofa — realna pomoc."
     },
+
+    "juras_180": {
+        "typ": "list",
+        "data": "21.X.1946",
+        "jezyk": "pl",
+        "nadawca": "Rose Schwok",
+        "adresat": "Krzysztof Głuchowski",
+        "transkrypcja": """Genève, le 21/X. 46.
+
+Szanowny Panie!
+
+Przed chwilą otrzymałam liścik Sz. Pana, w którym potwierdza Pan odbiór 3ch f., które szwagier posłał Panu przed swym wyjazdem do Polski.
+
+Pozostawił mi 6 f., które w tym liście załączam Panu, no i za kilka dni resztę 3 f. znów załączę Sz. Panu.
+
+Liścik dla matki Pana, przesłałam natychmiast wraz z mym listem do brata mego, który wręczy szwagrowi, a ten doręczy Pani Głuchowskiej.
+
+Załączam pozdrowienia
+R. Schwok""",
+        "osoby": ["Rose Schwok", "Krzysztof Głuchowski", "Henryk Łabędzki", "Wanda Głuchowska"],
+        "znaki_szczegolne": ["6 funtów w kopercie", "Łańcuch: Schwok → brat → Łabędzki → Wanda"],
+        "kontekst": "Schwok pośredniczy finansowo i pocztowo z Genewy."
+    },
+
+    "juras_181": {
+        "typ": "list",
+        "data": "3.XI.1946",
+        "jezyk": "pl",
+        "nadawca": "Rose Schwok",
+        "adresat": "Krzysztof Głuchowski",
+        "transkrypcja": """Genève, le 3/XI. 46.
+
+Szanowny Panie!
+
+Otrzymałam Pański liścik z dn. 30/X. 46, w którym potwierdza Pan odbiór 3ch f. dn. 21/X. 46 z drugiej przesyłki.
+
+W tym liście załączam ostatnie 3 trzy f., które te dwie przesyłki zostały mi powierzone. Jak zrozumiałam z listu Sz. Pana chce mi Pan przysłać liścik dla Matki Pańskiej, który przez Genewę/Szwajcarię mam posłać do Polski. Z przyjemnością mogę oddać przysługę Panu, lecz listy polecone z Anglji dochodzą do Polski. Myślę, że łatwiejsza droga jest wprost od Pana do Warszawy, nieprawdaż?
+
+W każdym bądź razie, jeśli cokolwiek Sz. Pan będzie potrzebował, oddać będę mogła przysługę, byle ile jest w mej możliwości.
+
+Z poważaniem
+Rose Schwok
+z domu Zimnowoda""",
+        "osoby": ["Rose Schwok", "Krzysztof Głuchowski", "Wanda Głuchowska"],
+        "znaki_szczegolne": ["Ostatnie 3 funty", "Rada: listy polecone z Anglii dochodzą do Polski", "Nazwisko panieńskie: Zimnowoda"],
+        "kontekst": "Schwok sugeruje bezpośrednią korespondencję. Przełom — konspiracyjna droga przez Genewę może nie być konieczna."
+    },
+
+    "juras_182": {
+        "typ": "list",
+        "data": "13.XII.1946",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "adresat": "Krzysztof Głuchowski",
+        "transkrypcja": """Warszawa 13/XII 46 r.
+
+Kochany Synku!
+
+Wysłałam już kilka listów, ale nie wiem czy cokolwiek dojdzie do Was — nieszczególnie jestem pewna obawy czy dojdą przez do Stefka. Synku kochany zbliżają się Święta i znów nie będziemy razem, bardzo to jest trujące dla nas. Liczyłam więc tylko ślę Ci życzenia żebyśmy mogli się jakoś prędko zobaczyć, do eras się tyle.
+
+Wielką to dla mnie radością są Twoje listy i od czasu kiedy dostałam pierwszy Twój list, żyję w oczekiwaniu. Pisz na Paryż.
+
+Krysieńku pamiętaj że sprawa Twoich stryjków jest najważniejszą sprawą dla nas obydwojga i że utrudniające wobec jej tylko Stefka. Oczywiście że nie możesz o nim zapominać, ale z czystym sumieniem z żadnych możliwości na korzyść jego nie rezygnuj. —
+
+U nas zima w pełni, mamy dziś 13 stopni, ale na antresoli ciepło, a ponieważ mam zastępstwo (zwykle pracuję po obiedzie) bo przyuczam jedną z pań żeby mnie mogła zastępić, a ja chcę jechać na kilka dni w okresie świątecznym na wyjazd, więc się zabrałam do pisania listu. Na Święta chcę jechać z Wandą S. do Selesia do rodziny, a później do Jadzi do Wrocławia.
+
+Co rodzinie Węgiernowskiej to od powiadania to bardzo dużo zmian nastąpiło bo: — stary pan Węgiernow umarł jeszcze w 44 r. Zygmuś wrócił z niewoli i ożenił się ze Stefcią Kuralczycówną, to przedszkolanką z Łanuch. Następnie wyszła za mąż Jadia za inż. Gmowskiego b. sympatycznego i pod każdym względem na poziomu pana, następnie ożenił się Adaś z nowo poznaną młodą panienką i nakoniec najsmutniejsza zmiana, umarła Ilżynka Januowa.
+
+Do Łodzi nie jadę choć bardzo na to naręczaj, ale jakoś tak chcę się przewietrzyć po 7-miu latach.
+
+Wczoraj był w aptece p. Trebińskiej bardzo mu się ucieszyłam, bo nie wiadomo tam dokąd czy żyje. Jest obecnie w Porumie i dorobił się córki. Dawałam mu do przeczytania Twoje listy i b. był z nich zadowolony.
+
+Tyle listów do Ciebie w ostatku dni napisałam że już nie wiesz co już wiesz, a co jeszcze nie.
+
+Syneczku — ogromnie wzrosło moje zainteresowanie mężczyznami, bo przecież chcę znaleźć takiego kto by na Twój wzrost. A teraz napisz ile ważysz i ile masz cm szerokości w barkach?
+
+Kończę już, całuję i ściskam mocno serdecznie
+Wandy""",
+        "osoby": ["Wanda Głuchowska", "Krzysztof Głuchowski", "Wanda S.", "Jadia", "Węgiernowscy", "Zygmuś", "Stefcia Kuralczycówna", "Adaś", "Ilżynka Januowa", "p. Trebiński"],
+        "znaki_szczegolne": ["Bezpośrednia poczta Warszawa→Anglia", "Sprawa stryjków — represje", "Chce się 'przewietrzyć po 7-miu latach'", "Pytanie o wzrost, wagę, barki syna"],
+        "kontekst": "Grudzień 1946, Warszawa. Wanda pisze bezpośrednio. Tęsknota za synem na Święta. Relacjonuje zmiany w rodzinie Węgiernowskich. 'Po 7-miu latach' — od 1939, bez przerwy w Warszawie/Polsce."
+    },
+
+    "juras_183": {
+        "typ": "list",
+        "data": "2.VII.1946",
+        "jezyk": "pl",
+        "nadawca": "Wanda Głuchowska",
+        "adresat": "Krzysztof Głuchowski",
+        "transkrypcja": """Warszawa 2/VII. 1946 r.
+
+Moje Drogie Kochane Drogie Dziecko!
+
+Jak bardzo cieszę się Twemi listami odczytując je po kilka razy dziennie, szukam w nich Ciebie takiego jakiego Cię znam — takiego jakiego jesteś dziś nie mam Cię, bo przecież dzieci nas mogą okropliwości zmienić. To też daleko drogi Synku jestem Ciebie taka ciekawa, bardzo bardzo się cieszę że nareszcie nawiązaliśmy korespondencję, a przyznajesz jak nam piszę tysiąc korespondencji, więc mnie i ja będę mogła bardzo pracę z Twoich listów:
+
+Jaki jest typ szkoły do której chodzisz?
+Jak mieszkacie — ilu przychodzi, czy też piszą w baraki?
+Czy nie dokucza Ci klimat, tymczasem to przyjechałeś z ciepła?
+Czy masz ciepłe rzeczy do ubrania?
+Czy palisz papierosy? Czy pijesz alkohol?
+Czy reperują zęby?
+Jak idzie Ci przyswajanie języka?
+Czy ojciec jakoś już nie pracuje?
+
+Pisz dziecenko że pod względem towarzyskim jesteś strona podle, więc tak się zastanawiam czy z Januszkiem Klep. stosunki nie są zbyt serdeczni. Bardzo mi chciała żebyście naprawdę byli przyjaciółmi. Myślę że wiele zawdzięczamy Losi Kl. jeśli chodzi o Starówkę — Czasem to mi się wydaje że to że żyjem to jej opieka.
+
+To że jesteś w takiej przyjaźni z G.D. bardzo mnie cieszy, bo to bardzo przyjemny chłopiec. W zeszłym tygodniu spotkałam p. Lewię ślicznie wyglądała i była doskonale ubrana — przyjechała z Berlina na dwa dni samochodem po żywność bo mówi że tam nic nie można dostać. A u nas wszystkiego wbród.
+
+Bez ograniczeń a można dostać żeby tylko były pieniądze. Gorzej jest z wełną, skórą, lekami — wszystko się kończy. W tej chwili dolar stoi 700 zł (papierowy), ale jakieś dwa tygodnie temu to stał 1400 zł.
+
+Dla orjentacji podaję ceny:
+Cukier 180 zł. Masło 480. Mąka pszenna 90 zł. Bułka biała kajzerka 5 zł. Chleb 50 zł. Szynka 500 zł. Kiełbasa 350. Pończochy / buciki damskie półbuty 15 tyś. Wysokie buty oficerskie 40 tyś. Dobra wełna na ubranie 10 do 15 tyś. Proszek od bólu głowy 12 zł 50 gr. Magister farmacji zarabia 18 tysięcy, ale zwykły urzędnik państwowy 16 kategorii 4 500 zł.""",
+        "osoby": ["Wanda Głuchowska", "Krzysztof Głuchowski", "Januszek Klep.", "Losia Kl.", "G.D.", "p. Lewia"],
+        "znaki_szczegolne": [
+            "Najdłuższy list Wandy — 4 strony",
+            "Lista cen Warszawy VII.1946 — dokument ekonomiczny",
+            "Dolar 700 zł (spadł z 1400)",
+            "8 pytań matki do syna",
+            "'Czy palisz papierosy? Czy pijesz alkohol?'",
+            "Wzmianka o Starówce — 'że żyjem to jej opieka' (Losia Kl.)",
+            "Berlin: 'nic nie można dostać', Warszawa: 'wszystkiego wbród'"
+        ],
+        "kontekst": "Lipiec 1946 — chronologicznie NAJWCZEŚNIEJSZY list Wandy. Bezcenny dokument: ceny, kursy walut, warunki życia w Warszawie. Matka czyta listy syna 'po kilka razy dziennie.' 8 pytań — od szkoły przez papierosy po zęby. Wzmianka o Losi Kl. i Starówce — ktoś kto ich uratował w Powstaniu."
+    },
 }
 
 # ═══════════════════════════════════════════════════════════════
