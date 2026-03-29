@@ -420,7 +420,13 @@ Wódka fucha już nie jest na dawnej posadzie, ale w dalszym ciągu pracuje w ty
 
 Co do towarzystwa to femmel nie może być liczony w ogóle. Jest dobrym kolegą i też współmilczkiem, ale jest dość ograniczony. Zresztą o takie towarzystwo jak jego mi nie chodzi. Chodzi mi przede wszystkim o towarzystwo kobiece, a na drugim miejscu kulturalne i inteligentne. Kolegów mam dosyć. Żyję przecież z nimi. Życie zbiorowe jest dobre ale w miarę.
 
-[strony 3-4 — do uzupełnienia]""",
+[Strona 4:]
+
+Co do tego że niewdzięczna Mama może sypać głowę popiołem, to znów mylisz się całkowicie. Bomby niestety nie były podporządkowane jej życzeniom. Zresztą przez ostatnie najcięższe dwa dni nie było już nikogo na stanowisku. Aby żyć trzeba mieć więcej szczęścia niż rozumu. Zresztą wcale nie dziwię się, bo w Niemczech byłem bardzo bliski do śmierci, ale też miałem szczęście. Nie wiem czy Mateńka wie. Pracując w niewoli w M. Gladbach przy umacnianiu gruzów, przeszedłem wiele nalotów Anglo-Amerykańskich. Podczas jednego z nich dnia 1-lutego 1945 bomba uderzyła w piwnicę sąsiedniego domu (~3-4 m odemnie). Wypchnęła ona ścianę do naszej piwnicy i postawiła mnie na nogi. Oparzyła ona nogę. Oparzenie było III stopnia. Dokładnie miałem oparzoną lewą stopę od wewnątrz. Pojechałem do szpitala w Gerresheimie pod Düsseldorfem. Wyleczyli mnie tam i teraz mam jedynie bliznę, która nie przeszkadza ani nie dokucza. (wymiary 7 cm x 2 cm)
+
+Przesyłkę dostałem, ale proszę Cię Mateńko nie przysyłaj mi więcej, gdyż mam ich dosyć. Zresztą dostałem 9 zł co odpowiada mojej półtora miesięcznej pensji. A co nie jest wcale wielką sumą. Zresztą po przeliczeniu powinienem od nich dostać 12 zł
+
+[strona 3 — do uzupełnienia]""",
         "pieczecie": [],
         "podpisy": ["Krzysztof (domyślnie — list do matki)"],
         "osoby": ["Krzysztof Głuchowski (nadawca)", "Matka Głuchowska (adresatka)", "Mattoni (?)", "Rudenko (?)"],
