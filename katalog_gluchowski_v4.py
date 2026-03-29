@@ -8706,6 +8706,13 @@ SPECIAL_TRANSCRIPTION_MAP = {
     "ARG/II/14":  "janusz_014",
     "ARG/II/27":  "janusz_027",
     "ARG/II/36":  "janusz_036",
+    # ── Priorytet 4 (29.III.2026) ──
+    "ARG/I/5":    "marian_005",
+    "ARG/II/4":   "janusz_004",
+    "ARG/II/21":  "janusz_021",
+    "ARG/II/24":  "janusz_024",
+    "ARG/V/68":   "juras_068",
+    "ARG/VI/12":  "varia_012",
 }
 
 

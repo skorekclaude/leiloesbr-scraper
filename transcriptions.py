@@ -7261,7 +7261,258 @@ Leszek otrzymalem -- nudzi[?]""",
     },
 
     # ═══════════════════════════════════════════════════════════════
-    # SERIA II — Gen. dyw. Janusz Julian Głuchowski (1888-1964)
+    # Priorytet 4 -- reszta (ARG/I/5, II/4, II/21, II/24, V/68, VI/12)
+    # ═══════════════════════════════════════════════════════════════
+
+    # ARG/I/5 -- Koperta urzedowa PON + Karta Polowa Legionow
+    "marian_005": {
+        "typ": "Koperta urzedowa + Karta Polowa",
+        "data": "1914-1918",
+        "jezyk": "polski",
+        "nadawca": "Polska Organizacja Narodowa / Legiony Polskie",
+        "adresat": "Obywatel Maryan Gluchowski, Komisarz na powiat Czestochowski w Czestochowie",
+        "strony": ["Kolekcja_Gluchowski_Katalog_Tematyczny_p03_img02.jpeg"],
+        "transkrypcja": """[KOPERTA:]
+POLSK[A ORGANIZACJA] NARODOWA
+KOMISYA ORGANIZACYJNA
+
+Do                                [stempel:] URZEDOWO
+
+Obywatela
+Maryana Gluchowskiego
+Komisarza na powiat Czestochowski
+w Czestochowie
+
+[KARTA POLOWA:]
+KARTA POLOWA LEGIONOW
+FELDPOSTKARTE
+
+[godlo: orzel z litera L]
+
+Nadawca: [puste]""",
+        "pieczecie": ["Stempel URZEDOWO"],
+        "podpisy": [],
+        "osoby": ["Marian (Marjan) Gluchowski -- komisarz PON, powiat czestochowski"],
+        "znaki_szczegolne": [
+            "KOPERTA PON -- Komisja Organizacyjna do Komisarza Mariana",
+            "Potwierdza: Marian = Komisarz na powiat Czestochowski",
+            "Stempel URZEDOWO -- korespondencja oficjalna",
+            "KARTA POLOWA LEGIONOW -- Feldpostkarte z orlem legionowym",
+            "Puste -- niewykorzystana karta polowa"
+        ],
+        "kontekst": "Koperta urzedowa Polskiej Organizacji Narodowej (PON) adresowana do Mariana Gluchowskiego jako Komisarza na powiat Czestochowski. Potwierdza role Mariana w PON (karta nr 2 -- wspolzalozyciel). Dolaczona czysta Karta Polowa Legionow z godlem orlim."
+    },
+
+    # ARG/II/4 -- List pozegnalny gen. Dabkowskiego
+    "janusz_004": {
+        "typ": "List urzedowy odreczny",
+        "data": "1.VII.1928[?]",
+        "jezyk": "polski",
+        "nadawca": "Gen. [M.?] Dabkowski, Dowodca 7 Dywizji Piechoty",
+        "adresat": "Gen. Janusz Gluchowski",
+        "strony": ["Kolekcja_Gluchowski_Katalog_Tematyczny_p05_img01.jpeg"],
+        "transkrypcja": """DOWODCA 7 DYWIZJI PIECHOTY                     CZESTOCHOWA
+gen. M. Dabkowski[?]                                1. VII. [?]8
+
+Szanowny Panie Generale!
+
+Szroce[?] mi zal, ze nie moge byc na pozegna-
+niu Pana Generala. Niestety, z zasmiu
+i z rogodem co udaje, tak mi naprosto[?],
+ze przeszkodaly mam nieodwobalnie rejzy[?].
+Prosze nie przejmowac to soraz[?] moje
+wlasne podtylkowanie w maly, kolejnosci[?]
+przionke[?] Pana Generala do swoich wspol-
+robotnikow w Centrum, a przedewszystkiem
+za te atmosfere radosci pracy, w ktorej
+Polne i olszine[?] przebywalimy wi[?] olwie ustaw-
+icznych trudnosci. --
+
+Jako otoside[?], ktory miot chwilowe[?]
+madzice wsze[?] szlat[?] i unielej stanky[?], po-
+szezgory od ustwarodnie[?] poszugme[?] w Ligne[?]
+F.I.V., pozwalam sobie i caly olszerstwi[?]
+polwidzie[?], ze Praca Pana Generala --""",
+        "pieczecie": [],
+        "podpisy": ["Gen. M.[?] Dabkowski"],
+        "osoby": ["Gen. M.[?] Dabkowski (nadawca, d-ca 7 DP, Czestochowa)", "Gen. Janusz Gluchowski (adresat)"],
+        "znaki_szczegolne": [
+            "Naglowek: DOWODCA 7 DYWIZJI PIECHOTY, CZESTOCHOWA",
+            "List pozegnalny -- pochwala pracy Gluchowskiego",
+            "'Atmosfera radosci pracy' -- ciepla ocena wspolpracy",
+            "Wspomniane trudnosci ('ustawicznych trudnosci')",
+            "Papier firmowy 7 DP",
+            "Pismo odreczne atramentem, czytelne"
+        ],
+        "kontekst": "List pozegnalny gen. Dabkowskiego (d-cy 7 Dywizji Piechoty, Czestochowa) do gen. Gluchowskiego. Pochwala prace Gluchowskiego w Centrum i atmosfere wspolpracy. Datowanie ok. 1928 -- przeniesienie Gluchowskiego na stanowisko komendanta Wyzszych Studiow Wojskowych."
+    },
+
+    # ARG/II/21 -- List prywatny do Pulkownika Gluchowskiego (1925)
+    "janusz_021": {
+        "typ": "List prywatny + koperta",
+        "data": "4.VIII.1925[?]",
+        "jezyk": "polski",
+        "nadawca": "Nieustalony",
+        "adresat": "Plk. J. Gluchowski",
+        "strony": ["Kolekcja_Gluchowski_Katalog_Tematyczny_p11_img01.jpeg"],
+        "transkrypcja": """[KOPERTA -- gora skanu:]
+51
+
+Wielmozny Pan
+Pulkownik J. Gluchowski
+
+[LIST -- dolna czesc skanu:]
+[Monogram P -- niebieski, identyczny jak na liscie A. Pilsudskiego]
+
+17/8 '31.
+
+Szanowny Panie Pulkowniku!
+[...]
+
+[UWAGA: Ten skan zawiera te same dokumenty co ARG/II/36 (list Adama Pilsudskiego).
+Koperta z adresem 'Wielmozny Pan Pulkownik J. Gluchowski' nalezy do tego samego listu.
+Transkrypcja pelna -- patrz janusz_036.]""",
+        "pieczecie": [],
+        "podpisy": [],
+        "osoby": ["Plk. Janusz Gluchowski (adresat)"],
+        "znaki_szczegolne": [
+            "KOPERTA z adresem -- na tym samym skanie co ARG/II/36",
+            "Wielmozny Pan Pulkownik J. Gluchowski -- tytulatura",
+            "Nr archiwum 51 -- olow. na kopercie",
+            "Patrz janusz_036 dla pelnej transkrypcji listu"
+        ],
+        "kontekst": "Koperta do listu Adama Pilsudskiego (ARG/II/36). Skan zawiera koperte z adresem i poczatek listu -- pelna transkrypcja w janusz_036."
+    },
+
+    # ARG/II/24 -- List do Generala -- Londyn 14.IX.1943
+    "janusz_024": {
+        "typ": "List odreczny",
+        "data": "14.IX.1943",
+        "jezyk": "polski",
+        "nadawca": "Nieustalony (oficer?)",
+        "adresat": "Gen. Janusz Gluchowski",
+        "strony": ["Kolekcja_Gluchowski_Katalog_Tematyczny_p13_img03.jpeg"],
+        "transkrypcja": """[nieczytelne] 14. IX. 1943
+
+Szanowny Panie Generale!
+
+Opis istrzni[?] ino klody[?] poslu[?] obrig to w
+strony mni dom owy[?] do jedwie Generala -- gdyz[?] on marzeni bompf[?]
+grupy poloty kolodnej[?] turem li[?]. „Abgrein" musziq --
+
+    tobe bremy zamalowac tu a dom borg
+rozna szybszlonie[?] opolu zamorze[?] i bys niurloba -- Albo do
+to by Morleomik[?] slodby oo Pomi[?] anlow do 'strzac i niutrol[?]-
+mai onyzile -- na bi kosk imimia[?] jestem Generala --
+
+    klise[?] Slomy Stoy[?] General Poroze[?]
+krochay ab[?] i Grachowe na imiaglicze dmy i fomy
+a imoimale[?] Sroborni procy dok soma Grobici[?] i broali[?]
+leczymry mni[?] generak Miazy[?] pomy Mastel Ilnacl[?] i rozpocw-
+siura[?] mentowi[?] ni w opisze[?] i nikonuslimy[?] rostrze --""",
+        "pieczecie": [],
+        "podpisy": [],
+        "osoby": ["Nadawca nieustalony (oficer?)", "Gen. Janusz Gluchowski (adresat -- 'Szanowny Panie Generale')"],
+        "znaki_szczegolne": [
+            "Londyn, 14.IX.1943 -- Gluchowski jako GOC Polish Troops",
+            "Pismo BARDZO trudne do odczytu -- atrament, pochyle",
+            "Wymaga profesjonalnego HTR",
+            "Skan maly -- tekst rozmazany"
+        ],
+        "kontekst": "List do gen. Gluchowskiego z Londynu, 14.IX.1943. Gluchowski pelnil wowczas funkcje GOC Polish Troops in Great Britain. Pismo bardzo trudne do odczytu -- transkrypcja orientacyjna."
+    },
+
+    # ARG/V/68 -- List reczny z Bahia/Salvador, Brazylia
+    "juras_068": {
+        "typ": "List odreczny",
+        "data": "lata 50. XX w.",
+        "jezyk": "polski",
+        "nadawca": "Nieustalony (Bahia, Brazylia)",
+        "adresat": "Krzysztof Gluchowski",
+        "strony": ["juras_002_page3.jpeg"],
+        "transkrypcja": """Polish Children Camp
+Bahia[?]
+[Miasto?] Polanowice[?] Bueha[?]
+
+'Szuj-di-marrzy'[?] 'Nichor'[?]
+
+'Kubny zalinowy[?] rodowa tno[?] Ster[?] taj dlugo oua
+takow[?] uzylpidamu[?] tu San markien[?] poszemyg[?] juz do[?]
+kwatery Chrypolickien[?] koodowiesz[?] co jej faktycz[?] odyr[?]
+Odzwebrasy[?] Panu udkawom, na mam w Polski[?] jabla[?]
+cie ma tu fajno apuka plinkowa[?] bu europy poglodowem
+nie ma to nie ma[?] trzeba Bic bu cuosry podemos[?]
+dom olazie podor tego[?] tozlo. W. rypryc[?] fajm ze ojcazny[?]
+obiera[?] pracowiec tu odpolocinst[?] [nieczytelne]
+[...dalszy tekst rownie nieczytelny...]""",
+        "pieczecie": [],
+        "podpisy": [],
+        "osoby": ["Nadawca nieustalony (Bahia, Brazylia)", "Krzysztof Gluchowski (adresat)"],
+        "znaki_szczegolne": [
+            "Polish Children Camp -- oboz polski w Bahia (Brazylia)",
+            "Pismo BARDZO trudne -- olowek na poz. papierze",
+            "Lata 50. -- emigracja brazylijska",
+            "Wymaga HTR"
+        ],
+        "kontekst": "List z Bahia/Salvador (Brazylia), prawdopodobnie z obozu polskich dzieci (Polish Children Camp). Pismo olowkowe, nieczytelne -- transkrypcja orientacyjna. Dokumentuje polskie osrodki emigracyjne w Brazylii."
+    },
+
+    # ARG/VI/12 -- Odpowiedz Ambasady Izraela w Londynie
+    "varia_012": {
+        "typ": "List urzedowy maszynopisowy",
+        "data": "22.V.1958",
+        "jezyk": "angielski",
+        "nadawca": "A. Kidron, Press Attache, Embassy of Israel",
+        "adresat": "Mr. K. Gluchowski, 42 Emperors Gate, London S.W.7.",
+        "strony": ["Kolekcja_Gluchowski_KATALOG_NAUKOWY_p17_img03.jpeg"],
+        "transkrypcja": """EMBASSY OF ISRAEL          [godlo Izraela]          [hebrajski]
+
+AK/                                   2, Palace Green,
+                                       London, W.8.
+
+                                       22 May 1958
+
+
+Dear Mr. Gluchowski,
+
+    In reply to your letter of 18 May
+concerning your set of paper currency and coins,
+issued in Lodz ghetto, I would suggest you write
+to:-
+
+              Yad Vashem,
+              P.O.B. 84,
+              Jerusalem.
+
+
+                            Yours sincerely,
+
+                            A. Kidron
+                            Press Attache
+
+Mr. K. Gluchowski,
+42, Emperors Gate,
+London, S.W.7.""",
+        "pieczecie": ["Godlo panstwowe Izraela (menora)"],
+        "podpisy": ["A. Kidron, Press Attache"],
+        "osoby": [
+            "A. Kidron (Attache prasowy Ambasady Izraela w Londynie)",
+            "K. Gluchowski (adresat -- Krzysztof lub gen. Janusz, 42 Emperors Gate)"
+        ],
+        "znaki_szczegolne": [
+            "AMBASADA IZRAELA -- oficjalna odpowiedz",
+            "Dotyczy WALUT GETTOWYCH z Lodzi (Lodz ghetto currency)",
+            "Sugestia kontaktu z YAD VASHEM, Jerozolima",
+            "Adres: 42 Emperors Gate, London S.W.7. -- adres gen. Janusza",
+            "22 maja 1958 -- Krzysztof mial 31 lat",
+            "Papier firmowy z menora i napisem hebrajskim",
+            "BEZBLEDNA TRANSKRYPCJA -- maszynopis pelny, czytelny"
+        ],
+        "kontekst": "Odpowiedz Ambasady Izraela na list Gluchowskiego z 18.V.1958 dotyczacy kolekcji walut gettowych z Lodzi. Attache prasowy A. Kidron sugeruje kontakt z Yad Vashem w Jerozolimie. Adres 42 Emperors Gate = adres gen. Janusza Gluchowskiego (por. British Aliens Registration). Gluchowski posiadal kolekcje banknotow i monet z getta lodzkiego -- swiadectwo Holocaustu w polskiej kolekcji wojskowej."
+    },
+
+    # ═══════════════════════════════════════════════════════════════
+    # SERIA II — Gen. dyw. Janusz Julian Gluchowski (1888-1964)
     # ═══════════════════════════════════════════════════════════════
 
     # ARG/II/14 — List odręczny Śmigłego-Rydza do Głuchowskiego
