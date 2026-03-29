@@ -5268,7 +5268,7 @@ Całuję Cię Krysieńku mocno i serdecznie
 Ciotka Kochana.
 ARCHIWUM RODZINY GŁUCHOWSKICH — Transkrypcje korespondencji ARG/V/201–217
 Opracowanie: sesja katalogowa 24.III.2026 | Opisy na podstawie analizy wizualnej fotografii""",
-        "kontekst": "List „Cioci Kochanej""
+        "kontekst": "List Cioci Kochanej"
     },
 
 }
