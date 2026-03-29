@@ -5544,7 +5544,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/206a", "tytul": "List Jana Skrobeckiego (I) — winieta 5 KDP",
-        "data": "22.I.1946", "typ": "list", "seria": "V", "tworca": "Joanna Skrobecki",
+        "data": "22.I.1946", "typ": "list", "seria": "V", "tworca": "J. Skrobecki",
         "photo": "", "jezyk": "polski",
         "opis_fizyczny": "Papier z winietą 5 Kresowej Dywizji Piechoty (choinka na tarczy biało-czerwonej).",
         "opis_tresci": "Skrobecki wykładowca na kursie motorowym. Nelli wyjechał nad morze. Pytanie o 7 Pułk Ułanów. Wysłał uwierzytelnione odpisy.",
@@ -5553,7 +5553,7 @@ OBJECTS = [
     },
     {
         "sygn": "ARG/V/206b", "tytul": "List Jana Skrobeckiego (II) — do Krzysztofa i Janusza",
-        "data": "16.IV.1946", "typ": "list", "seria": "V", "tworca": "Joanna Skrobecki",
+        "data": "16.IV.1946", "typ": "list", "seria": "V", "tworca": "J. Skrobecki",
         "photo": "", "jezyk": "polski",
         "opis_fizyczny": "Kartka, atrament.",
         "opis_tresci": "Drugi list Skrobeckiego do Krzysztofa.",
