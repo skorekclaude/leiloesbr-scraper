@@ -230,7 +230,7 @@ OBJECTS = [
         "wycena": "600-1600 PLN"
     },
     {
-        "sygn": "ARG/I/5",
+        "sygn": "ARG/I/5", "sygn_k": "ARG/I/K-001",
         "photo": "Kolekcja_Gluchowski_Katalog_Tematyczny_p03_img02.jpeg",
         "tytul": "Koperta urzędowa PON + Karta Polowa Legionów",
         "data": "1914–1918",
@@ -300,7 +300,7 @@ OBJECTS = [
         "wycena": "300-800 PLN"
     },
     {
-        "sygn": "ARG/II/4",
+        "sygn": "ARG/II/4", "sygn_k": "ARG/II/K-001",
         "photo": "Kolekcja_Gluchowski_Katalog_Tematyczny_p05_img01.jpeg",
         "tytul": "List pożegnalny gen. Dąbkowskiego — pochwała pracy Głuchowskiego w Centrum",
         "data": "1.VII.1928 (?)",
@@ -466,7 +466,7 @@ OBJECTS = [
 
     # -- Podseria II/D: Kariera ministerialna --
     {
-        "sygn": "ARG/II/14",
+        "sygn": "ARG/II/14", "sygn_k": "ARG/II/K-002",
         "photo": "Kolekcja_Gluchowski_Katalog_Tematyczny_p06_img02.jpeg",
         "tytul": "List odręczny Śmigłego-Rydza do Głuchowskiego",
         "data": "ok. 1935–1939",
@@ -580,7 +580,7 @@ OBJECTS = [
 
     # -- Podseria II/E: Korespondencja i fotokopie --
     {
-        "sygn": "ARG/II/21",
+        "sygn": "ARG/II/21", "sygn_k": "ARG/II/K-003",
         "photo": "Kolekcja_Gluchowski_Katalog_Tematyczny_p11_img01.jpeg",
         "tytul": "List prywatny do Pułkownika Głuchowskiego (1925)",
         "data": "4.VIII.1925",
@@ -630,7 +630,7 @@ OBJECTS = [
 
     # -- Podseria II/F: PSZ na Zachodzie --
     {
-        "sygn": "ARG/II/24",
+        "sygn": "ARG/II/24", "sygn_k": "ARG/II/K-004",
         "photo": "Kolekcja_Gluchowski_Katalog_Tematyczny_p13_img03.jpeg",
         "tytul": "List do Generała — Londyn 14.IX.1943",
         "data": "14.IX.1943",
@@ -680,7 +680,7 @@ OBJECTS = [
 
     # -- Podseria II/G: Emigracja i dokumenty późne --
     {
-        "sygn": "ARG/II/27",
+        "sygn": "ARG/II/27", "sygn_k": "ARG/II/K-005",
         "photo": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p09_img01.jpeg",
         "tytul": "List gen. Kazimierza Sosnkowskiego z Kanady do gen. Głuchowskiego — 28 V 1964, Arundel, P.Qué.",
         "data": "28.V.1964",
@@ -833,7 +833,7 @@ OBJECTS = [
         "wycena": "300-800 PLN"
     },
     {
-        "sygn": "ARG/III/4",
+        "sygn": "ARG/III/4", "sygn_k": "ARG/III/K-001",
         "photo": "Seria_29z_p07_img02.jpeg",
         "tytul": "List ojca do syna — rewers",
         "data": "XI.1944",
@@ -897,7 +897,7 @@ OBJECTS = [
         "wycena": "500-1200 PLN"
     },
     {
-        "sygn": "ARG/III/8",
+        "sygn": "ARG/III/8", "sygn_k": "ARG/III/K-002",
         "photo": "Seria_29z_p02_img02.jpeg",
         "tytul": "List obozowy do Krysiu — 16.X.1944, monotonia, Stryj",
         "data": "16.X.1944",
@@ -1001,7 +1001,7 @@ OBJECTS = [
 
     # -- Podseria V/B: Powstanie Warszawskie --
     {
-        "sygn": "ARG/V/5",
+        "sygn": "ARG/V/5", "sygn_k": "ARG/V/K-001",
         "photo": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p24_img01.jpeg",
         "tytul": "List od ciotki do Krzysztofa — 'Krychu! Wszyscy jesteśmy zdrowi' — 24.IX.1944, ostatnie dni Powstania",
         "data": "24.IX.1944",
@@ -1017,7 +1017,7 @@ OBJECTS = [
         "wycena": "300-800 PLN"
     },
     {
-        "sygn": "ARG/V/6",
+        "sygn": "ARG/V/6", "sygn_k": "ARG/V/K-002",
         "photo": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p24_img02.jpeg",
         "tytul": "List Krzysztofa do rodziców z Powstania — 'Dotychczas żyję i jestem cały' — Warszawa, 26.VIII.1944",
         "data": "26.VIII.1944",
@@ -1133,7 +1133,7 @@ OBJECTS = [
 
     # -- Podseria V/D: Korespondencja obozowa --
     {
-        "sygn": "ARG/V/13",
+        "sygn": "ARG/V/13", "sygn_k": "ARG/V/K-003",
         "photo": "Seria_29z_p03_img02.jpeg",
         "tytul": "List Krzysztofa z obozu — nr 141009",
         "data": "1944–1945",
@@ -1181,7 +1181,7 @@ OBJECTS = [
         "wycena": "200-500 PLN"
     },
     {
-        "sygn": "ARG/V/16",
+        "sygn": "ARG/V/16", "sygn_k": "ARG/V/K-004",
         "photo": "Seria_29z_p06_img01.jpeg",
         "tytul": "List z obozu do stryja generała — 19.X.1944",
         "data": "19.X.1944",
@@ -1213,7 +1213,7 @@ OBJECTS = [
         "wycena": "150-400 PLN"
     },
     {
-        "sygn": "ARG/V/18",
+        "sygn": "ARG/V/18", "sygn_k": "ARG/V/K-005",
         "photo": "Seria_29z_p08_img01.jpeg",
         "tytul": "List do ojca Stefana z obozu — 'Kochany Tatuśku!' — szczegółowy opis życia obozowego, XI.1944",
         "data": "XI.1944",
@@ -1229,7 +1229,7 @@ OBJECTS = [
         "wycena": "200-600 PLN"
     },
     {
-        "sygn": "ARG/V/19",
+        "sygn": "ARG/V/19", "sygn_k": "ARG/V/K-006",
         "photo": "Seria_29z_p08_img02.jpeg",
         "tytul": "Koperta Kriegsgefangenenpost — Krzysztof do Stefana",
         "data": "7.XI.1944",
@@ -1491,7 +1491,7 @@ OBJECTS = [
 
     # -- Podseria V/G: Wyzwolenie i repatriacja --
     {
-        "sygn": "ARG/V/35",
+        "sygn": "ARG/V/35", "sygn_k": "ARG/V/K-007",
         "photo": "Seria_29z_p17_img01.jpeg",
         "tytul": "List do rodziny — 6.VII.1945 — wieści o Bogdanie, nie pisze o warunkach",
         "data": "6.VII.1945",
@@ -1507,7 +1507,7 @@ OBJECTS = [
         "wycena": "200-600 PLN"
     },
     {
-        "sygn": "ARG/V/36",
+        "sygn": "ARG/V/36", "sygn_k": "ARG/V/K-008",
         "photo": "Seria_29z_p18_img02.jpeg",
         "tytul": "List z Düsseldorfu po wyzwoleniu — 2.VI.1945",
         "data": "2.VI.1945",
@@ -1523,7 +1523,7 @@ OBJECTS = [
         "wycena": "300-1000 PLN"
     },
     {
-        "sygn": "ARG/V/37",
+        "sygn": "ARG/V/37", "sygn_k": "ARG/V/K-009",
         "photo": "Seria_29z_p17_img02.jpeg",
         "tytul": "List na papeterii Emil Schröder & Co — Düsseldorf",
         "data": "23.II.1945",
@@ -1539,7 +1539,7 @@ OBJECTS = [
         "wycena": "100-300 PLN"
     },
     {
-        "sygn": "ARG/V/38",
+        "sygn": "ARG/V/38", "sygn_k": "ARG/V/K-010",
         "photo": "Seria_29z_p19_img01.jpeg",
         "tytul": "List Krzysztofa z Hilden bei Düsseldorf — wieści o Stryju w Edynburgu (2.VI.1945)",
         "data": "2.VI.1945",
@@ -1781,7 +1781,7 @@ OBJECTS = [
         "wycena": "200-500 PLN"
     },
     {
-        "sygn": "ARG/V/53",
+        "sygn": "ARG/V/53", "sygn_k": "ARG/V/K-011",
         "photo": "Seria_29z_p26_img01.jpeg",
         "tytul": "List Krzysztofa z Paryża — Caserne Bessines, do bliskich",
         "data": "ok. VI–VII.1945",
@@ -2013,7 +2013,7 @@ OBJECTS = [
 
     # -- Podseria V/L: Korespondencja (aerogramy, listy) --
     {
-        "sygn": "ARG/V/67",
+        "sygn": "ARG/V/67", "sygn_k": "ARG/V/K-012",
         "photo": "juras_001_page2.jpeg",
         "tytul": "Aerogram do Głuchowskiego — CMF 3 DSK, Włochy",
         "data": "1945–1946",
@@ -2029,7 +2029,7 @@ OBJECTS = [
         "wycena": "200-500 PLN"
     },
     {
-        "sygn": "ARG/V/68",
+        "sygn": "ARG/V/68", "sygn_k": "ARG/V/K-013",
         "photo": "juras_002_page3.jpeg",
         "tytul": "List ręczny z Bahia/Salvador, Brazylia — korespondencja rodzinna",
         "data": "lata 50. XX w.",
@@ -2165,7 +2165,7 @@ OBJECTS = [
 
     # -- Podseria V/P: Korespondencja osobista --
     {
-        "sygn": "ARG/V/76",
+        "sygn": "ARG/V/76", "sygn_k": "ARG/V/K-014",
         "photo": "juras_010_page11.jpeg",
         "tytul": "List do matki — 'Kochana moja Matenko!' — Wigilia 24.XII.1946, str. 1",
         "data": "24.XII.1946",
@@ -2181,7 +2181,7 @@ OBJECTS = [
         "wycena": "300-800 PLN"
     },
     {
-        "sygn": "ARG/V/77",
+        "sygn": "ARG/V/77", "sygn_k": "ARG/V/K-015",
         "photo": "juras_011_page12.jpeg",
         "tytul": "List do matki — Wigilia 24.XII.1946, str. 2",
         "data": "24.XII.1946",
@@ -2197,7 +2197,7 @@ OBJECTS = [
         "wycena": "200-600 PLN"
     },
     {
-        "sygn": "ARG/V/78",
+        "sygn": "ARG/V/78", "sygn_k": "ARG/V/K-016",
         "photo": "juras_012_page13.jpeg",
         "tytul": "List do matki — Wigilia 24.XII.1946, str. 3 (wspomnienia z 1945)",
         "data": "24.XII.1946",
@@ -2213,7 +2213,7 @@ OBJECTS = [
         "wycena": "100-300 PLN"
     },
     {
-        "sygn": "ARG/V/79",
+        "sygn": "ARG/V/79", "sygn_k": "ARG/V/K-017",
         "photo": "juras_013_page14.jpeg",
         "tytul": "List do matki — Wigilia 24.XII.1946, str. 4 (sytuacja emigrantów)",
         "data": "24.XII.1946",
@@ -3357,7 +3357,7 @@ OBJECTS = [
 
     # -- Podseria V/AJ: Korespondencja z instytucjami --
     {
-        "sygn": "ARG/V/148",
+        "sygn": "ARG/V/148", "sygn_k": "ARG/V/K-018",
         "photo": "juras_082_page83.jpeg",
         "tytul": "Aerogram do gen. Bora-Komorowskiego — HQ Polish Forces, ENGLAND",
         "data": "lata 40.–50. XX w.",
@@ -3373,7 +3373,7 @@ OBJECTS = [
         "wycena": "1200-5000 PLN"
     },
     {
-        "sygn": "ARG/V/149",
+        "sygn": "ARG/V/149", "sygn_k": "ARG/V/K-019",
         "photo": "juras_083_page84.jpeg",
         "tytul": "Treść aerogramu — list nr 563, historia Pułku 1112, Polish Institute",
         "data": "lata 40.–50. XX w.",
@@ -3638,7 +3638,7 @@ OBJECTS = [
 
     # -- Getto łódzkie --
     {
-        "sygn": "ARG/VI/10",
+        "sygn": "ARG/VI/10", "sygn_k": "ARG/VI/K-001",
         "photo": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p17_img01.jpeg",
         "tytul": "List K. Głuchowskiego do Ambasady Izraela — oferta sprzedaży walut i monet getta łódzkiego, 13.V.1958",
         "data": "13.V.1958",
@@ -3670,7 +3670,7 @@ OBJECTS = [
         "wycena": "500-2000 PLN"
     },
     {
-        "sygn": "ARG/VI/12",
+        "sygn": "ARG/VI/12", "sygn_k": "ARG/VI/K-002",
         "photo": "Kolekcja_Gluchowski_KATALOG_NAUKOWY_p17_img03.jpeg",
         "tytul": "Odpowiedź Ambasady Izraela w Londynie — sugestia kontaktu z Yad Vashem w sprawie walut gettowych, 22.V.1958",
         "data": "22.V.1958",
@@ -3782,7 +3782,7 @@ OBJECTS = [
         "wycena": "1200-4000 PLN"
     },
     {
-        "sygn": "ARG/II/36",
+        "sygn": "ARG/II/36", "sygn_k": "ARG/II/K-006",
         "photo": "lbr_II_36_p01.jpg",
         "tytul": "List rękopiśmienny Adama Piłsudskiego do gen. Głuchowskiego",
         "data": "1931",
@@ -5347,7 +5347,7 @@ OBJECTS = [
     },
     # ── Korespondencja 1946 (transkrypcje_listow_1946.pdf) ──────────────
     {
-        "sygn": "ARG/V/174",
+        "sygn": "ARG/V/174", "sygn_k": "ARG/V/K-020",
         "photo": "wanda_list1_str1.png",
         "tytul": "List sierż.-mgr. Aleksandra Flejszera do Krzysztofa Głuchowskiego — pośrednictwo pocztowe matki",
         "data": "3.VIII.1946",
@@ -5363,7 +5363,7 @@ OBJECTS = [
         "wycena": "400-800 PLN"
     },
     {
-        "sygn": "ARG/V/175",
+        "sygn": "ARG/V/175", "sygn_k": "ARG/V/K-021",
         "photo": "wanda_list1_str1.png",
         "tytul": "List Wandy Głuchowskiej do syna Krzysztofa — 'Drogi Kochany Synku!'",
         "data": "13.VIII.1946",
@@ -5379,7 +5379,7 @@ OBJECTS = [
         "wycena": "800-1500 PLN"
     },
     {
-        "sygn": "ARG/V/176",
+        "sygn": "ARG/V/176", "sygn_k": "ARG/V/K-022",
         "photo": "labedzki_list1_p7.png",
         "tytul": "List Henryka Łabędzkiego do Krzysztofa Głuchowskiego — pieniądze i wieści od matki",
         "data": "25.VIII.1946",
@@ -5395,7 +5395,7 @@ OBJECTS = [
         "wycena": "400-800 PLN"
     },
     {
-        "sygn": "ARG/V/177",
+        "sygn": "ARG/V/177", "sygn_k": "ARG/V/K-023",
         "photo": "wanda_list2_p12.png",
         "tytul": "List Wandy Głuchowskiej do syna Krzysztofa — 'Krysieńku' (niekompletny, brak początku)",
         "data": "1.XII.1946",
@@ -5411,7 +5411,7 @@ OBJECTS = [
         "wycena": "600-1200 PLN"
     },
     {
-        "sygn": "ARG/V/178",
+        "sygn": "ARG/V/178", "sygn_k": "ARG/V/K-024",
         "photo": "list5_p15.png",
         "tytul": "Bilecik od nieznajomego nadawcy — pozdrowienia od Wandy i wieść o aresztowaniu stryjka",
         "data": "b.d. [ok. 1946]",
@@ -5427,7 +5427,7 @@ OBJECTS = [
         "wycena": "200-400 PLN"
     },
     {
-        "sygn": "ARG/V/179",
+        "sygn": "ARG/V/179", "sygn_k": "ARG/V/K-025",
         "photo": "list5_p16.png",
         "tytul": "List Henryka Łabędzkiego (II) do Krzysztofa — 3 funty i powrót do kraju",
         "data": "12.X.1946",
@@ -5443,7 +5443,7 @@ OBJECTS = [
         "wycena": "400-800 PLN"
     },
     {
-        "sygn": "ARG/V/180",
+        "sygn": "ARG/V/180", "sygn_k": "ARG/V/K-026",
         "photo": "schwok_list1_p20.png",
         "tytul": "List Rose Schwok do Krzysztofa — 6 funtów od Łabędzkiego",
         "data": "21.X.1946",
@@ -5459,7 +5459,7 @@ OBJECTS = [
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/181",
+        "sygn": "ARG/V/181", "sygn_k": "ARG/V/K-027",
         "photo": "schwok_list2_p22.png",
         "tytul": "List Rose Schwok (II) do Krzysztofa — ostatnie 3 funty i rada o poczcie",
         "data": "3.XI.1946",
@@ -5475,7 +5475,7 @@ OBJECTS = [
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/182",
+        "sygn": "ARG/V/182", "sygn_k": "ARG/V/K-028",
         "photo": "wanda_list3_p25.png",
         "tytul": "List Wandy do Krzysztofa — bezpośrednio z Warszawy, Święta 1946",
         "data": "13.XII.1946",
@@ -5491,7 +5491,7 @@ OBJECTS = [
         "wycena": "800-1500 PLN"
     },
     {
-        "sygn": "ARG/V/183",
+        "sygn": "ARG/V/183", "sygn_k": "ARG/V/K-029",
         "photo": "wanda_list4_p31.png",
         "tytul": "List Wandy do Krzysztofa — 'Moje Drogie Kochane Dziecko!' z cenami Warszawy",
         "data": "2.VII.1946",
@@ -5508,7 +5508,7 @@ OBJECTS = [
     },
     # ── Teczka "WCZESNE LISTY 1946" — originals_201_217 (68 skanów, 29.III.2026) ──
     {
-        "sygn": "ARG/V/201",
+        "sygn": "ARG/V/201", "sygn_k": "ARG/V/K-030",
         "photo": "originals_201_217/20260324_1734023118815046489450273_rot.jpg",
         "tytul": "List z Reims — wieści z Francji, adres cioci Stawki",
         "data": "1.IX.1945",
@@ -5524,7 +5524,7 @@ OBJECTS = [
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/202a",
+        "sygn": "ARG/V/202a", "sygn_k": "ARG/V/K-031",
         "photo": "originals_201_217/20260324_1735536699334025058410662_rot.jpg",
         "tytul": "List 'Józefa P.S.' — wieści rodzinne, cukiernia",
         "data": "ok. 1946",
@@ -5540,7 +5540,7 @@ OBJECTS = [
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/202b",
+        "sygn": "ARG/V/202b", "sygn_k": "ARG/V/K-032",
         "photo": "originals_201_217/20260324_1735536699334025058410662_rot.jpg",
         "tytul": "List do 'Pana Wincentego' — życzenia noworoczne",
         "data": "8.I.1946",
@@ -5588,7 +5588,7 @@ OBJECTS = [
         "wycena": "200-500 PLN"
     },
     {
-        "sygn": "ARG/V/204",
+        "sygn": "ARG/V/204", "sygn_k": "ARG/V/K-033",
         "photo": "originals_201_217/20260324_1744295990070507963308681_rot.jpg",
         "tytul": "List pchr. Tadeusza Bystydżeńskiego z CMF 154 — adres Janusza",
         "data": "5.IX.1946",
@@ -5604,7 +5604,7 @@ OBJECTS = [
         "wycena": "200-400 PLN"
     },
     {
-        "sygn": "ARG/V/205",
+        "sygn": "ARG/V/205", "sygn_k": "ARG/V/K-034",
         "photo": "originals_201_217/20260324_1746587960714446524300966_rot.jpg",
         "tytul": "List — fotografie i Gen. Strelczyński",
         "data": "ok. 1946",
@@ -5620,7 +5620,7 @@ OBJECTS = [
         "wycena": "200-400 PLN"
     },
     {
-        "sygn": "ARG/V/206a",
+        "sygn": "ARG/V/206a", "sygn_k": "ARG/V/K-035",
         "photo": "originals_201_217/20260324_1748223633272231402712281_rot.jpg",
         "tytul": "List z CMF Polish Forces 125 — wieści z Włoch, demobilizacja",
         "data": "24.I.1946",
@@ -5636,7 +5636,7 @@ OBJECTS = [
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/206b",
+        "sygn": "ARG/V/206b", "sygn_k": "ARG/V/K-036",
         "photo": "originals_201_217/20260324_1811564265226715002790673_rot.jpg",
         "tytul": "List 'Słobusia K.' — decyzje o wyjeździe, Bolonia",
         "data": "16.IV.1946",
@@ -5652,7 +5652,7 @@ OBJECTS = [
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/207a",
+        "sygn": "ARG/V/207a", "sygn_k": "ARG/V/K-037",
         "photo": "originals_201_217/20260324_1813377748033720388689926_rot.jpg",
         "tytul": "List Janusza Ramińskiego (I) — wieści o Wandzie, Brownings Camp",
         "data": "19.IX.1946",
@@ -5668,7 +5668,7 @@ OBJECTS = [
         "wycena": "400-800 PLN"
     },
     {
-        "sygn": "ARG/V/207b",
+        "sygn": "ARG/V/207b", "sygn_k": "ARG/V/K-038",
         "photo": "originals_201_217/20260324_1820364793131874182220755_rot.jpg",
         "tytul": "List Ramińskiego (II) — aresztowanie Marka przez Bezpiekę",
         "data": "28.X.1946",
@@ -5684,7 +5684,7 @@ OBJECTS = [
         "wycena": "500-1000 PLN"
     },
     {
-        "sygn": "ARG/V/207c",
+        "sygn": "ARG/V/207c", "sygn_k": "ARG/V/K-039",
         "photo": "originals_201_217/20260324_1822041488787664254964651_rot.jpg",
         "tytul": "List Ramińskiego (III) — apteka Wandy, deportacja do Rosji, ciotka Staśka",
         "data": "5.II.1947",
@@ -5700,7 +5700,7 @@ OBJECTS = [
         "wycena": "600-1200 PLN"
     },
     {
-        "sygn": "ARG/V/208",
+        "sygn": "ARG/V/208", "sygn_k": "ARG/V/K-040",
         "photo": "originals_201_217/20260324_1824362851036695023960408_rot.jpg",
         "tytul": "List 'Czesława J.' z obozu w Walii — Abergavenny, Austriacy",
         "data": "19.I.1946",
@@ -5748,7 +5748,7 @@ OBJECTS = [
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/210",
+        "sygn": "ARG/V/210", "sygn_k": "ARG/V/K-041",
         "photo": "originals_201_217/20260324_1846103943755353550147081_rot.jpg",
         "tytul": "List Józka Szymczaka z Witley Camp — powstaniec z Powązek Dworcowych",
         "data": "30.X.1946",
@@ -5764,7 +5764,7 @@ OBJECTS = [
         "wycena": "400-800 PLN"
     },
     {
-        "sygn": "ARG/V/211a",
+        "sygn": "ARG/V/211a", "sygn_k": "ARG/V/K-042",
         "photo": "originals_201_217/20260324_1931188855098837933167592_rot.jpg",
         "tytul": "List Krahelskiego 'Leszka' z CMF 153 — kursy motorowe, podchorążówka",
         "data": "9.VIII.1945",
@@ -5780,7 +5780,7 @@ OBJECTS = [
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/211b",
+        "sygn": "ARG/V/211b", "sygn_k": "ARG/V/K-043",
         "photo": "originals_201_217/20260324_1949561247533166282117318_rot.jpg",
         "tytul": "List Krahelskiego z RYSUNKIEM JELENIA — symbol 7 P.Uł. Lubelskich",
         "data": "29.VII.1945",
@@ -5796,7 +5796,7 @@ OBJECTS = [
         "wycena": "500-1000 PLN"
     },
     {
-        "sygn": "ARG/V/212a",
+        "sygn": "ARG/V/212a", "sygn_k": "ARG/V/K-044",
         "photo": "originals_201_217/20260324_1938481997225877696633528_rot.jpg",
         "tytul": "List Jaśka Leoniuka z Troyes (I) — paczka, ul. Reina 33",
         "data": "12.IX.1945",
@@ -5812,7 +5812,7 @@ OBJECTS = [
         "wycena": "200-400 PLN"
     },
     {
-        "sygn": "ARG/V/212b",
+        "sygn": "ARG/V/212b", "sygn_k": "ARG/V/K-045",
         "photo": "originals_201_217/20260324_194747769693003963708055_rot.jpg",
         "tytul": "List Jaśka Leoniuka z Troyes (II) — paczka z ubraniami, 2000 fr.",
         "data": "15.IX.1945",
@@ -5828,7 +5828,7 @@ OBJECTS = [
         "wycena": "200-400 PLN"
     },
     {
-        "sygn": "ARG/V/213a",
+        "sygn": "ARG/V/213a", "sygn_k": "ARG/V/K-046",
         "photo": "originals_201_217/20260324_1847475149231012056091582_rot.jpg",
         "tytul": "List Tudka z High Wycombe — niewola pod Wiedniem i Berlinem",
         "data": "3.II.1947",
@@ -5844,7 +5844,7 @@ OBJECTS = [
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/213b",
+        "sygn": "ARG/V/213b", "sygn_k": "ARG/V/K-047",
         "photo": "originals_201_217/20260324_1848331174709311799573626_rot.jpg",
         "tytul": "List Tudka z Sudbury — PKPR, R.A.S.T., 120 warszawiaków, Cambridge",
         "data": "29.II.1949",
@@ -5860,7 +5860,7 @@ OBJECTS = [
         "wycena": "200-400 PLN"
     },
     {
-        "sygn": "ARG/V/214",
+        "sygn": "ARG/V/214", "sygn_k": "ARG/V/K-048",
         "photo": "originals_201_217/20260324_1944201555232293354009694_rot.jpg",
         "tytul": "List pośrednika z Bodney (I) — list polecony od Mamusi",
         "data": "9.II.1947",
@@ -5876,7 +5876,7 @@ OBJECTS = [
         "wycena": "200-400 PLN"
     },
     {
-        "sygn": "ARG/V/215",
+        "sygn": "ARG/V/215", "sygn_k": "ARG/V/K-049",
         "photo": "originals_201_217/20260324_1944532316727053919767412_rot.jpg",
         "tytul": "List pośrednika z Bodney (II) — stypendium Erentz, kondolencje/gratulacje",
         "data": "13.IX.1947",
@@ -5892,7 +5892,7 @@ OBJECTS = [
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/216a",
+        "sygn": "ARG/V/216a", "sygn_k": "ARG/V/K-050",
         "photo": "originals_201_217/20260324_1951432003337347692313312_rot.jpg",
         "tytul": "List Dębskiego 'Koniusia' — mundury, adres Keresley Hostel",
         "data": "ok. IX.1947",
@@ -5908,7 +5908,7 @@ OBJECTS = [
         "wycena": "200-400 PLN"
     },
     {
-        "sygn": "ARG/V/216b",
+        "sygn": "ARG/V/216b", "sygn_k": "ARG/V/K-051",
         "photo": "originals_201_217/20260324_1943446872492370937293977_rot.jpg",
         "tytul": "List Mariana — zjazd, 11 5 KDP, Lucy",
         "data": "ok. 1947",
@@ -5924,7 +5924,7 @@ OBJECTS = [
         "wycena": "200-400 PLN"
     },
     {
-        "sygn": "ARG/V/217",
+        "sygn": "ARG/V/217", "sygn_k": "ARG/V/K-052",
         "photo": "originals_201_217/20260324_202251559105698915618559_rot.jpg",
         "tytul": "Notatka Wandy (matki) — 'Kochany mój drogi Krzysztofku'",
         "data": "ok. 1946-1947",
@@ -5940,7 +5940,7 @@ OBJECTS = [
         "wycena": "500-1000 PLN"
     },
     {
-        "sygn": "ARG/V/218a",
+        "sygn": "ARG/V/218a", "sygn_k": "ARG/V/K-053",
         "photo": "originals_201_217/20260324_195422208538623440374049_rot.jpg",
         "tytul": "List Dębskiego z Coventry (I) — Constructional Engineers, zarobki",
         "data": "27.IX.1947",
@@ -5956,7 +5956,7 @@ OBJECTS = [
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/218b",
+        "sygn": "ARG/V/218b", "sygn_k": "ARG/V/K-054",
         "photo": "originals_201_217/20260324_2013095723694821932849249_rot.jpg",
         "tytul": "List Dębskiego z Coventry (II) — 'materyjał na to i na owszem'",
         "data": "22.X.1947",
@@ -5972,7 +5972,7 @@ OBJECTS = [
         "wycena": "200-400 PLN"
     },
     {
-        "sygn": "ARG/V/218c",
+        "sygn": "ARG/V/218c", "sygn_k": "ARG/V/K-055",
         "photo": "originals_201_217/20260324_2014558418007150941536046_rot.jpg",
         "tytul": "List Dębskiego z Coventry (III) — Krzysztof 'zapisał się do kasarni', Maryla Czechowiczówna",
         "data": "26.X.1947",
@@ -5988,7 +5988,7 @@ OBJECTS = [
         "wycena": "300-600 PLN"
     },
     {
-        "sygn": "ARG/V/218d",
+        "sygn": "ARG/V/218d", "sygn_k": "ARG/V/K-056",
         "photo": "originals_201_217/20260324_2019567151651057515116939_rot.jpg",
         "tytul": "List Dębskiego z Coventry (IV) — Koło AK, Jurci Fiodorow, Lucy, Kanter",
         "data": "30.XI.1947",
@@ -6020,7 +6020,7 @@ OBJECTS = [
         "wycena": "200-400 PLN"
     },
     {
-        "sygn": "ARG/V/220",
+        "sygn": "ARG/V/220", "sygn_k": "ARG/V/K-057",
         "photo": "originals_201_217/20260324_2017411238673017510091570_rot.jpg",
         "tytul": "TELEGRAM na 21. urodziny Krzysztofa — Marian + C, Keresley/Walthamstow",
         "data": "ok. XI.1950",
@@ -6054,7 +6054,7 @@ OBJECTS = [
     # ── Listy Wandy 1946-1948 (listy_wanda_2.pdf, V/222-238) ──
     # Opisy profesjonalne ISAD(G)/Dublin Core — CC ◈, 29.III.2026
     {
-        "sygn": "ARG/V/222", "tytul": "'Synku Malutki!' — najkrótszy liścik Wandy",
+        "sygn": "ARG/V/222", "sygn_k": "ARG/V/K-058", "tytul": "'Synku Malutki!' — najkrótszy liścik Wandy",
         "data": "b.d. [ok. I-III.1947]", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p9.jpg", "jezyk": "polski",
         "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
@@ -6068,7 +6068,7 @@ OBJECTS = [
         "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "500-1000 PLN"
     },
     {
-        "sygn": "ARG/V/223", "tytul": "Kartka Wandy — 'Pisz koniecznie na adres paryski'",
+        "sygn": "ARG/V/223", "sygn_k": "ARG/V/K-059", "tytul": "Kartka Wandy — 'Pisz koniecznie na adres paryski'",
         "data": "ok. 20.-.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p10.jpg", "jezyk": "polski",
         "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
@@ -6082,7 +6082,7 @@ OBJECTS = [
         "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "400-800 PLN"
     },
     {
-        "sygn": "ARG/V/224", "tytul": "List Wandy — antresola apteki: meble, radio, życie codzienne",
+        "sygn": "ARG/V/224", "sygn_k": "ARG/V/K-060", "tytul": "List Wandy — antresola apteki: meble, radio, życie codzienne",
         "data": "13.I.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p12.jpg", "jezyk": "polski",
         "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
@@ -6096,7 +6096,7 @@ OBJECTS = [
         "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "600-1200 PLN"
     },
     {
-        "sygn": "ARG/V/225", "tytul": "List Wandy — przed Świętami, rady o kontaktach",
+        "sygn": "ARG/V/225", "sygn_k": "ARG/V/K-061", "tytul": "List Wandy — przed Świętami, rady o kontaktach",
         "data": "19.XII.1946", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p14.jpg", "jezyk": "polski",
         "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
@@ -6110,7 +6110,7 @@ OBJECTS = [
         "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "600-1200 PLN"
     },
     {
-        "sygn": "ARG/V/226", "tytul": "'Jesteś jedyną wygraną w moim życiu' — list Wandy",
+        "sygn": "ARG/V/226", "sygn_k": "ARG/V/K-062", "tytul": "'Jesteś jedyną wygraną w moim życiu' — list Wandy",
         "data": "9.III.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p16.jpg", "jezyk": "polski",
         "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
@@ -6124,7 +6124,7 @@ OBJECTS = [
         "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "800-2000 PLN"
     },
     {
-        "sygn": "ARG/V/227", "tytul": "List Wandy — surowa zima, mrozy, znaczki dla syna",
+        "sygn": "ARG/V/227", "sygn_k": "ARG/V/K-063", "tytul": "List Wandy — surowa zima, mrozy, znaczki dla syna",
         "data": "10.II.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p18.jpg", "jezyk": "polski",
         "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
@@ -6138,7 +6138,7 @@ OBJECTS = [
         "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "600-1200 PLN"
     },
     {
-        "sygn": "ARG/V/228", "tytul": "List Wandy 4 strony — zniszczenia domu, fotografie, meble",
+        "sygn": "ARG/V/228", "sygn_k": "ARG/V/K-064", "tytul": "List Wandy 4 strony — zniszczenia domu, fotografie, meble",
         "data": "19.II.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p20.jpg", "jezyk": "polski",
         "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
@@ -6152,7 +6152,7 @@ OBJECTS = [
         "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "800-2000 PLN"
     },
     {
-        "sygn": "ARG/V/229", "tytul": "List Wandy — BBC o Polakach, krawaty jedwabne, Argentyna",
+        "sygn": "ARG/V/229", "sygn_k": "ARG/V/K-065", "tytul": "List Wandy — BBC o Polakach, krawaty jedwabne, Argentyna",
         "data": "18.III.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p25.jpg", "jezyk": "polski",
         "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
@@ -6166,7 +6166,7 @@ OBJECTS = [
         "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "600-1500 PLN"
     },
     {
-        "sygn": "ARG/V/230", "tytul": "List Wandy — pytania o dziewczyny, apteka, ekshumacje na Skaryszewskiej",
+        "sygn": "ARG/V/230", "sygn_k": "ARG/V/K-066", "tytul": "List Wandy — pytania o dziewczyny, apteka, ekshumacje na Skaryszewskiej",
         "data": "ok. III-IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p29.jpg", "jezyk": "polski",
         "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
@@ -6180,7 +6180,7 @@ OBJECTS = [
         "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "600-1500 PLN"
     },
     {
-        "sygn": "ARG/V/231", "tytul": "'Pierwszy ślad że żyjesz' — jak Wanda szukała syna",
+        "sygn": "ARG/V/231", "sygn_k": "ARG/V/K-067", "tytul": "'Pierwszy ślad że żyjesz' — jak Wanda szukała syna",
         "data": "30.III.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p34.jpg", "jezyk": "polski",
         "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
@@ -6194,7 +6194,7 @@ OBJECTS = [
         "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "1000-2500 PLN"
     },
     {
-        "sygn": "ARG/V/232", "tytul": "Życzenia wielkanocne Wandy — 'znów jesteśmy daleko'",
+        "sygn": "ARG/V/232", "sygn_k": "ARG/V/K-068", "tytul": "Życzenia wielkanocne Wandy — 'znów jesteśmy daleko'",
         "data": "31.III.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p38.jpg", "jezyk": "polski",
         "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
@@ -6208,7 +6208,7 @@ OBJECTS = [
         "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "500-1000 PLN"
     },
     {
-        "sygn": "ARG/V/233", "tytul": "List Wandy z Wielkiego Piątku — Józek konserwator, medale",
+        "sygn": "ARG/V/233", "sygn_k": "ARG/V/K-069", "tytul": "List Wandy z Wielkiego Piątku — Józek konserwator, medale",
         "data": "4.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p40.jpg", "jezyk": "polski",
         "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
@@ -6222,7 +6222,7 @@ OBJECTS = [
         "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "600-1200 PLN"
     },
     {
-        "sygn": "ARG/V/234", "tytul": "List Wandy z Łodzi — Wielkanoc, kąpiel jako luksus, Powązki",
+        "sygn": "ARG/V/234", "sygn_k": "ARG/V/K-070", "tytul": "List Wandy z Łodzi — Wielkanoc, kąpiel jako luksus, Powązki",
         "data": "8-9.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p42.jpg", "jezyk": "polski",
         "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
@@ -6236,7 +6236,7 @@ OBJECTS = [
         "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "600-1500 PLN"
     },
     {
-        "sygn": "ARG/V/235", "tytul": "List Wandy — życzenia imieninowe, 'jak dowiedziałam się że żyjesz'",
+        "sygn": "ARG/V/235", "sygn_k": "ARG/V/K-071", "tytul": "List Wandy — życzenia imieninowe, 'jak dowiedziałam się że żyjesz'",
         "data": "11-13.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p46.jpg", "jezyk": "polski",
         "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
@@ -6250,7 +6250,7 @@ OBJECTS = [
         "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "600-1500 PLN"
     },
     {
-        "sygn": "ARG/V/236", "tytul": "List Wandy — Argentyna odpada, aparat fotograficzny na imieniny",
+        "sygn": "ARG/V/236", "sygn_k": "ARG/V/K-072", "tytul": "List Wandy — Argentyna odpada, aparat fotograficzny na imieniny",
         "data": "15.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p48.jpg", "jezyk": "polski",
         "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
@@ -6264,7 +6264,7 @@ OBJECTS = [
         "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "600-1500 PLN"
     },
     {
-        "sygn": "ARG/V/237", "tytul": "List Wandy — wiosna w Warszawie, ojciec wraca, kanapa",
+        "sygn": "ARG/V/237", "sygn_k": "ARG/V/K-073", "tytul": "List Wandy — wiosna w Warszawie, ojciec wraca, kanapa",
         "data": "16.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p50.jpg", "jezyk": "polski",
         "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
@@ -6278,7 +6278,7 @@ OBJECTS = [
         "stan": "Dobry — papier pożółkły, pismo czytelne", "wycena": "600-1500 PLN"
     },
     {
-        "sygn": "ARG/V/238", "tytul": "List Wandy — ojciec wraca, SPIS 45 LEKARSTW",
+        "sygn": "ARG/V/238", "sygn_k": "ARG/V/K-074", "tytul": "List Wandy — ojciec wraca, SPIS 45 LEKARSTW",
         "data": "17.IV.1947", "typ": "list", "seria": "V", "tworca": "Wanda Głuchowska",
         "photo": "wanda2/p52.jpg", "jezyk": "polski",
         "nadawca": "Wanda Głuchowska (sierż. pchor. Kedyw AK, ps. Krysta, farmaceutka)",
@@ -13325,6 +13325,7 @@ body.lang-js [data-lang].lang-visible { display:revert; }
 .card-img-wrap img { max-width:100%; max-height:100%; object-fit:contain; }
 .card-body { padding:18px; }
 .card-sygn { font-family:'JetBrains Mono',monospace; font-size:0.7em; color:var(--gold); letter-spacing:1px; margin-bottom:6px; }
+.card-sygn-k { color:var(--accent); font-size:0.9em; margin-left:6px; opacity:0.7; }
 .card-title { font-family:'Playfair Display',serif; font-size:1.05em; color:var(--text); margin-bottom:8px; line-height:1.35; font-weight:600; }
 .card-meta-row { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; padding-bottom:8px; border-bottom:1px solid var(--border); }
 .card-date { font-size:0.85em; color:var(--gold); font-weight:500; }
@@ -13764,7 +13765,10 @@ def _build_series_cards(filter_fn):
             series_html += '        <img src="' + IMG_DIR + '/' + obj["photo"] + '" alt="' + escape(obj["tytul"]) + '" loading="lazy">\n'
             series_html += '      </div>\n'
             series_html += '      <div class="card-body">\n'
-            series_html += '        <div class="card-sygn">' + escape(obj["sygn"]) + '</div>\n'
+            sygn_display = escape(obj["sygn"])
+            if obj.get("sygn_k"):
+                sygn_display += ' <span class="card-sygn-k">' + escape(obj["sygn_k"]) + '</span>'
+            series_html += '        <div class="card-sygn">' + sygn_display + '</div>\n'
             series_html += '        <h3 class="card-title">' + escape(obj["tytul"]) + '</h3>\n'
             series_html += '        <div class="card-meta-row">\n'
             series_html += '          <span class="card-date">' + escape(obj["data"]) + '</span>\n'
