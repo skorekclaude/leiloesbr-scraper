@@ -6103,7 +6103,20 @@ VALUATIONS = {
         "rekomendacja": "W zestawie z Serią I."
     },
 
-    # === SERIA II — GEN. DYW. JANUSZ GŁUCHOWSKI ===
+        "ARG/V/203b": {"wartosc_hist": "★★★", "opis_wartosci": "Notatki z fizyki — rewers itinerarium. Moduł Younga, lista zakupów. 200-500 PLN.", "cena_min": 200, "cena_max": 500, "waluta": "PLN", "rekomendacja": "W parze z itinerarium V/203."},
+    "ARG/V/205": {"wartosc_hist": "★★★", "opis_wartosci": "List z fotografiami i gen. Strelczyński. 300-600 PLN.", "cena_min": 300, "cena_max": 600, "waluta": "PLN", "rekomendacja": "W zestawie."},
+    "ARG/V/208": {"wartosc_hist": "★★★", "opis_wartosci": "Czesław z Walii — obóz Abergavenny. 300-600 PLN.", "cena_min": 300, "cena_max": 600, "waluta": "PLN", "rekomendacja": "Życie obozowe."},
+    "ARG/V/212a": {"wartosc_hist": "★★★", "opis_wartosci": "Leoniuk z Troyes — paczka, ul. Reina 33. 300-600 PLN.", "cena_min": 300, "cena_max": 600, "waluta": "PLN", "rekomendacja": "W parze z 212b."},
+    "ARG/V/212b": {"wartosc_hist": "★★★", "opis_wartosci": "Leoniuk II — paczka z ubraniami, 2000 fr. 300-600 PLN.", "cena_min": 300, "cena_max": 600, "waluta": "PLN", "rekomendacja": "Ceny we frankach."},
+    "ARG/V/213b": {"wartosc_hist": "★★★★", "opis_wartosci": "Tudek z Sudbury — PKPR, R.A.S.T., 120 warszawiaków, Cambridge. 400-800 PLN.", "cena_min": 400, "cena_max": 800, "waluta": "PLN", "rekomendacja": "Demobilizacja."},
+    "ARG/V/214": {"wartosc_hist": "★★★", "opis_wartosci": "Pośrednik z Bodney — list polecony od Mamusi. 300-600 PLN.", "cena_min": 300, "cena_max": 600, "waluta": "PLN", "rekomendacja": "Kanał Bodney."},
+    "ARG/V/215": {"wartosc_hist": "★★★★", "opis_wartosci": "Pośrednik z Bodney II — stypendium Erentz, gratulacje. 400-800 PLN.", "cena_min": 400, "cena_max": 800, "waluta": "PLN", "rekomendacja": "Stypendium."},
+    "ARG/V/216a": {"wartosc_hist": "★★★", "opis_wartosci": "Dębski mundury — Keresley Hostel Coventry. 300-600 PLN.", "cena_min": 300, "cena_max": 600, "waluta": "PLN", "rekomendacja": "W zestawie Dębski."},
+    "ARG/V/218a": {"wartosc_hist": "★★★", "opis_wartosci": "Dębski z Coventry I — Constructional Engineers. 300-600 PLN.", "cena_min": 300, "cena_max": 600, "waluta": "PLN", "rekomendacja": "Zestaw 4 listów Dębskiego."},
+    "ARG/V/218b": {"wartosc_hist": "★★★", "opis_wartosci": "Dębski II — materyjał na to i na owszem. 300-600 PLN.", "cena_min": 300, "cena_max": 600, "waluta": "PLN", "rekomendacja": "Humor żołnierski."},
+    "ARG/V/218c": {"wartosc_hist": "★★★", "opis_wartosci": "Dębski III — Krzysztof zapisał się do organizacji. 300-600 PLN.", "cena_min": 300, "cena_max": 600, "waluta": "PLN", "rekomendacja": "Życie kombatanckie."},
+    "ARG/V/218d": {"wartosc_hist": "★★★★", "opis_wartosci": "Dębski IV — Koło AK, Jurci Fiodorow, Lucy. 400-800 PLN.", "cena_min": 400, "cena_max": 800, "waluta": "PLN", "rekomendacja": "Życie kombatanckie."},
+# === SERIA II — GEN. DYW. JANUSZ GŁUCHOWSKI ===
     "ARG/II/1": {
         "wartosc_hist": "★★★★★",
         "opis_wartosci": "Biogram WBH nr 76/45 potwierdzający Siódemkę Beliny. Dokument łączący bezpośrednio z IKONĄ polskiej historii wojskowej. Zaświadczenia WBH: 500-1500 PLN; tu: Siódemka Beliny = unikatowa proweniencja.",
