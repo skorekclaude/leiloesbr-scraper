@@ -811,3 +811,10 @@ Częściowo czytelny. "tu masz przekąskę... uroczystości... Podolsicm... Poł
 - Dopasować 68 skanów do sygnatur (mapowanie filename → ARG/V/NNN)
 - Uzupełnić transkrypcje z tłumaczeń Marka
 - Dodać brakujące photo: "" do OBJECTS (wskazać na właściwy skan)
+
+### PROBLEM: Mapowanie transcriptions.py → sygnatury
+- juras_086 w transcriptions.py ≠ ARG/V/86 w katalogu
+- Stare transkrypcje (juras_005-091) mają własną numerację
+- Nowe (juras_174-183, 201-217) mapują się 1:1
+- Do zrobienia: tabela mapowania juras_NNN → ARG/V/NNN → plik.jpeg
+- 51 niepełnych transkrypcji, 497 nieczytelnych miejsc
