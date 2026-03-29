@@ -793,3 +793,21 @@ Wiele byłych baz RAF i obozów wojskowych przekształcono na ośrodki dla Polak
 ---
 
 *Raport wygenerowany 21.03.2026 na podstawie 7 agentów research (wiedza treningowa + web search). Ostatnia aktualizacja: 21.03.2026 — dodano Zespoły archiwalne Instytutu Piłsudskiego w Londynie (nr 70, nr 154).*
+
+## Sesja 29.III.2026 — notatki do uzupełnienia
+
+### Niezidentyfikowany nadawca "Drogi Krzysiu" (4 kartki, ok. 1946-47)
+Skany: originals_201_217/20260324_1826286..._rot.jpg + 20260324_1826455..._rot.jpg + 20260324_1824362..._rot.jpg + 20260324_1824565..._rot.jpg
+
+Tłumaczenie Marka (str 1-2): życie w Anglii, jednakowe domy "przepisy Kr. Wiktorii", kartki żywnościowe (buraki, kawa, kakao bez kartek, piwo bez kartek). Str 3-4: Janusz wrócił do kraju po 6½ roku, zebranie rodzinne Mińsk Maz. Londyn "zupełnie nie podobał się, nie ma porównania z Paryżem."
+
+Prawdopodobnie ARG/V/209a-b (Koło AK / "Koniuś") lub osobny list. Do identyfikacji w następnej sesji.
+
+### Skrobecki 206b — str 2
+Skan: originals_201_217/20260324_1812283..._rot.jpg
+Częściowo czytelny. "tu masz przekąskę... uroczystości... Podolsicm... Połonicz... przyjezdny nas (przy) byle nie 28/I bo mnie nie będzie). Życzę Wam serdeczne pozdrowienia chłopcy Tobie i Panu... i krypt Wielkanocnych iele, wiele radości!"
+
+### Do zrobienia następna sesja:
+- Dopasować 68 skanów do sygnatur (mapowanie filename → ARG/V/NNN)
+- Uzupełnić transkrypcje z tłumaczeń Marka
+- Dodać brakujące photo: "" do OBJECTS (wskazać na właściwy skan)
